@@ -1,0 +1,189 @@
+請幫我創建一個完整的「國小自然科 題庫練習」網站，使用 Vue 3 + Vite 構建。
+
+## 項目要求
+
+### 技術棧
+- Vue 3 (Composition API)
+- Vite 5
+- JavaScript (ES Modules)
+- localStorage 用於數據存儲
+
+### 功能需求
+
+1. **主選單頁面**
+   - 基本挑戰（10題）
+   - 高級挑戰（20題）
+   - 分類練習（按主題分類）
+   - 複習模式
+
+2. **答題頁面**
+   - 顯示題目和選項
+   - 點擊選項答題
+   - 顯示正確/錯誤反饋
+   - 進度顯示
+   - 答題時間記錄
+
+3. **結果頁面**
+   - 顯示分數和正確率
+   - 本次練習統計（類型、時間、正確率）
+   - 查看本次錯題詳情
+   - 返回主選單或重新開始
+
+4. **統計功能**（獨立按鈕，位於標題和版本號之間）
+   - 總體表現統計
+   - 所有練習記錄列表
+   - 顯示每次練習的類型、時間、正確率
+
+5. **錯誤題目檢視**（獨立按鈕，位於標題和版本號之間）
+   - 顯示所有累積的錯題
+   - 顯示每題的錯誤次數和正確率
+   - 可以查看題目詳情和解釋
+
+6. **複習模式**
+   - 可以選擇特定分類進行複習
+   - 顯示題目和答案
+
+### 界面要求
+
+- 標題：「國小自然科 題庫練習」v1.2.0
+- 在標題和版本號之間有兩個按鈕：
+  - 📊 統計（顯示統計頁面）
+  - ❌ 錯題（顯示所有錯題）
+- 響應式設計，支持移動端
+- 美觀的 UI 設計
+
+### 數據存儲
+
+- 使用 localStorage 存儲：
+  - 答題歷史（每題的答對/答錯次數）
+  - 練習記錄（每次練習的統計信息，最多保留100條）
+  - 錯題列表
+
+### 項目結構
+
+```
+Science/
+├── .github/workflows/deploy.yml  (GitHub Pages 部署配置)
+├── src/
+│   ├── components/
+│   │   ├── MainMenu.vue
+│   │   ├── QuizView.vue
+│   │   ├── ResultView.vue
+│   │   ├── ReviewView.vue
+│   │   ├── StatisticsView.vue
+│   │   ├── AllWrongQuestionsView.vue
+│   │   └── WrongQuestionsView.vue
+│   ├── data/
+│   │   └── questions.js  (題目數據，包含多個分類的題目)
+│   ├── utils/
+│   │   └── storage.js  (localStorage 工具函數)
+│   ├── App.vue
+│   ├── main.js
+│   └── style.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+### 配置文件
+
+**package.json**:
+```json
+{
+  "name": "science-review",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
+```
+
+**vite.config.js**:
+```javascript
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+  plugins: [vue()],
+  base: process.env.NODE_ENV === 'production' ? '/Science/' : '/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
+  server: {
+    port: 5173,
+    open: true
+  }
+})
+```
+
+**index.html**:
+```html
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國小自然科 題庫練習</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+```
+
+### 題目數據格式
+
+題目數據應包含以下字段：
+- id: 題目 ID
+- question: 題目內容
+- options: 選項數組（4個選項）
+- correctAnswer: 正確答案索引（0-3）
+- category: 分類（如：動物、植物、天文、物理等）
+- explanation: 解釋說明
+
+### 存儲工具函數要求
+
+需要以下函數：
+- getAnswerHistory(): 獲取答題歷史
+- saveAnswerRecord(questionId, isCorrect): 保存答題記錄
+- getWrongQuestions(): 獲取錯題列表
+- getStatistics(): 獲取統計信息
+- savePracticeRecord(record): 保存練習記錄
+- getPracticeHistory(): 獲取練習歷史
+
+### 樣式要求
+
+- 現代化的 UI 設計
+- 清晰的視覺層次
+- 良好的用戶體驗
+- 支持深色/淺色主題（可選）
+- 響應式布局
+
+### 部署配置
+
+需要 GitHub Actions 工作流文件用於自動部署到 GitHub Pages。
+
+## 請提供
+
+1. 完整的項目結構
+2. 所有 Vue 組件的完整代碼
+3. 樣式文件（CSS）
+4. 題目數據文件（至少包含 50+ 題目，涵蓋多個分類）
+5. 存儲工具函數
+6. GitHub Actions 部署配置
+7. 所有配置文件
+
+請確保代碼完整、可運行，並且包含所有必要的功能。
+
