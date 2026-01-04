@@ -137,11 +137,12 @@ const startReview = () => {
 
 <style scoped>
 .main-menu {
-  min-height: 100vh;
+  min-height: calc(100vh - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 20px 16px;
+  box-sizing: border-box;
 }
 
 .menu-container {
@@ -151,6 +152,7 @@ const startReview = () => {
   max-width: 800px;
   width: 100%;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
 
 .title {
@@ -159,6 +161,7 @@ const startReview = () => {
   text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .subtitle {
@@ -200,6 +203,11 @@ const startReview = () => {
   transition: all 0.3s;
   font-weight: bold;
   color: white;
+  min-height: 60px; /* 确保触摸目标足够大 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
 }
 
 .quiz-btn {
@@ -211,6 +219,10 @@ const startReview = () => {
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
+.quiz-btn:active {
+  transform: translateY(0);
+}
+
 .category-btn {
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
@@ -218,6 +230,10 @@ const startReview = () => {
 .category-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+}
+
+.category-btn:active {
+  transform: translateY(0);
 }
 
 .review-btn {
@@ -232,13 +248,161 @@ const startReview = () => {
   box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
 }
 
+.review-btn:active {
+  transform: translateY(0);
+}
+
+/* 平板响应式 */
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 30px 24px;
+  }
+  
+  .title {
+    font-size: 3.5em;
+  }
+  
+  .subtitle {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .menu-section {
+    margin-bottom: 40px;
+  }
+  
+  .menu-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .menu-btn {
+    padding: 24px 40px;
+    font-size: 1.8em;
+  }
+  
+  .review-btn {
+    font-size: 2em;
+    padding: 28px;
+  }
+}
+
+/* 手机响应式 */
 @media (max-width: 600px) {
+  .main-menu {
+    padding: 16px 12px;
+    min-height: calc(100vh - 55px);
+  }
+  
+  .menu-container {
+    padding: 24px 16px;
+    border-radius: 16px;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 12px;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .menu-section {
+    margin-bottom: 30px;
+  }
+  
+  .menu-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 16px;
+  }
+  
   .category-buttons {
     grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .quiz-options {
+    gap: 8px;
+  }
+  
+  .menu-btn {
+    padding: 20px 24px;
+    font-size: 1.4em;
+    border-radius: 10px;
+    min-height: 56px;
+  }
+  
+  .review-btn {
+    font-size: 1.6em;
+    padding: 20px;
+  }
+}
+
+/* 小屏幕手机 */
+@media (max-width: 480px) {
+  .main-menu {
+    padding: 12px 8px;
+  }
+  
+  .menu-container {
+    padding: 20px 12px;
   }
   
   .title {
     font-size: 2em;
+  }
+  
+  .subtitle {
+    font-size: 1.3em;
+    margin-bottom: 24px;
+  }
+  
+  .menu-section {
+    margin-bottom: 24px;
+  }
+  
+  .menu-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+  }
+  
+  .menu-btn {
+    padding: 16px 20px;
+    font-size: 1.2em;
+    min-height: 52px;
+  }
+  
+  .review-btn {
+    font-size: 1.4em;
+    padding: 16px;
+  }
+}
+
+/* 超小屏幕 */
+@media (max-width: 360px) {
+  .title {
+    font-size: 1.8em;
+  }
+  
+  .subtitle {
+    font-size: 1.1em;
+  }
+  
+  .menu-section h2 {
+    font-size: 1.3em;
+  }
+  
+  .menu-btn {
+    padding: 14px 16px;
+    font-size: 1.1em;
+    min-height: 48px;
+  }
+  
+  .review-btn {
+    font-size: 1.2em;
+    padding: 14px;
   }
 }
 </style>

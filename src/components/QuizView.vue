@@ -359,6 +359,7 @@ onUnmounted(() => {
   justify-content: center;
   gap: 15px;
   margin-top: 8px;
+  flex-wrap: wrap;
 }
 
 .stat-item {
@@ -366,6 +367,7 @@ onUnmounted(() => {
   padding: 4px 12px;
   border-radius: 8px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .correct-stat {
@@ -417,6 +419,8 @@ onUnmounted(() => {
   color: #333;
   margin-bottom: 16px;
   line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .options {
@@ -442,6 +446,11 @@ onUnmounted(() => {
   text-align: left;
   font-size: 1.7em;
   transition: all 0.2s;
+  min-height: 56px; /* 确保触摸目标足够大 */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
 }
 
 .option-btn:hover:not(:disabled) {
@@ -652,6 +661,155 @@ onUnmounted(() => {
   font-size: 0.8em;
   color: #666;
   padding: 6px;
+}
+
+/* 手机响应式 */
+@media (max-width: 600px) {
+  .quiz-view {
+    padding: 12px 8px;
+    min-height: calc(100vh - 55px);
+  }
+  
+  .quiz-container {
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  .back-btn {
+    padding: 6px 12px;
+    font-size: 0.9em;
+  }
+  
+  .progress-text {
+    font-size: 1.2em;
+  }
+  
+  .session-stats {
+    gap: 8px;
+  }
+  
+  .stat-item {
+    font-size: 1em;
+    padding: 4px 8px;
+  }
+  
+  .category-badge, .type-badge {
+    font-size: 1.1em;
+    padding: 3px 10px;
+  }
+  
+  .question-text {
+    font-size: 1.4em;
+    margin-bottom: 12px;
+  }
+  
+  .options {
+    gap: 8px;
+  }
+  
+  .option-btn {
+    padding: 14px 16px;
+    font-size: 1.3em;
+    min-height: 52px;
+  }
+  
+  .explanation {
+    padding: 10px;
+  }
+  
+  .result-badge {
+    font-size: 1.4em;
+    padding: 6px 16px;
+  }
+  
+  .explanation-text {
+    font-size: 1.3em;
+  }
+  
+  .control-btn {
+    padding: 14px 24px;
+    font-size: 1.4em;
+    min-width: 160px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .shortcut-hint {
+    font-size: 1.1em;
+    padding: 6px;
+  }
+  
+  .shortcut-hint kbd {
+    font-size: 1.2em;
+    padding: 3px 6px;
+  }
+}
+
+/* 小屏幕手机 */
+@media (max-width: 480px) {
+  .quiz-view {
+    padding: 10px 6px;
+  }
+  
+  .quiz-container {
+    padding: 6px;
+  }
+  
+  .progress-text {
+    font-size: 1.1em;
+  }
+  
+  .stat-item {
+    font-size: 0.9em;
+    padding: 3px 6px;
+  }
+  
+  .question-text {
+    font-size: 1.2em;
+  }
+  
+  .option-btn {
+    padding: 12px 14px;
+    font-size: 1.1em;
+    min-height: 48px;
+  }
+  
+  .result-badge {
+    font-size: 1.2em;
+    padding: 5px 12px;
+  }
+  
+  .explanation-text {
+    font-size: 1.1em;
+  }
+  
+  .control-btn {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    min-width: 140px;
+  }
+  
+  .shortcut-hint {
+    font-size: 1em;
+  }
+}
+
+/* 超小屏幕 */
+@media (max-width: 360px) {
+  .question-text {
+    font-size: 1.1em;
+  }
+  
+  .option-btn {
+    padding: 10px 12px;
+    font-size: 1em;
+    min-height: 44px;
+  }
+  
+  .control-btn {
+    font-size: 1.1em;
+    padding: 10px 16px;
+  }
 }
 </style>
 

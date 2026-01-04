@@ -158,6 +158,7 @@ const showAllWrongQuestions = () => {
   width: 100%;
   min-height: 100vh;
   position: relative;
+  padding-top: 60px; /* 为固定 header 留出空间 */
 }
 
 .app-header {
@@ -167,36 +168,38 @@ const showAllWrongQuestions = () => {
   right: 0;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 8px 16px;
+  padding: 10px 12px;
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  min-height: 50px;
+  box-sizing: border-box;
 }
 
 .app-title {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   font-weight: bold;
   flex: 1;
   text-align: center;
+  padding: 0 80px; /* 为左右按钮留出空间 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .header-buttons {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   align-items: center;
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
+  flex-shrink: 0;
 }
 
 .header-btn {
-  padding: 6px 12px;
-  font-size: 0.85em;
+  padding: 6px 10px;
+  font-size: 0.75em;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -205,11 +208,17 @@ const showAllWrongQuestions = () => {
   color: white;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
+  white-space: nowrap;
+  min-width: 44px; /* 确保触摸目标足够大 */
 }
 
 .header-btn:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-1px);
+}
+
+.header-btn:active {
+  transform: translateY(0);
 }
 
 .stats-btn {
@@ -222,12 +231,64 @@ const showAllWrongQuestions = () => {
 
 .app-version {
   position: absolute;
-  top: 8px;
-  right: 12px;
-  font-size: 0.7em;
+  top: 4px;
+  right: 8px;
+  font-size: 0.6em;
   opacity: 0.8;
   color: rgba(255, 255, 255, 0.9);
   font-weight: normal;
+  line-height: 1;
+}
+
+/* 手机端响应式 */
+@media (max-width: 480px) {
+  .app {
+    padding-top: 55px;
+  }
+  
+  .app-header {
+    padding: 8px 8px;
+    min-height: 48px;
+  }
+  
+  .app-title {
+    font-size: 0.85em;
+    padding: 0 70px;
+  }
+  
+  .header-btn {
+    padding: 5px 8px;
+    font-size: 0.7em;
+    min-width: 40px;
+  }
+  
+  .header-buttons {
+    gap: 4px;
+  }
+  
+  .app-version {
+    font-size: 0.55em;
+    top: 2px;
+    right: 6px;
+  }
+}
+
+/* 小屏幕手机 */
+@media (max-width: 360px) {
+  .app-title {
+    font-size: 0.75em;
+    padding: 0 60px;
+  }
+  
+  .header-btn {
+    padding: 4px 6px;
+    font-size: 0.65em;
+    min-width: 36px;
+  }
+  
+  .app-version {
+    font-size: 0.5em;
+  }
 }
 </style>
 
