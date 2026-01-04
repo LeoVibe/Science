@@ -31,16 +31,19 @@
         </div>
 
         <!-- 練習歷史 -->
-        <div v-if="practiceHistory.length > 0" class="practice-history-section">
-          <h2>📝 練習歷史記錄</h2>
+        <div v-if="filteredHistory.length > 0" class="practice-history-section">
+          <h2>📝 練習歷史記錄 {{ subject ? `(${getSubjectDisplay(subject)})` : '(全部科目)' }}</h2>
           <div class="history-list">
             <div 
-              v-for="(record, index) in practiceHistory" 
+              v-for="(record, index) in filteredHistory" 
               :key="record.id || index"
               class="history-item"
             >
               <div class="history-header">
-                <span class="history-type">{{ record.type }}</span>
+                <div class="history-type-wrapper">
+                  <span class="history-subject">{{ getSubjectDisplay(record.subject) }}</span>
+                  <span class="history-type">{{ record.type }}</span>
+                </div>
                 <span class="history-date">{{ new Date(record.timestamp).toLocaleString('zh-TW') }}</span>
               </div>
               <div class="history-stats">
@@ -60,17 +63,45 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch, computed } from 'vue'
 import { getStatistics, getPracticeHistory } from '../utils/storage.js'
+import { SUBJECT_NAMES, SUBJECT_ICONS } from '../data/questions.js'
+
+const props = defineProps({
+  subject: {
+    type: String,
+    default: null
+  }
+})
 
 const emit = defineEmits(['back'])
 
 const statistics = ref(null)
 const practiceHistory = ref([])
 
+// 获取科目显示名称
+const getSubjectDisplay = (subjectKey) => {
+  if (!subjectKey) return ''
+  const name = SUBJECT_NAMES[subjectKey] || subjectKey
+  const icon = SUBJECT_ICONS[subjectKey] || '📚'
+  return `${icon} ${name}`
+}
+
+// 过滤历史记录（如果指定了科目，只显示该科目的记录）
+const filteredHistory = computed(() => {
+  if (!props.subject) {
+    return practiceHistory.value
+  }
+  return practiceHistory.value.filter(record => record.subject === props.subject)
+})
+
 onMounted(() => {
-  statistics.value = getStatistics()
+  statistics.value = getStatistics(props.subject)
   practiceHistory.value = getPracticeHistory().slice().reverse() // 最新的在前面
+})
+
+watch(() => props.subject, () => {
+  statistics.value = getStatistics(props.subject)
 })
 
 const formatDuration = (seconds) => {
@@ -217,6 +248,18 @@ const back = () => {
   justify-content: space-between;
   margin-bottom: 10px;
   align-items: center;
+}
+
+.history-type-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.history-subject {
+  font-weight: bold;
+  color: #4caf50;
+  font-size: 1em;
 }
 
 .history-type {

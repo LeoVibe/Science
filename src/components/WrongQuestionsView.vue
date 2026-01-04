@@ -41,19 +41,47 @@
 </template>
 
 <script setup>
-import { QUESTIONS } from '../data/questions.js'
+import { ref, onMounted } from 'vue'
+import { getQuestionsBySubject } from '../data/questions.js'
 
 const props = defineProps({
   wrongQuestions: {
     type: Array,
     default: () => []
+  },
+  subject: {
+    type: String,
+    default: null
   }
 })
 
 const emit = defineEmits(['back'])
 
+const questionsModule = ref(null)
+const QUESTIONS = ref([])
+
+// 載入科目題目
+const loadSubjectQuestions = async () => {
+  if (!props.subject) {
+    QUESTIONS.value = []
+    return
+  }
+  
+  try {
+    questionsModule.value = await getQuestionsBySubject(props.subject)
+    QUESTIONS.value = questionsModule.value.QUESTIONS || []
+  } catch (error) {
+    console.error('載入題目失敗:', error)
+    QUESTIONS.value = []
+  }
+}
+
+onMounted(async () => {
+  await loadSubjectQuestions()
+})
+
 const getQuestionById = (id) => {
-  return QUESTIONS.find(q => q.id === id)
+  return QUESTIONS.value.find(q => q.id === id)
 }
 
 const back = () => {

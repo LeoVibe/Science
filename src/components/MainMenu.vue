@@ -1,7 +1,7 @@
 <template>
   <div class="main-menu">
     <div class="menu-container">
-      <h1 class="title">🌱 自然科學複習 🌱</h1>
+      <h1 class="title">{{ subjectTitle }}</h1>
       <p class="subtitle">國小三年級</p>
       
       <div class="menu-options">
@@ -35,7 +35,7 @@
 
         <div class="menu-section">
           <button @click="startReview" class="menu-btn review-btn">
-            📖 知識複習
+            📖 全部題庫
           </button>
         </div>
       </div>
@@ -44,8 +44,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
-import { getQuestionsBySubject } from '../data/questions.js'
+import { ref, onMounted, watch, computed } from 'vue'
+import { getQuestionsBySubject, SUBJECT_NAMES, SUBJECT_ICONS } from '../data/questions.js'
 import { getAnswerHistory } from '../utils/storage.js'
 
 const props = defineProps({
@@ -61,6 +61,16 @@ const categories = ref([])
 const answerHistory = ref(null)
 const questionsModule = ref(null)
 const QUESTIONS = ref([])
+
+// 計算科目標題
+const subjectTitle = computed(() => {
+  if (!props.subject) {
+    return '📚 選擇科目'
+  }
+  const subjectName = SUBJECT_NAMES[props.subject] || '題庫'
+  const subjectIcon = SUBJECT_ICONS[props.subject] || '📚'
+  return `${subjectIcon} ${subjectName}複習 ${subjectIcon}`
+})
 
 // 只保留4選項的選擇題（題目數據中沒有type字段，所有有options的都是選擇題）
 const getMultipleChoiceOnly = (questions) => {

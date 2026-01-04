@@ -30,6 +30,7 @@
     />
     <ReviewView 
       v-else-if="currentView === 'review'"
+      :subject="currentSubject"
       @back-to-menu="backToMenu"
     />
     <ResultView 
@@ -38,6 +39,7 @@
       :total="quizTotal"
       :session-wrong-questions="sessionWrongQuestions"
       :session-stats="sessionStats"
+      :subject="currentSubject"
       @back-to-menu="backToMenu"
       @restart-quiz="restartQuiz"
       @view-wrong-questions="viewWrongQuestions"
@@ -45,14 +47,17 @@
     <WrongQuestionsView 
       v-else-if="currentView === 'wrong-questions'"
       :wrong-questions="currentWrongQuestions"
+      :subject="currentSubject"
       @back="backFromWrongQuestions"
     />
     <StatisticsView 
       v-else-if="currentView === 'statistics'"
+      :subject="currentSubject"
       @back="backToMenu"
     />
     <AllWrongQuestionsView 
       v-else-if="currentView === 'all-wrong-questions'"
+      :subject="currentSubject"
       @back="backToMenu"
     />
   </div>

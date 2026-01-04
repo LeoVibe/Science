@@ -184,10 +184,10 @@ const checkAnswer = () => {
     isCorrect: correct
   })
   
-  // 自動進入下一題（1.5秒後）
+  // 自動進入下一題（0.75秒後）
   setTimeout(() => {
     nextQuestion()
-  }, 1500)
+  }, 750)
 }
 
 const nextQuestion = () => {
@@ -267,7 +267,7 @@ const handleKeyPress = (event) => {
         if (selectedAnswer.value === optionIndex) {
           checkAnswer()
         }
-      }, 100)
+      }, 50)
     }
   }
   

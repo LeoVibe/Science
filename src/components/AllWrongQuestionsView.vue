@@ -48,19 +48,45 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { QUESTIONS } from '../data/questions.js'
+import { getQuestionsBySubject } from '../data/questions.js'
 import { getWrongQuestions } from '../utils/storage.js'
+
+const props = defineProps({
+  subject: {
+    type: String,
+    default: null
+  }
+})
 
 const emit = defineEmits(['back'])
 
 const wrongQuestions = ref([])
+const questionsModule = ref(null)
+const QUESTIONS = ref([])
 
-onMounted(() => {
-  wrongQuestions.value = getWrongQuestions()
+// 載入科目題目
+const loadSubjectQuestions = async () => {
+  if (!props.subject) {
+    QUESTIONS.value = []
+    return
+  }
+  
+  try {
+    questionsModule.value = await getQuestionsBySubject(props.subject)
+    QUESTIONS.value = questionsModule.value.QUESTIONS || []
+  } catch (error) {
+    console.error('載入題目失敗:', error)
+    QUESTIONS.value = []
+  }
+}
+
+onMounted(async () => {
+  await loadSubjectQuestions()
+  wrongQuestions.value = getWrongQuestions(props.subject)
 })
 
 const getQuestionById = (id) => {
-  return QUESTIONS.find(q => q.id === id)
+  return QUESTIONS.value.find(q => q.id === id)
 }
 
 const back = () => {

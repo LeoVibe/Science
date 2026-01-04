@@ -142,7 +142,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { getWrongQuestions, getStatistics, getPracticeHistory, getSessionWrongQuestions } from '../utils/storage.js'
-import { QUESTIONS } from '../data/questions.js'
+import { getQuestionsBySubject, SUBJECT_NAMES, SUBJECT_ICONS } from '../data/questions.js'
 
 const props = defineProps({
   score: {
@@ -160,6 +160,10 @@ const props = defineProps({
   sessionStats: {
     type: Object,
     default: null
+  },
+  subject: {
+    type: String,
+    default: null
   }
 })
 
@@ -174,14 +178,42 @@ const accuracy = computed(() => {
   return props.total > 0 ? (props.score / props.total * 100).toFixed(1) : 0
 })
 
-onMounted(() => {
-  wrongQuestions.value = getWrongQuestions()
-  statistics.value = getStatistics()
+const questionsModule = ref(null)
+const QUESTIONS = ref([])
+
+// 載入科目題目
+const loadSubjectQuestions = async () => {
+  if (!props.subject) {
+    QUESTIONS.value = []
+    return
+  }
+  
+  try {
+    questionsModule.value = await getQuestionsBySubject(props.subject)
+    QUESTIONS.value = questionsModule.value.QUESTIONS || []
+  } catch (error) {
+    console.error('載入題目失敗:', error)
+    QUESTIONS.value = []
+  }
+}
+
+onMounted(async () => {
+  await loadSubjectQuestions()
+  wrongQuestions.value = getWrongQuestions(props.subject)
+  statistics.value = getStatistics(props.subject)
   practiceHistory.value = getPracticeHistory().slice(-10).reverse() // 最近10次练习
 })
 
 const getQuestionById = (id) => {
-  return QUESTIONS.find(q => q.id === id)
+  return QUESTIONS.value.find(q => q.id === id)
+}
+
+// 获取科目显示名称
+const getSubjectDisplay = (subjectKey) => {
+  if (!subjectKey) return ''
+  const name = SUBJECT_NAMES[subjectKey] || subjectKey
+  const icon = SUBJECT_ICONS[subjectKey] || '📚'
+  return `${icon} ${name}`
 }
 
 const viewWrongQuestions = () => {
@@ -536,6 +568,18 @@ const restartQuiz = () => {
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
+}
+
+.history-type-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.history-subject {
+  font-weight: bold;
+  color: #4caf50;
+  font-size: 1em;
 }
 
 .history-type {
