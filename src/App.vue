@@ -24,6 +24,7 @@
       :questions="quizQuestions"
       :quiz-type="quizType"
       :start-time="quizStartTime"
+      :subject="currentSubject"
       @finish-quiz="finishQuiz"
       @back-to-menu="backToMenu"
     />

@@ -106,6 +106,10 @@ const props = defineProps({
   startTime: {
     type: Number,
     default: null
+  },
+  subject: {
+    type: String,
+    default: null
   }
 })
 
@@ -173,7 +177,7 @@ const checkAnswer = () => {
   sessionStats.value.total++
   
   // 保存答題記錄
-  saveAnswerRecord(currentQuestion.value.id, correct)
+  saveAnswerRecord(currentQuestion.value.id, correct, props.subject)
   
   answeredQuestions.value.push({
     questionId: currentQuestion.value.id,
@@ -271,7 +275,7 @@ const handleKeyPress = (event) => {
 
 onMounted(() => {
   // 載入答題歷史
-  questionHistory.value = getAnswerHistory()
+  questionHistory.value = getAnswerHistory(props.subject)
   
   // 使用 nextTick 確保組件完全掛載後再綁定事件
   nextTick(() => {
