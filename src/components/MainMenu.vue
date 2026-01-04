@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="menu-section">
+        <div v-if="categories.length > 0" class="menu-section">
           <h2>📚 分類複習</h2>
           <div class="category-buttons">
             <button
@@ -44,14 +44,23 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { getRandomQuestions, getQuestionsByCategory, getAllCategories, QUESTIONS } from '../data/questions.js'
+import { ref, onMounted, watch } from 'vue'
+import { getQuestionsBySubject } from '../data/questions.js'
 import { getAnswerHistory } from '../utils/storage.js'
+
+const props = defineProps({
+  subject: {
+    type: String,
+    default: null
+  }
+})
 
 const emit = defineEmits(['start-quiz', 'start-review'])
 
-const categories = getAllCategories()
+const categories = ref([])
 const answerHistory = ref(null)
+const questionsModule = ref(null)
+const QUESTIONS = ref([])
 
 // 只保留4選項的選擇題（題目數據中沒有type字段，所有有options的都是選擇題）
 const getMultipleChoiceOnly = (questions) => {
@@ -63,9 +72,29 @@ const getMultipleChoiceOnly = (questions) => {
   )
 }
 
+// 載入科目題目
+const loadSubjectQuestions = async () => {
+  if (!props.subject) return
+  
+  try {
+    questionsModule.value = await getQuestionsBySubject(props.subject)
+    QUESTIONS.value = questionsModule.value.QUESTIONS || []
+    categories.value = questionsModule.value.getAllCategories ? questionsModule.value.getAllCategories() : []
+    answerHistory.value = getAnswerHistory(props.subject)
+  } catch (error) {
+    console.error('載入題目失敗:', error)
+    alert('載入題目失敗，請稍後再試')
+  }
+}
+
+// 監聽科目變化
+watch(() => props.subject, () => {
+  loadSubjectQuestions()
+}, { immediate: true })
+
 // 初始化時載入答題歷史
 onMounted(() => {
-  answerHistory.value = getAnswerHistory()
+  loadSubjectQuestions()
 })
 
 const quizOptions = [
@@ -74,11 +103,16 @@ const quizOptions = [
 ]
 
 const startQuiz = (count) => {
+  if (!questionsModule.value || QUESTIONS.value.length === 0) {
+    alert('題目尚未載入，請稍候...')
+    return
+  }
+  
   console.log('开始练习，题目数量:', count)
-  const history = getAnswerHistory()
+  const history = getAnswerHistory(props.subject)
   
   // 先获取所有4选项题目
-  const all4Options = getMultipleChoiceOnly(QUESTIONS)
+  const all4Options = getMultipleChoiceOnly(QUESTIONS.value)
   console.log('4选项题目总数:', all4Options.length)
   
   if (all4Options.length === 0) {
@@ -94,9 +128,28 @@ const startQuiz = (count) => {
     return
   }
   
-  // 直接从所有4选项题目中随机选择，确保有足够的题目
-  const shuffled = [...all4Options].sort(() => Math.random() - 0.5)
-  const selectedQuestions = shuffled.slice(0, count)
+  // 如果有歷史記錄，優先選擇錯題
+  let selectedQuestions = []
+  if (history && Object.keys(history).length > 0) {
+    const wrongQuestions = all4Options.filter(q => {
+      const recordKey = props.subject ? `${props.subject}_${q.id}` : q.id.toString()
+      const record = history[recordKey]
+      return record && record.wrong > 0
+    })
+    
+    if (wrongQuestions.length > 0) {
+      const shuffled = [...wrongQuestions].sort(() => Math.random() - 0.5)
+      selectedQuestions = shuffled.slice(0, Math.min(count, wrongQuestions.length))
+    }
+  }
+  
+  // 如果錯題不夠，補充其他題目
+  if (selectedQuestions.length < count) {
+    const usedIds = new Set(selectedQuestions.map(q => q.id))
+    const available = all4Options.filter(q => !usedIds.has(q.id))
+    const shuffled = [...available].sort(() => Math.random() - 0.5)
+    selectedQuestions.push(...shuffled.slice(0, count - selectedQuestions.length))
+  }
   
   console.log('最终题目数量:', selectedQuestions.length)
   
@@ -114,20 +167,39 @@ const startQuiz = (count) => {
 }
 
 const startCategoryQuiz = (category) => {
-  const history = getAnswerHistory()
+  if (!questionsModule.value) {
+    alert('題目尚未載入，請稍候...')
+    return
+  }
+  
+  const history = getAnswerHistory(props.subject)
+  const getQuestionsByCategory = questionsModule.value.getQuestionsByCategory
+  if (!getQuestionsByCategory) {
+    alert('此科目不支持分類練習')
+    return
+  }
+  
   const questions = getQuestionsByCategory(category)
   const filteredQuestions = getMultipleChoiceOnly(questions)
+  
   // 根據歷史調整順序
   if (history && Object.keys(history).length > 0) {
     filteredQuestions.sort((a, b) => {
-      const aRecord = history[a.id]
-      const bRecord = history[b.id]
+      const aKey = props.subject ? `${props.subject}_${a.id}` : a.id.toString()
+      const bKey = props.subject ? `${props.subject}_${b.id}` : b.id.toString()
+      const aRecord = history[aKey]
+      const bRecord = history[bKey]
       const aWeight = aRecord ? (aRecord.wrong > 0 ? 0.6 : 0.1) : 1.0
       const bWeight = bRecord ? (bRecord.wrong > 0 ? 0.6 : 0.1) : 1.0
       return bWeight - aWeight
     })
   }
-  emit('start-quiz', filteredQuestions)
+  
+  emit('start-quiz', { 
+    questions: filteredQuestions,
+    type: category,
+    count: filteredQuestions.length
+  })
 }
 
 const startReview = () => {

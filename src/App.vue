@@ -1,15 +1,21 @@
 <template>
   <div class="app">
     <div class="app-header">
-      <h1 class="app-title">國小自然科 題庫練習</h1>
+      <h1 class="app-title">{{ appTitle }}</h1>
       <div class="header-buttons">
+        <button v-if="currentSubject" @click="changeSubject" class="header-btn subject-btn">🔄 換科目</button>
         <button @click="showStatistics" class="header-btn stats-btn">📊 統計</button>
         <button @click="showAllWrongQuestions" class="header-btn wrong-btn">❌ 錯題</button>
       </div>
-      <span class="app-version">v1.2.0</span>
+      <span class="app-version">v1.3.0</span>
     </div>
+    <SubjectSelector 
+      v-if="currentView === 'subject-selector'"
+      @select-subject="selectSubject"
+    />
     <MainMenu 
-      v-if="currentView === 'menu'"
+      v-else-if="currentView === 'menu'"
+      :subject="currentSubject"
       @start-quiz="startQuiz"
       @start-review="startReview"
     />
@@ -52,7 +58,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import SubjectSelector from './components/SubjectSelector.vue'
 import MainMenu from './components/MainMenu.vue'
 import QuizView from './components/QuizView.vue'
 import ReviewView from './components/ReviewView.vue'
@@ -60,8 +67,10 @@ import ResultView from './components/ResultView.vue'
 import WrongQuestionsView from './components/WrongQuestionsView.vue'
 import StatisticsView from './components/StatisticsView.vue'
 import AllWrongQuestionsView from './components/AllWrongQuestionsView.vue'
+import { SUBJECT_NAMES, SUBJECT_ICONS } from './data/questions.js'
 
-const currentView = ref('menu')
+const currentView = ref('subject-selector')
+const currentSubject = ref(null)
 const quizQuestions = ref([])
 const quizScore = ref(0)
 const quizTotal = ref(0)
@@ -70,6 +79,36 @@ const quizStartTime = ref(null)
 const sessionWrongQuestions = ref([])
 const currentWrongQuestions = ref([])
 const sessionStats = ref(null)
+
+// 計算應用標題
+const appTitle = computed(() => {
+  if (!currentSubject.value) {
+    return '國小題庫練習'
+  }
+  const subjectName = SUBJECT_NAMES[currentSubject.value] || '題庫'
+  const subjectIcon = SUBJECT_ICONS[currentSubject.value] || '📚'
+  return `${subjectIcon} 國小${subjectName} 題庫練習`
+})
+
+// 選擇科目
+const selectSubject = (subjectId) => {
+  currentSubject.value = subjectId
+  currentView.value = 'menu'
+  // 保存選擇的科目
+  localStorage.setItem('lastSelectedSubject', subjectId)
+}
+
+// 切換科目
+const changeSubject = () => {
+  currentView.value = 'subject-selector'
+}
+
+// 初始化時載入上次選擇的科目
+const lastSubject = localStorage.getItem('lastSelectedSubject')
+if (lastSubject) {
+  currentSubject.value = lastSubject
+  currentView.value = 'menu'
+}
 
 const startQuiz = (data) => {
   // 支持新格式（包含type）和旧格式（只有questions数组）
@@ -103,12 +142,14 @@ const finishQuiz = (data) => {
     sessionStats.value = {
       type: data.type || '未知',
       duration: data.duration || 0,
-      accuracy: data.accuracy || 0
+      accuracy: data.accuracy || 0,
+      subject: currentSubject.value
     }
     
     // 保存练习记录
     import('./utils/storage.js').then(({ savePracticeRecord }) => {
       savePracticeRecord({
+        subject: currentSubject.value,
         type: data.type || '未知',
         count: data.total || 0,
         score: data.score || 0,
@@ -219,6 +260,10 @@ const showAllWrongQuestions = () => {
 
 .header-btn:active {
   transform: translateY(0);
+}
+
+.subject-btn {
+  border-left: 3px solid #ff9800;
 }
 
 .stats-btn {

@@ -1,17 +1,24 @@
-// 答题历史存储工具
+// 答题历史存储工具（支持多科目）
 
-// 获取答题历史
-export function getAnswerHistory() {
-  const history = localStorage.getItem('answerHistory')
+// 获取答题历史（按科目）
+export function getAnswerHistory(subject = null) {
+  const key = subject ? `answerHistory_${subject}` : 'answerHistory'
+  const history = localStorage.getItem(key)
   return history ? JSON.parse(history) : {}
 }
 
-// 保存答题记录
-export function saveAnswerRecord(questionId, isCorrect) {
-  const history = getAnswerHistory()
+// 保存答题记录（按科目）
+export function saveAnswerRecord(questionId, isCorrect, subject = null) {
+  const key = subject ? `answerHistory_${subject}` : 'answerHistory'
+  const history = getAnswerHistory(subject)
   
-  if (!history[questionId]) {
-    history[questionId] = {
+  // 使用科目+题目ID作为唯一标识
+  const recordKey = subject ? `${subject}_${questionId}` : questionId.toString()
+  
+  if (!history[recordKey]) {
+    history[recordKey] = {
+      questionId: questionId,
+      subject: subject,
       total: 0,
       correct: 0,
       wrong: 0,
@@ -20,30 +27,31 @@ export function saveAnswerRecord(questionId, isCorrect) {
     }
   }
   
-  history[questionId].total++
-  history[questionId].lastAnswer = isCorrect
-  history[questionId].lastAnswerTime = Date.now()
+  history[recordKey].total++
+  history[recordKey].lastAnswer = isCorrect
+  history[recordKey].lastAnswerTime = Date.now()
   
   if (isCorrect) {
-    history[questionId].correct++
+    history[recordKey].correct++
   } else {
-    history[questionId].wrong++
+    history[recordKey].wrong++
   }
   
-  localStorage.setItem('answerHistory', JSON.stringify(history))
-  return history[questionId]
+  localStorage.setItem(key, JSON.stringify(history))
+  return history[recordKey]
 }
 
-// 获取错题列表
-export function getWrongQuestions() {
-  const history = getAnswerHistory()
+// 获取错题列表（按科目）
+export function getWrongQuestions(subject = null) {
+  const history = getAnswerHistory(subject)
   const wrongQuestions = []
   
-  Object.keys(history).forEach(questionId => {
-    const record = history[questionId]
+  Object.keys(history).forEach(key => {
+    const record = history[key]
     if (record.wrong > 0) {
       wrongQuestions.push({
-        id: parseInt(questionId),
+        id: record.questionId || parseInt(key),
+        subject: record.subject || subject,
         wrongCount: record.wrong,
         totalCount: record.total,
         accuracy: record.total > 0 ? (record.correct / record.total * 100).toFixed(1) : 0
@@ -54,9 +62,9 @@ export function getWrongQuestions() {
   return wrongQuestions.sort((a, b) => b.wrongCount - a.wrongCount)
 }
 
-// 获取统计信息
-export function getStatistics() {
-  const history = getAnswerHistory()
+// 获取统计信息（按科目）
+export function getStatistics(subject = null) {
+  const history = getAnswerHistory(subject)
   let totalQuestions = 0
   let totalCorrect = 0
   let totalWrong = 0
@@ -68,6 +76,7 @@ export function getStatistics() {
   })
   
   return {
+    subject: subject,
     totalQuestions,
     totalCorrect,
     totalWrong,
@@ -76,10 +85,24 @@ export function getStatistics() {
   }
 }
 
-// 清除所有记录
-export function clearHistory() {
-  localStorage.removeItem('answerHistory')
-  localStorage.removeItem('practiceHistory')
+// 清除所有记录（按科目）
+export function clearHistory(subject = null) {
+  if (subject) {
+    localStorage.removeItem(`answerHistory_${subject}`)
+    // 清除该科目的练习记录
+    const practiceHistory = getPracticeHistory()
+    const filtered = practiceHistory.filter(r => r.subject !== subject)
+    localStorage.setItem('practiceHistory', JSON.stringify(filtered))
+  } else {
+    // 清除所有科目的记录
+    localStorage.removeItem('answerHistory')
+    localStorage.removeItem('practiceHistory')
+    // 清除所有科目的单独记录
+    const subjects = ['science', 'chinese', 'social', 'math', 'english']
+    subjects.forEach(s => {
+      localStorage.removeItem(`answerHistory_${s}`)
+    })
+  }
 }
 
 // 保存练习记录
