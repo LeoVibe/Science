@@ -291,11 +291,8 @@ onUnmounted(() => {
 
 <style scoped>
 .quiz-view {
-  min-height: 100vh;
-  max-height: 100vh;
-  padding: 8px;
-  padding-top: 50px; /* 為頂部標題留出空間 */
-  padding-bottom: 50px;
+  min-height: calc(100vh - 60px);
+  padding: 16px 12px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
