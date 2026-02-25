@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U5",
+  "lesson_title": "面積",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "數方格",
+      "question": "在方格紙上，一個圖形佔了 18 個小正方格（每格邊長 1 公分），請問面積是多少？",
+      "options": [
+        "18 平方公分",
+        "18 公分",
+        "36 平方公分",
+        "9 平方公分"
+      ],
+      "answer_index": 0,
+      "explanation": "每個方格 = 1 平方公分，18 個方格 = 18 平方公分。",
+      "commonMisconception": "面積的單位是「平方公分」而非「公分」。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "教室地板",
+      "question": "一間教室的地板是長方形，長 10 公尺、寬 7 公尺。它的面積和周長分別是多少？",
+      "options": [
+        "面積 70 平方公尺，周長 34 公尺",
+        "面積 34 平方公尺，周長 70 公尺",
+        "面積 70 公尺，周長 34 平方公尺",
+        "面積 17 平方公尺，周長 34 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "面積 = 10 × 7 = 70 平方公尺。周長 = (10+7) × 2 = 34 公尺。",
+      "commonMisconception": "面積 vs 周長的公式與單位是最容易混淆的概念。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "鋪地磚",
+      "question": "一塊正方形地磚邊長 3 公分，面積是 9 平方公分。鋪滿一個長 12 公分、寬 6 公分的長方形需要幾塊？",
+      "options": [
+        "8 塊",
+        "6 塊",
+        "12 塊",
+        "18 塊"
+      ],
+      "answer_index": 0,
+      "explanation": "長方形面積 = 12 × 6 = 72 平方公分。72 ÷ 9 = 8 塊。",
+      "commonMisconception": "也可以用長÷3×寬÷3=4×2=8 來算，但需配合整除。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "拼圖比大小",
+      "question": "甲圖形有 20 個完整小方格，乙圖形有 16 個完整小方格和 6 個半格。誰的面積大？",
+      "options": [
+        "甲圖形",
+        "乙圖形",
+        "一樣大",
+        "無法判斷"
+      ],
+      "answer_index": 0,
+      "explanation": "甲 = 20。乙 = 16 + 6×0.5 = 19。20 > 19，甲較大。",
+      "commonMisconception": "半格要算 0.5 格，學生可能忽略或算成 1 格。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "花圃設計",
+      "question": "學校要用一條長 24 公尺的籬笆圍成一個正方形花圃。這個花圃的面積是多少？",
+      "options": [
+        "36 平方公尺",
+        "24 平方公尺",
+        "96 平方公尺",
+        "144 平方公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "正方形周長 = 24 公尺。邊長 = 24 ÷ 4 = 6 公尺。面積 = 6 × 6 = 36 平方公尺。",
+      "commonMisconception": "從周長反推邊長再算面積，是進階的綜合問題。",
+      "quality_level": "L4"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U10",
+  "lesson_title": "報讀表格",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "班級喜好調查",
+      "question": "統計表顯示：喜歡籃球的有 12 人、足球 8 人、躲避球 15 人、羽球 5 人。請問最多人喜歡的運動是什麼？",
+      "options": [
+        "籃球",
+        "足球",
+        "躲避球",
+        "羽球"
+      ],
+      "answer_index": 2,
+      "explanation": "比較四個數字：15 > 12 > 8 > 5。最多人喜歡的是躲避球（15 人）。",
+      "commonMisconception": "學生需要逐一比較數據中的最大值。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "天氣觀測",
+      "question": "一週天氣觀測：晴天 3 天、陰天 2 天、雨天 2 天。請問晴天佔了全週的幾分之幾？",
+      "options": [
+        "3/7",
+        "3/5",
+        "2/7",
+        "3/2"
+      ],
+      "answer_index": 0,
+      "explanation": "一週共 7 天。晴天 3 天。佔比 = 3/7。",
+      "commonMisconception": "分母是全部的天數（7），而非其他天數的總和。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "文具銷售量",
+      "question": "下表是書店一天的銷售量：鉛筆 25 枝、橡擦 18 個、尺 12 把、筆記本 30 本。銷售數量最多和最少的差了多少？",
+      "options": [
+        "18",
+        "12",
+        "13",
+        "17"
+      ],
+      "answer_index": 0,
+      "explanation": "最多：筆記本 30。最少：尺 12。差 = 30 - 12 = 18。",
+      "commonMisconception": "學生需找出最大值和最小值才能做減法。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "午餐調查",
+      "question": "調查 40 位同學的午餐：吃飯的有 22 人，吃麵的有 10 人，剩下的吃麵包。吃麵包的有幾人？",
+      "options": [
+        "8 人",
+        "12 人",
+        "18 人",
+        "10 人"
+      ],
+      "answer_index": 0,
+      "explanation": "40 - 22 - 10 = 8 人吃麵包。",
+      "commonMisconception": "從總數減去已知項目的數量即可求出未知項。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圖書館借閱",
+      "question": "統計表：一月借 45 本、二月借 60 本、三月借 55 本。三個月平均每月借幾本？",
+      "options": [
+        "50 本",
+        "55 本",
+        "53 本",
+        "160 本"
+      ],
+      "answer_index": 2,
+      "explanation": "總和 = 45 + 60 + 55 = 160。平均 = 160 ÷ 3 = 53 ... 1。約 53 本。",
+      "commonMisconception": "三年級初步認識「平均」的概念，需先加總再除以次數。",
+      "quality_level": "L4"
+    }
+  ]
+}

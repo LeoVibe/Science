@@ -1,0 +1,41 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "認識居住地",
+      "path": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "多元生活",
+      "path": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "商店與購物",
+      "path": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "為地方服務",
+      "path": "Soc_U4.json"
+    },
+    {
+      "id": "Soc_U5",
+      "title": "地方故事",
+      "path": "Soc_U5.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9.6,
+      "accuracyScore": 9.8,
+      "isVerified": true
+    }
+  }
+}

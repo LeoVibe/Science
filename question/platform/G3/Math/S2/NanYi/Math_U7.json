@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U7",
+  "lesson_title": "分數的加減",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "切蛋糕",
+      "question": "一個蛋糕分 12 塊。姊姊吃 4 塊，弟弟吃 3 塊，共吃了幾分之幾個蛋糕？",
+      "options": [
+        "7/12 個",
+        "7/24 個",
+        "1/12 個",
+        "12/7 個"
+      ],
+      "answer_index": 0,
+      "explanation": "4/12 + 3/12 = 7/12。同分母分數加法。",
+      "commonMisconception": "分母不能相加（7/24 是常見錯誤）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "彩帶剪裁",
+      "question": "一條彩帶是 1（整體 = 9/9）。用了 5/9 後，又補回了 2/9。請問現在有幾分之幾？",
+      "options": [
+        "6/9",
+        "4/9",
+        "7/9",
+        "3/9"
+      ],
+      "answer_index": 0,
+      "explanation": "9/9 - 5/9 = 4/9。4/9 + 2/9 = 6/9。",
+      "commonMisconception": "加減混合的分數計算，需注意運算順序。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "喝果汁比賽",
+      "question": "小明喝了 3/8 杯果汁，小華喝了 5/8 杯果汁，小華比小明多喝了幾分之幾杯？",
+      "options": [
+        "2/8 杯",
+        "8/8 杯",
+        "2/16 杯",
+        "1/4 杯"
+      ],
+      "answer_index": 0,
+      "explanation": "5/8 - 3/8 = 2/8。",
+      "commonMisconception": "同分母減法中，分子相減、分母不變。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數與 1 的關係",
+      "question": "小力吃了一條巧克力的 4/7。他還需要再吃幾分之幾才能吃完整條？",
+      "options": [
+        "3/7",
+        "4/7",
+        "7/7",
+        "1/7"
+      ],
+      "answer_index": 0,
+      "explanation": "整條 = 7/7。7/7 - 4/7 = 3/7。",
+      "commonMisconception": "理解「1」可以用分母相同的分數表示（如 7/7 = 1）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "拼貼畫",
+      "question": "拼貼畫需要紅色 2/6 的面積、藍色 3/6 的面積。剩下用黃色。黃色佔幾分之幾？",
+      "options": [
+        "1/6",
+        "5/6",
+        "5/12",
+        "0"
+      ],
+      "answer_index": 0,
+      "explanation": "紅+藍 = 2/6 + 3/6 = 5/6。黃 = 6/6 - 5/6 = 1/6。",
+      "commonMisconception": "兩步驟分數問題，先加再用 1 去減。",
+      "quality_level": "L3"
+    }
+  ]
+}

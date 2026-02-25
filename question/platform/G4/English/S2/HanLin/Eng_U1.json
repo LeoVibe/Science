@@ -1,0 +1,316 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U1",
+  "lesson_title": "Can You Dance?",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Talent Show",
+      "question": "A: Can you ______?\nB: Yes, I can. I love music.",
+      "options": [
+        "dance",
+        "pencil",
+        "apple",
+        "red"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 'can' 後接原形動詞。根據 'love music' (喜愛音樂)，選項中只有 'dance' (跳舞) 為合理的動作動詞。",
+      "commonMisconception": "將動詞與名詞/形容詞混淆。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Sports Day",
+      "question": "He can ______ very fast. He is like a tiger!",
+      "options": [
+        "run",
+        "sing",
+        "draw",
+        "brush"
+      ],
+      "answer_index": 0,
+      "explanation": "形容動作很快且像老虎一樣，最適當的動詞是 'run' (跑)。",
+      "commonMisconception": "詞彙語意辨識錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Art Class",
+      "question": "My sister can ______ a beautiful bird.",
+      "options": [
+        "draw",
+        "swim",
+        "jump",
+        "cook"
+      ],
+      "answer_index": 0,
+      "explanation": "針對 'beautiful bird' (美麗的小鳥)，最合理的才藝動詞是 'draw' (畫)。",
+      "commonMisconception": "情境詞彙搭配不當。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Questioning Ability",
+      "question": "______ you swim?\nYes, I can.",
+      "options": [
+        "Do",
+        "Can",
+        "Are",
+        "Is"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問能力（是否會某事），使用助動詞 'Can' 開頭，且回答也使用了 'can'。",
+      "commonMisconception": "誤用 Do 或 Are 開頭。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Third Person Ability",
+      "question": "She ______ sing very well. Listen!",
+      "options": [
+        "is",
+        "can",
+        "am",
+        "does"
+      ],
+      "answer_index": 1,
+      "explanation": "表示能力「會唱歌」，使用 'can'。且 can 後接原形動詞 'sing'。",
+      "commonMisconception": "分不清 can 與 B 動詞用法。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Negative Response",
+      "question": "A: Can your brother fly?\nB: No, he ______. He is not a bird!",
+      "options": [
+        "can",
+        "can't",
+        "don't",
+        "doesn't"
+      ],
+      "answer_index": 1,
+      "explanation": "對於 'Can...?' 的否定回答為 'No, he can't' (cannot)。",
+      "commonMisconception": "簡答助動詞選取錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Mutual Ability",
+      "question": "I can dance. ______ you?",
+      "options": [
+        "What are",
+        "How can",
+        "How about",
+        "What about can"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問「那妳呢？」最常用的句型是 'How about you?'。",
+      "commonMisconception": "習慣用語掌握不熟。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Choice",
+      "question": "Toby can ______ high. Look at him!",
+      "options": [
+        "jump",
+        "jumps",
+        "jumping",
+        "is jump"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 'can' 後面固定接「原形動詞」。",
+      "commonMisconception": "受第三人稱主詞影響誤加 s 或 ing。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Negative Grammar",
+      "question": "Ducks can swim, but they ______ fly high.",
+      "options": [
+        "can",
+        "can't",
+        "do",
+        "don't"
+      ],
+      "answer_index": 1,
+      "explanation": "對比連結詞 'but' 表示前後意向相反。鴨子會游泳，「但不會」飛得很高。",
+      "commonMisconception": "邏輯對應錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Super Team",
+      "question": "Sam can run fast. May can sing. Ken can draw. \nQuestion: Who can make a beautiful song?",
+      "options": [
+        "Sam",
+        "May",
+        "Ken",
+        "Nobody"
+      ],
+      "answer_index": 1,
+      "explanation": "文中敘述 May 會唱歌 (can sing)，所以她能創作出好聽的歌曲。",
+      "commonMisconception": "詞彙轉換（sing 與 song）的關聯理解。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Animal Olympics",
+      "question": "Frogs can jump. Fish can swim. Birds can fly. \nQuestion: Which animal can move (移動) in the sky?",
+      "options": [
+        "Frogs",
+        "Fish",
+        "Birds",
+        "Pigs"
+      ],
+      "answer_index": 2,
+      "explanation": "鳥類會飛 (fly)，是在天空中移動的動物。",
+      "commonMisconception": "方位常識與英文動作連結落差。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Talent Contest",
+      "question": "A: Can you play the piano?\nB: No, but I can play the guitar.\nQuestion: What can B do?",
+      "options": [
+        "Play the piano",
+        "Play the guitar",
+        "Both",
+        "Nothing"
+      ],
+      "answer_index": 1,
+      "explanation": "B 說不會彈鋼琴，但「會彈吉他」。",
+      "commonMisconception": "忽略轉折詞 but 以後內容。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Helping Mom",
+      "question": "Mom: 'Can you help me cook?' \nSon: 'I can wash the rice, but I can't cook.' \nQuestion: Will the son help Mom?",
+      "options": [
+        "Yes, he will wash rice.",
+        "No, he won't do anything.",
+        "Yes, he will cook.",
+        "No, he is lazy."
+      ],
+      "answer_index": 0,
+      "explanation": "兒子表示會幫忙洗米，即為一種幫忙的形式。",
+      "commonMisconception": "局部肯定與整體肯定的邏輯判斷。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Robot Ability",
+      "question": "My robot can do many things. It can walk and talk. It cannot eat food.\nQuestion: Can the robot eat a pizza?",
+      "options": [
+        "Yes, it can.",
+        "No, it cannot.",
+        "Yes, it is.",
+        "No, it doesn't."
+      ],
+      "answer_index": 1,
+      "explanation": "文中明確說 'It cannot eat food'，披薩是食物，故不能吃。",
+      "commonMisconception": "無法進行類屬推理。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Question Word Choice",
+      "question": "A: ______ can swim well?\nB: The blue fish can.",
+      "options": [
+        "What",
+        "Who",
+        "Where",
+        "How"
+      ],
+      "answer_index": 1,
+      "explanation": "回答是 'The blue fish' (藍色的魚)，雖然魚是動物，但在擬人或詢問「誰」具備此能力時可用 'Who' 或 'Which one'。在此選項中 'Who' 是最接近詢問主體的選項（相較於 What/Where/How）。",
+      "commonMisconception": "疑問詞選取受限於人類/非人類刻板印象。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Safety First",
+      "question": "The water is deep. You ______ swim here. It is dangerous.",
+      "options": [
+        "can",
+        "can't",
+        "do",
+        "must"
+      ],
+      "answer_index": 1,
+      "explanation": "水很深且危險，所以「不能/不可以」在這裡游泳。",
+      "commonMisconception": "因果邏輯推理不當。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Talent Match",
+      "question": "Lily is a good singer. She ______ join the music club.",
+      "options": [
+        "can",
+        "can't",
+        "is",
+        "doing"
+      ],
+      "answer_index": 0,
+      "explanation": "她是有才華的歌手，所以「能夠/可以」加入音樂社團。",
+      "commonMisconception": "語意連接力。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Special Ability",
+      "question": "Spiders have eight legs. They can ______ very well.",
+      "options": [
+        "fly",
+        "sing",
+        "climb",
+        "swim"
+      ],
+      "answer_index": 2,
+      "explanation": "蜘蛛有八條腿，最擅長的能力是爬行 (climb)。",
+      "commonMisconception": "不具備詞彙 climb 的情境想像。",
+      "quality_level": "L4"
+    }
+  ]
+}

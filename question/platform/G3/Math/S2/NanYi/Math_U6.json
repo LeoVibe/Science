@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U6",
+  "lesson_title": "公斤和公克",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "秤蘋果",
+      "question": "一個蘋果重 250 公克。4 個蘋果共重多少？等於多少公斤？",
+      "options": [
+        "1000 公克 = 1 公斤",
+        "100 公克 = 0.1 公斤",
+        "900 公克",
+        "500 公克"
+      ],
+      "answer_index": 0,
+      "explanation": "250 × 4 = 1000 公克。1000 公克 = 1 公斤。",
+      "commonMisconception": "學生需要記住 1 公斤 = 1000 公克的換算關係。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "寄包裹",
+      "question": "郵局規定包裹不能超過 5 公斤。小明的包裹重 3 公斤 800 公克，他還能再放進多少公克的東西？",
+      "options": [
+        "1200 公克",
+        "2200 公克",
+        "200 公克",
+        "800 公克"
+      ],
+      "answer_index": 0,
+      "explanation": "5 公斤 = 5000 公克。3 公斤 800 公克 = 3800 公克。5000 - 3800 = 1200 公克。",
+      "commonMisconception": "需要先統一單位才能做減法。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "做蛋糕秤料",
+      "question": "蛋糕食譜需要：麵粉 500 公克、砂糖 300 公克、奶油 200 公克。全部材料加起來有幾公斤？",
+      "options": [
+        "1 公斤",
+        "100 公斤",
+        "10 公斤",
+        "1000 公斤"
+      ],
+      "answer_index": 0,
+      "explanation": "500 + 300 + 200 = 1000 公克 = 1 公斤。",
+      "commonMisconception": "從公克到公斤的換算需要除以 1000。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比重量",
+      "question": "甲行李箱重 2 公斤 400 公克，乙行李箱重 2350 公克。哪個比較重？",
+      "options": [
+        "甲",
+        "乙",
+        "一樣重",
+        "無法比較"
+      ],
+      "answer_index": 0,
+      "explanation": "甲 = 2400 公克。乙 = 2350 公克。2400 > 2350，甲較重。",
+      "commonMisconception": "混合單位比較時，必須先轉換為相同單位。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "水果攤秤重",
+      "question": "水果攤的橘子 1 公斤賣 60 元。媽媽買了 3 公斤 500 公克，請問要付多少錢？（500 公克算半公斤）",
+      "options": [
+        "210 元",
+        "180 元",
+        "200 元",
+        "240 元"
+      ],
+      "answer_index": 0,
+      "explanation": "3.5 公斤 × 60 = 210 元。或 3×60=180, 0.5×60=30, 180+30=210。",
+      "commonMisconception": "重量與金額的乘法結合應用，需理解半公斤的概念。",
+      "quality_level": "L4"
+    }
+  ]
+}

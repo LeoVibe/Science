@@ -1,0 +1,36 @@
+{
+  "publisher": "HanLin",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci_U1",
+      "title": "星空神話",
+      "path": "Sci_U1.json"
+    },
+    {
+      "id": "Sci_U2",
+      "title": "氧氣與燃燒",
+      "path": "Sci_U2.json"
+    },
+    {
+      "id": "Sci_U3",
+      "title": "生鏽知多少",
+      "path": "Sci_U3.json"
+    },
+    {
+      "id": "Sci_U4",
+      "title": "校園動物生命延續",
+      "path": "Sci_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

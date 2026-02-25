@@ -1,0 +1,36 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci_U1",
+      "title": "生活中的力",
+      "path": "Sci_U1.json"
+    },
+    {
+      "id": "Sci_U2",
+      "title": "水的奇妙現象",
+      "path": "Sci_U2.json"
+    },
+    {
+      "id": "Sci_U3",
+      "title": "變動的大地",
+      "path": "Sci_U3.json"
+    },
+    {
+      "id": "Sci_U4",
+      "title": "能源與電路",
+      "path": "Sci_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8.5,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

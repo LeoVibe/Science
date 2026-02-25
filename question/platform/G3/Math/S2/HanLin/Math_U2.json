@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U2",
+  "lesson_title": "公升與毫升",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "倒牛奶",
+      "question": "一瓶牛奶有 1 公升，小明倒了 350 毫升喝掉，請問瓶子裡還剩多少毫升？",
+      "options": [
+        "650 毫升",
+        "750 毫升",
+        "350 毫升",
+        "1350 毫升"
+      ],
+      "answer_index": 0,
+      "explanation": "1 公升 = 1000 毫升。1000 - 350 = 650 毫升。",
+      "commonMisconception": "學生可能不知道 1 公升 = 1000 毫升，直接用 1 - 350 而無法計算。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "果汁混合",
+      "question": "小美把 2 杯各 400 毫升的柳橙汁，倒進一個容量 1 公升的水壺裡，請問水壺還能再裝多少毫升的水？",
+      "options": [
+        "200 毫升",
+        "600 毫升",
+        "800 毫升",
+        "已經滿了"
+      ],
+      "answer_index": 0,
+      "explanation": "2 杯共 400 × 2 = 800 毫升。水壺容量 1000 毫升。1000 - 800 = 200 毫升。",
+      "commonMisconception": "學生可能忘了乘以 2，直接用 1000 - 400 = 600。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "烘焙食譜",
+      "question": "奶奶做蛋糕需要 3 公升又 500 毫升的鮮奶。家裡有 4 瓶 1 公升裝的鮮奶，請問用完後還剩多少毫升？",
+      "options": [
+        "500 毫升",
+        "1500 毫升",
+        "300 毫升",
+        "剛好用完"
+      ],
+      "answer_index": 0,
+      "explanation": "4 瓶 = 4000 毫升。需要 3 公升 500 毫升 = 3500 毫升。4000 - 3500 = 500 毫升。",
+      "commonMisconception": "公升與毫升的混合運算需要先統一單位。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "比大小",
+      "question": "甲杯有 2 公升 300 毫升的水，乙杯有 2400 毫升的水。哪一杯比較多？",
+      "options": [
+        "甲杯",
+        "乙杯",
+        "一樣多",
+        "無法判斷"
+      ],
+      "answer_index": 1,
+      "explanation": "甲杯 = 2300 毫升。乙杯 = 2400 毫升。2400 > 2300，乙杯多 100 毫升。",
+      "commonMisconception": "看到甲杯有公升單位就以為比較大，忽略了實際數值轉換。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "澆花統計",
+      "question": "小花每天用 800 毫升的水澆花，請問她澆 5 天後，總共用了幾公升幾毫升的水？",
+      "options": [
+        "4 公升 0 毫升",
+        "4000 毫升",
+        "40 公升",
+        "3 公升 500 毫升"
+      ],
+      "answer_index": 0,
+      "explanation": "800 × 5 = 4000 毫升 = 4 公升 0 毫升。",
+      "commonMisconception": "學生可能不確定 4000 毫升要怎麼換算成公升。",
+      "quality_level": "L3"
+    }
+  ]
+}

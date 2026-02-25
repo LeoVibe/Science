@@ -1,0 +1,316 @@
+{
+  "publisher": "NanYi",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U3",
+  "lesson_title": "Can You Swim?",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "At the Pool",
+      "question": "A: Can you ______?\nB: Yes, I can. It's cool here!",
+      "options": [
+        "swim",
+        "run",
+        "sing",
+        "dance"
+      ],
+      "answer_index": 0,
+      "explanation": "在泳池 (pool) 且提到很涼快，最相關的能力動詞是 'swim' (游泳)。",
+      "commonMisconception": "詞彙對應錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Music Talent",
+      "question": "My sister can ______ Lily's favorite song.",
+      "options": [
+        "sing",
+        "swim",
+        "jump",
+        "cook"
+      ],
+      "answer_index": 0,
+      "explanation": "針對 'favorite song' (最喜愛的歌)，使用動詞 'sing' (唱)。",
+      "commonMisconception": "詞彙語意辨識錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Active Animals",
+      "question": "Rabbits can ______ very high. They have long legs.",
+      "options": [
+        "jump",
+        "fly",
+        "sing",
+        "swim"
+      ],
+      "answer_index": 0,
+      "explanation": "兔子擅長的動作是跳躍 (jump)。",
+      "commonMisconception": "動物特徵辨識力弱。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Asking for Ability",
+      "question": "A: ______ you ride a bike?\nB: Yes, I can.",
+      "options": [
+        "Do",
+        "Can",
+        "Are",
+        "Is"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「是否會/能」做某事，助動詞使用 'Can'。",
+      "commonMisconception": "誤用 Do 開頭。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Negative Confirmation",
+      "question": "A: Can he cook dinner?\nB: No, he ______. Let's eat bread.",
+      "options": [
+        "can",
+        "can't",
+        "don't",
+        "doesn't"
+      ],
+      "answer_index": 1,
+      "explanation": "對於 'Can he...?' 的否定回答為 'No, he can't'。",
+      "commonMisconception": "助動詞選取與 B 動詞混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Mutual Skill Check",
+      "question": "I can play the piano. ______ you?",
+      "options": [
+        "What is",
+        "How can",
+        "How about",
+        "Are"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問「那你呢？」常用句型為 'How about you?'。",
+      "commonMisconception": "句型掌握不足。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Describing Superpowers",
+      "question": "The robot is very cool. It ______ fly in the sky!",
+      "options": [
+        "can",
+        "is",
+        "am",
+        "do"
+      ],
+      "answer_index": 0,
+      "explanation": "表達機器人的「能力」（會飛），使用助動詞 'can'。",
+      "commonMisconception": "詞彙運用錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Consistency",
+      "question": "A: Can the baby ______?\nB: Yes, she can. She is one year old.",
+      "options": [
+        "walk",
+        "walks",
+        "walking",
+        "to walk"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 'can' 後接原形動詞。",
+      "commonMisconception": "誤加 s 或 ing。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Negative Structure",
+      "question": "Penguins (企鵝) are birds, but they ______ fly.",
+      "options": [
+        "can",
+        "can't",
+        "do",
+        "don't"
+      ],
+      "answer_index": 1,
+      "explanation": "企鵝不會飛，表達能力上的否定用 'can't'。",
+      "commonMisconception": "時面事實認知搭配英文語法問題。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Hero Team",
+      "question": "Luffy can stretch (伸長). Zoro can play with swords. Sanji can cook. \nQuestion: Who can make yummy food?",
+      "options": [
+        "Luffy",
+        "Zoro",
+        "Sanji",
+        "Nobody"
+      ],
+      "answer_index": 2,
+      "explanation": "文中敘述 'Sanji can cook'，故他會作好吃的食物。",
+      "commonMisconception": "資訊比對錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Animal Olympics",
+      "question": "Horses can run. Ducks can swim. Frogs can jump. \nQuestion: Which animal can move in the water?",
+      "options": [
+        "Horses",
+        "Ducks",
+        "Frogs",
+        "Cats"
+      ],
+      "answer_index": 1,
+      "explanation": "鴨子能游泳，是在水中移動的動物。",
+      "commonMisconception": "對動作與環境的關聯認知弱。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Talent Show",
+      "question": "A: Can you draw a picture of me?\nB: Sorry, I can't draw, but I can take a photo of you.\nQuestion: Can B help take a photo?",
+      "options": [
+        "Yes, he can.",
+        "No, he can't.",
+        "Yes, it is.",
+        "No, he isn't."
+      ],
+      "answer_index": 0,
+      "explanation": "B 說雖然不會畫畫，但「會拍照」。對應問句 'Can...?'，回答用 'Yes, he can'。",
+      "commonMisconception": "忽略轉折內容或簡答助動詞格式錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Robot's Limit",
+      "question": "My robot can speak English and Chinese. It cannot sing songs. \nQuestion: Can the robot speak Chinese?",
+      "options": [
+        "Yes, it can.",
+        "No, it cannot.",
+        "Yes, it is.",
+        "No, it isn't."
+      ],
+      "answer_index": 0,
+      "explanation": "文中明確說 'It can speak English and Chinese'。",
+      "commonMisconception": "受後方否定句 'cannot' 誤導。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Safe Swimming",
+      "question": "I can swim well, but I don't swim in the ocean (大海). It is dangerous.\nQuestion: Does the writer swim in the ocean?",
+      "options": [
+        "Yes, he can.",
+        "No, he doesn't.",
+        "Yes, he does.",
+        "No, he can't."
+      ],
+      "answer_index": 1,
+      "explanation": "作者說他不進大海游泳。問句用 Does，回答用 doesn't。注意雖然他「能」游泳 (can)，但事實是他「不」在大海游 (doesn't)。",
+      "commonMisconception": "能力 (can) 與事實行為 (do/does) 概念混淆。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Subject Agreement",
+      "question": "Both Lily and her brother ______ ride a bike well.",
+      "options": [
+        "can",
+        "cans",
+        "is",
+        "doing"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 'can' 不受人稱影響，無 cans 形式。",
+      "commonMisconception": "誤對 can 進行三單變化。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Helping a Friend",
+      "question": "Your friend is crying. You ______ sing a song to make her happy.",
+      "options": [
+        "can",
+        "can't",
+        "is",
+        "are"
+      ],
+      "answer_index": 0,
+      "explanation": "給予正面提議，使用 'can' (可以/能夠) 表達這條可行路徑。",
+      "commonMisconception": "語意邏輯判斷。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "At the Circus",
+      "question": "Look at the elephant! It ______ paint a picture with its nose (鼻子)!",
+      "options": [
+        "can",
+        "is",
+        "am",
+        "are"
+      ],
+      "answer_index": 0,
+      "explanation": "表達大象具備的特殊「能力」，使用助動詞 'can'。",
+      "commonMisconception": "詞彙運用錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Olympic Games",
+      "question": "In the Olympics, many people show what they ______ do in sports.",
+      "options": [
+        "can",
+        "don't",
+        "is",
+        "can't"
+      ],
+      "answer_index": 0,
+      "explanation": "奧運展現的是選手「能」做到的體育極限 (what they can do)。",
+      "commonMisconception": "不了解體育背景相關表達。",
+      "quality_level": "L3"
+    }
+  ]
+}

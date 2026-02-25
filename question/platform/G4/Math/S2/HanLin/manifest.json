@@ -1,0 +1,66 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "Math_U1",
+      "title": "大數的記法與計算",
+      "path": "Math_U1.json"
+    },
+    {
+      "id": "Math_U2",
+      "title": "概數",
+      "path": "Math_U2.json"
+    },
+    {
+      "id": "Math_U3",
+      "title": "乘以二、三位數",
+      "path": "Math_U3.json"
+    },
+    {
+      "id": "Math_U4",
+      "title": "除以二位數",
+      "path": "Math_U4.json"
+    },
+    {
+      "id": "Math_U5",
+      "title": "分數",
+      "path": "Math_U5.json"
+    },
+    {
+      "id": "Math_U6",
+      "title": "小數",
+      "path": "Math_U6.json"
+    },
+    {
+      "id": "Math_U7",
+      "title": "四邊形",
+      "path": "Math_U7.json"
+    },
+    {
+      "id": "Math_U8",
+      "title": "垂直、平行與多邊形",
+      "path": "Math_U8.json"
+    },
+    {
+      "id": "Math_U9",
+      "title": "面積",
+      "path": "Math_U9.json"
+    },
+    {
+      "id": "Math_U10",
+      "title": "時間的計算",
+      "path": "Math_U10.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Ocean Fresh theme — 天空藍 × 珊瑚橘 × 薄荷白 */
+    --background: 200 20% 98%;
+    --foreground: 210 18% 25%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 18% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 18% 25%;
+
+    --primary: 200 65% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 18% 94%;
+    --secondary-foreground: 210 18% 30%;
+
+    --muted: 200 12% 93%;
+    --muted-foreground: 210 10% 50%;
+
+    --accent: 16 70% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 60% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 14% 90%;
+    --input: 200 14% 90%;
+    --ring: 200 60% 55%;
+
+    --radius: 1rem;
+
+    /* Subject theme colors — ocean-fresh pastels */
+    --subject-chinese: 350 50% 68%;
+    --subject-chinese-light: 350 55% 95%;
+    --subject-math: 200 60% 55%;
+    --subject-math-light: 200 55% 94%;
+    --subject-english: 16 65% 62%;
+    --subject-english-light: 16 60% 95%;
+    --subject-science: 168 45% 52%;
+    --subject-science-light: 168 45% 94%;
+    --subject-social: 42 60% 60%;
+    --subject-social-light: 42 55% 95%;
+    --subject-life: 280 40% 68%;
+    --subject-life-light: 280 40% 95%;
+
+    /* Quiz feedback */
+    --correct: 168 50% 46%;
+    --correct-light: 168 45% 94%;
+    --wrong: 0 55% 62%;
+    --wrong-light: 0 50% 96%;
+
+    --sidebar-background: 200 20% 98%;
+    --sidebar-foreground: 210 12% 30%;
+    --sidebar-primary: 200 65% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 15% 95%;
+    --sidebar-accent-foreground: 210 14% 16%;
+    --sidebar-border: 200 14% 92%;
+    --sidebar-ring: 200 60% 55%;
+  }
+
+  .dark {
+    --background: 210 20% 10%;
+    --foreground: 200 15% 92%;
+    --card: 210 20% 14%;
+    --card-foreground: 200 15% 92%;
+    --popover: 210 20% 14%;
+    --popover-foreground: 200 15% 92%;
+    --primary: 200 55% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 14% 20%;
+    --secondary-foreground: 200 15% 92%;
+    --muted: 210 14% 20%;
+    --muted-foreground: 200 10% 55%;
+    --accent: 16 60% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 50% 38%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 14% 22%;
+    --input: 210 14% 22%;
+    --ring: 200 55% 58%;
+    --sidebar-background: 210 20% 10%;
+    --sidebar-foreground: 200 12% 92%;
+    --sidebar-primary: 200 55% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 14% 16%;
+    --sidebar-accent-foreground: 200 12% 92%;
+    --sidebar-border: 210 14% 16%;
+    --sidebar-ring: 200 55% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Nunito", "Noto Sans TC", "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+@layer utilities {
+  .subject-bg-chinese { background-color: hsl(var(--subject-chinese)); }
+  .subject-bg-chinese-light { background-color: hsl(var(--subject-chinese-light)); }
+  .subject-bg-math { background-color: hsl(var(--subject-math)); }
+  .subject-bg-math-light { background-color: hsl(var(--subject-math-light)); }
+  .subject-bg-english { background-color: hsl(var(--subject-english)); }
+  .subject-bg-english-light { background-color: hsl(var(--subject-english-light)); }
+  .subject-bg-science { background-color: hsl(var(--subject-science)); }
+  .subject-bg-science-light { background-color: hsl(var(--subject-science-light)); }
+  .subject-bg-social { background-color: hsl(var(--subject-social)); }
+  .subject-bg-social-light { background-color: hsl(var(--subject-social-light)); }
+  .subject-bg-life { background-color: hsl(var(--subject-life)); }
+  .subject-bg-life-light { background-color: hsl(var(--subject-life-light)); }
+
+  .subject-text-chinese { color: hsl(var(--subject-chinese)); }
+  .subject-text-math { color: hsl(var(--subject-math)); }
+  .subject-text-english { color: hsl(var(--subject-english)); }
+  .subject-text-science { color: hsl(var(--subject-science)); }
+  .subject-text-social { color: hsl(var(--subject-social)); }
+  .subject-text-life { color: hsl(var(--subject-life)); }
+
+  /* Soft subject gradients */
+  .gradient-chinese { background: linear-gradient(135deg, hsl(350 50% 68%), hsl(0 45% 72%)); }
+  .gradient-math { background: linear-gradient(135deg, hsl(200 60% 55%), hsl(210 55% 60%)); }
+  .gradient-english { background: linear-gradient(135deg, hsl(16 65% 62%), hsl(26 60% 66%)); }
+  .gradient-science { background: linear-gradient(135deg, hsl(168 45% 52%), hsl(178 40% 56%)); }
+  .gradient-social { background: linear-gradient(135deg, hsl(42 60% 60%), hsl(52 55% 64%)); }
+  .gradient-life { background: linear-gradient(135deg, hsl(280 40% 68%), hsl(290 35% 72%)); }
+
+  /* Button gradients — ocean-fresh */
+  .gradient-lesson { background: linear-gradient(135deg, hsl(200 55% 58%), hsl(168 45% 55%)); }
+  .gradient-challenge { background: linear-gradient(135deg, hsl(16 60% 62%), hsl(350 50% 65%)); }
+  .gradient-full { background: linear-gradient(135deg, hsl(168 45% 52%), hsl(200 50% 56%)); }
+
+  .bg-correct-light { background-color: hsl(var(--correct-light)); }
+  .bg-wrong-light { background-color: hsl(var(--wrong-light)); }
+  .border-correct { border-color: hsl(var(--correct)); }
+  .border-wrong { border-color: hsl(var(--wrong)); }
+  .text-correct { color: hsl(var(--correct)); }
+  .text-wrong { color: hsl(var(--wrong)); }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stripe-left {
+    position: relative;
+  }
+  .stripe-left::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, hsl(var(--primary)), hsl(var(--accent)));
+    border-radius: 2px;
+  }
+}

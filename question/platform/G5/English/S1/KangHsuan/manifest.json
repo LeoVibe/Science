@@ -1,0 +1,36 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G5",
+  "semester": "S1",
+  "subject": "English",
+  "items": [
+    {
+      "id": "U1",
+      "title": "Where_Are_You_Going",
+      "path": "U1_Where_Are_You_Going.json"
+    },
+    {
+      "id": "U2",
+      "title": "How_Do_You_Go_to_School",
+      "path": "U2_How_Do_You_Go_to_School.json"
+    },
+    {
+      "id": "U3",
+      "title": "What_s_Your_Favorite_Subject",
+      "path": "U3_What_s_Your_Favorite_Subject.json"
+    },
+    {
+      "id": "U4",
+      "title": "How_Much_Is_It",
+      "path": "U4_How_Much_Is_It.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 0,
+      "accuracyScore": 0,
+      "isVerified": false
+    }
+  }
+}

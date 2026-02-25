@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U7",
+  "lesson_title": "時間",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "時間單位換算",
+      "question": "一天有 24 小時，請問 3 天又 5 小時共有多少小時？",
+      "options": [
+        "77 小時",
+        "35 小時",
+        "72 小時",
+        "29 小時"
+      ],
+      "answer_index": 0,
+      "explanation": "3 天 = 3 × 24 = 72 小時。72 + 5 = 77 小時。",
+      "commonMisconception": "學生可能忘記一天是 24 小時而非 12 小時。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "搭高鐵",
+      "question": "高鐵列車在上午 10 時 45 分出發，行駛了 1 小時 35 分鐘後到達。請問列車到達時是什麼時刻？",
+      "options": [
+        "中午 12 時 20 分",
+        "中午 12 時 10 分",
+        "上午 11 時 80 分",
+        "下午 1 時 20 分"
+      ],
+      "answer_index": 0,
+      "explanation": "10 時 45 分 + 1 時 35 分 = 11 時 80 分。80 分 = 1 小時 20 分。所以 12 時 20 分。",
+      "commonMisconception": "分鐘超過 60 卻忘記進位到小時是最常見的錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "寫功課時間",
+      "question": "小華下午 4 點 15 分開始寫功課，6 點 00 分寫完。請問花了多少時間？",
+      "options": [
+        "1 小時 45 分",
+        "2 小時 15 分",
+        "1 小時 15 分",
+        "2 小時 45 分"
+      ],
+      "answer_index": 0,
+      "explanation": "6 時 00 分 - 4 時 15 分。需借位：5 時 60 分 - 4 時 15 分 = 1 時 45 分。",
+      "commonMisconception": "時間減法的借位是 60（不是 100），這是最大的困難點。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "日曆與星期",
+      "question": "某月 1 日是星期三，那一年12月31日是星期幾？提示：該月有 30 天。",
+      "options": [
+        "星期三",
+        "星期四",
+        "星期五",
+        "星期六"
+      ],
+      "answer_index": 1,
+      "explanation": "30 天後是幾月幾日取決於月份，但如果只看這一個月：1 日(三)到 30 日，30-1=29 天。29 ÷ 7 = 4...1。星期三往後推 1 天 = 星期四。",
+      "commonMisconception": "日曆上的星期推算需要做除以 7 的餘數計算。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "烤蛋糕計時",
+      "question": "奶奶在上午 9 時 50 分把蛋糕放進烤箱，烤了 40 分鐘後取出冷卻 15 分鐘。蛋糕可以開始切的時刻是什麼時候？",
+      "options": [
+        "上午 10 時 45 分",
+        "上午 10 時 30 分",
+        "上午 11 時 05 分",
+        "上午 10 時 15 分"
+      ],
+      "answer_index": 0,
+      "explanation": "9:50 + 40 分 = 10:30。10:30 + 15 分 = 10:45。",
+      "commonMisconception": "兩步驟的時間加法，每一步都可能發生進位錯誤。",
+      "quality_level": "L4"
+    }
+  ]
+}

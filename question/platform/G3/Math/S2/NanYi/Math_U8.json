@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U8",
+  "lesson_title": "乘除的應用",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "運動會發獎品",
+      "question": "老師買了 5 盒巧克力，每盒 36 個。要平均分給 9 個班級，每班分到幾個？",
+      "options": [
+        "20 個",
+        "18 個",
+        "15 個",
+        "24 個"
+      ],
+      "answer_index": 0,
+      "explanation": "總數 = 36 × 5 = 180。每班 = 180 ÷ 9 = 20。",
+      "commonMisconception": "先乘後除的兩步驟問題。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "果園收成",
+      "question": "果園一天可以採 125 箱柳丁。每箱賣 80 元。請問一週（7 天）的營業額是多少元？",
+      "options": [
+        "70000 元",
+        "10000 元",
+        "875 元",
+        "1000 元"
+      ],
+      "answer_index": 0,
+      "explanation": "一天營收 = 125 × 80 = 10000 元。一週 = 10000 × 7 = 70000 元。",
+      "commonMisconception": "連續乘法的大數計算，容易在進位處出錯。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比價購物",
+      "question": "A 商店：6 枝鉛筆 90 元。B 商店：每枝鉛筆 14 元。哪家比較便宜？",
+      "options": [
+        "A 商店（每枝 15 元）",
+        "B 商店（每枝 14 元）",
+        "一樣",
+        "無法比較"
+      ],
+      "answer_index": 1,
+      "explanation": "A 商店每枝 = 90 ÷ 6 = 15 元。B 商店每枝 14 元。14 < 15，B 較便宜。",
+      "commonMisconception": "需要用除法將不同的計價方式轉成「單價」才能公平比較。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "種樹問題",
+      "question": "一條 100 公尺的路，每 5 公尺種一棵樹（頭尾都種）。共需要幾棵樹？",
+      "options": [
+        "20 棵",
+        "21 棵",
+        "19 棵",
+        "25 棵"
+      ],
+      "answer_index": 1,
+      "explanation": "間隔數 = 100 ÷ 5 = 20。頭尾都種 → 棵數 = 間隔數 + 1 = 21。",
+      "commonMisconception": "植樹問題的「加 1」規則：棵數 = 間隔數 + 1（兩端都種時）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "兌換遊戲幣",
+      "question": "遊樂場投幣機：50 元可以換 8 枚遊戲幣。小明有 200 元，最多可以換到幾枚遊戲幣？",
+      "options": [
+        "32 枚",
+        "24 枚",
+        "40 枚",
+        "16 枚"
+      ],
+      "answer_index": 0,
+      "explanation": "200 ÷ 50 = 4 次。4 × 8 = 32 枚。",
+      "commonMisconception": "先除再乘的運算連結。",
+      "quality_level": "L4"
+    }
+  ]
+}

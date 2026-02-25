@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U1",
+  "lesson_title": "除法",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "平分彩色筆",
+      "question": "美術課有 156 枝彩色筆，平均分給 6 組，每組可以分到幾枝？",
+      "options": [
+        "26 枝",
+        "25 枝",
+        "36 枝",
+        "24 枝"
+      ],
+      "answer_index": 0,
+      "explanation": "156 ÷ 6 = 26。直式：15÷6=2...3，把 3 與 6 合併成 36，36÷6=6。商為 26。",
+      "commonMisconception": "在直式中，被除數的十位與百位合併計算後，餘數再與個位合併的過程容易出錯。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "裝箱出貨",
+      "question": "果農採了 340 個芒果，每箱裝 8 個。最多能裝滿幾箱？剩下幾個？",
+      "options": [
+        "42 箱，剩 4 個",
+        "43 箱，剩 0 個",
+        "40 箱，剩 20 個",
+        "42 箱，剩 6 個"
+      ],
+      "answer_index": 0,
+      "explanation": "340 ÷ 8 = 42 ... 4。42 箱裝滿，剩下 4 個。",
+      "commonMisconception": "餘數必須小於除數（4 < 8，正確）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "郊遊搭車",
+      "question": "幼兒園有 73 個小朋友要搭遊覽車去郊遊，一輛車最多坐 9 人。請問需要幾輛車？",
+      "options": [
+        "8 輛",
+        "9 輛",
+        "7 輛",
+        "10 輛"
+      ],
+      "answer_index": 1,
+      "explanation": "73 ÷ 9 = 8 ... 1。8 輛坐滿後，剩下 1 人還需 1 輛車。合計 9 輛。",
+      "commonMisconception": "「進一法」的應用：有餘數就必須多配一輛車。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "商中有 0",
+      "question": "計算 408 ÷ 4 的結果是多少？",
+      "options": [
+        "12",
+        "102",
+        "120",
+        "1002"
+      ],
+      "answer_index": 1,
+      "explanation": "4÷4=1，0÷4=0（十位補0），8÷4=2。商為 102。",
+      "commonMisconception": "學生跳過中間的 0，把答案寫成 12。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "除法驗算",
+      "question": "一道除法題的除數是 7，商是 35，餘數是 6。請問被除數是多少？",
+      "options": [
+        "245",
+        "251",
+        "241",
+        "256"
+      ],
+      "answer_index": 1,
+      "explanation": "被除數 = 7 × 35 + 6 = 245 + 6 = 251。",
+      "commonMisconception": "先乘後加，學生容易在乘法或最後的加法中出錯。",
+      "quality_level": "L4"
+    }
+  ]
+}

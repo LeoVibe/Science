@@ -1,0 +1,41 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "居住地生活",
+      "path": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "理性消費",
+      "path": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "社區參與",
+      "path": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "家鄉的地名",
+      "path": "Soc_U4.json"
+    },
+    {
+      "id": "Soc_U5",
+      "title": "家鄉的特色",
+      "path": "Soc_U5.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9.5,
+      "accuracyScore": 9.8,
+      "isVerified": true
+    }
+  }
+}

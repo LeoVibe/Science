@@ -1,0 +1,85 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "lesson_id": "M5",
+  "lesson_title": "乘法",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "團購美食",
+      "question": "一盒鳳梨酥賣 385 元，媽媽買了 3 盒，一共要付多少錢？",
+      "options": [
+        "1155 元",
+        "1145 元",
+        "1055 元",
+        "955 元"
+      ],
+      "answer_index": 0,
+      "explanation": "385 × 3 = 1155。計算過程：5×3=15(進1)，8×3+1=25(進2)，3×3+2=11。",
+      "commonMisconception": "連續進位是學生的弱點，常會忘記加上前一位進上來的數字。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "電影票預購",
+      "question": "一張電影票 260 元，大華買了 8 張，他拿兩張一千元鈔票付錢，請問可以找回多少錢？",
+      "options": [
+        "2080 元",
+        "80 元",
+        "1080 元",
+        "沒找錢反而不夠付"
+      ],
+      "answer_index": 3,
+      "explanation": "260 × 8 = 2080 元。兩張一千元是 2000 元。2080 > 2000，所以錢不夠付，差 80 元。",
+      "commonMisconception": "學生可能只算出總價 2080，看到選項有 2080 就選了，沒看清題目問「找回多少」。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "果園採收",
+      "question": "一個籃子可以裝 125 顆橘子，小農採收了 6 籃後，還剩下 48 顆橘子沒裝進去，請問小農總共採收了幾顆橘子？",
+      "options": [
+        "750 顆",
+        "798 顆",
+        "800 顆",
+        "698 顆"
+      ],
+      "answer_index": 1,
+      "explanation": "先算籃子裡的：125 × 6 = 750。再加上剩下的：750 + 48 = 798 顆。",
+      "commonMisconception": "兩步驟問題，學生容易漏掉最後「加回剩下」的步驟。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "神奇的乘法",
+      "question": "已知 45 × 4 = 180，那 450 × 4 等於多少？",
+      "options": [
+        "180",
+        "1800",
+        "18000",
+        "454"
+      ],
+      "answer_index": 1,
+      "explanation": "450 是 45 的 10 倍，所以乘積也會是 180 的 10 倍，即 1800。",
+      "commonMisconception": "學生可能不理解「末尾補零」的原理，而重新用直式計算卻算錯。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "校園運動會",
+      "question": "接力賽一圈是 205 公尺，體育老師要小強跑 4 圈，小美跑 5 圈。請問小美比小強多跑了多少公尺？",
+      "options": [
+        "205 公尺",
+        "820 公尺",
+        "1025 公尺",
+        "410 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "方法一：(5-4) × 205 = 1 × 205 = 205。方法二：1025 - 820 = 205。小美多跑 1 圈就是多 205 公尺。",
+      "commonMisconception": "學生可能花很多時間分別算出兩人的距離再相減，忽略了可以用「圈數差 × 一圈長度」的快速解法。",
+      "quality_level": "L4"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U5",
+  "lesson_title": "兩步驟應用問題",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "買文具",
+      "question": "小明買了 3 枝鉛筆，每枝 15 元，又買了一塊 25 元的橡皮擦。請問他總共要付多少錢？",
+      "options": [
+        "55 元",
+        "70 元",
+        "65 元",
+        "45 元"
+      ],
+      "answer_index": 1,
+      "explanation": "先算鉛筆：15 × 3 = 45 元。再加橡皮擦：45 + 25 = 70 元。",
+      "commonMisconception": "學生可能把所有數直接加起來（15+3+25=43），沒注意需要先乘再加。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "剩餘的餅乾",
+      "question": "媽媽烤了 120 片餅乾，分裝到 5 個盒子裡（每盒一樣多）。爸爸偷吃了 1 盒，現在還剩幾片餅乾？",
+      "options": [
+        "96 片",
+        "115 片",
+        "24 片",
+        "100 片"
+      ],
+      "answer_index": 0,
+      "explanation": "先算每盒：120 ÷ 5 = 24 片。吃掉 1 盒後剩 4 盒：24 × 4 = 96 片。（或 120 - 24 = 96）",
+      "commonMisconception": "兩種解法：可以先除再乘，或先除再減。學生容易只做第一步。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "球隊購買球衣",
+      "question": "球隊有 500 元經費。買了 4 件運動衫，每件 95 元。請問還剩下多少錢？夠不夠再買一件？",
+      "options": [
+        "剩 120 元，夠",
+        "剩 120 元，不夠",
+        "剩 100 元，不夠",
+        "剩 80 元，不夠"
+      ],
+      "answer_index": 0,
+      "explanation": "花費：95 × 4 = 380 元。餘額：500 - 380 = 120 元。120 > 95，夠再買一件。",
+      "commonMisconception": "學生可能漏看「夠不夠再買」的判斷，或者乘法計算出錯。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分組拔河",
+      "question": "42 個同學先分成 7 組進行比賽，每組人數一樣多。後來合併成 3 大隊，每大隊幾個人？",
+      "options": [
+        "6 人",
+        "14 人",
+        "21 人",
+        "12 人"
+      ],
+      "answer_index": 1,
+      "explanation": "42 ÷ 7 = 6（每組 6 人）。3 大隊，每隊有 42 ÷ 3 = 14 人。",
+      "commonMisconception": "學生可能誤以為先除 7 再除 3（42÷7÷3=2），忽略題意是重新分組。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "遊樂場排隊",
+      "question": "遊樂場門票：大人 150 元、小孩 80 元。爸爸帶 2 個小孩去玩，帶了 500 元。付完門票後還剩下多少錢？",
+      "options": [
+        "190 元",
+        "310 元",
+        "270 元",
+        "340 元"
+      ],
+      "answer_index": 0,
+      "explanation": "大人 1 張 150 元。小孩 2 張 80×2=160 元。共 150+160=310 元。500-310=190 元。",
+      "commonMisconception": "多種運算混合，學生需分步驟處理不同票種的費用。",
+      "quality_level": "L4"
+    }
+  ]
+}

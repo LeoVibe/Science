@@ -1,0 +1,265 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U4",
+  "lesson_title": "Rooms",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Looking for Mom",
+      "question": "A: Where is Mom? \nB: She is in the ______. She is cooking dinner.",
+      "options": [
+        "bedroom",
+        "kitchen",
+        "living room",
+        "bathroom"
+      ],
+      "answer_index": 1,
+      "explanation": "煮飯 (cooking) 的場景通常是在廚房 (kitchen)。",
+      "commonMisconception": "學生可能不認識 kitchen 或誤將煮飯與客廳連結。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Night Time Routine",
+      "question": "I am very tired. I want to sleep in my ______.",
+      "options": [
+        "kitchen",
+        "living room",
+        "bedroom",
+        "bathroom"
+      ],
+      "answer_index": 2,
+      "explanation": "睡覺 (sleep) 的場所是臥室 (bedroom)。",
+      "commonMisconception": "單字字義混淆。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Home Tour",
+      "question": "A: Where are you? \nB: I'm in the ______. I'm watching TV with my Dad.",
+      "options": [
+        "bedroom",
+        "living room",
+        "kitchen",
+        "bathroom"
+      ],
+      "answer_index": 1,
+      "explanation": "看電視 (watching TV) 通常是在客廳 (living room)。",
+      "commonMisconception": "學生可能分不清 living room 與 bedroom。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Finding Dad",
+      "question": "A: ______ is Dad? \nB: He is in the bedroom.",
+      "options": [
+        "What",
+        "Who",
+        "Where",
+        "How"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問地點使用疑問詞 Where。",
+      "commonMisconception": "疑問詞混淆。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Reporting Position",
+      "question": "A: Where are you? \nB: I ______ in the kitchen.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 I 對應的 B 動詞是 am。",
+      "commonMisconception": "B 動詞用法錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Siblings at Home",
+      "question": "A: Is Sam in the bedroom? \nB: No, ______ isn't. He's in the kitchen.",
+      "options": [
+        "I",
+        "he",
+        "it",
+        "she"
+      ],
+      "answer_index": 1,
+      "explanation": "Sam 是男生，代名詞用 he。",
+      "commonMisconception": "性別代名詞誤用或未代換主詞。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Looking for the Cat",
+      "question": "A: Is the cat in the living room? \nB: Yes, ______ is.",
+      "options": [
+        "he",
+        "she",
+        "it",
+        "they"
+      ],
+      "answer_index": 2,
+      "explanation": "描述動物 (cat) 時，一般使用中性代名詞 it。",
+      "commonMisconception": "將 cat 擬人化誤選 he/she。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Phone Conversation",
+      "question": "A: Hi, Amy! Where are you? \nB: I'm ______ the living room. Where are you?",
+      "options": [
+        "on",
+        "in",
+        "under",
+        "next to"
+      ],
+      "answer_index": 1,
+      "explanation": "在房間空間內使用介係詞 in。",
+      "commonMisconception": "受中文「在客廳『上』」的誤導而選 on。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Check",
+      "question": "Where ______ Ken and Leo?",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞是兩個人 (Ken and Leo)，應選複數 B 動詞 are。",
+      "commonMisconception": "受最近的單數人名影響誤選 is。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Family Activity",
+      "question": "Amy is in the bedroom. Sam is in the kitchen. Mom is in the living room. \nQuestion: Where is Sam?",
+      "options": [
+        "In the bedroom.",
+        "In the kitchen.",
+        "In the living room.",
+        "On the desk."
+      ],
+      "answer_index": 1,
+      "explanation": "文本指明 'Sam is in the kitchen'。",
+      "commonMisconception": "閱讀時人名與地點配對錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Missing Toy Car",
+      "question": "Leo: 'Is my car in the bedroom?' \nDad: 'No. Look! It's in the living room.' \nQuestion: Where is Leo's car?",
+      "options": [
+        "In the bedroom.",
+        "In the living room.",
+        "Under the bed.",
+        "In the kitchen."
+      ],
+      "answer_index": 1,
+      "explanation": "Dad 指出車子在客廳 (living room)。",
+      "commonMisconception": "學生可能只注意到 Leo 的提問地點而選了 bedroom。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Drawing a House",
+      "question": "Director: 'Put the cat in the kitchen. Put the dog in the bedroom.' \nQuestion: Is the cat in the bedroom?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, he is.",
+        "No, she isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "指令中貓在廚房，不在臥室。簡答用 'No, it isn't'。",
+      "commonMisconception": "資訊處理錯誤，將兩隻動物的位置記反了。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Action Matching",
+      "question": "He is ______ in the bedroom.",
+      "options": [
+        "singing",
+        "sleeping",
+        "cooking",
+        "eating"
+      ],
+      "answer_index": 1,
+      "explanation": "臥室 (bedroom) 最合理的動作是睡覺 (sleeping)。",
+      "commonMisconception": "單字義義混淆，或是對場所功能的理解不足。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Morning Shout",
+      "question": "A: 'Breakfast is ready (準備好了)!' \nB: 'Okay, Mom! I'm coming to the ______.'",
+      "options": [
+        "bedroom",
+        "bathroom",
+        "kitchen",
+        "living room"
+      ],
+      "answer_index": 2,
+      "explanation": "早餐準備好了，應前往廚房 (kitchen) 或餐廳用餐。",
+      "commonMisconception": "學生可能不知道 breakfast 的含義，或者無法推論用餐場所。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Clean Up Time",
+      "question": "Your toys are in the living room. Your books are in the bedroom. \nQuestion: Where should you go to find your books?",
+      "options": [
+        "The living room.",
+        "The bedroom.",
+        "The kitchen.",
+        "The bathroom."
+      ],
+      "answer_index": 1,
+      "explanation": "書本在臥室 (bedroom)，故找書要前往臥室。",
+      "commonMisconception": "閱讀理解與目標搜尋能力不足，選了第一個出現的地點。",
+      "quality_level": "L4"
+    }
+  ]
+}

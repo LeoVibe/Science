@@ -1,0 +1,51 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "M1",
+      "title": "10000以內的數",
+      "path": "M1_10000以內的數.json"
+    },
+    {
+      "id": "M2",
+      "title": "角與形狀",
+      "path": "M2_角與形狀.json"
+    },
+    {
+      "id": "M3",
+      "title": "10000以內的加減",
+      "path": "M3_10000以內的加減.json"
+    },
+    {
+      "id": "M4",
+      "title": "乘法",
+      "path": "M4_乘法.json"
+    },
+    {
+      "id": "M5",
+      "title": "毫米與數線",
+      "path": "M5_毫米與數線.json"
+    },
+    {
+      "id": "M6",
+      "title": "除法",
+      "path": "M6_除法.json"
+    },
+    {
+      "id": "M7",
+      "title": "M9_綜合單元",
+      "path": "M7_M9_綜合單元.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "live",
+    "quality": {
+      "depthScore": 4.2,
+      "accuracyScore": 9.2,
+      "isVerified": true
+    }
+  }
+}

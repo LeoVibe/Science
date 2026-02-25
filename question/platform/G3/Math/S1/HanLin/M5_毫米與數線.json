@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "lesson_id": "M5",
+  "lesson_title": "毫米與數線",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "尺的標記",
+      "question": "公分刻度中間的小格，每一格代表是多少？",
+      "options": [
+        "1 毫米",
+        "10 毫米",
+        "0.1 毫米",
+        "1 公釐"
+      ],
+      "answer_index": 0,
+      "explanation": "1 公分 = 10 毫米 (mm)，因此每一小格是 1 毫米。註：翰林版有時會提到公釐，兩者相同，但標準單位多稱毫米。",
+      "commonMisconception": "學生可能搞混毫米與公分的層級。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "釘子的長度",
+      "question": "一個釘子長度是 4 公分 8 毫米，如果用毫米（mm）來表示，應該是多少？",
+      "options": [
+        "480 毫米",
+        "4.8 毫米",
+        "48 毫米",
+        "12 毫米"
+      ],
+      "answer_index": 2,
+      "explanation": "4 公分 = 40 毫米。40 + 8 = 48 毫米。",
+      "commonMisconception": "換算時可能漏乘 10，直接寫成 12 (4+8)。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "螞蟻爬行數線",
+      "question": "數線上每一大格是 1 公分。一隻螞蟻從『5』的位置往右爬了 20 毫米，請問它會抵達哪一個刻度？",
+      "options": [
+        "25",
+        "7",
+        "5.2",
+        "15"
+      ],
+      "answer_index": 1,
+      "explanation": "20 毫米 = 2 公分。從 5 往右爬 2 公分，到達 5 + 2 = 7。",
+      "commonMisconception": "學生可能沒換算單位就直接把 5 + 20 = 25，忽略了數線單位是公分。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比身高",
+      "question": "甲小草高 15 毫米，乙小草高 1 公分 2 毫米。請問哪一株比較高？高多少？",
+      "options": [
+        "甲比較高，高 3 毫米",
+        "乙比較高，高 3 公分",
+        "平手",
+        "甲比較高，高 13 毫米"
+      ],
+      "answer_index": 0,
+      "explanation": "甲：15 毫米。乙：12 毫米。15 - 12 = 3 毫米。甲較高。",
+      "commonMisconception": "必須先轉換為相同單位才能比較與相減。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "摺紙條",
+      "question": "有一條長 8 公分的紙條，對摺兩次後，每一段的長度是多少毫米？",
+      "options": [
+        "4 毫米",
+        "20 毫米",
+        "40 毫米",
+        "2 毫米"
+      ],
+      "answer_index": 1,
+      "explanation": "8 公分 = 80 毫米。對摺一次變 40 毫米。對摺第二次（分成四段）變 20 毫米。",
+      "commonMisconception": "學生可能只對摺一次，算出 40；或者在分段上理解錯誤。",
+      "quality_level": "L4"
+    }
+  ]
+}

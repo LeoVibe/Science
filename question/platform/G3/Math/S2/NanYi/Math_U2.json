@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U2",
+  "lesson_title": "公升和毫升",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "水壺容量",
+      "question": "小明的水壺容量是 2 公升，請問等於多少毫升？",
+      "options": [
+        "200 毫升",
+        "20 毫升",
+        "2000 毫升",
+        "20000 毫升"
+      ],
+      "answer_index": 2,
+      "explanation": "1 公升 = 1000 毫升。2 公升 = 2 × 1000 = 2000 毫升。",
+      "commonMisconception": "學生容易記漏倍率（1000），寫成 200 或 20。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "做實驗",
+      "question": "自然課需要 1 公升又 300 毫升的水。小華先倒了 800 毫升，還需要再倒多少毫升？",
+      "options": [
+        "500 毫升",
+        "200 毫升",
+        "800 毫升",
+        "1300 毫升"
+      ],
+      "answer_index": 0,
+      "explanation": "1 公升 300 毫升 = 1300 毫升。1300 - 800 = 500 毫升。",
+      "commonMisconception": "需先統一單位再做減法。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "混合飲料",
+      "question": "小明拿了 3 杯各 350 毫升的果汁，全部倒進一個容量 1 公升的壺裡。壺子有沒有滿？溢出多少？",
+      "options": [
+        "沒滿，差 50 毫升",
+        "溢出 50 毫升",
+        "剛好滿",
+        "溢出 150 毫升"
+      ],
+      "answer_index": 1,
+      "explanation": "3 × 350 = 1050 毫升。壺子容量 1000 毫升。1050 - 1000 = 50 毫升會溢出。",
+      "commonMisconception": "乘法和單位轉換的結合使用。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "藥水配方",
+      "question": "醫生開的咳嗽糖漿，每次喝 5 毫升，一天喝 3 次。一瓶有 120 毫升，可以喝幾天？",
+      "options": [
+        "8 天",
+        "24 天",
+        "40 天",
+        "7 天"
+      ],
+      "answer_index": 0,
+      "explanation": "一天喝 5 × 3 = 15 毫升。120 ÷ 15 = 8 天。",
+      "commonMisconception": "兩步驟問題：先乘再除。學生可能只做其中一個步驟。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比大小",
+      "question": "甲壺有 3 公升 200 毫升的水，乙壺有 2900 毫升的水。哪一壺水比較多？多多少？",
+      "options": [
+        "甲壺多，多 300 毫升",
+        "乙壺多，多 300 毫升",
+        "甲壺多，多 100 毫升",
+        "一樣多"
+      ],
+      "answer_index": 0,
+      "explanation": "甲壺 = 3200 毫升。3200 - 2900 = 300。甲多 300 毫升。",
+      "commonMisconception": "比較前需轉換成相同單位。",
+      "quality_level": "L3"
+    }
+  ]
+}

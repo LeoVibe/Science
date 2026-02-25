@@ -1,0 +1,265 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U4",
+  "lesson_title": "Animals",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Visiting a Farm",
+      "question": "Look at the big animal. It says 'Moo!'. It is a ______.",
+      "options": [
+        "cat",
+        "dog",
+        "cow",
+        "bird"
+      ],
+      "answer_index": 2,
+      "explanation": "會發出 'Moo' 叫聲的動物是牛 (cow)。",
+      "commonMisconception": "學生可能分不清英文擬聲詞與動作的對應關係。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Pet Shop",
+      "question": "The ______ has long ears and likes to jump. It is very cute!",
+      "options": [
+        "rabbit",
+        "fish",
+        "bird",
+        "cat"
+      ],
+      "answer_index": 0,
+      "explanation": "長耳朵 (long ears) 且會跳 (jump) 是兔子 (rabbit) 的典型特徵。",
+      "commonMisconception": "將 long ears 誤連結到狗或其他動物。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "In the Garden",
+      "question": "I see a ______ in the tree. It can fly and sing.",
+      "options": [
+        "rabbit",
+        "cat",
+        "bird",
+        "dog"
+      ],
+      "answer_index": 2,
+      "explanation": "在樹上且會飛、會唱歌的動物是鳥 (bird)。",
+      "commonMisconception": "混淆 fly 與 climb 的動作主體。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Guessing Game",
+      "question": "A: What is it? \nB: ______ is a dog.",
+      "options": [
+        "He",
+        "She",
+        "It",
+        "I"
+      ],
+      "answer_index": 2,
+      "explanation": "在詢問或指認不明身分的動物或事物時，主詞應使用 It。",
+      "commonMisconception": "將寵物過度擬人化而誤選 He 或 She。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Asking about a Pet",
+      "question": "A: Is it a cat? \nB: No, ______ isn't. It's a dog.",
+      "options": [
+        "I",
+        "it",
+        "he",
+        "she"
+      ],
+      "answer_index": 1,
+      "explanation": "當問句是 'Is it...?' 時，簡答的主詞應代換為 it。",
+      "commonMisconception": "答非所問或人稱代名詞代換錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Hide and Seek with Pets",
+      "question": "Mom: 'Is it a bird under the chair?' \nSam: 'No. Look! It can swim in the water. It's a ______.'",
+      "options": [
+        "cat",
+        "bird",
+        "fish",
+        "rabbit"
+      ],
+      "answer_index": 2,
+      "explanation": "關鍵線索是「在水裡游泳」(swim in the water)，對應動物是魚 (fish)。",
+      "commonMisconception": "学生受 Mom 提問中的 bird 影響而忽略後半段的否定句與特徵描述。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Animal Mystery",
+      "question": "It's small. It has four legs and a long tail. It says 'Meow!'.",
+      "options": [
+        "a bird",
+        "a cat",
+        "a fish",
+        "a cow"
+      ],
+      "answer_index": 1,
+      "explanation": "發出 'Meow' 叫聲且有長尾巴的動物是貓 (cat)。",
+      "commonMisconception": "誤認擬聲詞，或者忽略「四條腿」的描述。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "At the Zoo",
+      "question": "Is ______ a rabbit? No, it's a big bird. It is an ostrich (鴕鳥).",
+      "options": [
+        "that",
+        "these",
+        "those",
+        "they"
+      ],
+      "answer_index": 0,
+      "explanation": "因為 B 簡答使用 it 且提到 a rabbit (單數)，疑問句主詞應選單數指示代名詞 that。",
+      "commonMisconception": "分不清單複數指示代名詞的用法 (this/that vs. these/those)。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Counting Animals",
+      "question": "I see three ______ in the garden.",
+      "options": [
+        "bird",
+        "birds",
+        "a bird",
+        "an bird"
+      ],
+      "answer_index": 1,
+      "explanation": "數量詞為 three (複數)，因此名詞必須使用複數形 birds。",
+      "commonMisconception": "名詞複數形態忘記加 s，或在數量詞後加冠詞。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Animal Park Diary",
+      "question": "I see a white rabbit. I see a grey dog. The cat is black. \nQuestion: What color is the dog?",
+      "options": [
+        "white",
+        "grey",
+        "black",
+        "green"
+      ],
+      "answer_index": 1,
+      "explanation": "文本中寫明 'I see a grey dog'，故狗是灰色的。",
+      "commonMisconception": "閱讀時動物與顏色的配對發生錯位。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Guess the Friend",
+      "question": "My friend has no legs. It can't run or walk, but it can swim very well.",
+      "options": [
+        "My friend is a rabbit.",
+        "My friend is a fish.",
+        "My friend is a dog.",
+        "My friend is a cat."
+      ],
+      "answer_index": 1,
+      "explanation": "沒有腿 (no legs) 且會游泳的脊椎動物是魚 (fish)。",
+      "commonMisconception": "不知道 fish 生活在水裡不需使用腿部走路。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Animal Show",
+      "question": "Leo: 'Look! The bird is dancing!' \nAmy: 'No, it's not. It's only flying. The rabbit is jumping.' \nQuestion: What is the bird doing?",
+      "options": [
+        "It's dancing.",
+        "It's jumping.",
+        "It's flying.",
+        "It's singing."
+      ],
+      "answer_index": 2,
+      "explanation": "Amy 否定了 Leo 的提議（dancing），並指出鳥實際上在飛 (flying)。",
+      "commonMisconception": "學生可能只聽到第一個提議 dancing 就直接選，忽略了後面的辯正。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Correct Article",
+      "question": "I see ______ elephant and ______ cat at the zoo.",
+      "options": [
+        "a, a",
+        "an, an",
+        "an, a",
+        "a, an"
+      ],
+      "answer_index": 2,
+      "explanation": "elephant 以元音開頭，冠詞用 an；cat 以輔音開頭，冠詞用 a。",
+      "commonMisconception": "不定冠詞 a/an 的混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Sound Match",
+      "question": "Teacher: 'Quack! Quack! What animal is it?' \nStudent: 'It's a ______!'",
+      "options": [
+        "dog",
+        "cat",
+        "duck (鴨)",
+        "pig"
+      ],
+      "answer_index": 2,
+      "explanation": "Quack 是鴨子 (duck) 的英文擬聲詞。",
+      "commonMisconception": "不熟悉英文特有的動物叫聲翻譯。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Family Pet",
+      "question": "A: My sister has a small animal. It can sing and fly. \nB: Is it a bird? \nA: Yes, ______.",
+      "options": [
+        "it is",
+        "it can",
+        "she is",
+        "she can"
+      ],
+      "answer_index": 0,
+      "explanation": "問句是 'Is it...?'，簡答應使用 'Yes, it is'。雖然 sister 能唱歌飛，但後半句問的是 bird。",
+      "commonMisconception": "將主詞誤認為 sister 而選 she，或受前面 can sing 的影響誤選 help verb 為 can。",
+      "quality_level": "L4"
+    }
+  ]
+}

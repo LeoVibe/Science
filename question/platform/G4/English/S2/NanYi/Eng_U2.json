@@ -1,0 +1,316 @@
+{
+  "publisher": "NanYi",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U2",
+  "lesson_title": "Do You Like Grapes?",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Fruit Bowl",
+      "question": "A: Look! These ______ are purple and sweet.\nB: I like them! They are my favorite.",
+      "options": [
+        "apples",
+        "grapes",
+        "bananas",
+        "papayas"
+      ],
+      "answer_index": 1,
+      "explanation": "紫色且甜美的水果是葡萄 (grapes)。",
+      "commonMisconception": "詞彙辨識力不足。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "In the Garden",
+      "question": "The ______ are yellow. Monkeys love them very much.",
+      "options": [
+        "apples",
+        "grapes",
+        "bananas",
+        "oranges"
+      ],
+      "answer_index": 2,
+      "explanation": "黃色且猴子喜愛的水果是香蕉 (bananas)。",
+      "commonMisconception": "常識詞彙連結錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Lunch Snack",
+      "question": "I have a big red ______ in my lunch box.",
+      "options": [
+        "apple",
+        "grape",
+        "banana",
+        "milk"
+      ],
+      "answer_index": 0,
+      "explanation": "大且紅色的水果，選項中只有蘋果 (apple) 符合。",
+      "commonMisconception": "顏色提示忽略。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Asking about Preference",
+      "question": "A: ______ you like oranges?\nB: Yes, I do.",
+      "options": [
+        "Do",
+        "Does",
+        "Are",
+        "Is"
+      ],
+      "answer_index": 0,
+      "explanation": "第二人稱 'you' 的一般動詞疑問句，使用助動詞 'Do'。",
+      "commonMisconception": "誤用 Does 或 B 動詞。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "His Like",
+      "question": "Toby ______ watermelons. He eats them every summer.",
+      "options": [
+        "like",
+        "likes",
+        "is like",
+        "liking"
+      ],
+      "answer_index": 1,
+      "explanation": "三單主詞 Toby，動詞現在式需加 s。",
+      "commonMisconception": "漏掉三單標記。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Negative Response",
+      "question": "A: Does she like lemons?\nB: No, she ______. They are too sour.",
+      "options": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "not"
+      ],
+      "answer_index": 1,
+      "explanation": "針對 'Does she...?' 的否定回答為 'No, she doesn't'。",
+      "commonMisconception": "助動詞選取錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Group Decision",
+      "question": "A: Do they like grapes?\nB: ______, they don't. They like bananas.",
+      "options": [
+        "Yes",
+        "No",
+        "Not",
+        "OK"
+      ],
+      "answer_index": 1,
+      "explanation": "後半句否定簡答 'they don't'，對應開頭為 'No'。",
+      "commonMisconception": "Yes/No 邏輯不一致。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Plurality in Category",
+      "question": "I like ______. They are yummy.",
+      "options": [
+        "apple",
+        "apples",
+        "an apple",
+        "a apple"
+      ],
+      "answer_index": 1,
+      "explanation": "表達喜好（類別概念）時，習慣使用複數名詞 'apples'。",
+      "commonMisconception": "誤用單數名詞表達類別。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Question Word",
+      "question": "______ fruits do you like?\nI like grapes and bananas.",
+      "options": [
+        "How",
+        "What",
+        "When",
+        "Where"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「什麼」(內容)，使用疑問詞 'What'。",
+      "commonMisconception": "疑問詞混淆。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Fruit Market",
+      "question": "Amy likes apples. Sam likes bananas. Lily doesn't like apples. She likes oranges. \nQuestion: Who likes oranges?",
+      "options": [
+        "Amy",
+        "Sam",
+        "Lily",
+        "Nobody"
+      ],
+      "answer_index": 2,
+      "explanation": "文中敘述 'Lily... likes oranges'。",
+      "commonMisconception": "資訊提取錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Color and Fruit",
+      "question": "I have three red fruits and two yellow fruits. \nQuestion: How many fruits do I have in total?",
+      "options": [
+        "One",
+        "Three",
+        "Two",
+        "Five"
+      ],
+      "answer_index": 3,
+      "explanation": "3+2=5。學生需整合數值資訊。",
+      "commonMisconception": "受單一顏色數值誘導。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Taste Test",
+      "question": "The lemon is sour. The candy is sweet. The orange is sweet and sour. \nQuestion: Does the orange taste like both (兩者)?",
+      "options": [
+        "Yes, it does.",
+        "No, it doesn't.",
+        "Yes, they do.",
+        "No, they don't."
+      ],
+      "answer_index": 0,
+      "explanation": "文中描述柳橙兼具酸甜特色，即為 taste like both。對應問句用 'it does'。",
+      "commonMisconception": "對 'both' 詞義理解不足。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Sharing is Caring",
+      "question": "Lily: 'I have many grapes.'\nSam: 'Can I have some?'\nLily: 'Yes, but I only like PURPLE grapes. These are green.'\nQuestion: Does Lily like these green grapes?",
+      "options": [
+        "Yes, she does.",
+        "No, she doesn't.",
+        "Yes, he does.",
+        "No, he doesn't."
+      ],
+      "answer_index": 1,
+      "explanation": "Lily 說她「只」喜歡紫色葡萄，這些是綠色的，暗示她不喜歡這些綠色的。",
+      "commonMisconception": "排除邏輯推理力弱。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Fruit Juice",
+      "question": "We need three apples and one banana to make the juice. \nQuestion: If we have five apples, can we make the juice?",
+      "options": [
+        "Yes, we can.",
+        "No, we can't.",
+        "Yes, they can.",
+        "No, they aren't."
+      ],
+      "answer_index": 0,
+      "explanation": "需要 3 顆，現有 5 顆，數量充足。前提假設香蕉也有（雖然文中未提及香蕉不足）。",
+      "commonMisconception": "受數值不同而干擾肯定判斷（以為 3 才是對的）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Negative Question",
+      "question": "A: ______ you like sour apples?\nB: No, I don't. They are yucky (不好吃).",
+      "options": [
+        "Don't",
+        "Doesn't",
+        "Aren't",
+        "Why"
+      ],
+      "answer_index": 0,
+      "explanation": "否定疑問句「難道你不喜歡...？」，對應回答後方的否定形式。",
+      "commonMisconception": "對否定疑問句結構陌生。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Healthy School Snack",
+      "question": "Mom: 'Don't eat too much candy. Eat some ______ .'\nSon: 'OK! I like apples and oranges.'",
+      "options": [
+        "bread",
+        "fruit",
+        "milk",
+        "meat"
+      ],
+      "answer_index": 1,
+      "explanation": "兒子回答提及蘋果與柳橙，推論母親建議吃的是水果 (fruit)。",
+      "commonMisconception": "無法進行範疇連結。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Choosing a Gift",
+      "question": "My teacher doesn't like sweet food. I ______ give (給) her a box of chocolate.",
+      "options": [
+        "should",
+        "shouldn't",
+        "can",
+        "am"
+      ],
+      "answer_index": 1,
+      "explanation": "老師不喜歡甜食，所以「不應該」送巧克力。",
+      "commonMisconception": "助動詞語意選用錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Taiwanese Fruits",
+      "question": "In Taiwan, people like to eat ______ in summer. They are big and have green skin.",
+      "options": [
+        "grapes",
+        "watermelons",
+        "bananas",
+        "apples"
+      ],
+      "answer_index": 1,
+      "explanation": "描述為大且具有綠色外皮的夏天消暑水果，是西瓜 (watermelons)。",
+      "commonMisconception": "不具備外型與文化連結的詞義聯想。",
+      "quality_level": "L3"
+    }
+  ]
+}

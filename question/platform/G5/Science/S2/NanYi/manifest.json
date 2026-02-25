@@ -1,0 +1,36 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci_U1",
+      "title": "認識星空",
+      "path": "Sci_U1.json"
+    },
+    {
+      "id": "Sci_U2",
+      "title": "空氣與燃燒的關係",
+      "path": "Sci_U2.json"
+    },
+    {
+      "id": "Sci_U3",
+      "title": "動物的身體構造和運動",
+      "path": "Sci_U3.json"
+    },
+    {
+      "id": "Sci_U4",
+      "title": "認識聲音三要素",
+      "path": "Sci_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

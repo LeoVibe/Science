@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U9",
+  "lesson_title": "面積",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "數格子",
+      "question": "一個圖形由方格紙上的小正方形組成。如果小正方形的邊長是 1 公分，這個圖形佔了 15 個小正方形，它的面積是多少？",
+      "options": [
+        "15 平方公分",
+        "15 公分",
+        "30 平方公分",
+        "15 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "面積的單位是「平方公分」，每一個小正方形的面積是 1 平方公分。15 個就是 15 平方公分。",
+      "commonMisconception": "學生經常把面積的單位與長度的單位搞混（公分 vs 平方公分）。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比較圖形面積",
+      "question": "甲圖形由 12 個小方格組成，乙圖形由 9 個小方格和 4 個半格組成。誰的面積比較大？",
+      "options": [
+        "甲圖形",
+        "乙圖形",
+        "一樣大",
+        "無法比較"
+      ],
+      "answer_index": 0,
+      "explanation": "甲 = 12 平方公分。乙 = 9 + 4×0.5 = 9 + 2 = 11 平方公分。12 > 11。",
+      "commonMisconception": "學生可能不知道半格怎麼計算，或者直接把半格也算成 1 格。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "操場比大小",
+      "question": "甲教室的地板是長方形，長 8 公尺、寬 6 公尺。乙教室是正方形，邊長 7 公尺。哪間教室面積比較大？",
+      "options": [
+        "甲教室（48 平方公尺）",
+        "乙教室（49 平方公尺）",
+        "一樣大",
+        "甲教室（56 平方公尺）"
+      ],
+      "answer_index": 1,
+      "explanation": "甲 = 8 × 6 = 48 平方公尺。乙 = 7 × 7 = 49 平方公尺。49 > 48。",
+      "commonMisconception": "學生可能直覺認為長方形的兩邊加起來比較大就面積大。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "面積與周長的差別",
+      "question": "一個正方形邊長為 5 公分，它的面積和周長分別是多少？",
+      "options": [
+        "面積 25 平方公分，周長 20 公分",
+        "面積 20 平方公分，周長 25 公分",
+        "面積 25 公分，周長 20 公分",
+        "面積 20 公分，周長 20 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "面積 = 5 × 5 = 25 平方公分。周長 = 5 × 4 = 20 公分。",
+      "commonMisconception": "面積與周長是三年級學生最常搞混的概念，特別是單位不同（平方公分 vs 公分）。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "拼圖面積",
+      "question": "小明用 6 個邊長 2 公分的正方形方塊拼成一個長方形，拼好後的長方形面積是多少？",
+      "options": [
+        "24 平方公分",
+        "12 平方公分",
+        "48 平方公分",
+        "6 平方公分"
+      ],
+      "answer_index": 0,
+      "explanation": "每個小正方形面積 = 2 × 2 = 4 平方公分。6 個 = 4 × 6 = 24 平方公分。",
+      "commonMisconception": "學生可能忘記每個方塊的面積是 4（不是 2），因為邊長 2 公分的面積是 2×2=4。",
+      "quality_level": "L4"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "lesson_id": "M7_M9",
+  "lesson_title": "分數、時間與圖表",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "平分披薩",
+      "question": "將一個圓形披薩平分成 6 塊，吃掉其中的 1 塊，是吃了多少個披薩？",
+      "options": [
+        "1/6 個",
+        "6 個",
+        "6/1 個",
+        "1 個"
+      ],
+      "answer_index": 0,
+      "explanation": "平分 6 份取其 1，即為六分之一 (1/6)。",
+      "commonMisconception": "學生可能回答 1 塊而忽略「個」這個整體單位。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "跑步時間",
+      "question": "操場跑一圈要 3 分鐘，時鐘上的分針會走多少個小格？",
+      "options": [
+        "15 小格",
+        "3 小格",
+        "1 小格",
+        "30 小格"
+      ],
+      "answer_index": 1,
+      "explanation": "分針走一小格是一分鐘。3 分鐘就是走 3 小格。",
+      "commonMisconception": "學生可能將分針的一小格與一大格（5 分鐘）混淆。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "卡通播放時間",
+      "question": "巧虎卡通在上午 11 點 45 分開始，播了 25 分鐘。請問結束時是什麼時刻？",
+      "options": [
+        "上午 12 點 10 分",
+        "下午 12 點 10 分",
+        "上午 11 點 70 分",
+        "中午 12 點 00 分"
+      ],
+      "answer_index": 1,
+      "explanation": "11 時 45 分 + 25 分 = 11 時 70 分。70 分鐘 = 1 小時 10 分。11+1=12 點，過了中午 12 點通常記為下午（或中午）。",
+      "commonMisconception": "跨中午 12 點的進位是時間計算的常見錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "調查喜歡的水果",
+      "question": "班上統計資料顯示：喜歡蘋果的有 12 人，喜歡香蕉的有 8 人，喜歡橘子的比蘋果少 5 人。請問哪種水果最少人喜歡？",
+      "options": [
+        "蘋果",
+        "香蕉",
+        "橘子",
+        "一樣多"
+      ],
+      "answer_index": 2,
+      "explanation": "蘋果 12。香蕉 8。橘子 = 12 - 5 = 7。7 < 8 < 12，所以橘子最少。",
+      "commonMisconception": "必須先將文字描述轉換為數據才能進行比較。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比較分數大小",
+      "question": "媽媽買了兩條同樣長的長條蛋糕。姊姊吃了 1/4 條，妹妹吃了 1/3 條。請問誰剩下的蛋糕比較多？",
+      "options": [
+        "姊姊",
+        "妹妹",
+        "一樣多",
+        "無法判斷"
+      ],
+      "answer_index": 0,
+      "explanation": "1/3 > 1/4 (分母越小分數越大)。所以妹妹吃得比較多，剩下的就比較少。姊姊吃得少，剩下的就多。",
+      "commonMisconception": "這是一道轉彎題。學生常會算出誰「吃得多」而沒注意問的是誰「剩下多」。",
+      "quality_level": "L3"
+    }
+  ]
+}

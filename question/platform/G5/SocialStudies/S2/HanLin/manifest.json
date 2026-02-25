@@ -1,0 +1,36 @@
+{
+  "publisher": "HanLin",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "日本殖民統治與建設",
+      "path": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "臺灣多元文化",
+      "path": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "戰後與民主化腳步",
+      "path": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "世界文化與宗教",
+      "path": "Soc_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

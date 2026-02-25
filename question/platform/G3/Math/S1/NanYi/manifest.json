@@ -1,0 +1,51 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "M1",
+      "title": "數到10000",
+      "path": "M1_數到10000.json"
+    },
+    {
+      "id": "M2",
+      "title": "四位數的加減",
+      "path": "M2_四位數的加減.json"
+    },
+    {
+      "id": "M3",
+      "title": "乘法",
+      "path": "M3_乘法.json"
+    },
+    {
+      "id": "M4",
+      "title": "幾毫米",
+      "path": "M4_幾毫米.json"
+    },
+    {
+      "id": "M5",
+      "title": "角、正方形和長方形",
+      "path": "M5_角、正方形和長方形.json"
+    },
+    {
+      "id": "M6",
+      "title": "除法",
+      "path": "M6_除法.json"
+    },
+    {
+      "id": "M7",
+      "title": "M9_綜合單元",
+      "path": "M7_M9_綜合單元.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "live",
+    "quality": {
+      "depthScore": 4.1,
+      "accuracyScore": 9.1,
+      "isVerified": true
+    }
+  }
+}

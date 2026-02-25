@@ -1,0 +1,190 @@
+{
+  "publisher": "康軒",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L6",
+  "lesson_title": "神奇密碼",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "生活中的符號辨識",
+      "question": "在《神奇密碼》一文中提到，我們在商店買東西時，商品包裝上通常會有一排黑色、粗細不同的線條，那被稱作什麼？",
+      "options": [
+        "條碼 (Barcode)",
+        "為了讓包裝看起來比較美麗的裝飾用彩帶",
+        "鋼琴的琴鍵圖案",
+        "亂碼線"
+      ],
+      "answer_index": 0,
+      "explanation": "條碼是將數字資訊以圖形化展現的工具，方便機器快速讀取商品資訊。",
+      "commonMisconception": "分不清條碼與一般的圖案裝飾。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "理解條碼的功能",
+      "question": "為什麼便利商店的店員只要用刷讀器輕輕一掃，就能知道商品的名稱與價格？這「神奇」的地方在於？",
+      "options": [
+        "因為便利商店的刷讀器裡面有神奇的小精靈正在偷偷幫忙查價",
+        "店員的記性特別好，只是假裝刷一下而已",
+        "條碼會自動發出電報給工廠",
+        "條碼中隱藏著數位化的產品資訊，能與電腦資料庫連動"
+      ],
+      "answer_index": 3,
+      "explanation": "條碼是數位科技在生活中的具現，結合了數據儲存與檢索的邏輯。",
+      "commonMisconception": "將科技原理神秘化或個人化解釋。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "數位生活應用：QR Code",
+      "question": "現在常見的方形點點「二維碼 (QR Code)」與傳統長形「條碼」相比，最大的優點可能是？",
+      "options": [
+        "當機器的掃描光線刷過去的時候，它會自動變化出彩虹的顏色",
+        "比較便宜，不用錢就可以印",
+        "能儲存更多的資訊，甚至包括網址、地圖或影片資訊",
+        "看起來比較可愛"
+      ],
+      "answer_index": 2,
+      "explanation": "二維空間比一維條碼具備更高的容錯率與資料密度。",
+      "commonMisconception": "無法分辨不同符號的功能進化層次。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "識字與詞義",
+      "question": "文中描述這排密碼讓生活變得更「便捷」，「便捷」的意思是？",
+      "options": [
+        "邊走邊玩",
+        "動作動作很快、非常便利",
+        "代表這個地方的上廁所設施非常方便而且乾淨",
+        "代表有很多錢"
+      ],
+      "answer_index": 1,
+      "explanation": "便捷強調效率的提升與程序的簡化。",
+      "commonMisconception": "詞義窄化（如上廁所）。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析全篇的主旨與啟示",
+      "question": "這課為什麼將條碼或符號稱為「神奇」的密碼？",
+      "options": [
+        "因為它們就像是頂級魔術師的魔法棒一樣，會變出神奇的魔術把買來的東西通通都變不見",
+        "因為它們長得像外星人的",
+        "因為簡單的線條或符號中，隱藏著豐富的訊息，大幅改變了人類處理與分類資訊的方式",
+        "因為不認識字的人也能看懂它們在說什麼"
+      ],
+      "answer_index": 2,
+      "explanation": "「神奇」是來自於資訊轉換的智慧，將複雜的事物化繁為簡。",
+      "commonMisconception": "對「神奇」進行奇幻而非科學邏輯的連結。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "生活溝通：交通符號",
+      "question": "除了商品條碼，下列哪一項也是生活中的「神奇密碼」且能守護我們的安全？",
+      "options": [
+        "十字路口的紅綠燈號誌及其切換規律",
+        "雲朵的形狀",
+        "路邊五顏六色的花朵",
+        "廣告招牌上巨大的明星照片"
+      ],
+      "answer_index": 0,
+      "explanation": "交通號誌是用顏色（紅、綠）作為代表行動指令的視覺密碼。",
+      "commonMisconception": "將非功能性符號混淆其中。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "細節識記：出現地點",
+      "question": "課文中提到，我們在哪個最常見的地方可以看到這些幫助生活運轉的密碼？",
+      "options": [
+        "在夢境裡",
+        "距離地球遙遠而且充滿未知隕石的月球表面",
+        "便利商店、超商與圖書館",
+        "大海的中心"
+      ],
+      "answer_index": 2,
+      "explanation": "這些場所都需要大量的資訊管理與快速流通。",
+      "commonMisconception": "細節提取錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "假如沒有條碼...",
+      "question": "如果有一天世界上的「條碼密碼」都消失了，我們的購物生活最可能發生什麼改變？",
+      "options": [
+        "所有的商品會自動爆炸",
+        "世界上所有的人都會突然之間買不到任何喜歡的東西，於是世界就迎來了一片和平",
+        "錢會自動變多，大家都不用付錢了",
+        "店員需要改用手動查價與手寫收據，消費結帳的速度會大幅變慢且容易出錯"
+      ],
+      "answer_index": 3,
+      "explanation": "透過「反面思考」來彰顯該發明對社會效率的重要性。",
+      "commonMisconception": "選到充滿幻想且脫離現實邏輯的解答。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "小小發明家精神",
+      "question": "本課介紹了生活案例。你認為學習這課最能啟發我們對什麼的興趣？",
+      "options": [
+        "學習如何變成魔術師",
+        "對科技、資訊邏輯與未來創新的探索心志",
+        "學習如何模仿機器人的聲音說話",
+        "學習如何更快地吃完餅乾"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一篇關於素養（數位素養）與科學素養的普及文章。",
+      "commonMisconception": "將目標窄化為技藝模仿。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "閱讀判斷策略",
+      "question": "依據課文，條碼中的「線條顏色」通常被設定為？",
+      "options": [
+        "它們是完全隱形的顏色，只有來自外太空的外星人才能夠看得見",
+        "彩虹的彩色",
+        "亮閃閃的金色",
+        "深黑色與淺色（白）的強烈對比"
+      ],
+      "answer_index": 3,
+      "explanation": "高對比有利於光學掃描器對反射光的辨識。",
+      "commonMisconception": "基礎事實記憶錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析符號與閱讀",
+      "question": "為什麼說「認識這些符號，就等於是在閱讀一種新的語言」？",
+      "options": [
+        "因為符號會自動教你說外語",
+        "因為它們打破了傳統文字的限制，能以精簡的方式傳遞大量的跨國、跨區域通用訊息",
+        "因為認識符號的人可以不吃飯也長大",
+        "因為符號長得像英文字母"
+      ],
+      "answer_index": 1,
+      "explanation": "符號的全球通用性是其最強大的力量，這是一種超越文字的「視覺語言」。",
+      "commonMisconception": "詞義誤解（如字長得像）。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "總結思考：負責任的數位公民",
+      "question": "雖然密碼很神奇，但在網路上輸入帳號密碼時，哪種行為最正確？",
+      "options": [
+        "把密碼貼在大門口，以免自己忘記",
+        "隨便告訴路過的陌生人，反正很神奇",
+        "學會妥善管理並保密個人專屬的神奇密碼，不輕易外洩以保護安全",
+        "永遠都不設定密碼，讓電腦去生氣"
+      ],
+      "answer_index": 2,
+      "explanation": "本課延伸出的「密碼與安全」是現實生活中極重要的資訊守法素養。",
+      "commonMisconception": "對資訊安全缺乏意識。",
+      "quality_level": "L2"
+    }
+  ]
+}

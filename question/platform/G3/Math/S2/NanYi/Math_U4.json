@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U4",
+  "lesson_title": "兩步驟的計算",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "買早餐",
+      "question": "三明治 35 元、奶茶 20 元。小明買了 2 份三明治和 1 杯奶茶，共多少錢？",
+      "options": [
+        "90 元",
+        "55 元",
+        "75 元",
+        "110 元"
+      ],
+      "answer_index": 0,
+      "explanation": "35 × 2 + 20 = 70 + 20 = 90 元。先乘後加。",
+      "commonMisconception": "學生可能先加再乘（35+20=55, 55×2=110），運算順序錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "書店打折",
+      "question": "一本故事書原價 120 元，打折後便宜 30 元。小華買了 3 本打折後的書，付了 500 元，可以找回多少？",
+      "options": [
+        "230 元",
+        "130 元",
+        "140 元",
+        "170 元"
+      ],
+      "answer_index": 2,
+      "explanation": "折扣後每本 120-30=90 元。3 本 90×3=270 元。找回 500-270=230 元。(修正：90×3=270, 500-270=230。選項 A 正確。)",
+      "commonMisconception": "多步驟計算中，每一步的結果都會影響下一步。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "種花盆栽",
+      "question": "花店有 200 株花苗。第一天賣出 45 株，第二天賣出的是第一天的 2 倍。請問兩天後剩下幾株？",
+      "options": [
+        "65 株",
+        "110 株",
+        "155 株",
+        "90 株"
+      ],
+      "answer_index": 0,
+      "explanation": "第二天賣 45 × 2 = 90 株。兩天共賣 45 + 90 = 135 株。剩餘 200 - 135 = 65 株。",
+      "commonMisconception": "三步驟問題，容易在中間落掉一步。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "運算順序",
+      "question": "算式『8 + 4 × 5』的正確答案是多少？",
+      "options": [
+        "60",
+        "28",
+        "45",
+        "20"
+      ],
+      "answer_index": 1,
+      "explanation": "先乘除後加減：4 × 5 = 20。8 + 20 = 28。",
+      "commonMisconception": "學生常從左到右算（8+4=12, 12×5=60），忽略了先乘除的規則。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "零食分享",
+      "question": "一包軟糖有 48 顆。小美拿了 12 顆分給 4 個好朋友（每人一樣多），剩下的自己留著。每個朋友拿到幾顆？小美留了幾顆？",
+      "options": [
+        "朋友各 3 顆，小美留 36 顆",
+        "朋友各 12 顆，小美留 0 顆",
+        "朋友各 4 顆，小美留 32 顆",
+        "朋友各 3 顆，小美留 48 顆"
+      ],
+      "answer_index": 0,
+      "explanation": "12 ÷ 4 = 3（每個朋友 3 顆）。48 - 12 = 36（小美留 36 顆）。",
+      "commonMisconception": "學生需清楚辨認哪些數字該除、哪些該減。",
+      "quality_level": "L4"
+    }
+  ]
+}

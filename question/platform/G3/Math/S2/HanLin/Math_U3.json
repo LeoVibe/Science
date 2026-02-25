@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U3",
+  "lesson_title": "分數與加減",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "分吃巧克力棒",
+      "question": "一條巧克力平分成 8 段，哥哥吃了 3 段，弟弟吃了 2 段，兩人一共吃了幾分之幾條巧克力？",
+      "options": [
+        "5/8 條",
+        "5/16 條",
+        "3/8 條",
+        "1/2 條"
+      ],
+      "answer_index": 0,
+      "explanation": "3/8 + 2/8 = 5/8。同分母分數加法，分母不變，分子相加。",
+      "commonMisconception": "學生會把分母也相加，寫成 5/16。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "剩下的果汁",
+      "question": "一瓶果汁是 1 整瓶（即 7/7 瓶），小美喝了 3/7 瓶後，再喝了 2/7 瓶。請問還剩下幾分之幾瓶？",
+      "options": [
+        "2/7 瓶",
+        "5/7 瓶",
+        "3/7 瓶",
+        "1/7 瓶"
+      ],
+      "answer_index": 0,
+      "explanation": "先算喝了多少：3/7 + 2/7 = 5/7。再算剩下：7/7 - 5/7 = 2/7。",
+      "commonMisconception": "學生常在兩步驟中停留在第一步（5/7），忘了再做減法。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "披薩分享",
+      "question": "媽媽買了 2 個一模一樣的披薩，每個都切成 6 片。小明吃了第一個披薩的 2 片，又吃了第二個披薩的 3 片。他一共吃了幾分之幾個披薩？",
+      "options": [
+        "5/12 個",
+        "5/6 個",
+        "5 片",
+        "2/6 個"
+      ],
+      "answer_index": 1,
+      "explanation": "每個披薩切 6 片，所以 1 片 = 1/6 個。吃了 2/6 + 3/6 = 5/6 個披薩。",
+      "commonMisconception": "學生可能把兩個披薩的分母加在一起（6+6=12），得出 5/12。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "誰剩得多？",
+      "question": "小花有 5/9 條緞帶，小草有 7/9 條緞帶。誰的緞帶比較長？長多少？",
+      "options": [
+        "小草長，多 2/9 條",
+        "小花長，多 2/9 條",
+        "一樣長",
+        "小草長，多 2/18 條"
+      ],
+      "answer_index": 0,
+      "explanation": "7/9 - 5/9 = 2/9。小草比小花多 2/9 條。",
+      "commonMisconception": "在同分母減法中混淆分子順序。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "蛋糕義賣",
+      "question": "義賣會準備了一個蛋糕，分成 10 等份。上午賣出 4/10，下午賣出 3/10。如果要全部賣完，晚上還需要賣出幾分之幾？",
+      "options": [
+        "3/10",
+        "7/10",
+        "7/20",
+        "1/10"
+      ],
+      "answer_index": 0,
+      "explanation": "上午+下午共賣 4/10 + 3/10 = 7/10。全部是 10/10。10/10 - 7/10 = 3/10。",
+      "commonMisconception": "三步驟問題中，學生容易在中間就停下來。",
+      "quality_level": "L4"
+    }
+  ]
+}

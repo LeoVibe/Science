@@ -1,0 +1,85 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U3",
+  "lesson_title": "時間",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "學校作息",
+      "question": "上午第一節課從 8 時 40 分開始，每節課 40 分鐘。請問第一節課什麼時候結束？",
+      "options": [
+        "9 時 00 分",
+        "9 時 20 分",
+        "8 時 80 分",
+        "9 時 40 分"
+      ],
+      "answer_index": 1,
+      "explanation": "8 時 40 分 + 40 分 = 8 時 80 分。80 分 ≥ 60，進位 → 9 時 20 分。",
+      "commonMisconception": "學生容易寫出「8 時 80 分」而忘了進位。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "烤餅乾",
+      "question": "奶奶在上午 10 時 25 分把餅乾放進烤箱。烤好時是上午 11 時 05 分。請問烤了多久？",
+      "options": [
+        "40 分鐘",
+        "80 分鐘",
+        "1 小時 20 分",
+        "30 分鐘"
+      ],
+      "answer_index": 0,
+      "explanation": "11:05 - 10:25 = 40 分鐘。也可以想成：10:25 到 11:00 是 35 分，11:00 到 11:05 是 5 分，合計 40 分。",
+      "commonMisconception": "時間減法中，「借 1 小時」是借 60 分鐘不是 100 分鐘。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "旅行規劃",
+      "question": "從台北到台南的客運需要 4 小時 30 分。如果早上 7 時 15 分出發，幾點會到？",
+      "options": [
+        "上午 11 時 45 分",
+        "上午 11 時 30 分",
+        "中午 12 時 15 分",
+        "上午 10 時 45 分"
+      ],
+      "answer_index": 0,
+      "explanation": "7:15 + 4:30 = 11:45。7+4=11，15+30=45。沒有超過 60，不需進位。",
+      "commonMisconception": "長時間的加法中，學生需小心分鐘是否超過 60。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "日曆推算",
+      "question": "今天是 3 月 15 日星期一。請問 3 月 29 日是星期幾？",
+      "options": [
+        "星期一",
+        "星期日",
+        "星期二",
+        "星期三"
+      ],
+      "answer_index": 0,
+      "explanation": "從 15 到 29 共 14 天。14 ÷ 7 = 2 (整除)。整除代表同一天的星期，所以是星期一。",
+      "commonMisconception": "星期推算是除以 7 看餘數，餘 0 表示同一天。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "做菜計時",
+      "question": "爸爸先花 25 分鐘煮湯，再花 45 分鐘炒菜。他從下午 5 時 10 分開始做，全部做完是幾點幾分？",
+      "options": [
+        "下午 6 時 20 分",
+        "下午 6 時 10 分",
+        "下午 5 時 80 分",
+        "下午 7 時 00 分"
+      ],
+      "answer_index": 0,
+      "explanation": "總時間 25 + 45 = 70 分 = 1 小時 10 分。5:10 + 1:10 = 6:20。",
+      "commonMisconception": "需先加總兩段時間再做一次加法，且要注意 70 分鐘的進位。",
+      "quality_level": "L4"
+    }
+  ]
+}

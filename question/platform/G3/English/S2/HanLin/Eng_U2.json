@@ -1,0 +1,265 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U2",
+  "lesson_title": "Positions",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Looking for a Kite",
+      "question": "A: Where is my kite? \nB: It's ______ the desk. I can see it on the floor (地板).",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 2,
+      "explanation": "風箏在桌子下方 (under) 且位在「地板」上。",
+      "commonMisconception": "學生可能忽略 floor 這個關鍵字而誤選 on (在桌上)。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Schoolbag Check",
+      "question": "My books are ______ my schoolbag. I'm ready for school!",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 0,
+      "explanation": "書本收在書包裡 (in)。",
+      "commonMisconception": "介係詞用法混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Table Setting",
+      "question": "The cup is ______ the desk. Be careful!",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 1,
+      "explanation": "杯子放在桌子上 (on)。",
+      "commonMisconception": "學生可能不認識 desk，或者分不清 on 與 in 的差別。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Looking for the Ball",
+      "question": "A: ______ is the ball? \nB: It's next to the chair.",
+      "options": [
+        "What",
+        "Who",
+        "Where",
+        "How"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問地點位置使用疑問詞 Where。",
+      "commonMisconception": "疑問詞混淆。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Finding a Dog",
+      "question": "Where is the dog? ______ next to the door.",
+      "options": [
+        "It",
+        "It's",
+        "Is",
+        "Its"
+      ],
+      "answer_index": 1,
+      "explanation": "回答時需要「主詞 + B 動詞」，故選 It's (It is)。",
+      "commonMisconception": "學生常會漏掉 B 動詞，只選 It，或者混淆 It's 與 Its (所有格)。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Bedroom Cleanup",
+      "question": "A: Is the ball in the box? \nB: No, it ______. It's under the bed.",
+      "options": [
+        "is",
+        "are",
+        "isn't",
+        "aren't"
+      ],
+      "answer_index": 2,
+      "explanation": "否定簡答為 No, it isn't。",
+      "commonMisconception": "否定簡答忘記加 n't。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Desk Arrangement",
+      "question": "The pencil is on the book. The book is on the desk. \nQuestion: Where is the pencil?",
+      "options": [
+        "It's in the desk.",
+        "It's on the desk.",
+        "It's under the desk.",
+        "It's next to the book."
+      ],
+      "answer_index": 1,
+      "explanation": "鉛筆在書上，書在桌上，因此鉛筆也在桌子上方的空間位置。",
+      "commonMisconception": "學生缺乏空間遞移的邏輯能力，或者受限於文本中的 \"on the book\" 而忽略了與桌子的關係。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Helping Mom",
+      "question": "Mom: 'Lily, is your kite ______ the desk?' \nLily: 'Yes, it is. Look! It's right (就在) on the desk.'",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 1,
+      "explanation": "Lily 的回答中提到了 'on the desk'，故問句也是針對桌上的位置提問。",
+      "commonMisconception": "受前一題影響誤選其他介係詞。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Check",
+      "question": "Where ______ my cat and dog?",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞是 'my cat and dog' (兩者，複數)，故 B 動詞用 are。",
+      "commonMisconception": "只看到最近的 cat 而選 is，忽略了連接詞 and 形成的複數主詞。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Finding Toys",
+      "question": "The doll (娃娃) is on the chair. The ball is in the box. The car is under the desk. \nQuestion: What is in the box?",
+      "options": [
+        "The doll",
+        "The car",
+        "The ball",
+        "The desk"
+      ],
+      "answer_index": 2,
+      "explanation": "文本指明 'The ball is in the box'，故選 The ball。",
+      "commonMisconception": "物品與位置對應發生錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Lost and Found",
+      "question": "Sam: 'Where is my pencil?' \nAmy: 'Look! It's next to your book.' \nSam: 'Oh, I see it. Thanks!' \nQuestion: Is the pencil on the book?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, he is.",
+        "No, he isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "鉛筆是在書的「旁邊」(next to)，而非「上面」(on)。故回答 No, it isn't。",
+      "commonMisconception": "學生可能將 next to 與 on 的圖像概念混淆。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Mystery Box",
+      "question": "This box (箱子) is big. My kite is in it. My ball is next to it. \nQuestion: Where is the ball?",
+      "options": [
+        "It's in the box.",
+        "It's next to the box.",
+        "It's under the kite.",
+        "It's on the kite."
+      ],
+      "answer_index": 1,
+      "explanation": "根據文本 'My ball is next to it' (it 指代 box)，故球在箱子旁邊。",
+      "commonMisconception": "代名詞 it 的指代對象辨識錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Noun Plurals",
+      "question": "I have two ______ on my desk.",
+      "options": [
+        "kite",
+        "kites",
+        "a kite",
+        "an kite"
+      ],
+      "answer_index": 1,
+      "explanation": "數量詞 two 之後應接複數名詞 kites。",
+      "commonMisconception": "單複數形式混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Classroom Game",
+      "question": "Teacher: 'Put your hands ______ your desk!' \nStudents: 'One, two, three! Ready!' (學生們把手放在桌面上)",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 1,
+      "explanation": "根據學生動作描述「放在桌面上」，對應介係詞是 on。",
+      "commonMisconception": "學生可能不懂 'Put your hands' 的意思，或者無法從動態描述中提取空間關係。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Library Rule",
+      "question": "A: Shh! Where are we? \nB: We are ______ the library. We must be quiet.",
+      "options": [
+        "on",
+        "in",
+        "under",
+        "next to"
+      ],
+      "answer_index": 1,
+      "explanation": "人在圖書館「裡面」(in) 必須保持安靜。",
+      "commonMisconception": "分不清場所介係詞 in 與 on 的選用。",
+      "quality_level": "L3"
+    }
+  ]
+}

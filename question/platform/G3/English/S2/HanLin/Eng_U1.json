@@ -1,0 +1,265 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U1",
+  "lesson_title": "Time",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Looking at the Clock",
+      "question": "A: What time is it? \nB: It's ______ o'clock. It's time for lunch!",
+      "options": [
+        "seven",
+        "twelve",
+        "three",
+        "nine"
+      ],
+      "answer_index": 1,
+      "explanation": "通常午餐時間是十二點 (twelve o'clock)。這結合了時間單字與生活常識。",
+      "commonMisconception": "學生可能不認識 twelve 或分不清 lunch 的時間。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Waking Up",
+      "question": "It's ______ o'clock in the morning. Time to get up!",
+      "options": [
+        "seven",
+        "twelve",
+        "two",
+        "eleven"
+      ],
+      "answer_index": 0,
+      "explanation": "早晨起床時間通常是七點 (seven o'clock)。",
+      "commonMisconception": "學生可能分不清 morning (早上) 與其他時段的對應數字。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Evening Homework",
+      "question": "It's ______ o'clock. I'm doing my homework before bed.",
+      "options": [
+        "one",
+        "eight",
+        "twelve",
+        "three"
+      ],
+      "answer_index": 1,
+      "explanation": "晚上八點 (eight o'clock) 是常見的寫功課時段。",
+      "commonMisconception": "數字單字拼寫或意義之混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Asking for Time",
+      "question": "A: ______ time is it? \nB: It's ten o'clock.",
+      "options": [
+        "How",
+        "Where",
+        "What",
+        "Who"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問時間的固定格式是 'What time is it?'。",
+      "commonMisconception": "受中文直譯「現在『幾』點」或「現在時間『如何』」影響而誤選 How。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Reporting Time",
+      "question": "It ______ four o'clock. Let's go play!",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "It 作為主詞時，B 動詞使用 is。",
+      "commonMisconception": "主謂不一致。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Waiting for a Friend",
+      "question": "A: Is it three o'clock? \nB: No, ______ isn't. It's two o'clock.",
+      "options": [
+        "I",
+        "he",
+        "it",
+        "she"
+      ],
+      "answer_index": 2,
+      "explanation": "當問句是 'Is it...?' 時，簡答主詞代換為 it。",
+      "commonMisconception": "代名詞代換錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Schedule Check",
+      "question": "Teacher: 'It's nine o'clock. Time for English class!' \nStudent: 'Oh, ______ is! I like English.'",
+      "options": [
+        "it",
+        "he",
+        "she",
+        "they"
+      ],
+      "answer_index": 0,
+      "explanation": "承接前句的 'It's...'，學生肯定時也會使用 'it is'。",
+      "commonMisconception": "受中文影響省略主詞 it。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Catching the Bus",
+      "question": "A: Hurry up! It's eight o'clock! \nB: Oh no! I ______ late!",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 I 對應的 B 動詞是 am。",
+      "commonMisconception": "基礎 B 動詞用法混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Time Format",
+      "question": "It is eleven ______.",
+      "options": [
+        "o'clock",
+        "clock",
+        "time",
+        "hour"
+      ],
+      "answer_index": 0,
+      "explanation": "在整點之後應加 o'clock 描述時間。",
+      "commonMisconception": "直接使用單字 clock (時鐘) 來描述時間，或者不知道 o'clock 的正確位元組。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Amy's Day",
+      "question": "Amy gets up (起床) at seven o'clock. She has breakfast at eight o'clock. \nQuestion: What time does Amy have breakfast?",
+      "options": [
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ],
+      "answer_index": 1,
+      "explanation": "文本中提到 'She has breakfast at eight o'clock'，故答案是八點。",
+      "commonMisconception": "學生可能將起床時間 (seven) 與早餐時間搞混。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Movie Time",
+      "question": "The movie (電影) is at five o'clock. It is four o'clock now. \nQuestion: Is it movie time now?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "answer_index": 1,
+      "explanation": "電影五點才開始，現在才四點，所以還沒到時間。簡答用 'No, it isn't'。",
+      "commonMisconception": "忽略數字差異，或者選了針對人的回答 (I'm not)。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "School Party",
+      "question": "Teacher: 'The party is at two o'clock.' \nToby: 'But it's three o'clock now!' \nQuestion: Is Toby late (遲到) for the party?",
+      "options": [
+        "No, he's early.",
+        "Yes, he is.",
+        "No, he isn't.",
+        "Yes, she is."
+      ],
+      "answer_index": 1,
+      "explanation": "聚會兩點開始，現在已經三點，所以 Toby 遲到了。 Toby 是男生用 he，簡答 'Yes, he is'。",
+      "commonMisconception": "學生可能不知道 late 的意思，或在時間先後邏輯上發生混淆。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Spelling Match",
+      "question": "One, two, three, four, ______, six.",
+      "options": [
+        "fivve",
+        "fifth",
+        "five",
+        "fine"
+      ],
+      "answer_index": 2,
+      "explanation": "數字 5 的正確拼法是 five。",
+      "commonMisconception": "數字拼法混淆，如分不清 five 與 fine。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "What's Missing?",
+      "question": "A clock has numbers from 1 to ______. It shows the time.",
+      "options": [
+        "six",
+        "ten",
+        "twelve",
+        "twenty"
+      ],
+      "answer_index": 2,
+      "explanation": "時鐘上的數字通常是 1 到 12。",
+      "commonMisconception": "受 24 小時制或 60 分鐘制干擾。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Greeting Check",
+      "question": "A: Good ______! It's seven o'clock in the morning. \nB: Hi, Mom!",
+      "options": [
+        "afternoon",
+        "night",
+        "morning",
+        "evening"
+      ],
+      "answer_index": 2,
+      "explanation": "早上七點 (seven o'clock in the morning) 應搭配問候語 Good morning。",
+      "commonMisconception": "分不清時段與對應的問候語。",
+      "quality_level": "L4"
+    }
+  ]
+}

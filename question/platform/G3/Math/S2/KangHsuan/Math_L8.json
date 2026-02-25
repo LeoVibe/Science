@@ -1,0 +1,130 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "L8",
+  "lesson_title": "統計表",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "水果銷售表判讀",
+      "question": "根據表格：蘋果賣了 15 箱，香蕉賣了 20 箱，橘子賣了 12 箱。哪一種水果賣得最多？",
+      "options": [
+        "蘋果",
+        "香蕉",
+        "橘子",
+        "都一樣"
+      ],
+      "answer_index": 1,
+      "explanation": "20 > 15 > 12，香蕉數值最大。",
+      "commonMisconception": "數值比較錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "二維表格分析 (課表或時間表)",
+      "question": "週一週二都有數學課，週三週四沒有。一週總共有幾天有數學課？",
+      "options": [
+        "1 天",
+        "2 天",
+        "3 天",
+        "4 天"
+      ],
+      "answer_index": 1,
+      "explanation": "週一與週二，共計兩天。",
+      "commonMisconception": "數據提取錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "生活應用：票選活動",
+      "question": "班上票選校外教學地點：動物園 18 票，植物園 5 票，博物館 12 票。總共有幾人參與投票？",
+      "options": [
+        "30 人",
+        "35 人",
+        "25 人",
+        "40 人"
+      ],
+      "answer_index": 1,
+      "explanation": "18 + 5 + 12 = 35 人。",
+      "commonMisconception": "連加計算失誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數據差距分析",
+      "question": "圖書館週一借出 45 本書，週二借出 30 本書。週一比週二多借出幾本？",
+      "options": [
+        "75 本",
+        "15 本",
+        "10 本",
+        "20 本"
+      ],
+      "answer_index": 1,
+      "explanation": "45 - 30 = 15 本。",
+      "commonMisconception": "誤用加法算總合。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "一維統計表基礎",
+      "question": "統計表中用來計數的『正』字符號，一記代表多少數值？",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "10"
+      ],
+      "answer_index": 2,
+      "explanation": "一個『正』字有五畫，代表 5。",
+      "commonMisconception": "混淆筆劃數。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "天氣統計應用",
+      "question": "三月份有 12 天是晴天，其餘是陰天 (三月共 31 天)。請問陰天有幾天？",
+      "options": [
+        "12 天",
+        "31 天",
+        "19 天",
+        "20 天"
+      ],
+      "answer_index": 2,
+      "explanation": "31 - 12 = 19 天。",
+      "commonMisconception": "對月份總天數不熟。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數據預測推理",
+      "question": "小明週一省下 5 元，週二省下 10 元，以此類推每天多省 5 元。週三他會省下幾元？",
+      "options": [
+        "10 元",
+        "15 元",
+        "20 元",
+        "5 元"
+      ],
+      "answer_index": 1,
+      "explanation": "5 (一), 10 (二), 15 (三)。规律是增加 5 元。",
+      "commonMisconception": "規律找尋錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "二維表格找特定資訊",
+      "question": "在課表表格中，第二節課是從幾點開始？ (假設第一節 8:40 結束，休息 10 分鐘)",
+      "options": [
+        "8:40",
+        "8:50",
+        "9:00",
+        "8:30"
+      ],
+      "answer_index": 1,
+      "explanation": "8:40 + 10 = 8:50。",
+      "commonMisconception": "讀取表格位置不對。",
+      "quality_level": "L4"
+    }
+  ]
+}

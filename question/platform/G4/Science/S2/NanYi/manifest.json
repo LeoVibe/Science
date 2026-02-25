@@ -1,0 +1,36 @@
+{
+  "publisher": "NanYi",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci_U1",
+      "title": "仰望星空",
+      "path": "Sci_U1.json"
+    },
+    {
+      "id": "Sci_U2",
+      "title": "水生生物與環境",
+      "path": "Sci_U2.json"
+    },
+    {
+      "id": "Sci_U3",
+      "title": "大地與流水",
+      "path": "Sci_U3.json"
+    },
+    {
+      "id": "Sci_U4",
+      "title": "能源與運輸工具",
+      "path": "Sci_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8.5,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

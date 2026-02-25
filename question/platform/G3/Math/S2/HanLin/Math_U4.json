@@ -1,0 +1,85 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U4",
+  "lesson_title": "圓",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "圓的名稱",
+      "question": "在一個圓裡面，從圓心出發到圓周上任一點的線段稱為什麼？",
+      "options": [
+        "直徑",
+        "半徑",
+        "弦",
+        "圓周"
+      ],
+      "answer_index": 1,
+      "explanation": "圓心到圓周上任一點的線段就是半徑。",
+      "commonMisconception": "學生經常把半徑與直徑搞混。直徑是通過圓心連接圓周上兩點的線段。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "車輪直徑",
+      "question": "腳踏車的車輪半徑是 35 公分，直徑是多少公分？",
+      "options": [
+        "17 公分",
+        "35 公分",
+        "70 公分",
+        "105 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "直徑 = 半徑 × 2 = 35 × 2 = 70 公分。",
+      "commonMisconception": "學生可能記錯公式，用 35 ÷ 2 或 35 × 3。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓規畫圓實作",
+      "question": "老師要學生畫一個直徑 16 公分的圓。小美把圓規的兩腳張開 16 公分來畫，她畫的圓正確嗎？",
+      "options": [
+        "正確，直徑就是圓規的開口",
+        "不正確，圓規應張開 8 公分（半徑）",
+        "不正確，圓規應張開 32 公分",
+        "正確，結果一樣"
+      ],
+      "answer_index": 1,
+      "explanation": "圓規張開的距離是半徑而非直徑。半徑 = 16 ÷ 2 = 8 公分。",
+      "commonMisconception": "這是實作中最常見的錯誤，學生直接用直徑設定圓規。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比較兩個圓",
+      "question": "甲圓的半徑是 9 公分，乙圓的直徑是 20 公分。請問哪個圓比較大？",
+      "options": [
+        "甲圓",
+        "乙圓",
+        "一樣大",
+        "無法比較"
+      ],
+      "answer_index": 1,
+      "explanation": "甲圓直徑 = 9 × 2 = 18 公分。乙圓直徑 20 公分。20 > 18，乙圓較大。",
+      "commonMisconception": "學生可能直接用 9 與 20 比較，但這是不同單位（半徑 vs 直徑）。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "同心圓花盆",
+      "question": "花園裡有兩個同心圓的花盆。小圓半徑是 5 公分，大圓半徑是 8 公分。請問大圓的直徑比小圓的直徑多多少公分？",
+      "options": [
+        "3 公分",
+        "6 公分",
+        "13 公分",
+        "16 公分"
+      ],
+      "answer_index": 1,
+      "explanation": "大圓直徑 8×2=16，小圓直徑 5×2=10。16-10=6 公分。",
+      "commonMisconception": "學生可能直接用半徑相減 8-5=3，忘了題目問的是直徑差。",
+      "quality_level": "L4"
+    }
+  ]
+}

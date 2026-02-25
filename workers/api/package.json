@@ -1,0 +1,16 @@
+{
+  "name": "@eidos/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create eidos-db",
+    "db:migrate": "wrangler d1 migrations apply eidos-db",
+    "db:migrate:local": "wrangler d1 migrations apply eidos-db --local"
+  },
+  "devDependencies": {
+    "wrangler": "^3.91.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G5",
+  "semester": "S1",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "M10",
+      "title": "統計圖",
+      "path": "M10_統計圖.json"
+    },
+    {
+      "id": "M1",
+      "title": "多位小數與加減",
+      "path": "M1_多位小數與加減.json"
+    },
+    {
+      "id": "M2",
+      "title": "因數與公因數",
+      "path": "M2_因數與公因數.json"
+    },
+    {
+      "id": "M3",
+      "title": "倍數與公倍數",
+      "path": "M3_倍數與公倍數.json"
+    },
+    {
+      "id": "M4",
+      "title": "擴分、約分和通分",
+      "path": "M4_擴分、約分和通分.json"
+    },
+    {
+      "id": "M5",
+      "title": "多邊形",
+      "path": "M5_多邊形.json"
+    },
+    {
+      "id": "M6",
+      "title": "異分母分數的加減",
+      "path": "M6_異分母分數的加減.json"
+    },
+    {
+      "id": "M7",
+      "title": "三角形、四邊形和梯形的面積",
+      "path": "M7_三角形、四邊形和梯形的面積.json"
+    },
+    {
+      "id": "M8",
+      "title": "線對稱圖形",
+      "path": "M8_線對稱圖形.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 3.5,
+      "accuracyScore": 8,
+      "isVerified": false
+    }
+  }
+}

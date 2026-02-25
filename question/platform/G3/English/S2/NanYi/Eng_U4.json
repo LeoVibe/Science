@@ -1,0 +1,265 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U4",
+  "lesson_title": "Family & Jobs",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Looking at a Photo",
+      "question": "A: Who is he? \nB: He is my father. He is a ______.",
+      "options": [
+        "doctor",
+        "nurse",
+        "student",
+        "sister"
+      ],
+      "answer_index": 0,
+      "explanation": "在選項中，doctor 是常見的職業名稱。sister 是親屬稱謂而非職業。",
+      "commonMisconception": "學生可能分不清職業 (Jobs) 與親屬稱謂 (Family members)。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "School Visit",
+      "question": "My mother works in a school. She is a ______. She likes books.",
+      "options": [
+        "doctor",
+        "nurse",
+        "teacher",
+        "student"
+      ],
+      "answer_index": 2,
+      "explanation": "在學校工作且喜歡書的職業通常是老師 (teacher)。",
+      "commonMisconception": "學生可能混淆 teacher 與 student，或者不認識 school 所在地點。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "In the Hospital",
+      "question": "The ______ is helping the doctor. She is wearing white.",
+      "options": [
+        "doctor",
+        "nurse",
+        "teacher",
+        "student"
+      ],
+      "answer_index": 1,
+      "explanation": "在醫院協助醫生且穿著白色制服的人通常是護理師 (nurse)。",
+      "commonMisconception": "分不清 doctor 與 nurse 的主從及角色差異。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Identifying Family members",
+      "question": "A: Is she your mother? \nB: Yes, she ______.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 she 對應的 B 動詞是 is。",
+      "commonMisconception": "基礎 B 動詞搭配錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Talking about a Friend",
+      "question": "He ______ a student. He is my best friend.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "He 是第三人稱單數主詞，應配 B 動詞 is。",
+      "commonMisconception": "主謂不一致。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Guessing Job",
+      "question": "A: Is your brother a teacher? \nB: No, he ______. He is a student.",
+      "options": [
+        "am not",
+        "don't",
+        "isn't",
+        "aren't"
+      ],
+      "answer_index": 2,
+      "explanation": "'Is he...?' 的否定簡答為 'No, he isn't'。",
+      "commonMisconception": "否定縮寫錯誤或助動詞選錯。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Family Picnic",
+      "question": "A: Who is that woman (女人)? \nB: ______ is my grandmother. She is eighty years old.",
+      "options": [
+        "He",
+        "She",
+        "It",
+        "They"
+      ],
+      "answer_index": 1,
+      "explanation": "Woman 或 Grandmother 都是女性，代名詞應使用 She。",
+      "commonMisconception": "性別代名詞 He/She 混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "At the Clinic",
+      "question": "Leo: 'Dad, I'm not fine today.' \nDad: 'Don't worry. We are going to see (看) a ______.'",
+      "options": [
+        "teacher",
+        "doctor",
+        "student",
+        "sister"
+      ],
+      "answer_index": 1,
+      "explanation": "身體不舒服時，應該去看醫生 (doctor)。",
+      "commonMisconception": "不具備生活常識情境的英語轉換力。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Check",
+      "question": "Are ______ doctors? No, they are nurses.",
+      "options": [
+        "he",
+        "she",
+        "they",
+        "it"
+      ],
+      "answer_index": 2,
+      "explanation": "後面的簡答是 they，則疑問句主詞也應是 they，且 doctors 為複數。",
+      "commonMisconception": "單複數人稱代名詞與名詞不一致。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Family Album",
+      "question": "My father is a doctor. My mother is a nurse. I am a student. \nQuestion: Is the father a nurse?",
+      "options": [
+        "Yes, he is.",
+        "No, he isn't. He's a doctor.",
+        "Yes, she is.",
+        "No, she isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "文本中說爸爸是醫生 (doctor)，故否定問題。簡答用 'No, he isn't'。",
+      "commonMisconception": "閱讀時職業配對錯誤。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "School Morning",
+      "question": "A: Good morning, Mrs. Chen! \nB: Good morning, Sam. Open your books, please. \nQuestion: What is Mrs. Chen's job?",
+      "options": [
+        "She is a doctor.",
+        "She is a teacher.",
+        "She is a nurse.",
+        "She is a student."
+      ],
+      "answer_index": 1,
+      "explanation": "Mrs. Chen 叫學生開書，推論她是老師 (teacher)。",
+      "commonMisconception": "無法從對話指令中推論身分。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Guess the Person",
+      "question": "I have a white coat. I work with doctors. I like to help people (人們). \nQuestion: Who am I?",
+      "options": [
+        "A teacher",
+        "A nurse",
+        "A student",
+        "A bird"
+      ],
+      "answer_index": 1,
+      "explanation": "穿白衣、與醫生共事且助人，在給定選項中護理師 (nurse) 最符合。",
+      "commonMisconception": "學生可能誤以為是學生（若穿白色校服），但關鍵是「與醫生共事」。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Correct Article",
+      "question": "Miss Lin is ______ English teacher. She is great!",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "X"
+      ],
+      "answer_index": 1,
+      "explanation": "English 以元音開頭，單數不定冠詞應使用 an。",
+      "commonMisconception": "不定冠詞 a/an 的混淆。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Family Tree",
+      "question": "Sam's father is a doctor. Sam is ten years old. \nQuestion: Is Sam a doctor, too?",
+      "options": [
+        "Yes, he is.",
+        "No, he isn't. He's a student.",
+        "Yes, they are.",
+        "No, they aren't."
+      ],
+      "answer_index": 1,
+      "explanation": "Sam 才十歲，應該還在讀書 (student)，不可能已經是醫生。",
+      "commonMisconception": "學生可能因為文本提到 doctor 就直接選 Yes，忽略了年齡常識。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Hospital Busy Day",
+      "question": "Doctors and nurses are very busy. They are in the ______. \nQuestion: Where are they?",
+      "options": [
+        "school",
+        "hospital (醫院)",
+        "park",
+        "bedroom"
+      ],
+      "answer_index": 1,
+      "explanation": "醫生和護士的主要工作場所是醫院 (hospital)。",
+      "commonMisconception": "單字量限制，可能不認識 hospital。",
+      "quality_level": "L3"
+    }
+  ]
+}

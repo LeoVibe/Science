@@ -1,0 +1,36 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "漢人社會形成",
+      "path": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "開港通商與日治起點",
+      "path": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "臺灣經濟基礎電力",
+      "path": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "經濟與理財觀",
+      "path": "Soc_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

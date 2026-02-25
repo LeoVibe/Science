@@ -1,0 +1,36 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "English",
+  "items": [
+    {
+      "id": "U1",
+      "title": "Who_Are_You",
+      "path": "U1_Who_Are_You.json"
+    },
+    {
+      "id": "U2",
+      "title": "What_Is_It",
+      "path": "U2_What_Is_It.json"
+    },
+    {
+      "id": "U3",
+      "title": "Is_It_a_Bird",
+      "path": "U3_Is_It_a_Bird.json"
+    },
+    {
+      "id": "U4",
+      "title": "How_Old_Are_You",
+      "path": "U4_How_Old_Are_You.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 0,
+      "accuracyScore": 0,
+      "isVerified": false
+    }
+  }
+}

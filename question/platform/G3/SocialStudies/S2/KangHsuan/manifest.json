@@ -1,0 +1,46 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "我們居住的地方",
+      "path": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "居住地方的風貌",
+      "path": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "消費與生活",
+      "path": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "消費與選擇",
+      "path": "Soc_U4.json"
+    },
+    {
+      "id": "Soc_U5",
+      "title": "家鄉的地名",
+      "path": "Soc_U5.json"
+    },
+    {
+      "id": "Soc_U6",
+      "title": "家鄉的故事",
+      "path": "Soc_U6.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9.5,
+      "accuracyScore": 9.8,
+      "isVerified": true
+    }
+  }
+}

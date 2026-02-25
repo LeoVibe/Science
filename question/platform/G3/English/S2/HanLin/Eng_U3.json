@@ -1,0 +1,265 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U3",
+  "lesson_title": "Present Continuous",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "In the Kitchen",
+      "question": "Mom is in the kitchen. She is ______ dinner for the family.",
+      "options": [
+        "cooking",
+        "dancing",
+        "sleeping",
+        "drinking"
+      ],
+      "answer_index": 0,
+      "explanation": "在廚房 (kitchen) 處理晚餐 (dinner) 的動作應是烹飪 (cooking)。",
+      "commonMisconception": "學生可能分不清 V-ing 的動作含義。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Party Time",
+      "question": "The music is great! We are ______ together in the living room.",
+      "options": [
+        "sleeping",
+        "dancing",
+        "eating",
+        "cooking"
+      ],
+      "answer_index": 1,
+      "explanation": "有很棒的音樂且在客廳活動，最符合的情境是跳舞 (dancing)。",
+      "commonMisconception": "學生可能未注意情境提示 (music) 而亂選一個動作。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Night Time",
+      "question": "It's eleven o'clock at night. Dad is ______ in his bedroom.",
+      "options": [
+        "cooking",
+        "eating",
+        "sleeping",
+        "running"
+      ],
+      "answer_index": 2,
+      "explanation": "深夜十一點在臥室，最合理的動作是睡覺 (sleeping)。",
+      "commonMisconception": "分不清場所 (bedroom) 與動作的關聯。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Phone Call",
+      "question": "A: What ______ you doing? \nB: I'm eating an apple.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 2,
+      "explanation": "主詞是 you，對應的 B 動詞是 are。",
+      "commonMisconception": "基礎 B 動詞搭配錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Looking for Toby",
+      "question": "A: What is Toby doing? \nB: He ______ sleeping.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "explanation": "He 是第三人稱單數，B 動詞配 is。",
+      "commonMisconception": "進行式結構中缺少 B 動詞或搭配錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Classroom Mystery",
+      "question": "A: Is Amy dancing? \nB: No, she ______. She is singing.",
+      "options": [
+        "is",
+        "isn't",
+        "am not",
+        "aren't"
+      ],
+      "answer_index": 1,
+      "explanation": "前面是 No 開頭且主詞是 she，否定簡答應為 'she isn't'。",
+      "commonMisconception": "否定簡答縮寫錯誤或 B 動詞選錯。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Watching TV",
+      "question": "Leo and Sam are ______ TV in the living room.",
+      "options": [
+        "watch",
+        "watches",
+        "watching",
+        "to watch"
+      ],
+      "answer_index": 2,
+      "explanation": "在 B 動詞 (are) 之後描述正在進行的動作，應使用 V-ing 形式。",
+      "commonMisconception": "忘記加 -ing，或者分不清時態結構。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Dinner Table",
+      "question": "A: Are you eating? \nB: Yes, ______.",
+      "options": [
+        "I am",
+        "it is",
+        "you are",
+        "she is"
+      ],
+      "answer_index": 0,
+      "explanation": "對 'Are you...?' 的肯定簡答為 'Yes, I am'。",
+      "commonMisconception": "代名詞轉稱錯誤，或者回答中忘了 B 動詞。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Check",
+      "question": "Look! The cat is ______ on the desk.",
+      "options": [
+        "runing",
+        "running",
+        "run",
+        "runs"
+      ],
+      "answer_index": 1,
+      "explanation": "run 的現在分詞 (V-ing) 需重複字尾 n 再加 ing，即 running。",
+      "commonMisconception": "V-ing 變化規則不熟，漏寫一個 n。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "After School",
+      "question": "Sam is drinking water. Amy is eating bread. Toby is sleeping. \nQuestion: What is Sam doing?",
+      "options": [
+        "He is eating.",
+        "He is drinking.",
+        "He is sleeping.",
+        "He is dancing."
+      ],
+      "answer_index": 1,
+      "explanation": "文本指明 'Sam is drinking water'，故答案是他在喝水。",
+      "commonMisconception": "人名與動作對應發生錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Busy Family",
+      "question": "Mom is cooking in the kitchen. Dad is cooking with her. \nQuestion: What are they doing?",
+      "options": [
+        "They is cooking.",
+        "They are cooking.",
+        "They am cooking.",
+        "They dancing."
+      ],
+      "answer_index": 1,
+      "explanation": "主詞是 They，對應複數 B 動詞 are + V-ing。",
+      "commonMisconception": "主謂不一致 (They is)，或者漏掉 B 動詞。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "At the Park",
+      "question": "Boy: 'Look at the bird! Is it singing?' \nGirl: 'No, it's not. It's drinking water.' \nQuestion: Is the bird singing?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, he is.",
+        "No, she isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "女孩否定了男孩的提問，指出鳥實際上在喝水。簡答用 'No, it isn't'。",
+      "commonMisconception": "受男孩提問影響而選 Yes，或者分不清 it/he/she。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Action Choice",
+      "question": "I am ______ with my markers.",
+      "options": [
+        "drawing",
+        "eating",
+        "sleeping",
+        "cooking"
+      ],
+      "answer_index": 0,
+      "explanation": "使用彩色筆 (markers) 的動作是畫畫 (drawing)。",
+      "commonMisconception": "不認識 markers，無法將受詞與動詞連結。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Silent Classroom",
+      "question": "Teacher: 'Shh! Students. Be quiet.' \nQuestion: What are the students likely doing?",
+      "options": [
+        "They are dancing.",
+        "They are singing.",
+        "They are sleeping.",
+        "They are cooking."
+      ],
+      "answer_index": 2,
+      "explanation": "根據老師要求安靜 (Be quiet) 的情境，最合理的是有人正在睡覺或需要安靜閱讀，選項中以 sleeping 最符合。",
+      "commonMisconception": "無法將「安靜」與四個動作選項做邏輯連結。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Guess the Action",
+      "question": "A: He is in the bedroom. Zzz... Zzz... \nQuestion: What is he doing?",
+      "options": [
+        "He is eating.",
+        "He is dancing.",
+        "He is sleeping.",
+        "He is cooking."
+      ],
+      "answer_index": 2,
+      "explanation": "Zzz 是英文中表示睡覺打呼的音效，故答案是 sleeping。",
+      "commonMisconception": "不認識 Zzz 的擬聲含義。",
+      "quality_level": "L4"
+    }
+  ]
+}

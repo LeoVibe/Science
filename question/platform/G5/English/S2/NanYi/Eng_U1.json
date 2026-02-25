@@ -1,0 +1,350 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U1",
+  "lesson_title": "Directions & Places",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Asking for Help",
+      "question": "A: Excuse me, how can I ______ to the post office?\nB: Go straight for two blocks. It's on your right.",
+      "options": [
+        "go",
+        "get",
+        "geting",
+        "goes"
+      ],
+      "answer_index": 1,
+      "explanation": "「如何到達某地」的固定句型為 'How can I get to [place]?'。",
+      "commonMisconception": "學生可能將 go to 與 get to 混淆。在此句型中助動詞後方需用原形 get。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Simple Path",
+      "question": "Don't turn left. Go ______! You will see the bank.",
+      "options": [
+        "straight",
+        "back",
+        "up",
+        "down"
+      ],
+      "answer_index": 0,
+      "explanation": "直走 (Go straight) 是方向指引中最基礎的動詞詞彙。",
+      "commonMisconception": "拼寫錯誤。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Street Corner",
+      "question": "Turn ______ at the corner. The park is next to the bookstore.",
+      "options": [
+        "left",
+        "straight",
+        "on",
+        "in"
+      ],
+      "answer_index": 0,
+      "explanation": "在轉角轉彎，選項中只有 left (左轉) 代表轉向動作。",
+      "commonMisconception": "分不清左轉與直走。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Finding a Bank",
+      "question": "A: How ______ I get to the bank?\nB: You can take a bus.",
+      "options": [
+        "do",
+        "can",
+        "am",
+        "does"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「如何能夠」抵達，使用助動詞 can。",
+      "commonMisconception": "受 How do you go to school 習慣影響誤選 do，雖然語法通但 get to 句型常用 can。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Reporting Position",
+      "question": "The hospital is ______ your left.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "under"
+      ],
+      "answer_index": 2,
+      "explanation": "描述「在某人的左/右側」，介係詞固定使用 on (on your left)。",
+      "commonMisconception": "介係詞誤用。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Checking Directions",
+      "question": "A: Do I turn right at the museum?\nB: No, ______ right. Turn left.",
+      "options": [
+        "don't turn",
+        "not turn",
+        "doesn't turn",
+        "no turn"
+      ],
+      "answer_index": 0,
+      "explanation": "否定祈使句的結構為 'Don't + 原形動詞'。",
+      "commonMisconception": "否定結構不完整或語法錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Distance Check",
+      "question": "A: Is the library far from here?\nB: No, it isn't. Just ______ straight for one minute.",
+      "options": [
+        "walk",
+        "walks",
+        "walking",
+        "to walk"
+      ],
+      "answer_index": 0,
+      "explanation": "祈使句指示方向，使用原形動詞開頭。",
+      "commonMisconception": "受 one minute 誘導而誤用進行式或單三。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Choice",
+      "question": "There ______ a post office across from the school.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "explanation": "There be 句型，主詞 a post office 為單數，故用 is。",
+      "commonMisconception": "主謂不一致。",
+      "quality_level": "L2"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "To Infinitive",
+      "question": "I want ______ to the supermarket to buy some apples.",
+      "options": [
+        "go",
+        "going",
+        "to go",
+        "goes"
+      ],
+      "answer_index": 2,
+      "explanation": "want 之後接帶 to 的不定詞。後面另一個 to 是場所介係詞。",
+      "commonMisconception": "重複出現的不定詞符號與介係詞混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Map Guide",
+      "question": "Go straight. Turn left at the bookstore. The post office is next to the bookstore.\nQuestion: Where is the post office?",
+      "options": [
+        "Next to the bookstore.",
+        "Across from the park.",
+        "On the right.",
+        "Behind the bank."
+      ],
+      "answer_index": 0,
+      "explanation": "文中明確表示 'The post office is next to the bookstore'。",
+      "commonMisconception": "資訊提取錯誤。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Missing the Bank",
+      "question": "The bank is on your left. If you see the park, you went (走過頭) too far.\nQuestion: Is the bank after the park?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, they are.",
+        "No, they aren't."
+      ],
+      "answer_index": 1,
+      "explanation": "看到公園代表走過頭，表示銀行應在公園「之前」。",
+      "commonMisconception": "方位與先後順序邏輯處理不當。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Getting to Tainan",
+      "question": "A: How can I get to Tainan?\nB: You can take the train. The train station is across from the museum.\nQuestion: Where is the train station?",
+      "options": [
+        "In Tainan.",
+        "Across from the museum.",
+        "Next to the bus stop.",
+        "Behind the bank."
+      ],
+      "answer_index": 1,
+      "explanation": "文中說明火車站位在博物館對面。",
+      "commonMisconception": "受首句 Tainan 影響而選了錯誤地點。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Two Blocks Away",
+      "question": "The supermarket is two blocks from here. One block is 100 meters.\nQuestion: How far (多遠) is the supermarket?",
+      "options": [
+        "100 meters",
+        "200 meters",
+        "100 blocks",
+        "200 blocks"
+      ],
+      "answer_index": 1,
+      "explanation": "兩個街口，一街口 100 公尺，總共 200 公尺。",
+      "commonMisconception": "數學單位換算與文本理解結合力不足。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Finding Amy",
+      "question": "Amy: 'I'm at the library. It's across from the park.'\nSam: 'I'm at the park now.'\nQuestion: Can Sam see the library?",
+      "options": [
+        "Yes, it's across from him.",
+        "No, he is lost.",
+        "Yes, he's inside.",
+        "No, it's behind him."
+      ],
+      "answer_index": 0,
+      "explanation": "兩人在對面，Sam 在公園，自然能看到對面的圖書館。",
+      "commonMisconception": "無法建構相對視野的空間感。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Sentence Order",
+      "question": "______ at the second (第二個) corner.",
+      "options": [
+        "Right turn",
+        "Turning right",
+        "Turn right",
+        "Turn to right"
+      ],
+      "answer_index": 2,
+      "explanation": "祈使句動詞開頭，turn right 為動作習慣表達。",
+      "commonMisconception": "受中文「右轉」倒置影響誤選 Right turn。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "The Red Light",
+      "question": "The light (紅綠燈) is red. You ______ go straight.",
+      "options": [
+        "can",
+        "should",
+        "shouldn't",
+        "must"
+      ],
+      "answer_index": 2,
+      "explanation": "紅燈不應直走，使用否定助動詞 shouldn't。",
+      "commonMisconception": "交通法規常識與否定詞應用。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Post Office Delivery",
+      "question": "The post office is closed (關門) today. I ______ get there tomorrow.",
+      "options": [
+        "am",
+        "will",
+        "was",
+        "did"
+      ],
+      "answer_index": 1,
+      "explanation": "今天關門，打算明天再去，使用未來式 will。",
+      "commonMisconception": "受 today 影響誤用法。需注意前後句意轉折。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Taiwanese Maps",
+      "question": "In Taiwan, many street names use directions, like ______ Road.",
+      "options": [
+        "North",
+        "Happy",
+        "Fruit",
+        "Book"
+      ],
+      "answer_index": 0,
+      "explanation": "台灣路名常包含方位，如 中山「北」路 (North Road)。",
+      "commonMisconception": "不具備在地地標文化的英文化認知。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "School Campus",
+      "question": "Excuse me, where is the office?\nIt's in the main building (主棟), on the ______ floor.",
+      "options": [
+        "one",
+        "first",
+        "once",
+        "the one"
+      ],
+      "answer_index": 1,
+      "explanation": "描述樓層使用序數詞 first (一樓)。",
+      "commonMisconception": "基數詞與序數詞用法混淆。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Looking for the Hospital",
+      "question": "A: Is the hospital next to the bank?\nB: No, it's across from the bank.\nQuestion: Is the hospital far from the bank?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "I don't know.",
+        "Yes, it's next to."
+      ],
+      "answer_index": 1,
+      "explanation": "在對面 (across from) 通常代表只隔一條街，並不「遙遠」(far)。",
+      "commonMisconception": "對距離形容詞與方位詞的語感不一致。",
+      "quality_level": "L3"
+    }
+  ]
+}

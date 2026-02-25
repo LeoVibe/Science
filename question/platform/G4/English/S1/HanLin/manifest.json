@@ -1,0 +1,36 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S1",
+  "subject": "English",
+  "items": [
+    {
+      "id": "U1",
+      "title": "What_Time_Is_It",
+      "path": "U1_What_Time_Is_It.json"
+    },
+    {
+      "id": "U2",
+      "title": "What_Are_You_Doing",
+      "path": "U2_What_Are_You_Doing.json"
+    },
+    {
+      "id": "U3",
+      "title": "Where_is_My_Key",
+      "path": "U3_Where_is_My_Key.json"
+    },
+    {
+      "id": "U4",
+      "title": "Whose_Ruler_is_This",
+      "path": "U4_Whose_Ruler_is_This.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 0,
+      "accuracyScore": 0,
+      "isVerified": false
+    }
+  }
+}

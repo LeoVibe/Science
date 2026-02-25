@@ -1,0 +1,36 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "English",
+  "items": [
+    {
+      "id": "U1",
+      "title": "Hello",
+      "path": "U1_Hello.json"
+    },
+    {
+      "id": "U2",
+      "title": "What_is_Your_Name",
+      "path": "U2_What_is_Your_Name.json"
+    },
+    {
+      "id": "U3",
+      "title": "Who_is_He",
+      "path": "U3_Who_is_He.json"
+    },
+    {
+      "id": "U4",
+      "title": "Is_He_a_Teacher",
+      "path": "U4_Is_He_a_Teacher.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 0,
+      "accuracyScore": 0,
+      "isVerified": false
+    }
+  }
+}

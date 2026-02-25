@@ -1,0 +1,265 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U1",
+  "lesson_title": "Abilities",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "School Talent Show Registration",
+      "question": "Teacher: 'We have a show today. Can you dance, Toby?' \nToby: 'Yes, I ______.'",
+      "options": [
+        "am",
+        "can",
+        "do",
+        "is"
+      ],
+      "answer_index": 1,
+      "explanation": "當問句使用 'Can you...' 時，回答應使用相同的助動詞 'can'。'Yes, I can' 是標準的肯定簡答。",
+      "commonMisconception": "學生常會混淆 B 動詞 (am/is) 與助動詞 (can)，因中文常直譯為「我是可以的」。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "At the Playground",
+      "question": "Ken: 'I can ______ very fast. Watch me!' \nQuestion: What can Ken do?",
+      "options": [
+        "run",
+        "draw",
+        "sing",
+        "cook"
+      ],
+      "answer_index": 0,
+      "explanation": "情境中 Ken 提到他可以 'run' (跑) 很快，因此正確動作是跑步。",
+      "commonMisconception": "學生可能未細讀題幹，隨機選取一個動作單字。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "In the Art Room",
+      "question": "I have many markers and a big paper. I can ______ a beautiful bird.",
+      "options": [
+        "swim",
+        "run",
+        "draw",
+        "dance"
+      ],
+      "answer_index": 2,
+      "explanation": "有彩色筆 (markers) 和紙張 (paper)，最合理的活動是 'draw' (畫畫)。",
+      "commonMisconception": "學生可能不認識 markers 這個單字，導致無法聯結到畫畫的動作。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "easy",
+      "scenario": "Classroom Activity",
+      "question": "Can you draw a cat? No, ______.",
+      "options": [
+        "I can",
+        "I'm not",
+        "I can't",
+        "I don't"
+      ],
+      "answer_index": 2,
+      "explanation": "'Can you...?' 的否定簡答為 'No, I can't' (can not 的縮寫)。",
+      "commonMisconception": "受 'Are you...?' 影響選用 'I'm not'，或受 'Do you...?' 影響選用 'I don't'。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "At the Swimming Pool",
+      "question": "Mom: 'Look at that fish! It can swim very fast.' \nLeo: 'I can swim, too! I'm a little fish.' \nQuestion: What can Leo do?",
+      "options": [
+        "He can fly.",
+        "He can swim.",
+        "He can draw.",
+        "He can dance."
+      ],
+      "answer_index": 1,
+      "explanation": "Leo 說 'I can swim, too'，表示他跟魚一樣會游泳。",
+      "commonMisconception": "學生可能誤以為 Leo 真的是一條魚，或因為 Leo 提到魚而分心選了其他無關選項。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Bird Watching in the Park",
+      "question": "Boy: 'Look at the bird. It can sing.' \nGirl: 'I love music. I can sing, too!' \nQuestion: What ability do the bird and the girl share (共同擁有)?",
+      "options": [
+        "They can swim.",
+        "They can sing.",
+        "They can fly.",
+        "They can run."
+      ],
+      "answer_index": 1,
+      "explanation": "男孩說鳥會唱歌 (sing)，女孩說她也會唱歌 (sing, too)，所以共同能力是唱歌。",
+      "commonMisconception": "學生常因刻板印象認為鳥會「飛」 (fly) 就直接勾選，而忽略文本中提到的 sing。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Art Class Mystery",
+      "question": "Teacher: 'Who is the artist? This picture is beautiful.' \nAmy: 'I can't draw, but Sam can. He likes markers.' \nQuestion: Who drew the picture?",
+      "options": [
+        "Amy",
+        "The Teacher",
+        "Sam",
+        "Toby"
+      ],
+      "answer_index": 2,
+      "explanation": "Amy 說她「不會」畫畫 (can't draw)，但 Sam 「會」 (Sam can)，所以畫畫的人是 Sam。",
+      "commonMisconception": "忽略助動詞否定式 can't 的意思，誤選第一個出現的人名 Amy。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Asking for Help",
+      "question": "Grandpa: 'I can't find my glasses. Can you help me, Lily?' \nLily: 'Yes, I can. I see them under the chair.' \nQuestion: Can Lily help her Grandpa?",
+      "options": [
+        "No, she can't.",
+        "Yes, she is.",
+        "Yes, she can.",
+        "No, she isn't."
+      ],
+      "answer_index": 2,
+      "explanation": "Lily 明確回答 'Yes, I can'，且在描述 Lily 時要用 she，故選 'Yes, she can'。",
+      "commonMisconception": "代名詞或助動詞一致性錯誤，例如選了 'Yes, she is'。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Animal Olympics",
+      "question": "The rabbit can jump. The frog can jump. \nQuestion: Which is true (正確的)?",
+      "options": [
+        "The rabbit can sing.",
+        "They both (兩者) can jump.",
+        "The frog can't jump.",
+        "The rabbit is blue."
+      ],
+      "answer_index": 1,
+      "explanation": "兔子和青蛙都會跳 (jump)，所以 'They both can jump' (他們都會跳) 是正確的敘述。",
+      "commonMisconception": "不知 both 的意思，或誤選了未在文本中提到的動作 (如 sing) 或顏色。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Musical Party Prep",
+      "question": "Host: 'Welcome! Can you play the piano?' \nGuest: 'No, I can't. But I can sing.' \nQuestion: What will the guest likely do at the party?",
+      "options": [
+        "Play the piano.",
+        "Sing a song.",
+        "Dance with friends.",
+        "Draw a picture."
+      ],
+      "answer_index": 1,
+      "explanation": "客人說他不會彈琴但「會唱歌」，因此最合理的活動是歌唱。",
+      "commonMisconception": "聽到關鍵字 piano 就選 A，未注意到客人的否定回答 'No, I can't'。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Talent Swap",
+      "question": "Mia: 'I can dance, but I can't sing.' \nBen: 'I can sing, but I can't dance.' \nQuestion: What can Ben do?",
+      "options": [
+        "He can sing.",
+        "He can't sing.",
+        "He can dance.",
+        "He can't sing or dance."
+      ],
+      "answer_index": 0,
+      "explanation": "文本中提到 Ben: 'I can sing'，所以 Ben 會唱歌。",
+      "commonMisconception": "混淆 Mia 與 Ben 的能力，或者被 'but' 後面的否定句干擾。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "At the Talent Show",
+      "question": "Director: 'We need a singer and a dancer.' \nAmy: 'I can sing!' \nToby: 'I can't sing, but I can dance.' \nQuestion: Can Amy and Toby work together (合作)?",
+      "options": [
+        "No, Toby can't sing.",
+        "Yes, Amy can sing and Toby can dance.",
+        "No, Amy can't dance.",
+        "Yes, they both can sing."
+      ],
+      "answer_index": 1,
+      "explanation": "Amy 會唱，Toby 會跳，剛好滿足導演的要求 (singer and dancer)，所以可以合作。",
+      "commonMisconception": "學生可能只關注某一個人的缺點 (can't) 而忽略全盤合作的可能性。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Conversation Check",
+      "question": "A: Can your dog ______? \nB: Yes, it can. It can run very fast.",
+      "options": [
+        "runs",
+        "running",
+        "run",
+        "to run"
+      ],
+      "answer_index": 2,
+      "explanation": "助動詞 Can 之後必須接「原形動詞」。",
+      "commonMisconception": "受第三人稱單數 dog 影響誤選 runs，或受現在進行式影響選 running。",
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Morning Exercise at the Park",
+      "question": "Leader: 'Let's ______. One, two, one, two!' \nQuestion: What are the students likely doing?",
+      "options": [
+        "They are sleeping.",
+        "They are running.",
+        "They are drawing.",
+        "They are singing."
+      ],
+      "answer_index": 1,
+      "explanation": "根據節奏指令 'One, two, one, two' 判斷，這通常是跑步或運動時的口號。",
+      "commonMisconception": "學生可能將數字節奏與唱歌聯想在一起，而忽略了場景 (Park) 與動作情境。",
+      "quality_level": "L4"
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Zoo Mystery",
+      "question": "It is big. It can't fly, but it can swim. It is grey and lives in the water. What is it?",
+      "options": [
+        "A bird",
+        "A cat",
+        "A hippo (河馬)",
+        "A rabbit"
+      ],
+      "answer_index": 2,
+      "explanation": "根據特徵：大 (big)、不會飛 (can't fly)、會游泳 (swim)、灰色 (grey)、住水裡 (water)，河馬是最符合的選項。",
+      "commonMisconception": "學生可能忽略 'can't fly' 直接因為關鍵字 swim 選了不符合其他條件的動物。",
+      "quality_level": "L3"
+    }
+  ]
+}
