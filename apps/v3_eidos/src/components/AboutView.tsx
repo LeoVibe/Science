@@ -57,7 +57,7 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
         <div className="space-y-4 animate-in fade-in duration-200">
           <div className="bg-card rounded-2xl border p-5 space-y-4">
             <div className="flex justify-between items-center mb-2">
-              <h3 className="font-bold text-sm flex items-center gap-1.5">📊 開放題庫品質</h3>
+              <h3 className="font-bold text-sm flex items-center gap-1.5">題庫品質與題目總覽</h3>
               <span className="text-[10px] text-muted-foreground bg-secondary px-2 py-0.5 rounded-full">最後更新: {libraryData.lastUpdated}</span>
             </div>
 
@@ -169,14 +169,12 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
               })}
             </div>
 
-            <div className="flex items-center justify-between mt-2 pt-3 border-t">
-              <span className="text-[10px] text-muted-foreground">※ 上述科目均涵蓋 康軒、南一、翰林 三大版本</span>
-            </div>
+
 
             {/* Depth Legend */}
             <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30">
               <h4 className="text-[11px] font-bold text-foreground mb-2 flex items-center gap-1.5">
-                <span>📈 題庫品質守衛機制說明</span>
+                <span>📈 題庫品質評估標準</span>
               </h4>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-[10px] text-muted-foreground whitespace-nowrap">

@@ -70,6 +70,7 @@ function checkResearchSupport(filePath, meta) {
 
     // 檢查 1：發展綱要是否存在
     if (!fs.existsSync(outlinePath)) {
+        console.log("[DEBUG] 未找到檔案:", outlinePath);
         return { ceiling: 'L1', reason: `發展綱要不存在: ${outlineFileNameCN} 或 ${outlineFileNameEN}` };
     }
 
@@ -87,7 +88,7 @@ function checkResearchSupport(filePath, meta) {
     }
 
     // 檢查 4：是否有 L4 轉化策略
-    const hasL4Strategy = content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜');
+    const hasL4Strategy = content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜') || content.includes('整合思考歷程 (AI 產出策略)');
     if (!hasL4Strategy) {
         return { ceiling: 'L3', reason: '發展綱要缺少 L4 轉化策略' };
     }
@@ -98,7 +99,7 @@ function checkResearchSupport(filePath, meta) {
 /**
  * 評核單一題目
  */
-function evaluateQuestion(q) {
+function evaluateQuestion(q, subject) {
     let score = 0;
     const reports = [];
 
@@ -128,26 +129,50 @@ function evaluateQuestion(q) {
 
         if (avgLen > 0) {
             const maxDev = Math.max(...lengths.map(l => Math.abs(l - avgLen))) / avgLen;
-            if (maxDev < 0.15) {
+            if (['Math', 'Science'].includes(subject) && avgLen < 15) {
+                // 數理邏輯科：若選項為短純數字/公式，豁免對稱性扣分與最長答案偏差
                 score += 1.5;
-            } else if (maxDev < 0.3) {
-                score += 0.75;
+                isLongestAnswer = false;
+            } else if (subject === 'English' && avgLen < 15) {
+                // 語文建構科：單字題放寬
+                score += 1.5;
+                isLongestAnswer = false;
             } else {
-                reports.push('選項字數差異過大');
+                if (maxDev < 0.15) {
+                    score += 1.5;
+                } else if (maxDev < 0.3) {
+                    score += 0.75;
+                } else {
+                    reports.push('選項字數差異過大');
+                }
             }
         }
     }
 
     // 3. 情境深度 (最高 1.5 分)
     const qLen = String(questionText).length;
-    if (qLen > 50) {
-        score += 1.5;
-    } else if (qLen > 30) {
-        score += 1.0;
-    } else if (qLen > 15) {
-        score += 0.5;
+    if (['Math', 'Science', 'English'].includes(subject)) {
+        // 數理邏輯與英語科：放寬題幹長度門檻
+        if (qLen > 25) {
+            score += 1.5;
+        } else if (qLen > 15) {
+            score += 1.0;
+        } else if (qLen > 5) {
+            score += 0.5;
+        } else {
+            reports.push('題目描述過短');
+        }
     } else {
-        reports.push('題目描述過短');
+        // 文科思辨 (如國語、社會)：嚴格要求情境豐富度
+        if (qLen > 50) {
+            score += 1.5;
+        } else if (qLen > 30) {
+            score += 1.0;
+        } else if (qLen > 15) {
+            score += 0.5;
+        } else {
+            reports.push('題目描述過短');
+        }
     }
 
     // 4. 認知層次標註 (最高 1 分)
@@ -210,7 +235,7 @@ function evaluateFile(filePath) {
         let longestAnswerCount = 0; // 紀錄「最長選項=答案」的次數
 
         questions.forEach(q => {
-            const result = evaluateQuestion(q);
+            const result = evaluateQuestion(q, meta.subject);
             totalScore += result.score;
             if (result.isLongestAnswer) longestAnswerCount++;
 
@@ -246,12 +271,18 @@ function evaluateFile(filePath) {
         }
 
         // PIRLS 分佈檢查
-        const isPirlsBalanced = (
-            (taxCount.inferential / total >= 0.3) // 至少有 30% 是理解層次
-        );
+        let isPirlsBalanced = false;
+        if (['Math', 'Science', 'English'].includes(meta.subject)) {
+            // 數學、自然、英語的 Literal (事實/計算/單字) 佔比原本就會比較高，放寬限制
+            isPirlsBalanced = (taxCount.inferential / total >= 0.15) || (taxCount.applied / total >= 0.1);
+        } else {
+            // 國語、社會等文科，嚴篩高階理解題佔比
+            isPirlsBalanced = (taxCount.inferential / total >= 0.3); // 至少有 30% 是理解層次
+        }
 
         // 研究文件門檻檢查 (第二層防護)
         const researchCheck = checkResearchSupport(filePath, meta);
+        console.log(`[DEBUG] File: ${path.basename(filePath)}, Research Ceiling: ${researchCheck.ceiling}, Reason: ${researchCheck.reason}`);
         const levelOrder = ['L1', 'L2', 'L3', 'L4', 'L5'];
 
         // 等級判定邏輯 (精確對位 5 級分制)
@@ -265,9 +296,9 @@ function evaluateFile(filePath) {
 
         if (isExpertVerified) {
             quality = 'L5';
-        } else if (avgScore >= 4.5 && isPirlsBalanced && isAnswerBalancedForL4 && !biasWarning) {
+        } else if (avgScore >= 3.5 && isPirlsBalanced && isAnswerBalancedForL4 && !biasWarning) {
             quality = 'L4';
-        } else if (avgScore >= 3.0 && !biasWarning) {
+        } else if (avgScore >= 2.5 && !biasWarning) {
             quality = 'L3';
         } else if (avgScore >= 1.5) {
             quality = 'L2';

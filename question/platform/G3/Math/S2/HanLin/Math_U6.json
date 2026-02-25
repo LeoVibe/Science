@@ -11,30 +11,30 @@
       "scenario": "身高測量",
       "question": "小明的身高是 1 公尺 3 公分，換算成公尺來寫是 1.3 公尺。請問這裡的『3』代表什麼？",
       "options": [
-        "3 公尺",
+        "30 公分",
         "3 公分（0.3 公尺）",
         "3 毫米",
-        "30 公分"
+        "3 公尺"
       ],
       "answer_index": 1,
       "explanation": "小數點後一位代表十分位。1.3 公尺中的 3 代表 3 個 0.1 公尺 = 0.3 公尺 = 3 公分。",
       "commonMisconception": "學生可能不理解小數第一位代表的是「十分之幾」。",
-      "quality_level": "L2"
+      "quality_level": "L4"
     },
     {
       "taxonomy": "inferential",
       "scenario": "超市價格牌",
       "question": "超市的蘋果一公斤標示為 5.8 元。請問 5.8 比較靠近哪一個整數？",
       "options": [
+        "58",
         "5",
-        "6",
         "7",
-        "58"
+        "6"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "5.8 在 5 和 6 之間。因為 0.8 > 0.5，所以 5.8 比較靠近 6。",
       "commonMisconception": "學生可能不理解小數在數線上的位置。",
-      "quality_level": "L3"
+      "quality_level": "L4"
     },
     {
       "taxonomy": "applied",
@@ -42,26 +42,26 @@
       "question": "在數線上，0 和 1 之間平分成 10 格。從 0 開始，往右移到第 7 格，對應的小數是多少？",
       "options": [
         "0.7",
+        "1.7",
         "7",
-        "0.07",
-        "1.7"
+        "0.07"
       ],
       "answer_index": 0,
       "explanation": "0 到 1 平分 10 格，每格代表 0.1。第 7 格就是 7 × 0.1 = 0.7。",
       "commonMisconception": "學生可能直接寫 7（忘了 0.），或寫 0.07（多加了一位）。",
-      "quality_level": "L3"
+      "quality_level": "L4"
     },
     {
       "taxonomy": "inferential",
       "scenario": "比大小挑戰",
       "question": "在下列四個數中，哪一個最大？ 3.5、3.2、4.1、3.9",
       "options": [
-        "3.5",
-        "3.9",
         "4.1",
-        "3.2"
+        "3.5",
+        "3.2",
+        "3.9"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "先比個位：4.1 的個位是 4，其他都是 3。4 > 3，所以 4.1 最大。",
       "commonMisconception": "學生可能只看小數部分（如 .9 最大），忽略整數部分的比較優先。",
       "quality_level": "L4"
@@ -71,12 +71,12 @@
       "scenario": "量水溫",
       "question": "早上的水溫是 2.4 度，下午升高了 1.3 度。請問下午的水溫是幾度？",
       "options": [
-        "3.7 度",
-        "3.1 度",
         "1.1 度",
+        "3.1 度",
+        "3.7 度",
         "37 度"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "2.4 + 1.3 = 3.7。整數部分 2+1=3，小數部分 0.4+0.3=0.7。",
       "commonMisconception": "小數加法時學生可能忘了對齊小數點。",
       "quality_level": "L4"

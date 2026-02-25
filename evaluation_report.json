@@ -1,51 +1,51 @@
 {
   "summary": {
-    "totalFiles": 363,
-    "totalQuestions": 2745,
+    "totalFiles": 359,
+    "totalQuestions": 2704,
     "qualityDist": {
       "L5": 0,
-      "L4": 0,
-      "L3": 113,
-      "L2": 112,
+      "L4": 76,
+      "L3": 136,
+      "L2": 59,
       "L1": 0,
       "BROKEN": 0,
-      "L1 (BIAS)": 138
+      "L1 (BIAS)": 88
     },
     "byPublisher": {
       "翰林": {
-        "files": 32,
-        "questions": 336,
-        "avgQualityScore": "3.23"
+        "files": 30,
+        "questions": 312,
+        "avgQualityScore": "4.19"
       },
       "康軒": {
         "files": 30,
         "questions": 312,
-        "avgQualityScore": "3.32"
+        "avgQualityScore": "4.02"
       },
       "南一": {
-        "files": 6,
-        "questions": 48,
-        "avgQualityScore": "2.90"
+        "files": 5,
+        "questions": 36,
+        "avgQualityScore": "4.29"
       },
       "Unknown": {
-        "files": 151,
-        "questions": 515,
-        "avgQualityScore": "3.19"
+        "files": 150,
+        "questions": 510,
+        "avgQualityScore": "3.28"
       },
       "HanLin": {
         "files": 50,
         "questions": 529,
-        "avgQualityScore": "3.31"
+        "avgQualityScore": "3.87"
       },
       "KangHsuan": {
         "files": 49,
         "questions": 536,
-        "avgQualityScore": "3.22"
+        "avgQualityScore": "3.87"
       },
       "NanYi": {
         "files": 45,
         "questions": 469,
-        "avgQualityScore": "3.33"
+        "avgQualityScore": "3.97"
       }
     }
   },
@@ -184,8 +184,8 @@
       "filePath": "question/platform/G3/Chinese/S1/NanYi/L11_石虎的告白.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.25",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -193,14 +193,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 5,
-        "1": 2,
+        "0": 3,
+        "1": 3,
         "2": 3,
-        "3": 2
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 92% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -211,8 +211,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.31",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -220,14 +220,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
-        "1": 5,
+        "0": 3,
+        "1": 3,
         "2": 3,
-        "3": 2
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -238,8 +238,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L10.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.35",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -247,14 +247,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
-        "1": 4,
-        "2": 5,
-        "3": 2
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -265,8 +265,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L11.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.19",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -275,13 +275,13 @@
       },
       "answerDist": {
         "0": 3,
-        "1": 4,
-        "2": 1,
-        "3": 4
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -292,8 +292,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L12.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.58",
+      "quality": "L4",
+      "avgScore": "4.17",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -301,14 +301,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
-        "1": 4,
+        "0": 3,
+        "1": 3,
         "2": 3,
-        "3": 4
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 92% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -319,8 +319,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.83",
+      "quality": "L4",
+      "avgScore": "4.50",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -328,11 +328,14 @@
         "applied": 4
       },
       "answerDist": {
-        "1": 12
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "答案過度集中於: 1 (100%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -343,8 +346,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.35",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -352,14 +355,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 8,
-        "1": 2,
-        "2": 1,
-        "3": 1
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "答案過度集中於: 0 (67%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -370,8 +373,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.67",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -379,14 +382,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 4,
-        "1": 1,
-        "2": 6,
-        "3": 1
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -397,8 +400,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L5.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.21",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -406,14 +409,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 5,
-        "1": 4,
-        "2": 1,
-        "3": 2
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -424,8 +427,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L6.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.27",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -433,14 +436,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
-        "1": 4,
-        "2": 2,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -451,8 +454,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L7.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.21",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -460,14 +463,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 5,
-        "1": 2,
-        "2": 1,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -478,8 +481,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L8.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.40",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -487,14 +490,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
+        "0": 3,
         "1": 3,
         "2": 3,
-        "3": 4
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -505,8 +508,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L9.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.48",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 12,
       "taxCount": {
         "literal": 3,
@@ -514,14 +517,14 @@
         "applied": 5
       },
       "answerDist": {
-        "0": 4,
-        "1": 1,
+        "0": 3,
+        "1": 3,
         "2": 3,
-        "3": 4
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 92% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -532,8 +535,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.60",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -541,14 +544,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 4,
-        "1": 2,
-        "2": 4,
-        "3": 2
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -559,8 +562,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.63",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -568,14 +571,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
+        "0": 3,
         "1": 3,
         "2": 3,
-        "3": 5
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 75% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -586,8 +589,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.40",
+      "quality": "L4",
+      "avgScore": "4.21",
       "count": 12,
       "taxCount": {
         "literal": 3,
@@ -596,13 +599,13 @@
       },
       "answerDist": {
         "0": 3,
-        "1": 4,
+        "1": 3,
         "2": 3,
-        "3": 2
+        "3": 3
       },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -613,61 +616,8 @@
       "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "4.06",
-      "count": 12,
-      "taxCount": {
-        "literal": 3,
-        "inferential": 3,
-        "applied": 6
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 5,
-        "2": 3,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "翰林",
-        "lesson": "L3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/L3_用膝蓋跳舞的女孩.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.77",
-      "count": 12,
-      "taxCount": {
-        "literal": 3,
-        "inferential": 4,
-        "applied": 5
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 8,
-        "2": 2
-      },
-      "biasWarning": "答案過度集中於: 1 (67%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "翰林",
-        "lesson": "L6"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/L6_月世界.json"
-    },
-    {
-      "quality": "L3",
-      "avgScore": "3.65",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -677,12 +627,12 @@
       "answerDist": {
         "0": 3,
         "1": 3,
-        "2": 4,
-        "3": 2
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -693,8 +643,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L1.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.69",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -702,14 +652,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
-        "1": 4,
-        "2": 5,
-        "3": 1
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -720,8 +670,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L10.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.50",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -729,14 +679,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 4,
-        "1": 1,
-        "2": 5,
-        "3": 2
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -747,8 +697,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L11.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.71",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -757,13 +707,13 @@
       },
       "answerDist": {
         "0": 3,
-        "1": 4,
-        "2": 4,
-        "3": 1
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -774,8 +724,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L12.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.92",
+      "quality": "L4",
+      "avgScore": "4.21",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -783,13 +733,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
-        "1": 6,
-        "2": 5
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -800,8 +751,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L2.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "4.06",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -809,13 +760,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
-        "1": 5,
-        "2": 6
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -826,8 +778,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L3.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.83",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -835,14 +787,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 4,
-        "1": 5,
-        "2": 2,
-        "3": 1
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -853,8 +805,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L4.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.52",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -862,14 +814,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
-        "1": 2,
-        "2": 2,
-        "3": 6
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -880,8 +832,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L5.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.38",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -889,14 +841,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 2,
+        "0": 3,
         "1": 3,
-        "2": 4,
+        "2": 3,
         "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -907,8 +859,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L6.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.21",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -916,13 +868,14 @@
         "applied": 4
       },
       "answerDist": {
-        "1": 7,
-        "2": 1,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -933,23 +886,23 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L7.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.29",
+      "quality": "L4",
+      "avgScore": "4.17",
       "count": 12,
       "taxCount": {
         "literal": 4,
-        "inferential": 4,
-        "applied": 4
+        "inferential": 5,
+        "applied": 3
       },
       "answerDist": {
         "0": 3,
-        "1": 2,
+        "1": 3,
         "2": 3,
-        "3": 4
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -960,8 +913,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L8.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.52",
+      "quality": "L4",
+      "avgScore": "4.17",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -969,14 +922,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
-        "1": 1,
+        "0": 3,
+        "1": 3,
         "2": 3,
-        "3": 7
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -987,8 +940,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L9.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.60",
+      "quality": "L4",
+      "avgScore": "4.29",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -996,14 +949,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 1,
+        "0": 3,
         "1": 3,
-        "2": 4,
-        "3": 4
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1014,8 +967,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U1.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.33",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -1023,14 +976,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 5,
-        "1": 1,
-        "2": 2,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1041,8 +994,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U2.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.48",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -1050,14 +1003,14 @@
         "applied": 4
       },
       "answerDist": {
-        "0": 4,
-        "1": 4,
-        "2": 2,
-        "3": 2
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1068,8 +1021,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U3.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "2.50",
+      "quality": "L4",
+      "avgScore": "4.17",
       "count": 12,
       "taxCount": {
         "literal": 4,
@@ -1078,13 +1031,13 @@
       },
       "answerDist": {
         "0": 3,
-        "1": 2,
-        "2": 4,
+        "1": 3,
+        "2": 3,
         "3": 3
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1095,8 +1048,8 @@
       "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U4.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.35",
+      "quality": "L4",
+      "avgScore": "4.30",
       "count": 10,
       "taxCount": {
         "literal": 3,
@@ -1104,9 +1057,9 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 2,
-        "1": 2,
-        "2": 4,
+        "0": 3,
+        "1": 3,
+        "2": 2,
         "3": 2
       },
       "biasWarning": null,
@@ -1116,8 +1069,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L1.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.20",
+      "quality": "L4",
+      "avgScore": "4.35",
       "count": 10,
       "taxCount": {
         "literal": 3,
@@ -1125,10 +1078,10 @@
         "applied": 1
       },
       "answerDist": {
-        "0": 5,
+        "0": 3,
         "1": 3,
-        "2": 1,
-        "3": 1
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -1137,8 +1090,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L10.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.25",
+      "quality": "L4",
+      "avgScore": "4.30",
       "count": 10,
       "taxCount": {
         "literal": 3,
@@ -1146,8 +1099,8 @@
         "applied": 1
       },
       "answerDist": {
-        "0": 5,
-        "1": 1,
+        "0": 3,
+        "1": 3,
         "2": 2,
         "3": 2
       },
@@ -1158,8 +1111,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L11.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.20",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 10,
       "taxCount": {
         "literal": 3,
@@ -1167,9 +1120,10 @@
         "applied": 1
       },
       "answerDist": {
-        "1": 1,
-        "2": 5,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -1178,8 +1132,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L12.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.10",
+      "quality": "L4",
+      "avgScore": "4.20",
       "count": 10,
       "taxCount": {
         "literal": 4,
@@ -1187,10 +1141,10 @@
         "applied": 1
       },
       "answerDist": {
-        "0": 4,
-        "1": 1,
-        "2": 1,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -1199,8 +1153,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L2.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.00",
+      "quality": "L4",
+      "avgScore": "4.15",
       "count": 10,
       "taxCount": {
         "literal": 5,
@@ -1208,9 +1162,9 @@
         "applied": 1
       },
       "answerDist": {
-        "0": 2,
+        "0": 3,
         "1": 3,
-        "2": 3,
+        "2": 2,
         "3": 2
       },
       "biasWarning": null,
@@ -1220,91 +1174,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.10",
-      "count": 10,
-      "taxCount": {
-        "literal": 4,
-        "inferential": 5,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 3,
-        "2": 4,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 70% 的正確答案為最長選項",
-      "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L4.json"
-    },
-    {
-      "quality": "L3",
-      "avgScore": "3.35",
-      "count": 10,
-      "taxCount": {
-        "literal": 3,
-        "inferential": 5,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 1,
-        "1": 3,
-        "2": 3,
-        "3": 3
-      },
-      "biasWarning": null,
-      "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L5.json"
-    },
-    {
-      "quality": "L3",
-      "avgScore": "3.05",
-      "count": 10,
-      "taxCount": {
-        "literal": 4,
-        "inferential": 5,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 2,
-        "2": 3,
-        "3": 1
-      },
-      "biasWarning": null,
-      "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L6.json"
-    },
-    {
-      "quality": "L3",
-      "avgScore": "3.10",
-      "count": 10,
-      "taxCount": {
-        "literal": 3,
-        "inferential": 6,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 4,
-        "2": 3,
-        "3": 3
-      },
-      "biasWarning": null,
-      "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L7.json"
-    },
-    {
-      "quality": "L3",
-      "avgScore": "3.05",
+      "quality": "L4",
+      "avgScore": "4.15",
       "count": 10,
       "taxCount": {
         "literal": 4,
@@ -1313,9 +1184,93 @@
       },
       "answerDist": {
         "0": 3,
-        "1": 1,
-        "2": 3,
-        "3": 3
+        "1": 3,
+        "2": 2,
+        "3": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
+      "meta": {},
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L4.json"
+    },
+    {
+      "quality": "L4",
+      "avgScore": "4.30",
+      "count": 10,
+      "taxCount": {
+        "literal": 3,
+        "inferential": 5,
+        "applied": 2
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
+      "meta": {},
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L5.json"
+    },
+    {
+      "quality": "L4",
+      "avgScore": "4.30",
+      "count": 10,
+      "taxCount": {
+        "literal": 4,
+        "inferential": 5,
+        "applied": 1
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
+      "meta": {},
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L6.json"
+    },
+    {
+      "quality": "L4",
+      "avgScore": "4.35",
+      "count": 10,
+      "taxCount": {
+        "literal": 3,
+        "inferential": 6,
+        "applied": 1
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
+      "meta": {},
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L7.json"
+    },
+    {
+      "quality": "L4",
+      "avgScore": "4.30",
+      "count": 10,
+      "taxCount": {
+        "literal": 4,
+        "inferential": 5,
+        "applied": 1
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -1324,8 +1279,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L8.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.40",
+      "quality": "L4",
+      "avgScore": "4.30",
       "count": 10,
       "taxCount": {
         "literal": 3,
@@ -1333,9 +1288,10 @@
         "applied": 1
       },
       "answerDist": {
-        "1": 5,
+        "0": 3,
+        "1": 3,
         "2": 2,
-        "3": 3
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -1344,8 +1300,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L9.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.50",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -1353,11 +1309,14 @@
         "applied": 2
       },
       "answerDist": {
-        "1": 6
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 1 (100%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1368,8 +1327,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.42",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -1377,11 +1336,14 @@
         "applied": 2
       },
       "answerDist": {
-        "1": 6
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 1 (100%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1392,32 +1354,35 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.33",
+      "quality": "L4",
+      "avgScore": "4.33",
       "count": 6,
       "taxCount": {
         "literal": 2,
-        "inferential": 2,
-        "applied": 2
+        "inferential": 3,
+        "applied": 1
       },
       "answerDist": {
-        "1": 6
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 1 (100%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
         "semester": "S2",
         "publisher": "南一",
-        "lesson": "U4"
+        "lesson": "U3"
       },
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.33",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -1425,11 +1390,14 @@
         "applied": 2
       },
       "answerDist": {
-        "1": 6
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 1 (100%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
         "subject": "Chinese",
@@ -1440,56 +1408,8 @@
       "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.15",
-      "count": 5,
-      "taxCount": {
-        "literal": 1,
-        "inferential": 3,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 1,
-        "1": 1,
-        "2": 2,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 60% 的正確答案為最長選項",
-      "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_Unknown.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.63",
-      "count": 12,
-      "taxCount": {
-        "literal": 4,
-        "inferential": 3,
-        "applied": 5
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 5,
-        "2": 3,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 67% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "南一",
-        "lesson": "L3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/L3_愛玉的變身術.json"
-    },
-    {
-      "quality": "L2",
-      "avgScore": "3.25",
+      "quality": "L3",
+      "avgScore": "4.48",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1502,8 +1422,8 @@
         "2": 5
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1515,7 +1435,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.18",
+      "avgScore": "4.47",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1528,8 +1448,8 @@
         "2": 4
       },
       "biasWarning": "答案過度集中於: 1 (67%)",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1540,8 +1460,8 @@
       "filePath": "question/platform/G3/English/S2/HanLin/Eng_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.73",
+      "quality": "L3",
+      "avgScore": "4.47",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1553,9 +1473,9 @@
         "1": 6,
         "2": 5
       },
-      "biasWarning": "選項長度偏差: 53% 的正確答案為最長選項",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "biasWarning": null,
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1567,7 +1487,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.13",
+      "avgScore": "4.38",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1580,8 +1500,8 @@
         "2": 4
       },
       "biasWarning": "答案過度集中於: 1 (67%)",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1592,8 +1512,8 @@
       "filePath": "question/platform/G3/English/S2/HanLin/Eng_U4.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "3.67",
+      "quality": "L3",
+      "avgScore": "4.25",
       "count": 15,
       "taxCount": {
         "literal": 6,
@@ -1606,8 +1526,8 @@
         "2": 6
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1618,8 +1538,8 @@
       "filePath": "question/platform/G3/English/S2/KangHsuan/Eng_U1.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "3.22",
+      "quality": "L3",
+      "avgScore": "4.35",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1631,8 +1551,8 @@
         "2": 8
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1643,8 +1563,8 @@
       "filePath": "question/platform/G3/English/S2/KangHsuan/Eng_U2.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "3.15",
+      "quality": "L3",
+      "avgScore": "4.48",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1657,8 +1577,8 @@
         "2": 6
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1669,8 +1589,8 @@
       "filePath": "question/platform/G3/English/S2/KangHsuan/Eng_U3.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "3.50",
+      "quality": "L3",
+      "avgScore": "4.52",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1683,8 +1603,8 @@
         "2": 7
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1695,8 +1615,8 @@
       "filePath": "question/platform/G3/English/S2/KangHsuan/Eng_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.30",
+      "quality": "L3",
+      "avgScore": "4.48",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1708,9 +1628,9 @@
         "1": 7,
         "2": 4
       },
-      "biasWarning": "選項長度偏差: 47% 的正確答案為最長選項",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "biasWarning": null,
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1721,8 +1641,8 @@
       "filePath": "question/platform/G3/English/S2/NanYi/Eng_U1.json"
     },
     {
-      "quality": "L2",
-      "avgScore": "3.88",
+      "quality": "L3",
+      "avgScore": "4.48",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1736,8 +1656,8 @@
         "3": 1
       },
       "biasWarning": null,
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1748,8 +1668,8 @@
       "filePath": "question/platform/G3/English/S2/NanYi/Eng_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.25",
+      "quality": "L3",
+      "avgScore": "4.35",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1762,9 +1682,9 @@
         "2": 4,
         "3": 1
       },
-      "biasWarning": "選項長度偏差: 47% 的正確答案為最長選項",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "biasWarning": null,
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1776,7 +1696,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.35",
+      "avgScore": "4.32",
       "count": 15,
       "taxCount": {
         "literal": 7,
@@ -1789,8 +1709,8 @@
         "2": 3
       },
       "biasWarning": "答案過度集中於: 1 (73%)",
-      "researchCeiling": "L2",
-      "researchReason": "發展綱要缺少實證驗證區",
+      "researchCeiling": "L3",
+      "researchReason": "發展綱要缺少 L4 轉化策略",
       "meta": {
         "grade": "G3",
         "subject": "English",
@@ -1802,7 +1722,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.50",
+      "avgScore": "4.45",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -1827,7 +1747,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.40",
+      "avgScore": "4.35",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -1853,7 +1773,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "4.15",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -1878,7 +1798,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.65",
+      "avgScore": "4.35",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -1904,7 +1824,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.30",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -1930,7 +1850,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "4.15",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -1955,7 +1875,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.40",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -1981,7 +1901,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "4.13",
+      "avgScore": "4.58",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -2007,7 +1927,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "4.08",
+      "avgScore": "4.58",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -2033,7 +1953,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.46",
+      "avgScore": "4.67",
       "count": 6,
       "taxCount": {
         "literal": 1,
@@ -2058,7 +1978,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.60",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2084,7 +2004,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.45",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2110,7 +2030,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "4.10",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2135,7 +2055,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "2.70",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2159,7 +2079,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.25",
+      "avgScore": "4.35",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2186,7 +2106,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.95",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2212,7 +2132,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.70",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2237,7 +2157,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.80",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2262,7 +2182,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.70",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2287,7 +2207,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.20",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2312,7 +2232,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.05",
+      "avgScore": "4.15",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2337,7 +2257,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.75",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2362,7 +2282,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.20",
+      "avgScore": "4.45",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2387,8 +2307,8 @@
       "filePath": "question/platform/G3/Math/S1/NanYi/M7_M9_綜合單元.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.88",
+      "quality": "L4",
+      "avgScore": "4.50",
       "count": 6,
       "taxCount": {
         "literal": 2,
@@ -2396,8 +2316,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
-        "1": 3
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2412,8 +2334,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.20",
+      "quality": "L4",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2421,10 +2343,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 4,
-        "1": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2437,8 +2361,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.75",
+      "quality": "L4",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2446,10 +2370,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 4,
-        "1": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2462,8 +2388,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.15",
+      "quality": "L4",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2471,10 +2397,12 @@
         "applied": 2
       },
       "answerDist": {
-        "1": 4,
-        "2": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 1 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2487,8 +2415,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U4.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "4.10",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2496,8 +2424,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
-        "1": 2
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2512,8 +2442,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U5.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.00",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2522,8 +2452,9 @@
       },
       "answerDist": {
         "0": 2,
-        "1": 2,
-        "2": 1
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2538,8 +2469,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U6.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "4.25",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2547,10 +2478,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 4,
-        "1": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2563,8 +2496,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U7.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.90",
+      "quality": "L4",
+      "avgScore": "4.50",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2572,8 +2505,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
-        "1": 2
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2588,8 +2523,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U8.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.55",
+      "quality": "L4",
+      "avgScore": "4.55",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2597,10 +2532,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 4,
-        "1": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2613,8 +2550,8 @@
       "filePath": "question/platform/G3/Math/S2/HanLin/Math_U9.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.41",
+      "quality": "L4",
+      "avgScore": "4.56",
       "count": 8,
       "taxCount": {
         "literal": 3,
@@ -2622,11 +2559,12 @@
         "applied": 3
       },
       "answerDist": {
-        "0": 1,
-        "1": 6,
-        "2": 1
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "答案過度集中於: 1 (75%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2639,8 +2577,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.38",
+      "quality": "L4",
+      "avgScore": "4.56",
       "count": 8,
       "taxCount": {
         "literal": 2,
@@ -2649,10 +2587,11 @@
       },
       "answerDist": {
         "0": 2,
-        "1": 5,
-        "2": 1
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "答案過度集中於: 1 (63%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2665,8 +2604,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.81",
+      "quality": "L4",
+      "avgScore": "4.56",
       "count": 8,
       "taxCount": {
         "literal": 2,
@@ -2674,11 +2613,12 @@
         "applied": 3
       },
       "answerDist": {
-        "0": 3,
-        "1": 4,
-        "2": 1
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2691,8 +2631,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L3.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.47",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 8,
       "taxCount": {
         "literal": 3,
@@ -2700,10 +2640,12 @@
         "applied": 3
       },
       "answerDist": {
-        "0": 3,
-        "1": 5
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "答案過度集中於: 1 (63%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2716,8 +2658,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.78",
+      "quality": "L4",
+      "avgScore": "4.25",
       "count": 8,
       "taxCount": {
         "literal": 3,
@@ -2725,11 +2667,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 5,
+        "0": 2,
         "1": 2,
-        "2": 1
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "答案過度集中於: 0 (63%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2742,8 +2685,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L5.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.19",
+      "quality": "L4",
+      "avgScore": "4.38",
       "count": 8,
       "taxCount": {
         "literal": 3,
@@ -2752,8 +2695,9 @@
       },
       "answerDist": {
         "0": 2,
-        "1": 4,
-        "2": 2
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2768,8 +2712,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L6.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.91",
+      "quality": "L4",
+      "avgScore": "4.63",
       "count": 8,
       "taxCount": {
         "literal": 2,
@@ -2778,8 +2722,9 @@
       },
       "answerDist": {
         "0": 2,
-        "1": 4,
-        "2": 2
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2794,8 +2739,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L7.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.47",
+      "quality": "L4",
+      "avgScore": "4.50",
       "count": 8,
       "taxCount": {
         "literal": 3,
@@ -2803,10 +2748,12 @@
         "applied": 2
       },
       "answerDist": {
-        "1": 6,
-        "2": 2
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
-      "biasWarning": "答案過度集中於: 1 (75%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2819,8 +2766,8 @@
       "filePath": "question/platform/G3/Math/S2/KangHsuan/Math_L8.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.50",
+      "quality": "L4",
+      "avgScore": "4.45",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2829,7 +2776,9 @@
       },
       "answerDist": {
         "0": 2,
-        "1": 3
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2844,8 +2793,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U1.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.75",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2853,8 +2802,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
-        "2": 2
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2869,8 +2820,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U10.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.20",
+      "quality": "L4",
+      "avgScore": "4.45",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2878,9 +2829,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
+        "0": 2,
         "1": 1,
-        "2": 1
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2895,8 +2847,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.95",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2904,10 +2856,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 4,
-        "1": 1
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (80%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2920,8 +2874,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U3.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "4.00",
+      "quality": "L4",
+      "avgScore": "4.45",
       "count": 5,
       "taxCount": {
         "literal": 2,
@@ -2929,9 +2883,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
+        "0": 2,
         "1": 1,
-        "2": 1
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -2946,8 +2901,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.95",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2955,9 +2910,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 5
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (100%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2970,8 +2928,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U5.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.40",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -2979,9 +2937,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 5
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (100%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -2994,8 +2955,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U6.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.85",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -3003,9 +2964,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 5
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (100%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -3018,8 +2982,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U7.json"
     },
     {
-      "quality": "L3",
-      "avgScore": "3.70",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -3027,8 +2991,10 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 3,
-        "1": 2
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "biasWarning": null,
       "researchCeiling": "L4",
@@ -3043,8 +3009,8 @@
       "filePath": "question/platform/G3/Math/S2/NanYi/Math_U8.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.25",
+      "quality": "L4",
+      "avgScore": "4.65",
       "count": 5,
       "taxCount": {
         "literal": 1,
@@ -3052,9 +3018,12 @@
         "applied": 2
       },
       "answerDist": {
-        "0": 5
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
-      "biasWarning": "答案過度集中於: 0 (100%)",
+      "biasWarning": null,
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -3083,7 +3052,7 @@
       "filePath": "question/platform/G3/Science/S2/HanLin/Sci_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3099,7 +3068,7 @@
       "filePath": "question/platform/G3/Science/S2/HanLin/Sci_U2.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3115,7 +3084,7 @@
       "filePath": "question/platform/G3/Science/S2/HanLin/Sci_U3.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3147,7 +3116,7 @@
       "filePath": "question/platform/G3/Science/S2/KangHsuan/Sci_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3179,7 +3148,7 @@
       "filePath": "question/platform/G3/Science/S2/KangHsuan/Sci_U3.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3211,7 +3180,7 @@
       "filePath": "question/platform/G3/Science/S2/NanYi/Sci_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -3790,7 +3759,7 @@
       "filePath": "question/platform/G4/Chinese/S2/HanLin/Chi_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -4055,7 +4024,7 @@
       "filePath": "question/platform/G4/Chinese/S2/NanYi/Chi_L9.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -4072,7 +4041,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.10",
+      "avgScore": "4.46",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4097,8 +4066,8 @@
       "filePath": "question/platform/G4/English/S2/HanLin/Eng_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.14",
+      "quality": "L2",
+      "avgScore": "4.36",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4110,7 +4079,7 @@
         "1": 7,
         "2": 4
       },
-      "biasWarning": "選項長度偏差: 56% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -4124,7 +4093,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.54",
+      "avgScore": "4.44",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4151,7 +4120,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.26",
+      "avgScore": "4.50",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4177,8 +4146,8 @@
       "filePath": "question/platform/G4/English/S2/HanLin/Eng_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.29",
+      "quality": "L2",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4190,7 +4159,7 @@
         "1": 9,
         "2": 7
       },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -4203,8 +4172,8 @@
       "filePath": "question/platform/G4/English/S2/KangHsuan/Eng_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "2.97",
+      "quality": "L2",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4216,7 +4185,7 @@
         "1": 10,
         "2": 2
       },
-      "biasWarning": "選項長度偏差: 44% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -4230,7 +4199,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.33",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4256,7 +4225,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.39",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4282,7 +4251,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.40",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4308,7 +4277,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.58",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4335,7 +4304,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.39",
+      "avgScore": "4.53",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4361,7 +4330,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.36",
+      "avgScore": "4.50",
       "count": 18,
       "taxCount": {
         "literal": 8,
@@ -4560,7 +4529,7 @@
       "filePath": "question/platform/G4/Math/S2/HanLin/Math_U7.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.75",
       "count": 10,
       "taxCount": {
@@ -4627,7 +4596,7 @@
       "filePath": "question/platform/G4/Math/S2/KangHsuan/Math_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.73",
       "count": 10,
       "taxCount": {
@@ -4780,7 +4749,7 @@
       "filePath": "question/platform/G4/Math/S2/KangHsuan/Math_U7.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.73",
       "count": 10,
       "taxCount": {
@@ -4845,7 +4814,7 @@
       "filePath": "question/platform/G4/Math/S2/NanYi/Math_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.98",
       "count": 10,
       "taxCount": {
@@ -4867,7 +4836,7 @@
       "filePath": "question/platform/G4/Math/S2/NanYi/Math_U10.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.83",
       "count": 10,
       "taxCount": {
@@ -5214,7 +5183,7 @@
       "filePath": "question/platform/G4/Science/S2/KangHsuan/Sci_U4.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.92",
       "count": 10,
       "taxCount": {
@@ -5295,7 +5264,7 @@
       "filePath": "question/platform/G4/Science/S2/NanYi/Sci_U3.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 10,
       "taxCount": {
@@ -5354,7 +5323,7 @@
       "filePath": "question/platform/G4/SocialStudies/S2/HanLin/Soc_U2.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5370,7 +5339,7 @@
       "filePath": "question/platform/G4/SocialStudies/S2/KangHsuan/Soc_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5386,7 +5355,7 @@
       "filePath": "question/platform/G4/SocialStudies/S2/KangHsuan/Soc_U2.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5402,7 +5371,7 @@
       "filePath": "question/platform/G4/SocialStudies/S2/NanYi/Soc_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5418,7 +5387,7 @@
       "filePath": "question/platform/G4/SocialStudies/S2/NanYi/Soc_U2.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5753,7 +5722,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_L9.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5769,7 +5738,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5785,7 +5754,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U10.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5801,7 +5770,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U11.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5817,7 +5786,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U12.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5849,7 +5818,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U3.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5865,7 +5834,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U4.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5897,7 +5866,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U6.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -5913,7 +5882,7 @@
       "filePath": "question/platform/G5/Chinese/S2/HanLin/Chi_U7.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6315,7 +6284,7 @@
       "filePath": "question/platform/G5/Chinese/S2/KangHsuan/Chi_U11.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6331,7 +6300,7 @@
       "filePath": "question/platform/G5/Chinese/S2/KangHsuan/Chi_U12.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6347,7 +6316,7 @@
       "filePath": "question/platform/G5/Chinese/S2/KangHsuan/Chi_U2.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6411,7 +6380,7 @@
       "filePath": "question/platform/G5/Chinese/S2/KangHsuan/Chi_U6.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6521,7 +6490,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_L11.json"
     },
     {
-      "quality": "L3",
+      "quality": "L4",
       "avgScore": "3.55",
       "count": 10,
       "taxCount": {
@@ -6741,7 +6710,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U10.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6757,7 +6726,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U11.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6773,7 +6742,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U12.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6805,7 +6774,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U3.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6821,7 +6790,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U4.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6837,7 +6806,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U5.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6853,7 +6822,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U6.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6869,7 +6838,7 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U7.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
@@ -6901,8 +6870,8 @@
       "filePath": "question/platform/G5/Chinese/S2/NanYi/Chi_U9.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.39",
+      "quality": "L2",
+      "avgScore": "4.29",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -6915,7 +6884,7 @@
         "2": 7,
         "3": 1
       },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -6929,7 +6898,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.55",
+      "avgScore": "4.51",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -6955,8 +6924,8 @@
       "filePath": "question/platform/G5/English/S2/HanLin/Eng_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.45",
+      "quality": "L2",
+      "avgScore": "4.47",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -6969,7 +6938,7 @@
         "2": 5,
         "3": 1
       },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -6983,7 +6952,7 @@
     },
     {
       "quality": "L1 (BIAS)",
-      "avgScore": "3.34",
+      "avgScore": "4.40",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7009,7 +6978,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.48",
+      "avgScore": "4.47",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7036,7 +7005,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.33",
+      "avgScore": "4.55",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7062,7 +7031,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.13",
+      "avgScore": "4.55",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7089,7 +7058,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.35",
+      "avgScore": "4.55",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7116,7 +7085,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.23",
+      "avgScore": "4.36",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7142,7 +7111,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.55",
+      "avgScore": "4.51",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7167,8 +7136,8 @@
       "filePath": "question/platform/G5/English/S2/NanYi/Eng_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgScore": "3.45",
+      "quality": "L2",
+      "avgScore": "4.55",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7180,7 +7149,7 @@
         "1": 10,
         "2": 2
       },
-      "biasWarning": "選項長度偏差: 60% 的正確答案為最長選項",
+      "biasWarning": null,
       "researchCeiling": "L2",
       "researchReason": "發展綱要缺少實證驗證區",
       "meta": {
@@ -7194,7 +7163,7 @@
     },
     {
       "quality": "L2",
-      "avgScore": "3.46",
+      "avgScore": "4.55",
       "count": 20,
       "taxCount": {
         "literal": 8,
@@ -7235,7 +7204,7 @@
       "filePath": "question/platform/G5/Math/S2/HanLin/Math_U1.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.75",
       "count": 1,
       "taxCount": {
@@ -7299,7 +7268,7 @@
       "filePath": "question/platform/G5/Math/S2/HanLin/Math_U4.json"
     },
     {
-      "quality": "L2",
+      "quality": "L3",
       "avgScore": "2.50",
       "count": 1,
       "taxCount": {
