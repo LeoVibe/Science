@@ -15,6 +15,15 @@
 | 歷史 v1 入口 | `/Science/history/v1_science/` | 國小自然科題庫練習頁面可載入 |
 | 歷史 v2 入口 | `/Science/history/v2_currisite/` | 國小多科目題庫練習頁面可載入 |
 | 題庫 manifest（至少一筆） | `/Science/question/platform/...` 任一條實際路徑 | 可取得 `manifest.json` 或題目資源，非 404 |
+| 後台登入 | `/Science/admin/login` | 顯示後台登入頁，非 404 |
+| 後台（需登入） | `/Science/admin` | 未登入時導向 `/Science/admin/login`；已登入則進入後台 |
+
+## 後台 Admin 網址（正式機）
+
+- **登入頁**：**https://leovibe.github.io/Science/admin/login**
+- **後台首頁**（需先登入）：**https://leovibe.github.io/Science/admin**
+
+建置時會自動產生 `dist/admin/index.html` 與 `dist/admin/login/index.html`（與 SPA 入口相同），直連上述網址即可載入後台，不會再出現 GitHub 404。
 
 ## 建議驗證步驟
 
@@ -26,6 +35,7 @@
    確認頁面與靜態資源（JS/CSS）皆可載入。
 4. 任選一題庫路徑（依實際題庫結構），確認 **題庫 manifest** 可存取，例如：  
    `https://<org>.github.io/Science/question/platform/G5/國語/S2/翰林/manifest.json`（路徑以實際為準）。
+5. **後台**：直連 `https://<org>.github.io/Science/admin/login` 應出現登入頁；登入後可進入 `https://<org>.github.io/Science/admin` 各分頁。
 
 ## 回歸測試（本機）
 

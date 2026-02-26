@@ -27,6 +27,25 @@ function historySubsitePlugin(basePath: string): Plugin {
   };
 }
 
+// GitHub Pages 深連結：建置時複製 index.html 到 admin 路徑，避免直連 /Science/admin 回傳 404
+function adminDeepLinkPlugin(): Plugin {
+  return {
+    name: "admin-deep-link",
+    closeBundle() {
+      const outDir = path.resolve(__dirname, "dist");
+      const indexPath = path.join(outDir, "index.html");
+      if (!fs.existsSync(indexPath)) return;
+      const html = fs.readFileSync(indexPath, "utf8");
+      const dirs = ["admin", "admin/login"];
+      for (const d of dirs) {
+        const dir = path.join(outDir, d);
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(path.join(dir, "index.html"), html, "utf8");
+      }
+    },
+  };
+}
+
 // 提供本地開發用的題庫草稿狀態切換 API
 function localCurationPlugin(): Plugin {
   return {
@@ -96,6 +115,7 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       historySubsitePlugin(normalizedBase),
+      adminDeepLinkPlugin(),
       react(),
       mode === "development" && componentTagger(),
     ].filter(Boolean),
