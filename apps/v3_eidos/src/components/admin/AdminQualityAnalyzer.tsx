@@ -49,7 +49,8 @@ function parsePublisherStatKey(key: string): { grade: number; semester: number; 
 }
 
 function buildQuestionsBasePath(grade: Grade, subject: Subject, semester: Semester, publisher: Publisher): string {
-  return `/question/platform/G${grade}/${SUBJECT_PLATFORM_PATH[subject]}/S${semester}/${PUBLISHER_PLATFORM_PATH[publisher]}`;
+  const basePrefix = import.meta.env.BASE_URL.replace(/\/$/, '');
+  return `${basePrefix}/question/platform/G${grade}/${SUBJECT_PLATFORM_PATH[subject]}/S${semester}/${PUBLISHER_PLATFORM_PATH[publisher]}`;
 }
 
 export default function AdminQualityAnalyzer() {

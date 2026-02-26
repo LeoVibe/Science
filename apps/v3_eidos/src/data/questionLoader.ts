@@ -143,8 +143,9 @@ export async function loadQuestions(
   });
 
   try {
-    // 題庫靜態資源統一路徑：/question/platform/...
-    const basePath = `/question/platform/G${grade}/${SUBJECT_PLATFORM_PATH[subject]}/S${semester}/${PUBLISHER_PLATFORM_PATH[publisher]}`;
+    // 題庫靜態資源統一路徑，需帶上 Vite BASE_URL（GitHub Pages 子路徑部署）
+    const basePrefix = import.meta.env.BASE_URL.replace(/\/$/, '');
+    const basePath = `${basePrefix}/question/platform/G${grade}/${SUBJECT_PLATFORM_PATH[subject]}/S${semester}/${PUBLISHER_PLATFORM_PATH[publisher]}`;
     const manifestRes = await fetch(`${basePath}/manifest.json`);
     if (!manifestRes.ok) {
       return makeResult('error', { errorMessage: `Manifest 載入失敗 (${manifestRes.status})` });
