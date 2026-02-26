@@ -5,6 +5,8 @@
 
 - 2026-02-26：建立全域文檔生態系與 AI 實作守則 -> 重構文件職責，確立 `網站功能規格書.md` 為 UI 唯一真理，建立 `.cursorrules` 與 `/sync`, `/audit` AI Skills。 *(by AG)*
 - 2026-02-26：實作 Warm Amber 暖調琥珀 UI 與功能防護 -> 全站色彩降飽和升溫、修復並撰寫 E2E 防止「題庫中無此題」Bug 回歸、題庫總覽過濾當前年級學期。 *(by AG)*
+- 2026-02-26：JOB-021 後台版面與更版資訊重整 -> 後台題庫列移除 CQI 字樣並將審查按鈕獨立，前台重整 0.8/0.9/1.0 更版節點並確認 v1.0 正式版定位。 *(by Cursor)*
+- 2026-02-26：JOB-022 歷史版相容修復 -> 保留 `/history/v0.1/` 與 `/history/v0.5/` 入口，改為相容橋接導向主站可用流程，確保最小改動下可完整操作。 *(by Cursor)*
 - 2026-02-26：JOB-020 後端 API 目錄重整 -> 建立 `backend/api` 作為正式 Worker API 專案路徑，補齊新路徑設定檔並保留舊路徑遷移提示，完成文件與派工狀態同步。 *(by Cursor)*
 - 2026-02-26：JOB-018 UAT 全面修復（單波）-> 完成 Admin server verify、題庫開關改為 API/KV 同步、QuizProgress 續答、深連結防呆、ErrorBoundary、questionLoader 錯誤分流、學習報告移除 MOCK 與清除資料擴充；並通過前端 test/build。 *(by Cursor)*
 - 2026-02-25：V1/V2 歷史版本遷移與統整 -> 將 v0.1 與 v0.5 移入獨立的子網頁（如 `/history/v0.1/`），不與主系統衝突。 *(by Cursor)*

@@ -359,13 +359,48 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
         <div className="space-y-4 animate-in fade-in duration-200">
           <div className="bg-card rounded-2xl border p-5 space-y-0">
             {[
-              { ver: '0.7', date: '2026/2/21', desc: '海洋清爽配色、本站分頁改版', highlight: true },
-              { ver: '0.6', date: '2026/2/18', desc: 'UI 全面優化、URL 路由', highlight: false },
-              { ver: '0.5', date: '2026/2/10', desc: '野心亂測版，囊括全年級、全學科與三大出版社題庫版，但題目出的很爛沒實質效用', highlight: false, link: '/history/v0.5/' },
-              { ver: '0.4', date: '2026/2/1', desc: '新增錯題記錄', highlight: false },
-              { ver: '0.3', date: '2026/1/20', desc: '新增統計功能', highlight: false },
-              { ver: '0.2', date: '2026/1/10', desc: '新增多科目支援', highlight: false },
-              { ver: '0.1', date: '2026/1/3', desc: '自然科題庫版，只有三上自然康軒的一科', highlight: false, link: '/history/v0.1/' },
+              {
+                ver: '1.0',
+                date: '2026/2/26',
+                desc: '正式版上線：登入機制、錯題統計、題目審核機制、續答機制、連結防呆全面完成。',
+                highlight: true,
+              },
+              {
+                ver: '0.9',
+                date: '2026/2/25',
+                desc: '設定與管理升級：入站設定年級、各科目設定出版社，題庫管理與維護設定整合。',
+                highlight: false,
+              },
+              {
+                ver: '0.8',
+                date: '2026/2/24',
+                desc: '規劃題庫評分機制，嚴格處理真實課文、設計意涵與文字細膩度、與選項合理性。',
+                highlight: false,
+              },
+              {
+                ver: '0.7',
+                date: '2026/2/21',
+                desc: '產出新版介面設計：主選單、導覽分頁與學習流程互動體驗更新。',
+                highlight: false,
+              },
+              {
+                ver: '0.6',
+                date: '2026/2/18',
+                desc: '擴大題庫廣度與研究深度，擴充為三個出版社，設定出題深度與流程，AI不會自由發揮的出題。',
+                highlight: false,
+              },
+              {
+                ver: '0.5',
+                date: '2026/2/10',
+                desc: '多科目嘗試版（現為相容模式入口）',
+                highlight: false,
+              },
+              {
+                ver: '0.1',
+                date: '2026/1/3',
+                desc: '初始版本，基本架構（現為相容模式入口）',
+                highlight: false,
+              },
             ].map((v, i, arr) => (
               <div key={v.ver} className={`flex items-start gap-3 py-3 ${i < arr.length - 1 ? 'border-b border-border' : ''}`}>
                 <div className="shrink-0 w-16 text-center space-y-0.5">
@@ -381,13 +416,33 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 mt-1.5 text-[11px] font-bold text-primary hover:underline"
                     >
-                      🕹️ 體驗此版本 →
+                      {v.legacy ? '🕹️ 觀看歷史版本 →' : '🕹️ 體驗此版本 →'}
                     </a>
                   )}
                 </div>
                 {v.highlight && <span className="text-xs bg-accent/12 text-accent font-bold px-2 py-0.5 rounded-full shrink-0">NEW</span>}
               </div>
             ))}
+          </div>
+          <div className="bg-card rounded-2xl border p-4">
+            <div className="text-xs text-muted-foreground space-y-1">
+              <a
+                href="/history/v1_science/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-[11px] font-bold text-primary hover:underline"
+              >
+                v0.1 初版(自然科)
+              </a>
+              <a
+                href="/history/v2_currisite/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-[11px] font-bold text-primary hover:underline"
+              >
+                v0.2 多科目版
+              </a>
+            </div>
           </div>
         </div>
       )}

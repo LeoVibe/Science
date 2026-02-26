@@ -353,7 +353,7 @@ export default function AdminLibraryManager() {
                                   />
                                 </div>
 
-                                {/* 出版社：長條形、列的排列，每列一個出版社，顯示兩字全名 + QG + CQI */}
+                                {/* 出版社：每列顯示出版社、QG、CQI分數值、題數；審查為獨立按鈕 */}
                                 <div className="space-y-1.5">
                                   {APP_CONFIG.publishers.map((pub) => {
                                     const isOn = publishers.includes(pub);
@@ -369,13 +369,13 @@ export default function AdminLibraryManager() {
                                     const hasCqi = !!cqiValue && cqiValue > 0;
 
                                     return (
-                                      <div key={pub} className="relative flex items-center group">
+                                      <div key={pub} className="flex items-center gap-2">
                                         <button
                                           type="button"
                                           disabled={!isSEnabled || !isSubEnabled || !isSelectable}
                                           onClick={() => togglePublisher(grade, sem, subject, pub)}
                                           className={`
-                                            w-full relative flex items-center gap-3 py-1.5 px-3 rounded-lg border text-left transition-all
+                                            flex-1 relative flex items-center gap-2 py-2 px-3 rounded-lg border text-left transition-all min-w-0
                                             active:scale-[0.99]
                                             disabled:opacity-40 disabled:cursor-not-allowed
                                             ${isOn && isSelectable
@@ -396,30 +396,27 @@ export default function AdminLibraryManager() {
                                             className={`text-[10px] font-medium px-1.5 py-0.5 rounded shrink-0 ${hasCqi ? 'bg-background/70 text-foreground/80' : 'bg-muted text-muted-foreground'
                                               }`}
                                           >
-                                            {hasCqi ? `CQI ${cqiValue.toFixed(2)}` : 'CQI —'}
+                                            {hasCqi ? cqiValue.toFixed(2) : '—'}
                                           </span>
-                                          <span className={`text-[10px] font-medium ml-auto shrink-0 pr-12 ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
+                                          <span className={`text-[10px] font-medium ml-auto shrink-0 ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
                                             {hasData ? `${questionCount} 題` : '無題庫'}
                                           </span>
                                           {isOn && isSelectable && (
-                                            <span className="absolute right-12 w-4 h-4 rounded-full bg-white/40 flex items-center justify-center text-[10px] text-white font-bold shrink-0">
+                                            <span className="w-4 h-4 rounded-full bg-white/35 flex items-center justify-center text-[10px] text-white font-bold shrink-0">
                                               ✓
                                             </span>
                                           )}
                                         </button>
 
-                                        {/* 審查按鈕 (浮點於右側) */}
                                         {isSelectable && (
                                           <button
                                             type="button"
-                                            onClick={(e) => {
-                                              e.stopPropagation();
-                                              setCurationTarget({ grade, semester: sem, subject, publisher: pub });
-                                            }}
-                                            className={`absolute right-2 px-2 py-1 text-[10px] sm:text-xs font-bold rounded shadow-sm transition-opacity ${isOn
-                                              ? 'bg-white text-foreground hover:bg-gray-100 opacity-80 hover:opacity-100'
-                                              : 'bg-primary text-primary-foreground hover:opacity-90 opacity-0 group-hover:opacity-100'
+                                            onClick={() => setCurationTarget({ grade, semester: sem, subject, publisher: pub })}
+                                            className={`shrink-0 px-2.5 py-2 text-[11px] sm:text-xs font-bold rounded-lg border transition-colors ${isOn
+                                              ? 'bg-white text-foreground border-border hover:bg-muted'
+                                              : 'bg-primary text-primary-foreground border-primary/40 hover:opacity-90'
                                               }`}
+                                            aria-label={`${pub} 題庫審查`}
                                           >
                                             審查
                                           </button>
