@@ -1,0 +1,55 @@
+name: Deploy exactly to GitHub Pages
+
+on:
+  # 當有程式碼推送到 main 分支時觸發
+  push:
+    branches: ["main"]
+  # 允許手動從 Actions 頁籤觸發
+  workflow_dispatch:
+
+# 設定 GITHUB_TOKEN 的權限，允許部署至 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允許並行執行一個部署任務
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: apps/v3_eidos
+        run: npm install
+
+      - name: Build project
+        working-directory: apps/v3_eidos
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 將打包後的 dist 目錄作為網頁內容上傳
+          path: './apps/v3_eidos/dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
