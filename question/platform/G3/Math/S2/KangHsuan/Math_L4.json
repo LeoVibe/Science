@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "1 公分是 10 公分的 1/10，即 0.1。",
       "commonMisconception": "學生常把整數與小數位置混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 1,
       "explanation": "1.4 > 1.2，差值為 1.4 - 1.2 = 0.2。",
       "commonMisconception": "對於十分位計算後的進退位概念不明確。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "0.6 + 0.3 = 0.9。",
       "commonMisconception": "小數點對齊錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "0.9 + 0.1 = 1.0。這是小數進位到整數的關鍵點。",
       "commonMisconception": "寫成 0.10（選項 A），反映出對小數進位機制不熟。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "2.5 + 3.8 = 6.3 毫米。注意滿十進一。",
       "commonMisconception": "將十分位直接相加成 5.13（選項 C）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -94,7 +99,8 @@
       "answer_index": 3,
       "explanation": "15.0 - 12.5 = 2.5。注意整數減法要補 0 對齊。",
       "commonMisconception": "直接用 5 減 5 或是忘記跟整數借位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -109,7 +115,8 @@
       "answer_index": 2,
       "explanation": "小數點讀作『點』。",
       "commonMisconception": "混淆讀法。",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "taxonomy": "applied",
@@ -124,7 +131,8 @@
       "answer_index": 3,
       "explanation": "28.4 - 1.2 = 27.2。",
       "commonMisconception": "錯用加法計算成長。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

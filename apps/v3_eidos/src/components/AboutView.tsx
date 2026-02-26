@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Grade, APP_CONFIG, getSubjectsByGrade, Semester, Subject, SUBJECT_THEME_MAP, buildPath, Publisher } from '@/data/config';
+import { Grade, APP_CONFIG, getSubjectsByGrade, Semester, Subject, SUBJECT_THEME_MAP, buildPath, Publisher, PUBLISHER_THEME_COLORS } from '@/data/config';
 import libraryData from '@/data/libraryStats.json';
 import type { LibraryConfig } from '@/components/admin/AdminLibraryManager';
 
@@ -11,9 +11,13 @@ interface AboutViewProps {
   tab: AboutTab;
   onTabChange: (tab: AboutTab) => void;
   onBack: () => void;
+  /** 當前使用者設定的年級 */
+  grade: Grade;
+  /** 當前使用者設定的學期 */
+  semester: Semester;
 }
 
-export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) {
+export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, semester: userSemester }: AboutViewProps) {
   const [libraryConfig, setLibraryConfig] = useState<LibraryConfig | null>(null);
   const publisherStats = (libraryData as { publisherStats?: Record<string, { units: number; questions: number; quality: string }> }).publisherStats ?? {};
 
@@ -62,14 +66,14 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
             </div>
 
             <div className="space-y-6">
-              {APP_CONFIG.grades.slice().reverse().map(grade => {
+              {[userGrade].map(grade => {
                 const subjects = getSubjectsByGrade(grade);
                 const gConfig = libraryConfig?.grades[grade as Grade];
                 if (libraryConfig && gConfig?.enabled === false) return null;
 
                 const semesterBlocks: JSX.Element[] = [];
 
-                ([1, 2] as Semester[]).forEach(sem => {
+                ([userSemester] as Semester[]).forEach(sem => {
                   const sConfig = gConfig?.semesters[sem];
                   if (libraryConfig && sConfig?.enabled === false) return;
 
@@ -174,7 +178,7 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
             {/* Depth Legend */}
             <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30">
               <h4 className="text-[11px] font-bold text-foreground mb-2 flex items-center gap-1.5">
-                <span>📈 題庫品質評估標準</span>
+                <span>📈 題庫嚴謹度指標 (Quality Gate) 標準</span>
               </h4>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-[10px] text-muted-foreground whitespace-nowrap">
@@ -340,13 +344,9 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
           <div className="bg-card rounded-2xl border p-5 space-y-3">
             <h3 className="font-bold text-sm flex items-center gap-1.5">📝 支援出版社</h3>
             <div className="grid grid-cols-3 gap-2">
-              {[
-                { name: '康軒', color: 'hsl(200 55% 55%)' },
-                { name: '南一', color: 'hsl(350 50% 65%)' },
-                { name: '翰林', color: 'hsl(168 45% 50%)' },
-              ].map(p => (
-                <div key={p.name} className="text-center py-3 rounded-2xl text-white font-bold text-sm" style={{ background: p.color }}>
-                  {p.name}版
+              {([...APP_CONFIG.publishers] as Publisher[]).map(pub => (
+                <div key={pub} className="text-center py-3 rounded-2xl text-white font-bold text-sm" style={{ background: PUBLISHER_THEME_COLORS[pub] }}>
+                  {pub}版
                 </div>
               ))}
             </div>
@@ -361,11 +361,11 @@ export default function AboutView({ tab, onTabChange, onBack }: AboutViewProps) 
             {[
               { ver: '0.7', date: '2026/2/21', desc: '海洋清爽配色、本站分頁改版', highlight: true },
               { ver: '0.6', date: '2026/2/18', desc: 'UI 全面優化、URL 路由', highlight: false },
-              { ver: '0.5', date: '2026/2/10', desc: '野心亂測版，囊括全年級、全學科與三大出版社題庫版，但題目出的很爛沒實質效用', highlight: false, link: 'https://preview--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app/history/v0.5' },
+              { ver: '0.5', date: '2026/2/10', desc: '野心亂測版，囊括全年級、全學科與三大出版社題庫版，但題目出的很爛沒實質效用', highlight: false, link: '/history/v0.5/' },
               { ver: '0.4', date: '2026/2/1', desc: '新增錯題記錄', highlight: false },
               { ver: '0.3', date: '2026/1/20', desc: '新增統計功能', highlight: false },
               { ver: '0.2', date: '2026/1/10', desc: '新增多科目支援', highlight: false },
-              { ver: '0.1', date: '2026/1/3', desc: '自然科題庫版，只有三上自然康軒的一科', highlight: false, link: 'https://preview--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app/history/v0.1' },
+              { ver: '0.1', date: '2026/1/3', desc: '自然科題庫版，只有三上自然康軒的一科', highlight: false, link: '/history/v0.1/' },
             ].map((v, i, arr) => (
               <div key={v.ver} className={`flex items-start gap-3 py-3 ${i < arr.length - 1 ? 'border-b border-border' : ''}`}>
                 <div className="shrink-0 w-16 text-center space-y-0.5">

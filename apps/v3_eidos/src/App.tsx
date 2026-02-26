@@ -8,6 +8,8 @@ import Maintenance from "./pages/Maintenance";
 import NotFound from "./pages/NotFound";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
+import RequireAdminAuth from "./components/admin/RequireAdminAuth";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const queryClient = new QueryClient();
 
@@ -24,22 +26,25 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/admin/login" element={<AdminLogin />} />
-          <Route path="/admin/:tab" element={<AdminDashboard />} />
-          <Route path="/admin" element={<AdminDashboard />} />
-          <Route path="/maintenance" element={<Maintenance />} />
+      <ErrorBoundary>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/:tab/*" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />
+            <Route path="/admin/:tab" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />
+            <Route path="/admin" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />
+            <Route path="/maintenance" element={<Maintenance />} />
 
-          <Route path="/:grade/:subject/:semester/:publisher/:view/:subTab" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
-          <Route path="/:grade/:subject/:semester/:publisher/:view" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
-          <Route path="/:grade/:subject/:semester/:publisher" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
-          <Route path="/" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
+            <Route path="/:grade/:subject/:semester/:publisher/:view/:subTab" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
+            <Route path="/:grade/:subject/:semester/:publisher/:view" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
+            <Route path="/:grade/:subject/:semester/:publisher" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
+            <Route path="/" element={<MaintenanceGuard><Index /></MaintenanceGuard>} />
 
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </ErrorBoundary>
     </TooltipProvider>
   </QueryClientProvider>
 );

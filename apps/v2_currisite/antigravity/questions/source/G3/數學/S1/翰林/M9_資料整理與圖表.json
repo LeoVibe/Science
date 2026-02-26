@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M9",
+    "title": "資料整理與圖表",
+    "semester": "semester_1",
+    "order": 9
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "製作統計圖表的第一步通常是什麼？",
+      "options": [
+        "隨便寫數字",
+        "蒐集並分類資料",
+        "看別人怎麼做",
+        "畫畫"
+      ],
+      "answer": "蒐集並分類資料",
+      "explanation": "有系統地蒐集原始數據，並依特性分類，才能開始製作圖表。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "「正」字表計算法，一個「正」字代表數字 5。",
+      "answer": "True",
+      "explanation": "「正」字共五劃，每畫代表 1。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "在長條圖中，長條越長代表數量越______。",
+      "answer": "多或大",
+      "explanation": "長度（或高度）與數量成正比。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "想要知道全班最喜歡的水果種類分布情形，使用哪種圖表最合適？",
+      "options": [
+        "數線",
+        "直式加法算式",
+        "圓規",
+        "長條圖"
+      ],
+      "answer": "長條圖",
+      "explanation": "長條圖能一目了然地比較不同類別之間的數量差異。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "圖表的「標題」有什麼作用？",
+      "options": [
+        "讓讀者知道這個圖表是在說什麼",
+        "老師要求的",
+        "裝飾用",
+        "沒有作用"
+      ],
+      "answer": "讓讀者知道這個圖表是在說什麼",
+      "explanation": "標題直觀地說明了圖表的主題與內容內容。"
+    }
+  ]
+}

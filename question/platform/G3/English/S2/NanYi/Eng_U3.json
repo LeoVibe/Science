@@ -1,265 +1,192 @@
 {
-  "publisher": "NanYi",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U3",
-  "lesson_title": "Feelings",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U3",
+    "lesson_name": "Is he a doctor?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Birthday Party",
-      "question": "Today is my birthday! I have many presents (禮物). I am very ______.",
+      "id": "NY-G3S2-U3-001",
+      "type": "multiple_choice",
+      "scenario": "Two friends are looking at a family photo album.",
+      "question": "Friend A: This man is tall. ___________________\nFriend B: Yes, he is. He works in a hospital.",
       "options": [
-        "happy",
-        "sad",
-        "angry",
-        "hungry"
+        "Does he a doctor?",
+        "Are you a doctor?",
+        "Is he a doctor?",
+        "He is a doctor?  "
       ],
-      "answer_index": 0,
-      "explanation": "收到很多生日禮物，心情應該是開心的 (happy)。",
-      "commonMisconception": "學生可能不認識禮物單字，或者混淆形容詞含義。",
-      "quality_level": "L4"
+      "answer_index": 2,
+      "explanation": "從回答 Yes, he is. 與在醫院工作的線索，可以推論前言在詢問第三人稱單數男性的職業。疑問句為 Is he a/an + 職業名詞。選項 B 主詞錯置；選項 C 錯搭助動詞 does；選項 D 語序錯誤。",
+      "taxonomy": "inferential",
+      "commonMisconception": "疑問句忘了將 Be 動詞移至句首，或是錯加助動詞 does 在名詞前面。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Lost a Toy",
-      "question": "I can't find my favorite ball. I am ______.",
+      "id": "NY-G3S2-U3-002",
+      "type": "multiple_choice",
+      "scenario": "A teacher is showing flashcards of different jobs to the class.",
+      "question": "Teacher: Look at the woman in the picture. Is she a nurse?\nStudent: ___________________",
       "options": [
-        "happy",
-        "sad",
-        "angry",
-        "thirsty"
+        "Yes, she is. She is a teacher.  ",
+        "No, she isn't. She is a teacher.",
+        "No, she doesn't. She is teacher.",
+        "Yes, it is. It is a teacher.    "
       ],
       "answer_index": 1,
-      "explanation": "找不到心愛的球，心情應該是難過的 (sad)。",
-      "commonMisconception": "形容詞拼寫接近導致誤選 (如 sad 與 sand)。",
-      "quality_level": "L4"
+      "explanation": "問句為 Is she...?，若為否定則回答 No, she isn't.，並且補述時需要加上冠詞 a (a teacher)。選項 B 錯搭 doesn't 且漏了 a；選項 C 語意矛盾 (是護士卻又說是老師)；選項 D 把人稱作 it。",
+      "taxonomy": "inferential",
+      "commonMisconception": "否定簡答不熟，且職業名詞前方常會漏掉不定冠詞 a / an。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Before Lunch",
-      "question": "It's twelve o'clock. I want to eat a big hamburger. I am ______.",
+      "id": "NY-G3S2-U3-003",
+      "type": "multiple_choice",
+      "scenario": "A child is pointing at a police car on the street.",
+      "question": "Child: Look at the man in the car! ___________________\nDad: Yes, he is a brave police officer.",
       "options": [
-        "happy",
-        "sad",
-        "angry",
-        "hungry"
+        "Is he a police officer? ",
+        "Is she a police officer?",
+        "Are he a police officer?",
+        "Does he a police officer?"
+      ],
+      "answer_index": 0,
+      "explanation": "由爸爸的回答 he is 推斷，小孩的問句必定是 Is he a...。選項 B 錯用女性；選項 C Be 動詞搭配錯誤；選項 D 錯用 does 加在名詞上。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看清楚情境裡的 the man (男人)，亂選 she，或把 does 亂加在名詞前。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-004",
+      "type": "multiple_choice",
+      "scenario": "A girl tells her friend about her mother's job.",
+      "question": "Girl: My mother cooks very well in the restaurant.\nFriend: ___________________",
+      "options": [
+        "Is she a cook?",
+        "Is she a nurse?",
+        "Are she a cook?",
+        "She is a cook?"
+      ],
+      "answer_index": 0,
+      "explanation": "母親在餐廳很會煮菜，符合的職業是廚師 (cook)。提問女性長輩使用 Is she a cook?。選項 B 護士與情境不符；選項 C 動詞錯用 are；選項 D 為直述句語法。",
+      "taxonomy": "inferential",
+      "commonMisconception": "不會聯想 cooks (煮飯) 與 a cook (廚師) 的關係，或者把問句語序搞錯。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-005",
+      "type": "multiple_choice",
+      "scenario": "Two students meet the school's new staff member.",
+      "question": "Student A: Is he a teacher?\nStudent B: ___________________\nStudent A: Oh, he cleans the school.",
+      "options": [
+        "Yes, he does.   ",
+        "No, he isn't.   ",
+        "Yes, he is.     ",
+        "No, he doesn't. "
+      ],
+      "answer_index": 1,
+      "explanation": "根據後續對話「Oh, he cleans...」(他是打掃的人)，推論出他不是老師。Is he...? 的否定簡答為 No, he isn't.。選項 B 與 D 錯搭助動詞 does；選項 C 不合邏輯語意。",
+      "taxonomy": "applied",
+      "commonMisconception": "看到動詞 cleans 就想選 does，而忘記要針對 Is he 進行對等回答。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-006",
+      "type": "multiple_choice",
+      "scenario": "A boy is reading a book about flying planes.",
+      "question": "Boy: I want to fly planes in the sky.\nDad: ___________________",
+      "options": [
+        "Are you want to be a pilot?",
+        "Do you want to be a pilot?",
+        "Is you want to be a pilot? ",
+        "Does you want to be a pilot"
+      ],
+      "answer_index": 1,
+      "explanation": "動詞 want 是一般動詞，因此提問必須使用助動詞 Do/Does。因為主詞是 you，故必須用 Do you want...。選項 B, C 錯用了 Be 動詞；選項 D 錯用了 Does。",
+      "taxonomy": "applied",
+      "commonMisconception": "被『你是...嗎』的句型干擾，導致遇到一般動詞也套用 Are you。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-007",
+      "type": "multiple_choice",
+      "scenario": "A little girl is dressing up with a stethoscope (聽診器).",
+      "question": "Grandpa: You look great. ___________________\nGirl: Yes! I want to help sick people.",
+      "options": [
+        "Do you a doctor?  ",
+        "Is you a doctor?  ",
+        "Are you a doctor? ",
+        "Am I a doctor?    "
+      ],
+      "answer_index": 2,
+      "explanation": "對著眼前的人問身分，使用 Are you a...? 是正確且符合語法的。女孩回答想幫助病人，確認了醫生這個職業。選項 B 錯搭 Is you ；選項 C 的 Do 無法直接接名詞補語；選項 D 人稱反了。",
+      "taxonomy": "inferential",
+      "commonMisconception": "把助動詞的用法完全搞混，把 Do you 拿來問身分。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-008",
+      "type": "multiple_choice",
+      "scenario": "Two kids are talking about the man performing on stage.",
+      "question": "Kid A: Wow! He has a great voice.\nKid B: ___________________\nKid A: Yes, he is a famous singer.",
+      "options": [
+        "He is a singer? ",
+        "Are he a singer?",
+        "Is she a singer?",
+        "Is he a singer? "
       ],
       "answer_index": 3,
-      "explanation": "到了用餐時間且想吃漢堡，代表肚子餓了 (hungry)。",
-      "commonMisconception": "學生常會混淆 happy, hungry, angry 等開頭發音或拼寫相似的單字。",
-      "quality_level": "L4"
+      "explanation": "選項 A 是標準的第三人稱單數疑問句，契合 Kid A 所描述的男歌手 he is a famous singer。選項 B Be 動詞錯置；選項 C 是女性 she 不符；選項 D 為直述句語句錯誤。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒注意到前面的 he has，看成女性的 she。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Asking for Feeling",
-      "question": "A: ______ you happy? \nB: Yes, I am.",
+      "id": "NY-G3S2-U3-009",
+      "type": "multiple_choice",
+      "scenario": "Mom brings a package to the door from a delivery person.",
+      "question": "Son: Is he a mail carrier?\nMom: ___________________\nSon: I see. He works for the brown truck company.",
       "options": [
-        "Am",
-        "Is",
-        "Are",
-        "Can"
-      ],
-      "answer_index": 2,
-      "explanation": "詢問「你是不是...」(形容詞) 使用 B 動詞 Are 開頭。",
-      "commonMisconception": "受中文「你『會』開心嗎」影響而誤用 Can。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Reporting Feeling",
-      "question": "A: How are you? \nB: I ______ angry. My dog ate my cake!",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
+        "No, he isn't.  ",
+        "No, he doesn't.",
+        "Yes, he is.    ",
+        "Yes, he does.  "
       ],
       "answer_index": 0,
-      "explanation": "主詞 I 對應的 B 動詞是 am。",
-      "commonMisconception": "基礎 B 動詞搭配錯誤。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "因為兒子說「我了解了。他在那家棕色卡車公司工作（而非傳統的郵差）」，得知答案為否定。Is he...? 的否定短答是 No, he isn't.。選項 B 重大文法錯誤 (doesn't對應Is)，選項 C 與對話邏輯矛盾。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Sibling's Mood",
-      "question": "Leo is crying (哭). Is he happy?",
+      "commonMisconception": "在簡答中，用 does/doesn't 去取代 is/isn't，對於 Be 動詞缺乏敏感性。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-010",
+      "type": "multiple_choice",
+      "scenario": "The teacher points to a picture of an old woman feeding animals.",
+      "question": "Teacher: What does she do? Is she a farmer?\nStudent: ___________________",
       "options": [
-        "Yes, he is.",
-        "No, he isn't.",
-        "Yes, she is.",
-        "No, she isn't."
+        "Yes, he is. He loves animals.  ",
+        "Yes, she is. She loves animals.",
+        "No, she isn't. He loves animals",
+        "No, she doesn't. She loves it. "
       ],
       "answer_index": 1,
-      "explanation": "正在哭通常代表不開心。對於男生 Leo 的否定簡答為 No, he isn't。",
-      "commonMisconception": "學生可能不知道 cry 的意思，或在簡答中代名詞選錯性別。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Wait for Food",
-      "question": "A: Are you hungry? \nB: No, I ______. I just had a big lunch.",
-      "options": [
-        "am",
-        "is",
-        "am not",
-        "isn't"
-      ],
-      "answer_index": 2,
-      "explanation": "否定簡答為 'No, I am not' (或 I'm not)。",
-      "commonMisconception": "否定簡答結構不完整。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "圖中是一位『老奶奶』(woman/she)，問題為 Is she...?。肯定回答必須是 Yes, she is.。選項 B、C 把人稱錯變成了男性 he，選項 D 錯用 doesn't 來回答 Is 提問。",
       "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Broken Toy",
-      "question": "Sam broke my kite! I am not happy. I am ______.",
-      "options": [
-        "happy",
-        "sad",
-        "fine",
-        "thirsty"
-      ],
-      "answer_index": 1,
-      "explanation": "風箏被弄壞且「不開心」(not happy)，對應形容詞是 sad (或可能是 angry，但選項中 sad 最合適)。",
-      "commonMisconception": "不具備同義/反義詞的邏輯轉換能力。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "Amy and Mia ______ thirsty. They want some water.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 2,
-      "explanation": "雙人主詞 (Amy and Mia) 應搭配複數 B 動詞 are。",
-      "commonMisconception": "學生常只看到最近的 Mia 而選 is。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Classroom Feelings",
-      "question": "Toby is happy. Lily is angry. Sam is hungry. \nQuestion: Is Lily happy?",
-      "options": [
-        "Yes, she is.",
-        "No, she isn't. She is angry.",
-        "Yes, he is.",
-        "No, he isn't. He is hungry."
-      ],
-      "answer_index": 1,
-      "explanation": "文本指明 Lily 是生氣的 (angry)，故對 'Is Lily happy?' 應回否定，且 Lily 是女生用 she。",
-      "commonMisconception": "閱讀時人名與情感遺忘或代名詞選錯。",
-      "quality_level": "L3"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Drinking Time",
-      "question": "It is hot! Leo wants some water. \nQuestion: How does Leo feel?",
-      "options": [
-        "He is hungry.",
-        "He is thirsty.",
-        "He is angry.",
-        "He is sad."
-      ],
-      "answer_index": 1,
-      "explanation": "天氣熱且想喝水，代表口渴 (thirsty)。雖然本單元主打四大情緒，但口渴也是常備詞彙。",
-      "commonMisconception": "分不清 hungry (餓) 與 thirsty (渴)。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Sharing Cookies",
-      "question": "Amy: 'I have many cookies. Do you want one?' \nToby: 'Yes, please! I am so hungry!' \nQuestion: Why does Toby want a cookie?",
-      "options": [
-        "Because he is happy.",
-        "Because he is hungry.",
-        "Because he is angry.",
-        "Because he is sad."
-      ],
-      "answer_index": 1,
-      "explanation": "Toby 自述因為肚子餓 (hungry) 想要餅乾。",
-      "commonMisconception": "邏輯對應錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Correct Order",
-      "question": "Are you ______?",
-      "options": [
-        "a happy",
-        "happy",
-        "an happy",
-        "very a happy"
-      ],
-      "answer_index": 1,
-      "explanation": "直接詢問感覺時，形容詞前不加冠詞 (a/an)。",
-      "commonMisconception": "受名詞結構影響，習慣在形容詞前補 a。",
-      "quality_level": "L3"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Teacher's Face",
-      "question": "The teacher is not smiling (微笑). Her face is red. \nQuestion: How does she feel?",
-      "options": [
-        "She is happy.",
-        "She is sad.",
-        "She is angry.",
-        "She is hungry."
-      ],
-      "answer_index": 2,
-      "explanation": "不微笑且臉紅 (face is red)，通常是形容生氣 (angry) 的表情。",
-      "commonMisconception": "學生可能將「臉紅」誤認成害羞或其他不包含在選項內的情緒。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Winner of a Game",
-      "question": "A: 'We won (贏了)! We won the game!' \nQuestion: How do they feel?",
-      "options": [
-        "They are happy.",
-        "They are sad.",
-        "They are angry.",
-        "They are hungry."
-      ],
-      "answer_index": 0,
-      "explanation": "贏得比賽的心情是開心的 (happy)。",
-      "commonMisconception": "不認識 won 這個單字。",
-      "quality_level": "L4"
+      "commonMisconception": "看到 animals 以為要用 does 回答，忘了原本問的是 Is she a farmer (身分身分身分)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

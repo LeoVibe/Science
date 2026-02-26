@@ -12,16 +12,25 @@ interface QuizViewProps {
   onFinish: (score: number, total: number, wrongQuestions: Question[], answeredList: { question: Question; isCorrect: boolean; selected: number }[]) => void;
   onBack: () => void;
   onSaveAnswer: (questionId: string, isCorrect: boolean) => void;
+  onProgressSave?: (payload: {
+    questions: Question[];
+    currentIndex: number;
+    answeredQuestions: { question: Question; isCorrect: boolean; selected: number }[];
+    score: number;
+    type: string;
+    startTime: number;
+  }) => void;
   initialIndex?: number;
   initialScore?: number;
   initialAnswered?: { question: Question; isCorrect: boolean; selected: number }[];
+  initialStartTime?: number;
 }
 
 const DEFAULT_AUTO_ADVANCE_MS = 1500;
 
 export default function QuizView({
   questions, quizType, subject, autoAdvanceDelayMs = DEFAULT_AUTO_ADVANCE_MS, shortcutEnabled = true, onFinish, onBack, onSaveAnswer,
-  initialIndex = 0, initialScore = 0, initialAnswered = [],
+  onProgressSave, initialIndex = 0, initialScore = 0, initialAnswered = [], initialStartTime = Date.now(),
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [score, setScore] = useState(initialScore);
@@ -41,6 +50,9 @@ export default function QuizView({
   const doConfirm = useCallback((optionIndex: number) => {
     if (confirmed) return;
     const isCorrect = optionIndex === current.normalizedAnswer;
+    const nextScore = isCorrect ? score + 1 : score;
+    const entry = { question: current, isCorrect, selected: optionIndex };
+    const nextAnswered = [...answered, entry];
     setSelectedOption(optionIndex);
     setConfirmed(true);
     if (isCorrect) {
@@ -49,10 +61,17 @@ export default function QuizView({
     } else {
       setSessionWrong(w => w + 1);
     }
-    const entry = { question: current, isCorrect, selected: optionIndex };
-    setAnswered(prev => [...prev, entry]);
+    setAnswered(nextAnswered);
     onSaveAnswer(current.id, isCorrect);
-  }, [confirmed, current, onSaveAnswer]);
+    onProgressSave?.({
+      questions,
+      currentIndex: Math.min(currentIndex + 1, questions.length - 1),
+      answeredQuestions: nextAnswered,
+      score: nextScore,
+      type: quizType,
+      startTime: initialStartTime,
+    });
+  }, [confirmed, current, onSaveAnswer, onProgressSave, questions, currentIndex, score, answered, quizType, initialStartTime]);
 
   const handleConfirm = useCallback(() => {
     if (selectedOption === null || confirmed) return;
@@ -151,26 +170,25 @@ export default function QuizView({
         </div>
         <div className="flex justify-between text-xs text-muted-foreground">
           <span>第 {currentIndex + 1} 題 / 共 {questions.length} 題</span>
-          <span>✓ {sessionCorrect}　✗ {sessionWrong}</span>
+          <span>✓ {sessionCorrect} ✗ {sessionWrong}</span>
         </div>
       </div>
 
       {/* Question card */}
       <div className="bg-card rounded-2xl border shadow-sm p-5 space-y-4">
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex items-center gap-2 flex-wrap">
           <span className={`text-xs px-2 py-0.5 rounded-full subject-bg-${theme}-light subject-text-${theme} font-medium`}>
             {current.category}
           </span>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
+          {current.scenario && (
+            <span className="text-xs text-muted-foreground">
+              📌 {current.scenario}
+            </span>
+          )}
+          <span className="text-[10px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground ml-auto shrink-0">
             選擇題
           </span>
         </div>
-
-        {current.scenario && (
-          <div className="text-sm text-muted-foreground bg-muted/50 rounded-xl px-3 py-2 border border-border/50">
-            <span className="font-medium text-foreground/80">📌 情境：</span> {current.scenario}
-          </div>
-        )}
 
         <p className="text-lg font-medium leading-relaxed">{current.question}</p>
 

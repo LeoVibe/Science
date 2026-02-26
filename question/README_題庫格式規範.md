@@ -1,6 +1,6 @@
 # 🗂️ README：題庫格式與緩存規範 (Data Guidelines)
 
-**最後修訂時間：** 2026-02-24
+**最後修訂時間：** 2026-02-26 12:20
 **存放路徑：** `question/README_題庫格式規範.md`
 **目的：** 本目錄純粹存放 JSON 與 CSV 題庫數據。此文件規範 `eidosProject` 題庫服務層如何定義 JSON 結構與管理緩存。
 
@@ -18,22 +18,12 @@
 每個出版社配置一個 `manifest.json`，供前端動態產生單元選單。
 **位置**：`/question/platform/{grade}/{subject}/{semester}/{publisher}/manifest.json`
 
-### 3.2 結構定義（兩種格式皆支援）
+### 2.1 結構定義（嚴格遵循單一格式）
 
-**格式一：units + file（舊版／數學等）**
-```json
-{
-  "grade": "G3",
-  "semester": "S1",
-  "subject": "Science",
-  "publisher": "KangHsuan",
-  "units": [
-    { "id": "Sci_U1", "order": 1, "title": "多采多姿的植物", "file": "Sci_U1.json" }
-  ]
-}
-```
+**⚠️ 核心工程精神：從源頭解決 (Single Source of Truth) **
+所有生成的 `manifest.json` 必須**強制完全一致**，禁止依賴前端城市碼的相容性或容錯（Fallback）機制來處理名稱變異（如 `units` / `items` 或 `name` / `title` 混用）。這會導致專案難以維護且容易產生「改A壞B」的連鎖效應。
 
-**格式二：items + path（國語 AG 產出）**
+**強制標準格式 (Items Array + Title)：**
 ```json
 {
   "publisher": "翰林",
@@ -41,12 +31,12 @@
   "semester": "S2",
   "subject": "Chinese",
   "items": [
-    { "id": "L1", "title": "讀首情詩給大地", "path": "Chi_L1.json" },
-    { "id": "L2", "title": "聽！那是什麼聲音？", "path": "Chi_L2.json" }
-  ]
+    { "id": "L1", "title": "讀首情詩給大地", "file": "Chi_L1.json" },
+    { "id": "L2", "title": "聽！那是什麼聲音？", "file": "Chi_L2.json" }
   ]
 }
 ```
+*註：陣列名稱一律為 `items`，單元名稱一律為 `title`，檔案名稱一律為 `file`。*
 
 ---
 
@@ -122,3 +112,49 @@
   3. `publisherStats["G{N}_S{X}_{Subject}_{Publisher}"].units`: 該版本的具體單元數。
   4. `publisherStats["..."].questions`: 該版本的總題目數。
   5. `publisherStats["..."].quality`: 該版本的品質宣稱（如 `L4`）。
+
+---
+
+## 7. 🔁 自動化工具觸發節點 (CI Automation)
+
+本專案透過 **Git Pre-commit Hook** (`.git/hooks/pre-commit`) 自動執行品質防護。
+
+### 自動觸發（每次 `git commit`）
+
+| 節點 | 腳本 | 觸發條件 | 失敗行為 |
+|------|------|----------|----------|
+| **節點 1** 品質評分回歸 | `scripts/test_golden_cases.js` | 每次提交 | 拒絕 commit |
+| **節點 2** Manifest 格式驗證 | `scripts/verify_format_consistency.js` | `question/` 有異動時 | 拒絕 commit |
+
+### 手動工具（新增題庫後執行，不自動觸發）
+
+| 工具 | 用途 | 指令 |
+|------|------|------|
+| `auto_balance_json.js` | 打散選項順序 + 補齊選項長度 | `node scripts/auto_balance_json.js question/platform/...` |
+| `normalize_manifest.js` | 強制修正 manifest 格式為唯一標準 | `node scripts/normalize_manifest.js` |
+| `evaluate_question_quality.js` | 評估題庫品質等級 (L1-L5) | `node scripts/evaluate_question_quality.js question/platform/...` |
+| `generate_library_stats.js` | 重新產出後台統計資料 | `node scripts/generate_library_stats.js` |
+
+---
+
+## 8. 📋 新增題庫標準作業流程 (SOP)
+
+```sh
+# 1. 打散選項 + 消除 BIAS
+node scripts/auto_balance_json.js question/platform/[科目路徑]
+
+# 2. 正規化所有 manifest（若有違規欄位自動修正）
+node scripts/normalize_manifest.js
+
+# 3. 驗證品質（全數 L4+）
+node scripts/evaluate_question_quality.js question/platform/[科目路徑]
+
+# 4. 更新後台統計
+node scripts/generate_library_stats.js
+
+# 5. 提交（會自動觸發 Hook 雙節點保護）
+git add .
+git commit -m "feat: 新增 [...] 題庫"
+```
+
+> **注意**：若 hook 回報格式違規，執行 `node scripts/normalize_manifest.js` 修正後重新提交。

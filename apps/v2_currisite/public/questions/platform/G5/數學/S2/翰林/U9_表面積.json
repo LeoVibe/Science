@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "han_lin",
+        "lesson": "U9",
+        "title": "表面積"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "長方體的表面積計算公式可以理解為？",
+            "options": [
+                "長×寬×高",
+                "長+寬+高",
+                "(長×寬 + 寬×高 + 高×長) × 2",
+                "底面積×高"
+            ],
+            "answer": "(長×寬 + 寬×高 + 高×長) × 2",
+            "explanation": "將長方體展開後，對面互相相等，所以各算一組後乘以2即可。"
+        }
+    ]
+}

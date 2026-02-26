@@ -21,7 +21,8 @@
       "answer_index": 1,
       "explanation": "根據 'thirsty' (渴的) 以及 'buy a bottle' (買一瓶)，選擇液體類的 'milk' 最合適。",
       "commonMisconception": "將食物與飲料單字混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -38,7 +39,8 @@
       "answer_index": 1,
       "explanation": "描述為巧克力口味且口感脆 (crunchy)，選項中只有餅乾 (cookies) 符合。",
       "commonMisconception": "詞彙辨識力不足。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -55,7 +57,8 @@
       "answer_index": 0,
       "explanation": "製作三明治的基本食材是麵包 (bread)。",
       "commonMisconception": "常識詞彙搭配錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "answer_index": 1,
       "explanation": "主詞為 'you' 的一般動詞疑問句，使用助動詞 'Do'。",
       "commonMisconception": "誤用 B 動詞 Are 開頭。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -89,7 +93,8 @@
       "answer_index": 0,
       "explanation": "後句表達想做煎蛋，表示需要蛋，故選肯定應答 'Yes, please'。",
       "commonMisconception": "上下文邏輯衝突。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -106,7 +111,8 @@
       "answer_index": 0,
       "explanation": "對於 'Does she...?' 的否定回答為 'No, she doesn't'。",
       "commonMisconception": "助動詞單複數混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -123,7 +129,8 @@
       "answer_index": 0,
       "explanation": "完整的「你想要...嗎？」疑問句型為 'Do you want...?'。",
       "commonMisconception": "語法結構不完整。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -140,7 +147,8 @@
       "answer_index": 1,
       "explanation": "數字 'two' 後接複數單位詞 'bottles'。",
       "commonMisconception": "漏掉複數 s。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -157,7 +165,8 @@
       "answer_index": 0,
       "explanation": "助動詞 Does 後接原形動詞 'want'。",
       "commonMisconception": "在助動詞後仍使用三單動詞 wants。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -174,7 +183,8 @@
       "answer_index": 2,
       "explanation": "清單中提到蛋、麵包和果汁，並未提到牛奶 (milk)。",
       "commonMisconception": "忽略 NOT 或將果汁與牛奶混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -191,7 +201,8 @@
       "answer_index": 0,
       "explanation": "10+5=15，剛好等於擁有的錢，所以可以買兩者。回答用 'Yes, you can'。",
       "commonMisconception": "數學計算與助動詞回答格式錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -208,7 +219,8 @@
       "answer_index": 0,
       "explanation": "雖然沒有紅蘋果，但有綠蘋果，所以「有蘋果」這件事是事實。",
       "commonMisconception": "邏輯判斷受顏色限制影響。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -225,7 +237,8 @@
       "answer_index": 2,
       "explanation": "父親不吃米，母親不吃麵。若要買一樣的東西，麵包 (bread) 是合理的第三方選項。",
       "commonMisconception": "無法進行集體排除法的推理。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -242,7 +255,8 @@
       "answer_index": 0,
       "explanation": "買一送一代表 20 元買 2 袋，每一袋平均 10 元。",
       "commonMisconception": "數學單位概念與優惠文本理解。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -259,7 +273,8 @@
       "answer_index": 0,
       "explanation": "這是一個否定疑問句，表示「難道你不喜歡...？」，對應回答後方的 'I don't'。",
       "commonMisconception": "對否定疑問句結構不熟悉。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -276,7 +291,8 @@
       "answer_index": 1,
       "explanation": "這是一個語意遞進，強調「我『只/就』想要喝水」。', 'just' 或 'only' 皆可，此處選 'just' 為對話口語常用。",
       "commonMisconception": "副詞位置與用法。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -293,7 +309,8 @@
       "answer_index": 1,
       "explanation": "沒有錢所以「不能」買食物，選 'can't'。",
       "commonMisconception": "因果判定錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -310,7 +327,8 @@
       "answer_index": 1,
       "explanation": "為了環保，應自備購物袋 (bags)。",
       "commonMisconception": "不具備環保議題詞彙連結。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

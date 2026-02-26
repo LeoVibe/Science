@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "84 ÷ 7 = 12。利用乘法口訣「七十二 84」進行逆運算。",
       "commonMisconception": "學生可能在做直式時，誤將十位的商寫成 1 而非正確的 1（8÷7=1...1），再將餘數 1 與個位 4 合併為 14÷7=2。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "253 ÷ 6 = 42 ... 1。42 個書架放滿後，剩下 1 本仍需要 1 個書架。42 + 1 = 43 個。",
       "commonMisconception": "學生只回答商（42），忽略了餘數 1 也需要一個書架（無條件進入法）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "500 ÷ 3 = 166 ... 2。每人分 166 元後，媽媽手上剩 2 元。",
       "commonMisconception": "三位數除以一位數的直式計算中，連續的位值處理容易出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "3 ÷ 3 = 1（百位），0 ÷ 3 = 0（十位補 0），6 ÷ 3 = 2（個位）。商為 102。",
       "commonMisconception": "學生常常漏掉中間的 0，直接將答案寫成 12。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "被除數 = 除數 × 商 + 餘數 = 8 × 23 + 5 = 184 + 5 = 189。",
       "commonMisconception": "忘記加上餘數，或者乘法計算錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -94,7 +99,8 @@
       "answer_index": 0,
       "explanation": "475 ÷ 9 = 52 ... 7。剩 7 個，只差 2 個就能再裝一盒（9-7=2），幾乎滿了。",
       "commonMisconception": "學生需要理解餘數與除數的比較關係，判斷「差多少才滿」。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

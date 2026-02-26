@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { fetchAdminConfig, saveAdminConfig, type AdminConfig } from '@/data/api';
 
 interface ConfigItem {
   key: string;
@@ -77,20 +78,77 @@ export default function AdminConfigPanel() {
   const [config, setConfig] = useState(INITIAL_CONFIG);
   const [saved, setSaved] = useState(false);
   const [editingKey, setEditingKey] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    let cancelled = false;
+    const token = sessionStorage.getItem('admin_token') ?? '';
+    if (!token) {
+      setLoading(false);
+      setError('缺少 admin token，請重新登入。');
+      return;
+    }
+    fetchAdminConfig(token).then((remote) => {
+      if (cancelled) return;
+      if (!remote) {
+        setError('讀取全域設定失敗，請稍後重試。');
+      } else {
+        const mapped = INITIAL_CONFIG.map((item) => {
+          switch (item.key) {
+            case 'SITE_STATUS': return { ...item, value: remote.site_status };
+            case 'QUESTION_BASE_URL': return { ...item, value: remote.question_base_url };
+            case 'DEFAULT_GRADE': return { ...item, value: String(remote.default_grade) };
+            case 'DEFAULT_SEMESTER': return { ...item, value: String(remote.default_semester) };
+            case 'DEFAULT_SUBJECT': return { ...item, value: remote.default_subject };
+            case 'DEFAULT_PUBLISHER': return { ...item, value: remote.default_publisher };
+            case 'ENABLE_SURVEY': return { ...item, value: String(remote.enable_survey) };
+            case 'MAX_QUIZ_QUESTIONS': return { ...item, value: String(remote.max_quiz_questions) };
+            default: return item;
+          }
+        });
+        setConfig(mapped);
+      }
+      setLoading(false);
+    });
+    return () => { cancelled = true; };
+  }, []);
 
   const updateValue = (key: string, value: string) => {
     setConfig(prev => prev.map(c => c.key === key ? { ...c, value } : c));
     setSaved(false);
   };
 
-  const handleSave = () => {
-    // 將所有設定寫入 localStorage 模擬持久化
-    config.forEach(item => {
-      localStorage.setItem(item.key, item.value);
-    });
+  const handleSave = async () => {
+    const token = sessionStorage.getItem('admin_token') ?? '';
+    if (!token) {
+      setError('缺少 admin token，請重新登入。');
+      return;
+    }
+    setError('');
+    const toValue = (key: string) => config.find(c => c.key === key)?.value;
+    const payload: Partial<AdminConfig> = {
+      site_status: (toValue('SITE_STATUS') === 'Maintenance' ? 'Maintenance' : 'Open'),
+      question_base_url: toValue('QUESTION_BASE_URL') ?? '/questions/platform',
+      default_grade: Number(toValue('DEFAULT_GRADE') ?? '5'),
+      default_semester: (toValue('DEFAULT_SEMESTER') === '1' ? 1 : 2),
+      default_subject: toValue('DEFAULT_SUBJECT') ?? '國語',
+      default_publisher: toValue('DEFAULT_PUBLISHER') ?? '康軒',
+      enable_survey: toValue('ENABLE_SURVEY') === 'true',
+      max_quiz_questions: Number(toValue('MAX_QUIZ_QUESTIONS') ?? '25'),
+    };
+    const result = await saveAdminConfig(token, payload);
+    if (!result) {
+      setError('儲存失敗，請確認權限或稍後再試。');
+      return;
+    }
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };
+
+  if (loading) {
+    return <div className="p-4 text-sm text-muted-foreground">設定載入中…</div>;
+  }
 
   return (
     <div className="space-y-4 animate-in fade-in duration-200">
@@ -169,6 +227,12 @@ export default function AdminConfigPanel() {
         ))}
       </div>
 
+      {error && (
+        <div className="bg-destructive/10 text-destructive border border-destructive/30 rounded-xl px-4 py-3 text-sm">
+          {error}
+        </div>
+      )}
+
       {/* Save button */}
       <button
         onClick={handleSave}
@@ -177,11 +241,11 @@ export default function AdminConfigPanel() {
           : 'bg-primary text-primary-foreground hover:opacity-90'
           }`}
       >
-        {saved ? '✅ 已儲存至 KV' : '💾 儲存設定'}
+        {saved ? '✅ 已儲存' : '💾 儲存設定'}
       </button>
 
       <p className="text-center text-[10px] text-muted-foreground">
-        設定儲存至 Cloudflare KV，即時生效於所有前端
+        設定儲存至 Cloudflare KV（SITE_SETTINGS），會同步到全站
       </p>
     </div>
   );

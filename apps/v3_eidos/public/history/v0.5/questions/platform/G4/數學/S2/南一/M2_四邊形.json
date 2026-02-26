@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M2",
+    "order": 2,
+    "title": "四邊形"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "四個角都是直角，且四條邊都一樣長的圖形是？",
+      "options": [
+        "長方形",
+        "正方形",
+        "菱形",
+        "梯形"
+      ],
+      "answer": "正方形",
+      "explanation": "正方形具備四角皆直角且四邊等長的特性。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "平行四邊形的對邊不但平行且長度相等。",
+      "answer": "True",
+      "explanation": "這是平行四邊形的基本幾何性質。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "只有一組對邊平行的四邊形稱為______。",
+      "answer": "梯形",
+      "explanation": "梯形的定義是僅有一對邊平行。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "長方形與正方形的共通點是什麼？",
+      "options": [
+        "沒有共通點",
+        "四個角都是直角",
+        "四邊都等長",
+        "只有兩邊平行"
+      ],
+      "answer": "四個角都是直角",
+      "explanation": "兩者都屬於矩形，角皆為 90 度。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "任何四邊形的內角和都是 180 度。",
+      "answer": "False",
+      "explanation": "四邊形的內角和是 360 度。"
+    }
+  ]
+}

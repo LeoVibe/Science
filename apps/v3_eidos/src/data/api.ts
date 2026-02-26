@@ -13,6 +13,15 @@ export interface SiteSettings {
   maintenance_mode: boolean;
   announcement: string;
   api_version: string;
+  default_grade?: number;
+  default_semester?: number;
+  default_subject?: string;
+  default_publisher?: string;
+  enable_survey?: boolean;
+  max_quiz_questions?: number;
+  site_status?: 'Open' | 'Maintenance';
+  question_base_url?: string;
+  library_config?: unknown | null;
 }
 
 export interface ApiProfile {
@@ -97,6 +106,149 @@ export async function syncUserProfile(userId: string, profile: {
       method: 'PUT',
       body: JSON.stringify(body),
     });
+  } catch {
+    return null;
+  }
+}
+
+// --- JOB-016: Admin auth (dynamic whitelist) ---
+
+export interface AdminSession {
+  email: string;
+  role: string;
+  provider: string;
+}
+
+export interface AdminConfig {
+  site_status: 'Open' | 'Maintenance';
+  question_base_url: string;
+  default_grade: number;
+  default_semester: 1 | 2;
+  default_subject: string;
+  default_publisher: string;
+  enable_survey: boolean;
+  max_quiz_questions: number;
+  library_config: unknown | null;
+}
+
+export type AdminAuthRequestResult =
+  | { status: 200; session: AdminSession; token: string }
+  | { status: 202; message: string }
+  | { status: 403; error: string };
+
+/** 以 Google ID Token 向後端申請登入／審核狀態 */
+export async function adminAuthRequest(idToken: string): Promise<AdminAuthRequestResult> {
+  const url = `${getApiBaseUrl()}/api/admin/auth/request`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id_token: idToken }),
+  });
+  const data = (await res.json().catch(() => ({}))) as { session?: AdminSession; token?: string; message?: string; error?: string };
+  if (res.status === 200 && data.session && data.token) {
+    return { status: 200, session: data.session, token: data.token };
+  }
+  if (res.status === 202) return { status: 202, message: data.message ?? 'pending' };
+  return { status: 403, error: data.error ?? 'Access denied' };
+}
+
+export interface AdminUserRecord {
+  email: string;
+  role: 'owner' | 'editor';
+  status: 'approved' | 'pending' | 'rejected';
+  approved_at?: string;
+  requested_at?: string;
+}
+
+/** 取得所有後台帳號（僅 owner）；需傳入 admin_token (Bearer) */
+export async function fetchAdminUsers(adminToken: string): Promise<AdminUserRecord[]> {
+  const url = `${getApiBaseUrl()}/api/admin/auth/users`;
+  const res = await fetch(url, {
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${adminToken}`,
+    },
+  });
+  if (!res.ok) throw new Error(await res.text().catch(() => `API ${res.status}`));
+  const data = (await res.json()) as { users: AdminUserRecord[] };
+  return Array.isArray(data.users) ? data.users : [];
+}
+
+/** 更新帳號狀態：approve | reject | remove（僅 owner） */
+export async function patchAdminUser(
+  adminToken: string,
+  email: string,
+  action: 'approve' | 'reject' | 'remove'
+): Promise<AdminUserRecord[]> {
+  const url = `${getApiBaseUrl()}/api/admin/auth/users/${encodeURIComponent(email)}`;
+  const res = await fetch(url, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${adminToken}`,
+    },
+    body: JSON.stringify({ action }),
+  });
+  if (!res.ok) throw new Error(await res.text().catch(() => `API ${res.status}`));
+  const data = (await res.json()) as { users: AdminUserRecord[] };
+  return Array.isArray(data.users) ? data.users : [];
+}
+
+/** 驗證目前 admin_token 是否有效 */
+export async function verifyAdminSession(adminToken: string): Promise<AdminSession | null> {
+  try {
+    const url = `${getApiBaseUrl()}/api/admin/verify`;
+    const res = await fetch(url, {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${adminToken}`,
+      },
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { ok?: boolean; session?: AdminSession };
+    if (!data?.ok || !data.session) return null;
+    return data.session;
+  } catch {
+    return null;
+  }
+}
+
+/** 讀取後台全域配置（含題庫開關） */
+export async function fetchAdminConfig(adminToken: string): Promise<AdminConfig | null> {
+  try {
+    const url = `${getApiBaseUrl()}/api/admin/config`;
+    const res = await fetch(url, {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${adminToken}`,
+      },
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { config?: AdminConfig };
+    return data?.config ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/** 儲存後台全域配置（含題庫開關） */
+export async function saveAdminConfig(
+  adminToken: string,
+  config: Partial<AdminConfig>
+): Promise<AdminConfig | null> {
+  try {
+    const url = `${getApiBaseUrl()}/api/admin/config`;
+    const res = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${adminToken}`,
+      },
+      body: JSON.stringify(config),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { config?: AdminConfig };
+    return data?.config ?? null;
   } catch {
     return null;
   }

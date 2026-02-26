@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U2",
+    "order": 2,
+    "title": "Unit 2 What Color Is It?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What color is it? B: It is ______ (藍色).",
+      "options": [
+        "green",
+        "pink",
+        "blue",
+        "red"
+      ],
+      "answer": "blue",
+      "explanation": "藍色的英文是 blue。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'Black' and 'White' are colors.",
+      "answer": "True",
+      "explanation": "黑色 (Black) 與白色 (White) 都是顏色。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Is it ______? (紫色的) B: Yes, it is.",
+      "answer": "purple",
+      "explanation": "紫色的英文是 purple。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "The sky is blue and the sun is ______.",
+      "options": [
+        "red",
+        "green",
+        "pink",
+        "black"
+      ],
+      "answer": "red",
+      "explanation": "雖然太陽常被說是黃色，但在英文學習中，red sun 也是常見描述，或從選項中選最接近的顏色。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A strawberry is ______.",
+      "options": [
+        "red",
+        "orange",
+        "yellow",
+        "blue"
+      ],
+      "answer": "red",
+      "explanation": "草莓是 red (紅色)。"
+    }
+  ]
+}

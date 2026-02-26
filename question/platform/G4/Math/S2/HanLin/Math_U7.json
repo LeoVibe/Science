@@ -17,7 +17,8 @@
       "answer": 1,
       "explanation": "梯形的定義是只有一組對邊平行。其他選項都有兩組對邊平行。",
       "concept": "梯形的定義",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 2,
       "explanation": "菱形與正方形的定義中都包含「四邊等長」。差異在於正方形要求四角皆為直角。",
       "concept": "特定四邊形性質",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 5
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 1,
       "explanation": "平行四邊形的對角相等，鄰角的和為 180 度。四內角和固定為 360 度。",
       "concept": "對角性質",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 1,
       "explanation": "四角為直角即為矩形（長方形）。若鄰邊也等長才是正方形。",
       "concept": "長方形定義",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 2,
       "explanation": "菱形與正方形的對角線具有垂直且平分的特性。長方形對角線平分但不一定垂直。",
       "concept": "對角線性質",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 1,
       "explanation": "對角相等 = 60 度；鄰角互補 = 180 - 60 = 120 度。故為 60, 120, 120。",
       "concept": "內角運算",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 1,
       "explanation": "等腰梯形兩腰相等，且底角相等。它不是平行四邊形。",
       "concept": "等腰梯形性質",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 2,
       "explanation": "梯形的定義是「只有一組」對邊平行（或至少一組，依版本略異，但通常在小學定義中，平行四邊形不被視為梯形，因為它有兩組平行）。即便採廣義定義，這題的核心在考查分類架構。依小學教材，平行四邊形與梯形是互斥的類目。",
       "concept": "圖形分類邏輯",
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 1,
       "explanation": "平行四邊形有兩組對邊分別平行。",
       "concept": "結構識別",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 0,
       "explanation": "對角線剪開會得到兩個三角形。這涉及到空間切割常識。",
       "concept": "空間與分割",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     }
   ]
 }

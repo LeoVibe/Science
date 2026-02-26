@@ -1,265 +1,192 @@
 {
-  "publisher": "KangHsuan",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U2",
-  "lesson_title": "Body Parts",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson_id": "U2",
+    "lesson_name": "What are these?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Drawing a Self-Portrait",
-      "question": "Look at my picture! This is my ______. I have a small mouth.",
+      "id": "KH-G3S2-U2-001",
+      "type": "multiple_choice",
+      "scenario": "Two students are drawing an alien on the blackboard.",
+      "question": "Mia: Look at the alien's face! What are these?\nLeo: ___________________",
       "options": [
-        "eye",
-        "nose",
-        "face",
-        "ear"
+        "They are its big eyes.",
+        "It is its big two eyes.",
+        "They is its big eyes. ",
+        "This are its big eyes."
       ],
-      "answer_index": 2,
-      "explanation": "臉部 (face) 包含了嘴巴等五官。在自我介紹圖片時，通常會先介紹整體臉部。",
-      "commonMisconception": "學生可能只關注到 mouth 而選了其他鄰近器官，但 face 是最符合全面描述的選項。",
-      "quality_level": "L4"
+      "answer_index": 0,
+      "explanation": "What are these? 詢問複數物品，必須以 They are... 回答。選項 B 誤用單數代名詞 It is；選項 C 與 D 發生主詞與 Be 動詞不一致 (They is, This are) 的嚴重語法迷思。",
+      "taxonomy": "literal",
+      "commonMisconception": "將複數代名詞 They 搭配 is，或是 This 搭配 are，對指示代名詞單複數不敏感。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Morning Routine",
-      "question": "I wash my ______ every morning to see the world clearly.",
+      "id": "KH-G3S2-U2-002",
+      "type": "multiple_choice",
+      "scenario": "A doctor is checking a robot's body parts in the lab.",
+      "question": "Doctor: Let's check the arms. Are these your arms?\nRobot: ___________________",
       "options": [
-        "nose",
-        "ears",
-        "eyes",
-        "mouth"
+        "Yes, they are. They are my arms.",
+        "Yes, it is. It is my long arm.  ",
+        "No, they aren't. They is arms.  ",
+        "No, these isn't. These are arms."
       ],
-      "answer_index": 2,
-      "explanation": "要「看清楚世界」(see clearly)，必須清洗眼睛 (eyes)。",
-      "commonMisconception": "學生可能沒看完後半句情境，隨機選一個清洗的對象。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Listening to Music",
-      "question": "I use my ______ to hear my favorite songs.",
-      "options": [
-        "eyes",
-        "ears",
-        "nose",
-        "mouth"
-      ],
-      "answer_index": 1,
-      "explanation": "聽聲音 (hear) 使用的器官是耳朵 (ears)。",
-      "commonMisconception": "混淆五官功能，如使用 eyes 聽或 ears 看。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Identifying Body Parts",
-      "question": "This ______ my nose.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 1,
-      "explanation": "This 是單數代名詞，對應的 B 動詞是 is。",
-      "commonMisconception": "主詞與 B 動詞不一致，特別是受到中文「這是」的直譯影響，可能隨意選一個 B 動詞。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Looking in the Mirror",
-      "question": "These ______ my eyes.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 2,
-      "explanation": "These 是複數代名詞，對應複數名詞 eyes，應選 B 動詞 are。",
-      "commonMisconception": "與 This is 混淆，對 These 的複數概念掌握不佳。",
-      "quality_level": "L4"
-    },
-    {
+      "answer_index": 0,
+      "explanation": "問句 Are these...? 詢問複數物品，簡答須為 Yes, they are.。選項 B 錯用單數；選項 C, D 發生 Be 動詞單複數混淆 (They is, these isn't)。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Describing a Toy",
-      "question": "Look at the robot! It has one ______ and two ears.",
-      "options": [
-        "eye",
-        "eyes",
-        "nose",
-        "noses"
-      ],
-      "answer_index": 2,
-      "explanation": "語法上 'one' 之後接單數名詞，且機器人通常具備一個鼻子 (nose)。",
-      "commonMisconception": "分不清單複數名詞的變化 (加不加 s)。",
-      "quality_level": "L4"
+      "commonMisconception": "在簡化回答時忘記將 these 轉換為代名詞 they，並容易錯配 Be 動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Monster Drawing Class",
-      "question": "My monster is funny. It has ______ eyes!",
+      "id": "KH-G3S2-U2-003",
+      "type": "multiple_choice",
+      "scenario": "Mom and Tim are packing a bag for a picnic.",
+      "question": "Mom: What is this?\nTim: ___________________",
       "options": [
-        "one",
-        "a",
-        "three",
-        "an"
-      ],
-      "answer_index": 2,
-      "explanation": "因為 eyes 是複數形式，必須搭配大於一的數量詞 (three)。",
-      "commonMisconception": "在複數名詞前使用冠詞 a/an。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Comparing Animals",
-      "question": "An elephant has a long ______. An elephant has big ears.",
-      "options": [
-        "mouth",
-        "nose",
-        "eye",
-        "face"
+        "They are sweet apples.",
+        "It is a sweet apple.  ",
+        "They is a sweet apple.",
+        "This are sweet apples."
       ],
       "answer_index": 1,
-      "explanation": "大象最著名的特徵是長鼻子 (long nose)。",
-      "commonMisconception": "學生可能只注意到 ears 而忽略了前半句關於「長」(long) 的描述。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "問句 What is this? 是詢問單數物品，必須以 It is... 回答單數名詞。其他選項皆為複數或單複數文法錯亂。",
       "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Examining a Picture",
-      "question": "Are these your ears? Yes, ______ are.",
-      "options": [
-        "it",
-        "they",
-        "these",
-        "those"
-      ],
-      "answer_index": 1,
-      "explanation": "對 These / Those 的提問，簡答時需用代名詞 They。",
-      "commonMisconception": "在簡答中直接重複使用 these，或誤用單數代名詞 it。",
-      "quality_level": "L4"
+      "commonMisconception": "聽到 this 或 these 時，無法正確反射相對應的單複數回答句型。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
+      "id": "KH-G3S2-U2-004",
+      "type": "multiple_choice",
+      "scenario": "A boy finds some weird things under his bed.",
+      "question": "Boy: Mom! Look! What are these?\nMom: Don't touch them! ___________________",
+      "options": [
+        "They are old dirty socks. ",
+        "It is an old dirty sock.  ",
+        "These is old dirty socks. ",
+        "That are old dirty socks. "
+      ],
+      "answer_index": 0,
+      "explanation": "針對 What are these? 的複數提問，回答需使用 They are。選項 C (These is) 與選項 D (That are) 是經典的主詞與 Be 動詞對應錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "在使用指示代名詞 This/That/These/Those 時，常忘記後方要跟著正確的單複數 Be 動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U2-005",
+      "type": "multiple_choice",
+      "scenario": "In art class, the teacher is pointing at a student's painting.",
+      "question": "Teacher: Are those your ears, monster?\nStudent: ___________________",
+      "options": [
+        "Yes, they are. They are my ears.",
+        "Yes, those is. Those is my ears.",
+        "No, they aren't. They is my eyes",
+        "No, it isn't. It is my big eyes."
+      ],
+      "answer_index": 0,
+      "explanation": "Are those...? 的肯定回答為 Yes, they are.。選項 B 誤連 those is。選項 C 的 They is my eyes 有嚴重的 Be 動詞錯誤。選項 D 誤用單數代名詞 It 接複數 eyes。",
       "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Mystery Friend",
-      "question": "I have two big eyes and two long ears. My nose is small. I like carrots.",
-      "options": [
-        "I am a dog.",
-        "I am a bird.",
-        "I am a rabbit.",
-        "I am a fish."
-      ],
-      "answer_index": 2,
-      "explanation": "長耳朵 (long ears) 加上愛吃紅蘿蔔 (carrots) 是兔子的典型特徵。",
-      "commonMisconception": "忽略「長耳朵」這個關鍵線索而誤選其他動物。",
-      "quality_level": "L4"
+      "commonMisconception": "在複數否定回答中，把代名詞 they 跟單數動詞 is 湊在一起，或者用 It 代替所有複數名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "KH-G3S2-U2-006",
+      "type": "multiple_choice",
+      "scenario": "Andy and his sister are playing a guessing game with their hands.",
+      "question": "Sister: Close your eyes. What are these in my hands?\nAndy: ___________________",
+      "options": [
+        "They are two small markers.",
+        "It is a small red markers. ",
+        "They am two small markers. ",
+        "These is two small markers."
+      ],
+      "answer_index": 0,
+      "explanation": "What are these...? 回答必須是 They are 加上複數名詞。選項 B 的 a...markers 單複數矛盾；選項 C 錯用 they am；選項 D 錯用 these is。",
       "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Doctor's Office",
-      "question": "Doctor: 'Look at the light with your ______.' \nLily: 'Okay, Doctor.'",
-      "options": [
-        "ears",
-        "nose",
-        "eyes",
-        "mouth"
-      ],
-      "answer_index": 2,
-      "explanation": "要看光線 (look at the light) 必須使用眼睛 (eyes)。",
-      "commonMisconception": "學生可能不認識 light，改以隨機五官填入。",
-      "quality_level": "L4"
+      "commonMisconception": "回答疑問句時，冠詞 a/an 與字尾 s 複數同時出現，或是 Be 動詞與人稱不合。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "KH-G3S2-U2-007",
+      "type": "multiple_choice",
+      "scenario": "The pet shop owner is showing Lily some animals.",
+      "question": "Lily: They are so cute! Are they dogs?\nOwner: ___________________",
+      "options": [
+        "No, they aren't. They are cats.",
+        "No, they isn't. They are cat.  ",
+        "Yes, they are. They are cat.   ",
+        "Yes, it is. It is small dogs.  "
+      ],
+      "answer_index": 0,
+      "explanation": "Are they...? 的回答必須對稱。選項 A 前後一致。選項 B 的 they isn't 錯誤且 cat 缺 s。選項 C 雖答 Yes 但後方名詞單複數不一。選項 D 誤用單數 it。",
+      "taxonomy": "inferential",
+      "commonMisconception": "名詞複數忘記加上 s，或是代名詞 they 搭配 isn't 形成錯誤的否定縮寫。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U2-008",
+      "type": "multiple_choice",
+      "scenario": "At the zoo, a little boy is pointing at something tall.",
+      "question": "Boy: Look at the long legs! _______________\nDad: Yes, they are giraffes.",
+      "options": [
+        "Are these tall giraffes?",
+        "Is this a tall giraffe? ",
+        "Are this tall giraffes? ",
+        "Is these tall giraffes? "
+      ],
+      "answer_index": 0,
+      "explanation": "從回答 Yes, they are giraffes. 可知問句必須是複數名詞與複數 Be 動詞 Are these...? 或 Are they...?。其餘皆單複數文法錯亂。",
       "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Mask Making Contest",
-      "question": "Teacher: 'Put the red circle on the nose. Put the blue stars on the eyes.' \nQuestion: What color are the monster's eyes?",
-      "options": [
-        "red",
-        "blue",
-        "yellow",
-        "green"
-      ],
-      "answer_index": 1,
-      "explanation": "指令中寫明將藍色星星 (blue stars) 放在眼睛 (eyes) 上，故眼睛是藍色的。",
-      "commonMisconception": "顏色與位置的對應錯誤 (把紅色的圓圈對應到眼睛)。",
-      "quality_level": "L4"
+      "commonMisconception": "無法從回答的主詞和 Be 動詞反推問句的正確型態，特別容易選到 Is these 這種錯誤組合。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "KH-G3S2-U2-009",
+      "type": "multiple_choice",
+      "scenario": "Mary's brother takes something from her pencil case.",
+      "question": "Mary: Hey! What is that?\nBrother: ___________________\nMary: Give it back!",
+      "options": [
+        "It is your red eraser. ",
+        "They are red erasers.  ",
+        "That are red erasers.  ",
+        "It are your red eraser."
+      ],
+      "answer_index": 0,
+      "explanation": "What is that? 提問單數，必須以 It is... 回答。且後方 Mary 說 Give it back! 再次確認是單數物品。選項 B, C, D 都是複數或文法錯誤搭配。",
       "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "This is ______ eye. That is a nose.",
-      "options": [
-        "a",
-        "an",
-        "one",
-        "two"
-      ],
-      "answer_index": 1,
-      "explanation": "eye 的發音開頭是元音，單數冠詞應使用 an。",
-      "commonMisconception": "慣性使用 a 而忽略了元音開頭的名詞規則。",
-      "quality_level": "L4"
+      "commonMisconception": "未能區分 that (單數) 與 those (複數)，導致問答對應錯誤。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Simon Says Game",
-      "question": "Simon says: 'Touch (碰) your ears!' \nWhat should you do?",
+      "id": "KH-G3S2-U2-010",
+      "type": "multiple_choice",
+      "scenario": "During a magic show, the magician pulls things from a hat.",
+      "question": "Magician: What are these? Are they rabbits?\nBoy: ___________________",
       "options": [
-        "Touch my nose.",
-        "Touch my mouth.",
-        "Touch both sides of my head.",
-        "Touch my eyes."
+        "No, they aren't. They are white birds. ",
+        "No, it isn't. It is a white bird.      ",
+        "Yes, they are. They is white rabbits.  ",
+        "Yes, these is. These are white rabbits."
       ],
-      "answer_index": 2,
-      "explanation": "耳朵 (ears) 位於頭部的兩側，故選 C 最符合實際動作描述。",
-      "commonMisconception": "學生可能不懂 Touch 的意思，或者無法將 ears 對應到具體的身體位置描述。",
-      "quality_level": "L3"
-    },
-    {
+      "answer_index": 0,
+      "explanation": "因有 these 和 they 提示複數，回答必須是 No, they aren't. They are...。選項 B 單複數錯誤，選項 C 他們是 (They is) 動詞錯誤，選項 D (these is) 動詞錯置。",
       "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Halloween Party",
-      "question": "A: I am a funny ghost. I have four eyes! \nB: Really? I have two ______.",
-      "options": [
-        "eye",
-        "eyes",
-        "nose",
-        "noses"
-      ],
-      "answer_index": 1,
-      "explanation": "B 描述正常人的情況，且使用了數量詞 two，後接複數名詞 eyes。",
-      "commonMisconception": "受到 ghost 有四隻眼睛的干擾而忽略了 B 說的是 two (複數)。",
-      "quality_level": "L4"
+      "commonMisconception": "被『小白鳥/小白兔』的中文翻譯誤導，未注意英文句型對應的 They are 複數規則。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

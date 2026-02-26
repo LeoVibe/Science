@@ -17,7 +17,8 @@
       "answer": 0,
       "explanation": "36 / 12 = 3。",
       "concept": "除以二位數（基本）",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 0,
       "explanation": "960 / 32 = 30。",
       "concept": "末尾有 0 的除法",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 1,
       "explanation": "135 / 12 = 11 ... 3。 剩下的 3 人也需要一頂帳篷，所以 11 + 1 = 12 頂。",
       "concept": "除法的包含除進位",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 0,
       "explanation": "800 / 16 = 50。",
       "concept": "除法分配練習",
-      "quality_level": "L4"
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 1,
       "explanation": "364 / 28 = 13。",
       "concept": "除法計算力",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 0,
       "explanation": "因為 74 > 29，所以 29 在 74 中可以倍除，商的起始位在十位。",
       "concept": "位值判斷",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 0,
       "explanation": "500 / 45 = 11 ... 5。",
       "concept": "有餘數的除法實踐",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 0,
       "explanation": "14 * 35 + 8 = 490 + 8 = 498。",
       "concept": "除法驗算",
-      "quality_level": "L4"
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 0,
       "explanation": "600 / 15 = 40。",
       "concept": "生活單價逆推",
-      "quality_level": "L4"
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 0,
       "explanation": "1000 / 36 = 27 ... 28。",
       "concept": "大數除法計算",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     }
   ]
 }

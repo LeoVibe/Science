@@ -13,5 +13,6 @@
   "correctAnswer": 0,
   "explanation": "數字的層級是萬、億、兆。兩兆 = 2 兆，零五百億 = 0500 億，所以是 2,050,000,000,000。",
   "commonMisconception": "億位與萬位的0補錯，學生容易理解成 2,500 億或是千分位逗號分隔時會少寫了 0。",
-  "quality_level": "L4"
+  "quality_level": "L1",
+  "cqi_score": 7.5
 }

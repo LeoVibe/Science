@@ -2,7 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 // 讀取評核報告
-const report = JSON.parse(fs.readFileSync('evaluation_report.json', 'utf8'));
+const reportPath = path.join(process.cwd(), '.logs', 'evaluation_report.json');
+if (!fs.existsSync(reportPath)) {
+    console.error(`Error: Cannot find report file at ${reportPath}`);
+    process.exit(1);
+}
+const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
 const details = report.details;
 
 // 1. 更新 題庫統計表.md (範例：G3)

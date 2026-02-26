@@ -8,8 +8,11 @@ import {
   getSubjectsByGrade,
   SEMESTER_NAMES,
   SUBJECT_ICONS,
+  PUBLISHER_THEME_COLORS,
 } from '@/data/config';
 import libraryData from '@/data/libraryStats.json';
+import AdminUnitCuration from './AdminUnitCuration';
+import { fetchAdminConfig, saveAdminConfig } from '@/data/api';
 
 export interface LibraryConfig {
   grades: Partial<
@@ -72,14 +75,10 @@ const DEFAULT_CONFIG: LibraryConfig = {
   ) as LibraryConfig['grades'],
 };
 
-const PUBLISHER_COLORS: Record<Publisher, string> = {
-  康軒: 'hsl(200 55% 55%)',
-  南一: 'hsl(350 50% 65%)',
-  翰林: 'hsl(168 45% 50%)',
-};
+// 出版社主題色已統一管理於 src/data/config.ts → PUBLISHER_THEME_COLORS
 
 /** 品質等級對應的樣式（與前台題庫總覽一致） */
-function getQualityStyle(quality: string): string {
+export function getQualityStyle(quality: string): string {
   if (!quality) return 'bg-muted text-muted-foreground';
   if (quality.includes('L5') || quality.includes('L4+') || quality.includes('L4'))
     return 'bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-400';
@@ -91,25 +90,62 @@ function getQualityStyle(quality: string): string {
 export default function AdminLibraryManager() {
   const [config, setConfig] = useState<LibraryConfig>(DEFAULT_CONFIG);
   const [saved, setSaved] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [curationTarget, setCurationTarget] = useState<{ grade: Grade, semester: Semester, subject: Subject, publisher: Publisher } | null>(null);
 
   useEffect(() => {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return;
-    try {
-      const parsed = JSON.parse(raw) as LibraryConfig;
-      setConfig((prev) => ({
-        ...prev,
-        grades: { ...prev.grades, ...parsed.grades },
-      }));
-    } catch (e) {
-      console.error('Failed to parse library config', e);
+    let cancelled = false;
+    const token = sessionStorage.getItem('admin_token') ?? '';
+    const local = localStorage.getItem(STORAGE_KEY);
+    if (local) {
+      try {
+        const parsed = JSON.parse(local) as LibraryConfig;
+        setConfig((prev) => ({
+          ...prev,
+          grades: { ...prev.grades, ...parsed.grades },
+        }));
+      } catch (e) {
+        console.error('Failed to parse local library config', e);
+      }
     }
+    if (!token) {
+      setLoading(false);
+      setError('缺少 admin token，請重新登入。');
+      return;
+    }
+
+    fetchAdminConfig(token).then((remote) => {
+      if (cancelled) return;
+      if (!remote) {
+        setError('讀取後台題庫設定失敗，已使用本機快取。');
+      } else if (remote.library_config) {
+        const parsed = remote.library_config as LibraryConfig;
+        setConfig((prev) => ({
+          ...prev,
+          grades: { ...prev.grades, ...(parsed?.grades ?? {}) },
+        }));
+      }
+      setLoading(false);
+    });
+    return () => { cancelled = true; };
   }, []);
 
-  const handleSave = () => {
+  const handleSave = async () => {
+    const token = sessionStorage.getItem('admin_token') ?? '';
+    if (!token) {
+      setError('缺少 admin token，請重新登入。');
+      return;
+    }
+    const result = await saveAdminConfig(token, { library_config: config });
+    if (!result) {
+      setError('儲存失敗，請稍後重試。');
+      return;
+    }
     localStorage.setItem(STORAGE_KEY, JSON.stringify(config));
     setSaved(true);
     setTimeout(() => setSaved(false), 3000);
+    setError('');
   };
 
   const toggleGrade = (grade: Grade) => {
@@ -194,8 +230,14 @@ export default function AdminLibraryManager() {
     setSaved(false);
   };
 
-  const publisherStats = (libraryData as { publisherStats?: Record<string, { units: number; questions: number; quality: string }> })
+  const publisherStats = (libraryData as {
+    publisherStats?: Record<string, { units: number; questions: number; quality: string; cqi?: number | string }>;
+  })
     .publisherStats ?? {};
+
+  if (loading) {
+    return <div className="p-4 text-sm text-muted-foreground">題庫設定載入中…</div>;
+  }
 
   return (
     <div className="max-w-2xl mx-auto px-4 pb-16 animate-in fade-in duration-200">
@@ -226,11 +268,10 @@ export default function AdminLibraryManager() {
                 key={grade}
                 type="button"
                 onClick={() => toggleGrade(grade)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all active:scale-95 ${
-                  isEnabled
-                    ? 'bg-primary text-primary-foreground shadow-sm'
-                    : 'bg-muted text-muted-foreground hover:bg-muted/80'
-                }`}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all active:scale-95 ${isEnabled
+                  ? 'bg-primary text-primary-foreground shadow-sm'
+                  : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                  }`}
               >
                 {grade} 年級
               </button>
@@ -272,9 +313,8 @@ export default function AdminLibraryManager() {
                           </label>
                           <div className="flex items-center gap-2">
                             <span
-                              className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                                isSEnabled ? 'bg-primary/15 text-primary' : 'bg-muted text-muted-foreground'
-                              }`}
+                              className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${isSEnabled ? 'bg-primary/15 text-primary' : 'bg-muted text-muted-foreground'
+                                }`}
                             >
                               {isSEnabled ? '已開放' : '未開放'}
                             </span>
@@ -296,9 +336,8 @@ export default function AdminLibraryManager() {
                             return (
                               <div
                                 key={subject}
-                                className={`rounded-lg border p-2.5 transition-colors ${
-                                  isSubEnabled ? 'border-border bg-background' : 'border-border/50 bg-muted/20'
-                                }`}
+                                className={`rounded-lg border p-2.5 transition-colors ${isSubEnabled ? 'border-border bg-background' : 'border-border/50 bg-muted/20'
+                                  }`}
                               >
                                 {/* 科目列：科目名在左、啟用開關在右 */}
                                 <div className="flex items-center justify-between gap-2 mb-2">
@@ -314,7 +353,7 @@ export default function AdminLibraryManager() {
                                   />
                                 </div>
 
-                                {/* 出版社：長條形、列的排列，每列一個出版社，顯示兩字全名 */}
+                                {/* 出版社：長條形、列的排列，每列一個出版社，顯示兩字全名 + QG + CQI */}
                                 <div className="space-y-1.5">
                                   {APP_CONFIG.publishers.map((pub) => {
                                     const isOn = publishers.includes(pub);
@@ -324,42 +363,68 @@ export default function AdminLibraryManager() {
                                     const questionCount = stat?.questions ?? 0;
                                     const hasData = stat && stat.units > 0;
                                     const isSelectable = !!hasData;
+                                    const rawCqi = stat?.cqi ?? 0;
+                                    const cqiValue =
+                                      typeof rawCqi === 'string' ? parseFloat(rawCqi) : typeof rawCqi === 'number' ? rawCqi : 0;
+                                    const hasCqi = !!cqiValue && cqiValue > 0;
 
                                     return (
-                                      <button
-                                        key={pub}
-                                        type="button"
-                                        disabled={!isSEnabled || !isSubEnabled || !isSelectable}
-                                        onClick={() => togglePublisher(grade, sem, subject, pub)}
-                                        className={`
-                                          w-full relative flex items-center gap-3 py-1.5 px-3 rounded-lg border text-left transition-all
-                                          active:scale-[0.99]
-                                          disabled:opacity-40 disabled:cursor-not-allowed
-                                          ${
-                                            isOn && isSelectable
+                                      <div key={pub} className="relative flex items-center group">
+                                        <button
+                                          type="button"
+                                          disabled={!isSEnabled || !isSubEnabled || !isSelectable}
+                                          onClick={() => togglePublisher(grade, sem, subject, pub)}
+                                          className={`
+                                            w-full relative flex items-center gap-3 py-1.5 px-3 rounded-lg border text-left transition-all
+                                            active:scale-[0.99]
+                                            disabled:opacity-40 disabled:cursor-not-allowed
+                                            ${isOn && isSelectable
                                               ? 'border-transparent text-white shadow-sm'
                                               : 'border-border bg-muted/40 text-muted-foreground hover:border-muted-foreground/30'
-                                          }
-                                        `}
-                                        style={isOn && isSelectable ? { backgroundColor: PUBLISHER_COLORS[pub] } : undefined}
-                                      >
-                                        <span className="font-bold text-sm w-10 shrink-0">{pub}</span>
-                                        <span
-                                          className={`text-[10px] font-bold px-1.5 py-0.5 rounded shrink-0 ${
-                                            isOn && isSelectable ? 'bg-white/20' : getQualityStyle(quality)
-                                          }`}
+                                            }
+                                          `}
+                                          style={isOn && isSelectable ? { backgroundColor: PUBLISHER_THEME_COLORS[pub] } : undefined}
                                         >
-                                          {quality}
-                                        </span>
-                                        <span className={`text-[10px] font-medium ml-auto shrink-0 ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
-                                          {hasData ? `${questionCount} 題` : '無題庫'}
-                                        </span>
-                                        {isOn && isSelectable && (
-                                          <span className="w-4 h-4 rounded-full bg-white/40 flex items-center justify-center text-[10px] text-white font-bold shrink-0">
-                                            ✓
+                                          <span className="font-bold text-sm w-10 shrink-0">{pub}</span>
+                                          <span
+                                            className={`text-[10px] font-bold px-1.5 py-0.5 rounded shrink-0 ${isOn && isSelectable ? 'bg-white/20' : getQualityStyle(quality)
+                                              }`}
+                                          >
+                                            {quality}
                                           </span>
+                                          <span
+                                            className={`text-[10px] font-medium px-1.5 py-0.5 rounded shrink-0 ${hasCqi ? 'bg-background/70 text-foreground/80' : 'bg-muted text-muted-foreground'
+                                              }`}
+                                          >
+                                            {hasCqi ? `CQI ${cqiValue.toFixed(2)}` : 'CQI —'}
+                                          </span>
+                                          <span className={`text-[10px] font-medium ml-auto shrink-0 pr-12 ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
+                                            {hasData ? `${questionCount} 題` : '無題庫'}
+                                          </span>
+                                          {isOn && isSelectable && (
+                                            <span className="absolute right-12 w-4 h-4 rounded-full bg-white/40 flex items-center justify-center text-[10px] text-white font-bold shrink-0">
+                                              ✓
+                                            </span>
+                                          )}
+                                        </button>
+
+                                        {/* 審查按鈕 (浮點於右側) */}
+                                        {isSelectable && (
+                                          <button
+                                            type="button"
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              setCurationTarget({ grade, semester: sem, subject, publisher: pub });
+                                            }}
+                                            className={`absolute right-2 px-2 py-1 text-[10px] sm:text-xs font-bold rounded shadow-sm transition-opacity ${isOn
+                                              ? 'bg-white text-foreground hover:bg-gray-100 opacity-80 hover:opacity-100'
+                                              : 'bg-primary text-primary-foreground hover:opacity-90 opacity-0 group-hover:opacity-100'
+                                              }`}
+                                          >
+                                            審查
+                                          </button>
                                         )}
-                                      </button>
+                                      </div>
                                     );
                                   })}
                                 </div>
@@ -377,8 +442,12 @@ export default function AdminLibraryManager() {
         })}
       </div>
 
-      {/* 4. 底層：儲存操作（不浮動、位於表單最下方） */}
       <div className="mt-10 pt-6 border-t">
+        {error && (
+          <div className="mb-3 bg-destructive/10 text-destructive border border-destructive/30 rounded-xl px-4 py-3 text-sm">
+            {error}
+          </div>
+        )}
         <p className="text-[10px] text-muted-foreground mb-3 text-center">
           數據來源：libraryStats.json，與前台題庫總覽一致。更新題庫後請執行 scripts/generate_library_stats.js 並重新部署以同步數字。
         </p>
@@ -407,6 +476,16 @@ export default function AdminLibraryManager() {
           )}
         </button>
       </div>
+
+      {curationTarget && (
+        <AdminUnitCuration
+          grade={curationTarget.grade}
+          semester={curationTarget.semester}
+          subject={curationTarget.subject}
+          publisher={curationTarget.publisher}
+          onClose={() => setCurationTarget(null)}
+        />
+      )}
     </div>
   );
 }

@@ -1,0 +1,33 @@
+# Eidos Project — Cloudflare Worker API (Profiles & Site Settings)
+# 首次部署前請執行: wrangler d1 create eidos-db 取得 database_id
+# KV: wrangler kv:namespace create SITE_SETTINGS
+
+name = "eidos-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# D1: 個人資料與 UX 偏好
+[[d1_databases]]
+binding = "DB"
+database_name = "eidos-db"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+# KV: 網站參數（維護模式、公告、api_version）
+[[kv_namespaces]]
+binding = "SITE_SETTINGS"
+id = "00000000000000000000000000000000"
+
+# KV: 活動日誌（裝置追蹤），部署前請 wrangler kv:namespace create ACTIVITY_LOGS
+[[kv_namespaces]]
+binding = "ACTIVITY_LOGS"
+id = "00000000000000000000000000000001"
+
+# 後台 Google OAuth 驗證用
+[vars]
+GOOGLE_CLIENT_ID = "971413291098-50mss0jj13qr8q60ngrhe5734gbuf9pe.apps.googleusercontent.com"
+
+[env.development]
+name = "eidos-api-dev"
+
+[env.production]
+name = "eidos-api"

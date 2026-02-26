@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "每個方格 = 1 平方公分，18 個方格 = 18 平方公分。",
       "commonMisconception": "面積的單位是「平方公分」而非「公分」。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "面積 = 10 × 7 = 70 平方公尺。周長 = (10+7) × 2 = 34 公尺。",
       "commonMisconception": "面積 vs 周長的公式與單位是最容易混淆的概念。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "長方形面積 = 12 × 6 = 72 平方公分。72 ÷ 9 = 8 塊。",
       "commonMisconception": "也可以用長÷3×寬÷3=4×2=8 來算，但需配合整除。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "甲 = 20。乙 = 16 + 6×0.5 = 19。20 > 19，甲較大。",
       "commonMisconception": "半格要算 0.5 格，學生可能忽略或算成 1 格。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 3,
       "explanation": "正方形周長 = 24 公尺。邊長 = 24 ÷ 4 = 6 公尺。面積 = 6 × 6 = 36 平方公尺。",
       "commonMisconception": "從周長反推邊長再算面積，是進階的綜合問題。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M4",
+    "title": "乘法",
+    "semester": "semester_1",
+    "order": 4
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "一打雞蛋有 12 個，5 打共有幾個？",
+      "options": [
+        "60",
+        "80",
+        "50",
+        "70"
+      ],
+      "answer": "60",
+      "explanation": "12 × 5 = 60。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "300 × 4 = 1200。",
+      "answer": "True",
+      "explanation": "3 乘以 4 等於 12，再補兩個 0，結果為 1200。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "54 × 8 = ______。",
+      "answer": "432",
+      "explanation": "50 × 8 = 400，4 × 8 = 32，400 + 32 = 432。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 250 × 4 = ？",
+      "options": [
+        "100",
+        "1000",
+        "500",
+        "10000"
+      ],
+      "answer": "1000",
+      "explanation": "250 × 2 = 500, 500 × 2 = 1000。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "全班 25 人，每人交 80 元班費，共收多少元？",
+      "options": [
+        "1800",
+        "2000",
+        "200",
+        "2500"
+      ],
+      "answer": "2000",
+      "explanation": "25 × 8 = 200，補一個 0，結果為 2000。"
+    }
+  ]
+}

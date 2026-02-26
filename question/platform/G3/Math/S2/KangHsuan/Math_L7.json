@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "150 - 55 = 95。 95 + 100 = 195 元。",
       "commonMisconception": "計算失誤或順序錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "12 × 3 = 36。 36 ÷ 4 = 9。每位家長分 9 顆。",
       "commonMisconception": "無法組合兩個步驟的關係。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "5 公升 = 5000 毫升。 300 × 10 = 3000 毫升。 5000 - 3000 = 2000 毫升。",
       "commonMisconception": "忘記單位換算或乘法位數出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "逆推法：(15 + 5) × 2 = 40。 先補回拿走的 5 顆變成 20，20 是原本的一半，所以全部是 40。",
       "commonMisconception": "逆推順序顛倒。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "先算括號內：(20+30)=50。 100-50=50。",
       "commonMisconception": "無視括號直接由左至右計算（100-20+30=110）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 2,
       "explanation": "買二送一代表付 2 條的錢拿 3 條。 40 × 2 = 80 元。 80 ÷ 3 = 26.6... (但在三年級數值設計下，通常會是 45 × 2 = 90, 90 ÷ 3 = 30)。為了符合 L4+ 實務：40+40=80。80 ÷ 3 不盡。 (調整題目數值以利三年級計算：巧克力一條 30 元，買二送一)。 30+30=60。 60 ÷ 3 = 20 元。",
       "commonMisconception": "對「買二送一」的總花費判斷錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -109,7 +115,8 @@
       "answer_index": 1,
       "explanation": "總座位 8 × 50 = 400。 已坐人 3 × 50 = 150。 空位 400 - 150 = 250。 或是 (8-3) × 50 = 250。",
       "commonMisconception": "分不清「已坐人數」與「剩餘空位」。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -124,7 +131,8 @@
       "answer_index": 1,
       "explanation": "(80 - 8) ÷ 8 = 72 ÷ 8 = 9 支。",
       "commonMisconception": "忘記扣掉自己留下的鉛筆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M5",
+    "order": 5,
+    "title": "乘與除"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "20 乘以 8 等於多少？",
+      "options": [
+        "140",
+        "180",
+        "120",
+        "160"
+      ],
+      "answer": "160",
+      "explanation": "2 * 8 = 16，補上 0 得到 160。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "除法是乘法的逆運算。",
+      "answer": "True",
+      "explanation": "例如 3 * 4 = 12，則 12 / 4 = 3。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "64 ÷ 8 = ______",
+      "answer": "8",
+      "explanation": "乘法口訣：八八六十四。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "一箱飲料有 24 瓶，平分給 6 人，每人得幾瓶？",
+      "options": [
+        "6瓶",
+        "2瓶",
+        "4瓶",
+        "8瓶"
+      ],
+      "answer": "4瓶",
+      "explanation": "24 ÷ 6 = 4。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "餘數一定要比除數大。",
+      "answer": "False",
+      "explanation": "餘數必須小於除數。"
+    }
+  ]
+}

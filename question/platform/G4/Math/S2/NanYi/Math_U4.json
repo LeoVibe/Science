@@ -17,7 +17,8 @@
       "answer": 0,
       "explanation": "去掉了尾數 8，使數字變小，故為捨去法。",
       "concept": "概數方法辨識",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 1,
       "explanation": "為了「夠付」，不滿一千的部分也必須補足一千，為無條件進入法。",
       "concept": "生活情境與概數選擇",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 1,
       "explanation": "取到萬位看千位。千位是 8（大於等於 5），故向上進位到萬位。 2+1=3，得 130,000。",
       "concept": "四捨五入計算法",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 0,
       "explanation": "甲 = 60。 乙 = 60。 兩者相等。",
       "concept": "概數方法對比",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 1,
       "explanation": "預算編列通常「宜多不宜少」以防缺額，故採進入法取概數最為穩健。",
       "concept": "風險管理與概數",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7.5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 0,
       "explanation": "萬位是 9，後面全部捨去為 0。",
       "concept": "捨去法實作",
-      "quality_level": "L4"
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 2,
       "explanation": "範圍是 [2450, 2549]。",
       "concept": "逆推範圍",
-      "quality_level": "L4"
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 1,
       "explanation": "125 -> 130。 85 -> 90。 130 * 90 = 11700。",
       "concept": "估算策略",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 2,
       "explanation": "捨去到百位 = 100。 四捨五入到百位 = 100 (Wait, 149 四捨五入看十位 4, 捨去 = 100)。 兩者相等？ Let me re-check. 149 四捨五入到百位: 十位是 4，捨去，故也是 100。 相差 0。 (Option 3)",
       "concept": "概數結果比較",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 2,
       "explanation": "不滿額就捨棄資格。為捨去法應用。",
       "concept": "商業規則連結",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     }
   ]
 }

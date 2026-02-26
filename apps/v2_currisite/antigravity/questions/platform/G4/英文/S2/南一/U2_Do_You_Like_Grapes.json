@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U2",
+    "order": 2,
+    "title": "Unit 2 Do You Like Grapes?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Do you like grapes? B: Yes, ______.",
+      "options": [
+        "I like",
+        "I can",
+        "I am",
+        "I do"
+      ],
+      "answer": "I do",
+      "explanation": "Do you like...? 的肯定回答是 Yes, I do。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'He doesn't like lemons.' means '他不喜歡檸檬'。",
+      "answer": "True",
+      "explanation": "doesn't like 表示不喜歡。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Does she like cherries? B: No, she ______.",
+      "answer": "doesn't",
+      "explanation": "Does she...? 的否定回答是 No, she doesn't。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "I ______ like papayas. They are delicious!",
+      "options": [
+        "really",
+        "much",
+        "too",
+        "very"
+      ],
+      "answer": "really",
+      "explanation": "really like 表示真的很喜歡。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What do you like? B: I like ______ very much.",
+      "options": [
+        "beef",
+        "soup",
+        "juice",
+        "kiwis"
+      ],
+      "answer": "kiwis",
+      "explanation": "kiwis (奇異果) 是水果，符合問句語境。"
+    }
+  ]
+}

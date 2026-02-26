@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan"
+  },
+  "questions": [
+    {
+      "id": "GOLDEN-MAT-001",
+      "question": "小明有 50 元，買了一塊 15 元的橡皮擦，他還剩下多少元？",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "answer_index": 2,
+      "explanation": "50 - 15 = 35",
+      "type": "multiple_choice",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

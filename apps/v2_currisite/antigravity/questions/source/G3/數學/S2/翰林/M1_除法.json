@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M1",
+    "order": 1,
+    "title": "除法"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "48 顆橘子平分裝成 8 袋，每袋有幾顆？",
+      "options": [
+        "7顆",
+        "5顆",
+        "8顆",
+        "6顆"
+      ],
+      "answer": "6顆",
+      "explanation": "48 ÷ 8 = 6。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "餘數可以大於除數。",
+      "answer": "False",
+      "explanation": "在除法運算中，餘數一定要比除數小。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "54 ÷ 9 = ______",
+      "answer": "6",
+      "explanation": "乘法口訣：六九五十四。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "有 35 個小朋友，每 5 人一組，可以分成幾組？",
+      "options": [
+        "8組",
+        "7組",
+        "6組",
+        "9組"
+      ],
+      "answer": "7組",
+      "explanation": "35 ÷ 5 = 7。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "0 除以任何不是 0 的數，結果都是 0。",
+      "answer": "True",
+      "explanation": "0 分給任何人都是 0。"
+    }
+  ]
+}

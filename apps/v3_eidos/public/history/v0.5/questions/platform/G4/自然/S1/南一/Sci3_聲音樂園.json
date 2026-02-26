@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci3",
+    "order": 3,
+    "title": "聲音樂園"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "物體震動得快慢會影響聲音的什麼性質？",
+      "options": [
+        "大小（音量）",
+        "高低（音調）",
+        "顏色",
+        "好不好聽"
+      ],
+      "answer": "高低（音調）",
+      "explanation": "頻率（震動次數）愈高，音調愈高。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "用力敲鼓，鼓面震動幅度較大，發出的聲音也會比較大。",
+      "answer": "True",
+      "explanation": "振幅決定了聲音的大小（強度）。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "聲音除了在空氣中傳播，也可以在液體（如水）和______（如牆壁、線繩）中傳播。",
+      "answer": "固體",
+      "explanation": "固體傳聲效果通常優於氣體。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "製作簡易電話（傳聲筒）時，連接兩個紙杯的線必須維持什麼狀態？",
+      "options": [
+        "剪斷",
+        "彎彎曲曲的",
+        "拉緊",
+        "鬆鬆的"
+      ],
+      "answer": "拉緊",
+      "explanation": "拉緊的線才能有效地傳遞震動波。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪一種環境「完全不能」傳播聲音？",
+      "options": [
+        "海底",
+        "鋼鐵廠",
+        "森林",
+        "真空環境（如外太空）"
+      ],
+      "answer": "真空環境（如外太空）",
+      "explanation": "聲音需要介質（分子）碰撞來傳播，真空中沒有這些粒子。"
+    }
+  ]
+}

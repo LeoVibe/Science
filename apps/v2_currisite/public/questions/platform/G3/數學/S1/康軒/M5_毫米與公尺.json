@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M5",
+    "title": "毫米與公尺",
+    "semester": "semester_1",
+    "order": 5
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "10 毫米 (mm) 等於幾公分 (cm)？",
+      "options": [
+        "1 cm",
+        "10 cm",
+        "0.1 cm",
+        "100 cm"
+      ],
+      "answer": "1 cm",
+      "explanation": "單位的基本換算：1 公分 = 10 毫米。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "3 公尺 50 公分 等於 350 公分。",
+      "answer": "True",
+      "explanation": "1 公尺 = 100 公分，所以 300 + 50 = 350 公分。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一支鉛筆長 150 毫米，也就是______公分。",
+      "answer": "15",
+      "explanation": "150 ÷ 10 = 15 公分。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "描述操場跑道的長度，使用什麼單位最適合？",
+      "options": [
+        "毫米",
+        "公分",
+        "公里",
+        "公尺"
+      ],
+      "answer": "公尺",
+      "explanation": "操場跑道通常為 200 公尺或 400 公尺，使用「公尺」最合適。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "5 公尺比較長，還是 550 公分比較長？",
+      "options": [
+        "無法比較",
+        "5 公尺",
+        "一樣長",
+        "550 公分"
+      ],
+      "answer": "550 公分",
+      "explanation": "5 公尺 = 500 公分，550 公分 > 500 公分。"
+    }
+  ]
+}

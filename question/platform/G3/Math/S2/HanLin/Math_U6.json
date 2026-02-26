@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "小數點後一位代表十分位。1.3 公尺中的 3 代表 3 個 0.1 公尺 = 0.3 公尺 = 3 公分。",
       "commonMisconception": "學生可能不理解小數第一位代表的是「十分之幾」。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "5.8 在 5 和 6 之間。因為 0.8 > 0.5，所以 5.8 比較靠近 6。",
       "commonMisconception": "學生可能不理解小數在數線上的位置。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "0 到 1 平分 10 格，每格代表 0.1。第 7 格就是 7 × 0.1 = 0.7。",
       "commonMisconception": "學生可能直接寫 7（忘了 0.），或寫 0.07（多加了一位）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "先比個位：4.1 的個位是 4，其他都是 3。4 > 3，所以 4.1 最大。",
       "commonMisconception": "學生可能只看小數部分（如 .9 最大），忽略整數部分的比較優先。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "2.4 + 1.3 = 3.7。整數部分 2+1=3，小數部分 0.4+0.3=0.7。",
       "commonMisconception": "小數加法時學生可能忘了對齊小數點。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

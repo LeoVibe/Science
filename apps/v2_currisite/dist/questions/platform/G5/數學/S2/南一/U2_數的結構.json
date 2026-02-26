@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "nan_yi",
+        "lesson": "U2",
+        "title": "數的結構"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "「一億」是「一萬」的幾倍？",
+            "options": [
+                "100",
+                "1000",
+                "10000",
+                "10"
+            ],
+            "answer": "10000",
+            "explanation": "1,0000,0000 / 1,0000 = 10000。"
+        }
+    ]
+}

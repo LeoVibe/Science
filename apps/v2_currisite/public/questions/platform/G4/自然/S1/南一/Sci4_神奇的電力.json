@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci4",
+    "order": 4,
+    "title": "神奇的電力"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "要讓燈泡發亮，電線必須連接电池的哪兩個部分？",
+      "options": [
+        "正極與負極",
+        "兩個負極",
+        "兩個正極",
+        "隨便一邊都可以"
+      ],
+      "answer": "正極與負極",
+      "explanation": "形成電位差才能產生電流。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "電池「並聯」時，雖然亮度不會增加，但可以讓燈泡持續發亮的時間變長。",
+      "answer": "True",
+      "explanation": "並聯平分了電流輸出負擔。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "能讓電流通過的物質稱之為導體，不能讓電流通過的稱之為______。",
+      "answer": "絕緣體",
+      "explanation": "常見絕緣體如塑膠、橡膠、木材。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "在電路中安裝「開關」的主要作用是什麼？",
+      "options": [
+        "增加電力",
+        "裝飾漂亮",
+        "控制電路的接通（通路）或切斷（斷路）",
+        "保護電池不被偷"
+      ],
+      "answer": "控制電路的接通（通路）或切斷（斷路）",
+      "explanation": "開關提供便利的電力控制。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下雨天或手溼時，絕對不可以碰觸插座或開關，這是因為？",
+      "options": [
+        "會把插座弄溼",
+        "水是導體，容易造成觸電危險",
+        "會浪費電",
+        "沒什麼原因"
+      ],
+      "answer": "水是導體，容易造成觸電危險",
+      "explanation": "自來水並非純水，因含有雜質而具有導電性。"
+    }
+  ]
+}

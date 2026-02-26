@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M8",
+    "title": "分數",
+    "semester": "semester_1",
+    "order": 8
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "一條繩子平分成 10 份，其中的 7 份是多少條繩子？",
+      "options": [
+        "10/7",
+        "1/10",
+        "1/7",
+        "7/10"
+      ],
+      "answer": "7/10",
+      "explanation": "分母 10 代表平分數，分子 7 代表所佔份數。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "1/3 讀作「三分之一」。",
+      "answer": "True",
+      "explanation": "分母在下先讀，分子在上後讀。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "分子是 5，分母是 9，這個分數記作______。",
+      "answer": "5/9",
+      "explanation": "依據分數標記格式寫出。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "比較 1/6 和 1/4，哪一個比較小？",
+      "options": [
+        "一樣大",
+        "無法比較",
+        "1/6",
+        "1/4"
+      ],
+      "answer": "1/6",
+      "explanation": "平分的份數越多，每份就越小，故 1/6 < 1/4。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "1 等於下列哪一個分數？",
+      "options": [
+        "4/4",
+        "1/2",
+        "0/1",
+        "1/10"
+      ],
+      "answer": "4/4",
+      "explanation": "分子與分母相等（且不為 0）時，分數值等於 1。"
+    }
+  ]
+}

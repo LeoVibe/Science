@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "總數 = 36 × 5 = 180。每班 = 180 ÷ 9 = 20。",
       "commonMisconception": "先乘後除的兩步驟問題。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 2,
       "explanation": "一天營收 = 125 × 80 = 10000 元。一週 = 10000 × 7 = 70000 元。",
       "commonMisconception": "連續乘法的大數計算，容易在進位處出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "A 商店每枝 = 90 ÷ 6 = 15 元。B 商店每枝 14 元。14 < 15，B 較便宜。",
       "commonMisconception": "需要用除法將不同的計價方式轉成「單價」才能公平比較。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "間隔數 = 100 ÷ 5 = 20。頭尾都種 → 棵數 = 間隔數 + 1 = 21。",
       "commonMisconception": "植樹問題的「加 1」規則：棵數 = 間隔數 + 1（兩端都種時）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "200 ÷ 50 = 4 次。4 × 8 = 32 枚。",
       "commonMisconception": "先除再乘的運算連結。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

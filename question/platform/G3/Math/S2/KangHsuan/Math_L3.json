@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "分母代表總平分份數，分子代表持有的份數。",
       "commonMisconception": "學生可能將分子與分母位置寫反（選項 B）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 2,
       "explanation": "同分母分數相加，分母不變，分子相加。5/12 + 4/12 = 9/12。",
       "commonMisconception": "學生常會連同分母一起相加，得到 9/24（選項 A）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "全部為 10/10 (即 1)。10/10 - 4/10 = 6/10。",
       "commonMisconception": "不知道「全部」可以用分母相同的分數代表（如 10/10）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "單位分數（分子皆為 1）比較時，分母越小則代表每一份切得越大。1/4 > 1/5。",
       "commonMisconception": "直覺認為數字大（5）則越大（選項 A）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "位於下方的數字代表總份數，稱為分母。",
       "commonMisconception": "分子與分母術語混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 3,
       "explanation": "2/7 + 3/7 = 5/7。",
       "commonMisconception": "分母相加。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -109,7 +115,8 @@
       "answer_index": 0,
       "explanation": "剩下部分為 1 - 7/10 = 3/10。3/10 小於 7/10。",
       "commonMisconception": "計算剩下比例時出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -124,7 +131,8 @@
       "answer_index": 0,
       "explanation": "3/12 + 3/12 = 6/12。",
       "commonMisconception": "對於「相同長度」的閱讀理解不足。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

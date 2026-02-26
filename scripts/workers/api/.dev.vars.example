@@ -1,0 +1,6 @@
+# 複製此檔為 .dev.vars 並填入你的 Google OAuth 用戶端 ID
+# cp .dev.vars.example .dev.vars
+# .dev.vars 請勿提交至版控（應已列入 .gitignore）
+
+# 與前端 VITE_GOOGLE_CLIENT_ID 使用同一組「網頁應用程式」OAuth 用戶端 ID
+GOOGLE_CLIENT_ID=你的用戶端ID.apps.googleusercontent.com

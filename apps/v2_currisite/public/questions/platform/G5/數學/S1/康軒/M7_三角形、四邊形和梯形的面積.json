@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M7",
+    "order": 7,
+    "title": "三角形、四邊形和梯形的面積"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "平行四邊形的面積公式是什麼？",
+      "options": [
+        "(上底 + 下底) × 高 ÷ 2",
+        "底 × 高",
+        "底 × 高 ÷ 2",
+        "邊長 × 邊長"
+      ],
+      "answer": "底 × 高",
+      "explanation": "這是平面幾何的基本面積公式。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "三角形的面積剛好是同底同高的平行四邊形面積的一半。",
+      "answer": "True",
+      "explanation": "因此三角形公式包含 ÷ 2。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一個梯形的上底為 4 公分，下底為 6 公分，高為 5 公分，其面積為______平方公分。",
+      "answer": "25",
+      "explanation": "(4 + 6) × 5 ÷ 2 = 10 × 5 ÷ 2 = 25。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "底為 10，面積為 40 的三角形，其高是多少？",
+      "options": [
+        "2",
+        "8",
+        "10",
+        "4"
+      ],
+      "answer": "8",
+      "explanation": "40 = 10 × 高 ÷ 2，80 = 10 × 高，高 = 8。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "兩個完全一樣的梯形可以拼成一個什麼圖形？",
+      "options": [
+        "平行四邊形",
+        "正方形",
+        "三角形",
+        "長方形"
+      ],
+      "answer": "平行四邊形",
+      "explanation": "拼成的平行四邊形底為 (上底 + 下底)，高不變。"
+    }
+  ]
+}

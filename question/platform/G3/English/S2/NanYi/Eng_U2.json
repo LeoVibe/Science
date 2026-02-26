@@ -1,265 +1,192 @@
 {
-  "publisher": "NanYi",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U2",
-  "lesson_title": "Actions",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U2",
+    "lesson_name": "Can you sing?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "At the Playground",
-      "question": "The boy can ______ high. He looks like a frog!",
+      "id": "NY-G3S2-U2-001",
+      "type": "multiple_choice",
+      "scenario": "Two kids are talking about the talent show at school.",
+      "question": "Girl: I want to be in the show. I can dance.\nBoy: Wow! ___________________\nGirl: No, I can't. But I can dance well.",
       "options": [
-        "jump",
-        "walk",
-        "ride",
-        "wave"
-      ],
-      "answer_index": 0,
-      "explanation": "像青蛙一樣跳得很高，對應動詞是 jump。",
-      "commonMisconception": "學生可能不認識 frog 或跳躍的英文。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Going to School",
-      "question": "I ______ to school with my friends every morning. We like to talk.",
-      "options": [
-        "jump",
-        "walk",
-        "ride",
-        "wave"
-      ],
-      "answer_index": 1,
-      "explanation": "和朋友一起邊走邊聊去上學，對應動詞是 walk。",
-      "commonMisconception": "分不清各種移動動作單字。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "In the Park",
-      "question": "Looking at the girl! She can ______ a bike very well.",
-      "options": [
-        "jump",
-        "ride",
-        "wave",
-        "run"
-      ],
-      "answer_index": 1,
-      "explanation": "騎腳踏車固定搭配動詞 ride (a bike)。",
-      "commonMisconception": "受中文影響可能誤選其他動詞。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Goodbye at the Bus Stop",
-      "question": "Leo is on the bus. He ______ his hand to me.",
-      "options": [
-        "jumps",
-        "walks",
-        "rides",
-        "waves"
+        "Are you sing?     ",
+        "Do you sing a song?",
+        "Can you sing a song",
+        "Can you sing?     "
       ],
       "answer_index": 3,
-      "explanation": "在公車上揮手道別，對應動詞是 wave (one's hand)。",
-      "commonMisconception": "不認識 wave 這個單字。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Asking for Ability",
-      "question": "A: ______ you jump? \nB: Yes, I can.",
-      "options": [
-        "Are",
-        "Do",
-        "Can",
-        "Is"
-      ],
-      "answer_index": 2,
-      "explanation": "詢問能力（會不會）使用助動詞 Can。",
-      "commonMisconception": "受 'Are you...?' 影響誤用 Are。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "根據女孩的否定回答 No, I can't. 可以推論男孩是以助動詞 Can 提問，且動作必須由第二人稱 you 執行。選項 B 為嚴重文法錯誤的 Are you sing；選項 C 前後句語氣過於冗長；選項 D 錯搭助動詞 do。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Talent Check",
-      "question": "A: Can you ride a bike? \nB: No, I ______. But I can walk fast.",
-      "options": [
-        "am not",
-        "don't",
-        "can't",
-        "isn't"
-      ],
-      "answer_index": 2,
-      "explanation": "'Can you...?' 的否定簡答為 I can't。",
-      "commonMisconception": "否定助動詞混淆。",
-      "quality_level": "L4"
+      "commonMisconception": "沒注意到下半句回答的 can't，選成沒有助動詞呼應的 Do you。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "NY-G3S2-U2-002",
+      "type": "multiple_choice",
+      "scenario": "A brother asks his sister to help him practice a song.",
+      "question": "Brother: I need help. Can you sing?\nSister: ___________________",
+      "options": [
+        "No, you can't. You can't sing.  ",
+        "Yes, I do. Let's sing together. ",
+        "Yes, I can. Let's sing together.",
+        "Yes, I am. Let's sing together. "
+      ],
+      "answer_index": 2,
+      "explanation": "助動詞 Can you...? 提問，第一人稱的肯定簡答為 Yes, I can.。選項 B 錯搭 do；選項 C 人稱對應錯誤且意思矛盾；選項 D 錯搭 Be 動詞 am。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Action Choice",
-      "question": "I have a new bike. I can ______ it to the park.",
-      "options": [
-        "jump",
-        "walk",
-        "ride",
-        "wave"
-      ],
-      "answer_index": 2,
-      "explanation": "有腳踏車 (bike)，應是騎它 (ride it) 去公園。",
-      "commonMisconception": "不具備動詞與受詞的搭配概念。",
-      "quality_level": "L4"
+      "commonMisconception": "把 Yes, I am. 當作所有問句的萬用回答，忘記在此要對應情態助動詞 can。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Physical Education Class",
-      "question": "Teacher: 'Line up! Let's ______ together.' (學生們正在操場繞圈慢走)",
+      "id": "NY-G3S2-U2-003",
+      "type": "multiple_choice",
+      "scenario": "A mother is asking her son about his little baby sister.",
+      "question": "Mom: Your baby sister is one year old now. ___________________\nSon: Yes, she can. She can walk to the sofa.",
       "options": [
-        "jump",
-        "ride",
-        "walk",
-        "wave"
-      ],
-      "answer_index": 2,
-      "explanation": "學生在操場繞圈，描述動作為 walk。",
-      "commonMisconception": "情境與動作的聯想力弱。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "My bird can ______.",
-      "options": [
-        "flying",
-        "flys",
-        "fly",
-        "to fly"
-      ],
-      "answer_index": 2,
-      "explanation": "助動詞 Can 之後接原形動詞。",
-      "commonMisconception": "受第三人稱單數或進行式影響而變換動詞形式。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Morning Activity",
-      "question": "Amy can ride a bike. Leo can jump high. Mia can walk fast. \nQuestion: What can Amy do?",
-      "options": [
-        "She can jump.",
-        "She can ride a bike.",
-        "She can walk.",
-        "She can wave."
-      ],
-      "answer_index": 1,
-      "explanation": "文本敘述 'Amy can ride a bike'。",
-      "commonMisconception": "人名與動作配對錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Meeting Grandpa",
-      "question": "Grandpa is coming! I ______ my hand and say 'Hi!'.",
-      "options": [
-        "jump",
-        "walk",
-        "wave",
-        "ride"
-      ],
-      "answer_index": 2,
-      "explanation": "向爺爺說 Hi 的同時會揮手 (wave)。",
-      "commonMisconception": "單讀字面而無情境推論能力。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "The Race (比賽)",
-      "question": "Leo can run fast. Toby can't run fast, but he can ride a bike fast. \nQuestion: Can Toby run fast?",
-      "options": [
-        "Yes, he can.",
-        "No, he can't.",
-        "Yes, Leo can.",
-        "No, Leo can't."
-      ],
-      "answer_index": 1,
-      "explanation": "文本指出 'Toby can't run fast'。簡答用 'No, he can't'。",
-      "commonMisconception": "受 Leo 可以跑快而忽略對 Toby 的否定描述。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Action Matching",
-      "question": "Can you ______? No, I can't. I'm too small to ride a bike.",
-      "options": [
-        "ride a bike",
-        "walk",
-        "jump",
-        "wave"
+        "Can she walk?",
+        "Is she walk? ",
+        "Does she walk",
+        "Are she walk?"
       ],
       "answer_index": 0,
-      "explanation": "後半句提到 'ride a bike'，推論問句也是問同樣的事情。",
-      "commonMisconception": "漏看後半段提示資訊。",
-      "quality_level": "L4"
+      "explanation": "從兒子回答 Yes, she can. 知道問句必定為助動詞 Can 開頭。詢問能力使用 Can she...?。選項 B, D 為嚴重的 Be 動詞疊加錯誤；選項 C 語意未對準『能力』。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看懂回答線索，並且對於動詞前疊加 Be 動詞沒有病識感 (Is she walk)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Exercise Time",
-      "question": "Mom says: 'Don't (不要) ride your bike in the house! Go outside.' \nQuestion: What is Mom's rule?",
+      "id": "NY-G3S2-U2-004",
+      "type": "multiple_choice",
+      "scenario": "At the zoo, a little boy is looking at a fish in the tank.",
+      "question": "Boy: Look at the small fish. Can it fly?\nMom: ___________________",
       "options": [
-        "Ride bike outside.",
-        "Ride bike in house.",
-        "Don't go outside.",
-        "Don't ride bike."
+        "No, it doesn't. It swims. ",
+        "No, it can't. It can swim.",
+        "No, it isn't. It is swim. ",
+        "Yes, it can. It can swim. "
       ],
-      "answer_index": 0,
-      "explanation": "媽媽禁止在屋內騎車並要求去外面，意即騎車應在室外。",
-      "commonMisconception": "受 'Don't' 影響而選擇完全禁止，或者是因為沒看清地點描述而選錯。",
-      "quality_level": "L4"
+      "answer_index": 1,
+      "explanation": "魚不會飛，且問句為 Can it...?，否定回答需為 No, it can't.。後半句補充說明魚會游泳 It can swim。選項 B 單複數與 Be 動詞完全錯亂；選項 C 使用 doesn't 無法對應 Can；選項 D 前言不對後語 (會飛卻游水)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "常識判斷加上助動詞對應，很多學生會被 It is swim 這種中式英文干擾。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Animal Show",
-      "question": "Look at the rabbit! It can ______ very high. It's so fast!",
+      "id": "NY-G3S2-U2-005",
+      "type": "multiple_choice",
+      "scenario": "During a magic show, a magician pulls a rabbit from a hat.",
+      "question": "Magician: Here is a rabbit! ___________________\nBoy: Yes, it can. Look at it hop!",
       "options": [
-        "walk",
-        "ride",
-        "jump",
-        "wave"
+        "Is it hop very well? ",
+        "Can it hop very well?",
+        "Does it hop very well",
+        "Can you hop very well"
+      ],
+      "answer_index": 1,
+      "explanation": "男孩的回答也是 Yes, it can.，代表主詞必須是單數的 it，且動詞要是 Can。因此選項 A 完美契合。選項 B 是雙動詞錯誤；選項 C 錯用 Does；選項 D 主詞變成問人了。",
+      "taxonomy": "applied",
+      "commonMisconception": "對於這類問句常常忽視答句的提示，亂猜選項 C 或 D。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-006",
+      "type": "multiple_choice",
+      "scenario": "Two friends are talking about playing video games.",
+      "question": "Friend A: Can you play baseball in the game?\nFriend B: No, I can't. ___________________",
+      "options": [
+        "I am not play baseball",
+        "I is not play baseball",
+        "I don't play baseball.",
+        "I can't play baseball."
+      ],
+      "answer_index": 3,
+      "explanation": "已經說了 No, I can't.，在補述時也應該用 can't 來表達不會此技能。選項 B 是 am not + 原形動詞錯誤；選項 C 語氣轉為不玩而非不會玩；選項 D 是 I is 嚴重錯誤。",
+      "taxonomy": "inferential",
+      "commonMisconception": "用 am not 或 don't 當成 can't 的替代品，忘記維持『表達能力』的情態助動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-007",
+      "type": "multiple_choice",
+      "scenario": "A coach is asking a new player about his sports skills.",
+      "question": "Coach: Let's play sports. ___________________\nPlayer: Yes, I can. I like sports.",
+      "options": [
+        "Do you run fast?  ",
+        "Are you run fast? ",
+        "Can you run fast? ",
+        "Can she run fast? "
       ],
       "answer_index": 2,
-      "explanation": "兔子的典型特徵是跳 (jump)。",
-      "commonMisconception": "學生可能被 fast 誤導而選 runner 等（若有此選項），但在給定選項中 jump 最合理。",
-      "quality_level": "L4"
+      "explanation": "運動場上教練問技能，球員說 Yes, I can.，所以必定是 Can you...? 開頭。選項 B 為嚴重文法錯誤；選項 C 錯搭 Do；選項 D 錯換第三人稱主詞。",
+      "taxonomy": "apply",
+      "commonMisconception": "混淆 Do you 與 Can you，認為它們可以完全替換。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-008",
+      "type": "multiple_choice",
+      "scenario": "A girl is pointing at a bird in the cage.",
+      "question": "Girl: The bird is beautiful. Can it sing?\nDad: ___________________",
+      "options": [
+        "No, they can't. They have voices.",
+        "Yes, it is. It has a good voice. ",
+        "No, it isn't. It has a good voice",
+        "Yes, it can. It has a good voice."
+      ],
+      "answer_index": 3,
+      "explanation": "單隻鳥 The bird 代名詞為 it，Can 提問需用 can 回答。選項 A 前後一致。選項 B 錯搭 is；選項 C 語意矛盾；選項 D 人數不符 (they)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "把 it is 當成萬用回答，忘記配合助動詞 can 的規則。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-009",
+      "type": "multiple_choice",
+      "scenario": "Two students are organizing a band.",
+      "question": "Student A: I can play the drums.\nStudent B: Wow! ___________________\nStudent A: No, he can't. He can sing.",
+      "options": [
+        "Can Peter play the drums, too?",
+        "Can you play the drums, too?  ",
+        "Is Peter play the drums, too? ",
+        "Does Peter play the drums, too"
+      ],
+      "answer_index": 0,
+      "explanation": "接下來的回答是 No, he can't.。所以問句的主詞必須是男性的第三人稱 (Peter)，並且以 Can 開頭。選項 B 錯用 you；選項 C 雙動詞錯誤；選項 D 錯搭 Does。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法結合對話中的主詞變化 (I -> he)，而死板板選了 Can you。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-010",
+      "type": "multiple_choice",
+      "scenario": "A brother and sister want to play together but the sister is too small.",
+      "question": "Brother: Let's ride a bike!\nMom: She is too young. ___________________",
+      "options": [
+        "She can't ride a bike.  ",
+        "She isn't ride a bike.  ",
+        "She doesn't ride a bike.",
+        "You can't ride a bike.  "
+      ],
+      "answer_index": 0,
+      "explanation": "媽媽解釋妹妹因為太小，所以『不會』騎單車，表達能力缺乏用 can't。選項 B 加上 isn't 錯誤；選項 C 用 doesn't 語意是『她不騎』而不是『她不會騎』；選項 D 主詞針對錯誤的人 (指責哥哥)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "分不清楚 can't (不會/不能) 和 doesn't (不) 在語意上的細微差別。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

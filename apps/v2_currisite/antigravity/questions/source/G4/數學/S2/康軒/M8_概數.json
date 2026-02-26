@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M8",
+    "order": 8,
+    "title": "概數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "將 8245 用「四捨五入法」取概數到千位是？",
+      "options": [
+        "9000",
+        "8200",
+        "8300",
+        "8000"
+      ],
+      "answer": "8000",
+      "explanation": "百位是 2 小於 5，捨去。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "「無條件進入法」取出的數一定會比原數大或相等。",
+      "answer": "True",
+      "explanation": "因為只要有餘數就進位。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "將 2561 用「無條件捨去法」取概數到百位是______。",
+      "answer": "2500",
+      "explanation": "尾數直接歸零。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "購物時，如果老闆說「大約 500 元」，這是一個？",
+      "options": [
+        "整數",
+        "概數",
+        "正確數",
+        "負數"
+      ],
+      "answer": "概數",
+      "explanation": "不精確的估計值稱為概數。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "取概數到萬位時，要看千位數來判斷。 ",
+      "answer": "True",
+      "explanation": "四捨五入法看下一位決定。"
+    }
+  ]
+}

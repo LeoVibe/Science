@@ -1,265 +1,192 @@
 {
-  "publisher": "HanLin",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U2",
-  "lesson_title": "Positions",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson_id": "U2",
+    "lesson_name": "Where is my cap?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Looking for a Kite",
-      "question": "A: Where is my kite? \nB: It's ______ the desk. I can see it on the floor (地板).",
+      "id": "HL-G3S2-U2-001",
+      "type": "multiple_choice",
+      "scenario": "A boy is getting ready for school but can't find his hat.",
+      "question": "Boy: It's sunny today. ___________________\nMom: Look! It's on the chair.",
       "options": [
-        "in",
-        "on",
-        "under",
-        "next to"
+        "How is my cap?    ",
+        "What is my cap?   ",
+        "Where is my cap?  ",
+        "Who is my cap?    "
       ],
       "answer_index": 2,
-      "explanation": "風箏在桌子下方 (under) 且位在「地板」上。",
-      "commonMisconception": "學生可能忽略 floor 這個關鍵字而誤選 on (在桌上)。",
-      "quality_level": "L4"
+      "explanation": "從媽媽的回答 It's on the chair. (它在椅子上) 可以推測這是在尋找物品的下落，因此問句必須使用 Where (哪裡)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對六大疑問詞(Wh-questions)的功能混淆，只憑感覺亂猜。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Schoolbag Check",
-      "question": "My books are ______ my schoolbag. I'm ready for school!",
+      "id": "HL-G3S2-U2-002",
+      "type": "multiple_choice",
+      "scenario": "A sister helps her little brother find his toy box.",
+      "question": "Brother: Where is the robot?\nSister: ___________________",
       "options": [
-        "in",
-        "on",
-        "under",
-        "next to"
+        "It's in the big box.  ",
+        "They are in the big box.",
+        "It are in the big box.  ",
+        "They's in the big box.  "
       ],
       "answer_index": 0,
-      "explanation": "書本收在書包裡 (in)。",
-      "commonMisconception": "介係詞用法混淆。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Table Setting",
-      "question": "The cup is ______ the desk. Be careful!",
-      "options": [
-        "in",
-        "on",
-        "under",
-        "next to"
-      ],
-      "answer_index": 1,
-      "explanation": "杯子放在桌子上 (on)。",
-      "commonMisconception": "學生可能不認識 desk，或者分不清 on 與 in 的差別。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Looking for the Ball",
-      "question": "A: ______ is the ball? \nB: It's next to the chair.",
-      "options": [
-        "What",
-        "Who",
-        "Where",
-        "How"
-      ],
-      "answer_index": 2,
-      "explanation": "詢問地點位置使用疑問詞 Where。",
-      "commonMisconception": "疑問詞混淆。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Finding a Dog",
-      "question": "Where is the dog? ______ next to the door.",
-      "options": [
-        "It",
-        "It's",
-        "Is",
-        "Its"
-      ],
-      "answer_index": 1,
-      "explanation": "回答時需要「主詞 + B 動詞」，故選 It's (It is)。",
-      "commonMisconception": "學生常會漏掉 B 動詞，只選 It，或者混淆 It's 與 Its (所有格)。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "the robot 是單數，其代名詞為 It，搭配 Be 動詞 is。選項 B 誤用複數；選項 C 錯搭 Be 動詞 are；選項 D 的 They's 是錯誤的縮寫組合。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Bedroom Cleanup",
-      "question": "A: Is the ball in the box? \nB: No, it ______. It's under the bed.",
-      "options": [
-        "is",
-        "are",
-        "isn't",
-        "aren't"
-      ],
-      "answer_index": 2,
-      "explanation": "否定簡答為 No, it isn't。",
-      "commonMisconception": "否定簡答忘記加 n't。",
-      "quality_level": "L4"
+      "commonMisconception": "問句主詞是單數，回答卻反射性地使用複數 They are，或錯用 Be 動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "HL-G3S2-U2-003",
+      "type": "multiple_choice",
+      "scenario": "A family is cleaning the living room.",
+      "question": "Dad: Where is my blue pen?\nMom: Is it _______________ the table?\nDad: No, it isn't. Oh, it is in my bag.",
+      "options": [
+        "who  ",
+        "where",
+        "what ",
+        "under"
+      ],
+      "answer_index": 3,
+      "explanation": "空格處需要填入一個表示空間位置的介係詞來連接 it 與 the table。只有 under (在...之下) 是介係詞。其他選項皆為疑問代名詞或副詞，不可放在此處。",
+      "taxonomy": "applied",
+      "commonMisconception": "分不清疑問詞與介係詞的詞性差異，把 where 當成介係詞用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-004",
+      "type": "multiple_choice",
+      "scenario": "Two classmates are looking at a picture book.",
+      "question": "Student A: The cat is sleeping. Where is it?\nStudent B: ___________________",
+      "options": [
+        "It's on the bad.   ",
+        "It's under bed.    ",
+        "They're on the bed.",
+        "It's on the bed.   "
+      ],
+      "answer_index": 3,
+      "explanation": "貓睡在床上，需要搭配單數的 It is 和正確的名詞拼字 bed (床)。選項 A 的 bad 是壞的(形容詞)；選項 C 錯用複數；選項 D 漏掉了定冠詞 the。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Desk Arrangement",
-      "question": "The pencil is on the book. The book is on the desk. \nQuestion: Where is the pencil?",
-      "options": [
-        "It's in the desk.",
-        "It's on the desk.",
-        "It's under the desk.",
-        "It's next to the book."
-      ],
-      "answer_index": 1,
-      "explanation": "鉛筆在書上，書在桌上，因此鉛筆也在桌子上方的空間位置。",
-      "commonMisconception": "學生缺乏空間遞移的邏輯能力，或者受限於文本中的 \"on the book\" 而忽略了與桌子的關係。",
-      "quality_level": "L4"
+      "commonMisconception": "將 bed(床) 與 bad(壞的) 拼音混淆，或是介係詞片語漏加指定冠詞 the。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "HL-G3S2-U2-005",
+      "type": "multiple_choice",
+      "scenario": "Tom is playing hide and seek with his dog, Buster.",
+      "question": "Tom: Buster, where are you? Are you under the table?\nDog: (Woof!) ___________________",
+      "options": [
+        "No, I'm not. I'm in the box.   ",
+        "No, it isn't. It's in the box. ",
+        "Yes, I do. I am under the table.",
+        "Yes, it is. It's under the table."
+      ],
+      "answer_index": 0,
+      "explanation": "Tom 用 Are you...? 問小狗 (將狗擬人化對話)，因為狗在箱子裡 (不在桌下)，所以需用否定回答 No, I'm not.。若回答 Yes 則位置矛盾。選項 B 和 D 錯把回答者變成 it。",
       "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Helping Mom",
-      "question": "Mom: 'Lily, is your kite ______ the desk?' \nLily: 'Yes, it is. Look! It's right (就在) on the desk.'",
-      "options": [
-        "in",
-        "on",
-        "under",
-        "next to"
-      ],
-      "answer_index": 1,
-      "explanation": "Lily 的回答中提到了 'on the desk'，故問句也是針對桌上的位置提問。",
-      "commonMisconception": "受前一題影響誤選其他介係詞。",
-      "quality_level": "L4"
+      "commonMisconception": "被『狗是動物=it』的刻板印象綁死，忽略了這是對話情境，回答者必須用第一人稱 I。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "Where ______ my cat and dog?",
+      "id": "HL-G3S2-U2-006",
+      "type": "multiple_choice",
+      "scenario": "A student lost her eraser in the classroom.",
+      "question": "Girl: Oh no! ___________________\nBoy: Is it in your pencil case?",
       "options": [
-        "is",
-        "are",
-        "am",
-        "be"
+        "Where is my red eraser? ",
+        "What is your red eraser?",
+        "Where are my red erasers?",
+        "Who is my red eraser?   "
       ],
-      "answer_index": 1,
-      "explanation": "主詞是 'my cat and dog' (兩者，複數)，故 B 動詞用 are。",
-      "commonMisconception": "只看到最近的 cat 而選 is，忽略了連接詞 and 形成的複數主詞。",
-      "quality_level": "L4"
-    },
-    {
+      "answer_index": 0,
+      "explanation": "根據男孩回答『Is it in your...』(它在...裡面嗎？) 的單數代名詞 it，可以反推女孩尋找的是『單數物品』的『位置』。因此使用 Where is my...。選項 C 錯在複數 erasers。",
       "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Finding Toys",
-      "question": "The doll (娃娃) is on the chair. The ball is in the box. The car is under the desk. \nQuestion: What is in the box?",
-      "options": [
-        "The doll",
-        "The car",
-        "The ball",
-        "The desk"
-      ],
-      "answer_index": 2,
-      "explanation": "文本指明 'The ball is in the box'，故選 The ball。",
-      "commonMisconception": "物品與位置對應發生錯誤。",
-      "quality_level": "L4"
+      "commonMisconception": "無法由下半句的代名詞 it 反推問句應該是相吻合的單數名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "HL-G3S2-U2-007",
+      "type": "multiple_choice",
+      "scenario": "Dad is helping Mom look for some important papers.",
+      "question": "Dad: The book is on the desk. Where is the pen?\nMom: ___________________",
+      "options": [
+        "It's in under the book.",
+        "It's under the book.   ",
+        "They are under the book",
+        "It's under book.       "
+      ],
+      "answer_index": 1,
+      "explanation": "the pen 是單數，回答用 It's。在書本下面正確用法是 under the book。選項 B 介係詞 in 和 under 重疊使用是錯誤的；選項 C 錯用複數；選項 D 漏了 the。",
+      "taxonomy": "inferential",
+      "commonMisconception": "受到中文『在...之下(的裡面)』影響，將介係詞 in 與 under 疊加在一起使用 (in under)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-008",
+      "type": "multiple_choice",
+      "scenario": "In a game of 'I spy', a child gives a clue to his friends.",
+      "question": "Child A: I spy something small. It's yellow.\nChild B: ___________________\nChild A: Yes, it is! You win!",
+      "options": [
+        "Is it in the toy box? ",
+        "Is they in the toy box?",
+        "Are it in the toy box? ",
+        "Are you in the toy box?"
+      ],
+      "answer_index": 0,
+      "explanation": "對方的線索是 It's yellow (單數)，要猜測位置應該用 Is it...? 提問。選項 B 的 Is they 和選項 C 的 Are it 都是嚴重的 Be 動詞搭配錯誤。選項 D 的 you 不合語境。",
       "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Lost and Found",
-      "question": "Sam: 'Where is my pencil?' \nAmy: 'Look! It's next to your book.' \nSam: 'Oh, I see it. Thanks!' \nQuestion: Is the pencil on the book?",
-      "options": [
-        "Yes, it is.",
-        "No, it isn't.",
-        "Yes, he is.",
-        "No, he isn't."
-      ],
-      "answer_index": 1,
-      "explanation": "鉛筆是在書的「旁邊」(next to)，而非「上面」(on)。故回答 No, it isn't。",
-      "commonMisconception": "學生可能將 next to 與 on 的圖像概念混淆。",
-      "quality_level": "L4"
+      "commonMisconception": "對疑問句的 Be 動詞與主詞配對感到混亂，隨便抓一個 is 或 are 就用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Mystery Box",
-      "question": "This box (箱子) is big. My kite is in it. My ball is next to it. \nQuestion: Where is the ball?",
+      "id": "HL-G3S2-U2-009",
+      "type": "multiple_choice",
+      "scenario": "A teacher is showing a magic trick with a coin and a cup.",
+      "question": "Teacher: Look! Where is the coin?\nStudents: ___________________",
       "options": [
-        "It's in the box.",
-        "It's next to the box.",
-        "It's under the kite.",
-        "It's on the kite."
+        "They're in blue cup. ",
+        "It's in the blue cup.",
+        "It's in of the cup.  ",
+        "Is it in the blue cup"
       ],
       "answer_index": 1,
-      "explanation": "根據文本 'My ball is next to it' (it 指代 box)，故球在箱子旁邊。",
-      "commonMisconception": "代名詞 it 的指代對象辨識錯誤。",
-      "quality_level": "L4"
+      "explanation": "the coin 為單數，回答用 It is...。硬幣在杯子裡，搭配 in the blue cup 最正確。選項 B 錯用複數且漏the；選項 C 介係詞 in of 疊加錯誤；選項 D 為問句結構不對。",
+      "taxonomy": "inferential",
+      "commonMisconception": "將兩個不同的介係詞憑空組合 (如 in of) 或者忘了冠詞 the。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Noun Plurals",
-      "question": "I have two ______ on my desk.",
+      "id": "HL-G3S2-U2-010",
+      "type": "multiple_choice",
+      "scenario": "A girl is drawing a picture of her bedroom.",
+      "question": "Mom: Your room is nice. Where is the chair?\nGirl: ___________________",
       "options": [
-        "kite",
-        "kites",
-        "a kite",
-        "an kite"
+        "It's are on the desk.  ",
+        "It's next to the desk. ",
+        "They are next to desk. ",
+        "It is under a desks.   "
       ],
       "answer_index": 1,
-      "explanation": "數量詞 two 之後應接複數名詞 kites。",
-      "commonMisconception": "單複數形式混淆。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Classroom Game",
-      "question": "Teacher: 'Put your hands ______ your desk!' \nStudents: 'One, two, three! Ready!' (學生們把手放在桌面上)",
-      "options": [
-        "in",
-        "on",
-        "under",
-        "next to"
-      ],
-      "answer_index": 1,
-      "explanation": "根據學生動作描述「放在桌面上」，對應介係詞是 on。",
-      "commonMisconception": "學生可能不懂 'Put your hands' 的意思，或者無法從動態描述中提取空間關係。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Library Rule",
-      "question": "A: Shh! Where are we? \nB: We are ______ the library. We must be quiet.",
-      "options": [
-        "on",
-        "in",
-        "under",
-        "next to"
-      ],
-      "answer_index": 1,
-      "explanation": "人在圖書館「裡面」(in) 必須保持安靜。",
-      "commonMisconception": "分不清場所介係詞 in 與 on 的選用。",
-      "quality_level": "L4"
+      "explanation": "the chair 單數，以 It's 回答。next to (在...旁邊) 是合理且正確的介係片語用法。選項 B 出現 It is are 的雙 Be 動詞錯誤；選項 C 用錯複數；選項 D 的 a desks 單複矛盾。",
+      "taxonomy": "inferential",
+      "commonMisconception": "縮寫與完整字詞同時出現 (It's are)，或是冠詞 a 後面接了複數名詞 (a desks)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

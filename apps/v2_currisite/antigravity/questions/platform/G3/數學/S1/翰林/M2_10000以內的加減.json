@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M2",
+    "title": "10000以內的加減",
+    "semester": "semester_1",
+    "order": 2
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "計算 3050 + 4950 = ？",
+      "options": [
+        "7900",
+        "8100",
+        "8000",
+        "7000"
+      ],
+      "answer": "8000",
+      "explanation": "50 + 50 = 100，3000 + 4900 + 100 = 8000。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "計算 7000 - 1 = 6999。",
+      "answer": "True",
+      "explanation": "連續借位：7000 借 1 給個位變為 6999。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一臺烤箱 2480 元，微波爐比烤箱貴 1200 元，微波爐要______元。",
+      "answer": "3680",
+      "explanation": "2480 + 1200 = 3680。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 5678 - 1234 = ？",
+      "options": [
+        "4432",
+        "4444",
+        "4544",
+        "4344"
+      ],
+      "answer": "4444",
+      "explanation": "8-4=4, 7-3=4, 6-2=4, 5-1=4，結果為 4444。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "哥哥有 8000 元，買衣服花掉 1500 元，買鞋子花掉 2000 元，剩下幾元？",
+      "options": [
+        "5500",
+        "3500",
+        "6500",
+        "4500"
+      ],
+      "answer": "4500",
+      "explanation": "8000 - 1500 - 2000 = 4500（也可先算總花費 1500+2000=3500，再計算 8000-3500=4500）。"
+    }
+  ]
+}

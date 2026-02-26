@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M2",
+    "title": "四位數的加減",
+    "semester": "semester_1",
+    "order": 2
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "計算 2450 + 1550 = ？",
+      "options": [
+        "3000",
+        "3900",
+        "4100",
+        "4000"
+      ],
+      "answer": "4000",
+      "explanation": "2450 + 1550 = 4000。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "做直式減法時，如果當位不夠減，要向前一位借 1。",
+      "answer": "True",
+      "explanation": "借 1 代表借一個較大的位值單位（如向十位借 1 代表借 10 個個位）。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "8000 - 4500 = ______。",
+      "answer": "3500",
+      "explanation": "計算結果為 3500。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "一臺自行車 3800 元，小明存了 2500 元，還差多少元？",
+      "options": [
+        "1500 元",
+        "2300 元",
+        "1200 元",
+        "1300 元"
+      ],
+      "answer": "1300 元",
+      "explanation": "3800 - 2500 = 1300。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "計算 1234 + 8765 = ？",
+      "options": [
+        "8999",
+        "9999",
+        "9876",
+        "10000"
+      ],
+      "answer": "9999",
+      "explanation": "1234 + 8765 = 9999。"
+    }
+  ]
+}

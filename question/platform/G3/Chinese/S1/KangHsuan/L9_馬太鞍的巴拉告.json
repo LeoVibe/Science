@@ -1,5 +1,5 @@
 {
-  "publisher": "康軒",
+  "publisher": "KangHsuan",
   "grade": "G3",
   "semester": "S1",
   "subject": "Chinese",
@@ -20,7 +20,8 @@
       "scenario": "知識檢索：魚屋的底層構造。",
       "commonMisconception": "學生可能忽略材料與魚種習性的對應關係。",
       "taxonomy": "literal",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7.5
     },
     {
       "id": "2",
@@ -36,7 +37,8 @@
       "scenario": "邏輯推論：分析中層的保護功能。",
       "commonMisconception": "學生可能以為中層是為了餵食魚類，實則是為了保護與繁殖。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 10
     },
     {
       "id": "3",
@@ -52,7 +54,8 @@
       "scenario": "生態觀察：分析上層的防禦作用。",
       "commonMisconception": "學生可能以為植物只是裝飾或單純遮陽。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     },
     {
       "id": "4",
@@ -68,7 +71,8 @@
       "scenario": "核心價值：分析永續利用的真諦。",
       "commonMisconception": "學生可能對「獲取資源」與「保護環境」的平衡點感到模糊。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "5",
@@ -83,7 +87,8 @@
       "explanation": "文明的採捕過程包含對環境的最小干擾與事後的環境修補。",
       "scenario": "情境應用：模擬阿美族人的傳統漁法。",
       "taxonomy": "literal",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "6",
@@ -98,7 +103,8 @@
       "explanation": "將所學智慧轉化為具體的棲地守護行動，是學習的高層次表現。",
       "scenario": "素養實踐：將傳統智慧應用於現代環境保護。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "7",
@@ -113,7 +119,8 @@
       "explanation": "生物多樣性的維護始於對不同物種特定需求的尊重與理解。",
       "scenario": "科學析論：分析空間配置的科學依據。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 10
     },
     {
       "id": "8",
@@ -128,7 +135,8 @@
       "explanation": "營造棲地、提供繁育避難所是生態系統循環不息的基礎動力。",
       "scenario": "生態系統：分析「生生不息」的原因。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "9",
@@ -143,7 +151,8 @@
       "explanation": "透過細膩觀察產生共榮的捕魚技術，是馬太鞍部落最珍貴的無形文化遺產。",
       "scenario": "詞彙選擇：分析主題核心詞。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 8.5
     },
     {
       "id": "10",
@@ -158,7 +167,8 @@
       "explanation": "巴拉告的精髓在於分層設計與對物種習性的量身訂做。",
       "scenario": "創意應用：設計魚屋飯店的宣傳語。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     },
     {
       "id": "11",
@@ -173,7 +183,8 @@
       "explanation": "傳統漁法的背後是更深層的自然價值觀教育與對資源的敬畏。",
       "scenario": "文化傳承：分析技術背後的價值觀。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "12",
@@ -188,7 +199,8 @@
       "explanation": "設備固然重要，但基礎生態環境的健康才是支撐所有漁法的核心。",
       "scenario": "假設辯證：分析環境變遷對巴拉告的影響。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     }
   ]
 }

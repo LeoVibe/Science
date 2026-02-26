@@ -1,265 +1,192 @@
 {
-  "publisher": "KangHsuan",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U3",
-  "lesson_title": "Colors",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson_id": "U3",
+    "lesson_name": "Where's the cat?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Painting Class",
-      "question": "The sky is ______. It looks like the ocean.",
+      "id": "KH-G3S2-U3-001",
+      "type": "multiple_choice",
+      "scenario": "Mom is looking for her keys before going to work.",
+      "question": "Mom: I can't find my keys. Where are they?\nSon: Look! ___________________",
       "options": [
-        "red",
-        "blue",
-        "yellow",
-        "green"
-      ],
-      "answer_index": 1,
-      "explanation": "天空 (sky) 和海洋 (ocean) 的典型顏色都是藍色 (blue)。",
-      "commonMisconception": "學生可能未聯想到 sky 與 blue 的關係，或者分不清 blue 與其他顏色的英文單字。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Fruit Shop",
-      "question": "Look at the bananas. They are ______.",
-      "options": [
-        "red",
-        "white",
-        "yellow",
-        "blue"
-      ],
-      "answer_index": 2,
-      "explanation": "熟成的香蕉 (bananas) 是黃色 (yellow) 的。",
-      "commonMisconception": "學生可能不認識 bananas，或者選了香蕉未熟前的顏色。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Winter Scene",
-      "question": "The snow is ______. Everything looks like milk.",
-      "options": [
-        "white",
-        "black",
-        "red",
-        "blue"
+        "They are on the table.",
+        "They are in the table.",
+        "it is on the big table",
+        "They is on the table. "
       ],
       "answer_index": 0,
-      "explanation": "雪 (snow) 和牛奶 (milk) 的顏色都是白色 (white)。",
-      "commonMisconception": "學生可能不認識 milk 或 snow 這兩個輔助判斷單字。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Finding a Bag",
-      "question": "A: What color is it? \nB: It ______ green.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 1,
-      "explanation": "It 是第三人稱單數主詞，對應的 B 動詞是 is。",
-      "commonMisconception": "主謂不一致，或者受中文直譯影響隨意使用 B 動詞。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "School Uniform",
-      "question": "A: ______ color is your cap? \nB: It's red.",
-      "options": [
-        "Who",
-        "Where",
-        "What",
-        "How"
-      ],
-      "answer_index": 2,
-      "explanation": "詢問顏色使用詢問事物的疑問詞 What color...?",
-      "commonMisconception": "受中文「顏色是『如何』的」影響誤用 How。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "問句為 Where are they?，代名詞為 they，對應的複數 Be 動詞為 are。鑰匙在桌面上方，介係詞使用 on。選項 B (in) 語意不合邏輯；選項 C 單複數錯誤；選項 D 錯用 Be 動詞 (is)。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Mixing Colors in Art Class",
-      "question": "Teacher: 'We have red and yellow. Mix them together.' \nStudent: 'Wow! It's ______! I like this color.'",
-      "options": [
-        "blue",
-        "orange",
-        "white",
-        "black"
-      ],
-      "answer_index": 1,
-      "explanation": "紅色 (red) 加黃色 (yellow) 會變成橘色 (orange)。這測驗學生的顏色混合概念與單字理解。",
-      "commonMisconception": "學生可能不具備色彩混合常識，或是單純對 orange 的拼寫不熟。",
-      "quality_level": "L4"
+      "commonMisconception": "將 keys 視為單數 (it) 或搞混桌面上 (on) 與桌子內 (in) 的介係詞差異。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Apple Orchard",
-      "question": "Leo: 'Is this apple green?' \nMom: 'No, it ______. It's red.'",
+      "id": "KH-G3S2-U3-002",
+      "type": "multiple_choice",
+      "scenario": "Two brothers are playing a treasure hunt game in the bedroom.",
+      "question": "Older brother: Where is the missing toy car?\nYounger brother: ___________________",
       "options": [
-        "is",
-        "are",
-        "isn't",
-        "aren't"
-      ],
-      "answer_index": 2,
-      "explanation": "前面是 No 開頭，後面應接否定簡答 'it isn't'。",
-      "commonMisconception": "否定簡答結尾忘記加 n't，或者主詞代名詞判斷錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Dressing Up",
-      "question": "A: I have a green bag. \nB: I have a green bag, ______! Let's go to the park.",
-      "options": [
-        "too",
-        "to",
-        "two",
-        "either"
+        "It is under the bed. ",
+        "It is under bed.     ",
+        "They are under bed.  ",
+        "It are under the bed."
       ],
       "answer_index": 0,
-      "explanation": "在肯定句尾表示「也」，應使用 too。",
-      "commonMisconception": "混淆同音異義字 (too/to/two)，或者不知道 too 的位置放置。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Drawing Flowers",
-      "question": "These flowers ______ yellow and white.",
-      "options": [
-        "is",
-        "are",
-        "am",
-        "be"
-      ],
-      "answer_index": 1,
-      "explanation": "These flowers 是複數型主詞，應配複數 B 動詞 are。",
-      "commonMisconception": "學生可能只看到 yellow 而忘了前面的複數主詞，慣性用 is。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Nature Walk",
-      "question": "Look! The grass is green. The flowers are red and yellow. \nQuestion: What color is the grass?",
-      "options": [
-        "red",
-        "yellow",
-        "green",
-        "blue"
-      ],
-      "answer_index": 2,
-      "explanation": "文本中直接敘述 'the grass is green'，故草是綠色的。",
-      "commonMisconception": "閱讀時將草 (grass) 與花 (flowers) 的顏色搞混。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "the missing toy car 是單數，使用 It is。表示在床底下的空間介係詞為 under，且 bed 前方需要加定冠詞 the。選項 B 漏了 the；選項 C 錯用複數；選項 D Be 動詞不一致。",
       "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Missing Pencil",
-      "question": "Amy: 'Where is my pencil?' \nSam: 'Is it red?' \nAmy: 'No, it's not. My pencil is blue.' \nQuestion: What color is Amy's pencil?",
-      "options": [
-        "red",
-        "blue",
-        "yellow",
-        "white"
-      ],
-      "answer_index": 1,
-      "explanation": "Amy 明確說出 'My pencil is blue'，否定了 Sam 猜測的 red。",
-      "commonMisconception": "學生可能聽到第一個出現的顏色 red 就直接選，忽略了否定詞 'No, it's not'。",
-      "quality_level": "L4"
+      "commonMisconception": "中文習慣說『在床下』，英文常被寫成『under bed』漏掉定冠詞 the。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Lost Bag",
-      "question": "Officer: 'Is this your bag?' \nToby: 'No. My bag is not white. It's green.' \nQuestion: What is Toby's bag color?",
+      "id": "KH-G3S2-U3-003",
+      "type": "multiple_choice",
+      "scenario": "Alice sees her pet sleeping inside a cozy box.",
+      "question": "Alice: Where's the cat?\nDad: Shh. ___________________",
       "options": [
-        "white",
-        "black",
-        "green",
-        "not green"
-      ],
-      "answer_index": 2,
-      "explanation": "Toby 說他的包包「不是」白色的而是「綠色的」，故選 green。",
-      "commonMisconception": "受 'is not' 影響而困惑，或者在 'white' 與 'green' 之間判斷錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Sentence Order",
-      "question": "It is ______ pencil.",
-      "options": [
-        "a blue",
-        "blue a",
-        "a red",
-        "red a"
+        "It's in the box.   ",
+        "It's on the box.   ",
+        "They're in the box.",
+        "It am in the box.  "
       ],
       "answer_index": 0,
-      "explanation": "英文形容詞 (如顏色) 通常放在冠詞之後、名詞之前。 a + [color] + [noun]。",
-      "commonMisconception": "詞序顛倒，受母語直譯影響把顏色放在冠詞前面。",
-      "quality_level": "L4"
+      "explanation": "問句 Where's = Where is，詢問單隻貓的位置。因為貓睡在箱子『裡面』，故使用 in。選項 C 錯用複數，選項 D Be 動詞錯用 (am)。",
+      "taxonomy": "literal",
+      "commonMisconception": "空間介係詞 in (在...裡面) 與 on (在...上面) 混淆。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Rainbow Observation",
-      "question": "A rainbow has many colors. It has red, orange, yellow, green, and ______.",
+      "id": "KH-G3S2-U3-004",
+      "type": "multiple_choice",
+      "scenario": "A teacher is asking a student to look at a picture on the whiteboard.",
+      "question": "Teacher: How many birds do you see? And where are the birds?\nStudent: I see two birds. ___________________",
       "options": [
-        "black",
-        "white",
-        "blue",
-        "grey"
-      ],
-      "answer_index": 2,
-      "explanation": "彩虹包含藍色 (blue)，但不含黑、白或灰色。",
-      "commonMisconception": "學生可能不認識 rainbow，或者對彩虹的基本顏色常識不足。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Traffic Light Rules",
-      "question": "Look at the traffic light (紅綠燈). Now it's red. Can you go?",
-      "options": [
-        "Yes, I can.",
-        "No, I can't.",
-        "Yes, it is.",
-        "No, it isn't."
+        "They are on the tree. ",
+        "They are in the tree. ",
+        "It is on the big tree.",
+        "It is in the big tree."
       ],
       "answer_index": 1,
-      "explanation": "紅燈 (red light) 時不能通行，故選 'No, I can't'。",
-      "commonMisconception": "對常識單字 (traffic light) 的恐懼，或者將交通規則與顏色對應錯誤。",
-      "quality_level": "L4"
+      "explanation": "the birds 為複數，需用 They are 回答。外來的鳥停在樹枝中，英文習慣用法為 in the tree (若為樹木長出的果實樹葉才用 on)。選項 A 是常見的母語轉譯錯誤。",
+      "taxonomy": "inferential",
+      "commonMisconception": "被中文『在樹上』干擾，直覺選用 on the tree 而非正確的 in the tree。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-005",
+      "type": "multiple_choice",
+      "scenario": "Mike is helping his grandmother clean the living room.",
+      "question": "Grandma: I can't find my reading glasses.\nMike: Let me help you. ___________________",
+      "options": [
+        "Where is it now?     ",
+        "Where are they?      ",
+        "What are they?       ",
+        "Who are these people?"
+      ],
+      "answer_index": 1,
+      "explanation": "glasses (眼鏡) 在英文中為恆複數名詞，必須使用 Where are they? 來詢問。選項 A 的 it 是錯誤的，C 與 D 則偏離了尋找物品的語意。",
+      "taxonomy": "applied",
+      "commonMisconception": "中文的『一副眼鏡』被理解為單數 it，忽略了英文 glasses 的恆複數特性。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-006",
+      "type": "multiple_choice",
+      "scenario": "Two students are looking for their lost basketball.",
+      "question": "Student A: ___________________\nStudent B: It's under the teacher's desk.",
+      "options": [
+        "Who is the basketball?  ",
+        "What is the basketball? ",
+        "Where's the basketball? ",
+        "How is the basketball?  "
+      ],
+      "answer_index": 2,
+      "explanation": "根據回答 It's under... (它在...下面)，這是一個表達空間位置的句子。因此問句必須使用疑問詞 Where (哪裡)。選項 A, B, D 的疑問詞皆不合邏輯。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對 Wh- 疑問詞的意義掌握不清，只看懂 basketball 就隨便選一個。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-007",
+      "type": "multiple_choice",
+      "scenario": "Dad is packing his briefcase while looking around the room.",
+      "question": "Dad: Where is the red pen?\nMom: ___________________",
+      "options": [
+        "It's on the pencil case.",
+        "It's in the pencil case.",
+        "They are in pencil case.",
+        "It isn't in pencil case."
+      ],
+      "answer_index": 1,
+      "explanation": "筆通常是放在筆袋『裡面』，故使用 in。選項 A (on) 雖然文法對但語境較不符合常理；選項 C, D 的 pencil case 前皆漏掉了定冠詞 the，且 C 錯用複數。",
+      "taxonomy": "applied",
+      "commonMisconception": "介係詞之後的名詞常常被學生漏掉 a/an/the 限定詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-008",
+      "type": "multiple_choice",
+      "scenario": "A family is looking at a map to find the treasure in the garden.",
+      "question": "Sister: Where is the treasure box?\nBrother: Look at the map! ___________________",
+      "options": [
+        "It's under the big rock.",
+        "It's on the small boxes.",
+        "They are in a big rocks.",
+        "This is under big rocks."
+      ],
+      "answer_index": 0,
+      "explanation": "the treasure box 是單數，用 It is 代替。under the big rock 語意通順且文法正確。選項 B boxes 複數不符圖意，選項 C a 與 rocks 矛盾單複數，選項 D 漏 the/a。",
+      "taxonomy": "inferential",
+      "commonMisconception": "冠詞與名詞單複數不一致 (如 a big rocks)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-009",
+      "type": "multiple_choice",
+      "scenario": "Tom wants to play a video game but can't find his game controller.",
+      "question": "Tom: Mom, where's my toy?\nMom: ___________________\nTom: Oh, I see it! It's next to the books.",
+      "options": [
+        "Is it on the sofa?  ",
+        "It are on the sofa. ",
+        "They is on the sofa.",
+        "They are on the sofa"
+      ],
+      "answer_index": 0,
+      "explanation": "Mom 提供了一個可能的猜測，用問句 Is it on the sofa? 是合理的對話推進。選項 B, C Be 動詞不一，選項 D 錯用複數 They。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看懂對話屬於一問一答的交際互動，以為只要回答肯定句即可。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U3-010",
+      "type": "multiple_choice",
+      "scenario": "The teacher is reading a storybook to the class.",
+      "question": "Teacher: The monkey is hiding from the tiger. Where is it?\nStudents: ___________________",
+      "options": [
+        "It's in the big box.  ",
+        "It's in big the box.  ",
+        "They're in the big box",
+        "It's big in the box.  "
+      ],
+      "answer_index": 0,
+      "explanation": "猴子 (單數 It) 躲在箱子裡 (in)。形容詞必須放在名詞前面，正確語序為 the big box。選項 B, D 詞序混亂，選項 C 用錯複數。",
+      "taxonomy": "inferential",
+      "commonMisconception": "形容詞、冠詞與名詞的位置排序錯誤 (如 in big the box)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

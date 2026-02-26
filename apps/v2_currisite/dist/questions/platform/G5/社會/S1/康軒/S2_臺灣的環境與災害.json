@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "S2",
+    "order": 2,
+    "title": "臺灣的環境與災害"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "臺灣夏季常遇到什麼樣的天然災害，帶來豪雨與強風？",
+      "options": [
+        "颱風",
+        "寒流",
+        "暴風雪",
+        "龍捲風"
+      ],
+      "answer": "颱風",
+      "explanation": "颱風是臺灣夏秋之際常見的災害性天氣。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "為了減少土石流災害，人類應該在山坡地適當植樹造林，並避免過度墾殖。",
+      "answer": "True",
+      "explanation": "植被根系能協助抓牢土石，提升地表的穩定。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "臺灣降雨在空間與時間分布上極不平均，冬季迎風面的地區（如宜蘭、基隆）降雨量較______。",
+      "answer": "多或豐富",
+      "explanation": "東北季風帶來豐沛的水氣。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "面對地震災害，平常應該做好的準備工作不包括？",
+      "options": [
+        "不需要演練避難姿勢",
+        "固定大型家具",
+        "規劃疏散路線",
+        "準備緊急避難包"
+      ],
+      "answer": "不需要演練避難姿勢",
+      "explanation": "落實「趴下、掩護、穩住」的演練能提高生存機會。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "臺灣目前推行的「永續發展」目標，主要目的是為了？",
+      "options": [
+        "兼顧環境保護、經濟成長與社會公平，將資源留給後代子孫",
+        "為了收更多的環保費",
+        "停止一切所有的工業活動",
+        "讓經濟發展無限制成長"
+      ],
+      "answer": "兼顧環境保護、經濟成長與社會公平，將資源留給後代子孫",
+      "explanation": "這是全球面對氣候與發展危機的共識方向。"
+    }
+  ]
+}

@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "「五千」代表千位是 5，「四十」代表十位是 4，百位和個位都是 0。因此寫作 5040。",
       "commonMisconception": "學生常會漏掉中間的 0（寫成 540）或者寫錯 0 的位值（如 5400）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 1,
       "explanation": "4 個一千元是 4000。15 個一百元是 1500。9 個一元是 9。4000 + 1500 + 9 = 5509。注意百位滿十進位到千位。",
       "commonMisconception": "學生容易直接拼湊數字成 4159，忽略了 15 個百元中有一個千元需要進位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "往左走代表減法。3 個單位且每單位 10，共減去 30。2970 - 30 = 2940。",
       "commonMisconception": "學生可能搞混左（減）右（加）的方向，或是誤以為一個單位代表 1。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "在 8702 中，7 位在百位，代表 7 個一百，即 700。",
       "commonMisconception": "學生可能將「所在位值名稱（百位）」與「代表數值（700）」混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "6808 > 6088 正確。差值：6808 - 6088 = 720。",
       "commonMisconception": "學生在計算跨位值相減時，容易在百位借位給十位處出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

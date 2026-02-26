@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "han_lin",
+    "lesson": "Soc1",
+    "order": 1,
+    "title": "居住的地方"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "認識居住地方的第一步通常是觀察它的？",
+      "options": [
+        "地理環境",
+        "市長姓名",
+        "物價",
+        "電費"
+      ],
+      "answer": "地理環境",
+      "explanation": "地形、水文等地理環境決定了居住地的基本樣貌。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "現在可以透過電子地圖（如Google Map）來搜尋家鄉的位置。",
+      "answer": "True",
+      "explanation": "科技讓認識地理位置變得更方便。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "居住地的名勝古蹟可以讓我們了解當地的______與歷史。",
+      "answer": "文化",
+      "explanation": "古蹟是歷史文化的實體見證。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪一個資訊無法在一般行政地圖上看到？",
+      "options": [
+        "路名",
+        "縣市分界",
+        "明天的天氣",
+        "公家機關位置"
+      ],
+      "answer": "明天的天氣",
+      "explanation": "地圖呈現的是固定的地理與空間資訊，非即時天氣。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "畫家鄉地圖時，應先標出重要的參考標的物。",
+      "answer": "True",
+      "explanation": "重要地標能幫助使用者在地圖中定位。"
+    }
+  ]
+}

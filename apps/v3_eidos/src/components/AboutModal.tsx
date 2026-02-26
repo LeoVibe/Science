@@ -24,7 +24,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
 
         <div className="space-y-3 text-sm text-muted-foreground">
           <p>
-            <strong className="text-foreground">ScienceQuest 課後複習網站</strong>是一個為小學生設計的多學科複習練習平台。
+            <strong className="text-foreground">Eidos 課後複習網站</strong>是一個為小學生設計的多學科複習練習平台。
           </p>
           <p>
             本站為 vibe coding 練習專案，由 Antigravity + Cursor 協作開發。

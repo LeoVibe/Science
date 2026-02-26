@@ -19,7 +19,8 @@
       "answer_index": 2,
       "explanation": "0 到 1 平分 10 格，每格 0.1。第 6 格 = 6 × 0.1 = 0.6。",
       "commonMisconception": "學生可能忘加小數點，直接寫 6。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "1.4 - 1.2 = 0.2 公尺。",
       "commonMisconception": "一位小數減法需對齊小數點。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "0.5 × 3 = 1.5 公升。也可以想成 0.5 + 0.5 + 0.5 = 1.5。",
       "commonMisconception": "小數乘法在三年級以連加方式理解即可。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 3,
       "explanation": "先比整數部分：2.5 和 2.8 都是 2 開頭，3.0 和 3.1 都是 3 開頭。再比小數部分。",
       "commonMisconception": "學生可能只看小數部分而忽略整數部分的大小。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "5.7 - 3.2 = 2.5 度。",
       "commonMisconception": "小數減法時注意個位和小數的對齊。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

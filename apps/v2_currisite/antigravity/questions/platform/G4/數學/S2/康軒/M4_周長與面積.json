@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M4",
+    "order": 4,
+    "title": "周長與面積"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "邊長 10 公分正方形的面積是多少平方公分？",
+      "options": [
+        "10",
+        "1",
+        "100",
+        "40"
+      ],
+      "answer": "100",
+      "explanation": "10 * 10 = 100。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "正方形的周長是邊長的 4 倍。",
+      "answer": "True",
+      "explanation": "周長 = 邊長 + 邊長 + 邊長 + 邊長。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "長 12 公分、周長 40 公分的長方形，寬是______公分。",
+      "answer": "8",
+      "explanation": "(40 / 2) - 12 = 20 - 12 = 8。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "面積為 48 平方公分的長方形，長是 8 公分，寬是多少？",
+      "options": [
+        "8公分",
+        "6公分",
+        "12公分",
+        "4公分"
+      ],
+      "answer": "6公分",
+      "explanation": "48 / 8 = 6。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "面積單位和周長單位的名稱是一樣的。",
+      "answer": "False",
+      "explanation": "面積常用「平方」單位，周長是長度單位。"
+    }
+  ]
+}

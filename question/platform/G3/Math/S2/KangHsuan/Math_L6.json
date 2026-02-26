@@ -19,7 +19,8 @@
       "answer_index": 3,
       "explanation": "半徑的定義即為圓心至圓周的距離。",
       "commonMisconception": "分不清半徑與直徑。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "直徑是半徑的兩倍，故半徑 = 10 ÷ 2 = 5 公分。",
       "commonMisconception": "運算錯誤（10 × 2 = 20）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "圓規張開的距離代表『半徑』。直徑 8 公分的圓，半徑為 4 公分。",
       "commonMisconception": "直接以直徑長度設定圓規。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "圓規針尖固定的位置即為圓的中心點。",
       "commonMisconception": "名詞記憶錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "圓的定義即為到圓心距離相等的點的集合。",
       "commonMisconception": "視覺誤差導致的質疑。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 0,
       "explanation": "1 × 2 = 2 公尺。",
       "commonMisconception": "忘記乘以2。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -109,7 +115,8 @@
       "answer_index": 2,
       "explanation": "12 ÷ 2 = 6 公分。兩顆球平分了長度。",
       "commonMisconception": "空間視覺推理能力不足。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -124,7 +131,8 @@
       "answer_index": 1,
       "explanation": "圓心是圓形特有的組成要素。",
       "commonMisconception": "混淆中心點與圓心名詞。",
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "cqi_score": 6
     }
   ]
 }

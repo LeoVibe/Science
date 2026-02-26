@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "1 公分 = 10 毫米 (mm)，因此每一小格是 1 毫米。註：翰林版有時會提到公釐，兩者相同，但標準單位多稱毫米。",
       "commonMisconception": "學生可能搞混毫米與公分的層級。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 2,
       "explanation": "4 公分 = 40 毫米。40 + 8 = 48 毫米。",
       "commonMisconception": "換算時可能漏乘 10，直接寫成 12 (4+8)。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 1,
       "explanation": "20 毫米 = 2 公分。從 5 往右爬 2 公分，到達 5 + 2 = 7。",
       "commonMisconception": "學生可能沒換算單位就直接把 5 + 20 = 25，忽略了數線單位是公分。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "甲：15 毫米。乙：12 毫米。15 - 12 = 3 毫米。甲較高。",
       "commonMisconception": "必須先轉換為相同單位才能比較與相減。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "8 公分 = 80 毫米。對摺一次變 40 毫米。對摺第二次（分成四段）變 20 毫米。",
       "commonMisconception": "學生可能只對摺一次，算出 40；或者在分段上理解錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

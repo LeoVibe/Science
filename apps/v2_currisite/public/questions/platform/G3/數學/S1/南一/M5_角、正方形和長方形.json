@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M5",
+    "title": "角、正方形和長方形",
+    "semester": "semester_1",
+    "order": 5
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "正方形和長方形都有幾個直角？",
+      "options": [
+        "沒有直角",
+        "4 個",
+        "3 個",
+        "2 個"
+      ],
+      "answer": "4 個",
+      "explanation": "這兩個圖形都是四邊形，且四個角皆為 90 度。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "長方形的四條邊都一樣長。",
+      "answer": "False",
+      "explanation": "長方形是對邊相等（長=長，寬=寬），正方形才是四邊等長。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "角的大小是指兩個邊張開的______。",
+      "answer": "程度或角度",
+      "explanation": "張得越開，角就越大。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪種物品的形狀通常是「長方形」？",
+      "options": [
+        "標準的信封",
+        "斗笠",
+        "足球",
+        "甜筒"
+      ],
+      "answer": "標準的信封",
+      "explanation": "信封、課本、電視螢幕多為長方形。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "如何判斷一個角是不是「直角」？",
+      "options": [
+        "用手摸摸看",
+        "看它有沒有變色",
+        "用三角板的直角去對對看",
+        "用直尺量長度"
+      ],
+      "answer": "用三角板的直角去對對看",
+      "explanation": "利用疊合法判斷是否吻合直角基準。"
+    }
+  ]
+}

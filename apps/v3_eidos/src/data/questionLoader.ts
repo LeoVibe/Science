@@ -5,8 +5,7 @@ interface ManifestUnitLike {
   id?: string;
   order?: number;
   title: string;
-  file?: string;
-  path?: string;
+  file: string;
 }
 
 /** 原始題目 JSON 單題（AG 格式 answer_index 或 L4 correctAnswer） */
@@ -22,14 +21,25 @@ interface RawQuestionLike {
   commonMisconception?: string;
   type?: string;
   concept?: string;
+  is_active?: boolean;
+  cqi_score?: number;
+  quality_level?: string;
 }
+
+export type QuestionLoadStatus = 'success' | 'empty' | 'error';
 
 function normalizeAnswer(q: { type: string; answer: string | number; options?: string[] }): number {
   if (q.type === 'true_false') {
     if (String(q.answer) === 'True' || q.answer === 0) return 0;
     return 1;
   }
-  if (typeof q.answer === 'number') return q.answer;
+  if (typeof q.answer === 'number') {
+    if (q.options && (q.answer < 0 || q.answer >= q.options.length)) {
+      console.warn(`[questionLoader] answer_index out of bounds: ${q.answer}, options=${q.options.length}`);
+      return 0;
+    }
+    return q.answer;
+  }
   const str = String(q.answer).trim();
   const letterIndex = 'ABCD'.indexOf(str.toUpperCase());
   if (letterIndex >= 0) return letterIndex;
@@ -38,7 +48,13 @@ function normalizeAnswer(q: { type: string; answer: string | number; options?: s
     if (idx >= 0) return idx;
   }
   const num = parseInt(str);
-  if (!isNaN(num)) return num;
+  if (!isNaN(num)) {
+    if (q.options && (num < 0 || num >= q.options.length)) {
+      console.warn(`[questionLoader] parsed answer out of bounds: ${num}, options=${q.options.length}`);
+      return 0;
+    }
+    return num;
+  }
   return 0;
 }
 
@@ -105,28 +121,34 @@ function loadQuestionsFromCSV(
 }
 
 export interface LoadedQuestions {
+  status: QuestionLoadStatus;
   questions: Question[];
   getAllCategories: () => string[];
   getQuestionsByCategory: (cat: string) => Question[];
   manifest?: Record<string, unknown> | null;
+  errorMessage?: string;
 }
 
 export async function loadQuestions(
   grade: Grade, subject: Subject, semester: Semester, publisher: Publisher,
   manifestOnly: boolean = false
 ): Promise<LoadedQuestions> {
-  const empty: LoadedQuestions = {
+  const makeResult = (status: QuestionLoadStatus, overrides: Partial<LoadedQuestions> = {}): LoadedQuestions => ({
+    status,
     questions: [],
     getAllCategories: () => [],
     getQuestionsByCategory: () => [],
-    manifest: null
-  };
+    manifest: null,
+    ...overrides,
+  });
 
   try {
     // 題庫靜態資源統一路徑：/question/platform/...
     const basePath = `/question/platform/G${grade}/${SUBJECT_PLATFORM_PATH[subject]}/S${semester}/${PUBLISHER_PLATFORM_PATH[publisher]}`;
     const manifestRes = await fetch(`${basePath}/manifest.json`);
-    if (!manifestRes.ok) return empty;
+    if (!manifestRes.ok) {
+      return makeResult('error', { errorMessage: `Manifest 載入失敗 (${manifestRes.status})` });
+    }
 
     const manifest = await manifestRes.json();
 
@@ -134,6 +156,7 @@ export async function loadQuestions(
       const items = Array.isArray(manifest.items) ? (manifest.items as ManifestUnitLike[]) : [];
       const categories = items.map((it) => it.title ?? '').filter(Boolean);
       return {
+        status: 'success',
         questions: [],
         getAllCategories: () => categories,
         getQuestionsByCategory: () => [],
@@ -145,38 +168,31 @@ export async function loadQuestions(
 
     if (manifest.csv) {
       const csvRes = await fetch(`${basePath}/${manifest.csv}`);
-      if (!csvRes.ok) return empty;
+      if (!csvRes.ok) return makeResult('error', { errorMessage: `CSV 載入失敗 (${csvRes.status})` });
       const csvText = await csvRes.text();
       allQuestions = loadQuestionsFromCSV(csvText, grade, subject, semester);
     } else {
       let unitList: ManifestUnitLike[] = [];
       let fileList: string[] = [];
 
-      if (Array.isArray(manifest.units)) {
-        unitList = manifest.units as ManifestUnitLike[];
-        fileList = unitList.map((u) => u.file ?? u.path ?? '');
-      } else if (Array.isArray(manifest.items)) {
-        const items = manifest.items as ManifestUnitLike[];
+      const rawUnits = Array.isArray(manifest.items)
+        ? (manifest.items as ManifestUnitLike[])
+        : Array.isArray(manifest.units)
+          ? (manifest.units as ManifestUnitLike[])
+          : Array.isArray(manifest.manifest)
+            ? (manifest.manifest as ManifestUnitLike[])
+            : [];
+
+      if (rawUnits.length > 0) {
+        const items = rawUnits;
         unitList = items.map((it, i) => ({
           id: it.id,
-          order: i + 1,
-          title: it.title ?? '',
-          file: it.path ?? it.file,
-          path: it.path ?? it.file,
+          order: it.order ?? i + 1,
+          title: it.title,
+          file: it.file ?? (it as ManifestUnitLike & { path?: string }).path ?? ''
         }));
-        fileList = unitList.map((u) => u.file ?? u.path ?? '');
-      } else if (Array.isArray(manifest.manifest)) {
-        const inner = manifest.manifest as ManifestUnitLike[];
-        unitList = inner.map((u, i) => ({
-          id: u.id,
-          order: u.order ?? i + 1,
-          title: u.title ?? '',
-          file: u.file ?? u.path,
-          path: u.file ?? u.path,
-        }));
-        fileList = unitList.map((u) => u.file ?? u.path ?? '');
+        fileList = unitList.map((u) => u.file);
       }
-      if (fileList.length === 0 && Array.isArray(manifest.files)) fileList = manifest.files as string[];
 
       const publisherCode = PUBLISHER_META_MAP[publisher];
       const fetchPromises = fileList.map(async (fileName, uIdx) => {
@@ -186,19 +202,20 @@ export async function loadQuestions(
         const lesson = unitMeta?.id ?? `U${uIdx + 1}`;
         const lessonOrder = unitMeta?.order ?? uIdx + 1;
 
-        try {
-          const fileRes = await fetch(`${basePath}/${fileName}`);
-          if (!fileRes.ok) return [];
-          const data = await fileRes.json();
-          let unitQuestions: Question[] = [];
+        const fileRes = await fetch(`${basePath}/${fileName}`);
+        if (!fileRes.ok) {
+          throw new Error(`Question file load failed: ${fileName} (${fileRes.status})`);
+        }
+        const data = await fileRes.json();
+        let unitQuestions: Question[] = [];
 
           if (data.meta && Array.isArray(data.questions)) {
             const m = data.meta as { publisher?: string; title?: string; lesson?: string; order?: number };
             if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisher) return [];
             unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
               const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
-              return { ...q, options, category: m.title || m.lesson, lesson: m.lesson, lessonTitle: m.title, lessonOrder: m.order ?? 0, normalizedAnswer: normalizeAnswer({ type: q.type || 'multiple_choice', answer: q.answer || 0, options }) } as Question;
-            });
+              return { ...q, options, category: category || m.title || m.lesson, lesson: m.lesson, lessonTitle: category || m.title, lessonOrder: m.order ?? 0, normalizedAnswer: normalizeAnswer({ type: q.type || 'multiple_choice', answer: q.answer || 0, options }), _sourceFile: `${basePath}/${fileName}`, cqi_score: q.cqi_score, quality_level: q.quality_level } as Question;
+            }).filter(q => q.is_active !== false); // Default to true if undefined
           } else if (typeof data === 'object' && Array.isArray(data.questions)) {
             const lessonId = (data as { lesson_id?: string }).lesson_id ?? lesson;
             const lessonTitle = (data as { lesson_title?: string }).lesson_title ?? category;
@@ -215,13 +232,17 @@ export async function loadQuestions(
                 explanation: q.explanation,
                 scenario: q.scenario,
                 commonMisconception: q.commonMisconception,
-                category: category || lessonTitle,
+                category: category || lessonTitle || q.concept || lessonId,
                 lesson: lessonId,
                 lessonTitle: category || lessonTitle,
                 lessonOrder: lessonOrder,
                 normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options }),
+                is_active: q.is_active,
+                _sourceFile: `${basePath}/${fileName}`,
+                cqi_score: q.cqi_score,
+                quality_level: q.quality_level
               } as Question;
-            }).filter((q): q is Question => q !== null);
+            }).filter((q): q is Question => q !== null && q.is_active !== false);
           } else if (typeof data === 'object' && data.question && Array.isArray(data.options)) {
             const rawAnswer = data.correctAnswer ?? data.answer;
             unitQuestions = [{
@@ -235,10 +256,14 @@ export async function loadQuestions(
               commonMisconception: data.commonMisconception,
               category: category || data.concept || lesson,
               lesson,
-              lessonTitle: category,
+              lessonTitle: category || data.concept || lesson,
               lessonOrder,
-              normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: data.options })
-            }];
+              normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: data.options }),
+              is_active: data.is_active,
+              _sourceFile: `${basePath}/${fileName}`,
+              cqi_score: data.cqi_score,
+              quality_level: data.quality_level
+            } as Question].filter((q): q is Question => q.is_active !== false);
           } else if (Array.isArray(data)) {
             unitQuestions = (data as RawQuestionLike[]).map((q) => {
               if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
@@ -254,14 +279,17 @@ export async function loadQuestions(
                 commonMisconception: q.commonMisconception,
                 category: category || q.concept || lesson,
                 lesson,
-                lessonTitle: category,
+                lessonTitle: category || q.concept || lesson,
                 lessonOrder,
                 normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: q.options }),
+                is_active: q.is_active,
+                _sourceFile: `${basePath}/${fileName}`,
+                cqi_score: q.cqi_score,
+                quality_level: q.quality_level
               } as Question;
-            }).filter((q): q is Question => q !== null);
+            }).filter((q): q is Question => q !== null && q.is_active !== false);
           }
-          return unitQuestions;
-        } catch { return []; }
+        return unitQuestions;
       });
 
       const results = await Promise.all(fetchPromises);
@@ -269,13 +297,16 @@ export async function loadQuestions(
     }
 
     allQuestions.sort((a, b) => a.lessonOrder - b.lessonOrder);
+    const status: QuestionLoadStatus = allQuestions.length > 0 || manifestOnly ? 'success' : 'empty';
     return {
+      status,
       questions: allQuestions,
       getAllCategories: () => [...new Set(allQuestions.map(q => q.category))],
       getQuestionsByCategory: (cat: string) => allQuestions.filter(q => q.category === cat),
       manifest
     };
-  } catch {
-    return empty;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : '題庫載入時發生未知錯誤';
+    return makeResult('error', { errorMessage: message });
   }
 }

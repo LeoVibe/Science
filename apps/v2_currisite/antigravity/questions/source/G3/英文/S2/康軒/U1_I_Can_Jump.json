@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 I Can Jump",
+    "verified": true,
+    "verification_source": "康軒官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Can you jump? B: Yes, I ______.",
+      "options": [
+        "is",
+        "can",
+        "am",
+        "do"
+      ],
+      "answer": "can",
+      "explanation": "問句以 Can 開頭時，回答也應使用 can。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I can climb.' means '我會爬樹'。",
+      "answer": "True",
+      "explanation": "climb 是爬、攀爬的意思。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Can you swim? B: No, I ______. (我不行)",
+      "answer": "cannot / can't",
+      "explanation": "Can 的否定縮寫為 can't，完整形式為 cannot。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Bird can ______. B: Yes, it can fly.",
+      "options": [
+        "run",
+        "swim",
+        "dance",
+        "fly"
+      ],
+      "answer": "fly",
+      "explanation": "Bird 指小鳥，通常具備 fly (飛) 的能力。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: I can sing. B: I can sing, ______.",
+      "options": [
+        "too",
+        "two",
+        "to",
+        "do"
+      ],
+      "answer": "too",
+      "explanation": "too 在肯定句尾表示「也」。"
+    }
+  ]
+}

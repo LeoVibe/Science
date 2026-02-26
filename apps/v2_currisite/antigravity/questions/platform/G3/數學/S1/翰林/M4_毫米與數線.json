@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M4",
+    "title": "毫米與數線",
+    "semester": "semester_1",
+    "order": 4
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "尺上的 1 小格代表多少？",
+      "options": [
+        "10 毫米",
+        "1 公分",
+        "1 毫米",
+        "1 公尺"
+      ],
+      "answer": "1 毫米",
+      "explanation": "尺上的最小刻度通常是 1 公厘（毫米）。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "在數線上，越右邊的數字代表越大。",
+      "answer": "True",
+      "explanation": "數線的特性是由左向右遞增。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "2 公分 8 毫米 等於 ______ 毫米。",
+      "answer": "28",
+      "explanation": "2 公分 = 20 毫米，20 + 8 = 28。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "數線上 50 往右跳 3 格（每格為 5）會到多少？",
+      "options": [
+        "65",
+        "58",
+        "70",
+        "53"
+      ],
+      "answer": "65",
+      "explanation": "50 + (3 × 5) = 50 + 15 = 65。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "一隻螞蟻長度約 5 毫米，10 隻螞蟻排成一列共長多少公分？",
+      "options": [
+        "50 公分",
+        "5 公分",
+        "0.5 公分",
+        "50 毫米"
+      ],
+      "answer": "5 公分",
+      "explanation": "5 × 10 = 50 毫米 = 5 公分。"
+    }
+  ]
+}

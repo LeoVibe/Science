@@ -1,0 +1,813 @@
+# 國小課程題庫生成配置檔 - 標準化版本 (113學年度)
+
+grade_3:
+  semester_1:
+    name: "113學年度 上學期 (三上)"
+    source: "https://www.knsh.com.tw/ (綜合驗證)"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            source: "https://www.knsh.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 心的悄悄話"}
+              - {id: "L2", order: 2, title: "第二課 妙故事點點名"}
+              - {id: "L3", order: 3, title: "第三課 繞口令村"}
+              - {id: "L4", order: 4, title: "第四課 小丑魚和海葵"}
+              - {id: "L5", order: 5, title: "第五課 飛舞的絲帶"}
+              - {id: "L6", order: 6, title: "第六課 小女生"}
+              - {id: "L7", order: 7, title: "第七課 淡水小鎮"}
+              - {id: "L8", order: 8, title: "第八課 安平古堡參觀記"}
+              - {id: "L9", order: 9, title: "第九課 馬太鞍的巴拉告"}
+              - {id: "L10", order: 10, title: "第十課 狐狸的故事"}
+              - {id: "L11", order: 11, title: "第十一課 巨人的花園"}
+              - {id: "L12", order: 12, title: "第十二課 奇特的朋友"}
+          han_lin:
+            name: "翰林"
+            source: "https://www.hle.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 時間是什麼"}
+              - {id: "L2", order: 2, title: "第二課 明天再寫"}
+              - {id: "L3", order: 3, title: "第三課 提早五分鐘"}
+              - {id: "L4", order: 4, title: "第四課 猴子的數學"}
+              - {id: "L5", order: 5, title: "第五課 神奇的盒子"}
+              - {id: "L6", order: 6, title: "第六課 小鉛筆大學問"}
+              - {id: "L7", order: 7, title: "第七課 風的味道"}
+              - {id: "L8", order: 8, title: "第八課 寄居蟹找新家"}
+              - {id: "L9", order: 9, title: "第九課 阿塱壹古道"}
+              - {id: "L10", order: 10, title: "第十課 秋千上的婚禮"}
+              - {id: "L11", order: 11, title: "第十一課 一路平安"}
+              - {id: "L12", order: 12, title: "第十二課 大團圓"}
+          nan_yi:
+            name: "南一"
+            source: "https://www.nani.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 你好，新朋友"}
+              - {id: "L2", order: 2, title: "第二課 我們的約定"}
+              - {id: "L3", order: 3, title: "第三課 下課十分鐘"}
+              - {id: "L4", order: 4, title: "第四課 留住今天的太陽"}
+              - {id: "L5", order: 5, title: "第五課 火大了"}
+              - {id: "L6", order: 6, title: "第六課 我該怎麼辦"}
+              - {id: "L7", order: 7, title: "第七課 最年輕的奶奶"}
+              - {id: "L8", order: 8, title: "第八課 魔髮哥哥"}
+              - {id: "L9", order: 9, title: "第九課 穿白袍的醫生伯伯"}
+              - {id: "L10", order: 10, title: "第十課 哎呀！誤會大了"}
+              - {id: "L11", order: 11, title: "第十一課 石虎的告白"}
+              - {id: "L12", order: 12, title: "第十二課 昆蟲的保命妙招"}
+      social:
+        name: "社會"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 我的家庭"}
+              - {id: "S2", order: 2, title: "單元二 家庭與倫理"}
+              - {id: "S3", order: 3, title: "單元三 自治與安全"}
+              - {id: "S4", order: 4, title: "單元四 學習與成長"}
+              - {id: "S5", order: 5, title: "單元五 和諧的相處"}
+              - {id: "S6", order: 6, title: "單元六 學校與我"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 我的三年級夥伴"}
+              - {id: "S2", order: 2, title: "單元二 學習的主人"}
+              - {id: "S3", order: 3, title: "單元三 遵守團體規範"}
+              - {id: "S4", order: 4, title: "單元四 家庭角色大集合"}
+              - {id: "S5", order: 5, title: "單元五 健康的生活"}
+              - {id: "S6", order: 6, title: "單元六 打造更美好的班級"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 我的新生活"}
+              - {id: "S2", order: 2, title: "單元二 家庭與我"}
+              - {id: "S3", order: 3, title: "單元三 學習動起來"}
+              - {id: "S4", order: 4, title: "單元四 多采多姿的學校生活"}
+              - {id: "S5", order: 5, title: "單元五 與同學相處"}
+      math:
+        name: "數學"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 10000以內的數"}
+              - {id: "M2", order: 2, title: "單元二 加減估算"}
+              - {id: "M3", order: 3, title: "單元三 直式加減"}
+              - {id: "M4", order: 4, title: "單元四 乘法"}
+              - {id: "M5", order: 5, title: "單元五 毫米與公尺"}
+              - {id: "M6", order: 6, title: "單元六 除法"}
+              - {id: "M7", order: 7, title: "單元七 分數"}
+              - {id: "M8", order: 8, title: "單元八 圓"}
+              - {id: "M9", order: 9, title: "單元九 時間與時刻"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 10000以內的數"}
+              - {id: "M2", order: 2, title: "單元二 角與形狀"}
+              - {id: "M3", order: 3, title: "單元三 10000以內的加減"}
+              - {id: "M4", order: 4, title: "單元四 乘法"}
+              - {id: "M5", order: 5, title: "單元五 毫米與數線"}
+              - {id: "M6", order: 6, title: "單元六 周長"}
+              - {id: "M7", order: 7, title: "單元七 報讀時刻與時間換算"}
+              - {id: "M8", order: 8, title: "單元八 分數"}
+              - {id: "M9", order: 9, title: "單元九 資料整理與圖表"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 數到10000"}
+              - {id: "M2", order: 2, title: "單元二 四位數的加減"}
+              - {id: "M3", order: 3, title: "單元三 乘法"}
+              - {id: "M4", order: 4, title: "單元四 幾毫米"}
+              - {id: "M5", order: 5, title: "單元五 角、正方形和長方形"}
+              - {id: "M6", order: 6, title: "單元六 除法"}
+              - {id: "M7", order: 7, title: "單元七 找規律"}
+              - {id: "M8", order: 8, title: "單元八 分數"}
+              - {id: "M9", order: 9, title: "單元九 圓"}
+      science:
+        name: "自然"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 植物的身體"}
+              - {id: "Sci2", order: 2, title: "單元二 神奇的磁鐵"}
+              - {id: "Sci3", order: 3, title: "單元三 空氣和風"}
+              - {id: "Sci4", order: 4, title: "單元四 溶解"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 植物大發現"}
+              - {id: "Sci2", order: 2, title: "單元二 風與空氣"}
+              - {id: "Sci3", order: 3, title: "單元三 奇妙的溶解"}
+              - {id: "Sci4", order: 4, title: "單元四 磁鐵好好玩"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 認識植物"}
+              - {id: "Sci2", order: 2, title: "單元二 空氣和水"}
+              - {id: "Sci3", order: 3, title: "單元三 認識動物"}
+              - {id: "Sci4", order: 4, title: "單元四 磁鐵"}
+      english:
+        name: "英文"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 Who Are You?"}
+              - {id: "U2", order: 2, title: "Unit 2 What Is It?"}
+              - {id: "U3", order: 3, title: "Unit 3 Is It a Bird?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Old Are You?"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 Hello!"}
+              - {id: "U2", order: 2, title: "Unit 2 What's Your Name?"}
+              - {id: "U3", order: 3, title: "Unit 3 Who's He?"}
+              - {id: "U4", order: 4, title: "Unit 4 Is He a Teacher?"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 Hello!"}
+              - {id: "U2", order: 2, title: "Unit 2 What's Your Name?"}
+              - {id: "U3", order: 3, title: "Unit 3 How Are You?"}
+              - {id: "U4", order: 4, title: "Unit 4 This Is My Father"}
+  semester_2:
+    name: "113學年度 下學期 (三下)"
+    source: "https://www.knsh.com.tw/, https://www.hle.com.tw/, https://www.nani.com.tw/"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 許願"}
+              - {id: "L2", order: 2, title: "第二課 下雨的時候"}
+              - {id: "L3", order: 3, title: "第三課 遇見美如奶奶"}
+              - {id: "L4", order: 4, title: "第四課 工匠之祖"}
+              - {id: "L5", order: 5, title: "第五課 學田鼠問路"}
+              - {id: "L6", order: 6, title: "第六課 神奇密碼"}
+              - {id: "L7", order: 7, title: "第七課 油桐花‧五月雪"}
+              - {id: "L8", order: 8, title: "第八課 大自然的美術館"}
+              - {id: "L9", order: 9, title: "第九課 臺灣的山椒魚"}
+              - {id: "L10", order: 10, title: "第十課 漁夫和金魚"}
+              - {id: "L11", order: 11, title: "第十一課 聰明的鼠鹿"}
+              - {id: "L12", order: 12, title: "第十二課 還要跌幾次"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 拔不起來的筆"}
+              - {id: "L2", order: 2, title: "第二課 還差一點"}
+              - {id: "L3", order: 3, title: "第三課 用膝蓋跳舞的女孩"}
+              - {id: "L4", order: 4, title: "第四課 靜靜的淡水河"}
+              - {id: "L5", order: 5, title: "第五課 茶香鹿谷"}
+              - {id: "L6", order: 6, title: "第六課 月世界"}
+              - {id: "L7", order: 7, title: "第七課 做泡菜"}
+              - {id: "L8", order: 8, title: "第八課 行人的守護者"}
+              - {id: "L9", order: 9, title: "第九課 就愛倆倆在一起"}
+              - {id: "L10", order: 10, title: "第十課 飛行員和小王子"}
+              - {id: "L11", order: 11, title: "第十一課 畫龍點睛"}
+              - {id: "L12", order: 12, title: "第十二課 掉進一個兔子洞"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 最美的模樣"}
+              - {id: "L2", order: 2, title: "第二課 玩玩具"}
+              - {id: "L3", order: 3, title: "第三課 愛玉的變身術"}
+              - {id: "L4", order: 4, title: "第四課 楊修猜字"}
+              - {id: "L5", order: 5, title: "第五課 唱反調"}
+              - {id: "L6", order: 6, title: "第六課 一飛沖天"}
+              - {id: "L7", order: 7, title: "第七課 井仔腳鹽田"}
+              - {id: "L8", order: 8, title: "第八課 和魚一起游泳"}
+              - {id: "L9", order: 9, title: "第九課 三峽老街樂藍染"}
+              - {id: "L10", order: 10, title: "第十課 地球的眼淚"}
+              - {id: "L11", order: 11, title: "第十一課 枯木是大飯店"}
+              - {id: "L12", order: 12, title: "第十二課 騎樓"}
+      math:
+        name: "數學"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 分數的加減"}
+              - {id: "M2", order: 2, title: "單元二 除法"}
+              - {id: "M3", order: 3, title: "單元三 尋找規律"}
+              - {id: "M4", order: 4, title: "單元四 公斤和公克"}
+              - {id: "M5", order: 5, title: "單元五 小數"}
+              - {id: "M6", order: 6, title: "單元六 圓"}
+              - {id: "M7", order: 7, title: "單元七 乘法與除法"}
+              - {id: "M8", order: 8, title: "單元八 時間"}
+              - {id: "M9", order: 9, title: "單元九 統計表"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 除法"}
+              - {id: "M2", order: 2, title: "單元二 公升和毫升"}
+              - {id: "M3", order: 3, title: "單元三 時間"}
+              - {id: "M4", order: 4, title: "單元四 兩步驟的計算"}
+              - {id: "M5", order: 5, title: "單元五 面積"}
+              - {id: "M6", order: 6, title: "單元六 公斤和公克"}
+              - {id: "M7", order: 7, title: "單元七 分數的加減"}
+              - {id: "M8", order: 8, title: "單元八 乘除的應用"}
+              - {id: "M9", order: 9, title: "單元九 小數"}
+              - {id: "M10", order: 10, title: "單元十 報讀表格"}
+      social:
+        name: "社會"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 認識居住的地方"}
+              - {id: "S2", order: 2, title: "單元二 多元的生活方式"}
+              - {id: "S3", order: 3, title: "單元三 商店與生活"}
+              - {id: "S4", order: 4, title: "單元四 為地方服務的組織"}
+              - {id: "S5", order: 5, title: "單元五 居住地方的故事"}
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 情緒表達與溝通"}
+              - {id: "S2", order: 2, title: "單元二 安全好生活"}
+              - {id: "S3", order: 3, title: "單元三 消費與選擇"}
+              - {id: "S4", order: 4, title: "單元四 家鄉的地名"}
+              - {id: "S5", order: 5, title: "單元五 家鄉的故事"}
+      science:
+        name: "自然"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 快樂小農夫"}
+              - {id: "Sci2", order: 2, title: "單元二 千變萬化的水"}
+              - {id: "Sci3", order: 3, title: "單元三 天氣停看聽"}
+              - {id: "Sci4", order: 4, title: "單元四 動物王國"}
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 蔬菜的成長"}
+              - {id: "Sci2", order: 2, title: "單元二 月亮的故事"}
+              - {id: "Sci3", order: 3, title: "單元三 水的三態變化"}
+              - {id: "Sci4", order: 4, title: "單元四 天氣的變化"}
+      english:
+        name: "英文"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 I Can Jump"}
+              - {id: "U2", order: 2, title: "Unit 2 Are You Hungry?"}
+              - {id: "U3", order: 3, title: "Unit 3 What Color Is It?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Many?"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 I Can Dance"}
+              - {id: "U2", order: 2, title: "Unit 2 Are You Hungry?"}
+              - {id: "U3", order: 3, title: "Unit 3 What Color Is It?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Many?"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 I Can Swim"}
+              - {id: "U2", order: 2, title: "Unit 2 What Color Is It?"}
+              - {id: "U3", order: 3, title: "Unit 3 How Many?"}
+              - {id: "U4", order: 4, title: "Unit 4 What's This?"}
+
+
+grade_4:
+  semester_1:
+    name: "113學年度 上學期 (四上)"
+    source: "https://www.knsh.com.tw/, https://www.hle.com.tw/, https://www.nani.com.tw/"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            source: "https://www.knsh.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 水陸小高手"}
+              - {id: "L2", order: 2, title: "第二課 放學後"}
+              - {id: "L3", order: 3, title: "第三課 我的籃球夢"}
+              - {id: "L4", order: 4, title: "第四課 永遠的馬偕"}
+              - {id: "L5", order: 5, title: "第五課 假如給我三天光明"}
+              - {id: "L6", order: 6, title: "第六課 攀登生命的高峰"}
+              - {id: "L7", order: 7, title: "第七課 美味的一堂課"}
+              - {id: "L8", order: 8, title: "第八課 建築界的長頸鹿"}
+              - {id: "L9", order: 9, title: "第九課 請到我的家鄉來"}
+              - {id: "L10", order: 10, title: "第十課 奇幻旋律"}
+              - {id: "L11", order: 11, title: "第十一課 兔子先生等等我"}
+              - {id: "L12", order: 12, title: "第十二課 老鞋匠和小精靈"}
+          han_lin:
+            name: "翰林"
+            source: "https://www.hle.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 美麗島"}
+              - {id: "L2", order: 2, title: "第二課 請到我的家鄉來"}
+              - {id: "L3", order: 3, title: "第三課 鏡頭下的家鄉"}
+              - {id: "L4", order: 4, title: "第四課 飛行夢"}
+              - {id: "L5", order: 5, title: "第五課 月光下"}
+              - {id: "L6", order: 6, title: "第六課 又遠又近的月亮"}
+              - {id: "L7", order: 7, title: "第七課 松鼠先生的麵包"}
+              - {id: "L8", order: 8, title: "第八課 平凡的大俠"}
+              - {id: "L9", order: 9, title: "第九課 王子折箭"}
+              - {id: "L10", order: 10, title: "第十課 海中的熱帶雨林"}
+              - {id: "L11", order: 11, title: "第十一課 美食島"}
+              - {id: "L12", order: 12, title: "第十二課 寧靜的音樂會"}
+          nan_yi:
+            name: "南一"
+            source: "https://www.nani.com.tw"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 大自然地聲音"}
+              - {id: "L2", order: 2, title: "第二課 阿里山看日出"}
+              - {id: "L3", order: 3, title: "第三課 絕不放手"}
+              - {id: "L4", order: 4, title: "第四課 永遠的譚爸爸"}
+              - {id: "L5", order: 5, title: "第五課 讀書報告"}
+              - {id: "L6", order: 6, title: "第六課 身心手腦四合一"}
+              - {id: "L7", order: 7, title: "第七課 一起來轉吧"}
+              - {id: "L8", order: 8, title: "第八課 完璧歸趙"}
+              - {id: "L9", order: 9, title: "第九課 兩個和尚"}
+              - {id: "L10", order: 10, title: "第十課 建築界的長頸鹿"}
+              - {id: "L11", order: 11, title: "第十一課 美味的一堂課"}
+              - {id: "L12", order: 12, title: "第十二課 澎湖，我來了"}
+      social:
+        name: "社會"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 家鄉的自然環境"}
+              - {id: "S2", order: 2, title: "單元二 家鄉的傳統住屋與器物"}
+              - {id: "S3", order: 3, title: "單元三 家鄉的傳統信仰與老街"}
+              - {id: "S4", order: 4, title: "單元四 家鄉的作息、節慶與節日"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 家鄉的地圖與運用"}
+              - {id: "S2", order: 2, title: "單元二 家鄉的地形與氣候"}
+              - {id: "S3", order: 3, title: "單元三 家鄉的人口與生活"}
+              - {id: "S4", order: 4, title: "單元四 家鄉的多元文化"}
+              - {id: "S5", order: 5, title: "單元五 家鄉的節慶與禮俗"}
+              - {id: "S6", order: 6, title: "單元六 家鄉故事導覽員"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 家鄉的地圖與環境"}
+              - {id: "S2", order: 2, title: "單元二 家鄉的氣候與河川"}
+              - {id: "S3", order: 3, title: "單元三 家鄉的人口與生活"}
+              - {id: "S4", order: 4, title: "單元四 家鄉的產業與特色"}
+              - {id: "S5", order: 5, title: "單元五 家鄉的節慶與禮俗"}
+              - {id: "S6", order: 6, title: "單元六 家鄉故事導覽員"}
+      math:
+        name: "數學"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 一億以內的數"}
+              - {id: "M2", order: 2, title: "單元二 整數的乘法"}
+              - {id: "M3", order: 3, title: "單元三 角度"}
+              - {id: "M4", order: 4, title: "單元四 整數的除法"}
+              - {id: "M5", order: 5, title: "單元五 公里"}
+              - {id: "M6", order: 6, title: "單元六 三角形"}
+              - {id: "M7", order: 7, title: "單元七 小數"}
+              - {id: "M8", order: 8, title: "單元八 整數四則計算"}
+              - {id: "M9", order: 9, title: "單元九 分數"}
+              - {id: "M10", order: 10, title: "單元十 統計圖"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 一億以內的數"}
+              - {id: "M2", order: 2, title: "單元二 乘法"}
+              - {id: "M3", order: 3, title: "單元三 除法"}
+              - {id: "M4", order: 4, title: "單元四 四則運算"}
+              - {id: "M5", order: 5, title: "單元五 分數教學"}
+              - {id: "M6", order: 6, title: "單元六 小數教學"}
+              - {id: "M7", order: 7, title: "單元七 小數加減計算"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 一億以內的數"}
+              - {id: "M2", order: 2, title: "單元二 乘法"}
+              - {id: "M3", order: 3, title: "單元三 除法"}
+              - {id: "M4", order: 4, title: "單元四 角度"}
+              - {id: "M5", order: 5, title: "單元五 三角形"}
+              - {id: "M6", order: 6, title: "單元六 公里"}
+              - {id: "M7", order: 7, title: "單元七 小數"}
+              - {id: "M8", order: 8, title: "單元八 整數四則與兩步驟"}
+              - {id: "M9", order: 9, title: "單元九 分數"}
+              - {id: "M10", order: 10, title: "單元十 統計圖"}
+      science:
+        name: "自然"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 地表的靜與動"}
+              - {id: "Sci2", order: 2, title: "單元二 水生生物與環境"}
+              - {id: "Sci3", order: 3, title: "單元三 有趣的聲光現象"}
+              - {id: "Sci4", order: 4, title: "單元四 好玩的電路"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 閃亮的天空"}
+              - {id: "Sci2", order: 2, title: "單元二 水域環境"}
+              - {id: "Sci3", order: 3, title: "單元三 物質變變變"}
+              - {id: "Sci4", order: 4, title: "單元四 聲光世界真有趣"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 地球的夥伴-日月星辰"}
+              - {id: "Sci2", order: 2, title: "單元二 水中世界"}
+              - {id: "Sci3", order: 3, title: "單元三 光的特性與應用"}
+              - {id: "Sci4", order: 4, title: "單元四 電路的連接"}
+      english:
+        name: "英文"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Time Is It?"}
+              - {id: "U2", order: 2, title: "Unit 2 What Are You Doing?"}
+              - {id: "U3", order: 3, title: "Unit 3 Where Is My Bag?"}
+              - {id: "U4", order: 4, title: "Unit 4 Are You OK?"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Time Is It?"}
+              - {id: "U2", order: 2, title: "Unit 2 What Are You Doing?"}
+              - {id: "U3", order: 3, title: "Unit 3 Where's My Key?"}
+              - {id: "U4", order: 4, title: "Unit 4 Whose Ruler Is This?"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Time Is It?"}
+              - {id: "U2", order: 2, title: "Unit 2 What Are You Doing?"}
+              - {id: "U3", order: 3, title: "Unit 3 Where Is My Umbrella?"}
+              - {id: "U4", order: 4, title: "Unit 4 Whose Socks Are These?"}
+  semester_2:
+    name: "113學年度 下學期 (四下)"
+    source: "https://www.knsh.com.tw/, https://www.hle.com.tw/, https://www.nani.com.tw/"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 稻間鴨"}
+              - {id: "L2", order: 2, title: "第二課 綠色魔法學校"}
+              - {id: "L3", order: 3, title: "第三課 石虎兄妹"}
+              - {id: "L4", order: 4, title: "第四課 阿里棒棒"}
+              - {id: "L5", order: 5, title: "第五課 快樂兒童日"}
+              - {id: "L6", order: 6, title: "第六課 阿公的秘密"}
+              - {id: "L7", order: 7, title: "第七課 棒球英雄夢"}
+              - {id: "L8", order: 8, title: "第八課 夢幻全壘打"}
+              - {id: "L9", order: 9, title: "第九課 單車遊日月潭"}
+              - {id: "L10", order: 10, title: "第十課 孫悟空三借芭蕉扇"}
+              - {id: "L11", order: 11, title: "第十一課 最後一片葉子"}
+              - {id: "L12", order: 12, title: "第十二課 閱讀課"}
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 一束鮮花"}
+              - {id: "L2", order: 2, title: "第二課 心動不如行動"}
+              - {id: "L3", order: 3, title: "第三課 選拔動物之星"}
+              - {id: "L4", order: 4, title: "第四課 米食飄香"}
+              - {id: "L5", order: 5, title: "第五課 讀書報告-藍色小洋裝"}
+              - {id: "L6", order: 6, title: "第六課 我愛鹿港"}
+              - {id: "L7", order: 7, title: "第七課 未來的模樣"}
+              - {id: "L8", order: 8, title: "第八課 動物老師的智慧"}
+              - {id: "L9", order: 9, title: "第九課 向太空出發"}
+              - {id: "L10", order: 10, title: "第十課 小青蛙想看海"}
+              - {id: "L11", order: 11, title: "第十一課 窗前的月光"}
+              - {id: "L12", order: 12, title: "第十二課 如來佛的手掌心"}
+      math:
+        name: "數學"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 多位數的乘與除"}
+              - {id: "M2", order: 2, title: "單元二 四邊形"}
+              - {id: "M3", order: 3, title: "單元三 概數"}
+              - {id: "M4", order: 4, title: "單元四 數量規律"}
+              - {id: "M5", order: 5, title: "單元五 小數乘法"}
+              - {id: "M6", order: 6, title: "單元六 周長與面積"}
+              - {id: "M7", order: 7, title: "單元七 等值分數"}
+              - {id: "M8", order: 8, title: "單元八 簡化計算"}
+              - {id: "M9", order: 9, title: "單元九 時間的計算"}
+              - {id: "M10", order: 10, title: "單元十 立方公分"}
+      science:
+        name: "自然"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 時間的規律性"}
+              - {id: "Sci2", order: 2, title: "單元二 毛細現象"}
+              - {id: "Sci3", order: 3, title: "單元三 認識昆蟲"}
+              - {id: "Sci4", order: 4, title: "單元四 燈泡亮了"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 生活中的力"}
+              - {id: "Sci2", order: 2, title: "單元二 水的奇妙現象"}
+              - {id: "Sci3", order: 3, title: "單元三 變動的大地"}
+              - {id: "Sci4", order: 4, title: "單元四 能源與電路"}
+      english:
+        name: "英文"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Do You Want?"}
+              - {id: "U2", order: 2, title: "Unit 2 I Like Apples"}
+              - {id: "U3", order: 3, title: "Unit 3 Can You Swim?"}
+              - {id: "U4", order: 4, title: "Unit 4 What's the Weather Like?"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Do You Want To Eat?"}
+              - {id: "U2", order: 2, title: "Unit 2 Do You Like Apples?"}
+              - {id: "U3", order: 3, title: "Unit 3 Can You Swim?"}
+              - {id: "U4", order: 4, title: "Unit 4 How's the Weather?"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 What Do You Want?"}
+              - {id: "U2", order: 2, title: "Unit 2 Do You Like Grapes?"}
+              - {id: "U3", order: 3, title: "Unit 3 Can You Ride a Bike?"}
+              - {id: "U4", order: 4, title: "Unit 4 How's the Weather?"}
+      social:
+        name: "社會"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 家鄉的水資源"}
+              - {id: "S2", order: 2, title: "單元二 家鄉的山與海"}
+              - {id: "S3", order: 3, title: "單元三 家鄉的農牧生活"}
+              - {id: "S4", order: 4, title: "單元四 家鄉的老故事"}
+              - {id: "S5", order: 5, title: "單元五 家鄉的新風貌"}
+
+
+grade_5:
+  semester_1:
+    name: "113學年度 上學期 (五上)"
+    source: "https://www.knsh.com.tw/, https://www.hle.com.tw/, https://www.nani.com.tw/"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 蚊帳大使"}
+              - {id: "L2", order: 2, title: "第二課 從空中看臺灣"}
+              - {id: "L3", order: 3, title: "第三課 憧憬"}
+              - {id: "L4", order: 4, title: "第四課 恆久的美"}
+              - {id: "L5", order: 5, title: "第五課 商標的故事"}
+              - {id: "L6", order: 6, title: "第六課 故事「動」起來"}
+              - {id: "L7", order: 7, title: "第七課 為生命找出路"}
+              - {id: "L8", order: 8, title: "第八課 最勇敢的女孩"}
+              - {id: "L9", order: 9, title: "第九課 在挫折中成長"}
+              - {id: "L10", order: 10, title: "第十課 山中寄情"}
+              - {id: "L11", order: 11, title: "第十一課 與達駭黑熊走入山林"}
+              - {id: "L12", order: 12, title: "第十二課 荒島上的國王"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 你我之間"}
+              - {id: "L2", order: 2, title: "第二課 風起，大家都在"}
+              - {id: "L3", order: 3, title: "第三課 廉頗與藺相如"}
+              - {id: "L4", order: 4, title: "第四課 來場快樂的桌遊"}
+              - {id: "L5", order: 5, title: "第五課 超級英雄"}
+              - {id: "L6", order: 6, title: "第六課 世足賽的贏家"}
+              - {id: "L7", order: 7, title: "第七課 美景閒情──詩兩首"}
+              - {id: "L8", order: 8, title: "第八課 與山為鄰"}
+              - {id: "L9", order: 9, title: "第九課 窗邊的鳴聲"}
+              - {id: "L10", order: 10, title: "第十課 敏銳觀察"}
+              - {id: "L11", order: 11, title: "第十一課 你一定會聽見的"}
+              - {id: "L12", order: 12, title: "第十二課 藍色連身裙"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 穿越時空的味道"}
+              - {id: "L2", order: 2, title: "第二課 在黑暗中乘著音樂飛翔"}
+              - {id: "L3", order: 3, title: "第三課 色香味的陽光"}
+              - {id: "L4", order: 4, title: "第四課 縣官審石頭"}
+              - {id: "L5", order: 5, title: "第五課 高明說話術"}
+              - {id: "L6", order: 6, title: "第六課 讀書報告—佐賀的超級阿嬤"}
+              - {id: "L7", order: 7, title: "第七課 魔術師爸爸"}
+              - {id: "L8", order: 8, title: "第八課 八歲，一個人去旅行"}
+              - {id: "L9", order: 9, title: "第九課 紅鼻子醫生"}
+              - {id: "L10", order: 10, title: "第十課 沉默的動物園"}
+              - {id: "L11", order: 11, title: "第十一課 地下護衛軍"}
+              - {id: "L12", order: 12, title: "第十二課 金字塔之謎"}
+      math:
+        name: "數學"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 多位小數與加減"}
+              - {id: "M2", order: 2, title: "單元二 因數與公因數"}
+              - {id: "M3", order: 3, title: "單元三 倍數與公倍數"}
+              - {id: "M4", order: 4, title: "單元四 擴分、約分和通分"}
+              - {id: "M5", order: 5, title: "單元五 多邊形"}
+              - {id: "M6", order: 6, title: "單元六 異分母分數的加減"}
+              - {id: "M7", order: 7, title: "單元七 三角形、四邊形和梯形的面積"}
+              - {id: "M8", order: 8, title: "單元八 線對稱圖形"}
+              - {id: "M9", order: 9, title: "單元九 整數除以整數與分數"}
+              - {id: "M10", order: 10, title: "單元十 統計圖"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 折線圖"}
+              - {id: "M2", order: 2, title: "單元二 倍數與因數"}
+              - {id: "M3", order: 3, title: "單元三 平面圖形"}
+              - {id: "M4", order: 4, title: "單元四 公倍數與公因數"}
+              - {id: "M5", order: 5, title: "單元五 立體形體"}
+              - {id: "M6", order: 6, title: "單元六 四則運算"}
+              - {id: "M7", order: 7, title: "單元七 擴、約分與加減"}
+              - {id: "M8", order: 8, title: "單元八 面積"}
+              - {id: "M9", order: 9, title: "單元九 乘以幾分之一"}
+              - {id: "M10", order: 10, title: "單元十 扇形"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "M1", order: 1, title: "單元一 數的十進位結構"}
+              - {id: "M2", order: 2, title: "單元二 因數和倍數"}
+              - {id: "M3", order: 3, title: "單元三 多邊形"}
+              - {id: "M4", order: 4, title: "單元四 擴分、約分和通分"}
+              - {id: "M5", order: 5, title: "單元五 線對稱圖形"}
+              - {id: "M6", order: 6, title: "單元六 異分母分數的加減"}
+              - {id: "M7", order: 7, title: "單元七 整數四則計算"}
+              - {id: "M8", order: 8, title: "單元八 面積"}
+              - {id: "M9", order: 9, title: "單元九 時間的乘除"}
+              - {id: "M10", order: 10, title: "單元十 正方體和長方體"}
+      english:
+        name: "英文"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 Where Are You Going?"}
+              - {id: "U2", order: 2, title: "Unit 2 How Do You Go to School?"}
+              - {id: "U3", order: 3, title: "Unit 3 What's Your Favorite Subject?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Much Is It?"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 How Do You Go to School?"}
+              - {id: "U2", order: 2, title: "Unit 2 Where Are You Going?"}
+              - {id: "U3", order: 3, title: "Unit 3 What Do You Want to Eat?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Much Is It?"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "U1", order: 1, title: "Unit 1 How Do You Go to School?"}
+              - {id: "U2", order: 2, title: "Unit 2 Where Are You Going?"}
+              - {id: "U3", order: 3, title: "Unit 3 What's Your Favorite Subject?"}
+              - {id: "U4", order: 4, title: "Unit 4 How Much Is It?"}
+      social:
+        name: "社會"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 我們的臺灣"}
+              - {id: "S2", order: 2, title: "單元二 臺灣的環境與災害"}
+              - {id: "S3", order: 3, title: "單元三 臺灣的歷史與文化"}
+              - {id: "S4", order: 4, title: "單元四 臺灣與大航海時代"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 嗨！台灣你好"}
+              - {id: "S2", order: 2, title: "單元二 台灣的自然環境"}
+              - {id: "S3", order: 3, title: "單元三 台灣遠古的故事"}
+              - {id: "S4", order: 4, title: "單元四 大航海時代的台灣"}
+              - {id: "S5", order: 5, title: "單元五 唐山過台灣"}
+              - {id: "S6", order: 6, title: "單元六 台灣傳統社會與文化的形成"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "S1", order: 1, title: "單元一 臺灣！我來了"}
+              - {id: "S2", order: 2, title: "單元二 島嶼上的子民"}
+              - {id: "S3", order: 3, title: "單元三 豐饒之地"}
+              - {id: "S4", order: 4, title: "單元四 大航海時期來臺的人們"}
+      science:
+        name: "自然"
+        publishers:
+          kang_hsuan:
+            name: "康軒"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 動物世界"}
+              - {id: "Sci2", order: 2, title: "單元二 探索聲光世界"}
+              - {id: "Sci3", order: 3, title: "單元三 空氣的組成與反應"}
+              - {id: "Sci4", order: 4, title: "單元四 神秘的天空"}
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 太陽的秘密"}
+              - {id: "Sci2", order: 2, title: "單元二 千變萬化的植物"}
+              - {id: "Sci3", order: 3, title: "單元三 神奇的水溶液"}
+              - {id: "Sci4", order: 4, title: "單元四 力與運動"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 太陽與光"}
+              - {id: "Sci2", order: 2, title: "單元二 植物世界"}
+              - {id: "Sci3", order: 3, title: "單元三 水溶液"}
+              - {id: "Sci4", order: 4, title: "單元四 力與運動"}
+  semester_2:
+    name: "113學年度 下學期 (五下)"
+    source: "https://www.knsh.com.tw/, https://www.hle.com.tw/, https://www.nani.com.tw/"
+    subjects:
+      mandarin:
+        name: "國語"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 鵝鑾鼻詩"}
+              - {id: "L2", order: 2, title: "第二課 山與海的交響樂──東海岸鐵道"}
+              - {id: "L3", order: 3, title: "第三課 我眼中的東方之最"}
+              - {id: "L4", order: 4, title: "第四課 滿修女採訪記"}
+              - {id: "L5", order: 5, title: "第五課 誰該被派去非洲"}
+              - {id: "L6", order: 6, title: "第六課 幸福的味道"}
+              - {id: "L7", order: 7, title: "第七課 生活有感—詩兩首"}
+              - {id: "L8", order: 8, title: "第八課 懶人包大解密"}
+              - {id: "L9", order: 9, title: "第九課 良言一句三冬暖"}
+              - {id: "L10", order: 10, title: "第十課 擅長推理的人"}
+              - {id: "L11", order: 11, title: "第十一課 草船借箭"}
+              - {id: "L12", order: 12, title: "第十二課 三個問題"}
+          nan_yi:
+            name: "南一"
+            lessons:
+              - {id: "L1", order: 1, title: "第一課 為一本書留一種味道"}
+              - {id: "L2", order: 2, title: "第二課 讀書報告--佐賀的超級阿嬤"}
+              - {id: "L3", order: 3, title: "第三課 怎樣成為小作家"}
+              - {id: "L4", order: 4, title: "第四課 小兔彼得和波特小姐"}
+              - {id: "L5", order: 5, title: "第五課 八歲，一個人去旅行"}
+              - {id: "L6", order: 6, title: "第六課 凝聚愛的每一哩路"}
+              - {id: "L7", order: 7, title: "第七課 一針一線縫進母愛"}
+              - {id: "L8", order: 8, title: "第八課 天涯若比鄰"}
+              - {id: "L9", order: 9, title: "第九課 尼泊爾少年"}
+              - {id: "L10", order: 10, title: "第十課 橘色打掃龍"}
+              - {id: "L11", order: 11, title: "第十一課 根本沒想到"}
+              - {id: "L12", order: 12, title: "第十二課 沉默的動物園"}
+              - {id: "L13", order: 13, title: "第十三課 被埋葬了的城市"}
+              - {id: "L14", order: 14, title: "第十四課 地下護衛軍"}
+      science:
+        name: "自然"
+        publishers:
+          han_lin:
+            name: "翰林"
+            lessons:
+              - {id: "Sci1", order: 1, title: "單元一 力與運動"}
+              - {id: "Sci2", order: 2, title: "單元二 大地的奧祕"}
+              - {id: "Sci3", order: 3, title: "單元三 植物世界面面觀"}
+              - {id: "Sci4", order: 4, title: "單元四 熱的作用與傳播"}
+

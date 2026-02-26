@@ -19,7 +19,8 @@
       "answer_index": 3,
       "explanation": "3 天 = 3 × 24 = 72 小時。72 + 5 = 77 小時。",
       "commonMisconception": "學生可能忘記一天是 24 小時而非 12 小時。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "10 時 45 分 + 1 時 35 分 = 11 時 80 分。80 分 = 1 小時 20 分。所以 12 時 20 分。",
       "commonMisconception": "分鐘超過 60 卻忘記進位到小時是最常見的錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "6 時 00 分 - 4 時 15 分。需借位：5 時 60 分 - 4 時 15 分 = 1 時 45 分。",
       "commonMisconception": "時間減法的借位是 60（不是 100），這是最大的困難點。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 2,
       "explanation": "30 天後是幾月幾日取決於月份，但如果只看這一個月：1 日(三)到 30 日，30-1=29 天。29 ÷ 7 = 4...1。星期三往後推 1 天 = 星期四。",
       "commonMisconception": "日曆上的星期推算需要做除以 7 的餘數計算。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "9:50 + 40 分 = 10:30。10:30 + 15 分 = 10:45。",
       "commonMisconception": "兩步驟的時間加法，每一步都可能發生進位錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

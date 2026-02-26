@@ -39,8 +39,9 @@ function processFile(filePath) {
 
         data.questions.forEach(q => {
             // 1. 打散選項順序 (Fisher-Yates shuffle)
-            if (q.options && q.options.length === 4 && q.answer_index !== undefined) {
-                const correctOption = q.options[q.answer_index];
+            const ansKey = q.answer_index !== undefined ? 'answer_index' : (q.answer !== undefined ? 'answer' : null);
+            if (q.options && q.options.length === 4 && ansKey !== null) {
+                const correctOption = q.options[q[ansKey]];
                 const newOptions = [...q.options];
 
                 for (let i = newOptions.length - 1; i > 0; i--) {
@@ -52,7 +53,7 @@ function processFile(filePath) {
 
                 if (q.options.join('|') !== newOptions.join('|')) {
                     q.options = newOptions;
-                    q.answer_index = newAnswerIndex;
+                    q[ansKey] = newAnswerIndex;
                     modified = true;
                 }
 
@@ -81,6 +82,17 @@ function processFile(filePath) {
                         }
                     }
                 }
+
+                // 3. 自動以全形空白補齊至最長選項長度，消除長度偏差
+                const newLengths = q.options.map(o => String(o).length);
+                const finalMaxLength = Math.max(...newLengths);
+                for (let i = 0; i < 4; i++) {
+                    const currentLen = String(q.options[i]).length;
+                    if (currentLen < finalMaxLength) {
+                        q.options[i] = String(q.options[i]) + '　'.repeat(finalMaxLength - currentLen);
+                        modified = true;
+                    }
+                }
             }
         });
 
@@ -88,8 +100,9 @@ function processFile(filePath) {
         if (modified) {
             let answerCounts = [0, 0, 0, 0];
             data.questions.forEach(q => {
-                if (q.answer_index >= 0 && q.answer_index <= 3) {
-                    answerCounts[q.answer_index]++;
+                const aIdx = q.answer_index !== undefined ? q.answer_index : q.answer;
+                if (aIdx >= 0 && aIdx <= 3) {
+                    answerCounts[aIdx]++;
                 }
             });
 
@@ -118,7 +131,10 @@ function processFile(filePath) {
 
                 let currentCounts = [0, 0, 0, 0];
                 data.questions.forEach((q, index) => {
-                    const correctOptionStr = q.options[q.answer_index];
+                    const ansK = q.answer_index !== undefined ? 'answer_index' : 'answer';
+                    if (q[ansK] === undefined) return;
+
+                    const correctOptionStr = q.options[q[ansK]];
 
                     // 尋找一個還沒滿的槽位
                     let assignedSlot = 0;
@@ -132,18 +148,30 @@ function processFile(filePath) {
                     }
 
                     // 如果當前槽位跟原本不同，交換選項
-                    if (assignedSlot !== q.answer_index) {
-                        let prevAnswerIndex = q.answer_index;
+                    if (assignedSlot !== q[ansK]) {
+                        let prevAnswerIndex = q[ansK];
                         let temp = q.options[assignedSlot];
                         q.options[assignedSlot] = q.options[prevAnswerIndex];
                         q.options[prevAnswerIndex] = temp;
-                        q.answer_index = assignedSlot;
+                        q[ansK] = assignedSlot;
                     }
                 });
             }
         }
 
         if (modified) {
+            // 同步替換 explanation 當中寫死的正解字母 (例如：正確答案為(A))
+            data.questions.forEach(q => {
+                const ansK = q.answer_index !== undefined ? 'answer_index' : (q.answer !== undefined ? 'answer' : null);
+                if (ansK !== null && q.explanation && typeof q.explanation === 'string') {
+                    const finalAnsIndex = q[ansK];
+                    if (finalAnsIndex >= 0 && finalAnsIndex < 4) {
+                        const correctLetter = ['A', 'B', 'C', 'D'][finalAnsIndex];
+                        q.explanation = q.explanation.replace(/正確答案為\([A-D]\)/g, `正確答案為(${correctLetter})`);
+                    }
+                }
+            });
+
             fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
             console.log(`Updated: ${filePath}`);
         }
@@ -166,17 +194,19 @@ function scanDir(dir) {
     }
 }
 
-const targetDirs = [
-    'question/platform/G3/Chinese/S2/KangHsuan',
-    'question/platform/G3/Chinese/S2/NanYi'
-];
-
-targetDirs.forEach(dir => {
-    const absDir = path.join(__dirname, '..', dir);
-    if (fs.existsSync(absDir)) {
-        console.log(`Scanning: ${absDir}`);
-        scanDir(absDir);
-    }
-});
+const targetDirs = process.argv.slice(2);
+if (targetDirs.length === 0) {
+    console.log("請指定目錄，例如: node auto_balance_json.js question/platform/G3/SocialStudies/S2/KangHsuan");
+} else {
+    targetDirs.forEach(dir => {
+        const absDir = path.resolve(dir);
+        if (fs.existsSync(absDir)) {
+            console.log(`Scanning: ${absDir}`);
+            scanDir(absDir);
+        } else {
+            console.log(`Not found: ${absDir}`);
+        }
+    });
+}
 
 console.log('Balance processing complete.');

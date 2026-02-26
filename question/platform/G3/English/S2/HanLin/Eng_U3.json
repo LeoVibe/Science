@@ -1,265 +1,192 @@
 {
-  "publisher": "HanLin",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U3",
-  "lesson_title": "Present Continuous",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson_id": "U3",
+    "lesson_name": "Are you happy?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "In the Kitchen",
-      "question": "Mom is in the kitchen. She is ______ dinner for the family.",
+      "id": "HL-G3S2-U3-001",
+      "type": "multiple_choice",
+      "scenario": "After a long run in the park, John is breathing heavily.",
+      "question": "Friend: Are you tired?\nJohn: ___________________",
       "options": [
-        "cooking",
-        "dancing",
-        "sleeping",
-        "drinking"
+        "Yes, I am. I need to rest.  ",
+        "Yes, you are. I need to rest.",
+        "No, I am not. I am very tired",
+        "Yes, I do. I need to rest.  "
       ],
       "answer_index": 0,
-      "explanation": "在廚房 (kitchen) 處理晚餐 (dinner) 的動作應是烹飪 (cooking)。",
-      "commonMisconception": "學生可能分不清 V-ing 的動作含義。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Party Time",
-      "question": "The music is great! We are ______ together in the living room.",
-      "options": [
-        "sleeping",
-        "dancing",
-        "eating",
-        "cooking"
-      ],
-      "answer_index": 1,
-      "explanation": "有很棒的音樂且在客廳活動，最符合的情境是跳舞 (dancing)。",
-      "commonMisconception": "學生可能未注意情境提示 (music) 而亂選一個動作。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Night Time",
-      "question": "It's eleven o'clock at night. Dad is ______ in his bedroom.",
-      "options": [
-        "cooking",
-        "eating",
-        "sleeping",
-        "running"
-      ],
-      "answer_index": 2,
-      "explanation": "深夜十一點在臥室，最合理的動作是睡覺 (sleeping)。",
-      "commonMisconception": "分不清場所 (bedroom) 與動作的關聯。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Phone Call",
-      "question": "A: What ______ you doing? \nB: I'm eating an apple.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 2,
-      "explanation": "主詞是 you，對應的 B 動詞是 are。",
-      "commonMisconception": "基礎 B 動詞搭配錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Looking for Toby",
-      "question": "A: What is Toby doing? \nB: He ______ sleeping.",
-      "options": [
-        "is",
-        "are",
-        "am",
-        "be"
-      ],
-      "answer_index": 0,
-      "explanation": "He 是第三人稱單數，B 動詞配 is。",
-      "commonMisconception": "進行式結構中缺少 B 動詞或搭配錯誤。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "問句 Are you...?，自己的回答必須切換為 I am。由於 John 剛跑完步且需要休息，回答 Yes 是符合邏輯的。選項 B 人稱沒有轉換；選項 C 前後矛盾 (No 卻說我很累)；選項 D 錯用助動詞 do。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Classroom Mystery",
-      "question": "A: Is Amy dancing? \nB: No, she ______. She is singing.",
-      "options": [
-        "is",
-        "isn't",
-        "am not",
-        "aren't"
-      ],
-      "answer_index": 1,
-      "explanation": "前面是 No 開頭且主詞是 she，否定簡答應為 'she isn't'。",
-      "commonMisconception": "否定簡答縮寫錯誤或 B 動詞選錯。",
-      "quality_level": "L4"
+      "commonMisconception": "回答時沒有把 You 轉換成 I；或是簡答的 Yes/No 判斷與後面的補充說明邏輯互相矛盾。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Watching TV",
-      "question": "Leo and Sam are ______ TV in the living room.",
+      "id": "HL-G3S2-U3-002",
+      "type": "multiple_choice",
+      "scenario": "A little girl dropped her favorite ice cream on the floor.",
+      "question": "Mom: Oh dear! ___________________\nGirl: Yes, I am. My ice cream is gone.",
       "options": [
-        "watch",
-        "watches",
-        "watching",
-        "to watch"
+        "Do you sad?   ",
+        "Are you happy?",
+        "Is you sad?   ",
+        "Are you sad?  "
+      ],
+      "answer_index": 3,
+      "explanation": "根據情境 (冰淇淋掉在地上) 以及她回答 Yes, I am.，可以推測媽媽問的是『難過嗎？』(Are you sad?)。選項 B 不符合情境；選項 C Be 動詞搭配錯誤；選項 D 把形容詞當一般動詞配了 Do。",
+      "taxonomy": "applied",
+      "commonMisconception": "將情緒形容詞 (sad/happy) 當成了動詞，而使用助動詞 Do 來提問 (Do you sad?)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U3-003",
+      "type": "multiple_choice",
+      "scenario": "Two students are waiting for their test results.",
+      "question": "Student A: I got an A! I am so happy.\nStudent B: I got an F. ___________________",
+      "options": [
+        "I am not sad.   ",
+        "I don't happy.  ",
+        "I am not happy. ",
+        "I doesn't happy."
       ],
       "answer_index": 2,
-      "explanation": "在 B 動詞 (are) 之後描述正在進行的動作，應使用 V-ing 形式。",
-      "commonMisconception": "忘記加 -ing，或者分不清時態結構。",
-      "quality_level": "L4"
+      "explanation": "Student B 考了 F (不及格)，情境上應該是不開心的。正確的 Be 動詞+否定形容詞為 I am not happy.。選項 B 和 D 誤用了助動詞 (don't/doesn't) 來否定形容詞；選項 C 語意矛盾。",
+      "taxonomy": "inferential",
+      "commonMisconception": "以為所有的否定句都是在詞彙前面加 don't (把 I am not happy 寫成 I don't happy)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Dinner Table",
-      "question": "A: Are you eating? \nB: Yes, ______.",
+      "id": "HL-G3S2-U3-004",
+      "type": "multiple_choice",
+      "scenario": "A boy sees his brother stomping his feet and yelling.",
+      "question": "Boy: Look at Tim. Is he angry?\nDad: ___________________",
       "options": [
-        "I am",
-        "it is",
-        "you are",
-        "she is"
+        "No, he isn't. He is angry. ",
+        "Yes, he does. He is very mad",
+        "Yes, he is. He is very mad.",
+        "Yes, I am. I am very angry."
+      ],
+      "answer_index": 2,
+      "explanation": "問句 Is he...? 詢問第三人稱，簡答為 Yes, he is.，且符合 Tim 生氣的情境。選項 B 誤用 does；選項 C 語意前後矛盾；選項 D 錯把人稱換成了 I。",
+      "taxonomy": "inferential",
+      "commonMisconception": "被答題習慣制約，一看到 Yes/No 疑問句就想回答 Yes, I am，忘記主語是第三人稱 he。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U3-005",
+      "type": "multiple_choice",
+      "scenario": "A teacher is handing out prizes to the winning team.",
+      "question": "Teacher: You won the game! Are you happy?\nTeam: ___________________",
+      "options": [
+        "No, we aren't. We are happy!",
+        "Yes, they are. They are happy",
+        "Yes, we do. We are happy!   ",
+        "Yes, we are. We are happy!  "
+      ],
+      "answer_index": 3,
+      "explanation": "老師對著整個團隊問 Are you (複數：你們)...?，團隊必須以第一人稱複數 we (我們) 來回答。選項 A 最為正確。選項 B 錯用 they；選項 C 誤搭 do；選項 D 自相矛盾。",
+      "taxonomy": "applied",
+      "commonMisconception": "忽略了 you 在英文裡可以是單數的『你』或複數的『你們』，導致回答時無法適當切換為 we。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U3-006",
+      "type": "multiple_choice",
+      "scenario": "Before going to bed, a mother checks on her son.",
+      "question": "Mom: It's ten o'clock. ___________________\nSon: Yes, I am. Good night, Mom.",
+      "options": [
+        "Are you tired?",
+        "Are you angry?",
+        "Do you tired? ",
+        "Is you tired? "
       ],
       "answer_index": 0,
-      "explanation": "對 'Are you...?' 的肯定簡答為 'Yes, I am'。",
-      "commonMisconception": "代名詞轉稱錯誤，或者回答中忘了 B 動詞。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "Look! The cat is ______ on the desk.",
-      "options": [
-        "runing",
-        "running",
-        "run",
-        "runs"
-      ],
-      "answer_index": 1,
-      "explanation": "run 的現在分詞 (V-ing) 需重複字尾 n 再加 ing，即 running。",
-      "commonMisconception": "V-ing 變化規則不熟，漏寫一個 n。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "從道晚安 (Good night) 可以推測媽媽在問他是不是累了 (tired)。選項 B 情境不合；選項 C 把 tired 當動詞配了 Do；選項 D 是 Be 動詞與主詞配對錯誤。",
       "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "After School",
-      "question": "Sam is drinking water. Amy is eating bread. Toby is sleeping. \nQuestion: What is Sam doing?",
-      "options": [
-        "He is eating.",
-        "He is drinking.",
-        "He is sleeping.",
-        "He is dancing."
-      ],
-      "answer_index": 1,
-      "explanation": "文本指明 'Sam is drinking water'，故答案是他在喝水。",
-      "commonMisconception": "人名與動作對應發生錯誤。",
-      "quality_level": "L4"
+      "commonMisconception": "將 tired 當做動詞使用而選擇了 Do you tired 的錯誤語法。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Busy Family",
-      "question": "Mom is cooking in the kitchen. Dad is cooking with her. \nQuestion: What are they doing?",
+      "id": "HL-G3S2-U3-007",
+      "type": "multiple_choice",
+      "scenario": "Two girls are talking about a sad movie they just watched.",
+      "question": "Girl A: The movie is so sad.\nGirl B: ___________________\nGirl A: Yes, let's watch a funny one.",
       "options": [
-        "They is cooking.",
-        "They are cooking.",
-        "They am cooking.",
-        "They dancing."
-      ],
-      "answer_index": 1,
-      "explanation": "主詞是 They，對應複數 B 動詞 are + V-ing。",
-      "commonMisconception": "主謂不一致 (They is)，或者漏掉 B 動詞。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "At the Park",
-      "question": "Boy: 'Look at the bird! Is it singing?' \nGirl: 'No, it's not. It's drinking water.' \nQuestion: Is the bird singing?",
-      "options": [
-        "Yes, it is.",
-        "No, it isn't.",
-        "Yes, he is.",
-        "No, she isn't."
-      ],
-      "answer_index": 1,
-      "explanation": "女孩否定了男孩的提問，指出鳥實際上在喝水。簡答用 'No, it isn't'。",
-      "commonMisconception": "受男孩提問影響而選 Yes，或者分不清 it/he/she。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Action Choice",
-      "question": "I am ______ with my markers.",
-      "options": [
-        "drawing",
-        "eating",
-        "sleeping",
-        "cooking"
-      ],
-      "answer_index": 0,
-      "explanation": "使用彩色筆 (markers) 的動作是畫畫 (drawing)。",
-      "commonMisconception": "不認識 markers，無法將受詞與動詞連結。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Silent Classroom",
-      "question": "Teacher: 'Shh! Students. Be quiet.' \nQuestion: What are the students likely doing?",
-      "options": [
-        "They are dancing.",
-        "They are singing.",
-        "They are sleeping.",
-        "They are cooking."
+        "Do you sad, too? ",
+        "Are you happy, too?",
+        "Are you sad, too?",
+        "Is you sad, too? "
       ],
       "answer_index": 2,
-      "explanation": "根據老師要求安靜 (Be quiet) 的情境，最合理的是有人正在睡覺或需要安靜閱讀，選項中以 sleeping 最符合。",
-      "commonMisconception": "無法將「安靜」與四個動作選項做邏輯連結。",
-      "quality_level": "L4"
+      "explanation": "因為電影很令人難過，朋友自然會關心對方『妳也難過嗎？』(Are you sad, too?)。選項 B 語境不合；選項 C, D 為嚴重文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法結合前一句話的情緒背景，選出能讓對話合理延續的問句。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Guess the Action",
-      "question": "A: He is in the bedroom. Zzz... Zzz... \nQuestion: What is he doing?",
+      "id": "HL-G3S2-U3-008",
+      "type": "multiple_choice",
+      "scenario": "A brother takes his sister's favorite toy without asking.",
+      "question": "Sister: Give it back to me!\nMom: Oh no. ___________________\nBrother: I'm sorry, Mom.",
       "options": [
-        "He is eating.",
-        "He is dancing.",
-        "He is sleeping.",
-        "He is cooking."
+        "She does very angry",
+        "She is very angry.",
+        "She is very happy. ",
+        "She are very angry "
       ],
-      "answer_index": 2,
-      "explanation": "Zzz 是英文中表示睡覺打呼的音效，故答案是 sleeping。",
-      "commonMisconception": "不認識 Zzz 的擬聲含義。",
-      "quality_level": "L4"
+      "answer_index": 1,
+      "explanation": "妹妹的玩具被搶走大喊『還給我！』，媽媽向哥哥陳述『她非常生氣』。主詞 she 的 Be 動詞是 is。選項 B 誤搭 does；選項 C 語意完全相反；選項 D 錯搭 are。",
+      "taxonomy": "inferential",
+      "commonMisconception": "在單純的描述情緒句型中，錯把 Be 動詞 is 換成了 are 或是助動詞 does。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U3-009",
+      "type": "multiple_choice",
+      "scenario": "At a surprise birthday party, everyone shouts 'Surprise!'",
+      "question": "Dad: Look at Jason! Is he happy?\nUncle: ___________________",
+      "options": [
+        "Yes, he does. He is smiling. ",
+        "Yes, I am. I am smiling.     ",
+        "No, he isn't. He is smiling. ",
+        "Yes, he is. He is smiling.   "
+      ],
+      "answer_index": 3,
+      "explanation": "問句 Is he...? 的人稱是第三人稱單數 he，回答必須對稱且符合生日情境。選項 A (是的，他在笑) 完全正確。選項 B 人稱走鐘成 I；選項 C 語意矛盾；選項 D 錯用 does。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒有抓穩問句裡的主詞 he，習慣性地回答 Yes, I am，或是錯用助動詞 does。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U3-010",
+      "type": "multiple_choice",
+      "scenario": "A boy is crying because he lost his balloon.",
+      "question": "Woman: What's wrong, little boy? ___________________\nBoy: Yes, I am. I lost my red balloon.",
+      "options": [
+        "Are you happy",
+        "Are you sad? ",
+        "Is you sad?  ",
+        "Do you sad?  "
+      ],
+      "answer_index": 1,
+      "explanation": "小孩哭泣是因為弄丟了氣球，所以婦女問的應該是 Are you sad? (你很難過嗎？)。選項 B 語境完全不合；選項 C, D 是標準的語法迷思誘答。",
+      "taxonomy": "inferential",
+      "commonMisconception": "面對外在的表徵 (crying) 無法順利轉換為對應的情緒形容詞 (sad)，或者文法結構觀念薄弱。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

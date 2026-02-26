@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "先算鉛筆：15 × 3 = 45 元。再加橡皮擦：45 + 25 = 70 元。",
       "commonMisconception": "學生可能把所有數直接加起來（15+3+25=43），沒注意需要先乘再加。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "先算每盒：120 ÷ 5 = 24 片。吃掉 1 盒後剩 4 盒：24 × 4 = 96 片。（或 120 - 24 = 96）",
       "commonMisconception": "兩種解法：可以先除再乘，或先除再減。學生容易只做第一步。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "花費：95 × 4 = 380 元。餘額：500 - 380 = 120 元。120 > 95，夠再買一件。",
       "commonMisconception": "學生可能漏看「夠不夠再買」的判斷，或者乘法計算出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "42 ÷ 7 = 6（每組 6 人）。3 大隊，每隊有 42 ÷ 3 = 14 人。",
       "commonMisconception": "學生可能誤以為先除 7 再除 3（42÷7÷3=2），忽略題意是重新分組。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "大人 1 張 150 元。小孩 2 張 80×2=160 元。共 150+160=310 元。500-310=190 元。",
       "commonMisconception": "多種運算混合，學生需分步驟處理不同票種的費用。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

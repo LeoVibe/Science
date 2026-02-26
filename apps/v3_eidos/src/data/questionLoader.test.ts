@@ -185,4 +185,29 @@ describe('questionLoader', () => {
       expect.stringContaining('/question/platform/G5/Math/S2/HanLin/Math_U1.json')
     );
   });
+
+  it('應正確過濾被標記為 is_active: false 的題目', async () => {
+    const fetchMock = vi.fn();
+    const manifest = {
+      publisher: '翰林',
+      grade: 'G5',
+      units: [{ id: 'U1', title: '單元一', file: 'lesson1.json' }],
+    };
+    const lessonJson = {
+      questions: [
+        { id: 'q1', type: 'multiple_choice', question: 'Q1', options: ['1', '2', '3', '4'], answer: 1, is_active: false },
+        { id: 'q2', type: 'multiple_choice', question: 'Q2', options: ['1', '2', '3', '4'], answer: 1, is_active: true },
+        { id: 'q3', type: 'multiple_choice', question: 'Q3', options: ['1', '2', '3', '4'], answer: 1 }, // 預設 undefined = true
+      ]
+    };
+    fetchMock
+      .mockResolvedValueOnce({ ok: true, json: async () => manifest })
+      .mockResolvedValueOnce({ ok: true, json: async () => lessonJson });
+    globalThis.fetch = fetchMock;
+
+    const result = await loadQuestions(5, '數學', 2, '翰林');
+    expect(result.questions).toHaveLength(2);
+    expect(result.questions.map(q => q.id)).toEqual(['q2', 'q3']);
+  });
 });
+

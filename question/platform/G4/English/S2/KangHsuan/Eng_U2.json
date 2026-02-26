@@ -21,7 +21,8 @@
       "answer_index": 0,
       "explanation": "根據描述 'hot and white' (熱騰騰且白色的) 且為食物，'rice' (米飯) 是最適當的選項。",
       "commonMisconception": "將食物與飲料混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -38,7 +39,8 @@
       "answer_index": 1,
       "explanation": "描述為 'sweet' (甜的) 且為複數結構 (They are)，選擇 'cookies' 最合適。",
       "commonMisconception": "忽略單複數代名詞提示。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -55,7 +57,8 @@
       "answer_index": 0,
       "explanation": "在選項中，只有 'bread' 是可以用 'eat' 動詞處理的食物。",
       "commonMisconception": "語義搭配不當。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "answer_index": 0,
       "explanation": "第二人稱 'you' 的一般動詞疑問句，使用助動詞 'do'。",
       "commonMisconception": "誤用 B 動詞 (are) 代替助動詞。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -89,7 +93,8 @@
       "answer_index": 1,
       "explanation": "主詞為第三人稱單數 'He'，現在式動詞需加 s，選 'wants'。",
       "commonMisconception": "漏掉第三人稱單數動詞變化。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -106,7 +111,8 @@
       "answer_index": 0,
       "explanation": "對於 'Do you...?' 的否定回答為 'No, I don't'。",
       "commonMisconception": "否定縮語使用錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -123,7 +129,8 @@
       "answer_index": 0,
       "explanation": "肯文中描述數量，複數 noodles 用 some；單數且母音開頭的 egg 用 an。",
       "commonMisconception": "不定冠詞 a/an 判斷錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -140,7 +147,8 @@
       "answer_index": 0,
       "explanation": "液體類食物（如 soup）在英文中通常視為不可數名詞，不加 s 也不用 a/an。",
       "commonMisconception": "對不可數名詞進行複數化。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -157,7 +165,8 @@
       "answer_index": 1,
       "explanation": "否定句中，「一些」通常使用 any 代替 some。",
       "commonMisconception": "否定句中誤用 some。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -174,7 +183,8 @@
       "answer_index": 1,
       "explanation": "文中敘述 'Sam has noodles'。",
       "commonMisconception": "資訊提取錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -191,7 +201,8 @@
       "answer_index": 1,
       "explanation": "文中敘述哥哥很餓，想吃雞肉 (wants some chicken)。",
       "commonMisconception": "主詞混淆（將「我」與「哥哥」想吃的東西弄反）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -208,7 +219,8 @@
       "answer_index": 1,
       "explanation": "服務生說沒有魚但有雞肉，推論顧客會改選雞肉配原本想要的飯。",
       "commonMisconception": "無法進行情境轉折的邏輯推理。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -225,7 +237,8 @@
       "answer_index": 2,
       "explanation": "文中只提到找食材，並未提及兒子目前是否想吃蛋糕，故選 'We don't know'。",
       "commonMisconception": "學生習慣假設角色都想吃，未根據文本判斷資訊充足度。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -242,7 +255,8 @@
       "answer_index": 1,
       "explanation": "蘋果配香蕉，共兩種水果。牛奶不是水果。",
       "commonMisconception": "分類錯誤，將所有食材計入。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -259,7 +273,8 @@
       "answer_index": 1,
       "explanation": "主詞 The boy 為三單，且後面接不定詞 to drink，結構正確。",
       "commonMisconception": "動詞形式與三單變化。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -276,7 +291,8 @@
       "answer_index": 1,
       "explanation": "很多人要來，需要「一些」(some) 披薩。此為肯定意向。",
       "commonMisconception": "語意連接力弱。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -293,7 +309,8 @@
       "answer_index": 2,
       "explanation": "需要加鹽，通常是因為湯喝起來「沒味道」(tasteless)。",
       "commonMisconception": "因果邏輯判斷。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -310,7 +327,8 @@
       "answer_index": 1,
       "explanation": "三明治 (sandwiches) 是台灣常見的早餐選項，其餘較少作為典型早餐。",
       "commonMisconception": "文化詞彙與常識連結問題。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

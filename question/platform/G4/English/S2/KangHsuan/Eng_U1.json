@@ -21,7 +21,8 @@
       "answer_index": 1,
       "explanation": "問句使用複數代名詞 'they'，回答應使用複數名詞或不規則複數。'sheep' 的單複數同型，符合語境。'pig' 與 'cow' 需加 s 才是複數。",
       "commonMisconception": "學生常忘記 sheep 是不規則複數，或忽視主謂單複數一致性。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -38,7 +39,8 @@
       "answer_index": 1,
       "explanation": "數字 'five' 後面接複數名詞，需加 -s。故選 'horses'。",
       "commonMisconception": "複數名詞字尾漏掉 s。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -55,7 +57,8 @@
       "answer_index": 1,
       "explanation": "發出 'Oink' 叫聲且特徵為粉紅色、胖胖的動物是豬 (pig)。",
       "commonMisconception": "動物叫聲英漢對應錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "answer_index": 2,
       "explanation": "複數主詞 'they' 對應的 B 動詞是 'are'。",
       "commonMisconception": "主謂不一致（如選 is）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -89,7 +93,8 @@
       "answer_index": 0,
       "explanation": "單數主詞 'The horse' 對應的 B 動詞是 'is'。",
       "commonMisconception": "主謂不一致。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -106,7 +111,8 @@
       "answer_index": 1,
       "explanation": "對於 'Are they...?' 的否定簡答為 'No, they aren't'。",
       "commonMisconception": "助動詞與 B 動詞混淆（選 don't）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -123,7 +129,8 @@
       "answer_index": 0,
       "explanation": "後半句 'it is' 顯示為肯定簡答，故選 'Yes'。",
       "commonMisconception": "Yes/No 邏輯判斷錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -140,7 +147,8 @@
       "answer_index": 1,
       "explanation": "指示代名詞 'those' 後面搭配複數名詞 'horses'。",
       "commonMisconception": "不懂 those 需配複數的概念。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "literal",
@@ -157,7 +165,8 @@
       "answer_index": 1,
       "explanation": "複數名詞 'ducks' 只需加 s。'duckes' 為錯誤拼法。",
       "commonMisconception": "複數規則拼寫錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -174,7 +183,8 @@
       "answer_index": 2,
       "explanation": "Lee 有 3 隻豬，Wang 有 0 隻，總共 3 隻。",
       "commonMisconception": "資訊整合錯誤，將豬與馬的數量搞混。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -191,7 +201,8 @@
       "answer_index": 2,
       "explanation": "只有鴨子 (duck) 是兩條腿且會游泳的農場動物。",
       "commonMisconception": "對動物特徵不熟悉（如認為豬也會游長程）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -208,7 +219,8 @@
       "answer_index": 2,
       "explanation": "文中指令明確指出牛要塗成黑白色。",
       "commonMisconception": "資訊提取錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -225,7 +237,8 @@
       "answer_index": 1,
       "explanation": "文中提到 'Ducks and sheep like water'。",
       "commonMisconception": "忽略 sheep 而只看 ducks，或邏輯配對錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -242,7 +255,8 @@
       "answer_index": 2,
       "explanation": "原本有 4 隻，跑掉 1 隻 (ran away)，剩下 3 隻。",
       "commonMisconception": "不懂 ran away 的意思。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -259,7 +273,8 @@
       "answer_index": 1,
       "explanation": "goose 的不規則複數為 geese。",
       "commonMisconception": "誤以為 goose 複數是 gooses 或對不規則變化不熟。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -276,7 +291,8 @@
       "answer_index": 2,
       "explanation": "馬通常吃乾草 (hay)。雖然也喝水，但 'have some...' 在語境下常指餵食。",
       "commonMisconception": "生活常識字彙不足。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -293,7 +309,8 @@
       "answer_index": 1,
       "explanation": "10 + 5*2 = 20。檢驗學生數量計算與詞彙對應。",
       "commonMisconception": "數學計算錯誤或漏看 two。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -310,7 +327,8 @@
       "answer_index": 2,
       "explanation": "供應羊毛的動物是羊 (sheep)。澳洲以產羊毛聞名。",
       "commonMisconception": "不認識詞彙 wool。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

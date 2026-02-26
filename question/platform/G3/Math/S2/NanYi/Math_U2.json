@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "1 公升 = 1000 毫升。2 公升 = 2 × 1000 = 2000 毫升。",
       "commonMisconception": "學生容易記漏倍率（1000），寫成 200 或 20。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 1,
       "explanation": "1 公升 300 毫升 = 1300 毫升。1300 - 800 = 500 毫升。",
       "commonMisconception": "需先統一單位再做減法。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "3 × 350 = 1050 毫升。壺子容量 1000 毫升。1050 - 1000 = 50 毫升會溢出。",
       "commonMisconception": "乘法和單位轉換的結合使用。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 3,
       "explanation": "一天喝 5 × 3 = 15 毫升。120 ÷ 15 = 8 天。",
       "commonMisconception": "兩步驟問題：先乘再除。學生可能只做其中一個步驟。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "甲壺 = 3200 毫升。3200 - 2900 = 300。甲多 300 毫升。",
       "commonMisconception": "比較前需轉換成相同單位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

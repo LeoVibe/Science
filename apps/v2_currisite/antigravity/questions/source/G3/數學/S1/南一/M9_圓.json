@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M9",
+    "title": "圓",
+    "semester": "semester_1",
+    "order": 9
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "圓心到圓周上的距離稱為什麼？",
+      "options": [
+        "圓心",
+        "直徑",
+        "圓周",
+        "半徑"
+      ],
+      "answer": "半徑",
+      "explanation": "這是圓的基本定義之一。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "在同一個圓裡，直徑是半徑的 2 倍。",
+      "answer": "True",
+      "explanation": "直徑通過圓心連接圓周兩點，由兩條半徑組成。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "畫圓時，圓規兩腳張開的長度就是圓的______。",
+      "answer": "半徑",
+      "explanation": "張開的寬度決定了圓心到圓周的距離。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "一個圓的半徑是 5 公分，它的直徑是多少？",
+      "options": [
+        "5 公分",
+        "15 公分",
+        "10 公分",
+        "20 公分"
+      ],
+      "answer": "10 公分",
+      "explanation": "5 × 2 = 10。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪一個物品的形狀最接近「圓形」？",
+      "options": [
+        "硬幣",
+        "課本",
+        "電視機",
+        "金字塔"
+      ],
+      "answer": "硬幣",
+      "explanation": "硬幣是生活中最常見的平面圓形物品。"
+    }
+  ]
+}

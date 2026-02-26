@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "U3",
+    "title": "平面圖形與對稱"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "true_false",
+      "question": "正方形有4條對稱軸。",
+      "answer": "True",
+      "explanation": "正方形有無數對稱軸，包括兩條對角線與兩條邊的中點連線。"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "下列哪一個圖形是線對稱圖形，且有無數條對稱軸？",
+      "options": ["長方形", "圓形", "等腰三角形", "梯形"],
+      "answer": "圓形",
+      "explanation": "圓形通過圓心的任何一條直線都是對稱軸，因此有無數條。"
+    }
+  ]
+}

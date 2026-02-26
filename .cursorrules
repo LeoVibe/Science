@@ -1,0 +1,13 @@
+# Eidos 專案全域開發守則 (Global AI Instructions)
+
+作為 Eidos 專案的 AI 協作夥伴，當你無論接收到任何需求，只要涉及 **修改前端介面 UI (React, TailwindCSS)、排版佈局、色彩主題、或互動行為** 時，**必須強制優先讀取以下文件**，並將其視為不可違背的真理：
+
+1. **`docs/前端開發與AI實作守則.md`**：指導你「不能做什麼」(如嚴禁 Hardcode 色碼)。
+2. **`docs/網站功能規格書.md`**：指導你「UI 應該長什麼樣」(如按鈕是圓角多大、選中時是什麼狀態)。
+
+## 🚨 核心禁令 (Strict Prohibitions)
+- **禁止 Hardcode 色彩**：絕不可以在 `.tsx` 中寫死色碼（如 `text-[#333]` 或 `hsl(200 40% 65%)`）。請始終使用 `config.ts` 定義的 Semantic Colors，或是使用 `index.css` 定義的 CSS 變數（如 `subject-text-{theme}`）。
+- **禁止發明新規格**：若遇到不在《網站功能規格書》上的新元件，請依循專案「暖調琥珀 (Warm Amber)」與「溫和低負擔」的風格設計。
+
+## 🔄 任務收尾 (End of Task)
+- 每當你完成了一件涵蓋 UI 變更 或 新增邏輯 的任務，記得提醒使用者是否需要執行 `/sync` 來同步變更到規格書中。

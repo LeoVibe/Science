@@ -17,7 +17,8 @@
       "answer": 0,
       "explanation": "筆的錢加上找回的錢等於付出的錢。或者 50 - □ = 12。故 □ + 12 = 50 符合邏輯關係。",
       "concept": "加法未知數算式",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 1,
       "explanation": "□ / 5 = 8。 故 □ = 8 * 5 = 40。",
       "concept": "除法未知數算式",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 1,
       "explanation": "120 - □ = 45。 □ = 120 - 45 = 75。",
       "concept": "減法未知數算式",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 0,
       "explanation": "300 + □ * 10 = 500。 □ * 10 = 200。 □ = 20。",
       "concept": "乘加複合未知數",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 2,
       "explanation": "□ * 4 = 24。 □ = 6。",
       "concept": "幾何與未知數",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 2,
       "explanation": "文字敘述直接轉為算式： 某數 (x) 乘以 (*) 12 等於 (=) 96。",
       "concept": "文字轉代數算式",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 1,
       "explanation": "□ = 75 + 25 = 100。",
       "concept": "減法逆算",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 0,
       "explanation": "總重 = 40 * 3 = 120。 □ = 120 - 85 = 35。",
       "concept": "綜合應用與未知數",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 0,
       "explanation": "60 / □ = 4。 □ = 60 / 4 = 15。",
       "concept": "除法逆算",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 0,
       "explanation": "□ * 7 = 42。 □ = 6。",
       "concept": "逆向思考應用",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M10",
+    "order": 10,
+    "title": "統計圖、體積或規律進階"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "用來比較不同項目的數量多少，最清楚的圖表是？",
+      "options": [
+        "地圖",
+        "折線圖",
+        "圓餅圖",
+        "長條圖"
+      ],
+      "answer": "長條圖",
+      "explanation": "長條的高低能直觀反應數量。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "折線圖主要用來觀察數據隨著時間變化的趨勢。",
+      "answer": "True",
+      "explanation": "線條的升降代表趨勢。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "在統計圖中，橫軸代表項目，縱軸代表______。",
+      "answer": "數量、值",
+      "explanation": "座標軸的基本定義。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "數列：2, 4, 8, 16, ( ), 下一個數是？",
+      "options": [
+        "24",
+        "32",
+        "30",
+        "64"
+      ],
+      "answer": "32",
+      "explanation": "規律是前項乘 2。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "統計圖的標題應清楚說明該圖所呈現的主旨。",
+      "answer": "True",
+      "explanation": "標題是閱讀圖表的重要指引。"
+    }
+  ]
+}

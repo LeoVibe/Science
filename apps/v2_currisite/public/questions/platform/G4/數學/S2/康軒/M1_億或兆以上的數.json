@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M1",
+    "order": 1,
+    "title": "億或兆以上的數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "10 個一億是多少？",
+      "options": [
+        "一百億",
+        "十億",
+        "一千萬",
+        "一兆"
+      ],
+      "answer": "十億",
+      "explanation": "滿十進一，10 個億等於 10 億。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "一兆等於 10000 個一億。",
+      "answer": "True",
+      "explanation": "兆與億之間隔著「十億、百億、千億」，所以是一萬個億倍。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "「1200000000000」讀作：一______二千億。",
+      "answer": "兆",
+      "explanation": "由右往左：個、萬、億、兆。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "比較 3 兆與 2 兆 9999 億，何者較大？",
+      "options": [
+        "2 兆 9999 億",
+        "3 兆",
+        "一樣大",
+        "無法比較"
+      ],
+      "answer": "3 兆",
+      "explanation": "3 兆比 2 兆 9999 億多出 1 億。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "我國的人口數大約是 2300 兆人。",
+      "answer": "False",
+      "explanation": "我國人口大約是 2300 萬人。"
+    }
+  ]
+}

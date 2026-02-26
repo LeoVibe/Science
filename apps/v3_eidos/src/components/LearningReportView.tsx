@@ -1,12 +1,6 @@
 import { useSearchParams } from 'react-router-dom';
-import { Grade, Semester, Publisher, Subject, SUBJECT_THEME_MAP, SEMESTER_NAMES, Question, APP_CONFIG } from '@/data/config';
-import { getStatistics, getPracticeHistory, getAnswerHistory, getWrongQuestions as getWrongRecords } from '@/utils/storage';
-
-const PUBLISHER_PILL: Record<Publisher, string> = {
-  '康軒': 'hsl(200 55% 55%)',
-  '南一': 'hsl(350 50% 65%)',
-  '翰林': 'hsl(168 45% 50%)',
-};
+import { Grade, Semester, Publisher, Subject, SUBJECT_THEME_MAP, SEMESTER_NAMES, Question, APP_CONFIG, PUBLISHER_THEME_COLORS } from '@/data/config';
+import { getStatistics, getPracticeHistory, getAnswerHistory, getWrongQuestions as getWrongRecords, type PracticeRecord } from '@/utils/storage';
 
 const VALID_PUBLISHERS: Publisher[] = ['康軒', '南一', '翰林'];
 function parsePublisherParam(pub: string | null, fallback: Publisher): Publisher {
@@ -27,22 +21,6 @@ interface LearningReportViewProps {
   onTabChange?: (tab: 'stats' | 'wrong') => void;
   onBack: () => void;
 }
-
-const MOCK_PRACTICE_HISTORY = [
-  { id: '1', type: '基本挑戰', accuracy: 80, score: 8, count: 10, timestamp: Date.now() - 86400000 * 1 },
-  { id: '2', type: '進階挑戰', accuracy: 72, score: 18, count: 25, timestamp: Date.now() - 86400000 * 2 },
-  { id: '3', type: '分課：第1課', accuracy: 90, score: 9, count: 10, timestamp: Date.now() - 86400000 * 3 },
-  { id: '4', type: '基本挑戰', accuracy: 60, score: 6, count: 10, timestamp: Date.now() - 86400000 * 5 },
-  { id: '5', type: '進階挑戰', accuracy: 84, score: 21, count: 25, timestamp: Date.now() - 86400000 * 7 },
-];
-
-const MOCK_CAT_STATS = [
-  { category: '第一課', total: 15, correct: 12, accuracy: 80 },
-  { category: '第二課', total: 12, correct: 9, accuracy: 75 },
-  { category: '第三課', total: 8, correct: 7, accuracy: 88 },
-  { category: '第四課', total: 10, correct: 5, accuracy: 50 },
-  { category: '第五課', total: 6, correct: 6, accuracy: 100 },
-];
 
 export default function LearningReportView({
   grade, semester, publisher, subject, questions, categories,
@@ -89,21 +67,19 @@ export default function LearningReportView({
   ) : {};
 
   const hasRealStats = stats.totalAnswered > 0;
-  const practiceList = history.length > 0 ? history : MOCK_PRACTICE_HISTORY;
-  const catStats = realCatStats.some(c => c.total > 0) ? realCatStats : MOCK_CAT_STATS;
-  const avgAccuracy = hasRealStats
-    ? stats.accuracy
-    : Math.round(MOCK_PRACTICE_HISTORY.reduce((s, h) => s + h.accuracy, 0) / MOCK_PRACTICE_HISTORY.length);
-  const totalAnswered = hasRealStats ? stats.totalAnswered : 62;
-  const totalCorrect = hasRealStats ? stats.totalCorrect : 48;
-  const practiceCount = history.length > 0 ? history.length : MOCK_PRACTICE_HISTORY.length;
+  const practiceList = history;
+  const catStats = realCatStats;
+  const avgAccuracy = stats.accuracy;
+  const totalAnswered = stats.totalAnswered;
+  const totalCorrect = stats.totalCorrect;
+  const practiceCount = history.length;
 
   const hasRealWrong = pubWrongQs.length > 0 || wrongQuestions.length > 0;
-  const displayWrongQs = hasRealWrong ? (isCurrentPub ? pubWrongQs : wrongQuestions) : questions.slice(0, 3);
+  const displayWrongQs = hasRealWrong ? (isCurrentPub ? pubWrongQs : wrongQuestions) : [];
   const displayWrongCounts = hasRealWrong
     ? (isCurrentPub ? pubWrongCounts : wrongCounts)
-    : Object.fromEntries(questions.slice(0, 3).map((q, i) => [q.id, { wrong: 3 - i, total: 5 + i }]));
-  const wrongCount = hasRealWrong ? displayWrongQs.length : 3;
+    : {};
+  const wrongCount = displayWrongQs.length;
 
   const optionLabels = ['A', 'B', 'C', 'D'];
 
@@ -116,9 +92,6 @@ export default function LearningReportView({
           <h1 className="text-lg sm:text-xl font-black text-foreground">📊 學習統計</h1>
           <p className="text-xs text-muted-foreground truncate">{grade}年級 {subject} {SEMESTER_NAMES[semester]}</p>
         </div>
-        {!hasRealStats && (
-          <span className="text-[10px] bg-accent/12 text-accent font-bold px-2 py-0.5 rounded-full shrink-0">模擬資料</span>
-        )}
       </div>
 
       {/* Publisher filter */}
@@ -132,7 +105,7 @@ export default function LearningReportView({
               className={`flex-1 py-2 rounded-xl font-bold text-xs sm:text-sm transition-all active:scale-95 ${
                 isActive ? 'shadow-sm text-white' : 'bg-secondary text-secondary-foreground hover:bg-muted'
               }`}
-              style={isActive ? { background: PUBLISHER_PILL[pub] } : undefined}
+              style={isActive ? { background: PUBLISHER_THEME_COLORS[pub] } : undefined}
             >
               {pub}版
             </button>
@@ -166,6 +139,14 @@ export default function LearningReportView({
       {/* Stats Tab */}
       {tab === 'stats' && (
         <div className="space-y-4 animate-in fade-in duration-200">
+          {!hasRealStats ? (
+            <div className="bg-card rounded-2xl border p-8 text-center space-y-2">
+              <span className="text-4xl">🎒</span>
+              <p className="font-bold">你還沒有開始練習唷！</p>
+              <p className="text-sm text-muted-foreground">先完成一場測驗，這裡就會出現你的學習報告。</p>
+            </div>
+          ) : (
+            <>
           <div className="grid grid-cols-3 gap-2">
             <SummaryCard label="練習次數" value={practiceCount} icon="🏋️" />
             <SummaryCard label="總答題數" value={totalAnswered} icon="✍️" />
@@ -199,7 +180,7 @@ export default function LearningReportView({
           <div className="bg-card rounded-2xl border p-4 space-y-3">
             <h3 className="font-bold text-sm flex items-center gap-1.5">📚 各課正確率</h3>
             <div className="space-y-2.5">
-              {catStats.map(c => (
+              {catStats.filter(c => c.total > 0).map(c => (
                 <div key={c.category} className="space-y-1">
                   <div className="flex justify-between text-xs">
                     <span className="font-medium truncate flex-1">{c.category}</span>
@@ -219,7 +200,7 @@ export default function LearningReportView({
           <div className="bg-card rounded-2xl border p-4 space-y-3">
             <h3 className="font-bold text-sm flex items-center gap-1.5">🕐 練習歷史</h3>
             <div className="space-y-0">
-              {practiceList.slice(0, 8).map((h: any, i: number) => (
+              {practiceList.slice(0, 8).map((h: PracticeRecord, i: number) => (
                 <div key={h.id ?? i} className={`flex justify-between items-center py-2.5 ${i < practiceList.slice(0, 8).length - 1 ? 'border-b border-border' : ''}`}>
                   <div className="min-w-0">
                     <div className="font-medium text-sm truncate">{h.type}</div>
@@ -233,6 +214,8 @@ export default function LearningReportView({
               ))}
             </div>
           </div>
+            </>
+          )}
         </div>
       )}
 

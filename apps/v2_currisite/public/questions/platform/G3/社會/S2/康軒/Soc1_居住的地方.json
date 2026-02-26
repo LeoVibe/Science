@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "Soc1",
+    "order": 1,
+    "title": "居住的地方"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "我們稱呼自己居住、生活的地方為？",
+      "options": [
+        "外國",
+        "荒島",
+        "家鄉",
+        "國家"
+      ],
+      "answer": "家鄉",
+      "explanation": "我們從小生長或是長期居住、與鄰里建立互動的地方，通常通稱為家鄉。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "每個人居住的地方特色都一樣，沒有分別。",
+      "answer": "False",
+      "explanation": "不同的居住地方有不同的地形、氣候或人文特色。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "我們可以透過觀察路標、建築物或是______來認識居住地的位置。",
+      "answer": "地圖",
+      "explanation": "地圖是認識地理位置與周遭環境最直接的工具。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪一種方式無法幫助我們認識家鄉？",
+      "options": [
+        "訪問長輩",
+        "閱讀地方誌",
+        "天天在家睡覺",
+        "上網搜尋"
+      ],
+      "answer": "天天在家睡覺",
+      "explanation": "認識家鄉需要主動參與、觀察與搜集資料。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "居住在城市的人，生活機能通常比居住在偏鄉的人更便利。",
+      "answer": "True",
+      "explanation": "城市因為交通發達、商店密集，生活機能相對較為便利。"
+    }
+  ]
+}

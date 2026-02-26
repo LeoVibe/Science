@@ -1,15 +1,12 @@
 /**
  * evaluate_question_quality.js
  * 
- * 依據設計原則自動評估題庫 JSON 的品質等級 (L1~L5)
- * 評分維度：
- * 1. PIRLS 符合度 (事實/理解/應用 比例)
- * 2. 選項對稱性 (字數偏差 < 15%)
- * 3. 結構完整性 (解析、迷思診斷、ID)
- * 4. 情境深度 (字數與描述豐富度)
- * 5. 研究文件門檻 (發展綱要存在性與實證驗證區)
+ * 依據「雙軌品質指標機制 (Dual Quality Metrics)」自動評估題庫 JSON 品質
+ * 包含：
+ * 1. QG (Quality Gate Level): 絕對達標制 (L1~L5)
+ * 2. CQI (Composite Quality Index): 綜合品質指數 (0.0~5.0)
  * 
- * 更新時間：2026-02-25 01:25
+ * 更新時間：2026-02-25
  */
 
 const fs = require('fs');
@@ -18,24 +15,15 @@ const path = require('path');
 /**
  * 檢查對應的研究發展綱要是否存在，以及實證驗證區的完整度
  * 返回天花板等級（研究支撐對品質的最高上限）
- * 
- * @param {string} filePath - 題庫 JSON 的絕對路徑
- * @param {object} meta - 題庫的 metadata（grade, subject, semester）
- * @returns {{ ceiling: string, reason: string }}
  */
 function checkResearchSupport(filePath, meta) {
-    // 嘗試從檔案路徑推導學科與年級
     const grade = meta.grade || '';
     const semester = meta.semester || '';
     const subject = meta.subject || '';
 
-    // 學科名稱對照表（英文→中文）
     const subjectMap = {
-        'Math': '數學',
-        'Chinese': '國語',
-        'English': '英語',
-        'Science': '自然',
-        'SocialStudies': '社會'
+        'Math': '數學', 'Chinese': '國語', 'English': '英語',
+        'Science': '自然', 'SocialStudies': '社會'
     };
     const subjectCN = subjectMap[subject] || subject;
 
@@ -43,10 +31,7 @@ function checkResearchSupport(filePath, meta) {
         return { ceiling: 'L4', reason: '無法從 meta 推導學科資訊，跳過研究文件檢查' };
     }
 
-    // 建構發展綱要的預期路徑
-    // 從題庫 JSON 路徑向上尋找 knowledge 目錄
     let projectRoot = filePath;
-    // 向上找到包含 knowledge 的根目錄
     for (let i = 0; i < 10; i++) {
         projectRoot = path.dirname(projectRoot);
         const knowledgePath = path.join(projectRoot, 'knowledge');
@@ -68,28 +53,18 @@ function checkResearchSupport(filePath, meta) {
         outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameEN);
     }
 
-    // 檢查 1：發展綱要是否存在
     if (!fs.existsSync(outlinePath)) {
-        console.log("[DEBUG] 未找到檔案:", outlinePath);
-        return { ceiling: 'L1', reason: `發展綱要不存在: ${outlineFileNameCN} 或 ${outlineFileNameEN}` };
+        return { ceiling: 'L1', reason: `發展綱要不存在: ${outlineFileNameCN}` };
     }
 
-    // 檢查 2：讀取檔案內容，檢查是否有 Curriculum Matrix
     const content = fs.readFileSync(outlinePath, 'utf8');
-    const hasCurriculumMatrix = content.includes('Curriculum Matrix') || content.includes('課程內容與發展矩陣');
-    if (!hasCurriculumMatrix) {
+    if (!(content.includes('Curriculum Matrix') || content.includes('課程內容與發展矩陣'))) {
         return { ceiling: 'L1', reason: '發展綱要缺少 Curriculum Matrix' };
     }
-
-    // 檢查 3：是否有實證驗證區
-    const hasVerificationZone = content.includes('實證驗證區') || content.includes('考古題對照驗證');
-    if (!hasVerificationZone) {
+    if (!(content.includes('實證驗證區') || content.includes('考古題對照驗證'))) {
         return { ceiling: 'L2', reason: '發展綱要缺少實證驗證區' };
     }
-
-    // 檢查 4：是否有 L4 轉化策略
-    const hasL4Strategy = content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜') || content.includes('整合思考歷程 (AI 產出策略)');
-    if (!hasL4Strategy) {
+    if (!(content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜'))) {
         return { ceiling: 'L3', reason: '發展綱要缺少 L4 轉化策略' };
     }
 
@@ -97,26 +72,28 @@ function checkResearchSupport(filePath, meta) {
 }
 
 /**
- * 評核單一題目
+ * 評核單一題目 (同時計算 CQI 與 QG)
  */
 function evaluateQuestion(q, subject) {
-    let score = 0;
-    const reports = [];
-
-    // 取得文本內容
     const questionText = q.question || '';
     const explanationText = q.explanation || '';
     const options = q.options || [];
-
-    // 1. 結構完整性 (最高 1 分)
-    if (q.id || q.lesson_id) score += 0.25;
-    if (explanationText && explanationText.length > 10) score += 0.5;
-    if (q.commonMisconception || q.scenario) score += 0.25;
-
-    // 2. 選項對稱性 (最高 1.5 分) & 長度偏差偵測
-    let isLongestAnswer = false;
     let ansIndex = q.answer_index !== undefined ? q.answer_index : q.answer;
 
+    let reports = [];
+    let isLongestAnswer = false;
+
+    // ==========================================
+    // 1. CQI (Composite Quality Index) 綜合加分計算
+    // ==========================================
+    let cqi_score = 0;
+
+    // A. 結構完整性 (最高 2.0 分)
+    if (q.id || q.lesson_id) cqi_score += 0.5;
+    if (q.commonMisconception || q.scenario) cqi_score += 0.5;
+    if (explanationText && explanationText.length > 10) cqi_score += 1.0;
+
+    // B. 選項對稱性 (最高 3.0 分)
     if (options.length === 4) {
         const lengths = options.map(o => String(o).length);
         const avgLen = lengths.reduce((a, b) => a + b, 0) / 4;
@@ -130,75 +107,109 @@ function evaluateQuestion(q, subject) {
         if (avgLen > 0) {
             const maxDev = Math.max(...lengths.map(l => Math.abs(l - avgLen))) / avgLen;
             if (['Math', 'Science'].includes(subject) && avgLen < 15) {
-                // 數理邏輯科：若選項為短純數字/公式，豁免對稱性扣分與最長答案偏差
-                score += 1.5;
+                cqi_score += 3.0;
                 isLongestAnswer = false;
             } else if (subject === 'English' && avgLen < 15) {
-                // 語文建構科：單字題放寬
-                score += 1.5;
+                cqi_score += 3.0;
                 isLongestAnswer = false;
             } else {
-                if (maxDev < 0.15) {
-                    score += 1.5;
-                } else if (maxDev < 0.3) {
-                    score += 0.75;
-                } else {
-                    reports.push('選項字數差異過大');
+                if (maxDev < 0.15) cqi_score += 3.0;
+                else if (maxDev < 0.3) cqi_score += 1.5;
+                else reports.push('選項長度偏差過大 (>15%)');
+            }
+        }
+    }
+
+    // C. 情境深度 (最高 3.0 分)
+    const qLen = String(questionText).length;
+    if (['Math', 'Science', 'English'].includes(subject)) {
+        if (qLen >= 25) cqi_score += 3.0;
+        else if (qLen >= 15) cqi_score += 1.5;
+        else if (qLen >= 5) cqi_score += 0.5;
+        else reports.push('數理/英語題幹過短 (<5字)');
+    } else {
+        if (qLen >= 50) cqi_score += 3.0;
+        else if (qLen >= 30) cqi_score += 1.5;
+        else if (qLen >= 15) cqi_score += 0.5;
+        else reports.push('文科題幹過短 (<15字)');
+    }
+
+    // D. 認知層次標註 (最高 2.0 分)
+    const taxonomy = q.taxonomy || q.type_pirls || 'literal';
+    if (['inferential', 'applied'].includes(taxonomy)) cqi_score += 2.0;
+    else if (taxonomy === 'literal') cqi_score += 1.0;
+
+    // 確保分數在 0~10 區間
+    cqi_score = Math.min(Math.max(cqi_score, 0), 10);
+
+    // ==========================================
+    // 2. QG (Quality Gate Level) 絕對達標制門檻把關
+    // ==========================================
+    let qg_level = 'L1';
+    let qg_reports = [...reports]; // 為了不干擾 CQI 的報告
+
+    // --- L2 門檻檢查 ---
+    if (!questionText || options.length < 2 || ansIndex === undefined) {
+        qg_reports.push('基礎格式不完整 (無法達 L2)');
+        qg_level = 'L1';
+    } else {
+        qg_level = 'L2';
+
+        // --- L3 門檻檢查 ---
+        let passL3 = true;
+        if (!explanationText || explanationText.length < 10) {
+            passL3 = false;
+            qg_reports.push('缺乏有效解析 (阻擋晉升 L3)');
+        }
+
+        if (options.length === 4) {
+            const lengths = options.map(o => String(o).length);
+            const avgLen = lengths.reduce((a, b) => a + b, 0) / 4;
+            if (avgLen > 0) {
+                const maxDev = Math.max(...lengths.map(l => Math.abs(l - avgLen))) / avgLen;
+                if (!(['Math', 'Science', 'English'].includes(subject) && avgLen < 15)) {
+                    if (maxDev >= 0.15) {
+                        passL3 = false;
+                    }
+                }
+            }
+        }
+
+        if (passL3) {
+            qg_level = 'L3';
+
+            // --- L4 門檻檢查 ---
+            let passL4 = false;
+            if (['Math', 'Science', 'English'].includes(subject)) {
+                if (qLen >= 15) passL4 = true;
+                else qg_reports.push('題幹未達 15 字 (阻擋晉升 L4)');
+            } else {
+                if (qLen >= 30) passL4 = true;
+                else qg_reports.push('題幹未達 30 字 (阻擋晉升 L4)');
+            }
+
+            if (passL4) {
+                qg_level = 'L4';
+
+                // --- L5 門檻檢查 (單題具備診斷) ---
+                if (q.commonMisconception) {
+                    qg_level = 'L5';
                 }
             }
         }
     }
 
-    // 3. 情境深度 (最高 1.5 分)
-    const qLen = String(questionText).length;
-    if (['Math', 'Science', 'English'].includes(subject)) {
-        // 數理邏輯與英語科：放寬題幹長度門檻
-        if (qLen > 25) {
-            score += 1.5;
-        } else if (qLen > 15) {
-            score += 1.0;
-        } else if (qLen > 5) {
-            score += 0.5;
-        } else {
-            reports.push('題目描述過短');
-        }
-    } else {
-        // 文科思辨 (如國語、社會)：嚴格要求情境豐富度
-        if (qLen > 50) {
-            score += 1.5;
-        } else if (qLen > 30) {
-            score += 1.0;
-        } else if (qLen > 15) {
-            score += 0.5;
-        } else {
-            reports.push('題目描述過短');
-        }
-    }
+    // 寫入雙指標
+    q.cqi_score = parseFloat(cqi_score.toFixed(2));
+    q.quality_level = qg_level;
 
-    // 4. 認知層次標註 (最高 1 分)
-    const taxonomy = q.taxonomy || q.type_pirls || 'literal';
-    if (['inferential', 'applied'].includes(taxonomy)) {
-        score += 1.0;
-    } else if (taxonomy === 'literal') {
-        score += 0.5;
-    }
-
-    // 5. 判定單題品質等級 (範圍 0~5，滿分即為L5級別的單題體質，但檔案總評未必給L5)
-    let quality_level = 'L1';
-    if (score >= 4.5) {
-        quality_level = 'L4'; // 單題不擅自標記L5，保留給全檔審核
-    } else if (score >= 3.5) {
-        quality_level = 'L4';
-    } else if (score >= 2.5) {
-        quality_level = 'L3';
-    } else if (score >= 1.5) {
-        quality_level = 'L2';
-    }
-
-    // 直接將品質寫回題目物件
-    q.quality_level = quality_level;
-
-    return { score, reports, taxonomy, quality_level, isLongestAnswer };
+    return {
+        cqi_score,
+        qg_level,
+        taxonomy,
+        reports: qg_reports,
+        isLongestAnswer
+    };
 }
 
 /**
@@ -208,7 +219,6 @@ function evaluateFile(filePath) {
     try {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-        // 辨識格式
         let questions = [];
         let meta = {};
 
@@ -227,109 +237,86 @@ function evaluateFile(filePath) {
             questions = [content];
         }
 
-        if (questions.length === 0) return { quality: 'L1', score: 0, count: 0 };
+        if (questions.length === 0) return { quality: 'L1', avgCqi: 0, count: 0 };
 
-        let totalScore = 0;
+        let totalCqiScore = 0;
         const taxCount = { literal: 0, inferential: 0, applied: 0 };
-        const answerDist = {}; // 紀錄答案分佈
-        let longestAnswerCount = 0; // 紀錄「最長選項=答案」的次數
+        const answerDist = {};
+        let longestAnswerCount = 0;
+
+        // 統計 QG 各等級的題目數量
+        const levelCount = { 'L1': 0, 'L2': 0, 'L3': 0, 'L4': 0, 'L5': 0 };
 
         questions.forEach(q => {
             const result = evaluateQuestion(q, meta.subject);
-            totalScore += result.score;
+            totalCqiScore += result.cqi_score;
+            levelCount[result.qg_level]++;
+
             if (result.isLongestAnswer) longestAnswerCount++;
+            if (taxCount[result.taxonomy] !== undefined) taxCount[result.taxonomy]++;
+            else taxCount.literal++;
 
-            if (taxCount[result.taxonomy] !== undefined) {
-                taxCount[result.taxonomy]++;
-            } else {
-                taxCount.literal++; // 預設
-            }
-
-            // 紀錄答案 (支援 answer_index 或 answer)
-            let ans = q.answer_index;
-            if (ans === undefined) ans = q.answer;
+            let ans = q.answer_index !== undefined ? q.answer_index : q.answer;
             if (ans !== undefined) {
                 answerDist[ans] = (answerDist[ans] || 0) + 1;
             }
         });
 
-        const avgScore = totalScore / questions.length;
         const total = questions.length;
+        // 計算全檔平均 CQI
+        const avgCqi = totalCqiScore / total;
 
-        // 答案分佈與選項長度異常檢測 
+        // --- 破壞性 BIAS 檢查 (L1 Gate) ---
         let biasWarning = null;
-        for (const ans in answerDist) {
-            if (answerDist[ans] / total > 0.6) {
-                biasWarning = `答案過度集中於: ${ans} (${(answerDist[ans] / total * 100).toFixed(0)}%)`;
-                break;
+        if (total >= 5) {
+            for (const ans in answerDist) {
+                if (answerDist[ans] / total > 0.6) {
+                    biasWarning = `答案過度集中於: ${ans} (${(answerDist[ans] / total * 100).toFixed(0)}%)`;
+                    break;
+                }
+            }
+            if (!biasWarning && (longestAnswerCount / total) > 0.4) {
+                biasWarning = `選項長度偏差: ${(longestAnswerCount / total * 100).toFixed(0)}% 的正確答案為最長選項`;
             }
         }
 
-        // 偵測「選項最長的就是答案」的盲猜漏洞 (大於 40% 則視為異常)
-        if (!biasWarning && (longestAnswerCount / total) > 0.4) {
-            biasWarning = `選項長度偏差: ${(longestAnswerCount / total * 100).toFixed(0)}% 的正確答案為最長選項`;
-        }
+        // --- 全檔 QG 等級判定 (基於 80% 門檻原則) ---
+        let qg_quality = 'L1';
 
-        // PIRLS 分佈檢查
-        let isPirlsBalanced = false;
-        if (['Math', 'Science', 'English'].includes(meta.subject)) {
-            // 數學、自然、英語的 Literal (事實/計算/單字) 佔比原本就會比較高，放寬限制
-            isPirlsBalanced = (taxCount.inferential / total >= 0.15) || (taxCount.applied / total >= 0.1);
-        } else {
-            // 國語、社會等文科，嚴篩高階理解題佔比
-            isPirlsBalanced = (taxCount.inferential / total >= 0.3); // 至少有 30% 是理解層次
-        }
-
-        // 研究文件門檻檢查 (第二層防護)
-        const researchCheck = checkResearchSupport(filePath, meta);
-        console.log(`[DEBUG] File: ${path.basename(filePath)}, Research Ceiling: ${researchCheck.ceiling}, Reason: ${researchCheck.reason}`);
-        const levelOrder = ['L1', 'L2', 'L3', 'L4', 'L5'];
-
-        // 等級判定邏輯 (精確對位 5 級分制)
-        let quality = 'L1';
-
-        // L4 的嚴格必要條件：高分且選項格式與層次無顯著偏誤
-        const isAnswerBalancedForL4 = Object.values(answerDist).every(count => (count / total) <= 0.4);
-
-        // 判斷是否強制 L5 (透過特殊 Meta 宣告)
-        const isExpertVerified = content.meta && content.meta.verified_by === 'expert';
-
-        if (isExpertVerified) {
-            quality = 'L5';
-        } else if (avgScore >= 3.5 && isPirlsBalanced && isAnswerBalancedForL4 && !biasWarning) {
-            quality = 'L4';
-        } else if (avgScore >= 2.5 && !biasWarning) {
-            quality = 'L3';
-        } else if (avgScore >= 1.5) {
-            quality = 'L2';
-        }
-
-        // 熔斷機制：只有當評分為 L1 或 L2 時，才觸發 BIAS 警報並予以降級
-        // 若達到 L3，代表其題目的「解析」與「選項對稱」本身已有高水準，適度豁免。
         if (biasWarning) {
-            if (quality === 'L1' || quality === 'L2') {
-                quality = 'L1 (BIAS)';
-            } else {
-                biasWarning = null; // L3 以上高品質題庫豁免 BIAS 熔斷
-            }
+            qg_quality = 'L1 (BIAS)';
+        } else {
+            const l4_l5_ratio = (levelCount['L4'] + levelCount['L5']) / total;
+            const l3_plus_ratio = (levelCount['L3'] + levelCount['L4'] + levelCount['L5']) / total;
+
+            if (l4_l5_ratio >= 0.8) qg_quality = 'L4';
+            else if (l3_plus_ratio >= 0.8) qg_quality = 'L3';
+            else qg_quality = 'L2';
         }
 
-        // 研究文件天花板限制：不得超過研究支撐的最高等級
-        // L5 由專家認證，不受研究文件天花板限制
-        if (quality !== 'L5') {
+        // L5 全檔覆蓋：需達到 L4 標準，且 expert verified
+        const isExpertVerified = content.meta && content.meta.verified_by === 'expert';
+        if (qg_quality === 'L4' && isExpertVerified) {
+            qg_quality = 'L5';
+        }
+
+        // --- 研究文件天花板限制 ---
+        const researchCheck = checkResearchSupport(filePath, meta);
+        const levelOrder = ['L1', 'L1 (BIAS)', 'L2', 'L3', 'L4', 'L5'];
+        if (qg_quality !== 'L5' && !qg_quality.includes('BIAS')) {
             const ceilingIdx = levelOrder.indexOf(researchCheck.ceiling);
-            const currentIdx = levelOrder.indexOf(quality);
-            if (currentIdx > ceilingIdx) {
-                quality = researchCheck.ceiling;
+            const realIdx = levelOrder.indexOf(qg_quality);
+            if (realIdx > ceilingIdx && ceilingIdx !== -1) {
+                qg_quality = researchCheck.ceiling;
             }
         }
 
-        // 把更新後的 JSON (含每題的 quality_level) 寫回檔案
+        // 將有品質標記 (QG 與 CQI) 的 JSON 寫回
         fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf8');
 
         return {
-            quality,
-            avgScore: avgScore.toFixed(2),
+            quality: qg_quality,       // QG (對外)
+            avgCqi: avgCqi.toFixed(2), // CQI (對內)
             count: total,
             taxCount,
             answerDist,
@@ -364,7 +351,7 @@ function scanDirectory(dir) {
     return results;
 }
 
-// 如果直接執行
+// 主程式執行區塊
 if (require.main === module) {
     const args = process.argv.slice(2);
     const isGateMode = args.includes('--gate');
@@ -381,7 +368,6 @@ if (require.main === module) {
             allResults = [evaluateFile(absoluteTarget)];
         }
 
-        // 彙整報表
         const summary = {
             totalFiles: allResults.length,
             totalQuestions: 0,
@@ -406,33 +392,37 @@ if (require.main === module) {
 
             const pub = r.meta.publisher || 'Unknown';
             if (!summary.byPublisher[pub]) {
-                summary.byPublisher[pub] = { files: 0, questions: 0, scores: [] };
+                summary.byPublisher[pub] = { files: 0, questions: 0, cqi_scores: [] };
             }
             summary.byPublisher[pub].files++;
             summary.byPublisher[pub].questions += r.count;
-            summary.byPublisher[pub].scores.push(parseFloat(r.avgScore));
+            summary.byPublisher[pub].cqi_scores.push(parseFloat(r.avgCqi));
         });
 
-        // 計算平均分
+        // 計算各出版社的全域 CQI
         for (const pub in summary.byPublisher) {
             const p = summary.byPublisher[pub];
-            p.avgQualityScore = (p.scores.reduce((a, b) => a + b, 0) / p.scores.length).toFixed(2);
-            delete p.scores;
+            p.avgCQI = (p.cqi_scores.reduce((a, b) => a + b, 0) / p.cqi_scores.length).toFixed(2);
+            delete p.cqi_scores;
         }
 
-        console.log('\n=== 題庫品質評核總結報告 ===');
+        console.log('\n=== 題庫雙軌品質評核總結報告 (CQI & QG) ===');
         console.log(JSON.stringify(summary, null, 2));
 
-        // 輸出詳細結果到檔案供後續使用
-        fs.writeFileSync('evaluation_report.json', JSON.stringify({ summary, details: allResults }, null, 2));
-        console.log('\n詳細報告已儲存至 evaluation_report.json');
+        const logDir = path.join(process.cwd(), 'docs/reports');
+        if (!fs.existsSync(logDir)) {
+            fs.mkdirSync(logDir, { recursive: true });
+        }
 
-        // 閘門模式邏輯
+        const reportPath = path.join(logDir, 'evaluation_report.json');
+        fs.writeFileSync(reportPath, JSON.stringify({ summary, details: allResults }, null, 2));
+        console.log(`\n詳細報告已儲存至 ${reportPath}`);
+
         if (isGateMode && hasCriticalFailure) {
-            console.error('\n❌ [Quality Gate] 偵測到嚴重品質異常或答案偏差，產出被攔截！');
+            console.error('\n❌ [Quality Gate] 偵測到嚴重品質異常或包含低於標準備備 (L1, L2) 之內容，產出被攔截！');
             process.exit(1);
         } else if (isGateMode) {
-            console.log('\n✅ [Quality Gate] 品質稽核通過。');
+            console.log('\n✅ [Quality Gate] 品質稽核通過。全數題庫均達 L3 嚴格標準以上！');
         }
     } else {
         console.log(`Path not found: ${absoluteTarget}`);

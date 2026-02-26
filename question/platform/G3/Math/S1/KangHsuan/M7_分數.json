@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "平分成 8 份，其中的 1 份就是八分之一 (1/8)。",
       "commonMisconception": "學生可能忽略「張」這個單位，誤以為是 1 份或 8 張。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "單位分數（分子為 1），分母越小，代表分成的份數越少，每一份就越大。5 < 8，所以 1/5 > 1/8。",
       "commonMisconception": "這是分數的核心迷思：學生常直覺認為數字 8 比 5 大，所以 1/8 比較大。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "1/10 + 1/10 = 2/10。同分母分數相加，分母不變，分子相加。",
       "commonMisconception": "學生常會把分母也相加，算出 2/20。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "分數的讀法是先讀分母再讀分子。九分之五表示分母為 9，分子為 5。",
       "commonMisconception": "學生常會搞混分子與分母的位置。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "兩人一共吃了 3/6 + 2/6 = 5/6。整條巧克力是 1，也就是 6/6。剩餘：6/6 - 5/6 = 1/6。",
       "commonMisconception": "兩步驟問題，需先加後減。學生可能算出 5/6 後就當成答案了。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

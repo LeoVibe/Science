@@ -19,7 +19,8 @@
       "answer_index": 2,
       "explanation": "讀取秤面上的數值與單位即可。",
       "commonMisconception": "對於公克(g)與公斤(kg)的數量級缺乏直觀感受。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 1,
       "explanation": "1 公斤 = 1000 公克，2 公斤 = 2000 公克。2000 + 450 = 2450 公克。",
       "commonMisconception": "進位錯誤，誤以為 1 公斤 = 100 公克।",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "總重 - 瓶重 = 果醬重。850 - 150 = 700 公克。",
       "commonMisconception": "誤用加法來計算。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 3,
       "explanation": "4 公斤 = 4000 公克。4000 - 3200 = 800 公克。",
       "commonMisconception": "單位未統一就直接進行數值比較（例如 3200 > 4）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "葡萄體積小且輕，適配單位為公克。",
       "commonMisconception": "單位性質選錯（例如選到長度或容量單位）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 0,
       "explanation": "500 + 200 + 300 = 1000 公克 = 1 公斤。",
       "commonMisconception": "忘記將計算出的公克數換算回題目要求的公斤單位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -109,7 +115,8 @@
       "answer_index": 3,
       "explanation": "5 公斤 = 5000 公克。4950 < 5000，故不需付費。",
       "commonMisconception": "數值大小判斷錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -124,7 +131,8 @@
       "answer_index": 2,
       "explanation": "3000 - (400 + 300) = 2300 公克 = 2 公斤 300 公克。",
       "commonMisconception": "計算借位錯誤（1 公斤借出為 1000 公克而非 100）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

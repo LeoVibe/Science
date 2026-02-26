@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "U6",
+    "title": "小數的乘法"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "0.4 乘以 0.08 等於多少？",
+      "options": ["0.32", "0.032", "3.2", "0.0032"],
+      "answer": "0.032",
+      "explanation": "4 × 8 = 32，小數點位數 1+2=3，所以是 0.032。"
+    }
+  ]
+}

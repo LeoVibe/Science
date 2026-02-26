@@ -268,8 +268,8 @@ export function clearSubjectHistory(grade: Grade, subject: Subject, semester: Se
   localStorage.setItem(PRACTICE_KEY, JSON.stringify(all));
 }
 
-/** 刪除所有 history_*、progress_* 與 sci_v2_all_practice_history */
-export function clearAllHistory(): void {
+/** 刪除所有 history_*、progress_* 與 sci_v2_all_practice_history，可選是否清除 user/profile 偏好 */
+export function clearAllHistory(includeProfileData: boolean = false): void {
   const keysToRemove: string[] = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
@@ -277,4 +277,9 @@ export function clearAllHistory(): void {
   }
   keysToRemove.forEach(k => localStorage.removeItem(k));
   localStorage.removeItem(PRACTICE_KEY);
+  if (includeProfileData) {
+    localStorage.removeItem(USER_ID_KEY);
+    localStorage.removeItem(PREF_KEY);
+    localStorage.removeItem(PROFILE_KEY);
+  }
 }

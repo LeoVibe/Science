@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M4",
+    "order": 4,
+    "title": "公里"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "1 公里等於多少公尺？",
+      "options": [
+        "10000 公尺",
+        "10 公尺",
+        "100 公尺",
+        "1000 公尺"
+      ],
+      "answer": "1000 公尺",
+      "explanation": "長度單位的千進位關係。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "小明家到學校的距離是 5 公里，也可以說是 5000 公尺。",
+      "answer": "True",
+      "explanation": "5 × 1000 = 5000。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "2 公里 45 公尺 = ______ 公尺。",
+      "answer": "2045",
+      "explanation": "2 km = 2000 m，2000 + 45 = 2045。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "跑步比賽繞操場跑 10 圈，每圈 400 公尺，總共跑了多少公里？",
+      "options": [
+        "0.4 公里",
+        "40 公里",
+        "4 公里",
+        "400 公里"
+      ],
+      "answer": "4 公里",
+      "explanation": "400 × 10 = 4000 公尺 = 4 公里。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪種情境最適合用「公里」作為測量單位？",
+      "options": [
+        "操場一圈的長度",
+        "數學課本的厚度",
+        "鉛筆的長度",
+        "兩個城市之間的公路距離"
+      ],
+      "answer": "兩個城市之間的公路距離",
+      "explanation": "大範圍的地理距離適合使用公制中的「千米」（公里）。"
+    }
+  ]
+}

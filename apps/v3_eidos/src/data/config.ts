@@ -17,15 +17,26 @@ export const SEMESTER_NAMES: Record<Semester, string> = {
 };
 
 export const PUBLISHER_META_MAP: Record<Publisher, string> = {
-  '康軒': 'kang_hsuan',
-  '南一': 'nan_yi',
-  '翰林': 'han_lin',
+  '康軒': 'KangHsuan',
+  '南一': 'NanYi',
+  '翰林': 'HanLin',
 };
 
 export const PUBLISHER_SHORT: Record<Publisher, string> = {
   '康軒': '康',
   '南一': '南',
   '翰林': '翰',
+};
+
+/**
+ * 出版社主題色（全站唯一來源）
+ * 色系方向：低飽和度、莫蘭迪風，適合長時間閱讀的教育產品
+ * 康軒 → 寧靜灰藍  南一 → 柔和粉玫瑰  翰林 → 清新湖水綠
+ */
+export const PUBLISHER_THEME_COLORS: Record<Publisher, string> = {
+  '康軒': 'hsl(200 40% 62%)',
+  '南一': 'hsl(340 43% 63%)',
+  '翰林': 'hsl(168 35% 52%)',
 };
 
 export function getSubjectsByGrade(grade: Grade): Subject[] {
@@ -35,10 +46,10 @@ export function getSubjectsByGrade(grade: Grade): Subject[] {
 
 export const SUBJECT_ICONS: Record<Subject, string> = {
   '國語': '📖',
-  '數學': '🔢',
-  '英語': '🔤',
+  '數學': '➕',
+  '英語': '🅰️',
   '自然': '🔬',
-  '社會': '🌍',
+  '社會': '🏛️',
   '生活': '🌈',
 };
 
@@ -104,6 +115,10 @@ export interface RawQuestion {
   scenario?: string;
   /** 迷思診斷（選錯時顯示） */
   commonMisconception?: string;
+  /** 控制題目前台可見度（false = 下架） */
+  is_active?: boolean;
+  cqi_score?: number;
+  quality_level?: string;
 }
 
 export interface Question extends RawQuestion {
@@ -113,6 +128,8 @@ export interface Question extends RawQuestion {
   lessonOrder: number;
   normalizedAnswer: number;
   options: string[];
+  /** 題庫檔案來源路徑 (供後台編輯使用) */
+  _sourceFile?: string;
 }
 
 export interface QuestionFile {

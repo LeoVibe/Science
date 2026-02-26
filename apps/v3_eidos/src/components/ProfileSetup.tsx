@@ -1,5 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { Grade, Semester, Publisher, Subject, SUBJECT_ICONS, SUBJECT_THEME_MAP, APP_CONFIG, SEMESTER_NAMES, getSubjectsByGrade } from '@/data/config';
+import { clearSubjectHistory, getPublisherForSubject } from '@/utils/storage';
 import type { LibraryConfig } from '@/components/admin/AdminLibraryManager';
 
 const PUBLISHER_COLORS: Record<Publisher, string> = {
@@ -349,6 +350,39 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
                       {num} 題
                     </button>
                   ))}
+                </div>
+              </div>
+
+              {/* 清除學習紀錄 */}
+              <div className="border-t border-border pt-3">
+                <p className="text-[11px] font-bold text-muted-foreground mb-1 tracking-wider">🗑️ 清除學習紀錄</p>
+                <div className="grid grid-cols-2 gap-2 mt-3">
+                  {subjects.map(subj => {
+                    const pub = getPublisherForSubject(subj);
+                    return (
+                      <div key={subj} className="flex items-center justify-between gap-2 px-2.5 py-2 rounded-lg border border-border/60 hover:bg-muted/50 transition-colors">
+                        <div className="min-w-0">
+                          <div className="flex items-center gap-1.5">
+                            <span className="text-sm">{SUBJECT_ICONS[subj]}</span>
+                            <span className="text-sm font-medium text-foreground">{subj}</span>
+                          </div>
+                          <span className="text-[10px] text-muted-foreground block truncate">({pub}版)</span>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (confirm(`確定要清除 ${GRADE_LABELS[grade]}年級 ${subj}（${pub}版）的答題紀錄嗎？\n\n此操作不可恢復，但後台累計統計不受影響。`)) {
+                              clearSubjectHistory(grade, subj, semester, pub);
+                              alert(`✅ 已清除 ${subj} 的答題紀錄`);
+                            }
+                          }}
+                          className="text-[10px] font-medium text-destructive/70 hover:text-destructive bg-destructive/5 hover:bg-destructive/10 px-2 py-1 rounded-lg transition-colors shrink-0"
+                        >
+                          清除
+                        </button>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>

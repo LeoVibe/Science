@@ -72,7 +72,7 @@ function scanPlatform() {
 
                                 // 實際讀取每個單元檔案來統計題數與分數
                                 unitList.forEach(item => {
-                                    const itemPath = item.path || item.file;
+                                    const itemPath = item.file;
                                     if (itemPath) {
                                         const filePath = path.join(publisherDir, itemPath);
                                         if (fs.existsSync(filePath) && filePath.endsWith('.json')) {
@@ -80,7 +80,15 @@ function scanPlatform() {
                                                 const evalResult = evaluateFile(filePath);
                                                 if (evalResult && evalResult.quality !== 'BROKEN') {
                                                     totalQuestions += evalResult.count;
-                                                    totalScore += parseFloat(evalResult.avgScore) * evalResult.count;
+                                                    totalScore += parseFloat(evalResult.avgCqi || 0) * evalResult.count;
+
+                                                    // QG 採用最嚴格木桶原則或以最高等為代表？
+                                                    // 前台展示單一年級版本的最優/最新綜合品質（此為 aggregator）
+                                                    // 改為讀取 evalResult 本身的 quality
+                                                    const qLevels = ['L1', 'L1 (BIAS)', 'L2', 'L3', 'L4', 'L5'];
+                                                    if (qLevels.indexOf(evalResult.quality) > qLevels.indexOf(highestQuality)) {
+                                                        highestQuality = evalResult.quality;
+                                                    }
                                                 }
                                             } catch (err) {
                                                 console.error(`Error scoring ${filePath}:`, err.message);
@@ -90,13 +98,9 @@ function scanPlatform() {
                                 });
                             }
 
-                            // 整個年級＋學科＋出版社的品質評分，是由每一課每一題的品質分數加總平均出來的
+                            let packageAvgCqi = 0;
                             if (totalQuestions > 0) {
-                                const packageAvg = totalScore / totalQuestions;
-                                if (packageAvg >= 6.5) highestQuality = 'L5';
-                                else if (packageAvg >= 4.5) highestQuality = 'L4';
-                                else if (packageAvg >= 3.0) highestQuality = 'L3';
-                                else if (packageAvg >= 1.5) highestQuality = 'L2';
+                                packageAvgCqi = (totalScore / totalQuestions).toFixed(2);
                             }
 
                             const statKey = `${grade}_${semester}_${subject}`;
@@ -122,7 +126,8 @@ function scanPlatform() {
                             publisherStats[pubStatKey] = {
                                 units: unitCount,
                                 questions: totalQuestions,
-                                quality: highestQuality
+                                quality: highestQuality,
+                                cqi: packageAvgCqi
                             };
 
                         } catch (e) {

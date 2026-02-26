@@ -1,265 +1,192 @@
 {
-  "publisher": "NanYi",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U4",
-  "lesson_title": "Family & Jobs",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U4",
+    "lesson_name": "What time is it?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Looking at a Photo",
-      "question": "A: Who is he? \nB: He is my father. He is a ______.",
+      "id": "NY-G3S2-U4-001",
+      "type": "multiple_choice",
+      "scenario": "A mother is asking her son about the time to watch his favorite show.",
+      "question": "Mom: ___________________\nSon: It's six o'clock. The cartoon is on!",
       "options": [
-        "doctor",
-        "nurse",
-        "student",
-        "sister"
+        "Who is the time?",
+        "Where is the time?",
+        "What time is it?",
+        "How old is it?"
+      ],
+      "answer_index": 2,
+      "explanation": "根據回答 It's six o'clock (六點鐘)，可知問句是詢問時間。標準問法為 What time is it?。選項 B 和 C 的疑問詞(Where/Who) 錯誤；選項 D 是問年齡。",
+      "taxonomy": "inferential",
+      "commonMisconception": "被其他常見疑問句型混淆，沒將 It's six o'clock 與 What time 對接。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-002",
+      "type": "multiple_choice",
+      "scenario": "Two students meet at the bus stop in the morning.",
+      "question": "Student A: Is it seven thirty? The bus is late.\nStudent B: ___________________\nStudent A: Oh no! We are late for school.",
+      "options": [
+        "Yes, it is. It's seven o'clock.",
+        "No, it doesn't. It's eight o'clock.",
+        "No, it isn't. It's eight o'clock.",
+        "Yes, they are. They are eight o'clock."
+      ],
+      "answer_index": 2,
+      "explanation": "Student A 回應 We are late for school (我們遲到了)，推斷現在的時間已經比 7:30 晚了。問句 Is it...? 否定回答為 No, it isn't.。選項 B 的 7:00 不會遲到；選項 C 錯用 doesn't；選項 D 錯搭複數 They are。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對於時間 Is it...? 的問句錯用 doesn't 回答，或是無法理解對話中『遲到』的邏輯推理。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-003",
+      "type": "multiple_choice",
+      "scenario": "A family is looking at the clock around dinnertime.",
+      "question": "Dad: What time is it?\nMom: ___________________\nDad: Let's have dinner now.",
+      "options": [
+        "Is it six thirty?",
+        "It is six thirty.",
+        "They are six thirty.",
+        "It are six thirty."
+      ],
+      "answer_index": 1,
+      "explanation": "詢問時間 What time is it? 必須用單數代名詞 It 搭配 is 來回答。選項 B 錯搭 are；選項 C 錯用 they；選項 D 仍是問句語氣不合邏輯。",
+      "taxonomy": "applied",
+      "commonMisconception": "常將 It is 的陳述句型誤用為 Is it 問句型態，或是錯搭複數 Be 動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-004",
+      "type": "multiple_choice",
+      "scenario": "A girl asks her brother for the time because she has a piano class.",
+      "question": "Girl: My piano class is at four o'clock. What time is it?\nBrother: ___________________",
+      "options": [
+        "It's four thirty. You have time.",
+        "It's four o'clock. You have time.",
+        "It's three thirty. You are late.",
+        "It's three thirty. You have time."
+      ],
+      "answer_index": 3,
+      "explanation": "鋼琴課四點開始。如果弟弟說 You have time (你還有時間)，代表現在還不到四點，因此三點半 (three thirty) 合理。選項 B 指已經四點半了不合邏輯；選項 C 說三點半卻遲到不合邏輯；選項 D 四點正剛好開始，不會說還有優裕時間。",
+      "taxonomy": "inferential",
+      "commonMisconception": "無法統合時間數字與情境邏輯 (遲到或還有時間) 的推演。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-005",
+      "type": "multiple_choice",
+      "scenario": "Two kids are playing at the park in the afternoon.",
+      "question": "Kid A: It is getting dark. Is it six o'clock?\nKid B: ___________________\nKid A: Okay, it's time to go home.",
+      "options": [
+        "Yes, it does. Let's go.",
+        "Yes, it is. Let's go.",
+        "No, it isn't. Let's go.",
+        "No, it doesn't. Let's go."
+      ],
+      "answer_index": 1,
+      "explanation": "天色變暗，朋友問 Is it 且回答 Let's go home，代表確認時間已經晚了。肯定回答為 Yes, it is.。選項 B 意義矛盾；選項 C, D 錯用助動詞 does/doesn't 代替 is/isn't。",
+      "taxonomy": "applied",
+      "commonMisconception": "對 Is it 提問，錯用 does/doesn't 回答。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-006",
+      "type": "multiple_choice",
+      "scenario": "A student looks at the clock during a math test.",
+      "question": "Student: What time is it?\nTeacher: ___________________\nStudent: Oh! I only have ten minutes.",
+      "options": [
+        "It is ten o'clock. The test starts at ten ten.",
+        "It is ten o'clock. The test ends at ten ten.",
+        "It is ten thirty. The test ends at ten ten.",
+        "It is ten o'clock. The test ends at ten thirty."
+      ],
+      "answer_index": 1,
+      "explanation": "學生說只剩十分鐘 (only have ten minutes)。若現在十點整，測驗在十點十分結束 (ends at ten ten)，剛好是十分鐘，符合邏輯推理。選項 B 是三十分鐘；選項 C 已經超時；選項 D 是測驗開始不符語境。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對時間進行加減 (10 點 + 10 分鐘) 推算感到困難，無法選出合理的對話設定。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-007",
+      "type": "multiple_choice",
+      "scenario": "Dad is waking up his daughter for a school trip.",
+      "question": "Dad: Get up! It's five thirty.\nDaughter: ___________________\nDad: Yes, the bus leaves early.",
+      "options": [
+        "Is it five thirty? It's so early!",
+        "What time is it? It's so early!",
+        "Are you five thirty? It's so early!",
+        "Is it five thirty? It's so late!"
       ],
       "answer_index": 0,
-      "explanation": "在選項中，doctor 是常見的職業名稱。sister 是親屬稱謂而非職業。",
-      "commonMisconception": "學生可能分不清職業 (Jobs) 與親屬稱謂 (Family members)。",
-      "quality_level": "L4"
+      "explanation": "因為爸爸已經說 It's five thirty，女兒訝異地反問 Is it five thirty? (五點半了嗎？好早！)。從後面老爸說『對，車子很早開』確認。選項 B 重複問時間；選項 C 錯用 are you；選項 D (so late) 語意矛盾。",
+      "taxonomy": "applied",
+      "commonMisconception": "把 Is it (反問確認) 與 What time (直接提問) 的使用時機混淆。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "School Visit",
-      "question": "My mother works in a school. She is a ______. She likes books.",
+      "id": "NY-G3S2-U4-008",
+      "type": "multiple_choice",
+      "scenario": "A grandmother asks her grandson to look at the wall clock.",
+      "question": "Grandma: I can't see the clock. ___________________\nGrandson: It is nine o'clock, Grandma.",
       "options": [
-        "doctor",
-        "nurse",
-        "teacher",
-        "student"
+        "When is the time?",
+        "What is it time?",
+        "Where is the time?",
+        "What time is it?"
       ],
-      "answer_index": 2,
-      "explanation": "在學校工作且喜歡書的職業通常是老師 (teacher)。",
-      "commonMisconception": "學生可能混淆 teacher 與 student，或者不認識 school 所在地點。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "In the Hospital",
-      "question": "The ______ is helping the doctor. She is wearing white.",
-      "options": [
-        "doctor",
-        "nurse",
-        "teacher",
-        "student"
-      ],
-      "answer_index": 1,
-      "explanation": "在醫院協助醫生且穿著白色制服的人通常是護理師 (nurse)。",
-      "commonMisconception": "分不清 doctor 與 nurse 的主從及角色差異。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Identifying Family members",
-      "question": "A: Is she your mother? \nB: Yes, she ______.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 1,
-      "explanation": "主詞 she 對應的 B 動詞是 is。",
-      "commonMisconception": "基礎 B 動詞搭配錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Talking about a Friend",
-      "question": "He ______ a student. He is my best friend.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 1,
-      "explanation": "He 是第三人稱單數主詞，應配 B 動詞 is。",
-      "commonMisconception": "主謂不一致。",
-      "quality_level": "L4"
-    },
-    {
+      "answer_index": 3,
+      "explanation": "標準詢問現在幾點的句型是 What time is it?。選項 B 詞序錯誤；選項 C 和 D 是錯誤的疑問詞翻譯 (何時是時間/時間在哪裡)。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Guessing Job",
-      "question": "A: Is your brother a teacher? \nB: No, he ______. He is a student.",
-      "options": [
-        "am not",
-        "don't",
-        "isn't",
-        "aren't"
-      ],
-      "answer_index": 2,
-      "explanation": "'Is he...?' 的否定簡答為 'No, he isn't'。",
-      "commonMisconception": "否定縮寫錯誤或助動詞選錯。",
-      "quality_level": "L4"
+      "commonMisconception": "中式英文直翻，認為時間可以用 When is the time 來問現在幾點。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "NY-G3S2-U4-009",
+      "type": "multiple_choice",
+      "scenario": "A child is impatient while waiting for a movie to start at two o'clock.",
+      "question": "Child: ___________________\nMom: No, it isn't. It's only one thirty.",
+      "options": [
+        "Is it two o'clock?",
+        "What time is it?",
+        "Is it one thirty?",
+        "Are they two o'clock?"
+      ],
+      "answer_index": 0,
+      "explanation": "根據媽媽的回答 No, it isn't. 可以得知這是一個 Yes/No 問句，且從「才一點半」可推論小孩原本在問期待的兩點到了沒。選項 B 無法用 Yes/No 回答；選項 C 則媽媽會回答 Yes；選項 D 錯用複數。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Family Picnic",
-      "question": "A: Who is that woman (女人)? \nB: ______ is my grandmother. She is eighty years old.",
+      "commonMisconception": "無法從回答的 No, it isn't. 推論出問句必須是 Is it 開頭的封閉式問句。",
+      "cqi_score": 8.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "NY-G3S2-U4-010",
+      "type": "multiple_choice",
+      "scenario": "At the train station, a man asks a staff member checking the schedule.",
+      "question": "Man: Excuse me. Is it eleven o'clock?\nStaff: ___________________ The train is here.",
       "options": [
-        "He",
-        "She",
-        "It",
-        "They"
+        "No, it isn't.",
+        "Yes, it is.",
+        "Yes, it does.",
+        "No, it doesn't."
       ],
       "answer_index": 1,
-      "explanation": "Woman 或 Grandmother 都是女性，代名詞應使用 She。",
-      "commonMisconception": "性別代名詞 He/She 混淆。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "At the Clinic",
-      "question": "Leo: 'Dad, I'm not fine today.' \nDad: 'Don't worry. We are going to see (看) a ______.'",
-      "options": [
-        "teacher",
-        "doctor",
-        "student",
-        "sister"
-      ],
-      "answer_index": 1,
-      "explanation": "身體不舒服時，應該去看醫生 (doctor)。",
-      "commonMisconception": "不具備生活常識情境的英語轉換力。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "Are ______ doctors? No, they are nurses.",
-      "options": [
-        "he",
-        "she",
-        "they",
-        "it"
-      ],
-      "answer_index": 2,
-      "explanation": "後面的簡答是 they，則疑問句主詞也應是 they，且 doctors 為複數。",
-      "commonMisconception": "單複數人稱代名詞與名詞不一致。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "從 The train is here 可判斷，符合了班車到達的時間，所以是肯定回應。對於 Is it 提問，簡答為 Yes, it is.。選項 C 與 D 錯搭助動詞 does。",
       "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Family Album",
-      "question": "My father is a doctor. My mother is a nurse. I am a student. \nQuestion: Is the father a nurse?",
-      "options": [
-        "Yes, he is.",
-        "No, he isn't. He's a doctor.",
-        "Yes, she is.",
-        "No, she isn't."
-      ],
-      "answer_index": 1,
-      "explanation": "文本中說爸爸是醫生 (doctor)，故否定問題。簡答用 'No, he isn't'。",
-      "commonMisconception": "閱讀時職業配對錯誤。",
-      "quality_level": "L3"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "School Morning",
-      "question": "A: Good morning, Mrs. Chen! \nB: Good morning, Sam. Open your books, please. \nQuestion: What is Mrs. Chen's job?",
-      "options": [
-        "She is a doctor.",
-        "She is a teacher.",
-        "She is a nurse.",
-        "She is a student."
-      ],
-      "answer_index": 1,
-      "explanation": "Mrs. Chen 叫學生開書，推論她是老師 (teacher)。",
-      "commonMisconception": "無法從對話指令中推論身分。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Guess the Person",
-      "question": "I have a white coat. I work with doctors. I like to help people (人們). \nQuestion: Who am I?",
-      "options": [
-        "A teacher",
-        "A nurse",
-        "A student",
-        "A bird"
-      ],
-      "answer_index": 1,
-      "explanation": "穿白衣、與醫生共事且助人，在給定選項中護理師 (nurse) 最符合。",
-      "commonMisconception": "學生可能誤以為是學生（若穿白色校服），但關鍵是「與醫生共事」。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Correct Article",
-      "question": "Miss Lin is ______ English teacher. She is great!",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "X"
-      ],
-      "answer_index": 1,
-      "explanation": "English 以元音開頭，單數不定冠詞應使用 an。",
-      "commonMisconception": "不定冠詞 a/an 的混淆。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Family Tree",
-      "question": "Sam's father is a doctor. Sam is ten years old. \nQuestion: Is Sam a doctor, too?",
-      "options": [
-        "Yes, he is.",
-        "No, he isn't. He's a student.",
-        "Yes, they are.",
-        "No, they aren't."
-      ],
-      "answer_index": 1,
-      "explanation": "Sam 才十歲，應該還在讀書 (student)，不可能已經是醫生。",
-      "commonMisconception": "學生可能因為文本提到 doctor 就直接選 Yes，忽略了年齡常識。",
-      "quality_level": "L3"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Hospital Busy Day",
-      "question": "Doctors and nurses are very busy. They are in the ______. \nQuestion: Where are they?",
-      "options": [
-        "school",
-        "hospital (醫院)",
-        "park",
-        "bedroom"
-      ],
-      "answer_index": 1,
-      "explanation": "醫生和護士的主要工作場所是醫院 (hospital)。",
-      "commonMisconception": "單字量限制，可能不認識 hospital。",
-      "quality_level": "L4"
+      "commonMisconception": "在簡短的對話中，忽略助動詞對稱的鐵律，而將 is 與 does 混用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

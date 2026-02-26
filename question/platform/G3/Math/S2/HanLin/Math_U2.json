@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "1 公升 = 1000 毫升。1000 - 350 = 650 毫升。",
       "commonMisconception": "學生可能不知道 1 公升 = 1000 毫升，直接用 1 - 350 而無法計算。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "2 杯共 400 × 2 = 800 毫升。水壺容量 1000 毫升。1000 - 800 = 200 毫升。",
       "commonMisconception": "學生可能忘了乘以 2，直接用 1000 - 400 = 600。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "4 瓶 = 4000 毫升。需要 3 公升 500 毫升 = 3500 毫升。4000 - 3500 = 500 毫升。",
       "commonMisconception": "公升與毫升的混合運算需要先統一單位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "甲杯 = 2300 毫升。乙杯 = 2400 毫升。2400 > 2300，乙杯多 100 毫升。",
       "commonMisconception": "看到甲杯有公升單位就以為比較大，忽略了實際數值轉換。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 3,
       "explanation": "800 × 5 = 4000 毫升 = 4 公升 0 毫升。",
       "commonMisconception": "學生可能不確定 4000 毫升要怎麼換算成公升。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

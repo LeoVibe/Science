@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "156 ÷ 6 = 26。直式：15÷6=2...3，把 3 與 6 合併成 36，36÷6=6。商為 26。",
       "commonMisconception": "在直式中，被除數的十位與百位合併計算後，餘數再與個位合併的過程容易出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 2,
       "explanation": "340 ÷ 8 = 42 ... 4。42 箱裝滿，剩下 4 個。",
       "commonMisconception": "餘數必須小於除數（4 < 8，正確）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "73 ÷ 9 = 8 ... 1。8 輛坐滿後，剩下 1 人還需 1 輛車。合計 9 輛。",
       "commonMisconception": "「進一法」的應用：有餘數就必須多配一輛車。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "4÷4=1，0÷4=0（十位補0），8÷4=2。商為 102。",
       "commonMisconception": "學生跳過中間的 0，把答案寫成 12。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 1,
       "explanation": "被除數 = 7 × 35 + 6 = 245 + 6 = 251。",
       "commonMisconception": "先乘後加，學生容易在乘法或最後的加法中出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

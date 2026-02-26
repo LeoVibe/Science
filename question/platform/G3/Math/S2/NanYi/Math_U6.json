@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "250 × 4 = 1000 公克。1000 公克 = 1 公斤。",
       "commonMisconception": "學生需要記住 1 公斤 = 1000 公克的換算關係。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 2,
       "explanation": "5 公斤 = 5000 公克。3 公斤 800 公克 = 3800 公克。5000 - 3800 = 1200 公克。",
       "commonMisconception": "需要先統一單位才能做減法。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "500 + 300 + 200 = 1000 公克 = 1 公斤。",
       "commonMisconception": "從公克到公斤的換算需要除以 1000。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 3,
       "explanation": "甲 = 2400 公克。乙 = 2350 公克。2400 > 2350，甲較重。",
       "commonMisconception": "混合單位比較時，必須先轉換為相同單位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "3.5 公斤 × 60 = 210 元。或 3×60=180, 0.5×60=30, 180+30=210。",
       "commonMisconception": "重量與金額的乘法結合應用，需理解半公斤的概念。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

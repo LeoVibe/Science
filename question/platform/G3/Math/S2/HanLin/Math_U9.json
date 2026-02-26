@@ -19,7 +19,8 @@
       "answer_index": 2,
       "explanation": "面積的單位是「平方公分」，每一個小正方形的面積是 1 平方公分。15 個就是 15 平方公分。",
       "commonMisconception": "學生經常把面積的單位與長度的單位搞混（公分 vs 平方公分）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "甲 = 12 平方公分。乙 = 9 + 4×0.5 = 9 + 2 = 11 平方公分。12 > 11。",
       "commonMisconception": "學生可能不知道半格怎麼計算，或者直接把半格也算成 1 格。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "甲 = 8 × 6 = 48 平方公尺。乙 = 7 × 7 = 49 平方公尺。49 > 48。",
       "commonMisconception": "學生可能直覺認為長方形的兩邊加起來比較大就面積大。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "面積 = 5 × 5 = 25 平方公分。周長 = 5 × 4 = 20 公分。",
       "commonMisconception": "面積與周長是三年級學生最常搞混的概念，特別是單位不同（平方公分 vs 公分）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "每個小正方形面積 = 2 × 2 = 4 平方公分。6 個 = 4 × 6 = 24 平方公分。",
       "commonMisconception": "學生可能忘記每個方塊的面積是 4（不是 2），因為邊長 2 公分的面積是 2×2=4。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U3",
+    "order": 3,
+    "title": "Unit 3 Can You Swim?",
+    "verified": true,
+    "verification_source": "康軒官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Can you swim? B: Yes, I ______.",
+      "options": [
+        "like",
+        "am",
+        "do",
+        "can"
+      ],
+      "answer": "can",
+      "explanation": "Can you...? 的肯定回答是 Yes, I can。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'He can ride a bike.' means '他會騎腳踏車'。",
+      "answer": "True",
+      "explanation": "can ride a bike 表示會騎腳踏車。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Can she play basketball? B: No, she ______.",
+      "answer": "can't / cannot",
+      "explanation": "Can...? 的否定回答是 No, she can't。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: What can you do? B: I can ______.",
+      "options": [
+        "skating",
+        "skates",
+        "skate",
+        "to skate"
+      ],
+      "answer": "skate",
+      "explanation": "can 後面接動詞原形。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Birds ______ fly in the sky.",
+      "options": [
+        "are",
+        "is",
+        "can",
+        "do"
+      ],
+      "answer": "can",
+      "explanation": "表示能力用 can。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M4",
+    "title": "乘法",
+    "semester": "semester_1",
+    "order": 4
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "一盒鉛筆 48 元，買 5 盒要多少錢？",
+      "options": [
+        "280",
+        "250",
+        "240",
+        "200"
+      ],
+      "answer": "240",
+      "explanation": "48 × 5 = 240。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "250 × 4 = 1000。",
+      "answer": "True",
+      "explanation": "250 乘以 4 等於 1000。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一星期有 7 天，12 個星期共有______天。",
+      "answer": "84",
+      "explanation": "12 × 7 = 84。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 60 × 8 = ？",
+      "options": [
+        "480",
+        "540",
+        "600",
+        "420"
+      ],
+      "answer": "480",
+      "explanation": "6 × 8 = 48，再補一個 0。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "學校大禮堂每排有 15 個座位，共有 9 排，全部有多少個座位？",
+      "options": [
+        "145",
+        "135",
+        "125",
+        "155"
+      ],
+      "answer": "135",
+      "explanation": "15 × 9 = 135。"
+    }
+  ]
+}

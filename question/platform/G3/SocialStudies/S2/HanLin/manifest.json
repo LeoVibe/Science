@@ -1,41 +1,33 @@
 {
   "publisher": "HanLin",
+  "subject": "SocialStudies",
   "grade": "G3",
   "semester": "S2",
-  "subject": "SocialStudies",
   "items": [
     {
-      "id": "Soc_U1",
-      "title": "認識居住地",
-      "path": "Soc_U1.json"
+      "id": "U1",
+      "file": "Soc_U1.json",
+      "title": "居住環境與地名探索"
     },
     {
-      "id": "Soc_U2",
-      "title": "多元生活",
-      "path": "Soc_U2.json"
+      "id": "U2",
+      "file": "Soc_U2.json",
+      "title": "居住地方的故事"
     },
     {
-      "id": "Soc_U3",
-      "title": "商店與購物",
-      "path": "Soc_U3.json"
+      "id": "U3",
+      "file": "Soc_U3.json",
+      "title": "商店與理性消費"
     },
     {
-      "id": "Soc_U4",
-      "title": "為地方服務",
-      "path": "Soc_U4.json"
+      "id": "U4",
+      "file": "Soc_U4.json",
+      "title": "群體參與及權益服務"
     },
     {
-      "id": "Soc_U5",
-      "title": "地方故事",
-      "path": "Soc_U5.json"
+      "id": "U5",
+      "file": "Soc_U5.json",
+      "title": "家鄉故事與古蹟保存"
     }
-  ],
-  "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9.6,
-      "accuracyScore": 9.8,
-      "isVerified": true
-    }
-  }
+  ]
 }

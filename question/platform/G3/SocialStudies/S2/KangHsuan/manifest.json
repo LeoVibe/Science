@@ -1,46 +1,41 @@
 {
-  "publisher": "KangHsuan",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "SocialStudies",
-  "items": [
-    {
-      "id": "Soc_U1",
-      "title": "我們居住的地方",
-      "path": "Soc_U1.json"
+    "version": "1.0",
+    "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "SocialStudies",
+        "publisher": "KangHsuan"
     },
-    {
-      "id": "Soc_U2",
-      "title": "居住地方的風貌",
-      "path": "Soc_U2.json"
-    },
-    {
-      "id": "Soc_U3",
-      "title": "消費與生活",
-      "path": "Soc_U3.json"
-    },
-    {
-      "id": "Soc_U4",
-      "title": "消費與選擇",
-      "path": "Soc_U4.json"
-    },
-    {
-      "id": "Soc_U5",
-      "title": "家鄉的地名",
-      "path": "Soc_U5.json"
-    },
-    {
-      "id": "Soc_U6",
-      "title": "家鄉的故事",
-      "path": "Soc_U6.json"
-    }
-  ],
-  "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9.5,
-      "accuracyScore": 9.8,
-      "isVerified": true
-    }
-  }
+    "items": [
+        {
+            "id": "KH-G3S2-Soc-U1",
+            "title": "我們居住的地方",
+            "file": "Soc_U1.json"
+        },
+        {
+            "id": "KH-G3S2-Soc-U2",
+            "title": "居住地方的風貌",
+            "file": "Soc_U2.json"
+        },
+        {
+            "id": "KH-G3S2-Soc-U3",
+            "title": "消費與生活",
+            "file": "Soc_U3.json"
+        },
+        {
+            "id": "KH-G3S2-Soc-U4",
+            "title": "消費與選擇",
+            "file": "Soc_U4.json"
+        },
+        {
+            "id": "KH-G3S2-Soc-U5",
+            "title": "家鄉的地名",
+            "file": "Soc_U5.json"
+        },
+        {
+            "id": "KH-G3S2-Soc-U6",
+            "title": "家鄉的故事",
+            "file": "Soc_U6.json"
+        }
+    ]
 }

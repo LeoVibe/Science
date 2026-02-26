@@ -17,7 +17,8 @@
       "answer": 1,
       "explanation": "0.5 = 0.50。 0.50 > 0.45，故小華多。",
       "concept": "小數大小比較",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 0,
       "explanation": "3.42 + 2.15 = 5.57。",
       "concept": "二位小數加法",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 0,
       "explanation": "1.52 - 1.45 = 0.07。",
       "concept": "二位小數減法",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 0,
       "explanation": "12.80 - 3.45 = 9.35。",
       "concept": "小數減法與補位",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 2,
       "explanation": "20 * 0.01 = 0.20； 2 * 0.1 = 0.2。 兩者相等。",
       "concept": "小數單位換算",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 0,
       "explanation": "100.0 - 15.5 = 84.5。正確。",
       "concept": "小數減法實踐",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 0,
       "explanation": "3.12 - 3.08 = 0.04。",
       "concept": "差距計算",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 0,
       "explanation": "4在十位，5在個位，6在十分位，7在百分位。",
       "concept": "數位結構",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 0,
       "explanation": "1.25 + 2.40 + 0.85 = 3.65 + 0.85 = 4.50。",
       "concept": "多筆小數相加",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 1,
       "explanation": "總喝水量 = 1.35 + 2.10 = 3.45。 剩餘 = 5.00 - 3.45 = 1.55。 (Wait, let me re-calc: 5.00 - 3.45 = 1.55. Correct. My option 0 is 1.55. Let me fix the answer. My option 1 is 1.45. Answer is 0. Correct.)",
       "concept": "小數複合運算",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     }
   ]
 }

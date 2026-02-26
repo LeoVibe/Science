@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "kang_hsuan",
+        "lesson": "U3",
+        "title": "容積"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "一個內部長10公分、寬10公分、高10公分的正方體容器，其容積是多少毫升(mL)？",
+            "options": [
+                "100",
+                "1000",
+                "10",
+                "10000"
+            ],
+            "answer": "1000",
+            "explanation": "10×10×10 = 1000立方公分。1立方公分 = 1毫升。"
+        }
+    ]
+}

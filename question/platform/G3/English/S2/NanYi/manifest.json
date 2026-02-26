@@ -1,7 +1,28 @@
 {
   "publisher": "NanYi",
+  "subject": "English",
   "grade": "G3",
   "semester": "S2",
-  "subject": "English",
-  "items": []
+  "items": [
+    {
+      "id": "U1",
+      "file": "Eng_U1.json",
+      "title": "How old are you?"
+    },
+    {
+      "id": "U2",
+      "file": "Eng_U2.json",
+      "title": "Can you sing?"
+    },
+    {
+      "id": "U3",
+      "file": "Eng_U3.json",
+      "title": "Is he a doctor?"
+    },
+    {
+      "id": "U4",
+      "file": "Eng_U4.json",
+      "title": "What time is it?"
+    }
+  ]
 }

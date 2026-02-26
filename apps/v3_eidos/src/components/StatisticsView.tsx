@@ -131,7 +131,8 @@ export default function StatisticsView({
             type="button"
             onClick={() => {
               if (window.confirm('⚠️ 即將「完全刪除」本機所有個人歷程資料（含各年級、科目、出版社的答題與練習紀錄），且無法復原。確定要繼續嗎？')) {
-                clearAllHistory();
+                const includeProfile = window.confirm('是否連同裝置識別與偏好設定（eidos_user_id、個人偏好）一併清除？');
+                clearAllHistory(includeProfile);
                 window.location.reload();
               }
             }}

@@ -1,265 +1,192 @@
 {
-  "publisher": "NanYi",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U1",
-  "lesson_title": "Greetings & Age",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U1",
+    "lesson_name": "How old are you?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Birthday Party",
-      "question": "A: Happy Birthday! How ______ are you? \nB: I'm nine years old.",
+      "id": "NY-G3S2-U1-001",
+      "type": "multiple_choice",
+      "scenario": "A new student is introducing himself to the class.",
+      "question": "Teacher: Welcome to the class. How old are you?\nStudent: ___________________",
       "options": [
-        "old",
-        "many",
-        "much",
-        "fine"
+        "I am nine.     ",
+        "I am fine.     ",
+        "I am tall.     ",
+        "I am here.     "
       ],
       "answer_index": 0,
-      "explanation": "詢問年紀使用固定句型 'How old are you?'。",
-      "commonMisconception": "學生可能受中文影響，聯想到「多少」歲而誤用 Many 或 Much。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Classroom Introduction",
-      "question": "I am ______ years old. Today is my eleventh birthday.",
-      "options": [
-        "nine",
-        "ten",
-        "eleven",
-        "twelve"
-      ],
-      "answer_index": 2,
-      "explanation": "根據後半句提到「十一歲生日」(eleventh birthday)，推論出年齡是 eleven (11)。",
-      "commonMisconception": "數字單字拼寫不熟，分不清 eleven 與 twelve。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "Meeting a New Friend",
-      "question": "A: Hi! I'm Leo. \nB: Nice to meet you, Leo. I'm ______.",
-      "options": [
-        "nine",
-        "Amy",
-        "old",
-        "fine"
-      ],
-      "answer_index": 1,
-      "explanation": "自我介紹的對應回答是說出名字 (Amy)。",
-      "commonMisconception": "學生可能受後續問句影響而突然回答年齡或其他資訊。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Greeting a Friend",
-      "question": "A: How are you? \nB: I'm ______.",
-      "options": [
-        "eight",
-        "old",
-        "fine",
-        "ten"
-      ],
-      "answer_index": 2,
-      "explanation": "'How are you?' 是問候狀態，通常回答 'I'm fine'。",
-      "commonMisconception": "受 'How old are you?' 干擾而回答數字。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Reporting Age",
-      "question": "I ______ eight years old.",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answer_index": 0,
-      "explanation": "主詞 I 對應的 B 動詞是 am。",
-      "commonMisconception": "基礎 B 動詞用法混淆。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "問句 How old are you? 詢問年齡。回答必須包含數字 (nine)。選項 A 的 fine 是回答 How are you?；選項 C 的 tall 為形容詞不符合語境。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Twin Sisters",
-      "question": "Amy and Mia are sisters. Amy is eight. Mia is eight, too. \nQuestion: How old is Mia?",
+      "commonMisconception": "常把 How old are you? (你幾歲) 與 How are you? (你好嗎) 混淆，而反射性地回答 I am fine.",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U1-002",
+      "type": "multiple_choice",
+      "scenario": "Two friends are talking about a little sister's birthday party.",
+      "question": "Boy: It's Lily's birthday today.\nGirl: Wow! ___________________\nBoy: She is seven.",
       "options": [
-        "She is seven.",
-        "She is eight.",
-        "She is nine.",
-        "She is ten."
+        "How is she?    ",
+        "How old is she?",
+        "Who is she?    ",
+        "What is she?   "
       ],
       "answer_index": 1,
-      "explanation": "文本指明 'Mia is eight, too'，所以 Mia 是八歲。",
-      "commonMisconception": "忽略 too 的含義，或者將兩姊妹的年齡搞混。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Guessing Age",
-      "question": "A: Are you seven? \nB: No, I ______. I'm eight.",
-      "options": [
-        "am",
-        "is",
-        "am not",
-        "isn't"
-      ],
-      "answer_index": 2,
-      "explanation": "'Are you...?' 的否定簡答為 'No, I am not' (或 I'm not)。",
-      "commonMisconception": "否定簡答格式錯誤。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "根據回答 She is seven. (她七歲) 逆向推斷出問句必須是詢問年紀 How old is she?。選項 B 問狀況，選項 C 問是誰，均不符合回答。",
       "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "New Student in Class",
-      "question": "Teacher: 'Welcome, Toby! Tell us about you.' \nToby: 'Hi! I am Toby. I am ______ years old.' (Toby 是三年級生)",
-      "options": [
-        "three",
-        "nine",
-        "twenty",
-        "one"
-      ],
-      "answer_index": 1,
-      "explanation": "三年級學生的年齡通常是九歲 (nine)。這需要結合生活嘗試。選項中只有 nine 符合國小學童年齡。",
-      "commonMisconception": "數字單字義義混淆。",
-      "quality_level": "L4"
+      "commonMisconception": "沒注意上下文中的數字，任意選擇其它疑問詞；或是分不清 How old 與 How 的差別。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Grammar Check",
-      "question": "How old ______ your brothers?",
+      "id": "NY-G3S2-U1-003",
+      "type": "multiple_choice",
+      "scenario": "A family is celebrating grandpa's birthday.",
+      "question": "Grandson: Happy birthday, Grandpa! ___________________\nGrandpa: I am seventy years old.",
       "options": [
-        "is",
-        "are",
-        "am",
-        "be"
+        "How are you today? ",
+        "How old is he?     ",
+        "How do you do?     ",
+        "How old are you?   "
       ],
-      "answer_index": 1,
-      "explanation": "主詞 brothers 是複數，Ｂ 動詞使用 are。",
-      "commonMisconception": "受單數代名詞 your 影響誤選 is (應看名詞中心語)。",
-      "quality_level": "L4"
-    },
-    {
+      "answer_index": 3,
+      "explanation": "對爺爺說話是第二人稱，故用 How old are you?。爺爺回答 I am...。選項 B 誤用第三人稱 he；選項 C (你好嗎) 與回答的年紀不搭。",
       "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Family Intro",
-      "question": "I have two brothers. Ken is twelve. Sam is ten. \nQuestion: Is Sam twelve?",
-      "options": [
-        "Yes, he is.",
-        "No, he isn't.",
-        "Yes, I am.",
-        "No, I'm not."
-      ],
-      "answer_index": 1,
-      "explanation": "文本說明 Sam 是十歲 (ten)，不是十二歲。簡答用 'No, he isn't'。",
-      "commonMisconception": "將 Ken 與 Sam 的年齡對調，或者選了針對第一人稱的簡答。",
-      "quality_level": "L4"
+      "commonMisconception": "對著別人說話時忘記對方是 you，或者錯將詢問年資和詢問健康的問句混淆。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Birthday Card",
-      "question": "Card: 'To Amy, You are 9 now! Happy Birthday!' \nQuestion: How old is Amy?",
+      "id": "NY-G3S2-U1-004",
+      "type": "multiple_choice",
+      "scenario": "Two boys are watching a very big dog playing in the park.",
+      "question": "Boy A: Look at the big dog! How old is it?\nBoy B: ___________________",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "It is five years old.  ",
+        "He is five years old.  ",
+        "It are five years old. ",
+        "They are five years old"
       ],
       "answer_index": 0,
-      "explanation": "卡片上寫 'You are 9 now'，故答案是 9 歲。",
-      "commonMisconception": "數字代碼辨識錯誤。",
-      "quality_level": "L4"
+      "explanation": "問句主詞是 it (單隻未擬人的狗)，且搭配的 Be 動詞是 is。因此回答需對稱為 It is...。選項 B 在沒有前提下隨意轉換為擬人稱 he；選項 C 錯搭 are；選項 D 誤用複數 They。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒有看清問句的主詞 it，或者動詞單複數對配錯誤 (It are)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "Class List",
-      "question": "Toby: 9. Mia: 8. Ken: 10. \nQuestion: Who is the oldest (年紀最大)?",
+      "id": "NY-G3S2-U1-005",
+      "type": "multiple_choice",
+      "scenario": "A girl is drawing a picture of her younger brother and sister.",
+      "question": "Dad: They look cute! How old are they?\nGirl: ___________________",
       "options": [
-        "Toby",
-        "Mia",
-        "Ken",
-        "They are all same."
-      ],
-      "answer_index": 2,
-      "explanation": "比較數字 9, 8, 10，最大的是 10，對應名字是 Ken。",
-      "commonMisconception": "學生可能不懂 oldest 的意思，或者在比較數字大小時發生錯誤。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Spelling Match",
-      "question": "11, 12, 13, 14, ______, 16.",
-      "options": [
-        "fifthteen",
-        "fifteen",
-        "fifteen",
-        "fiveteen"
+        "We are three and five.  ",
+        "They are three and five.",
+        "It is three and five.   ",
+        "You are three and five. "
       ],
       "answer_index": 1,
-      "explanation": "數字 15 的正確拼法是 fifteen。",
-      "commonMisconception": "受 five 影響拼成 fiveteen 或誤加 th。",
-      "quality_level": "L4"
+      "explanation": "問句主詞為 they (指畫裡面的弟弟和妹妹)，回答時維持第三人稱複數 They are。選項 B 的 we (包含自己) 邏輯錯誤；選項 C 錯用單數 it。",
+      "taxonomy": "inferential",
+      "commonMisconception": "無法把複數 they 對應回答句的 they，常被中文『我們』混淆 (覺得是一家人就用 we)。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Social Talk",
-      "question": "A: How are you? \nB: I'm ______, thank you. And you?",
+      "id": "NY-G3S2-U1-006",
+      "type": "multiple_choice",
+      "scenario": "Teacher is pointing at a picture of identical twins in a storybook.",
+      "question": "Teacher: The brothers look the same. ___________________\nStudent: They are eight years old.",
       "options": [
-        "fine",
-        "old",
-        "five",
-        "nice"
+        "How old are they?",
+        "How old is he?   ",
+        "How are they?    ",
+        "Who are they?    "
       ],
       "answer_index": 0,
-      "explanation": "標準問候回答 'I'm fine, thank you'。",
-      "commonMisconception": "混淆同音或近音字，如 fine 與 five。",
-      "quality_level": "L4"
+      "explanation": "由於雙胞胎是兩個人，且回答是 They are eight...，所以問句必定是複數的 How old are they?。選項 B 單數不符；選項 C 問狀況，不問年紀。",
+      "taxonomy": "applied",
+      "commonMisconception": "看到『兄弟』(brothers) 單字，卻因為習慣而選擇單數的 How old is he。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Counting Candles",
-      "question": "Look at the cake! There are eight candles (蠟燭). \nQuestion: How old is the birthday boy?",
+      "id": "NY-G3S2-U1-007",
+      "type": "multiple_choice",
+      "scenario": "A little boy brings his favorite old toy to show and tell.",
+      "question": "Boy: This is my oldest car.\nFriend: Wow! ___________________\nBoy: It's ten years old!",
       "options": [
-        "He is seven.",
-        "He is eight.",
-        "He is nine.",
-        "He is ten."
+        "How old is it?",
+        "How is it?    ",
+        "How old are it",
+        "How old am it?"
+      ],
+      "answer_index": 0,
+      "explanation": "詢問一個玩具車(單數)的年紀，需用 How old + is + it?。選項 B (怎麼了/好嗎) 不符語意；選項 C, D 為嚴重的動詞對應錯誤 (are it / am it)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "把詢問年紀的 How old 忘記，只記得 How；或是 Be 動詞搭配亂套。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U1-008",
+      "type": "multiple_choice",
+      "scenario": "At a family reunion, aunt is looking at the baby girl.",
+      "question": "Aunt: The baby is so small. How old is she?\nMom: ___________________",
+      "options": [
+        "She is one. ",
+        "He is one.  ",
+        "It is one.  ",
+        "She are one."
+      ],
+      "answer_index": 0,
+      "explanation": "問句為 How old is she? (嬰兒女孩)，回答須對稱使用 She is。選項 B 錯用男性的 He；選項 D 錯搭 are 動詞。",
+      "taxonomy": "inferential",
+      "commonMisconception": "面對性別明確的代名詞 (she)，在回答時卻粗心地混淆為 he 或 it。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U1-009",
+      "type": "multiple_choice",
+      "scenario": "Two kids are talking about their pets at home.",
+      "question": "Kid A: My dog is six years old. ___________________\nKid B: It is only two years old. It's still a baby.",
+      "options": [
+        "How old are you?    ",
+        "Who is your dog?    ",
+        "How is your dog?    ",
+        "How old is your dog?"
+      ],
+      "answer_index": 3,
+      "explanation": "講完自己狗的年紀後，順勢問對方的狗的年紀。對方也以狗 (It is) 來回答年紀。因此問句是 How old is your dog?。選項 B 問對方的年紀不合語境；選項 C 問狀況。",
+      "taxonomy": "applied",
+      "commonMisconception": "讀到對話直接慣性填入 How old are you?，沒意識到交際焦點已經轉移到對方的寵物上。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U1-010",
+      "type": "multiple_choice",
+      "scenario": "A nurse is asking a sick boy and his mom at the clinic.",
+      "question": "Nurse: I need to write down the age. _______________\nMom: Oh, he is eight.",
+      "options": [
+        "What is the boy?   ",
+        "How old is the boy?",
+        "How old are the boy",
+        "How is the boy?    "
       ],
       "answer_index": 1,
-      "explanation": "蛋糕上有幾根蠟燭通常代表幾歲，故答案是八歲。",
-      "commonMisconception": "學生可能不認識 candles 並無法推論其與年齡的關聯。",
-      "quality_level": "L4"
+      "explanation": "護理師說要寫下年紀，而且媽媽回答 he is eight，可見問句是問這個男孩的年紀，The boy 是單數，搭配 is，故為 How old is the boy?。選項 C 錯搭 are；選項 D 語意錯誤 (這男孩是什麼)。",
+      "taxonomy": "inferential",
+      "commonMisconception": "詢問第三人稱身分時，因為 the boy 名詞被當作複數而錯配 are，或是在疑問詞選擇上出錯。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

@@ -3,14 +3,14 @@ import { Grade, Semester, Publisher, Subject, SUBJECT_ICONS, SUBJECT_SHORT, SUBJ
 const GRADE_CN: Record<Grade, string> = { 1: '一', 2: '二', 3: '三', 4: '四', 5: '五', 6: '六' };
 const SEM_CN: Record<Semester, string> = { 1: '上', 2: '下' };
 
-// Ocean-fresh active pill styles
+// Warm-amber active pill styles（與 index.css subject 色同步）
 const SUBJECT_ACTIVE_STYLE: Record<string, React.CSSProperties> = {
-  chinese: { background: 'hsl(350 50% 68%)', color: '#fff' },
-  math: { background: 'hsl(200 60% 55%)', color: '#fff' },
-  english: { background: 'hsl(16 65% 62%)', color: '#fff' },
-  science: { background: 'hsl(168 45% 50%)', color: '#fff' },
-  social: { background: 'hsl(42 60% 58%)', color: '#fff' },
-  life: { background: 'hsl(280 40% 66%)', color: '#fff' },
+  chinese: { background: 'hsl(345 42% 62%)', color: '#fff' },
+  math: { background: 'hsl(200 45% 55%)', color: '#fff' },
+  english: { background: 'hsl(8 50% 60%)', color: '#fff' },
+  science: { background: 'hsl(165 35% 50%)', color: '#fff' },
+  social: { background: 'hsl(85 35% 50%)', color: '#fff' },
+  life: { background: 'hsl(275 32% 62%)', color: '#fff' },
 };
 
 interface AppHeaderProps {
@@ -35,19 +35,27 @@ export default function AppHeader({
     <header className="sticky top-0 z-50 bg-card/90 backdrop-blur-md border-b">
       <div className="max-w-4xl mx-auto px-3 sm:px-4 py-2">
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Grade/Semester badge */}
+          {/* Grade/Semester — 琥珀盾牌徽章 */}
           <button
             onClick={onOpenSettings}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-2xl font-extrabold text-sm sm:text-base active:scale-95 transition-all shrink-0 bg-primary text-primary-foreground shadow-sm hover:shadow-md"
+            className="shrink-0 active:scale-95 transition-all hover:drop-shadow-md"
             title="個人設定"
           >
-            <span className="text-base">🎒</span>
-            <span>{GRADE_CN[grade]}{SEM_CN[semester]}</span>
-            <span className="text-[10px] opacity-70">▼</span>
+            <svg width="42" height="46" viewBox="0 0 36 40" fill="none">
+              <path
+                d="M18 1L2 8V20C2 29 9 36 18 39C27 36 34 29 34 20V8L18 1Z"
+                fill="hsl(38 80% 52%)"
+              />
+              <text x="13" y="16" textAnchor="middle" fill="white" fontSize="16" fontWeight="900" fontFamily="Nunito, sans-serif" dominantBaseline="middle">{GRADE_CN[grade]}</text>
+              <text x="24" y="28" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="Nunito, sans-serif" dominantBaseline="middle" opacity="0.85">{SEM_CN[semester]}</text>
+            </svg>
           </button>
 
+          {/* Divider */}
+          <div className="w-px h-6 bg-border/60 shrink-0" />
+
           {/* Subject pills */}
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-hide flex-1">
+          <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide flex-1">
             {subjects.map(s => {
               const isActive = subject === s;
               const sTheme = SUBJECT_THEME_MAP[s];
@@ -55,9 +63,8 @@ export default function AppHeader({
                 <button
                   key={s}
                   onClick={() => onSubjectChange(s)}
-                  className={`flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shrink-0 active:scale-95 ${
-                    isActive ? 'shadow-sm' : 'bg-secondary text-muted-foreground hover:bg-muted'
-                  }`}
+                  className={`flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shrink-0 active:scale-95 ${isActive ? 'shadow-sm' : 'bg-secondary text-muted-foreground hover:bg-muted'
+                    }`}
                   style={isActive ? SUBJECT_ACTIVE_STYLE[sTheme] : undefined}
                 >
                   <span>{SUBJECT_ICONS[s]}</span>

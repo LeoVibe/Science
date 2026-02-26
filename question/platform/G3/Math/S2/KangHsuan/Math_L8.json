@@ -19,7 +19,8 @@
       "answer_index": 3,
       "explanation": "20 > 15 > 12，香蕉數值最大。",
       "commonMisconception": "數值比較錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "週一與週二，共計兩天。",
       "commonMisconception": "數據提取錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 2,
       "explanation": "18 + 5 + 12 = 35 人。",
       "commonMisconception": "連加計算失誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "45 - 30 = 15 本。",
       "commonMisconception": "誤用加法算總合。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "一個『正』字有五畫，代表 5。",
       "commonMisconception": "混淆筆劃數。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 1,
       "explanation": "31 - 12 = 19 天。",
       "commonMisconception": "對月份總天數不熟。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -109,7 +115,8 @@
       "answer_index": 1,
       "explanation": "5 (一), 10 (二), 15 (三)。规律是增加 5 元。",
       "commonMisconception": "規律找尋錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -124,7 +131,8 @@
       "answer_index": 0,
       "explanation": "8:40 + 10 = 8:50。",
       "commonMisconception": "讀取表格位置不對。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     }
   ]
 }

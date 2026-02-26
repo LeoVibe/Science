@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci1",
+    "order": 1,
+    "title": "生活中的水"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "將衛生紙的一角沾入水中，水會沿著衛生紙向上爬升，這是什麼現象？",
+      "options": [
+        "連通管原理",
+        "大氣壓力",
+        "虹吸現象",
+        "毛細現象"
+      ],
+      "answer": "毛細現象",
+      "explanation": "水分沿著纖維細縫爬升的現象稱為毛細現象。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "連通管中的水靜止時，各管的水面高度都會一樣高。",
+      "answer": "True",
+      "explanation": "不論管子粗細、形狀，靜止水面高度恆一致。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "利用充滿水的透明管，將高處水箱的水引到低處水箱，稱為______現象。",
+      "answer": "虹吸",
+      "explanation": "虹吸現象利用重力與液體壓力差導水。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "熱湯中的細縫處水會上升，是因為？",
+      "options": [
+        "水的重量增加",
+        "湯變甜了",
+        "熱脹冷縮",
+        "毛細現象"
+      ],
+      "answer": "毛細現象",
+      "explanation": "任何具有微小縫隙的材質（如布、衛生紙、細管）都能產生毛細現象。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "洗澡後用毛巾擦乾身體，是利用毛細現象吸走水分。",
+      "answer": "True",
+      "explanation": "毛巾纖維細縫能迅速吸水。"
+    }
+  ]
+}

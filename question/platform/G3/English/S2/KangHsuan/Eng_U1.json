@@ -1,265 +1,192 @@
 {
-  "publisher": "KangHsuan",
-  "grade": "G3",
-  "semester": "S2",
-  "subject": "English",
-  "lesson_id": "U1",
-  "lesson_title": "Abilities",
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson_id": "U1",
+    "lesson_name": "Can you swim?"
+  },
   "questions": [
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "School Talent Show Registration",
-      "question": "Teacher: 'We have a show today. Can you dance, Toby?' \nToby: 'Yes, I ______.'",
+      "id": "KH-G3S2-U1-001",
+      "type": "multiple_choice",
+      "scenario": "At the park, Peter and Ben are talking about sports.",
+      "question": "Peter: Can you swim, Ben?\nBen: ___________________",
       "options": [
-        "am",
-        "can",
-        "do",
-        "is"
+        "Yes, I am. I can swim.",
+        "No, I don't. I can swim.",
+        "No, I can't. I can't swim.",
+        "Yes, you are. You can swim."
       ],
-      "answer_index": 1,
-      "explanation": "當問句使用 'Can you...' 時，回答應使用相同的助動詞 'can'。'Yes, I can' 是標準的肯定簡答。",
-      "commonMisconception": "學生常會混淆 B 動詞 (am/is) 與助動詞 (can)，因中文常直譯為「我是可以的」。",
-      "quality_level": "L4"
+      "answer_index": 2,
+      "explanation": "問句以 Can you...? 結尾，簡答時必須對應使用 can 或 can't，並且主詞要轉換為 I。選項 A 和 B 使用了錯誤的 Be 動詞或 do 助動詞，是常見的母語干擾迷思。",
+      "taxonomy": "literal",
+      "commonMisconception": "被『Yes, I am.』的口語習慣干擾，忘記助動詞 Can 必須與 can / can't 對應。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "At the Playground",
-      "question": "Ken: 'I can ______ very fast. Watch me!' \nQuestion: What can Ken do?",
+      "id": "KH-G3S2-U1-002",
+      "type": "multiple_choice",
+      "scenario": "Emma is asking about Leo's talents for the school talent show.",
+      "question": "Emma: Look at the piano. Can you play the piano?\nLeo: ___________________",
       "options": [
-        "run",
-        "draw",
-        "sing",
-        "cook"
+        "Yes, I can. I can play the piano.",
+        "Yes, I am. I can play the piano.",
+        "No, I don't. I can't play the piano.",
+        "No, you can't. You can play the piano."
       ],
       "answer_index": 0,
-      "explanation": "情境中 Ken 提到他可以 'run' (跑) 很快，因此正確動作是跑步。",
-      "commonMisconception": "學生可能未細讀題幹，隨機選取一個動作單字。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "問句是 Can you...?，正面回答需為 Yes, I can.。選項 B 誤用了 Be 動詞 am，選項 C 誤用了助動詞 don't，選項 D 的人稱代名詞 you 沒有轉換為 I。",
       "taxonomy": "literal",
-      "category": "vocabulary",
-      "difficulty": "easy",
-      "scenario": "In the Art Room",
-      "question": "I have many markers and a big paper. I can ______ a beautiful bird.",
-      "options": [
-        "swim",
-        "run",
-        "draw",
-        "dance"
-      ],
-      "answer_index": 2,
-      "explanation": "有彩色筆 (markers) 和紙張 (paper)，最合理的活動是 'draw' (畫畫)。",
-      "commonMisconception": "學生可能不認識 markers 這個單字，導致無法聯結到畫畫的動作。",
-      "quality_level": "L4"
+      "commonMisconception": "在簡答中誤將 can 替換為 am 或 don't。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "literal",
-      "category": "sentence_pattern",
-      "difficulty": "easy",
-      "scenario": "Classroom Activity",
-      "question": "Can you draw a cat? No, ______.",
+      "id": "KH-G3S2-U1-003",
+      "type": "multiple_choice",
+      "scenario": "Two friends are watching a bird in the sky.",
+      "question": "Anna: The bird is fast. Can it fly?\nSam: ___________________",
       "options": [
-        "I can",
-        "I'm not",
-        "I can't",
-        "I don't"
-      ],
-      "answer_index": 2,
-      "explanation": "'Can you...?' 的否定簡答為 'No, I can't' (can not 的縮寫)。",
-      "commonMisconception": "受 'Are you...?' 影響選用 'I'm not'，或受 'Do you...?' 影響選用 'I don't'。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "At the Swimming Pool",
-      "question": "Mom: 'Look at that fish! It can swim very fast.' \nLeo: 'I can swim, too! I'm a little fish.' \nQuestion: What can Leo do?",
-      "options": [
-        "He can fly.",
-        "He can swim.",
-        "He can draw.",
-        "He can dance."
+        "Yes, it is. It can fly up high.",
+        "Yes, it can. It can fly up high.",
+        "No, it doesn't. It can fly up high.",
+        "No, it isn't. It can't fly up high."
       ],
       "answer_index": 1,
-      "explanation": "Leo 說 'I can swim, too'，表示他跟魚一樣會游泳。",
-      "commonMisconception": "學生可能誤以為 Leo 真的是一條魚，或因為 Leo 提到魚而分心選了其他無關選項。",
-      "quality_level": "L4"
-    },
-    {
+      "explanation": "主詞是 it (the bird)，助動詞為 can，所以肯定回答必須是 Yes, it can.，其餘選項誤用了 is 或是 doesn't。",
       "taxonomy": "inferential",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Bird Watching in the Park",
-      "question": "Boy: 'Look at the bird. It can sing.' \nGirl: 'I love music. I can sing, too!' \nQuestion: What ability do the bird and the girl share (共同擁有)?",
-      "options": [
-        "They can swim.",
-        "They can sing.",
-        "They can fly.",
-        "They can run."
-      ],
-      "answer_index": 1,
-      "explanation": "男孩說鳥會唱歌 (sing)，女孩說她也會唱歌 (sing, too)，所以共同能力是唱歌。",
-      "commonMisconception": "學生常因刻板印象認為鳥會「飛」 (fly) 就直接勾選，而忽略文本中提到的 sing。",
-      "quality_level": "L4"
+      "commonMisconception": "將 Be 動詞 (is) 與助動詞 (can) 混用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "sentence_pattern",
-      "difficulty": "medium",
-      "scenario": "Art Class Mystery",
-      "question": "Teacher: 'Who is the artist? This picture is beautiful.' \nAmy: 'I can't draw, but Sam can. He likes markers.' \nQuestion: Who drew the picture?",
+      "id": "KH-G3S2-U1-004",
+      "type": "multiple_choice",
+      "scenario": "During P.E. class, the teacher is asking the students about their skills.",
+      "question": "Teacher: Can you and Tim jump rope?\nStudent: ___________________",
       "options": [
-        "Amy",
-        "The Teacher",
-        "Sam",
-        "Toby"
-      ],
-      "answer_index": 2,
-      "explanation": "Amy 說她「不會」畫畫 (can't draw)，但 Sam 「會」 (Sam can)，所以畫畫的人是 Sam。",
-      "commonMisconception": "忽略助動詞否定式 can't 的意思，誤選第一個出現的人名 Amy。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Asking for Help",
-      "question": "Grandpa: 'I can't find my glasses. Can you help me, Lily?' \nLily: 'Yes, I can. I see them under the chair.' \nQuestion: Can Lily help her Grandpa?",
-      "options": [
-        "No, she can't.",
-        "Yes, she is.",
-        "Yes, she can.",
-        "No, she isn't."
-      ],
-      "answer_index": 2,
-      "explanation": "Lily 明確回答 'Yes, I can'，且在描述 Lily 時要用 she，故選 'Yes, she can'。",
-      "commonMisconception": "代名詞或助動詞一致性錯誤，例如選了 'Yes, she is'。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Animal Olympics",
-      "question": "The rabbit can jump. The frog can jump. \nQuestion: Which is true (正確的)?",
-      "options": [
-        "The rabbit can sing.",
-        "They both (兩者) can jump.",
-        "The frog can't jump.",
-        "The rabbit is blue."
-      ],
-      "answer_index": 1,
-      "explanation": "兔子和青蛙都會跳 (jump)，所以 'They both can jump' (他們都會跳) 是正確的敘述。",
-      "commonMisconception": "不知 both 的意思，或誤選了未在文本中提到的動作 (如 sing) 或顏色。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Musical Party Prep",
-      "question": "Host: 'Welcome! Can you play the piano?' \nGuest: 'No, I can't. But I can sing.' \nQuestion: What will the guest likely do at the party?",
-      "options": [
-        "Play the piano.",
-        "Sing a song.",
-        "Dance with friends.",
-        "Draw a picture."
-      ],
-      "answer_index": 1,
-      "explanation": "客人說他不會彈琴但「會唱歌」，因此最合理的活動是歌唱。",
-      "commonMisconception": "聽到關鍵字 piano 就選 A，未注意到客人的否定回答 'No, I can't'。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "inferential",
-      "category": "reading",
-      "difficulty": "medium",
-      "scenario": "Talent Swap",
-      "question": "Mia: 'I can dance, but I can't sing.' \nBen: 'I can sing, but I can't dance.' \nQuestion: What can Ben do?",
-      "options": [
-        "He can sing.",
-        "He can't sing.",
-        "He can dance.",
-        "He can't sing or dance."
+        "Yes, we can. We can jump rope well.",
+        "Yes, they are. They can jump rope well.",
+        "No, we aren't. We can't jump rope well.",
+        "No, you don't. You can't jump rope well."
       ],
       "answer_index": 0,
-      "explanation": "文本中提到 Ben: 'I can sing'，所以 Ben 會唱歌。",
-      "commonMisconception": "混淆 Mia 與 Ben 的能力，或者被 'but' 後面的否定句干擾。",
-      "quality_level": "L3"
+      "explanation": "問句中的主詞是 you and Tim (你和Tim)，這等同於第二人稱複數 (你們)。因此回答時必須切換為第一人稱複數 we (我們)，並且搭配助動詞 can。",
+      "taxonomy": "applied",
+      "commonMisconception": "忽略了『you and Tim』是複數『你們』，導致回答用了錯誤的代名詞如 they 或 you，且容易誤用 aren't/don't。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "reading",
-      "difficulty": "hard",
-      "scenario": "At the Talent Show",
-      "question": "Director: 'We need a singer and a dancer.' \nAmy: 'I can sing!' \nToby: 'I can't sing, but I can dance.' \nQuestion: Can Amy and Toby work together (合作)?",
+      "id": "KH-G3S2-U1-005",
+      "type": "multiple_choice",
+      "scenario": "Amy's dog is running super fast in the yard.",
+      "question": "Jack: Your dog is very cute. Can he catch a ball?\nAmy: ___________________",
       "options": [
-        "No, Toby can't sing.",
-        "Yes, Amy can sing and Toby can dance.",
-        "No, Amy can't dance.",
-        "Yes, they both can sing."
+        "Yes, he is. He can catch a ball.",
+        "Yes, he does. He can catch a ball.",
+        "No, he can't. He can't catch a ball.",
+        "No, it doesn't. It can catch a ball."
+      ],
+      "answer_index": 2,
+      "explanation": "問句主詞是 he (指公狗)，且由 Can 提問。選項 A 誤用 is，選項 B 誤用 does。選項 C 是正確的否定簡答 No, he can't.，選項 D 不僅前後文意矛盾 (No 搭配 can)，也誤用了 doesn't。",
+      "taxonomy": "inferential",
+      "commonMisconception": "未對齊問答中的助動詞 Can，或者在否定簡答時出現前後矛盾的語法邏輯。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U1-006",
+      "type": "multiple_choice",
+      "scenario": "The children are talking about their grandfather's secret talent.",
+      "question": "Lily: My grandpa is eighty years old.\nTom: Wow! ___________________\nLily: No, he can't.",
+      "options": [
+        "Is he a good dancer?",
+        "Can he dance very well?",
+        "Does he dance very well?",
+        "Are you a good dancer?"
       ],
       "answer_index": 1,
-      "explanation": "Amy 會唱，Toby 會跳，剛好滿足導演的要求 (singer and dancer)，所以可以合作。",
-      "commonMisconception": "學生可能只關注某一個人的缺點 (can't) 而忽略全盤合作的可能性。",
-      "quality_level": "L3"
+      "explanation": "根據 Lily 的回答 No, he can't. 可以逆推 Tom 的問句必定是以 Can 開頭，並且主詞為 he。只有 Can he dance very well? 完全符合此邏輯對應。",
+      "taxonomy": "applied",
+      "commonMisconception": "學生可能只看中文『他會跳舞嗎？』而去選擇 Does he 或是 Is he，忽略了回答中的 can't 提示。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     },
     {
+      "id": "KH-G3S2-U1-007",
+      "type": "multiple_choice",
+      "scenario": "A brother and sister are playing by the swimming pool.",
+      "question": "Brother: Let's run by the pool!\nSister: No! You ___________________",
+      "options": [
+        "can't run by the clear pool.",
+        "aren't run by the clear pool.",
+        "doesn't run by the clear pool.",
+        "isn't run by the clear pool."
+      ],
+      "answer_index": 0,
+      "explanation": "表達『不能、不可以』的能力或准許狀態時，應使用 can't。選項 B、D 使用 Be 動詞搭配原形動詞屬於嚴重文法錯誤，選項 C doesn't 不能接在 You 之後。",
+      "taxonomy": "inferential",
+      "commonMisconception": "將 Be 動詞否定 (aren't) 與一般動詞 (run) 直接堆疊在一起。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U1-008",
+      "type": "multiple_choice",
+      "scenario": "Kevin wants to join the school's music club and is talking to the teacher.",
+      "question": "Teacher: Welcome to the music club. ___________________\nKevin: Yes, I can. I can sing well.",
+      "options": [
+        "Are you singing very well?",
+        "Do you sing very well here?",
+        "Can you sing very well here?",
+        "Is he singing very well?"
+      ],
+      "answer_index": 2,
+      "explanation": "從 Kevin 回答 Yes, I can. 可以明確知道老師的問句必須使用助動詞 Can 提問。選項 A、B 雖然語意相近，但文法對應會導致回答變為 Yes, I am 或 Yes, I do。",
+      "taxonomy": "applied",
+      "commonMisconception": "未察覺上下文的助動詞連貫性，盲目選擇看起來意思合理的 Are you 或 Do you。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "KH-G3S2-U1-009",
+      "type": "multiple_choice",
+      "scenario": "Sally is drawing a picture of a cute monkey on the whiteboard.",
+      "question": "Mark: It's a nice monkey. Can it climb trees?\nSally: ___________________",
+      "options": [
+        "Yes, it is. It can climb trees.",
+        "Yes, it can. It can climb trees.",
+        "No, it doesn't. it climb trees.",
+        "No, it isn't. It can't climb trees."
+      ],
+      "answer_index": 1,
+      "explanation": "問句主詞 it，助動詞 Can，肯定回答為 Yes, it can.。其餘選項皆混淆了 Be 動詞 (is) 或助動詞 (does)。選項 C 甚至有大小寫錯誤且語意矛盾。",
       "taxonomy": "literal",
-      "category": "grammar",
-      "difficulty": "medium",
-      "scenario": "Conversation Check",
-      "question": "A: Can your dog ______? \nB: Yes, it can. It can run very fast.",
-      "options": [
-        "runs",
-        "running",
-        "run",
-        "to run"
-      ],
-      "answer_index": 2,
-      "explanation": "助動詞 Can 之後必須接「原形動詞」。",
-      "commonMisconception": "受第三人稱單數 dog 影響誤選 runs，或受現在進行式影響選 running。",
-      "quality_level": "L4"
+      "commonMisconception": "對於助動詞 Can 提問，習慣性回答 it is 或 it doesn't。",
+      "cqi_score": 9,
+      "quality_level": "L5"
     },
     {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Morning Exercise at the Park",
-      "question": "Leader: 'Let's ______. One, two, one, two!' \nQuestion: What are the students likely doing?",
+      "id": "KH-G3S2-U1-010",
+      "type": "multiple_choice",
+      "scenario": "The mother is asking her daughter about her new friends from school.",
+      "question": "Mother: Can your friends ride a bike?\nDaughter: ___________________",
       "options": [
-        "They are sleeping.",
-        "They are running.",
-        "They are drawing.",
-        "They are singing."
-      ],
-      "answer_index": 1,
-      "explanation": "根據節奏指令 'One, two, one, two' 判斷，這通常是跑步或運動時的口號。",
-      "commonMisconception": "學生可能將數字節奏與唱歌聯想在一起，而忽略了場景 (Park) 與動作情境。",
-      "quality_level": "L4"
-    },
-    {
-      "taxonomy": "applied",
-      "category": "applied",
-      "difficulty": "hard",
-      "scenario": "Zoo Mystery",
-      "question": "It is big. It can't fly, but it can swim. It is grey and lives in the water. What is it?",
-      "options": [
-        "A bird",
-        "A cat",
-        "A hippo (河馬)",
-        "A rabbit"
+        "Yes, they are. They can ride a bike.",
+        "Yes, we do. We can ride a bike.  ",
+        "No, they can't. They can't ride a bike.",
+        "No, they aren't. They can't ride a bike."
       ],
       "answer_index": 2,
-      "explanation": "根據特徵：大 (big)、不會飛 (can't fly)、會游泳 (swim)、灰色 (grey)、住水裡 (water)，河馬是最符合的選項。",
-      "commonMisconception": "學生可能忽略 'can't fly' 直接因為關鍵字 swim 選了不符合其他條件的動物。",
-      "quality_level": "L4"
+      "explanation": "your friends 是複數第三人稱，代名詞為 they。由 Can 提問，否定回答必須是 No, they can't.。選項 A、D 誤用 Be 動詞，選項 B 人稱代名詞錯用為 we 且助動詞為 do。",
+      "taxonomy": "applied",
+      "commonMisconception": "將 your friends 誤認為包含自己在內的 we，或是回答時錯用 Be 動詞 aren't。",
+      "cqi_score": 10,
+      "quality_level": "L5"
     }
   ]
 }

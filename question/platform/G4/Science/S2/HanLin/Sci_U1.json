@@ -17,7 +17,8 @@
       "answer": 2,
       "explanation": "彈性限度內，彈簧的伸長量與所受拉力成正比。 2 * 3 = 6。",
       "concept": "彈力與伸長量關係",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 9
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
       "answer": 2,
       "explanation": "物體與接觸面之間的阻礙力量稱為摩擦力。接觸面越粗糙，摩擦力通常越大。",
       "concept": "摩擦力特性",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q3",
@@ -49,7 +51,8 @@
       "answer": 2,
       "explanation": "磁力可以不接觸而發生作用（超距力），且具有選擇性，主要吸引鐵、鈷、鎳等物質。",
       "concept": "磁力性質",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q4",
@@ -65,7 +68,8 @@
       "answer": 1,
       "explanation": "乾燥環境下摩擦產生的電荷累積引發的現象稱為靜電。",
       "concept": "靜電力",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q5",
@@ -81,7 +85,8 @@
       "answer": 1,
       "explanation": "當物體受力但保持靜止時，代表所受合力為零，力達到平衡。",
       "concept": "力的平衡",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q6",
@@ -97,7 +102,8 @@
       "answer": 1,
       "explanation": "深刻的底紋可以增加接觸面的粗糙程度，進而增大摩擦力，防止打滑。",
       "concept": "增加摩擦力實務",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q7",
@@ -113,7 +119,8 @@
       "answer": 0,
       "explanation": "力的三要素包含大小。雖然移動快慢與壓力程度也是力的表現，但在小學科學實驗中，橡皮筋或彈簧的形位變化是最常用來『量化』標示力大小的工具（需有基準度標）。此題考查對測量媒介的理解。 (Option 0 is standard answer in textbooks).",
       "concept": "力的觀察與量化",
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q8",
@@ -129,7 +136,8 @@
       "answer": 1,
       "explanation": "潤滑油可以在接觸面形成油膜，減少摩擦阻力。",
       "concept": "減少摩擦力",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q9",
@@ -145,7 +153,8 @@
       "answer": 1,
       "explanation": "地球對萬物的吸引力稱為重力，方向垂直向下指向地心。",
       "concept": "重力定義",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q10",
@@ -161,7 +170,8 @@
       "answer": 2,
       "explanation": "捏黏土、壓鋁罐、拉橡皮筋都是改變形狀。踢球則是讓物體由靜止變為運動，改變的是運動狀態。",
       "concept": "力的效應分類",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 7.5
     }
   ]
 }

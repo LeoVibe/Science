@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "32 ÷ 4 = 8。利用九九乘法「四八三十二」進行逆運算。",
       "commonMisconception": "等分除的基礎概念應用。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 0,
       "explanation": "85 ÷ 12 = 7 ... 1。12 × 7 = 84，85 - 84 = 1。注意餘數必須小於除數。",
       "commonMisconception": "學生可能在計算 12 的倍數時出錯，或者忘記餘數必須最小化。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 1,
       "explanation": "50 ÷ 9 = 5 ... 5。載了 5 趟後還剩 5 人，這 5 人還需要再搭一趟，所以是 5 + 1 = 6 趟。",
       "commonMisconception": "這是進一法的典型應用題，學生常直接寫商（5）而忘了餘數也需要一趟。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "驗算公式：被除數 = 除數 × 商 + 餘數。6 × 14 + 3 = 84 + 3 = 87。",
       "commonMisconception": "學生可能忘記加餘數，或是公式中乘加順序搞混。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "43 ÷ 5 = 8 ... 3。換了 8 個貼紙，剩下 3 個寶特瓶。題目問「剩下幾個」。",
       "commonMisconception": "學生可能回答貼紙的數量（8），沒看清問題指標。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

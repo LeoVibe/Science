@@ -19,7 +19,8 @@
       "answer_index": 0,
       "explanation": "45 × 12 = 540。分解計算：45 × 10 = 450，45 × 2 = 90。450 + 90 = 540。",
       "commonMisconception": "兩位數乘兩位數的進位容易出錯。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "360 ÷ 8 = 45，剛好整除，沒有餘數。",
       "commonMisconception": "學生可能在直式中十位的計算出錯。36÷8=4...4, 40÷8=5，商為 45。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 0,
       "explanation": "方案 A：1 箱 600 + 6 個散買 30×6=180 = 780 元。方案 B：30×30=900 元。A 較便宜。",
       "commonMisconception": "學生需要比較不同購買方案的總價，這是高品質的數學素養題。",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8
     },
     {
       "taxonomy": "inferential",
@@ -64,7 +67,8 @@
       "answer_index": 1,
       "explanation": "利用除法逆運算：497 ÷ 7 = 71。",
       "commonMisconception": "學生需要認識乘法與除法的逆運算關係。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -79,7 +83,8 @@
       "answer_index": 2,
       "explanation": "245 × 5 = 1225。計算：5×5=25(進2)，4×5+2=22(進2)，2×5+2=12。",
       "commonMisconception": "三位數乘一位數的連續進位。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

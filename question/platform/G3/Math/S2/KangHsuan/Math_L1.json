@@ -19,7 +19,8 @@
       "answer_index": 1,
       "explanation": "75 ÷ 3 = 25。透過直式計算可得商為 25。",
       "commonMisconception": "學生可能在計算 70 ÷ 3 時餘數忘記與個位數合併計算。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -34,7 +35,8 @@
       "answer_index": 3,
       "explanation": "86 ÷ 8 = 10 ... 6。商為 10 代表裝滿 10 盒，餘數 6 代表剩下 6 個。",
       "commonMisconception": "學生可能算出商為 9 餘 14（選項 C），忽略了餘數必須比除數小的原則。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -49,7 +51,8 @@
       "answer_index": 3,
       "explanation": "34 ÷ 4 = 8 ... 2。雖然只有 8 組滿員，但剩下的 2 人也需要獨立成 1 組，所以 8 + 1 = 9 組。",
       "commonMisconception": "學生可能只回答商 8（選項 A），忘記現實情境中剩下的學生也需要被安排（無條件進入法）。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -64,7 +67,8 @@
       "answer_index": 0,
       "explanation": "6 ÷ 6 = 1，接下來 1 不夠被 6 除，因此商的十位要補 0。",
       "commonMisconception": "學生常會漏掉中間的 0（選項 A），直接計算 15 ÷ 6。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "inferential",
@@ -79,7 +83,8 @@
       "answer_index": 0,
       "explanation": "利用除法逆推：450 ÷ 5 = 90。",
       "commonMisconception": "計算填位錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "applied",
@@ -94,7 +99,8 @@
       "answer_index": 2,
       "explanation": "500 ÷ 60 = 8 ... 20。最多買 8 本，餘數為 20 元。",
       "commonMisconception": "計算過程中因位數過多產生錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     },
     {
       "taxonomy": "literal",
@@ -109,7 +115,8 @@
       "answer_index": 1,
       "explanation": "在除法中，主動去平分別人的數字稱為除數。",
       "commonMisconception": "被除數與除數位置混淆。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 8.5
     },
     {
       "taxonomy": "applied",
@@ -124,7 +131,8 @@
       "answer_index": 2,
       "explanation": "480 ÷ 4 = 120。每部電影平均 120 分鐘。",
       "commonMisconception": "除法單位計算錯誤。",
-      "quality_level": "L4"
+      "quality_level": "L5",
+      "cqi_score": 9.5
     }
   ]
 }

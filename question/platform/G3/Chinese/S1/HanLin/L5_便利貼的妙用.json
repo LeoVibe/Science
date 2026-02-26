@@ -1,5 +1,5 @@
 {
-  "publisher": "翰林",
+  "publisher": "HanLin",
   "grade": "G3",
   "semester": "S1",
   "subject": "Chinese",
@@ -19,7 +19,8 @@
       "explanation": "課文開頭描述小真忘東忘西且生活缺乏次序，這是引入便利貼工具的背景。",
       "scenario": "內容檢索：分析主角原本的生活狀態。",
       "taxonomy": "literal",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "2",
@@ -35,7 +36,8 @@
       "scenario": "情節理解：分析爸爸的具體建議內容。",
       "commonMisconception": "學生可能以為便利貼只能寫字，忽略了「貼在顯眼處」的核心作用。",
       "taxonomy": "literal",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7.5
     },
     {
       "id": "3",
@@ -50,7 +52,8 @@
       "explanation": "打勾是一個明確的確認動作，能讓使用者視覺化自己的進度並獲得滿意度。",
       "scenario": "心理分析：分析打勾動作所帶來的正面心態。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 10
     },
     {
       "id": "4",
@@ -65,7 +68,8 @@
       "explanation": "便利貼留言是一種非侵略性的溫馨溝通，能建立良好的家庭互動。",
       "scenario": "人際互動：分析便利貼在家庭溝通的角色。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     },
     {
       "id": "5",
@@ -80,7 +84,8 @@
       "explanation": "小真將便利貼作為時間管理的輔助，並配合鬧鐘等其他工具提升效率。",
       "scenario": "案例分析：分析小真解決限時任務的方法。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 10
     },
     {
       "id": "6",
@@ -95,7 +100,8 @@
       "explanation": "工具需配合人的決心與行動，本課傳達的是「習慣的建立」而非單純依賴工具。",
       "scenario": "觀念建立：評價人與工具的關係。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "7",
@@ -110,7 +116,8 @@
       "explanation": "次序源於對事務的規劃與執行力，是效率的基石。",
       "scenario": "詞義解析：深入定義「有次序」的內涵。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     },
     {
       "id": "8",
@@ -125,7 +132,8 @@
       "explanation": "人類短暫記憶容量有限，利用筆記或便利貼可以有效分擔腦力負擔。",
       "scenario": "科學原理：便利貼如何輔助人類記憶。",
       "taxonomy": "inferential",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 7
     },
     {
       "id": "9",
@@ -140,7 +148,8 @@
       "explanation": "便利貼應以「重點、簡潔、即時提醒」為主，不適合處理大容量的文字載體。",
       "scenario": "批判思考：判斷哪些任務不適合使用便利貼。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "cqi_score": 8.5
     },
     {
       "id": "10",
@@ -155,7 +164,8 @@
       "explanation": "自我管理能力的提升會直接強化一個人的自信心與掌控感。",
       "scenario": "個人成長：分析生活優化後的心理收益。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     },
     {
       "id": "11",
@@ -170,7 +180,8 @@
       "explanation": "便利貼是一個典型的「小而美」發明，解決了普世性的健忘問題。",
       "scenario": "創新思維：分析成功輔助工具的共性。",
       "taxonomy": "inferential",
-      "quality_level": "L3"
+      "quality_level": "L2",
+      "cqi_score": 5.5
     },
     {
       "id": "12",
@@ -185,7 +196,8 @@
       "explanation": "管理成敗最終回歸到「人的自律」，工具無法替代執行力。",
       "scenario": "哲學思辯：工具與執行力的關係。",
       "taxonomy": "applied",
-      "quality_level": "L4"
+      "quality_level": "L2",
+      "cqi_score": 8.5
     }
   ]
 }
