@@ -27,6 +27,16 @@
    `ADMIN_OWNER_EMAILS=owner1@example.com,owner2@example.com`  
    > 僅在 `admin_users` 尚未建立時作為首次 bootstrap 使用。
 
+## GitHub Actions 部署
+
+- Workflow：`.github/workflows/deploy-api.yml`  
+- 觸發：推送到 `main` 且變更 `backend/api/**` 或 `scripts/workers/api/**`，或手動 `workflow_dispatch`。  
+- **必要 Secrets**（Repo → Settings → Secrets and variables → Actions）：
+  - `CLOUDFLARE_ACCOUNT_ID`：Cloudflare 儀表板右側 Account ID。  
+  - `CLOUDFLARE_API_TOKEN`：My Profile → API Tokens → Create Token，權限需包含 **Edit Cloudflare Workers**（以及 D1/KV 若由同一 token 管理）。  
+- 流程：安裝依賴 → `wrangler deploy --dry-run` 驗證 → `wrangler deploy` 正式部署。  
+- 詳細步驟與回滾說明見 `jobs/JOB-028-Report.md`。
+
 ## 遷移說明
 
 - 既有舊路徑 `scripts/workers/api` 仍保留作為短期相容入口。
