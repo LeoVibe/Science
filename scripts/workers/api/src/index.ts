@@ -12,6 +12,8 @@ export interface Env {
   ACTIVITY_LOGS: KVNamespace;
   /** Google OAuth Client ID（網頁應用程式），用於驗證 ID Token；需在 wrangler.toml [vars] 或 .dev.vars 設定 */
   GOOGLE_CLIENT_ID?: string;
+  /** 後台首次啟動的 owner 種子帳號（逗號分隔 email） */
+  ADMIN_OWNER_EMAILS?: string;
 }
 
 const KV_KEYS = {
@@ -43,10 +45,26 @@ type AdminConfig = {
   library_config: unknown | null;
 };
 
-const INITIAL_OWNERS: AdminUserRecord[] = [
-  { email: 'yotta0280@gmail.com', role: 'owner', status: 'approved', approved_at: '2026-02-25T23:43:00Z' },
-  { email: 'miaw.shih@gmail.com', role: 'owner', status: 'approved', approved_at: '2026-02-25T23:43:00Z' },
-];
+function parseOwnerSeedEmails(raw: string | undefined): string[] {
+  if (!raw) return [];
+  const unique = new Set(
+    raw
+      .split(',')
+      .map((e) => e.trim().toLowerCase())
+      .filter((e) => e.length > 0)
+  );
+  return Array.from(unique);
+}
+
+function buildInitialOwners(seedEmails: string[]): AdminUserRecord[] {
+  const now = new Date().toISOString();
+  return seedEmails.map((email) => ({
+    email,
+    role: 'owner',
+    status: 'approved',
+    approved_at: now,
+  }));
+}
 
 async function verifyGoogleIdToken(idToken: string, expectedClientId: string | undefined): Promise<{ email: string; email_verified: boolean } | null> {
   try {
@@ -73,8 +91,12 @@ async function getAdminUsersList(env: Env): Promise<AdminUserRecord[]> {
       /* fallback to seed */
     }
   }
-  await env.SITE_SETTINGS.put(KV_KEYS.ADMIN_USERS, JSON.stringify(INITIAL_OWNERS));
-  return INITIAL_OWNERS;
+  const initialOwners = buildInitialOwners(parseOwnerSeedEmails(env.ADMIN_OWNER_EMAILS));
+  if (initialOwners.length === 0) {
+    throw new Error('Missing ADMIN_OWNER_EMAILS for initial admin owner bootstrap');
+  }
+  await env.SITE_SETTINGS.put(KV_KEYS.ADMIN_USERS, JSON.stringify(initialOwners));
+  return initialOwners;
 }
 
 async function saveAdminUsersList(env: Env, list: AdminUserRecord[]): Promise<void> {

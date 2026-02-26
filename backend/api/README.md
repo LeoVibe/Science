@@ -22,6 +22,11 @@
 5. **本地開發**  
    `npm run dev`
 
+6. **設定後台 owner 種子帳號（必要）**  
+   在 `wrangler.toml` 的 `[vars]` 或本地 `.dev.vars` 設定：
+   `ADMIN_OWNER_EMAILS=owner1@example.com,owner2@example.com`  
+   > 僅在 `admin_users` 尚未建立時作為首次 bootstrap 使用。
+
 ## 遷移說明
 
 - 既有舊路徑 `scripts/workers/api` 仍保留作為短期相容入口。

@@ -4,3 +4,6 @@
 
 # 與前端 VITE_GOOGLE_CLIENT_ID 使用同一組「網頁應用程式」OAuth 用戶端 ID
 GOOGLE_CLIENT_ID=你的用戶端ID.apps.googleusercontent.com
+
+# 後台 owner 種子帳號（首次 bootstrap admin_users 時使用，逗號分隔）
+ADMIN_OWNER_EMAILS=owner1@example.com,owner2@example.com

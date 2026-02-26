@@ -4,9 +4,10 @@ node_modules/
 .env.*
 !.env.example
 
-# Cloudflare Worker 本地密鑰（勿提交）
-workers/api/.dev.vars
-.wrangler/
+# Cloudflare Worker 本地密鑰與設定檔（勿提交）
+**/.dev.vars
+**/.wrangler/
+**/wrangler.toml
 *.log
 npm-debug.log*
 yarn-debug.log*
