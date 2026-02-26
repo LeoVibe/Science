@@ -1,3 +1,5 @@
+import { withBase } from '@/utils/basePath';
+
 interface AboutModalProps {
   open: boolean;
   onClose: () => void;
@@ -42,8 +44,8 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
             <li>0.1 版（2026/1/3）— 初始版本，基本架構（現為相容模式入口）。</li>
           </ul>
           <div className="text-xs mt-2 space-y-1">
-            <a href="/history/v1_science/" target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.1 初版(自然科)</a>
-            <a href="/history/v2_currisite/" target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.2 多科目版</a>
+            <a href={withBase('history/v1_science/')} target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.1 初版(自然科)</a>
+            <a href={withBase('history/v2_currisite/')} target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.2 多科目版</a>
           </div>
           <p className="text-xs mt-2">
             後續將依課程研究產出更多題庫，持續優化使用體驗。

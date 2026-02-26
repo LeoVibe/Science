@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eidos 歷史版 v0.5（相容模式）</title>
   <meta name="description" content="歷史版 v0.5 相容入口，將導向目前可用主站流程。">
-  <meta http-equiv="refresh" content="1;url=/?legacy=v0.5">
+  <meta http-equiv="refresh" content="1;url=../../?legacy=v0.5">
   <style>
     body { font-family: system-ui, -apple-system, sans-serif; margin: 0; background: #f8f6f1; color: #3b2d1f; }
     .wrap { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
@@ -20,11 +20,16 @@
     <div class="card">
       <h1>歷史版 v0.5 相容模式</h1>
       <p>舊版資源已轉為相容入口，將自動導向目前可完整操作的主站版本。</p>
-      <p>若未自動跳轉，請點這裡：<a href="/?legacy=v0.5">前往主站相容模式</a></p>
+      <p>若未自動跳轉，請點這裡：<a href="../../?legacy=v0.5">前往主站相容模式</a></p>
     </div>
   </div>
   <script>
-    window.location.replace('/?legacy=v0.5');
+    (function redirectToLegacyBridge() {
+      // Keep redirect base-safe for both "/" and "/Science/" deployments.
+      var path = window.location.pathname;
+      var base = path.startsWith('/Science/') ? '/Science' : '';
+      window.location.replace(base + '/?legacy=v0.5');
+    })();
   </script>
 </body>
 </html>

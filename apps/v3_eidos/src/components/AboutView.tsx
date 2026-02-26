@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Grade, APP_CONFIG, getSubjectsByGrade, Semester, Subject, SUBJECT_THEME_MAP, buildPath, Publisher, PUBLISHER_THEME_COLORS } from '@/data/config';
 import libraryData from '@/data/libraryStats.json';
 import type { LibraryConfig } from '@/components/admin/AdminLibraryManager';
+import { withBase } from '@/utils/basePath';
 
 const ABOUT_TABS = ['about', 'library', 'features', 'changelog'] as const;
 type AboutTab = (typeof ABOUT_TABS)[number];
@@ -427,7 +428,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
           <div className="bg-card rounded-2xl border p-4">
             <div className="text-xs text-muted-foreground space-y-1">
               <a
-                href="/history/v1_science/"
+                href={withBase('history/v1_science/')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[11px] font-bold text-primary hover:underline"
@@ -435,7 +436,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 v0.1 初版(自然科)
               </a>
               <a
-                href="/history/v2_currisite/"
+                href={withBase('history/v2_currisite/')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[11px] font-bold text-primary hover:underline"
