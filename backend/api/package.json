@@ -8,7 +8,8 @@
     "deploy": "wrangler deploy",
     "db:create": "wrangler d1 create eidos-db",
     "db:migrate": "wrangler d1 migrations apply eidos-db",
-    "db:migrate:local": "wrangler d1 migrations apply eidos-db --local"
+    "db:migrate:local": "wrangler d1 migrations apply eidos-db --local",
+    "smoke": "node scripts/smoke.mjs"
   },
   "devDependencies": {
     "wrangler": "^3.91.0"

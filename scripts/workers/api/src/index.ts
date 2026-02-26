@@ -178,6 +178,15 @@ function json<T>(data: T, init?: ResponseInit) {
   });
 }
 
+function safeParseJSON<T>(raw: string | null | undefined, fallback: T): T {
+  if (raw == null || raw === '') return fallback;
+  try {
+    return JSON.parse(raw) as T;
+  } catch {
+    return fallback;
+  }
+}
+
 function corsHeaders(origin: string | null) {
   const o = origin || '*';
   return {
@@ -211,20 +220,28 @@ export default {
       if (profileMatch) {
         const userId = decodeURIComponent(profileMatch[1]);
         if (req.method === 'GET') {
-          const row = await env.DB.prepare(
-            'SELECT * FROM profiles WHERE user_id = ?'
-          ).bind(userId).first<ProfileRow>();
-          if (!row) return json({ error: 'Not found' }, { status: 404, headers });
-          return json({
-            user_id: row.user_id,
-            base_year: row.base_year,
-            publisher_preferences: JSON.parse(row.publisher_preferences || '{}'),
-            quiz_next_delay: row.quiz_next_delay,
-            shortcut_enabled: Boolean(row.shortcut_enabled),
-            theme: row.theme,
-            created_at: row.created_at,
-            updated_at: row.updated_at,
-          }, { headers });
+          try {
+            const row = await env.DB.prepare(
+              'SELECT * FROM profiles WHERE user_id = ?'
+            ).bind(userId).first<ProfileRow>();
+            if (!row) return json({ error: 'Not found' }, { status: 404, headers });
+            return json({
+              user_id: row.user_id,
+              base_year: row.base_year,
+              publisher_preferences: safeParseJSON(row.publisher_preferences, {}),
+              quiz_next_delay: row.quiz_next_delay,
+              shortcut_enabled: Boolean(row.shortcut_enabled),
+              theme: row.theme,
+              created_at: row.created_at,
+              updated_at: row.updated_at,
+            }, { headers });
+          } catch (e) {
+            const msg = e instanceof Error ? e.message : String(e);
+            if (/no such table|profiles|SQLITE_ERROR/i.test(msg)) {
+              return json({ error: 'Database not ready', hint: 'Run: cd backend/api && npm run db:migrate' }, { status: 503, headers });
+            }
+            throw e;
+          }
         }
         if (req.method === 'PUT' || req.method === 'PATCH') {
           let body: Record<string, unknown> = {};
@@ -285,7 +302,7 @@ export default {
           return json({
             user_id: updated.user_id,
             base_year: updated.base_year,
-            publisher_preferences: JSON.parse(updated.publisher_preferences || '{}'),
+            publisher_preferences: safeParseJSON(updated.publisher_preferences, {}),
             quiz_next_delay: updated.quiz_next_delay,
             shortcut_enabled: Boolean(updated.shortcut_enabled),
             theme: updated.theme,

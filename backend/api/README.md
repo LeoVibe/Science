@@ -35,6 +35,7 @@
   - `CLOUDFLARE_ACCOUNT_ID`：Cloudflare 儀表板右側 Account ID。  
   - `CLOUDFLARE_API_TOKEN`：My Profile → API Tokens → Create Token，權限需包含 **Edit Cloudflare Workers**（以及 D1/KV 若由同一 token 管理）。  
 - 流程：安裝依賴 → `wrangler deploy --dry-run` 驗證 → `wrangler deploy` 正式部署。  
+- **Production API**：https://eidos-api.eidos.workers.dev  
 - 詳細步驟與回滾說明見 `jobs/JOB-028-Report.md`。
 
 ## 遷移說明

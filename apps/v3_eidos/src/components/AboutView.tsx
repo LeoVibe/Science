@@ -402,7 +402,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 desc: '初始版本，基本架構（現為相容模式入口）',
                 highlight: false,
               },
-            ].map((v, i, arr) => (
+            ].map((v: { ver: string; date: string; desc: string; highlight: boolean; link?: string; legacy?: boolean }, i, arr) => (
               <div key={v.ver} className={`flex items-start gap-3 py-3 ${i < arr.length - 1 ? 'border-b border-border' : ''}`}>
                 <div className="shrink-0 w-16 text-center space-y-0.5">
                   <span className={`block text-sm font-black ${v.highlight ? 'text-primary' : 'text-foreground'}`}>v{v.ver}</span>
@@ -425,21 +425,25 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               </div>
             ))}
           </div>
-          <div className="bg-card rounded-2xl border p-4">
-            <div className="text-xs text-muted-foreground space-y-1">
+          <div className="bg-secondary/40 rounded-2xl border border-dashed border-border p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="flex items-center gap-2 text-sm text-foreground font-bold">
+              <span className="text-lg">🏛️</span>
+              <span>典藏館：體驗舊版系統</span>
+            </div>
+            <div className="flex items-center gap-2">
               <a
-                href={withBase('history/v1_science/')}
+                href={withBase('history/v1_science/index.html')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-[11px] font-bold text-primary hover:underline"
+                className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
               >
                 v0.1 初版(自然科)
               </a>
               <a
-                href={withBase('history/v2_currisite/')}
+                href={withBase('history/v2_currisite/index.html')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-[11px] font-bold text-primary hover:underline"
+                className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
               >
                 v0.2 多科目版
               </a>

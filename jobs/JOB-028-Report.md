@@ -23,11 +23,44 @@
 3. 遠端 D1 若尚未遷移：在本地或 Cloudflare 執行一次 `npm run db:migrate`（需有權限的 token）。
 4. 觸發部署：推送變更到 `main` 或於 Actions 頁籤手動執行「Deploy API (Cloudflare Worker)」。
 
-## Phase 3 正式環境切換與驗收（待執行）
+## Phase 3 正式環境切換與驗收
 
-- [ ] 部署至 production Worker 並確認無錯誤。
-- [ ] 冒煙測試：settings、profile、admin 相關端點。
+- [x] 部署至 production Worker 並確認無錯誤。（GitHub Actions 已綠）
+- [x] 冒煙測試：settings、profile、admin 相關端點（見下方步驟）；三項皆通過。
 - [ ] 檢查 Cloudflare 後台：Worker、D1、KV、Logs。
+
+### 正式機前台已接 Production API
+
+- GitHub Actions（`.github/workflows/deploy.yml`）建置時已設定 `VITE_API_URL=https://eidos-api.eidos.workers.dev`、`VITE_APP_BASE=/Science/`。
+- 正式站 **https://leovibe.github.io/Science/** 已部署，載入的 JS 內含上述 API 網址，設定與個人資料等會打 Production API。
+
+### Production API 網址
+
+Worker 名稱：`eidos-api`。
+
+- **Production**：**https://eidos-api.eidos.workers.dev**
+
+### Phase 3 建議步驟
+
+1. **確認遠端 D1 已跑過 migration**  
+   若從未在 production 跑過：在專案根目錄 `backend/api` 執行  
+   `npm run db:migrate`  
+   （需已登入 `wrangler login` 或設好 `CLOUDFLARE_API_TOKEN`），否則 `/api/profiles` 等會 500。  
+   **已執行**：遠端 D1 曾無 `profiles` 表，已以 `wrangler d1 execute eidos-db --remote --file=./migrations/0000_initial_profiles_and_ux.sql` 建表；之後 `npm run db:migrate` 會顯示已是最新。
+
+2. **冒煙測試**
+   - `GET BASE/api/settings` → 應 200，有 JSON。
+   - `GET BASE/api/profiles/某個不存在的 userId` → 應 404。
+   - `GET BASE/api/admin/verify`（不帶 token）→ 應 401。  
+   **腳本**：在 `backend/api` 執行  
+   `BASE=https://eidos-api.eidos.workers.dev npm run smoke`  
+   會自動打上述三支並印 ✅/❌。
+
+3. **前台／後台**  
+   若前台已指向此 API：實際點一輪設定、個人資料、後台登入，確認無紅錯。
+
+4. **Cloudflare 後台**  
+   Workers & Pages → eidos-api → 看 Deployments（有最新部署）、Logs；D1、KV 若有使用可順便確認。
 
 ## 回滾步驟
 

@@ -24,12 +24,7 @@
     </div>
   </div>
   <script>
-    (function redirectToLegacyBridge() {
-      // Keep redirect base-safe for both "/" and "/Science/" deployments.
-      var path = window.location.pathname;
-      var base = path.startsWith('/Science/') ? '/Science' : '';
-      window.location.replace(base + '/?legacy=v0.5');
-    })();
+    window.location.replace('../../?legacy=v0.5');
   </script>
 </body>
 </html>

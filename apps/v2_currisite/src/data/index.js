@@ -21,16 +21,21 @@ function getSubjectForPath(grade, subject) {
  * @param {string} publisher - 出版社名稱 (如 '康軒', '南一')
  * @returns {Promise<Object>} 返回題庫模組，包含 questions 陣列和工具函數
  */
-// 與 Vite base 一致，部署在子路徑（如 /Science/）時 fetch 才能正確
-const getBaseUrl = () => (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/')
+// 題庫根路徑由環境參數控制：本機 "/"、雲端 "/Science/"。
+const getQuestionBaseUrl = () => (import.meta.env.VITE_QUESTION_BASE || '/').replace(/\/?$/, '/')
 
 export async function loadQuestions(grade, subject, semester, publisher) {
   const pathSubject = getSubjectForPath(grade, subject)
   const semesterDir = `S${semester}`
   const gradeDir = `G${grade}`
-  const basePath = `${getBaseUrl()}questions/platform/${gradeDir}/${pathSubject}/${semesterDir}/${publisher}`
+  const basePathPrimary = `${getQuestionBaseUrl()}question/platform/${gradeDir}/${pathSubject}/${semesterDir}/${publisher}`
+  const basePathLegacy = `${getQuestionBaseUrl()}questions/platform/${gradeDir}/${pathSubject}/${semesterDir}/${publisher}`
 
-  const questions = await loadQuestionsFromDirectory(basePath, grade, pathSubject, semester, publisher, [])
+  let questions = await loadQuestionsFromDirectory(basePathPrimary, grade, pathSubject, semester, publisher, [])
+  // Backward compatibility: some legacy local environments still use `questions/platform`.
+  if (questions.length === 0 && basePathLegacy !== basePathPrimary) {
+    questions = await loadQuestionsFromDirectory(basePathLegacy, grade, pathSubject, semester, publisher, [])
+  }
 
   // 返回標準化的模組格式
   return {

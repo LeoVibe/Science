@@ -9,25 +9,25 @@ test.describe('History routes under base path', () => {
   }
 
   test('legacy history routes do not render app 404', async ({ page }) => {
-    await page.goto('/history/v1_science/');
+    await page.goto('history/v1_science/');
     await expect(page.locator('body')).not.toContainText('Oops! Page not found');
 
-    await page.goto('/history/v2_currisite/');
+    await page.goto('history/v2_currisite/');
     await expect(page.locator('body')).not.toContainText('Oops! Page not found');
   });
 
   test('legacy compatibility route aliases remain available', async ({ page }) => {
-    await page.goto('/history/v0.1/');
-    await expect(page).toHaveURL(/history\/v0\.1\/?$/);
+    await page.goto('history/v0.1/index.html');
+    await expect(page).toHaveURL(/legacy=v0\.1/);
     await expect(page.locator('body')).not.toContainText('Oops! Page not found');
 
-    await page.goto('/history/v0.5/');
-    await expect(page).toHaveURL(/history\/v0\.5\/?$/);
+    await page.goto('history/v0.5/index.html');
+    await expect(page).toHaveURL(/legacy=v0\.5/);
     await expect(page.locator('body')).not.toContainText('Oops! Page not found');
   });
 
   test('about changelog links open legacy pages in new tab', async ({ page }) => {
-    await page.goto('/Science/g5/chi/s2/nani/about/changelog');
+    await page.goto('g5/chi/s2/nani/about/changelog');
     await clearSetupOverlay(page);
 
     const v1Link = page.getByRole('link', { name: /v0\.1 初版\(自然科\)/ }).first();
@@ -35,10 +35,25 @@ test.describe('History routes under base path', () => {
 
     await expect(v1Link).toBeVisible();
     await expect(v2Link).toBeVisible();
-    await expect(v1Link).toHaveAttribute('href', /\/Science\/history\/v1_science\/?$/);
-    await expect(v2Link).toHaveAttribute('href', /\/Science\/history\/v2_currisite\/?$/);
+    await expect(v1Link).toHaveAttribute('href', /.*history\/v1_science\/index\.html$/);
+    await expect(v2Link).toHaveAttribute('href', /.*history\/v2_currisite\/index\.html$/);
     await expect(v1Link).toHaveAttribute('target', '_blank');
     await expect(v2Link).toHaveAttribute('target', '_blank');
+  });
+
+  test('about legacy link opens history page successfully', async ({ page, context }) => {
+    await page.goto('g5/chi/s2/nani/about/changelog');
+    await clearSetupOverlay(page);
+
+    const v1Link = page.getByRole('link', { name: /v0\.1 初版\(自然科\)/ }).first();
+    const [newPage] = await Promise.all([
+      context.waitForEvent('page'),
+      v1Link.click(),
+    ]);
+    await newPage.waitForLoadState('domcontentloaded');
+    await expect(newPage.locator('body')).not.toContainText('Oops! Page not found');
+    await expect(newPage).toHaveURL(/.*history\/v1_science/);
+    await newPage.close();
   });
 });
 

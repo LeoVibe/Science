@@ -1,21 +1,25 @@
-import { defineConfig, type Plugin } from "vite";
+import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 import fs from "fs";
 
-// 讓 /history/ 路徑下的靜態子站不被 SPA fallback 攔截
-function historySubsitePlugin(): Plugin {
+// 讓 /history/ 路徑下的靜態子站不被 SPA fallback 攔截（支援 base 如 /Science/）
+function historySubsitePlugin(basePath: string): Plugin {
+  const base = basePath.endsWith("/") ? basePath : `${basePath}/`;
   return {
     name: "history-subsite",
-    // 回傳一個函式，它會在 Vite 內部的 middleware（包括 SPA fallback）之前執行
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (req.url && req.url.startsWith("/history/") && !req.url.includes(".")) {
-          // 如果請求的是目錄，自動加上 index.html
-          const basePath = req.url.split('?')[0].replace(/\/$/, "");
-          req.url = `${basePath}/index.html`;
+        if (!req.url) return next();
+        const pathname = req.url.split("?")[0];
+        const afterBase = base === "/" ? pathname : pathname.startsWith(base) ? pathname.slice(base.length) : "";
+        const segment = afterBase.replace(/^\/+/, "");
+        const isHistoryDir = segment && (segment.startsWith("history/") || segment === "history");
+        if (isHistoryDir && !pathname.includes(".")) {
+          const dirPath = pathname.replace(/\/$/, "") || pathname;
+          req.url = `${dirPath}/index.html`;
         }
         next();
       });
@@ -76,23 +80,29 @@ function localCurationPlugin(): Plugin {
 }
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: "/Science/",
-  server: {
-    host: "::",
-    port: 8080,
-    hmr: {
-      overlay: false,
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), "");
+  const configuredBase = env.VITE_APP_BASE || "/";
+  const normalizedBase = configuredBase.endsWith("/") ? configuredBase : `${configuredBase}/`;
+
+  return {
+    base: normalizedBase,
+    server: {
+      host: "::",
+      port: 8080,
+      hmr: {
+        overlay: false,
+      },
     },
-  },
-  plugins: [
-    historySubsitePlugin(),
-    react(),
-    mode === "development" && componentTagger(),
-  ].filter(Boolean),
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+    plugins: [
+      historySubsitePlugin(normalizedBase),
+      react(),
+      mode === "development" && componentTagger(),
+    ].filter(Boolean),
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
     },
-  },
-}));
+  };
+});

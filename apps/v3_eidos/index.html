@@ -22,6 +22,16 @@
   <body>
     <div id="root"></div>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+      (function restoreDeepLinkFrom404() {
+        var url = new URL(window.location.href);
+        var redirectPath = url.searchParams.get("__redirect");
+        if (!redirectPath) return;
+        url.searchParams.delete("__redirect");
+        var nextPath = redirectPath + (url.searchParams.toString() ? "?" + url.searchParams.toString() : "");
+        window.history.replaceState(null, "", nextPath);
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

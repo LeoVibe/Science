@@ -43,9 +43,14 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
             <li>0.5 版（2026/2/10）— 多科目嘗試版（現為相容模式入口）。</li>
             <li>0.1 版（2026/1/3）— 初始版本，基本架構（現為相容模式入口）。</li>
           </ul>
-          <div className="text-xs mt-2 space-y-1">
-            <a href={withBase('history/v1_science/')} target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.1 初版(自然科)</a>
-            <a href={withBase('history/v2_currisite/')} target="_blank" rel="noopener noreferrer" className="block font-bold text-primary hover:underline">v0.2 多科目版</a>
+          <div className="mt-6 pt-4 border-t border-border/40">
+            <p className="text-xs font-bold text-foreground mb-2 flex items-center gap-1.5">
+              <span>🏛️</span> 典藏館 (舊版系統)
+            </p>
+            <div className="flex flex-wrap items-center gap-2">
+              <a href={withBase('history/v1_science/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.1 初版(自然科)</a>
+              <a href={withBase('history/v2_currisite/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.2 多科目版</a>
+            </div>
           </div>
           <p className="text-xs mt-2">
             後續將依課程研究產出更多題庫，持續優化使用體驗。
