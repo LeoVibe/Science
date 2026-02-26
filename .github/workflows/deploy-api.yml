@@ -39,14 +39,14 @@ jobs:
         run: npm install
 
       - name: Validate (dry-run)
-        run: npx wrangler deploy --dry-run
+        run: npx wrangler deploy --config wrangler.toml --dry-run
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy to Cloudflare
         if: success()
-        run: npx wrangler deploy
+        run: npx wrangler deploy --config wrangler.toml
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
