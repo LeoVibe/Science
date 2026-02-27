@@ -6,6 +6,7 @@
 const DEVICE_ID_KEY = 'eidos_device_id';
 const ACTIVITY_LOG_KEY = 'eidos_activity_log';
 const MAX_LOCAL_LOGS = 500;
+import { getApiBaseUrl } from '@/data/api';
 
 export interface ActivityDetail {
   grade?: number;
@@ -60,14 +61,14 @@ export function logActivity(action: string, details: ActivityDetail = {}): void 
   const logs = getLocalLogs();
   logs.push(entry);
   setLocalLogs(logs);
-  syncToCloudflare(entry).catch(() => {});
+  syncToCloudflare(entry).catch(() => { });
 }
 
 /** 同步單筆或本機批次至 Cloudflare（預留 API）；失敗靜默忽略 */
 export async function syncToCloudflare(entry?: ActivityEntry): Promise<void> {
-  const apiBase = import.meta.env.VITE_API_URL || '';
+  const apiBase = getApiBaseUrl();
   if (!apiBase) return;
-  const url = `${apiBase.replace(/\/$/, '')}/api/activity`;
+  const url = `${apiBase}/api/activity`;
   const body = entry ? [entry] : getLocalLogs().slice(-50);
   const res = await fetch(url, {
     method: 'POST',

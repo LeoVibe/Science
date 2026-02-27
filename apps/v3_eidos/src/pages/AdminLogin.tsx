@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { adminAuthRequest } from '@/data/api';
+import { adminAuthRequest, getApiBaseUrl } from '@/data/api';
 
 function decodeJwtPayload(token: string): Record<string, unknown> | null {
   const parts = token.split('.');
@@ -85,7 +85,7 @@ export default function AdminLogin() {
       } catch (e) {
         const msg = e instanceof Error ? e.message : '後端驗證失敗，請稍後再試。';
         if (msg === 'Failed to fetch' || msg.includes('fetch') || msg.includes('NetworkError')) {
-          setError('無法連線後端 API。請確認：1) 已啟動 Workers API（在 workers/api 執行 npm run dev，預設 http://localhost:8787）；2) 前端 VITE_API_URL 若已設定需指向該網址。');
+          setError(`無法連線後端 API。目前設定指向：${getApiBaseUrl()}。請確認後端服務是否已啟動或 URL 是否正確。`);
         } else {
           setError(msg);
         }

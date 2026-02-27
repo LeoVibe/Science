@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { Question, SUBJECT_THEME_MAP, Subject } from '@/data/config';
+import QuestionFeedback from './QuestionFeedback';
 
 interface QuizViewProps {
   questions: Question[];
@@ -12,6 +13,7 @@ interface QuizViewProps {
   onFinish: (score: number, total: number, wrongQuestions: Question[], answeredList: { question: Question; isCorrect: boolean; selected: number }[]) => void;
   onBack: () => void;
   onSaveAnswer: (questionId: string, isCorrect: boolean) => void;
+  userId?: string;
   onProgressSave?: (payload: {
     questions: Question[];
     currentIndex: number;
@@ -30,7 +32,7 @@ const DEFAULT_AUTO_ADVANCE_MS = 1500;
 
 export default function QuizView({
   questions, quizType, subject, autoAdvanceDelayMs = DEFAULT_AUTO_ADVANCE_MS, shortcutEnabled = true, onFinish, onBack, onSaveAnswer,
-  onProgressSave, initialIndex = 0, initialScore = 0, initialAnswered = [], initialStartTime = Date.now(),
+  userId, onProgressSave, initialIndex = 0, initialScore = 0, initialAnswered = [], initialStartTime = Date.now(),
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [score, setScore] = useState(initialScore);
@@ -188,6 +190,7 @@ export default function QuizView({
           <span className="text-[10px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground ml-auto shrink-0">
             選擇題
           </span>
+          <QuestionFeedback questionId={current.id} userId={userId} />
         </div>
 
         <p className="text-lg font-medium leading-relaxed">{current.question}</p>

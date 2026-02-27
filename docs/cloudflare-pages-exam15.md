@@ -26,7 +26,7 @@
 | 變數名稱 | 值 | 說明 |
 |----------|-----|------|
 | `VITE_APP_BASE` | `/` | 根路徑部署，勿用 `/Science/` |
-| `VITE_API_URL` | `https://eidos-api.eidos.workers.dev` | Production API |
+| `VITE_API_URL` | `https://eidos-api.eidosedu.workers.dev` | Production API |
 
 - 修改環境變數後需 **重新執行一次 Build**（Re-deploy 或推送新 commit）才會生效。
 - 敏感資訊請勿寫進版控，僅在 Cloudflare 後台設定。
@@ -45,4 +45,4 @@
 | API | `VITE_API_URL=https://eidos-api.eidos.workers.dev` | 同上 |
 | 建置來源 | `.github/workflows/deploy.yml` | Cloudflare Pages 後台 Build 設定 |
 
-兩邊都使用同一個 Production API：**https://eidos-api.eidos.workers.dev**。
+兩邊都使用同一個 Production API：**https://eidos-api.eidosedu.workers.dev**。

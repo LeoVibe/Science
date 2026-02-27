@@ -426,6 +426,49 @@ export default {
         return json({ [key]: value }, { headers });
       }
 
+      // --- Admin Feedback Insights (D1) ---
+      if (path === '/api/admin/feedback/stats' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+
+        try {
+          // 1. 總計與標籤分佈
+          const tagStats = await env.DB.prepare(
+            'SELECT tag, COUNT(*) as count FROM feedback GROUP BY tag'
+          ).all();
+
+          // 2. 熱點題目 (被投訴最多次的前 10 名)
+          const hotspotQuestions = await env.DB.prepare(
+            'SELECT question_id, COUNT(*) as report_count FROM feedback GROUP BY question_id ORDER BY report_count DESC LIMIT 10'
+          ).all();
+
+          return json({
+            ok: true,
+            total: tagStats.results.reduce((acc, curr: any) => acc + curr.count, 0),
+            tagStats: tagStats.results,
+            hotspots: hotspotQuestions.results
+          }, { headers });
+        } catch (e) {
+          return json({ error: String(e) }, { status: 500, headers });
+        }
+      }
+
+      const feedbackDetailMatch = path.match(/^\/api\/admin\/feedback\/questions\/([^/]+)\/?$/);
+      if (feedbackDetailMatch && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+
+        const questionId = decodeURIComponent(feedbackDetailMatch[1]);
+        try {
+          const details = await env.DB.prepare(
+            'SELECT * FROM feedback WHERE question_id = ? ORDER BY created_at DESC'
+          ).bind(questionId).all();
+          return json({ ok: true, details: details.results }, { headers });
+        } catch (e) {
+          return json({ error: String(e) }, { status: 500, headers });
+        }
+      }
+
       // --- Activity Logs (KV) ---
       if (path === '/api/activity' && req.method === 'POST') {
         let body: { logs?: Array<{ deviceId: string; timestamp: string; action: string; details?: Record<string, unknown> }> } = {};
@@ -452,6 +495,40 @@ export default {
         await env.ACTIVITY_LOGS.put('recent', JSON.stringify(recent.slice(-max)));
         return json({ ok: true, count: logs.length }, { headers });
       }
+
+      // --- Question Feedback (D1) ---
+      if (path === '/api/feedback' && req.method === 'POST') {
+        let body: { userId?: string; questionId?: string; tag?: string; comment?: string } = {};
+        try {
+          body = (await req.json()) as typeof body;
+        } catch {
+          return json({ error: 'Invalid JSON' }, { status: 400, headers });
+        }
+
+        const userId = body.userId || req.headers.get('X-User-Id') || 'anonymous';
+        const { questionId, tag, comment } = body;
+
+        if (!questionId || !tag) {
+          return json({ error: 'Missing questionId or tag' }, { status: 400, headers });
+        }
+
+        const now = new Date().toISOString();
+        try {
+          await env.DB.prepare(
+            'INSERT INTO feedback (user_id, question_id, tag, comment, created_at) VALUES (?, ?, ?, ?, ?)'
+          )
+            .bind(userId, questionId, tag, comment || null, now)
+            .run();
+          return json({ ok: true }, { headers });
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : String(e);
+          if (/no such table|feedback/i.test(msg)) {
+            return json({ error: 'Database table not ready', hint: 'Run: wrangler d1 migrations apply eidos-db --remote' }, { status: 503, headers });
+          }
+          throw e;
+        }
+      }
+
       if (path === '/api/activity' && req.method === 'GET') {
         const raw = await env.ACTIVITY_LOGS.get('recent');
         const logs = raw ? JSON.parse(raw) : [];

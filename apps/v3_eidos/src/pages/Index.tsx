@@ -570,6 +570,7 @@ const Index = () => {
                 onFinish={handleQuizFinish}
                 onBack={() => setView('menu')}
                 onSaveAnswer={handleSaveAnswer}
+                userId={getOrCreateUserId()}
                 onProgressSave={(progress) => {
                   saveQuizProgress(grade, subject, semester, publisher, progress);
                 }}
