@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U2",
+    "order": 2,
+    "title": "Unit 2 How Do You Go to School?",
+    "verified": true,
+    "verification_source": "康軒官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: How ______ you go to school? B: By bus.",
+      "options": [
+        "are",
+        "is",
+        "do",
+        "does"
+      ],
+      "answer": "do",
+      "explanation": "主詞是 you，助動詞使用 do。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "She goes to school ______ bike.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": "by",
+      "explanation": "交通工具介系詞用 by。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "They go to the park ______ foot.",
+      "answer": "on",
+      "explanation": "走路去某地是用 on foot。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "true_false",
+      "question": "He goes to school by MRT.",
+      "answer": "True",
+      "explanation": "by MRT 指搭乘捷運。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "How ______ Tom go to school?",
+      "options": [
+        "are",
+        "do",
+        "does",
+        "is"
+      ],
+      "answer": "does",
+      "explanation": "Tom 是第三人稱單數，助動詞用 does。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

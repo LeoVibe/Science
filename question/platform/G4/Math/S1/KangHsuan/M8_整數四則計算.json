@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M8",
+    "order": 8,
+    "title": "整數四則計算"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "在沒有括號的算式中，如果同時有加減和乘除，運算順序應為何？",
+      "options": [
+        "從左到右",
+        "先加減後乘除",
+        "隨便都可以",
+        "先乘除後加減"
+      ],
+      "answer": "先乘除後加減",
+      "explanation": "這是四則運算的基本約定規則。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "如果在算式中有括號 ( )，必須先計算括號內的內容。",
+      "answer": "True",
+      "explanation": "括號具有改變運算優先權的功能。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "計算 50 + 20 × 2 = ______。",
+      "answer": "90",
+      "explanation": "先做乘法 20 × 2 = 40，再做加法 50 + 40 = 90。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 (100 - 40) ÷ 6 = ？",
+      "options": [
+        "10",
+        "40",
+        "30",
+        "20"
+      ],
+      "answer": "10",
+      "explanation": "先算括號內 100 - 40 = 60，再除以 6 等於 10。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "每箱蘋果 12 個，原本有 5 箱，又買來 3 箱，全部共有幾個？下列哪個算式正確？",
+      "options": [
+        "12 × 5 × 3",
+        "12 × 5 + 3",
+        "12 × (5 + 3)",
+        "12 + 5 + 3"
+      ],
+      "answer": "12 × (5 + 3)",
+      "explanation": "先算總箱數 (5 + 3)，再乘以每箱的個數 12。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

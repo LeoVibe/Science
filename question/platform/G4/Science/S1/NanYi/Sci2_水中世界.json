@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci2",
+    "order": 2,
+    "title": "水中世界"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "布袋蓮的葉柄長得像是個小球，裡面充滿空氣。這對它的生活有什麼幫助？",
+      "options": [
+        "為了漂亮",
+        "增加浮力，讓它漂浮在水面上",
+        "防止被魚吃掉",
+        "可以儲存食物"
+      ],
+      "answer": "增加浮力，讓它漂浮在水面上",
+      "explanation": "這是漂浮類水生植物特殊的生存適應構造。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "魚類利用鰓呼吸，血液在鰓部與水進行氧氣和二氧化碳的交換。",
+      "answer": "True",
+      "explanation": "這是水生動物高效的呼吸方式。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "根長在水底泥土中，葉子或花伸出水面的植物（如荷花），稱為______植物。",
+      "answer": "挺水",
+      "explanation": "挺水植物具有較堅韌的莖部支持。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪一種生物「不屬於」常見的淡水水域生物？",
+      "options": [
+        "水黽",
+        "大肚魚",
+        "孑孓",
+        "小丑魚"
+      ],
+      "answer": "小丑魚",
+      "explanation": "小丑魚主要生活在海洋（鹹水）環境中。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "如果不小心將外來物種（如巴西龜、紅火蟻）隨意放生到家鄉水域，會造成？",
+      "options": [
+        "讓水質變好",
+        "增加生物種類，非常好",
+        "生物會相處得很愉快",
+        "破壞原本的生態平衡，甚至導致本土物種消失"
+      ],
+      "answer": "破壞原本的生態平衡，甚至導致本土物種消失",
+      "explanation": "外來入侵種是生態保育的一大挑戰。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}

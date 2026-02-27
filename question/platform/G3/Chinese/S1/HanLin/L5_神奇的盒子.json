@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "國語",
+    "publisher": "han_lin",
+    "lesson": "L5",
+    "order": 5,
+    "title": "神奇的盒子"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "本課所謂「神奇的盒子」，主要指的是現代生活中的哪一種設備？",
+      "options": [
+        "鞋盒",
+        "垃圾桶",
+        "微波爐",
+        "電腦、平板或手機"
+      ],
+      "answer": "電腦、平板或手機",
+      "explanation": "這些電子設備能連接網路、儲存海量資訊，對孩子來說就像一個神奇的寶盒。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "文中提到，只要在盒子裡點一點，就能查到大自然的秘密、聽音樂或聯絡遠方的朋友。",
+      "answer": "True",
+      "explanation": "展現資訊科技帶來的便利與連結。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "雖然盒子很神奇，但如果過度使用而忽視了現實生活中的交流，反而會讓自己變得很______。",
+      "answer": "孤單、無趣、被動或近視",
+      "explanation": "引導學生思考科技使用的利與弊。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "這課最想建立小孩哪一種資訊素養？",
+      "options": [
+        "正確並有節制地使用科技產品，發揮它的正面功能",
+        "只要會玩遊戲就好",
+        "知道電腦很貴",
+        "不用再看書了"
+      ],
+      "answer": "正確並有節制地使用科技產品，發揮它的正面功能",
+      "explanation": "數位公民素養的啟蒙教育。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪一種行為才是善用「神奇盒子」的表現？",
+      "options": [
+        "用盒子亂罵其他同學",
+        "摔壞盒子",
+        "利用盒子查詢課業資料、擴展知識視野",
+        "整天都在打電動"
+      ],
+      "answer": "利用盒子查詢課業資料、擴展知識視野",
+      "explanation": "教育學生正確的工具使用價值觀。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

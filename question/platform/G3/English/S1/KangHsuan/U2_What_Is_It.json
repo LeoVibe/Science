@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U2",
+    "order": 2,
+    "title": "What Is It?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What is it? B: It ______ a book.",
+      "options": [
+        "are",
+        "be",
+        "am",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "配合第三人稱單數 It，使用 be 動詞 is。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "We use 'What is it?' to ask about an object.",
+      "answer": "True",
+      "explanation": "'What is it?' 用來詢問某個物品是什麼。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "It is a ______ (鉛筆).",
+      "answer": "pencil",
+      "explanation": "pencil 的意思是鉛筆。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: What is it? B: It's ______ apple.",
+      "options": [
+        "some",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": "an",
+      "explanation": "apple 是母音開頭，單數時使用 an。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Which of the following is NOT a school object?",
+      "options": [
+        "pen",
+        "ruler",
+        "eraser",
+        "apple"
+      ],
+      "answer": "apple",
+      "explanation": "apple 是食物，不是常見的文具物品。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}

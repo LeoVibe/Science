@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U4",
+    "order": 4,
+    "title": "Whose Ruler Is This?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Whose ruler is this? B: It's ______ ruler.",
+      "options": [
+        "you",
+        "my",
+        "they",
+        "I"
+      ],
+      "answer": "my",
+      "explanation": "my 是所有格，表示「我的」。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'Whose' is used to ask about who owns something.",
+      "answer": "True",
+      "explanation": "Whose 用來詢問某物是屬於誰的。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Whose ball is this? B: It is ______ (Dino 的) ball.",
+      "answer": "Dino's",
+      "explanation": "在人名後加上 's 表示所有權。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Whose ______ are these? B: They are my brother's.",
+      "options": [
+        "bag",
+        "book",
+        "socks",
+        "pen"
+      ],
+      "answer": "socks",
+      "explanation": "因為回答用 these/they are，表示物體是複數。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: Is this your pen? B: Yes, it is ______.",
+      "options": [
+        "my",
+        "mine",
+        "your",
+        "you"
+      ],
+      "answer": "mine",
+      "explanation": "mine 是所有格代名詞，代表 my pen。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}

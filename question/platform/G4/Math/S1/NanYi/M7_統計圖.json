@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M7",
+    "order": 7,
+    "title": "統計圖"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "如果要比較班上同學最喜歡的五種水果人數，最適合使用哪種統計圖？",
+      "options": [
+        "圓形圖",
+        "長條圖",
+        "點圖",
+        "折線圖"
+      ],
+      "answer": "長條圖",
+      "explanation": "長條圖適合用來顯示與比較分類數據的數量大小。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "折線圖的線段如果往右上傾斜，代表數值正在增加。",
+      "answer": "True",
+      "explanation": "折線圖能清楚展現時間序列數據的變化趨勢。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "統計圖側邊標註數據大小的線條稱為______軸。",
+      "answer": "縱或 Y",
+      "explanation": "通常縱軸代表數值，橫軸代表項目或時間。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "在長條圖中，如果一格代表 5 人，三格半代表多少人？",
+      "options": [
+        "20 人",
+        "10 人",
+        "15 人",
+        "17.5 人"
+      ],
+      "answer": "17.5 人",
+      "explanation": "3.5 × 5 = 17.5。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "分析統計圖時，除了看數據高低，還要注意什麼？",
+      "options": [
+        "資料的來源與時間",
+        "圖表的標題",
+        "單位的定義",
+        "以上皆是"
+      ],
+      "answer": "以上皆是",
+      "explanation": "全面的閱讀能避免誤讀資訊。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

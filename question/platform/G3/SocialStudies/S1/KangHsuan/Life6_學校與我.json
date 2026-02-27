@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "Life6",
+    "title": "學校與我",
+    "semester": "semester_1",
+    "order": 6
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "學校的哪個地方可以借閱書籍？",
+      "options": [
+        "保健室",
+        "學務處",
+        "圖書館",
+        "合作社"
+      ],
+      "answer": "圖書館",
+      "explanation": "圖書館是學校藏書與借閱書籍、提供閱讀的場所。",
+      "cqi_score": 5.5,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "在學務處可以找到關於學生獎懲、社團活動的資訊。",
+      "answer": "True",
+      "explanation": "學務處負責管理學生生活輔導、社團及獎懲等相關事務。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "身體不舒服或受傷時，應該要去______找護理師阿姨。",
+      "answer": "保健室",
+      "explanation": "保健室提供基本的醫療護理與健康諮詢。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "愛惜學校公物是誰的責任？",
+      "options": [
+        "只有值日生",
+        "全校師生",
+        "只有校長",
+        "只有工友伯伯"
+      ],
+      "answer": "全校師生",
+      "explanation": "維護校園公物是每位教職員工生的共同責任。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "遇到霸凌時，正確的處理方式是？",
+      "options": [
+        "不去上學",
+        "找機會報復",
+        "向師長或家人反映求助",
+        "默默忍受"
+      ],
+      "answer": "向師長或家人反映求助",
+      "explanation": "面對霸凌應勇敢說不，並尋求信賴的師長、家長協助解決。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

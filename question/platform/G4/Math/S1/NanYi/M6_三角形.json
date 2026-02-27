@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M6",
+    "order": 6,
+    "title": "三角形"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "兩條邊一樣長的三角形稱為什麼？",
+      "options": [
+        "等腰三角形",
+        "直角三角形",
+        "正三角形",
+        "鈍角三角形"
+      ],
+      "answer": "等腰三角形",
+      "explanation": "等腰三角形的兩個底角也會相等。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "三角形的內角和始終等於 180 度。",
+      "answer": "True",
+      "explanation": "這是歐幾里得幾何中的基本平面幾何定律。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一個三角形的三個角分別是 60 度、60 度、60 度，這是一個______三角形。",
+      "answer": "正或等邊",
+      "explanation": "正三角形的三邊等長，三角皆為 60 度。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "含有一個鈍角的三角形稱之為？",
+      "options": [
+        "銳角三角形",
+        "平角三角形",
+        "直角三角形",
+        "鈍角三角形"
+      ],
+      "answer": "鈍角三角形",
+      "explanation": "依據角的大小進行分類。",
+      "cqi_score": 5.5,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "已知三角形的兩個角是 50 度與 60 度，第三個角是多少度？",
+      "options": [
+        "70 度",
+        "90 度",
+        "80 度",
+        "100 度"
+      ],
+      "answer": "70 度",
+      "explanation": "180 - (50 + 60) = 180 - 110 = 70。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    }
+  ]
+}

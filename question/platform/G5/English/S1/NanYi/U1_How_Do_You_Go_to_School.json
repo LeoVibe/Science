@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 How Do You Go to School?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: How ______ she go to school? B: She goes by car.",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "do"
+      ],
+      "answer": "does",
+      "explanation": "she 是第三人稱單數，助動詞用 does。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "I go to school ______ foot.",
+      "options": [
+        "by",
+        "in",
+        "with",
+        "on"
+      ],
+      "answer": "on",
+      "explanation": "走路去用 on foot。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "We go to Taipei by ______ (火車).",
+      "answer": "train",
+      "explanation": "火車是 train。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "true_false",
+      "question": "'Bus' means '公車'。",
+      "answer": "True",
+      "explanation": "Bus 是公車。",
+      "cqi_score": 2,
+      "quality_level": "L1"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "He goes to school by ______.",
+      "options": [
+        "scooter",
+        "walk",
+        "running",
+        "swim"
+      ],
+      "answer": "scooter",
+      "explanation": "scooter (機車) 是交通工具。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "社會",
+    "publisher": "han_lin",
+    "lesson": "S4",
+    "order": 4,
+    "title": "家鄉的多元文化"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "在家鄉中，我們常能看見各式宗教建築，下列哪一種建築與宗教的對應是「錯誤」的？",
+      "options": [
+        "廟宇：道教或民間信仰",
+        "教堂：基督教或天主教",
+        "清真寺：伊斯蘭教",
+        "三合院：佛教"
+      ],
+      "answer": "三合院：佛教",
+      "explanation": "三合院是傳統民居建築，並非特定宗教場所。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "多元文化社會中，我們應該尊重每個族群不同的飲食禁忌與生活習慣。",
+      "answer": "True",
+      "explanation": "尊重差異是社會和諧的基礎。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "東南亞地區的「潑水節」象徵著洗去過去一年的不幸，並迎接新的一年。這是來自______（國家/族群類型）的文化。",
+      "answer": "泰國、緬甸或新住民",
+      "explanation": "潑水節是許多新住民家鄉的重要節日。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "有關「文化交流」的例子，下列何者正確？",
+      "options": [
+        "以上皆是",
+        "原住民的豐年祭吸引各族群觀光",
+        "在台灣吃得到越南河粉或印尼炒飯",
+        "聖誕節大家也會佈置裝飾"
+      ],
+      "answer": "以上皆是",
+      "explanation": "文化透過接觸互相影響、融合。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "面對與自己不同的文化，正確的學習態度應是？",
+      "options": [
+        "保持開放的心與學習的態度去理解對方",
+        "覺得自己的文化才是最好的",
+        "沒興趣，不想理會",
+        "排斥它"
+      ],
+      "answer": "保持開放的心與學習的態度去理解對方",
+      "explanation": "培養學生的跨文化素養。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

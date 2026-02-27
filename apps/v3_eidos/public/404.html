@@ -1,21 +1,28 @@
 <!doctype html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eidos 路由轉址中</title>
-  </head>
-  <body>
-    <script>
-      (function redirectSpaDeepLink() {
-        var path = window.location.pathname || "/";
-        var query = window.location.search || "";
-        var hash = window.location.hash || "";
-        var base = "/Science";
-        var target = base + "/?__redirect=" + encodeURIComponent(path + query + hash);
-        window.location.replace(target);
-      })();
-    </script>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eidos 路由轉址中</title>
+</head>
+
+<body>
+  <script>
+    (function redirectSpaDeepLink() {
+      var path = window.location.pathname || "/";
+      var query = window.location.search || "";
+      var hash = window.location.hash || "";
+
+      // 如果是在 GitHub Pages 子目錄環境 (如 /Science/)
+      // 我們動態抓取第一層路徑片段作為 basename
+      var segments = path.split('/').filter(Boolean);
+      var basename = (segments[0] === 'Science') ? '/Science' : '';
+
+      var target = basename + "/?__redirect=" + encodeURIComponent(path + query + hash);
+      window.location.replace(target);
+    })();
+  </script>
+</body>
+
+</html>

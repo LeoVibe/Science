@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U2",
+    "order": 2,
+    "title": "What's Your Name?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What's your name? B: I ______ Adam.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer": "am",
+      "explanation": "回答名字可以用 I am... 或 I'm...。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'What's' is short for 'What is'.",
+      "answer": "True",
+      "explanation": "What's 是 What is 的縮寫。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: ______ your name? B: My name is Pam.",
+      "answer": "What is",
+      "explanation": "詢問名字使用 What is your name?。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: What's your name? B: ______ name is Sam.",
+      "options": [
+        "My",
+        "I",
+        "Your",
+        "You"
+      ],
+      "answer": "My",
+      "explanation": "My name 是「我的名字」。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What's your name? B: ______",
+      "options": [
+        "Yes, I am.",
+        "It's a pen.",
+        "I'm eight.",
+        "My name is Adam."
+      ],
+      "answer": "My name is Adam.",
+      "explanation": "針對詢問姓名做出適當的回應。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}

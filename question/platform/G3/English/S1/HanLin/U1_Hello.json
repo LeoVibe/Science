@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Hello!"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Hello, I'm Dino. B: ______, I'm Danny.",
+      "options": [
+        "Hi",
+        "Thank you",
+        "Sorry",
+        "Good-bye"
+      ],
+      "answer": "Hi",
+      "explanation": "打招呼時可以用 Hello 或 Hi 互相回應。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I am' can be shortened to 'I'm'.",
+      "answer": "True",
+      "explanation": "I am 的縮寫形式是 I'm。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Hi, I am Niki. B: Nice to ______ you.",
+      "answer": "meet",
+      "explanation": "Nice to meet you 是「很高興見到你」的意思。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "Which of the following is used to say goodbye?",
+      "options": [
+        "Hello!",
+        "I'm Dino.",
+        "Good-bye!",
+        "How are you?"
+      ],
+      "answer": "Good-bye!",
+      "explanation": "Good-bye! 用來表達再見。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: Hi, Dino! B: ______",
+      "options": [
+        "It's a book.",
+        "I'm ten.",
+        "Hi, Niki!",
+        "No, I am not."
+      ],
+      "answer": "Hi, Niki!",
+      "explanation": "當別人跟你 Hi 時，最適當的回應是也跟對方打招呼。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    }
+  ]
+}

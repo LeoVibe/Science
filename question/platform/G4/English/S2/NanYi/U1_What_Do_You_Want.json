@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 What Do You Want?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What do you want? B: I want ______.",
+      "options": [
+        "thirsty",
+        "some milk",
+        "drink",
+        "hungry"
+      ],
+      "answer": "some milk",
+      "explanation": "What do you want? 回答用 I want + 物品。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I want a cup of tea.' means '我想要一杯茶'。",
+      "answer": "True",
+      "explanation": "want 表示想要，a cup of tea 是一杯茶。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: What does Tom want? B: He ______ a cookie.",
+      "answer": "wants",
+      "explanation": "第三人稱單數用 wants。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Do you want some water? B: ______, I do.",
+      "options": [
+        "No",
+        "Yes",
+        "Don't",
+        "Not"
+      ],
+      "answer": "Yes",
+      "explanation": "Do you want...? 的肯定回答是 Yes, I do。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "She ______ some ice cream.",
+      "options": [
+        "to want",
+        "want",
+        "wanting",
+        "wants"
+      ],
+      "answer": "wants",
+      "explanation": "第三人稱單數 she 後面動詞要加 s。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U4",
+    "order": 4,
+    "title": "Unit 4 How's the Weather?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: How's the weather today? B: It's ______.",
+      "options": [
+        "a sun",
+        "sunny and warm",
+        "sun",
+        "the weather"
+      ],
+      "answer": "sunny and warm",
+      "explanation": "描述天氣用形容詞 sunny (晴朗的) 和 warm (溫暖的)。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'It's foggy this morning.' means '今天早上有霧'。",
+      "answer": "True",
+      "explanation": "foggy 表示有霧的天氣。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Is it cold outside? B: Yes, it ______ very cold.",
+      "answer": "is",
+      "explanation": "Is it...? 的肯定回答是 Yes, it is。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "Don't forget your umbrella. It's ______ outside.",
+      "options": [
+        "rainy",
+        "sunny",
+        "clear",
+        "dry"
+      ],
+      "answer": "rainy",
+      "explanation": "需要雨傘代表下雨 (rainy)。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What's the weather like in winter? B: It's ______ and sometimes snowy.",
+      "options": [
+        "cold",
+        "warm",
+        "hot",
+        "cool"
+      ],
+      "answer": "cold",
+      "explanation": "冬天通常是 cold (寒冷的)。",
+      "cqi_score": 7,
+      "quality_level": "L2"
+    }
+  ]
+}

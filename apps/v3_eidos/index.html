@@ -1,37 +1,62 @@
 <!doctype html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>小學課後複習，AI出題</title>
-    <meta name="description" content="小學各學科的複習網站">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="小學課後複習，AI出題">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小學課後複習，AI出題</title>
+  <meta name="description" content="小學各學科的複習網站">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="小學課後複習，AI出題">
   <meta name="twitter:title" content="小學課後複習，AI出題">
   <meta property="og:description" content="小學各學科的複習網站">
   <meta name="twitter:description" content="小學各學科的複習網站">
-  <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1cf951f-4a4c-475e-b320-155bf5270551/id-preview-c2ea7b47--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app-1771650905266.png">
-  <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1cf951f-4a4c-475e-b320-155bf5270551/id-preview-c2ea7b47--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app-1771650905266.png">
+  <meta property="og:image"
+    content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1cf951f-4a4c-475e-b320-155bf5270551/id-preview-c2ea7b47--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app-1771650905266.png">
+  <meta name="twitter:image"
+    content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1cf951f-4a4c-475e-b320-155bf5270551/id-preview-c2ea7b47--e073379c-012a-4381-8f1a-309b4eb311c6.lovable.app-1771650905266.png">
   <meta name="twitter:card" content="summary_large_image">
 </head>
-  <body>
-    <div id="root"></div>
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <script>
-      (function restoreDeepLinkFrom404() {
-        var url = new URL(window.location.href);
-        var redirectPath = url.searchParams.get("__redirect");
-        if (!redirectPath) return;
-        url.searchParams.delete("__redirect");
-        var nextPath = redirectPath + (url.searchParams.toString() ? "?" + url.searchParams.toString() : "");
-        window.history.replaceState(null, "", nextPath);
-      })();
-    </script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<body>
+  <div id="root"></div>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script>
+    (function restoreDeepLinkFrom404() {
+      var url = new URL(window.location.href);
+      var redirectPath = url.searchParams.get("__redirect");
+      if (!redirectPath) return;
+
+      // 避免重複處理 __redirect 參數 (防止無限迴圈)
+      url.searchParams.delete("__redirect");
+
+      // 確保 redirectPath 不包含重複的轉址資訊
+      // 如果 redirectPath 內部又含 __redirect，只取第一層
+      var cleanPath = redirectPath.split('?__redirect=')[0];
+
+      var nextPath = cleanPath + (url.searchParams.toString() ? "?" + url.searchParams.toString() : "");
+
+      // 使用 replaceState 避免在歷史紀錄中留下 404 轉址中間態
+      window.history.replaceState(null, "", nextPath);
+
+      // 如果從 404 導回首頁，但 URL 顯示仍是根路徑且含有 __redirect
+      // 某些瀏覽器下 history.replaceState 不會觸發 React Router 的路徑更新
+      // 若 pathname 目前是 "/" 且不是我們期望的目標路徑，則強制跳轉
+      // 但在 /Science/ 子目錄環境，pathname 可能是 "/Science/"
+      var currentPath = window.location.pathname;
+      if (currentPath === '/' || currentPath === '/Science/' || currentPath === '/Science') {
+        if (nextPath !== currentPath && nextPath !== (currentPath + '/')) {
+          window.location.replace(nextPath);
+        }
+      }
+    })();
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

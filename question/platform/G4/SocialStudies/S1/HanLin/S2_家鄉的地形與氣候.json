@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "社會",
+    "publisher": "han_lin",
+    "lesson": "S2",
+    "order": 2,
+    "title": "家鄉的地形與氣候"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "有關「台地」地形的特徵，下列敘述何者正確？",
+      "options": [
+        "地勢平坦但位置較高，且邊緣有明顯陡坡",
+        "海拔三千公尺以上",
+        "一望無際的平坦低地",
+        "四周高、中間低"
+      ],
+      "answer": "地勢平坦但位置較高，且邊緣有明顯陡坡",
+      "explanation": "例如桃園台地、林口台地。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "家鄉的氣候會因為地形的高低而產生變化，通常山上比平原涼爽。",
+      "answer": "True",
+      "explanation": "海拔每升高 100 公尺，氣溫約下降 0.6 度。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "台灣夏、秋兩季常有______侵襲，雖然會帶來豐沛雨水，但也可能造成災害。",
+      "answer": "颱風",
+      "explanation": "颱風是台灣主要的水資源來源之一，也是重大氣象災害來源。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "先民在乾旱地區為了獲得水源，常會採取哪種方式？",
+      "options": [
+        "挖掘深井或興建埤塘、水圳",
+        "隨便挖土",
+        "等雨下下來就好",
+        "把樹拔掉"
+      ],
+      "answer": "挖掘深井或興建埤塘、水圳",
+      "explanation": "開墾水圳與埤塘（如桃園埤塘）是解決缺水的智慧。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪種生活方式受「氣候」影響最大？",
+      "options": [
+        "戶外活動的安排",
+        "農作物的種類與收穫時間",
+        "衣著的增減",
+        "以上皆是"
+      ],
+      "answer": "以上皆是",
+      "explanation": "自然環境決定了人類早期生計的基本模式。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    }
+  ]
+}

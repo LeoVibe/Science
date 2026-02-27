@@ -113,3 +113,11 @@ Eidos Project 是一個專為國小學生設計的高互動性題庫演練系統
 ```
 
 > 🤝 **歡迎加入 Eidos 開發！請隨時保持文件與程式碼的同步。**
+
+---
+
+## 🧱 六、根目錄檔案使用規範 (Root Files Policy)
+
+- **根目錄禁止放置臨時任務／Checklist 檔案**，例如：`task.md`、`task_*.md`、`tasks.md` 等。
+- 所有與任務相關的內容（包含 checklist、執行步驟、DoD）一律寫入對應的 `jobs/JOB-XXX-*.md` 或 `jobs/JOB-XXX-Report.md` 中。
+- 若發現歷史遺留的根目錄任務檔，僅作為過往紀錄參考，不得複製此模式繼續新增。

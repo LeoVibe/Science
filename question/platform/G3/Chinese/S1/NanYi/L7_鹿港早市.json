@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "國語",
+    "publisher": "nan_yi",
+    "lesson": "L7",
+    "title": "鹿港早市",
+    "semester": "semester_1",
+    "order": 7
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "鹿港位於台灣的哪一個縣市？",
+      "options": [
+        "嘉義縣",
+        "雲林縣",
+        "彰化縣",
+        "南投縣"
+      ],
+      "answer": "彰化縣",
+      "explanation": "鹿港是彰化縣著名的歷史名鎮。",
+      "cqi_score": 5.5,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "鹿港早市充滿了在地人的活力與特色美食。",
+      "answer": "True",
+      "explanation": "傳統市場是體驗在地文化與民生百態的最佳場景。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "在市集中，可以聽到小販熱情的______聲，這也是一種在地的人情味。",
+      "answer": "叫賣或吆喝",
+      "explanation": "喧騰的市井聲響是早市的靈魂。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "這課描寫的鹿港早市，給讀者什麼樣的感覺？",
+      "options": [
+        "安靜無聲",
+        "古樸、熱鬧且溫暖",
+        "現代且冷清",
+        "雜亂且可怕"
+      ],
+      "answer": "古樸、熱鬧且溫暖",
+      "explanation": "充滿傳統文化底蘊與濃郁人情。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪種特產最可能出現在鹿港的傳統市場？",
+      "options": [
+        "蚵仔麵線、糕餅",
+        "法國長棍麵包",
+        "泰式酸辣粉",
+        "美式熱狗"
+      ],
+      "answer": "蚵仔麵線、糕餅",
+      "explanation": "鹿港以傳統小吃與工藝（如牛舌餅、麵茶）聞名。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    }
+  ]
+}

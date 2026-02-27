@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 What Do You Want?",
+    "verified": true,
+    "verification_source": "康軒官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What do you want? B: I want ______.",
+      "options": [
+        "am hungry",
+        "a hamburger",
+        "can eat",
+        "like it"
+      ],
+      "answer": "a hamburger",
+      "explanation": "What do you want? 詢問想要什麼，回答用 I want + 物品。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I want some juice.' means '我想要一些果汁'。",
+      "answer": "True",
+      "explanation": "want 表示想要，some juice 是一些果汁。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: What ______ you want? B: I want a sandwich.",
+      "answer": "do",
+      "explanation": "疑問句用 do 作為助動詞。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Do you want pizza? B: Yes, ______.",
+      "options": [
+        "I am",
+        "I do",
+        "I can",
+        "I want"
+      ],
+      "answer": "I do",
+      "explanation": "Do you...? 的肯定回答是 Yes, I do。",
+      "cqi_score": 5.5,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What does he want? B: He ______ a hot dog.",
+      "options": [
+        "want",
+        "to want",
+        "wanting",
+        "wants"
+      ],
+      "answer": "wants",
+      "explanation": "第三人稱單數 he 後面動詞要加 s。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}

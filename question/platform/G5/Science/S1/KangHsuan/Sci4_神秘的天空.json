@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "kang_hsuan",
+    "lesson": "Sci4",
+    "order": 4,
+    "title": "神秘的天空"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "北極星位於天空各星座旋轉的軸心附近，其高度角大約等於觀測者所在地的什麼？",
+      "options": [
+        "緯度",
+        "海拔",
+        "氣溫",
+        "精度"
+      ],
+      "answer": "緯度",
+      "explanation": "在北半球，北極星的高度角即為當地的北緯緯度。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "四季星座之所以會發生位移，是因為地球「繞太陽公轉」造成的現象。",
+      "answer": "True",
+      "explanation": "公轉導致地球在不同季節面向宇宙的不同方位。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "我們在北部夜空中，通常利用______七星來尋找北極星。",
+      "answer": "北斗",
+      "explanation": "北斗七星像個大勺子，勺口端天樞與天璇連線延長五倍處即為北極星。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "星座圖（旋轉星圖）的使用中，應將當天的日期對準當天的？",
+      "options": [
+        "氣溫",
+        "時刻",
+        "月相",
+        "風向"
+      ],
+      "answer": "時刻",
+      "explanation": "對齊日期與時刻後，旋轉框內顯示的就是當時天空的星座分佈。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列關於星色的敘述，何者可以判斷恆星的「表面溫度」？",
+      "options": [
+        "紅色的星星溫度最高",
+        "所有的星星溫度都一樣",
+        "顏色與溫度無關",
+        "藍白色的星星溫度最高"
+      ],
+      "answer": "藍白色的星星溫度最高",
+      "explanation": "星色反映了黑體輻射的峰值頻率，溫度越高，顏色越偏藍白。",
+      "cqi_score": 4.5,
+      "quality_level": "L2"
+    }
+  ]
+}

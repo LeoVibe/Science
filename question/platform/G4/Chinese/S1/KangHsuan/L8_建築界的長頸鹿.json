@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "國語",
+    "publisher": "kang_hsuan",
+    "lesson": "L8",
+    "order": 8,
+    "title": "建築界的長頸鹿"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "本課將「台北101」比喻為「建築界的長頸鹿」，主要是因為它具備什麼特點？",
+      "options": [
+        "外牆是咖啡色斑點",
+        "樓層極高，像長頸鹿一樣伸長脖子俯視城市",
+        "它是動物園的一部分",
+        "裡面有很多長頸鹿"
+      ],
+      "answer": "樓層極高，像長頸鹿一樣伸長脖子俯視城市",
+      "explanation": "運用生動的比喻讓生硬的建築知識變得活潑有趣。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "文中提到台北101的設計融入了竹節的意象，象徵著「節節高升」與堅韌不拔的精神。",
+      "answer": "True",
+      "explanation": "傳統文化意象與現代科技建築的結合。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "台北101內部有一顆巨大的防震______（調質阻尼器），能幫助大樓在強風與地震中保持穩定。",
+      "answer": "阻尼球、平衡球或阻尼器",
+      "explanation": "科普知識的連結，說明建築技術的奧秘。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "為什麼台北101是台灣人的驕傲？",
+      "options": [
+        "它曾是世界第一高樓，展現了台灣卓越的工程實力與在地文化美感",
+        "因為它是全世界最貴的大樓",
+        "因為它可以換顏色",
+        "因為上面可以放煙火"
+      ],
+      "answer": "它曾是世界第一高樓，展現了台灣卓越的工程實力與在地文化美感",
+      "explanation": "對國家重大建設的認同與自信教育。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "讀完這課，最大的收穫應該是？",
+      "options": [
+        "認識現代建築之美，並體會科技與藝術結合產生的魅力",
+        "知道台北101的正確地址",
+        "想要去101買名牌",
+        "大家都來蓋高樓"
+      ],
+      "answer": "認識現代建築之美，並體會科技與藝術結合產生的魅力",
+      "explanation": "美感教育與工程素養的結合。",
+      "cqi_score": 2.5,
+      "quality_level": "L2"
+    }
+  ]
+}

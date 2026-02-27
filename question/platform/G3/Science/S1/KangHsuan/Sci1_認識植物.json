@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "kang_hsuan",
+    "lesson": "Sci1",
+    "order": 1,
+    "title": "認識植物"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "植物的根主要功能是什麼？",
+      "options": [
+        "發光",
+        "吸收水分",
+        "行光合作用",
+        "授粉"
+      ],
+      "answer": "吸收水分",
+      "explanation": "根負責抓地固著與吸收水份。",
+      "cqi_score": 2.5,
+      "quality_level": "L2"
+    }
+  ]
+}

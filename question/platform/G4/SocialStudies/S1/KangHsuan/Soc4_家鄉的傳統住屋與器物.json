@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "Soc4",
+    "order": 4,
+    "title": "家鄉的傳統住屋與器物"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "先民興建三合院時，通常最中間的主屋稱為什麼？",
+      "options": [
+        "前院",
+        "正身（正廳）",
+        "廚房",
+        "護龍"
+      ],
+      "answer": "正身（正廳）",
+      "explanation": "正廳是用來供奉神明與祖先牌位的地方，地位最尊。",
+      "cqi_score": 3,
+      "quality_level": "L2"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "傳統建築的建材通常取自在地自然資源，如竹子、稻草、土磚或木頭。",
+      "answer": "True",
+      "explanation": "先民因地制宜，與自然和諧共存。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "三合院左右兩側延伸出來的房屋稱為______。",
+      "answer": "護龍",
+      "explanation": "護龍意指保護正廳，也提供家族子孫居住。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "早期沒有電冰箱，先民通常如何保存食物？",
+      "options": [
+        "使用醃漬（加鹽、糖）、曝曬（乾貨）或火燻",
+        "買新的就不管舊的",
+        "隨便亂丟",
+        "放在電風扇下吹"
+      ],
+      "answer": "使用醃漬（加鹽、糖）、曝曬（乾貨）或火燻",
+      "explanation": "這是古人的保鮮智慧。",
+      "cqi_score": 2,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "有關「土礱」（磨穀具）或「蓑衣」（擋雨衣），這些舊器物在現在的價值是？",
+      "options": [
+        "還可以拿來當武器",
+        "見證家鄉生活演變的珍貴文化資產",
+        "垃圾，應該丟掉",
+        "沒什麼特別的"
+      ],
+      "answer": "見證家鄉生活演變的珍貴文化資產",
+      "explanation": "透過文物了解先民生活的辛勤與智慧。",
+      "cqi_score": 4,
+      "quality_level": "L2"
+    }
+  ]
+}
