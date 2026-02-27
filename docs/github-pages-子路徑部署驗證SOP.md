@@ -20,21 +20,22 @@
 
 ## 後台 Admin 網址（正式機）
 
-- **登入頁**：**https://leovibe.github.io/Science/admin/login**
-- **後台首頁**（需先登入）：**https://leovibe.github.io/Science/admin**
+- **登入頁**：**https://exam15.pages.dev/admin/login**
+- **後台首頁**（需先登入）：**https://exam15.pages.dev/admin**
 
-建置時會自動產生 `dist/admin/index.html` 與 `dist/admin/login/index.html`（與 SPA 入口相同），直連上述網址即可載入後台，不會再出現 GitHub 404。
+建置時會自動產生 `dist/admin/index.html` 與 `dist/admin/login/index.html`（與 SPA 入口相同），直連上述網址即可載入後台，不會再出現 404。
 
 ## 建議驗證步驟
 
-1. 開啟 **主站**：`https://<org>.github.io/Science/`，確認可進入且導覽正常。
+1. 開啟 **主站**：`https://exam15.pages.dev/`，確認可進入且導覽正常。
 2. 從主站進入 **關於 → 更版資訊**，點擊典藏館「v0.1 初版(自然科)」「v0.2 多科目版」，應在新分頁打開對應歷史頁且無 404。
 3. 直接開啟 **歷史入口**：
-   - `https://<org>.github.io/Science/history/v1_science/`
-   - `https://<org>.github.io/Science/history/v2_currisite/`
+   - `https://exam15.pages.dev/history/v1_science/`
+   - `https://exam15.pages.dev/history/v2_currisite/`
    確認頁面與靜態資源（JS/CSS）皆可載入。
 4. 任選一題庫路徑（依實際題庫結構），確認 **題庫 manifest** 可存取，例如：  
-   `https://<org>.github.io/Science/question/platform/G5/國語/S2/翰林/manifest.json`（路徑以實際為準）。
+   `https://exam15.pages.dev/question/platform/G5/國語/S2/翰林/manifest.json`（路徑以實際為準）。
+
 5. **後台**：直連 `https://<org>.github.io/Science/admin/login` 應出現登入頁；登入後可進入 `https://<org>.github.io/Science/admin` 各分頁。
 
 ## 回歸測試（本機）

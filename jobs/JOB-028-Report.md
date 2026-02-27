@@ -32,13 +32,19 @@
 ### 正式機前台已接 Production API
 
 - GitHub Actions（`.github/workflows/deploy.yml`）建置時已設定 `VITE_API_URL=https://eidos-api.eidos.workers.dev`、`VITE_APP_BASE=/Science/`。
-- 正式站 **https://leovibe.github.io/Science/** 已部署，載入的 JS 內含上述 API 網址，設定與個人資料等會打 Production API。
+- 正式站 **https://exam15.pages.dev/** 已部署，載入的 JS 內含上述 API 網址，設定與個人資料等會打 Production API。
 
 ### Production API 網址
 
 Worker 名稱：`eidos-api`。
 
 - **Production**：**https://eidos-api.eidos.workers.dev**
+
+### Cloudflare Pages 前台（exam15.pages.dev）
+
+- 本站為**根路徑**部署（`https://exam15.pages.dev/`），與 GitHub Pages 的 `/Science/` 子路徑不同。
+- 若出現白畫面或僅看到標題，多半是建置時用了 **base `/Science/`** 或未設 **VITE_API_URL**，導致資源 404 或 API 連到 localhost。
+- **設定與修正**：請依 `docs/cloudflare-pages-exam15.md` 在 Cloudflare Pages 專案中設定 **Root directory**、**Build output**，以及環境變數 **VITE_APP_BASE=/**、**VITE_API_URL=https://eidos-api.eidos.workers.dev**，並重新部署。
 
 ### Phase 3 建議步驟
 

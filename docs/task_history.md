@@ -3,6 +3,7 @@
 > **撰寫規範**：每筆紀錄格式為 `- YYYY-MM-DD：{摘要} -> {說明} *(by {撰寫者})*`。
 > 撰寫者請填入 `AG` (Antigravity)、`Cursor` 或 `PM` (人類管理者)，以便追溯每筆異動的來源。
 
+- 2026-02-26：Cloudflare Pages (exam15.pages.dev) 設定說明 -> 新增 `docs/cloudflare-pages-exam15.md`，說明根路徑部署需設 VITE_APP_BASE=/、VITE_API_URL 與 Build 設定。 *(by Cursor)*
 - 2026-02-27：Science 子路徑一致化方案實作 -> 以 withBase 統一站內路徑、Vite history 中介支援 base、歷史 E2E 改相對路徑並新增「About 連結可成功打開歷史頁」檢查、撰寫 `docs/github-pages-子路徑部署驗證SOP.md`。 *(by Cursor)*
 - 2026-02-26：建立全域文檔生態系與 AI 實作守則 -> 重構文件職責，確立 `網站功能規格書.md` 為 UI 唯一真理，建立 `.cursorrules` 與 `/sync`, `/audit` AI Skills。 *(by AG)*
 - 2026-02-26：實作 Warm Amber 暖調琥珀 UI 與功能防護 -> 全站色彩降飽和升溫、修復並撰寫 E2E 防止「題庫中無此題」Bug 回歸、題庫總覽過濾當前年級學期。 *(by AG)*
