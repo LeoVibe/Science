@@ -183,8 +183,8 @@
       "answer_index": 0,
       "explanation": "文中明確表示 'The post office is next to the bookstore'。",
       "commonMisconception": "資訊提取錯誤。",
-      "quality_level": "L2",
-      "cqi_score": 8
+      "quality_level": "L5",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -219,7 +219,7 @@
       "answer_index": 1,
       "explanation": "文中說明火車站位在博物館對面。",
       "commonMisconception": "受首句 Tainan 影響而選了錯誤地點。",
-      "quality_level": "L2",
+      "quality_level": "L5",
       "cqi_score": 6.5
     },
     {
@@ -255,7 +255,7 @@
       "answer_index": 0,
       "explanation": "兩人在對面，Sam 在公園，自然能看到對面的圖書館。",
       "commonMisconception": "無法建構相對視野的空間感。",
-      "quality_level": "L2",
+      "quality_level": "L5",
       "cqi_score": 6.5
     },
     {

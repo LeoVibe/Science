@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 How Do You Go to School?",
+    "verified": true,
+    "verification_source": "翰林官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: How do you go to school? B: I go to school ______ bus.",
+      "options": [
+        "by",
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "by",
+      "explanation": "搭乘交通工具用 by + 交通工具。"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "She goes to the park ______ foot.",
+      "options": [
+        "with",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": "on",
+      "explanation": "走路去用 on foot。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "He goes to school by ______ (腳踏車).",
+      "answer": "bike",
+      "explanation": "腳踏車是 bike。"
+    },
+    {
+      "id": "4",
+      "type": "true_false",
+      "question": "Plane is a kind of transportation.",
+      "answer": "True",
+      "explanation": "飛機 (plane) 是一種交通工具。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "How ______ he go to the zoo?",
+      "options": [
+        "are",
+        "does",
+        "do",
+        "is"
+      ],
+      "answer": "does",
+      "explanation": "he 是第三人稱單數，用 does。"
+    }
+  ]
+}

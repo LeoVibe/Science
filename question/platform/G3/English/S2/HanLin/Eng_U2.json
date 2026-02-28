@@ -14,12 +14,12 @@
       "scenario": "A boy is getting ready for school but can't find his hat.",
       "question": "Boy: It's sunny today. ___________________\nMom: Look! It's on the chair.",
       "options": [
-        "How is my cap?    ",
-        "What is my cap?   ",
+        "Who is my cap?    ",
         "Where is my cap?  ",
-        "Who is my cap?    "
+        "What is my cap?   ",
+        "How is my cap?    "
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "從媽媽的回答 It's on the chair. (它在椅子上) 可以推測這是在尋找物品的下落，因此問句必須使用 Where (哪裡)。",
       "taxonomy": "inferential",
       "commonMisconception": "對六大疑問詞(Wh-questions)的功能混淆，只憑感覺亂猜。",
@@ -29,54 +29,54 @@
     {
       "id": "HL-G3S2-U2-002",
       "type": "multiple_choice",
-      "scenario": "A sister helps her little brother find his toy box.",
-      "question": "Brother: Where is the robot?\nSister: ___________________",
+      "scenario": "Two students pointing at something far away in the playground.",
+      "question": "Student A: What is __________?\nStudent B: It's a yellow kite.",
       "options": [
-        "It's in the big box.  ",
-        "They are in the big box.",
-        "It are in the big box.  ",
-        "They's in the big box.  "
+        "these",
+        "this　",
+        "those",
+        "that　"
       ],
-      "answer_index": 0,
-      "explanation": "the robot 是單數，其代名詞為 It，搭配 Be 動詞 is。選項 B 誤用複數；選項 C 錯搭 Be 動詞 are；選項 D 的 They's 是錯誤的縮寫組合。",
-      "taxonomy": "inferential",
-      "commonMisconception": "問句主詞是單數，回答卻反射性地使用複數 They are，或錯用 Be 動詞。",
+      "answer_index": 3,
+      "explanation": "因為是指向遠方 (far away) 的單數物品 (kite)，應使用 that。選項 C, D 為複數型。",
+      "taxonomy": "applied",
+      "commonMisconception": "混淆遠近指示代名詞，或忽略單複數一致性。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-003",
       "type": "multiple_choice",
-      "scenario": "A family is cleaning the living room.",
-      "question": "Dad: Where is my blue pen?\nMom: Is it _______________ the table?\nDad: No, it isn't. Oh, it is in my bag.",
+      "scenario": "A girl showing her new shoes to her friend.",
+      "question": "Girl: Look! Do you like ___________ shoes?",
       "options": [
-        "who  ",
-        "where",
-        "what ",
-        "under"
+        "this　",
+        "those",
+        "that　",
+        "these"
       ],
       "answer_index": 3,
-      "explanation": "空格處需要填入一個表示空間位置的介係詞來連接 it 與 the table。只有 under (在...之下) 是介係詞。其他選項皆為疑問代名詞或副詞，不可放在此處。",
+      "explanation": "鞋子是複數且在近處 (showing her shoes)，應使用 these。選項 A 為單數型。",
       "taxonomy": "applied",
-      "commonMisconception": "分不清疑問詞與介係詞的詞性差異，把 where 當成介係詞用。",
+      "commonMisconception": "忘記鞋子必須以複數型 these 表述。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-004",
       "type": "multiple_choice",
-      "scenario": "Two classmates are looking at a picture book.",
-      "question": "Student A: The cat is sleeping. Where is it?\nStudent B: ___________________",
+      "scenario": "A teacher is asking about a missing pencil.",
+      "question": "Teacher: Is your pencil ___________ the box?\nStudent: No, it's next to the box.",
       "options": [
-        "It's on the bad.   ",
-        "It's under bed.    ",
-        "They're on the bed.",
-        "It's on the bed.   "
+        "in　　　　　",
+        "under　　",
+        "between",
+        "on　　　　　"
       ],
-      "answer_index": 3,
-      "explanation": "貓睡在床上，需要搭配單數的 It is 和正確的名詞拼字 bed (床)。選項 A 的 bad 是壞的(形容詞)；選項 C 錯用複數；選項 D 漏掉了定冠詞 the。",
-      "taxonomy": "inferential",
-      "commonMisconception": "將 bed(床) 與 bad(壞的) 拼音混淆，或是介係詞片語漏加指定冠詞 the。",
+      "answer_index": 0,
+      "explanation": "詢問是否在盒子『裡面』用 in。雖然其他位置也有可能，但 in 是最直覺的詢問方向。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法區分內外位置關係。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
@@ -86,13 +86,13 @@
       "scenario": "Tom is playing hide and seek with his dog, Buster.",
       "question": "Tom: Buster, where are you? Are you under the table?\nDog: (Woof!) ___________________",
       "options": [
-        "No, I'm not. I'm in the box.   ",
-        "No, it isn't. It's in the box. ",
-        "Yes, I do. I am under the table.",
-        "Yes, it is. It's under the table."
+        "Yes, it is. It's under the table.",
+        "No, I'm not. I'm in the box.　　　　　",
+        "Yes, I do. I am under the table.　",
+        "No, it isn't. It's in the box.　　　"
       ],
-      "answer_index": 0,
-      "explanation": "Tom 用 Are you...? 問小狗 (將狗擬人化對話)，因為狗在箱子裡 (不在桌下)，所以需用否定回答 No, I'm not.。若回答 Yes 則位置矛盾。選項 B 和 D 錯把回答者變成 it。",
+      "answer_index": 1,
+      "explanation": "Tom 用 Are you...? 問小狗 (將狗擬人化對話)，因為狗在箱子裡 (不在桌下)，所以需用否定回答 No, I'm not.。",
       "taxonomy": "applied",
       "commonMisconception": "被『狗是動物=it』的刻板印象綁死，忽略了這是對話情境，回答者必須用第一人稱 I。",
       "cqi_score": 10,
@@ -101,90 +101,450 @@
     {
       "id": "HL-G3S2-U2-006",
       "type": "multiple_choice",
-      "scenario": "A student lost her eraser in the classroom.",
-      "question": "Girl: Oh no! ___________________\nBoy: Is it in your pencil case?",
+      "scenario": "A cat hiding.",
+      "question": "A: Where is the cat?\nB: It is ___________ the chair. I can't see it.",
       "options": [
-        "Where is my red eraser? ",
-        "What is your red eraser?",
-        "Where are my red erasers?",
-        "Who is my red eraser?   "
+        "under",
+        "next　",
+        "on　　　",
+        "in　　　"
       ],
       "answer_index": 0,
-      "explanation": "根據男孩回答『Is it in your...』(它在...裡面嗎？) 的單數代名詞 it，可以反推女孩尋找的是『單數物品』的『位置』。因此使用 Where is my...。選項 C 錯在複數 erasers。",
+      "explanation": "看不見 (can't see)，暗示貓在椅子下躲起來了。選項 A 會看得到。",
       "taxonomy": "inferential",
-      "commonMisconception": "無法由下半句的代名詞 it 反推問句應該是相吻合的單數名詞。",
+      "commonMisconception": "不具備結合前後文意推論空間位置的能力。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-007",
       "type": "multiple_choice",
-      "scenario": "Dad is helping Mom look for some important papers.",
-      "question": "Dad: The book is on the desk. Where is the pen?\nMom: ___________________",
+      "scenario": "Asking about people standing across the street.",
+      "question": "A: Who are ___________ people?\nB: They are my teachers.",
       "options": [
-        "It's in under the book.",
-        "It's under the book.   ",
-        "They are under the book",
-        "It's under book.       "
+        "that　",
+        "those",
+        "these",
+        "this　"
       ],
       "answer_index": 1,
-      "explanation": "the pen 是單數，回答用 It's。在書本下面正確用法是 under the book。選項 B 介係詞 in 和 under 重疊使用是錯誤的；選項 C 錯用複數；選項 D 漏了 the。",
-      "taxonomy": "inferential",
-      "commonMisconception": "受到中文『在...之下(的裡面)』影響，將介係詞 in 與 under 疊加在一起使用 (in under)。",
+      "explanation": "遠處且複數 (people)，應使用 those。選項 C 用於近處複數。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法準確對應遠處複數的指示詞。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-008",
       "type": "multiple_choice",
-      "scenario": "In a game of 'I spy', a child gives a clue to his friends.",
-      "question": "Child A: I spy something small. It's yellow.\nChild B: ___________________\nChild A: Yes, it is! You win!",
+      "scenario": "Pointing to a bird in a tree.",
+      "question": "A: Look at ___________ bird in the tree!\nB: It's beautiful!",
       "options": [
-        "Is it in the toy box? ",
-        "Is they in the toy box?",
-        "Are it in the toy box? ",
-        "Are you in the toy box?"
+        "that　",
+        "these",
+        "those",
+        "this　"
       ],
       "answer_index": 0,
-      "explanation": "對方的線索是 It's yellow (單數)，要猜測位置應該用 Is it...? 提問。選項 B 的 Is they 和選項 C 的 Are it 都是嚴重的 Be 動詞搭配錯誤。選項 D 的 you 不合語境。",
+      "explanation": "樹上的鳥距離較遠，且為單數，使用 that。選項 A 用於近處單數。",
       "taxonomy": "applied",
-      "commonMisconception": "對疑問句的 Be 動詞與主詞配對感到混亂，隨便抓一個 is 或 are 就用。",
+      "commonMisconception": "在單數指示詞遠近挑選上出現混淆。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-009",
       "type": "multiple_choice",
-      "scenario": "A teacher is showing a magic trick with a coin and a cup.",
-      "question": "Teacher: Look! Where is the coin?\nStudents: ___________________",
+      "scenario": "Finding a schoolbag.",
+      "question": "A: Is the schoolbag ___________ the desk?\nB: Yes, it's on the chair next to the desk.",
       "options": [
-        "They're in blue cup. ",
-        "It's in the blue cup.",
-        "It's in of the cup.  ",
-        "Is it in the blue cup"
+        "at　　　",
+        "under",
+        "in　　　",
+        "on　　　"
       ],
       "answer_index": 1,
-      "explanation": "the coin 為單數，回答用 It is...。硬幣在杯子裡，搭配 in the blue cup 最正確。選項 B 錯用複數且漏the；選項 C 介係詞 in of 疊加錯誤；選項 D 為問句結構不對。",
+      "explanation": "雖然 B 的回答是 on the chair，但問句 A 通常是在找不到時問是不是在桌子『下』(under)。",
       "taxonomy": "inferential",
-      "commonMisconception": "將兩個不同的介係詞憑空組合 (如 in of) 或者忘了冠詞 the。",
+      "commonMisconception": "無法結合尋找物品的常理判斷空間語意。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "HL-G3S2-U2-010",
       "type": "multiple_choice",
-      "scenario": "A girl is drawing a picture of her bedroom.",
-      "question": "Mom: Your room is nice. Where is the chair?\nGirl: ___________________",
+      "scenario": "Identifying an object on the teacher's hand.",
+      "question": "Student: What is ___________ in your hand, Teacher?",
       "options": [
-        "It's are on the desk.  ",
-        "It's next to the desk. ",
-        "They are next to desk. ",
-        "It is under a desks.   "
+        "this　",
+        "these",
+        "those",
+        "that　"
+      ],
+      "answer_index": 0,
+      "explanation": "在手上 (in your hand) 表示近處，且題目主語為單數 is，應選 this。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒注意到與單數 Be 動詞 is 的搭配需求。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-011",
+      "type": "multiple_choice",
+      "scenario": "Pointing at stars in the sky.",
+      "question": "Child: Look! ______________ are small stars.",
+      "options": [
+        "this　",
+        "these",
+        "that　",
+        "those"
+      ],
+      "answer_index": 3,
+      "explanation": "星空在遠處且複數 (stars)，應選 those。選項 C 為近處。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法將 sky 連結至遠處空間感。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-012",
+      "type": "multiple_choice",
+      "scenario": "A ball is missing.",
+      "question": "A: Where is the ball?\nB: It is ___________ the box. It is inside.",
+      "options": [
+        "next to",
+        "on　　　　　",
+        "in　　　　　",
+        "under　　"
+      ],
+      "answer_index": 2,
+      "explanation": "關鍵字 inside (在裡面) 明確對應介係詞 in。選項 B, C, D 均為外部位置。",
+      "taxonomy": "inferential",
+      "commonMisconception": "忽略補充說明 (inside) 的提示作用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-013",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'a' and 'e' comparison.",
+      "question": "Which word has the same vowel sound as 'cap'?",
+      "options": [
+        "get",
+        "cat",
+        "kit",
+        "hot"
       ],
       "answer_index": 1,
-      "explanation": "the chair 單數，以 It's 回答。next to (在...旁邊) 是合理且正確的介係片語用法。選項 B 出現 It is are 的雙 Be 動詞錯誤；選項 C 用錯複數；選項 D 的 a desks 單複矛盾。",
+      "explanation": "cap 與 cat 均發短母音 /æ/。選項 B 是短母音 /ɛ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /æ/ 與 /ɛ/ 的聽覺特徵。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-014",
+      "type": "multiple_choice",
+      "scenario": "Two pencils are on the table.",
+      "question": "A: __________________\nB: They are under the book.",
+      "options": [
+        "What is that?        　",
+        "Where are the pencils?",
+        "Is it a pencil?       ",
+        "Can you see pencils?  "
+      ],
+      "answer_index": 1,
+      "explanation": "根據答句的複數 They 加上方位描述，應問 Where are the pencils?。選項 B 主主語不符。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法由代名詞 They 還原複數問句結構。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-015",
+      "type": "multiple_choice",
+      "scenario": "A desk with flowers.",
+      "question": "A: Look at the flowers. Are they ___________ the desk?\nB: Yes, they are in the vase.",
+      "options": [
+        "under　　",
+        "of　　　　　",
+        "on　　　　　",
+        "next to"
+      ],
+      "answer_index": 2,
+      "explanation": "花瓶在桌子上，故花也在桌子上表面。選項 B 語意不合常理。",
       "taxonomy": "inferential",
-      "commonMisconception": "縮寫與完整字詞同時出現 (It's are)，或是冠詞 a 後面接了複數名詞 (a desks)。",
+      "commonMisconception": "無法結合場景物品 (vase) 推論其與桌子的關係。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-016",
+      "type": "multiple_choice",
+      "scenario": "Identifying a distant animal.",
+      "question": "A: Is ___________ a dog over there?\nB: No, it's a cat.",
+      "options": [
+        "that　",
+        "these",
+        "those",
+        "this　"
+      ],
+      "answer_index": 0,
+      "explanation": "over there (在那邊) 標註了遠處單數。選項 D 為遠處複數。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看見 over there 的距離提示。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-017",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'pen'.",
+      "question": "Which word rhymes with 'ten'?",
+      "options": [
+        "pin",
+        "pun",
+        "pan",
+        "pen"
+      ],
+      "answer_index": 3,
+      "explanation": "ten 與 pen 具有相同的尾音 -en。選項 A 尾音不同。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /ɛ/ 與 /ɪ/ 的發音後綴。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-018",
+      "type": "multiple_choice",
+      "scenario": "Searching for many balls.",
+      "question": "A: Where are the balls?\nB: They are ___________ the box. Not in the box.",
+      "options": [
+        "in　　　",
+        "at　　　",
+        "to　　　",
+        "under"
+      ],
+      "answer_index": 3,
+      "explanation": "不是在裡面 (Not in)，則可能在下面 (under)。選項 B 違反限制條件。",
+      "taxonomy": "inferential",
+      "commonMisconception": "忽略排除性條件 (Not in) 的約束。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-019",
+      "type": "multiple_choice",
+      "scenario": "Pointing at gifts under the Christmas tree.",
+      "question": "A: What are ___________ under the tree?\nB: They are your birthday gifts.",
+      "options": [
+        "these",
+        "this　",
+        "those",
+        "that　"
+      ],
+      "answer_index": 0,
+      "explanation": "聖誕樹通常在近處，且 gifts 是複數，故選 these。",
+      "taxonomy": "applied",
+      "commonMisconception": "在禮物複數情境中錯選單數指示詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-020",
+      "type": "multiple_choice",
+      "scenario": "A bird next to a house.",
+      "question": "A: Where is the bird?\nB: It is ___________ the house.",
+      "options": [
+        "behind　",
+        "of　　　　　",
+        "at　　　　　",
+        "next to"
+      ],
+      "answer_index": 3,
+      "explanation": "描述在房子旁邊使用 next to。選項 B, C 不具指示性。",
+      "taxonomy": "remembering",
+      "commonMisconception": "對複合介係詞 next to 的拼寫不熟練。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-021",
+      "type": "multiple_choice",
+      "scenario": "Identifying two toys far away.",
+      "question": "A: __________________?\nB: They are toy airplanes.",
+      "options": [
+        "What is that  ",
+        "Who are those ",
+        "What are these",
+        "What are those"
+      ],
+      "answer_index": 3,
+      "explanation": "根據 They 回答複數且可能較遠，選 What are those?。選項 C 主主語不符。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒分清問物 (What) 與問人 (Who) 的開頭語。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-022",
+      "type": "multiple_choice",
+      "scenario": "A coin hidden in a hand.",
+      "question": "A: Is the coin ___________ your hand?\nB: Yes, look!",
+      "options": [
+        "on　　　",
+        "at　　　",
+        "in　　　",
+        "under"
+      ],
+      "answer_index": 2,
+      "explanation": "在手『掌心裡面』使用 in。選項 B 意指在手背上。",
+      "taxonomy": "applied",
+      "commonMisconception": "對身體部位空間介係詞的使用直覺不足。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-023",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'i' sound like 'six'.",
+      "question": "Which word has the same short 'i' sound as 'six'?",
+      "options": [
+        "wig",
+        "won",
+        "wet",
+        "wag"
+      ],
+      "answer_index": 0,
+      "explanation": "six 與 wig 均發短母音 /ɪ/。選項 B 是短母音 /ɛ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /ɪ/ 與 /ɛ/ 的對應字母代碼。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-024",
+      "type": "multiple_choice",
+      "scenario": "Pointing to an eraser on a student's desk.",
+      "question": "Teacher: Is ___________ your eraser?\nStudent: Yes, it is.",
+      "options": [
+        "that　",
+        "these",
+        "those",
+        "this　"
+      ],
+      "answer_index": 3,
+      "explanation": "近處單數 eraser，且 Be 動詞為 is，應選 this。選項 B 指遠處。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法結合單數 Be 動詞選出對應指示代名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-025",
+      "type": "multiple_choice",
+      "scenario": "A backpack under a chair.",
+      "question": "A: I can't find my bag.\nB: Look ___________ the chair! Is it yours?",
+      "options": [
+        "under",
+        "of　　　",
+        "to　　　",
+        "at　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "尋找袋子時，建議看椅子『下面』使用 under。選項 B 語意不完整。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒把尋找動作與位置介係詞進行邏輯連結。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-026",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'o' sound like 'hop'.",
+      "question": "Which word has the same short 'o' sound as 'hop'?",
+      "options": [
+        "nose",
+        "not　",
+        "no　　",
+        "note"
+      ],
+      "answer_index": 1,
+      "explanation": "hop 與 not 均發短母音 /ɑ/。選項 B, C, D 均為長母音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法區別 o 之後是否有 e 所造成的長短音變化。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-027",
+      "type": "multiple_choice",
+      "scenario": "Describing two planes in the sky.",
+      "question": "A: __________________ planes?\nB: They are in the blue sky.",
+      "options": [
+        "Who is that  　",
+        "What are this ",
+        "Where are the　",
+        "Can you those "
+      ],
+      "answer_index": 2,
+      "explanation": "根據 They 回答位置，應使用 Where are the...?。選項 B 語法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "疑問詞與複數主詞的搭配架構不穩。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-028",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'u' sound like 'bus'.",
+      "question": "Which word has the same short 'u' sound as 'bus'?",
+      "options": [
+        "rule",
+        "run　",
+        "rude",
+        "rice"
+      ],
+      "answer_index": 1,
+      "explanation": "bus 與 run 均發短母音 /ʌ/。選項 B, C 為 /u/ 音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /ʌ/ 與 /u/ 的發音。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-029",
+      "type": "multiple_choice",
+      "scenario": "Pointing at toys next to each other.",
+      "question": "A: What are these?\nB: The car is ___________ the truck.",
+      "options": [
+        "on　　　　　",
+        "in　　　　　",
+        "next to",
+        "under　　"
+      ],
+      "answer_index": 2,
+      "explanation": "玩具車在卡車『旁邊』，故選 next to。選項 B 邏輯不合常規。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法分辨相鄰 (next to) 與疊放 (on) 的差異。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U2-030",
+      "type": "multiple_choice",
+      "scenario": "Answering a phone call about someone's location.",
+      "question": "A: Where is Sister?\nB: She is ___________ her room. Reading a book.",
+      "options": [
+        "in",
+        "of",
+        "at",
+        "on"
+      ],
+      "answer_index": 0,
+      "explanation": "在房間裡面使用 in。選項 C 偏向大範圍地點描述。",
+      "taxonomy": "applied",
+      "commonMisconception": "混淆 in 與 at 在封閉空間的精準用法。",
       "cqi_score": 10,
       "quality_level": "L5"
     }

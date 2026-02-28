@@ -21,8 +21,8 @@
       ],
       "answer": "折線圖",
       "explanation": "折線圖適合表現數據隨時間變化的趨勢（上升、下降或平穩）。",
-      "cqi_score": 5.5,
-      "quality_level": "L2"
+      "cqi_score": 7,
+      "quality_level": "L4"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "變化越劇烈",
       "explanation": "斜率代表數據變動的速率。",
-      "cqi_score": 4.5,
-      "quality_level": "L2"
+      "cqi_score": 6,
+      "quality_level": "L3"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "一次顯示兩組（或更多）類別的長條，方便互相對照",
       "explanation": "這有利於多維度數據的直觀比較。",
-      "cqi_score": 3,
-      "quality_level": "L2"
+      "cqi_score": 6,
+      "quality_level": "L3"
     }
   ]
 }

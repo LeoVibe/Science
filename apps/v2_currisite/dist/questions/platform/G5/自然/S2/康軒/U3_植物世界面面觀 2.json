@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "自然",
+        "publisher": "kang_hsuan",
+        "lesson": "U3",
+        "title": "植物世界面面觀"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "植物會利用葉子進行「光合作用」。這個過程除了需要陽光外，還需要吸收什麼氣體？",
+            "options": [
+                "氧氣",
+                "氮氣",
+                "二氧化碳",
+                "氦氣"
+            ],
+            "answer": "二氧化碳",
+            "explanation": "光合作用是植物吸收二氧化碳與水，利用光能轉化為養分並釋放氧氣的過程。"
+        },
+        {
+            "id": "2",
+            "type": "multiple_choice",
+            "question": "有些植物可以用「營養器官」來繁殖，不一定要靠種子。下列哪一種植物常用「根」來進行繁殖？",
+            "options": [
+                "地瓜（番薯）",
+                "馬鈴薯",
+                "落地生根",
+                "萬年青"
+            ],
+            "answer": "地瓜（番薯）",
+            "explanation": "甘薯（地瓜）是利用塊根進行營養繁殖；馬鈴薯則是利用塊莖。"
+        }
+    ]
+}

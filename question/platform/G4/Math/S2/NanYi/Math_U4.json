@@ -18,7 +18,7 @@
       "explanation": "去掉了尾數 8，使數字變小，故為捨去法。",
       "concept": "概數方法辨識",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 4.5
     },
     {
       "id": "q2",
@@ -68,8 +68,8 @@
       "answer": 0,
       "explanation": "甲 = 60。 乙 = 60。 兩者相等。",
       "concept": "概數方法對比",
-      "quality_level": "L2",
-      "cqi_score": 4.5
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q5",
@@ -85,8 +85,8 @@
       "answer": 1,
       "explanation": "預算編列通常「宜多不宜少」以防缺額，故採進入法取概數最為穩健。",
       "concept": "風險管理與概數",
-      "quality_level": "L2",
-      "cqi_score": 7.5
+      "quality_level": "L4",
+      "cqi_score": 9
     },
     {
       "id": "q6",
@@ -137,7 +137,7 @@
       "explanation": "125 -> 130。 85 -> 90。 130 * 90 = 11700。",
       "concept": "估算策略",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 4.5
     },
     {
       "id": "q9",
@@ -153,7 +153,7 @@
       "answer": 2,
       "explanation": "捨去到百位 = 100。 四捨五入到百位 = 100 (Wait, 149 四捨五入看十位 4, 捨去 = 100)。 兩者相等？ Let me re-check. 149 四捨五入到百位: 十位是 4，捨去，故也是 100。 相差 0。 (Option 3)",
       "concept": "概數結果比較",
-      "quality_level": "L2",
+      "quality_level": "L4",
       "cqi_score": 4.5
     },
     {
@@ -170,8 +170,8 @@
       "answer": 2,
       "explanation": "不滿額就捨棄資格。為捨去法應用。",
       "concept": "商業規則連結",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 9
     }
   ]
 }

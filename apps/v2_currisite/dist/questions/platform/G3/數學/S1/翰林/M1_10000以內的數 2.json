@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M1",
+    "title": "10000以內的數",
+    "semester": "semester_1",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "數字「6009」讀作什麼？",
+      "options": [
+        "六千零九十",
+        "六千零九",
+        "六百零九",
+        "六零零九"
+      ],
+      "answer": "六千零九",
+      "explanation": "中間有零時，不論有幾個零，通常只讀一個「零」，且要讀出最高的位值名稱。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "10 個 100 等於 1000。",
+      "answer": "True",
+      "explanation": "100 乘以 10 等於 1000。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一個四位數，千位是 4，百位是 0，十位是 8，個位是 2，這個數是______。",
+      "answer": "4082",
+      "explanation": "依位值排列即可得到數字。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "比較 4567 和 4576，下列何者正確？",
+      "options": [
+        "4567 < 4576",
+        "4567 = 4576",
+        "4567 > 4576",
+        "無法比較"
+      ],
+      "answer": "4567 < 4576",
+      "explanation": "千位、百位相同，十位 6 小於 7，所以 4567 小於 4576。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "從 9998 開始往後數兩個數是多少？",
+      "options": [
+        "9999, 10000",
+        "10000, 10001",
+        "9999, 9990",
+        "9999, 10001"
+      ],
+      "answer": "9999, 10000",
+      "explanation": "9998 再加 1 是 9999，再加 1 是 10000（一萬）。"
+    }
+  ]
+}

@@ -3,6 +3,10 @@
 > **撰寫規範**：每筆紀錄格式為 `- YYYY-MM-DD：{摘要} -> {說明} *(by {撰寫者})*`。
 > 撰寫者請填入 `AG` (Antigravity)、`Cursor` 或 `PM` (人類管理者)，以便追溯每筆異動的來源。
 
+- 2026-02-28：JOB-036 / JOB-038 / JOB-042 首波批次完工 -> 測驗按鈕字體放大與進階題數連動（MainMenu + storage maxQuizQuestions）、綜合練習顯示總題數；關於頁新增「研究深探」分頁與兩篇固定文章、點讚/留言（localStorage）；OnboardingModal（hasSeenValueOnboarding）、InsightDrawer（4-4-2 說明）、IntentionTooltip（解析旁設計意圖氣泡），並在 Modal 中引導至研究深探。 *(by Cursor)*
+- 2026-02-28：大腦友善 (Brain-Friendly) 出題三原則導入 -> 以國小兒童認知神經科學為基石，全面翻修 `README_出題設計準則.md`，將防呆法規優化為「同理心投射法」、「合理化迷思法」及「語氣延展法」，並提出情境提示的認知滿載解方。 *(by AG)*
+- 2026-02-28：選項長度限制放寬與防猜機制優化 -> 修改 `README_出題設計準則.md` 與 `evaluate_question_quality.js`。取消單題強制等長（誤差 <15%）的扣分限制，改為「只要最長選項不是正確解答」即獲得 CQI 滿分，並保留全檔 40% 的最長解答上限作為 L1-BIAS 攔截。 *(by AG)*
+- 2026-02-27：JOB-034 三年級國語題庫精煉與品質防呆擴充 -> 完成《出題設計準則》防呆編寫規範更新（情境推進法、細節錯置法、全形空白微調法），並成功以《拔不起來的筆》為例改寫 12 題干擾選項，通過 CI 驗證。 *(by AG)*
 - 2026-02-27：正式遷移部署至 Cloudflare Pages (exam15.pages.dev) -> 執行 v3_eidos Direct Upload 部署，建立 `docs/cloudflare-pages-exam15.md` 並同步更新全站文檔連結及 .env 設定。 *(by Cursor)*
 - 2026-02-27：Science 子路徑一致化方案實作 -> 以 withBase 統一站內路徑、Vite history 中介支援 base、歷史 E2E 改相對路徑並新增「About 連結可成功打開歷史頁」檢查、撰寫 `docs/github-pages-子路徑部署驗證SOP.md`。 *(by Cursor)*
 - 2026-02-26：建立全域文檔生態系與 AI 實作守則 -> 重構文件職責，確立 `網站功能規格書.md` 為 UI 唯一真理，建立 `.cursorrules` 與 `/sync`, `/audit` AI Skills。 *(by AG)*

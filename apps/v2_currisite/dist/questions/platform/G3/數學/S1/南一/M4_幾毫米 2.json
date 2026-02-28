@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M4",
+    "title": "幾毫米",
+    "semester": "semester_1",
+    "order": 4
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "1 公分等於多少毫米？",
+      "options": [
+        "1 毫米",
+        "100 毫米",
+        "0.1 毫米",
+        "10 毫米"
+      ],
+      "answer": "10 毫米",
+      "explanation": "長度的基本換算關係：1 cm = 10 mm。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "一支迴紋針的長度約為 30 毫米，也就是 3 公分。",
+      "answer": "True",
+      "explanation": "30 ÷ 10 = 3。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "5 公分 6 毫米 = ______ 毫米。",
+      "answer": "56",
+      "explanation": "50 + 6 = 56。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "要測量一本課本的厚度，使用什麼單位最精確？",
+      "options": [
+        "公里",
+        "公分或毫米",
+        "公升",
+        "公尺"
+      ],
+      "answer": "公分或毫米",
+      "explanation": "課本厚度通常不到 5 公分，毫米能提供更細緻的讀數。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "比較長度：15 毫米與 2 公分，哪一個比較長？",
+      "options": [
+        "無法比較",
+        "15 毫米",
+        "一樣長",
+        "2 公分"
+      ],
+      "answer": "2 公分",
+      "explanation": "2 公分 = 20 毫米，20 > 15。"
+    }
+  ]
+}

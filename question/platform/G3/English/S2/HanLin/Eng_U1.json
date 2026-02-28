@@ -14,12 +14,12 @@
       "scenario": "Two brothers are watching sports on TV.",
       "question": "Older brother: Look at the player! Can you run like him?\nYounger brother: ___________________",
       "options": [
-        "No, I can't. I am too slow.",
         "No, I am not. I am too slow.",
-        "Yes, I can. I am too slow.",
-        "Yes, I do. I am too slow."
+        "Yes, I can. I am too slow.　　",
+        "Yes, I do. I am too slow.　　　",
+        "No, I can't. I am too slow.　"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "因為回答『我太慢了』，所以不可能做到，必須以否定句簡答。問句用 Can you...?，否定短答為 No, I can't.。選項 B 誤用 Be 動詞；選項 C 前後語意矛盾；選項 D 誤用助動詞 do。",
       "taxonomy": "inferential",
       "commonMisconception": "對於 Can 提問，被母語干擾回答 『No, I am not.』，或是沒有結合後方語意 (too slow) 判斷出必須是否定回答。",
@@ -32,12 +32,12 @@
       "scenario": "A gym teacher is asking a student during class.",
       "question": "Teacher: Can you jump high, Andy?\nAndy: ___________________",
       "options": [
-        "Yes, you can. Look at me",
-        "Yes, I am. Look at me!  ",
+        "No, I don't. Look at me!",
         "Yes, I can. Look at me! ",
-        "No, I don't. Look at me!"
+        "Yes, I am. Look at me!  ",
+        "Yes, you can. Look at me"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "助動詞 Can you...? 提問，必須使用 Yes, I can.。選項 B 的 I am 和選項 D 的 I don't 都是錯誤的助動詞對應。選項 C 沒有將 you 換成 I。",
       "taxonomy": "inferential",
       "commonMisconception": "被口語常見的 I am 誤導，忘記在問答中需要助動詞對應。",
@@ -50,10 +50,10 @@
       "scenario": "Friends are talking about a bird they see outside.",
       "question": "Sarah: The little bird has hurt wings. _______________\nJohn: No, it can't.",
       "options": [
-        "Is it fly now? ",
+        "Can you fly now",
         "Can it fly now?",
         "Does it fly now",
-        "Can you fly now"
+        "Is it fly now? "
       ],
       "answer_index": 1,
       "explanation": "從約定俗成的簡答 No, it can't. 推判問句必須以 Can 開頭且主詞為 it。選項 B 將 is 與原形動詞 fly 疊加；選項 C 用錯了助動詞 does；選項 D 主詞錯誤。",
@@ -69,9 +69,9 @@
       "question": "Magician: I have a magic cat. It can dance.\nBoy: Wow! ___________________",
       "options": [
         "Can it sing, too?  ",
-        "Is it sing, too?   ",
         "Does it sing, too? ",
-        "Can you sing, too? "
+        "Can you sing, too? ",
+        "Is it sing, too?   "
       ],
       "answer_index": 0,
       "explanation": "男孩對於這隻貓的能力感到好奇。因為敘述句是『It can dance.』，順接去問其他能力自然該用『Can it sing...?』。選項 B 是雙動詞錯誤；選項 C 語境不精準；選項 D 主詞變成問魔術師了。",
@@ -86,9 +86,9 @@
       "scenario": "Mom is asking Jimmy to reach for something on a high shelf.",
       "question": "Mom: Can you reach the book for me?\nJimmy: No, I can't. ___________________",
       "options": [
+        "I don't jump that high.",
         "I isn't jump that high.",
         "I am not jump that high",
-        "I don't jump that high.",
         "I can't jump that high."
       ],
       "answer_index": 3,
@@ -104,12 +104,12 @@
       "scenario": "Two students are reading a comic book about superheroes.",
       "question": "Student A: The red hero is strong.\nStudent B: Yes, he is. Can he fly?\nStudent A: ___________________",
       "options": [
-        "Yes, he is.  ",
         "Yes, he can. ",
-        "Yes, he does.",
-        "Yes, I can.  "
+        "Yes, he is.  ",
+        "Yes, I can.  ",
+        "Yes, he does."
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation": "問句是 Can he fly?，簡答必須是 Yes, he can.。選項 B 誤用 Be 動詞；選項 C 誤用 do 助動詞；選項 D 誤用人稱代名詞 I。",
       "taxonomy": "inferential",
       "commonMisconception": "被前面的『Yes, he is.』對話干擾，順著口頭禪也回答『Yes, he is.』。",
@@ -122,10 +122,10 @@
       "scenario": "A girl brings her new dog to the playground.",
       "question": "Jenny: Meet my new dog, Max. He is very smart.\nMark: ___________________\nJenny: Yes, he can catch a ball.",
       "options": [
-        "Does he play with us? ",
+        "Can it play with us?  ",
         "Is he play with us?   ",
         "Can he play with us?  ",
-        "Can it play with us?  "
+        "Does he play with us? "
       ],
       "answer_index": 2,
       "explanation": "Jenny 在講述這隻小狗 (Max，擬人化用 he 代表) 的才藝。回答說『Yes, he can catch...』，顯示前面 Mark 問的是能力。而主詞要用 he。選項 B 是嚴重文法錯誤；選項 D 的 it 與 Jenny 叫 he 沒對上。",
@@ -140,12 +140,12 @@
       "scenario": "During art class, a kid looks at his friend's notebook.",
       "question": "Kid A: Wow! You can draw a big robot.\nKid B: Yes, I can. ___________________",
       "options": [
-        "And I draw a car, too.    ",
-        "And I am draw a car, too. ",
         "And I can draw a car, too.",
-        "And you can draw a car.   "
+        "And you can draw a car.   ",
+        "And I draw a car, too.    ",
+        "And I am draw a car, too. "
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "接續前面的 Yes, I can. (是的，我會)，Kid B 想順勢說出自己『也會』做什麼。因此使用 can 加原形動詞是最自然的表述。選項 B 是雙動詞錯誤；選項 C 雖文法可通但缺乏助動詞的力道；選項 D 改變主詞不符邏輯。",
       "taxonomy": "applied",
       "commonMisconception": "在延續長句子表達時，常常把 Be 動詞加到原形動詞前面 (I am draw...)。",
@@ -158,12 +158,12 @@
       "scenario": "A brother is asking his older sister to help him with sports.",
       "question": "Brother: ___________________\nSister: No, I can't. Ask Dad for help.",
       "options": [
-        "Is she play baseball? ",
         "Are you play baseball?",
-        "Do you play baseball? ",
-        "Can you play baseball?"
+        "Is she play baseball? ",
+        "Can you play baseball?",
+        "Do you play baseball? "
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "從姊姊的回答『No, I can't.』可得知問句必定是以 Can you...? 開頭。選項 B 與 D 皆為 Be 動詞加原形動詞的錯誤結構。選項 C 的 Do you 在文意與回答都不匹配。",
       "taxonomy": "inferential",
       "commonMisconception": "沒看清楚下半句回答的提示，被中文『你打棒球嗎？』干擾而選擇 Are you。",
@@ -176,16 +176,376 @@
       "scenario": "A girl is talking to a zookeeper near the penguin area.",
       "question": "Girl: Penguins have wings. Can they fly?\nZookeeper: ___________________",
       "options": [
-        "Yes, they aren't. ",
-        "No, they aren't.  ",
         "Yes, they can't.  ",
-        "No, they can't.   "
+        "No, they can't.   ",
+        "Yes, they aren't. ",
+        "No, they aren't.  "
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "問句主詞是 penguins (they複數)，以 Can 提問。企鵝不會飛，所以是否定回答。正確配對為 No, they can't.。選項 B 的 aren't 動詞錯誤；選項 C, D 是前後自相矛盾的句子。",
       "taxonomy": "inferential",
       "commonMisconception": "答題時被『翅膀(wings)』的意象干擾而忘記基本常識，或否定時錯用 aren't 代替 can't。",
       "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-011",
+      "type": "multiple_choice",
+      "scenario": "Phonics check: Teacher is pointing at a picture of a kitten.",
+      "question": "Teacher: Listen! /c/-/a/-/t/, cat. What is the sound of 'a' in 'cat'?",
+      "options": [
+        "No sound　　　　　",
+        "Long a sound　",
+        "Short e sound",
+        "Short a sound"
+      ],
+      "answer_index": 3,
+      "explanation": "單音節單字 cat 中的 a 發短母音 /æ/。這是三下 Phonics 的重點內容。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆長短母音的發音邏輯。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-012",
+      "type": "multiple_choice",
+      "scenario": "At the park, seeing a beautiful bird.",
+      "question": "A: Look! A yellow bird.\nB: __________________\nA: Yes, it can fly very high.",
+      "options": [
+        "Do it fly?　　",
+        "Can it fly?　",
+        "Can you fly?",
+        "Is it fly?　　"
+      ],
+      "answer_index": 1,
+      "explanation": "根據回答『Yes, it can...』反推問句應為 Can it...?。選項 A 雙動詞錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "受母語影響誤用 Is it + V。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-013",
+      "type": "multiple_choice",
+      "scenario": "Two friends playing a guessing game.",
+      "question": "A: I'm a rabbit. Can I jump?\nB: __________________",
+      "options": [
+        "Yes, you can.　",
+        "Yes, you are.　",
+        "No, you can't.",
+        "Yes, I can.　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "問句 Can I...? 詢問對方，對方應回答 Yes, you can.。選項 D 人稱錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "人稱代名詞 I 與 You 的對應轉換失敗。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-014",
+      "type": "multiple_choice",
+      "scenario": "Talking about talents in a talent show.",
+      "question": "A: Can your sister dance?\nB: __________________. She is a good dancer.",
+      "options": [
+        "No, she can't.",
+        "Yes, I can.　　　",
+        "Yes, she is.　　",
+        "Yes, she can.　"
+      ],
+      "answer_index": 3,
+      "explanation": "後半句補充『她是好舞者』，故前面回答必須是肯定的 Yes, she can.。",
+      "taxonomy": "inferential",
+      "commonMisconception": "忽略後半句的情境提示。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-015",
+      "type": "multiple_choice",
+      "scenario": "Phonics check: Rhyming words.",
+      "question": "Which word rhymes with 'can'?",
+      "options": [
+        "cat",
+        "man",
+        "bag",
+        "cap"
+      ],
+      "answer_index": 1,
+      "explanation": "can 與 man 都有相同的尾音 -an。這是 Phonics 辨識發音規律的基礎。",
+      "taxonomy": "remembering",
+      "commonMisconception": "僅看字首而忽略字尾發音規律。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-016",
+      "type": "multiple_choice",
+      "scenario": "A fish in an aquarium.",
+      "question": "Boy: Can the fish swim?\nGirl: __________________",
+      "options": [
+        "Yes, it am. 　",
+        "No, it can't.",
+        "No, it isn't.",
+        "Yes, it can. "
+      ],
+      "answer_index": 3,
+      "explanation": "魚會游泳是常識，且問句用 Can，簡答也需用 Can。選項 C 語法嚴重錯誤。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆常識與文法結構的對應。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-017",
+      "type": "multiple_choice",
+      "scenario": "Watching a robot demonstration.",
+      "question": "A: Look! The robot can walk. __________________?\nB: No, it can't sing.",
+      "options": [
+        "Can it sing ",
+        "Can you sing",
+        "Can it dance",
+        "Is it sing  "
+      ],
+      "answer_index": 0,
+      "explanation": "由回答『No, it can't sing.』可推知問句在問它會不會唱歌。選項 C 為文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法從否定簡答回推對應的操作動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-018",
+      "type": "multiple_choice",
+      "scenario": "A little girl trying to sing a song.",
+      "question": "Mom: Can you sing the ABC song?\nGirl: __________________. Please help me.",
+      "options": [
+        "No, I am not.",
+        "Yes, I am. 　　",
+        "Yes, I can. 　",
+        "No, I can't.　"
+      ],
+      "answer_index": 3,
+      "explanation": "請求幫助 (Please help me) 暗示了目前無法獨立完成。選項 D 誤用 Be 動詞。",
+      "taxonomy": "inferential",
+      "commonMisconception": "忽略語境中的求救訊號而選擇肯定回答。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-019",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'e' sound.",
+      "question": "Which word has the short 'e' sound like in 'red'?",
+      "options": [
+        "pan",
+        "pen",
+        "pin",
+        "pun"
+      ],
+      "answer_index": 1,
+      "explanation": "pen 含有與 red 相同的短母音 /ɛ/。選項 B 是短母音 /ɪ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /ɛ/ 與 /ɪ/ 的發音。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-020",
+      "type": "multiple_choice",
+      "scenario": "A coach talking to a player.",
+      "question": "Coach: You are very tall. Can you play basketball?\nPlayer: __________________. I like it very much.",
+      "options": [
+        "Yes, I do.  　",
+        "No, I can't.　",
+        "No, I am not.",
+        "Yes, I can. 　"
+      ],
+      "answer_index": 3,
+      "explanation": "『我很喜歡』支持了肯定回答。對於 Can you...? 的問句回以 Yes, I can.。",
+      "taxonomy": "inferential",
+      "commonMisconception": "在喜歡 (like) 的語境下誤用 do 助動詞回答 Can 問句。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-021",
+      "type": "multiple_choice",
+      "scenario": "Identifying sounds of animals.",
+      "question": "A: Can a pig sing?\nB: __________________",
+      "options": [
+        "Yes, I can.  　",
+        "No, it am not.",
+        "Yes, it can. 　",
+        "No, it can't.　"
+      ],
+      "answer_index": 3,
+      "explanation": "豬不會唱歌是基礎常識。簡答須與問句 Can 對齊。選項 D 人稱代名詞錯誤。",
+      "taxonomy": "remembering",
+      "commonMisconception": "在常識判斷中忘記檢查助動詞的一致性。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-022",
+      "type": "multiple_choice",
+      "scenario": "Two kids looking at a picture of an airplane.",
+      "question": "A: Look! An airplane. Can it fly?\nB: __________________",
+      "options": [
+        "Yes, it is.  　　",
+        "Yes, it can. 　　",
+        "No, it doesn't.",
+        "No, it can't.　　"
+      ],
+      "answer_index": 1,
+      "explanation": "飛機會飛，且應以 can 簡答。選項 C 誤用 Be 動詞。",
+      "taxonomy": "remembering",
+      "commonMisconception": "對物理常識的認同慣性導致忽略文法結構對應。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-023",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'i' sound.",
+      "question": "Which word has the short 'i' sound like in 'big'?",
+      "options": [
+        "pag",
+        "pug",
+        "peg",
+        "pig"
+      ],
+      "answer_index": 3,
+      "explanation": "pig 含有短母音 /ɪ/。選項 B 為短母音 /ɛ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 /ɪ/ 與 /ɛ/ 的字母拼顯與發音對應。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-024",
+      "type": "multiple_choice",
+      "scenario": "Grandma is watching her grandson swim.",
+      "question": "Grandma: Wow! __________________\nGrandson: Yes, I am a good swimmer.",
+      "options": [
+        "Are you swim?",
+        "Can I swim?  ",
+        "Do you swim? ",
+        "Can you swim?"
+      ],
+      "answer_index": 3,
+      "explanation": "根據回應『Yes, I am a good swimmer.』可推知問句在確認能力。選項 B 為文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "見到後方用 am 回應，就想在問句選 Are you swim。需區分名詞身分與動詞能力的問法。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-025",
+      "type": "multiple_choice",
+      "scenario": "Asking about a pet's ability.",
+      "question": "A: Can your cat run fast?\nB: __________________. It is very old.",
+      "options": [
+        "No, it isn't.",
+        "Yes, it is. 　",
+        "No, it can't.",
+        "Yes, it can.　"
+      ],
+      "answer_index": 2,
+      "explanation": "因為貓很老了 (very old)，所以無法跑快。對應 Can 的問句需用 can't 否定簡答。",
+      "taxonomy": "inferential",
+      "commonMisconception": "忽略年老 (old) 隱含的生理限制，只看見 cat 就選肯定。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-026",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Short 'o' sound.",
+      "question": "Which word has the same 'o' sound as in 'dog'?",
+      "options": [
+        "hope",
+        "both",
+        "hot　",
+        "box　"
+      ],
+      "answer_index": 2,
+      "explanation": "hot 的 o 發短母音 /ɑ/，與 dog 相同。選項 B 是長母音 /o/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "混淆 o 的長短母音發音。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-027",
+      "type": "multiple_choice",
+      "scenario": "Talking about a superhero.",
+      "question": "A: Can Superman fly?\nB: Yes, he can. __________________?\nA: No, his sister can't fly.",
+      "options": [
+        "Can her sister fly",
+        "Can he fly       　",
+        "Is his sister fly ",
+        "Can his sister fly"
+      ],
+      "answer_index": 3,
+      "explanation": "由 A 回答『his sister can't fly』反推 B 是在詢問他姐姐。選項 C 用錯了所有格 her。",
+      "taxonomy": "applied",
+      "commonMisconception": "在代名詞變換中混淆所有格 his 與 her 的使用。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-028",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Short 'u' sound.",
+      "question": "Choose the word with the short 'u' sound (/ʌ/).",
+      "options": [
+        "blue",
+        "cute",
+        "cup　",
+        "use　"
+      ],
+      "answer_index": 2,
+      "explanation": "cup 發短母音 /ʌ/。選項 B, C 均含有長母音 /ju/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "被拼字 u 的存在誤導，無法區分長短音的音標差異。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-029",
+      "type": "multiple_choice",
+      "scenario": "A student asking a friend.",
+      "question": "A: Can you dance like a robot?\nB: No, I can't. Internal: I am a human, not a robot.",
+      "options": [
+        "You can't dance.　　　　　　　　　　　",
+        "I can't dance like a robot.",
+        "如果我們仔細觀察的話會發現I am dance.　　　",
+        "I can dance.，但其實這只是作者的想像。　　"
+      ],
+      "answer_index": 1,
+      "explanation": "前半句已說 No, I can't.，後半句應重複對能力的否定表述。選項 C 為嚴重語法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "在否定句型中遺漏助動詞或誤加 Be 動詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "HL-G3S2-U1-030",
+      "type": "multiple_choice",
+      "scenario": "Recap: What can a monkey do?",
+      "question": "A monkey _________________.",
+      "options": [
+        "is climb trees ",
+        "can't climb   　",
+        "can climb trees",
+        "am climb trees "
+      ],
+      "answer_index": 2,
+      "explanation": "猴子會爬樹是事實，正確用法為 can + 原形動詞。選項 B, D 均為文法錯誤。",
+      "taxonomy": "remembering",
+      "commonMisconception": "在一般陳述中誤用 Be 動詞取代助動詞的功能。",
+      "cqi_score": 8,
       "quality_level": "L5"
     }
   ]

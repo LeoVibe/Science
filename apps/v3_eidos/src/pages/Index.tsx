@@ -23,10 +23,10 @@ import ResultView from '@/components/ResultView';
 import ReviewView from '@/components/ReviewView';
 import WrongQuestionsView from '@/components/WrongQuestionsView';
 import LearningReportView from '@/components/LearningReportView';
-import ProfileSetup from '@/components/ProfileSetup';
+import ProfileSetup, { type UserProfile as ProfileData } from '@/components/ProfileSetup';
 import AboutView, { AboutTab } from '@/components/AboutView';
-import OnboardingModal, { hasSeenValueOnboarding } from '@/components/OnboardingModal';
-import type { UserProfile as ProfileData } from '@/components/ProfileSetup';
+import WelcomeSetup from '@/components/WelcomeSetup';
+import FeatureTour from '@/components/FeatureTour';
 import { toast } from 'sonner';
 
 type View = 'menu' | 'quiz' | 'result' | 'review' | 'wrong-questions' | 'learning-report' | 'settings' | 'about';
@@ -52,17 +52,17 @@ const VIEW_TO_URL: Partial<Record<View, string>> = {
 /** 合法題庫路徑格式，用於判斷是否為使用者點 Link 後的 URL，避免用舊 state 覆寫 */
 const VALID_APP_PATH = /^\/g\d\/[^/]+\/s\d\/[^/]+\/[^/]+(\/[^/]+)?$/;
 
-type LibraryConfig = {
-  grades?: Partial<Record<Grade, {
-    enabled?: boolean;
-    semesters?: Partial<Record<Semester, {
-      enabled?: boolean;
-      subjects?: Partial<Record<Subject, {
-        enabled?: boolean;
+export type LibraryConfig = {
+  grades: Record<number, {
+    enabled: boolean;
+    semesters?: Record<number, {
+      enabled: boolean;
+      subjects?: Record<string, {
+        enabled: boolean;
         publishers?: Publisher[];
-      }>>;
-    }>>;
-  }>>;
+      }>;
+    }>;
+  }>;
 };
 
 function isLibraryEnabled(
@@ -74,13 +74,14 @@ function isLibraryEnabled(
 ): boolean {
   if (!config?.grades) return true;
   const g = config.grades[grade];
-  if (!g || g.enabled === false) return false;
-  const s = g.semesters?.[semester];
-  if (!s || s.enabled === false) return false;
-  const sub = s.subjects?.[subject];
-  if (!sub || sub.enabled === false) return false;
-  const publishers = sub.publishers ?? [];
-  return publishers.includes(publisher);
+  if (g && g.enabled === false) return false;
+  const s = g?.semesters?.[semester];
+  if (s && s.enabled === false) return false;
+  const sub = s?.subjects?.[subject];
+  if (sub && sub.enabled === false) return false;
+  const publishers = sub?.publishers ?? [];
+  if (publishers.length > 0 && !publishers.includes(publisher)) return false;
+  return true;
 }
 
 const Index = () => {
@@ -90,6 +91,7 @@ const Index = () => {
   // Profile / first-time setup
   const [showSetup, setShowSetup] = useState(false);
   const [profileReady, setProfileReady] = useState(false);
+  const [showTour, setShowTour] = useState(false);
 
   // Config state
   const [grade, setGrade] = useState<Grade>(3);
@@ -126,7 +128,6 @@ const Index = () => {
   const [quizInitialScore, setQuizInitialScore] = useState(0);
   const [quizInitialAnswered, setQuizInitialAnswered] = useState<{ question: Question; isCorrect: boolean; selected: number }[]>([]);
   const [quizInitialStartTime, setQuizInitialStartTime] = useState<number>(Date.now());
-  const [showOnboardingModal, setShowOnboardingModal] = useState(() => !hasSeenValueOnboarding());
 
   // URL → State sync (on mount and whenever URL params change, e.g. 切換出版社)
   const { grade: gp, subject: sp, semester: semp, publisher: pp, view: vp } = params;
@@ -168,8 +169,7 @@ const Index = () => {
       setPublisher(pref.publisher);
       const subjects = getSubjectsByGrade(pref.grade);
       if (subjects.includes(pref.subject)) setSubject(pref.subject);
-      setProfileReady(true);
-      return;
+      // 注意：此處不再直接 return，要讓流程往下走到 setShowSetup(true)
     }
     if (settingsLoaded && siteSettings) {
       const defaultGrade = Math.min(6, Math.max(1, siteSettings.default_grade ?? 3)) as Grade;
@@ -181,9 +181,13 @@ const Index = () => {
       setSubject(defaultSubject);
       setPublisher(defaultPublisher);
     }
-    setShowSetup(true);
+
+    // 強制觸發引導：若 localProfile 為空或未完成設定
+    if (!profile || !profile.setupComplete) {
+      setShowSetup(true);
+    }
     setProfileReady(true);
-  }, [gp, sp, semp, pp, vp, settingsLoaded, siteSettings]); // 依 URL params 變動同步 state（含切換出版社）
+  }, [gp, sp, semp, pp, vp, settingsLoaded, siteSettings]);
 
   // 進入時取得全站設定（維護模式、公告）
   useEffect(() => {
@@ -222,6 +226,12 @@ const Index = () => {
         setSemester(merged.semester);
         const pubKey = `國語_S${merged.semester}`;
         setPublisher((merged.publisherBySubject?.[pubKey] as Publisher) ?? '南一');
+
+        // 若 API 同步回來的資料也不完整，則再次確認是否需要顯示引導
+        const savedProfile = loadUserProfile();
+        if (!savedProfile?.setupComplete) {
+          setProfileReady(true); // 觸發重新 render 以顯示 WelcomeSetup
+        }
       }
     });
   }, [settingsLoaded]);
@@ -313,7 +323,7 @@ const Index = () => {
       if (loadPromiseRef.current === promise) loadPromiseRef.current = null;
     });
     saveUserPreference(grade, subject, semester, publisher);
-    document.title = `${SUBJECT_ICONS[subject]} ${grade}年級${subject}複習 - 陪孩子一起進步`;
+    document.title = `每天15分鐘陪孩子複習功課`;
     return () => { cancelled = true; };
   }, [grade, subject, semester, publisher, view, profileReady, libraryConfig]);
 
@@ -365,6 +375,12 @@ const Index = () => {
     setPublisher(pub);
     syncUserProfileToApi(getOrCreateUserId()).catch(() => { });
     toast.success('已儲存');
+    setShowSetup(false); // 立即關閉設定彈窗（由 WelcomeSetup 或 ProfileSetup 觸發）
+
+    // 如果是第一次設定完成，則觸發 Tour（判斷依據：原本沒完成，現在存檔後完成了）
+    if (!current?.setupComplete) {
+      setTimeout(() => setShowTour(true), 500); // 延遲一下讓彈窗關閉動畫完成
+    }
   }, [subject]);
 
   const handleCloseSetup = useCallback(() => {
@@ -491,15 +507,24 @@ const Index = () => {
 
   // Show setup wizard as overlay
   const renderSetupOverlay = () => {
-    if (!showSetup && view !== 'settings') return null;
     const profile = loadUserProfile();
-    return (
-      <ProfileSetup
-        initial={profile?.setupComplete ? { grade: profile.grade, semester: profile.semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions } : undefined}
-        onSave={handleProfileSave}
-        onClose={handleCloseSetup}
-      />
-    );
+    if (!profile?.setupComplete) {
+      return (
+        <div key="welcome">
+          <WelcomeSetup onComplete={handleProfileSave} libraryConfig={libraryConfig} />
+        </div>
+      );
+    }
+    if (view === 'settings' || showSetup) {
+      return (
+        <ProfileSetup
+          initial={{ grade, semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions }}
+          onSave={handleProfileSave}
+          onClose={handleCloseSetup}
+        />
+      );
+    }
+    return null;
   };
 
   const theme = SUBJECT_THEME_MAP[subject];
@@ -549,18 +574,7 @@ const Index = () => {
                     </div>
                   </div>
                 )}
-                {showOnboardingModal && (
-                  <OnboardingModal
-                    onClose={() => setShowOnboardingModal(false)}
-                    onGoToPrinciple={() => {
-                      setShowOnboardingModal(false);
-                      setView('about');
-                      navigate(buildPath(grade, subject, semester, publisher, 'about', 'deepdive'));
-                    }}
-                    hasChosenGrade={!!loadUserProfile()?.setupComplete}
-                    grade={grade}
-                  />
-                )}
+                <></>
                 <MainMenu
                   grade={grade} semester={semester} publisher={publisher} subject={subject}
                   questions={loaded.questions}
@@ -661,6 +675,14 @@ const Index = () => {
       </main>
 
       {renderSetupOverlay()}
+
+      {showTour && (
+        <FeatureTour
+          targetId="shield-setup-trigger"
+          content="之後隨時可以點選這裡，修改您的就讀年級與各科出版社設定喔！"
+          onComplete={() => setShowTour(false)}
+        />
+      )}
     </div>
   );
 };

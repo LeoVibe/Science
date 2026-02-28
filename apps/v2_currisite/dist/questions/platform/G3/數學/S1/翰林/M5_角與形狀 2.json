@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M5",
+    "title": "角與形狀",
+    "semester": "semester_1",
+    "order": 5
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "兩條射線共用一個端點所形成的圖形稱為什麼？",
+      "options": [
+        "線段",
+        "角",
+        "圓形",
+        "三角形"
+      ],
+      "answer": "角",
+      "explanation": "角的定義是由一個頂點與兩條邊組成。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "正方形有四個角，且四個角都是直角。",
+      "answer": "True",
+      "explanation": "正方形具備四邊等長且四角皆為 90 度（直角）的特性。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "三角形有三個角和______條邊。",
+      "answer": "3",
+      "explanation": "三角形的基本構成元件是三邊三角。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪一個圖形「不一定」有直角？",
+      "options": [
+        "正方形",
+        "三角形",
+        "長方形",
+        "教室的黑板"
+      ],
+      "answer": "三角形",
+      "explanation": "三角形有銳角、鈍角、直角三角形之分；而正方形、長方形的角必為直角。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "用來測量或比較角的大小，常見的基準是什麼？",
+      "options": [
+        "直角",
+        "長度",
+        "面積",
+        "圓形"
+      ],
+      "answer": "直角",
+      "explanation": "中年級常以直角（如三角板的一角）來判斷角是銳角或鈍角。"
+    }
+  ]
+}

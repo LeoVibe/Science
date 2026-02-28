@@ -17,7 +17,7 @@
       "answer": 0,
       "explanation": "2:30 + 2 小時 15 分 = 4:45。直接相加即可。",
       "concept": "時間相加",
-      "quality_level": "L2",
+      "quality_level": "L4",
       "cqi_score": 4.5
     },
     {
@@ -35,7 +35,7 @@
       "explanation": "5:20 - 4 小時 50 分 = 4:80 - 4:50 = 0:30。 即下午 12 時 30 分（或稱為中午）。注意時間借位 (1小時 = 60分)。",
       "concept": "時間減法與借位",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6
     },
     {
       "id": "q3",
@@ -136,8 +136,8 @@
       "answer": 2,
       "explanation": "2 時 20 分 = 2*60 + 20 = 140 分。 兩者相等。",
       "concept": "單位換算對比",
-      "quality_level": "L2",
-      "cqi_score": 4.5
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q9",
@@ -170,8 +170,8 @@
       "answer": 2,
       "explanation": "25 * 5 = 125 分鐘 = 2 小時 5 分鐘。",
       "concept": "時間複名數換算",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 7.5
     }
   ]
 }

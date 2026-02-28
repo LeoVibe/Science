@@ -5,186 +5,546 @@
     "subject": "English",
     "publisher": "NanYi",
     "lesson_id": "U4",
-    "lesson_name": "What time is it?"
+    "lesson_name": "What are they?"
   },
   "questions": [
     {
       "id": "NY-G3S2-U4-001",
       "type": "multiple_choice",
-      "scenario": "A mother is asking her son about the time to watch his favorite show.",
-      "question": "Mom: ___________________\nSon: It's six o'clock. The cartoon is on!",
+      "scenario": "Two students are at the zoo looking at some big animals.",
+      "question": "Peter: Look over there! __________________?\nLily: They're elephants. They're so big!",
       "options": [
-        "Who is the time?",
-        "Where is the time?",
-        "What time is it?",
-        "How old is it?"
+        "What are they",
+        "Who are these",
+        "Where is they",
+        "What is it   "
       ],
-      "answer_index": 2,
-      "explanation": "根據回答 It's six o'clock (六點鐘)，可知問句是詢問時間。標準問法為 What time is it?。選項 B 和 C 的疑問詞(Where/Who) 錯誤；選項 D 是問年齡。",
-      "taxonomy": "inferential",
-      "commonMisconception": "被其他常見疑問句型混淆，沒將 It's six o'clock 與 What time 對接。",
-      "cqi_score": 10,
+      "answer_index": 0,
+      "explanation": "從回答 They're elephants (複數) 可判定問句是在詢問它們是什麼。選項 B 為單數型。",
+      "taxonomy": "literal",
+      "commonMisconception": "沒注意到回答中的複數代名詞 They。",
+      "cqi_score": 9,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-002",
       "type": "multiple_choice",
-      "scenario": "Two students meet at the bus stop in the morning.",
-      "question": "Student A: Is it seven thirty? The bus is late.\nStudent B: ___________________\nStudent A: Oh no! We are late for school.",
+      "scenario": "A girl is pointing at some small animals in the grass.",
+      "question": "Girl: Hey! What are they?\nSon: ___________________",
       "options": [
-        "Yes, it is. It's seven o'clock.",
-        "No, it doesn't. It's eight o'clock.",
-        "No, it isn't. It's eight o'clock.",
-        "Yes, they are. They are eight o'clock."
+        "They're black ants.　",
+        "They is black ant. 　",
+        "They're a black ant.",
+        "It's a black ant. 　　"
       ],
-      "answer_index": 2,
-      "explanation": "Student A 回應 We are late for school (我們遲到了)，推斷現在的時間已經比 7:30 晚了。問句 Is it...? 否定回答為 No, it isn't.。選項 B 的 7:00 不會遲到；選項 C 錯用 doesn't；選項 D 錯搭複數 They are。",
-      "taxonomy": "inferential",
-      "commonMisconception": "對於時間 Is it...? 的問句錯用 doesn't 回答，或是無法理解對話中『遲到』的邏輯推理。",
-      "cqi_score": 10,
+      "answer_index": 0,
+      "explanation": "What are they? 問複數，需用 They're 搭配複數名詞。選項 D 冠詞 a 與複數矛盾。",
+      "taxonomy": "literal",
+      "commonMisconception": "在複數代名詞後方誤加單數冠詞 a。",
+      "cqi_score": 9,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-003",
       "type": "multiple_choice",
-      "scenario": "A family is looking at the clock around dinnertime.",
-      "question": "Dad: What time is it?\nMom: ___________________\nDad: Let's have dinner now.",
+      "scenario": "Guessing game with animal sounds.",
+      "question": "A: Meow, meow! What are they?\nB: ___________________",
       "options": [
-        "Is it six thirty?",
-        "It is six thirty.",
-        "They are six thirty.",
-        "It are six thirty."
+        "Cat are they.",
+        "They're cats.",
+        "It's a cat.  ",
+        "They're cat. "
       ],
       "answer_index": 1,
-      "explanation": "詢問時間 What time is it? 必須用單數代名詞 It 搭配 is 來回答。選項 B 錯搭 are；選項 C 錯用 they；選項 D 仍是問句語氣不合邏輯。",
+      "explanation": "貓叫聲提示動物名稱。複數問句對應複數名詞 s。選項 C 漏了 s。",
       "taxonomy": "applied",
-      "commonMisconception": "常將 It is 的陳述句型誤用為 Is it 問句型態，或是錯搭複數 Be 動詞。",
+      "commonMisconception": "忘記複數名詞的 s 標記。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-004",
       "type": "multiple_choice",
-      "scenario": "A girl asks her brother for the time because she has a piano class.",
-      "question": "Girl: My piano class is at four o'clock. What time is it?\nBrother: ___________________",
+      "scenario": "Correcting an animal identification error.",
+      "question": "Teacher: Are they dogs?\nStudent: No, __________________. They're pigs.",
       "options": [
-        "It's four thirty. You have time.",
-        "It's four o'clock. You have time.",
-        "It's three thirty. You are late.",
-        "It's three thirty. You have time."
+        "it is.       ",
+        "it isn't.    ",
+        "they aren't.　",
+        "they are.   　"
       ],
-      "answer_index": 3,
-      "explanation": "鋼琴課四點開始。如果弟弟說 You have time (你還有時間)，代表現在還不到四點，因此三點半 (three thirty) 合理。選項 B 指已經四點半了不合邏輯；選項 C 說三點半卻遲到不合邏輯；選項 D 四點正剛好開始，不會說還有優裕時間。",
+      "answer_index": 2,
+      "explanation": "針對複數 Are they...? 的否定簡答為 No, they aren't.。後文指出是豬驗證否定。",
       "taxonomy": "inferential",
-      "commonMisconception": "無法統合時間數字與情境邏輯 (遲到或還有時間) 的推演。",
+      "commonMisconception": "在複數否定中錯用單數 it。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-005",
       "type": "multiple_choice",
-      "scenario": "Two kids are playing at the park in the afternoon.",
-      "question": "Kid A: It is getting dark. Is it six o'clock?\nKid B: ___________________\nKid A: Okay, it's time to go home.",
+      "scenario": "Identifying distance animals by color.",
+      "question": "A: Look at the white birds. Are they ducks?\nB: Yes, __________________. They can swim.",
       "options": [
-        "Yes, it does. Let's go.",
-        "Yes, it is. Let's go.",
-        "No, it isn't. Let's go.",
-        "No, it doesn't. Let's go."
+        "they're   　　",
+        "it is.    　　",
+        "they aren't.",
+        "they are. 　　"
       ],
-      "answer_index": 1,
-      "explanation": "天色變暗，朋友問 Is it 且回答 Let's go home，代表確認時間已經晚了。肯定回答為 Yes, it is.。選項 B 意義矛盾；選項 C, D 錯用助動詞 does/doesn't 代替 is/isn't。",
+      "answer_index": 3,
+      "explanation": "針對複數疑問的肯定簡答。選項 D 縮寫後方不可直接結束。",
       "taxonomy": "applied",
-      "commonMisconception": "對 Is it 提問，錯用 does/doesn't 回答。",
+      "commonMisconception": "肯定簡答誤用縮寫式 (Yes, they're) 的語法規則遺失。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-006",
       "type": "multiple_choice",
-      "scenario": "A student looks at the clock during a math test.",
-      "question": "Student: What time is it?\nTeacher: ___________________\nStudent: Oh! I only have ten minutes.",
+      "scenario": "Phonics: Long vowel u_e sound.",
+      "question": "Which word has the same vowel sound as 'tube'?",
       "options": [
-        "It is ten o'clock. The test starts at ten ten.",
-        "It is ten o'clock. The test ends at ten ten.",
-        "It is ten thirty. The test ends at ten ten.",
-        "It is ten o'clock. The test ends at ten thirty."
+        "but ",
+        "up  ",
+        "cute",
+        "duck"
       ],
-      "answer_index": 1,
-      "explanation": "學生說只剩十分鐘 (only have ten minutes)。若現在十點整，測驗在十點十分結束 (ends at ten ten)，剛好是十分鐘，符合邏輯推理。選項 B 是三十分鐘；選項 C 已經超時；選項 D 是測驗開始不符語境。",
-      "taxonomy": "inferential",
-      "commonMisconception": "對時間進行加減 (10 點 + 10 分鐘) 推算感到困難，無法選出合理的對話設定。",
-      "cqi_score": 10,
+      "answer_index": 2,
+      "explanation": "tube 與 cute 均為長母音 /ju/ (u_e 結構)。其餘為短音 /ʌ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法區別字母 u 的長音 /ju/ 與短音 /ʌ/。",
+      "cqi_score": 8,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-007",
       "type": "multiple_choice",
-      "scenario": "Dad is waking up his daughter for a school trip.",
-      "question": "Dad: Get up! It's five thirty.\nDaughter: ___________________\nDad: Yes, the bus leaves early.",
+      "scenario": "Asking for name of strange fish.",
+      "question": "A: What are __________________?\nB: They're blue fish.",
       "options": [
-        "Is it five thirty? It's so early!",
-        "What time is it? It's so early!",
-        "Are you five thirty? It's so early!",
-        "Is it five thirty? It's so late!"
+        "it   　　",
+        "those　　",
+        "they 　　",
+        "they're"
       ],
-      "answer_index": 0,
-      "explanation": "因為爸爸已經說 It's five thirty，女兒訝異地反問 Is it five thirty? (五點半了嗎？好早！)。從後面老爸說『對，車子很早開』確認。選項 B 重複問時間；選項 C 錯用 are you；選項 D (so late) 語意矛盾。",
-      "taxonomy": "applied",
-      "commonMisconception": "把 Is it (反問確認) 與 What time (直接提問) 的使用時機混淆。",
-      "cqi_score": 10,
+      "answer_index": 2,
+      "explanation": "標準代名詞主詞詢問。選項 C 若選 those 回答也應對稱但 here 慣用 they。",
+      "taxonomy": "literal",
+      "commonMisconception": "代名詞選配不精。",
+      "cqi_score": 9,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-008",
       "type": "multiple_choice",
-      "scenario": "A grandmother asks her grandson to look at the wall clock.",
-      "question": "Grandma: I can't see the clock. ___________________\nGrandson: It is nine o'clock, Grandma.",
+      "scenario": "Talking about things in a box.",
+      "question": "A: Are they monkeys?\nB: No, __________________. They are dolls.",
       "options": [
-        "When is the time?",
-        "What is it time?",
-        "Where is the time?",
-        "What time is it?"
+        "it isn't.   　　　　　　",
+        "they is not.　　　　　　",
+        "they're not dolls.",
+        "they aren't.　　　　　　"
       ],
       "answer_index": 3,
-      "explanation": "標準詢問現在幾點的句型是 What time is it?。選項 B 詞序錯誤；選項 C 和 D 是錯誤的疑問詞翻譯 (何時是時間/時間在哪裡)。",
+      "explanation": "正確的複數否定。選項 D 與後文事實矛盾。",
       "taxonomy": "inferential",
-      "commonMisconception": "中式英文直翻，認為時間可以用 When is the time 來問現在幾點。",
+      "commonMisconception": "邏輯與代名詞選配失敗。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-009",
       "type": "multiple_choice",
-      "scenario": "A child is impatient while waiting for a movie to start at two o'clock.",
-      "question": "Child: ___________________\nMom: No, it isn't. It's only one thirty.",
+      "scenario": "Phonics: Letter 'u' check.",
+      "question": "Which word has the /ju/ sound?",
       "options": [
-        "Is it two o'clock?",
-        "What time is it?",
-        "Is it one thirty?",
-        "Are they two o'clock?"
+        "Luke",
+        "bus ",
+        "lug ",
+        "luck"
       ],
       "answer_index": 0,
-      "explanation": "根據媽媽的回答 No, it isn't. 可以得知這是一個 Yes/No 問句，且從「才一點半」可推論小孩原本在問期待的兩點到了沒。選項 B 無法用 Yes/No 回答；選項 C 則媽媽會回答 Yes；選項 D 錯用複數。",
-      "taxonomy": "inferential",
-      "commonMisconception": "無法從回答的 No, it isn't. 推論出問句必須是 Is it 開頭的封閉式問句。",
-      "cqi_score": 8.5,
-      "quality_level": "L2"
+      "explanation": "Luke (雖然是 /u/ 音，但屬於長母音結構 u_e)。南一版包含此結構。其餘為短音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "沒識別出 u_e 結構對發音的拉長作用。",
+      "cqi_score": 8,
+      "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U4-010",
       "type": "multiple_choice",
-      "scenario": "At the train station, a man asks a staff member checking the schedule.",
-      "question": "Man: Excuse me. Is it eleven o'clock?\nStaff: ___________________ The train is here.",
+      "scenario": "Guessing animals behind a tree.",
+      "question": "A: Look at the long ears. Are they rabbits?\nB: Yes, __________________. They're eating.",
       "options": [
-        "No, it isn't.",
-        "Yes, it is.",
-        "Yes, it does.",
-        "No, it doesn't."
+        "it is.   　　　　　　　　",
+        "rabbits they are.",
+        "they are rabbits.",
+        "they are.　　　　　　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "最標準簡答式。選項 C 雖正確但考點通常要求代名詞簡答。",
+      "taxonomy": "applied",
+      "commonMisconception": "在是非簡答中贅言名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-011",
+      "type": "multiple_choice",
+      "scenario": "Identifying animal traits.",
+      "question": "A: __________________?\nB: They're birds. They can fly up high.",
+      "options": [
+        "Who is they  　　　　　",
+        "What color is they",
+        "What are they　　　　　",
+        "Where are they　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "由回答物名 (birds) 反推問句。選項 B 文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "Wh- 疑問詞選配不當。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-012",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'mule'.",
+      "question": "Which word rhyme with 'rule'?",
+      "options": [
+        "mud ",
+        "must",
+        "mule",
+        "mat "
+      ],
+      "answer_index": 2,
+      "explanation": "rule 與 mule 同韻長音 /u/。其餘選項韻腳完全不符。",
+      "taxonomy": "remembering",
+      "commonMisconception": "分辨不出母音長度帶來的韻律感。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-013",
+      "type": "multiple_choice",
+      "scenario": "Identifying small kittens by sound.",
+      "question": "A: Meow! __________________?\nB: They're my kittens. Three small kittens.",
+      "options": [
+        "Who is he     ",
+        "What are they　",
+        "What is it   　",
+        "How is they   "
       ],
       "answer_index": 1,
-      "explanation": "從 The train is here 可判斷，符合了班車到達的時間，所以是肯定回應。對於 Is it 提問，簡答為 Yes, it is.。選項 C 與 D 錯搭助動詞 does。",
+      "explanation": "提示詞 kittens 暗示複數問句。其餘選項單複數不對稱。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒察覺到詢問對象的複數性質。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-014",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'u' sounds like 'June'.",
+      "question": "Choose the word with same sound as 'tune'.",
+      "options": [
+        "June",
+        "Joe ",
+        "Jet ",
+        "Jim "
+      ],
+      "answer_index": 0,
+      "explanation": "tune 與 June 均含長音 /u/。選項 B 為短音 i。",
+      "taxonomy": "remembering",
+      "commonMisconception": "聽不出長母音位。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-015",
+      "type": "multiple_choice",
+      "scenario": "A basket of weird markers.",
+      "question": "A: Are they markers? They're very cool.\nB: __________________. They are pens.",
+      "options": [
+        "Yes, they are.  　",
+        "No, it isn't.    ",
+        "No, they aren't.　",
+        "Yes, they're.   　"
+      ],
+      "answer_index": 2,
+      "explanation": "後敘 pens 證明原問錯誤。複數對稱。選項 D 為肯定縮寫錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "肯定簡答結尾誤用縮寫。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-016",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Short vs Long u sounds recap.",
+      "question": "Choose the word with the SHORT /ʌ/ sound.",
+      "options": [
+        "Luke",
+        "bug ",
+        "tube",
+        "mute"
+      ],
+      "answer_index": 1,
+      "explanation": "bug 是短音。其餘均為 u_e 長音結構 (mute 為靜音)。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法偵測字母 e 對 u 的轉職作用。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-017",
+      "type": "multiple_choice",
+      "scenario": "Recap: What is it? vs What are they?",
+      "question": "A: Look at the small dog. __________________?\nB: It's a cute dog.",
+      "options": [
+        "Where is it  ",
+        "What are they",
+        "What is it　　　",
+        "Is it a cat  "
+      ],
+      "answer_index": 2,
+      "explanation": "單數 dog 暗示問句應為 What is it?。選項 B 為複數。",
+      "taxonomy": "applied",
+      "commonMisconception": "在單複數混淆中選錯代名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-018",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'cute'.",
+      "question": "Which word rhyme with 'mute'?",
+      "options": [
+        "fast ",
+        "flute",
+        "felt ",
+        "foot "
+      ],
+      "answer_index": 1,
+      "explanation": "mute 與 flute 具有相同長母音韻腳。選項 C 是短音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "聽不出韻腳的母音位移。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-019",
+      "type": "multiple_choice",
+      "scenario": "Asking for groups of fruit.",
+      "question": "A: __________________?\nB: They are yellow bananas.",
+      "options": [
+        "Are they bananas",
+        "Who is he      　",
+        "What are they　　　",
+        "What is they 　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "回答為複數物，反推 What are they?。選項 C 格式不對。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒注意到答語中的 They correspond 問句。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-020",
+      "type": "multiple_choice",
+      "scenario": "Singular vs Plural animal identification.",
+      "question": "A: What are those in the tree?\nB: __________________. I can see four of them.",
+      "options": [
+        "It is a monkey.  ",
+        "They are monkeys.",
+        "Monkeys is them. ",
+        "They are monkey. "
+      ],
+      "answer_index": 1,
+      "explanation": "問複數且見到四隻。選項 D 漏了 s。",
       "taxonomy": "inferential",
-      "commonMisconception": "在簡短的對話中，忽略助動詞對稱的鐵律，而將 is 與 does 混用。",
+      "commonMisconception": "名詞複數型態遺失。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-021",
+      "type": "multiple_choice",
+      "scenario": "Asking for specific animals on a farm.",
+      "question": "Boy: Look! Pigs! __________________ white?\nGirl: Yes, they are.",
+      "options": [
+        "Do they ",
+        "Are they",
+        "They is ",
+        "Is they "
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 pigs 複數配 Are they。其餘文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "主詞代名詞與 Be 動詞配對不熟悉。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-022",
+      "type": "multiple_choice",
+      "scenario": "Describing something else's likes (Recap).",
+      "question": "A: What are they? Do they like milk?\nB: They are cats. __________________.",
+      "options": [
+        "No, it isn't. ",
+        "Yes, they are.",
+        "Yes, they do.　",
+        "I like milk.  "
+      ],
+      "answer_index": 2,
+      "explanation": "針對 Do they 的肯定簡答。選項 B 答非所問。",
+      "taxonomy": "applied",
+      "commonMisconception": "混淆 Do 助動詞句型與 Be 動詞回答。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-023",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'u' check (Recap).",
+      "question": "Which word rhyme with 'up'?",
+      "options": [
+        "cut",
+        "cap",
+        "cat",
+        "cup"
+      ],
+      "answer_index": 3,
+      "explanation": "up 與 cup 同韻。選項 D 也含有短音但在尾音有異。",
+      "taxonomy": "remembering",
+      "commonMisconception": "韻腳範圍判斷模糊。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-024",
+      "type": "multiple_choice",
+      "scenario": "Identifying distance objects: They are airplanes.",
+      "question": "A: Look far up. __________________?\nB: They are airplanes. They are white.",
+      "options": [
+        "What are they　",
+        "What is it   　",
+        "Who is he     ",
+        "Are they white"
+      ],
+      "answer_index": 0,
+      "explanation": "遠處複數詢問句。選項 D 在回答前沒 Yes/No。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒察覺詢問具體資訊的需求。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-025",
+      "type": "multiple_choice",
+      "scenario": "Recap: What is it? vs What are they?",
+      "question": "A: Look at that big fat cat! What is it?\nB: __________________",
+      "options": [
+        "Yes, it is. 　",
+        "It's a cat. 　",
+        "They're cats.",
+        "No, it isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "針對單數 cat 提問 What is it? 的正確回法。選項 B 複數不符。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法正確切回單數代名詞系統。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-026",
+      "type": "multiple_choice",
+      "scenario": "Phonics: u_e sound again.",
+      "question": "In 'blue' and 'tube', the vowel is similar to __________.",
+      "options": [
+        "June",
+        "Job ",
+        "Jug ",
+        "Jet "
+      ],
+      "answer_index": 0,
+      "explanation": "均含有長母音 /u/ 成分。其餘為短音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "母音發音類比能力弱。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-027",
+      "type": "multiple_choice",
+      "scenario": "Two things in the teacher's hand.",
+      "question": "A: __________________?\nB: They're two red pencils.",
+      "options": [
+        "Are they pencils",
+        "What is they 　　　",
+        "Who are they  　　",
+        "What are they　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "複數詢問基本句。其餘句型文法有瑕剔。",
+      "taxonomy": "literal",
+      "commonMisconception": "Be 動詞與代名詞不對等。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-028",
+      "type": "multiple_choice",
+      "scenario": "Animal confirmation check.",
+      "question": "A: Are they pink pigs?\nB: Yes, __________________. They are in the yard.",
+      "options": [
+        "they are. 　　",
+        "it is.    　　",
+        "it's      　　",
+        "they aren't."
+      ],
+      "answer_index": 0,
+      "explanation": "肯定是複數簡答。選項 B 代名詞錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒分清動物群體對應的代名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-029",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'cute'.",
+      "question": "Pick the word with the same ending sound as 'mute'.",
+      "options": [
+        "flute",
+        "fake ",
+        "fan  ",
+        "fast "
+      ],
+      "answer_index": 0,
+      "explanation": "音韻重複練習。強化 u_e 長音結構。",
+      "taxonomy": "remembering",
+      "commonMisconception": "韻部捕獲能力有限。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U4-030",
+      "type": "multiple_choice",
+      "scenario": "Final recap: What are they?",
+      "question": "White cloud, blue sky, and green grass. __________________?\nThey're all beautiful!",
+      "options": [
+        "How many is it",
+        "Are they pink　",
+        "What are they　",
+        "What is it   　"
+      ],
+      "answer_index": 2,
+      "explanation": "對多項事物感嘆的統稱。回答 They're 暗示問句為複數。",
+      "taxonomy": "inferential",
+      "commonMisconception": "無法結合對話感嘆性質運用正確疑問詞。",
       "cqi_score": 10,
       "quality_level": "L5"
     }
