@@ -31,7 +31,8 @@ export type QuestionLoadStatus = 'success' | 'empty' | 'error';
 
 function normalizeAnswer(q: { type: string; answer: string | number; options?: string[] }): number {
   if (q.type === 'true_false') {
-    if (String(q.answer) === 'True' || q.answer === 0) return 0;
+    const val = String(q.answer).toLowerCase();
+    if (val === 'true' || val === '0' || val === '對' || val === '是') return 0;
     return 1;
   }
   if (typeof q.answer === 'number') {
@@ -210,86 +211,86 @@ export async function loadQuestions(
         const data = await fileRes.json();
         let unitQuestions: Question[] = [];
 
-          if (data.meta && Array.isArray(data.questions)) {
-            const m = data.meta as { publisher?: string; title?: string; lesson?: string; order?: number };
-            if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisher) return [];
-            unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
-              const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
-              return { ...q, options, category: category || m.title || m.lesson, lesson: m.lesson, lessonTitle: category || m.title, lessonOrder: m.order ?? 0, normalizedAnswer: normalizeAnswer({ type: q.type || 'multiple_choice', answer: q.answer || 0, options }), _sourceFile: `${basePath}/${fileName}`, cqi_score: q.cqi_score, quality_level: q.quality_level } as Question;
-            }).filter(q => q.is_active !== false); // Default to true if undefined
-          } else if (typeof data === 'object' && Array.isArray(data.questions)) {
-            const lessonId = (data as { lesson_id?: string }).lesson_id ?? lesson;
-            const lessonTitle = (data as { lesson_title?: string }).lesson_title ?? category;
-            unitQuestions = (data.questions as RawQuestionLike[]).map((q, i) => {
-              if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
-              const options = q.options;
-              const rawAnswer = q.answer_index ?? q.correctAnswer ?? q.answer;
-              return {
-                id: q.id ?? `${lessonId}_q${i + 1}`,
-                type: 'multiple_choice' as const,
-                question: q.question,
-                options: options as string[],
-                answer: rawAnswer,
-                explanation: q.explanation,
-                scenario: q.scenario,
-                commonMisconception: q.commonMisconception,
-                category: category || lessonTitle || q.concept || lessonId,
-                lesson: lessonId,
-                lessonTitle: category || lessonTitle,
-                lessonOrder: lessonOrder,
-                normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options }),
-                is_active: q.is_active,
-                _sourceFile: `${basePath}/${fileName}`,
-                cqi_score: q.cqi_score,
-                quality_level: q.quality_level
-              } as Question;
-            }).filter((q): q is Question => q !== null && q.is_active !== false);
-          } else if (typeof data === 'object' && data.question && Array.isArray(data.options)) {
-            const rawAnswer = data.correctAnswer ?? data.answer;
-            unitQuestions = [{
-              id: data.id,
+        if (data.meta && Array.isArray(data.questions)) {
+          const m = data.meta as { publisher?: string; title?: string; lesson?: string; order?: number };
+          if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisher) return [];
+          unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
+            const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
+            return { ...q, options, category: category || m.title || m.lesson, lesson: m.lesson, lessonTitle: category || m.title, lessonOrder: m.order ?? 0, normalizedAnswer: normalizeAnswer({ type: q.type || 'multiple_choice', answer: q.answer || 0, options }), _sourceFile: `${basePath}/${fileName}`, cqi_score: q.cqi_score, quality_level: q.quality_level } as Question;
+          }).filter(q => q.is_active !== false); // Default to true if undefined
+        } else if (typeof data === 'object' && Array.isArray(data.questions)) {
+          const lessonId = (data as { lesson_id?: string }).lesson_id ?? lesson;
+          const lessonTitle = (data as { lesson_title?: string }).lesson_title ?? category;
+          unitQuestions = (data.questions as RawQuestionLike[]).map((q, i) => {
+            if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
+            const options = q.options;
+            const rawAnswer = q.answer_index ?? q.correctAnswer ?? q.answer;
+            return {
+              id: q.id ?? `${lessonId}_q${i + 1}`,
               type: 'multiple_choice' as const,
-              question: data.question,
-              options: data.options as string[],
+              question: q.question,
+              options: options as string[],
               answer: rawAnswer,
-              explanation: data.explanation,
-              scenario: data.scenario,
-              commonMisconception: data.commonMisconception,
-              category: category || data.concept || lesson,
-              lesson,
-              lessonTitle: category || data.concept || lesson,
-              lessonOrder,
-              normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: data.options }),
-              is_active: data.is_active,
+              explanation: q.explanation,
+              scenario: q.scenario,
+              commonMisconception: q.commonMisconception,
+              category: category || lessonTitle || q.concept || lessonId,
+              lesson: lessonId,
+              lessonTitle: category || lessonTitle,
+              lessonOrder: lessonOrder,
+              normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options }),
+              is_active: q.is_active,
               _sourceFile: `${basePath}/${fileName}`,
-              cqi_score: data.cqi_score,
-              quality_level: data.quality_level
-            } as Question].filter((q): q is Question => q.is_active !== false);
-          } else if (Array.isArray(data)) {
-            unitQuestions = (data as RawQuestionLike[]).map((q) => {
-              if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
-              const rawAnswer = q.correctAnswer ?? q.answer;
-              return {
-                id: q.id,
-                type: 'multiple_choice' as const,
-                question: q.question,
-                options: q.options as string[],
-                answer: rawAnswer,
-                explanation: q.explanation,
-                scenario: q.scenario,
-                commonMisconception: q.commonMisconception,
-                category: category || q.concept || lesson,
-                lesson,
-                lessonTitle: category || q.concept || lesson,
-                lessonOrder,
-                normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: q.options }),
-                is_active: q.is_active,
-                _sourceFile: `${basePath}/${fileName}`,
-                cqi_score: q.cqi_score,
-                quality_level: q.quality_level
-              } as Question;
-            }).filter((q): q is Question => q !== null && q.is_active !== false);
-          }
+              cqi_score: q.cqi_score,
+              quality_level: q.quality_level
+            } as Question;
+          }).filter((q): q is Question => q !== null && q.is_active !== false);
+        } else if (typeof data === 'object' && data.question && Array.isArray(data.options)) {
+          const rawAnswer = data.correctAnswer ?? data.answer;
+          unitQuestions = [{
+            id: data.id,
+            type: 'multiple_choice' as const,
+            question: data.question,
+            options: data.options as string[],
+            answer: rawAnswer,
+            explanation: data.explanation,
+            scenario: data.scenario,
+            commonMisconception: data.commonMisconception,
+            category: category || data.concept || lesson,
+            lesson,
+            lessonTitle: category || data.concept || lesson,
+            lessonOrder,
+            normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: data.options }),
+            is_active: data.is_active,
+            _sourceFile: `${basePath}/${fileName}`,
+            cqi_score: data.cqi_score,
+            quality_level: data.quality_level
+          } as Question].filter((q): q is Question => q.is_active !== false);
+        } else if (Array.isArray(data)) {
+          unitQuestions = (data as RawQuestionLike[]).map((q) => {
+            if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
+            const rawAnswer = q.correctAnswer ?? q.answer;
+            return {
+              id: q.id,
+              type: 'multiple_choice' as const,
+              question: q.question,
+              options: q.options as string[],
+              answer: rawAnswer,
+              explanation: q.explanation,
+              scenario: q.scenario,
+              commonMisconception: q.commonMisconception,
+              category: category || q.concept || lesson,
+              lesson,
+              lessonTitle: category || q.concept || lesson,
+              lessonOrder,
+              normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: q.options }),
+              is_active: q.is_active,
+              _sourceFile: `${basePath}/${fileName}`,
+              cqi_score: q.cqi_score,
+              quality_level: q.quality_level
+            } as Question;
+          }).filter((q): q is Question => q !== null && q.is_active !== false);
+        }
         return unitQuestions;
       });
 
