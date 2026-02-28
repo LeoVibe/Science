@@ -216,7 +216,20 @@ export async function loadQuestions(
           if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisher) return [];
           unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
             const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
-            return { ...q, options, category: category || m.title || m.lesson, lesson: m.lesson, lessonTitle: category || m.title, lessonOrder: m.order ?? 0, normalizedAnswer: normalizeAnswer({ type: q.type || 'multiple_choice', answer: q.answer || 0, options }), _sourceFile: `${basePath}/${fileName}`, cqi_score: q.cqi_score, quality_level: q.quality_level } as Question;
+            const type = (q.type || 'multiple_choice') as 'multiple_choice' | 'true_false' | 'fill_in_the_blank';
+            return {
+              ...q,
+              type,
+              options,
+              category: category || m.title || m.lesson,
+              lesson: m.lesson,
+              lessonTitle: category || m.title,
+              lessonOrder: m.order ?? 0,
+              normalizedAnswer: normalizeAnswer({ type, answer: q.answer || 0, options }),
+              _sourceFile: `${basePath}/${fileName}`,
+              cqi_score: q.cqi_score,
+              quality_level: q.quality_level
+            } as Question;
           }).filter(q => q.is_active !== false); // Default to true if undefined
         } else if (typeof data === 'object' && Array.isArray(data.questions)) {
           const lessonId = (data as { lesson_id?: string }).lesson_id ?? lesson;
