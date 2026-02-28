@@ -130,15 +130,15 @@ export default function StatisticsView({
           <button
             type="button"
             onClick={() => {
-              if (window.confirm('⚠️ 即將「完全刪除」本機所有個人歷程資料（含各年級、科目、出版社的答題與練習紀錄），且無法復原。確定要繼續嗎？')) {
-                const includeProfile = window.confirm('是否連同裝置識別與偏好設定（eidos_user_id、個人偏好）一併清除？');
+              if (window.confirm('⚠️ 即將「完全刪除」本機所有練習紀錄與足跡，這份努力的過程就找不回來囉，確定要繼續嗎？')) {
+                const includeProfile = window.confirm('要連同您的年級、出版社等個人設定也一併重置嗎？');
                 clearAllHistory(includeProfile);
                 window.location.reload();
               }
             }}
             className="w-full py-2.5 px-4 rounded-xl border border-red-300 dark:border-red-800 bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-300 text-sm font-medium hover:opacity-90 active:scale-[0.98] transition-all"
           >
-            完全刪除所有個人歷程資料
+            完全清空我的練習足跡
           </button>
         </div>
       </div>

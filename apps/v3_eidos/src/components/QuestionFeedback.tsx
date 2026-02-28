@@ -8,6 +8,8 @@ import { getApiBaseUrl } from '@/data/api';
 interface QuestionFeedbackProps {
     questionId: string;
     userId?: string;
+    /** 是否採用底部工具列樣式 (1/5 比例，視覺上較低調) */
+    isToolbarStyle?: boolean;
 }
 
 const FEEDBACK_TAGS = [
@@ -17,7 +19,7 @@ const FEEDBACK_TAGS = [
     { id: 'display_issue', label: '圖片或排版不清楚', icon: '🎨' },
 ];
 
-export default function QuestionFeedback({ questionId, userId }: QuestionFeedbackProps) {
+export default function QuestionFeedback({ questionId, userId, isToolbarStyle }: QuestionFeedbackProps) {
     const [isOpen, setIsOpen] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -46,7 +48,6 @@ export default function QuestionFeedback({ questionId, userId }: QuestionFeedbac
                 icon: <CheckCircle2 className="w-4 h-4 text-green-500" />,
             });
 
-            // 3秒後重置狀態，讓使用者可以再次針對同題回饋不同意見（如果需要）
             setTimeout(() => {
                 setIsSubmitted(false);
                 setIsOpen(false);
@@ -64,21 +65,24 @@ export default function QuestionFeedback({ questionId, userId }: QuestionFeedbac
             <PopoverTrigger asChild>
                 <Button
                     variant="ghost"
-                    size="sm"
-                    className="h-7 px-2 text-[10px] text-muted-foreground hover:text-foreground gap-1.5 rounded-full bg-muted/30"
+                    size={isToolbarStyle ? "default" : "sm"}
+                    className={`${isToolbarStyle
+                        ? "w-full h-full py-3 px-1 text-xs sm:text-sm text-muted-foreground/70 hover:text-foreground hover:bg-muted/50 border-none shadow-none"
+                        : "h-7 px-2 text-[10px] text-muted-foreground bg-muted/30 rounded-full"
+                        } gap-1.5 transition-all flex-col sm:flex-row`}
                 >
-                    <MessageSquareText className="w-3 h-3" />
-                    遇到問題？
+                    <MessageSquareText className={isToolbarStyle ? "w-4 h-4" : "w-3 h-3"} />
+                    <span className={isToolbarStyle ? "scale-90 sm:scale-100" : ""}>這題有誤？</span>
                 </Button>
             </PopoverTrigger>
-            <PopoverContent className="w-56 p-3 rounded-2xl shadow-xl border-amber-100" side="bottom" align="end">
+            <PopoverContent className="w-56 p-3 rounded-2xl shadow-xl border-amber-100" side="top" align="start" sideOffset={12}>
                 <div className="space-y-3">
                     <div className="space-y-1">
                         <h4 className="text-xs font-bold flex items-center gap-1.5">
                             <ThumbsDown className="w-3 h-3 text-amber-500" />
-                            這題有什麼問題嗎？
+                            這題哪裡怪怪的呢？
                         </h4>
-                        <p className="text-[10px] text-muted-foreground">小提示：你的回饋能幫我們把題目出得更好！</p>
+                        <p className="text-[10px] text-muted-foreground">告訴我們，我們會馬上修復它！</p>
                     </div>
 
                     <div className="grid grid-cols-1 gap-1.5">

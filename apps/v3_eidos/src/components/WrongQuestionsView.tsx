@@ -1,4 +1,5 @@
 import { Question } from '@/data/config';
+import IntentionTooltip from '@/components/IntentionTooltip';
 
 interface WrongQuestionsViewProps {
   questions: Question[];
@@ -46,7 +47,10 @@ export default function WrongQuestionsView({ questions, title, onBack, wrongCoun
                 ))}
               </div>
               {q.explanation && (
-                <p className="text-sm text-muted-foreground bg-muted/50 rounded-lg p-2">💡 {q.explanation}</p>
+                <p className="text-sm text-muted-foreground bg-muted/50 rounded-lg p-2 inline-flex flex-wrap items-center gap-1">
+                  💡 {q.explanation}
+                  <IntentionTooltip />
+                </p>
               )}
             </div>
           ))}

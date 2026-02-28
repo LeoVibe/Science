@@ -22,39 +22,35 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
           ✕
         </button>
 
-        <h2 className="text-xl font-bold mb-4">ℹ️ 關於本站</h2>
+        <h2 className="text-xl font-bold mb-4">ℹ️ 關於這裡</h2>
 
-        <div className="space-y-3 text-sm text-muted-foreground">
+        <div className="space-y-4 text-sm text-muted-foreground">
           <p>
-            <strong className="text-foreground">Eidos 課後複習網站</strong>是一個為小學生設計的多學科複習練習平台。
+            這是一個為我兒子，也為所有想陪孩子一起練習的家長設計的複習小空間。
           </p>
-          <p>
-            本站為 vibe coding 練習專案，由 Antigravity + Cursor 協作開發。
+          <p className="italic">
+            「我想把題目出得更能引發思考，讓練習不再是機械式的壓力。」
           </p>
-          <p>📧 聯絡信箱：yotta0280@gmail.com</p>
+          <p>📧 聯絡爸爸：yotta0280@gmail.com</p>
 
-          <h3 className="text-foreground font-bold mt-4">📋 更版資訊</h3>
-          <ul className="space-y-1 list-disc list-inside">
-            <li><strong className="text-foreground">1.0 版（2026/2/26）</strong> — 正式版上線：登入機制、錯題統計、題目審核機制、續答機制、連結防呆全面完成。</li>
-            <li>0.9 版（2026/2/25）— 設定與管理升級：入站設定年級、各科目設定出版社，題庫管理與維護設定整合。</li>
-            <li>0.8 版（2026/2/24）— 規劃題庫評分機制，嚴格處理真實課文、設計意涵與文字細膩度、與選項合理性。</li>
-            <li>0.7 版（2026/2/21）— 產出新版介面設計：主選單、導覽分頁與學習流程互動體驗更新。</li>
-            <li>0.6 版（2026/2/18）— 擴大題庫廣度與研究深度，擴充為三個出版社，設定出題深度與流程，AI不會自由發揮的出題。</li>
-            <li>0.5 版（2026/2/10）— 多科目嘗試版（現為相容模式入口）。</li>
-            <li>0.1 版（2026/1/3）— 初始版本，基本架構（現為相容模式入口）。</li>
+          <h3 className="text-foreground font-bold mt-4">📋 這裡的成長腳步</h3>
+          <ul className="space-y-1.5 list-disc list-inside text-[13px]">
+            <li><strong className="text-foreground">v1.1（2026/2/27）</strong> — 幫測驗頁加了小燈泡，分享我的出題心法。</li>
+            <li><strong className="text-foreground">v1.0（2026/2/26）</strong> — 練習跟錯題紀錄都做好了，孩子可以接續練習。</li>
+            <li>v0.9（2026/2/25）— 開始可以選年級和出版社了。</li>
+            <li>v0.8（2026/2/24）— 我開始對題目品質變得挑剔，要求 AI 不能亂出。</li>
+            <li>v0.6（2026/2/18）— 讓 AI 學習各家課本內容後再出題。</li>
+            <li>v0.1（2026/1/3）— 只有自然科的第一個草稿版本。</li>
           </ul>
           <div className="mt-6 pt-4 border-t border-border/40">
             <p className="text-xs font-bold text-foreground mb-2 flex items-center gap-1.5">
-              <span>🏛️</span> 典藏館 (舊版系統)
+              <span>🏛️</span> 之前的草稿 (舊版系統)
             </p>
             <div className="flex flex-wrap items-center gap-2">
-              <a href={withBase('history/v1_science/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.1 初版(自然科)</a>
-              <a href={withBase('history/v2_currisite/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.2 多科目版</a>
+              <a href={withBase('history/v1_science/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.1 草稿版</a>
+              <a href={withBase('history/v2_currisite/index.html')} target="_blank" rel="noopener noreferrer" className="px-2.5 py-1 bg-secondary/50 hover:bg-secondary rounded-lg text-xs font-bold text-primary transition-colors border border-border/50">v0.2 實驗版</a>
             </div>
           </div>
-          <p className="text-xs mt-2">
-            後續將依課程研究產出更多題庫，持續優化使用體驗。
-          </p>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 import { Grade, Semester, Publisher, Subject, SUBJECT_THEME_MAP, SEMESTER_NAMES, Question, APP_CONFIG, PUBLISHER_THEME_COLORS } from '@/data/config';
 import { getStatistics, getPracticeHistory, getAnswerHistory, getWrongQuestions as getWrongRecords, type PracticeRecord } from '@/utils/storage';
+import IntentionTooltip from '@/components/IntentionTooltip';
 
 const VALID_PUBLISHERS: Publisher[] = ['康軒', '南一', '翰林'];
 function parsePublisherParam(pub: string | null, fallback: Publisher): Publisher {
@@ -255,7 +256,10 @@ export default function LearningReportView({
                     ))}
                   </div>
                   {q.explanation && (
-                    <p className="text-xs text-muted-foreground bg-accent/8 rounded-xl p-2.5 leading-relaxed">💡 {q.explanation}</p>
+                    <p className="text-xs text-muted-foreground bg-accent/8 rounded-xl p-2.5 leading-relaxed inline-flex flex-wrap items-center gap-1">
+                      💡 {q.explanation}
+                      <IntentionTooltip />
+                    </p>
                   )}
                 </div>
               ))}

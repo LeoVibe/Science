@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { Question, SUBJECT_THEME_MAP, Subject } from '@/data/config';
 import QuestionFeedback from './QuestionFeedback';
+import IntentionTooltip from './IntentionTooltip';
 
 interface QuizViewProps {
   questions: Question[];
@@ -190,7 +191,6 @@ export default function QuizView({
           <span className="text-[10px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground ml-auto shrink-0">
             選擇題
           </span>
-          <QuestionFeedback questionId={current.id} userId={userId} />
         </div>
 
         <p className="text-lg font-medium leading-relaxed">{current.question}</p>
@@ -238,40 +238,48 @@ export default function QuizView({
               </div>
             )}
             {current.explanation && (
-              <p className="text-muted-foreground">{current.explanation}</p>
+              <p className="text-muted-foreground inline-flex flex-wrap items-baseline gap-1">
+                {current.explanation}
+                <IntentionTooltip />
+              </p>
             )}
           </div>
         )}
       </div>
 
-      {/* Action buttons — 固定使用 bg-primary + text-white 確保對比可見（不依賴動態 gradient） */}
-      <div className="flex gap-3">
-        {!confirmed ? (
-          <button
-            onClick={handleConfirm}
-            disabled={selectedOption === null}
-            className={`flex-1 py-3 rounded-xl font-bold text-lg transition-all ${selectedOption !== null
-              ? 'bg-primary text-white shadow-md active:scale-95 hover:opacity-95'
-              : 'bg-muted text-muted-foreground cursor-not-allowed'
-              }`}
-          >
-            確認答案 {shortcutEnabled && <span className="text-xs font-normal opacity-90">(或按 A–D)</span>}
-          </button>
-        ) : isLast ? (
-          <button
-            onClick={handleFinish}
-            className="flex-1 py-3 rounded-xl font-bold text-lg bg-primary text-white shadow-md active:scale-95 hover:opacity-95 transition-all"
-          >
-            🎉 查看結果
-          </button>
-        ) : (
-          <button
-            onClick={handleNext}
-            className="flex-1 py-3 rounded-xl font-bold text-lg bg-primary text-white shadow-md active:scale-95 hover:opacity-95 transition-all"
-          >
-            下一題 →
-          </button>
-        )}
+      {/* Action buttons — 遵循 UX 研究結果：左回報 (1/5) | 右確認 (4/5) */}
+      <div className="flex gap-3 items-stretch">
+        <div className="flex-[1] flex">
+          <QuestionFeedback questionId={current.id} userId={userId} isToolbarStyle />
+        </div>
+        <div className="flex-[4] flex">
+          {!confirmed ? (
+            <button
+              onClick={handleConfirm}
+              disabled={selectedOption === null}
+              className={`flex-1 py-3 rounded-xl font-bold text-lg transition-all ${selectedOption !== null
+                ? 'bg-primary text-white shadow-md active:scale-95 hover:opacity-95'
+                : 'bg-muted text-muted-foreground cursor-not-allowed'
+                }`}
+            >
+              確認答案 {shortcutEnabled && <span className="text-xs font-normal opacity-90 hidden sm:inline">(或按 A–D)</span>}
+            </button>
+          ) : isLast ? (
+            <button
+              onClick={handleFinish}
+              className="flex-1 py-3 rounded-xl font-bold text-lg bg-primary text-white shadow-md active:scale-95 hover:opacity-95 transition-all"
+            >
+              🎉 查看結果
+            </button>
+          ) : (
+            <button
+              onClick={handleNext}
+              className="flex-1 py-3 rounded-xl font-bold text-lg bg-primary text-white shadow-md active:scale-95 hover:opacity-95 transition-all"
+            >
+              下一題 →
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

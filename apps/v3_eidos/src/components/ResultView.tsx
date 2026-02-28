@@ -1,5 +1,6 @@
 import { Grade, Semester, Publisher, Subject, Question, SUBJECT_THEME_MAP, SUBJECT_ICONS, SEMESTER_NAMES } from '@/data/config';
 import { getStatistics, getWrongQuestions, getPracticeHistory, AnswerRecord } from '@/utils/storage';
+import IntentionTooltip from '@/components/IntentionTooltip';
 
 const optionLabels = ['A', 'B', 'C', 'D'];
 
@@ -106,7 +107,10 @@ export default function ResultView({
                         ))}
                       </div>
                       {q.explanation && (
-                        <p className="text-xs text-muted-foreground bg-muted/50 rounded-lg p-2">💡 {q.explanation}</p>
+                        <p className="text-xs text-muted-foreground bg-muted/50 rounded-lg p-2 inline-flex flex-wrap items-center gap-1">
+                          💡 {q.explanation}
+                          <IntentionTooltip />
+                        </p>
                       )}
                     </>
                   ) : (

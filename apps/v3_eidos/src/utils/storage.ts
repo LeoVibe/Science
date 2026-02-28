@@ -115,6 +115,8 @@ export interface UserProfile {
   autoAdvanceDelayMs?: number;
   /** 是否開啟 A–D 快捷鍵答題 */
   shortcut_enabled?: boolean;
+  /** 進階挑戰題目數量（預設 25） */
+  maxQuizQuestions?: number;
   /** 深色/淺色 */
   theme?: string;
   timestamp: number;
@@ -220,6 +222,14 @@ export function getPublisherForSubject(subject: Subject): Publisher {
 export function isShortcutEnabled(): boolean {
   const profile = loadUserProfile();
   return profile?.shortcut_enabled !== false;
+}
+
+/** 進階挑戰題目數量（來自 User Profile，預設 25） */
+export function getMaxQuizQuestions(): number {
+  const profile = loadUserProfile();
+  const v = profile?.maxQuizQuestions;
+  if (typeof v === 'number' && v >= 10 && v <= 50) return v;
+  return 25;
 }
 
 export interface QuizProgress {

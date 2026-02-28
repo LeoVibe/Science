@@ -64,7 +64,7 @@ export default function AdminLogin() {
         const email = String(payload.email || '').toLowerCase();
         const emailVerified = payload.email_verified === true || payload.email_verified === 'true';
         if (!email || !emailVerified) {
-          setError('Google 尚未驗證此 Email，無法登入 Eidos 後台。');
+          setError('Google 尚未驗證此 Email，無法登入後台。');
           return;
         }
 
@@ -153,8 +153,8 @@ export default function AdminLogin() {
           <div className="w-16 h-16 rounded-2xl bg-primary/10 mx-auto flex items-center justify-center">
             <span className="text-3xl">🔐</span>
           </div>
-          <h1 className="text-xl font-black text-foreground">Eidos 後台管理</h1>
-          <p className="text-sm text-muted-foreground">Eidos 管理員登入（透過 Google OAuth 驗證）</p>
+          <h1 className="text-xl font-black text-foreground">系統管理</h1>
+          <p className="text-sm text-muted-foreground">管理員登入（透過 Google OAuth 驗證）</p>
         </div>
 
         <div className="bg-card rounded-2xl border p-6 space-y-4">
@@ -180,7 +180,7 @@ export default function AdminLogin() {
         </div>
 
         <p className="text-center text-[10px] text-muted-foreground">
-          驗證機制：須先透過 Google OAuth 登入，經管理者許可後方可進入 Eidos 後台。
+          驗證機制：須先透過 Google OAuth 登入，經管理者許可後方可進入後台。
         </p>
         {clientId && (
           <p className="text-center text-[10px] text-muted-foreground/80 break-all">

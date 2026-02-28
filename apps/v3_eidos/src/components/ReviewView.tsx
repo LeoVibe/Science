@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Question, Subject, SUBJECT_THEME_MAP } from '@/data/config';
+import IntentionTooltip from '@/components/IntentionTooltip';
 
 interface ReviewViewProps {
   questions: Question[];
@@ -57,7 +58,10 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
               ))}
             </div>
             {q.explanation && (
-              <p className="text-sm text-muted-foreground bg-muted/50 rounded-lg p-2">💡 {q.explanation}</p>
+              <p className="text-sm text-muted-foreground bg-muted/50 rounded-lg p-2 inline-flex flex-wrap items-center gap-1">
+                💡 {q.explanation}
+                <IntentionTooltip />
+              </p>
             )}
           </div>
         ))}

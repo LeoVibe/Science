@@ -9,7 +9,7 @@ import { loadQuestions, LoadedQuestions } from '@/data/questionLoader';
 import {
   loadUserPreference, saveUserPreference, saveAnswerRecord,
   savePracticeRecord, clearQuizProgress, getWrongQuestions as getWrongRecords, getAnswerHistory,
-  loadUserProfile, saveUserProfile, getPublisherForSubject, getAutoAdvanceDelayMs,
+  loadUserProfile, saveUserProfile, getPublisherForSubject, getAutoAdvanceDelayMs, getMaxQuizQuestions,
   getOrCreateUserId, fetchAndMergeUserProfile, syncUserProfileToApi, isShortcutEnabled, loadQuizProgress, saveQuizProgress,
 } from '@/utils/storage';
 import { logActivity } from '@/utils/activityLogger';
@@ -24,7 +24,8 @@ import ReviewView from '@/components/ReviewView';
 import WrongQuestionsView from '@/components/WrongQuestionsView';
 import LearningReportView from '@/components/LearningReportView';
 import ProfileSetup from '@/components/ProfileSetup';
-import AboutView from '@/components/AboutView';
+import AboutView, { AboutTab } from '@/components/AboutView';
+import OnboardingModal, { hasSeenValueOnboarding } from '@/components/OnboardingModal';
 import type { UserProfile as ProfileData } from '@/components/ProfileSetup';
 import { toast } from 'sonner';
 
@@ -125,6 +126,7 @@ const Index = () => {
   const [quizInitialScore, setQuizInitialScore] = useState(0);
   const [quizInitialAnswered, setQuizInitialAnswered] = useState<{ question: Question; isCorrect: boolean; selected: number }[]>([]);
   const [quizInitialStartTime, setQuizInitialStartTime] = useState<number>(Date.now());
+  const [showOnboardingModal, setShowOnboardingModal] = useState(() => !hasSeenValueOnboarding());
 
   // URL → State sync (on mount and whenever URL params change, e.g. 切換出版社)
   const { grade: gp, subject: sp, semester: semp, publisher: pp, view: vp } = params;
@@ -311,7 +313,7 @@ const Index = () => {
       if (loadPromiseRef.current === promise) loadPromiseRef.current = null;
     });
     saveUserPreference(grade, subject, semester, publisher);
-    document.title = `${SUBJECT_ICONS[subject]} ${grade}年級${subject}複習 - Eidos`;
+    document.title = `${SUBJECT_ICONS[subject]} ${grade}年級${subject}複習 - 陪孩子一起進步`;
     return () => { cancelled = true; };
   }, [grade, subject, semester, publisher, view, profileReady, libraryConfig]);
 
@@ -352,6 +354,7 @@ const Index = () => {
       setupComplete: true,
       autoAdvanceDelayMs: profileData.autoAdvanceDelayMs,
       shortcut_enabled: profileData.shortcut_enabled ?? current?.shortcut_enabled ?? true,
+      maxQuizQuestions: profileData.maxQuizQuestions ?? current?.maxQuizQuestions ?? 25,
       theme: current?.theme ?? 'light',
     });
     setGrade(profileData.grade);
@@ -492,7 +495,7 @@ const Index = () => {
     const profile = loadUserProfile();
     return (
       <ProfileSetup
-        initial={profile?.setupComplete ? { grade: profile.grade, semester: profile.semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled } : undefined}
+        initial={profile?.setupComplete ? { grade: profile.grade, semester: profile.semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions } : undefined}
         onSave={handleProfileSave}
         onClose={handleCloseSetup}
       />
@@ -546,6 +549,18 @@ const Index = () => {
                     </div>
                   </div>
                 )}
+                {showOnboardingModal && (
+                  <OnboardingModal
+                    onClose={() => setShowOnboardingModal(false)}
+                    onGoToPrinciple={() => {
+                      setShowOnboardingModal(false);
+                      setView('about');
+                      navigate(buildPath(grade, subject, semester, publisher, 'about', 'deepdive'));
+                    }}
+                    hasChosenGrade={!!loadUserProfile()?.setupComplete}
+                    grade={grade}
+                  />
+                )}
                 <MainMenu
                   grade={grade} semester={semester} publisher={publisher} subject={subject}
                   questions={loaded.questions}
@@ -553,6 +568,8 @@ const Index = () => {
                   loadStatus={loaded.status}
                   loadError={loaded.errorMessage}
                   libraryDisabled={!libraryEnabled}
+                  totalQuestionCount={loaded.questions.length}
+                  maxQuizQuestions={getMaxQuizQuestions()}
                   onStartQuiz={handleStartQuiz}
                   onStartLessonQuiz={handleStartLessonQuiz}
                   onStartReview={handleStartReview}
@@ -632,7 +649,7 @@ const Index = () => {
 
             {view === 'about' && (
               <AboutView
-                tab={(params.subTab && ['about', 'library', 'features', 'changelog'].includes(params.subTab)) ? (params.subTab as 'about' | 'library' | 'features' | 'changelog') : 'about'}
+                tab={(params.subTab && (['about', 'library', 'deepdive', 'changelog'] as AboutTab[]).includes(params.subTab as AboutTab)) ? (params.subTab as AboutTab) : 'about'}
                 onTabChange={(newTab) => navigate(buildPath(grade, subject, semester, publisher, 'about', newTab === 'about' ? undefined : newTab))}
                 onBack={() => setView('menu')}
                 grade={grade}

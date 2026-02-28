@@ -80,8 +80,8 @@ export default function AppHeader({
             <button onClick={onLearningReport} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="學習統計">
               📊<span className="hidden sm:inline ml-0.5">統計</span>
             </button>
-            <button onClick={onAbout} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="關於本站">
-              🏫<span className="hidden sm:inline ml-0.5">本站</span>
+            <button onClick={onAbout} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="關於這裡">
+              🏫<span className="hidden sm:inline ml-0.5">紀錄</span>
             </button>
           </div>
         </div>

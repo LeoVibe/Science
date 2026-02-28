@@ -47,7 +47,7 @@ export function getSubjectsByGrade(grade: Grade): Subject[] {
 export const SUBJECT_ICONS: Record<Subject, string> = {
   '國語': '📖',
   '數學': '➕',
-  '英語': '🅰️',
+  '英語': '🔤',
   '自然': '🔬',
   '社會': '🏛️',
   '生活': '🌈',

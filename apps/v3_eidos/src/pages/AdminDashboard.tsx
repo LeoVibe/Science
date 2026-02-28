@@ -116,7 +116,7 @@ export default function AdminDashboard() {
         <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-lg">🛠️</span>
-            <h1 className="text-base font-black text-foreground">eidos 後台管理</h1>
+            <h1 className="text-base font-black text-foreground">系統管理中心</h1>
           </div>
           <button
             onClick={handleLogout}
