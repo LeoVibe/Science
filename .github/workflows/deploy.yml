@@ -37,7 +37,7 @@ jobs:
         working-directory: apps/v3_eidos
         run: npm install
 
-      - name: Build project
+      - name: Build for GitHub Pages
         working-directory: apps/v3_eidos
         env:
           VITE_APP_BASE: /Science/
@@ -56,6 +56,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Build for Cloudflare Pages
+        working-directory: apps/v3_eidos
+        env:
+          VITE_APP_BASE: /
+          VITE_API_URL: https://eidos-api.eidos.workers.dev
+        run: npm run build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
