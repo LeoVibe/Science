@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
     "lesson": "M1",
     "order": 1,
     "title": "一億以內的數"
@@ -21,8 +21,8 @@
       ],
       "answer": "八千零五十萬零二百",
       "explanation": "80,50,0,200。千萬位 8，百萬位 0，十萬位 5，萬位 0，千位 0，百位 2。讀作：八千零五十萬零二百。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,7 +54,7 @@
       ],
       "answer": "一千萬",
       "explanation": "1 位在千萬位上。",
-      "cqi_score": 5,
+      "cqi_score": 3.5,
       "quality_level": "L2"
     },
     {
@@ -69,8 +69,8 @@
       ],
       "answer": "1000 萬",
       "explanation": "999 + 1 = 1000，即一千萬。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Science",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "kang_hsuan",
     "lesson": "Sci4",
     "order": 4,
     "title": "好玩的電路"
@@ -21,8 +21,8 @@
       ],
       "answer": "通路（形成閉合迴路）",
       "explanation": "電流必須能從電池正極出發，經過燈泡，回到電池負極。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "其中一個燈泡壞了，另一個仍然會亮",
       "explanation": "燈泡並聯時各有獨立的電流路徑，互不影響。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "用溼的手去觸摸電源開關",
       "explanation": "水會導電，溼手觸摸開關極易造成觸電危險。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

@@ -17,8 +17,8 @@
       "answer": 1,
       "explanation": "大數的讀寫遵循每四位一循環（萬、億、兆）。「二兆」佔據兆位，「五百零四億」佔據億位，「三千萬」佔據萬位。注意補零。",
       "concept": "大數讀寫",
-      "quality_level": "L4",
-      "cqi_score": 7.5
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q2",
@@ -34,8 +34,8 @@
       "answer": 0,
       "explanation": "比較大數時先比最高位（兆位相同），再比下一位（億位）。A公司是 340 億，B公司是 40 億，故 A > B。",
       "concept": "大數大小比較",
-      "quality_level": "L4",
-      "cqi_score": 9
+      "quality_level": "L2",
+      "cqi_score": 7.5
     },
     {
       "id": "q3",
@@ -52,7 +52,7 @@
       "explanation": "數字寫出來是 1,0007,0000,0000。讀法中，若數位中間有連續的零，通常讀出一個『零』來區隔大的單位（兆與億之間有四個零）。",
       "concept": "含零大數的讀法",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 7.5
     },
     {
       "id": "q4",
@@ -68,8 +68,8 @@
       "answer": 1,
       "explanation": "注意單位轉換。8兆是 8 萬億，或 8,0000,0000,0000。加上 2000 萬後，在萬位區補上 2000。",
       "concept": "大數進位加法",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q5",
@@ -85,7 +85,7 @@
       "answer": 0,
       "explanation": "直接在兆位減去 1。5 - 1 = 4，億位維持不變。",
       "concept": "大數減法",
-      "quality_level": "L4",
+      "quality_level": "L2",
       "cqi_score": 4.5
     },
     {
@@ -102,8 +102,8 @@
       "answer": 1,
       "explanation": "10 個一億是一十億，100 個一億是一百億。注意台灣是四位一法，一兆需要 10000 個一億（一萬億）。",
       "concept": "位值進率",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "quality_level": "L2",
+      "cqi_score": 4.5
     },
     {
       "id": "q7",
@@ -119,8 +119,8 @@
       "answer": 3,
       "explanation": "該數為 30 兆...。最高位是十兆位（3），第二位是兆位（0）。",
       "concept": "數位辨識",
-      "quality_level": "L4",
-      "cqi_score": 4.5
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q8",
@@ -136,8 +136,8 @@
       "answer": 2,
       "explanation": "48,000,000 / 1,000,000 = 48。",
       "concept": "量感培養",
-      "quality_level": "L3",
-      "cqi_score": 6.5
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q9",
@@ -153,7 +153,7 @@
       "answer": 1,
       "explanation": "2345 + 655 = 3000。故總共 3000 億度。",
       "concept": "大數加法運算",
-      "quality_level": "L4",
+      "quality_level": "L2",
       "cqi_score": 4.5
     },
     {
@@ -170,7 +170,7 @@
       "answer": 1,
       "explanation": "80 億 * 100 = 8000 億。注意四位一進的原則。",
       "concept": "大數乘法應用",
-      "quality_level": "L4",
+      "quality_level": "L2",
       "cqi_score": 4.5
     }
   ]

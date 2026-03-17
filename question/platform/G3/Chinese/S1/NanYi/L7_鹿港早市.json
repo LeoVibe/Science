@@ -1,11 +1,11 @@
 {
   "meta": {
-    "grade": "G3",
-    "subject": "Chinese",
-    "publisher": "NanYi",
+    "grade": "grade_3",
+    "subject": "國語",
+    "publisher": "nan_yi",
     "lesson": "L7",
     "title": "鹿港早市",
-    "semester": "S1",
+    "semester": "semester_1",
     "order": 7
   },
   "questions": [
@@ -54,8 +54,8 @@
       ],
       "answer": "古樸、熱鬧且溫暖",
       "explanation": "充滿傳統文化底蘊與濃郁人情。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "蚵仔麵線、糕餅",
       "explanation": "鹿港以傳統小吃與工藝（如牛舌餅、麵茶）聞名。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     }
   ]
 }

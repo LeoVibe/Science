@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M4",
     "order": 4,
     "title": "擴分、約分和通分"
@@ -54,8 +54,8 @@
       ],
       "answer": "異分母的加減",
       "explanation": "分母相同後，分子才能直接加減。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "8/12 與 9/12",
       "explanation": "找 3 和 4 的最小公倍數 12。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     }
   ]
 }

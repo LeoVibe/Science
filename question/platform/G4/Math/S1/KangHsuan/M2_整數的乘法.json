@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M2",
     "order": 2,
     "title": "整數的乘法"
@@ -21,8 +21,8 @@
       ],
       "answer": "1000",
       "explanation": "125 乘以 8 等於 1000，這是一個常見的計算基準。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "9000",
       "explanation": "45 × 2 = 90，後面再補兩個 0，結果為 9000。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "5",

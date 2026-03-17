@@ -167,15 +167,11 @@ export async function fetchAndMergeUserProfile(userId: string): Promise<UserProf
     const grade = Math.min(6, Math.max(1, prefs.grade ?? 3)) as Grade;
     const semester = ((prefs.semester === 1 || prefs.semester === 2) ? prefs.semester : 1) as Semester;
     const publisherBySubject = (prefs.publisherBySubject ?? {}) as Partial<Record<Subject, Publisher>>;
-    // 重要：不再僅依據是否有 grade 就自動設為 setupComplete
-    // 而是保留既有的本地狀態，或是明確遵循 API 的設定（如果有的話）
-    const localProfile = loadUserProfile();
-    const setupComplete = localProfile?.setupComplete ?? false;
     const profile: UserProfile = {
       grade,
       semester,
       publisherBySubject,
-      setupComplete,
+      setupComplete: true,
       autoAdvanceDelayMs: api.quiz_next_delay ?? 1500,
       shortcut_enabled: api.shortcut_enabled ?? true,
       theme: api.theme ?? 'light',

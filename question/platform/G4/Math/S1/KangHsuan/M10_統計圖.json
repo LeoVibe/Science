@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M10",
     "order": 10,
     "title": "統計圖"
@@ -21,8 +21,8 @@
       ],
       "answer": "長條圖",
       "explanation": "長條圖適合用來比較各個類別之間數值的高低。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "折線圖",
       "explanation": "氣溫是連續變化的數據，折線圖能清楚展現起伏。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "以上皆是",
       "explanation": "標題與座標軸是圖表的靈魂。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

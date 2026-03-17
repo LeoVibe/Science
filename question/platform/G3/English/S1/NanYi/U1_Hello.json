@@ -1,9 +1,9 @@
 {
   "meta": {
-    "grade": "G3",
-    "semester": "S1",
+    "grade": "grade_3",
+    "semester": "semester_1",
     "subject": "英文",
-    "publisher": "NanYi",
+    "publisher": "nan_yi",
     "lesson": "U1",
     "order": 1,
     "title": "Hello!"
@@ -21,8 +21,8 @@
       ],
       "answer": "Hi",
       "explanation": "Hello 與 Hi 是互相對應的非正式打招呼方式。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "Nice to meet you.",
       "explanation": "初次見面最得體的話是 Nice to meet you（很高興見到你）。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "Hello!",
       "explanation": "直接回應對方的打招呼。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

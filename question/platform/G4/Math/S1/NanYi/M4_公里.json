@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
     "lesson": "M4",
     "order": 4,
     "title": "公里"
@@ -21,8 +21,8 @@
       ],
       "answer": "1000 公尺",
       "explanation": "長度單位的千進位關係。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "4 公里",
       "explanation": "400 × 10 = 4000 公尺 = 4 公里。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "兩個城市之間的公路距離",
       "explanation": "大範圍的地理距離適合使用公制中的「千米」（公里）。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M9",
     "order": 9,
     "title": "分數"
@@ -21,8 +21,8 @@
       ],
       "answer": "真分數",
       "explanation": "真分數的值一定小於 1。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "4/5",
       "explanation": "同分母分數相加，分母不變，分子相加。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",

@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026/02/28",
+  "lastUpdated": "2026/03/17",
   "stats": {
     "G3_S1_國語": {
       "count": 50,
-      "depth": "L1 (BIAS)",
+      "depth": "L2",
       "gradesStr": "G3",
       "semesterStr": "S1",
       "subjectStr": "國語"
@@ -37,7 +37,7 @@
       "subjectStr": "數學"
     },
     "G3_S2_數學": {
-      "count": 27,
+      "count": 28,
       "depth": "L4",
       "gradesStr": "G3",
       "semesterStr": "S2",
@@ -52,7 +52,7 @@
     },
     "G3_S2_自然": {
       "count": 12,
-      "depth": "L2",
+      "depth": "L4",
       "gradesStr": "G3",
       "semesterStr": "S2",
       "subjectStr": "自然"
@@ -65,7 +65,7 @@
       "subjectStr": "社會"
     },
     "G3_S2_社會": {
-      "count": 16,
+      "count": 17,
       "depth": "L4",
       "gradesStr": "G3",
       "semesterStr": "S2",
@@ -150,7 +150,7 @@
     },
     "G5_S2_國語": {
       "count": 36,
-      "depth": "L3",
+      "depth": "L4",
       "gradesStr": "G5",
       "semesterStr": "S2",
       "subjectStr": "國語"
@@ -164,7 +164,7 @@
     },
     "G5_S2_英語": {
       "count": 12,
-      "depth": "L2",
+      "depth": "L3",
       "gradesStr": "G5",
       "semesterStr": "S2",
       "subjectStr": "英語"
@@ -216,38 +216,38 @@
     "G3_S1_國語_翰林": {
       "units": 14,
       "questions": 90,
-      "quality": "L1 (BIAS)",
+      "quality": "L2",
       "cqi": "5.67"
     },
     "G3_S1_國語_康軒": {
       "units": 12,
       "questions": 86,
-      "quality": "L1 (BIAS)",
+      "quality": "L2",
       "cqi": "5.93"
     },
     "G3_S1_國語_南一": {
       "units": 24,
       "questions": 127,
-      "quality": "L1 (BIAS)",
+      "quality": "L2",
       "cqi": "5.17"
     },
     "G3_S2_國語_翰林": {
       "units": 16,
       "questions": 481,
       "quality": "L3",
-      "cqi": "5.24"
+      "cqi": "5.37"
     },
     "G3_S2_國語_康軒": {
       "units": 16,
-      "questions": 477,
+      "questions": 467,
       "quality": "L3",
-      "cqi": "5.26"
+      "cqi": "4.98"
     },
     "G3_S2_國語_南一": {
       "units": 16,
-      "questions": 397,
+      "questions": 441,
       "quality": "L4",
-      "cqi": "5.20"
+      "cqi": "6.84"
     },
     "G3_S1_英語_翰林": {
       "units": 4,
@@ -305,57 +305,57 @@
     },
     "G3_S2_數學_翰林": {
       "units": 9,
-      "questions": 70,
+      "questions": 270,
       "quality": "L4",
-      "cqi": "8.90"
+      "cqi": "8.60"
     },
     "G3_S2_數學_康軒": {
-      "units": 8,
-      "questions": 64,
+      "units": 9,
+      "questions": 234,
       "quality": "L4",
-      "cqi": "8.96"
+      "cqi": "8.58"
     },
     "G3_S2_數學_南一": {
       "units": 10,
-      "questions": 50,
+      "questions": 302,
       "quality": "L4",
-      "cqi": "9.15"
+      "cqi": "8.58"
     },
     "G3_S1_自然_翰林": {
       "units": 4,
       "questions": 4,
       "quality": "L1",
-      "cqi": "3.88"
+      "cqi": "4.50"
     },
     "G3_S1_自然_康軒": {
       "units": 4,
       "questions": 4,
       "quality": "L1",
-      "cqi": "3.63"
+      "cqi": "4.00"
     },
     "G3_S1_自然_南一": {
       "units": 4,
       "questions": 4,
       "quality": "L1",
-      "cqi": "4.13"
+      "cqi": "5.00"
     },
     "G3_S2_自然_翰林": {
       "units": 4,
-      "questions": 4,
-      "quality": "L2",
-      "cqi": "7.88"
+      "questions": 120,
+      "quality": "L4",
+      "cqi": "8.30"
     },
     "G3_S2_自然_康軒": {
       "units": 4,
-      "questions": 4,
-      "quality": "L2",
-      "cqi": "8.25"
+      "questions": 120,
+      "quality": "L4",
+      "cqi": "8.28"
     },
     "G3_S2_自然_南一": {
       "units": 4,
-      "questions": 4,
-      "quality": "L2",
-      "cqi": "8.63"
+      "questions": 94,
+      "quality": "L4",
+      "cqi": "8.27"
     },
     "G3_S1_社會_翰林": {
       "units": 7,
@@ -376,22 +376,22 @@
       "cqi": "4.88"
     },
     "G3_S2_社會_翰林": {
-      "units": 5,
-      "questions": 60,
+      "units": 6,
+      "questions": 6,
       "quality": "L4",
-      "cqi": "10.00"
+      "cqi": "5.25"
     },
     "G3_S2_社會_康軒": {
       "units": 6,
-      "questions": 72,
+      "questions": 180,
       "quality": "L4",
-      "cqi": "10.00"
+      "cqi": "8.69"
     },
     "G3_S2_社會_南一": {
       "units": 5,
-      "questions": 50,
+      "questions": 150,
       "quality": "L4",
-      "cqi": "10.00"
+      "cqi": "8.42"
     },
     "G4_S1_國語_翰林": {
       "units": 12,
@@ -469,19 +469,19 @@
       "units": 10,
       "questions": 50,
       "quality": "L1",
-      "cqi": "4.96"
+      "cqi": "6.27"
     },
     "G4_S1_數學_康軒": {
       "units": 10,
       "questions": 50,
       "quality": "L1",
-      "cqi": "4.86"
+      "cqi": "6.26"
     },
     "G4_S1_數學_南一": {
       "units": 17,
       "questions": 85,
       "quality": "L1",
-      "cqi": "4.89"
+      "cqi": "6.12"
     },
     "G4_S2_數學_翰林": {
       "units": 10,
@@ -505,37 +505,37 @@
       "units": 5,
       "questions": 25,
       "quality": "L1",
-      "cqi": "5.12"
+      "cqi": "6.78"
     },
     "G4_S1_自然_康軒": {
       "units": 4,
       "questions": 20,
       "quality": "L1",
-      "cqi": "4.97"
+      "cqi": "6.42"
     },
     "G4_S1_自然_南一": {
       "units": 9,
       "questions": 45,
       "quality": "L1",
-      "cqi": "5.18"
+      "cqi": "6.74"
     },
     "G4_S2_自然_翰林": {
       "units": 4,
       "questions": 20,
       "quality": "L1",
-      "cqi": "4.03"
+      "cqi": "4.97"
     },
     "G4_S2_自然_康軒": {
       "units": 4,
       "questions": 20,
       "quality": "L1",
-      "cqi": "4.03"
+      "cqi": "4.97"
     },
     "G4_S2_自然_南一": {
       "units": 5,
       "questions": 25,
       "quality": "L1",
-      "cqi": "4.26"
+      "cqi": "5.32"
     },
     "G4_S1_社會_翰林": {
       "units": 12,
@@ -593,21 +593,21 @@
     },
     "G5_S2_國語_翰林": {
       "units": 12,
-      "questions": 96,
-      "quality": "L2",
-      "cqi": "7.17"
+      "questions": 360,
+      "quality": "L4",
+      "cqi": "6.83"
     },
     "G5_S2_國語_康軒": {
       "units": 12,
-      "questions": 96,
-      "quality": "L2",
-      "cqi": "6.70"
+      "questions": 228,
+      "quality": "L4",
+      "cqi": "7.14"
     },
     "G5_S2_國語_南一": {
       "units": 12,
-      "questions": 120,
-      "quality": "L3",
-      "cqi": "4.00"
+      "questions": 240,
+      "quality": "L4",
+      "cqi": "6.68"
     },
     "G5_S1_英語_翰林": {
       "units": 4,
@@ -655,13 +655,13 @@
       "units": 9,
       "questions": 45,
       "quality": "L1",
-      "cqi": "4.91"
+      "cqi": "6.39"
     },
     "G5_S1_數學_南一": {
       "units": 1,
       "questions": 11,
       "quality": "L1",
-      "cqi": "5.95"
+      "cqi": "7.18"
     },
     "G5_S2_數學_翰林": {
       "units": 10,
@@ -691,31 +691,31 @@
       "units": 4,
       "questions": 20,
       "quality": "L1",
-      "cqi": "5.17"
+      "cqi": "6.80"
     },
     "G5_S1_自然_南一": {
       "units": 1,
       "questions": 11,
       "quality": "L1",
-      "cqi": "6.73"
+      "cqi": "7.68"
     },
     "G5_S2_自然_翰林": {
       "units": 4,
       "questions": 8,
       "quality": "L1",
-      "cqi": "6.88"
+      "cqi": "8.31"
     },
     "G5_S2_自然_康軒": {
       "units": 5,
       "questions": 19,
       "quality": "L1",
-      "cqi": "6.74"
+      "cqi": "8.03"
     },
     "G5_S2_自然_南一": {
       "units": 4,
       "questions": 8,
       "quality": "L1",
-      "cqi": "6.88"
+      "cqi": "8.31"
     },
     "G5_S1_社會_翰林": {
       "units": 0,
@@ -754,5 +754,5 @@
       "cqi": "9.00"
     }
   },
-  "totalIndexed": 641
+  "totalIndexed": 643
 }

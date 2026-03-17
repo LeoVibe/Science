@@ -28,8 +28,6 @@ export interface UserProfile {
   shortcut_enabled?: boolean;
   /** 進階挑戰題目數量 */
   maxQuizQuestions?: number;
-  /** 是否已完成首次設定 */
-  setupComplete?: boolean;
 }
 
 interface ProfileSetupProps {

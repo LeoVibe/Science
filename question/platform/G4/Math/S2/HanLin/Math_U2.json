@@ -17,8 +17,8 @@
       "answer": 1,
       "explanation": "這是「無條件進入法」的應用。因為剩下的 3 顆也需要一個完整的袋子，所以 14 + 1 = 15。",
       "concept": "無條件進入法",
-      "quality_level": "L4",
-      "cqi_score": 7.5
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q2",
@@ -52,7 +52,7 @@
       "explanation": "因為提款機只能領千元，為了湊足 5,800 元，即使不滿 6,000 也必須多領一張千元鈔，故為無條件進入法至千位。",
       "concept": "概數方法的現實抉擇",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 9
     },
     {
       "id": "q4",
@@ -69,7 +69,7 @@
       "explanation": "點數通常是不滿百元不給點，所以 399 元中不滿 100 的部分捨棄，為無條件捨去法至百位。",
       "concept": "無條件捨去法",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 7.5
     },
     {
       "id": "q5",
@@ -85,8 +85,8 @@
       "answer": 0,
       "explanation": "無條件捨去到百位等於 2,400。 2,415 - 2,400 = 15。",
       "concept": "概數與精確數的誤差",
-      "quality_level": "L4",
-      "cqi_score": 7.5
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q6",
@@ -102,7 +102,7 @@
       "answer": 1,
       "explanation": "在安全限重的場景下，不能使用四捨五入或捨去法作為安全準據，必須以「實際精確數」為準。概數主要用於方便估算，而非精確判斷安全。",
       "concept": "概數使用的限制與安全性",
-      "quality_level": "L4",
+      "quality_level": "L2",
       "cqi_score": 6
     },
     {
@@ -153,8 +153,8 @@
       "answer": 2,
       "explanation": "甲數 (145) 四捨五入到十位 = 150；乙數 (154) 捨去到十位 = 150。兩者相等。",
       "concept": "不同概數方法的結果對比",
-      "quality_level": "L4",
-      "cqi_score": 4.5
+      "quality_level": "L2",
+      "cqi_score": 6
     },
     {
       "id": "q10",

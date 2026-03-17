@@ -1,11 +1,11 @@
 {
   "meta": {
-    "grade": "G3",
-    "subject": "Chinese",
-    "publisher": "NanYi",
+    "grade": "grade_3",
+    "subject": "國語",
+    "publisher": "nan_yi",
     "lesson": "L5",
     "title": "找不到國小",
-    "semester": "S1",
+    "semester": "semester_1",
     "order": 5
   },
   "questions": [
@@ -21,8 +21,8 @@
       ],
       "answer": "因為地名就叫「找不到」",
       "explanation": "本課介紹了因地理位置偏僻或特殊傳說而產生的趣味地名故事。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "讓人想去一探究竟的好奇與趣味",
       "explanation": "趣味地名常能引發人們的興趣。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "台灣各地的文化多樣性與在地認同",
       "explanation": "這些名稱往往乘載著在地的記憶與情感。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     }
   ]
 }

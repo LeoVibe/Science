@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "HanLin",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "han_lin",
     "lesson": "M6",
     "order": 6,
     "title": "除法"
@@ -21,8 +21,8 @@
       ],
       "answer": "9",
       "explanation": "63 ÷ 7 = 9。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -69,8 +69,8 @@
       ],
       "answer": "選項 A 和 C 都是",
       "explanation": "72 ÷ 36 = 2，360 ÷ 36 = 10。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

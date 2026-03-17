@@ -105,15 +105,17 @@ function evaluateQuestion(q, subject) {
         }
 
         if (avgLen > 0) {
-            if (['Math', 'Science', 'English'].includes(subject) && avgLen < 15) {
+            const maxDev = Math.max(...lengths.map(l => Math.abs(l - avgLen))) / avgLen;
+            if (['Math', 'Science'].includes(subject) && avgLen < 15) {
+                cqi_score += 3.0;
+                isLongestAnswer = false;
+            } else if (subject === 'English' && avgLen < 15) {
                 cqi_score += 3.0;
                 isLongestAnswer = false;
             } else {
-                if (!isLongestAnswer) {
-                    cqi_score += 3.0;
-                } else {
-                    reports.push('正確選項為最長選項，易被盲猜');
-                }
+                if (maxDev < 0.15) cqi_score += 3.0;
+                else if (maxDev < 0.3) cqi_score += 1.5;
+                else reports.push('選項長度偏差過大 (>15%)');
             }
         }
     }
@@ -160,7 +162,18 @@ function evaluateQuestion(q, subject) {
             qg_reports.push('缺乏有效解析 (阻擋晉升 L3)');
         }
 
-        // 選項長度偏差將不再此處直接阻擋 L3，改由全檔的 isLongestAnswer 比例一併控管 (若超標則降級 L1-BIAS)
+        if (options.length === 4) {
+            const lengths = options.map(o => String(o).length);
+            const avgLen = lengths.reduce((a, b) => a + b, 0) / 4;
+            if (avgLen > 0) {
+                const maxDev = Math.max(...lengths.map(l => Math.abs(l - avgLen))) / avgLen;
+                if (!(['Math', 'Science', 'English'].includes(subject) && avgLen < 15)) {
+                    if (maxDev >= 0.15) {
+                        passL3 = false;
+                    }
+                }
+            }
+        }
 
         if (passL3) {
             qg_level = 'L3';

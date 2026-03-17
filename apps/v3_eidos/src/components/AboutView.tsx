@@ -197,7 +197,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
       {/* Tabs */}
       <div className="flex rounded-2xl bg-secondary p-1 gap-1">
         {([
-          { key: 'about' as AboutTab, label: '🏠 關於本站' },
+          { key: 'about' as AboutTab, label: '🏠 創站緣由' },
           { key: 'library' as AboutTab, label: '📚 題庫總覽' },
           { key: 'deepdive' as AboutTab, label: '📖 出題研究' },
           { key: 'changelog' as AboutTab, label: '📋 更版資訊' },
@@ -225,14 +225,14 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
             </div>
 
             <div className="space-y-6">
-              {APP_CONFIG.grades.map(grade => {
+              {[userGrade].map(grade => {
                 const subjects = getSubjectsByGrade(grade);
                 const gConfig = libraryConfig?.grades[grade as Grade];
                 if (libraryConfig && gConfig?.enabled === false) return null;
 
                 const semesterBlocks: JSX.Element[] = [];
 
-                APP_CONFIG.semesters.forEach(sem => {
+                ([userSemester] as Semester[]).forEach(sem => {
                   const sConfig = gConfig?.semesters[sem];
                   if (libraryConfig && sConfig?.enabled === false) return;
 

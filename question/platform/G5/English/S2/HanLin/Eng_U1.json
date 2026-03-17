@@ -183,7 +183,7 @@
       "answer_index": 0,
       "explanation": "如果 A 在 B 對面，則 B 也在 A 對面。文中說 bakery 在 clinic 對面。",
       "commonMisconception": "缺乏空間對應的雙向邏輯。",
-      "quality_level": "L5",
+      "quality_level": "L2",
       "cqi_score": 6.5
     },
     {
@@ -219,8 +219,8 @@
       "answer_index": 2,
       "explanation": "Sam 看到公園在前面（假設），診所在後，麵包店在對面，則麵包店與公園在同一側或同一方向（對應 Sam 來說是在公園的方向）。選項中 C 最符合相對位置推論。",
       "commonMisconception": "多重方位詞的空間建構能力不足。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "quality_level": "L2",
+      "cqi_score": 8
     },
     {
       "taxonomy": "applied",
@@ -291,7 +291,7 @@
       "answer_index": 1,
       "explanation": "診所在銀行「後面」(behind it)，應前往建築物後方。",
       "commonMisconception": "方位詞與實際行動的邏輯連結斷裂。",
-      "quality_level": "L5",
+      "quality_level": "L2",
       "cqi_score": 6.5
     },
     {
@@ -309,8 +309,8 @@
       "answer_index": 2,
       "explanation": "介於 8 號與 12 號之間，描述此位置為 between the two houses。",
       "commonMisconception": "無法從數字線索轉化為方位描述。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
+      "quality_level": "L2",
+      "cqi_score": 8
     },
     {
       "taxonomy": "applied",
@@ -363,8 +363,8 @@
       "answer_index": 2,
       "explanation": "文中明確說 'blue area next to it (the park)'。",
       "commonMisconception": "代名詞 it 的指代與顏色符號對應發生混亂。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "quality_level": "L2",
+      "cqi_score": 8
     }
   ]
 }

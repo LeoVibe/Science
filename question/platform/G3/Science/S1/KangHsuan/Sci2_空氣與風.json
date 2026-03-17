@@ -1,9 +1,9 @@
 {
   "meta": {
-    "grade": "G3",
-    "semester": "S1",
-    "subject": "Science",
-    "publisher": "KangHsuan",
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "kang_hsuan",
     "lesson": "Sci2",
     "order": 2,
     "title": "空氣與風"
@@ -13,10 +13,6 @@
       "id": "1",
       "type": "true_false",
       "question": "看不見空氣代表空氣不存在。",
-      "options": [
-        "對",
-        "錯"
-      ],
       "answer": "False",
       "explanation": "空氣佔有空間且有重量，只是透明無色。",
       "cqi_score": 2.5,

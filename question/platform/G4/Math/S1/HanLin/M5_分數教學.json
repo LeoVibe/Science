@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "HanLin",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "han_lin",
     "lesson": "M5",
     "order": 5,
     "title": "分數教學"
@@ -21,8 +21,8 @@
       ],
       "answer": "假分數",
       "explanation": "分子（11）大於分母（4），所以是假分數。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "選項 B 和 C 都是",
       "explanation": "6/8 約分後等於 3/4。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "1 又 1/3",
       "explanation": "3 - 1 - 2/3 = 2 - 2/3 = 1 又 1/3。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     }
   ]
 }

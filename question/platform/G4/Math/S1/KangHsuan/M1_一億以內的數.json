@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M1",
     "order": 1,
     "title": "一億以內的數"
@@ -54,8 +54,8 @@
       ],
       "answer": "87,000,000",
       "explanation": "位數多者較大，前者是八位數，後者是七位數。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "2,000,000",
       "explanation": "「2」位在百萬位，故代表二百萬。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

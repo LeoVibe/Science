@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Science",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
     "lesson": "Sci4",
     "order": 4,
     "title": "電路的連接"
@@ -21,8 +21,8 @@
       ],
       "answer": "電池串聯",
       "explanation": "電池串聯可以增加總電壓，讓燈泡亮度大幅提升。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "燈泡數越多，每個燈泡分配到的電壓越少，亮度越暗",
       "explanation": "串聯電路中，電壓會被各負載（燈泡）瓜分。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "並聯",
       "explanation": "並聯保證每個電器都能獲得穩定的電壓（110V），且單一電器故障不影響其他電器運作。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     }
   ]
 }

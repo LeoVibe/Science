@@ -37,7 +37,6 @@ export default function AppHeader({
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Grade/Semester — 琥珀盾牌徽章 */}
           <button
-            id="shield-setup-trigger"
             onClick={onOpenSettings}
             className="shrink-0 active:scale-95 transition-all hover:drop-shadow-md"
             title="個人設定"
@@ -81,27 +80,8 @@ export default function AppHeader({
             <button onClick={onLearningReport} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="學習統計">
               📊<span className="hidden sm:inline ml-0.5">統計</span>
             </button>
-            <button onClick={onAbout} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="關於本站">
-              🏫<span className="hidden sm:inline ml-0.5">本站</span>
-            </button>
-            <button
-              onClick={onOpenSettings}
-              className="p-1.5 rounded-xl transition-all active:scale-95 group"
-              title="設定"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                className="w-5 h-5 sm:w-6 sm:h-6"
-                fill="none"
-                stroke="hsl(38 80% 52%)"
-                strokeWidth="3.5"
-                strokeLinecap="round"
-              >
-                {/* 極致精簡版：雙線調節滑桿 (Mixer Toggles) */}
-                <path d="M4 8h16M4 16h16" />
-                <circle cx="8" cy="8" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />
-                <circle cx="16" cy="16" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />
-              </svg>
+            <button onClick={onAbout} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="關於這裡">
+              🏫<span className="hidden sm:inline ml-0.5">紀錄</span>
             </button>
           </div>
         </div>

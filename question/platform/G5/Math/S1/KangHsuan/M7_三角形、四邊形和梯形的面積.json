@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M7",
     "order": 7,
     "title": "三角形、四邊形和梯形的面積"
@@ -21,8 +21,8 @@
       ],
       "answer": "底 × 高",
       "explanation": "這是平面幾何的基本面積公式。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 2.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "8",
       "explanation": "40 = 10 × 高 ÷ 2，80 = 10 × 高，高 = 8。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "平行四邊形",
       "explanation": "拼成的平行四邊形底為 (上底 + 下底)，高不變。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

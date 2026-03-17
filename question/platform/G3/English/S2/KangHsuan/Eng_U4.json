@@ -15,537 +15,177 @@
       "question": "Tom: Do you like apples?\nMary: ___________________\nTom: Okay, here's a banana for you.",
       "options": [
         "No, I don't. I like sweet bananas.",
-        "Yes, I am. I like red sweet apple.",
+        "No, I am not. I like sweet banana.",
         "Yes, I do. I like red sweet apple.",
-        "No, I am not. I like sweet banana."
+        "Yes, I am. I like red sweet apple."
       ],
       "answer_index": 0,
-      "explanation": "依據 Tom 給香蕉的動作可知 Mary 不愛蘋果。問句為 Do you...?，否定回答為 No, I don't.。選項 B 與 D 錯用 Be 動詞。",
+      "explanation": "根據 Tom 後續給了她一根香蕉，可知 Mary 並不喜歡蘋果。問句為 Do you like...?，否定回答需為 No, I don't.。選項 B 與 D 誤用 Be 動詞 (am/am not)，且香蕉與蘋果作為通稱時忘了加上複數 s。",
       "taxonomy": "inferential",
-      "commonMisconception": "將 Do you...? 的回答誤用為 I am / I am not。",
+      "commonMisconception": "將 Do you...? 的回答誤用為 I am / I am not，且忘記表示種類喜好時名詞要用複數形式。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-002",
       "type": "multiple_choice",
-      "scenario": "A mother is asking her son about fruit.",
+      "scenario": "A mother is asking her son about the fruit on the table.",
       "question": "Mother: Do you like oranges, Jimmy?\nJimmy: ___________________",
       "options": [
         "Yes, I do. I like oranges.  ",
+        "Yes, I am. I like an orange.",
         "No, I don't. I like a orange",
-        "No, I am not. I like orange.",
-        "Yes, I am. I like an orange."
+        "No, I am not. I like orange."
       ],
       "answer_index": 0,
-      "explanation": "Do you 提問，肯定簡答需為 Yes, I do.。表示喜好事物用複數型 (oranges)。選項 B, D 錯用 Be 動詞。",
+      "explanation": "問句由 Do you 提問，肯定簡答需為 Yes, I do.。在表達喜好事物時，必須使用可數名詞的複數型 (oranges)。選項 B, D 錯用 Be 動詞；選項 C 雖然是否定句，但也錯用了冠詞 a (應為 an) 且未用複數。",
       "taxonomy": "literal",
-      "commonMisconception": "被中文直接理解干擾而漏掉複數 s。",
+      "commonMisconception": "被『我喜歡橘子』的中文直翻干擾，直接說 I like orange 而漏掉複數 s，或對 Do you... 提問錯用 Be 動詞回答。",
       "cqi_score": 9,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-003",
       "type": "multiple_choice",
-      "scenario": "Picking up fruits at the supermarket.",
+      "scenario": "At the supermarket, Dad is picking up some fruits.",
       "question": "Dad: Look at these fruits. ___________________\nDaughter: No, I don't. I like grapes.",
       "options": [
         "Does you like sweet papayas?",
-        "Is you like sweet papayas?  ",
+        "Do you like sweet papayas?  ",
         "Are you like sweet papayas? ",
-        "Do you like sweet papayas?  "
+        "Is you like sweet papayas?  "
       ],
-      "answer_index": 3,
-      "explanation": "從 I don't 反推問句由 Do 開頭。主詞為 you 搭配 Do。其餘文法錯誤。",
+      "answer_index": 1,
+      "explanation": "從回答 No, I don't. 可反推問句必須以 Do 開頭。主詞是 you，故必須使用 Do you like...?。選項 A 錯搭 Does，選項 C 和 D 錯誤搭配 Be 動詞。",
       "taxonomy": "applied",
-      "commonMisconception": "無法從回答的助動詞逆推問句系統。",
+      "commonMisconception": "無法從回答的主詞與助動詞 (I don't) 逆向推斷出問句必須是 Do you，而隨意選擇 Are you 或 Is you。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-004",
       "type": "multiple_choice",
-      "scenario": "Talking about lunch food.",
+      "scenario": "Two kids are talking about their favorite lunch food.",
       "question": "Kevin: I like hamburgers. How about you?\nLisa: ___________________",
       "options": [
-        "I am like hamburgers, too.",
         "I like hamburgers, too.   ",
-        "I am like hamburger, too. ",
-        "I like hamburger, too.    "
+        "I am like hamburgers, too.",
+        "I like hamburger, too.    ",
+        "I am like hamburger, too. "
       ],
-      "answer_index": 1,
-      "explanation": "表達喜好使用 Subject + like + Noun(s)。種類名稱需用複數。選項 B, D 贅加 am。",
+      "answer_index": 0,
+      "explanation": "表達喜好使用 Subject + like + Noun(s)。表達喜好種類時可數名詞需加 s (hamburgers)。選項 B, D 多加了不必要的 Be 動詞 (am)，選項 C 的 hamburger 漏掉複數 s。",
       "taxonomy": "inferential",
-      "commonMisconception": "將 am 與 like 疊加使用 (I am like...)。",
+      "commonMisconception": "學生常會把 am 和 like 疊加使用 (I am like...)，或忽略可數名詞代表全體時的複數形態。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-005",
       "type": "multiple_choice",
-      "scenario": "Checking the fridge for a snack.",
-      "question": "Brother: Do you want a banana?\nSister: __________________",
+      "scenario": "A brother and sister are checking the fridge.",
+      "question": "Brother: We have some bananas here. Do you want some?\nSister: ___________________",
       "options": [
-        "No, I don't. I am bananas. 　",
-        "Yes, I am. I like banana.   ",
-        "Yes, please. I like bananas.",
-        "No, thanks. I like bananas.　"
+        "No, thanks. I like bananas.",
+        "Yes, please. I like banana.",
+        "No, thanks. I am bananas.  ",
+        "Yes, please. I like bananas"
       ],
-      "answer_index": 2,
-      "explanation": "正面接受提議且敘述愛好。選項 B 語意矛盾；選項 D 語法破碎。",
+      "answer_index": 3,
+      "explanation": "若是接受提議，應回答 Yes, please.，且喜歡香蕉需使用複數名詞 I like bananas.。選項 A 語意矛盾 (不吃但喜歡)；選項 B 漏了 s；選項 C 的 I am bananas 是荒謬錯誤 (我是香蕉)。",
       "taxonomy": "applied",
-      "commonMisconception": "無法結合對話上下文因果關係。",
+      "commonMisconception": "在對話題中無法連結上下語意關係，或是回答喜好種類時缺漏單複數標記。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-006",
       "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'a' and 'p' check.",
-      "question": "Which word rhyme with 'cap'?",
+      "scenario": "Teacher is asking the class about a picture of a zoo animal eating.",
+      "question": "Teacher: Look at the monkey. Does it like bananas?\nStudent: ___________________",
       "options": [
-        "apple",
-        "map  ",
-        "cat  ",
-        "cup  "
+        "Yes, it does. It likes bananas.",
+        "Yes, it is. It likes bananas.  ",
+        "No, it doesn't. it is bananas. ",
+        "No, it isn't. It doesn't banana."
       ],
-      "answer_index": 1,
-      "explanation": "cap 與 map 均具相同尾音組合 -ap。選項 A 為對話單字但韻腳不同。",
-      "taxonomy": "remembering",
-      "commonMisconception": "混淆英文韻腳的範圍判斷。",
-      "cqi_score": 8,
+      "answer_index": 0,
+      "explanation": "問句由 Does it 提問，簡答必須是 Yes, it does.。且第三人稱單數主詞 (it) 的動詞 like 必須加上 s 變成 likes。選項 B, D 錯用 Be 動詞；選項 C 語意錯誤且大小寫不分。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對 Does it 提問回答 it is，或是忘記第三人稱單數動詞字尾加 s。",
+      "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-007",
       "type": "multiple_choice",
-      "scenario": "Asking Betty about fruit together.",
+      "scenario": "Two friends are sharing a lunchbox.",
       "question": "Amy: ___________________\nBetty: Yes, I do. Let's eat them together.",
       "options": [
-        "Does you like sweet apple?",
+        "Do you like sweet apples?",
         "Are you like sweet apples?",
-        "Do you like sweet apples?　",
+        "Does you like sweet apple?",
         "Is you like sweet apples? "
       ],
-      "answer_index": 2,
-      "explanation": "回答 Yes, I do 代表問句為 Do you like...? 且名詞複數。選項 B, D 錯用 Be 動詞。",
+      "answer_index": 0,
+      "explanation": "根據回答 Yes, I do. 可判斷問句為 Do you like...?，且食物種類須為複數 apples。選項 B, D 錯搭 Be 動詞，選項 C 主詞 you 錯搭 Does 且漏了 s。",
       "taxonomy": "applied",
-      "commonMisconception": "主詞與助動詞搭配錯誤。",
+      "commonMisconception": "主詞 you 搭配錯誤的助動詞 (Does/Are/Is)，或者通稱名詞漏寫複數形。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-008",
       "type": "multiple_choice",
-      "scenario": "A monkey and its snack.",
-      "question": "A: Does the monkey like bananas?\nB: Yes, __________________. Look at it!",
+      "scenario": "The monkey is holding a big yellow fruit.",
+      "question": "Boy: What is that?\nGirl: It is a banana. ___________________",
       "options": [
-        "it is.  ",
-        "it do.  ",
-        "they do.",
-        "it does."
+        "The monkey likes bananas.",
+        "The monkey is like banana",
+        "The monkeys like a banana",
+        "The monkey like bananas. "
       ],
-      "answer_index": 3,
-      "explanation": "Does it 提問對應 it does。選項 B 助動詞錯配；選項 D 數值不符。",
-      "taxonomy": "applied",
-      "commonMisconception": "忘記第三人稱單數對應 does。",
+      "answer_index": 0,
+      "explanation": "主詞 The monkey 是第三人稱單數，動詞 like 必須加 s 成為 likes。作為食物名稱總稱，bananas 必須加上 s。選項 B 錯加 is，選項 C 與 D 動詞皆缺少第三人稱單數 s。",
+      "taxonomy": "inferential",
+      "commonMisconception": "第三人稱單數主詞後面的動詞漏加 s (The monkey like...)，或是贅字加上 is。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-009",
       "type": "multiple_choice",
-      "scenario": "Dad offering alternatives.",
-      "question": "Dad: Do you like papayas?\nJane: ___________________\nDad: Okay, how about an apple then?",
+      "scenario": "Dad is making some fruit juice in the kitchen.",
+      "question": "Dad: Do you like papayas, Jane?\nJane: ___________________\nDad: Okay, how about an apple then?",
       "options": [
-        "No, I am not.            　　",
-        "Yes, I do. I like papayas. ",
-        "No, I don't. I like apples.",
-        "Yes, please.             　　"
+        "Yes, I do. I like papayas.  ",
+        "Yes, I am. I like papayas.  ",
+        "No, I don't. I like papayas.",
+        "No, I don't. I don't like it"
       ],
-      "answer_index": 2,
-      "explanation": "父親改供蘋果暗示先前回答為否定。選項 C 語法錯誤。",
-      "taxonomy": "inferential",
-      "commonMisconception": "忽略對話上下文的轉折邏輯。",
+      "answer_index": 3,
+      "explanation": "從 Dad 接著問「那一顆蘋果好嗎？」可以推知 Jane 不喜歡木瓜，因此回答必須是否定句 No, I don't.。選項 C 的後半句語意矛盾 (不，我喜歡木瓜)。選項 D 表達不喜歡，邏輯通順。",
+      "taxonomy": "applied",
+      "commonMisconception": "忽略對話上下文的因果關係，雖然文法正確但語意矛盾。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "KH-G3S2-U4-010",
       "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'o' and 'p' sound.",
-      "question": "Which word has the same beginning sound as 'papaya'?",
+      "scenario": "The students are learning about fruit colors in class.",
+      "question": "Teacher: What color are the apples?\nStudent: ___________________",
       "options": [
-        "apple",
-        "bag  ",
-        "pig  ",
-        "dog  "
-      ],
-      "answer_index": 2,
-      "explanation": "papaya 與 pig 均以 /p/ 開頭。選項 B 為 /b/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "混淆清濁音 /p/ 與 /b/ 的聽感。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-011",
-      "type": "multiple_choice",
-      "scenario": "Talking about many red apples.",
-      "question": "A: Do you like these red apples?\nB: __________________. They are very sweet.",
-      "options": [
-        "Yes, I am.　　　",
-        "No, I don't.　",
-        "No, I am not.",
-        "Yes, I do.　　　"
-      ],
-      "answer_index": 3,
-      "explanation": "很甜 (very sweet) 暗示愛。對應 Do you 的正確答語。",
-      "taxonomy": "applied",
-      "commonMisconception": "見到 sweet 卻在否定項糾結。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-012",
-      "type": "multiple_choice",
-      "scenario": "Asking for three oranges.",
-      "question": "Boy: I want some __________________.",
-      "options": [
-        "orange 　　　",
-        "a orange　　",
-        "oranges　　　",
-        "an oranges"
-      ],
-      "answer_index": 2,
-      "explanation": "some 之後接複數名詞。選項 B 為單數；選項 D 冠詞與複數衝突。",
-      "taxonomy": "applied",
-      "commonMisconception": "忽略 some 的量化要求。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-013",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'l' sound in 'like'.",
-      "question": "Which word has the same 'L' sound as 'like'?",
-      "options": [
-        "red  ",
-        "name ",
-        "lemon",
-        "nice "
-      ],
-      "answer_index": 2,
-      "explanation": "like 與 lemon 均以流音 /l/ 開頭。選項 B 為 /r/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "分辨流音 /l/ 與捲舌音 /r/ 的發音障礙。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-014",
-      "type": "multiple_choice",
-      "scenario": "Asking a sister about watermelon.",
-      "question": "A: __________________?\nB: No, I don't. I like oranges.",
-      "options": [
-        "Does you like watermelon",
-        "Are you like watermelon　",
-        "Do you like watermelon　　",
-        "Do you want water    　　　"
-      ],
-      "answer_index": 2,
-      "explanation": "根據回答 No, I don't 反推問句由 Do 開頭。",
-      "taxonomy": "applied",
-      "commonMisconception": "助動詞錯誤配對 (Are you like)。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-015",
-      "type": "multiple_choice",
-      "scenario": "Identifying fruit by color.",
-      "question": "A: I'm purple. I'm small. Do you like me?\nB: You are __________________! Yes, I like you.",
-      "options": [
-        "papayas",
-        "bananas",
-        "grapes　",
-        "apples　"
-      ],
-      "answer_index": 2,
-      "explanation": "紫色且小粒 (purple and small) 是葡萄特徵。其餘選項顏色不符。",
-      "taxonomy": "inferential",
-      "commonMisconception": "無法結合外觀描述識別正確單字。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-016",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'g' in 'grape'.",
-      "question": "The G in 'grape' sounds like in __________.",
-      "options": [
-        "age  ",
-        "girl ",
-        "gym  ",
-        "giant"
-      ],
-      "answer_index": 1,
-      "explanation": "grape 的 g 發硬音 /g/。其餘選項發軟音 /dʒ/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "無法辨識 g 在不同母音前的硬軟轉換。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-017",
-      "type": "multiple_choice",
-      "scenario": "Recap: What time? (Wait, U4 Theme is Like).",
-      "question": "A: __________________ like bananas?\nB: Yes, she does.",
-      "options": [
-        "Does she",
-        "Does you",
-        "Do she  ",
-        "Is she  "
+        "They are big and red.",
+        "It is big and red.   ",
+        "They is big and red. ",
+        "Is it big and red?   "
       ],
       "answer_index": 0,
-      "explanation": "回答 she does 證明問句主詞為 she 且搭配 Does。",
-      "taxonomy": "applied",
-      "commonMisconception": "三單主詞搭配語法模糊。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-018",
-      "type": "multiple_choice",
-      "scenario": "Comparing fruit likes.",
-      "question": "A: He likes pears. Do you __________________ pears, too?",
-      "options": [
-        "liker　",
-        "like 　",
-        "likes　",
-        "liking"
-      ],
-      "answer_index": 1,
-      "explanation": "助動詞 Do 之後接原形動詞 like。選項 B 為誤配第三人稱動詞。",
-      "taxonomy": "applied",
-      "commonMisconception": "在助動詞句型中仍進行動詞變化。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-019",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'm' in 'monkey'.",
-      "question": "Which fruit starts with the same sound as 'monkey'?",
-      "options": [
-        "grape",
-        "pear ",
-        "apple",
-        "mango"
-      ],
-      "answer_index": 3,
-      "explanation": "monkey 與 mango 均以鼻音 /m/ 開頭。",
-      "taxonomy": "remembering",
-      "commonMisconception": "首音聽覺辨識不對位。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-020",
-      "type": "multiple_choice",
-      "scenario": "Identifying favorite snack.",
-      "question": "A: I'm yellow and long. Monkeys like me. What am I?\nB: You are a __________________.",
-      "options": [
-        "banana",
-        "apple ",
-        "orange",
-        "grape "
-      ],
-      "answer_index": 0,
-      "explanation": "黃、長、猴子愛是香蕉的標籤特徵。",
-      "taxonomy": "inferential",
-      "commonMisconception": "語意連結失敗。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-021",
-      "type": "multiple_choice",
-      "scenario": "Asking for preferences between two things.",
-      "question": "A: __________________ like milk?\nB: No, I don't. I like juice.",
-      "options": [
-        "Are you",
-        "Do you　",
-        "Am you ",
-        "Is you "
-      ],
-      "answer_index": 1,
-      "explanation": "回答 I don't 鎖定 Do you 開頭。選項 B 為最常見文法迷思。",
-      "taxonomy": "applied",
-      "commonMisconception": "在詢問愛好情境中錯用 Be 動詞。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-022",
-      "type": "multiple_choice",
-      "scenario": "Recap: Do you like pigs?",
-      "question": "A: Do you like sweet oranges?\nB: Yes, I do. __________________",
-      "options": [
-        "It is my favorite.    ",
-        "They is my favorite.  ",
-        "I am my favorite.     ",
-        "They are my favorite.　"
-      ],
-      "answer_index": 3,
-      "explanation": "複數 oranges 對應 They are。選項 B 單數不符。",
-      "taxonomy": "applied",
-      "commonMisconception": "代名詞轉換失據。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-023",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Medial 'a' in 'apple'.",
-      "question": "Which word has the /æ/ sound?",
-      "options": [
-        "cup",
-        "car",
-        "cat",
-        "cut"
-      ],
-      "answer_index": 2,
-      "explanation": "apple 與 cat 均含有短母音 /æ/。選項 B 為 /ɑ/ 音。",
-      "taxonomy": "remembering",
-      "commonMisconception": "母音發音微小細節混淆。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-024",
-      "type": "multiple_choice",
-      "scenario": "Describing someone else's likes.",
-      "question": "My sister __________________ sweet grapes.",
-      "options": [
-        "am liker",
-        "likes　　　",
-        "is like　",
-        "like 　　　"
-      ],
-      "answer_index": 1,
-      "explanation": "三單主詞 sister 需使用動詞 likes。選項 B 缺少 s。",
-      "taxonomy": "applied",
-      "commonMisconception": "沒注意到主詞是單數人稱。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-025",
-      "type": "multiple_choice",
-      "scenario": "Asking for fruit names.",
-      "question": "A: What fruit do you like?\nB: __________________",
-      "options": [
-        "Yes, I do.      ",
-        "I like papayas.　",
-        "It is red.      ",
-        "No, I don't.    "
-      ],
-      "answer_index": 1,
-      "explanation": "問 What 開頭需回答具體物。選項 B, C 格式不對。",
-      "taxonomy": "applied",
-      "commonMisconception": "將 Wh- 疑問句與 Yes/No 判斷句答法混淆。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-026",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Final recap.",
-      "question": "Choose the DIFFERENT beginning sound.",
-      "options": [
-        "bear ",
-        "pear ",
-        "pen  ",
-        "pig  "
-      ],
-      "answer_index": 0,
-      "explanation": "bear 為濁音 /b/，其餘均為清音 /p/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "分辨不清清濁對偶音位。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-027",
-      "type": "multiple_choice",
-      "scenario": "Asking to share oranges.",
-      "question": "A: Do you like these big oranges?\nB: Yes, I do. __________________ together!",
-      "options": [
-        "Am eating",
-        "Is eat   ",
-        "Are eat  ",
-        "Let's eat"
-      ],
-      "answer_index": 3,
-      "explanation": "提議一起做某事用 Let's + 原形動詞。選項 B, C 語法全錯。",
-      "taxonomy": "applied",
-      "commonMisconception": "祈使句型基礎薄弱。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-028",
-      "type": "multiple_choice",
-      "scenario": "Negative recaps: Dogs and apples.",
-      "question": "A: Do dogs like apples?\nB: No, __________________.",
-      "options": [
-        "it is not.  　",
-        "they don't.　　",
-        "they are not.",
-        "it doesn't. 　"
-      ],
-      "answer_index": 1,
-      "explanation": "複數 dogs 對應 they don't。選項 B 人稱不對；選項 C 語法非標準答法。",
-      "taxonomy": "applied",
-      "commonMisconception": "在提問物種群體時錯用單數代名詞 it。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-029",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Medial sound of 'book'.",
-      "question": "Wait, which word rhyme with 'like'?",
-      "options": [
-        "look",
-        "lake",
-        "back",
-        "bike"
-      ],
-      "answer_index": 3,
-      "explanation": "like 與 bike 均發長母音及尾音組合 /aɪk/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "無法偵測相同的長母音韻腳。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "KH-G3S2-U4-030",
-      "type": "multiple_choice",
-      "scenario": "Final recap: Fruits are good.",
-      "question": "A: Apples are red. Bananas are yellow.\nB: I __________________ all of them!",
-      "options": [
-        "does ",
-        "am   ",
-        "like ",
-        "is   "
-      ],
-      "answer_index": 2,
-      "explanation": "表達主觀情緒使用 like。其餘選項導致身份錯認 (我是所有水果)。",
-      "taxonomy": "applied",
-      "commonMisconception": "語意邏輯遺失。",
-      "cqi_score": 10,
+      "explanation": "the apples 為複數，其代名詞必須使用 They，Be 動詞需搭配 are。選項 B 單複數錯誤，選項 C 錯搭 They is，選項 D 為答句非問句不合邏輯。",
+      "taxonomy": "literal",
+      "commonMisconception": "被『蘋果』的中文干擾，無論單複數都習慣用 It is 來回答物品。",
+      "cqi_score": 9,
       "quality_level": "L5"
     }
   ]

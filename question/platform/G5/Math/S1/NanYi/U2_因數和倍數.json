@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
     "lesson": "U2",
     "title": "因數和倍數"
   },
@@ -20,8 +20,8 @@
       ],
       "answer": "1, 2, 3, 4, 6, 12",
       "explanation": "因數是可以整除該數的整數。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 2.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -50,8 +50,8 @@
       ],
       "answer": "6",
       "explanation": "18 的因數有 1, 2, 3, 6, 9, 18。24 的因數有 1, 2, 3, 4, 6, 8, 12, 24。公因數為 1, 2, 3, 6，最大者為 6。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "4",
@@ -74,8 +74,8 @@
       ],
       "answer": "6 公尺",
       "explanation": "這是求最大公因數的問題，GCD(12, 18) = 6。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "cqi_score": 7,
+      "quality_level": "L2"
     },
     {
       "id": "6",
@@ -89,8 +89,8 @@
       ],
       "answer": "「週期性事件的同步點（Synchronization）」：例如兩班公車多久會同時到站，是系統整合的關鍵",
       "explanation": "公倍數在工程排程與週期同步中有核心應用。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "7",
@@ -104,8 +104,8 @@
       ],
       "answer": "12 天",
       "explanation": "求最小公倍數 LCM(4, 6) = 12。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "cqi_score": 7,
+      "quality_level": "L2"
     },
     {
       "id": "8",
@@ -128,8 +128,8 @@
       ],
       "answer": "它們的最大公因數是 1",
       "explanation": "互質不代表兩數本身必須是質數，例如 8 和 9 互質。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "10",
@@ -143,8 +143,8 @@
       ],
       "answer": "大數的「因數分解困難性（Factorization Difficulty）」：將兩個大質數相乘很容易，但反過來分解很難",
       "explanation": "這是 RSA 加密演算法的基礎，保護了全球的網路交易安全。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "11",
@@ -158,8 +158,8 @@
       ],
       "answer": "「模組化與標準化（Modularization）」：使用公因數尺寸的容器或組件，可以最大化空間利用率並減少浪費",
       "explanation": "標準化是現代工業生產效率的基石。 ",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

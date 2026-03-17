@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M2",
     "order": 2,
     "title": "因數與公因數"
@@ -54,8 +54,8 @@
       ],
       "answer": "6",
       "explanation": "12 的因數：1, 2, 3, 4, 6, 12；18 的因數：1, 2, 3, 6, 9, 18。公因數有 1, 2, 3, 6，最大是 6。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,7 +69,7 @@
       ],
       "answer": "公因數是指同時能整除兩個或兩個以上整數的數",
       "explanation": "公即共同的意思。",
-      "cqi_score": 5,
+      "cqi_score": 2,
       "quality_level": "L2"
     }
   ]

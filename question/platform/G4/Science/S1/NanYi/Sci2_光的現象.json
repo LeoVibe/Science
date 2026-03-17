@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Science",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
     "lesson": "Sci2",
     "order": 2,
     "title": "光的現象"
@@ -21,8 +21,8 @@
       ],
       "answer": "折射",
       "explanation": "光從空氣進入水（不同介質）時，傳播速度改變導致方向偏轉。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "梳妝鏡",
       "explanation": "平面鏡反射出與實物對稱的虛像。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "7 種",
       "explanation": "透過稜鏡色散可以看見紅、橙、黃、綠、藍、靛、紫。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

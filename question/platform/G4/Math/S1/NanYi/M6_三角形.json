@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "NanYi",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
     "lesson": "M6",
     "order": 6,
     "title": "三角形"
@@ -21,8 +21,8 @@
       ],
       "answer": "等腰三角形",
       "explanation": "等腰三角形的兩個底角也會相等。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -69,8 +69,8 @@
       ],
       "answer": "70 度",
       "explanation": "180 - (50 + 60) = 180 - 110 = 70。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L2"
     }
   ]
 }

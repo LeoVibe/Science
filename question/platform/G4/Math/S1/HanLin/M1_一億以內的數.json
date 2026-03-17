@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "HanLin",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "han_lin",
     "lesson": "M1",
     "order": 1,
     "title": "一億以內的數"
@@ -21,8 +21,8 @@
       ],
       "answer": "萬位",
       "explanation": "數位順序從右往左是：個、十、百、千、萬...",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "50,500,000",
       "explanation": "比較十萬位，5 大於 0。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "5",

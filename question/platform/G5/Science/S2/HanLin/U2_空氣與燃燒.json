@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S2",
-    "subject": "Science",
-    "publisher": "HanLin",
+    "semester": "semester_2",
+    "subject": "自然",
+    "publisher": "han_lin",
     "lesson": "U2",
     "title": "空氣與燃燒"
   },
@@ -20,8 +20,8 @@
       ],
       "answer": "氧氣",
       "explanation": "氧氣是助燃物，燃燒需要氧氣參與化學反應。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -35,8 +35,8 @@
       ],
       "answer": "澄清石灰水",
       "explanation": "二氧化碳會使澄清石灰水產生白色混濁（碳酸鈣沉澱）。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     }
   ]
 }

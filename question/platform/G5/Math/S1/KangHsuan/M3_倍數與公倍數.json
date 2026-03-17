@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_5",
-    "semester": "S1",
-    "subject": "Math",
-    "publisher": "KangHsuan",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
     "lesson": "M3",
     "order": 3,
     "title": "倍數與公倍數"
@@ -54,8 +54,8 @@
       ],
       "answer": "0 或 5",
       "explanation": "這是 5 的倍數判別法。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "公倍數是指同時為兩個或兩個以上數字的倍數",
       "explanation": "「公」代表共同擁有。",
-      "cqi_score": 5,
-      "quality_level": "L3"
+      "cqi_score": 2,
+      "quality_level": "L2"
     }
   ]
 }

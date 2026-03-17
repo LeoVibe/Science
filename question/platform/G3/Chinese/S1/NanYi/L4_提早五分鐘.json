@@ -1,11 +1,11 @@
 {
   "meta": {
-    "grade": "G3",
-    "subject": "Chinese",
-    "publisher": "NanYi",
+    "grade": "grade_3",
+    "subject": "國語",
+    "publisher": "nan_yi",
     "lesson": "L4",
     "title": "提早五分鐘",
-    "semester": "S1",
+    "semester": "semester_1",
     "order": 4
   },
   "questions": [
@@ -21,8 +21,8 @@
       ],
       "answer": "守時與負責",
       "explanation": "提早準備展現了對事件的重視與對他人的尊重。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "睡前先檢查明天的功課表與書包",
       "explanation": "事前的準備工作能減少臨時的混亂。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "自己",
       "explanation": "學習獨立與自主，從管理自己的時間開始。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     }
   ]
 }

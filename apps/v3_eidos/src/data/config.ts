@@ -140,11 +140,11 @@ export interface QuestionFile {
 // === URL Routing Helpers ===
 
 export const SUBJECT_URL_CODE: Record<Subject, string> = {
-  '國語': 'chi', '數學': 'mat', '英語': 'eng', '自然': 'sci', '社會': 'SocialStudies', '生活': 'life',
+  '國語': 'chi', '數學': 'mat', '英語': 'eng', '自然': 'sci', '社會': 'soc', '生活': 'life',
 };
 
 export const URL_CODE_SUBJECT: Record<string, Subject> = {
-  'chi': '國語', 'mat': '數學', 'eng': '英語', 'sci': '自然', 'SocialStudies': '社會', 'soc': '社會', 'life': '生活',
+  'chi': '國語', 'mat': '數學', 'eng': '英語', 'sci': '自然', 'soc': '社會', 'life': '生活',
 };
 
 export const PUBLISHER_URL_CODE: Record<Publisher, string> = {

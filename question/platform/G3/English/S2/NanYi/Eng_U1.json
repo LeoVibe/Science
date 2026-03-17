@@ -5,547 +5,187 @@
     "subject": "English",
     "publisher": "NanYi",
     "lesson_id": "U1",
-    "lesson_name": "What color is it?"
+    "lesson_name": "How old are you?"
   },
   "questions": [
     {
       "id": "NY-G3S2-U1-001",
       "type": "multiple_choice",
-      "scenario": "A rainbow appears in the sky after a light rain.",
-      "question": "Emma: Look, a rainbow! What color is it?\nLeo: ___________________",
+      "scenario": "A new student is introducing himself to the class.",
+      "question": "Teacher: Welcome to the class. How old are you?\nStudent: ___________________",
       "options": [
-        "It's red, orange, and blue.　　　",
-        "They're red, orange, and blue.",
-        "It are red, orange, and blue. ",
-        "It's a red, blue orange.      "
+        "I am nine.     ",
+        "I am fine.     ",
+        "I am tall.     ",
+        "I am here.     "
       ],
       "answer_index": 0,
-      "explanation": "What color is it? 詢問該物 (單數或群體性質物) 的顏色，應以 It's... 回答。彩虹多色通常視作一個現象。",
-      "taxonomy": "literal",
-      "commonMisconception": "被多種顏色干擾而認為主格是 They。",
-      "cqi_score": 9,
+      "explanation": "問句 How old are you? 詢問年齡。回答必須包含數字 (nine)。選項 A 的 fine 是回答 How are you?；選項 C 的 tall 為形容詞不符合語境。",
+      "taxonomy": "inferential",
+      "commonMisconception": "常把 How old are you? (你幾歲) 與 How are you? (你好嗎) 混淆，而反射性地回答 I am fine.",
+      "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-002",
       "type": "multiple_choice",
-      "scenario": "Two students are guessing their friend's favorite color in a game.",
-      "question": "Ben: Look at my new bag. ___________________\nAmy: Is it blue?",
+      "scenario": "Two friends are talking about a little sister's birthday party.",
+      "question": "Boy: It's Lily's birthday today.\nGirl: Wow! ___________________\nBoy: She is seven.",
       "options": [
-        "Where is it?    　",
-        "What color is it?",
-        "What is it?     　",
-        "Who color is it?　"
+        "How is she?    ",
+        "How old is she?",
+        "Who is she?    ",
+        "What is she?   "
       ],
       "answer_index": 1,
-      "explanation": "下文問 Is it blue? (是藍色的嗎？) 暗示前面在詢問『顏色』。",
+      "explanation": "根據回答 She is seven. (她七歲) 逆向推斷出問句必須是詢問年紀 How old is she?。選項 B 問狀況，選項 C 問是誰，均不符合回答。",
       "taxonomy": "applied",
-      "commonMisconception": "沒看見下文 blue 的提示而隨意選 What is it?。",
+      "commonMisconception": "沒注意上下文中的數字，任意選擇其它疑問詞；或是分不清 How old 與 How 的差別。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-003",
       "type": "multiple_choice",
-      "scenario": "Mom is showing a red apple and a green apple to her son.",
-      "question": "Mom: Which one do you like?\nSon: I like the big ___________________ apple.",
+      "scenario": "A family is celebrating grandpa's birthday.",
+      "question": "Grandson: Happy birthday, Grandpa! ___________________\nGrandpa: I am seventy years old.",
       "options": [
-        "red ",
-        "reds",
-        "reed",
-        "read"
+        "How are you today? ",
+        "How old is he?     ",
+        "How do you do?     ",
+        "How old are you?   "
       ],
-      "answer_index": 0,
-      "explanation": "填入正確的顏色形容詞 red (紅色)。選項 B, D 為拼寫陷阱。",
-      "taxonomy": "literal",
-      "commonMisconception": "基礎顏色單字拼寫不清。",
-      "cqi_score": 9,
+      "answer_index": 3,
+      "explanation": "對爺爺說話是第二人稱，故用 How old are you?。爺爺回答 I am...。選項 B 誤用第三人稱 he；選項 C (你好嗎) 與回答的年紀不搭。",
+      "taxonomy": "inferential",
+      "commonMisconception": "對著別人說話時忘記對方是 you，或者錯將詢問年資和詢問健康的問句混淆。",
+      "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-004",
       "type": "multiple_choice",
-      "scenario": "A teacher is pointing at the clear sky on a sunny day.",
-      "question": "Teacher: What color is the sky today?\nStudent: ___________________",
+      "scenario": "Two boys are watching a very big dog playing in the park.",
+      "question": "Boy A: Look at the big dog! How old is it?\nBoy B: ___________________",
       "options": [
-        "They're blue.",
-        "It's blue.　　　",
-        "It's sky. 　　　",
-        "It is blues.　"
+        "It is five years old.  ",
+        "He is five years old.  ",
+        "It are five years old. ",
+        "They are five years old"
       ],
-      "answer_index": 1,
-      "explanation": "詢問單數主詞 the sky 的顏色，使用 It's + 顏色形容詞。顏色不可數，不可加 s。",
-      "taxonomy": "applied",
-      "commonMisconception": "在顏色形容詞後方贅加 s。",
+      "answer_index": 0,
+      "explanation": "問句主詞是 it (單隻未擬人的狗)，且搭配的 Be 動詞是 is。因此回答需對稱為 It is...。選項 B 在沒有前提下隨意轉換為擬人稱 he；選項 C 錯搭 are；選項 D 誤用複數 They。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒有看清問句的主詞 it，或者動詞單複數對配錯誤 (It are)。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-005",
       "type": "multiple_choice",
-      "scenario": "In art class, the teacher is checking how to make green.",
-      "question": "Teacher: Yellow and blue makes...?\nStudent: ___________________",
+      "scenario": "A girl is drawing a picture of her younger brother and sister.",
+      "question": "Dad: They look cute! How old are they?\nGirl: ___________________",
       "options": [
-        "It's yellow.",
-        "It's green. ",
-        "It's purple.",
-        "It's red.   "
+        "We are three and five.  ",
+        "They are three and five.",
+        "It is three and five.   ",
+        "You are three and five. "
       ],
       "answer_index": 1,
-      "explanation": "基礎色彩調配常識：黃+藍=綠。",
-      "taxonomy": "applied",
-      "commonMisconception": "邏輯正確但在英文句型中誤用 Be 動詞之外的詞。",
+      "explanation": "問句主詞為 they (指畫裡面的弟弟和妹妹)，回答時維持第三人稱複數 They are。選項 B 的 we (包含自己) 邏輯錯誤；選項 C 錯用單數 it。",
+      "taxonomy": "inferential",
+      "commonMisconception": "無法把複數 they 對應回答句的 they，常被中文『我們』混淆 (覺得是一家人就用 we)。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-006",
       "type": "multiple_choice",
-      "scenario": "Alice is wearing her new favorite yellow dress.",
-      "question": "Jack: Your dress is beautiful. Is it new?\nAlice: Yes, it is. It's ___________________.",
+      "scenario": "Teacher is pointing at a picture of identical twins in a storybook.",
+      "question": "Teacher: The brothers look the same. ___________________\nStudent: They are eight years old.",
       "options": [
-        "yellos　　　　",
-        "a yellow　　",
-        "yellow　　　　",
-        "the yellow"
+        "How old are they?",
+        "How old is he?   ",
+        "How are they?    ",
+        "Who are they?    "
       ],
-      "answer_index": 2,
-      "explanation": "直接填入顏色形容詞即可。選項 C, D 冠詞贅餘。",
-      "taxonomy": "literal",
-      "commonMisconception": "在單獨出現的顏色形容詞前加 a/an。",
-      "cqi_score": 9,
+      "answer_index": 0,
+      "explanation": "由於雙胞胎是兩個人，且回答是 They are eight...，所以問句必定是複數的 How old are they?。選項 B 單數不符；選項 C 問狀況，不問年紀。",
+      "taxonomy": "applied",
+      "commonMisconception": "看到『兄弟』(brothers) 單字，卻因為習慣而選擇單數的 How old is he。",
+      "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-007",
       "type": "multiple_choice",
-      "scenario": "Two students discussing their favorite colors.",
-      "question": "Student A: Is the teacher's pen red?\nStudent B: No, __________________. It's black.",
+      "scenario": "A little boy brings his favorite old toy to show and tell.",
+      "question": "Boy: This is my oldest car.\nFriend: Wow! ___________________\nBoy: It's ten years old!",
       "options": [
-        "it is.   　　　",
-        "they are.   ",
-        "they aren't.",
-        "it isn't.　　　"
+        "How old is it?",
+        "How is it?    ",
+        "How old are it",
+        "How old am it?"
       ],
-      "answer_index": 3,
-      "explanation": "針對單數 Pen 的否定回答選 it isn't。後文 black 驗證了此否定。",
+      "answer_index": 0,
+      "explanation": "詢問一個玩具車(單數)的年紀，需用 How old + is + it?。選項 B (怎麼了/好嗎) 不符語意；選項 C, D 為嚴重的動詞對應錯誤 (are it / am it)。",
       "taxonomy": "inferential",
-      "commonMisconception": "未看清後方轉折提示。",
+      "commonMisconception": "把詢問年紀的 How old 忘記，只記得 How；或是 Be 動詞搭配亂套。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-008",
       "type": "multiple_choice",
-      "scenario": "Phonics: Long vowel a_e sound.",
-      "question": "Which word has the same vowel sound as 'cake'?",
+      "scenario": "At a family reunion, aunt is looking at the baby girl.",
+      "question": "Aunt: The baby is so small. How old is she?\nMom: ___________________",
       "options": [
-        "can ",
-        "name",
-        "cat ",
-        "cap "
+        "She is one. ",
+        "He is one.  ",
+        "It is one.  ",
+        "She are one."
       ],
-      "answer_index": 1,
-      "explanation": "cake 與 name 均為長母音 /eɪ/ (a_e 結構)。其餘為短音 /æ/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "無法區別 a_e 與單母音 a 的發音差異。",
-      "cqi_score": 8,
+      "answer_index": 0,
+      "explanation": "問句為 How old is she? (嬰兒女孩)，回答須對稱使用 She is。選項 B 錯用男性的 He；選項 D 錯搭 are 動詞。",
+      "taxonomy": "inferential",
+      "commonMisconception": "面對性別明確的代名詞 (she)，在回答時卻粗心地混淆為 he 或 it。",
+      "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-009",
       "type": "multiple_choice",
-      "scenario": "Observing an ant on the sidewalk.",
-      "question": "A: Look! An ant. What color is it?\nB: __________________",
+      "scenario": "Two kids are talking about their pets at home.",
+      "question": "Kid A: My dog is six years old. ___________________\nKid B: It is only two years old. It's still a baby.",
       "options": [
-        "They are black.",
-        "It's black.　　　　",
-        "It is a black. ",
-        "It are black.  "
+        "How old are you?    ",
+        "Who is your dog?    ",
+        "How is your dog?    ",
+        "How old is your dog?"
       ],
-      "answer_index": 1,
-      "explanation": "單數 It 對應 It's。選項 D 在顏色前贅加 a。",
+      "answer_index": 3,
+      "explanation": "講完自己狗的年紀後，順勢問對方的狗的年紀。對方也以狗 (It is) 來回答年紀。因此問句是 How old is your dog?。選項 B 問對方的年紀不合語境；選項 C 問狀況。",
       "taxonomy": "applied",
-      "commonMisconception": "複數代名詞誤用或贅加冠詞。",
+      "commonMisconception": "讀到對話直接慣性填入 How old are you?，沒意識到交際焦點已經轉移到對方的寵物上。",
       "cqi_score": 10,
       "quality_level": "L5"
     },
     {
       "id": "NY-G3S2-U1-010",
       "type": "multiple_choice",
-      "scenario": "Identifying colors from a distance.",
-      "question": "A: __________________?\nB: It's white. Like a cloud.",
+      "scenario": "A nurse is asking a sick boy and his mom at the clinic.",
+      "question": "Nurse: I need to write down the age. _______________\nMom: Oh, he is eight.",
       "options": [
-        "What color is it　　",
-        "What color is they",
-        "What is it      　　",
-        "Is it white     　　"
+        "What is the boy?   ",
+        "How old is the boy?",
+        "How old are the boy",
+        "How is the boy?    "
       ],
-      "answer_index": 0,
-      "explanation": "由回答 It's white (它是白色的) 反推詢問顏色的問句。",
-      "taxonomy": "applied",
-      "commonMisconception": "Wh- 疑問句與肯定句回答錯位。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-011",
-      "type": "multiple_choice",
-      "scenario": "Mixing red and white paint.",
-      "question": "A: Red and white make __________________.\nB: Wow! It's very pretty.",
-      "options": [
-        "black",
-        "blue ",
-        "pink ",
-        "green"
-      ],
-      "answer_index": 2,
-      "explanation": "色彩混合：紅+白=粉紅。南一版進階需求。",
-      "taxonomy": "applied",
-      "commonMisconception": "不知道色彩混合律。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-012",
-      "type": "multiple_choice",
-      "scenario": "Observing a dark room.",
-      "question": "A: It's so dark. What color is it?\nB: It's __________________.",
-      "options": [
-        "black　",
-        "white　",
-        "yellow",
-        "red  　"
-      ],
-      "answer_index": 0,
-      "explanation": "黑暗 (dark) 暗示黑色。",
+      "answer_index": 1,
+      "explanation": "護理師說要寫下年紀，而且媽媽回答 he is eight，可見問句是問這個男孩的年紀，The boy 是單數，搭配 is，故為 How old is the boy?。選項 C 錯搭 are；選項 D 語意錯誤 (這男孩是什麼)。",
       "taxonomy": "inferential",
-      "commonMisconception": "無法結合環境詞彙聯想顏色。",
+      "commonMisconception": "詢問第三人稱身分時，因為 the boy 名詞被當作複數而錯配 are，或是在疑問詞選擇上出錯。",
       "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-013",
-      "type": "multiple_choice",
-      "scenario": "Phonics: a_e pattern.",
-      "question": "Which word has the /eɪ/ sound?",
-      "options": [
-        "bath",
-        "lake",
-        "map ",
-        "lamp"
-      ],
-      "answer_index": 1,
-      "explanation": "lake 符合 a_e 長母音結構。其餘為短母音或長音 /ɑ/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "沒注意到字尾不發音的 e 對母音長度的影響。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-014",
-      "type": "multiple_choice",
-      "scenario": "Asking about a friend's bike color.",
-      "question": "A: __________________ your bike blue?\nB: Yes, it is.",
-      "options": [
-        "Do ",
-        "Am ",
-        "Is ",
-        "Are"
-      ],
-      "answer_index": 2,
-      "explanation": "單數主詞 your bike 搭配 Be 動詞 Is。選項 C 為助動詞不適用形容詞句型。",
-      "taxonomy": "applied",
-      "commonMisconception": "主詞 your bike 誤認為複數 because of 'your'。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-015",
-      "type": "multiple_choice",
-      "scenario": "Identifying colors of a school bus.",
-      "question": "A: Stop! Here comes the school bus. What color is it?\nB: It's __________________.",
-      "options": [
-        "blue  ",
-        "green ",
-        "red   ",
-        "yellow"
-      ],
-      "answer_index": 3,
-      "explanation": "校車在傳統和文化中通常是黃色的 (yellow)。",
-      "taxonomy": "inferential",
-      "commonMisconception": "文化常識遺失。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-016",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'a' check.",
-      "question": "Which word sounds DIFFERENT?",
-      "options": [
-        "lake",
-        "page",
-        "pan ",
-        "gate"
-      ],
-      "answer_index": 2,
-      "explanation": "pan 是短母音 /æ/。其餘均為長母音 /eɪ/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "無法區別單音節短音與 a_e 結構。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-017",
-      "type": "multiple_choice",
-      "scenario": "Checking a bird's feathers.",
-      "question": "A: Is the bird __________________?\nB: No, it's green. It's a parrot!",
-      "options": [
-        "bird ",
-        "color",
-        "blue ",
-        "green"
-      ],
-      "answer_index": 2,
-      "explanation": "否定回答暗示原問句為其他顏色。鸚鵡通常為綠色。",
-      "taxonomy": "inferential",
-      "commonMisconception": "不了解 No 所開啟的對立邏輯。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-018",
-      "type": "multiple_choice",
-      "scenario": "Asking for names of colors.",
-      "question": "Red, yellow, and blue are __________________.",
-      "options": [
-        "names  ",
-        "colors　",
-        "birds  ",
-        "numbers"
-      ],
-      "answer_index": 1,
-      "explanation": "分類屬性題。紅、黃、藍屬於顏色。",
-      "taxonomy": "literal",
-      "commonMisconception": "分類類別詞彙量不足。",
-      "cqi_score": 9,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-019",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Long a vowel rhyme.",
-      "question": "Which word rhyme with 'make'?",
-      "options": [
-        "bake",
-        "bat ",
-        "bag ",
-        "back"
-      ],
-      "answer_index": 0,
-      "explanation": "make 與 bake 同為 -ake 結構。選項 B 是短音母音。",
-      "taxonomy": "remembering",
-      "commonMisconception": "偵測不到相同母音位。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-020",
-      "type": "multiple_choice",
-      "scenario": "Predicting color of a sun.",
-      "question": "Draw a happy sun. What color is __________________?\nIt's yellow.",
-      "options": [
-        "she ",
-        "they",
-        "it　　",
-        "you "
-      ],
-      "answer_index": 2,
-      "explanation": "sun 是物，代名詞用 it。由回答 It's 亦可得知。",
-      "taxonomy": "applied",
-      "commonMisconception": "代名詞選配不精準。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-021",
-      "type": "multiple_choice",
-      "scenario": "Asking about many objects: Markers.",
-      "question": "A: Your markers are pretty. __________________?\nB: They're green.",
-      "options": [
-        "What color is it  　",
-        "Are they green     ",
-        "What color are they",
-        "What is they       "
-      ],
-      "answer_index": 2,
-      "explanation": "主詞 markers 為複數，應問 What color are they?。選項 D 語義重複。",
-      "taxonomy": "applied",
-      "commonMisconception": "問複數語句時誤用 is 單數型。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-022",
-      "type": "multiple_choice",
-      "scenario": "Negative recap: Is it yellow?",
-      "question": "A: Is the orange... orange?\nB: __________________. It is orange!",
-      "options": [
-        "No, it isn't.　　　",
-        "Yes, it is.　　　　　",
-        "No, they aren't.",
-        "Yes, they are.　　"
-      ],
-      "answer_index": 1,
-      "explanation": "柳橙即橘色是常識且句尾驚嘆號表肯定。單數對應 is。",
-      "taxonomy": "applied",
-      "commonMisconception": "被同詞重複疑惑而選否定。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-023",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'a' and 'd'.",
-      "question": "Which word has a DIFFERENT vowel sound?",
-      "options": [
-        "dad ",
-        "date",
-        "made",
-        "game"
-      ],
-      "answer_index": 0,
-      "explanation": "dad 是短音 /æ/。其餘均為長音 /eɪ/。",
-      "taxonomy": "remembering",
-      "commonMisconception": "無法偵測 a_e 結構以外的例外 (雖然 dad 很常見)。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-024",
-      "type": "multiple_choice",
-      "scenario": "Describing nature.",
-      "question": "The grass is __________________ and the sun is yellow.",
-      "options": [
-        "green ",
-        "purple",
-        "white ",
-        "black "
-      ],
-      "answer_index": 0,
-      "explanation": "大自然中草通常是綠色的 (green)。",
-      "taxonomy": "literal",
-      "commonMisconception": "詞彙與實體特徵連結能力弱。",
-      "cqi_score": 9,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-025",
-      "type": "multiple_choice",
-      "scenario": "Asking for specific colors from a box.",
-      "question": "A: __________________?\nB: It's a yellow marker.",
-      "options": [
-        "Who is he      　",
-        "What is it　　　　　　",
-        "Is it yellow   　",
-        "What color is it"
-      ],
-      "answer_index": 1,
-      "explanation": "回答包含物名 (marker)，問句應為 What is it? (它是什麼？)。若選 B 應只答顏色。",
-      "taxonomy": "inferential",
-      "commonMisconception": "分不清『詢問物體』與『詢問顏色』的答語差異。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-026",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Rhyme with 'late'.",
-      "question": "Which word rhyme with 'late'?",
-      "options": [
-        "lot ",
-        "lit ",
-        "gate",
-        "let "
-      ],
-      "answer_index": 2,
-      "explanation": "late 與 gate 同韻。選項 B 為短音母音。",
-      "taxonomy": "remembering",
-      "commonMisconception": "分辨不出短音 /ɛ/ 與長音 /eɪ/。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-027",
-      "type": "multiple_choice",
-      "scenario": "Color of many apples.",
-      "question": "A: What color are these apples?\nB: __________________",
-      "options": [
-        "They are red.　　",
-        "It is red.   　　",
-        "They are apple.",
-        "Yes, they are. "
-      ],
-      "answer_index": 0,
-      "explanation": "對複數顏色提問的正確回法。選項 B 人稱不對；選項 D 格式錯誤。",
-      "taxonomy": "applied",
-      "commonMisconception": "在複數問句中習慣回答 It is。",
-      "cqi_score": 10,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-028",
-      "type": "multiple_choice",
-      "scenario": "Phonics: Letter 'a' and nasal 'm'.",
-      "question": "Which word rhyme with 'name'?",
-      "options": [
-        "am  ",
-        "game",
-        "mad ",
-        "ham "
-      ],
-      "answer_index": 1,
-      "explanation": "-ame 結尾。選項 B 為短音母音。",
-      "taxonomy": "remembering",
-      "commonMisconception": "長音與短音帶鼻音的辨析不清。",
-      "cqi_score": 8,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-029",
-      "type": "multiple_choice",
-      "scenario": "Asking for color confirmation.",
-      "question": "A: Is the ocean __________________?\nB: Yes, it is. It's beautiful.",
-      "options": [
-        "blue ",
-        "white",
-        "black",
-        "red  "
-      ],
-      "answer_index": 0,
-      "explanation": "海洋 (ocean) 是藍色的。選項 B, C 不合常理。",
-      "taxonomy": "literal",
-      "commonMisconception": "地理與顏色聯想失效。",
-      "cqi_score": 9,
-      "quality_level": "L5"
-    },
-    {
-      "id": "NY-G3S2-U1-030",
-      "type": "multiple_choice",
-      "scenario": "Final recap: What color?",
-      "question": "A: Look at my milk. What color is it?\nB: It's __________________.",
-      "options": [
-        "green",
-        "white",
-        "pink ",
-        "blue "
-      ],
-      "answer_index": 1,
-      "explanation": "牛奶是白色的。選項 B, C 對牛奶不正常。",
-      "taxonomy": "literal",
-      "commonMisconception": "無法結合基本物理物件特徵進行填答。",
-      "cqi_score": 9,
       "quality_level": "L5"
     }
   ]

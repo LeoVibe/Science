@@ -17,7 +17,7 @@
       "answer": 0,
       "explanation": "具備兩組對邊平行即為平行四邊形。",
       "concept": "基本圖形定義",
-      "quality_level": "L3",
+      "quality_level": "L2",
       "cqi_score": 3.5
     },
     {
@@ -35,7 +35,7 @@
       "explanation": "菱形的定義是四邊等長。 正方形符合此定義，且多了四角皆直角的特徵，故正方形是特殊的一種菱形。",
       "concept": "圖形包含關係",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 6.5
     },
     {
       "id": "q3",
@@ -68,8 +68,8 @@
       "answer": 2,
       "explanation": "長方形的對角線等長且平分，但只有當長方形也是正方形時，對角線才會垂直。",
       "concept": "對角線深度性質",
-      "quality_level": "L3",
-      "cqi_score": 6.5
+      "quality_level": "L2",
+      "cqi_score": 3.5
     },
     {
       "id": "q5",
@@ -85,8 +85,8 @@
       "answer": 1,
       "explanation": "等腰梯形的特徵就是兩腰等長，且兩個底角也相等。",
       "concept": "特殊梯形",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "quality_level": "L2",
+      "cqi_score": 3
     },
     {
       "id": "q6",
@@ -136,7 +136,7 @@
       "answer": 2,
       "explanation": "長方形已經有四個直角，只要再滿足鄰邊等長，即成為正方形。",
       "concept": "圖形轉化關係",
-      "quality_level": "L3",
+      "quality_level": "L2",
       "cqi_score": 3.5
     },
     {
@@ -170,8 +170,8 @@
       "answer": 1,
       "explanation": "等腰直角三角形斜邊相對拼合可以得到正方形。",
       "concept": "圖形組合",
-      "quality_level": "L3",
-      "cqi_score": 3.5
+      "quality_level": "L2",
+      "cqi_score": 5
     }
   ]
 }

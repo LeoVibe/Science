@@ -1,9 +1,9 @@
 {
   "meta": {
     "grade": "grade_4",
-    "semester": "S1",
-    "subject": "Science",
-    "publisher": "HanLin",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "han_lin",
     "lesson": "Sci3",
     "order": 3,
     "title": "聲光世界真有趣"
@@ -21,8 +21,8 @@
       ],
       "answer": "反射",
       "explanation": "聲波遇到障礙物（如牆壁、山壁）後反彈，形成回音。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "木頭或鋼鐵等固體",
       "explanation": "介質分子愈緊密，傳播能量的效率愈高；真空不能傳聲。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "放大鏡（老花眼鏡）",
       "explanation": "放大鏡是利用光的「折射」原理。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.5,
+      "quality_level": "L2"
     }
   ]
 }

@@ -21,16 +21,15 @@ Eidos Project 是一個專為國小學生設計的高互動性題庫演練系統
 
 | 檔案路徑 | 角色定位 | 核心用途 | 維護者 |
 |---------|----------|----------|--------|
-| [**`docs/技術設定/網站功能規格書.md`**](docs/技術設定/網站功能規格書.md) | **產品規格 (The "What")** | 記載 UI/UX 設計、視覺規範、原件行為、資料儲存邏輯。**專案 UI 的唯一真理 (Single Source of Truth)**。 | PM / AI |
-| [**`docs/技術設定/後台管理架構設計.md`**](docs/技術設定/後台管理架構設計.md) | **技術架構 (The "How")** | 記載後台管理頁面的目錄劃分、路由設計、狀態管理與權限控制。 | 工程師 / AI |
-| [**`docs/技術設定/前端開發與AI實作守則.md`**](docs/技術設定/前端開發與AI實作守則.md) | **開發防呆 (The "Rules")**| 約束工程師與 AI 在寫 code 時必須遵守的底線（如：嚴禁 hardcode 色碼、強制讀取規格書等）。 | Tech Lead |
+| [**`docs/網站功能規格書.md`**](docs/網站功能規格書.md) | **產品規格 (The "What")** | 記載 UI/UX 設計、視覺規範、原件行為、資料儲存邏輯。**專案 UI 的唯一真理 (Single Source of Truth)**。 | PM / AI |
+| [**`docs/後台管理架構設計.md`**](docs/後台管理架構設計.md) | **技術架構 (The "How")** | 記載後台管理頁面的目錄劃分、路由設計、狀態管理與權限控制。 | 工程師 / AI |
+| [**`docs/前端開發與AI實作守則.md`**](docs/前端開發與AI實作守則.md) | **開發防呆 (The "Rules")**| 約束工程師與 AI 在寫 code 時必須遵守的底線（如：嚴禁 hardcode 色碼、強制讀取規格書等）。 | Tech Lead |
 | [**`docs/prj_status.md`**](docs/prj_status.md) | **當前狀態 (The "Where")** | 記載專案現在卡在哪裡、下一個待辦任務是什麼。 | PM / AI |
 | [**`docs/task_history.md`**](docs/task_history.md) | **開發日誌 (The "History")**| 記載過去修復了什麼 Bug、完成了什麼里程碑（Append-only）。 | AI 自動寫 |
-| [**`docs/待辦與優化項目.md`**](docs/待辦與優化項目.md) | **近期規劃 (The "Next")**| 記載後續短期內的待辦清單清單與優化項目。 | PM / AI |
-| [**`docs/未來發展藍圖與願望清單.md`**](docs/未來發展藍圖與願望清單.md) | **長期願景 (The "Future")**| 記載長期的功能藍圖、研究方向與使用者願望（Wishlist）。 | PM / AI |
+| [**`docs/待辦與優化項目.md`**](docs/待辦與優化項目.md) | **未來規劃 (The "Next")**| 記載後續待辦、優化清單與建議發展方向。 | PM / AI |
 | [**`jobs/任務看板與派工.md`**](jobs/任務看板與派工.md) | **任務管理** | 看板總覽、派工單規格、完工標準。 | Cursor / AG |
 | [**`knowledge/README_出題設計準則.md`**](knowledge/README_出題設計準則.md) | **出題設計** | 教育心理學、品質把關規範。 | PM (AG) |
-| [**`question/README_題庫格式規範.md`**](question/README_题庫格式規范.md) | **資料產出** | 純題庫數據的 JSON Schema。 | Dev / PM |
+| [**`question/README_題庫格式規範.md`**](question/README_題庫格式規範.md) | **資料產出** | 純題庫數據的 JSON Schema。 | Dev / PM |
 
 > **⚠️ 跨邊界協作警告**：
 > 當你在開發系統 (`apps/`)，請看 `jobs/` 裡的派工指令與 `docs/` 裡的規格書。當你要產出題庫 JSON，請遵守 `question/` 的結構規範。**嚴禁將程式開發規範寫在知識庫裡，也嚴禁將教育學理寫在資料夾裡。**
@@ -122,17 +121,3 @@ Eidos Project 是一個專為國小學生設計的高互動性題庫演練系統
 - **根目錄禁止放置臨時任務／Checklist 檔案**，例如：`task.md`、`task_*.md`、`tasks.md` 等。
 - 所有與任務相關的內容（包含 checklist、執行步驟、DoD）一律寫入對應的 `jobs/JOB-XXX-*.md` 或 `jobs/JOB-XXX-Report.md` 中。
 - 若發現歷史遺留的根目錄任務檔，僅作為過往紀錄參考，不得複製此模式繼續新增。
-
----
-
-## 🛡️ 七、AI Agent 工作路徑規範 (AI Workspace Policy)
-
-> **核心原則：確保「正式工作目錄」為變更的唯一真理，避免於背景影子目錄作業。**
-
-1.  **正式工作空間**：專案根目錄（即包含 `.git/` 與 `README.md` 的實體區域）。
-2.  **影子區塊警告**：若偵測到當前路徑包含 `.cursor/worktrees/`，代表處於 Cursor 內部並行分析區。
-3.  **AI 行為限制**：
-    *   AI **嚴禁**在 `worktrees/` 下執行持久性建檔或修改。
-    *   執行任何 Terminal 指令或檔案讀寫前，必須確認處於「正式工作空間」。
-    *   若 Agent 處於 Worktree 狀態，須主動提醒使用者，並確保變更同步回主專案。
-    *   **更新時間**：2026-02-28 19:30

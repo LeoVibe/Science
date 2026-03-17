@@ -10,13 +10,18 @@
   },
   "questions": [
     {
-      "id": "1",
+      "id": "Sci3_HLM_001",
       "type": "true_false",
       "question": "風就是流動的空氣。",
+      "options": [
+        "是",
+        "否"
+      ],
       "answer": "True",
       "explanation": "空氣流動形成風。",
-      "cqi_score": 1.5,
-      "quality_level": "L1"
+      "is_active": false,
+      "cqi_score": 2,
+      "quality_level": "L2"
     }
   ]
 }

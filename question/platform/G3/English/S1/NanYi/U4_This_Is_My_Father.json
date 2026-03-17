@@ -1,9 +1,9 @@
 {
   "meta": {
-    "grade": "G3",
-    "semester": "S1",
+    "grade": "grade_3",
+    "semester": "semester_1",
     "subject": "英文",
-    "publisher": "NanYi",
+    "publisher": "nan_yi",
     "lesson": "U4",
     "order": 4,
     "title": "This Is My Father"
@@ -21,8 +21,8 @@
       ],
       "answer": "He",
       "explanation": "He 指的是男性（如父親）。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "Who",
       "explanation": "詢問「是誰」使用疑問詞 Who。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "she is",
       "explanation": "針對肯定問句做出相應的肯定簡答。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4,
+      "quality_level": "L2"
     }
   ]
 }

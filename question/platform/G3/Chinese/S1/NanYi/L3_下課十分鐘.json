@@ -1,9 +1,9 @@
 {
   "meta": {
-    "grade": "G3",
-    "semester": "S1",
-    "subject": "Chinese",
-    "publisher": "NanYi",
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "國語",
+    "publisher": "nan_yi",
     "lesson": "L3",
     "order": 3,
     "title": "下課十分鐘"
@@ -21,8 +21,8 @@
       ],
       "answer": "學生們盡情在操場活動、與朋友聊天或享受片刻的放鬆",
       "explanation": "下課時間是學生展現活力與進行同儕互動的重要時段。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "2",
@@ -54,8 +54,8 @@
       ],
       "answer": "注意安全、控制音量並準時回教室上課",
       "explanation": "休閒活動中也應具備自律與環境公德心。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3,
+      "quality_level": "L2"
     },
     {
       "id": "5",
@@ -69,8 +69,8 @@
       ],
       "answer": "珍惜時光、享受群體生活並學會自我調適",
       "explanation": "培養健全的人格素養與正向生活態度。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "cqi_score": 2.5,
+      "quality_level": "L2"
     }
   ]
 }
