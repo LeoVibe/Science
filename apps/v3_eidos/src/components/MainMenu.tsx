@@ -17,6 +17,8 @@ interface MainMenuProps {
   libraryDisabled?: boolean;
   /** 當前科目/出版者總題數，用於顯示「總計 X 題」 */
   totalQuestionCount?: number;
+  /** 從 manifest 讀取的各單元/課題數 */
+  categoryCounts?: Record<string, number>;
   /** 進階挑戰題數（來自 User Profile） */
   maxQuizQuestions?: number;
   onStartQuiz: (type: string, count: number, restrictCategories?: string[]) => void;
@@ -27,7 +29,7 @@ interface MainMenuProps {
 
 export default function MainMenu({
   grade, semester, publisher, subject,
-  questions, categories, loadStatus, loadError, libraryDisabled = false,
+  questions, categories, categoryCounts = {}, loadStatus, loadError, libraryDisabled = false,
   totalQuestionCount = 0, maxQuizQuestions = 25,
   onStartQuiz, onStartLessonQuiz, onStartReview,
   initialLessonQuizCount = '10',
@@ -153,7 +155,7 @@ export default function MainMenu({
                         <span className="text-muted-foreground font-semibold">第{i + 1}課　</span>{cat}
                       </span>
                       <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-muted-foreground/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
-                        {questions.filter(q => q.category === cat).length} 題
+                        {categoryCounts[cat] ?? 0} 題
                       </span>
                     </div>
                   </button>

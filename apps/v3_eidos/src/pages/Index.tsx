@@ -131,7 +131,7 @@ const Index = () => {
   }, []);
 
   const [view, setView] = useState<View>('menu');
-  const [loaded, setLoaded] = useState<LoadedQuestions>({ status: 'success', questions: [], getAllCategories: () => [], getQuestionsByCategory: () => [] });
+  const [loaded, setLoaded] = useState<LoadedQuestions>({ status: 'success', questions: [], getAllCategories: () => [], getQuestionsByCategory: () => [], categoryCounts: {} });
   const [loading, setLoading] = useState(false);
   const loadPromiseRef = useRef<Promise<LoadedQuestions> | null>(null);
   const fullLoadPromiseRef = useRef<Promise<LoadedQuestions> | null>(null);
@@ -330,6 +330,7 @@ const Index = () => {
         questions: [],
         getAllCategories: () => [],
         getQuestionsByCategory: () => [],
+        categoryCounts: {},
         errorMessage: '此題庫已關閉',
       });
       setLoading(false);
@@ -646,6 +647,7 @@ const Index = () => {
                   grade={grade} semester={semester} publisher={publisher} subject={subject}
                   questions={loaded.questions}
                   categories={loaded.getAllCategories()}
+                  categoryCounts={loaded.categoryCounts}
                   loadStatus={loaded.status}
                   loadError={loaded.errorMessage}
                   libraryDisabled={!libraryEnabled}

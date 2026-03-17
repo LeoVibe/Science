@@ -127,7 +127,9 @@ export interface LoadedQuestions {
   questions: Question[];
   getAllCategories: () => string[];
   getQuestionsByCategory: (cat: string) => Question[];
-  manifest?: Record<string, unknown> | null;
+  /** 從 manifest 預先讀取的各單元總題數 */
+  categoryCounts: Record<string, number>;
+  manifest?: Record<string, any> | null;
   errorMessage?: string;
 }
 
@@ -140,6 +142,7 @@ export async function loadQuestions(
     questions: [],
     getAllCategories: () => [],
     getQuestionsByCategory: () => [],
+    categoryCounts: {},
     manifest: null,
     ...overrides,
   });
@@ -155,14 +158,18 @@ export async function loadQuestions(
     const manifest = await manifestRes.json();
 
     if (manifestOnly) {
-      const items = Array.isArray(manifest.items) ? (manifest.items as ManifestUnitLike[]) : [];
+      const items = Array.isArray(manifest.items) ? (manifest.items as (ManifestUnitLike & { count?: number })[]) : [];
       const categories = items.map((it) => it.title ?? '').filter(Boolean);
+      const categoryCounts: Record<string, number> = {};
+      items.forEach(it => { if (it.title) categoryCounts[it.title] = it.count ?? 0; });
+
       return {
         status: 'success',
         questions: [],
         getAllCategories: () => categories,
         getQuestionsByCategory: () => [],
-        manifest: manifest as Record<string, unknown>,
+        categoryCounts,
+        manifest: manifest as Record<string, any>,
       };
     }
 
@@ -313,11 +320,16 @@ export async function loadQuestions(
 
     allQuestions.sort((a, b) => a.lessonOrder - b.lessonOrder);
     const status: QuestionLoadStatus = allQuestions.length > 0 || manifestOnly ? 'success' : 'empty';
+    const items = Array.isArray(manifest.items) ? (manifest.items as (ManifestUnitLike & { count?: number })[]) : [];
+    const categoryCounts: Record<string, number> = {};
+    items.forEach(it => { if (it.title) categoryCounts[it.title] = it.count ?? 0; });
+
     return {
       status,
       questions: allQuestions,
       getAllCategories: () => [...new Set(allQuestions.map(q => q.category))],
       getQuestionsByCategory: (cat: string) => allQuestions.filter(q => q.category === cat),
+      categoryCounts,
       manifest
     };
   } catch (error) {
