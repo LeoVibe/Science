@@ -13,9 +13,10 @@ const PUBLISHER_COLORS: Record<Publisher, string> = {
 export const AUTO_ADVANCE_OPTIONS = [
   { value: 0, label: '不自動' },
   { value: 1000, label: '1 秒' },
-  { value: 1500, label: '1.5 秒' },
   { value: 2000, label: '2 秒' },
   { value: 3000, label: '3 秒' },
+  { value: 5000, label: '5 秒' },
+  { value: 8000, label: '8 秒' },
 ] as const;
 
 export interface UserProfile {
@@ -296,7 +297,7 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
             <div className="space-y-4 animate-in fade-in slide-in-from-right-2 duration-200">
               {/* 答題後自動下一題 */}
               <div>
-                <p className="text-[11px] font-bold text-muted-foreground mb-2 tracking-wider">答題後停留多久自動下一題</p>
+                <p className="text-[11px] font-bold text-muted-foreground mb-2 tracking-wider">若正確答題，幾秒後會自動跳下一題</p>
                 <div className="flex flex-wrap gap-1.5">
                   {AUTO_ADVANCE_OPTIONS.map((opt) => (
                     <button

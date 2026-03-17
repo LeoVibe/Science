@@ -144,13 +144,18 @@ export default function MainMenu({
                   <button
                     key={cat}
                     onClick={() => onStartLessonQuiz(cat, lessonQuizCount)}
-                    className="relative overflow-hidden bg-card rounded-2xl py-3 px-4 text-sm shadow-sm border border-border/60 hover:shadow-md hover:border-border hover:-translate-y-0.5 active:scale-[0.97] transition-all text-left w-full"
+                    className="relative overflow-hidden bg-card rounded-2xl py-3 px-4 text-sm shadow-sm border border-border/60 hover:shadow-md hover:border-border hover:-translate-y-0.5 active:scale-[0.97] transition-all text-left w-full group"
                   >
                     {/* 左側彩虹色線條（唯一的趣味點） */}
                     <div className="absolute left-0 top-0 bottom-0 w-1.5 rounded-l-2xl" style={{ backgroundColor: accentColor }} />
-                    <span className="pl-2 text-sm text-foreground font-bold leading-snug">
-                      <span className="text-muted-foreground font-semibold">第{i + 1}課　</span>{cat}
-                    </span>
+                    <div className="pl-2 flex items-center justify-between">
+                      <span className="text-sm text-foreground font-bold leading-snug">
+                        <span className="text-muted-foreground font-semibold">第{i + 1}課　</span>{cat}
+                      </span>
+                      <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-muted-foreground/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        {questions.filter(q => q.category === cat).length} 題
+                      </span>
+                    </div>
                   </button>
                 );
               })}
