@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "面積",
+    "lesson": "U9",
+    "order": 9
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "面積概念",
+      "question": "邊長 1 公分的正方形，它的面積是多少？",
+      "options": [
+        "1 公分　　",
+        "4 公分　　",
+        "4 平方公分",
+        "1 平方公分"
+      ],
+      "answer_index": 3,
+      "explanation": "定義 1cm×1cm = 1 平方公分。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "長方形面積",
+      "question": "一個長方形長 7 公分、寬 3 公分。它的面積是多少平方公分？",
+      "options": [
+        "14 平方公分",
+        "21 平方公分",
+        "20 平方公分",
+        "10 平方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "7 × 3 = 21。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "面積估算",
+      "question": "甲圖形用了 12 個方塊，乙圖形用了 15 個方塊。誰的面積比較大？（假設方塊大小相同）",
+      "options": [
+        "一樣大　",
+        "無法比較",
+        "乙圖形　",
+        "甲圖形　"
+      ],
+      "answer_index": 2,
+      "explanation": "數量越多，覆蓋面積越大。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "邊長與面積關係",
+      "question": "正方形的邊長是 8 公分。它的面積是多少平方公分？",
+      "options": [
+        "32 平方公分",
+        "8 平方公分　",
+        "64 平方公分",
+        "16 平方公分"
+      ],
+      "answer_index": 2,
+      "explanation": "8 × 8 = 64。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圖形拼湊面積",
+      "question": "小英將兩個面積都是 10 平方公分的長方形拼在一起（不重疊）。新圖形的面積是多少？",
+      "options": [
+        "無法判斷　　　",
+        "20 平方公分",
+        "10 平方公分",
+        "40 平方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "面積具有加成性。 10 + 10 = 20。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "平方公分縮寫",
+      "question": "『平方公分』通常用什麼英文縮寫表示？",
+      "options": [
+        "cm　",
+        "m²　",
+        "kg　",
+        "cm²"
+      ],
+      "answer_index": 3,
+      "explanation": "cm² 是標準國際單位縮寫。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "草地面積計算",
+      "question": "公園有一塊長 15 公尺、寬 10 公尺的長方形草地。請問面積是多少『平方公尺』？",
+      "options": [
+        "150 平方公尺",
+        "50 平方公尺　",
+        "150 公尺　　",
+        "25 平方公尺　"
+      ],
+      "answer_index": 0,
+      "explanation": "15 × 10 = 150。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "面積與周長區分",
+      "question": "一個正方形的面積是 16 平方公分。它的周長是多少公分？",
+      "options": [
+        "8 公分　",
+        "32 公分",
+        "16 公分",
+        "4 公分　"
+      ],
+      "answer_index": 2,
+      "explanation": "邊長 = 4 (4×4=16)。周長 = 4 × 4 = 16。本題剛好數值相同，測驗學生對邊長的求取路徑。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "挖掉一塊",
+      "question": "大長方形面積 50 平方公分，裡面剪掉一個面積 12 平方公分的小長方形。剩下的面積是多少？",
+      "options": [
+        "12 平方公分",
+        "38 平方公分",
+        "50 平方公分",
+        "62 平方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "50 - 12 = 38。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "面積守恆迷思",
+      "question": "把一個圓形的披薩切成 8 片重新排列。它的總面積會變嗎？",
+      "options": [
+        "會變大",
+        "不一定",
+        "會變小",
+        "不會變"
+      ],
+      "answer_index": 3,
+      "explanation": "切割與排列不改圖形總覆蓋體積。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "拼貼地墊",
+      "question": "臥室地板長 2 公尺、寬 2 公尺。如果用邊長 1 公尺的正方形地墊拼滿。需要幾張？",
+      "options": [
+        "2 張",
+        "8 張",
+        "4 張",
+        "1 張"
+      ],
+      "answer_index": 2,
+      "explanation": "面積 2×2=4。地墊面積 1×1=1。 4/1 = 4。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比較推理",
+      "question": "甲是一個邊長 6 公分正方形。乙是一個長 9 公分、寬 4 公分長方形。誰比較佔空間（面積大）？",
+      "options": [
+        "甲大　　　",
+        "乙大　　　",
+        "看顏色決定",
+        "一樣大　　"
+      ],
+      "answer_index": 3,
+      "explanation": "6×6=36。 9×4=36。故一樣大。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Grade, Semester, Subject, Publisher, Question } from '@/data/config';
 import { loadQuestions } from '@/data/questionLoader';
-import { getQualityStyle } from './AdminLibraryManager'; // Will refactor this later if needed
+import { getQualityStyle } from './AdminLibraryManager';
+import { stripOptionPrefix } from '../../utils/format';
 
 interface Props {
     grade: Grade;
@@ -118,7 +119,7 @@ export default function AdminUnitCuration({ grade, semester, subject, publisher,
                                                                 const isCorrect = q.normalizedAnswer === i;
                                                                 return (
                                                                     <div key={i} className={`px-3 py-2 rounded-lg border ${isCorrect ? 'bg-green-500/10 border-green-500/30 text-green-700 dark:text-green-400 font-bold' : 'bg-muted/30 border-transparent text-muted-foreground'}`}>
-                                                                        {String.fromCharCode(65 + i)}. {opt}
+                                                                        {String.fromCharCode(65 + i)}. {stripOptionPrefix(opt)}
                                                                     </div>
                                                                 );
                                                             })}

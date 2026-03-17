@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "時間 ",
+    "lesson": "L5",
+    "order": 5
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "時制轉換",
+      "question": "下午 2 時 30 分。也就是 24 小時制的幾點幾分？",
+      "options": [
+        "14:30",
+        "16:30",
+        "12:30",
+        "02:30"
+      ],
+      "answer_index": 0,
+      "explanation": "12 + 2 = 14 時。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "時間長度",
+      "question": "大隊接力，甲班跑了 125 秒。也就是幾分幾秒？",
+      "options": [
+        "1 分 25 秒",
+        "2 分 5 秒　",
+        "3 分 5 秒　",
+        "2 分 25 秒"
+      ],
+      "answer_index": 1,
+      "explanation": "125 ÷ 60 = 2 ... 5。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "卡通播放",
+      "question": "一部卡通下午 5 時 40 分開始。播了 40 分鐘。結束時是幾時幾分？",
+      "options": [
+        "18 時 0 分　",
+        "17 時 80 分",
+        "18 時 20 分",
+        "17 時 20 分"
+      ],
+      "answer_index": 2,
+      "explanation": "40 + 40 = 80 = 1 時 20 分。 17 + 1 = 18。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "經過時間",
+      "question": "小英上午 11:50 坐車。下午 1:10 到達。一共搭了多久？",
+      "options": [
+        "2 小時 20 分",
+        "80 分鐘　　　　",
+        "1 小時　　　　　",
+        "1 小時 20 分"
+      ],
+      "answer_index": 3,
+      "explanation": "11:50 到 12:50 為 1 小時。 12:50 到 13:10 為 20 分。合計 1 時 20 分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "練習鋼琴",
+      "question": "小華練習鋼琴 45 分鐘。結束時是 16:20。開始時間為何？",
+      "options": [
+        "15:35",
+        "15:45",
+        "16:05",
+        "16:65"
+      ],
+      "answer_index": 0,
+      "explanation": "16:20 減 45 分。借一小時 (60分)。 60+20-45 = 35 分。小時變 15。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "日換算",
+      "question": "2 天等於多少小時？",
+      "options": [
+        "24 小時",
+        "48 小時",
+        "12 小時",
+        "60 小時"
+      ],
+      "answer_index": 1,
+      "explanation": "24 × 2 = 48。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "公車時刻",
+      "question": "公車每 12 分鐘一班。現在 09:10。下一班什麼時候到？",
+      "options": [
+        "09:30",
+        "09:12",
+        "09:22",
+        "09:00"
+      ],
+      "answer_index": 2,
+      "explanation": "10 + 12 = 22。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比賽快慢",
+      "question": "游泳比賽：小明游 1 分 50 秒。小華游 100 秒。誰比較快？快幾秒？",
+      "options": [
+        "小華；快 50 秒",
+        "一樣快　　　　　　",
+        "小明；快 10 秒",
+        "小華；快 10 秒"
+      ],
+      "answer_index": 3,
+      "explanation": "1 分 50 秒 = 110 秒。 110 - 100 = 10 秒。小華秒數少，比較快。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "睡覺時間",
+      "question": "小力每天要睡 9 小時。如果他要早上 7 點起床。他應該在晚上幾點上床？",
+      "options": [
+        "晚上 10 點",
+        "晚上 9 點　",
+        "晚上 8 點　",
+        "晚上 11 點"
+      ],
+      "answer_index": 0,
+      "explanation": "7 點往前調 9 小時。 7-7=0 (12點)，再往前 2 小時 = 10 點。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "進位診斷",
+      "question": "計算 2 小時 40 分 + 30 分的結果。哪一個是錯誤的進位方法？",
+      "options": [
+        "進一小時變 3 時 10 分",
+        "直接寫 2 時 70 分　　",
+        "算出 3.1　　　　　　　　",
+        "換成 190 分鐘　　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "時間點不能停在超過 60 分的狀態。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "倒數計時",
+      "question": "原本 12:00。經過 100 分鐘後。是幾時幾分？",
+      "options": [
+        "14 時 40 分",
+        "12 時 40 分",
+        "13 時 40 分",
+        "1 時 0 分　　"
+      ],
+      "answer_index": 2,
+      "explanation": "100 分 = 1 時 40 分。 12+1 = 13 (下午1點)。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "量感選擇",
+      "question": "唱一首生日快樂歌大約花多少時間？",
+      "options": [
+        "30 分鐘",
+        "3 秒　　",
+        "3 小時　",
+        "30 秒　"
+      ],
+      "answer_index": 3,
+      "explanation": "生活經驗判斷。",
+      "quality_level": "L2",
+      "cqi_score": 7
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "kang_hsuan",
+    "lesson": "U2",
+    "order": 2,
+    "title": "Unit 2 Are You Hungry?",
+    "verified": true,
+    "verification_source": "康軒官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Are you ______? B: Yes, I want to eat.",
+      "options": [
+        "thirsty",
+        "hungry",
+        "sad",
+        "happy"
+      ],
+      "answer": "hungry",
+      "explanation": "想要吃東西代表感到 hungry (飢餓)。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I am thirsty.' means '我很渴'。",
+      "answer": "True",
+      "explanation": "thirsty 是渴的意思。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Are you happy? B: No, I ______ ______.",
+      "answer": "am not",
+      "explanation": "Are you...? 的否定回答為 No, I am not。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: I'm full. B: Me, ______.",
+      "options": [
+        "so",
+        "too",
+        "to",
+        "two"
+      ],
+      "answer": "too",
+      "explanation": "Me, too. 代表「我也是」。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: I'm thirsty. Can I have some ______?",
+      "options": [
+        "bread",
+        "water",
+        "cake",
+        "apple"
+      ],
+      "answer": "water",
+      "explanation": "口渴 (thirsty) 時需要喝水 (water)。"
+    }
+  ]
+}

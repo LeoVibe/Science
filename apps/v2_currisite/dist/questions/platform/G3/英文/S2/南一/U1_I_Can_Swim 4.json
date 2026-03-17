@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "nan_yi",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 I Can Swim",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Can you swim? B: Yes, I can. I am like a ______.",
+      "options": [
+        "bird",
+        "fish",
+        "dog",
+        "cat"
+      ],
+      "answer": "fish",
+      "explanation": "會游泳 (swim) 且像 fish (魚)。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I can skip rope.' means '我會跳繩'。",
+      "answer": "True",
+      "explanation": "skip rope 是跳繩。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Can you sing? B: No, I ______. (我不行)",
+      "answer": "can't / cannot",
+      "explanation": "否定回答用 can't 或 cannot。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: ______ you dance? B: Yes, I can.",
+      "options": [
+        "Are",
+        "Can",
+        "Do",
+        "Is"
+      ],
+      "answer": "Can",
+      "explanation": "回答有 can，問句應以 Can 開頭。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "I can ______ a book.",
+      "options": [
+        "swim",
+        "fly",
+        "read",
+        "jump"
+      ],
+      "answer": "read",
+      "explanation": "read a book (看書)。"
+    }
+  ]
+}

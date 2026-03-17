@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "English",
+    "publisher": "kang_hsuan",
+    "title": "Future Plans",
+    "lesson": "U3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Dreaming Big",
+      "question": "A: What do you want to be in the future?\nB: I want to be a ______. I like to help sick animals.",
+      "options": [
+        "vet",
+        "doctor",
+        "teacher",
+        "dentist"
+      ],
+      "answer_index": 0,
+      "explanation": "幫助生病的動物，對應職業為獸醫 (vet)。",
+      "commonMisconception": "學生可能分不清人醫 (doctor) 與獸醫 (vet)。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Summer Is Coming",
+      "question": "I am going to ______ Taiwan this summer. I want to see the mountains.",
+      "options": [
+        "visit",
+        "visiting",
+        "tours",
+        "going"
+      ],
+      "answer_index": 0,
+      "explanation": "be going to 之後接原形動詞，參訪地點用 visit。",
+      "commonMisconception": "動詞形式錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Future Job",
+      "question": "My sister likes to cook. She wants to be a ______.",
+      "options": [
+        "nurse",
+        "chef",
+        "pilot",
+        "singer"
+      ],
+      "answer_index": 1,
+      "explanation": "喜歡煮飯，理想職業為廚師 (chef)。",
+      "commonMisconception": "不認識 chef 這個較進階的職業單字（相對於 cook）。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Planning for Tomorrow",
+      "question": "A: What ______ you going to do tomorrow?\nB: I'm going to go to the park.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "answer_index": 2,
+      "explanation": "be going to 結構中，主詞 you 對應的 B 動詞是 are。",
+      "commonMisconception": "受 tomorrow 影響誤以為要用未來式助動詞或誤選 do。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Weekend Trip",
+      "question": "Leo ______ going to visit his grandparents next weekend.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "will"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 Leo 是單數，對應 B 動詞為 is。若選 will 則後方不應有 going to。",
+      "commonMisconception": "混淆 will 與 be going to 的結構。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Career Day",
+      "question": "A: Is she going to be a singer?\nB: No, she ______. She is going to be a dancer.",
+      "options": [
+        "is",
+        "isn't",
+        "doesn't",
+        "won't"
+      ],
+      "answer_index": 1,
+      "explanation": "對 'Is she...?' 的否定簡答為 'No, she isn't'。",
+      "commonMisconception": "在未來計畫的情境中誤用 won't，雖然 will 也是未來式，但結構需對應問句。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "After Graduation",
+      "question": "They ______ going to move to a new house next month.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 They 為複數，選用 are。",
+      "commonMisconception": "主謂不一致。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Choice",
+      "question": "What ______ Sam want to be when he grows up?",
+      "options": [
+        "do",
+        "does",
+        "is",
+        "doing"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問意願 'want to be' 的助動詞，配合單數 Sam 需用 does。",
+      "commonMisconception": "混淆 'What is he going to be' 與 'What does he want to be'。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Infinitive After Want",
+      "question": "I want to ______ a pilot and fly planes.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "being"
+      ],
+      "answer_index": 2,
+      "explanation": "want to 之後接原形動詞，B 動詞的原形為 be。",
+      "commonMisconception": "學生習慣用 am/is/are，不熟悉 be 原形的用法。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Dream Jobs Class",
+      "question": "Toby likes stars, so he wants to be an astronaut. Ken likes planes, so he wants to be a pilot.\nQuestion: What does Ken want to do?",
+      "options": [
+        "Fly planes",
+        "See stars",
+        "Help animals",
+        "Teach students"
+      ],
+      "answer_index": 0,
+      "explanation": "Ken 想當飛行員 (pilot)，對應動作是開飛機 (fly planes)。",
+      "commonMisconception": "資訊提取錯誤，將 Toby 與 Ken 的夢想搞混。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Sunday Plan",
+      "question": "It will be sunny this Sunday. I am going to have a picnic with my family.\nQuestion: Will it rain this Sunday?",
+      "options": [
+        "Yes, it will.",
+        "No, it won't.",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "answer_index": 1,
+      "explanation": "文中預測是晴天 (sunny)，故不會下雨。未來式否定簡答為 won't。",
+      "commonMisconception": "不懂 won't 是 will not 的縮寫。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Next Year Plan",
+      "question": "Next year, Lily is going to move to Tainan. She wants to learn how to cook from her grandma.\nQuestion: What is Lily's primary (主要) goal?",
+      "options": [
+        "Visit Tainan",
+        "Sell food",
+        "Learn cooking",
+        "See her grandma"
+      ],
+      "answer_index": 2,
+      "explanation": "文本強調她想跟奶奶「學煮飯」(learn how to cook)。",
+      "commonMisconception": "語意權重判斷錯誤（如誤以為重點是搬家或看奶奶）。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Future Robot",
+      "question": "In the future, robots will help us in the kitchen. They will cook and clean.\nQuestion: What will robots NOT do?",
+      "options": [
+        "Help people",
+        "Cook food",
+        "Clean the house",
+        "Do homework"
+      ],
+      "answer_index": 3,
+      "explanation": "文中提到煮飯和清潔，並未提到寫功課 (do homework)。",
+      "commonMisconception": "受生活經驗干擾而過度推論。選項中只有 homework 未提及。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Holiday Decision",
+      "question": "A: Are you going to go to Kenting?\nB: No. It's too expensive (太貴). I'm going to Hualien instead.\nQuestion: Where is B going?",
+      "options": [
+        "Kenting",
+        "Hualien",
+        "Nowhere",
+        "Home"
+      ],
+      "answer_index": 1,
+      "explanation": "B 否定了墾丁，並選擇去花蓮 (Hualien)。",
+      "commonMisconception": "沒看清楚 B 的轉折句 instead。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Subject Choice",
+      "question": "______ is going to be a scientist. He loves science experiments.",
+      "options": [
+        "I",
+        "You",
+        "Leo",
+        "They"
+      ],
+      "answer_index": 2,
+      "explanation": "B 動詞是 is，且後方代名詞用 He，故主詞需為第三人稱單數男性名字 Leo。",
+      "commonMisconception": "忽略 B 動詞與代名詞 He 的多重線索。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Space Exploration",
+      "question": "If you want to go to Mars, you should be an ______.",
+      "options": [
+        "artist",
+        "astronaut",
+        "actor",
+        "author"
+      ],
+      "answer_index": 1,
+      "explanation": "去火星 (Mars) 需要的身分是太空人 (astronaut)。",
+      "commonMisconception": "不認識 Mars 或 astronaut。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Weather Forecast",
+      "question": "The sky is very dark. I think it ______ to rain soon.",
+      "options": [
+        "is going",
+        "are going",
+        "will going",
+        "goes"
+      ],
+      "answer_index": 0,
+      "explanation": "根據現有跡象對未來的強烈預測，使用 be going to 結構。主詞 it 配 is。",
+      "commonMisconception": "結構不完整（漏掉 to 或 B 動詞錯誤）。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "International Future",
+      "question": "A: What are you going to do this summer?\nB: I'm going to America to ______ English.",
+      "options": [
+        "learn",
+        "learning",
+        "speaks",
+        "wrote"
+      ],
+      "answer_index": 0,
+      "explanation": "去美國的目的（to 為標誌的不定詞）後加原形動詞 learn。",
+      "commonMisconception": "目的狀語動詞形式混淆。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Career Dreams",
+      "question": "To be a good ______ , you should be kind to patients (病人).",
+      "options": [
+        "pilot",
+        "nurse",
+        "teacher",
+        "chef"
+      ],
+      "answer_index": 1,
+      "explanation": "照顧病人是護理師 (nurse) 的職責。",
+      "commonMisconception": "不認識詞彙 patients。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Movie Night",
+      "question": "The movie starts at 7:00 PM. It's 6:30 PM now. We ______ late if we don't hurry.\nQuestion: Choose the best words.",
+      "options": [
+        "are going to be",
+        "is going to be",
+        "will",
+        "was"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 We 配 are，加上未來預測 be going to be late。",
+      "commonMisconception": "忽略主謂一致或漏掉 be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

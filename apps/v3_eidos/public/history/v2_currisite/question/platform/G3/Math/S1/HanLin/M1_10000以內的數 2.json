@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "10000以內的數",
+    "lesson": "M1",
+    "order": 1
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "圖書館藏書",
+      "question": "學校圖書館有『五千零四十』本繪本，請問這個數字的正確寫法是？",
+      "options": [
+        "5400",
+        "5040",
+        "5004",
+        "540"
+      ],
+      "answer_index": 1,
+      "explanation": "「五千」代表千位是 5，「四十」代表十位是 4，百位和個位都是 0。因此寫作 5040。",
+      "commonMisconception": "學生常會漏掉中間的 0（寫成 540）或者寫錯 0 的位值（如 5400）。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "超市收銀員",
+      "question": "收銀機裡有 4 張一千元、15 張一百元和 9 個一元，請問收銀機裡共有多少錢？",
+      "options": [
+        "4159 元",
+        "5509 元",
+        "41509 元",
+        "5590 元"
+      ],
+      "answer_index": 1,
+      "explanation": "4 個一千元是 4000。15 個一百元是 1500。9 個一元是 9。4000 + 1500 + 9 = 5509。注意百位滿十進位到千位。",
+      "commonMisconception": "學生容易直接拼湊數字成 4159，忽略了 15 個百元中有一個千元需要進位。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "馬路上的數線",
+      "question": "在數線上，從 2970 往左走 3 個單位（每一單位代表 10），會停在哪個數字？",
+      "options": [
+        "2940",
+        "2973",
+        "3000",
+        "2967"
+      ],
+      "answer_index": 0,
+      "explanation": "往左走代表減法。3 個單位且每單位 10，共減去 30。2970 - 30 = 2940。",
+      "commonMisconception": "學生可能搞混左（減）右（加）的方向，或是誤以為一個單位代表 1。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "位值結構",
+      "question": "數字『8702』中，數字 7 代表的數值是多少？",
+      "options": [
+        "70",
+        "700",
+        "7",
+        "7000"
+      ],
+      "answer_index": 1,
+      "explanation": "在 8702 中，7 位在百位，代表 7 個一百，即 700。",
+      "commonMisconception": "學生可能將「所在位值名稱（百位）」與「代表數值（700）」混淆。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比大小比賽",
+      "question": "小強抽到的號碼是 6088，小華抽到的是 6808。小華說：『我的號碼比你大。』請問他的說法正確嗎？大多少？",
+      "options": [
+        "正確，大 720",
+        "正確，大 800",
+        "錯誤，小強的比較大",
+        "正確，大 20"
+      ],
+      "answer_index": 0,
+      "explanation": "6808 > 6088 正確。差值：6808 - 6088 = 720。",
+      "commonMisconception": "學生在計算跨位值相減時，容易在百位借位給十位處出錯。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

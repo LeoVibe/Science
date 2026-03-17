@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "Soc6",
+    "order": 6,
+    "title": "愛護居住地"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "發現公園遊樂器材損壞，最適當的做法是？",
+      "options": [
+        "通報里長或維護單位",
+        "叫小朋友小心一點就好",
+        "當作沒看到",
+        "自己動手修理（雖然不懂技術）"
+      ],
+      "answer": "通報里長或維護單位",
+      "explanation": "主動通報能加速修繕，防止意外發生。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "落實垃圾分類與減量，是愛護環境的基本行為。",
+      "answer": "True",
+      "explanation": "環保從生活中的垃圾處理做起。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "我們可以參加社區志工行列，例如______志工來服務大眾。",
+      "answer": "環保、交通、導覽",
+      "explanation": "志工服務是貢獻個人力量改善居住地的方式。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列何者「不是」愛護居住地的表現？",
+      "options": [
+        "隨手撿垃圾",
+        "隨意塗鴉牆壁",
+        "珍惜公共資源",
+        "節約用水用電"
+      ],
+      "answer": "隨意塗鴉牆壁",
+      "explanation": "破壞公物是傷害居住地環境的行為。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "只有大人需要愛護居住地，小孩不用負責。",
+      "answer": "False",
+      "explanation": "愛護環境人人有責，從小養成良好習慣。"
+    }
+  ]
+}

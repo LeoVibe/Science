@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M7",
+    "order": 7,
+    "title": "兩步驟計算"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "小明有 50 元，買了 3 枝 10 元的鉛筆，還剩多少元？",
+      "options": [
+        "40元",
+        "30元",
+        "10元",
+        "20元"
+      ],
+      "answer": "20元",
+      "explanation": "50 - (3 * 10) = 50 - 30 = 20。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "四則運算中，如果有括號要先算括號裡。 ",
+      "answer": "True",
+      "explanation": "括號具有最高優先權。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "8 + 2 * 5 = ______",
+      "answer": "18",
+      "explanation": "先乘除後加減：8 + 10 = 18。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "一打鉛筆有 12 枝，5 打鉛筆平分給 10 人，每人得幾枝？",
+      "options": [
+        "6枝",
+        "5枝",
+        "10枝",
+        "12枝"
+      ],
+      "answer": "6枝",
+      "explanation": "(12 * 5) ÷ 10 = 60 ÷ 10 = 6。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "連加式中，數字相加的順序改變，結果不會變。",
+      "answer": "True",
+      "explanation": "這是加法的結合律。"
+    }
+  ]
+}

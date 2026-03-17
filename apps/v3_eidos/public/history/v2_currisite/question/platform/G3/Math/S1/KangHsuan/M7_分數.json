@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "分數",
+    "lesson": "M7",
+    "order": 7
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "平分蔥油餅",
+      "question": "一張蔥油餅平分成 8 份，小明吃了其中 1 份，請問小明吃了幾張蔥油餅？",
+      "options": [
+        "1/8 張",
+        "8/1 張",
+        "8 張",
+        "1 張"
+      ],
+      "answer_index": 0,
+      "explanation": "平分成 8 份，其中的 1 份就是八分之一 (1/8)。",
+      "commonMisconception": "學生可能忽略「張」這個單位，誤以為是 1 份或 8 張。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "誰拿到的比較多？",
+      "question": "有一條繩子，甲拿走 1/5 條，乙拿走 1/8 條，請問誰拿走的繩子比較長？",
+      "options": [
+        "甲",
+        "乙",
+        "一樣長",
+        "無法判斷"
+      ],
+      "answer_index": 0,
+      "explanation": "單位分數（分子為 1），分母越小，代表分成的份數越少，每一份就越大。5 < 8，所以 1/5 > 1/8。",
+      "commonMisconception": "這是分數的核心迷思：學生常直覺認為數字 8 比 5 大，所以 1/8 比較大。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "小貓吃魚",
+      "question": "一盤魚有 10 條，小貓吃了 1/10 盤，另一隻貓吃了 1/10 盤。請問兩隻貓總共吃了幾盤魚？",
+      "options": [
+        "2/10 盤",
+        "2/20 盤",
+        "1 盤",
+        "2 條"
+      ],
+      "answer_index": 0,
+      "explanation": "1/10 + 1/10 = 2/10。同分母分數相加，分母不變，分子相加。",
+      "commonMisconception": "學生常會把分母也相加，算出 2/20。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "神祕的分數",
+      "question": "「九分之五」這個分數，分母是多少？分子是多少？",
+      "options": [
+        "分母是 9，分子是 5",
+        "分母是 5，分子是 9",
+        "分母是 9，分子是 4",
+        "以上皆非"
+      ],
+      "answer_index": 0,
+      "explanation": "分數的讀法是先讀分母再讀分子。九分之五表示分母為 9，分子為 5。",
+      "commonMisconception": "學生常會搞混分子與分母的位置。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "巧克力條",
+      "question": "一條巧克力平分成 6 塊。小強吃了 3/6 條，小華吃了 2/6 條，請問還剩下幾條巧克力？",
+      "options": [
+        "1/6 條",
+        "5/6 條",
+        "6/6 條",
+        "0 條"
+      ],
+      "answer_index": 0,
+      "explanation": "兩人一共吃了 3/6 + 2/6 = 5/6。整條巧克力是 1，也就是 6/6。剩餘：6/6 - 5/6 = 1/6。",
+      "commonMisconception": "兩步驟問題，需先加後減。學生可能算出 5/6 後就當成答案了。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

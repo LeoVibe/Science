@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "圓",
+    "lesson": "M8",
+    "order": 8
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "圓的組成",
+      "question": "在同一個圓中，連接圓心到圓周上的直線段稱為什麼？",
+      "options": [
+        "直徑",
+        "半徑",
+        "圓周",
+        "圓心"
+      ],
+      "answer_index": 1,
+      "explanation": "圓心到圓周的距離就是半徑。",
+      "commonMisconception": "學生常混淆半徑與直徑的定義。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "半徑與直徑的關係",
+      "question": "一個圓的直徑是 10 公分，那它的半徑是多少公分？",
+      "options": [
+        "20 公分",
+        "10 公分",
+        "5 公分",
+        "2.5 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "直徑是半徑的兩倍，所以半徑 = 10 ÷ 2 = 5 公分。",
+      "commonMisconception": "學生可能記錯倍數關係，用 10 × 2 = 20。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓規畫圓",
+      "question": "小明想用圓規畫一個直徑 12 公分的圓，請問他應該將圓規的兩腳張開多少公分？",
+      "options": [
+        "12 公分",
+        "6 公分",
+        "24 公分",
+        "1 公分"
+      ],
+      "answer_index": 1,
+      "explanation": "使用圓規畫圓時，兩腳張開的長度是「半徑」。直徑 12 公分，半徑則為 6 公分。",
+      "commonMisconception": "這是實作中常見的錯誤：學生會直接將圓規張開成題目要求的直徑長度。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圓周上的點",
+      "question": "在一個圓裡面，我們可以找出幾條半徑？",
+      "options": [
+        "只有 1 條",
+        "只有 2 條",
+        "只有 4 條",
+        "無限多條"
+      ],
+      "answer_index": 3,
+      "explanation": "圓周上有無限多個點，每個點連接圓心都可以形成一條半徑。",
+      "commonMisconception": "學生可能受限於課本繪製的樣式，誤以為只有固定幾條。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比大小",
+      "question": "甲圓的半徑是 4 公分，乙圓的直徑是 6 公分，請問哪一個圓比較大？",
+      "options": [
+        "甲圓",
+        "乙圓",
+        "一樣大",
+        "無法判斷"
+      ],
+      "answer_index": 0,
+      "explanation": "要比較圓的大小必須統一標準。甲圓直徑為 4×2=8 公分。8 > 6，所以甲圓較大。",
+      "commonMisconception": "學生可能直接比較數字 4 與 6，忽略了半徑與直徑的單位差異。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

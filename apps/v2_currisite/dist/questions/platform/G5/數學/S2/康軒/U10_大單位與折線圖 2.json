@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "kang_hsuan",
+        "lesson": "U10",
+        "title": "生活中的大單位與折線圖"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "1平方公里等於多少公頃？",
+            "options": [
+                "10",
+                "100",
+                "1000",
+                "1"
+            ],
+            "answer": "100",
+            "explanation": "1平方公里(km²) = 100公頃(ha)。"
+        },
+        {
+            "id": "2",
+            "type": "multiple_choice",
+            "question": "折線圖的主要功能是什麼？",
+            "options": [
+                "看數據的大小順序",
+                "觀察數值隨時間變化的趨勢",
+                "把圖形畫漂亮",
+                "計算總和"
+            ],
+            "answer": "觀察數值隨時間變化的趨勢",
+            "explanation": "折線圖透過點與點的連線展示變動方向。"
+        }
+    ]
+}

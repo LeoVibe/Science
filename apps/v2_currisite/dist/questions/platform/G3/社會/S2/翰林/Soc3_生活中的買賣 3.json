@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "han_lin",
+    "lesson": "Soc3",
+    "order": 3,
+    "title": "生活中的買賣"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "購物時若發現商品有瑕疵，應持哪一種憑證去要求更換？",
+      "options": [
+        "發票",
+        "圖書證",
+        "健保卡",
+        "成績單"
+      ],
+      "answer": "發票",
+      "explanation": "發票是正式的購買證明。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "標榜「分期付款」的消費方式，最後支付的總金額可能比一次付清高。",
+      "answer": "True",
+      "explanation": "分期付款往往包含利息。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "消費者保護專線的號碼是______。",
+      "answer": "1950",
+      "explanation": "1950是全國共通的消費者保護服務專線。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "網購送貨到家，發現與廣告內容完全不符時，可以主張？",
+      "options": [
+        "直接把東西摔掉",
+        "七天鑑賞期退貨",
+        "自認倒楣",
+        "叫快遞賠錢"
+      ],
+      "answer": "七天鑑賞期退貨",
+      "explanation": "網購在消保法中享有猶豫期。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "選購商品時，應先看保存期限是否過期。",
+      "answer": "True",
+      "explanation": "過期食品或藥品會危害健康。"
+    }
+  ]
+}

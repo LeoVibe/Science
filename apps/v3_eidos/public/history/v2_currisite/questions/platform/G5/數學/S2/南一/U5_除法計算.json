@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "nan_yi",
+        "lesson": "U5",
+        "title": "整數、小數除以整數"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "0.45 除以 5 等於多少？",
+            "options": [
+                "0.9",
+                "0.09",
+                "9",
+                "0.009"
+            ],
+            "answer": "0.09",
+            "explanation": "45 ÷ 5 = 9，小數點兩位，所以是 0.09。"
+        },
+        {
+            "id": "2",
+            "type": "multiple_choice",
+            "question": "15 除以 6 等於多少？",
+            "options": [
+                "2.5",
+                "2.1",
+                "2.6",
+                "3"
+            ],
+            "answer": "2.5",
+            "explanation": "15.0 ÷ 6 = 2.5。"
+        }
+    ]
+}

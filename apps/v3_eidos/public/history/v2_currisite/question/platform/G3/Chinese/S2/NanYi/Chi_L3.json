@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Chinese",
+    "publisher": "kang_hsuan",
+    "title": "Chi_L3",
+    "lesson": "Chi_L3",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "G3-NanYi-L3-8",
+      "type": "multiple_choice",
+      "category": "愛玉的變身術",
+      "taxonomy": "literal",
+      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，愛玉凍最常見的食用方式是搭配什麼？",
+      "options": [
+        "糖水、檸檬汁與冰塊一起食用，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
+        "麻辣火鍋的湯底一起熬煮，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節　　",
+        "放在烤箱中烤到表面金黃焦脆，這種想法在日常生活中其實也是非常常見的一種自然現象　",
+        "夾在漢堡肉中間增加層次口感，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "這是一個非常重要且關鍵的學習重點，能夠幫助學生深入理解文章與作者真正想傳達的核心涵義。",
+      "quality_level": "L5",
+      "scenario": "綜合語文與閱讀理解延伸推論",
+      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "G3-NanYi-L3-9",
+      "type": "multiple_choice",
+      "category": "愛玉的變身術",
+      "taxonomy": "applied",
+      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，小華洗愛玉失敗了，他應該檢查哪項變因？",
+      "options": [
+        "洗愛玉時是否穿了紅色的衣服，這種想法在日常生活中其實也是非常常見的一種自然現象　",
+        "水質是否太純或容器是否有油垢，這也是作者在這裡特別想要傳達給我們的另外一個小觀念",
+        "當天的氣溫是否超過了三十度，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　",
+        "愛玉子的包裝顏色是否漂亮，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重"
+      ],
+      "answer_index": 1,
+      "explanation": "故障排除與科學思考。",
+      "quality_level": "L5",
+      "scenario": "綜合語文與閱讀理解延伸推論",
+      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明在放學回家的路上，發現一隻小鳥從樹上掉了下來。",
+      "question": "小明是在什麼時候發現小鳥的？",
+      "options": [
+        "週末去公園時",
+        "上學途中",
+        "放學回家路上",
+        "傍晚散步時"
+      ],
+      "answer_index": 2,
+      "explanation": "根據課文描述，小明是在「放學回家的路上」發現小鳥的，這是直接的資訊提取。",
+      "commonMisconception": "學生可能混淆時間點，選擇其他聽起來合理的日常情境。",
+      "quality_level": "L3",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明輕輕地把小鳥捧回家，心裡很擔心。",
+      "question": "小明為什麼會感到擔心？",
+      "options": [
+        "他怕小鳥的傷勢很嚴重",
+        "他擔心小鳥會飛走",
+        "他覺得照顧小鳥很麻煩",
+        "他怕媽媽罵他帶小鳥回家"
+      ],
+      "answer_index": 0,
+      "explanation": "小明「輕輕地」捧小鳥回家，並感到「擔心」，是出於對受傷生命的同情與關懷，擔心其傷勢的嚴重性。",
+      "commonMisconception": "學生可能將擔心投射為害怕被責罵或照顧的麻煩，忽略對小鳥本身的關懷。",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "媽媽教他怎麼照顧小鳥，餵牠水和食物。",
+      "question": "誰教小明如何照顧小鳥？",
+      "options": [
+        "老師",
+        "媽媽",
+        "鄰居阿姨",
+        "爸爸"
+      ],
+      "answer_index": 1,
+      "explanation": "課文中明確指出是「媽媽教他怎麼照顧小鳥」，是直接的事實陳述。",
+      "commonMisconception": "學生可能隨意猜測其他成人角色，而未仔細回憶課文細節。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明每天細心地照顧小鳥，跟牠說話。",
+      "question": "從小明的行為，我們可以知道他對小鳥有什麼樣的情感？",
+      "options": [
+        "責任感",
+        "好奇心",
+        "厭煩",
+        "害怕"
+      ],
+      "answer_index": 0,
+      "explanation": "「每天細心地照顧」與「跟牠說話」這些行為，都顯示小明對小鳥付出了時間與關懷，展現了照顧生命的責任感與愛心。",
+      "commonMisconception": "學生可能將初期的好奇心誤認為是主要情感，或選擇與事實相反的負面情緒。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "幾天後，小鳥的傷好了，翅膀也能飛了。小明雖然捨不得，但他知道小鳥屬於天空。",
+      "question": "小明為什麼最後決定把小鳥放回大自然？",
+      "options": [
+        "他知道小鳥的家在天空，不該被關著",
+        "媽媽叫他放掉",
+        "他覺得照顧小鳥太累了",
+        "小鳥自己飛走了"
+      ],
+      "answer_index": 0,
+      "explanation": "課文明確說明小明「知道小鳥屬於天空」，這表示他理解並尊重小鳥的自然本性，選擇讓牠自由。",
+      "commonMisconception": "學生可能將自己的生活經驗投射，認為是照顧麻煩或外力要求，而忽略小明內心的體悟。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明把小鳥帶到公園，看著牠展翅高飛。",
+      "question": "小明是在哪裡把小鳥放走的？",
+      "options": [
+        "學校操場",
+        "公園",
+        "森林裡",
+        "自家後院"
+      ],
+      "answer_index": 1,
+      "explanation": "課文直接敘述小明是把小鳥「帶到公園」放走的。",
+      "commonMisconception": "學生可能選擇其他常見的戶外場所，而未準確記憶課文細節。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明心裡雖然有點難過，但更多的是為小鳥感到開心。",
+      "question": "小明的心情為何是「難過」與「開心」並存？",
+      "options": [
+        "他難過小鳥飛走了，但開心自己終於解脫了",
+        "他難過無法再和小鳥玩，但開心小鳥恢復健康",
+        "他難過小鳥會忘記他，但開心小鳥可以找到新朋友",
+        "他難過小鳥不再需要他，但開心自己可以有更多時間玩"
+      ],
+      "answer_index": 1,
+      "explanation": "小明捨不得小鳥，所以感到難過；但他知道讓小鳥回歸自然是最好的選擇，且小鳥恢復健康能自由飛翔，因此為牠開心，這是一種無私的愛。",
+      "commonMisconception": "學生可能將難過解釋為自私的解脫或擔心被遺忘，未能領會小明為小鳥著想的深層情感。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "(General story context)",
+      "question": "從小明照顧小鳥的經驗中，他學到了最重要的道理是什麼？",
+      "options": [
+        "動物受傷時要立刻帶回家",
+        "照顧寵物需要很多時間和耐心",
+        "真正的愛是給予對方自由與幸福",
+        "遇到困難時要找媽媽幫忙"
+      ],
+      "answer_index": 2,
+      "explanation": "故事的核心主旨是小明從照顧和放生小鳥的過程中，體悟到愛的真諦是尊重生命、給予自由，而非佔有。",
+      "commonMisconception": "其他選項雖然是故事中的部分情節或次要啟示，但不是最深刻、最主要的人生道理。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小鳥從樹上掉了下來，翅膀受了傷。",
+      "question": "小鳥掉下來的原因是什麼？",
+      "options": [
+        "牠被其他鳥推下來",
+        "牠的翅膀受傷了",
+        "牠正在學飛",
+        "牠想和小明玩"
+      ],
+      "answer_index": 1,
+      "explanation": "課文明確指出小鳥「翅膀受了傷」，這直接說明了牠無法飛行而掉落的原因。",
+      "commonMisconception": "學生可能根據生活經驗，推測幼鳥學飛的可能，但課文已給出明確原因。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明把小鳥捧回家時，動作很輕柔。",
+      "question": "小明為什麼要「輕輕地」把小鳥捧回家？",
+      "options": [
+        "他怕被媽媽發現",
+        "他怕弄痛受傷的小鳥",
+        "他怕小鳥會咬他",
+        "他想讓小鳥睡著"
+      ],
+      "answer_index": 1,
+      "explanation": "小鳥已經受傷，小明輕柔的動作是為了避免對牠造成二次傷害，展現了細心與同情心。",
+      "commonMisconception": "學生可能聯想到害怕被動物傷害或被大人發現，而未深入思考對受傷生命的保護。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "媽媽教小明照顧小鳥時，主要教了哪兩件事？",
+      "question": "媽媽教小明照顧小鳥時，提供了哪兩種幫助？",
+      "options": [
+        "教他怎麼餵水和食物",
+        "教他如何分辨鳥的種類",
+        "教他如何訓練小鳥",
+        "教他如何築巢和唱歌"
+      ],
+      "answer_index": 0,
+      "explanation": "課文直接寫道「媽媽教他怎麼照顧小鳥，餵牠水和食物」，這是具體的照顧方式。",
+      "commonMisconception": "學生可能選擇其他與鳥類相關的活動，但課文只提到了餵食飲水。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明每天細心地照顧小鳥，跟牠說話。",
+      "question": "小明跟小鳥說話，最可能是出於什麼樣的心情？",
+      "options": [
+        "希望小鳥快點好起來，並建立感情",
+        "模仿大人說話的方式",
+        "想知道小鳥的秘密",
+        "覺得無聊，找小鳥聊天"
+      ],
+      "answer_index": 0,
+      "explanation": "小明細心照顧小鳥，並與牠說話，是希望透過互動表達關懷，讓小鳥感到安心，幫助牠恢復，同時也建立起一份情感。",
+      "commonMisconception": "學生可能從孩子「玩耍」的角度思考，認為是無聊或好奇，忽略了更深層的同理心和陪伴意義。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在小鳥翅膀受傷，無法飛翔時】小明決定把小鳥帶回家照顧。",
+      "question": "小明這個決定，展現了他什麼樣的特質？",
+      "options": [
+        "想要擁有寵物",
+        "遵守規定",
+        "有愛心和同情心",
+        "喜歡挑戰"
+      ],
+      "answer_index": 2,
+      "explanation": "面對受傷的弱小生命，小明選擇伸出援手，將牠帶回家照顧，這充分展現了他的愛心與同情心。",
+      "commonMisconception": "學生可能認為是想要養寵物，但其行為的當下動機是基於對弱小的憐憫。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明看著小鳥展翅高飛。",
+      "question": "小鳥離開小明後，牠的狀態是？",
+      "options": [
+        "停在樹上",
+        "又飛回來了",
+        "展翅高飛",
+        "跌跌撞撞"
+      ],
+      "answer_index": 2,
+      "explanation": "課文明確描述小明看到小鳥「展翅高飛」，表示牠已經完全康復並重獲自由。",
+      "commonMisconception": "學生可能猜測小鳥可能飛不好或飛回來，但課文已給出明確結果。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明雖然捨不得，但他知道小鳥屬於天空。",
+      "question": "「捨不得」這個詞語，最能表達小明什麼樣的心情？",
+      "options": [
+        "憤怒",
+        "戀戀不捨",
+        "驚訝",
+        "害怕"
+      ],
+      "answer_index": 1,
+      "explanation": "「捨不得」表示對某人或某物因情感深厚而不願分離，與「戀戀不捨」意境最為貼近。",
+      "commonMisconception": "學生可能混淆相似的強烈情感，而未能精準理解詞語的含義。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【如果小明沒有把小鳥放走，而是繼續養在家裡】",
+      "question": "這樣做可能對小鳥造成什麼樣的影響？",
+      "options": [
+        "小鳥會更加喜歡小明",
+        "小鳥會變得更聽話",
+        "小鳥會一直唱歌給小明聽",
+        "小鳥可能會失去野外生存的能力"
+      ],
+      "answer_index": 3,
+      "explanation": "小鳥是野生動物，長期圈養會使其喪失覓食、躲避天敵等野外生存技能，不利於其發展。",
+      "commonMisconception": "學生可能從人類飼養寵物的角度思考，認為會增進感情或使其更馴服，忽略了野生動物的本能需求。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明每天細心地照顧小鳥。",
+      "question": "小明照顧小鳥的態度是？",
+      "options": [
+        "隨隨便便",
+        "馬馬虎虎",
+        "敷衍了事",
+        "細心負責"
+      ],
+      "answer_index": 3,
+      "explanation": "課文中「細心地照顧」直接說明了小明的態度是細心且負責任的。",
+      "commonMisconception": "學生可能選擇與「細心」相反的詞語，未能理解課文的直接描述。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明把小鳥帶到公園，看著牠展翅高飛。",
+      "question": "小鳥展翅高飛時，最可能是往哪個方向飛去？",
+      "options": [
+        "飛向牠的鳥巢",
+        "飛向小明的家",
+        "飛向公園裡的遊樂器材",
+        "飛向廣闊的天空"
+      ],
+      "answer_index": 3,
+      "explanation": "小鳥屬於天空，牠的本性是自由飛翔。展翅高飛象徵著牠回歸自然、擁抱廣闊的世界。",
+      "commonMisconception": "學生可能認為小鳥會依戀小明或尋找舊巢，未能理解故事中「自由」的核心意涵。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "小明在照顧小鳥的過程中，需要付出哪些努力？",
+      "question": "為了讓小鳥恢復健康，小明主要做了哪些事情？",
+      "options": [
+        "每天訓練小鳥飛翔",
+        "每天幫小鳥洗澡",
+        "每天帶小鳥去散步",
+        "每天餵食、餵水和陪伴"
+      ],
+      "answer_index": 3,
+      "explanation": "課文中提到媽媽教他「餵牠水和食物」，而小明「每天細心地照顧小鳥，跟牠說話」，這些都是讓小鳥恢復健康的主要努力。",
+      "commonMisconception": "學生可能選擇人類飼養寵物的常見行為，而忽略了野生鳥類康復所需的具體照護。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小鳥的傷好了，翅膀也能飛了。",
+      "question": "小鳥的傷勢復原後，最明顯的變化是什麼？",
+      "options": [
+        "牠的羽毛變漂亮了",
+        "牠的翅膀能飛了",
+        "牠的食量變大了",
+        "牠會唱歌了"
+      ],
+      "answer_index": 1,
+      "explanation": "課文明確指出小鳥傷勢復原後，「翅膀也能飛了」，這是牠恢復健康的關鍵指標。",
+      "commonMisconception": "學生可能猜測其他正面變化，但課文直接提供了最主要的復原表現。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明在放學回家的路上，發現一隻小鳥從樹上掉了下來。",
+      "question": "如果當時小明沒有發現小鳥，小鳥的命運最可能是什麼？",
+      "options": [
+        "會被其他動物吃掉或因傷勢惡化而死",
+        "會變成一隻不會飛的鳥",
+        "會自己飛回樹上",
+        "會被路人撿走"
+      ],
+      "answer_index": 0,
+      "explanation": "一隻受傷且掉落的幼鳥在野外很難自保，很容易成為捕食者的目標或因傷勢惡化而死亡，這是對自然法則的合理推斷。",
+      "commonMisconception": "學生可能抱持著過於樂觀的看法，認為小鳥會自救或被他人幫助，忽略了野外生存的殘酷性。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "小明明白了真正的愛，是讓對方自由。",
+      "question": "文中「真正的愛」的表現，跟我們平常對「擁有」的觀念有什麼不同？",
+      "options": [
+        "真正的愛是佔有，擁有越久越好",
+        "真正的愛是控制，讓對方聽從你的話",
+        "真正的愛是給予，讓對方活出本來的樣子",
+        "真正的愛是分享，讓更多人一起擁有"
+      ],
+      "answer_index": 2,
+      "explanation": "故事強調的愛是放手、給予自由，讓生命回歸其本性，這與一般人常將「擁有」視為「佔有」或「控制」的觀念截然不同。",
+      "commonMisconception": "學生可能將愛與佔有、控制混為一談，或將其解釋為分享，而未能理解故事中更深層的「放手」之愛。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明心裡雖然有點難過，但更多的是為小鳥感到開心。",
+      "question": "小明放走小鳥時，心裡主要感受到了哪兩種情緒？",
+      "options": [
+        "興奮和緊張",
+        "驚訝和疑惑",
+        "害怕和生氣",
+        "難過和開心"
+      ],
+      "answer_index": 3,
+      "explanation": "課文直接描述小明「心裡雖然有點難過，但更多的是為小鳥感到開心」，這是直接的事實陳述。",
+      "commonMisconception": "學生可能選擇其他情緒組合，未能準確記憶課文中的情緒描述。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "媽媽教他怎麼照顧小鳥。",
+      "question": "媽媽為什麼會教小明照顧小鳥，而不是直接幫他照顧？",
+      "options": [
+        "媽媽想讓小明學習照顧生命的責任",
+        "媽媽很忙，沒有時間",
+        "媽媽不喜歡小鳥",
+        "媽媽不知道怎麼照顧小鳥"
+      ],
+      "answer_index": 0,
+      "explanation": "媽媽教小明照顧小鳥，是希望藉此機會培養小明的愛心、耐心和對生命的責任感，這是教育孩子的重要方式。",
+      "commonMisconception": "學生可能將原因歸結為媽媽自身的問題，如忙碌或不喜歡，而忽略了媽媽教育小明的用心。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在小明第一次發現小鳥受傷時】",
+      "question": "如果小明當時沒有把小鳥帶回家，而是置之不理，你會怎麼評價他的行為？",
+      "options": [
+        "他有點冷漠，沒有同情心",
+        "他很聰明，避免了麻煩",
+        "他很負責，遵守自然法則",
+        "他很勇敢，不怕危險"
+      ],
+      "answer_index": 0,
+      "explanation": "面對受傷的弱小生命卻選擇置之不理，這是一種缺乏同情心的表現。",
+      "commonMisconception": "學生可能合理化這種行為是為了避免麻煩，或誤以為是尊重自然法則，而未能從道德層面進行判斷。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明每天細心地照顧小鳥。",
+      "question": "小明照顧小鳥的「細心」體現在哪些方面？",
+      "options": [
+        "教牠唱歌、說話",
+        "餵水、餵食物、跟牠說話",
+        "帶牠出去玩、買玩具給牠",
+        "幫牠洗澡、穿衣服"
+      ],
+      "answer_index": 1,
+      "explanation": "根據課文，小明的照顧方式包括「餵牠水和食物」以及「跟牠說話」，這些都體現了他的細心。",
+      "commonMisconception": "學生可能將人類養寵物的行為誤認為是照顧細節，而忽略了課文具體描述的內容。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小明把小鳥帶到公園，看著牠展翅高飛。",
+      "question": "小明選擇在公園放生小鳥，而不是在家裡附近，最可能是因為什麼？",
+      "options": [
+        "公園的環境更適合小鳥回歸自然",
+        "公園離學校比較近",
+        "公園比較多其他小鳥",
+        "公園的風景比較美"
+      ],
+      "answer_index": 0,
+      "explanation": "公園通常比住家附近提供更廣闊、更自然的環境，有更多樹木和綠地，有利於小鳥重新適應野外生活。",
+      "commonMisconception": "學生可能從美觀、方便或社交等角度思考，而未能從動物生存需求的角度考慮。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "(General story context)",
+      "question": "這個故事想要告訴我們，當我們面對需要幫助的弱小生命時，應該抱持什麼樣的態度？",
+      "options": [
+        "只要有心，隨便怎麼幫都可以",
+        "盡力幫助，但也要尊重牠們的本性",
+        "避免接觸，以免惹上麻煩",
+        "拍照留念，然後請大人處理"
+      ],
+      "answer_index": 1,
+      "explanation": "故事傳達了同情心和責任感，但同時也強調要尊重生命的自然法則，給予牠們最適合的生存方式，而非一味佔有或不負責任地幫助。",
+      "commonMisconception": "學生可能認為只要有幫助的意願就足夠，或選擇完全迴避責任，未能理解幫助的同時也需要智慧與尊重。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    }
+  ]
+}

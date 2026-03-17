@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "English",
+    "publisher": "kang_hsuan",
+    "title": "Holiday Activities",
+    "lesson": "U2",
+    "order": 2
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Talking about Last Weekend",
+      "question": "A: What did you do last Sunday?\nB: I ______ to the beach with my parents.",
+      "options": [
+        "go",
+        "goes",
+        "went",
+        "going"
+      ],
+      "answer_index": 2,
+      "explanation": "句子中出現 last Sunday（上週日），表示過去發生的動作，需使用 go 的過去式 went。",
+      "commonMisconception": "學生可能未注意到時間副詞，或不熟悉不規則動詞變化。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Summer Vacation",
+      "question": "We went to Taitung and ______ some delicious food there.",
+      "options": [
+        "eat",
+        "ate",
+        "eating",
+        "eats"
+      ],
+      "answer_index": 1,
+      "explanation": "前半句 went 使用過去式，後半句為完成相同假期的描述，應維持過去式 ate。",
+      "commonMisconception": "時態一致性（Tense Consistency）的概念薄弱。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Outdoor Activity",
+      "question": "The weather was great, so we ______ hiking in the mountains.",
+      "options": [
+        "went",
+        "go",
+        "are",
+        "do"
+      ],
+      "answer_index": 0,
+      "explanation": "從 was 可知情境為過去式，go hiking 的過去式為 went hiking。",
+      "commonMisconception": "不認識 go hiking 固定用法或遺漏過去式轉化。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Asking about Past Events",
+      "question": "A: ______ you go camping last month?\nB: No, I didn't. I stayed home.",
+      "options": [
+        "Do",
+        "Are",
+        "Did",
+        "Were"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問過去發生的動作，疑問句應使用助動詞 Did 開頭。",
+      "commonMisconception": "受現在式習慣影響選用 Do，或受 stays home 的動詞屬性誤導選用 B 動詞 Were。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Finding a Friend",
+      "question": "A: Where ______ Leo yesterday afternoon?\nB: He was in the library.",
+      "options": [
+        "is",
+        "was",
+        "did",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「地點/狀態」且對象是單數 Leo，時間是 yesterday，需選用 B 動詞過去式 was。",
+      "commonMisconception": "混淆助動詞 Did 與 B 動詞 Was。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Busy Holiday",
+      "question": "A: What ______ Toby and Ken do during the winter break?\nB: They visited their grandma in Tainan.",
+      "options": [
+        "do",
+        "did",
+        "are",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "描述已結束的寒假活動，助動詞使用 did。主詞為複數但 did 不分單複數。",
+      "commonMisconception": "學生可能在複數主詞下猶豫是否要變換助動詞形式。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Missing the Party",
+      "question": "I ______ at the party last night because I had a headache.",
+      "options": [
+        "wasn't",
+        "weren't",
+        "didn't",
+        "don't"
+      ],
+      "answer_index": 0,
+      "explanation": "表達「不在場（狀態）」，主詞 I 對應 was，否定式為 wasn't。",
+      "commonMisconception": "習慣性選 didn't，忽略了後方並無原形動詞。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Past Tense Rule",
+      "question": "We ______ many beautiful photos in the park yesterday.",
+      "options": [
+        "take",
+        "taked",
+        "took",
+        "taking"
+      ],
+      "answer_index": 2,
+      "explanation": "動詞 take 的不規則過去式是 took。",
+      "commonMisconception": "誤以為所有過去式皆加 ed (taked)。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Negative Sentence",
+      "question": "She didn't ______ any milk this morning.",
+      "options": [
+        "drink",
+        "drank",
+        "drinks",
+        "drinking"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 didn't 之後應還原為「原形動詞」。",
+      "commonMisconception": "受 this morning 過去時間強烈誘導而使用 drank。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "A Trip to Taipei",
+      "question": "Last week, Amy went to Taipei. She visited Taipei 101 and ate beef noodles. \nQuestion: What DIDN'T Amy do in Taipei?",
+      "options": [
+        "Eat beef noodles",
+        "Visit Taipei 101",
+        "Go to the beach",
+        "Go on a trip"
+      ],
+      "answer_index": 2,
+      "explanation": "文中只提到 101 與牛肉麵，並未提及去海邊 (go to the beach)。",
+      "commonMisconception": "沒看清楚題目中的否定詞 DIDN'T。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Missing Cat",
+      "question": "Where was the cat? It wasn't in the kitchen. It was under the bed! \nQuestion: Was the cat in the kitchen?",
+      "options": [
+        "Yes, it was.",
+        "No, it wasn't.",
+        "Yes, it is.",
+        "No, it isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "文中表明 wasn't in the kitchen，且時態為過去式。",
+      "commonMisconception": "混淆現在式與過去式的簡答。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Postcard from Japan",
+      "question": "Dear Dad, I am having fun in Japan. I saw many deer yesterday. Tomorrow I will go to Tokyo. \nQuestion: When did the writer see the deer?",
+      "options": [
+        "Today",
+        "Yesterday",
+        "Tomorrow",
+        "Next week"
+      ],
+      "answer_index": 1,
+      "explanation": "文中明確指出 'I saw many deer yesterday'。",
+      "commonMisconception": "受時態雜揉影響（am having, saw, will go），無法精確提取特定事件的時間點。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Sharing Memories",
+      "question": "Leo: 'I went to a museum last Friday.' \nSam: 'Was it interesting?' \nLeo: 'No, it was boring.' \nQuestion: How did Leo feel about the museum?",
+      "options": [
+        "Happy",
+        "Excited",
+        "Not interested",
+        "Thirsty"
+      ],
+      "answer_index": 2,
+      "explanation": "boring（無聊）對應的感受是「不感興趣」。",
+      "commonMisconception": "不熟悉有趣 (interesting) 與無聊 (boring) 的反義對應。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Holiday Weather",
+      "question": "It rained every day during our trip to Kenting. We stayed in the hotel and played cards. \nQuestion: Why didn't they go swimming?",
+      "options": [
+        "They were tired.",
+        "They liked cards.",
+        "The weather was bad.",
+        "They had no money."
+      ],
+      "answer_index": 2,
+      "explanation": "文中提到下雨（rained every day），推論因天氣不好故待在室內玩牌。",
+      "commonMisconception": "缺乏因果推論能力，直接選了文本中有出現的 activity (liked cards) 作為原因。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Irregular Plurals & Tense",
+      "question": "Two years ago, many ______ lived in this small forest.",
+      "options": [
+        "wolf",
+        "wolfs",
+        "wolves",
+        "to wolf"
+      ],
+      "answer_index": 2,
+      "explanation": "wolf 的複數不規則變化為 wolves。",
+      "commonMisconception": "不規則複數變化規則混淆。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "The Science Museum",
+      "question": "You should ______ many questions when you visit the Science Museum.",
+      "options": [
+        "ask",
+        "asked",
+        "asking",
+        "to ask"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 should 之後應接原形動詞。",
+      "commonMisconception": "受 visit 影響或誤以為描述狀況而變更動詞形式。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Grandma's House",
+      "question": "Last Chinese New Year, we ______ red envelopes from our grandparents.",
+      "options": [
+        "get",
+        "gets",
+        "got",
+        "getting"
+      ],
+      "answer_index": 2,
+      "explanation": "描述去年的春節活動，使用 get 的過去式 got。",
+      "commonMisconception": "不知道 red envelopes 的文化脈絡，或是時態抓取錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Dragon Boat Festival",
+      "question": "The ______ was in June last year. We saw a race on the river.",
+      "options": [
+        "Moon Festival",
+        "Dragon Boat Festival",
+        "Easter",
+        "Christmas"
+      ],
+      "answer_index": 1,
+      "explanation": "六月份且有河上競賽（race on the river），對應端午節（Dragon Boat Festival）。",
+      "commonMisconception": "不具備節慶日期與習俗的英文化對應能力。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Halloween Memories",
+      "question": "On Halloween, the kids ______ 'Trick or treat!' and got many candies.",
+      "options": [
+        "say",
+        "said",
+        "saying",
+        "speaking"
+      ],
+      "answer_index": 1,
+      "explanation": "描述萬聖節當時的動作且後方 got 為過去式，故使用 said。",
+      "commonMisconception": "習慣性選 say，忽視敘事時態一致性。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Summer vs Winter",
+      "question": "In summer, I went to the beach. In winter, I went to the mountains. \nQuestion: How many seasons are mentioned (提及)?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer_index": 1,
+      "explanation": "文中提及 summer（夏季）與 winter（冬季），共兩個季節。",
+      "commonMisconception": "讀數目錯誤或不認識 season 這個單字。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

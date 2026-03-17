@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Chinese",
+    "publisher": "kang_hsuan",
+    "title": "Chi_U8",
+    "lesson": "Chi_U8",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "NanYi-Chi_U8-seed",
+      "type": "multiple_choice",
+      "taxonomy": "critical",
+      "scenario": "跨單元通用引導",
+      "question": "在南一版課文中，作者強調了哪一種核心價值觀來引導讀者反思？",
+      "options": [
+        "作者透過深刻的細節描寫與情感連結，引發讀者對於自然或生命的共鳴，進而傳達出守護與珍惜的核心價值感",
+        "作者僅僅是為了增加文章的篇幅，所以在文中加入了大量無關緊要的修辭，實際上並沒有什麼特別的思想",
+        "作者認為這些問題都太過複雜，所以選擇用一種避重就輕的方式來描述，讓讀者自己去猜測其中的含義　",
+        "作者純粹是為了滿足出版商的要求，所以才刻意挑選了這個主題，文中並沒有任何真實的情感流露在內　"
+      ],
+      "answer_index": 0,
+      "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
+      "quality_level": "L3",
+      "cqi_score": 2.5
+    }
+  ]
+}

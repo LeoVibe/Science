@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M8",
+    "order": 8,
+    "title": "小數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "十分之一用小數怎麼表示？",
+      "options": [
+        "0.1",
+        "1.1",
+        "0.01",
+        "1.0"
+      ],
+      "answer": "0.1",
+      "explanation": "小數第一位是十分位。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "0.5 比 0.3 小。",
+      "answer": "False",
+      "explanation": "0.5 大於 0.3。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "1.2 讀作一點______。",
+      "answer": "二",
+      "explanation": "點後面的數字直接讀出個位名。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "2 個 1 和 5 個 0.1 合起來是多少？",
+      "options": [
+        "25",
+        "0.25",
+        "2.05",
+        "2.5"
+      ],
+      "answer": "2.5",
+      "explanation": "2 + 0.5 = 2.5。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "小數點左邊是整數部分，右邊是小數部分。",
+      "answer": "True",
+      "explanation": "這是小數的基本構造。"
+    }
+  ]
+}

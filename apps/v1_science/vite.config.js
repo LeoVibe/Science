@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.NODE_ENV === 'production' ? '/history/v0.1/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/history/v1_science/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "kang_hsuan",
+    "lesson": "Soc4",
+    "order": 4,
+    "title": "居住地的發展"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "居住地的人口如果越來越多，通常代表這裡？",
+      "options": [
+        "交通不便",
+        "物價極低",
+        "環境惡劣",
+        "工作機會多"
+      ],
+      "answer": "工作機會多",
+      "explanation": "人口向有工作機會與資源的地方集中是常見的遷徙規律。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "交通的革新（如鐵路、捷運）會帶動居住地的發展。",
+      "answer": "True",
+      "explanation": "便捷的交通能吸引更多人潮與產業進入。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "為了讓居住地永續發展，我們應在開發與______之間取得平衡。",
+      "answer": "保護、保育、環保",
+      "explanation": "發展不應以破壞環境為代價。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "居住地早期與現在最大的不同點通常在哪一方面？",
+      "options": [
+        "建築物高度與密度",
+        "水的成分",
+        "天空顏色",
+        "太陽高度"
+      ],
+      "answer": "建築物高度與密度",
+      "explanation": "都市化過程最明顯的視覺變化就是建築物的垂直化與密集化。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "所有的老舊建築都應該拆除建立新大樓。",
+      "answer": "False",
+      "explanation": "具備歷史價值的古蹟應予以修復與保存。"
+    }
+  ]
+}

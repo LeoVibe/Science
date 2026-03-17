@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "圓",
+    "lesson": "U4",
+    "order": 4
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "圓的半徑直徑",
+      "question": "一個圓的半徑是 5 公分。請問它的直徑是多少公分？",
+      "options": [
+        "10 公分",
+        "25 公分",
+        "5 公分　",
+        "2 公分　"
+      ],
+      "answer_index": 0,
+      "explanation": "直徑 = 半徑 × 2 = 5 × 2 = 10 公分。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "圓心位置",
+      "question": "使用圓規畫圓時，針尖固定的那一個點稱為什麼？",
+      "options": [
+        "直徑",
+        "圓心",
+        "圓周",
+        "半徑"
+      ],
+      "answer_index": 1,
+      "explanation": "圓規針尖固定點即為圓的中心點，稱為圓心。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "直徑特性",
+      "question": "在同一個圓當中，最長的一條線段是哪一條？",
+      "options": [
+        "任何兩點的連線",
+        "圓周長　　　　",
+        "直徑　　　　　",
+        "半徑　　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "通過圓心且連接圓周兩點的直徑，是圓內最長的線段。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "硬幣排列",
+      "question": "小英將 4 個相同的硬幣排成一排。如果一個硬幣的半徑是 2 公分。這排硬幣總長是多少？",
+      "options": [
+        "8 公分　",
+        "4 公分　",
+        "32 公分",
+        "16 公分"
+      ],
+      "answer_index": 3,
+      "explanation": "一個硬幣直徑 = 2 × 2 = 4。4 個硬幣 = 4 × 4 = 16 公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "繪製指定圓",
+      "question": "小華想畫一個直徑 12 公分的圓。請問他在打開圓規時，兩腳之間的距離應調成多少？",
+      "options": [
+        "6 公分　",
+        "12 公分",
+        "24 公分",
+        "3 公分　"
+      ],
+      "answer_index": 0,
+      "explanation": "圓規張開的距離就是「半徑」。半徑 = 12 ÷ 2 = 6。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓規比較長度",
+      "question": "小明手上沒有尺，他可以用什麼工具來比較兩條線段誰比較長？",
+      "options": [
+        "溫度計",
+        "圓規　",
+        "放大鏡",
+        "量角器"
+      ],
+      "answer_index": 1,
+      "explanation": "圓規可以張開固定距離，用來在不同線段間轉移長度進行對比。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓與邊長關係",
+      "question": "一個邊長 10 公分正方形裡面剛好塞滿一個最大的圓。這個圓的半徑是多少？",
+      "options": [
+        "2.5 公分",
+        "10 公分　",
+        "5 公分　　",
+        "20 公分　"
+      ],
+      "answer_index": 2,
+      "explanation": "圓的直徑剛好等於正方形邊長 (10)。故半徑為 5。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "半徑直徑邏輯",
+      "question": "在同一個圓裡，可以畫出幾條半徑？",
+      "options": [
+        "4 條　　　",
+        "只有 1 條",
+        "只有 2 條",
+        "無限多條　　"
+      ],
+      "answer_index": 3,
+      "explanation": "從圓心到圓周任何一點都是半徑，有無數個點，故有無數條。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓形軌道",
+      "question": "遙控車繞著半徑 3 公尺的圓形賽道跑。請問車子離圓心的距離始終是多少？",
+      "options": [
+        "3 公尺",
+        "6 公尺",
+        "0 公尺",
+        "不一定　"
+      ],
+      "answer_index": 0,
+      "explanation": "圓的定義就是到圓心距離（半徑）處處相等。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幾何拼貼",
+      "question": "如下圖（描述）：兩個相同的圓緊貼在一起，總長度是 20 公分。請問其中一個圓的半徑是多少？",
+      "options": [
+        "2.5 公分",
+        "5 公分　　",
+        "20 公分　",
+        "10 公分　"
+      ],
+      "answer_index": 1,
+      "explanation": "20 是兩個直徑。一個直徑 = 10。半徑 = 5。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圓規故障",
+      "question": "小明的圓規螺絲鬆了，畫圓時張開的距離會變大。畫出來的圖形會變成什麼樣子？",
+      "options": [
+        "變成更漂亮的圓　　　　",
+        "變成三角形　　　　　　",
+        "不再是圓形（曲線歪掉）",
+        "變成長方形　　　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "圓必須半徑固定。半徑改變則畫不出封閉完美的圓。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "正方形中心畫圓",
+      "question": "要在正方形裡面畫一個最大的圓。圓心應該設定在哪裡？",
+      "options": [
+        "隨便一個位置　",
+        "正方形的邊上　",
+        "正方形的頂點　",
+        "正方形的中心點"
+      ],
+      "answer_index": 3,
+      "explanation": "中心點到四邊等距，最適合當圓心以獲取最大對稱體。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

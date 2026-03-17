@@ -1,5 +1,7 @@
 import { Question } from '@/data/config';
 import IntentionTooltip from '@/components/IntentionTooltip';
+import { EducationalBadges } from './EducationalBadges';
+import { stripOptionPrefix } from '@/utils/format';
 
 interface WrongQuestionsViewProps {
   questions: Question[];
@@ -37,11 +39,10 @@ export default function WrongQuestionsView({ questions, title, onBack, wrongCoun
               <p className="font-medium">{q.question}</p>
               <div className="space-y-1">
                 {q.options.map((opt, j) => (
-                  <div key={j} className={`px-3 py-2 rounded-lg text-sm flex items-start gap-2 ${
-                    j === q.normalizedAnswer ? 'bg-correct-light font-medium' : 'bg-muted/50'
-                  }`}>
+                  <div key={j} className={`px-3 py-2 rounded-lg text-sm flex items-start gap-2 ${j === q.normalizedAnswer ? 'bg-correct-light font-medium' : 'bg-muted/50'
+                    }`}>
                     <span className="font-bold text-muted-foreground">{optionLabels[j]}</span>
-                    <span>{opt}</span>
+                    <span>{stripOptionPrefix(opt)}</span>
                     {j === q.normalizedAnswer && <span className="ml-auto text-accent">✓</span>}
                   </div>
                 ))}
@@ -52,6 +53,11 @@ export default function WrongQuestionsView({ questions, title, onBack, wrongCoun
                   <IntentionTooltip />
                 </p>
               )}
+              <EducationalBadges
+                explanationLength={q.explanation?.length}
+                cqiScore={q.cqi_score}
+                qualityLevel={q.quality_level}
+              />
             </div>
           ))}
         </div>

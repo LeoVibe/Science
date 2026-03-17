@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "kang_hsuan",
+        "lesson": "U1",
+        "title": "體積"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "一個長方體的長是5公分，寬是4公分，高是3公分，請問它的體積是多少立方公分？",
+            "options": [
+                "12",
+                "60",
+                "20",
+                "15"
+            ],
+            "answer": "60",
+            "explanation": "長方體體積 = 長 × 寬 × 高 = 5 × 4 × 3 = 60。"
+        },
+        {
+            "id": "2",
+            "type": "true_false",
+            "question": "邊長為10公分正方體的體積，剛好是1000立方公分。",
+            "answer": "True",
+            "explanation": "正方體體積 = 邊長 × 邊長 × 邊長 = 10 × 10 × 10 = 1000。"
+        }
+    ]
+}

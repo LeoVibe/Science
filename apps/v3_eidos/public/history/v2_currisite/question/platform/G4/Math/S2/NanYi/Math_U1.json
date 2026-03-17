@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Chinese",
+    "publisher": "nan_yi",
+    "title": "Math_U1",
+    "lesson": "Math_U1",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "scenario": "圖書館採購新書",
+      "difficulty": "簡單",
+      "question": "圖書館採購了 120 本新書，平均每本 245 元。總預算共是多少？",
+      "options": [
+        "29,400 元",
+        "24,500 元",
+        "2,450 元",
+        "30,000 元"
+      ],
+      "answer": 0,
+      "explanation": "245 * 120 = 245 * 10 * 12 = 29400。",
+      "concept": "多位數乘法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q2",
+      "scenario": "果園收成分配",
+      "difficulty": "簡單",
+      "question": "一棵果樹可收成 75 公斤的水果。果園有 50 棵樹。如果將總收成每 15 公斤裝一籃，共可裝幾籃？",
+      "options": [
+        "250 籃",
+        "50 籃",
+        "3,750 籃",
+        "100 籃"
+      ],
+      "answer": 0,
+      "explanation": "總收成 = 75 * 50 = 3750。 籃數 = 3750 / 15 = 250。",
+      "concept": "乘除複合運算",
+      "quality_level": "L4",
+      "cqi_score": 9
+    },
+    {
+      "id": "q3",
+      "scenario": "畢業紀念冊費用",
+      "difficulty": "中等",
+      "question": "印製畢業紀念冊，150 本共花費 45,000 元。請問平均一本多少錢？",
+      "options": [
+        "300 元",
+        "450 元",
+        "30 元",
+        "3,000 元"
+      ],
+      "answer": 0,
+      "explanation": "45000 / 150 = 300。",
+      "concept": "多位數除法",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q4",
+      "scenario": "工廠機器效能",
+      "difficulty": "中等",
+      "question": "一具機器 12 小時可以生產 4,800 個零件。那這具機器在一天（24小時）內，平均每一小時能產出多少個？",
+      "options": [
+        "400 個",
+        "200 個",
+        "4,800 個",
+        "800 個"
+      ],
+      "answer": 0,
+      "explanation": "4800 / 12 = 400。 或是 (4800 / 12 * 24) / 24。核心考查一小時的產率。",
+      "concept": "平均率除法",
+      "quality_level": "L4",
+      "cqi_score": 9
+    },
+    {
+      "id": "q5",
+      "scenario": "超商集點兌換",
+      "difficulty": "簡單",
+      "question": "收集 18 點可以換一個玩具。小明有 540 點，他可以換幾個玩具？",
+      "options": [
+        "30 個",
+        "18 個",
+        "40 個",
+        "3 個"
+      ],
+      "answer": 0,
+      "explanation": "540 / 18 = 30。",
+      "concept": "除法應用",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q6",
+      "scenario": "校園植樹活動",
+      "difficulty": "困難",
+      "question": "學校要購買 158 棵樹苗，每棵 125 元。為了方便估預算，將樹苗數四捨五入到十位，單價四捨五入到百位後相乘。估算的結果為何？",
+      "options": [
+        "16,000",
+        "15,800",
+        "15,000",
+        "20,000"
+      ],
+      "answer": 0,
+      "explanation": "158 四捨五入到十位 = 160。 125 四捨五入到百位 = 100。 160 * 100 = 16,000。",
+      "concept": "乘法與概數估計",
+      "quality_level": "L4",
+      "cqi_score": 9
+    },
+    {
+      "id": "q7",
+      "scenario": "獎勵分配剩餘",
+      "difficulty": "中等",
+      "question": "老師有 300 顆星星貼紙，要平分給 14 位愛清潔的小天使。每人最多分幾個？還剩幾個？",
+      "options": [
+        "21 個，剩 6 個",
+        "20 個，剩 20 個",
+        "22 個，剩 5 個",
+        "25 個，不剩"
+      ],
+      "answer": 0,
+      "explanation": "300 / 14 = 21 ... 6。",
+      "concept": "有餘數的除法實踐",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q8",
+      "scenario": "反推被除數",
+      "difficulty": "困難",
+      "question": "某數被 25 除後，商是 18，餘數是 12。請問某數是多少？",
+      "options": [
+        "462",
+        "450",
+        "438",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "25 * 18 + 12 = 450 + 12 = 462。",
+      "concept": "除法驗算關係",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q9",
+      "scenario": "計算總秒數",
+      "difficulty": "簡單",
+      "question": "一小時有 60 分鐘，一分鐘有 60 秒。請問一小時共有幾秒？這運用哪種運算？",
+      "options": [
+        "3,600 秒；乘法",
+        "120 秒；加法",
+        "3,600 秒；除法",
+        "1,200 秒；乘法"
+      ],
+      "answer": 0,
+      "explanation": "60 * 60 = 3600。",
+      "concept": "複名數乘法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q10",
+      "scenario": "節約能源計算",
+      "difficulty": "中等",
+      "question": "一盞 LED 燈每月可省電費 45 元。如果學校換了 120 盞，一年（12個月）可省多少錢？",
+      "options": [
+        "5,400 元",
+        "64,800 元",
+        "54,000 元",
+        "60,000 元"
+      ],
+      "answer": 1,
+      "explanation": "45 * 120 = 5400 (每月)。 5400 * 12 = 64800 (每年)。",
+      "concept": "多步驟倍數計算",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    }
+  ]
+}

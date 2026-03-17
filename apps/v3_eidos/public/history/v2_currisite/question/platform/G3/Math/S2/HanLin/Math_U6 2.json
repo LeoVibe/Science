@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "一位小數",
+    "lesson": "U6",
+    "order": 6
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "小數概念",
+      "question": "10 個 0.1 合起來是多少？",
+      "options": [
+        "10　　",
+        "0.10",
+        "1　　　",
+        "0.1　"
+      ],
+      "answer_index": 2,
+      "explanation": "10 個 0.1 進位後為 1。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小數讀寫",
+      "question": "『三點五』也就是多少？",
+      "options": [
+        "3.5　",
+        "0.35",
+        "35　　",
+        "3.05"
+      ],
+      "answer_index": 0,
+      "explanation": "三點五即為 3.5。",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "長度量測",
+      "question": "一隻迴紋針長 3 公分 8 毫米，用小數表示是多少公分？",
+      "options": [
+        "3.8 公分　",
+        "3.08 公分",
+        "38 公分　　",
+        "0.38 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "8 毫米 = 0.8 公分。 3 + 0.8 = 3.8 公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "小數減法",
+      "question": "小英有一條長 2 公尺的繩子，剪掉 1.3 公尺後，還剩下多少？",
+      "options": [
+        "1.3 公尺",
+        "0.7 公尺",
+        "1.7 公尺",
+        "1 公尺　　"
+      ],
+      "answer_index": 1,
+      "explanation": "2.0 - 1.3 = 0.7 公尺。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "小數加法",
+      "question": "一瓶果汁 0.6 公升，另一瓶果汁 0.5 公升。兩瓶共有多少公升？",
+      "options": [
+        "1.0 公升　",
+        "0.11 公升",
+        "11 公升　　",
+        "1.1 公升　"
+      ],
+      "answer_index": 3,
+      "explanation": "0.6 + 0.5 = 1.1。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "位值概念",
+      "question": "在 4.2 這個數中，『2』是在哪一個位值？",
+      "options": [
+        "十位　",
+        "百分位",
+        "個位　",
+        "十分位"
+      ],
+      "answer_index": 3,
+      "explanation": "小數點右邊第一位稱為十分位。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小數比大小陷阱",
+      "question": "下列哪一個數最大？",
+      "options": [
+        "0.15（假設學生已接觸三下小數基礎）",
+        "1.0　　　　　　　　　　　　　　　　",
+        "0.9　　　　　　　　　　　　　　　　",
+        "1.2　　　　　　　　　　　　　　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "1.2 的個位與十分位均領先。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "整數減小數診斷",
+      "question": "計算 10 - 4.5 的結果是多少？",
+      "options": [
+        "6.5　",
+        "5.5　",
+        "5.0　",
+        "14.5"
+      ],
+      "answer_index": 1,
+      "explanation": "10.0 - 4.5 = 5.5。",
+      "commonMisconception": "學生可能寫成 6.5 (10-4=6, 直接放5)。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數小數互化",
+      "question": "5/10 盒餅乾也就是多少盒餅乾（用小數表示）？",
+      "options": [
+        "0.5 盒　",
+        "0.05 盒",
+        "5.0 盒　",
+        "5 盒　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "十分之五即為 0.5。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "跳遠成績",
+      "question": "小明跳了 2.4 公尺，小華跳了 2.3 公尺。小明比小華多跳了幾『公分』？",
+      "options": [
+        "1 公分　　",
+        "100 公分",
+        "10 公分　",
+        "0.1 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "2.4 - 2.3 = 0.1 公尺 = 10 公分。注意單位轉換。",
+      "commonMisconception": "學生算出 0.1 就直接選，忽略單位轉換為公分。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數線讀取",
+      "question": "在數線上，0.8 往左邊移 3 格（每格 0.1）後，會是指在哪一個數字？",
+      "options": [
+        "0.5　",
+        "1.1　",
+        "0.83",
+        "0.3　"
+      ],
+      "answer_index": 0,
+      "explanation": "0.8 - 0.3 = 0.5。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "購買合資",
+      "question": "小力有 15.5 元，他想買一本 20 元的筆記本。他還差多少錢？",
+      "options": [
+        "5.5 元　",
+        "5 元　　　",
+        "4.5 元　",
+        "35.5 元"
+      ],
+      "answer_index": 2,
+      "explanation": "20.0 - 15.5 = 4.5。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

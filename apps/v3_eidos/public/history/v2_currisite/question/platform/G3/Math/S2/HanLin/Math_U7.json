@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "時間 ",
+    "lesson": "U7",
+    "order": 7
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "秒的換算",
+      "question": "3 分鐘等於多少秒？",
+      "options": [
+        "180 秒",
+        "120 秒",
+        "30 秒　",
+        "300 秒"
+      ],
+      "answer_index": 0,
+      "explanation": "3 × 60 = 180 秒。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "跑步計時",
+      "question": "小華跑 100 公尺用了 18 秒，小明用了 22 秒。誰跑得比較快？快了幾秒？",
+      "options": [
+        "小華；快 40 秒",
+        "小華；快 4 秒　",
+        "一樣快　　　　　　",
+        "小明；快 4 秒　"
+      ],
+      "answer_index": 1,
+      "explanation": "秒數越少越快。 22 - 18 = 4。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "時間點計算",
+      "question": "現在是下午 4 時 50 分，再過 20 分鐘是幾時幾分？",
+      "options": [
+        "4 時 70 分",
+        "5 時 0 分　",
+        "5 時 10 分",
+        "5 時 20 分"
+      ],
+      "answer_index": 2,
+      "explanation": "50 + 20 = 70 分 = 1 時 10 分。 4+1 = 5 時。故為 5:10。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "煮飯時間",
+      "question": "媽媽 17:30 開始煮飯，18:15 煮完。一共花了多久？",
+      "options": [
+        "15 分鐘　　　　",
+        "85 分鐘　　　　",
+        "1 小時 15 分",
+        "45 分鐘　　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "18:15 - 17:30。借 1 時 (60分)。 60+15-30 = 45 分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "電視節目",
+      "question": "卡通下午 5:40 開始播，播了 30 分鐘。結束時是幾時幾分？",
+      "options": [
+        "下午 6 時 10 分",
+        "下午 6 時 30 分",
+        "下午 5 時 70 分",
+        "下午 6 時 0 分　"
+      ],
+      "answer_index": 0,
+      "explanation": "40 + 30 = 70 = 1 時 10 分。 5+1 = 6 時。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "日與時換算",
+      "question": "48 小時也就是多少天？",
+      "options": [
+        "4 天",
+        "2 天",
+        "1 天",
+        "3 天"
+      ],
+      "answer_index": 1,
+      "explanation": "48 ÷ 24 = 2 天。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "時間六十進位陷阱",
+      "question": "計算 1 小時 20 分減去 45 分。結果是多少？",
+      "options": [
+        "85 分鐘　　　　",
+        "75 分鐘　　　　",
+        "35 分鐘　　　　",
+        "1 小時 75 分"
+      ],
+      "answer_index": 2,
+      "explanation": "80 分 - 45 分 = 35 分。",
+      "commonMisconception": "學生可能想成 120-45 (百進位餘數)。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "全天候觀測",
+      "question": "氣象觀測站每 6 小時紀錄一次氣溫。一天內共紀錄了幾次？",
+      "options": [
+        "3 次　",
+        "24 次",
+        "6 次　",
+        "4 次　"
+      ],
+      "answer_index": 3,
+      "explanation": "24 ÷ 6 = 4。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "時刻表報讀應用",
+      "question": "火車上午 11:55 開，車程長 2 小時 10 分。小明什麼時候會到站？",
+      "options": [
+        "下午 2 時 5 分　",
+        "下午 1 時 65 分",
+        "下午 2 時 15 分",
+        "下午 1 時 5 分　"
+      ],
+      "answer_index": 0,
+      "explanation": "11:55 + 2:10 = 13:65 = 14:05（下午2時5分）。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "時間點 vs 時間量",
+      "question": "『10 點』和『10 分鐘』有什麼不同？",
+      "options": [
+        "10 點比較大　　　　　　　　　　　　",
+        "10 點是時刻，10 分鐘是經過的時間",
+        "它們代表的意思完全一樣　　　　　　　　",
+        "10 點是長度，10 分鐘是重量　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "區分 Time point 與 Duration。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "刷牙計時",
+      "question": "醫生建議刷牙要刷 3 分鐘。小明刷了 100 秒，夠不夠？還差幾秒？",
+      "options": [
+        "不夠；還差 100 秒",
+        "夠了；多了 10 秒　",
+        "不夠；還差 80 秒　",
+        "不夠；還差 20 秒　"
+      ],
+      "answer_index": 2,
+      "explanation": "3 分 = 180 秒。 180 - 100 = 80。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "倒數計時",
+      "question": "原本是 12:00，經過 100 分鐘後是幾點幾分？",
+      "options": [
+        "1 時 0 分　　　",
+        "12 時 100 分",
+        "2 時 40 分　　",
+        "1 時 40 分　　"
+      ],
+      "answer_index": 3,
+      "explanation": "100 分 = 1 時 40 分。 12 + 1 = 13（下午1時）。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

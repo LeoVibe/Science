@@ -14,8 +14,8 @@
     "explanation": "在使用簡易高度角觀測器時，棉線垂直地面，仰望目標物時，棉線所指的刻度與 90 度的差值，正好對應人的視線仰角（高度角）。",
     "scenario": "小明週六晚上在操場進行星空觀測實作。",
     "commonMisconception": "學生常誤以為刻度盤上棉線指著多少度，月亮就有多高，忽略了垂線與仰角互餘的幾何關係。",
-    "quality_level": "L2",
-    "cqi_score": 6
+    "quality_level": "L5",
+    "cqi_score": 9
   },
   {
     "id": "nan-sci-g4s2-u1-02",
@@ -32,8 +32,8 @@
     "explanation": "因為地球由西向東自轉，導致天體（太陽、月亮、星星）在天空中看起來都是由東向西移動，呈現『東升西落』的現象。",
     "scenario": "導師在台上講解地球自轉與天體視運動的關係。",
     "commonMisconception": "部分學生因月相規律誤以為星星會東落西升，需釐清自轉造成的日週運動方向是一致的。",
-    "quality_level": "L2",
-    "cqi_score": 5
+    "quality_level": "L3",
+    "cqi_score": 6.5
   },
   {
     "id": "nan-sci-g4s2-u1-03",
@@ -68,8 +68,8 @@
     "explanation": "將北斗七星勺口處的兩顆星（天樞、天璇）連線，並向勺口開口方向延長約 5 倍距離，即可找到北極星。",
     "scenario": "自然老師帶領同學認識四季星空與星座辨識。",
     "commonMisconception": "記錯連線星顆數，或將勺口與杓柄的位置混淆。",
-    "quality_level": "L2",
-    "cqi_score": 4.5
+    "quality_level": "L5",
+    "cqi_score": 7.5
   },
   {
     "id": "nan-sci-g4s2-u1-05",
@@ -86,8 +86,8 @@
     "explanation": "隨著地球自轉，星星會由東向西移動。晚上 8 點在東方的星星，午夜 12 點會移動到更靠近南方或西方的天空。",
     "scenario": "爸爸帶著孩子觀察獵戶座腰帶上的三顆星。",
     "commonMisconception": "認為星星在同一個晚上位置是不變的，忽略了地球自轉帶來的位移。",
-    "quality_level": "L2",
-    "cqi_score": 4.5
+    "quality_level": "L5",
+    "cqi_score": 7.5
   },
   {
     "id": "nan-sci-g4s2-u1-06",
@@ -104,8 +104,8 @@
     "explanation": "使用盤面對準天空時，若面向北方，應將盤面標示的『北』轉至下方（靠近胸口），以便對齊真實地平面的北方。",
     "scenario": "全家一起去墾丁觀星，小明第一次學習操作星座盤。",
     "commonMisconception": "學生習慣看地面地圖（北在上），但在看星圖時，為了與天空對齊，標示位置會隨觀測方向旋轉。",
-    "quality_level": "L2",
-    "cqi_score": 4.5
+    "quality_level": "L5",
+    "cqi_score": 7.5
   },
   {
     "id": "nan-sci-g4s2-u1-07",
@@ -122,8 +122,8 @@
     "explanation": "由於地球繞太陽公轉，同一個時間點（例如每晚 8 點）看到的星空會隨季節緩慢變化，因此星座可以用來判斷季節。",
     "scenario": "自然課本中提到星座與農耕季節的關係。",
     "commonMisconception": "區分不開『同一個晚上星星移動（自轉）』與『不同季節同一時間星星移動（公轉）』的差異。",
-    "quality_level": "L2",
-    "cqi_score": 4.5
+    "quality_level": "L5",
+    "cqi_score": 7.5
   },
   {
     "id": "nan-sci-g4s2-u1-08",
@@ -176,7 +176,7 @@
     "explanation": "觀星需要黑暗的環境（低光害）與清澈的大氣，因此避開人造光源與空氣汙染的地區是首選。",
     "scenario": "小紅想要拍攝銀河軌跡，正在選取拍攝地點。",
     "commonMisconception": "認為只要天氣好（晴朗）在哪裡都能看到很多星星，忽略了環境光對視網膜感光的干擾。",
-    "quality_level": "L2",
-    "cqi_score": 4.5
+    "quality_level": "L5",
+    "cqi_score": 7.5
   }
 ]

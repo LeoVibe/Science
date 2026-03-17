@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci1",
+    "title": "水生家族",
+    "semester": "semester_2",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "魚類在水中呼吸的主要器官是什麼？",
+      "options": [
+        "魚鱗",
+        "肺",
+        "皮膚",
+        "鰓"
+      ],
+      "answer": "鰓",
+      "explanation": "鰓能濾取溶解在水中的氧氣。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "布袋蓮的葉柄內含有大量氣室，能幫助它漂浮在水面上。",
+      "answer": "True",
+      "explanation": "這是漂浮水生植物適應環境的構造。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "睡蓮的根生長在泥土中，葉子貼在水面上，它屬於______（沉水/浮葉）植物。",
+      "answer": "浮葉",
+      "explanation": "浮葉植物的特徵是葉片漂浮於水面，根部固定在水底。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪種動物「不屬於」水生家族？",
+      "options": [
+        "蝌蚪",
+        "蚯蚓",
+        "水黽",
+        "螃蟹"
+      ],
+      "answer": "蚯蚓",
+      "explanation": "蚯蚓生活在潮濕的泥土中，屬於陸生動物。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "為了保護水生家族的家園，我們應該怎麼做？",
+      "options": [
+        "把水抽乾蓋房子",
+        "往河裡丟垃圾",
+        "減少環境污染，不隨便放生外來物種",
+        "把水草全部拔掉"
+      ],
+      "answer": "減少環境污染，不隨便放生外來物種",
+      "explanation": "維護棲地與生物多樣性是生態保育的重點。"
+    }
+  ]
+}

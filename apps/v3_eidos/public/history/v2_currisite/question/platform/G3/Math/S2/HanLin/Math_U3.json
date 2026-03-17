@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "分數與其加減",
+    "lesson": "U3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "平分披薩",
+      "question": "一盒披薩平分成 8 片。哥哥吃了 3 片，是吃了幾盒？",
+      "options": [
+        "3/8 盒",
+        "8/3 盒",
+        "1/8 盒",
+        "3 盒　　"
+      ],
+      "answer_index": 0,
+      "explanation": "平分成 8 份，每一份是 1/8 盒。吃了 3 份即為 3/8 盒。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "緞帶裝飾",
+      "question": "有一條長 1 公尺的緞帶。小英用了 3/10 公尺包禮物，還剩幾公尺？",
+      "options": [
+        "13/10 公尺",
+        "7/10 公尺　",
+        "1 公尺　　　　",
+        "3/10 公尺　"
+      ],
+      "answer_index": 1,
+      "explanation": "1 - 3/10 = 10/10 - 3/10 = 7/10 公尺。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數與 1 的關係",
+      "question": "一箱飲料有 12 瓶。小華拿了 12/12 箱，也就是拿了幾瓶？",
+      "options": [
+        "12/12 瓶",
+        "0 瓶　　　　",
+        "12 瓶　　　",
+        "1 瓶　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "12/12 箱就是 1 箱。整箱即為 12 瓶。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "巧克力球分享",
+      "question": "一包巧克力球有 9 顆。小明吃 2/9 包，小英吃 4/9 包。兩人共吃了幾包？",
+      "options": [
+        "6/18 包",
+        "2/9 包　",
+        "1 包　　　",
+        "6/9 包　"
+      ],
+      "answer_index": 3,
+      "explanation": "2/9 + 4/9 = 6/9 包。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "分數比大小",
+      "question": "5/7 條繩子和 3/7 條繩子，哪一條比較長？",
+      "options": [
+        "5/7 條",
+        "3/7 條",
+        "一樣長　　",
+        "無法比較　"
+      ],
+      "answer_index": 0,
+      "explanation": "分母相同，分子 5 大於 3。故 5/7 比較長。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "蛋糕組合",
+      "question": "桌上有 4/6 個蜂蜜蛋糕和 1/6 個蜂蜜蛋糕。這兩個蜂蜜蛋糕合起來是幾分之幾個？",
+      "options": [
+        "5/12 個",
+        "5/6 個　",
+        "6/6 個　",
+        "3/6 個　"
+      ],
+      "answer_index": 1,
+      "explanation": "4/6 + 1/6 = 5/6 個。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分享布丁",
+      "question": "一盒布丁有 6 個。小明吃 2 個，也就是吞了幾盒？",
+      "options": [
+        "6/2 盒",
+        "1/2 盒",
+        "2/6 盒",
+        "2 盒　　"
+      ],
+      "answer_index": 2,
+      "explanation": "6個為一基準，2個代表 2/6 盒。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "離散量分數迷思",
+      "question": "一袋雞蛋 10 顆。媽媽拿走 3 顆，小華說他拿走 7/10 顆。誰說的對？",
+      "options": [
+        "兩人都對　　　　　　　　　　　　　　　　　",
+        "小華對，因為剩下 7 顆就是 7/10 顆",
+        "都不對　　　　　　　　　　　　　　　　　　",
+        "只有媽媽對，小華應該說 7/10 盒　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "單位概念辨析。7/10 應對應『盒/袋』而非『顆』。7 顆是數量。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "水瓶水量計",
+      "question": "瓶子容量為 1 公升。原本裝有 9/10 公升的水，倒掉 4/10 公升後，還剩下多少？",
+      "options": [
+        "5/10 公升　",
+        "13/10 公升",
+        "1 公升　　　　",
+        "1/10 公升　"
+      ],
+      "answer_index": 0,
+      "explanation": "9/10 - 4/10 = 5/10。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "合體巧克力",
+      "question": "小明有 2/5 塊巧克力，小英給他 3/5 塊。小明現在有幾塊巧克力？",
+      "options": [
+        "5 塊　　　",
+        "1 塊　　　",
+        "5/10 塊",
+        "0.5 塊　"
+      ],
+      "answer_index": 1,
+      "explanation": "2/5 + 3/5 = 5/5 = 1 塊。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數填空",
+      "question": "3/11 加上 (  ) 等於 8/11。括號應填入？",
+      "options": [
+        "5/22　",
+        "11/11",
+        "5/11　",
+        "11/3　"
+      ],
+      "answer_index": 2,
+      "explanation": "8 - 3 = 5。故填入 5/11。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "距離計算",
+      "question": "一條路長 1 公里。工程隊鋪了 4/12 公里，還剩下幾公里沒鋪？",
+      "options": [
+        "1 公里　　　",
+        "12/4 公里",
+        "0.8 公里　",
+        "8/12 公里"
+      ],
+      "answer_index": 3,
+      "explanation": "1 - 4/12 = 8/12。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

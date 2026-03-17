@@ -5,29 +5,42 @@
   "semester": "S2",
   "items": [
     {
-      "id": "U1",
-      "file": "Soc_U1.json",
-      "title": "居住環境與地名探索"
+      "id": "Soc_U1",
+      "title": "我居住的地方",
+      "file": "Soc_U1.json"
     },
     {
-      "id": "U2",
-      "file": "Soc_U2.json",
-      "title": "居住地方的故事"
+      "id": "Soc_U2",
+      "title": "多元的生活空間",
+      "file": "Soc_U2.json"
     },
     {
-      "id": "U3",
-      "file": "Soc_U3.json",
-      "title": "商店與理性消費"
+      "id": "Soc_U3",
+      "title": "生活中的各行各業",
+      "file": "Soc_U3.json"
     },
     {
-      "id": "U4",
-      "file": "Soc_U4.json",
-      "title": "群體參與及權益服務"
+      "id": "Soc_U4",
+      "title": "生活與工作的轉變",
+      "file": "Soc_U4.json"
     },
     {
-      "id": "U5",
-      "file": "Soc_U5.json",
-      "title": "家鄉故事與古蹟保存"
+      "id": "Soc_U5",
+      "title": "儲蓄與消費的選擇",
+      "file": "Soc_U5.json"
+    },
+    {
+      "id": "Soc_U6",
+      "title": "小小街道觀察家",
+      "file": "Soc_U6.json"
     }
-  ]
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9.0,
+      "accuracyScore": 9.8,
+      "isVerified": true
+    }
+  }
 }

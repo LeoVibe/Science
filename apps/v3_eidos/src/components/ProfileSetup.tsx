@@ -28,6 +28,8 @@ export interface UserProfile {
   shortcut_enabled?: boolean;
   /** 進階挑戰題目數量 */
   maxQuizQuestions?: number;
+  /** 是否已完成首次設定 */
+  setupComplete?: boolean;
 }
 
 interface ProfileSetupProps {
@@ -108,7 +110,7 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
     });
   }, [onSave, autoAdvanceDelayMs, shortcutEnabled, maxQuizQuestions]);
 
-  const handleClose = useCallback(() => {
+  const handleSave = useCallback(() => {
     doSave(grade, semester, publisherBySubject, autoAdvanceDelayMs, shortcutEnabled, maxQuizQuestions);
     onClose();
   }, [grade, semester, publisherBySubject, autoAdvanceDelayMs, shortcutEnabled, maxQuizQuestions, doSave, onClose]);
@@ -121,27 +123,24 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
       newSubjects.forEach(s => {
         if (!updated[s]) updated[s] = getDefaultPublisher();
       });
-      setTimeout(() => doSave(g, semester, updated, autoAdvanceDelayMs, shortcutEnabled), 0);
       return updated;
     });
   };
 
   const handleSemesterChange = (s: Semester) => {
     setSemester(s);
-    doSave(grade, s, publisherBySubject, autoAdvanceDelayMs, shortcutEnabled);
   };
 
   const handlePublisherSelect = (subject: Subject, pub: Publisher) => {
     setPublisherBySubject(prev => {
       const key = `${subject}_S${semester}`;
       const updated = { ...prev, [key]: pub };
-      setTimeout(() => doSave(grade, semester, updated, autoAdvanceDelayMs, shortcutEnabled), 0);
       return updated;
     });
   };
 
   const handleBackdropClick = (e: React.MouseEvent) => {
-    if (e.target === backdropRef.current) handleClose();
+    if (e.target === backdropRef.current) onClose();
   };
 
   return (
@@ -154,7 +153,7 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
         {/* Header */}
         <div className="relative px-5 pt-5 pb-4 bg-primary/8">
           <button
-            onClick={handleClose}
+            onClick={onClose}
             className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full bg-muted text-muted-foreground hover:bg-border transition-all text-sm"
             aria-label="關閉"
           >✕</button>
@@ -303,10 +302,7 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
                     <button
                       key={opt.value}
                       type="button"
-                      onClick={() => {
-                        setAutoAdvanceDelayMs(opt.value);
-                        doSave(grade, semester, publisherBySubject, opt.value, shortcutEnabled);
-                      }}
+                      onClick={() => setAutoAdvanceDelayMs(opt.value)}
                       className={`py-1.5 px-3 rounded-xl font-bold text-xs transition-all active:scale-95 ${autoAdvanceDelayMs === opt.value
                         ? 'bg-primary text-primary-foreground shadow-sm'
                         : 'bg-secondary text-secondary-foreground hover:bg-muted'
@@ -320,36 +316,57 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
                   <input
                     type="checkbox"
                     checked={shortcutEnabled}
-                    onChange={(e) => {
-                      setShortcutEnabled(e.target.checked);
-                      doSave(grade, semester, publisherBySubject, autoAdvanceDelayMs, e.target.checked);
-                    }}
+                    onChange={(e) => setShortcutEnabled(e.target.checked)}
                     className="rounded border-input"
                   />
                   <span className="text-sm font-medium">使用 A–D 快捷鍵答題</span>
                 </label>
               </div>
 
-              {/* 進階挑戰預設題目數量 */}
               <div className="border-t border-border pt-3">
                 <p className="text-[11px] font-bold text-muted-foreground mb-2 tracking-wider">進階挑戰題目數量</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {[10, 15, 20, 25, 30].map((num) => (
+                {/* 快選按鈕 + 步進器同一行 */}
+                <div className="flex flex-wrap gap-2 items-center">
+                  <div className="flex flex-wrap gap-1.5 items-center">
+                    {[20, 30, 40].map((num) => (
+                      <button
+                        key={num}
+                        type="button"
+                        onClick={() => setMaxQuizQuestions(num)}
+                        className={`py-1.5 px-3 rounded-xl font-bold text-xs transition-all active:scale-95 ${maxQuizQuestions === num
+                          ? 'bg-primary text-primary-foreground shadow-sm'
+                          : 'bg-secondary text-secondary-foreground hover:bg-muted'
+                          }`}
+                      >
+                        {num} 題
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* 垂直分割線 */}
+                  <div className="w-px h-4 bg-border/60 mx-1 hidden sm:block" />
+
+                  {/* 步進器 */}
+                  <div className="flex items-center gap-0 rounded-xl border border-border overflow-hidden bg-card shadow-sm">
                     <button
-                      key={num}
                       type="button"
-                      onClick={() => {
-                        setMaxQuizQuestions(num);
-                        doSave(grade, semester, publisherBySubject, autoAdvanceDelayMs, shortcutEnabled, num);
-                      }}
-                      className={`py-1.5 px-3 rounded-xl font-bold text-xs transition-all active:scale-95 ${maxQuizQuestions === num
-                        ? 'bg-primary text-primary-foreground shadow-sm'
-                        : 'bg-secondary text-secondary-foreground hover:bg-muted'
-                        }`}
+                      onClick={() => setMaxQuizQuestions(v => Math.max(5, v - 5))}
+                      className="w-9 h-8 flex items-center justify-center text-base font-bold text-muted-foreground hover:bg-muted active:scale-90 transition-all border-r border-border"
                     >
-                      {num} 題
+                      −
                     </button>
-                  ))}
+                    <span className={`w-14 h-8 flex items-center justify-center text-sm font-extrabold transition-colors ${![20, 30, 40].includes(maxQuizQuestions) ? 'text-primary' : 'text-foreground'
+                      }`}>
+                      {maxQuizQuestions} 題
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setMaxQuizQuestions(v => Math.min(100, v + 5))}
+                      className="w-9 h-8 flex items-center justify-center text-base font-bold text-muted-foreground hover:bg-muted active:scale-90 transition-all border-l border-border"
+                    >
+                      ＋
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -391,7 +408,7 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
           {/* Done */}
           <div className="pt-1 pb-1">
             <button
-              onClick={handleClose}
+              onClick={handleSave}
               className="w-full rounded-2xl py-3 font-extrabold text-sm bg-primary text-primary-foreground shadow-sm hover:shadow-md active:scale-[0.98] transition-all"
             >✅ 完成設定</button>
           </div>

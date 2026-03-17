@@ -2,6 +2,8 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { Question, SUBJECT_THEME_MAP, Subject } from '@/data/config';
 import QuestionFeedback from './QuestionFeedback';
 import IntentionTooltip from './IntentionTooltip';
+import { EducationalBadges } from './EducationalBadges';
+import { stripOptionPrefix } from '@/utils/format';
 
 interface QuizViewProps {
   questions: Question[];
@@ -218,7 +220,7 @@ export default function QuizView({
                 className={`w-full text-left px-4 py-3 rounded-xl transition-all duration-150 flex items-start gap-3 ${optClass} ${isKeyFeedback ? 'scale-[0.98] ring-2 ring-primary/50' : 'scale-100'}`}
               >
                 <span className="font-bold text-muted-foreground shrink-0">{optionLabels[i]}</span>
-                <span>{opt}</span>
+                <span>{stripOptionPrefix(opt)}</span>
               </button>
             );
           })}
@@ -243,6 +245,11 @@ export default function QuizView({
                 <IntentionTooltip />
               </p>
             )}
+            <EducationalBadges
+              explanationLength={current.explanation?.length}
+              cqiScore={current.cqi_score}
+              qualityLevel={current.quality_level}
+            />
           </div>
         )}
       </div>

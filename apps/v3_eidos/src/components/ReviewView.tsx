@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Question, Subject, SUBJECT_THEME_MAP } from '@/data/config';
 import IntentionTooltip from '@/components/IntentionTooltip';
+import { EducationalBadges } from './EducationalBadges';
+import { stripOptionPrefix } from '@/utils/format';
 
 interface ReviewViewProps {
   questions: Question[];
@@ -29,8 +31,8 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
             key={cat}
             onClick={() => setActiveTab(cat)}
             className={`px-3 py-1.5 rounded-xl text-sm font-medium transition-all ${activeTab === cat
-                ? `gradient-${theme} text-primary-foreground shadow-sm`
-                : 'bg-muted hover:bg-muted-foreground/10'
+              ? `gradient-${theme} text-primary-foreground shadow-sm`
+              : 'bg-muted hover:bg-muted-foreground/10'
               }`}
           >
             {cat}
@@ -52,7 +54,7 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
                 <div key={j} className={`px-3 py-2 rounded-lg text-sm flex items-start gap-2 ${j === q.normalizedAnswer ? 'bg-correct-light font-medium' : 'bg-muted/50'
                   }`}>
                   <span className="font-bold text-muted-foreground">{optionLabels[j]}</span>
-                  <span>{opt}</span>
+                  <span>{stripOptionPrefix(opt)}</span>
                   {j === q.normalizedAnswer && <span className="ml-auto text-accent">✓</span>}
                 </div>
               ))}
@@ -63,6 +65,11 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
                 <IntentionTooltip />
               </p>
             )}
+            <EducationalBadges
+              explanationLength={q.explanation?.length}
+              cqiScore={q.cqi_score}
+              qualityLevel={q.quality_level}
+            />
           </div>
         ))}
         {filtered.length === 0 && (

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U2",
+    "order": 2,
+    "title": "What's Your Name?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What's your name? B: My ______ Dino.",
+      "options": [
+        "is name",
+        "name is",
+        "name",
+        "names"
+      ],
+      "answer": "name is",
+      "explanation": "回答名字時使用 My name is... 或 I'm...。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'What is' can be shortened to 'What's'.",
+      "answer": "True",
+      "explanation": "What is 的縮寫形式是 What's。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: What's ______ name? B: My name is Niki.",
+      "answer": "your",
+      "explanation": "your 是「你的」的意思。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "Which of the following is correct?",
+      "options": [
+        "My name is Dino.",
+        "I name is Dino.",
+        "I is Dino.",
+        "My name am Dino."
+      ],
+      "answer": "My name is Dino.",
+      "explanation": "My name 是單數主詞，配合 be 動詞 is。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What's your name? B: I ______ Danny.",
+      "options": [
+        "am",
+        "are",
+        "be",
+        "is"
+      ],
+      "answer": "am",
+      "explanation": "I am... 也是介紹自己名字的一種方式。"
+    }
+  ]
+}

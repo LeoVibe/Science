@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "統計表",
+    "lesson": "L8",
+    "order": 8
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "班級人數長條圖報讀",
+      "question": "觀察班級人數長條圖：甲班有 12 人。乙班的長條比甲班還要高出 3 格（每格代表一人）。請問乙班共有幾人？",
+      "options": [
+        "15 人",
+        "12 人",
+        "3 人　",
+        "9 人　"
+      ],
+      "answer_index": 0,
+      "explanation": "根據圖意，乙班的人數是甲班的人數再加上多出的 3 格，即 12 + 3 = 15 人。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "課表交叉檢索練習",
+      "question": "查閱功課表：週三的第一節是國語課。週五的第一節則是數學課。請問這兩天的第一節課分別上了什麼？",
+      "options": [
+        "只有數學課　　",
+        "國語和數學　　",
+        "兩天都是自然課",
+        "只有國語課　　"
+      ],
+      "answer_index": 1,
+      "explanation": "透過功課表的二維結構，我們可以精確找到特定日期與節次的對應課程名稱分別為國語與數學。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "水果口味喜好調查",
+      "question": "班上進行口味調查：喜歡草莓的有 8 人，喜歡巧克力的有 15 人。請問喜歡巧克力的比草莓的多出幾人？",
+      "options": [
+        "23 人",
+        "8 人　",
+        "7 人　",
+        "15 人"
+      ],
+      "answer_index": 2,
+      "explanation": "比較兩個數據的差異需使用減法計算：15 減去 8 等於 7，因此巧克力的愛好者多出 7 人。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "高鐵交通時刻表應用",
+      "question": "小明查閱高鐵時刻表：電車顯示 15:10 開車。 16:20 到達目的地。請問這一趟車程一共花了多久時間？",
+      "options": [
+        "70 分鐘　　　　",
+        "10 分鐘　　　　",
+        "1 小時 20 分",
+        "1 小時 10 分"
+      ],
+      "answer_index": 3,
+      "explanation": "計算經過時間：16 時 20 分減去 15 時 10 分。小時相減為 1，分鐘相減為 10，故為 1 小時 10 分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "統計表結構基礎認知",
+      "question": "在一張完整規範的統計表格（如二維表）中，哪一個部分是用來填寫比較對象或項目名稱的？",
+      "options": [
+        "表格的標題或最左側欄、最上方列",
+        "表格外面另外附上的紙條　　　　",
+        "表格最下方隨意空白的位置　　　",
+        "表格正中間的數字填寫區　　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "表格的首行或首列通常定義了數據的類別與名稱，而中間區域則是用來填寫具體的量化數值。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "飲水量一週統計分析",
+      "question": "小明紀錄這週五天的喝水量分別是 1500ml, 1200ml, 1600ml, 1400ml, 1300ml. 請問這五天中，喝最多水的是哪一次？",
+      "options": [
+        "1400ml",
+        "1600ml",
+        "1200ml",
+        "1500ml"
+      ],
+      "answer_index": 1,
+      "explanation": "透過數值大小的排序與比較，我們發現 1600 毫升是這五組數據中最大的一個，代表喝水量最多。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "區段火車票價查詢",
+      "question": "票價表：台北到桃園 45 元。台北到新竹 115 元。假設為單一方向區段計算，從桃園到新竹大約要幾元？",
+      "options": [
+        "45 元　",
+        "160 元",
+        "70 元　",
+        "115 元"
+      ],
+      "answer_index": 2,
+      "explanation": "這是在計算兩段區間的票價差值：115 減去 45 等於 70，因此桃園到新竹的票價應為 70 元。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "運動步數累計統計報表",
+      "question": "小華紀錄慢跑路程：週一到週五每天跑 2 公里。週六加碼跑 5 公里。請問這六天中小華一共跑了幾公里？",
+      "options": [
+        "14 公里",
+        "10 公里",
+        "7 公里　",
+        "15 公里"
+      ],
+      "answer_index": 3,
+      "explanation": "先計算週一至週五的總長：2 × 5 = 10 公里。再加上週六的 5 公里，合計一共跑了 15 公里。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "育樂中心門票計算表",
+      "question": "游泳池價目表標示：大人 100 元，小孩 50 元。小明家有 2 個大人和 3 個小孩一共要買多少元的票？",
+      "options": [
+        "350 元",
+        "200 元",
+        "300 元",
+        "150 元"
+      ],
+      "answer_index": 0,
+      "explanation": "兩步驟計算：大人費用 100 × 2 = 200 元；小孩費用 50 × 3 = 150 元。相加總共需支付 350 元。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "搭乘班次空暇計算",
+      "question": "小明查表發現 13:00 的車剛走，下一班是 13:45. 如果現在時間是 13:20. 請問他還需要等多久？",
+      "options": [
+        "20 分鐘",
+        "25 分鐘",
+        "45 分鐘",
+        "15 分鐘"
+      ],
+      "answer_index": 1,
+      "explanation": "計算等待時間：從現在的 13:20 到發車的 13:45，分鐘數相減 45 減去 20 等於 25，需再等 25 分鐘。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "電視節目前後時段表",
+      "question": "電視台公告：A 節目時長 30 分，B 節目時長 45 分。如果小明從 14:00 開始連看這兩個節目，幾點會播完？",
+      "options": [
+        "15 時 0 分　",
+        "14 時 75 分",
+        "15 時 15 分",
+        "14 時 45 分"
+      ],
+      "answer_index": 2,
+      "explanation": "兩個節目總時長為 30 + 45 = 75 分鐘，即 1 小時 15 分鐘。 14 點加上 1 時 15 分等於 15:15 播完。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "統計數據缺失推理題",
+      "question": "抽獎箱總數是 100 顆。已知甲獎有 30 顆，乙獎有 45 顆，剩下的都是丙獎。請問丙獎共有幾顆？",
+      "options": [
+        "55 顆",
+        "75 顆",
+        "70 顆",
+        "25 顆"
+      ],
+      "answer_index": 3,
+      "explanation": "先算出已知獎項的和：30 + 45 = 75 顆。再從總數 100 中扣除已知的 75 顆，得到的 25 顆即為丙獎數量。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-import { MessageSquareText, ThumbsDown, CheckCircle2 } from 'lucide-react';
+import { MessageSquareText, CheckCircle2, AlertCircle, HelpCircle, Edit3, Image as ImageIcon, XCircle, Info } from 'lucide-react';
 import { toast } from 'sonner';
 import { getApiBaseUrl } from '@/data/api';
 
@@ -12,11 +12,12 @@ interface QuestionFeedbackProps {
     isToolbarStyle?: boolean;
 }
 
-const FEEDBACK_TAGS = [
-    { id: 'dont_understand', label: '看不懂題目', icon: '🤷' },
-    { id: 'content_error', label: '答案或內容有錯', icon: '❌' },
-    { id: 'typo', label: '有錯字', icon: '⌨️' },
-    { id: 'display_issue', label: '圖片或排版不清楚', icon: '🎨' },
+const FEEDBACK_OPTIONS = [
+    { id: 'confusing', label: '🤷 題目看不懂、不清楚', icon: <HelpCircle className="w-3.5 h-3.5 text-amber-500" /> },
+    { id: 'wrong_answer', label: '⌨️ 答案選項錯誤或錯字', icon: <Edit3 className="w-3.5 h-3.5 text-red-500" /> },
+    { id: 'formatting', label: '🎨 圖片或排版不清楚', icon: <ImageIcon className="w-3.5 h-3.5 text-blue-500" /> },
+    { id: 'too_hard', label: '❌ 題目太難、不該出現', icon: <XCircle className="w-3.5 h-3.5 text-purple-500" /> },
+    { id: 'other', label: '💬 其他建議', icon: <Info className="w-3.5 h-3.5 text-slate-500" /> },
 ];
 
 export default function QuestionFeedback({ questionId, userId, isToolbarStyle }: QuestionFeedbackProps) {
@@ -65,28 +66,28 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
             <PopoverTrigger asChild>
                 <Button
                     variant="ghost"
-                    size={isToolbarStyle ? "default" : "sm"}
+                    size="sm"
                     className={`${isToolbarStyle
-                        ? "w-full h-full py-3 px-1 text-xs sm:text-sm text-muted-foreground/70 hover:text-foreground hover:bg-muted/50 border-none shadow-none"
+                        ? "h-9 px-3 text-xs bg-muted/50 border border-muted-foreground/10 hover:bg-muted"
                         : "h-7 px-2 text-[10px] text-muted-foreground bg-muted/30 rounded-full"
                         } gap-1.5 transition-all flex-col sm:flex-row`}
                 >
-                    <MessageSquareText className={isToolbarStyle ? "w-4 h-4" : "w-3 h-3"} />
-                    <span className={isToolbarStyle ? "scale-90 sm:scale-100" : ""}>這題有誤？</span>
+                    <AlertCircle className={isToolbarStyle ? "w-4 h-4" : "w-3 h-3"} />
+                    <span className={isToolbarStyle ? "scale-90 sm:scale-100" : ""}>問題回報</span>
                 </Button>
             </PopoverTrigger>
             <PopoverContent className="w-56 p-3 rounded-2xl shadow-xl border-amber-100" side="top" align="start" sideOffset={12}>
                 <div className="space-y-3">
                     <div className="space-y-1">
                         <h4 className="text-xs font-bold flex items-center gap-1.5">
-                            <ThumbsDown className="w-3 h-3 text-amber-500" />
+                            <MessageSquareText className="w-3 h-3 text-amber-500" />
                             這題哪裡怪怪的呢？
                         </h4>
                         <p className="text-[10px] text-muted-foreground">告訴我們，我們會馬上修復它！</p>
                     </div>
 
                     <div className="grid grid-cols-1 gap-1.5">
-                        {FEEDBACK_TAGS.map((tag) => (
+                        {FEEDBACK_OPTIONS.map((tag) => (
                             <Button
                                 key={tag.id}
                                 variant="outline"
@@ -96,7 +97,7 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
                                     }`}
                                 onClick={() => handleFeedback(tag.id, tag.label)}
                             >
-                                <span className="text-sm">{tag.icon}</span>
+                                <span className="mr-2 text-xs">{tag.icon}</span>
                                 {tag.label}
                             </Button>
                         ))}

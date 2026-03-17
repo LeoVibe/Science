@@ -1,6 +1,8 @@
 import { Grade, Semester, Publisher, Subject, Question, SUBJECT_THEME_MAP, SUBJECT_ICONS, SEMESTER_NAMES } from '@/data/config';
 import { getStatistics, getWrongQuestions, getPracticeHistory, AnswerRecord } from '@/utils/storage';
 import IntentionTooltip from '@/components/IntentionTooltip';
+import { EducationalBadges } from './EducationalBadges';
+import { stripOptionPrefix } from '@/utils/format';
 
 const optionLabels = ['A', 'B', 'C', 'D'];
 
@@ -97,11 +99,10 @@ export default function ResultView({
                       <p className="font-medium text-sm">{q.question}</p>
                       <div className="space-y-1">
                         {q.options.map((opt, j) => (
-                          <div key={j} className={`px-2 py-1.5 rounded-lg text-sm flex items-start gap-2 ${
-                            j === q.normalizedAnswer ? 'bg-correct-light font-medium' : 'bg-muted/50'
-                          }`}>
+                          <div key={j} className={`px-2 py-1.5 rounded-lg text-sm flex items-start gap-2 ${j === q.normalizedAnswer ? 'bg-correct-light font-medium' : 'bg-muted/50'
+                            }`}>
                             <span className="font-bold text-muted-foreground">{optionLabels[j]}</span>
-                            <span>{opt}</span>
+                            <span>{stripOptionPrefix(opt)}</span>
                             {j === q.normalizedAnswer && <span className="ml-auto text-green-600">✓ 正確答案</span>}
                           </div>
                         ))}
@@ -112,6 +113,11 @@ export default function ResultView({
                           <IntentionTooltip />
                         </p>
                       )}
+                      <EducationalBadges
+                        explanationLength={q.explanation?.length}
+                        cqiScore={q.cqi_score}
+                        qualityLevel={q.quality_level}
+                      />
                     </>
                   ) : (
                     <p className="text-sm text-muted-foreground">題目 {r.questionId}（目前題庫中無此題）</p>

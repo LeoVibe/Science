@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "han_lin",
+        "lesson": "U3",
+        "title": "長方體與正方體的體積"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "邊長3公分的正方體，體積是多少立方公分？",
+            "options": [
+                "9",
+                "27",
+                "12",
+                "18"
+            ],
+            "answer": "27",
+            "explanation": "3 × 3 × 3 = 27。"
+        },
+        {
+            "id": "2",
+            "type": "multiple_choice",
+            "question": "1立方公尺等於多少立方公分？",
+            "options": [
+                "1000",
+                "10000",
+                "1000000",
+                "100"
+            ],
+            "answer": "1000000",
+            "explanation": "1公尺=100公分，100×100×100 = 1,000,000。"
+        }
+    ]
+}

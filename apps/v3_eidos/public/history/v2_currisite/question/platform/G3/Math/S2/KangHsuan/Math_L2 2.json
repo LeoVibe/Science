@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "公斤與公克",
+    "lesson": "L2",
+    "order": 2
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "單位換算",
+      "question": "2 公斤 500 公克等於幾公克？",
+      "options": [
+        "2500 公克",
+        "250 公克　",
+        "2 公斤　　　",
+        "2050 公克"
+      ],
+      "answer_index": 0,
+      "explanation": "2kg = 2000g. 2000 + 500 = 2500g.",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "讀秤練習",
+      "question": "一個 3kg 秤。指針指在 1kg 與 2kg 的正中間（大格中間）。代表是多少？",
+      "options": [
+        "150 公克　　　　　",
+        "1 公斤 500 公克",
+        "2 公斤　　　　　　　",
+        "1 公斤 50 公克　"
+      ],
+      "answer_index": 1,
+      "explanation": "大格中間是 500g。 1kg + 500g = 1kg 500g。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "重量加法",
+      "question": "小明背 3kg 200g 的書包，又拿了 800g 的便當。總共多重？",
+      "options": [
+        "3 公斤 1000 公克",
+        "400 公斤　　　　　　",
+        "4 公斤　　　　　　　　",
+        "3800 公斤　　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "200 + 800 = 1000g = 1kg. 3 + 1 = 4kg.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "重量減法",
+      "question": "鳳梨原重 2kg 400g。切開去皮後，果肉重 1kg 800g。皮重多少？",
+      "options": [
+        "1 公斤 600 公克",
+        "1 公斤　　　　　　　",
+        "400 公克　　　　　",
+        "600 公克　　　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "2400 - 1800 = 600g.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "單位選擇",
+      "question": "媽媽買一包砂糖。單位用哪一個最合適？",
+      "options": [
+        "公斤或公克",
+        "公升　　　",
+        "平方公分　",
+        "公分　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "砂糖是固體重量，使用重量單位。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "總重計算",
+      "question": "一箱飲料重 12kg。搬到樓上後，喝掉 4 瓶（每瓶 500g）。剩下的重量是多少？",
+      "options": [
+        "11 公斤 500 公克",
+        "10 公斤　　　　　　　",
+        "12 公斤　　　　　　　",
+        "8 公斤　　　　　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "4 × 500 = 2000g = 2kg. 12 - 2 = 10kg.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "量感推理",
+      "question": "下列哪一種組合剛好是 1 公斤？",
+      "options": [
+        "5 個 100 公克的蘋果　",
+        "10 個 10 公克的硬幣　",
+        "2 個 500 公克的鹽袋　",
+        "1 個 100 公克的巧克力"
+      ],
+      "answer_index": 2,
+      "explanation": "500 × 2 = 1000g = 1kg.",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "磅秤極限",
+      "question": "小英將一個 4kg 的西瓜放在上限 3kg 的秤上。指針會發生什麼事？",
+      "options": [
+        "指針會不動　　　　　　　　　　　",
+        "指針會停在 0　　　　　　　　　",
+        "秤會爆炸　　　　　　　　　　　　",
+        "指針會轉過一圈又停在 1kg 處"
+      ],
+      "answer_index": 3,
+      "explanation": "超載後指針會越過零點進入下一圈。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "食材準備",
+      "question": "做餅乾需要麵粉 450g、糖 200g、奶油 250g。這些材料合起來是多少公克？是多少公斤？",
+      "options": [
+        "900 公克；未滿 1 公斤",
+        "800 公克；未滿 1 公斤",
+        "1 公斤 100 公克　　　",
+        "1000 公克；1 公斤　　"
+      ],
+      "answer_index": 0,
+      "explanation": "450 + 200 + 250 = 900g. 未滿 1000g (1kg)。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "體重變化",
+      "question": "小力體重 32.5 公斤（32公斤 500公克）。吃完飯後重了 600 公克。他現在體重多少？",
+      "options": [
+        "33 公斤　　　　　　　　",
+        "33 公斤 100 公克　",
+        "38 公斤 500 公克　",
+        "32 公斤 1100 公克"
+      ],
+      "answer_index": 1,
+      "explanation": "32kg 500g + 600g = 32kg 1100g = 33kg 100g.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分裝重量",
+      "question": "一袋 3 公斤的米。裝滿 4 個 600 公克的盒子後。袋子裡還剩下多少米？",
+      "options": [
+        "300 公克　　　　　",
+        "1 公斤　　　　　　　",
+        "600 公克　　　　　",
+        "2 公斤 400 公克"
+      ],
+      "answer_index": 2,
+      "explanation": "600 × 4 = 2400. 3000 - 2400 = 600g.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "單位比較陷阱",
+      "question": "哪一個最重？",
+      "options": [
+        "1kg 20g",
+        "1.1kg　　",
+        "1020g　　",
+        "1200g　　"
+      ],
+      "answer_index": 3,
+      "explanation": "1200g = 1.2kg. 最重。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    }
+  ]
+}

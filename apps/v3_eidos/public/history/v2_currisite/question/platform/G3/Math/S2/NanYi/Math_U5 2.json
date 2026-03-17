@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "nan_yi",
+    "title": "面積",
+    "lesson": "U5",
+    "order": 5
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "面積點算",
+      "question": "一個長方形由邊長 1 公分的正方形方格鋪成，長有 6 格，寬有 4 格。它的面積是多少？",
+      "options": [
+        "24 平方公分",
+        "20 平方公分",
+        "10 平方公分",
+        "12 平方公分"
+      ],
+      "answer_index": 0,
+      "explanation": "6 × 4 = 24。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圖形面積比較",
+      "question": "甲是一個邊長 4 公分正方形，乙是一個長 8 公分、寬 2 公分的長方形。誰的面積比較大？",
+      "options": [
+        "甲比較大",
+        "乙比較大",
+        "一樣大　",
+        "無法比較"
+      ],
+      "answer_index": 2,
+      "explanation": "甲：4×4=16。乙：8×2=16。故一樣大。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "半格拼湊",
+      "question": "在方格紙上，有 6 個完整方格和 4 個『一半的方格』。請問總面積是多少平方公分？（每格 1 平方公分）",
+      "options": [
+        "6 平方公分　",
+        "10 平方公分",
+        "7 平方公分　",
+        "8 平方公分　"
+      ],
+      "answer_index": 3,
+      "explanation": "4 個半格 = 2 個全格。6 + 2 = 8 平方公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "面積單位",
+      "question": "測量教室課桌面的大小時，適合使用哪一種單位？",
+      "options": [
+        "公尺　　",
+        "公分　　",
+        "毫升　　",
+        "平方公分"
+      ],
+      "answer_index": 3,
+      "explanation": "測量二維平面的大小應用「面積單位」，平方公分為三下常用標竿。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "貼瓷磚問題",
+      "question": "一塊長 15 公分、寬 10 公分的桌墊。如果用面積 1 平方公分的貼紙貼滿，需要幾張？",
+      "options": [
+        "25 張　",
+        "50 張　",
+        "150 張",
+        "100 張"
+      ],
+      "answer_index": 2,
+      "explanation": "15 × 10 = 150。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "面積守恆迷思",
+      "question": "將一個正方形色紙對剪後，拼成一個長方形。請問面積發生了什麼變化？",
+      "options": [
+        "變大　　　　　　",
+        "變小　　　　　　",
+        "面積不變　　　　",
+        "不一定，看怎麼剪"
+      ],
+      "answer_index": 2,
+      "explanation": "切割與重新拼湊過程，紙張的總量沒變，所以「面積不變」。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "周長與面積區分",
+      "question": "小英用一條長 12 公分的繩子圍成一個正方形。請問這個正方形的面積是多少平方公分？",
+      "options": [
+        "12 平方公分　",
+        "36 平方公分　",
+        "144 平方公分",
+        "9 平方公分　　"
+      ],
+      "answer_index": 3,
+      "explanation": "繩長是周長。邊長 = 12 ÷ 4 = 3 公分。面積 = 3 × 3 = 9。",
+      "commonMisconception": "學生誤拿周長 12 當邊長去算，或與周長混淆。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "不規則圖形估算",
+      "question": "甲圖形佔了 15 格，乙圖形佔了 10 格及 8 個半格。誰的面積大？",
+      "options": [
+        "一樣大　",
+        "甲大　　",
+        "乙大　　",
+        "無法判斷"
+      ],
+      "answer_index": 1,
+      "explanation": "甲=15。乙=10+8/2=14。故甲大。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "格點概念",
+      "question": "如果一個 L 形圖形是由 5 個 1 平方公分的正方形拼成的。它的面積是多少？",
+      "options": [
+        "1 平方公分　",
+        "5 平方公分　",
+        "無法判斷　　　",
+        "25 平方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "面積就是填滿該平面的單位方格總數。5 個方格即為 5 平方公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "挖空計算",
+      "question": "一個長 6 公分、寬 5 公分的紙板，中間挖掉一個邊長 2 公分正方形孔。剩下部分的面積是多少？",
+      "options": [
+        "26 平方公分",
+        "30 平方公分",
+        "4 平方公分　",
+        "22 平方公分"
+      ],
+      "answer_index": 0,
+      "explanation": "總面積 6×5=30。挖空面積 2×2=4。30-4=26。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "倍數關係",
+      "question": "一個邊長 1 公分正方形。如果邊長變成 2 倍，面積會變成原來的幾倍？",
+      "options": [
+        "4 倍",
+        "一樣大",
+        "8 倍",
+        "2 倍"
+      ],
+      "answer_index": 0,
+      "explanation": "原面積 1×1=1。新面積 2×2=4。故為 4 倍。",
+      "commonMisconception": "學生直覺認為長寬各 2 倍，面積就 2 倍。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "地墊鋪設",
+      "question": "一塊長 20 公分、寬 15 公分的布。如果要裁成邊長 5 公分的小正方形。最多可以裁幾個？",
+      "options": [
+        "60 個",
+        "4 個　",
+        "12 個",
+        "3 個　"
+      ],
+      "answer_index": 2,
+      "explanation": "長邊可裁 20÷5=4格。寬邊可裁 15÷5=3格。4×3=12個。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

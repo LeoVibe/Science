@@ -68,8 +68,8 @@
       "answer": 0,
       "explanation": "甲地捨去後是 25400，代表實際數範圍在 [25400, 25499]。 乙地進入後是 24600，代表實際數範圍在 [24501, 24600]。 故甲地實際人數一定比乙地多。",
       "concept": "概數還原與區間概念",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 9
     },
     {
       "id": "q5",
@@ -85,8 +85,8 @@
       "answer": 1,
       "explanation": "為了安全（怕超重），應該把每個人的重量都「往大估」（進入法），如果進入法估算沒超重，實際數就更不會超重。",
       "concept": "安全決策與概數",
-      "quality_level": "L2",
-      "cqi_score": 4.5
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q6",
@@ -170,8 +170,8 @@
       "answer": 0,
       "explanation": "前者：10 + 20 = 30。 後者：14 + 16 = 30，四捨五入仍是 30。 (注意：並非所有情況都一樣，如 14+14=28->30 vs 10+10=20)。這題是設計過的陷阱。",
       "concept": "概數運算的特性",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 9
     }
   ]
 }

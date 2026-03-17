@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "han_lin",
+    "title": "兩步驟問題",
+    "lesson": "U5",
+    "order": 5
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "乘加問題",
+      "question": "蘋果 1 顆 30 元。小明買 6 顆，付了 250 元，找回幾元？",
+      "options": [
+        "70 元　",
+        "180 元",
+        "20 元　",
+        "50 元　"
+      ],
+      "answer_index": 0,
+      "explanation": "30 × 6 = 180。 250 - 180 = 70。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "括號運用",
+      "question": "下列哪一個算式的結果最大？",
+      "options": [
+        "以上都一樣　　　　　　　　　　",
+        "100 - 20 + 30　　",
+        "100 - (20 + 30)",
+        "100 - 20 - 30　　"
+      ],
+      "answer_index": 1,
+      "explanation": "A=50, B=50, C=110。故 C 最大。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "連乘分配",
+      "question": "一盒雞蛋 10 顆。媽媽買 2 盒，一共要用多少個蛋盒（已知一顆蛋配一個凹槽）？",
+      "options": [
+        "2 個凹槽　",
+        "10 個凹槽",
+        "20 個凹槽",
+        "12 個凹槽"
+      ],
+      "answer_index": 2,
+      "explanation": "10 × 2 = 20。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "購買文具",
+      "question": "原子筆每枝 12 元，鉛筆每枝 8 元。各買 5 枝一共要多少錢？",
+      "options": [
+        "60 元　",
+        "40 元　",
+        "20 元　",
+        "100 元"
+      ],
+      "answer_index": 3,
+      "explanation": "(12 + 8) × 5 = 20 × 5 = 100。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "除減運算",
+      "question": "72 顆糖平分給 8 人，其中 3 人先離開了。現在這 3 人領走的糖果共是多少？",
+      "options": [
+        "27 顆",
+        "9 顆　",
+        "15 顆",
+        "24 顆"
+      ],
+      "answer_index": 0,
+      "explanation": "72 ÷ 8 = 9。 9 × 3 = 27。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "看錯數字應用",
+      "question": "小英把一個數乘以 5，卻看成加 5，得到答案 55。這題正確的答案應該是多少？",
+      "options": [
+        "11　",
+        "250",
+        "300",
+        "50　"
+      ],
+      "answer_index": 1,
+      "explanation": "反推原數：55 - 5 = 50。正確計算：50 × 5 = 250。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "括號語意辨析",
+      "question": "算式 (50 - 15) × 3 符合下面哪一個故事？",
+      "options": [
+        "有 50 個蘋果，分掉 15 個後，再買進 3 個",
+        "50 元減掉 15 元的三倍　　　　　　　　　　　",
+        "50 元扣掉 15 元後，剩下的錢買 3 份禮物　",
+        "每份 50 元的東西買 3 份，再扣掉 15 元　"
+      ],
+      "answer_index": 2,
+      "explanation": "括號代表「先執行的動作（扣款）」，再整體進行倍數運算。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "車位租金",
+      "question": "停車場一小時 40 元。小明停了 3 小時，付 200 元後，剩下的錢可以買幾瓶 20 元的飲料？",
+      "options": [
+        "6 瓶　",
+        "10 瓶",
+        "8 瓶　",
+        "4 瓶　"
+      ],
+      "answer_index": 3,
+      "explanation": "200 - (40 × 3) = 200 - 120 = 80。 80 ÷ 20 = 4。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "錯誤優先權診斷",
+      "question": "小華算 50 + 10 × 2 的過程寫成：50 + 10 = 60，60 × 2 = 120。請問他的錯誤是什麼？",
+      "options": [
+        "違反了先乘除後加減的規則",
+        "計算加法加錯了　　　　　",
+        "這沒有錯誤，答案是對的　",
+        "計算乘法乘錯了　　　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "標準運算順序應先算 10×2。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "連續消費",
+      "question": "一打鉛筆 12 枝。王老師買了 3 打，分掉 25 枝後，還剩下幾枝？",
+      "options": [
+        "36 枝",
+        "11 枝",
+        "1 枝　",
+        "25 枝"
+      ],
+      "answer_index": 1,
+      "explanation": "12 × 3 - 25 = 36 - 25 = 11。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "逆向題目設計",
+      "question": "下面哪一個算式不能算出「4 盒餅乾，每盒 12 片，吃了 10 片後剩幾片」？",
+      "options": [
+        "12 + 12 + 12 + 12 - 10",
+        "12 × 4 - 10　　　　　　　　　　　",
+        "(12 - 10) × 4　　　　　　　　　",
+        "48 - 10　　　　　　　　　　　　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "A 選項的意思是每一盒都吃 10 片，不符題意。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "集點活動",
+      "question": "買一份漢堡得 2 點，集滿 10 點換一個玩具。小明買了 7 份漢堡，他可以換到幾個玩具？還剩幾點？",
+      "options": [
+        "1 個玩具，剩 2 點",
+        "2 個玩具，剩 0 點",
+        "7 個玩具，剩 0 點",
+        "1 個玩具，剩 4 點"
+      ],
+      "answer_index": 3,
+      "explanation": "7 × 2 = 14 點。 14 ÷ 10 = 1 ... 4。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

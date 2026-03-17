@@ -114,7 +114,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
 
 /** 跨科目出題原則總綱 */
 export const CROSS_SUBJECT_PRINCIPLE = {
-  title: '爸爸的命題心法：我想幫孩子建立什麼樣的大腦？',
+  title: '核心命題心法：旨在協助孩子建立什麼樣的大腦？',
   principles: [
     {
       title: '原則一：有溫度的畫面感',

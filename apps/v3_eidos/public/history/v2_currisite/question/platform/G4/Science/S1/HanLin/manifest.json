@@ -1,0 +1,41 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S1",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci1",
+      "title": "閃亮的天空",
+      "file": "Sci1_閃亮的天空.json"
+    },
+    {
+      "id": "Sci2",
+      "title": "水域環境",
+      "file": "Sci2_水域環境.json"
+    },
+    {
+      "id": "Sci3",
+      "title": "物質變變變",
+      "file": "Sci3_物質變變變.json"
+    },
+    {
+      "id": "Sci3",
+      "title": "聲光世界真有趣",
+      "file": "Sci3_聲光世界真有趣.json"
+    },
+    {
+      "id": "Sci4",
+      "title": "聲光世界真有趣",
+      "file": "Sci4_聲光世界真有趣.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 6.5,
+      "accuracyScore": 8,
+      "isVerified": false
+    }
+  }
+}

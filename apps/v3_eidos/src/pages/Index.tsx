@@ -11,8 +11,12 @@ import {
   savePracticeRecord, clearQuizProgress, getWrongQuestions as getWrongRecords, getAnswerHistory,
   loadUserProfile, saveUserProfile, getPublisherForSubject, getAutoAdvanceDelayMs, getMaxQuizQuestions,
   getOrCreateUserId, fetchAndMergeUserProfile, syncUserProfileToApi, isShortcutEnabled, loadQuizProgress, saveQuizProgress,
+  getTodayQuizzedIds, addTodayQuizzedIds,
 } from '@/utils/storage';
+import { stratifiedSample } from '@/utils/quizSampler';
+import { syncActivityLogs } from '@/utils/activityLogger';
 import { logActivity } from '@/utils/activityLogger';
+const SYNC_INTERVAL_MS = 60 * 1000; // 每分鐘同步一次
 import type { SiteSettings } from '@/data/api';
 import { fetchSiteSettings } from '@/data/api';
 import type { UserProfile } from '@/utils/storage';
@@ -23,10 +27,10 @@ import ResultView from '@/components/ResultView';
 import ReviewView from '@/components/ReviewView';
 import WrongQuestionsView from '@/components/WrongQuestionsView';
 import LearningReportView from '@/components/LearningReportView';
-import ProfileSetup from '@/components/ProfileSetup';
+import ProfileSetup, { type UserProfile as ProfileData } from '@/components/ProfileSetup';
 import AboutView, { AboutTab } from '@/components/AboutView';
-import OnboardingModal, { hasSeenValueOnboarding } from '@/components/OnboardingModal';
-import type { UserProfile as ProfileData } from '@/components/ProfileSetup';
+import WelcomeSetup from '@/components/WelcomeSetup';
+import FeatureTour from '@/components/FeatureTour';
 import { toast } from 'sonner';
 
 type View = 'menu' | 'quiz' | 'result' | 'review' | 'wrong-questions' | 'learning-report' | 'settings' | 'about';
@@ -52,17 +56,17 @@ const VIEW_TO_URL: Partial<Record<View, string>> = {
 /** 合法題庫路徑格式，用於判斷是否為使用者點 Link 後的 URL，避免用舊 state 覆寫 */
 const VALID_APP_PATH = /^\/g\d\/[^/]+\/s\d\/[^/]+\/[^/]+(\/[^/]+)?$/;
 
-type LibraryConfig = {
-  grades?: Partial<Record<Grade, {
-    enabled?: boolean;
-    semesters?: Partial<Record<Semester, {
-      enabled?: boolean;
-      subjects?: Partial<Record<Subject, {
-        enabled?: boolean;
+export type LibraryConfig = {
+  grades: Record<number, {
+    enabled: boolean;
+    semesters?: Record<number, {
+      enabled: boolean;
+      subjects?: Record<string, {
+        enabled: boolean;
         publishers?: Publisher[];
-      }>>;
-    }>>;
-  }>>;
+      }>;
+    }>;
+  }>;
 };
 
 function isLibraryEnabled(
@@ -74,13 +78,14 @@ function isLibraryEnabled(
 ): boolean {
   if (!config?.grades) return true;
   const g = config.grades[grade];
-  if (!g || g.enabled === false) return false;
-  const s = g.semesters?.[semester];
-  if (!s || s.enabled === false) return false;
-  const sub = s.subjects?.[subject];
-  if (!sub || sub.enabled === false) return false;
-  const publishers = sub.publishers ?? [];
-  return publishers.includes(publisher);
+  if (g && g.enabled === false) return false;
+  const s = g?.semesters?.[semester];
+  if (s && s.enabled === false) return false;
+  const sub = s?.subjects?.[subject];
+  if (sub && sub.enabled === false) return false;
+  const publishers = sub?.publishers ?? [];
+  if (publishers.length > 0 && !publishers.includes(publisher)) return false;
+  return true;
 }
 
 const Index = () => {
@@ -90,14 +95,41 @@ const Index = () => {
   // Profile / first-time setup
   const [showSetup, setShowSetup] = useState(false);
   const [profileReady, setProfileReady] = useState(false);
+  const [showTour, setShowTour] = useState(false);
 
   // Config state
   const [grade, setGrade] = useState<Grade>(3);
   const [semester, setSemester] = useState<Semester>(1);
   const [publisher, setPublisher] = useState<Publisher>('南一');
   const [subject, setSubject] = useState<Subject>('國語');
+  const [lessonQuizCount, setLessonQuizCount] = useState<'10' | '20' | 'all'>('10');
 
   // App state
+  // Activity Log Sync Lifecycle (JOB-058)
+  useEffect(() => {
+    // 1. 定時同步
+    const timer = setInterval(() => {
+      syncActivityLogs().catch(() => { });
+    }, SYNC_INTERVAL_MS);
+
+    // 2. 頁面隱藏或關閉前即時同步
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        syncActivityLogs().catch(() => { });
+      }
+    };
+
+    window.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('beforeunload', () => {
+      syncActivityLogs().catch(() => { });
+    });
+
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+
   const [view, setView] = useState<View>('menu');
   const [loaded, setLoaded] = useState<LoadedQuestions>({ status: 'success', questions: [], getAllCategories: () => [], getQuestionsByCategory: () => [] });
   const [loading, setLoading] = useState(false);
@@ -126,7 +158,6 @@ const Index = () => {
   const [quizInitialScore, setQuizInitialScore] = useState(0);
   const [quizInitialAnswered, setQuizInitialAnswered] = useState<{ question: Question; isCorrect: boolean; selected: number }[]>([]);
   const [quizInitialStartTime, setQuizInitialStartTime] = useState<number>(Date.now());
-  const [showOnboardingModal, setShowOnboardingModal] = useState(() => !hasSeenValueOnboarding());
 
   // URL → State sync (on mount and whenever URL params change, e.g. 切換出版社)
   const { grade: gp, subject: sp, semester: semp, publisher: pp, view: vp } = params;
@@ -166,10 +197,10 @@ const Index = () => {
       setGrade(pref.grade);
       setSemester(pref.semester);
       setPublisher(pref.publisher);
+      if (pref.lessonQuizCount) setLessonQuizCount(pref.lessonQuizCount);
       const subjects = getSubjectsByGrade(pref.grade);
       if (subjects.includes(pref.subject)) setSubject(pref.subject);
-      setProfileReady(true);
-      return;
+      // 注意：此處不再直接 return，要讓流程往下走到 setShowSetup(true)
     }
     if (settingsLoaded && siteSettings) {
       const defaultGrade = Math.min(6, Math.max(1, siteSettings.default_grade ?? 3)) as Grade;
@@ -181,9 +212,13 @@ const Index = () => {
       setSubject(defaultSubject);
       setPublisher(defaultPublisher);
     }
-    setShowSetup(true);
+
+    // 強制觸發引導：若 localProfile 為空或未完成設定
+    if (!profile || !profile.setupComplete) {
+      setShowSetup(true);
+    }
     setProfileReady(true);
-  }, [gp, sp, semp, pp, vp, settingsLoaded, siteSettings]); // 依 URL params 變動同步 state（含切換出版社）
+  }, [gp, sp, semp, pp, vp, settingsLoaded, siteSettings]);
 
   // 進入時取得全站設定（維護模式、公告）
   useEffect(() => {
@@ -222,6 +257,12 @@ const Index = () => {
         setSemester(merged.semester);
         const pubKey = `國語_S${merged.semester}`;
         setPublisher((merged.publisherBySubject?.[pubKey] as Publisher) ?? '南一');
+
+        // 若 API 同步回來的資料也不完整，則再次確認是否需要顯示引導
+        const savedProfile = loadUserProfile();
+        if (!savedProfile?.setupComplete) {
+          setProfileReady(true); // 觸發重新 render 以顯示 WelcomeSetup
+        }
       }
     });
   }, [settingsLoaded]);
@@ -312,10 +353,10 @@ const Index = () => {
     }).finally(() => {
       if (loadPromiseRef.current === promise) loadPromiseRef.current = null;
     });
-    saveUserPreference(grade, subject, semester, publisher);
-    document.title = `${SUBJECT_ICONS[subject]} ${grade}年級${subject}複習 - 陪孩子一起進步`;
+    saveUserPreference(grade, subject, semester, publisher, lessonQuizCount);
+    document.title = `每天15分鐘陪孩子複習功課`;
     return () => { cancelled = true; };
-  }, [grade, subject, semester, publisher, view, profileReady, libraryConfig]);
+  }, [grade, subject, semester, publisher, view, profileReady, libraryConfig, lessonQuizCount]);
 
   // Ensure questions are fully loaded before action（進入分科題庫/測驗時若尚未載入則觸發一次完整並行加載；防雙擊重複 fetch）
   const ensureQuestionsLoaded = useCallback(async (): Promise<boolean> => {
@@ -365,6 +406,12 @@ const Index = () => {
     setPublisher(pub);
     syncUserProfileToApi(getOrCreateUserId()).catch(() => { });
     toast.success('已儲存');
+    setShowSetup(false); // 立即關閉設定彈窗（由 WelcomeSetup 或 ProfileSetup 觸發）
+
+    // 如果是第一次設定完成，則觸發 Tour（判斷依據：原本沒完成，現在存檔後完成了）
+    if (!current?.setupComplete) {
+      setTimeout(() => setShowTour(true), 500); // 延遲一下讓彈窗關閉動畫完成
+    }
   }, [subject]);
 
   const handleCloseSetup = useCallback(() => {
@@ -387,7 +434,7 @@ const Index = () => {
   }, [view]);
 
   // Quiz start
-  const handleStartQuiz = useCallback(async (type: string, count: number) => {
+  const handleStartQuiz = useCallback(async (type: string, count: number, restrictCategories?: string[]) => {
     if (!isLibraryEnabled(libraryConfig, grade, subject, semester, publisher)) {
       toast.error('此題庫已關閉');
       return;
@@ -411,10 +458,34 @@ const Index = () => {
       clearQuizProgress(grade, subject, semester, publisher);
     }
     setLoaded(prev => {
+      let finalQs: Question[] = [];
       const validQs = prev.questions.filter(q => q.type === 'multiple_choice' && q.options.length >= 2);
+
       if (validQs.length === 0) return prev;
-      const shuffled = [...validQs].sort(() => Math.random() - 0.5);
-      setQuizQuestions(shuffled.slice(0, Math.min(count, shuffled.length)));
+
+      // 若為「進階挑戰」或有指定課次，使用最佳化演算法 (JOB-057)
+      if (type === 'advanced' || (restrictCategories && restrictCategories.length > 0)) {
+        const history = getAnswerHistory(grade, subject, semester, publisher);
+        const todayIds = getTodayQuizzedIds(grade, subject, semester, publisher);
+
+        // 如果沒有 restrictCategories，代表全選，我們自動算出所有可用的 categories
+        const targetCats = (restrictCategories && restrictCategories.length > 0)
+          ? restrictCategories
+          : Array.from(new Set(validQs.map(q => q.category)));
+
+        finalQs = stratifiedSample(validQs, targetCats, count, history, todayIds);
+      } else {
+        // 標準隨機 (分課測驗或基本挑戰)
+        let filtered = validQs;
+        if (restrictCategories && restrictCategories.length > 0) {
+          filtered = filtered.filter(q => restrictCategories.includes(q.category));
+        }
+        finalQs = [...filtered].sort(() => Math.random() - 0.5).slice(0, Math.min(count, filtered.length));
+      }
+
+      if (finalQs.length === 0) return prev;
+
+      setQuizQuestions(finalQs);
       setQuizType(type);
       const now = Date.now();
       setQuizStartTime(now);
@@ -423,23 +494,35 @@ const Index = () => {
       setQuizInitialAnswered([]);
       setQuizInitialStartTime(now);
       setView('quiz');
+
+      // 紀錄今日已測驗 IDs
+      addTodayQuizzedIds(grade, subject, semester, publisher, finalQs.map(q => q.id));
+
       logActivity('start_quiz', { grade, subject, semester, publisher, view: 'quiz', type, count });
       return prev;
     });
   }, [grade, subject, semester, publisher, ensureQuestionsLoaded, libraryConfig]);
 
-  const handleStartLessonQuiz = useCallback(async (category: string) => {
+  const handleStartLessonQuiz = useCallback(async (category: string, count: '10' | '20' | 'all') => {
     if (!isLibraryEnabled(libraryConfig, grade, subject, semester, publisher)) {
       toast.error('此題庫已關閉');
       return;
     }
     const isLoaded = await ensureQuestionsLoaded();
     if (!isLoaded) return;
+
+    setLessonQuizCount(count);
+    saveUserPreference(grade, subject, semester, publisher, count);
+
     setLoaded(prev => {
       const catQs = prev.questions.filter(q => q.category === category && q.type === 'multiple_choice' && q.options.length >= 2);
       if (catQs.length === 0) return prev;
       const shuffled = [...catQs].sort(() => Math.random() - 0.5);
-      setQuizQuestions(shuffled);
+
+      const limit = count === 'all' ? shuffled.length : parseInt(count, 10);
+      const selectedQs = shuffled.slice(0, Math.min(limit, shuffled.length));
+
+      setQuizQuestions(selectedQs);
       setQuizType(`分課：${category}`);
       const now = Date.now();
       setQuizStartTime(now);
@@ -448,7 +531,7 @@ const Index = () => {
       setQuizInitialAnswered([]);
       setQuizInitialStartTime(now);
       setView('quiz');
-      logActivity('view_lesson', { grade, subject, semester, publisher, lesson: category, view: 'quiz' });
+      logActivity('view_lesson', { grade, subject, semester, publisher, lesson: category, view: 'quiz', count: selectedQs.length });
       return prev;
     });
   }, [grade, subject, semester, publisher, ensureQuestionsLoaded, libraryConfig]);
@@ -491,15 +574,24 @@ const Index = () => {
 
   // Show setup wizard as overlay
   const renderSetupOverlay = () => {
-    if (!showSetup && view !== 'settings') return null;
     const profile = loadUserProfile();
-    return (
-      <ProfileSetup
-        initial={profile?.setupComplete ? { grade: profile.grade, semester: profile.semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions } : undefined}
-        onSave={handleProfileSave}
-        onClose={handleCloseSetup}
-      />
-    );
+    if (!profile?.setupComplete) {
+      return (
+        <div key="welcome">
+          <WelcomeSetup onComplete={handleProfileSave} libraryConfig={libraryConfig} />
+        </div>
+      );
+    }
+    if (view === 'settings' || showSetup) {
+      return (
+        <ProfileSetup
+          initial={{ grade, semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions }}
+          onSave={handleProfileSave}
+          onClose={handleCloseSetup}
+        />
+      );
+    }
+    return null;
   };
 
   const theme = SUBJECT_THEME_MAP[subject];
@@ -549,18 +641,7 @@ const Index = () => {
                     </div>
                   </div>
                 )}
-                {showOnboardingModal && (
-                  <OnboardingModal
-                    onClose={() => setShowOnboardingModal(false)}
-                    onGoToPrinciple={() => {
-                      setShowOnboardingModal(false);
-                      setView('about');
-                      navigate(buildPath(grade, subject, semester, publisher, 'about', 'deepdive'));
-                    }}
-                    hasChosenGrade={!!loadUserProfile()?.setupComplete}
-                    grade={grade}
-                  />
-                )}
+                <></>
                 <MainMenu
                   grade={grade} semester={semester} publisher={publisher} subject={subject}
                   questions={loaded.questions}
@@ -573,6 +654,7 @@ const Index = () => {
                   onStartQuiz={handleStartQuiz}
                   onStartLessonQuiz={handleStartLessonQuiz}
                   onStartReview={handleStartReview}
+                  initialLessonQuizCount={lessonQuizCount}
                 />
               </>
             )}
@@ -661,6 +743,14 @@ const Index = () => {
       </main>
 
       {renderSetupOverlay()}
+
+      {showTour && (
+        <FeatureTour
+          targetId="shield-setup-trigger"
+          content="之後隨時可以點選這裡，修改您的就讀年級與各科出版社設定喔！"
+          onComplete={() => setShowTour(false)}
+        />
+      )}
     </div>
   );
 };

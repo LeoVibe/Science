@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "grade": "grade_5",
+        "semester": "semester_2",
+        "subject": "數學",
+        "publisher": "nan_yi",
+        "lesson": "U4",
+        "title": "正方體與長方體"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "長6公分、寬5公分、高4公分的長方體體積是多少？",
+            "options": [
+                "120立方公分",
+                "30立方公分",
+                "15立方公分",
+                "60立方公分"
+            ],
+            "answer": "120立方公分",
+            "explanation": "6 × 5 × 4 = 120。"
+        },
+        {
+            "id": "2",
+            "type": "true_false",
+            "question": "兩個邊長為2公分的正方體拼在一起後的長方體，體積是16立方公分。",
+            "answer": "True",
+            "explanation": "一個體積為 2×2×2=8，兩個就是 8×2=16。"
+        }
+    ]
+}

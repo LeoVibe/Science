@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "KangHsuan",
+    "lesson": "L10",
+    "order": 10,
+    "title": "漁夫和金魚"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "這課改編自知名的童話寓言，故事中造成最後「一無所有」的主要原因是？",
+      "options": [
+        "漁夫太笨了",
+        "房子自己倒塌了",
+        "漁夫太太過度的貪婪與永無止盡的要求",
+        "金魚生病了"
+      ],
+      "answer": "漁夫太太過度的貪婪與永無止盡的要求",
+      "explanation": "探討人性的貪婪與其所帶來的負面後果。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "金魚報恩是因為漁夫曾經放了牠一條生路，不求回報。",
+      "answer": "True",
+      "explanation": "分析善良與報恩的原始動機。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "故事最後，一切又回到了起點，課文藉此提醒我們懂得______才能獲得長久的快樂。",
+      "answer": "知足、惜福、感恩或知足常樂",
+      "explanation": "引導兒童對品德觀念進行反思。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "當金魚最後拒絕滿足漁夫太太的要求時，海面發生了什麼變化？",
+      "options": [
+        "狂風暴雨、巨浪滔天，象徵著自然力量對貪婪的懲罰",
+        "很多金子掉出來",
+        "海水變成了果汁",
+        "太陽變大了"
+      ],
+      "answer": "狂風暴雨、巨浪滔天，象徵著自然力量對貪婪的懲罰",
+      "explanation": "文學中的環境氛圍與情節隱喻解析。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "如果你是漁夫，讀完故事後最應該學會的能力是？",
+      "options": [
+        "適當的拒絕不合理的要求，並守護內心的平靜與知足",
+        "怎麼讓金魚聽話",
+        "如何蓋大房子",
+        "抓更多魚的方法"
+      ],
+      "answer": "適當的拒絕不合理的要求，並守護內心的平靜與知足",
+      "explanation": "品德教育與人際界限的思考。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於小動物的習性",
+      "question": "根據課文描述，蜜蜂最喜歡在哪裡採集花蜜？",
+      "options": [
+        "在茂密的森林深處",
+        "在開滿鮮花的草地上",
+        "在池塘邊的蘆葦叢中",
+        "在高聳的山頂岩石上"
+      ],
+      "answer_index": 1,
+      "explanation": "課文明確指出蜜蜂會在開滿鮮花的草地上忙碌地採集花蜜，這是牠們獲取食物的主要地點。",
+      "commonMisconception": "學生可能因為對蜜蜂的印象模糊，誤以為牠們在任何有植物的地方都能採蜜，而忽略了『鮮花』這個關鍵詞。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "描述友誼的建立",
+      "question": "【在小光和阿力第一次見面時】，他們從一開始的陌生到後來一起分享玩具，這說明了什麼？",
+      "options": [
+        "他們兩人都有很多玩具",
+        "分享是建立友誼的好方法",
+        "陌生人總是會變成好朋友",
+        "小光比阿力更喜歡玩玩具"
+      ],
+      "answer_index": 1,
+      "explanation": "從陌生到分享玩具，表示他們透過共同的活動和分享，逐漸建立起信任和情感，所以分享是建立友誼的重要途徑。",
+      "commonMisconception": "學生可能只看到表面的『分享玩具』，而沒有進一步推論出這行為背後對友誼建立的意義。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於四季的變化",
+      "question": "課文中提到，秋天來臨時，樹葉會變成什麼顏色？",
+      "options": [
+        "綠色",
+        "紫色",
+        "紅色和黃色",
+        "藍色"
+      ],
+      "answer_index": 2,
+      "explanation": "課文清楚說明了秋天時，樹葉會由綠轉紅、轉黃，呈現出繽紛的色彩。",
+      "commonMisconception": "學生可能只記得樹葉會變色，但對具體的顏色記憶不清，或者與其他季節的顏色混淆。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "面對困難的態度",
+      "question": "【當小雅遇到一道很難的數學題時】，她沒有馬上放棄，而是嘗試了不同的方法。你認為小雅的這種做法有什麼好處？",
+      "options": [
+        "只是浪費時間，不如直接問老師",
+        "讓她可以比其他同學更早寫完作業",
+        "讓她看起來很聰明",
+        "可以幫助她找到解決問題的方法，並從中學習"
+      ],
+      "answer_index": 3,
+      "explanation": "小雅嘗試不同方法，展現了積極解決問題的態度，這不僅能幫助她找到答案，更重要的是培養了獨立思考和學習的能力。",
+      "commonMisconception": "學生可能認為遇到困難就應該尋求捷徑，或誤以為這樣做只是為了表現自己，而沒有看到背後學習成長的價值。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "描述家庭生活",
+      "question": "媽媽總是在餐桌上擺滿熱騰騰的飯菜，並在我們吃完後收拾碗筷。從這些行為，可以推斷媽媽對家人抱持著什麼樣的心情？",
+      "options": [
+        "期待家人能多吃一點",
+        "對家人的愛與關懷",
+        "希望家人能多幫忙做家事",
+        "因為她喜歡做家事"
+      ],
+      "answer_index": 1,
+      "explanation": "媽媽準備飯菜和收拾碗筷的行為，雖然是家務，但其背後通常是為了照顧家人的健康和舒適，表達出對家人的愛與關懷。",
+      "commonMisconception": "學生可能從表面行為推斷出其他原因，如『媽媽喜歡做家事』，而沒有深入思考行為背後的情感動機。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於傳統節日",
+      "question": "根據課文，端午節時人們通常會進行哪一項活動來紀念屈原？",
+      "options": [
+        "划龍舟",
+        "賞月",
+        "放風箏",
+        "吃湯圓"
+      ],
+      "answer_index": 0,
+      "explanation": "課文明確提到，划龍舟是端午節紀念屈原的重要習俗之一。",
+      "commonMisconception": "學生可能混淆不同節日的習俗，例如將中秋節的賞月或元宵節的吃湯圓誤認為端午節的活動。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "描述環境保護",
+      "question": "小明看到公園裡有垃圾，便主動撿起來丟進垃圾桶。你認為小明為什麼會這麼做？",
+      "options": [
+        "他想要得到老師的稱讚",
+        "他以為那是他的垃圾",
+        "他只是想找點事情做",
+        "他覺得環境整潔很重要"
+      ],
+      "answer_index": 3,
+      "explanation": "小明主動撿垃圾的行為，推斷是他對環境整潔有較高的意識，認為保持環境乾淨是重要的。",
+      "commonMisconception": "學生可能認為小明是為了外部獎勵（如老師稱讚），而忽略了內在的價值觀驅動。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "角色扮演與情境理解",
+      "question": "【如果你是故事中的小兔子，被大野狼追趕時】，你會選擇躲到哪裡才能最安全？",
+      "options": [
+        "小河裡",
+        "開闊的草地中央",
+        "樹洞或岩石縫隙中",
+        "大野狼看得到的地方"
+      ],
+      "answer_index": 2,
+      "explanation": "作為小兔子，為了躲避天敵，應該選擇狹小、隱蔽且不易被發現的地方，樹洞或岩石縫隙能提供最好的藏身之處。",
+      "commonMisconception": "學生可能會根據常識選擇『小河裡』，但忽略了小兔子可能不擅長游泳，或者水流可能帶來其他危險。",
+      "quality_level": "L5",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於植物的生長",
+      "question": "課文提到，植物要健康長大，除了陽光和水之外，還需要什麼？",
+      "options": [
+        "動物的陪伴",
+        "很多玩具",
+        "溫暖的土壤",
+        "音樂"
+      ],
+      "answer_index": 2,
+      "explanation": "課文明確指出，植物生長需要陽光、水和溫暖的土壤，這些都是植物生存的必要條件。",
+      "commonMisconception": "學生可能會將人類或動物的需求投射到植物身上，誤選不相關的選項。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "描述團隊合作",
+      "question": "班級大掃除時，小組成員分工合作，有的掃地，有的擦窗戶，最後教室變得非常乾淨。這告訴我們什麼道理？",
+      "options": [
+        "團隊合作可以讓事情更有效率地完成",
+        "每個人都喜歡做不同的事",
+        "掃地比擦窗戶重要",
+        "大掃除是很累人的工作"
+      ],
+      "answer_index": 0,
+      "explanation": "分工合作讓不同的人負責不同任務，最終共同達成目標，說明了團隊合作能提升效率。",
+      "commonMisconception": "學生可能只關注到『大掃除很累』或『喜歡做不同事』等表面感受，而沒有領悟到團隊合作的深層意義。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於天氣現象",
+      "question": "課文說，夏天時，太陽公公常常會把大地曬得怎麼樣？",
+      "options": [
+        "熱烘烘的",
+        "涼涼的",
+        "濕濕的",
+        "暗暗的"
+      ],
+      "answer_index": 0,
+      "explanation": "課文直接描述了夏天太陽的熱力，會把大地曬得熱烘烘的。",
+      "commonMisconception": "學生可能對夏天的炎熱感記憶不深，或與其他季節的天氣描述混淆。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "描述個人成長",
+      "question": "小華練習了好多次才學會騎腳踏車，雖然跌倒了幾次，但他還是很高興。這說明了小華什麼樣的特質？",
+      "options": [
+        "他只是運氣好才學會的",
+        "他騎腳踏車的天賦不好",
+        "他很喜歡跌倒",
+        "他是一個很有毅力且不怕挫折的人"
+      ],
+      "answer_index": 3,
+      "explanation": "從多次練習、跌倒卻依然堅持並最終學會，可以推斷小華具備毅力和不怕挫折的精神。",
+      "commonMisconception": "學生可能只看到『跌倒』這個負面事件，而忽略了堅持和最終成功的積極意義。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "公共道德與責任",
+      "question": "【在公共場所，如果看到有人亂丟垃圾】，你認為最恰當的處理方式是什麼？",
+      "options": [
+        "大聲斥責對方，讓所有人都知道",
+        "輕聲提醒對方，並協助他將垃圾丟進垃圾桶",
+        "假裝沒看到，因為不關我的事",
+        "跟著一起丟，反正大家都這樣"
+      ],
+      "answer_index": 1,
+      "explanation": "輕聲提醒並協助對方，既能維護公共環境，又能展現禮貌和同理心，是最好的處理方式。",
+      "commonMisconception": "學生可能會選擇大聲斥責（認為是正義之舉）或視而不見（逃避責任），而沒有考慮到溫和且有效率的解決方案。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "描述學校生活",
+      "question": "課文提到，下課時間，同學們最喜歡在操場上玩什麼遊戲？",
+      "options": [
+        "寫作業",
+        "捉迷藏",
+        "看書",
+        "睡覺"
+      ],
+      "answer_index": 1,
+      "explanation": "課文直接說明了下課時，同學們在操場上最常玩的遊戲是捉迷藏。",
+      "commonMisconception": "學生可能因為個人喜好或對下課活動的普遍認知，而誤選其他選項。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "關於分享的美德",
+      "question": "小芬帶了餅乾到學校，她把餅乾分給了班上的每一個同學，大家都很開心。從這件事可以看出小芬是個什麼樣的人？",
+      "options": [
+        "她家裡有很多餅乾",
+        "她很喜歡吃餅乾",
+        "她是一個樂於分享且慷慨的人",
+        "她很害怕孤單"
+      ],
+      "answer_index": 2,
+      "explanation": "將餅乾分享給所有同學，讓大家感到開心，這推斷出小芬是一個樂於分享且慷慨的人。",
+      "commonMisconception": "學生可能只聯想到餅乾的數量或小芬的喜好，而沒有推論出其內在的性格特點。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "生活中的安全常識",
+      "question": "【在穿越馬路時】，為了自己的安全，我們應該怎麼做？",
+      "options": [
+        "邊走邊玩手機",
+        "跟著大人走，不用自己看",
+        "看到綠燈就馬上跑過去",
+        "先看左右，確認沒有來車後再快速通過"
+      ],
+      "answer_index": 3,
+      "explanation": "穿越馬路時，最重要的是確認左右來車情況，確保安全才能通過，這是保護自己的基本常識。",
+      "commonMisconception": "學生可能認為只要是綠燈就可以過，或過於依賴他人，而忽略了主動觀察的重要性。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於自然景觀",
+      "question": "課文描述，清晨的露珠晶瑩剔透，掛在哪裡？",
+      "options": [
+        "泥土上",
+        "樹葉和花瓣上",
+        "石頭上",
+        "水面上"
+      ],
+      "answer_index": 1,
+      "explanation": "課文清楚寫到露珠會掛在樹葉和花瓣上，閃閃發光。",
+      "commonMisconception": "學生可能對露珠的形成和附著位置沒有具體概念，而選擇其他不精確的選項。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "理解情緒表達",
+      "question": "小杰因為考試沒考好，臉色很難看，也不想和同學說話。從這些表現，我們可以知道小杰現在的心情如何？",
+      "options": [
+        "他很生氣",
+        "他很難過或沮喪",
+        "他很無聊",
+        "他很高興"
+      ],
+      "answer_index": 1,
+      "explanation": "臉色難看、不想說話，這些都是難過或沮喪時常見的情緒反應，尤其是在考試失利後。",
+      "commonMisconception": "學生可能會將『難看』的臉色誤解為生氣，而沒有全面考慮到考試結果對情緒的影響。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於時間的流逝",
+      "question": "課文提到，指針滴答滴答地轉動，提醒我們什麼正在快速過去？",
+      "options": [
+        "風聲",
+        "雨水",
+        "時間",
+        "季節"
+      ],
+      "answer_index": 2,
+      "explanation": "指針轉動是鐘錶的特徵，鐘錶用來計時，所以它提醒我們時間正在流逝。",
+      "commonMisconception": "學生可能對『指針』和『時間』的關聯理解不夠直接，或被其他選項干擾。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "閱讀故事後的啟示",
+      "question": "故事中的小烏龜雖然走得很慢，但最終還是到達了終點。這個故事最想告訴我們什麼道理？",
+      "options": [
+        "小烏龜很幸運",
+        "只要努力不懈，即使速度慢也能達成目標",
+        "比賽的結果不重要",
+        "走路快的人比較厲害"
+      ],
+      "answer_index": 1,
+      "explanation": "小烏龜的例子強調了堅持不懈的精神，即使起步慢或速度不快，只要持續努力，最終也能成功。",
+      "commonMisconception": "學生可能只看到表面速度的差異，而忽略了故事背後關於毅力和堅持的深層寓意。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "理解人物行為動機",
+      "question": "【在一次班級活動中】，小麗主動幫忙把散落的彩帶撿起來，還引導大家一起整理。這表明小麗是個什麼樣的人？",
+      "options": [
+        "她很喜歡指揮別人",
+        "她只是想引起老師的注意",
+        "她很有責任感，並且樂於助人",
+        "她很喜歡彩帶"
+      ],
+      "answer_index": 2,
+      "explanation": "小麗主動整理並引導他人，顯示她對環境有責任感，並有積極助人的特質。",
+      "commonMisconception": "學生可能誤以為小麗的行為是為了表現自己或得到表揚，而沒有看到其內在的良好品質。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "關於聲音的描述",
+      "question": "課文描述，雷聲轟隆隆地響起，像是什麼在天空發怒？",
+      "options": [
+        "小鳥",
+        "大象",
+        "巨人",
+        "大鼓"
+      ],
+      "answer_index": 2,
+      "explanation": "課文使用比喻手法，將雷聲比作巨人發怒的聲音，以形容其巨大和震撼。",
+      "commonMisconception": "學生可能對比喻的理解不夠到位，或混淆了比喻對象。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "理解自然現象的影響",
+      "question": "下了一整夜的雨，隔天早晨，小溪的水位明顯上升，變得湍急。這說明了什麼？",
+      "options": [
+        "小溪裡有很多魚",
+        "小溪的水本來就很深",
+        "雨水會導致河流水量增加",
+        "下雨會讓天氣變冷"
+      ],
+      "answer_index": 2,
+      "explanation": "下雨是水量的來源，一整夜的雨水自然會匯入小溪，導致其水位上升並變得湍急。",
+      "commonMisconception": "學生可能只關注到下雨後天氣變冷等其他現象，而忽略了雨水與水量的直接因果關係。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "人際交往的智慧",
+      "question": "【當你的朋友因為一點小事跟你生氣時】，你覺得最好的處理方式是什麼？",
+      "options": [
+        "也對他生氣，跟他吵架",
+        "不理他，讓他自己冷靜",
+        "主動去了解他生氣的原因，並嘗試溝通",
+        "告訴老師，讓老師來處理"
+      ],
+      "answer_index": 2,
+      "explanation": "主動了解原因並溝通，是解決衝突、維護友誼最有效且成熟的方式。",
+      "commonMisconception": "學生可能因為害怕衝突而選擇逃避（不理他），或者以牙還牙（吵架），或過度依賴成人解決問題。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "關於夢想與努力",
+      "question": "小明每天放學回家都會練習畫畫，即使很累也不放棄，因為他想成為一位畫家。從這件事可以看出小明對夢想的態度是什麼？",
+      "options": [
+        "他只是想玩",
+        "他對夢想充滿熱情並願意為之努力",
+        "他被父母強迫學畫畫",
+        "他對畫畫沒有興趣"
+      ],
+      "answer_index": 1,
+      "explanation": "小明即使累也不放棄練習，明確表示他有成為畫家的目標，這顯示他對夢想有熱情且願意付出努力。",
+      "commonMisconception": "學生可能將『累』解讀為不喜歡，或將其行為歸因於外部壓力，而沒有看到內在的驅動力。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    }
+  ]
+}

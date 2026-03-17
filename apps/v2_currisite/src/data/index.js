@@ -21,8 +21,8 @@ function getSubjectForPath(grade, subject) {
  * @param {string} publisher - 出版社名稱 (如 '康軒', '南一')
  * @returns {Promise<Object>} 返回題庫模組，包含 questions 陣列和工具函數
  */
-// 題庫根路徑由環境參數控制：本機 "/"、雲端 "/Science/"。
-const getQuestionBaseUrl = () => (import.meta.env.VITE_QUESTION_BASE || '/').replace(/\/?$/, '/')
+// 題庫根路徑鎖定為本機相對目錄，落實物理快照 (Snapshot) 策略。
+const getQuestionBaseUrl = () => './'
 
 export async function loadQuestions(grade, subject, semester, publisher) {
   const pathSubject = getSubjectForPath(grade, subject)

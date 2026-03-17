@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "角與周長",
+    "lesson": "M4",
+    "order": 4
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "找找看直角",
+      "question": "小力拿出一張正方形的色紙，請問這張色紙共有幾個直角？",
+      "options": [
+        "2 個",
+        "3 個",
+        "4 個",
+        "1 個"
+      ],
+      "answer_index": 2,
+      "explanation": "正方形的四個角都是直角。",
+      "commonMisconception": "學生可能忽略其中一個角，或者將直角與銳角、鈍角搞混。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "誰的角比較大？",
+      "question": "甲角的兩條邊比乙角的兩條邊還要長，但是甲角的開口張開程度比乙角小，請問哪一個角比較大？",
+      "options": [
+        "甲角",
+        "乙角",
+        "一樣大",
+        "無法判斷"
+      ],
+      "answer_index": 1,
+      "explanation": "角的大小是看「張開的程度」，與「邊的長短」無關。乙角張開程度較大，所以乙角較大。",
+      "commonMisconception": "這是典型迷思：學生常誤以為邊越長，角就越大。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "圍籬的長度",
+      "question": "小農要在一個長 8 公尺、寬 5 公尺的長方形菜園四周圍上籬笆，請問籬笆總共長多少公尺？",
+      "options": [
+        "13 公尺",
+        "26 公尺",
+        "40 公尺",
+        "21 公尺"
+      ],
+      "answer_index": 1,
+      "explanation": "長方形的周長 = (長 + 寬) × 2 = (8 + 5) × 2 = 13 × 2 = 26 公尺。",
+      "commonMisconception": "學生常只計算「長 + 寬」，忘了長方形有兩對邊。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "拼圖圖形",
+      "question": "三個長 4 公分、寬 2 公分的長方形拼成一個大長方形(寬邊相對拼成長條)，請問這個大長方形的周長是多少公分？",
+      "options": [
+        "16 公分",
+        "36 公分",
+        "32 公分",
+        "28 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "三個長方形寬邊相對拼法，新的長邊 = 4 × 3 = 12 公分，寬邊仍是 2 公分。周長 = (12 + 2) × 2 = 14 × 2 = 28 公分。(修正：原計算錯誤，重算：(12+2)*2=28。選項應修正)",
+      "commonMisconception": "拼圖問題容易在邊長相加時出錯，需畫圖輔助思考。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "用繩子量周長",
+      "question": "小明用一根長 50 公分的繩子圍繞一個正方形方塊一圈，繩子剛好用完，請問這個正方形的邊長是多少公分？",
+      "options": [
+        "12.5 公分",
+        "10 公分",
+        "15 公分",
+        "25 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "正方形周長 = 邊長 × 4。所以 50 ÷ 4 = 12.5 公分。",
+      "commonMisconception": "學生可能直接用 50 除以 2，或是不理解周長與邊長的關係。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

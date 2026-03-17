@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "分數",
+    "lesson": "L3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "分數寫法",
+      "question": "一個圓平分成 6 份。其中的 5 份是多少？",
+      "options": [
+        "5/6",
+        "1/6",
+        "6/5",
+        "5　　"
+      ],
+      "answer_index": 0,
+      "explanation": "平分成 6 份，每份 1/6。 5 份為 5/6。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分數加法",
+      "question": "小英吃 2/12 盒餅乾，小華吃 5/12 盒。兩人共吃幾盒？",
+      "options": [
+        "3/12 盒",
+        "7/12 盒",
+        "7/24 盒",
+        "7 盒　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "2/12 + 5/12 = 7/12。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分數減法",
+      "question": "一條繩子用了 3/8 條，還剩下幾分之幾條？",
+      "options": [
+        "8/3 條",
+        "1/8 條",
+        "5/8 條",
+        "1 條　　"
+      ],
+      "answer_index": 2,
+      "explanation": "1 - 3/8 = 8/8 - 3/8 = 5/8。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "單位 1 的意義",
+      "question": "下列哪一個分數等於 1？",
+      "options": [
+        "1/9",
+        "0/9",
+        "9/1",
+        "9/9"
+      ],
+      "answer_index": 3,
+      "explanation": "分子與分母相等時，代表取得了全部分數，即等於 1。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "雞蛋分量",
+      "question": "一盒雞蛋有 10 顆。用了 4/10 盒，也就是用了幾顆？",
+      "options": [
+        "4 顆　　　",
+        "4/10 顆",
+        "10 顆　　",
+        "6 顆　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "10 顆的 4/10 即為 4 顆。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分數比大小",
+      "question": "1/4 塊披薩和 3/4 塊披薩，哪一個比較多？",
+      "options": [
+        "一樣多　　",
+        "3/4 塊",
+        "1/4 塊",
+        "無法判斷　"
+      ],
+      "answer_index": 1,
+      "explanation": "同分母時，分子 3 > 1。故 3/4 多。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "平分判斷",
+      "question": "下面哪一個圖形的塗色部分『不能』稱作 1/4？",
+      "options": [
+        "平分成 4 份的三角形　　",
+        "剛好平分成 4 份的正方形",
+        "沒有平分成 4 份的圓形　",
+        "平均切割的圓餅　　　　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "分數的前提是『等分（平分）』。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "果汁分配",
+      "question": "一公升的果汁。小英喝了 2/10 公升，小明喝了 3/10 公升。總共喝了多少？還剩多少？",
+      "options": [
+        "合起來是 1 公升　　　　　　　　　　",
+        "喝 5/10 公升，剩 1/10 公升",
+        "喝 2/10 公升，剩 8/10 公升",
+        "喝 5/10 公升，剩 5/10 公升"
+      ],
+      "answer_index": 3,
+      "explanation": "2/10 + 3/10 = 5/10. 1 - 5/10 = 5/10.",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "巧克力球",
+      "question": "一包巧克力有 12 顆。小明吃了 3 顆，也就是吃了幾分之幾包？",
+      "options": [
+        "3/12 包",
+        "1 盒　　　",
+        "3 盒　　　",
+        "12/3 包"
+      ],
+      "answer_index": 0,
+      "explanation": "基準為 12，3 顆佔 3/12。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數加法陷阱",
+      "question": "計算 1/4 + 2/4 的結果。哪一個是錯誤的想算法？",
+      "options": [
+        "分子相加得到 3/4　　",
+        "將分母也相加得到 3/8",
+        "畫圖拼湊得到 3/4　　",
+        "等於三個 1/4　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "分母代表切割份量，不因相加而改變大小。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "身高紀錄",
+      "question": "尺長 1 公尺。一隻毛毛蟲爬了 4/10 公尺。還差多少公尺就到終點？",
+      "options": [
+        "1 公尺　　　　",
+        "0.6 公尺　　",
+        "6/10 公尺　",
+        "14/10 公尺"
+      ],
+      "answer_index": 2,
+      "explanation": "1 - 4/10 = 6/10。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分數填空",
+      "question": "1 - (  ) = 3/7。括號應填入？",
+      "options": [
+        "7/7",
+        "3/7",
+        "1/7",
+        "4/7"
+      ],
+      "answer_index": 3,
+      "explanation": "7/7 - 3/7 = 4/7。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    }
+  ]
+}

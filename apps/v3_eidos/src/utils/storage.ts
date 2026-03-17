@@ -99,6 +99,7 @@ export interface UserPreference {
   subject: Subject;
   semester: Semester;
   publisher: Publisher;
+  lessonQuizCount?: '10' | '20' | 'all';
   timestamp: number;
 }
 
@@ -133,8 +134,22 @@ export function loadUserPreference(): UserPreference | null {
   } catch { return null; }
 }
 
-export function saveUserPreference(grade: Grade, subject: Subject, semester: Semester, publisher: Publisher): void {
-  localStorage.setItem(PREF_KEY, JSON.stringify({ grade, subject, semester, publisher, timestamp: Date.now() }));
+export function saveUserPreference(
+  grade: Grade,
+  subject: Subject,
+  semester: Semester,
+  publisher: Publisher,
+  lessonQuizCount?: '10' | '20' | 'all'
+): void {
+  const current = loadUserPreference();
+  localStorage.setItem(PREF_KEY, JSON.stringify({
+    grade,
+    subject,
+    semester,
+    publisher,
+    lessonQuizCount: lessonQuizCount ?? current?.lessonQuizCount ?? '10',
+    timestamp: Date.now()
+  }));
 }
 
 export function loadUserProfile(): UserProfile | null {
@@ -167,11 +182,15 @@ export async function fetchAndMergeUserProfile(userId: string): Promise<UserProf
     const grade = Math.min(6, Math.max(1, prefs.grade ?? 3)) as Grade;
     const semester = ((prefs.semester === 1 || prefs.semester === 2) ? prefs.semester : 1) as Semester;
     const publisherBySubject = (prefs.publisherBySubject ?? {}) as Partial<Record<Subject, Publisher>>;
+    // 重要：不再僅依據是否有 grade 就自動設為 setupComplete
+    // 而是保留既有的本地狀態，或是明確遵循 API 的設定（如果有的話）
+    const localProfile = loadUserProfile();
+    const setupComplete = localProfile?.setupComplete ?? false;
     const profile: UserProfile = {
       grade,
       semester,
       publisherBySubject,
-      setupComplete: true,
+      setupComplete,
       autoAdvanceDelayMs: api.quiz_next_delay ?? 1500,
       shortcut_enabled: api.shortcut_enabled ?? true,
       theme: api.theme ?? 'light',
@@ -292,4 +311,24 @@ export function clearAllHistory(includeProfileData: boolean = false): void {
     localStorage.removeItem(PREF_KEY);
     localStorage.removeItem(PROFILE_KEY);
   }
+}
+/** 取得今日已出題的 ID 集合 (Session-based) */
+export function getTodayQuizzedIds(grade: Grade, subject: Subject, semester: Semester, publisher: Publisher): Set<string> {
+  try {
+    const date = new Date().toISOString().split('T')[0];
+    const key = `quizzed_${date}_G${grade}_${SUBJECT_CODE[subject]}_S${semester}_${PUBLISHER_CODE[publisher]}`;
+    const data = sessionStorage.getItem(key);
+    return data ? new Set(JSON.parse(data)) : new Set();
+  } catch { return new Set(); }
+}
+
+/** 紀錄今日已出題的 ID */
+export function addTodayQuizzedIds(grade: Grade, subject: Subject, semester: Semester, publisher: Publisher, ids: string[]): void {
+  try {
+    const date = new Date().toISOString().split('T')[0];
+    const key = `quizzed_${date}_G${grade}_${SUBJECT_CODE[subject]}_S${semester}_${PUBLISHER_CODE[publisher]}`;
+    const current = getTodayQuizzedIds(grade, subject, semester, publisher);
+    ids.forEach(id => current.add(id));
+    sessionStorage.setItem(key, JSON.stringify(Array.from(current)));
+  } catch { }
 }

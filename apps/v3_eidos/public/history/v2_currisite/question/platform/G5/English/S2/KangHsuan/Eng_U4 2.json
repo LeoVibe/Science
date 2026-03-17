@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "English",
+    "publisher": "kang_hsuan",
+    "title": "Review & Culture",
+    "lesson": "U4",
+    "order": 4
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "World Landmarks",
+      "question": "The ______ is a famous tower in Paris, France.",
+      "options": [
+        "Eiffel Tower",
+        "Big Ben",
+        "Statue of Liberty",
+        "Taipei 101"
+      ],
+      "answer_index": 0,
+      "explanation": "艾非爾鐵塔 (Eiffel Tower) 位於巴黎。",
+      "commonMisconception": "學生可能不清楚世界各大地標的對應城市。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Cultural Food",
+      "question": "People in Japan often eat ______. It's made of rice and fish.",
+      "options": [
+        "pizza",
+        "sushi",
+        "hamburgers",
+        "tacos"
+      ],
+      "answer_index": 1,
+      "explanation": "由米和魚組成的日本代表性食物是壽司 (sushi)。",
+      "commonMisconception": "不熟悉各國飲食文化單字。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Reviewing Actions",
+      "question": "My friends and I ______ to music every day. We love pop songs.",
+      "options": [
+        "listen",
+        "listens",
+        "listening",
+        "to listen"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 My friends and I 為複數，接原形動詞 listen。",
+      "commonMisconception": "習慣口語忽略 listen 之後通常要加 to，但在這題選項中只需選動詞形態。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Review Question",
+      "question": "A: What ______ you doing last night?\nB: I was doing my English homework.",
+      "options": [
+        "do",
+        "did",
+        "were",
+        "was"
+      ],
+      "answer_index": 2,
+      "explanation": "過去進行式疑問句，主詞 you 配 were。",
+      "commonMisconception": "混淆助動詞 Did 與 B 動詞 Were。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Planning Check",
+      "question": "A: Is your father going to watch the game tonight?\nB: Yes, ______.",
+      "options": [
+        "I am",
+        "he is",
+        "she is",
+        "they are"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 your father 是男性，代名詞用 he，B 動詞對應為 is。",
+      "commonMisconception": "代名詞選錯 gender。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Mixed Review",
+      "question": "A: Do you like to go shopping?\nB: No. I ______ it's boring.",
+      "options": [
+        "think",
+        "thinks",
+        "thinking",
+        "thought"
+      ],
+      "answer_index": 0,
+      "explanation": "一般現在式的意見表達，主詞 I 配 think。",
+      "commonMisconception": "受 B 的不喜歡影響誤以為要用過去式 thought。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Culture Swap",
+      "question": "In America, students ______ a yellow bus to school.",
+      "options": [
+        "taked",
+        "take",
+        "taking",
+        "is take"
+      ],
+      "answer_index": 1,
+      "explanation": "描述一般的習慣或事實，使用現在簡單式，主詞 students 為複數故用 take。",
+      "commonMisconception": "受 yellow bus 吸引而忘記動詞與主詞 students 的對應。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Challenge",
+      "question": "Lily's uncle ______ to be a pilot when he was young.",
+      "options": [
+        "want",
+        "wants",
+        "wanted",
+        "wanting"
+      ],
+      "answer_index": 2,
+      "explanation": "後半句 when he was young 指出是過去的事，故動詞使用 wanted。",
+      "commonMisconception": "習慣性選現在式單三 wants，未讀完後半句線索。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Adverbs of Time",
+      "question": "We went to a Japanese restaurant ______.",
+      "options": [
+        "now",
+        "tomorrow",
+        "last night",
+        "every day"
+      ],
+      "answer_index": 2,
+      "explanation": "went 為過去式，時間副詞應選 last night。",
+      "commonMisconception": "動詞時態與時間副詞未對應。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "World Travelers",
+      "question": "Max: 'I am going to New York.' \nEva: 'I am going to London.' \nQuestion: Where is Max going?",
+      "options": [
+        "France",
+        "UK",
+        "USA",
+        "Japan"
+      ],
+      "answer_index": 2,
+      "explanation": "New York 位於 USA（美國）。",
+      "commonMisconception": "地名與國家名的地理連結力弱。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "After School Fun",
+      "question": "I play games with my friends on Fridays. I play piano on Saturdays. Today is the first day of the weekend.\nQuestion: What am I doing today?",
+      "options": [
+        "Play games",
+        "Play piano",
+        "Go to school",
+        "Nothing"
+      ],
+      "answer_index": 1,
+      "explanation": "週末的第一天通常指週六 (Saturday)，對應活動為 play piano。",
+      "commonMisconception": "文化差異認知（週末首日是週六還是週日），在此語境中指週六。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Restaurant Menu",
+      "question": "Menu: Beef Noodles $120, Pizza $150, Sushi $200. \nI have $130. What can I NOT buy?",
+      "options": [
+        "Beef Noodles",
+        "Pizza",
+        "Sushi",
+        "Water ($20)"
+      ],
+      "answer_index": 2,
+      "explanation": "持有 130 元，買不起 200 元的壽司和 150 元的披薩，選項中 Sushi 符合題目。注意問的是 NOT。",
+      "commonMisconception": "忽略 NOT 或是數學計算錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Birthday Card Review",
+      "question": "Happy 11th Birthday, Ken! I hope you like the robot I bought for you yesterday. \nQuestion: How old is Ken today?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "I don't know"
+      ],
+      "answer_index": 1,
+      "explanation": "Happy 11th Birthday 指的是 11 歲生日。",
+      "commonMisconception": "受 11th 序數詞干擾或受 yesterday 影響。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Cultural Manners",
+      "question": "In some countries, you should not ______ with your fingers. You should use a fork or chopsticks. \nQuestion: Choose the best words.",
+      "options": [
+        "eat",
+        "speak",
+        "draw",
+        "dance"
+      ],
+      "answer_index": 0,
+      "explanation": "配餐具（叉子、筷子）的動作是吃 (eat)。",
+      "commonMisconception": "不具備詞義關聯推論能力。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Comparison Review",
+      "question": "My cake is big, but your cake is ______ than mine.",
+      "options": [
+        "big",
+        "biger",
+        "bigger",
+        "the biggest"
+      ],
+      "answer_index": 2,
+      "explanation": "有 than 出現需用比較級，big 的比較級為 bigger。",
+      "commonMisconception": "比較級重複字尾規則不熟。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Global Holidays",
+      "question": "When it is Christmas in Taiwan, the weather is cold. Because it is ______.",
+      "options": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "answer_index": 3,
+      "explanation": "聖誕節在十二月，季節為冬季 (winter)。",
+      "commonMisconception": "月份與季節對應發生錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Future Predictions",
+      "question": "Next year, I ______ study harder to get good grades.",
+      "options": [
+        "was",
+        "will",
+        "did",
+        "am"
+      ],
+      "answer_index": 1,
+      "explanation": "Next year 表示未來，助動詞用 will。若選 am 後面需有 going to。",
+      "commonMisconception": "未來式結構混淆。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Lucky Colors",
+      "question": "In Chinese culture, ______ is a lucky color for Lunar New Year.",
+      "options": [
+        "blue",
+        "black",
+        "red",
+        "green"
+      ],
+      "answer_index": 2,
+      "explanation": "中國文化中，紅包與新年裝飾常以紅色 (red) 代表幸運。",
+      "commonMisconception": "不具備跨文化基礎常識。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "English Speakers",
+      "question": "People in ______ speak English as their first language.",
+      "options": [
+        "Taiwan",
+        "Canada",
+        "Japan",
+        "Korea"
+      ],
+      "answer_index": 1,
+      "explanation": "加拿大 (Canada) 的主要官方語言之一是英語。",
+      "commonMisconception": "國家與官方語言對應知識不足。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Winner's Medal",
+      "question": "A: Look! I got the gold medal in the race.\nB: Wow! You are so fast.\nQuestion: What color is the medal?",
+      "options": [
+        "Yellow (gold)",
+        "Silver",
+        "Red",
+        "Blue"
+      ],
+      "answer_index": 0,
+      "explanation": "金牌 (gold medal) 是金黃色的 (yellow/gold)。",
+      "commonMisconception": "不認識 gold 或是顏色連結錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

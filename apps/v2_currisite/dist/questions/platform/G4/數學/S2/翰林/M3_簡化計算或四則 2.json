@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "han_lin",
+    "lesson": "M3",
+    "order": 3,
+    "title": "簡化計算或四則"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "利用分配律計算：125 * 88 = 125 * (80 + 8) = ？",
+      "options": [
+        "10000",
+        "12000",
+        "13000",
+        "11000"
+      ],
+      "answer": "11000",
+      "explanation": "10000 + 1000 = 11000。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "在加減混合運算中，先算後算最後的結果都不會變。",
+      "answer": "True",
+      "explanation": "加法具有結合律與交換律。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "25 * 4 * 73 = 100 * 73 = ______。",
+      "answer": "7300",
+      "explanation": "先做容易計算的部分（25*4=100）。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "99 * 52 與下列哪一個算式的結果相同？",
+      "options": [
+        "(100 + 1) * 52",
+        "100 * 52 + 52",
+        "100 * 52 - 1",
+        "(100 - 1) * 52"
+      ],
+      "answer": "(100 - 1) * 52",
+      "explanation": "利用分配律簡化。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "括號的優先權大於乘除與加減。",
+      "answer": "True",
+      "explanation": "括號改變運算順序。"
+    }
+  ]
+}

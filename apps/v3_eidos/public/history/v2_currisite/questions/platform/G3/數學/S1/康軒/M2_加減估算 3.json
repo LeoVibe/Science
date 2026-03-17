@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "M2",
+    "title": "加減估算",
+    "semester": "semester_1",
+    "order": 2
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "小明想買一套 398 元的玩具和一本 102 元的書，估計大約要花多少錢？",
+      "options": [
+        "約 500 元",
+        "約 600 元",
+        "約 400 元",
+        "約 300 元"
+      ],
+      "answer": "約 500 元",
+      "explanation": "398 約為 400，102 約為 100，400 + 100 = 500。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "估算能幫助我們快速判斷答案是否合理。",
+      "answer": "True",
+      "explanation": "估算不用精確計算，但能概略檢查運算結果是否在合理範圍內。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "802 減去 295，估計大約是______。",
+      "answer": "500",
+      "explanation": "802 約為 800，295 約為 300，800 - 300 = 500。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪種情況最適合使用「估算」？",
+      "options": [
+        "超市買東西帶的錢夠不夠",
+        "火箭發射的倒數計時",
+        "藥劑师調配藥量",
+        "銀行存款的利息計算"
+      ],
+      "answer": "超市買東西帶的錢夠不夠",
+      "explanation": "日常買東西可以使用概估法；其餘情況皆需要極高的精確度。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "一桶果汁 1985 毫升，另一桶 3012 毫升，兩桶大約共有幾毫升？",
+      "options": [
+        "3000",
+        "4000",
+        "6000",
+        "5000"
+      ],
+      "answer": "5000",
+      "explanation": "1985 約為 2000，3012 約為 3000，2000 + 3000 = 5000。"
+    }
+  ]
+}

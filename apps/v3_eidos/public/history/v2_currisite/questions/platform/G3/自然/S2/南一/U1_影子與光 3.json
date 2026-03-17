@@ -1,0 +1,137 @@
+{
+    "meta": {
+        "grade": "grade_3",
+        "semester": "semester_2",
+        "subject": "自然",
+        "publisher": "nan_yi",
+        "lesson": "U1",
+        "title": "影子與光"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "type": "multiple_choice",
+            "question": "要產生影子，必須具備哪三個要素？",
+            "options": [
+                "光源、遮光物、受影面",
+                "光源、太陽、月亮",
+                "手、燈泡、黑暗",
+                "鏡子、水、牆壁"
+            ],
+            "answer": "光源、遮光物、受影面",
+            "explanation": "影子是光線被遮擋後產生的區域。"
+        },
+        {
+            "id": "2",
+            "type": "multiple_choice",
+            "question": "當你在陽光下跑路，影子始終在你的哪一側？",
+            "options": [
+                "跟光源（太陽）相反的一側",
+                "跟光源（太陽）相同的一側",
+                "隨便哪一側",
+                "影子會消失"
+            ],
+            "answer": "跟光源（太陽）相反的一側",
+            "explanation": "因為光沿直線傳播，被身體遮擋的面即形成影子。"
+        },
+        {
+            "id": "3",
+            "type": "multiple_choice",
+            "question": "中午 12 點時，陽光從正上方射下，此時影子的長度通常？",
+            "options": [
+                "最短",
+                "最長",
+                "跟早上一樣",
+                "沒有影子"
+            ],
+            "answer": "最短",
+            "explanation": "仰角越高，投影在地面上的長度就越短。"
+        },
+        {
+            "id": "4",
+            "type": "true_false",
+            "question": "影子的大小會隨「光源與物品的距離」改變。當物品離光源越近，影子就會變得越大。",
+            "answer": "True",
+            "explanation": "擴大的投影角度會導致受影面上的暗區增加。"
+        },
+        {
+            "id": "5",
+            "type": "multiple_choice",
+            "question": "古人利用「日晷（Gnomon）」來報時，這利用了影子的什麼原理？",
+            "options": [
+                "影子會動",
+                "「穩定性與週期性（Cyclic Predictability）」：影子隨太陽位置（時間）產生的長度與位移具有規律性",
+                "影子會變顏色",
+                "影子可以儲存時間"
+            ],
+            "answer": "「穩定性與週期性（Cyclic Predictability）」：影子隨太陽位置（時間）產生的長度與位移具有規律性",
+            "explanation": "規律性是古代計時器建設的物理基礎。"
+        },
+        {
+            "id": "6",
+            "type": "multiple_choice",
+            "question": "玩影戲（皮影戲）時，為什麼透過手的姿勢可以變出各種動物？這反映出光的什麼建設性特點？",
+            "options": [
+                "手很靈活",
+                "「線性輪廓投影（Linear Contour Mapping）」：由於光直線行進，不透明物體的邊緣輪廓會精確地映射成影子樣貌",
+                "影子有魔法",
+                "光會轉彎"
+            ],
+            "answer": "「線性輪廓投影（Linear Contour Mapping）」：由於光直線行進，不透明物體的邊緣輪廓會精確地映射成影子樣貌",
+            "explanation": "影子的外形是物體邊界信息的物理複製（Cloning）。"
+        },
+        {
+            "id": "7",
+            "type": "true_false",
+            "question": "光必須在「黑暗」中才能存在。」這句話是錯的，光本身就是能量，黑暗只是光不存在（或是被遮擋）的狀態。",
+            "answer": "True",
+            "explanation": "光是實體建設（物理粒子／波），黑暗是相對的狀態標籤。"
+        },
+        {
+            "id": "8",
+            "type": "multiple_choice",
+            "question": "如果在建築物周圍種高大的樹木，讓影子覆蓋外牆，這在綠建築（Green Building）中有什麼建設性功能？",
+            "options": [
+                "讓小鳥有家",
+                "「熱輻射阻隔（Thermal Shielding）」：透過影子減少牆面吸收陽光能量，降低室內溫度，減少冷氣耗電",
+                "為了要擋住路人",
+                "沒有任何功能"
+            ],
+            "answer": "「熱輻射阻隔（Thermal Shielding）」：透過影子減少牆面吸收陽光能量，降低室內溫度，減少冷氣耗電",
+            "explanation": "影子可以作為一種無形的控溫結構進行能源利用。"
+        },
+        {
+            "id": "9",
+            "type": "multiple_choice",
+            "question": "夜晚街道的燈光下，當你走離路燈越來越遠，你的影子會？",
+            "options": [
+                "越來越長",
+                "越來越短",
+                "保持不變",
+                "突然消失"
+            ],
+            "answer": "越來越長",
+            "explanation": "入射角變斜（與地面夾角變小），會導致投影長度增加。"
+        },
+        {
+            "id": "10",
+            "type": "true_false",
+            "question": "透明的玻璃碗雖然也會有淡淡的影，但顏色遠比不透明的木碗淺。這說明了物體的「透光性」會影響影子的濃度。 ",
+            "answer": "True",
+            "explanation": "物質的透光率決定了光子被攔截的比例。"
+        },
+        {
+            "id": "11",
+            "type": "multiple_choice",
+            "question": "觀察影子這件事，教給我們最重要的「解決問題（Debugging）」觀念是什麼？",
+            "options": [
+                "不要怕黑",
+                "「追本溯源（Traces of Cause）」：看到影子的狀態，可以推斷出背後光源的方向與遮擋物的樣貌。現象背後必有因（Reason）",
+                "影子只是幻覺",
+                "只要有光就沒有影子"
+            ],
+            "answer": "「追本溯源（Traces of Cause）」：看到影子的狀態，可以推斷出背後光源的方向與遮擋物的樣貌。現象背後必有因（Reason）",
+            "explanation": "邏輯推理能力的建設，始於對現象背後因果關係（Causality）的探求。 "
+        }
+    ]
+}

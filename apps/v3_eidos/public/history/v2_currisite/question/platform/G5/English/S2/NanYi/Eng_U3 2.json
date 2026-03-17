@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "English",
+    "publisher": "nan_yi",
+    "title": "Future Plans",
+    "lesson": "U3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Career Day",
+      "question": "A: What ______ you be in the future?\nB: I will be a doctor. I want to help people.",
+      "options": [
+        "do",
+        "will",
+        "is",
+        "are"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「未來將會」成為什麼，使用未來式助動詞 will。",
+      "commonMisconception": "慣性選 do，未注意到未來情境時間點。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Dream Job",
+      "question": "My brother loves planes. He will be a ______ one day.",
+      "options": [
+        "pilot",
+        "vet",
+        "chef",
+        "nurse"
+      ],
+      "answer_index": 0,
+      "explanation": "喜歡飛機的人，夢想職業通常是飛行員 (pilot)。",
+      "commonMisconception": "不認識職業詞彙。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Animal Lover",
+      "question": "If you like to help sick animals, you will be a ______.",
+      "options": [
+        "doctor",
+        "vet",
+        "teacher",
+        "singer"
+      ],
+      "answer_index": 1,
+      "explanation": "幫助「動物」的醫生是獸醫 (vet)。",
+      "commonMisconception": "分不清 doctor 與 vet 的服務對象。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Future Prediction",
+      "question": "A: Will Toby ______ a scientist when he grows up?\nB: Yes, he will. He loves science.",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "was"
+      ],
+      "answer_index": 2,
+      "explanation": "助動詞 will 之後接「原形動詞」。B 動詞的原形為 be。",
+      "commonMisconception": "學生習慣用 am/is/are，不熟悉 be 原形用法。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Planning for Lunch",
+      "question": "I ______ have a big pizza for lunch tomorrow. It's my birthday!",
+      "options": [
+        "will",
+        "am",
+        "was",
+        "did"
+      ],
+      "answer_index": 0,
+      "explanation": "時間副詞 tomorrow 提示未來式，選用 will。",
+      "commonMisconception": "時態與時間副詞未對應。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Negative Future",
+      "question": "A: Will they go to Taipei next week?\nB: No, they ______. They will go to Tainan.",
+      "options": [
+        "won't",
+        "don't",
+        "aren't",
+        "didn't"
+      ],
+      "answer_index": 0,
+      "explanation": "對 Will 開頭疑問句的否定簡答為 No, they won't (will not)。",
+      "commonMisconception": "受習慣用語影響選 don't 或 aren't。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Group Ambition",
+      "question": "We ______ work hard to be famous singers.",
+      "options": [
+        "are",
+        "will",
+        "do",
+        "will be"
+      ],
+      "answer_index": 1,
+      "explanation": "助動詞 will 加原形動詞 work。若選 will be 則後方應接 V-ing 或名詞/形容詞。",
+      "commonMisconception": "混淆 will 與 will be 的後面結構。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Challenge",
+      "question": "Sam ______ a teacher in ten years. He likes kids.",
+      "options": [
+        "will",
+        "is",
+        "will be",
+        "was"
+      ],
+      "answer_index": 2,
+      "explanation": "in ten years (十年後) 表示未來。成為某種職業需要 B 動詞 be，故選 will be。",
+      "commonMisconception": "漏掉 B 動詞，只選 will。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Interrogative Order",
+      "question": "______ you ______ help me with my homework tomorrow?",
+      "options": [
+        "Do; help",
+        "Will; help",
+        "Are; help",
+        "Will; helping"
+      ],
+      "answer_index": 1,
+      "explanation": "未來式疑問句結構：Will + 主詞 + 原形動詞。",
+      "commonMisconception": "結構成分誤用（如 will 配 V-ing）。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Dream Class",
+      "question": "Lily wants to be a nurse. Ken wants to be a doctor. They both want to help people in the hospital.\nQuestion: Where will Lily and Ken work in the future?",
+      "options": [
+        "At a school",
+        "In a hospital",
+        "In a park",
+        "At a bank"
+      ],
+      "answer_index": 1,
+      "explanation": "護理師和醫生工作的場域通常是在醫院 (hospital)。",
+      "commonMisconception": "職業與場所對應發生錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Holiday Decision",
+      "question": "It's cold now. I will buy a jacket. It will be hot tomorrow. I will go swimming.\nQuestion: What will I do tomorrow?",
+      "options": [
+        "Buy a jacket",
+        "Go swimming",
+        "Go hiking",
+        "Sleep"
+      ],
+      "answer_index": 1,
+      "explanation": "文中敘述明天的計畫是 go swimming。",
+      "commonMisconception": "受第一句 'I will buy a jacket' 影響而忽略時間點對應。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Future Robot",
+      "question": "In 2050, robots will do everything for us. They will cook and speak ten languages.\nQuestion: Will robots speak English in 2050?",
+      "options": [
+        "Yes, they will.",
+        "No, they won't.",
+        "Yes, they do.",
+        "No, they don't."
+      ],
+      "answer_index": 0,
+      "explanation": "機器人會說十種語言 (ten languages)，英語作為主要語言必定包含在內。肯定回答用 Yes, they will。",
+      "commonMisconception": "無法進行「十種語言」與「英語」的包含邏輯推理。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Career Search",
+      "question": "I like to draw pictures. I don't like to sing. I will be an artist.\nQuestion: Does the writer like music?",
+      "options": [
+        "Yes, she will.",
+        "No, she doesn't.",
+        "Yes, she does.",
+        "No, she won't."
+      ],
+      "answer_index": 1,
+      "explanation": "作者說不喜歡唱歌 (don't like to sing)，暗示不喜歡音樂（或唱歌相關活動）。問句用 Does，回答用 doesn't。",
+      "commonMisconception": "對問句助動詞與事實推論的雙重判讀錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Busy Vet",
+      "question": "Dr. Wang is a vet. She helps a cat today. She will help a dog tomorrow.\nQuestion: Who is Dr. Wang?",
+      "options": [
+        "An animal doctor",
+        "A school teacher",
+        "A pilot",
+        "A chef"
+      ],
+      "answer_index": 0,
+      "explanation": "vet (獸醫) 的同義解釋即為安 animal doctor。",
+      "commonMisconception": "不認識 vet 或無法進行同義代換。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Subject Agreement",
+      "question": "Everyone in our class ______ going to be successful in the future.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "will"
+      ],
+      "answer_index": 0,
+      "explanation": "Everyone 在文法上視為單數，B 動詞用 is。",
+      "commonMisconception": "受 class 或眾多學生的集體感影響誤選 are。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Joining a Club",
+      "question": "Tom likes to help sick people. He should join the ______ Club.",
+      "options": [
+        "Art",
+        "Medical",
+        "Sports",
+        "Music"
+      ],
+      "answer_index": 1,
+      "explanation": "喜歡助人（病人），最相關的是醫療 (Medical) 社團。",
+      "commonMisconception": "詞義聯想力不足。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Saving Money",
+      "question": "I want to buy a new computer next year. I ______ save (存) my money now.",
+      "options": [
+        "will",
+        "did",
+        "was",
+        "does"
+      ],
+      "answer_index": 0,
+      "explanation": "為了明年的購買計畫，現在「將要/將會」開始存錢。表達未來意向。",
+      "commonMisconception": "對時態的因果連結掌握不夠。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Famous People",
+      "question": "If you want to be a great ______, you should practice singing every day.",
+      "options": [
+        "doctor",
+        "singer",
+        "pilot",
+        "vet"
+      ],
+      "answer_index": 1,
+      "explanation": "每天練習唱歌，是為了成為歌手 (singer)。",
+      "commonMisconception": "邏輯對應錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Global Careers",
+      "question": "A ______ often travels to different countries by plane.",
+      "options": [
+        "teacher",
+        "pilot",
+        "nurse",
+        "farmer"
+      ],
+      "answer_index": 1,
+      "explanation": "搭飛機到不同國家的職業最符合的是飛行員 (pilot)。",
+      "commonMisconception": "不具備職業行為之綜合認知。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Meeting in the Future",
+      "question": "Let's meet again in 2030! We ______ all be big boys and girls then.\nQuestion: Choose the best words.",
+      "options": [
+        "will",
+        "are",
+        "do",
+        "were"
+      ],
+      "answer_index": 0,
+      "explanation": "2030 年是未來，助動詞用 will。",
+      "commonMisconception": "遺漏未來時間標記。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

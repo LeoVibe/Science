@@ -6,7 +6,7 @@
         <button @click="showStatistics" class="header-btn stats-btn">📊 統計</button>
         <button @click="showAllWrongQuestions" class="header-btn wrong-btn">❌ 錯題</button>
       </div>
-      <span class="app-version">v1.2.0</span>
+      <span class="app-version">v0.1.6</span>
     </div>
     <MainMenu 
       v-if="currentView === 'menu'"

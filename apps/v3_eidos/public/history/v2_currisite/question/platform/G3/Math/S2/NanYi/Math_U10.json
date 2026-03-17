@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "nan_yi",
+    "title": "報讀表格",
+    "lesson": "U10",
+    "order": 10
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "查閱功課表",
+      "question": "功課表上，週二的第 3 節課是什麼？",
+      "options": [
+        "體育",
+        "國語",
+        "數學",
+        "自然"
+      ],
+      "answer_index": 2,
+      "explanation": "此題為報讀基本題，由交點（週二與第三節）查得。假設為數學。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "票價查詢",
+      "question": "根據火車票價表，從台北到中壢要 57 元，小明買 2 張要多少錢？",
+      "options": [
+        "120 元",
+        "100 元",
+        "59 元　",
+        "114 元"
+      ],
+      "answer_index": 3,
+      "explanation": "57 × 2 = 114。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "時刻表報讀",
+      "question": "一部卡通 16:30 開始，17:15 結束。一共播了多長？",
+      "options": [
+        "30 分鐘",
+        "15 分鐘",
+        "45 分鐘",
+        "1 小時　"
+      ],
+      "answer_index": 2,
+      "explanation": "17:15 - 16:30 = 45 分鐘。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "雙向檢索",
+      "question": "小英想看 14:00~15:30 的電影。現在是 13:40，她還剩多少時間可以買爆米花？",
+      "options": [
+        "10 分鐘",
+        "20 分鐘",
+        "40 分鐘",
+        "1 小時　"
+      ],
+      "answer_index": 1,
+      "explanation": "14:00 - 13:40 = 20 分鐘。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "表格結構",
+      "question": "在二維表格（如票價表）中，交叉點代表什麼意義？",
+      "options": [
+        "代表相加的結果　　　　",
+        "兩個項目對應的共同數據",
+        "代表相除的結果　　　　",
+        "隨便寫一個數字　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "橫向與縱向項目的交集值即為其對應數據。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "行程規劃",
+      "question": "火車時刻表：自強號 15:10 開，莒光號 15:45 開。小明想早點到，應該搭哪一班？兩班車差多久？",
+      "options": [
+        "自強號；差 35 分",
+        "莒光號；差 35 分",
+        "一樣快　　　　　　　",
+        "自強號；差 15 分"
+      ],
+      "answer_index": 0,
+      "explanation": "15:10 較早。 45 - 10 = 35。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "逆向票價推理",
+      "question": "小明拿 200 元買一張車票找回 60 元。在票價表中，哪一個區間的票價是 140 元？",
+      "options": [
+        "台北－台中",
+        "台北－桃園",
+        "高雄－台南",
+        "台中－嘉義"
+      ],
+      "answer_index": 0,
+      "explanation": "200 - 60 = 140。需在表格中尋找 140 元的交點（假設為台北－台中）。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "加總數據",
+      "question": "統計表顯示：週一賣出 45 杯，週二賣出 38 杯。兩天共賣出幾杯？",
+      "options": [
+        "73 杯　",
+        "100 杯",
+        "7 杯　　",
+        "83 杯　"
+      ],
+      "answer_index": 3,
+      "explanation": "45 + 38 = 83。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "節日查詢",
+      "question": "在日曆表中，如果 5 月 1 日是週三，那麼 5 月 8 日是週幾？",
+      "options": [
+        "週五",
+        "週三",
+        "週四",
+        "週二"
+      ],
+      "answer_index": 1,
+      "explanation": "加上 7 天為同一個星期幾。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "空檔計算",
+      "question": "節目表：14:00 播動畫，15:30 播新聞，16:15 播電影。動畫與電影之間有多少空檔時間（新聞撥放期間）？",
+      "options": [
+        "2 小時 15 分",
+        "45 分鐘　　　　",
+        "1 小時　　　　　",
+        "1 小時 30 分"
+      ],
+      "answer_index": 0,
+      "explanation": "16:15 - 14:00 = 2 小時 15 分。注意是問『動畫與電影之間』的總間隔。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "成績排名",
+      "question": "成績表：甲 92 分，乙 88 分，丙 95 分。誰是第一名？比第二名多幾分？",
+      "options": [
+        "乙；第一名　　",
+        "丙；多 7 分",
+        "甲；多 4 分",
+        "丙；多 3 分"
+      ],
+      "answer_index": 3,
+      "explanation": "最高 95 (丙)。第二 92 (甲)。 95 - 92 = 3。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "多表聯測",
+      "question": "小英查時刻表發現 13:00 的車要搭 2 小時。到達時剛好是哪一個節目開始？ (A節目 14:00; B節目 15:00; C節目 16:00)",
+      "options": [
+        "C 節目",
+        "B 節目",
+        "都沒開始",
+        "A 節目"
+      ],
+      "answer_index": 1,
+      "explanation": "13:00 + 2 = 15:00。剛好 B 節目開始。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

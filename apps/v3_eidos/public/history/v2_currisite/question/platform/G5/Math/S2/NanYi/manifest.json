@@ -1,0 +1,66 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "Math_U1",
+      "title": "分數的計算",
+      "file": "Math_U1.json"
+    },
+    {
+      "id": "Math_U2",
+      "title": "數的十進位結構",
+      "file": "Math_U2.json"
+    },
+    {
+      "id": "Math_U3",
+      "title": "平面圖形與對稱",
+      "file": "Math_U3.json"
+    },
+    {
+      "id": "Math_U4",
+      "title": "正方體和長方體",
+      "file": "Math_U4.json"
+    },
+    {
+      "id": "Math_U5",
+      "title": "整數、小數除以整數",
+      "file": "Math_U5.json"
+    },
+    {
+      "id": "Math_U6",
+      "title": "小數的乘法",
+      "file": "Math_U6.json"
+    },
+    {
+      "id": "Math_U7",
+      "title": "表面積",
+      "file": "Math_U7.json"
+    },
+    {
+      "id": "Math_U8",
+      "title": "比率與百分率",
+      "file": "Math_U8.json"
+    },
+    {
+      "id": "Math_U9",
+      "title": "容積與容量",
+      "file": "Math_U9.json"
+    },
+    {
+      "id": "Math_U10",
+      "title": "怎樣列式",
+      "file": "Math_U10.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8.5,
+      "accuracyScore": 8,
+      "isVerified": true
+    }
+  }
+}

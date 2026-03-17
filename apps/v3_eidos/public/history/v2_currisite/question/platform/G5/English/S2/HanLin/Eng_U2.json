@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "English",
+    "publisher": "han_lin",
+    "title": "How Does it Taste?",
+    "lesson": "U2",
+    "order": 2
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Eating Lemons",
+      "question": "A: Do you like the lemon juice?\nB: No, it's too ______. I need some sugar.",
+      "options": [
+        "sweet",
+        "salty",
+        "sour",
+        "spicy"
+      ],
+      "answer_index": 2,
+      "explanation": "檸檬汁的味道通常是酸的 (sour)。後半句說需要糖暗示了目前的酸味。",
+      "commonMisconception": "學生可能分不清 sour 與 sweet 的拼寫或含義。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Snack Time",
+      "question": "This chocolate cake is very ______. Kids love it!",
+      "options": [
+        "sour",
+        "sweet",
+        "salty",
+        "bitter"
+      ],
+      "answer_index": 1,
+      "explanation": "巧克力蛋糕最常見的描述是甜的 (sweet)。",
+      "commonMisconception": "雖然有苦巧克力，但在 G5 程度通常以 sweet 為主標。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Hot Pot Dinner",
+      "question": "Wow! This soup is so ______. My tongue (舌頭) is burning!",
+      "options": [
+        "sweet",
+        "sour",
+        "spicy",
+        "cold"
+      ],
+      "answer_index": 2,
+      "explanation": "感覺舌頭在燃燒 (burning)，對應的味道是辣的 (spicy)。",
+      "commonMisconception": "單字辨識錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Reviewing Lunch",
+      "question": "A: How ______ the fried chicken taste?\nB: It tastes salty.",
+      "options": [
+        "do",
+        "does",
+        "is",
+        "are"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 the fried chicken 為第三人稱單數，助動詞使用 does。",
+      "commonMisconception": "受 taste 當動詞時的狀態影響誤選 Is。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Tasting Grapes",
+      "question": "These grapes ______ very sweet. Do you want one?",
+      "options": [
+        "taste",
+        "tastes",
+        "tasting",
+        "is taste"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 These grapes 為複數，動詞 taste 不需加 s。",
+      "commonMisconception": "主謂不一致（忘記 grapes 是複數）。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Pizza Choice",
+      "question": "A: Does the pizza taste good?\nB: Yes, ______. It's delicious!",
+      "options": [
+        "it tastes",
+        "it does",
+        "it is",
+        "it doesn't"
+      ],
+      "answer_index": 1,
+      "explanation": "對於 Does 開頭的疑問句，肯定簡答為 Yes, it does。",
+      "commonMisconception": "受 taste 影響誤答 Yes, it tastes（簡答不接一般動詞）。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Mystery Food",
+      "question": "The soup tastes ______ like salt. Maybe you put too much.",
+      "options": [
+        "very",
+        "too",
+        "so",
+        "a little"
+      ],
+      "answer_index": 3,
+      "explanation": "「有一點」鹹的味道，使用 a little 修飾。",
+      "commonMisconception": "程度副詞選取不當。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Grammar Check",
+      "question": "He ______ some sour apples in the kitchen yesterday.",
+      "options": [
+        "eat",
+        "ate",
+        "eats",
+        "eating"
+      ],
+      "answer_index": 1,
+      "explanation": "時間副詞 yesterday 提示使用過去式 ate。",
+      "commonMisconception": "時態抓取錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Adjective Order",
+      "question": "I would like some ______ cookies, please.",
+      "options": [
+        "sweet small",
+        "small sweet",
+        "sweetly small",
+        "small sweetly"
+      ],
+      "answer_index": 1,
+      "explanation": "形容詞排序：通常大小/形狀 (small) 在感覺 (sweet) 之前。雖然這在 G5 較難，但有助於語感建立。或者在此情境下 small sweet 最自然。",
+      "commonMisconception": "形容詞排序規則不熟。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Fruit Salad",
+      "question": "The apple is sweet. The orange is sour. The pineapple is sweet and sour.\nQuestion: Which fruit is ONLY sour?",
+      "options": [
+        "The apple",
+        "The orange",
+        "The pineapple",
+        "The salad"
+      ],
+      "answer_index": 1,
+      "explanation": "文中只描述橘子 (orange) 是酸的。鳳梨是酸甜都有。",
+      "commonMisconception": "忽略「ONLY」的限定語。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Spicy Challenge",
+      "question": "Ken: 'This noodles are so spicy!' \nSam: 'Really? I think they taste salty, not spicy.' \nQuestion: What does Sam think about the noodles?",
+      "options": [
+        "They are spicy.",
+        "They are sweet.",
+        "They are salty.",
+        "They taste bad."
+      ],
+      "answer_index": 2,
+      "explanation": "Sam 認為麵吃起來是鹹的 (salty)，不是辣的。",
+      "commonMisconception": "受第一個說話者 (Ken) 的意見影響而選錯。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Mochi Shop",
+      "question": "Mochi A has sugar. Mochi B has salt. Mochi C has red beans. \nQuestion: Which mochi tastes salty?",
+      "options": [
+        "Mochi A",
+        "Mochi B",
+        "Mochi C",
+        "They all do"
+      ],
+      "answer_index": 1,
+      "explanation": "鹽 (salt) 對應的味道是鹹的 (salty)。",
+      "commonMisconception": "詞性轉換不熟（Salt 名詞 vs Salty 形容詞）。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Bad Soup",
+      "question": "Mom: 'Don't eat that soup! It tastes bad.' \nToby: 'Oh! It is from last week.' \nQuestion: Why does the soup taste bad?",
+      "options": [
+        "Because it's sweet.",
+        "Because it's hot.",
+        "Because it is old.",
+        "Because Toby likes it."
+      ],
+      "answer_index": 2,
+      "explanation": "湯是上週的 (from last week)，暗示不新鮮/過期 (old)，導致味道變差。",
+      "commonMisconception": "無法從時間描述推論出 bad 的原因。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Ice Cream Day",
+      "question": "Summer is hot. We want something cold and sweet. \nQuestion: What is the best choice (選擇)?",
+      "options": [
+        "Hot soup",
+        "Salt water",
+        "Ice cream",
+        "Spicy chicken"
+      ],
+      "answer_index": 2,
+      "explanation": "符合「冷」且「甜」的選項是冰淇淋 (Ice cream)。",
+      "commonMisconception": "不能將多重特徵與複合選項對應。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Comparative Taste",
+      "question": "This cake tastes ______ than that cookie.",
+      "options": [
+        "sweet",
+        "sweeter",
+        "sweetest",
+        "more sweet"
+      ],
+      "answer_index": 1,
+      "explanation": "有 than 出現需用比較級，sweet 的比較級為 sweeter。",
+      "commonMisconception": "比較級規則混淆。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Cooking Mistakes",
+      "question": "I put too much ______ in the coffee. Now it tastes very salty!",
+      "options": [
+        "sugar",
+        "salt",
+        "milk",
+        "water"
+      ],
+      "answer_index": 1,
+      "explanation": "咖啡變鹹了，代表誤加了鹽 (salt)。",
+      "commonMisconception": "邏輯判斷錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Drinking Medicine",
+      "question": "The medicine tastes ______ . I need some water right now!",
+      "options": [
+        "sweet",
+        "bitter (苦的)",
+        "sour",
+        "spicy"
+      ],
+      "answer_index": 1,
+      "explanation": "良藥苦口，且後半句反應劇烈，bitter 最合適。雖然這不是課程主標，但常作為補充。",
+      "commonMisconception": "不認識程度較高的味道單字。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Night Market Snacks",
+      "question": "Tofu (臭豆腐) smells bad, but many people think it ______ great!",
+      "options": [
+        "taste",
+        "tastes",
+        "tasting",
+        "is"
+      ],
+      "answer_index": 1,
+      "explanation": "形容食物的味道，主詞 it 配單數動詞 tastes。",
+      "commonMisconception": "受 smells 吸引而選複數動詞，或受 smells bad 語意干擾。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "After School Treat",
+      "question": "After school, children in Taiwan like to drink ______ tea. It is sweet and has many pearls.",
+      "options": [
+        "black",
+        "bubble",
+        "green",
+        "lemon"
+      ],
+      "answer_index": 1,
+      "explanation": "有珍珠 (pearls) 且甜的茶是珍珠奶茶 (bubble tea)。",
+      "commonMisconception": "文化常識轉換力弱。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Tasting Game",
+      "question": "Close your eyes. Taste this. Is it sweet? \nNo, it's not. I want to drink water now. My mouth is on fire! \nQuestion: What does it taste like?",
+      "options": [
+        "Sweet",
+        "Sour",
+        "Salty",
+        "Spicy"
+      ],
+      "answer_index": 3,
+      "explanation": "「嘴巴著火了」(on fire) 是對辣 (spicy) 的生動描述。",
+      "commonMisconception": "不認識慣用語或隱喻描述。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

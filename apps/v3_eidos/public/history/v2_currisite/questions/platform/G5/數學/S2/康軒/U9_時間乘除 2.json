@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "semester_2",
+    "subject": "數學",
+    "publisher": "kang_hsuan",
+    "lesson": "U9",
+    "title": "時間的乘除"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "1分20秒 乘以 5 等於多少？",
+      "options": ["5分100秒", "6分20秒", "6分40秒", "5分20秒"],
+      "answer": "6分40秒",
+      "explanation": "1分20秒 × 5 = 5分100秒 = 6分40秒。"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "10分 處以 4 等於多少？",
+      "options": ["2分30秒", "2分50秒", "2.5分", "2分25秒"],
+      "answer": "2分30秒",
+      "explanation": "10分 = 600秒。600 ÷ 4 = 150秒 = 2分30秒。"
+    }
+  ]
+}

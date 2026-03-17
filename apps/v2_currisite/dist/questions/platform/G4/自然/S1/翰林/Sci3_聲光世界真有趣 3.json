@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "han_lin",
+    "lesson": "Sci3",
+    "order": 3,
+    "title": "聲光世界真有趣"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "在山洞中大聲喊叫後聽到的回音，是聲音的哪一種特性？",
+      "options": [
+        "直線傳播",
+        "反射",
+        "折射",
+        "吸收"
+      ],
+      "answer": "反射",
+      "explanation": "聲波遇到障礙物（如牆壁、山壁）後反彈，形成回音。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "光前進時如果遇到平面鏡，會發生反射現象，反射角等於入射角。",
+      "answer": "True",
+      "explanation": "這是光的反射定律的基本原則。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "潛水艇能在水下看到海面的景象，主要是利用內部裝配的______（工具）。",
+      "answer": "潛望鏡",
+      "explanation": "潛望鏡利用兩塊平面鏡的二次反射來改變視線路徑。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "有關「聲音的傳播」，下列媒介中哪一個傳播聲音的速度通常最快？",
+      "options": [
+        "木頭或鋼鐵等固體",
+        "水",
+        "真空環境",
+        "空氣"
+      ],
+      "answer": "木頭或鋼鐵等固體",
+      "explanation": "介質分子愈緊密，傳播能量的效率愈高；真空不能傳聲。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪一種應用「不屬於」光的反射應用？",
+      "options": [
+        "放大鏡（老花眼鏡）",
+        "整理儀容的試衣鏡",
+        "汽車的後視鏡",
+        "道路轉彎處的凸面鏡"
+      ],
+      "answer": "放大鏡（老花眼鏡）",
+      "explanation": "放大鏡是利用光的「折射」原理。"
+    }
+  ]
+}

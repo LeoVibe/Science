@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci2",
+    "order": 2,
+    "title": "有趣的力的現象"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "下列哪一種力「不屬於」接觸力？",
+      "options": [
+        "推車的力",
+        "拉拉鍊的力",
+        "磁鐵對鐵釘的吸引力",
+        "踢球的力"
+      ],
+      "answer": "磁鐵對鐵釘的吸引力",
+      "explanation": "磁力不需接觸就能產生作用，屬於非接觸力。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "用力拉皮筋，皮筋的形狀會發生改變。",
+      "answer": "True",
+      "explanation": "力可以使物體產生形變。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "物體因為重力作用而受到的下墜力，我們稱為______。",
+      "answer": "重量",
+      "explanation": "重量是地球對物體的引力表現。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "丟出的球最後會落回地面，是因為受到什麼力的影響？",
+      "options": [
+        "磁力",
+        "地球引力（重力）",
+        "風力",
+        "電力"
+      ],
+      "answer": "地球引力（重力）",
+      "explanation": "重力促使物體向下運動。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "浮力可以抵銷物體的部分重量，讓人在水中覺得變輕。",
+      "answer": "True",
+      "explanation": "浮力是流體對物體向上的托力。"
+    }
+  ]
+}

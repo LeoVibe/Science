@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "nan_yi",
+    "title": "時間",
+    "lesson": "U3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "時間換算",
+      "question": "下午 3 時也就是 24 小時制的幾時？",
+      "options": [
+        "15 時",
+        "3 時　",
+        "13 時",
+        "21 時"
+      ],
+      "answer_index": 0,
+      "explanation": "12 + 3 = 15 時。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "影片撥放",
+      "question": "一部電影長 1 小時 50 分鐘，如果從 14:20 開始撥放，結束時間是幾時幾分？",
+      "options": [
+        "16 時 20 分",
+        "16 時 10 分",
+        "15 時 70 分",
+        "15 時 10 分"
+      ],
+      "answer_index": 1,
+      "explanation": "20+50=70分=1時10分。14+1+1=16時。故為 16:10。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "經過時間",
+      "question": "小華從上午 10:45 開始寫功課，一直寫到中午 12:15。他寫了多久？",
+      "options": [
+        "1 小時 15 分",
+        "2 小時 15 分",
+        "1 小時 30 分",
+        "1 小時 70 分"
+      ],
+      "answer_index": 2,
+      "explanation": "10:45 到 11:45 為 1 小時。11:45 到 12:15 為 30 分。共 1 小時 30 分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "秒的認識",
+      "question": "大隊接力小明跑了 2 分 15 秒，也就是跑了多少秒？",
+      "options": [
+        "120 秒",
+        "215 秒",
+        "75 秒　",
+        "135 秒"
+      ],
+      "answer_index": 3,
+      "explanation": "2 分 = 120 秒。120 + 15 = 135 秒。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "時刻與時間",
+      "question": "紅綠燈每 1 分鐘變換一次綠燈。小明在路口等了 3 次綠燈變換，一共等了幾秒？",
+      "options": [
+        "180 秒",
+        "60 秒　",
+        "3 秒　　",
+        "300 秒"
+      ],
+      "answer_index": 0,
+      "explanation": "3 × 60 = 180 秒。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "跨午時間",
+      "question": "火車上午 11 時 50 分出發，到了下午 1 時 10 分到達。一共搭了多久？",
+      "options": [
+        "2 小時 20 分",
+        "1 小時 20 分",
+        "60 分鐘　　　　",
+        "80 分鐘　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "11:50 到 12:50 為 1 小時。12:50 到 13:10 為 20 分。合計 1 小時 20 分（或 80 分鐘，但通常選標準時分）。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "時間陷阱",
+      "question": "下午 2 點 45 分，再經過 50 分鐘後是幾時幾分？",
+      "options": [
+        "2 時 95 分",
+        "3 時 5 分　",
+        "3 時 35 分",
+        "3 時 95 分"
+      ],
+      "answer_index": 2,
+      "explanation": "45 + 50 = 95 分 = 1 時 35 分。2+1=3 時。故為 3:35。",
+      "commonMisconception": "學生容易直接寫 2:95 或進位寫成 3:95。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "公車車次",
+      "question": "公車每 15 分鐘一班。小明錯過了 08:30 的班次，下一班公車幾點會到？",
+      "options": [
+        "08:15",
+        "09:00",
+        "08:50",
+        "08:45"
+      ],
+      "answer_index": 3,
+      "explanation": "30 + 15 = 45。故為 08:45。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "量感建立",
+      "question": "唱完一首國歌大約需要多少時間？",
+      "options": [
+        "1 分鐘　",
+        "10 秒鐘",
+        "1 小時　",
+        "10 分鐘"
+      ],
+      "answer_index": 0,
+      "explanation": "生活經驗判斷，國歌約 50-70 秒，最接近 1 分鐘。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "倒數計時",
+      "question": "原本是 10:10，時鐘故障每小時慢 2 分鐘。過了 5 小時後，這個故障時鐘會指在幾點幾分？",
+      "options": [
+        "15 時 20 分",
+        "15 時 0 分　",
+        "15 時 10 分",
+        "15 時 5 分　"
+      ],
+      "answer_index": 1,
+      "explanation": "5 小時會慢 5 × 2 = 10 分。正常應為 15:10，慢 10 分後為 15:00。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "經過與結束",
+      "question": "小英每天練鋼琴 45 分鐘，結束時是下午 5 時 10 分。請問她是幾點幾分開始練的？",
+      "options": [
+        "下午 4 時 35 分",
+        "下午 4 時 55 分",
+        "下午 4 時 25 分",
+        "下午 5 時 55 分"
+      ],
+      "answer_index": 2,
+      "explanation": "5:10 減 45 分。借 1 時 (60分)。60+10-45 = 25 分。小時變 4。故為 4:25。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "時制轉換",
+      "question": "小明晚上 9 時 30 分上床睡覺。也就是 24 小時制的幾點幾分？",
+      "options": [
+        "20 時 30 分",
+        "09 時 30 分",
+        "21 時 0 分　",
+        "21 時 30 分"
+      ],
+      "answer_index": 3,
+      "explanation": "12 + 9 = 21 時。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

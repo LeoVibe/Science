@@ -1,5 +1,9 @@
 node_modules/
 .DS_Store
+
+# 0_AI_Project 全域安全金鑰設定檔（絕對禁止上傳）
+Global_API_Keys.txt
+
 .env
 .env.*
 !.env.example

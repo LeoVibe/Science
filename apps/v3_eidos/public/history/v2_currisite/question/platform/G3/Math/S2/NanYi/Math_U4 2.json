@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "nan_yi",
+    "title": "兩步驟的計算",
+    "lesson": "U4",
+    "order": 4
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "連乘問題",
+      "question": "1 盒巧克力有 2 層，每層有 8 顆。5 盒共有幾顆巧克力？",
+      "options": [
+        "40 顆",
+        "15 顆",
+        "80 顆",
+        "30 顆"
+      ],
+      "answer_index": 2,
+      "explanation": "2 × 8 × 5 = 16 × 5 = 80。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "連除計算",
+      "question": "80 顆糖，每 2 顆裝一袋，4 袋裝一盒。共可裝幾盒？",
+      "options": [
+        "40 盒",
+        "20 盒",
+        "5 盒　",
+        "10 盒"
+      ],
+      "answer_index": 3,
+      "explanation": "80 ÷ 2 = 40 袋。40 ÷ 4 = 10 盒。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "乘加計算",
+      "question": "每枝原子筆 15 元，哥哥買 4 枝和 1 個 25 元的橡皮擦。共要付幾元？",
+      "options": [
+        "40 元",
+        "85 元",
+        "75 元",
+        "60 元"
+      ],
+      "answer_index": 1,
+      "explanation": "15 × 4 + 25 = 60 + 25 = 85 元。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "除減計算",
+      "question": "媽媽帶了 100 元，買了一瓶 65 元的牛奶後，剩下的錢最多可以買幾個 5 元的糖果？",
+      "options": [
+        "20 個",
+        "7 個　",
+        "8 個　",
+        "13 個"
+      ],
+      "answer_index": 1,
+      "explanation": "(100 - 65) ÷ 5 = 35 ÷ 5 = 7。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "括號運用",
+      "question": "一包色紙有 50 張。小明買了 3 包，分給 5 個小朋友。平均每個小朋友拿多少張？",
+      "options": [
+        "25 張　",
+        "30 張　",
+        "150 張",
+        "10 張　"
+      ],
+      "answer_index": 1,
+      "explanation": "50 × 3 ÷ 5 = 150 ÷ 5 = 30 張。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "併式邏輯",
+      "question": "算式 200 - ( 40 + 30 ) 是在算什麼？",
+      "options": [
+        "有 200 元，買了 40 元和 30 元的東西，共剩幾元？",
+        "先有 200 元加 40 元，再扣 30 元是多少？　　　　",
+        "有 200 元，買 40 元東西剩多少？　　　　　　　　　　",
+        "200 個東西分給 40 人剩幾個？　　　　　　　　　　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "括號先加，代表總花費。200 減掉總花費即為所剩。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "多重資訊扣除",
+      "question": "小英家有 5 個人，她帶了 500 元去超市，買了 4 盒 120 元的雞蛋後。她還剩下多少錢？",
+      "options": [
+        "380 元",
+        "480 元",
+        "100 元",
+        "20 元　"
+      ],
+      "answer_index": 3,
+      "explanation": "500 - (120 × 4) = 500 - 480 = 20 元。人數 5 為干擾資訊。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "分裝與減法",
+      "question": "果汁 450 毫升，平分給 5 個人喝後。原本滿滿的 1 公升瓶子裡還剩下多少果汁？",
+      "options": [
+        "550 毫升　",
+        "910 毫升　",
+        "90 毫升　　",
+        "1000 毫升"
+      ],
+      "answer_index": 0,
+      "explanation": "1000 - 450 = 550 毫升。題目問剩下的，不用理會分給幾人（除非問每人剩下多少，但這裡問瓶子剩下）。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "購買組合",
+      "question": "麵包一個 35 元，買 3 個裝一袋再加 5 元提袋。小明買了 2 袋共要付幾元？",
+      "options": [
+        "210 元",
+        "105 元",
+        "110 元",
+        "220 元"
+      ],
+      "answer_index": 3,
+      "explanation": "一袋的價格：35 × 3 + 5 = 105 + 5 = 110。兩袋：110 × 2 = 220。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "優先權診斷",
+      "question": "計算 50 + 10 × 2 的正確答案是多少？",
+      "options": [
+        "70　",
+        "60　",
+        "120",
+        "100"
+      ],
+      "answer_index": 0,
+      "explanation": "先乘除後加減。10 × 2 = 20，50 + 20 = 70。",
+      "commonMisconception": "學生直覺從左往右算：50+10=60，60×2=120。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "團購優惠",
+      "question": "一人份餐點 120 元，團購優惠是買 10 份現折 100 元。請問 10 份餐點折價後。一份平均是多少元？",
+      "options": [
+        "120 元　",
+        "1100 元",
+        "100 元　",
+        "110 元　"
+      ],
+      "answer_index": 3,
+      "explanation": "(120 × 10 - 100) ÷ 10 = (1200 - 100) ÷ 10 = 110。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "逆向情境還原",
+      "question": "小英把一個數乘以 6，卻看成除以 6，得到答案 10。正確答案應該是多少？",
+      "options": [
+        "600",
+        "1　　",
+        "360",
+        "60　"
+      ],
+      "answer_index": 2,
+      "explanation": "反推原本的數：10 × 6 = 60。正確計算：60 × 6 = 360。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

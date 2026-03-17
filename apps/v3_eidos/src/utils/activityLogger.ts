@@ -4,8 +4,9 @@
  */
 
 const DEVICE_ID_KEY = 'eidos_device_id';
-const ACTIVITY_LOG_KEY = 'eidos_activity_log';
-const MAX_LOCAL_LOGS = 500;
+const ACTIVITY_QUEUE_KEY = 'eidos_activity_queue';
+const ACTIVITY_HISTORY_KEY = 'eidos_activity_history';
+const MAX_HISTORY_LOGS = 500;
 import { getApiBaseUrl } from '@/data/api';
 
 export interface ActivityDetail {
@@ -35,21 +36,27 @@ export function getOrCreateDeviceId(): string {
   return id;
 }
 
-function getLocalLogs(): ActivityEntry[] {
+function getQueue(): ActivityEntry[] {
   try {
-    const raw = localStorage.getItem(ACTIVITY_LOG_KEY);
+    const raw = localStorage.getItem(ACTIVITY_QUEUE_KEY);
     return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
+  } catch { return []; }
 }
 
-function setLocalLogs(logs: ActivityEntry[]) {
-  const capped = logs.slice(-MAX_LOCAL_LOGS);
-  localStorage.setItem(ACTIVITY_LOG_KEY, JSON.stringify(capped));
+function setQueue(logs: ActivityEntry[]) {
+  localStorage.setItem(ACTIVITY_QUEUE_KEY, JSON.stringify(logs));
 }
 
-/** 寫入一筆活動紀錄至本機，並可選同步至雲端 */
+function addToHistory(entry: ActivityEntry) {
+  try {
+    const raw = localStorage.getItem(ACTIVITY_HISTORY_KEY);
+    const history: ActivityEntry[] = raw ? JSON.parse(raw) : [];
+    history.push(entry);
+    localStorage.setItem(ACTIVITY_HISTORY_KEY, JSON.stringify(history.slice(-MAX_HISTORY_LOGS)));
+  } catch { }
+}
+
+/** 寫入一筆活動紀錄至本機佇列（定時同步） */
 export function logActivity(action: string, details: ActivityDetail = {}): void {
   const deviceId = getOrCreateDeviceId();
   const entry: ActivityEntry = {
@@ -58,27 +65,56 @@ export function logActivity(action: string, details: ActivityDetail = {}): void 
     action,
     details,
   };
-  const logs = getLocalLogs();
-  logs.push(entry);
-  setLocalLogs(logs);
-  syncToCloudflare(entry).catch(() => { });
+
+  // 加入佇列
+  const queue = getQueue();
+  queue.push(entry);
+  setQueue(queue);
+
+  // 同步存入歷史紀錄（供本機檢視，不刪除）
+  addToHistory(entry);
+
+  // 注意：不再呼叫 syncToCloudflare，改由外部定時器觸發 syncActivityLogs
 }
 
-/** 同步單筆或本機批次至 Cloudflare（預留 API）；失敗靜默忽略 */
-export async function syncToCloudflare(entry?: ActivityEntry): Promise<void> {
+/** 
+ * 批次同步佇列中的日誌至 Cloudflare
+ * 成功後會清除本機佇列
+ */
+export async function syncActivityLogs(): Promise<void> {
   const apiBase = getApiBaseUrl();
   if (!apiBase) return;
-  const url = `${apiBase}/api/activity`;
-  const body = entry ? [entry] : getLocalLogs().slice(-50);
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ logs: body }),
-  });
-  if (!res.ok) throw new Error(`Activity sync failed: ${res.status}`);
+
+  const queue = getQueue();
+  if (queue.length === 0) return;
+
+  try {
+    const url = `${apiBase}/api/activity`;
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ logs: queue }),
+    });
+
+    if (res.ok) {
+      // 同步成功，清空佇列
+      setQueue([]);
+      console.log(`[Activity] Synced ${queue.length} logs.`);
+    } else {
+      console.warn(`[Activity] Sync failed: ${res.status}`);
+    }
+  } catch (err) {
+    console.error('[Activity] Network error during sync:', err);
+  }
 }
 
-/** 讀取本機活動日誌（供除錯或離線檢視）；後台統計應從 API 取得 */
+// 舊函式相容性保留（若有其他地方呼叫）
+export const syncToCloudflare = syncActivityLogs;
+
+/** 讀取本機「歷史」活動日誌（供除錯或儀表板檢視） */
 export function getLocalActivityLogs(): ActivityEntry[] {
-  return getLocalLogs();
+  try {
+    const raw = localStorage.getItem(ACTIVITY_HISTORY_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch { return []; }
 }

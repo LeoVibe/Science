@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "社會",
+    "publisher": "nan_yi",
+    "lesson": "Soc1",
+    "order": 1,
+    "title": "我居住的地方"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "如果要尋找居住地的詳細門牌號碼，應該使用？",
+      "options": [
+        "統計圖",
+        "世界地圖",
+        "街道圖",
+        "地形圖"
+      ],
+      "answer": "街道圖",
+      "explanation": "街道圖有詳細的路名與標示。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "每個人的居住地都有自己的名稱與範圍。",
+      "answer": "True",
+      "explanation": "例如村、里、鎮、區等行政區域。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "居住在平原地區的人，早期多從事______生產。",
+      "answer": "農業、稻作",
+      "explanation": "平原地勢平坦，適合農耕。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下面哪一種景觀最可能是由天然力量形成的？",
+      "options": [
+        "電視塔",
+        "水壩",
+        "海岸山脈",
+        "高速公路"
+      ],
+      "answer": "海岸山脈",
+      "explanation": "山脈是地殼變動形成的自然景觀。"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "學校與圖書館是居住地重要的學習資源。",
+      "answer": "True",
+      "explanation": "這些都是提供居民教育與資訊的場域。"
+    }
+  ]
+}

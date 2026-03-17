@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_1",
+    "subject": "Chinese",
+    "publisher": "han_lin",
+    "title": "Math_U4",
+    "lesson": "Math_U4",
+    "order": 1
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "scenario": "分裝玩具",
+      "difficulty": "簡單",
+      "question": "有 480 個樂高積木，每 12 個裝一盒。共可裝幾盒？",
+      "options": [
+        "4 盒",
+        "40 盒",
+        "48 盒",
+        "12 盒"
+      ],
+      "answer": 1,
+      "explanation": "480 / 12 = 40。",
+      "concept": "除以二位數（整除）",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q2",
+      "scenario": "平分糖果",
+      "difficulty": "簡單",
+      "question": "老師有 375 顆糖果，要平分給班上 25 位同學。每人可以分到幾顆？",
+      "options": [
+        "10 顆",
+        "15 顆",
+        "20 顆",
+        "25 顆"
+      ],
+      "answer": 1,
+      "explanation": "375 / 25 = 15。",
+      "concept": "除以二位數練習",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q3",
+      "scenario": "安排交通接駁",
+      "difficulty": "中等",
+      "question": "有 143 位學生要去校外教學。一台小巴士限搭 15 人。最少需要幾台小巴士才夠？",
+      "options": [
+        "9 台",
+        "10 台",
+        "14 台",
+        "15 台"
+      ],
+      "answer": 1,
+      "explanation": "143 / 15 = 9 ... 8。剩下的 8 人也需要一台車，所以 9 + 1 = 10。這是無條件進入概念的除法應用。",
+      "concept": "除法的包含除與進位",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q4",
+      "scenario": "計算節算金額",
+      "difficulty": "中等",
+      "question": "媽媽買了 12 瓶一樣的鮮乳，總共付了 936 元。一瓶鮮乳多少錢？",
+      "options": [
+        "88 元",
+        "78 元",
+        "80 元",
+        "75 元"
+      ],
+      "answer": 1,
+      "explanation": "936 / 12 = 78。",
+      "concept": "除法與單價計算",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q5",
+      "scenario": "裝箱剩餘",
+      "difficulty": "簡單",
+      "question": "工廠有 800 個蘋果，每 35 個裝一箱。共可裝滿幾箱？還剩幾個？",
+      "options": [
+        "22 箱，剩 30 個",
+        "23 箱，剩 5 個",
+        "22 箱，剩 10 個",
+        "20 箱，剩 100 個"
+      ],
+      "answer": 0,
+      "explanation": "800 / 35 = 22 ... 30。",
+      "concept": "有餘數的除法",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q6",
+      "scenario": "繩子裁切",
+      "difficulty": "困難",
+      "question": "一條長 10 公尺 (1000 公分) 的繩子，剪成每段長度為 45 公分的小段。最多可以剪成幾段？剩下的繩子長幾公分？",
+      "options": [
+        "22 段，剩 10 公分",
+        "20 段，剩 100 公分",
+        "22 段，剩 5 公分",
+        "25 段，不剩"
+      ],
+      "answer": 0,
+      "explanation": "1000 / 45 = 22 ... 10。",
+      "concept": "除法單位與剩餘",
+      "quality_level": "L4",
+      "cqi_score": 9
+    },
+    {
+      "id": "q7",
+      "scenario": "存款計畫",
+      "difficulty": "中等",
+      "question": "小明想要存錢買一台 2,500 元的遊戲機。他每天存 40 元，最少要存幾天才夠？",
+      "options": [
+        "62 天",
+        "63 天",
+        "60 天",
+        "70 天"
+      ],
+      "answer": 1,
+      "explanation": "2500 / 40 = 62 ... 20。 62 天不夠（還差 20 元），所以要 63 天。",
+      "concept": "除法生活問題決策",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q8",
+      "scenario": "除數與被除數的關係",
+      "difficulty": "困難",
+      "question": "某數除以 24，得到商是 12，餘數是 10。請問某數是多少？",
+      "options": [
+        "298",
+        "288",
+        "278",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "被除數 = 除數 * 商 + 餘數 = 24 * 12 + 10 = 288 + 10 = 298。",
+      "concept": "除法的驗算邏輯",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q9",
+      "scenario": "平均分配獎金",
+      "difficulty": "簡單",
+      "question": "公司有 912 元獎金要平分給 19 名員工，每人可得幾元？",
+      "options": [
+        "48 元",
+        "50 元",
+        "40 元",
+        "52 元"
+      ],
+      "answer": 0,
+      "explanation": "912 / 19 = 48。",
+      "concept": "除法分配練習",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q10",
+      "scenario": "圖書分裝",
+      "difficulty": "中等",
+      "question": "520 本書要放在書架上，每個隔層可以放 28 本。最少需要幾個隔層？",
+      "options": [
+        "18 個",
+        "19 個",
+        "20 個",
+        "17 個"
+      ],
+      "answer": 1,
+      "explanation": "520 / 28 = 18 ... 16。 剩下的 16 本也需要一個隔層，故 18 + 1 = 19。",
+      "concept": "除法進位應用",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    }
+  ]
+}

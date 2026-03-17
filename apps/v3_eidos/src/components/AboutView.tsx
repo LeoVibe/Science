@@ -91,7 +91,7 @@ const DEEPDIVE_ARTICLES: { id: string; category: string; title: string; summary:
     id: 'design-paradigm',
     category: '我的初衷',
     title: '為什麼這裡的題目寫起來「不太一樣」？',
-    summary: '我不只是在找題目，是在幫孩子重塑題目。我希望每一題都能抓到課文的靈魂，而不只是考記憶。',
+    summary: '我不只是在找題目，是在幫孩子重塑題目。我希望每一題都能抓到課文的靈魂，而不職是考記憶。',
     content: (
       <div className="space-y-4">
         <section className="bg-primary/5 p-4 rounded-2xl border border-primary/10">
@@ -197,7 +197,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
       {/* Tabs */}
       <div className="flex rounded-2xl bg-secondary p-1 gap-1">
         {([
-          { key: 'about' as AboutTab, label: '🏠 創站緣由' },
+          { key: 'about' as AboutTab, label: '🏠 關於本站' },
           { key: 'library' as AboutTab, label: '📚 題庫總覽' },
           { key: 'deepdive' as AboutTab, label: '📖 出題研究' },
           { key: 'changelog' as AboutTab, label: '📋 更版資訊' },
@@ -225,14 +225,14 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
             </div>
 
             <div className="space-y-6">
-              {[userGrade].map(grade => {
+              {APP_CONFIG.grades.map(grade => {
                 const subjects = getSubjectsByGrade(grade);
                 const gConfig = libraryConfig?.grades[grade as Grade];
                 if (libraryConfig && gConfig?.enabled === false) return null;
 
                 const semesterBlocks: JSX.Element[] = [];
 
-                ([userSemester] as Semester[]).forEach(sem => {
+                APP_CONFIG.semesters.forEach(sem => {
                   const sConfig = gConfig?.semesters[sem];
                   if (libraryConfig && sConfig?.enabled === false) return;
 
@@ -336,9 +336,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
 
             {/* Depth Legend */}
             <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30">
-              <h4 className="text-[11px] font-bold text-foreground mb-2 flex items-center gap-1.5">
-                <span>📈 我對題目的挑剔程度</span>
-              </h4>
+              <span>如何評估題庫品質！</span>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-[10px] text-muted-foreground whitespace-nowrap">
                   <thead>
@@ -360,6 +358,12 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                       <td className="py-1.5 pr-2 font-bold text-foreground">L2</td>
                       <td className="py-1.5 px-2">實質課文</td>
                       <td className="py-1.5 px-2 whitespace-normal break-words">基礎練習： 具備課文內容，適合快速複習基礎記憶。</td>
+                      <td className="py-1.5 pl-2">中</td>
+                    </tr>
+                    <tr>
+                      <td className="py-1.5 pr-2 font-bold text-foreground">L3</td>
+                      <td className="py-1.5 px-2">考古題庫</td>
+                      <td className="py-1.5 px-2 whitespace-normal break-words">規範化控管： 經題庫比對驗證，依題目價值調整配重，並嚴格控制選項格式與隨機性。</td>
                       <td className="py-1.5 pl-2">中</td>
                     </tr>
                     <tr>
@@ -395,7 +399,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
                   <h3 className="font-bold text-foreground text-sm">為什麼做這個網站</h3>
                   <p className="text-xs leading-relaxed">
-                    2026 年的過年，我發現正讀小三的兒子在練習題目時，常常因為題目太無聊或太死板而分心。身為一個爸爸，我希望能在枯燥的練習中，加入一點點邏輯和故事感。我不追求寫得多，我只希望他寫的每一題，都能讓他稍微停下來思考一下。
+                    觀察到孩子在練習傳統題庫時，常因內容機械化而感到無厭。開發團隊設計了這套結合 AI 技術的系統，旨在為每一道題目注入邏輯與思考價值，讓每一次答題都能轉化為有效的思考訓練。
                   </p>
                 </div>
                 <div className="bg-secondary rounded-2xl p-4 space-y-3">
@@ -412,7 +416,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
                   <h3 className="font-bold text-foreground text-sm">🛠️ 本站怎麼做出來的？</h3>
                   <p className="text-xs leading-relaxed">
-                    我利用晚上陪伴孩子的空檔，和幾個厲害的 AI 小助手一起研發、出題。這對我來說是一個不斷進步的育兒實驗。
+                    利用晚上陪伴孩子的空檔，和幾個厲害的 AI 小助手 (cursor、antigravity、lovable、Gemini) 一起研發、出題。這對我來說是這是個一個不斷進步的育兒實驗。
                   </p>
                 </div>
 
@@ -643,7 +647,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
               >
-                v0.1 初版(自然科)
+                v1 初版(自然)
               </a>
               <a
                 href={withBase('history/v2_currisite/index.html')}
@@ -651,7 +655,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
               >
-                v0.2 多科目版
+                v2 舊版(多科)
               </a>
             </div>
           </div>

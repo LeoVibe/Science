@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "自然",
+    "publisher": "nan_yi",
+    "lesson": "Sci1",
+    "order": 1,
+    "title": "地球的夥伴-日月星辰"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "我們觀察月亮在天空中的移動方向，通常是？",
+      "options": [
+        "南往北移",
+        "西升東落",
+        "東升西落",
+        "北往南移"
+      ],
+      "answer": "東升西落",
+      "explanation": "由於地球自轉的關係，日月星辰在天空中看起來都是東升西落。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "農曆初一通常看不見月亮，稱為「朔」。",
+      "answer": "True",
+      "explanation": "此時月亮位於太陽與地球之間，受光面背對地球。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "月亮形狀的盈虧變化具有規律性，這個週期大約是______天。",
+      "answer": "29.5 或 30",
+      "explanation": "月相變化的週期即為一個「朔望月」。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "使用量角器或高度角觀測器測量月亮時，我們測量的是月亮的？",
+      "options": [
+        "亮度",
+        "顏色",
+        "高度角（仰角）",
+        "大小"
+      ],
+      "answer": "高度角（仰角）",
+      "explanation": "高度角是指從觀測者視線與地平線之間的夾角。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列關於太陽的敘述，何者正確？",
+      "options": [
+        "太陽比月亮小",
+        "太陽是圍繞地球轉動的衛星",
+        "太陽晚上會休息不發光",
+        "太陽是一顆恆星，會自行發光發熱"
+      ],
+      "answer": "太陽是一顆恆星，會自行發光發熱",
+      "explanation": "太陽是太陽系的中心，提供地球光與熱。"
+    }
+  ]
+}

@@ -17,8 +17,8 @@
       "answer": 1,
       "explanation": "1.5 = 1.50。 1.50 > 1.25，故果汁瓶較多。",
       "concept": "小數大小比較",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q2",
@@ -51,8 +51,8 @@
       "answer": 0,
       "explanation": "4.60 + 5.75 = 10.35。",
       "concept": "小數加法與位值補零",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 4.5
     },
     {
       "id": "q4",
@@ -68,8 +68,8 @@
       "answer": 0,
       "explanation": "0.01 乘以 10 等於 0.1。",
       "concept": "小數的位值構造",
-      "quality_level": "L2",
-      "cqi_score": 3
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
       "id": "q5",
@@ -85,8 +85,8 @@
       "answer": 0,
       "explanation": "3.25 + 2.75 = 6.00。",
       "concept": "小數加法整教化",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 7.5
     },
     {
       "id": "q6",
@@ -103,7 +103,7 @@
       "explanation": "總支出 = 3.45 + 4.50 = 7.95。 剩餘 = 10.00 - 7.95 = 2.05。",
       "concept": "多步驟小數計算",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 4.5
     },
     {
       "id": "q7",
@@ -119,7 +119,7 @@
       "answer": 0,
       "explanation": "3.20 > 3.18。 相差 3.20 - 3.18 = 0.02。",
       "concept": "小數大小對比與計算",
-      "quality_level": "L2",
+      "quality_level": "L4",
       "cqi_score": 4.5
     },
     {
@@ -136,7 +136,7 @@
       "answer": 2,
       "explanation": "5 在百分位，代表五個 0.01。",
       "concept": "小數數位深度理解",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     },
     {
@@ -154,7 +154,7 @@
       "explanation": "水淨重 = 1.2 - 0.45 = 0.75。 水的一半 = 0.375。 總重 = 0.45 (瓶重) + 0.375 (剩水) = 0.825。 (對小四來說稍難，但符合 L4 挑選題)",
       "concept": "小數加減綜合應用",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6
     },
     {
       "id": "q10",
@@ -170,8 +170,8 @@
       "answer": 0,
       "explanation": "2 + 0.3 + 0.08 = 2.38。",
       "concept": "小數合成",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 7.5
     }
   ]
 }

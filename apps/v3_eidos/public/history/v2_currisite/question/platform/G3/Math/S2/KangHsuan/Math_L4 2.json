@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "一位小數",
+    "lesson": "L4",
+    "order": 4
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "小數概念認知",
+      "question": "在數學的小數概念中，0.1 這個數字代表的是什麼具體的意思？",
+      "options": [
+        "十分之一　",
+        "一百分之一",
+        "十　　　　",
+        "一個 1　"
+      ],
+      "answer_index": 0,
+      "explanation": "0.1 代表將一個完整單位平分成十份後，取其中的一份，即為十分之一。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "讀寫綜合練習",
+      "question": "如果我們要將口說的『五點八』寫成標準的數學數字，應該是如何寫？",
+      "options": [
+        "58　　",
+        "5.8　",
+        "0.58",
+        "5.08"
+      ],
+      "answer_index": 1,
+      "explanation": "五點八的『點』代表小數點，左邊是整數 5，右邊是十分位 8。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "生活長度轉換",
+      "question": "小明量出一枝鉛筆長 4 公分 2 毫米，如果改用公分作為單位來表示，小數是多少？",
+      "options": [
+        "4.02 公分",
+        "42 公分　　",
+        "4.2 公分　",
+        "0.42 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "因為 10 毫米等於 1 公分，所以 2 毫米是 0.2 公分，加上 4 公分就是 4.2 公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "小數加法模擬",
+      "question": "接力賽中，第一段吸管長 15.5 釐米，第二段長 12.3 釐米。兩段接在一起總長是多少？",
+      "options": [
+        "27.08 釐米",
+        "28 釐米　　　",
+        "3 釐米　　　　",
+        "27.8 釐米　"
+      ],
+      "answer_index": 3,
+      "explanation": "使用直式計算，十分位 5+3=8，個位 5+2=7，十位 1+1=2，結果為 27.8。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "手工藝品剪裁",
+      "question": "小英有一條長達 2 公尺的漂亮緞帶，做裝飾品先用掉了 0.4 公尺，請問原本的緞帶還剩多少？",
+      "options": [
+        "1.6 公尺",
+        "1.4 公尺",
+        "0.6 公尺",
+        "2.4 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "計算 2.0 減去 0.4。十分位不夠減需從個位借 1，10-4=6，剩餘 1.6 公尺。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "數值位值結構",
+      "question": "關於小數 7.3 的組成，下列哪一個選項正確描述了它的整數與小數部分？",
+      "options": [
+        "由 73 個 1 所組合而成　　　　　　",
+        "由 7 個 1 和 3 個 0.1 組成",
+        "由 7 個 10 所組合而成　　　　　　",
+        "由 7 個 0.1 和 3 個 1 組成"
+      ],
+      "answer_index": 1,
+      "explanation": "7 在個位代表 7 個 1；3 在十分位代表 3 個 0.1。故由 7 個 1 和 3 個 0.1 組成。",
+      "quality_level": "L4",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "健康檢查身高比",
+      "question": "健檢報告中，哥哥身高 130.9 公分，弟弟身高 130.5 公分。請問誰比較高？高了多少？",
+      "options": [
+        "兩個人一樣高　　　　　　　　　",
+        "哥哥比較高，高出 4 公分　　",
+        "哥哥比較高，高出 0.4 公分",
+        "弟弟比較高，高出 0.4 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "130.9 減去 130.5，整數部分相同，十分位 9-5=4。故哥哥高出 0.4 公分。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "雨量筒量測",
+      "question": "昨天的降雨量是 12.5 毫米，今天的降雨量是 8.7 毫米。這兩天的總降雨量是多少？",
+      "options": [
+        "4.8 毫米　",
+        "21.5 毫米",
+        "20.2 毫米",
+        "21.2 毫米"
+      ],
+      "answer_index": 3,
+      "explanation": "12.5 加 8.7。十分位 5+7=12，進 1 到個位。個位 2+8+1=11，再進 1 到十位。結果為 21.2。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "點心購買計算",
+      "question": "美味雞蛋糕一份賣 45.5 元。小明口袋裡只有 40 元。請問他還缺少多少錢才能買到？",
+      "options": [
+        "5.5 元　",
+        "5 元　　　",
+        "10.5 元",
+        "4.5 元　"
+      ],
+      "answer_index": 0,
+      "explanation": "45.5 減去 40.0 等於 5.5 元。這代表小明還差 5.5 元才能購買。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "滿十進位迷思",
+      "question": "在數線練習中，如果收集了 10 個 0.1 的小方塊並排合起來，會剛好變成多少？",
+      "options": [
+        "10　　",
+        "1　　　",
+        "0.10",
+        "0.1　"
+      ],
+      "answer_index": 1,
+      "explanation": "十分位的系統是十進位制，10 個 0.1 滿十進一，會剛好變成整數 1。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "數學挑戰題",
+      "question": "王老師請大家計算 15 減去 3.8 的正確結果。請問哪一個答案才是正確的？",
+      "options": [
+        "12.2",
+        "11.8",
+        "11.2",
+        "12.8"
+      ],
+      "answer_index": 2,
+      "explanation": "將 15 看作 15.0 進行對位減法。十分位 0-8 不夠減借 1，10-8=2，個位 14-3=11。答案為 11.2。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數值比較綜整",
+      "question": "關於整數與小數的關係，下列哪一種描述方式在數學邏輯上是完全正確的？",
+      "options": [
+        "0.9 加上 0.1 的結果等於 0.10",
+        "0.1 這個數代表的是 10 個 1 組成",
+        "小數 1.5 的大小比 1.2 還要小　　",
+        "2.0 和整數 2 的數值大小一樣　　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "小數點最後的 0 在不影響精確度要求時可以省略，2.0 的數值量值確實等於 2。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_1",
+    "subject": "數學",
+    "publisher": "nan_yi",
+    "lesson": "M9",
+    "order": 9,
+    "title": "分數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "分子大於或等於分母的分數稱為什麼？",
+      "options": [
+        "整數",
+        "假分數",
+        "真分數",
+        "帶分數"
+      ],
+      "answer": "假分數",
+      "explanation": "這是分數的分類定義。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "比值小於 1 的分數稱為真分數。",
+      "answer": "True",
+      "explanation": "例如 1/2, 3/4 等。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "假分數 13/4 等於帶分數______。",
+      "answer": "3 又 1/4",
+      "explanation": "13 ÷ 4 = 3 ... 1。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 2/7 + 4/7 = ？",
+      "options": [
+        "1",
+        "6/7",
+        "1/7",
+        "6/14"
+      ],
+      "answer": "6/7",
+      "explanation": "分母相同，分子相加。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "帶分數 1 又 2/5 轉換成假分數是多少？",
+      "options": [
+        "7/5",
+        "12/5",
+        "5/2",
+        "3/5"
+      ],
+      "answer": "7/5",
+      "explanation": "1 × 5 + 2 = 7。"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "nan_yi",
+    "title": "公斤和公克",
+    "lesson": "U6",
+    "order": 6
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "單位換算",
+      "question": "3 公斤 50 公克等於多少公克？",
+      "options": [
+        "35 公克　　",
+        "3050 公克",
+        "305 公克　",
+        "3500 公克"
+      ],
+      "answer_index": 1,
+      "explanation": "3 公斤 = 3000 公克。3000 + 50 = 3050。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "包裹秤重",
+      "question": "一件包裹重 800 公克，小明寄了 5 件相同的包裹。總重量是多少公斤？",
+      "options": [
+        "400 公斤　",
+        "4000 公斤",
+        "4 公斤　　　",
+        "40 公斤　　"
+      ],
+      "answer_index": 2,
+      "explanation": "800 × 5 = 4000 公克 = 4 公斤。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "重量迷思",
+      "question": "1 公斤的棉花和 1000 公克的鐵塊，誰比較重？",
+      "options": [
+        "一樣重　　",
+        "鐵塊比較重",
+        "無法比較　",
+        "棉花比較重"
+      ],
+      "answer_index": 0,
+      "explanation": "1 公斤 = 1000 公克。雖然材質與體積不同，但重量數值是一致的。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "複名數減法",
+      "question": "小英買了 3 公斤的麵粉，做蛋糕用了 1 公斤 400 公克，還剩下多少？",
+      "options": [
+        "400 公克　　　　　",
+        "1 公斤 600 公克",
+        "2 公斤 600 公克",
+        "1600 公斤　　　　"
+      ],
+      "answer_index": 1,
+      "explanation": "3000 - 1400 = 1600 公克 = 1 公斤 600 公克。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "量感選擇",
+      "question": "一個三年級小朋友的書包（裝滿書後）大約重多少？",
+      "options": [
+        "4 公斤　　",
+        "400 公斤",
+        "4 公克　　",
+        "40 公克　"
+      ],
+      "answer_index": 0,
+      "explanation": "公克太輕，400公斤太重（接近半噸），4公斤符合生活常理。",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "書包總重",
+      "question": "書包空袋重 300 公克，放入 4 本 400 公克的書。總重是多少？",
+      "options": [
+        "1900 公斤　　　　",
+        "700 公斤　　　　　",
+        "1 公斤 900 公克",
+        "1 公斤 200 公克"
+      ],
+      "answer_index": 2,
+      "explanation": "400 × 4 = 1600。1600 + 300 = 1900 公克 = 1 公斤 900 公克。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "秤面觀察",
+      "question": "一個 3 公斤秤，指針轉過一圈又指在 200 公克。這代表物品重量是多少？",
+      "options": [
+        "無法判斷　　　　　　　",
+        "3200 公斤　　　　",
+        "200 公克　　　　　",
+        "3 公斤 200 公克"
+      ],
+      "answer_index": 3,
+      "explanation": "轉過一圈代表達到了秤的最大量程 3 公斤。再加上多出的 200 公克，合計 3kg 200g。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "體重計算",
+      "question": "小明去年體重 32 公斤，今年體重增加到 34 公斤 500 公克。他變重了多少？",
+      "options": [
+        "66 公斤 500 公克",
+        "500 公克　　　　　　",
+        "2 公斤　　　　　　　　",
+        "2 公斤 500 公克　"
+      ],
+      "answer_index": 3,
+      "explanation": "34kg 500g - 32kg = 2kg 500g。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "量感推理",
+      "question": "下列哪一樣東西的重量『不可能』超過 2 公斤？",
+      "options": [
+        "一枝原子筆　　　　",
+        "一打鳳梨　　　　　",
+        "一桶 5 公升的水",
+        "一個大西瓜　　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "原子筆通常僅 10-20g。鳳梨、水、大西瓜通常都大於 2kg。",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "買水果",
+      "question": "蘋果每公斤 120 元。小英買了 3 公斤，付了 500 元。找回幾元？",
+      "options": [
+        "360 元",
+        "140 元",
+        "200 元",
+        "240 元"
+      ],
+      "answer_index": 1,
+      "explanation": "120 × 3 = 360。500 - 360 = 140 元。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "餅乾淨重",
+      "question": "一罐餅乾連筒子重 1250 公克，筒子重 350 公克。餅乾淨重幾公斤幾公克？",
+      "options": [
+        "1 公斤 900 公克",
+        "1 公斤 600 公克",
+        "900 公斤　　　　　",
+        "0 公斤 900 公克"
+      ],
+      "answer_index": 3,
+      "explanation": "1250 - 350 = 900 公克 = 0 公斤 900 公克。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "單位乘法陷阱",
+      "question": "一塊金磚重 200 公克，買 6 塊的總重量跟 1 公斤比較，結果如何？",
+      "options": [
+        "比 1 公斤重",
+        "無法比較　　　",
+        "剛好一樣重　　",
+        "比 1 公斤輕"
+      ],
+      "answer_index": 0,
+      "explanation": "200 × 6 = 1200 公克 = 1.2 公斤。大於 1 公斤。",
+      "quality_level": "L4",
+      "cqi_score": 9.5
+    }
+  ]
+}

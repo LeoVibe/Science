@@ -1,0 +1,66 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G4",
+  "semester": "S1",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "M10",
+      "title": "統計圖",
+      "file": "M10_統計圖.json"
+    },
+    {
+      "id": "M1",
+      "title": "一億以內的數",
+      "file": "M1_一億以內的數.json"
+    },
+    {
+      "id": "M2",
+      "title": "整數的乘法",
+      "file": "M2_整數的乘法.json"
+    },
+    {
+      "id": "M3",
+      "title": "角度",
+      "file": "M3_角度.json"
+    },
+    {
+      "id": "M4",
+      "title": "整數的除法",
+      "file": "M4_整數的除法.json"
+    },
+    {
+      "id": "M5",
+      "title": "公里",
+      "file": "M5_公里.json"
+    },
+    {
+      "id": "M6",
+      "title": "三角形",
+      "file": "M6_三角形.json"
+    },
+    {
+      "id": "M7",
+      "title": "小數",
+      "file": "M7_小數.json"
+    },
+    {
+      "id": "M8",
+      "title": "整數四則計算",
+      "file": "M8_整數四則計算.json"
+    },
+    {
+      "id": "M9",
+      "title": "分數",
+      "file": "M9_分數.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 3.5,
+      "accuracyScore": 8,
+      "isVerified": false
+    }
+  }
+}

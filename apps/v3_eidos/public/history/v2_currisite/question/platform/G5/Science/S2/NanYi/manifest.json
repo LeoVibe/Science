@@ -1,0 +1,36 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "U1_星星的世界",
+      "title": "U1_星星的世界",
+      "file": "U1_星星的世界.json"
+    },
+    {
+      "id": "U2_認識燃燒與生鏽",
+      "title": "U2_認識燃燒與生鏽",
+      "file": "U2_認識燃燒與生鏽.json"
+    },
+    {
+      "id": "U3_動物的生活",
+      "title": "U3_動物的生活",
+      "file": "U3_動物的生活.json"
+    },
+    {
+      "id": "U4_聲音與樂器",
+      "title": "U4_聲音與樂器",
+      "file": "U4_聲音與樂器.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

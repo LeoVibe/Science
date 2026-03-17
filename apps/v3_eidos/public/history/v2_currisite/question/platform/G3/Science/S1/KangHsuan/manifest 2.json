@@ -1,0 +1,36 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci1",
+      "title": "認識植物",
+      "file": "Sci1_認識植物.json"
+    },
+    {
+      "id": "Sci2",
+      "title": "空氣與風",
+      "file": "Sci2_空氣與風.json"
+    },
+    {
+      "id": "Sci3",
+      "title": "溶解與生活",
+      "file": "Sci3_溶解與生活.json"
+    },
+    {
+      "id": "Sci4",
+      "title": "磁鐵",
+      "file": "Sci4_磁鐵.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 6.5,
+      "accuracyScore": 8,
+      "isVerified": false
+    }
+  }
+}
