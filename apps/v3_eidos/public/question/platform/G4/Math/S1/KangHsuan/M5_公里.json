@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "M5",
+    "order": 5,
+    "title": "公里"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "1 公里等於多少公尺？",
+      "options": [
+        "10 公尺",
+        "1000 公尺",
+        "100 公尺",
+        "10000 公尺"
+      ],
+      "answer": "1000 公尺",
+      "explanation": "公里（km）與公尺（m）的換算率是 1000。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "測量從台北到高雄的距離，適合使用「公分」作為單位。",
+      "answer": "False",
+      "explanation": "長距離的地理位置建議使用「公里」較為方便。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "3 公里 50 公尺 = ______ 公尺。",
+      "answer": "3050",
+      "explanation": "3 km = 3000 m，3000 + 50 = 3050。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "一圈操場跑道長 400 公尺，跑完 5 圈剛好是多少公里？",
+      "options": [
+        "200 公里",
+        "1 公里",
+        "2 公里",
+        "0.5 公里"
+      ],
+      "answer": "2 公里",
+      "explanation": "400 × 5 = 2000 公尺 = 2 公里。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "比較大小：4500 公尺與 4.5 公里，哪一個比較長？",
+      "options": [
+        "一樣長",
+        "4.5 公里",
+        "4500 公尺",
+        "無法比較"
+      ],
+      "answer": "一樣長",
+      "explanation": "4.5 公里 = 4500 公尺。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

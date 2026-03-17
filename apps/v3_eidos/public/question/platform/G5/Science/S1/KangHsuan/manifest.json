@@ -1,0 +1,36 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G5",
+  "semester": "S1",
+  "subject": "Science",
+  "items": [
+    {
+      "id": "Sci1_動物世界",
+      "title": "Sci1_動物世界",
+      "file": "Sci1_動物世界.json"
+    },
+    {
+      "id": "Sci2_探索聲光世界",
+      "title": "Sci2_探索聲光世界",
+      "file": "Sci2_探索聲光世界.json"
+    },
+    {
+      "id": "Sci3_空氣的組成與反應",
+      "title": "Sci3_空氣的組成與反應",
+      "file": "Sci3_空氣的組成與反應.json"
+    },
+    {
+      "id": "Sci4_神秘的天空",
+      "title": "Sci4_神秘的天空",
+      "file": "Sci4_神秘的天空.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "disabled",
+    "quality": {
+      "depthScore": 6.5,
+      "accuracyScore": 8,
+      "isVerified": false
+    }
+  }
+}

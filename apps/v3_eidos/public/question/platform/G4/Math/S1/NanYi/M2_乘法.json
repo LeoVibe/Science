@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "M2",
+    "order": 2,
+    "title": "乘法"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "計算 120 × 50 = ？",
+      "options": [
+        "170",
+        "60000",
+        "600",
+        "6000"
+      ],
+      "answer": "6000",
+      "explanation": "12 × 5 = 60，再補兩個 0。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "在乘法結算中，「積」一定會大於「被乘數」。",
+      "answer": "False",
+      "explanation": "如果乘以 0 或 1，積就不會大於被乘數（例如 5 × 0 = 0，5 × 1 = 5）。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "一本筆記本 25 元，買 100 本需要______元。",
+      "answer": "2500",
+      "explanation": "25 × 100 = 2500。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "計算 205 × 18 = ？",
+      "options": [
+        "3600",
+        "3690",
+        "1800",
+        "2050"
+      ],
+      "answer": "3690",
+      "explanation": "205 × 18 = 3690。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "一個水壺 599 元，買 3 個預估大約是多少元？（用四捨五入法到百位估算）",
+      "options": [
+        "2000 元",
+        "1800 元",
+        "1200 元",
+        "1500 元"
+      ],
+      "answer": "1800 元",
+      "explanation": "599 估算為 600，600 × 3 = 1800。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

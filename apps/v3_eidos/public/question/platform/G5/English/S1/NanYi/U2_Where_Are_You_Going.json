@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "NanYi",
+    "lesson": "U2",
+    "order": 2,
+    "title": "Unit 2 Where Are You Going?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Where are you going? B: I am ______ to the bookstore.",
+      "options": [
+        "to go",
+        "going",
+        "goes",
+        "go"
+      ],
+      "answer": "going",
+      "explanation": "現在進行式 be + V-ing。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "______ is he going?",
+      "options": [
+        "What",
+        "When",
+        "Who",
+        "Where"
+      ],
+      "answer": "Where",
+      "explanation": "Where 詢問地點。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "They are going to the ______ (郵局).",
+      "answer": "post office",
+      "explanation": "郵局是 post office。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "true_false",
+      "question": "'Museum' means '圖書館'。",
+      "answer": "False",
+      "explanation": "Museum 是博物館，圖書館是 Library。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "I'm going to the ______.",
+      "options": [
+        "hungry",
+        "dance",
+        "eating",
+        "restaurant"
+      ],
+      "answer": "restaurant",
+      "explanation": "restaurant (餐廳) 是地點。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    }
+  ]
+}

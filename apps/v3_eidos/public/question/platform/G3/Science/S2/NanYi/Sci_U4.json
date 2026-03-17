@@ -1,0 +1,74 @@
+{
+  "publisher": "南一",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Science",
+  "lesson_id": "Sci_U4",
+  "lesson_title": "廚房中的科學",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "認識調味品",
+      "question": "在廚房裡，我們常見到許多調味品。請問哪一種物質在大自然中是白色的結晶，且加入水中會完全溶解，吃起來鹹鹹的？",
+      "options": [
+        "砂糖",
+        "食鹽",
+        "麵粉",
+        "胡椒粉"
+      ],
+      "answer_index": 1,
+      "explanation": "食鹽（氯化鈉）是常見的白色結晶，具有高溶解度且呈現鹹味。砂糖是甜的，麵粉不溶於水，胡椒粉也不完全溶解。",
+      "commonMisconception": "學生可能混淆白色粉末狀物質，需透過味道與溶解特性區分。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "酸鹼指示劑",
+      "question": "南一版實驗中，我們使用「紫色高麗菜汁」來檢測廚房裡的液體。當菜汁遇到「檸檬汁」時，顏色會發生什麼變化？",
+      "options": [
+        "變成綠色",
+        "變成黃色",
+        "變成紅色或粉紅色",
+        "變成深藍色"
+      ],
+      "answer_index": 2,
+      "explanation": "紫色高麗菜汁含有花青素，是天然的酸鹼指示劑。遇到酸性物質（如檸檬汁、醋）時會轉變為紅色系；遇到鹼性物質會轉向藍綠或黃色。",
+      "commonMisconception": "學生可能記不住顏色對應，需要建立「酸紅鹼綠/藍」的概念。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "溶解與質量守恆",
+      "question": "小明將 20 公克的食鹽加入 100 公克的水中攪拌。在大平秤上測量這杯鹽水的總重量，結果會是多少？為什麼？",
+      "options": [
+        "剛好 120 公克，因為物質雖然溶解但重量並未消失",
+        "小於 120 公克，因為鹽不見了",
+        "大於 120 公克，因為水變重了",
+        "剛好 100 公克，因為鹽變成氣體跑掉了"
+      ],
+      "answer_index": 0,
+      "explanation": "質量守恆定律。溶解只是物質分子分散到溶劑中，整體的質量（物質量）守恆，因此總重 = 溶質重 + 溶劑重。",
+      "commonMisconception": "學生常有「溶解後重量變輕」或「消失」的迷思。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "飽和溶解",
+      "question": "在定量的水中加入砂糖，一直攪拌卻發現杯底還有砂糖剩餘。這代表什麼科學現象？",
+      "options": [
+        "杯底有鬼在抓糖",
+        "這杯水已經達到了「飽和」狀態，無法再溶解更多糖",
+        "砂糖壞掉了，不能溶解",
+        "攪拌的速度太慢了"
+      ],
+      "answer_index": 1,
+      "explanation": "定溫定量的水中，溶質的溶解量是有上限的，當達到上限時稱為飽和溶液。此時無論如何攪拌，剩餘的溶質都不會再溶解。",
+      "commonMisconception": "以為只要拼命攪拌，多少糖都能溶掉。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "publisher": "NanYi",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "lesson_id": "M4",
+  "lesson_title": "幾毫米",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "測量鉛筆",
+      "question": "小強用直尺量鉛筆，長度是 12 公分 3 毫米。如果只用毫米（mm）表示，應該是多少？",
+      "options": [
+        "123 毫米",
+        "15 毫米",
+        "1230 毫米",
+        "1.23 毫米"
+      ],
+      "answer_index": 0,
+      "explanation": "1 公分 = 10 毫米，所以 12 公分 = 120 毫米。120 + 3 = 123 毫米。",
+      "commonMisconception": "學生常記漏 10 倍關係，直接將 12 與 3 相加得到 15。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "尺上的小格",
+      "question": "在直尺上，從刻度『2』開始往右數 15 小格，會指在什麼位置？",
+      "options": [
+        "3.5 公分",
+        "35 毫米",
+        "17 毫米",
+        "2.15 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "15 小格 = 1 公分 5 毫米。從 2 開始加 1 公分 5 毫米，等於 3 公分 5 毫米（即 3.5 公分）。",
+      "commonMisconception": "學生可能忽略初始刻度 2，直接回答 15 毫米。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "餅乾的厚度",
+      "question": "一塊夾心餅乾厚 5 毫米。將 8 塊餅乾疊在一起，總共高度是多少公分？",
+      "options": [
+        "40 公分",
+        "4 公分",
+        "400 公分",
+        "85 公分"
+      ],
+      "answer_index": 1,
+      "explanation": "5 × 8 = 40 毫米。40 毫米 = 4 公分。",
+      "commonMisconception": "算出毫米後忘了轉換為題目要求的「公分」。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比長短",
+      "question": "甲繩長 150 毫米，乙繩長 14 公分 9 毫米。請問哪一條比較長？長多少？",
+      "options": [
+        "甲比較長，長 1 毫米",
+        "乙比較長，長 1 毫米",
+        "一樣長",
+        "甲比較長，長 1 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "乙繩 = 149 毫米。甲 150 > 乙 149。相差 1 毫米。",
+      "commonMisconception": "多單位比較中，細微的 1 單位偏差常被忽略。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "數線報讀",
+      "question": "數線上每一大格是 1 公分，中間平分 10 小格。小跳蚤從刻度『0』跳到第 28 小格，他在第幾公分、第幾毫米的地方？",
+      "options": [
+        "2 公分 8 毫米",
+        "28 公分",
+        "8 公分 2 毫米",
+        "2 公分 0 毫米"
+      ],
+      "answer_index": 0,
+      "explanation": "每 10 小格為 1 公分，28 小格即 2 公分又 8 小格，就是 2 公分 8 毫米。",
+      "commonMisconception": "學生可能對於除以 10 (進位) 的邏輯不夠直覺。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

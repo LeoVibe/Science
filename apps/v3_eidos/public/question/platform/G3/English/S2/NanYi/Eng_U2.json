@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U2",
+    "lesson_name": "What time is it?"
+  },
+  "questions": [
+    {
+      "id": "NY-G3S2-U2-001",
+      "type": "multiple_choice",
+      "scenario": "Peter is waking up his sister for school.",
+      "question": "Peter: Wake up, Lily! ___________________\nLily: Oh no! It's eight o'clock. I'm late!",
+      "options": [
+        "Who is it?      ",
+        "What time is it?",
+        "What is it?     ",
+        "Where is it?    "
+      ],
+      "answer_index": 1,
+      "explanation": "從 Lily 的回答『It's eight o'clock (八點鐘)』可判定問句是在詢問時間。",
+      "taxonomy": "literal",
+      "commonMisconception": "沒看見回答中的時間資訊就隨意猜測問句。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-002",
+      "type": "multiple_choice",
+      "scenario": "A mother is asking her son to get ready for dinner.",
+      "question": "Mother: Jimmy, look at the big clock. ___________________\nJimmy: It's six o'clock. Time for dinner!",
+      "options": [
+        "What time is it?",
+        "What is it?     ",
+        "Is it red?      ",
+        "How old are you?"
+      ],
+      "answer_index": 0,
+      "explanation": "clock (時鐘) 提示要詢問時間。回答中的 six o'clock 驗證正確問法為 What time is it?。",
+      "taxonomy": "literal",
+      "commonMisconception": "基礎 Wh- 問句功能混淆。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-003",
+      "type": "multiple_choice",
+      "scenario": "At the bus stop, a man is looking at his watch.",
+      "question": "Man: Excuse me. __________________?\nWoman: It's ten o'clock.",
+      "options": [
+        "Where is it    ",
+        "What is it     ",
+        "What time is it",
+        "How is it      "
+      ],
+      "answer_index": 2,
+      "explanation": "向陌生人詢問時間的標準禮貌句型。回答為時間點。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法正確運用社交場合的時間詢問語句。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-004",
+      "type": "multiple_choice",
+      "scenario": "Teachers are talking about the class schedule.",
+      "question": "Teacher A: Is it three o'clock?\nTeacher B: No, __________________. It's two o'clock.",
+      "options": [
+        "it isn't.　　　",
+        "they aren't.",
+        "it is.   　　　",
+        "they are.   "
+      ],
+      "answer_index": 0,
+      "explanation": "針對單數時間問句 Is it...? 的否定簡答為 No, it isn't.。後文糾正為兩點驗證否定意圖。",
+      "taxonomy": "inferential",
+      "commonMisconception": "否定回答與後文資訊的對稱邏輯掌握不佳。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-005",
+      "type": "multiple_choice",
+      "scenario": "A child is impatient for his favorite TV show.",
+      "question": "Child: Is it five o'clock now?\nMom: Yes, __________________. You can watch TV now.",
+      "options": [
+        "it is.　　　　　　",
+        "they aren't.",
+        "they are.　　　",
+        "it isn't.　　　"
+      ],
+      "answer_index": 0,
+      "explanation": "Yes 引導肯定簡答，時間主詞為 it。選項 B 語意矛盾。",
+      "taxonomy": "applied",
+      "commonMisconception": "Yes 後方搭配否定縮寫 (Yes, it isn't) 的嚴重語誤。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-006",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Long vowel i_e sound.",
+      "question": "Which word has the same vowel sound as 'kite'?",
+      "options": [
+        "bit ",
+        "pig ",
+        "big ",
+        "five"
+      ],
+      "answer_index": 3,
+      "explanation": "kite 與 five 均為長母音 /aɪ/ (i_e 結構)。其餘為短音 /ɪ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法區別字母 i 的長音 /aɪ/ 與短音 /ɪ/。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-007",
+      "type": "multiple_choice",
+      "scenario": "Asking for the exact time in English class.",
+      "question": "Teacher: What time is it?\nStudent: ___________________",
+      "options": [
+        "It's nine clock.   ",
+        "Is nine o'clock.   ",
+        "It nine o'clock.   ",
+        "It's nine o'clock. "
+      ],
+      "answer_index": 3,
+      "explanation": "完整正確的時間表達需包含 Be 動詞 (It's) 以及 o'clock (鐘點)。選項 B 漏了 o'。",
+      "taxonomy": "literal",
+      "commonMisconception": "遺漏 o'clock 中間的撇號與小寫 o。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-008",
+      "type": "multiple_choice",
+      "scenario": "Talking about the time on a broken clock.",
+      "question": "A: Look at the old clock. Is it four o'clock?\nB: __________________. It's twelve o'clock.",
+      "options": [
+        "No, it is.   　",
+        "Yes, it isn't.",
+        "No, it isn't.　",
+        "Yes, it is.  　"
+      ],
+      "answer_index": 2,
+      "explanation": "與事實 (十二點) 不符，應選否定簡答 No, it isn't.。",
+      "taxonomy": "inferential",
+      "commonMisconception": "邏輯判斷正確但在英文肯定/否定對應句型中出錯。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-009",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'i' check.",
+      "question": "Which word has the /aɪ/ sound?",
+      "options": [
+        "fish",
+        "bike",
+        "sit ",
+        "milk"
+      ],
+      "answer_index": 1,
+      "explanation": "bike 符合 i_e 長母音結構。其餘為短母音 /ɪ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "沒注意到字尾不發音的 e 對 i 的發音影響。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-010",
+      "type": "multiple_choice",
+      "scenario": "Waiting for a movie to start.",
+      "question": "A: __________________?\nB: It's seven o'clock. Hurry up!",
+      "options": [
+        "Is it seven    ",
+        "What is it     ",
+        "Where is it    ",
+        "What time is it"
+      ],
+      "answer_index": 3,
+      "explanation": "由回答整點時間反推問句。選項 C 為是非問句回答不對稱。",
+      "taxonomy": "applied",
+      "commonMisconception": "分不清詢問具體資訊 (What time) 與確認資訊 (Is it) 的差異。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-011",
+      "type": "multiple_choice",
+      "scenario": "Identifying time by looking at a picture.",
+      "question": "A: Look! The small hand is on three. The big hand is on twelve.\nB: Oh, __________________.",
+      "options": [
+        "it's three o'clock.　",
+        "they are three.     ",
+        "it's twelve o'clock.",
+        "it is a clock.      "
+      ],
+      "answer_index": 0,
+      "explanation": "長針指 12，短針指 3，代表三點整。選項 B 搞混長短針功能。",
+      "taxonomy": "inferential",
+      "commonMisconception": "時鐘指針讀取錯誤與英文表達不一致。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-012",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'time'.",
+      "question": "Which word rhyme with 'time'?",
+      "options": [
+        "ten ",
+        "tall",
+        "team",
+        "lime"
+      ],
+      "answer_index": 3,
+      "explanation": "time 與 lime 均發長母音 /aɪ/。選項 B 為長母音 /i/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "分辨不清相似的長母音組合。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-013",
+      "type": "multiple_choice",
+      "scenario": "Asking for time in the morning.",
+      "question": "A: Good morning! __________________?\nB: It's seven o'clock. Time for breakfast.",
+      "options": [
+        "What time is it",
+        "Are you happy  ",
+        "How are you    ",
+        "What is that   "
+      ],
+      "answer_index": 0,
+      "explanation": "晨間問候後接詢問時間，對應早餐時刻。選項 B 為問候語。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法結合生活起居情境理解對話意圖。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-014",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'i' sounds like 'kite'.",
+      "question": "Choose the word with same sound as 'nine'.",
+      "options": [
+        "pin ",
+        "pig ",
+        "fine",
+        "pit "
+      ],
+      "answer_index": 2,
+      "explanation": "nine 與 fine 均發長母音 /aɪ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "辨識不出相同的韻腳設計。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-015",
+      "type": "multiple_choice",
+      "scenario": "Correcting a wrong time statement.",
+      "question": "A: It's one o'clock.\nB: No, __________________. Look! It's two o'clock.",
+      "options": [
+        "they aren't.",
+        "it is.   　　　",
+        "it isn't.　　　",
+        "I am not.　　　"
+      ],
+      "answer_index": 2,
+      "explanation": "針對 A 的錯誤陳述進行否定並修正。選項 C 主詞不符。",
+      "taxonomy": "applied",
+      "commonMisconception": "代名詞轉換錯誤，將時間主詞當作人稱 I。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-016",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Long vowel exercise.",
+      "question": "In 'time' and 'five', the sound of 'i' is ___________.",
+      "options": [
+        "Long i sound　",
+        "Short i sound",
+        "Silent i     ",
+        "No i sound   "
+      ],
+      "answer_index": 0,
+      "explanation": "發音術語題。a_i 與 i_e 均為長母音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "術語與實際發音聯想斷裂。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-017",
+      "type": "multiple_choice",
+      "scenario": "Talking about an evening clock.",
+      "question": "A: __________________\nB: It's ten o'clock. Go to bed now.",
+      "options": [
+        "What time is it?",
+        "What is it?     ",
+        "Is it ten?      ",
+        "Is it white?    "
+      ],
+      "answer_index": 0,
+      "explanation": "由具體時間回答推論問句。選項 C 會得到 Yes/No 回答。",
+      "taxonomy": "applied",
+      "commonMisconception": "句型對應不夠嚴謹。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-018",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'ride'.",
+      "question": "Which word rhyme with 'ride'?",
+      "options": [
+        "wide",
+        "rod ",
+        "red ",
+        "rid "
+      ],
+      "answer_index": 0,
+      "explanation": "ride 與 wide 具有相同長母音韻腳。選項 D 為短母音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "聽不出長母音與短母音的結尾差異。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-019",
+      "type": "multiple_choice",
+      "scenario": "Asking for the time of a class.",
+      "question": "A: __________________?\nB: It's eleven o'clock. English class starts!",
+      "options": [
+        "What is it     ",
+        "Who is he      ",
+        "What time is it",
+        "Where are you  "
+      ],
+      "answer_index": 2,
+      "explanation": "由十一點整反推時間問句。其餘選項語意不通。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒注意到時間單位的答語對應。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-020",
+      "type": "multiple_choice",
+      "scenario": "Predicting time: Small hand on 8, Big hand on 12.",
+      "question": "A: Look at the clock. Oh, __________________.\nB: Let's go to school.",
+      "options": [
+        "it is a clock.      ",
+        "it's twelve o'clock.",
+        "it's eight o'clock.　",
+        "it is green clock.  "
+      ],
+      "answer_index": 2,
+      "explanation": "指針情境理解題。長針指 12，短針指 8 代表 8 點整。",
+      "taxonomy": "inferential",
+      "commonMisconception": "時鐘概念與英文表達連結失敗。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-021",
+      "type": "multiple_choice",
+      "scenario": "Recap: What time?",
+      "question": "A: What time is it?\nB: __________________",
+      "options": [
+        "It is two clock.  　",
+        "It are two o'clock.",
+        "It's two o'clock.　　",
+        "They are two.     　"
+      ],
+      "answer_index": 2,
+      "explanation": "最標準的時間回答句法。選項 B 漏了 o'。",
+      "taxonomy": "applied",
+      "commonMisconception": "拼寫格式不完全。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-022",
+      "type": "multiple_choice",
+      "scenario": "Recap: Is it...?",
+      "question": "A: Is it five o'clock?\nB: __________________. It's four o'clock.",
+      "options": [
+        "Yes, it is.  ",
+        "No, I am not.",
+        "No, it isn't.",
+        "Yes, I do.   "
+      ],
+      "answer_index": 2,
+      "explanation": "內容錯誤選否定回答。主詞一致。選項 C 人稱錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "代名詞選配不一致。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-023",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'i' sounds like 'fish'.",
+      "question": "Choose the word with the SHORT 'i' sound.",
+      "options": [
+        "milk",
+        "nine",
+        "bike",
+        "five"
+      ],
+      "answer_index": 0,
+      "explanation": "milk 是短母音 /ɪ/。其餘均為 i_e 長母音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "分辨不出短母音發音特色。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-024",
+      "type": "multiple_choice",
+      "scenario": "Reading a clock at night.",
+      "question": "A: Look at the moon. What time is it?\nB: __________________",
+      "options": [
+        "It is a moon.       ",
+        "It's one o'clock.   ",
+        "It's eleven o'clock.",
+        "It is blue.         "
+      ],
+      "answer_index": 2,
+      "explanation": "月亮提示夜晚，十一點整合理。下午一點沒月亮。選項 C, D 答非所問。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒注意到與環境背景 (moon) 的合理性配對。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-025",
+      "type": "multiple_choice",
+      "scenario": "Recap: What is it? vs What time is it?",
+      "question": "A: __________________?\nB: It's an old clock.",
+      "options": [
+        "Where is it    ",
+        "What is it　　　　　",
+        "What time is it",
+        "Who is he      "
+      ],
+      "answer_index": 1,
+      "explanation": "回答是物品名稱 (clock)，應問 What is it?。選項 B 是問裡點鐘。",
+      "taxonomy": "applied",
+      "commonMisconception": "對詢問事物與詢問功能的區別能力薄弱。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-026",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Word without 'i' long sound.",
+      "question": "Which word sounds DIFFERENT?",
+      "options": [
+        "size",
+        "site",
+        "side",
+        "sit "
+      ],
+      "answer_index": 3,
+      "explanation": "sit 是短音。其餘均為 i_e 長音結構。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法在拼寫相似的字群中找出发音相異者。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-027",
+      "type": "multiple_choice",
+      "scenario": "Asking for time after P.E. class.",
+      "question": "A: P.E. class is over. __________________?\nB: It's four o'clock. Time to go home.",
+      "options": [
+        "What time is it",
+        "How is he      ",
+        "What is it     ",
+        "Are you cold   "
+      ],
+      "answer_index": 0,
+      "explanation": "對話語境指向放學時間。對應回答四點整。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒抓到過場情境提示。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-028",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Double check 'nine'.",
+      "question": "Choose the word with same sound as 'nine'.",
+      "options": [
+        "line",
+        "lip ",
+        "lit ",
+        "len "
+      ],
+      "answer_index": 0,
+      "explanation": "nine 與 line 具有相同韻腳 /aɪn/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "不辨字母 e 結尾音變規律。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-029",
+      "type": "multiple_choice",
+      "scenario": "Asking for simple time confirmation.",
+      "question": "A: Is it one o'clock?\nB: Yes, __________________. Hurry up!",
+      "options": [
+        "they are.",
+        "it isn't.",
+        "I am.    ",
+        "it is.　　　"
+      ],
+      "answer_index": 3,
+      "explanation": "肯定回答應選 it is。選項 C 複數錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看見 Yes 且錯選主詞代名詞。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U2-030",
+      "type": "multiple_choice",
+      "scenario": "Final recap: Clock in a room.",
+      "question": "Look! There is a clock under the window. __________________?\nIt's six o'clock.",
+      "options": [
+        "What color is it",
+        "Where is it    　",
+        "What time is it　",
+        "Who is he      　"
+      ],
+      "answer_index": 2,
+      "explanation": "回答整點時間，必然問詢時間問句。選項 B 是問顏色。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒看見回答中的重點資訊點。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    }
+  ]
+}

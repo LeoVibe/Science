@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "Sci3",
+    "order": 3,
+    "title": "溶解與生活"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "哪一種東西可以溶解在水中？",
+      "options": [
+        "沙子",
+        "鐵釘",
+        "鹽巴",
+        "石頭"
+      ],
+      "answer": "鹽巴",
+      "explanation": "鹽巴是可溶物質。",
+      "cqi_score": 5,
+      "quality_level": "L2"
+    }
+  ]
+}

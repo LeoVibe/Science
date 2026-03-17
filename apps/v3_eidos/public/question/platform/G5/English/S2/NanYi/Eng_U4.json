@@ -1,0 +1,370 @@
+{
+  "publisher": "NanYi",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U4",
+  "lesson_title": "Daily Life & Festival",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Dragon Boat Festival",
+      "question": "People like to eat ______ on Dragon Boat Festival. They are made of rice.",
+      "options": [
+        "moon cakes",
+        "zongzi",
+        "sandwiches",
+        "cookies"
+      ],
+      "answer_index": 1,
+      "explanation": "端午節的代表性食物是粽子 (zongzi)。",
+      "commonMisconception": "將各節慶食物混淆（如中秋節吃月餅）。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Watching a Race",
+      "question": "A: What are they doing on the river?\nB: They are having a ______ boat race. It's very exciting!",
+      "options": [
+        "lion",
+        "dragon",
+        "fish",
+        "bird"
+      ],
+      "answer_index": 1,
+      "explanation": "端午節在河上舉行的比賽是划龍舟 (dragon boat race)。",
+      "commonMisconception": "拼寫或單字辨識錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Daily Routine",
+      "question": "I always ______ my teeth before I go to bed.",
+      "options": [
+        "brush",
+        "wash",
+        "comb",
+        "draw"
+      ],
+      "answer_index": 0,
+      "explanation": "刷牙的動詞固定用法為 brush (brush one's teeth)。",
+      "commonMisconception": "受中文「洗」牙影響誤用 wash。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Asking about Frequency",
+      "question": "A: ______ often do you play sports?\nB: I play sports every weekend.",
+      "options": [
+        "What",
+        "How",
+        "When",
+        "Who"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問頻率使用 How often 句型。",
+      "commonMisconception": "受 every weekend 時間點誘導誤用 When。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Festival Greeting",
+      "question": "A: Happy Dragon Boat Festival!\nB: ______!",
+      "options": [
+        "You too",
+        "I am happy",
+        "No problem",
+        "Sorry"
+      ],
+      "answer_index": 0,
+      "explanation": "對方的節慶祝賀，自然回報「你也是」(You too / Same to you)。",
+      "commonMisconception": "應答語不夠自然。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Regular Activity",
+      "question": "A: Does Toby always take a shower in the morning?\nB: No, he ______. He takes a shower at night.",
+      "options": [
+        "always does",
+        "doesn't",
+        "is not",
+        "not"
+      ],
+      "answer_index": 1,
+      "explanation": "對 Does 開頭問句的否定簡答為 No, he doesn't。",
+      "commonMisconception": "受 always 影響誤選 A 或格式錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Seasonal Weather",
+      "question": "It's usually very ______ in Taiwan during the Dragon Boat Festival.",
+      "options": [
+        "cold",
+        "hot",
+        "snowy",
+        "cool"
+      ],
+      "answer_index": 1,
+      "explanation": "端午節通常在六月，台灣的天氣此時通常很熱 (hot)。",
+      "commonMisconception": "氣候與節期感測力弱。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Time Adverbs",
+      "question": "We ______ red envelopes (紅包) last Chinese New Year.",
+      "options": [
+        "get",
+        "got",
+        "gets",
+        "getting"
+      ],
+      "answer_index": 1,
+      "explanation": "描述過去的節慶活動，使用過去式 got。",
+      "commonMisconception": "時態未對應時間點。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Prepositions",
+      "question": "The dragon boat race is ______ June this year.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer_index": 2,
+      "explanation": "在某月份，介係詞使用 in。",
+      "commonMisconception": "混淆 on (特定日期) 與 in (月份/年份)。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Festival Food",
+      "question": "Ken: 'I love zongzi because they are yummy.' \nLeo: 'I like moon cakes more. They are sweet.' \nQuestion: Which festival does Leo like?",
+      "options": [
+        "Dragon Boat Festival",
+        "Moon Festival",
+        "Christmas",
+        "Easter"
+      ],
+      "answer_index": 1,
+      "explanation": "喜歡月餅 (moon cakes) 暗示他喜歡中秋節 (Moon Festival)。",
+      "commonMisconception": "食物與節慶的關聯推理漏洞。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "Weekend Routine",
+      "question": "I usually read books on Saturdays. I often play soccer on Sundays. \nQuestion: What do I DO on weekends?",
+      "options": [
+        "Read books and play soccer",
+        "Go to school",
+        "Watch TV",
+        "Buy zongzi"
+      ],
+      "answer_index": 0,
+      "explanation": "整合週六與週日的活動即為週末活動。",
+      "commonMisconception": "資訊提取不全。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Missing Egg",
+      "question": "On Dragon Boat Festival at noon (中午), people try to make an egg ______ on the floor. \nQuestion: What do people do with the egg?",
+      "options": [
+        "Eat it",
+        "Stand it up",
+        "Throw it",
+        "Paint it"
+      ],
+      "answer_index": 1,
+      "explanation": "端午節正午「立蛋」是著名的傳統習俗 (stand an egg up)。",
+      "commonMisconception": "不具備在地節度習俗的英文化連結。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Daily Life Comparison",
+      "question": "Lily gets up at 6:30. Sam gets up at 7:00. Ken gets up at 7:30.\nQuestion: Who gets up the EARLIEST?",
+      "options": [
+        "Lily",
+        "Sam",
+        "Ken",
+        "Nobody"
+      ],
+      "answer_index": 0,
+      "explanation": "6:30 是當中最的時間，故由 Lily 最早起 (earliest)。",
+      "commonMisconception": "最高級詞彙理解與時間比較能力的落差。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Special Smell",
+      "question": "People often hang (掛) sachets (香包) on their necks during Dragon Boat Festival. They ______ good.\nQuestion: Choose the best verb.",
+      "options": [
+        "taste",
+        "smell",
+        "sound",
+        "look"
+      ],
+      "answer_index": 1,
+      "explanation": "香包的功能是發散香氣，對應動詞為 smell。",
+      "commonMisconception": "感官動詞誤用。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Frequency Adverbs",
+      "question": "My father ______ late for work. He is always on time.",
+      "options": [
+        "is never",
+        "never is",
+        "is always",
+        "always is"
+      ],
+      "answer_index": 0,
+      "explanation": "頻率副詞放在 B 動詞之後。且後方說準時 (on time)，故應為「從不」遲到。",
+      "commonMisconception": "頻率副詞位置與語意邏輯雙重判斷錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Holiday Safety",
+      "question": "Wait! The water is too ______ to swim in. Let's watch from the side.",
+      "options": [
+        "deep",
+        "hot",
+        "sweet",
+        "blue"
+      ],
+      "answer_index": 0,
+      "explanation": "「水太...以至於不能下水游泳」最合理的環境限制是水太深 (deep)。",
+      "commonMisconception": "缺乏環境安全意識與詞彙連結。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Joining the Race",
+      "question": "If you want to win the dragon boat race, you ______ exercise and be strong.",
+      "options": [
+        "should",
+        "shouldn't",
+        "was",
+        "were"
+      ],
+      "answer_index": 0,
+      "explanation": "給予建立優勢的建議，使用情態助動詞 should。",
+      "commonMisconception": "助動詞語意誤判。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Western Festivals",
+      "question": "In Western culture, people find hidden (隱藏的) ______ on Easter Day.",
+      "options": [
+        "zongzi",
+        "eggs",
+        "moon cakes",
+        "pumpkins"
+      ],
+      "answer_index": 1,
+      "explanation": "復活節 (Easter) 的傳統是彩蛋 (eggs)，需與端午節立蛋區分。",
+      "commonMisconception": "節慶文化對應錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Morning Meal",
+      "question": "Typical (典型的) breakfasts in Taiwan include soy milk and fan-tuan. They ______ delicious.",
+      "options": [
+        "is",
+        "are",
+        "do",
+        "tastes"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 They 指代早餐品項（複數），用 B 動詞 are 修飾形容詞 delicious。",
+      "commonMisconception": "受單項 food 概念影響誤選 is 或受 tastes 誤導（在此為形容詞 delicious，tastes 後也常用形容詞但主謂需一致）。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Holiday Calendar",
+      "question": "Today is June 20th. Dragon Boat Festival is June 22nd.\nQuestion: Is it Dragon Boat Festival the day after tomorrow?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, it will.",
+        "No, it won't."
+      ],
+      "answer_index": 0,
+      "explanation": "20 號的後天 (day after tomorrow) 是 22 號，正確。",
+      "commonMisconception": "時間推算短路。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "Math_G4_S2_HL_U3",
+  "concept": "整數乘法：乘以二、三位數及其生活應用",
+  "publisher": "HanLin",
+  "questions": [
+    {
+      "id": "q1",
+      "scenario": "批發商採購",
+      "difficulty": "簡單",
+      "question": "一箱飲料賣 450 元。便利商店訂購了 30 箱，總共要付多少錢？",
+      "options": [
+        "1,350 元",
+        "13,500 元",
+        "4,800 元",
+        "15,000 元"
+      ],
+      "answer": 1,
+      "explanation": "450 * 30 = 13500。可以先算 45 * 3 = 135，再補回兩個 0。",
+      "concept": "乘數為整十的乘法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q2",
+      "scenario": "計算門票收入",
+      "difficulty": "中等",
+      "question": "遊樂園一張門票 785 元。今天賣出 125 張，大約收入多少元？（請用四捨五入法取概數到百位再計算）",
+      "options": [
+        "80,000 元",
+        "100,000 元",
+        "96,000 元",
+        "800,000 元"
+      ],
+      "answer": 0,
+      "explanation": "785 取概數到百位為 800，125 取概數到百位為 100。 800 * 100 = 80,000。",
+      "concept": "乘法的估算",
+      "quality_level": "L4",
+      "cqi_score": 9
+    },
+    {
+      "id": "q3",
+      "scenario": "影印店收費",
+      "difficulty": "簡單",
+      "question": "印製一份簡報要 12 元。全校老師共印了 542 份，總金額是多少？",
+      "options": [
+        "6,504 元",
+        "6,400 元",
+        "5,432 元",
+        "7,000 元"
+      ],
+      "answer": 0,
+      "explanation": "542 * 12 = 542 * 10 + 542 * 2 = 5420 + 1084 = 6504。",
+      "concept": "三位數乘兩位數",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q4",
+      "scenario": "工廠包裝量",
+      "difficulty": "中等",
+      "question": "一條生產線每天可以產出 2,050 個零件。持續運作 24 天後，總產量是多少？",
+      "options": [
+        "41,000",
+        "49,200",
+        "50,000",
+        "48,000"
+      ],
+      "answer": 1,
+      "explanation": "2050 * 24 = 49200。",
+      "concept": "含零大數的乘法",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q5",
+      "scenario": "獎學金發放",
+      "difficulty": "中等",
+      "question": "學校發放獎學金，每人 1,500 元。共有 365 人領取，總共發出多少錢？",
+      "options": [
+        "547,500 元",
+        "365,000 元",
+        "450,000 元",
+        "600,000 元"
+      ],
+      "answer": 0,
+      "explanation": "1500 * 365 = 547500。",
+      "concept": "四位數乘三位數簡化",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q6",
+      "scenario": "建案磁磚計算",
+      "difficulty": "困難",
+      "question": "一面牆需要 125 塊磁磚。一棟大樓有 48 面這樣的牆。總共需要多少磁磚？",
+      "options": [
+        "6,000 塊",
+        "5,000 塊",
+        "4,800 塊",
+        "5,500 塊"
+      ],
+      "answer": 0,
+      "explanation": "125 * 48 = 125 * 8 * 6 = 1000 * 6 = 6000。",
+      "concept": "乘法分解計算",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q7",
+      "scenario": "閱讀挑戰",
+      "difficulty": "簡單",
+      "question": "一張稿紙有 400 個格式。小明寫了 15 張，共寫了幾個字？",
+      "options": [
+        "4,000",
+        "6,000",
+        "5,500",
+        "600"
+      ],
+      "answer": 1,
+      "explanation": "400 * 15 = 6000。",
+      "concept": "整百乘法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q8",
+      "scenario": "薪資計算",
+      "difficulty": "中等",
+      "question": "工讀生時薪 185 元。上個月工作了 102 小時，總薪水是多少？",
+      "options": [
+        "18,870 元",
+        "18,500 元",
+        "20,000 元",
+        "19,000 元"
+      ],
+      "answer": 0,
+      "explanation": "185 * 102 = 185 * 100 + 185 * 2 = 18500 + 370 = 18870。",
+      "concept": "三位數乘三位數",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q9",
+      "scenario": "種植樹苗",
+      "difficulty": "困難",
+      "question": "一個林場橫著種 256 排樹，每排有 128 棵。請問林場共有幾棵樹？",
+      "options": [
+        "32,768 棵",
+        "25,600 棵",
+        "30,000 棵",
+        "35,000 棵"
+      ],
+      "answer": 0,
+      "explanation": "256 * 128 = 32768。",
+      "concept": "三位數乘三位數進位",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q10",
+      "scenario": "網路流量估算",
+      "difficulty": "中等",
+      "question": "一部影片大小是 120 MB。如果下載 50 部，總共佔用多少空間？",
+      "options": [
+        "600 MB",
+        "6,000 MB",
+        "1,200 MB",
+        "5,000 MB"
+      ],
+      "answer": 1,
+      "explanation": "120 * 50 = 6000。",
+      "concept": "生活計量乘法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    }
+  ]
+}

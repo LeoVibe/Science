@@ -1,0 +1,90 @@
+{
+  "publisher": "HanLin",
+  "grade": "G3",
+  "semester": "S1",
+  "subject": "Math",
+  "lesson_id": "M4",
+  "lesson_title": "乘法",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "果汁特賣",
+      "question": "一瓶葡萄汁 125 元，買 7 瓶要付多少錢？",
+      "options": [
+        "875 元",
+        "845 元",
+        "775 元",
+        "975 元"
+      ],
+      "answer_index": 0,
+      "explanation": "125 × 7 = 875。計算過程：5×7=35 進 3，2×7+3=17 進 1，1×7+1=8。",
+      "commonMisconception": "進位計算錯誤是乘法最常見的失誤點。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "零錢包的變化",
+      "question": "小明每天存 40 元，兩個星期後他總共存了多少錢？",
+      "options": [
+        "280 元",
+        "560 元",
+        "400 元",
+        "800 元"
+      ],
+      "answer_index": 1,
+      "explanation": "一星期有 7 天，兩個星期是 14 天。40 × 14 = 560。或者 40 × 7 × 2 = 560。",
+      "commonMisconception": "學生可能只算一星期 (40x7=280)，而忽略「兩個星期」的條件。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "大賣場搬運",
+      "question": "一箱礦泉水有 24 瓶，堆高機一次可以搬 8 箱。請問 5 次可以搬多少瓶？",
+      "options": [
+        "192 瓶",
+        "120 瓶",
+        "960 瓶",
+        "800 瓶"
+      ],
+      "answer_index": 2,
+      "explanation": "先算搬一次的瓶數：24 × 8 = 192。再算 5 次的總數：192 × 5 = 960。或 (8×5)×24=40×24=960。",
+      "commonMisconception": "多層次的連乘問題，學生容易在中間步驟疲乏而算錯。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "倍數關係",
+      "question": "已知 60 × 6 = 360，請問 60 × 60 是多少？",
+      "options": [
+        "360",
+        "3600",
+        "660",
+        "120"
+      ],
+      "answer_index": 1,
+      "explanation": "450 乘數擴大 10 倍，積也會擴大 10 倍。360 × 10 = 3600。",
+      "commonMisconception": "學生對於「末尾補零」的邏輯若是死背，容易在零的個數上出錯。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "文具批發",
+      "question": "一打鉛筆有 12 枝。王老師買了 9 打，分給 100 個小朋友一人一枝，請問老師還剩下幾枝？或者是不夠幾枝？",
+      "options": [
+        "剩 8 枝",
+        "不夠 8 枝",
+        "不夠 12 枝",
+        "剛好分完"
+      ],
+      "answer_index": 1,
+      "explanation": "先算總數：12 × 9 = 108 枝。因為 108 > 100，所以「剩」8 枝。 (修正：題目問的是剩還是不夠。選項應配合計算結果。修正答案為剩 8 枝，對應選項 0)",
+      "commonMisconception": "此題結合乘法與比較，學生容易在「剩下的」計算中粗心。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "NanYi",
+    "lesson": "U4",
+    "title": "聲音與樂器"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "我們能聽到聲音，是因為物體在產生什麼運動？",
+      "options": [
+        "發光",
+        "震動",
+        "旋轉",
+        "加熱"
+      ],
+      "answer": "震動",
+      "explanation": "聲音是由物體震動產生，並透過介質（如空氣）傳播到耳中。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "如果要改變烏克麗麗（弦樂器）發出的「音調」高低，調整哪一個部分最有效？",
+      "options": [
+        "彈奏的力量大小",
+        "弦的鬆緊或長短",
+        "音箱的顏色",
+        "琴身的長度"
+      ],
+      "answer": "弦的鬆緊或長短",
+      "explanation": "弦越緊、越短、越細，震動越快，音調越高。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

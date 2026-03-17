@@ -1,0 +1,177 @@
+{
+  "id": "Sci_G4_S2_HL_U4",
+  "concept": "電路的基本連接、導體與絕緣體、能源分配與再生能源的認識",
+  "publisher": "HanLin",
+  "questions": [
+    {
+      "id": "q1",
+      "scenario": "小燈泡亮了",
+      "difficulty": "簡單",
+      "question": "要讓小燈泡發亮，電路必須形成什麼狀態？",
+      "options": [
+        "斷路",
+        "通路 (閉合回路)",
+        "開路",
+        "短路"
+      ],
+      "answer": 1,
+      "explanation": "電流必須從電池正極出發，經過導線、燈泡，回到負極形成完整的封閉路徑。",
+      "concept": "通路與斷路",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q2",
+      "scenario": "電池串聯實驗",
+      "difficulty": "中等",
+      "question": "將兩顆電池『正極接負極』串聯在一起，燈泡的亮度會？",
+      "options": [
+        "變暗",
+        "變亮",
+        "不變",
+        "熄滅"
+      ],
+      "answer": 1,
+      "explanation": "串聯電池會增加總電壓，提供更多能量給燈泡，使其更亮。",
+      "concept": "電池串聯性質",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "id": "q3",
+      "scenario": "尋找導體",
+      "difficulty": "簡單",
+      "question": "在電路中加入下列哪種物體，燈泡『不能』發亮？",
+      "options": [
+        "銅線",
+        "迴紋針",
+        "橡皮筋",
+        "鐵捲尺"
+      ],
+      "answer": 2,
+      "explanation": "橡皮筋是絕緣體，電流無法通過。金屬類通常是導體。",
+      "concept": "導體與絕緣體",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q4",
+      "scenario": "電池並聯測試",
+      "difficulty": "中等",
+      "question": "將兩顆電池『正正相接、負負相接』並聯使用。與單顆電池相比，亮度如何？",
+      "options": [
+        "比較亮",
+        "亮度差不多",
+        "比較暗",
+        "燈泡會燒掉"
+      ],
+      "answer": 1,
+      "explanation": "並聯電池電壓不變，但可以延長供電時間，亮度與單顆相當。",
+      "concept": "電池並聯性質",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q5",
+      "scenario": "認識再生能源",
+      "difficulty": "簡單",
+      "question": "下列哪一種能源是取之不盡、用之不竭的再生能源？",
+      "options": [
+        "石油",
+        "煤炭",
+        "太陽能",
+        "天然氣"
+      ],
+      "answer": 2,
+      "explanation": "太陽能、風能、水能屬於再生能源。化石燃料則會枯竭且造成污染。",
+      "concept": "再生能源與非再生能源",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q6",
+      "scenario": "手電筒的秘密",
+      "difficulty": "中等",
+      "question": "手電筒如果不亮了，但在檢查電池時發現反裝了一顆，這屬於？",
+      "options": [
+        "電壓太強",
+        "形成斷路",
+        "燈泡壞了",
+        "接觸優良"
+      ],
+      "answer": 1,
+      "explanation": "電池若方向相反，電壓會互相抵銷或無法形成正確迴路，導致斷路。",
+      "concept": "電路故障排除",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "id": "q7",
+      "scenario": "節約能源實踐",
+      "difficulty": "簡單",
+      "question": "下列哪一項不是節能減碳的好行為？",
+      "options": [
+        "隨手關燈",
+        "冷氣設定在 26~28 度",
+        "沒人時電視也開著當背景音樂",
+        "多搭乘大眾運輸工具"
+      ],
+      "answer": 2,
+      "explanation": "沒人看電視卻開著是無謂的能源浪費。",
+      "concept": "節約能源意識",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q8",
+      "scenario": "燈泡串並聯對比",
+      "difficulty": "困難",
+      "question": "家裡的電燈如果其中一盞壞了，其他的燈還會亮。這代表家裡的電器通常是怎麼連接的？",
+      "options": [
+        "串聯",
+        "並聯",
+        "沒接電池",
+        "隨機接"
+      ],
+      "answer": 1,
+      "explanation": "並聯電路中各分支互不干擾，一處斷路不影響其他路徑。",
+      "concept": "燈泡並聯應用",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q9",
+      "scenario": "能源開發與環境",
+      "difficulty": "中等",
+      "question": "風力發電雖然環保，但主要的限制是什麼？",
+      "options": [
+        "會產生核廢料",
+        "風力有時強有時弱，不夠穩定",
+        "風很大會把房子吹走",
+        "完全沒有電量"
+      ],
+      "answer": 1,
+      "explanation": "風能受氣候影響大，具有不穩定性，是目前開發的技術挑戰之一。",
+      "concept": "能源限制分析",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q10",
+      "scenario": "安全用電觀念",
+      "difficulty": "簡單",
+      "question": "為什麼不能用濕手去開關電燈？",
+      "options": [
+        "手會變髒",
+        "普通的水也是導體，容易觸電",
+        "開關會生鏽",
+        "燈泡會爆炸"
+      ],
+      "answer": 1,
+      "explanation": "人體與水都是良好的導電媒介，濕手操作電器極具危險性。",
+      "concept": "用電安全",
+      "quality_level": "L3",
+      "cqi_score": 3
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "HanLin",
+    "lesson": "Sci2",
+    "order": 2,
+    "title": "水的移動/有趣現象"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "虹吸現象能將水引往低處，管子內必須充滿什麼？",
+      "options": [
+        "沙子",
+        "油脂",
+        "水",
+        "空氣"
+      ],
+      "answer": "水",
+      "explanation": "虹吸必須先建立連綿的水柱才能啟動。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "毛細現象讓衣服上的汗水能迅速擴散。",
+      "answer": "True",
+      "explanation": "布料纖維間的細縫產生毛細吸力。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "茶杯中的水靜止時，水面保持______。",
+      "answer": "水平",
+      "explanation": "受重力影響，靜止液面恆為水平。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "連通管原理常應用在生活中的？",
+      "options": [
+        "溫度計",
+        "吸塵器",
+        "手電筒",
+        "飲水機水位計"
+      ],
+      "answer": "飲水機水位計",
+      "explanation": "水位計能顯示與內部等高的水面。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "true_false",
+      "question": "只有吸管能產生虹吸現象，粗水管不行。",
+      "answer": "False",
+      "explanation": "任何密封且充滿水的管路都能產生虹吸。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    }
+  ]
+}

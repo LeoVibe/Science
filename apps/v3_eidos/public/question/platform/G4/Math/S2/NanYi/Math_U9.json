@@ -1,0 +1,177 @@
+{
+  "id": "Math_G4_S2_NY_U9",
+  "concept": "時間的計算：單位加減換算、跨度與跨日情境分析",
+  "publisher": "NanYi",
+  "questions": [
+    {
+      "id": "q1",
+      "scenario": "烘培課程計時",
+      "difficulty": "簡單",
+      "question": "烘焙要花 1 小時 25 分。上午 9 時 50 分開始，幾點結束？",
+      "options": [
+        "11 時 15 分",
+        "11 時 05 分",
+        "10 時 15 分",
+        "11 時 25 分"
+      ],
+      "answer": 0,
+      "explanation": "9:50 + 1:25 = 10:75 = 11:15。",
+      "concept": "時間加與進位",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q2",
+      "scenario": "安排乘車計畫",
+      "difficulty": "簡單",
+      "question": "下午 2 時 10 分的火車。車程 3 小時 40 分。抵達時間是？",
+      "options": [
+        "下午 5 時 50 分",
+        "下午 4 時 50 分",
+        "下午 6 時",
+        "下午 5 時 10 分"
+      ],
+      "answer": 0,
+      "explanation": "2:10 + 3:40 = 5:50。",
+      "concept": "時間跨度加法",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q3",
+      "scenario": "統計運動時數",
+      "difficulty": "中等",
+      "question": "小英今天練琴 50 分鐘，練口風琴 45 分鐘。共花了多少小時多少分鐘？",
+      "options": [
+        "1 小時 35 分",
+        "1 小時 45 分",
+        "1 小時 25 分",
+        "2 小時"
+      ],
+      "answer": 0,
+      "explanation": "50 + 45 = 95 分 = 1 小時 35 分。",
+      "concept": "時間單位轉換",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    },
+    {
+      "id": "q4",
+      "scenario": "跨夜長途旅行",
+      "difficulty": "困難",
+      "question": "遊覽車晚上 10 時出發，隔天清晨 6 時抵達。共跑了幾小時？",
+      "options": [
+        "8 小時",
+        "16 小時",
+        "10 小時",
+        "4 小時"
+      ],
+      "answer": 0,
+      "explanation": "10pm -> 12am (2小時)； 12am -> 6am (6小時)。 合計 8 小時。",
+      "concept": "跨日時間計算",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q5",
+      "scenario": "手錶累積誤差",
+      "difficulty": "中等",
+      "question": "錶每天慢 1 分 20 秒。5 天後會慢幾分幾秒？",
+      "options": [
+        "6 分 40 秒",
+        "5 分 100 秒",
+        "5 分 20 秒",
+        "7 分"
+      ],
+      "answer": 0,
+      "explanation": "1分20秒 * 5 = 5分 100秒 = 6分 40秒。",
+      "concept": "時間乘以整數",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "id": "q6",
+      "scenario": "分析時刻與時間",
+      "difficulty": "中等",
+      "question": "小強於上午 8 時 15 分開始寫作業，寫完時是上午 10 時 5 分。他寫了幾分鐘？",
+      "options": [
+        "110 分鐘",
+        "1 小時 50 分",
+        "以上皆是",
+        "100 分鐘"
+      ],
+      "answer": 2,
+      "explanation": "10:05 - 8:15 = 9:65 - 8:15 = 1:50 = 110 分鐘。",
+      "concept": "時間跨度與複名數",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q7",
+      "scenario": "游泳接力預估",
+      "difficulty": "簡單",
+      "question": "一個人游一趟要 85 秒。4 個人接力總共要幾分幾秒？",
+      "options": [
+        "5 分 40 秒",
+        "6 分 10 秒",
+        "5 分 20 秒",
+        "340 秒"
+      ],
+      "answer": 0,
+      "explanation": "85 * 4 = 340 秒 = 5 分 40 秒。",
+      "concept": "秒分單位換算",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "id": "q8",
+      "scenario": "推算開始時間",
+      "difficulty": "中等",
+      "question": "下午 3 時 20 分收播的卡通，長度 45 分鐘。它是幾時幾分開始的？",
+      "options": [
+        "下午 2 時 35 分",
+        "下午 2 時 45 分",
+        "下午 3 時 15 分",
+        "下午 2 時 30 分"
+      ],
+      "answer": 0,
+      "explanation": "15:20 - 45 = 14:80 - 45 = 14:35 (下午 2:35)。",
+      "concept": "時刻倒推",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q9",
+      "scenario": "時差應用",
+      "difficulty": "困難",
+      "question": "台北(UTC+8)中午 12 點時，倫敦(UTC+0)是幾點？",
+      "options": [
+        "凌晨 4 點",
+        "清晨 6 點",
+        "晚上 8 點",
+        "中午 12 點"
+      ],
+      "answer": 0,
+      "explanation": "台北比倫敦快 8 小時。 12 - 8 = 4 (凌晨 4 點)。",
+      "concept": "世界時區初步",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "id": "q10",
+      "scenario": "睡眠規律檢查",
+      "difficulty": "中等",
+      "question": "小力想要睡足 9 小時。如果他早上 7 時要起床，最晚前一晚幾點要入睡？",
+      "options": [
+        "晚上 10 時",
+        "晚上 9 時",
+        "凌晨 2 時",
+        "晚上 8 時"
+      ],
+      "answer": 0,
+      "explanation": "7am 往前推 9 小時： 7 -> 0 (7小時)； 0 -> 10pm (2小時)。故最晚 10pm 入睡。",
+      "concept": "生活跨度規劃",
+      "quality_level": "L4",
+      "cqi_score": 4.5
+    }
+  ]
+}

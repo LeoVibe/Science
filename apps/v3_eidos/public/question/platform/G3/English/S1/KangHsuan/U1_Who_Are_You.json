@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "KangHsuan",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Who Are You?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Who are you? B: I ______ a student.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "are"
+      ],
+      "answer": "am",
+      "explanation": "配合第一人稱單數 I，使用 be 動詞 am。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "The question 'Who are you?' is used to ask about someone's identity.",
+      "answer": "True",
+      "explanation": "'Who are you?' 用來詢問對方的身份。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Who are you? B: I am ______ (大明).",
+      "answer": "Da Ming",
+      "explanation": "填入人名完成自我介紹。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "Which of the following is a greeting?",
+      "options": [
+        "I am a boy.",
+        "Hello!",
+        "Who are you?",
+        "This is a pen."
+      ],
+      "answer": "Hello!",
+      "explanation": "Hello! 是最常見的打招呼用語。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: Who are you? B: I am your ______. (老師)",
+      "options": [
+        "father",
+        "friend",
+        "student",
+        "teacher"
+      ],
+      "answer": "teacher",
+      "explanation": "teacher 的意思是老師。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

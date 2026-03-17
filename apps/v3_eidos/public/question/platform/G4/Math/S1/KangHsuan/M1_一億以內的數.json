@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "M1",
+    "order": 1,
+    "title": "一億以內的數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "數字「5040300」讀作什麼？",
+      "options": [
+        "五十萬四千三百",
+        "五百零四萬零三千",
+        "五百零四萬零三百",
+        "五千零四十萬三百"
+      ],
+      "answer": "五百零四萬零三百",
+      "explanation": "每四位一撇（萬位級）：504,0300，即五百零四萬、零、三百。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "10 個一萬是十萬，10 個十萬是一百萬。",
+      "answer": "True",
+      "explanation": "位值的十進律：萬 -> 十萬 -> 百萬 -> 千萬 -> 億。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "「三千萬零六百」記作______。",
+      "answer": "30000600",
+      "explanation": "千萬位是 3，百位是 6，其餘補 0。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "比較大小：87,000,000 與 9,999,999，哪一個比較大？",
+      "options": [
+        "一樣大",
+        "無法比較",
+        "87,000,000",
+        "9,999,999"
+      ],
+      "answer": "87,000,000",
+      "explanation": "位數多者較大，前者是八位數，後者是七位數。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "數字「12345678」中，數字「2」代表多少值？",
+      "options": [
+        "2,000,000",
+        "200",
+        "20,000,000",
+        "20,000"
+      ],
+      "answer": "2,000,000",
+      "explanation": "「2」位在百萬位，故代表二百萬。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

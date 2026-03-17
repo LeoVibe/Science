@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "G3",
+    "subject": "SocialStudies",
+    "publisher": "NanYi",
+    "lesson": "Soc4",
+    "title": "家庭與我",
+    "semester": "S1",
+    "order": 4
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "家庭提供給孩子的最重要功能是什麼？",
+      "options": [
+        "買電動玩具",
+        "比較成績",
+        "賺錢給我花",
+        "愛、照顧與避風港"
+      ],
+      "answer": "愛、照顧與避風港",
+      "explanation": "家庭不僅提供生理需求，更是心理安全感的主要來源。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "家庭中的規矩是由父母決定的，小孩子不應該有任何意見。",
+      "answer": "False",
+      "explanation": "雖然父母有決策權，但透過溝通討論讓孩子理解規矩的意義，也是家庭教育的一部分。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "除了血緣關係，有些家庭是透過______（如領養、再婚）而組成的。",
+      "answer": "姻緣或契約",
+      "explanation": "家庭有多種組成方式，核心都在於彼此的連結。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "為了讓家庭更和諧，我們可以怎麼做？",
+      "options": [
+        "以上皆是",
+        "主動關心長輩",
+        "幫忙分擔家事",
+        "發生爭執時冷靜說出感受"
+      ],
+      "answer": "以上皆是",
+      "explanation": "和諧的家需要每個成員共同維護。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪種稱呼代表的是「親戚」關係？",
+      "options": [
+        "學校的警衛叔叔",
+        "媽媽的姊姊（阿姨）",
+        "住在隔壁的王伯伯",
+        "我的同班同學"
+      ],
+      "answer": "媽媽的姊姊（阿姨）",
+      "explanation": "親戚是指有血緣或是姻親關係的人。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    }
+  ]
+}

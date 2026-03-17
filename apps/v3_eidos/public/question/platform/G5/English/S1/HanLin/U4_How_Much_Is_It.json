@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "HanLin",
+    "lesson": "U4",
+    "order": 4,
+    "title": "Unit 4 How Much Is It?",
+    "verified": true,
+    "verification_source": "翰林官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: How much is the pencil? B: It ______ 10 dollars.",
+      "options": [
+        "do",
+        "are",
+        "does",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "pencil 是單數，用 is。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "The pants ______ 500 dollars.",
+      "options": [
+        "be",
+        "am",
+        "are",
+        "is"
+      ],
+      "answer": "are",
+      "explanation": "pants (褲子) 是複數，用 are。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "How ______ are the socks?",
+      "answer": "much",
+      "explanation": "How much 詢問價格。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "true_false",
+      "question": "'Cheap' means '昂貴的'。",
+      "answer": "False",
+      "explanation": "Cheap 是便宜的，昂貴是 expensive。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "It ______ too expensive.",
+      "options": [
+        "do",
+        "are",
+        "does",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "It 搭配 is。",
+      "cqi_score": 5,
+      "quality_level": "L2"
+    }
+  ]
+}

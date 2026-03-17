@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "HanLin",
+    "lesson": "L9",
+    "order": 9,
+    "title": "單車遊日月潭"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "日月潭位於？",
+      "options": [
+        "台北",
+        "南投",
+        "花蓮",
+        "高雄"
+      ],
+      "answer": "南投",
+      "explanation": "台灣最大的高山湖泊。",
+      "cqi_score": 4.5,
+      "quality_level": "L3"
+    }
+  ]
+}

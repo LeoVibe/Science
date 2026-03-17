@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Science",
+    "publisher": "HanLin",
+    "lesson": "Sci2",
+    "order": 2,
+    "title": "水域環境"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "下列哪一種水域環境屬於「流動水域」？",
+      "options": [
+        "湖泊",
+        "埤塘",
+        "水族缸",
+        "溪流"
+      ],
+      "answer": "溪流",
+      "explanation": "溪流、河川、海洋的水是持續移動的，而埤塘、湖泊則相對靜止。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "睡蓮的葉子平貼在水面上，它屬於「浮葉植物」。",
+      "answer": "True",
+      "explanation": "浮葉植物的根在泥土中，葉柄長度隨水位調整讓葉片 floating 在面上。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "大肚魚、蜻蜓幼蟲（水蠆）都是常見的______環境生物。",
+      "answer": "淡水或水域",
+      "explanation": "它們多存在於平緩的溪流或池塘中。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "有關「挺水植物」如蘆葦或茭白筍的特徵，何者正確？",
+      "options": [
+        "根長在水中泥土，莖或葉的部分挺出水面",
+        "全株沉在水底",
+        "隨水流到處漂浮",
+        "生長在完全沒有水的地方"
+      ],
+      "answer": "根長在水中泥土，莖或葉的部分挺出水面",
+      "explanation": "挺水植物具有支持力較強的莖。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "當水域環境遭到汙染（如垃圾、廢水），會對生物造成什麼影響？",
+      "options": [
+        "生物多樣性減少甚至死亡",
+        "生物變大隻",
+        "沒有任何影響",
+        "水質變清澈"
+      ],
+      "answer": "生物多樣性減少甚至死亡",
+      "explanation": "保護水域生態平衡是維護自然的關鍵。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

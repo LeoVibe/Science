@@ -1,0 +1,66 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "Math_U1",
+      "title": "億、兆以內的大數",
+      "file": "Math_U1.json"
+    },
+    {
+      "id": "Math_U2",
+      "title": "乘以二、三位數",
+      "file": "Math_U2.json"
+    },
+    {
+      "id": "Math_U3",
+      "title": "除以二位數",
+      "file": "Math_U3.json"
+    },
+    {
+      "id": "Math_U4",
+      "title": "等值分數與大小比較",
+      "file": "Math_U4.json"
+    },
+    {
+      "id": "Math_U5",
+      "title": "同分母分數的加減",
+      "file": "Math_U5.json"
+    },
+    {
+      "id": "Math_U6",
+      "title": "小數的加減與量感",
+      "file": "Math_U6.json"
+    },
+    {
+      "id": "Math_U7",
+      "title": "概數及其應用",
+      "file": "Math_U7.json"
+    },
+    {
+      "id": "Math_U8",
+      "title": "四邊形的分類與性質",
+      "file": "Math_U8.json"
+    },
+    {
+      "id": "Math_U9",
+      "title": "長方形與正方形的面積",
+      "file": "Math_U9.json"
+    },
+    {
+      "id": "Math_U10",
+      "title": "時間的計算與應用",
+      "file": "Math_U10.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

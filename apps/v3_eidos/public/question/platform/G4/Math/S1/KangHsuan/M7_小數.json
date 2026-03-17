@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "M7",
+    "order": 7,
+    "title": "小數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "小數點右邊第一位稱為什麼位？",
+      "options": [
+        "千分位",
+        "十分位",
+        "個位",
+        "百分位"
+      ],
+      "answer": "十分位",
+      "explanation": "數位順序為：個位 . 十分位、百分位...",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "0.5 和 0.50 的大小是相等的。",
+      "answer": "True",
+      "explanation": "小數末尾的 0 不影響數值的大小。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "計算 1.25 + 0.75 = ______。",
+      "answer": "2",
+      "explanation": "1.25 + 0.75 = 2.00，簡寫為 2。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "數字「3.48」讀作什麼？",
+      "options": [
+        "三十四點八",
+        "三點四八",
+        "三點零四八",
+        "三點四十八"
+      ],
+      "answer": "三點四八",
+      "explanation": "小數部位要一個數字一個數字分開讀。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "比較大小：0.19 與 0.2，哪一個比較大？",
+      "options": [
+        "0.19",
+        "一樣大",
+        "無法比較",
+        "0.2"
+      ],
+      "answer": "0.2",
+      "explanation": "比較十分位，2 大於 1，所以 0.2 較大。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

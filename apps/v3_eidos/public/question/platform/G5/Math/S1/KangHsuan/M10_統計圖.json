@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "M10",
+    "order": 10,
+    "title": "統計圖"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "如果要觀察台北市一年內每個月氣溫變化的「趨勢」，使用哪種圖表最適合？",
+      "options": [
+        "長條圖",
+        "折線圖",
+        "點圖",
+        "象形圖"
+      ],
+      "answer": "折線圖",
+      "explanation": "折線圖適合表現數據隨時間變化的趨勢（上升、下降或平穩）。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "折線圖中的「省略符號（波浪線）」是用來跳過中間一段沒有數據或不重要的數值區間，讓圖表更美觀聚焦。",
+      "answer": "True",
+      "explanation": "這能更清晰地展現剩餘數值的微小波動。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "在統計圖中，垂直的軸稱為______軸。",
+      "answer": "縱或 Y",
+      "explanation": "通常縱軸代表數量或數值大小。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "看折線圖時，斜率越「大」（越陡），代表變化的程度如何？",
+      "options": [
+        "變化越劇烈",
+        "數據變小",
+        "沒有變化",
+        "變化越慢"
+      ],
+      "answer": "變化越劇烈",
+      "explanation": "斜率代表數據變動的速率。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "有關「複合長條圖」的敘述，下列何者正確？",
+      "options": [
+        "長條圖沒有單位",
+        "長條圖只能橫著畫",
+        "長條圖必須用彩色畫",
+        "一次顯示兩組（或更多）類別的長條，方便互相對照"
+      ],
+      "answer": "一次顯示兩組（或更多）類別的長條，方便互相對照",
+      "explanation": "這有利於多維度數據的直觀比較。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

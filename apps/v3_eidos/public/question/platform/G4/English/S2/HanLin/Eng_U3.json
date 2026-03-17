@@ -1,0 +1,334 @@
+{
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "English",
+  "lesson_id": "U3",
+  "lesson_title": "What Day Is Today?",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "School Week begins",
+      "question": "A: What day is today?\nB: It's ______. It's the first day of school this week!",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer_index": 1,
+      "explanation": "每週上課的第一天通常是星期一 (Monday)。",
+      "commonMisconception": "將第一天上學日與週日混淆。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Looking for the Weekend",
+      "question": "Today is ______. Tomorrow is Sunday. We don't have school!",
+      "options": [
+        "Friday",
+        "Monday",
+        "Saturday",
+        "Tuesday"
+      ],
+      "answer_index": 2,
+      "explanation": "如果明天是週日且不用上學，那今天就是週六 (Saturday)。",
+      "commonMisconception": "星期的先後順序判定錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "vocabulary",
+      "difficulty": "easy",
+      "scenario": "Favorite Day",
+      "question": "My favorite day is ______. It is the day before Thursday.",
+      "options": [
+        "Wednesday",
+        "Tuesday",
+        "Friday",
+        "Monday"
+      ],
+      "answer_index": 0,
+      "explanation": "週四的前一天是週三 (Wednesday)。",
+      "commonMisconception": "星期的前後對應力弱。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Asking for Date",
+      "question": "______ day is today?\nIt's Tuesday.",
+      "options": [
+        "When",
+        "What",
+        "How",
+        "Where"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「今天是星期幾」的固定句型為 'What day is today?'。",
+      "commonMisconception": "誤用 When (問日期或具體時間點)。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Correct Answer Format",
+      "question": "A: Is today Friday?\nB: ______, it's Friday.",
+      "options": [
+        "Yes, it is",
+        "Yes, it's",
+        "Yes, today's",
+        "No, it's"
+      ],
+      "answer_index": 0,
+      "explanation": "對於 'Is today...?' 的肯定簡答，最正式且正確的結構是 'Yes, it is'。",
+      "commonMisconception": "誤以為可以用縮寫 Yes, it's 作為句子結尾。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Correction",
+      "question": "A: Is it Monday today?\nB: No, ______. It's Sunday.",
+      "options": [
+        "it is",
+        "it isn't",
+        "it doesn't",
+        "it not"
+      ],
+      "answer_index": 1,
+      "explanation": "否定語境下，對於 'Is it...?' 的答覆應為 'No, it isn't'。",
+      "commonMisconception": "助動詞選取錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "sentence_pattern",
+      "difficulty": "medium",
+      "scenario": "Future Planning",
+      "question": "Today is Wednesday. ______ is Thursday.",
+      "options": [
+        "Today",
+        "Yesterday",
+        "Tomorrow",
+        "Next day"
+      ],
+      "answer_index": 2,
+      "explanation": "今天週三，明天 (Tomorrow) 是週四。",
+      "commonMisconception": "Today / Tomorrow / Yesterday 詞義混淆。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Capitalization Rules",
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "I like monday.",
+        "It's monday today.",
+        "We have art class on Monday.",
+        "Today is m-o-n-d-a-y."
+      ],
+      "answer_index": 2,
+      "explanation": "英文中的星期名稱第一個字母必須「大寫」。",
+      "commonMisconception": "星期的首字母未大寫。",
+      "quality_level": "L5",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "medium",
+      "scenario": "Preposition for Days",
+      "question": "We have English class ______ Friday.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer_index": 1,
+      "explanation": "在「星期幾」，介係詞應使用 'on'。",
+      "commonMisconception": "誤用 in 或 at。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The School Timetable",
+      "question": "We have PE class on Tuesday. We have music class on Friday. \nQuestion: What day do we have music class?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "answer_index": 3,
+      "explanation": "文中敘述 'We have music class on Friday'。",
+      "commonMisconception": "資訊比對錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "inferential",
+      "category": "reading",
+      "difficulty": "medium",
+      "scenario": "The Birthday Party",
+      "question": "Today is Tuesday. My birthday party is in two days (兩天後).\nQuestion: What day is the party?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Monday"
+      ],
+      "answer_index": 1,
+      "explanation": "週二的兩天後 (週三、週四) 是週四 (Thursday)。",
+      "commonMisconception": "日期計算錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "The Weekend Trip",
+      "question": "Dad says, 'We can't go to the park on Monday to Friday. We can only go on the weekend.' \nQuestion: When will they go to the park?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Saturday",
+        "Friday"
+      ],
+      "answer_index": 2,
+      "explanation": "週末 (weekend) 指的是週六和週日。選項中只有週六符合。",
+      "commonMisconception": "不了解 weekend 的具體範圍。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Holiday Counting",
+      "question": "Today is Friday. I will go home tomorrow. I will stay home for two days (Saturday and Sunday). Then I go to school.\nQuestion: What day does school start?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Friday",
+        "Tuesday"
+      ],
+      "answer_index": 1,
+      "explanation": "週五後天回家，在家待週六、週日，接著週一 (Monday) 上學。",
+      "commonMisconception": "邏輯鏈條過長導致推算錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "reading",
+      "difficulty": "hard",
+      "scenario": "Weekly Routine",
+      "question": "I play soccer every Monday and Wednesday. Toby plays soccer every Tuesday and Thursday.\nQuestion: Do they play soccer on the same day?",
+      "options": [
+        "Yes, they do.",
+        "No, they don't.",
+        "Yes, it is.",
+        "No, it isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "兩人打球的日期完全沒有重疊。",
+      "commonMisconception": "資訊提取不全。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "literal",
+      "category": "grammar",
+      "difficulty": "hard",
+      "scenario": "Plurality of Days",
+      "question": "We go to the park on ______. We go there every week.",
+      "options": [
+        "Sundays",
+        "a Sunday",
+        "the Sunday",
+        "Sunday's"
+      ],
+      "answer_index": 0,
+      "explanation": "表達「每個星期幾」，可以使用 'on Sundays' (複數名詞) 或 'every Sunday'。",
+      "commonMisconception": "不知星期名稱可加 s 表達頻率概念。",
+      "quality_level": "L5",
+      "cqi_score": 8.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Calendar Check",
+      "question": "The month (月份) starts on Monday. What day is the third (第3) day?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "answer_index": 2,
+      "explanation": "1號是週一，2號是週二，3號是週三 (Wednesday)。",
+      "commonMisconception": "基數與序數對應落差。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "applied",
+      "difficulty": "hard",
+      "scenario": "Weather Forecast",
+      "question": "It will rain on Saturday. It will be sun on Sunday. We should go camping on ______.",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "today"
+      ],
+      "answer_index": 1,
+      "explanation": "露營應選晴天，所以是週日 (Sunday)。",
+      "commonMisconception": "因果判定錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "applied",
+      "category": "culture",
+      "difficulty": "hard",
+      "scenario": "Naming Days",
+      "question": "In many cultures, ______ is the first day of the week, but in schools, Monday is the first day.",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Friday",
+        "Monday"
+      ],
+      "answer_index": 1,
+      "explanation": "在西方宗教文化或許多曆法中，週日 (Sunday) 被視為一週的第一天。",
+      "commonMisconception": "不了解中西曆法文化差異。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    }
+  ]
+}

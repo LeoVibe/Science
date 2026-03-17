@@ -1,0 +1,66 @@
+{
+  "publisher": "NanYi",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "Math_U1",
+      "title": "多位數的乘除計算",
+      "file": "Math_U1.json"
+    },
+    {
+      "id": "Math_U2",
+      "title": "四邊形的性質",
+      "file": "Math_U2.json"
+    },
+    {
+      "id": "Math_U3",
+      "title": "億、兆以內的大數",
+      "file": "Math_U3.json"
+    },
+    {
+      "id": "Math_U4",
+      "title": "概數及其應用",
+      "file": "Math_U4.json"
+    },
+    {
+      "id": "Math_U5",
+      "title": "同分母分數加減",
+      "file": "Math_U5.json"
+    },
+    {
+      "id": "Math_U6",
+      "title": "小數的讀寫與計算",
+      "file": "Math_U6.json"
+    },
+    {
+      "id": "Math_U7",
+      "title": "垂直、平行與圖形",
+      "file": "Math_U7.json"
+    },
+    {
+      "id": "Math_U8",
+      "title": "長方形與正方形面積",
+      "file": "Math_U8.json"
+    },
+    {
+      "id": "Math_U9",
+      "title": "時間的計算與跨度",
+      "file": "Math_U9.json"
+    },
+    {
+      "id": "Math_U10",
+      "title": "未知數與應用",
+      "file": "Math_U10.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

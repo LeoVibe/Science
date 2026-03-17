@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "KangHsuan",
+    "lesson": "L10",
+    "order": 10,
+    "title": "小青蛙想看海"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "true_false",
+      "question": "小青蛙最後有看到海嗎？",
+      "options": [
+        "有",
+        "沒有",
+        "不知道"
+      ],
+      "answer": "有",
+      "explanation": "經過努力，牠終於看到了海。",
+      "cqi_score": 2.5,
+      "quality_level": "L3"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "Math",
+  "lesson_id": "U8",
+  "lesson_title": "概數",
+  "questions": [
+    {
+      "taxonomy": "applied",
+      "scenario": "大賣場購物",
+      "question": "小明去大賣場買東西，收銀員說總共是 1548 元。如果小明想用『千位』的概數來估計大約要付多少錢，且他使用的是『四捨五入法』，請問他估計的金額是多少元？",
+      "options": [
+        "1000 元",
+        "1500 元",
+        "1600 元",
+        "2000 元"
+      ],
+      "answer_index": 3,
+      "explanation": "使用四捨五入法取概數到千位，要看百位數。百位數是 5，應進位，故 1000 元變成 2000 元。",
+      "commonMisconception": "學童常因為百位數是 5 而猶豫是否進位，或者誤看成十位數進行四捨五入。",
+      "quality_level": "L5",
+      "cqi_score": 9.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "演唱會人數統計",
+      "question": "某場演唱會的售票紀錄顯示共有 12435 人參加。主辦單位在新聞稿中寫：『約有 12000 人參加。』請問主辦單位可能是使用哪一種取概數的方法，且取到哪一位？",
+      "options": [
+        "無條件進入法取到千位",
+        "無條件捨去法取到千位",
+        "四捨五入法取到萬位",
+        "無條件捨去法取到百位"
+      ],
+      "answer_index": 1,
+      "explanation": "12435 取到千位，百位數是 4。使用無條件捨去法會得到 12000。若使用四捨五入法取到千位也會是 12000，但選項中僅 B 符合邏輯描述。",
+      "commonMisconception": "混淆取到『哪一位』的定義，可能誤以為是看萬位。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "KangHsuan",
+    "lesson": "U3",
+    "order": 3,
+    "title": "Is It a Bird?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Is it a bird? B: Yes, it ______.",
+      "options": [
+        "am",
+        "is",
+        "do",
+        "are"
+      ],
+      "answer": "is",
+      "explanation": "Yes/No 問句的簡答要與問句的 be 動詞一致。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "If someone asks 'Is it a cat?', and it is a dog, the answer should be 'No, it isn't.'",
+      "answer": "True",
+      "explanation": "否定簡答使用 No, it is not (isn't)。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Is it a ______ (大象)? B: Yes, it is.",
+      "answer": "elephant",
+      "explanation": "elephant 的意思是大象。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Is it a dog? B: ______. It's a cat.",
+      "options": [
+        "Yes, it is",
+        "No, it isn't",
+        "Hello",
+        "I don't know"
+      ],
+      "answer": "No, it isn't",
+      "explanation": "因為後面提到 It's a cat，所以前面要先否認。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Which animal can fly?",
+      "options": [
+        "cat",
+        "bird",
+        "dog",
+        "fish"
+      ],
+      "answer": "bird",
+      "explanation": "鳥類通常具備飛行能力。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    }
+  ]
+}

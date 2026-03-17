@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson_id": "U3",
+    "lesson_name": "How many dogs?"
+  },
+  "questions": [
+    {
+      "id": "NY-G3S2-U3-001",
+      "type": "multiple_choice",
+      "scenario": "A family is visiting a farm and seeing many pigs.",
+      "question": "Dad: Look at the pink pigs! How many pigs are there?\nSon: ___________________",
+      "options": [
+        "Four are pigs there.",
+        "There is four pigs. ",
+        "There are pig four. ",
+        "There are four pigs."
+      ],
+      "answer_index": 3,
+      "explanation": "How many pigs...? 詢問複數物品，回答需用 There are 加上數字與複數名詞。選項 B Be 動詞錯配。",
+      "taxonomy": "literal",
+      "commonMisconception": "被『四』這個複數詞誤導卻在句型中誤用單數 is。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-002",
+      "type": "multiple_choice",
+      "scenario": "Counting cute kittens in a pet shop window.",
+      "question": "Lily: One, two, three... __________________ are there?\nBen: There are five kittens.",
+      "options": [
+        "How many kittens　",
+        "How many kitten 　",
+        "Who many kittens　",
+        "What many kittens"
+      ],
+      "answer_index": 0,
+      "explanation": "根據下文回答複數數量，問句應為 How many + 複數名詞。選項 B 為單數不符規律。",
+      "taxonomy": "applied",
+      "commonMisconception": "How many 後方漏掉複數 s。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-003",
+      "type": "multiple_choice",
+      "scenario": "A student is counting red apples in a basket.",
+      "question": "Student: I have some apples. Let's count them.\nTeacher: __________________?\nStudent: There are eight.",
+      "options": [
+        "How many apples are there",
+        "How many apple is there 　",
+        "What are the apples     　",
+        "Are there eight apples  　"
+      ],
+      "answer_index": 0,
+      "explanation": "最完整且正確的複數數量詢問句型。選項 B 文法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "無法完整構建詢問數量的標準句型。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-004",
+      "type": "multiple_choice",
+      "scenario": "Talking about the number of birds in a single tree.",
+      "question": "A: Look! Is there one bird in the tree?\nB: No, __________________. There are seven birds.",
+      "options": [
+        "they aren't.",
+        "there isn't.",
+        "there is.   ",
+        "they are.   "
+      ],
+      "answer_index": 1,
+      "explanation": "針對單數數量疑問 Is there one...? 的否定簡答為 No, there isn't.。後文指出有七隻故前方需否定。",
+      "taxonomy": "inferential",
+      "commonMisconception": "數量判斷正確但在存現句 (There is/are) 簡答中代名詞錯選。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-005",
+      "type": "multiple_choice",
+      "scenario": "A girl is pointing at something in her hand.",
+      "question": "A: How many markers are there in your bag?\nB: __________________",
+      "options": [
+        "There's one markers.         　　",
+        "Only one. There are one marker.",
+        "Only one. There is one marker.　",
+        "One is marke here.           　　"
+      ],
+      "answer_index": 2,
+      "explanation": "當數量僅有一時，使用 There is one + 單數名詞。選項 B 錯配複數 Be 動詞。",
+      "taxonomy": "applied",
+      "commonMisconception": "在單數情境中仍依照 How many 句型的複數慣性胡亂加 s。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-006",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Long vowel o_e sound.",
+      "question": "Which word has the same vowel sound as 'bone'?",
+      "options": [
+        "box ",
+        "dog ",
+        "rose",
+        "hot "
+      ],
+      "answer_index": 2,
+      "explanation": "bone 與 rose 均發長母音 /oʊ/ (o_e 結構)。其餘為短音 /ɑ/。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法區別字母 o 的長音 /oʊ/ 與短音 /ɑ/。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-007",
+      "type": "multiple_choice",
+      "scenario": "Counting distantly many birds.",
+      "question": "A: How many birds are there in the sky?\nB: __________________!",
+      "options": [
+        "Ten. It is ten birds.   　",
+        "Ten. There is ten birds. ",
+        "Ten. There are ten birds.",
+        "Ten. There are ten bird. "
+      ],
+      "answer_index": 2,
+      "explanation": "複數鳥群需用 There are 搭配名詞 s。選項 D 遺漏 s。",
+      "taxonomy": "literal",
+      "commonMisconception": "複數名詞字尾忘記加 s。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-008",
+      "type": "multiple_choice",
+      "scenario": "Checking the number of books in a backpack.",
+      "question": "Teacher: How many books are there?\nStudent: __________________.",
+      "options": [
+        "nine are books. 　",
+        "There is nine.  　",
+        "There are nine. 　",
+        "There are book 9."
+      ],
+      "answer_index": 2,
+      "explanation": "針對數量的簡潔正確回答。選項 B 語法錯誤。",
+      "taxonomy": "literal",
+      "commonMisconception": "代名詞帶領的複數 Be 動詞搭配不當。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-009",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'o' check.",
+      "question": "Which word has the /oʊ/ sound?",
+      "options": [
+        "hop ",
+        "home",
+        "mop ",
+        "top "
+      ],
+      "answer_index": 1,
+      "explanation": "home 符合 o_e 長母音結構。其餘為短母音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "沒注意到字尾不發音的 e 對 o 的強大發音影響。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-010",
+      "type": "multiple_choice",
+      "scenario": "Asking for specific quantities in a guessing game.",
+      "question": "A: Are there six oranges?\nB: No, __________________. There are five.",
+      "options": [
+        "there aren't.",
+        "they aren't. ",
+        "there is not.",
+        "they are.    "
+      ],
+      "answer_index": 0,
+      "explanation": "針對複數存現句 Are there...? 的否定簡答為 No, there aren't.。",
+      "taxonomy": "applied",
+      "commonMisconception": "混淆存現句主詞 (there) 與人稱代名詞 (they) 的回法。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-011",
+      "type": "multiple_choice",
+      "scenario": "Counting legs of two cats.",
+      "question": "A: Two cats. How many legs are there?\nB: __________________.",
+      "options": [
+        "They are two legs.   ",
+        "There are eight legs.",
+        "There are four legs. ",
+        "There is eight legs. "
+      ],
+      "answer_index": 1,
+      "explanation": "數學邏輯與英文結合。兩隻貓共八條腿。選項 B 邏輯不符。",
+      "taxonomy": "inferential",
+      "commonMisconception": "沒抓到複數乘法邏輯與 Be 動詞配對。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-012",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'nose'.",
+      "question": "Which word rhyme with 'nose'?",
+      "options": [
+        "pose",
+        "pin ",
+        "pen ",
+        "pot "
+      ],
+      "answer_index": 0,
+      "explanation": "nose 與 pose 均發長母音 /oʊ/。其餘選項韻腳完全不同。",
+      "taxonomy": "remembering",
+      "commonMisconception": "分辨不清母音決定性的相似性。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-013",
+      "type": "multiple_choice",
+      "scenario": "Counting students in the classroom.",
+      "question": "Teacher: __________________?\nStudent: There are ten students in the room.",
+      "options": [
+        "Are there ten students     ",
+        "How many students are there",
+        "How students are there     ",
+        "What are the students      "
+      ],
+      "answer_index": 1,
+      "explanation": "由具體數量回答反推詢問數量的問句。選項 D 少了 many。",
+      "taxonomy": "applied",
+      "commonMisconception": "漏掉關鍵疑問詞 many。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-014",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'o' sounds like 'rope'.",
+      "question": "Choose the word with same sound as 'rope'.",
+      "options": [
+        "hope",
+        "hot　",
+        "hit　",
+        "hop　"
+      ],
+      "answer_index": 0,
+      "explanation": "rope 與 hope 均發長母音 /oʊ/。選項 B 是短音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "聽不出長短音的節奏差異。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-015",
+      "type": "multiple_choice",
+      "scenario": "A basket with zero apples (Wait, level is G3). Let's use negative.",
+      "question": "A: Are there any apples in the basket?\nB: No, __________________. Is there an orange?",
+      "options": [
+        "it isn't.    ",
+        "there aren't.",
+        "there isn't. ",
+        "there are.   "
+      ],
+      "answer_index": 1,
+      "explanation": "針對複數 apples 詢問的否定答回。選項 C 回答不對稱。",
+      "taxonomy": "applied",
+      "commonMisconception": "受後文單數 orange 影響而選 There isn't。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-016",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Short vs Long o sounds.",
+      "question": "Choose the DIFFERENT sound.",
+      "options": [
+        "rote",
+        "not ",
+        "vote",
+        "note"
+      ],
+      "answer_index": 1,
+      "explanation": "not 是短音。其餘均為 o_e 長音結構。",
+      "taxonomy": "remembering",
+      "commonMisconception": "無法在極度相似的拼寫中找出发音相異者。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-017",
+      "type": "multiple_choice",
+      "scenario": "Counting fingers.",
+      "question": "A: Look at your hands. __________________?\nB: There are ten fingers.",
+      "options": [
+        "What are your hands       ",
+        "Are there fingers         ",
+        "How many fingers are there",
+        "How many finger is there  "
+      ],
+      "answer_index": 2,
+      "explanation": "由回答數量與生理常識反推標準數量句。選項 B 單數不符複數手指。",
+      "taxonomy": "applied",
+      "commonMisconception": "句型數量詞配對錯誤。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-018",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Rhyming with 'cone'.",
+      "question": "Which word rhyme with 'cone'?",
+      "options": [
+        "zone",
+        "cut ",
+        "cod ",
+        "cot "
+      ],
+      "answer_index": 0,
+      "explanation": "cone 與 zone 同韻。其餘選項韻腳完全不對。",
+      "taxonomy": "remembering",
+      "commonMisconception": "韻腳聽覺敏感度不足。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-019",
+      "type": "multiple_choice",
+      "scenario": "Counting Distant objects.",
+      "question": "A: Look at the park. __________________?\nB: There are three big dogs.",
+      "options": [
+        "Who is the big dog     ",
+        "What are the dogs      ",
+        "How many dogs are there",
+        "How many dog is there  "
+      ],
+      "answer_index": 2,
+      "explanation": "標準數量詢問句。選項 C 為詢問是什麼。",
+      "taxonomy": "applied",
+      "commonMisconception": "沒對齊數量詞 many。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-020",
+      "type": "multiple_choice",
+      "scenario": "Singular vs Plural check.",
+      "question": "A: Is there one apple?\nB: Yes, __________________. It's for you.",
+      "options": [
+        "there is.　",
+        "I am.     ",
+        "it is.    ",
+        "there are."
+      ],
+      "answer_index": 0,
+      "explanation": "對單數 Is there 的肯定簡答。選項 B 複數不符。",
+      "taxonomy": "applied",
+      "commonMisconception": "數量稱謂與回答不一致。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-021",
+      "type": "multiple_choice",
+      "scenario": "Recap: How many?",
+      "question": "A: How many grapes are there?\nB: __________________",
+      "options": [
+        "Seven is there. ",
+        "There are seven.",
+        "I have seven.   ",
+        "There is seven. "
+      ],
+      "answer_index": 1,
+      "explanation": "對數量詢問的最精簡標準回答。選項 B 語法錯誤。",
+      "taxonomy": "applied",
+      "commonMisconception": "數值 7 被誤認為單數語法。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-022",
+      "type": "multiple_choice",
+      "scenario": "Correcting quantities.",
+      "question": "A: Are there two kittens?\nB: No, there aren't. __________________.",
+      "options": [
+        "There's only one.",
+        "There are one.   ",
+        "They're kittens. ",
+        "It is two cats.  "
+      ],
+      "answer_index": 0,
+      "explanation": "否定兩隻後指出只有一隻的正確語法。選項 B Be 動詞錯配。",
+      "taxonomy": "applied",
+      "commonMisconception": "在修正數量時選配錯誤的存現句型。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-023",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Letter 'o' and nasal 'n'.",
+      "question": "Choose the word with /oʊ/ sound.",
+      "options": [
+        "long",
+        "lot ",
+        "loss",
+        "lone"
+      ],
+      "answer_index": 3,
+      "explanation": "lone 符合 o_e 結構。其餘均為不同音位的 o 音。",
+      "taxonomy": "remembering",
+      "commonMisconception": "看到 lo- 開頭就全選，忽略字尾 e 的影響。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-024",
+      "type": "multiple_choice",
+      "scenario": "Looking at many ducks.",
+      "question": "Look! One, two, three... and four. There are __________________.",
+      "options": [
+        "duck four ",
+        "four duck ",
+        "four ducks",
+        "ducks four"
+      ],
+      "answer_index": 2,
+      "explanation": "數量詞 + 複數名詞。選項 C 漏了 s。",
+      "taxonomy": "literal",
+      "commonMisconception": "數量詞與名詞順序顛倒或漏加複數 s。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-025",
+      "type": "multiple_choice",
+      "scenario": "Asking for specific types of animals.",
+      "question": "A: __________________ cats are there?\nB: There is only one fat cat.",
+      "options": [
+        "What    ",
+        "How many",
+        "Who     ",
+        "Where   "
+      ],
+      "answer_index": 1,
+      "explanation": "針對數量的提問詞。其餘選項不符合回答情境。",
+      "taxonomy": "applied",
+      "commonMisconception": "疑問詞選擇不當。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-026",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Word without 'o' long sound.",
+      "question": "Which word sounds DIFFERENT?",
+      "options": [
+        "mop ",
+        "hope",
+        "mope",
+        "rope"
+      ],
+      "answer_index": 0,
+      "explanation": "mop 是短音。其餘均為 o_e 長音結構 (mope 為悶悶不樂)。",
+      "taxonomy": "remembering",
+      "commonMisconception": "无法察覺單母音字結尾的短母音特性。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-027",
+      "type": "multiple_choice",
+      "scenario": "Describing things on a table.",
+      "question": "There __________________ five markers on the big desk.",
+      "options": [
+        "are",
+        "is ",
+        "at ",
+        "am "
+      ],
+      "answer_index": 0,
+      "explanation": "存現句複數主詞對應 are。選項 B 為單數型。",
+      "taxonomy": "literal",
+      "commonMisconception": "沒注意到後的複數名詞 markers。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-028",
+      "type": "multiple_choice",
+      "scenario": "Phonics: Double check 'nose'.",
+      "question": "Choose the word with same sound as 'hose'.",
+      "options": [
+        "his ",
+        "hot ",
+        "has ",
+        "nose"
+      ],
+      "answer_index": 3,
+      "explanation": "hose 與 nose 均發 /oʊz/ 韻腳。",
+      "taxonomy": "remembering",
+      "commonMisconception": "韻腳辨析不精。",
+      "cqi_score": 8,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-029",
+      "type": "multiple_choice",
+      "scenario": "Confirmation check of birds.",
+      "question": "A: Is there one blue bird?\nB: Yes, __________________. Look! It's there.",
+      "options": [
+        "it is.    ",
+        "there is.　",
+        "she is.   ",
+        "there are."
+      ],
+      "answer_index": 1,
+      "explanation": "存現句單數肯定簡答。選項 B 複數不對；選項 C 代名詞回法非標準。",
+      "taxonomy": "applied",
+      "commonMisconception": "分不清 There is 與 It is 的功能性差異。",
+      "cqi_score": 10,
+      "quality_level": "L5"
+    },
+    {
+      "id": "NY-G3S2-U3-030",
+      "type": "multiple_choice",
+      "scenario": "Final recap: How many pigs?",
+      "question": "One, two, three... and four! There are __________________ pigs.",
+      "options": [
+        "ten  ",
+        "one  ",
+        "three",
+        "four "
+      ],
+      "answer_index": 3,
+      "explanation": "數數邏輯題。計算 1-4 截止點為四。",
+      "taxonomy": "literal",
+      "commonMisconception": "數數時遺漏最後一項數值。",
+      "cqi_score": 9,
+      "quality_level": "L5"
+    }
+  ]
+}

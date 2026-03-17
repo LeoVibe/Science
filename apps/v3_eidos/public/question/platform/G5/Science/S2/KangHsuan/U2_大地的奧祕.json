@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "U2",
+    "title": "大地的奧祕"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "我們可以在地層中發現「化石」。化石的主要科學價值在於？",
+      "options": [
+        "可以賣很多錢",
+        "幫助我們推測古代的生物樣貌與當時的生態環境",
+        "可以用來蓋房子",
+        "化石很重可以壓信"
+      ],
+      "answer": "幫助我們推測古代的生物樣貌與當時的生態環境",
+      "explanation": "化石是生物在地層中留下的遺骸或痕跡，是研究演化與古氣候的重要證據。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "multiple_choice",
+      "question": "「地震」通常是由於地底下的岩層發生什麼變動所引起的？",
+      "options": [
+        "地底下有怪獸在跑",
+        "地殼變動導致岩層斷裂或錯動釋放能量",
+        "水管破裂",
+        "風太大"
+      ],
+      "answer": "地殼變動導致岩層斷裂或錯動釋放能量",
+      "explanation": "地殼內部的應力累積，最終導致岩層破裂（斷層），震動便傳遞至地表。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    }
+  ]
+}

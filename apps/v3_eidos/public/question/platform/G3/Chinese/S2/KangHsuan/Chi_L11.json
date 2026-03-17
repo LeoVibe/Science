@@ -1,0 +1,490 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L11",
+  "lesson_title": "聰明的鼠鹿",
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "重要詞彙應用",
+      "question": "文中描述鼠鹿遇事不慌，顯得非常「機智」，「機智」的意思是？",
+      "options": [
+        "作者之所以這樣寫，是因為代表他很愛機器人",
+        "說明他不但跑得非常快，而且可以連續跑好幾個小時都不會覺得累",
+        "如果我們仔細觀察的話會發現身體長得很像機器",
+        "如果我們仔細觀察的話會發現腦袋靈活，能隨機應變處理困難"
+      ],
+      "answer_index": 3,
+      "explanation": "機智的核心是「應變」與「智慧」。",
+      "commonMisconception": "字面解讀成「機器」。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "寫作策略：形容詞對應",
+      "question": "如果要形容鼠鹿的性格，哪組對比最有張力？",
+      "options": [
+        "「身軀弱小，但智慧強大」",
+        "「眼睛很小，但手腳很快」",
+        "「食量很大，但頭髮很黑」",
+        "「懶惰遲到，但聲音很大」"
+      ],
+      "answer_index": 0,
+      "explanation": "文學上的成功對比通常集中在「外在弱勢」與「內在優勢」的反差上。",
+      "commonMisconception": "選到無關痛癢的對比項目（如頭髮）。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿過河",
+      "question": "【在鼠鹿想要過河時】，牠遇到了什麼動物擋在牠前面？",
+      "options": [
+        "一群兇猛的獅子",
+        "一群飢餓的鱷魚",
+        "一群友善的猴子",
+        "一群正在睡覺的老虎"
+      ],
+      "answer_index": 1,
+      "explanation": "課文描述鼠鹿遇到一群飢餓的鱷魚擋在河中，牠們是鼠鹿過河的障礙。",
+      "commonMisconception": "學生可能因為常見的叢林故事，誤以為是獅子或老虎。但課文中明確指出是鱷魚。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鼠鹿的困境",
+      "question": "鼠鹿為什麼想盡辦法要過河，而不是選擇繞路或放棄？",
+      "options": [
+        "因為牠想挑戰自己的膽量",
+        "因為河對岸有牠最喜歡的食物，而且沒有其他路可走",
+        "因為牠想向鱷魚證明自己很聰明",
+        "因為牠迷路了，不確定哪條路才對"
+      ],
+      "answer_index": 1,
+      "explanation": "鼠鹿通常是為了尋找食物或更安全的棲息地而冒險，且課文暗示牠別無選擇，這符合牠求生的本能。選項B最能體現這種生存驅動。",
+      "commonMisconception": "學生可能誤以為鼠鹿只是愛玩或想證明自己，忽略了動物行為的生存動機。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的計策",
+      "question": "鼠鹿為了讓鱷魚排隊，謊稱自己是奉了誰的命令來數數的？",
+      "options": [
+        "森林之王老虎",
+        "河中之主鱷魚王",
+        "大象國王",
+        "山羊國王"
+      ],
+      "answer_index": 0,
+      "explanation": "鼠鹿為了讓鱷魚聽從指示，謊稱自己是奉了「森林之王」的命令來清點動物數量，這賦予了牠計策的權威性。",
+      "commonMisconception": "學生可能混淆角色，但「森林之王」通常是老虎或獅子，是權威的象徵。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鱷魚的心態",
+      "question": "鱷魚們聽到鼠鹿要奉命清點牠們的數量時，為什麼會乖乖排隊？",
+      "options": [
+        "因為牠們很害怕鼠鹿",
+        "因為牠們覺得排隊很好玩",
+        "因為牠們對鼠鹿的話深信不疑，覺得自己很重要",
+        "因為牠們想趁機抓住鼠鹿"
+      ],
+      "answer_index": 2,
+      "explanation": "鱷魚們被「森林之王」的命令所震懾，並可能因為被清點而感到自己被重視，或是期待有什麼好處，因此乖乖排隊。這是利用了牠們的自大或單純。",
+      "commonMisconception": "學生可能誤以為鱷魚很笨，或只是想抓鼠鹿。但牠們排隊是因為被權威和可能的好處所吸引。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的行動",
+      "question": "鼠鹿是如何從一隻鱷魚背上跳到另一隻鱷魚背上，藉此過河的？",
+      "options": [
+        "牠用繩子把自己綁在鱷魚身上",
+        "牠請鳥兒幫忙載牠飛過去",
+        "牠等鱷魚睡著後悄悄游過去",
+        "牠輕巧地從牠們的頭上逐一踩過"
+      ],
+      "answer_index": 3,
+      "explanation": "課文的核心情節是鼠鹿利用輕巧的身體，踩踏鱷魚的背部作為橋樑來過河。",
+      "commonMisconception": "選項中的其他方式雖然聽起來也可能過河，但與故事中鼠鹿的智慧行為不符。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "智慧的展現",
+      "question": "鼠鹿的計策成功過河，這主要展現了牠哪方面的能力？",
+      "options": [
+        "牠的機智與應變能力，善於思考解決問題",
+        "牠的力氣很大，可以推開鱷魚",
+        "牠的游泳速度很快，鱷魚追不上",
+        "牠的叫聲很大，可以嚇跑鱷魚"
+      ],
+      "answer_index": 0,
+      "explanation": "鼠鹿體型小巧，無法依靠力量或速度，牠是憑藉著巧妙的計策和快速的反應來解決困難，這就是機智與應變能力的體現。",
+      "commonMisconception": "學生可能傾向於從物理能力角度思考，忽略了智慧在解決問題中的關鍵作用。",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "計策揭穿",
+      "question": "當鼠鹿安全抵達對岸後，牠對鱷魚們說了什麼？",
+      "options": [
+        "「謝謝你們的幫忙！」",
+        "「你們真是又笨又好騙的鱷魚！」",
+        "「再見了，我下次還會再來！」",
+        "「國王其實沒有要數你們喔！」"
+      ],
+      "answer_index": 3,
+      "explanation": "鼠鹿在過河後，通常會揭穿自己並沒有奉國王命令清點動物的事實，讓鱷魚們知道自己被騙了。",
+      "commonMisconception": "學生可能誤以為鼠鹿會說出感謝或嘲諷的話，但直接揭穿謊言是故事的經典橋段。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鱷魚的反應",
+      "question": "鱷魚們發現自己被鼠鹿欺騙後，牠們最可能會有什麼感受？",
+      "options": [
+        "感到非常生氣和懊惱",
+        "覺得很有趣，哈哈大笑",
+        "覺得鼠鹿很勇敢，值得學習",
+        "感到有些難過，但很快就忘了"
+      ],
+      "answer_index": 0,
+      "explanation": "被欺騙的動物通常會感到憤怒和後悔，尤其是在被一個比自己弱小的動物戲弄之後。懊惱是對於自己輕信的表現。",
+      "commonMisconception": "學生可能投射自己的情感，覺得有趣或難過，但對於被戲弄的動物來說，生氣和懊惱是更合理的反應。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的特點",
+      "question": "從故事中看來，鼠鹿的體型大小通常是怎麼樣的？",
+      "options": [
+        "比鱷魚大很多",
+        "和鱷魚差不多大",
+        "比鱷魚小很多",
+        "像大象一樣巨大"
+      ],
+      "answer_index": 2,
+      "explanation": "鼠鹿以小巧的體型卻能智取大型動物聞名，所以牠的體型比鱷魚小很多是故事的基礎設定。",
+      "commonMisconception": "學生若不熟悉鼠鹿，可能會誤以為牠的體型與其他動物相似，但大小對比是故事張力的來源。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "故事的啟示",
+      "question": "這個故事主要想告訴我們什麼道理？",
+      "options": [
+        "力氣大就一定能贏",
+        "動物之間應該互相幫助",
+        "不要輕易相信陌生人",
+        "聰明才智比蠻力更有用"
+      ],
+      "answer_index": 3,
+      "explanation": "故事的核心是鼠鹿用智慧戰勝了體型和力量都遠勝於牠的鱷魚，強調了智慧的重要性。",
+      "commonMisconception": "選項D雖然也是一個道理，但並非故事的主旨，故事更側重於展現鼠鹿的智慧。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "角色分析",
+      "question": "如果你是故事中的鱷魚，你會怎麼做才能避免被鼠鹿欺騙？",
+      "options": [
+        "看到鼠鹿出現就立刻把牠吃掉",
+        "要求鼠鹿出示國王的證明文件",
+        "請鼠鹿自己游過去，不要打擾牠們",
+        "假裝聽不懂鼠鹿說的話"
+      ],
+      "answer_index": 1,
+      "explanation": "鱷魚如果能質疑鼠鹿的說法，要求證明，就能識破謊言。這是對「合理化迷思」的反思，思考如何避免輕信。",
+      "commonMisconception": "學生可能只想到用暴力解決（A），或消極應對（C, D），而沒想到用邏輯質疑的方法。",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的目標",
+      "question": "【在鼠鹿的眼中】，河對岸對牠來說，最吸引牠的是什麼？",
+      "options": [
+        "一片鮮甜可口的果樹林",
+        "一個可以玩耍的遊樂場",
+        "一個安全躲藏的洞穴",
+        "一群等待牠的朋友"
+      ],
+      "answer_index": 0,
+      "explanation": "鼠鹿通常是為了尋找食物而冒險，鮮甜的果樹林是牠過河的主要誘因。",
+      "commonMisconception": "學生可能認為是為了玩耍或見朋友，但動物的生存本能驅使牠們尋找食物。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鼠鹿的策略",
+      "question": "鼠鹿在面對一群飢餓的鱷魚時，為什麼沒有直接跑掉，反而選擇對話？",
+      "options": [
+        "因為牠知道自己跑不贏鱷魚",
+        "因為牠想知道鱷魚的名字",
+        "因為牠想利用言語來分散鱷魚的注意力，爭取時間思考對策",
+        "因為牠覺得鱷魚其實很可愛"
+      ],
+      "answer_index": 2,
+      "explanation": "鼠鹿深知自己體型弱小，直接逃跑可能不成功。透過對話，牠能爭取時間、評估情況，並實施其智取策略。",
+      "commonMisconception": "學生可能誤以為鼠鹿只是想聊天，忽略了這是牠策略的一部分。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鱷魚的數量",
+      "question": "鼠鹿要求鱷魚們怎麼排隊，才能讓牠方便清點？",
+      "options": [
+        "圍成一個圓圈",
+        "排成兩列縱隊",
+        "一個接著一個排成一條長長的直線",
+        "隨意散開，讓鼠鹿自己去找"
+      ],
+      "answer_index": 2,
+      "explanation": "為了讓鼠鹿能夠踩著牠們過河，鱷魚們需要排成一條直線，形成「橋樑」。",
+      "commonMisconception": "其他排隊方式都不利於鼠鹿過河，只有排成直線才能實現其計策。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鼠鹿的語氣",
+      "question": "鼠鹿在和鱷魚說話時，牠的語氣聽起來最可能是哪一種？",
+      "options": [
+        "自信且鎮定",
+        "害怕又顫抖",
+        "傲慢又瞧不起人",
+        "懇求又可憐"
+      ],
+      "answer_index": 0,
+      "explanation": "鼠鹿能成功欺騙鱷魚，必然要表現出自信和鎮定，才能讓鱷魚相信牠的話，不會產生懷疑。",
+      "commonMisconception": "學生可能認為鼠鹿會害怕，但牠的智慧在於能掩飾恐懼，表現出掌控局面的樣子。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "如果重來",
+      "question": "【如果鱷魚在排隊時】，突然有一隻鱷魚對鼠鹿的說法產生了懷疑，你覺得牠可能會問什麼問題？",
+      "options": [
+        "「鼠鹿，你肚子餓不餓啊？」",
+        "「國王怎麼會派你來數我們呢？」",
+        "「我們這樣排隊好不好看？」",
+        "「數完之後我們有什麼獎勵嗎？」"
+      ],
+      "answer_index": 1,
+      "explanation": "質疑國王為何派鼠鹿這樣的小動物來，是最直接且合理的懷疑點，這能揭露鼠鹿謊言的破綻。",
+      "commonMisconception": "學生可能想到獎勵或外觀，但直接質疑其權威來源更能體現批判性思考。",
+      "quality_level": "L5",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的工具",
+      "question": "鼠鹿在數鱷魚時，牠用什麼來標記數過的鱷魚？",
+      "options": [
+        "用樹枝做記號",
+        "用嘴巴咬一口",
+        "用牠的蹄子輕輕踩過",
+        "用石頭丟過去"
+      ],
+      "answer_index": 2,
+      "explanation": "故事中鼠鹿是透過輕巧地踩踏鱷魚的背部來「清點」，這也是牠過河的方式。",
+      "commonMisconception": "學生可能誤以為有實際的標記工具，但鼠鹿的動作本身就是「數」的行為。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "故事的深意",
+      "question": "從鼠鹿的故事中，我們可以學到在面對困難時，最重要的是什麼？",
+      "options": [
+        "要勇敢地和敵人打架",
+        "要請求大人的幫忙",
+        "要冷靜思考，運用智慧解決問題",
+        "要逃避問題，假裝看不見"
+      ],
+      "answer_index": 2,
+      "explanation": "鼠鹿的故事是典型的智取故事，強調在面對強大困難時，智慧和策略比蠻力更有效。",
+      "commonMisconception": "學生可能誤以為是求助或戰鬥，但故事核心是智慧的力量。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "故事的結局",
+      "question": "鼠鹿成功過河後，牠有沒有再回到鱷魚那邊去？",
+      "options": [
+        "有，牠回去向鱷魚道歉",
+        "有，牠回去和鱷魚玩遊戲",
+        "有，牠回去把國王的命令解釋清楚",
+        "沒有，牠頭也不回地跑走了"
+      ],
+      "answer_index": 3,
+      "explanation": "鼠鹿成功過河後，為了安全會立刻跑走，不會再回到危險的鱷魚群中。",
+      "commonMisconception": "學生可能認為鼠鹿會回去道歉或解釋，但從生存角度來看，逃走是合理的。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鱷魚的弱點",
+      "question": "鼠鹿能夠成功欺騙鱷魚，主要利用了鱷魚的什麼弱點？",
+      "options": [
+        "牠們非常貪吃且有點笨",
+        "牠們的視力很差",
+        "牠們不喜歡排隊",
+        "牠們很喜歡聽故事"
+      ],
+      "answer_index": 0,
+      "explanation": "鱷魚的貪吃讓牠們對「清點」後可能有的好處（如食物）產生期待，而牠們的相對缺乏思考能力（或說容易輕信）則讓鼠鹿的謊言得逞。",
+      "commonMisconception": "學生可能只看到貪吃，但「有點笨」或「容易輕信」也是關鍵。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "生活應用",
+      "question": "【在我們日常生活中】，如果遇到類似鼠鹿的困境（例如：想做一件事但有困難），我們可以從鼠鹿身上學到什麼？",
+      "options": [
+        "只要遇到困難就放棄",
+        "要學會說謊來達到目的",
+        "要仔細觀察周遭環境，想出創意的解決方法",
+        "要找比自己強大的人幫忙"
+      ],
+      "answer_index": 2,
+      "explanation": "鼠鹿的智慧在於觀察環境（鱷魚、河）、分析情況，並想出獨特的解決方案，這啟發我們也要有創意和觀察力。",
+      "commonMisconception": "學生可能誤解為鼓勵說謊，但核心是創意解決問題，而非說謊本身。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的目標地",
+      "question": "鼠鹿過河後，牠最想做的事情是什麼？",
+      "options": [
+        "立刻找個地方睡覺",
+        "向其他動物炫耀牠的聰明",
+        "跳進河裡洗澡",
+        "找到對岸的果樹，大吃一頓"
+      ],
+      "answer_index": 3,
+      "explanation": "故事開頭或背景通常會交代鼠鹿過河是為了尋找食物，所以成功後自然會去享用。",
+      "commonMisconception": "學生可能認為牠會炫耀或休息，但生存本能驅使牠先滿足飢餓。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鼠鹿的性格",
+      "question": "除了聰明，你覺得鼠鹿還具備了哪一種重要的性格特質，才能完成過河的任務？",
+      "options": [
+        "懶惰",
+        "膽小",
+        "勇敢",
+        "自私"
+      ],
+      "answer_index": 2,
+      "explanation": "面對一群飢餓的鱷魚，即使有智慧，也需要極大的勇氣才能靠近並實施計策。這是「同理心投射」的考量，理解鼠鹿面對的危險。",
+      "commonMisconception": "學生可能只看到聰明，忽略了面對危險時的膽量。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "故事地點",
+      "question": "這個故事大部分的情節發生在哪裡？",
+      "options": [
+        "森林裡的樹屋",
+        "寬闊的草原上",
+        "一條大河的兩岸",
+        "高高的山頂"
+      ],
+      "answer_index": 2,
+      "explanation": "故事的核心是鼠鹿過河，所以主要場景發生在河邊和河上。",
+      "commonMisconception": "學生可能聯想到森林，但具體地點是河邊。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "作者意圖",
+      "question": "作者選擇以鼠鹿這樣的小動物作為主角，最可能是想表達什麼？",
+      "options": [
+        "體型小的動物比較可愛",
+        "小動物總是比大動物聰明",
+        "即使是弱小的個體，也能憑藉智慧戰勝強敵",
+        "大動物都很容易被欺騙"
+      ],
+      "answer_index": 2,
+      "explanation": "以小勝大、以弱勝強是鼠鹿故事最經典的主題，強調智慧的力量超越體格。",
+      "commonMisconception": "學生可能泛化結論（B, D），但故事更強調「即使是」弱小也能成功，而非絕對。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "不同結局",
+      "question": "【如果鱷魚們不是那麼容易相信別人】，這個故事的結局可能會變成怎樣？",
+      "options": [
+        "鼠鹿會被鱷魚吃掉，無法過河",
+        "鼠鹿和鱷魚成為了朋友",
+        "鼠鹿會找到其他更聰明的方法過河",
+        "鱷魚會主動幫助鼠鹿過河"
+      ],
+      "answer_index": 0,
+      "explanation": "如果鱷魚不輕信，鼠鹿的計策就無法實施，最直接的後果就是牠可能被捕食，無法達成目標。",
+      "commonMisconception": "學生可能幻想更美好的結局，但現實且符合故事背景的，是鼠鹿會面臨危險。",
+      "quality_level": "L5",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "鼠鹿的叫聲",
+      "question": "故事中，鼠鹿在與鱷魚對話時，牠的聲音通常被描述為怎麼樣的？",
+      "options": [
+        "粗啞低沉",
+        "尖銳刺耳",
+        "輕柔而清晰",
+        "震耳欲聾"
+      ],
+      "answer_index": 2,
+      "explanation": "鼠鹿體型小巧，聲音不會粗啞或震耳欲聾，為了讓鱷魚聽清且不引起反感，輕柔而清晰的語氣是合理的。",
+      "commonMisconception": "學生可能對鼠鹿的聲音沒有概念，但結合其角色和計策，輕柔清晰更符合。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鼠鹿的準備",
+      "question": "鼠鹿在接近鱷魚之前，牠可能在心裡做了哪些準備？",
+      "options": [
+        "練習游泳",
+        "準備了武器",
+        "找了幫手一起對付鱷魚",
+        "想好了一套說詞和應對策略"
+      ],
+      "answer_index": 3,
+      "explanation": "鼠鹿的聰明體現在牠會預先思考並規劃，準備好一套能說服鱷魚的說詞和應對牠們反應的策略。",
+      "commonMisconception": "學生可能誤以為是物理上的準備，但鼠鹿的強項是智力。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    }
+  ]
+}

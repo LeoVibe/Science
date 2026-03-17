@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "NanYi",
+    "lesson": "U3",
+    "order": 3,
+    "title": "Where Is My Umbrella?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Where is my umbrella? B: It is ______ the door.",
+      "options": [
+        "is",
+        "behind",
+        "am",
+        "are"
+      ],
+      "answer": "behind",
+      "explanation": "behind 指的是在某物後面。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'Next to' means the same as 'beside'.",
+      "answer": "True",
+      "explanation": "next to 與 beside 都有「在...旁邊」的意思。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Where is your bag? B: It's ______ (在...下面) the desk.",
+      "answer": "under",
+      "explanation": "under 的意思是「在...下面」。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: ______ is the cat? B: It's in the box.",
+      "options": [
+        "How",
+        "Who",
+        "What",
+        "Where"
+      ],
+      "answer": "Where",
+      "explanation": "詢問地點位置。",
+      "cqi_score": 6,
+      "quality_level": "L2"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "The umbrella is ______ (在...上面) the chair.",
+      "options": [
+        "under",
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": "on 指的是在上方接觸。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

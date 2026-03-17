@@ -1,0 +1,36 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "SocialStudies",
+  "items": [
+    {
+      "id": "Soc_U1",
+      "title": "清領期生活變遷",
+      "file": "Soc_U1.json"
+    },
+    {
+      "id": "Soc_U2",
+      "title": "日治帝國統治",
+      "file": "Soc_U2.json"
+    },
+    {
+      "id": "Soc_U3",
+      "title": "日治建設與文化",
+      "file": "Soc_U3.json"
+    },
+    {
+      "id": "Soc_U4",
+      "title": "落實環境永續",
+      "file": "Soc_U4.json"
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 8,
+      "accuracyScore": 8.5,
+      "isVerified": true
+    }
+  }
+}

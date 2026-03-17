@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_5",
+    "semester": "S1",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "Sci3",
+    "order": 3,
+    "title": "空氣的組成與反應"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "空氣中含量最多的氣體是？",
+      "options": [
+        "二氧化碳",
+        "氮氣",
+        "氬氣",
+        "氧氣"
+      ],
+      "answer": "氮氣",
+      "explanation": "氮氣佔空氣比例約 78%。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "氧氣具備「助燃性」，可以幫助物體燃燒，但其本身並不燃燒。",
+      "answer": "True",
+      "explanation": "這是氧氣最重要的化學性質之一。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "小蘇打粉加入醋之後，產生的氣體可以讓燃燒的蠟燭熄滅，這種氣體是______。",
+      "answer": "二氧化碳",
+      "explanation": "二氧化碳不助燃且密度比空氣大，常用於滅火。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "生鏽是鐵與什麼物質共同發生反應的結果？",
+      "options": [
+        "氮氣",
+        "只有氧氣",
+        "只有水",
+        "氧氣與水"
+      ],
+      "answer": "氧氣與水",
+      "explanation": "鐵的氧化過程需要水分作為觸媒或參與。在潮濕鹽分高的環境會加速生鏽。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "下列哪種措施「不能」防止鐵器生鏽？",
+      "options": [
+        "塗油漆",
+        "抹上一層油脂",
+        "保持潮濕環境",
+        "將鐵器表面鍍上不易氧化的金屬"
+      ],
+      "answer": "保持潮濕環境",
+      "explanation": "隔絕空氣與水是防鏽的核心方法。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

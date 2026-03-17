@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "HanLin",
+    "lesson": "U4",
+    "order": 4,
+    "title": "Is He a Teacher?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Is she a student? B: Yes, she ______.",
+      "options": [
+        "are",
+        "do",
+        "am",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Yes/No 問句的簡答要與問句開頭的 be 動詞一致。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "If someone asks 'Is he a cook?', and he is a doctor, the answer should be 'No, he isn't.'",
+      "answer": "True",
+      "explanation": "否定簡答使用 No, he isn't。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: ______ he a nurse? B: No, he isn't. He is a doctor.",
+      "answer": "Is",
+      "explanation": "問句開頭使用 be 動詞 Is 形成 Yes/No 選項。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Is she a doctor? B: ______. She is a teacher.",
+      "options": [
+        "Yes, she is",
+        "I'm Dino",
+        "Hello",
+        "No, she isn't"
+      ],
+      "answer": "No, she isn't",
+      "explanation": "因為後面提到她是老師，所以前面要否認她是醫生。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "Am you a student?",
+        "Is she a student?",
+        "Are he a student?",
+        "Is they students?"
+      ],
+      "answer": "Is she a student?",
+      "explanation": "She 是單數，配合 be 動詞 Is。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    }
+  ]
+}

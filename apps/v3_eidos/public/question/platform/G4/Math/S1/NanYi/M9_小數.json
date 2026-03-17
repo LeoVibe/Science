@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "M9",
+    "order": 9,
+    "title": "小數"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "數字「0.45」中的「4」位在哪個位置？",
+      "options": [
+        "百位",
+        "十分位",
+        "個位",
+        "百分位"
+      ],
+      "answer": "十分位",
+      "explanation": "小數點右邊第一位是十分位。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "1.5 和 1.50 的大小是不相等的。",
+      "answer": "False",
+      "explanation": "小數末尾的 0 不影響數值大小。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "計算 0.75 + 0.25 = ______。",
+      "answer": "1",
+      "explanation": "0.75 + 0.25 = 1.00，簡寫為 1。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "比較大小：0.9 與 0.11，哪一個比較大？",
+      "options": [
+        "0.9",
+        "0.11",
+        "無法比較",
+        "一樣大"
+      ],
+      "answer": "0.9",
+      "explanation": "比較十分位，9 大於 1。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "計算 2.5 - 0.55 = ？",
+      "options": [
+        "1.95",
+        "1.05",
+        "2.05",
+        "2.15"
+      ],
+      "answer": "1.95",
+      "explanation": "2.50 - 0.55 = 1.95。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    }
+  ]
+}

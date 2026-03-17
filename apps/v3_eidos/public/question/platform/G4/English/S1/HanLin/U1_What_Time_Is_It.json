@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "英文",
+    "publisher": "HanLin",
+    "lesson": "U1",
+    "order": 1,
+    "title": "What Time Is It?"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What time is it? B: It is ______ o'clock.",
+      "options": [
+        "sad",
+        "two",
+        "big",
+        "red"
+      ],
+      "answer": "two",
+      "explanation": "時間問答中使用數字。",
+      "cqi_score": 6,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "In English, we say 'It's one o'clock' when the time is 1:00.",
+      "answer": "True",
+      "explanation": "o'clock 用於整點的說法。",
+      "cqi_score": 5.5,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: What time is it? B: It's ______ (三點三十分).",
+      "answer": "three thirty",
+      "explanation": "直接讀出時與分來表示時間。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: What time is it? B: It's 12:00. It's time for ______.",
+      "options": [
+        "sleeping",
+        "dinner",
+        "breakfast",
+        "lunch"
+      ],
+      "answer": "lunch",
+      "explanation": "12:00 通常是吃午餐（lunch）的時間。",
+      "cqi_score": 8.5,
+      "quality_level": "L4"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Which of the following is correct?",
+      "options": [
+        "It's five o'clock.",
+        "It's o'clock five.",
+        "It is five time.",
+        "Is it five it is."
+      ],
+      "answer": "It's five o'clock.",
+      "explanation": "正確的時間陳述語法。",
+      "cqi_score": 6,
+      "quality_level": "L4"
+    }
+  ]
+}

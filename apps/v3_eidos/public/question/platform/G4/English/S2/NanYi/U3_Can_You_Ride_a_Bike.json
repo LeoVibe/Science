@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S2",
+    "subject": "英文",
+    "publisher": "NanYi",
+    "lesson": "U3",
+    "order": 3,
+    "title": "Unit 3 Can You Ride a Bike?",
+    "verified": true,
+    "verification_source": "南一官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: Can you ride a bike? B: Yes, I ______.",
+      "options": [
+        "ride",
+        "can",
+        "am",
+        "do"
+      ],
+      "answer": "can",
+      "explanation": "Can you...? 的肯定回答是 Yes, I can。",
+      "cqi_score": 7,
+      "quality_level": "L4"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'She can ride a horse.' means '她會騎馬'。",
+      "answer": "True",
+      "explanation": "can ride a horse 表示會騎馬。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Can he play baseball? B: No, he ______.",
+      "answer": "can't / cannot",
+      "explanation": "Can he...? 的否定回答是 No, he can't。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "I can ______ a scooter.",
+      "options": [
+        "riding",
+        "ride",
+        "rides",
+        "to ride"
+      ],
+      "answer": "ride",
+      "explanation": "can 後面接動詞原形。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "A: What can your brother do? B: He ______ play the guitar.",
+      "options": [
+        "is",
+        "can",
+        "does",
+        "do"
+      ],
+      "answer": "can",
+      "explanation": "表示能力用 can。",
+      "cqi_score": 7.5,
+      "quality_level": "L4"
+    }
+  ]
+}
