@@ -43,6 +43,30 @@ function processManifest(filePath) {
                     delete item.path;
                     modified = true;
                 }
+
+                // 新增：讀取 JSON 並獲取題數
+                if (item.file) {
+                    try {
+                        const jsonPath = path.join(path.dirname(filePath), item.file);
+                        if (fs.existsSync(jsonPath)) {
+                            const jsonStr = fs.readFileSync(jsonPath, 'utf8');
+                            const jsonData = JSON.parse(jsonStr);
+                            let questionCount = 0;
+                            if (Array.isArray(jsonData.questions)) {
+                                questionCount = jsonData.questions.length;
+                            } else if (jsonData.question) {
+                                questionCount = 1;
+                            }
+                            
+                            if (item.count !== questionCount) {
+                                item.count = questionCount;
+                                modified = true;
+                            }
+                        }
+                    } catch (e) {
+                        console.error(`  - Failed to read count for ${item.file}:`, e.message);
+                    }
+                }
             });
         }
 
