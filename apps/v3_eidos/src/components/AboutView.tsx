@@ -413,6 +413,71 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                     </div>
                   </div>
                 </div>
+
+                {/* 四層研究架構 */}
+                <div className="bg-secondary rounded-2xl p-4 space-y-3">
+                  <h3 className="font-bold text-foreground text-sm">📐 每道題目背後的四層研究架構</h3>
+                  <p className="text-xs leading-relaxed text-muted-foreground">
+                    我們製作每一道題目的過程，就像蓋一棟房子：先打地基、再畫藍圖、接著備料、最後才砌磚。
+                  </p>
+
+                  {/* 第一層 */}
+                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
+                    <div className="flex items-center gap-2">
+                      <span className="w-7 h-7 rounded-full bg-violet-100 dark:bg-violet-900/30 flex items-center justify-center text-sm shrink-0">🔬</span>
+                      <div>
+                        <p className="font-bold text-[11px] text-foreground">第一層：了解孩子的學習能力</p>
+                        <p className="text-[10px] text-muted-foreground">地基 — 孩子的大腦準備好了嗎？</p>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
+                      低年級以記憶和基礎理解為主，避免抽象批判題型造成挫折；中年級逐步加入情境應用題；高年級則全面啟動觀點評估與批判思考。每個年級都有專屬的認知層次配比。
+                    </p>
+                  </div>
+
+                  {/* 第二層 */}
+                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
+                    <div className="flex items-center gap-2">
+                      <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-sm shrink-0">📘</span>
+                      <div>
+                        <p className="font-bold text-[11px] text-foreground">第二層：為每個科目量身打造出題規則</p>
+                        <p className="text-[10px] text-muted-foreground">藍圖 — 國語和數學的出題邏輯完全不同</p>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
+                      國語要考閱讀理解和修辭辨識，數學要防止用刪去法猜答案。我們為國語、數學、自然、社會、英語、生活六大科各撰寫了一份「共同發展總綱」，規範出題原則與誘答設計方法。
+                    </p>
+                  </div>
+
+                  {/* 第三層 */}
+                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
+                    <div className="flex items-center gap-2">
+                      <span className="w-7 h-7 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-sm shrink-0">📚</span>
+                      <div>
+                        <p className="font-bold text-[11px] text-foreground">第三層：深入每一課、每一版本</p>
+                        <p className="text-[10px] text-muted-foreground">備料 — 工作量最大、最紮實的環節</p>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
+                      針對每個年級、每學期、每科目進行四大研究：①完整記錄康軒/翰林/南一每一課的內容 ②引用台灣碩博士論文與 PIRLS 國際評量找出常見錯誤 ③逐課拆解教學重點 ④從全國中小學題庫網等來源擷取真實考古題並分析「為什麼學生會選錯」。
+                    </p>
+                  </div>
+
+                  {/* 第四層 */}
+                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
+                    <div className="flex items-center gap-2">
+                      <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-sm shrink-0">🎯</span>
+                      <div>
+                        <p className="font-bold text-[11px] text-foreground">第四層：題目生產、品管與上架</p>
+                        <p className="text-[10px] text-muted-foreground">砌磚 — 持續進化的品質把關</p>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
+                      目前已做到：格式檢驗（結構完整性）→ 內容品質評分（語意清晰、答案唯一）→ 平衡度檢查（正確答案均勻分布，防猜題）。未來隨著更多家長與老師的回饋，我們期待能加入使用者評價與專家審閱機制，讓每道題目持續被優化 🌱
+                    </p>
+                  </div>
+                </div>
+
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
                   <h3 className="font-bold text-foreground text-sm">🛠️ 本站怎麼做出來的？</h3>
                   <p className="text-xs leading-relaxed">
