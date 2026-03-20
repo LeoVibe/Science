@@ -4,6 +4,8 @@ import { Grade, APP_CONFIG, getSubjectsByGrade, Semester, Subject, SUBJECT_THEME
 import libraryData from '@/data/libraryStats.json';
 import type { LibraryConfig } from '@/components/admin/AdminLibraryManager';
 import { withBase } from '@/utils/basePath';
+import { generateUUID } from '@/utils/uuid';
+
 
 const ABOUT_TABS = ['about', 'library', 'deepdive', 'changelog'] as const;
 export type AboutTab = (typeof ABOUT_TABS)[number];
@@ -42,9 +44,10 @@ function addDeepDiveComment(comment: Omit<DeepDiveComment, 'id' | 'timestamp'>):
   const list = getDeepDiveComments();
   list.unshift({
     ...comment,
-    id: crypto.randomUUID(),
+    id: generateUUID(),
     timestamp: Date.now(),
   });
+
   if (list.length > 200) list.length = 200;
   localStorage.setItem(DEEPDIVE_STORAGE_KEY_COMMENTS, JSON.stringify(list));
 }
@@ -418,62 +421,65 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 <div className="bg-secondary rounded-2xl p-4 space-y-3">
                   <h3 className="font-bold text-foreground text-sm">📐 每道題目背後的四層研究架構</h3>
                   <p className="text-xs leading-relaxed text-muted-foreground">
-                    我們製作每一道題目的過程，就像蓋一棟房子：先打地基、再畫藍圖、接著備料、最後才砌磚。
+                    我們製作每一道題目的過程，就像蓋一棟房子：先打地基、再畫藍圖、接著規劃格局、最後精雕細節。
                   </p>
 
-                  {/* 第一層 */}
+                  {/* 第一層：地基 */}
                   <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
                     <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-violet-100 dark:bg-violet-900/30 flex items-center justify-center text-sm shrink-0">🔬</span>
+                      <span className="w-7 h-7 rounded-full bg-violet-100 dark:bg-violet-900/30 flex items-center justify-center text-sm shrink-0">🧠</span>
                       <div>
-                        <p className="font-bold text-[11px] text-foreground">第一層：了解孩子的學習能力</p>
+                        <p className="font-bold text-[11px] text-foreground">第一層：了解孩子的大腦</p>
                         <p className="text-[10px] text-muted-foreground">地基 — 孩子的大腦準備好了嗎？</p>
                       </div>
                     </div>
                     <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      低年級以記憶和基礎理解為主，避免抽象批判題型造成挫折；中年級逐步加入情境應用題；高年級則全面啟動觀點評估與批判思考。每個年級都有專屬的認知層次配比。
+                      每一個年紀的孩子，大腦能接受的挑戰不一樣。低年級以記憶為主，避免挫折感；中年級開始加入推理與情境；高年級則全面啟動批判思考。我們先搞懂孩子的大腦發展，才知道該出什麼難度的題目，不會太難、也不會太簡單。
                     </p>
                   </div>
 
-                  {/* 第二層 */}
+                  {/* 第二層：藍圖 */}
                   <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
                     <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-sm shrink-0">📘</span>
+                      <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-sm shrink-0">🗺️</span>
                       <div>
-                        <p className="font-bold text-[11px] text-foreground">第二層：為每個科目量身打造出題規則</p>
-                        <p className="text-[10px] text-muted-foreground">藍圖 — 國語和數學的出題邏輯完全不同</p>
+                        <p className="font-bold text-[11px] text-foreground">第二層：為每個科目量身打造學習路徑</p>
+                        <p className="text-[10px] text-muted-foreground">藍圖 — 國語和數學，考法完全不同</p>
                       </div>
                     </div>
                     <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      國語要考閱讀理解和修辭辨識，數學要防止用刪去法猜答案。我們為國語、數學、自然、社會、英語、生活六大科各撰寫了一份「共同發展總綱」，規範出題原則與誘答設計方法。
+                      國語要考的是「讀懂弦外之音」，不是死背注音；數學要防的是「看到數字就亂加減」，不是機械運算；自然要培養的是「親手做實驗的好奇心」。每一科從一年級到六年級，我們都寫了一份專屬的出題總綱，明確規範該怎麼出、該避開什麼陷阱、該怎麼讓學習變得有意義。
                     </p>
                   </div>
 
-                  {/* 第三層 */}
-                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
+                  {/* 第三層：規劃（重點投入） */}
+                  <div className="rounded-xl border-2 border-primary/30 p-3 space-y-2 bg-primary/5">
                     <div className="flex items-center gap-2">
                       <span className="w-7 h-7 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-sm shrink-0">📚</span>
                       <div>
-                        <p className="font-bold text-[11px] text-foreground">第三層：深入每一課、每一版本</p>
-                        <p className="text-[10px] text-muted-foreground">備料 — 工作量最大、最紮實的環節</p>
+                        <p className="font-bold text-[11px] text-foreground">第三層：探索每個年級孩子的需要與學習力</p>
+                        <p className="text-[10px] text-muted-foreground">規劃 — 我們花最多心力的地方</p>
                       </div>
                     </div>
                     <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      針對每個年級、每學期、每科目進行四大研究：①完整記錄康軒/翰林/南一每一課的內容 ②引用台灣碩博士論文與 PIRLS 國際評量找出常見錯誤 ③逐課拆解教學重點 ④從全國中小學題庫網等來源擷取真實考古題並分析「為什麼學生會選錯」。
+                      三年級的孩子，剛從「老師唸給我聽」轉向「自己讀懂一篇文章」，這是閱讀能力的分水嶺。四年級開始面對有邏輯的長題目。五年級的數學突然出現分數和小數的交鋒。六年級則要在畢業前的古文與抽象思考中，完成童年最後一次知識的跳躍。
+                    </p>
+                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
+                      我們為每個年級、每個學期做了完整的學習方向研究：<strong className="text-foreground">這學期該學什麼、為什麼要學、孩子最容易在哪裡跌倒</strong>。這份研究，就是您在每一科頁面看到的「💡 AI 專家說」的內容來源。
                     </p>
                   </div>
 
-                  {/* 第四層 */}
+                  {/* 第四層：材料 */}
                   <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
                     <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-sm shrink-0">🎯</span>
+                      <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-sm shrink-0">🔧</span>
                       <div>
-                        <p className="font-bold text-[11px] text-foreground">第四層：題目生產、品管與上架</p>
-                        <p className="text-[10px] text-muted-foreground">砌磚 — 持續進化的品質把關</p>
+                        <p className="font-bold text-[11px] text-foreground">第四層：深入每一課、每一版本的細節</p>
+                        <p className="text-[10px] text-muted-foreground">材料 — 逐課、逐版本的精雕細琢</p>
                       </div>
                     </div>
                     <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      目前已做到：格式檢驗（結構完整性）→ 內容品質評分（語意清晰、答案唯一）→ 平衡度檢查（正確答案均勻分布，防猜題）。未來隨著更多家長與老師的回饋，我們期待能加入使用者評價與專家審閱機制，讓每道題目持續被優化 🌱
+                      康軒版的第三課教什麼？翰林版的考古題怎麼出？南一版的學生最容易誤解哪一段課文？我們逐課、逐版本地進行深度拆解，研究網路上的討論、分析歷屆考古題、標記容易混淆的概念，確保每一道題目都精準對應到孩子正在學的那一頁。
                     </p>
                   </div>
                 </div>
@@ -624,10 +630,16 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
           <div className="bg-card rounded-2xl border p-5 space-y-0">
             {[
               {
+                ver: '1.3',
+                date: '2026/3/20',
+                desc: '將題目產出的架構化繁為簡，利用AI 的迭代能力，強化出題深度與意涵，「AI 專家學習引導」，讓每位使用者都能清楚題目意涵與設計邏輯，孩子做題，家長一同陪伴理解，每一題都有溫暖提示說明。',
+                highlight: true,
+              },
+              {
                 ver: '1.2',
                 date: '2026/3/1',
                 desc: '讓 AI 扮演各科專家，對題目進行深度研究與翻新，每課都有 30 題以上。也針對中年級的程度與耐性調整了題型比例，讓練習節奏能與智力成長接軌。',
-                highlight: true,
+                highlight: false,
               },
               {
                 ver: '1.1',
@@ -670,14 +682,18 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 date: '2026/2/14',
                 desc: '多科目嘗試版（現為相容模式入口）',
                 highlight: false,
+                link: withBase('history/v2_currisite/index.html'),
+                linkLabel: '🏛️ 體驗舊版系統：v2 舊版(多科) →',
               },
               {
                 ver: '0.1',
                 date: '2026/1/3',
                 desc: '初始版本，基本架構（現為相容模式入口）',
                 highlight: false,
+                link: withBase('history/v1_science/index.html'),
+                linkLabel: '🏛️ 體驗舊版系統：v1 初版(自然) →',
               },
-            ].map((v: { ver: string; date: string; desc: string; highlight: boolean; link?: string; legacy?: boolean }, i, arr) => (
+            ].map((v: { ver: string; date: string; desc: string; highlight: boolean; link?: string; legacy?: boolean; linkLabel?: string }, i, arr) => (
               <div key={v.ver} className={`flex items-start gap-3 py-3 ${i < arr.length - 1 ? 'border-b border-border' : ''}`}>
                 <div className="shrink-0 w-16 text-center space-y-0.5">
                   <span className={`block text-sm font-black ${v.highlight ? 'text-primary' : 'text-foreground'}`}>v{v.ver}</span>
@@ -692,37 +708,13 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 mt-1.5 text-[11px] font-bold text-primary hover:underline"
                     >
-                      {v.legacy ? '🕹️ 觀看歷史版本 →' : '🕹️ 體驗此版本 →'}
+                      {v.linkLabel || (v.legacy ? '🕹️ 觀看歷史版本 →' : '🕹️ 體驗此版本 →')}
                     </a>
                   )}
                 </div>
                 {v.highlight && <span className="text-xs bg-accent/12 text-accent font-bold px-2 py-0.5 rounded-full shrink-0">NEW</span>}
               </div>
             ))}
-          </div>
-          <div className="bg-secondary/40 rounded-2xl border border-dashed border-border p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div className="flex items-center gap-2 text-sm text-foreground font-bold">
-              <span className="text-lg">🏛️</span>
-              <span>典藏館：體驗舊版系統</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <a
-                href={withBase('history/v1_science/index.html')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
-              >
-                v1 初版(自然)
-              </a>
-              <a
-                href={withBase('history/v2_currisite/index.html')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3 py-1.5 bg-background border rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 hover:border-primary/30 transition-all shadow-sm"
-              >
-                v2 舊版(多科)
-              </a>
-            </div>
           </div>
         </div>
       )}

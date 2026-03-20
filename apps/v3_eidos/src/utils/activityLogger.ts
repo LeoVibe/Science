@@ -8,6 +8,8 @@ const ACTIVITY_QUEUE_KEY = 'eidos_activity_queue';
 const ACTIVITY_HISTORY_KEY = 'eidos_activity_history';
 const MAX_HISTORY_LOGS = 500;
 import { getApiBaseUrl } from '@/data/api';
+import { generateUUID } from './uuid';
+
 
 export interface ActivityDetail {
   grade?: number;
@@ -30,11 +32,12 @@ export interface ActivityEntry {
 export function getOrCreateDeviceId(): string {
   let id = localStorage.getItem(DEVICE_ID_KEY);
   if (!id) {
-    id = crypto.randomUUID();
+    id = generateUUID();
     localStorage.setItem(DEVICE_ID_KEY, id);
   }
   return id;
 }
+
 
 function getQueue(): ActivityEntry[] {
   try {

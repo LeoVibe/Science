@@ -1,6 +1,8 @@
 import { Grade, Subject, Semester, Publisher, SUBJECT_CODE, PUBLISHER_CODE } from '@/data/config';
 import type { ApiProfile } from '@/data/api';
 import { fetchUserProfile as apiFetchProfile, syncUserProfile as apiSyncProfile } from '@/data/api';
+import { generateUUID } from './uuid';
+
 
 function getStorageKey(grade: Grade, subject: Subject, semester: Semester, publisher: Publisher): string {
   return `history_G${grade}_${SUBJECT_CODE[subject]}_S${semester}_${PUBLISHER_CODE[publisher]}`;
@@ -89,8 +91,9 @@ export function getPracticeHistory(grade: Grade, subject: Subject, semester: Sem
 
 export function savePracticeRecord(record: Omit<PracticeRecord, 'id' | 'timestamp'>): void {
   const all = getAllPracticeHistory();
-  all.unshift({ ...record, id: crypto.randomUUID(), timestamp: Date.now() });
+  all.unshift({ ...record, id: generateUUID(), timestamp: Date.now() });
   if (all.length > 200) all.length = 200;
+
   localStorage.setItem(PRACTICE_KEY, JSON.stringify(all));
 }
 
@@ -167,11 +170,12 @@ export function saveUserProfile(profile: Omit<UserProfile, 'timestamp'>): void {
 export function getOrCreateUserId(): string {
   let id = localStorage.getItem(USER_ID_KEY);
   if (!id) {
-    id = crypto.randomUUID();
+    id = generateUUID();
     localStorage.setItem(USER_ID_KEY, id);
   }
   return id;
 }
+
 
 /** 從 API 拉取 profile 並合併進 localStorage（進入時優先呼叫） */
 export async function fetchAndMergeUserProfile(userId: string): Promise<UserProfile | null> {

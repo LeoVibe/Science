@@ -125,9 +125,14 @@ function scanAndVerify(dir) {
     } else {
         // 繼續往下找
         for (const file of files) {
+            if (file.startsWith('.')) continue; // 忽略隱藏檔 (如 .DS_Store)
             const fullPath = path.join(dir, file);
-            if (fs.statSync(fullPath).isDirectory()) {
-                scanAndVerify(fullPath);
+            try {
+                if (fs.statSync(fullPath).isDirectory()) {
+                    scanAndVerify(fullPath);
+                }
+            } catch (e) {
+                // 忽略 stat 權限錯誤
             }
         }
     }

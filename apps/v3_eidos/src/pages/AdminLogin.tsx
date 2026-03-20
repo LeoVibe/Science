@@ -177,6 +177,21 @@ export default function AdminLogin() {
           >
             {loading ? '驗證中...' : !gisReady ? '載入 Google 登入...' : '使用 Google 帳號登入'}
           </button>
+
+          {/* 本機開發測試 Bypass */}
+          {(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') && (
+            <button
+              type="button"
+              onClick={() => {
+                sessionStorage.setItem('admin_session', JSON.stringify({ email: 'dev@local.host', role: 'owner', provider: 'local' }));
+                sessionStorage.setItem('admin_token', 'local-dev-token');
+                navigate('/admin', { replace: true });
+              }}
+              className="w-full h-9 rounded-xl border border-dashed border-primary/40 text-primary font-bold text-xs transition-all hover:bg-primary/5 active:scale-[0.98]"
+            >
+              本機認證測試 (Local Dev Bypass)
+            </button>
+          )}
         </div>
 
         <p className="text-center text-[10px] text-muted-foreground">

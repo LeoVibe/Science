@@ -196,6 +196,11 @@ export async function patchAdminUser(
 
 /** 驗證目前 admin_token 是否有效 */
 export async function verifyAdminSession(adminToken: string): Promise<AdminSession | null> {
+  // 本機開發測試用 Bypass
+  if (adminToken === 'local-dev-token' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return { email: 'dev@local.host', role: 'owner', provider: 'local' };
+  }
+
   try {
     const url = `${getApiBaseUrl()}/api/admin/verify`;
     const res = await fetch(url, {
