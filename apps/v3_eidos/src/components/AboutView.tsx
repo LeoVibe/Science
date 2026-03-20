@@ -417,73 +417,6 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                   </div>
                 </div>
 
-                {/* 四層研究架構 */}
-                <div className="bg-secondary rounded-2xl p-4 space-y-3">
-                  <h3 className="font-bold text-foreground text-sm">📐 每道題目背後的四層研究架構</h3>
-                  <p className="text-xs leading-relaxed text-muted-foreground">
-                    我們製作每一道題目的過程，就像蓋一棟房子：先打地基、再畫藍圖、接著規劃格局、最後精雕細節。
-                  </p>
-
-                  {/* 第一層：地基 */}
-                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
-                    <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-violet-100 dark:bg-violet-900/30 flex items-center justify-center text-sm shrink-0">🧠</span>
-                      <div>
-                        <p className="font-bold text-[11px] text-foreground">第一層：了解孩子的大腦</p>
-                        <p className="text-[10px] text-muted-foreground">地基 — 孩子的大腦準備好了嗎？</p>
-                      </div>
-                    </div>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      每一個年紀的孩子，大腦能接受的挑戰不一樣。低年級以記憶為主，避免挫折感；中年級開始加入推理與情境；高年級則全面啟動批判思考。我們先搞懂孩子的大腦發展，才知道該出什麼難度的題目，不會太難、也不會太簡單。
-                    </p>
-                  </div>
-
-                  {/* 第二層：藍圖 */}
-                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
-                    <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-sm shrink-0">🗺️</span>
-                      <div>
-                        <p className="font-bold text-[11px] text-foreground">第二層：為每個科目量身打造學習路徑</p>
-                        <p className="text-[10px] text-muted-foreground">藍圖 — 國語和數學，考法完全不同</p>
-                      </div>
-                    </div>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      國語要考的是「讀懂弦外之音」，不是死背注音；數學要防的是「看到數字就亂加減」，不是機械運算；自然要培養的是「親手做實驗的好奇心」。每一科從一年級到六年級，我們都寫了一份專屬的出題總綱，明確規範該怎麼出、該避開什麼陷阱、該怎麼讓學習變得有意義。
-                    </p>
-                  </div>
-
-                  {/* 第三層：規劃（重點投入） */}
-                  <div className="rounded-xl border-2 border-primary/30 p-3 space-y-2 bg-primary/5">
-                    <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-sm shrink-0">📚</span>
-                      <div>
-                        <p className="font-bold text-[11px] text-foreground">第三層：探索每個年級孩子的需要與學習力</p>
-                        <p className="text-[10px] text-muted-foreground">規劃 — 我們花最多心力的地方</p>
-                      </div>
-                    </div>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      三年級的孩子，剛從「老師唸給我聽」轉向「自己讀懂一篇文章」，這是閱讀能力的分水嶺。四年級開始面對有邏輯的長題目。五年級的數學突然出現分數和小數的交鋒。六年級則要在畢業前的古文與抽象思考中，完成童年最後一次知識的跳躍。
-                    </p>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      我們為每個年級、每個學期做了完整的學習方向研究：<strong className="text-foreground">這學期該學什麼、為什麼要學、孩子最容易在哪裡跌倒</strong>。這份研究，就是您在每一科頁面看到的「💡 AI 專家說」的內容來源。
-                    </p>
-                  </div>
-
-                  {/* 第四層：材料 */}
-                  <div className="rounded-xl border border-border/50 p-3 space-y-1.5 bg-background/60">
-                    <div className="flex items-center gap-2">
-                      <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-sm shrink-0">🔧</span>
-                      <div>
-                        <p className="font-bold text-[11px] text-foreground">第四層：深入每一課、每一版本的細節</p>
-                        <p className="text-[10px] text-muted-foreground">材料 — 逐課、逐版本的精雕細琢</p>
-                      </div>
-                    </div>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed pl-9">
-                      康軒版的第三課教什麼？翰林版的考古題怎麼出？南一版的學生最容易誤解哪一段課文？我們逐課、逐版本地進行深度拆解，研究網路上的討論、分析歷屆考古題、標記容易混淆的概念，確保每一道題目都精準對應到孩子正在學的那一頁。
-                    </p>
-                  </div>
-                </div>
-
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
                   <h3 className="font-bold text-foreground text-sm">🛠️ 本站怎麼做出來的？</h3>
                   <p className="text-xs leading-relaxed">
@@ -547,6 +480,79 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               <p className="text-xs text-muted-foreground leading-relaxed">
                 這裡記錄了我在出題時的堅持：從對大腦的理解到各科目的陪練心得。我希望確保孩子遇到的每一道題，都有它存在的價值。
               </p>
+            </div>
+
+            {/* 🆕 每道題目背後的四層嚴謹工法 */}
+            <div className="bg-secondary/20 rounded-2xl border-2 border-primary/10 p-5 space-y-5">
+              <div className="space-y-1.5">
+                <h4 className="font-black text-foreground text-[15px] flex items-center gap-2 text-primary">
+                  <span>📐</span> 四層出題工法：為什麼每一題都不一樣？
+                </h4>
+                <p className="text-[12px] text-muted-foreground leading-relaxed">
+                  讓孩子寫題庫，不是為了機械化的反覆刷題。我們的每一道題目產出，都需要經過四層嚴謹的「AI 專家思考」，確保題目真的能幫助孩子成長。以下是我們對學習的堅持：
+                </p>
+              </div>
+
+              <div className="space-y-3.5">
+                {/* 🧠 第一層 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2.5 bg-background shadow-sm hover:border-violet-300 transition-colors">
+                  <div className="flex items-start gap-3">
+                    <span className="w-9 h-9 rounded-full bg-violet-100 dark:bg-violet-900/40 flex items-center justify-center text-[17px] shrink-0 border border-violet-200 dark:border-violet-800">🧠</span>
+                    <div className="space-y-1">
+                      <p className="font-black text-sm text-foreground">第一層：讀懂孩子的大腦</p>
+                      <p className="text-[11px] font-bold text-violet-600 dark:text-violet-400">了解認知極限，保護學習胃口</p>
+                      <p className="text-[11px] text-muted-foreground leading-relaxed">
+                        一到六年級的孩子，大腦能處理的資訊量完全不同。低年級需要記憶與直觀的圖片輔助，不能有太多打擊信心的陷阱；中年級開始發展「推理能力」，我們會慢慢加入轉彎的思考題；到了高年級，則全面啟動「批判性思考」。在出題前，我們先確保難度剛剛好：既有挑戰，又不會弄壞孩子的學習胃口。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 🗺️ 第二層 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2.5 bg-background shadow-sm hover:border-blue-300 transition-colors">
+                  <div className="flex items-start gap-3">
+                    <span className="w-9 h-9 rounded-full bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-[17px] shrink-0 border border-blue-200 dark:border-blue-800">🗺️</span>
+                    <div className="space-y-1">
+                      <p className="font-black text-sm text-foreground">第二層：為每個科目量身打造學習路徑</p>
+                      <p className="text-[11px] font-bold text-blue-600 dark:text-blue-400">這科到底該怎麼學？怎麼考？</p>
+                      <p className="text-[11px] text-muted-foreground leading-relaxed">
+                        國語的本質不是死背注音，而是要「聽懂弦外之音」；數學最怕「看到數字就亂加減」，所以我們把重點放在「讀懂題意」；自然科則要呵護「親手實驗的好奇心」。我們為每一科明確規範了 AI 專家該怎麼引導，避開生硬的填鴨，讓每一題都能鍛鍊到該有的核心素養。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 📚 第三層 */}
+                <div className="rounded-xl border-2 border-primary/40 p-4 space-y-2.5 bg-primary/5 shadow-sm relative overflow-hidden">
+                  <div className="absolute top-0 right-0 px-3 py-1 bg-primary text-primary-foreground text-[10px] font-black rounded-bl-lg shadow-sm">
+                    核心靈魂
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="w-9 h-9 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-[17px] shrink-0 border border-emerald-200 dark:border-emerald-800">📚</span>
+                    <div className="space-y-1 pr-12">
+                      <p className="font-black text-sm text-foreground">第三層：探索這學期孩子的痛點與需求</p>
+                      <p className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">最貼心的學習指引 ──「AI 專家學習引導」</p>
+                      <p className="text-[11px] text-muted-foreground leading-relaxed">
+                        不同年級和學期都有獨特的「大魔王」。例如：三年級開始從「聽故事」轉為「自己讀完一篇文章」；四年級的國語突然變長，數學開始有多步驟的邏輯；五年級則會碰上小數的強烈交鋒。我們為每個學期量身寫了一份專屬的學習引導，這就是您在每一科頁面上方看到的「💡 AI 專家說」。不僅陪伴孩子，也能幫助家長理解孩子目前卡在哪裡、該如何介入指導。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 🔧 第四層 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2.5 bg-background shadow-sm hover:border-amber-300 transition-colors">
+                  <div className="flex items-start gap-3">
+                    <span className="w-9 h-9 rounded-full bg-amber-100 dark:bg-amber-900/40 flex items-center justify-center text-[17px] shrink-0 border border-amber-200 dark:border-amber-800">🔧</span>
+                    <div className="space-y-1">
+                      <p className="font-black text-sm text-foreground">第四層：深入每一課與每一版本的細膩度</p>
+                      <p className="text-[11px] font-bold text-amber-600 dark:text-amber-400">精雕細琢，對齊學校進度</p>
+                      <p className="text-[11px] text-muted-foreground leading-relaxed">
+                        有了大方向之後，最後一步就是「落地」。康軒版第三課在教哪些修辭？翰林版的測驗卷最喜歡考哪個生字的錯別字？南一版的課文小朋友最常誤解這句話的意思？我們逐課、逐版本地進行「微觀拆解」，分析歷年考古題與常見的學習迷思，並將這些細節轉化為「溫暖的提示詳解」，確保孩子在寫每一道題時，都像有一位專屬家教在旁細心解說。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="space-y-5">
