@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx wrangler dev",
+    "dev": "npx wrangler dev --port 8787",
     "deploy": "npx wrangler deploy",
     "db:create": "npx wrangler d1 create eidos-db",
     "db:migrate": "npx wrangler d1 migrations apply eidos-db",

@@ -138,7 +138,7 @@ async function main() {
         targetDirs = args.map(a => path.resolve(a));
     } else {
         // 預設：G6 國語全版本
-        const baseDir = 'question/platform/G6/Chinese/';
+        const baseDir = 'question/platform/G6/Chinese/S2/';
         const publishers = ['KangHsuan', 'HanLin', 'NanYi'];
         targetDirs = publishers.map(p => path.resolve(path.join(baseDir, p)));
     }

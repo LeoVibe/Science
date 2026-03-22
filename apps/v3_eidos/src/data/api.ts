@@ -1,21 +1,64 @@
 /**
  * JOB-003: 前端與 Cloudflare Worker API 串接
  * 開發環境預設 http://localhost:8787
+ *
+ * 本機開發可設定：
+ * - VITE_API_URL：本機 Worker（預設 localhost:8787）
+ * - VITE_API_URL_REMOTE：遠端 Worker；Google 後台登入成功後設 SESSION_ADMIN_API_REMOTE，後台請求改打遠端。
+ * 「本機認證測試」繞過 token 一律只打本機 Worker。
  */
 
-const API_BASE = (() => {
-  if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
+const LOCAL_DEV_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
+
+/** Google 後台登入成功後設為 '1'，登出／本機繞過時清除 */
+export const SESSION_ADMIN_API_REMOTE = 'eidos_admin_api_remote';
+
+function getLocalApiBaseUrl(): string {
+  if (import.meta.env.VITE_API_URL) {
+    return String(import.meta.env.VITE_API_URL).replace(/\/$/, '');
+  }
   if (typeof window !== 'undefined') {
     const { hostname, origin } = window.location;
-    if (hostname === 'localhost' || hostname === '127.0.0.1') return 'http://localhost:8787';
-    // 若在 Cloudflare Pages 並缺少 VITE_API_URL，則預設與前端同網域 (通常 API 在同網域的 /api 下，由 worker proxy 或同 domain 處理)
-    if (hostname.endsWith('.pages.dev')) return origin;
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return 'http://localhost:8787';
+    }
+    if (hostname.endsWith('.pages.dev')) {
+      return origin.replace(/\/$/, '');
+    }
   }
   return 'http://localhost:8787';
-})();
+}
+
+function getRemoteApiBaseUrl(): string {
+  const raw = import.meta.env.VITE_API_URL_REMOTE;
+  return typeof raw === 'string' ? raw.trim().replace(/\/$/, '') : '';
+}
 
 export function getApiBaseUrl(): string {
-  return API_BASE.replace(/\/$/, '');
+  const local = getLocalApiBaseUrl();
+  const remote = getRemoteApiBaseUrl();
+  if (!remote) return local;
+
+  try {
+    if (typeof window === 'undefined') return local;
+    const token = sessionStorage.getItem('admin_token') ?? '';
+    if (token === LOCAL_DEV_BYPASS_TOKEN) return local;
+    if (
+      token.startsWith('eyJ') &&
+      sessionStorage.getItem(SESSION_ADMIN_API_REMOTE) === '1'
+    ) {
+      return remote;
+    }
+  } catch {
+    /* sessionStorage 不可用 */
+  }
+  return local;
+}
+
+function getAdminAuthRequestBaseUrl(): string {
+  const remote = getRemoteApiBaseUrl();
+  if (remote) return remote;
+  return getLocalApiBaseUrl();
 }
 
 export interface SiteSettings {
@@ -64,7 +107,6 @@ async function fetchApi<T>(path: string, init?: RequestInit): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-/** 取得全站設定（維護模式、公告、api_version） */
 export async function fetchSiteSettings(): Promise<SiteSettings> {
   try {
     return await fetchApi<SiteSettings>('/api/settings');
@@ -77,7 +119,6 @@ export async function fetchSiteSettings(): Promise<SiteSettings> {
   }
 }
 
-/** 從 API 取得個人 profile，不存在時回傳 null */
 export async function fetchUserProfile(userId: string): Promise<ApiProfile | null> {
   try {
     const url = `${getApiBaseUrl()}/api/profiles/${encodeURIComponent(userId)}`;
@@ -90,7 +131,6 @@ export async function fetchUserProfile(userId: string): Promise<ApiProfile | nul
   }
 }
 
-/** 將個人設定同步到 API（PUT 整筆覆寫） */
 export async function syncUserProfile(userId: string, profile: {
   grade: number;
   semester: number;
@@ -120,8 +160,6 @@ export async function syncUserProfile(userId: string, profile: {
   }
 }
 
-// --- JOB-016: Admin auth (dynamic whitelist) ---
-
 export interface AdminSession {
   email: string;
   role: string;
@@ -145,9 +183,8 @@ export type AdminAuthRequestResult =
   | { status: 202; message: string }
   | { status: 403; error: string };
 
-/** 以 Google ID Token 向後端申請登入／審核狀態 */
 export async function adminAuthRequest(idToken: string): Promise<AdminAuthRequestResult> {
-  const url = `${getApiBaseUrl()}/api/admin/auth/request`;
+  const url = `${getAdminAuthRequestBaseUrl()}/api/admin/auth/request`;
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -169,7 +206,6 @@ export interface AdminUserRecord {
   requested_at?: string;
 }
 
-/** 取得所有後台帳號（僅 owner）；需傳入 admin_token (Bearer) */
 export async function fetchAdminUsers(adminToken: string): Promise<AdminUserRecord[]> {
   const url = `${getApiBaseUrl()}/api/admin/auth/users`;
   const res = await fetch(url, {
@@ -183,7 +219,6 @@ export async function fetchAdminUsers(adminToken: string): Promise<AdminUserReco
   return Array.isArray(data.users) ? data.users : [];
 }
 
-/** 更新帳號狀態：approve | reject | remove（僅 owner） */
 export async function patchAdminUser(
   adminToken: string,
   email: string,
@@ -203,11 +238,14 @@ export async function patchAdminUser(
   return Array.isArray(data.users) ? data.users : [];
 }
 
-/** 驗證目前 admin_token 是否有效 */
 export async function verifyAdminSession(adminToken: string): Promise<AdminSession | null> {
-  // 本機開發測試用 Bypass
-  if (adminToken === 'local-dev-token' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+  const host = typeof window !== 'undefined' ? window.location.hostname : '';
+  const isLocalHost = host === 'localhost' || host === '127.0.0.1';
+  if (adminToken === 'local-dev-token' && isLocalHost) {
     return { email: 'dev@local.host', role: 'owner', provider: 'local' };
+  }
+  if (adminToken === LOCAL_DEV_BYPASS_TOKEN && isLocalHost) {
+    return { email: 'local-dev@eidos.local', role: 'owner', provider: 'local-dev' };
   }
 
   try {
@@ -227,7 +265,6 @@ export async function verifyAdminSession(adminToken: string): Promise<AdminSessi
   }
 }
 
-/** 讀取後台全域配置（含題庫開關） */
 export async function fetchAdminConfig(adminToken: string): Promise<AdminConfig | null> {
   try {
     const url = `${getApiBaseUrl()}/api/admin/config`;
@@ -245,7 +282,6 @@ export async function fetchAdminConfig(adminToken: string): Promise<AdminConfig 
   }
 }
 
-/** 儲存後台全域配置（含題庫開關） */
 export async function saveAdminConfig(
   adminToken: string,
   config: Partial<AdminConfig>

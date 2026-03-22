@@ -221,6 +221,163 @@ export function aggregateUserAnalysis(rawLogs: unknown[], minActiveDays: number)
     });
   }
 
-  result.sort((a, b) => b.lastSeen.localeCompare(a.lastSeen));
+  result.sort((a, b) => {
+    if (b.activeDays !== a.activeDays) return b.activeDays - a.activeDays;
+    return b.lastSeen.localeCompare(a.lastSeen);
+  });
   return result;
+}
+
+/** 後台「使用者統計」：依時間窗的裝置數 + 年級分佈（以裝置為單位） */
+export interface UserStatsSnapshot {
+  uniqueDevices1d: number;
+  uniqueDevices7d: number;
+  uniqueDevices30d: number;
+  /** 近 30 日至少有一筆紀錄的裝置，依其日誌中出現最多次的年級（1–6）分組 */
+  gradeDistribution: Array<{ grade: number; deviceCount: number }>;
+  /** 近 30 日 answer_question 事件總數（需前端寫入） */
+  totalAnswerEvents30d: number;
+  /** 近 30 日曾有答題紀錄的裝置數 */
+  devicesWithAnswers30d: number;
+  /** 近 30 日平均每裝置答題事件數；無答題紀錄時為 null */
+  avgAnswerEventsPerDevice30d: number | null;
+}
+
+/** 後台「使用者分析」頁頂部摘要（與 minDays 篩選後清單搭配） */
+export interface ActivitySummary {
+  /** 近 30 日事件中最常出現的科目（依 details.subject） */
+  topSubject30d: string | null;
+  /** 近 30 日 (年級, 科目) 事件數最高者 */
+  topGradeSubject30d: { grade: number; subject: string; events: number } | null;
+  /** 活躍天數排名（僅含 >= minActiveDays 的裝置，由高到低） */
+  activeDaysRank: Array<{ rank: number; deviceId: string; activeDays: number; lastSeen: string }>;
+}
+
+function tsMs(iso: string): number {
+  const t = Date.parse(iso);
+  return Number.isFinite(t) ? t : 0;
+}
+
+export function aggregateUserStats(rawLogs: unknown[], nowIso: string): UserStatsSnapshot {
+  const logs = parseLogs(rawLogs);
+  const now = tsMs(nowIso);
+  const d1 = now - 86400000;
+  const d7 = now - 7 * 86400000;
+  const d30 = now - 30 * 86400000;
+
+  const uniq = (cut: number) => {
+    const s = new Set<string>();
+    for (const e of logs) {
+      if (tsMs(e.timestamp) >= cut) s.add(e.deviceId);
+    }
+    return s.size;
+  };
+
+  const logs30 = logs.filter((e) => tsMs(e.timestamp) >= d30);
+  const byDevice30 = new Map<string, ActivityLogEntry[]>();
+  for (const e of logs30) {
+    const arr = byDevice30.get(e.deviceId) ?? [];
+    arr.push(e);
+    byDevice30.set(e.deviceId, arr);
+  }
+
+  const gradeDeviceCount = new Map<number, number>();
+  for (const [, entries] of byDevice30) {
+    const g = topByCountWithRecency(entries, (e) => {
+      const gr = asRecord(e.details)?.grade;
+      return typeof gr === 'number' && gr >= 1 && gr <= 6 ? gr : null;
+    });
+    if (g != null) gradeDeviceCount.set(g, (gradeDeviceCount.get(g) ?? 0) + 1);
+  }
+
+  const gradeDistribution = [...gradeDeviceCount.entries()]
+    .map(([grade, deviceCount]) => ({ grade, deviceCount }))
+    .sort((a, b) => a.grade - b.grade);
+
+  let totalAnswerEvents30d = 0;
+  const ansDev = new Set<string>();
+  for (const e of logs30) {
+    if (e.action === 'answer_question') {
+      totalAnswerEvents30d++;
+      ansDev.add(e.deviceId);
+    }
+  }
+  const devicesWithAnswers30d = ansDev.size;
+  const avgAnswerEventsPerDevice30d =
+    devicesWithAnswers30d > 0 ? totalAnswerEvents30d / devicesWithAnswers30d : null;
+
+  return {
+    uniqueDevices1d: uniq(d1),
+    uniqueDevices7d: uniq(d7),
+    uniqueDevices30d: uniq(d30),
+    gradeDistribution,
+    totalAnswerEvents30d,
+    devicesWithAnswers30d,
+    avgAnswerEventsPerDevice30d,
+  };
+}
+
+export function aggregateActivitySummary(rawLogs: unknown[], minActiveDays: number): ActivitySummary {
+  let min = 5;
+  if (typeof minActiveDays === 'number' && Number.isFinite(minActiveDays)) {
+    min = Math.min(365, Math.max(1, Math.floor(minActiveDays)));
+  }
+  const logs = parseLogs(rawLogs);
+  const cut30 = Date.now() - 30 * 86400000;
+
+  const logs30 = logs.filter((e) => tsMs(e.timestamp) >= cut30);
+  const subjectCount = new Map<string, number>();
+  const pairCount = new Map<string, number>();
+
+  for (const e of logs30) {
+    const det = asRecord(e.details);
+    const g = det?.grade;
+    const sub = det?.subject;
+    if (typeof g === 'number' && g >= 1 && g <= 6 && typeof sub === 'string' && sub) {
+      const key = `${g}|${sub}`;
+      pairCount.set(key, (pairCount.get(key) ?? 0) + 1);
+    }
+    if (typeof sub === 'string' && sub) {
+      subjectCount.set(sub, (subjectCount.get(sub) ?? 0) + 1);
+    }
+  }
+
+  let topSubject30d: string | null = null;
+  let bestSub = -1;
+  for (const [s, c] of subjectCount) {
+    if (c > bestSub) {
+      bestSub = c;
+      topSubject30d = s;
+    }
+  }
+
+  let topGradeSubject30d: ActivitySummary['topGradeSubject30d'] = null;
+  let bestPair = -1;
+  for (const [key, c] of pairCount) {
+    if (c > bestPair) {
+      bestPair = c;
+      const pipe = key.indexOf('|');
+      if (pipe > 0) {
+        const grade = parseInt(key.slice(0, pipe), 10);
+        const subject = key.slice(pipe + 1);
+        if (Number.isFinite(grade) && subject) {
+          topGradeSubject30d = { grade, subject, events: c };
+        }
+      }
+    }
+  }
+
+  const devices = aggregateUserAnalysis(rawLogs, min);
+  const activeDaysRank = devices.map((d, i) => ({
+    rank: i + 1,
+    deviceId: d.deviceId,
+    activeDays: d.activeDays,
+    lastSeen: d.lastSeen,
+  }));
+
+  return {
+    topSubject30d,
+    topGradeSubject30d,
+    activeDaysRank,
+  };
 }

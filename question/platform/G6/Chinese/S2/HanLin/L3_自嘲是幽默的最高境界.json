@@ -1,0 +1,115 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L3",
+  "lesson_title": "自嘲是幽默的最高境界",
+  "questions": [
+    {
+      "question": "【在分析議論文的論證邏輯時】作者為什麼主張「自嘲」是幽默的最高境界？",
+      "options": [
+        "因為自嘲通常能讓對方感到尷尬，從而顯現出自己的優越感。",
+        "因為比起嘲笑他人，拿自己開玩笑更能展現出包容力與智慧。",
+        "因為只有長相不好看的人才需要自嘲，這是一種無奈的舉動。",
+        "因為在公開場合中，法令規定每個人都必須具備基本的自嘲能力。"
+      ],
+      "answer_index": 1,
+      "explanation": "自嘲是一種不具備攻擊性、能化解尷尬且展示強大內心素質的藝術。它體現了人的自信以及對生活磨難的一種灑脫態度。",
+      "scenario": "探討作者的核心論點，辨析「自嘲」與「嘲笑」的本質差異。",
+      "commonMisconception": "學生可能選[A]，將幽默誤解為「勝負」，而忽略了文中強調的「智慧」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】文中舉了林肯總統面對「雙面人」指責時的回應，這段例證在文中最主要的功用是什麼？",
+      "options": [
+        "證明林肯總統不僅能把國家治理好，還能隨時想出有趣的笑話。",
+        "具體展示了如何運用自嘲化解敵對的攻擊，並展現非凡的氣度。",
+        "說明政治人物應該要多打扮自己，別讓大家覺得自己的臉太難看。",
+        "讓文章的內容變得更有趣，即便這段故事與林肯的主張沒有關連。"
+      ],
+      "answer_index": 1,
+      "explanation": "透過林肯拿自己長相開玩笑（如果是雙面人就不會戴這張醜臉）的故事，作者展示了如何以自嘲技巧反擊對手的羞辱，而非憤怒對罵。",
+      "scenario": "評估論據（例子）與論點（自嘲的智慧）之間的對應關係。",
+      "commonMisconception": "學生易受限於「直接推論」[A]，僅看見林肯好笑的一面，忽略了「化解攻擊」的功能。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【在區分幽默層級時】下列哪一種情況最符合文中強調的「有高度的幽默感」？",
+      "options": [
+        "當同學不小心跌倒時，指著他大笑並幫他取一個「跌倒大王」的綽號。",
+        "在自己演講出錯，發現全場冷場時，開口說：「看來我想幫大家練習耐心」。",
+        "每天在網路上搜尋有趣的笑話背下來，並在聚會場合中大聲唸出來。",
+        "看到學弟妹考不好時，告訴他們：「你們應該像我一樣聰明，好好讀書」。"
+      ],
+      "answer_index": 1,
+      "explanation": "幽默感在於「轉化窘迫情境」的能力，尤其是針對自己的過失進行自嘲，既能緩和氣氛，又不傷及他人利益。",
+      "scenario": "將課文理論遷移至校園生活情境，測試其辨識能力。",
+      "commonMisconception": "學生常將「取笑」[A] 誤認為幽默。這是高年級在「人際智慧」發展上必須澄清的概念。",
+      "taxonomy": "applied",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落寫法】文中提到「幽默是用來滋潤生活的潤滑劑」，這句話使用了哪一種修辭方法，其目的為何？",
+      "options": [
+        "排比：讓文章讀起來非常有氣勢，使人感到震懾。",
+        "譬喻：將抽象的幽默感具象化，讓讀者更好理解其功能。",
+        "誇飾：刻意誇大幽默的重要性，以便吸引社會大眾的目光。",
+        "倒裝：改變原本正常的語法順序，產生一種特殊的文學美感。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一個典型的隱喻（暗喻）。將幽默比作潤滑劑，精確地傳達了它能減少生活中「磨擦（摩擦與衝突）」的作用。",
+      "scenario": "考驗對修辭技巧在論說性文本中「功能性作用」的理解。",
+      "commonMisconception": "學生若只記修辭名稱，可能選錯[C]，而忽略了譬喻的根本作用在於「理解的簡化」。",
+      "taxonomy": "analysis",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主旨】根據課文所述，一個懂得自嘲的人，內心通常具備什麼樣的特質？",
+      "options": [
+        "高度的自信與自我接納能力。",
+        "對他人極度的不信任與敵意。",
+        "喜歡成為眾人注目的表演欲。",
+        "逃避現實問題的消極心態。"
+      ],
+      "answer_index": 0,
+      "explanation": "只有真正自信的人才敢於直視自己的缺點並開玩笑，自嘲是一種從容的、接納自我的表現，而非不自信。",
+      "scenario": "從具體文字推論到背後的人格特質（心靈圖像）。",
+      "commonMisconception": "學生有時會誤認自嘲是「自卑」[D]，這是完全相反的理解錯誤。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { SESSION_ADMIN_API_REMOTE } from '@/data/api';
 import { useNavigate, useLocation } from 'react-router-dom';
 import AdminConfigPanel from '@/components/admin/AdminConfigPanel';
 import AdminUserInsights from '@/components/admin/AdminUserInsights';
@@ -6,8 +7,39 @@ import AdminTestRunner from '@/components/admin/AdminTestRunner';
 import AdminLibraryManager from '@/components/admin/AdminLibraryManager';
 import AdminQualityAnalyzer from '@/components/admin/AdminQualityAnalyzer';
 import AdminUserManager from '@/components/admin/AdminUserManager';
+import AdminSiteFeedback from '@/components/admin/AdminSiteFeedback';
 import AdminFeedbackInsights from '@/components/admin/AdminFeedbackInsights';
+import AdminUserStats from '@/components/admin/AdminUserStats';
 import AdminUserAnalysis from '@/components/admin/AdminUserAnalysis';
+import libraryStats from '@/data/libraryStats.json';
+
+
+type LibraryStatsFile = {
+  lastUpdated?: string;
+  totalIndexed?: number;
+  stats?: Record<string, { count?: number }>;
+  publisherStats?: Record<string, unknown>;
+};
+
+function getAdminHeadlineFromLibrary(): {
+  totalQuestions: number;
+  matrixCount: number;
+  publisherComboCount: number;
+  lastUpdated: string;
+} {
+  const raw = libraryStats as LibraryStatsFile;
+  const stats = raw.stats ?? {};
+  const publisherStats = raw.publisherStats ?? {};
+  const sumCounts = Object.values(stats).reduce((acc, s) => acc + (typeof s?.count === 'number' ? s.count : 0), 0);
+  const totalQuestions =
+    typeof raw.totalIndexed === 'number' && raw.totalIndexed > 0 ? raw.totalIndexed : sumCounts;
+  return {
+    totalQuestions,
+    matrixCount: Object.keys(stats).length,
+    publisherComboCount: Object.keys(publisherStats).length,
+    lastUpdated: raw.lastUpdated?.trim() || '—',
+  };
+}
 
 // ─── 三大功能群組定義 ───────────────────────────────────
 // 頂層 3 個 Tab + 每個群組內部的子分頁
@@ -45,9 +77,11 @@ const TAB_GROUPS: TabGroup[] = [
     label: '分析中心',
     icon: '📈',
     subTabs: [
-      { key: 'usage', label: '使用統計', icon: '👥', component: AdminUserInsights },
-      { key: 'user_analysis', label: '使用者分析', icon: '🧭', component: AdminUserAnalysis },
+      { key: 'site_feedback', label: '留言回饋', icon: '💌', component: AdminSiteFeedback },
       { key: 'feedback', label: '題目回饋', icon: '💬', component: AdminFeedbackInsights },
+      { key: 'user_stats', label: '使用者統計', icon: '📊', component: AdminUserStats },
+      { key: 'user_analysis', label: '使用者分析', icon: '🧭', component: AdminUserAnalysis },
+      { key: 'usage', label: '使用統計', icon: '👥', component: AdminUserInsights },
       { key: 'logs', label: '操作日誌', icon: '📋', component: AdminTestRunner },
     ],
   },
@@ -66,6 +100,8 @@ export default function AdminDashboard() {
   const location = useLocation();
   const navigate = useNavigate();
   const [role, setRole] = useState<string>('');
+
+  const adminHeadline = useMemo(() => getAdminHeadlineFromLibrary(), []);
 
   useEffect(() => {
     try {
@@ -94,6 +130,9 @@ export default function AdminDashboard() {
   }, [location.pathname, role]);
 
   const handleLogout = () => {
+    try {
+      sessionStorage.removeItem(SESSION_ADMIN_API_REMOTE);
+    } catch { /* */ }
     sessionStorage.removeItem('admin_session');
     sessionStorage.removeItem('admin_token');
     navigate('/admin/login');
@@ -132,9 +171,25 @@ export default function AdminDashboard() {
       <div className="max-w-4xl mx-auto px-3 sm:px-4 py-4 space-y-4">
         {/* 快速統計列 */}
         <div className="grid grid-cols-3 gap-2">
-          <QuickStat icon="👤" value="1,247" label="註冊人數" trend="+12%" />
-          <QuickStat icon="📝" value="38,459" label="總答題數" trend="+8%" />
-          <QuickStat icon="✅" value="42" label="題庫組合" trend="正常" positive />
+          <QuickStat
+            icon="📝"
+            value={adminHeadline.totalQuestions.toLocaleString('zh-TW')}
+            label="上架題數（索引）"
+            trend={`libraryStats · ${adminHeadline.lastUpdated}`}
+          />
+          <QuickStat
+            icon="📚"
+            value={adminHeadline.matrixCount.toLocaleString('zh-TW')}
+            label="年級／學期／科矩陣"
+            trend="見 libraryStats.stats"
+          />
+          <QuickStat
+            icon="✅"
+            value={adminHeadline.publisherComboCount.toLocaleString('zh-TW')}
+            label="教材版本組合"
+            trend="見 publisherStats"
+            positive
+          />
         </div>
 
         {/* ─── 頂層 3 大群組 Tab ─── */}

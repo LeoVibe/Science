@@ -1,0 +1,121 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L2",
+  "lesson_title": "橘化為枳",
+  "questions": [
+    {
+      "question": "【在戰國時代的外交場合中】晏子提到「橘生淮南則為橘，生於淮北則為枳」的主要目的是什麼？",
+      "options": [
+        "運用生動的比喻，將齊國人在楚國偷竊歸因於楚國的環境影響。",
+        "暗示齊國人如同橘子一樣，在任何環境下都能保持本性。",
+        "感嘆齊國的物產豐富，以此炫耀齊國比楚國更加強大繁榮。",
+        "向楚王解釋植物因水土不同而產生變化的自然科學知識。"
+      ],
+      "answer_index": 0,
+      "explanation": "晏子以橘與枳的變化為喻，巧妙地進行反擊，指出齊國人在齊不偷，入楚則偷，是受楚國風氣（水土）影響，而非齊國人的本性。這是一種極具智慧的外交辯論技巧。",
+      "scenario": "晏子出使楚國，面對楚王的刻意刁難，展開了一場智慧與口才的較量。",
+      "commonMisconception": "學生易誤選[A]，僅從字面科學意義理解，忽略了外交辭令背後的反諷意圖。",
+      "taxonomy": "applied",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】文中提到的「葉徒相似，其實味不同」這句話，在晏子的論證邏輯中具有什麼樣的深層含義？",
+      "options": [
+        "警告楚王不要被事物的表象所欺騙，應深入觀察事情的本質。",
+        "說明人的外貌雖然相似，但內心的品德會因為居住地而改變。",
+        "強調兩地的植物雖然長得像，但果實的味道卻是天差地遠。",
+        "暗示楚國與齊國雖然看似都是大國，但國家的實力完全不同。"
+      ],
+      "answer_index": 1,
+      "explanation": "這句話在文中是用來比喻「人」。晏子想表達，這名小偷在齊國時本質是好的，但來到楚國後的行為（味道）卻變壞了，以此論證環境對人的巨大塑造作用。",
+      "scenario": "探討文章的核心比喻，將植物特性與人的人格特質進行類比推論。",
+      "commonMisconception": "學生常受限於「具體運思」，僅停留在植物外觀的描述[A]，而無法完成抽象的意義轉移。",
+      "taxonomy": "inferential",
+      "cqi_score": 6,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "選項(0)能引導學生思考晏子話語背後的邏輯意圖，而非僅停留在生物學表象，符合高階評鑑要求。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "question": "【在分析人物說話技巧時】當楚王問：「齊人固善盜乎？」晏子的回應語氣可以被解讀為下列何者？",
+      "options": [
+        "卑躬屈膝地道歉，希望能平息楚王對齊國人的不滿情緒。",
+        "憤怒地指責楚王，認為楚王不應該隨便羞辱其他的國家。",
+        "不卑不亢、以退為進，利用邏輯推演將問題點回歸給楚王。",
+        "沈默不語以示抗議，展現出齊國使節應有的高傲與尊嚴。"
+      ],
+      "answer_index": 2,
+      "explanation": "晏子並未直接否認或是生氣回擊，而是順著楚王的話，用「水土」的邏輯推導出是楚國的社群環境讓齊國人變壞，展現了高超的「以子之矛攻子之盾」之辯論術。",
+      "scenario": "分析外交場合中，人物如何面對挑釁並在維持禮儀的前提下進行反擊。",
+      "commonMisconception": "學生常因為讀不懂古文的反詰語氣，誤以為晏子是在「承認錯誤」或表現儒弱。",
+      "taxonomy": "applied",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【如果將《橘化為枳》的道理應用在現代生活中】下列哪一個情境最符合晏子所提出的「環境影響行為」觀點？",
+      "options": [
+        "無論運動選手在室內或是室外練習，他們所能發揮的實力都是固定的。",
+        "便利商店裡相同價格的兩種零食，包裝比較漂亮的通常會賣得比較好。",
+        "一個具備繪畫天賦的孩子，即便沒有老師教導，長大後依然成為畫家。",
+        "原本在班上愛搗亂的同學，調換座位到模範生旁邊後，也開始安靜讀書。"
+      ],
+      "answer_index": 3,
+      "explanation": "「環境（座位與同儕）改變了行為（原本搗亂變安靜）」，這精確對應了「橘化為枳」的核心主旨。其餘選項分別屬於先天論、消費心理或定值論。",
+      "scenario": "跨情境遷移：將古人的智慧應用於現代校園生活的觀察中。",
+      "commonMisconception": "學生可能選[B]，將「本質（天賦）」與「環境影響」混淆。",
+      "taxonomy": "applied",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【在解讀文章結構時】晏子先說橘與枳的故事，再說齊國人偷東西的事情。這種「類比推理」的方法在文中有什麼優點？",
+      "options": [
+        "避免直接談論偷竊這種尷尬的話題，改以討論水果來美化外交辭令。",
+        "讓文章變得更長，顯現出晏子是一個知識淵博、博學多才的人。",
+        "透過具體可見的自然現象，讓抽象的環境影響理論變得更具說服力。",
+        "能讓楚王在聽故事放鬆心情時，更容易接受原本難以接受的答案。"
+      ],
+      "answer_index": 2,
+      "explanation": "類比推理能將抽象、難解或具爭議性的話題，轉化為具體、公認的常識。楚王無法否認水土會影響植物，因此也就難以反駁水土也會影響人的行為。",
+      "scenario": "分析論說性文本的論證結構，理解「說理」的層次感。",
+      "commonMisconception": "容易誤選[D]，認為晏子只是在逃避話題，卻沒看見這背後的論證陷阱。",
+      "taxonomy": "inferential",
+      "cqi_score": 6,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

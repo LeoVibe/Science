@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const dirs = [
-    'question/platform/G6/Chinese/HanLin/',
-    'question/platform/G6/Chinese/NanI/'
+    'question/platform/G6/Chinese/S2/HanLin/',
+    'question/platform/G6/Chinese/S2/NanYi/'
 ];
 
 let blindTests = [];

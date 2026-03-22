@@ -140,6 +140,7 @@ Eidos 是一個專為國小學生設計的高互動性題庫演練系統，提�
 | 題庫 JSON 的格式規範 | [`question/README_題庫格式規範.md`](question/README_題庫格式規範.md) |
 | 前端 UI/UX 規格 | [`docs/技術設定/網站功能規格書.md`](docs/技術設定/網站功能規格書.md) |
 | 專案當前進度與瓶頸 | [`docs/prj_status.md`](docs/prj_status.md) |
+| 本機多 Agent / 單一 Git 工作目錄 | [`docs/開發協作-單一Git與工作目錄規範.md`](docs/開發協作-單一Git與工作目錄規範.md) |
 
 ### 術語速查
 

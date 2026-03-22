@@ -11,6 +11,13 @@ interface DayHourSegment {
   eventCount: number;
 }
 
+
+interface ActivitySummary {
+  topSubject30d: string | null;
+  topGradeSubject30d: { grade: number; subject: string; events: number } | null;
+  activeDaysRank: Array<{ rank: number; deviceId: string; activeDays: number; lastSeen: string }>;
+}
+
 interface UserAnalysisDevice {
   deviceId: string;
   activeDays: number;
@@ -32,6 +39,7 @@ export default function AdminUserAnalysis() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
+  const [summary, setSummary] = useState<ActivitySummary | null>(null);
 
   const toggle = useCallback((id: string) => {
     setExpanded((prev) => {
@@ -58,19 +66,27 @@ export default function AdminUserAnalysis() {
       });
       if (!res.ok) {
         const t = await res.text().catch(() => '');
-        const hint =
+        const isLocalBase =
+          /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/?$/i.test(base) ||
+          base.includes('localhost:') ||
+          base.includes('127.0.0.1:');
+        const hint404 =
           res.status === 404
-            ? '（API 可能未更新：本機請在 `backend/api` 執行 `npx wrangler dev`，並重啟）'
+            ? isLocalBase
+              ? '（本機 Worker 請在 `backend/api` 執行 `npm run dev` 或 `npx wrangler dev`，確認程式已含 `/api/admin/activity/user-analysis` 後重啟）'
+              : '（遠端 Worker 尚未部署此 API：請在 `backend/api` 執行 `npx wrangler deploy`，或推送 `main` 觸發 GitHub Actions；亦可暫時移除 `VITE_API_URL_REMOTE` 並用「本機認證測試」連本機）'
             : '';
-        throw new Error((t || res.statusText) + hint);
+        throw new Error((t || res.statusText) + hint404);
       }
-      const data = (await res.json()) as { devices?: UserAnalysisDevice[] };
+      const data = (await res.json()) as { devices?: UserAnalysisDevice[]; summary?: ActivitySummary };
       setDevices(Array.isArray(data.devices) ? data.devices : []);
+      setSummary(data.summary ?? null);
     } catch (e) {
       setDevices([]);
+      setSummary(null);
       const msg = e instanceof Error ? e.message : String(e);
       setError(
-        `無法載入使用者分析。請確認：① 已登入後台 ② API 位址為 ${getApiBaseUrl()} ③ 本機已啟動 Worker（\`cd backend/api && npx wrangler dev\`，預設 :8787）。詳情：${msg || '請求失敗'}`
+        `無法載入使用者分析。請確認：① 已登入後台 ② 目前 API：${getApiBaseUrl()} ③ 本機測試請啟動 Worker（\`cd backend/api && npm run dev\`，:8787）；遠端若 404 請部署 Worker。詳情：${msg || '請求失敗'}`
       );
     } finally {
       setLoading(false);
@@ -119,6 +135,35 @@ export default function AdminUserAnalysis() {
           </div>
         </div>
 
+        {!loading && !error && summary && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+            <div className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1">
+              <div className="font-bold text-foreground">近 30 日 · 最常科目（事件數）</div>
+              <p className="text-muted-foreground">{summary.topSubject30d ?? '—'}</p>
+            </div>
+            <div className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1">
+              <div className="font-bold text-foreground">近 30 日 · 年級＋科目熱點</div>
+              {summary.topGradeSubject30d ? (
+                <p className="text-muted-foreground">
+                  {summary.topGradeSubject30d.grade} 年級 · {summary.topGradeSubject30d.subject}（{summary.topGradeSubject30d.events} 次）
+                </p>
+              ) : (
+                <p className="text-muted-foreground">—</p>
+              )}
+            </div>
+            <div className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1 sm:col-span-2 lg:col-span-1">
+              <div className="font-bold text-foreground">活躍日數排名（前 5，依目前門檻）</div>
+              <ol className="list-decimal list-inside text-muted-foreground space-y-0.5">
+                {summary.activeDaysRank.slice(0, 5).map((r) => (
+                  <li key={r.deviceId}>
+                    <span className="font-mono text-[10px]">{r.deviceId.slice(0, 8)}…</span> · {r.activeDays} 天
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        )}
+
         {loading && <div className="py-8 text-center text-muted-foreground text-sm">載入中…</div>}
         {error && <div className="py-4 px-3 rounded-xl bg-destructive/10 text-destructive text-xs">{error}</div>}
         {!loading && !error && devices.length === 0 && (
@@ -132,7 +177,7 @@ export default function AdminUserAnalysis() {
         )}
         {!loading && !error && devices.length > 0 && (
           <div className="overflow-x-auto space-y-2">
-            {devices.map((d) => {
+            {devices.map((d, idx) => {
               const open = expanded.has(d.deviceId);
               return (
                 <div key={d.deviceId} className="rounded-xl border border-border/60 overflow-hidden">
@@ -144,8 +189,9 @@ export default function AdminUserAnalysis() {
                     {open ? <ChevronDown className="w-4 h-4 shrink-0 mt-0.5" /> : <ChevronRight className="w-4 h-4 shrink-0 mt-0.5" />}
                     <div className="flex-1 min-w-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 text-xs">
                       <div>
-                        <span className="text-muted-foreground block">裝置 ID</span>
-                        <span className="font-mono text-[10px] break-all">{d.deviceId}</span>
+                        <span className="text-muted-foreground block">排名 / 裝置 ID</span>
+                        <span className="font-semibold text-foreground">#{idx + 1}</span>
+                        <span className="font-mono text-[10px] break-all block">{d.deviceId}</span>
                       </div>
                       <div>
                         <span className="text-muted-foreground block">活躍 / 年級 / 科目</span>

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dir = 'question/platform/G6/Chinese/KangHsuan/';
+const dir = 'question/platform/G6/Chinese/S2/KangHsuan/';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'manifest.json' && f !== 'L2_把愛傳下去.json');
 
 // 這裡代表 Antigravity-Agent 閱讀題目選項後產生的推論結果

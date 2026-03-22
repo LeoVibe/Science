@@ -587,6 +587,7 @@ const Index = () => {
       return (
         <ProfileSetup
           initial={{ grade, semester, publisherBySubject: profile.publisherBySubject, autoAdvanceDelayMs: profile.autoAdvanceDelayMs, shortcut_enabled: profile.shortcut_enabled, maxQuizQuestions: profile.maxQuizQuestions }}
+          libraryConfig={libraryConfig}
           onSave={handleProfileSave}
           onClose={handleCloseSetup}
         />
@@ -679,6 +680,7 @@ const Index = () => {
                 initialScore={quizInitialScore}
                 initialAnswered={quizInitialAnswered}
                 initialStartTime={quizInitialStartTime}
+                activityContext={{ grade, semester, publisher }}
               />
             )}
 

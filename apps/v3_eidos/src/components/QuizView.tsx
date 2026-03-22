@@ -4,6 +4,7 @@ import QuestionFeedback from './QuestionFeedback';
 import IntentionTooltip from './IntentionTooltip';
 import { EducationalBadges } from './EducationalBadges';
 import { stripOptionPrefix } from '@/utils/format';
+import { logActivity } from '@/utils/activityLogger';
 
 interface QuizViewProps {
   questions: Question[];
@@ -29,6 +30,8 @@ interface QuizViewProps {
   initialScore?: number;
   initialAnswered?: { question: Question; isCorrect: boolean; selected: number }[];
   initialStartTime?: number;
+  /** 寫入活動日誌（答題事件）用之年級／學期／出版社 */
+  activityContext?: { grade: number; semester: number; publisher: string };
 }
 
 const DEFAULT_AUTO_ADVANCE_MS = 1500;
@@ -36,6 +39,7 @@ const DEFAULT_AUTO_ADVANCE_MS = 1500;
 export default function QuizView({
   questions, quizType, subject, autoAdvanceDelayMs = DEFAULT_AUTO_ADVANCE_MS, shortcutEnabled = true, onFinish, onBack, onSaveAnswer,
   userId, onProgressSave, initialIndex = 0, initialScore = 0, initialAnswered = [], initialStartTime = Date.now(),
+  activityContext,
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [score, setScore] = useState(initialScore);
@@ -68,6 +72,16 @@ export default function QuizView({
     }
     setAnswered(nextAnswered);
     onSaveAnswer(current.id, isCorrect);
+    if (activityContext) {
+      logActivity('answer_question', {
+        grade: activityContext.grade,
+        semester: activityContext.semester,
+        publisher: activityContext.publisher,
+        subject,
+        view: 'quiz',
+        correct: isCorrect,
+      });
+    }
     onProgressSave?.({
       questions,
       currentIndex: Math.min(currentIndex + 1, questions.length - 1),
@@ -76,7 +90,7 @@ export default function QuizView({
       type: quizType,
       startTime: initialStartTime,
     });
-  }, [confirmed, current, onSaveAnswer, onProgressSave, questions, currentIndex, score, answered, quizType, initialStartTime]);
+  }, [confirmed, current, onSaveAnswer, onProgressSave, questions, currentIndex, score, answered, quizType, initialStartTime, activityContext, subject]);
 
   const handleConfirm = useCallback(() => {
     if (selectedOption === null || confirmed) return;

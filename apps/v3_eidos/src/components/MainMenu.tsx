@@ -39,7 +39,7 @@ export default function MainMenu({
   const [showRangePanel, setShowRangePanel] = useState(false);
   const [selectedCats, setSelectedCats] = useState<Set<string>>(new Set());
   const theme = SUBJECT_THEME_MAP[subject];
-  const principleContent = getSubjectPrincipleContent(grade, subject);
+  const principleContent = getSubjectPrincipleContent(grade, semester, subject);
   const icon = SUBJECT_ICONS[subject];
   const hasQuestions = categories.length > 0;
   const showError = loadStatus === 'error';

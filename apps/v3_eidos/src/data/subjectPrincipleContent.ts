@@ -1,12 +1,23 @@
-import type { Grade, Subject } from '@/data/config';
+import type { Grade, Subject, Semester } from '@/data/config';
 
 export interface SubjectPrincipleSection {
   title: string;
   body: string;
 }
 
+export interface SubjectPrincipleResearchLayers {
+  /** 出題方向（對應內部：科總綱） */
+  r2: SubjectPrincipleSection;
+  /** 研究焦點（對應內部：年級／學期研究） */
+  r3: SubjectPrincipleSection;
+  /** 學習認知（對應內部：全學齡節奏） */
+  r1: SubjectPrincipleSection;
+}
+
 export interface SubjectPrincipleContent {
   title: string;
+  /** 學習規劃三卡：出題方向、研究焦點、學習認知 */
+  researchLayers?: SubjectPrincipleResearchLayers;
   sections: SubjectPrincipleSection[];
 }
 
@@ -14,17 +25,13 @@ export interface SubjectPrincipleContent {
  * 依年級與科目取得單科出題原則內容。
  * 注入感性且專業的教研文案 (JOB-046 Specs)。
  */
-export function getSubjectPrincipleContent(grade: Grade, subject: Subject): SubjectPrincipleContent {
-  // 通用的配比心法區塊
-  const ratioSection: SubjectPrincipleSection = {
-    title: '題組配比 - 4-4-2 最符合中年級的智力發育',
-    body: '「最契合三年級心智成熟度的認知節奏」。為什麼我的題組總是 4-4-2？這是我為三年級轉銜量身訂做的設計：40% 是「當課核心」，穩住新鮮知識；40% 是「穩定基礎」，複習易錯盲點；而最後 20% 的「融會貫通」，則是將各課觀念「中和」應用。這不只是一組題目，而是讓孩子在大腦承受度內，將知識轉化為能力的教育投資。'
-  };
+function getSubjectPrincipleContentCore(grade: Grade, semester: Semester, subject: Subject): SubjectPrincipleContent {
 
-  // 三年級國語 (AI 專家說精華版)
+  // 三年級國語 (AI 專家說精華版) — 依學期切換標題與第三段敘事
   if (grade === 3 && subject === '國語') {
+    const semTag = semester === 1 ? '上' : '下';
     return {
-      title: '三下國語：看見文字背後的畫面',
+      title: `三${semTag}學期國語：看見文字背後的畫面`,
       sections: [
         {
           title: '不只是考事實，更考「為什麼」',
@@ -36,9 +43,11 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         },
         {
           title: '跟大自然學解決的方法',
-          body: '三下有很多「向自然學習」的內容（如魯班、皮爾森）。我會刻意連結「觀察→思考→發明」的邏輯鏈，讓孩子明白讀書是學習解決問題的科學態度。'
-        },
-        ratioSection
+          body:
+            semester === 2
+              ? '三下有很多「向自然學習」的內容（如魯班、皮爾森）。我會刻意連結「觀察→思考→發明」的邏輯鏈，讓孩子明白讀書是學習解決問題的科學態度。'
+              : '三上先穩住敘事與段落理解，並在「自然與生活」主題中練習「觀察→描述→提問」，為下學期的遷移應用鋪路。'
+        }
       ]
     };
   }
@@ -51,8 +60,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🧮 算用合一原則',
           body: '看到數字就亂加減？那是因為孩子沒看懂問題。我們堅持「算用合一」。三年級的考題完全捨棄了單純的算式，取而代之的是【規劃校外教學】或【超市結帳】等真實場景。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -65,8 +73,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🌿 探究歷程導向',
           body: '科學不應該只是背誦實驗結果。我們的出題核心在於「探究歷程」。我們不直接問答案，而是還原【實驗室現場】，詢問孩子如何設計對照組、如何觀察細微變化。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -79,8 +86,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🏘️ 歷史人物思維',
           body: '我們捨棄死背地名與年代。題目設計融入了【社區居民的身分認同】與【環境變遷的決策】，引導孩子站在歷史人物的角度思考「為什麼要這樣選擇？」。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -93,8 +99,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🔤 溝通式教學法',
           body: '學英文，是為了在真實世界開口交朋友。針對三年級的英語斷層，我們導入了溝通式教學法。題目不再考瑣碎文法，而是將詞彙埋伏於長度適中、節奏明快的【生活對話】中。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -112,8 +117,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '✍️ 開始寫說明文',
           body: '四年級也是孩子第一次接觸說明文和議論文的學期。他們需要學會「有條理地把一件事說清楚」。我們的題目會測試孩子能否辨別說明文裡的「觀點」與「事實」，這是未來寫作文最重要的基本功。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -125,8 +129,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '📐 從具體到抽象的橋樑',
           body: '四年級數學的最大挑戰是「大數」與「分數」的同時登場。孩子的大腦要從操作實物跨越到操作符號，這需要時間和耐心。我們的題目會在每一道分數題中，都附上一個「切蛋糕」或「分糖果」的具體畫面，幫助大腦建立橋樑。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -138,8 +141,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🔬 觀察力的養成期',
           body: '四年級自然的重點從「知道答案」轉向「如何找到答案」。我們設計的題目會模擬實驗場景，問孩子：「如果你要比較哪種土壤吸水最快，你會怎麼設計這個實驗？」培養的不只是知識，更是科學思維。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -151,8 +153,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🏘️ 從我家到我的城市',
           body: '四年級社會將視野從「我的學校」擴展到「我的家鄉」。孩子開始學習地圖、方位、產業與歷史。我們的題目不會考地名的死背，而是問「如果你是這座城市的市長，你會怎麼解決交通擁塞？」讓孩子用社會科的知識來思考真實的問題。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -164,8 +165,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🌐 句型結構的建立',
           body: '四年級英語的核心挑戰是從「認得單字」跨越到「讀懂句子」。我們的題目會把新學的句型放在有脈絡的對話裡，讓孩子在情境中自然學會「I like...」和「Do you want...?」的使用時機。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -183,8 +183,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '📝 議論文的邏輯判斷',
           body: '五年級也是孩子第一次需要判斷「一個觀點有沒有說服力」。我們設計的題目會給出兩個不同的立場，讓孩子分析「哪個論點有證據支持？哪個只是在講感覺？」',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -196,8 +195,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🔢 抽象概念的正式登場',
           body: '五年級是數學難度曲線陡升的一年。分數的加減乘除、小數的位值概念、體積的三維想像⋯⋯每一個都需要孩子的大腦從「看得見的東西」跨向「想像中的結構」。我們用大量的生活情境（切披薩、量水杯、搬箱子），幫孩子建立具象的理解橋樑。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -209,8 +207,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🧪 變因控制與假設推理',
           body: '五年級自然科開始要求孩子設計「公平的實驗」——什麼變、什麼不變、怎麼比較。這是科學素養的核心能力。我們不考答案，專考過程：「你覺得哪個步驟可能出了問題？」',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -222,8 +219,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🗺️ 歷史同理心的萌芽',
           body: '五年級社會進入台灣史的學習。孩子需要開始理解「不同時代的人為什麼會做出那樣的決定」。我們的題目不考年代背誦，而是問：「如果你是當時的居民，你會選擇留下還是遷移？為什麼？」',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -235,8 +231,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '📖 短文閱讀理解',
           body: '五年級英語的挑戰從「讀句子」升級到「讀短文」。孩子要學會從一小段英文中找到關鍵訊息、推測不認識的字的意思。我們的題目會給出一段簡短的英文故事，讓孩子練習「從上下文猜意思」的能力。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -254,8 +249,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🌱 託物言志的深度閱讀',
           body: '六年級的散文常用「一個具體的東西」來代表「一種抽象的價值觀」——花生代表內斂、未走之路代表選擇。我們的題目會測試孩子能不能看穿這層隱喻，理解作者真正想說的話。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -267,8 +261,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '📊 比例與統計的實戰',
           body: '六年級數學是銜接國中的關鍵。比例、速率、統計圖表、圓面積⋯⋯這些概念都會在國中加速變深。我們的題目特別著重「看懂圖表並從中推論」，因為這是國中數學考試的主流題型。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -280,8 +273,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🌍 宏觀視野的建立',
           body: '六年級自然將視角從「實驗室」拉到「整個地球」。孩子開始學習天氣系統、生態鏈、能量轉換等大概念。我們的題目會問：「如果地球上的蜜蜂消失了，超市裡哪些食物會最先被影響？」',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -293,8 +285,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '🌏 從台灣看世界',
           body: '六年級社會將視野從台灣延伸到全球。孩子開始接觸國際議題、不同文化的價值觀、以及「什麼是公平正義」的思辨。我們的題目不考國家首都，而是問：「為什麼有些國家的小朋友沒辦法上學？我們可以做什麼？」',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -306,8 +297,7 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
         {
           title: '✈️ 實用英語的整合',
           body: '六年級英語是國小六年的大集合。孩子要能用英文描述過去發生的事、未來的計畫、以及自己的想法。我們的題目會模擬「寫信給外國筆友」或「在機場問路」等真實情境，讓英文從課本走進生活。',
-        },
-        ratioSection
+        }
       ],
     };
   }
@@ -320,11 +310,95 @@ export function getSubjectPrincipleContent(grade: Grade, subject: Subject): Subj
       {
         title: '大腦友善三原則',
         body: '本平台題目依認知負荷與情境設計，避免盲猜、強化推論。詳細內容請詳閱「出題原則」總覽。',
-      },
-      ratioSection
+      }
     ],
   };
 }
+
+
+// 各科「出題方向」對外說明（不含內部文件代碼）
+const R2_SUBJECT_GUIDANCE: Record<Subject, string> = {
+  國語:
+    '以「閱讀推論、誘答合理性、修辭與篇章結構」為主軸；誘答設計著重同理心投射、合理化迷思與語氣延展，避免無意義堆字。',
+  數學:
+    '重視「讀懂題意、迷思概念與同質性選項」：題目以情境建模與算用合一為核心，避免用長度或關鍵字盲猜。',
+  自然:
+    '以「探究歷程、變因控制與證據導向」為核心；題目還原觀察與實驗推理，而非只背結論。',
+  社會:
+    '強調「時空脈絡、因果與證據推理」；題目以情境與角色判斷取代地名年代的死背。',
+  英語:
+    '以「溝通語用與情境理解」為優先；評量放在可理解的語境與意義，而非瑣碎規則。',
+  生活:
+    '聚焦「整合活動與經驗連結」；題材貼近日常與安全，避免超出低年級語彙。',
+};
+
+/** 精選：年級＋學期＋科目之本冊焦點；未列者走 getR3Body 預設模板 */
+const R3_FOCUS: Partial<Record<string, string>> = {
+  '3_1_國語': '三上：童話／神話與生活語彙；題組與課文目錄對齊，先穩住段落理解與詞彙策略，再銜接長文。',
+  '3_2_國語': '三下：寓言、說明應用與長文閱讀策略；題組與本冊素材對齊，強化推論與寫作遷移。',
+  '4_1_國語': '四上：篇章推論與修辭覺察起飛；題組呼應「段落因果與作者意圖」的學習里程碑。',
+  '4_2_國語': '四下：說明／議論文本入門；題組著重「觀點／事實」辨識與條理表達。',
+  '5_1_國語': '五上：弦外之音與進階修辭；題組強化象徵、反諷等閱讀跳躍。',
+  '5_2_國語': '五下：論點與證據的初步判讀；題組著重立場比較與說服力評估。',
+  '6_1_國語': '六上：篇章結構與升學銜接的穩定度；題組整合長文策略與語感。',
+  '6_2_國語': '六下：文言文入門、古典詩詞與託物言志；題組重視語氣、象徵與文化語感。',
+  '3_2_數學': '三下：分數與幾何應用加深；題組與單元迷思點對齊，維持情境建模與解題步驟可檢核。',
+  '6_2_數學': '六下：比例、速率與統計圖表銜接國中；題組著重圖表推論與真實問題。',
+  '6_2_自然': '六下：地球科學與生態系統觀；題組著重巨觀概念與證據推理。',
+  '6_2_社會': '六下：全球視野與議題思辨；題組帶入價值與公平的初階討論。',
+};
+
+function getR3Body(grade: Grade, semester: Semester, subject: Subject): string {
+  const key = `${grade}_${semester}_${subject}`;
+  const hit = R3_FOCUS[key];
+  if (hit) return hit;
+  const g = ['', '一', '二', '三', '四', '五', '六'][grade];
+  const sem = semester === 1 ? '上' : '下';
+  const fallback: Record<Subject, string> = {
+    國語: `題組與本學期研究與課文目錄對齊，強化閱讀與寫作策略遷移。`,
+    數學: `題組與單元概念與迷思點對齊，重視情境建模與步驟合理性。`,
+    自然: `題組與探究主題與實驗語彙對齊，重視變因與證據。`,
+    社會: `題組與時空與議題脈絡對齊，重視因果與證據推理。`,
+    英語: `題組與單元溝通任務對齊，重視情境理解與語意。`,
+    生活: `題組與生活主題對齊，重視安全、經驗與語彙。`,
+  };
+  return `${g}年級${sem}學期：${fallback[subject]}`;
+}
+
+function getR1Body(grade: Grade): string {
+  if (grade <= 2) {
+    return '低年段以記憶提取、基礎推論與貼近生活場景為主；此階段題型設計避免超出孩子能負荷的抽象思辨。';
+  }
+  if (grade <= 4) {
+    return '中年段：記憶、推論與場景應用並進；題組常採「4-4-2」節奏，讓新知、易錯點與融會貫通在同一套練習中彼此支援。';
+  }
+  return '高年段：場景應用與思辨權重提高；題組更常出現跨段落、跨情境推論，但仍穿插較容易的題目作為信心錨點，避免連續高負荷。';
+}
+
+/**
+ * 依年級、學期與科目取得「AI 專家說」內容：學習重點段落 + 三層學習規劃。
+ */
+export function getSubjectPrincipleContent(grade: Grade, semester: Semester, subject: Subject): SubjectPrincipleContent {
+  const core = getSubjectPrincipleContentCore(grade, semester, subject);
+  return {
+    ...core,
+    researchLayers: {
+      r2: {
+        title: `${subject}出題方向`,
+        body: R2_SUBJECT_GUIDANCE[subject],
+      },
+      r3: {
+        title: '研究焦點',
+        body: getR3Body(grade, semester, subject),
+      },
+      r1: {
+        title: '學習認知',
+        body: getR1Body(grade),
+      },
+    },
+  };
+}
+
 
 /** 跨科目出題原則總綱 */
 export const CROSS_SUBJECT_PRINCIPLE = {

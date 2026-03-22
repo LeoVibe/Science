@@ -1,0 +1,115 @@
+{
+  "publisher": "南一",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L1",
+  "lesson_title": "清平樂村居",
+  "questions": [
+    {
+      "question": "【分析宋詞特色】關於《清平樂村居》這首詞，下列哪一個描述最能體現「詞」與「詩」在結構上的不同？",
+      "options": [
+        "這首作品的字數長短不一，且分為上、下兩段（雙調）。",
+        "這首作品完全不押韻，這在唐詩中是絕對不被允許的。",
+        "這首作品只有題目沒有作者，這是詞類作品的最大特色。",
+        "這首作品只能描寫農村，不能描寫其他的風景或情感。"
+      ],
+      "answer_index": 0,
+      "explanation": "詞又稱「長短句」。《清平樂》是詞牌名，規定了字數、平仄與節奏。分為上下兩片（或稱上下闋、雙調）是其典型的結構特徵。",
+      "scenario": "辨析古典文學體裁（詞 vs 詩）的結構性差異。",
+      "commonMisconception": "學生常選[C]，誤以為「清平樂」是題目，且對作者辛棄疾缺乏認知。",
+      "taxonomy": "literal",
+      "cqi_score": 4.75,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀詞境美學】詞中描寫「最喜小兒無賴，溪頭臥剝蓮蓬」，這裡的「無賴」應該如何解釋最符合詞人的情感？",
+      "options": [
+        "指小孩不務正業，只會遊手好閒，這讓詞人感到非常失望。",
+        "指小孩天真活潑、頑皮可愛的樣子，展現出生機勃勃的童趣。",
+        "指小孩經常對鄰居耍賴、吵鬧，是一個讓人感到頭痛的好動兒。",
+        "指小孩因為家裡太窮了，所以沒有賴以生存的工具而感到痛苦。"
+      ],
+      "answer_index": 1,
+      "explanation": "這裡的「無賴」是反話，帶有極其親暱與讚美的色彩。這測驗學生能否理解文學中的「語感轉向」，而非僅看字面負面含義。",
+      "scenario": "解析古文中「特定詞彙」在特殊情感語境下的正向轉義。",
+      "commonMisconception": "學生易依據現代語感選[A]，而忽略了全篇恬淡且喜悅的氛圍。",
+      "taxonomy": "inferential",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析視覺層次】詞人先寫「茅簷低小，溪上青青草」，再寫到翁媼對飲，最後才寫到三個兒子的活動。這種由遠及近、由大到小的寫法有什麼好處？",
+      "options": [
+        "讓讀者感到視覺疲勞，因為要一下子記住這麼多人的不同名稱。",
+        "營造出一個完整、寧靜且具有生活溫度的「農家空間感」。",
+        "顯示作者家裡的人口非常多，光是一餐就要吃下好幾斤的米。",
+        "證明這是一篇紀錄片，內容完全真實且沒有任何文學加工痕跡。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一種「電影運鏡」式的文學技巧。從宏觀環境引入微觀人物，讓「村居」的形象變得立體且親切。",
+      "scenario": "探討古典詩詞中的「空間布局」與「讀者視覺導引」。",
+      "commonMisconception": "學生容易選[D]，忽略了這背後是詞人匠心獨具的安排（美學對比）。",
+      "taxonomy": "analysis",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解析人物意象】詞中主角「翁媼」正在「醉裡吳音相媚好」，其主要傳遞出什麼樣的生活氛圍？",
+      "options": [
+        "這對夫妻正在藉酒澆愁，因為兒女都不孝順、不願意照顧他們。",
+        "環境雖簡陋，但老夫婦相依為命、生活恬適自得的幸福感。",
+        "這是一場盛大的村莊宴會，每個人都喝得大醉，完全失去了理智。",
+        "他們正在爭吵，因為酒錢花得太多了，導致家裡的蓮蓬都不夠吃。"
+      ],
+      "answer_index": 1,
+      "explanation": "「相媚好」意指親熱地聊天。這與外界的動盪形成強烈對比。辛棄疾身處南宋戰亂時期，特別嚮往這種極致平凡的安定感。",
+      "scenario": "結合歷史背景（辛棄疾的隱逸生活）推論詞作的情感底層色調。",
+      "commonMisconception": "學生若看到「醉」字就選負面[A]，會錯失對「生活熱愛」的捕捉。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨情境連結】如果請你為這首《清平樂村居》拍一張宣傳照，哪一種色調與構圖最符合原作的精神？",
+      "options": [
+        "黑白色調：展現出傳統古典文學的高深莫測與沈重歷史感。",
+        "暖色系色調：展現翠綠草地與夕陽餘暉下，家庭共享共融的溫暖感。",
+        "科幻螢光色：展現出這是一首與大自然能量場進行溝通的神秘作品。",
+        "冷冽藍色系：展現出詞人獨自一人在溪邊受凍、無人照顧的孤獨感。"
+      ],
+      "answer_index": 1,
+      "explanation": "本文的精神在於「清新、自然、溫情」。[B] 選項的暖色與共融最能捕捉詞作的核心。",
+      "scenario": "將文學作品的情感意境轉化為現代視覺語言（美學素養）。",
+      "commonMisconception": "學生易因成語「十年寒窗」選[D]，而未看見本文特有的「村居喜樂」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

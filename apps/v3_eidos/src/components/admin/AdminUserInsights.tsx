@@ -40,9 +40,9 @@ export default function AdminUserInsights() {
   return (
     <div className="space-y-4 animate-in fade-in duration-200">
       <div className="bg-card rounded-2xl border p-4 space-y-4">
-        <h3 className="font-bold text-sm flex items-center gap-1.5">👥 裝置統計（依活動軌跡）</h3>
+        <h3 className="font-bold text-sm flex items-center gap-1.5">👥 使用統計（裝置明細）</h3>
         <p className="text-xs text-muted-foreground">
-          以裝置識別碼 (deviceId) 分群，顯示初次使用日、最後活動時間與總活躍天數。資料來源：Cloudflare KV（需前端同步後才會出現）。
+          以裝置識別碼 (deviceId) 分群，列出初次使用、最後活動與活躍天數。若需「近 1／7／30 天不重複使用者數」與年級分佈，請見「使用者統計」分頁。資料來源：KV（需前端同步活動日誌）。
         </p>
 
         {loading && (

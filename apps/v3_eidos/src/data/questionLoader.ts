@@ -1,5 +1,6 @@
 import { Grade, Subject, Semester, Publisher, Question, PUBLISHER_META_MAP, SUBJECT_CODE, SUBJECT_PLATFORM_PATH, PUBLISHER_PLATFORM_PATH } from './config';
 import { withBase } from '@/utils/basePath';
+import { filterAndOrderLessonCategories, isCurriculumUnitLabel } from '@/utils/lessonCategories';
 
 /** 題庫 manifest 內單元/課的結構（支援 units / items / manifest 三種格式） */
 interface ManifestUnitLike {
@@ -159,9 +160,11 @@ export async function loadQuestions(
 
     if (manifestOnly) {
       const items = Array.isArray(manifest.items) ? (manifest.items as (ManifestUnitLike & { count?: number })[]) : [];
-      const categories = items.map((it) => it.title ?? '').filter(Boolean);
+      const categories = items.map((it) => it.title ?? '').filter(Boolean).filter((title) => !isCurriculumUnitLabel(title));
       const categoryCounts: Record<string, number> = {};
-      items.forEach(it => { if (it.title) categoryCounts[it.title] = it.count ?? 0; });
+      items.forEach((it) => {
+        if (it.title && !isCurriculumUnitLabel(it.title)) categoryCounts[it.title] = it.count ?? 0;
+      });
 
       return {
         status: 'success',
@@ -319,15 +322,19 @@ export async function loadQuestions(
     }
 
     allQuestions.sort((a, b) => a.lessonOrder - b.lessonOrder);
+    // 排除誤列為「第○單元」的列（非單篇課文，不應作為出題課次）
+    allQuestions = allQuestions.filter((q) => !isCurriculumUnitLabel(String(q.category ?? '')));
     const status: QuestionLoadStatus = allQuestions.length > 0 || manifestOnly ? 'success' : 'empty';
     const items = Array.isArray(manifest.items) ? (manifest.items as (ManifestUnitLike & { count?: number })[]) : [];
     const categoryCounts: Record<string, number> = {};
-    items.forEach(it => { if (it.title) categoryCounts[it.title] = it.count ?? 0; });
+    items.forEach((it) => {
+      if (it.title && !isCurriculumUnitLabel(it.title)) categoryCounts[it.title] = it.count ?? 0;
+    });
 
     return {
       status,
       questions: allQuestions,
-      getAllCategories: () => [...new Set(allQuestions.map(q => q.category))],
+      getAllCategories: () => filterAndOrderLessonCategories(allQuestions),
       getQuestionsByCategory: (cat: string) => allQuestions.filter(q => q.category === cat),
       categoryCounts,
       manifest

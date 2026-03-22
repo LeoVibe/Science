@@ -4,7 +4,7 @@ import type { SubjectPrincipleContent } from '@/data/subjectPrincipleContent';
 interface InsightDrawerProps {
   open: boolean;
   onClose: () => void;
-  /** 本科出題原則文案 */
+  /** 本科出題原則文案（學習重點＋三層學習規劃） */
   principleContent?: SubjectPrincipleContent;
 }
 
@@ -19,6 +19,8 @@ export default function InsightDrawer({ open, onClose, principleContent }: Insig
   }, [open, onClose]);
 
   if (!open) return null;
+
+  const layers = principleContent?.researchLayers;
 
   return (
     <>
@@ -44,16 +46,22 @@ export default function InsightDrawer({ open, onClose, principleContent }: Insig
           </button>
         </div>
         <div className="p-4 space-y-6">
-          {/* Section: AI 專家心法 - 改由完全資料驅動，包含配比說明 */}
           {principleContent && (
-            <section className="space-y-3 pt-2">
-              <h3 className="font-bold text-foreground text-sm flex items-center gap-2">
-                🎯 {principleContent.title}
-              </h3>
+            <section className="space-y-2 pt-2 border-b border-border/60 pb-4">
+              <h3 className="font-bold text-foreground text-sm leading-snug">{principleContent.title}</h3>
+              <p className="text-[10px] text-muted-foreground leading-relaxed">
+                先從這一科「學習重點」看起，再往下了解我們在出題方向、本冊焦點與學習節奏上的規劃。
+              </p>
+            </section>
+          )}
+
+          {principleContent && principleContent.sections.length > 0 && (
+            <section className="space-y-3 pt-0">
+              <h3 className="font-bold text-foreground text-sm flex items-center gap-2">學習重點</h3>
               <div className="space-y-3">
                 {principleContent.sections.map((sec, i) => (
-                  <div key={i} className="bg-amber-50/50 rounded-2xl p-4 border border-amber-200/30 space-y-1.5">
-                    <h4 className="font-bold text-amber-800 text-[11px]">{sec.title}</h4>
+                  <div key={i} className="rounded-2xl p-4 border border-border bg-muted/30 space-y-1.5">
+                    <h4 className="font-bold text-foreground text-[11px]">{sec.title}</h4>
                     <p className="text-[11px] text-muted-foreground leading-relaxed">{sec.body}</p>
                   </div>
                 ))}
@@ -61,8 +69,27 @@ export default function InsightDrawer({ open, onClose, principleContent }: Insig
             </section>
           )}
 
-          <p className="text-[10px] text-muted-foreground/60 text-center pt-4 italic">
-            出題研究
+          {layers && (
+            <section className="space-y-3 pt-2 border-t border-border/60">
+              <h3 className="font-bold text-foreground text-xs uppercase tracking-wide text-muted-foreground">
+                學習規劃
+              </h3>
+              <div className="space-y-3">
+                {[layers.r2, layers.r3, layers.r1].map((sec, i) => (
+                  <div
+                    key={i}
+                    className="rounded-2xl p-4 border border-border bg-secondary/40 space-y-1.5"
+                  >
+                    <h4 className="font-bold text-primary text-[11px] leading-snug">{sec.title}</h4>
+                    <p className="text-[11px] text-muted-foreground leading-relaxed">{sec.body}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <p className="text-[10px] text-muted-foreground/70 text-center pt-2 leading-relaxed">
+            從學習節奏、科目方向到本冊課次，我們層層把關，讓練習更貼近真實學習。
           </p>
         </div>
       </aside>

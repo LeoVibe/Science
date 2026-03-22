@@ -45,6 +45,15 @@
 - **Production API**：https://eidos-api.eidos.workers.dev  
 - 詳細步驟與回滾說明見 `jobs/JOB-028-Report.md`。
 
+## 後台「使用者分析」若出現 404（`{"error":"Not Found"}`）
+
+- 程式已實作 `GET /api/admin/activity/user-analysis`（邏輯在 `scripts/workers/api/src/index.ts`，由 `backend/api` 轉匯入）。
+- **本機**：在 `backend/api` 執行 `npm run dev`，前端應連 `http://localhost:8787`（或 `VITE_API_URL`）。
+- **遠端**（例如 `VITE_API_URL_REMOTE=https://eidos-api.….workers.dev`）：若仍 404，代表**線上 Worker 尚未部署含此路由的版本**，請：
+  1. 在 `backend/api` 執行 **`npx wrangler deploy`**（需已登入 wrangler 並有權限），或
+  2. 將變更推上 **`main`** 並觸發 `.github/workflows/deploy-api.yml`，或
+  3. 暫時**不要設** `VITE_API_URL_REMOTE`，改用後台「**本機認證測試**」只打本機 Worker 驗證功能。
+
 ## 遷移說明
 
 - 既有舊路徑 `scripts/workers/api` 仍保留作為短期相容入口。

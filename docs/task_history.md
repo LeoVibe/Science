@@ -2,6 +2,13 @@
 
 本文件紀錄專案的開發軌跡、關鍵決策與技術進展。
 
+### [2026-02-27] AI 專家說：R2／R3／R1 與學期差異 (JOB-086)
+- **完成**：`getSubjectPrincipleContent` 納入學期參數；抽離 R2 科總綱、R3 本冊焦點、R1 年段配比；`InsightDrawer` 分區呈現；三年級國語依學期切換標題與第三段敘事。
+
+### [2026-02-27] G6 下學期國語題庫路徑對齊 (JOB-085)
+- **原因**：題庫放在 `G6/Chinese/出版社/`，缺少 `S2` 層，導致 `generate_library_stats.js` 未掃到、`libraryStats` 無六年級國語；與 `questionLoader` 預期路徑不一致。
+- **完成**：改為 `G6/Chinese/S2/{KangHsuan,NanYi,HanLin}/`；更新相關 scripts；重產 `libraryStats.json`。
+
 ### [2026-03-22] 後台分析中心「使用者分析」與 Activity IP (JOB-081)
 - **完成項目**：
   - Worker：`POST /api/activity` 寫入 `clientIp`（CF-Connecting-IP / X-Forwarded-For）；新增 `GET /api/admin/activity/user-analysis`（管理員 Bearer），聚合活躍天數門檻以上裝置之日／UTC 小時時段、IP、日誌推斷年級與常點科目、錯題統計路徑。
@@ -70,3 +77,12 @@
 - **完成項目**：
   - 完成六下國語 R4 發展綱要與 L4 成熟度題庫產出。
 - **備註**：作為高年級題庫品質標竿。
+
+### [2026-03-22] 後台分析中心分頁重排與留言／使用者統計 API (JOB-082)
+- **完成項目**：分析中心順序為 留言回饋 → 題目回饋 → 使用者統計 → 使用者分析 → 使用統計 → 操作日誌；Worker 新增 `GET /api/admin/site-feedback`、`GET /api/admin/activity/user-stats`；user-analysis 附 `summary`；QuizView 寫入 `answer_question`。
+- **關鍵決策**：「使用者數」以 deviceId 估算；全站留言沿用 D1 `SITE_FEEDBACK` 寫入方式。
+
+
+### [2026-03-22] 後台題目回饋明細與 7/30 日篩選 (JOB-084)
+- **完成項目**：`GET /api/admin/feedback/entries`；`stats` 支援 `range`；`AdminFeedbackInsights` 明細表與標籤對齊前台。
+

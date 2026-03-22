@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { adminAuthRequest, getApiBaseUrl } from '@/data/api';
+import { adminAuthRequest, getApiBaseUrl, SESSION_ADMIN_API_REMOTE } from '@/data/api';
 
 /** 須與 Worker `LOCAL_DEV_ADMIN_BYPASS_TOKEN`（scripts/workers/api/src/index.ts）完全一致 */
 const LOCAL_DEV_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
@@ -73,6 +73,7 @@ export default function AdminLogin() {
 
         const result = await adminAuthRequest(credential);
         if (result.status === 200) {
+          sessionStorage.setItem(SESSION_ADMIN_API_REMOTE, '1');
           sessionStorage.setItem('admin_session', JSON.stringify(result.session));
           sessionStorage.setItem('admin_token', result.token);
           setLoginState('approved');
@@ -133,6 +134,9 @@ export default function AdminLogin() {
   const handleLocalDevBypass = () => {
     setError('');
     setLoginState('idle');
+    try {
+      sessionStorage.removeItem(SESSION_ADMIN_API_REMOTE);
+    } catch { /* */ }
     sessionStorage.setItem('admin_token', LOCAL_DEV_BYPASS_TOKEN);
     sessionStorage.setItem(
       'admin_session',
@@ -149,7 +153,11 @@ export default function AdminLogin() {
     setError('');
     setLoginState('idle');
     if (!clientId) {
-      setError('尚未設定 VITE_GOOGLE_CLIENT_ID，請先在環境變數中設定 Google OAuth Client ID。');
+      setError(
+        import.meta.env.DEV
+          ? '請在 apps/v3_eidos/.env.local 設定 VITE_GOOGLE_CLIENT_ID（與 backend/api/.dev.vars 的 GOOGLE_CLIENT_ID 相同），或直接使用下方「本機認證測試」。'
+          : '尚未設定 VITE_GOOGLE_CLIENT_ID，請先在環境變數中設定 Google OAuth Client ID。'
+      );
       return;
     }
     if (!gisReady) {
@@ -182,7 +190,13 @@ export default function AdminLogin() {
             </div>
           )}
           {error && (
-            <div className="bg-destructive/10 text-destructive text-xs font-medium px-3 py-2 rounded-xl">
+            <div
+              className={
+                import.meta.env.DEV && error.includes('.env.local')
+                  ? 'bg-muted text-muted-foreground text-xs font-medium px-3 py-2 rounded-xl border border-border'
+                  : 'bg-destructive/10 text-destructive text-xs font-medium px-3 py-2 rounded-xl'
+              }
+            >
               {error}
             </div>
           )}

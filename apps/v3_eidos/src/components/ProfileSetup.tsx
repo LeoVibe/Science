@@ -37,6 +37,8 @@ interface ProfileSetupProps {
   initial?: UserProfile;
   onSave: (profile: UserProfile) => void;
   onClose: () => void;
+  /** 與首頁／後台同步的題庫開放設定（優先於僅讀 localStorage） */
+  libraryConfig?: LibraryConfig | null;
 }
 
 const GRADE_LABELS: Record<Grade, string> = { 1: '一', 2: '二', 3: '三', 4: '四', 5: '五', 6: '六' };
@@ -52,7 +54,7 @@ function getDefaultPublisher(): Publisher {
 
 const DEFAULT_AUTO_ADVANCE_MS = 1500;
 
-export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupProps) {
+export default function ProfileSetup({ initial, onSave, onClose, libraryConfig: libraryConfigProp }: ProfileSetupProps) {
   const [activeTab, setActiveTab] = useState<'education' | 'habits'>('education');
 
   const [grade, setGrade] = useState<Grade>(() => {
@@ -72,15 +74,17 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
     const globalMax = localStorage.getItem('MAX_QUIZ_QUESTIONS');
     return globalMax ? parseInt(globalMax, 10) : 25;
   });
-  const [libraryConfig, setLibraryConfig] = useState<LibraryConfig | null>(null);
+  const [libraryConfigLocal, setLibraryConfigLocal] = useState<LibraryConfig | null>(null);
   const backdropRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const configData = localStorage.getItem('EIDOS_LIBRARY_CONFIG');
     if (configData) {
-      try { setLibraryConfig(JSON.parse(configData)); } catch (e) { }
+      try { setLibraryConfigLocal(JSON.parse(configData)); } catch (e) { }
     }
   }, []);
+
+  const libraryConfig = libraryConfigProp ?? libraryConfigLocal;
 
   const [publisherBySubject, setPublisherBySubject] = useState<Partial<Record<Subject, Publisher>>>(() => {
     if (initial?.publisherBySubject && Object.keys(initial.publisherBySubject).length > 0) {
@@ -193,10 +197,12 @@ export default function ProfileSetup({ initial, onSave, onClose }: ProfileSetupP
                 <label className="block text-[11px] font-bold text-muted-foreground mb-1.5 tracking-wider">年級</label>
                 <div className="grid grid-cols-6 gap-1.5">
                   {APP_CONFIG.grades.map(g => {
-                    const isSystemSupported = g >= 3 && g <= 5;
-                    const gConfig = libraryConfig?.grades[g as Grade];
-                    const isConfigEnabled = libraryConfig ? (gConfig?.enabled === true) : true;
-                    const isEnabled = isSystemSupported && isConfigEnabled;
+                    const gGrade = g as Grade;
+                    const gConfig = libraryConfig?.grades[gGrade];
+                    /** 未載入 EIDOS_LIBRARY_CONFIG 時與 WelcomeSetup 相同：預設僅 3–5；載入後依後台題庫年級開關 */
+                    const isEnabled = !libraryConfig
+                      ? gGrade >= 3 && gGrade <= 5
+                      : gConfig?.enabled === true;
 
                     return (
                       <button

@@ -6,7 +6,7 @@
  * - POST /api/admin/auth/request, GET/PATCH /api/admin/auth/users
  */
 
-import { aggregateUserAnalysis } from './userAnalysis';
+import { aggregateActivitySummary, aggregateUserAnalysis, aggregateUserStats } from './userAnalysis';
 
 /** 與前端 AdminLogin 本機繞過按鈕共用；僅在 .dev.vars 設 ADMIN_LOCAL_DEV_BYPASS=true 時生效，勿上線正式環境 */
 const LOCAL_DEV_ADMIN_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
@@ -56,6 +56,17 @@ type AdminConfig = {
 };
 
 /** Cloudflare / 反向代理上的客戶端 IP（寫入活動紀錄供後台診斷） */
+
+/** 題目回饋專用：排除全站留言；可選 7 日／30 日內（ISO 時間比對） */
+function feedbackQuestionFilter(range: string | null): { clause: string; binds: string[] } {
+  const exclude = "question_id != 'SITE_FEEDBACK'";
+  if (!range || range === 'all') return { clause: exclude, binds: [] };
+  const days = range === '7d' ? 7 : range === '30d' ? 30 : 0;
+  if (days <= 0) return { clause: exclude, binds: [] };
+  const cut = new Date(Date.now() - days * 86400000).toISOString();
+  return { clause: `${exclude} AND created_at >= ?`, binds: [cut] };
+}
+
 function extractClientIp(req: Request): string {
   const cf = req.headers.get('CF-Connecting-IP')?.trim();
   if (cf) return cf;
@@ -458,22 +469,72 @@ export default {
         if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
 
         try {
-          // 1. 總計與標籤分佈
-          const tagStats = await env.DB.prepare(
-            'SELECT tag, COUNT(*) as count FROM feedback GROUP BY tag'
-          ).all();
+          const range = url.searchParams.get('range');
+          const { clause, binds } = feedbackQuestionFilter(range);
+          // 1. 總計（僅題目回饋、依時間範圍）
+          const totalRow = await env.DB.prepare(`SELECT COUNT(*) as c FROM feedback WHERE ${clause}`).bind(...binds).first();
+          const total = typeof (totalRow as { c?: number })?.c === 'number' ? (totalRow as { c: number }).c : 0;
 
-          // 2. 熱點題目 (被投訴最多次的前 10 名)
+          // 2. 標籤分佈
+          const tagStats = await env.DB.prepare(`SELECT tag, COUNT(*) as count FROM feedback WHERE ${clause} GROUP BY tag`).bind(...binds).all();
+
+          // 3. 熱點題目
           const hotspotQuestions = await env.DB.prepare(
-            'SELECT question_id, COUNT(*) as report_count FROM feedback GROUP BY question_id ORDER BY report_count DESC LIMIT 10'
-          ).all();
+            `SELECT question_id, COUNT(*) as report_count FROM feedback WHERE ${clause} GROUP BY question_id ORDER BY report_count DESC LIMIT 10`
+          )
+            .bind(...binds)
+            .all();
 
-          return json({
-            ok: true,
-            total: tagStats.results.reduce((acc, curr: any) => acc + curr.count, 0),
-            tagStats: tagStats.results,
-            hotspots: hotspotQuestions.results
-          }, { headers });
+          return json(
+            {
+              ok: true,
+              range: range && ['7d', '30d', 'all'].includes(range) ? range : 'all',
+              total,
+              tagStats: tagStats.results,
+              hotspots: hotspotQuestions.results,
+            },
+            { headers }
+          );
+        } catch (e) {
+          return json({ error: String(e) }, { status: 500, headers });
+        }
+      }
+
+      if (path === '/api/admin/feedback/entries' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+        try {
+          const range = url.searchParams.get('range');
+          const limitRaw = parseInt(url.searchParams.get('limit') || '300', 10);
+          const limit = Math.min(500, Math.max(1, Number.isFinite(limitRaw) ? limitRaw : 300));
+          const { clause, binds } = feedbackQuestionFilter(range);
+          const rows = await env.DB.prepare(
+            `SELECT id, user_id, question_id, tag, comment, created_at FROM feedback WHERE ${clause} ORDER BY created_at DESC LIMIT ?`
+          )
+            .bind(...binds, limit)
+            .all();
+          return json(
+            {
+              ok: true,
+              range: range && ['7d', '30d', 'all'].includes(range) ? range : 'all',
+              entries: rows.results ?? [],
+            },
+            { headers }
+          );
+        } catch (e) {
+          return json({ error: String(e) }, { status: 500, headers });
+        }
+      }
+
+      // --- 全站留言（與前台 About 以 question_id=SITE_FEEDBACK 寫入 D1）---
+      if (path === '/api/admin/site-feedback' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+        try {
+          const rows = await env.DB.prepare(
+            `SELECT user_id as user_id, comment, created_at FROM feedback WHERE question_id = ? ORDER BY created_at DESC LIMIT 200`
+          ).bind('SITE_FEEDBACK').all();
+          return json({ ok: true, details: rows.results ?? [] }, { headers });
         } catch (e) {
           return json({ error: String(e) }, { status: 500, headers });
         }
@@ -588,6 +649,15 @@ export default {
         return json({ devices }, { headers });
       }
 
+      if (path === '/api/admin/activity/user-stats' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+        const raw = await env.ACTIVITY_LOGS.get('recent');
+        const parsed: unknown = raw ? JSON.parse(raw) : [];
+        const stats = aggregateUserStats(Array.isArray(parsed) ? parsed : [], new Date().toISOString());
+        return json({ ok: true, stats }, { headers });
+      }
+
       // --- JOB-081: Admin-only 使用者分析（活躍天數門檻 + IP / 年級 / 科目 / 時段） ---
       if (path === '/api/admin/activity/user-analysis' && req.method === 'GET') {
         const verify = await verifyAdminBearerToken(req, env);
@@ -602,8 +672,10 @@ export default {
 
         const raw = await env.ACTIVITY_LOGS.get('recent');
         const parsed: unknown = raw ? JSON.parse(raw) : [];
-        const devices = aggregateUserAnalysis(Array.isArray(parsed) ? parsed : [], minDays);
-        return json({ ok: true, minDays, devices }, { headers });
+        const arr = Array.isArray(parsed) ? parsed : [];
+        const devices = aggregateUserAnalysis(arr, minDays);
+        const summary = aggregateActivitySummary(arr, minDays);
+        return json({ ok: true, minDays, devices, summary }, { headers });
       }
 
       // --- JOB-016: Admin auth (dynamic whitelist) ---

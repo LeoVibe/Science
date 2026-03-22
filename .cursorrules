@@ -21,6 +21,10 @@
 - **禁止發明新規格**：若遇到不在《網站功能規格書》上的新元件，請依循專案「暖調琥珀 (Warm Amber)」與「溫和低負擔」的風格設計。
 - **禁止使用絕對路徑**：無論是在 Markdown 文件中建立連結，還是在程式碼中引用資源，**絕對禁止**使用類似 `/Users/xxx/...` 的本地絕對路徑。必須始終使用基於專案根目錄（或當下目錄）的「相對路徑 (Relative Paths)」，確保專案在跨設備、跨 Agent 交接時不會斷鏈。
 
+## 🗂️ 單一 Git 工作目錄（多 Agent / 本機協作）
+- **唯一允許的程式修改根目錄**：`/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject`（詳見 `docs/開發協作-單一Git與工作目錄規範.md`）。
+- **禁止**在 `.cursor/worktrees/` 或任何 worktree 路徑進行寫入與驗證；若工作區落於該路徑，須請使用者改開主目錄後再改程式。強制規則：`.cursor/rules/workspace-directory.mdc`。
+
 ## 📋 派工與驗收規範 (Dispatch & DoD Protocol)
 - **DoD 事前規劃**：任何 AI 代理（包含 Cursor）在準備或執行 `JOB-XXX` 派工單前，**必須確保單子內的 `驗證基準 (DoD)` 已經過 PM (使用者) 的事前定義與核准**。嚴禁在沒有驗收標準的情況下盲目開工。
 
