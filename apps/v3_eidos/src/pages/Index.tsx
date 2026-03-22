@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useLayoutEffect, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   Grade, Semester, Publisher, Subject, Question, SUBJECT_ICONS, SEMESTER_NAMES, SUBJECT_THEME_MAP,
@@ -52,9 +52,6 @@ const VIEW_TO_URL: Partial<Record<View, string>> = {
   'learning-report': 'stats',
   'about': 'about',
 };
-
-/** 合法題庫路徑格式，用於判斷是否為使用者點 Link 後的 URL，避免用舊 state 覆寫 */
-const VALID_APP_PATH = /^\/g\d\/[^/]+\/s\d\/[^/]+\/[^/]+(\/[^/]+)?$/;
 
 export type LibraryConfig = {
   grades: Record<number, {
@@ -159,29 +156,40 @@ const Index = () => {
   const [quizInitialAnswered, setQuizInitialAnswered] = useState<{ question: Question; isCorrect: boolean; selected: number }[]>([]);
   const [quizInitialStartTime, setQuizInitialStartTime] = useState<number>(Date.now());
 
-  // URL → State sync (on mount and whenever URL params change, e.g. 切換出版社)
+  // URL → State：合法題庫深連結用 useLayoutEffect，讓 State→URL 的 useEffect 執行時 state 已與網址一致（避免題庫總覽 Link 與舊 state 競態）
   const { grade: gp, subject: sp, semester: semp, publisher: pp, view: vp } = params;
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (gp && sp && semp && pp) {
-      isDeepLinkedRef.current = true;
       const g = parseGradeParam(gp);
       const sub = URL_CODE_SUBJECT[sp];
       const sem = parseSemesterParam(semp);
       const pub = URL_CODE_PUBLISHER[pp];
       if (g && sub && sem && pub) {
+        isDeepLinkedRef.current = true;
         setGrade(g);
         setSubject(sub);
         setSemester(sem);
         setPublisher(pub);
         const v = vp ? VIEW_URL_MAP[vp] : 'menu';
-        // 依 URL 同步 view；直接開啟 /quiz 等連結時若無題目，QuizView 會顯示空狀態
         setView(v || 'menu');
         setProfileReady(true);
         return;
       }
     }
     isDeepLinkedRef.current = false;
-    // 無 URL 參數時：依 profile 或舊版 preference 還原；僅在「從未完成設定」時自動跳出設定頁
+  }, [gp, sp, semp, pp, vp]);
+
+  useEffect(() => {
+    if (gp && sp && semp && pp) {
+      const g = parseGradeParam(gp);
+      const sub = URL_CODE_SUBJECT[sp];
+      const sem = parseSemesterParam(semp);
+      const pub = URL_CODE_PUBLISHER[pp];
+      if (g && sub && sem && pub) {
+        return;
+      }
+    }
+    // 無合法題庫 URL 參數時：依 profile 或舊版 preference 還原；僅在「從未完成設定」時自動跳出設定頁
     const profile = loadUserProfile();
     if (profile?.setupComplete) {
       setGrade(profile.grade);
@@ -289,7 +297,6 @@ const Index = () => {
     );
     const currentPath = window.location.pathname;
     if (currentPath !== path) {
-      if (VALID_APP_PATH.test(currentPath)) return; // 使用者剛點題庫總覽 Link，不覆寫 URL
       navigate(path, { replace: true });
     }
   }, [grade, subject, semester, publisher, view, subTab, profileReady, hasUrlParams, navigate]);
