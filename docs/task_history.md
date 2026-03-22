@@ -2,6 +2,23 @@
 
 本文件紀錄專案的開發軌跡、關鍵決策與技術進展。
 
+### [2026-03-23] G6 題庫納入 v3 public，修復正式站 manifest 404 (JOB-095)
+
+- **根因**：`question/platform/G6` 未同步至 `apps/v3_eidos/public/`，Pages 建置產物無 `/question/platform/G6/.../manifest.json`。
+- **處置**：納入 G6 靜態檔；`prebuild` 執行 `scripts/sync_v3_public_g6_question.mjs`；另修 G4 康軒 L7 是非題補 `options` 以通過 pre-commit 抽測。
+
+### [2026-03-23] AI 專家說：出題規劃文案與家長向語氣 (JOB-094)
+
+- **UI**：「學習規劃」改為「出題規劃」；引導說明改為三卡語意（選考點／本冊鎖定／家長可觀察能力）。
+- **資料**：`subjectPrincipleContent` 國語三卡標題與正文重寫；國語各冊 `R3` 改為教師視角淺白說明；六下國語 `R2` 覆寫、`R1` 改為給家長的實務提問示例。
+
+### [2026-03-23] 對齊 `.cursorrules`、README 索引與全域偏好
+
+- **`.cursorrules`**：與 `README.md`、`.cursor/rules`、`docs/` 路徑一致；前端必讀改為 `docs/技術設定/前端開發與AI實作守則.md` + `docs/網站功能規格書.md`；任務收尾以 **`/dosync`** 為準並說明與舊稱 `/sync` 的關係；納入繁中、變更追溯、回覆末行指令回報、檔名與 commit 語言等個人偏好。
+- **`README.md`**：修正誤植之 `docs/技術設定/網站功能規格書.md`（實際為 `docs/網站功能規格書.md`）；補上前端守則、`.cursorrules`、任務看板、`dosync` 技能索引。
+- **`docs/技術設定/前端開發與AI實作守則.md`**：`/sync` 用語改為 `/dosync`；補 `last_updated`／`updated_by`。
+
+
 ### [2026-02-27] AI 專家說：R2／R3／R1 與學期差異 (JOB-086)
 - **完成**：`getSubjectPrincipleContent` 納入學期參數；抽離 R2 科總綱、R3 本冊焦點、R1 年段配比；`InsightDrawer` 分區呈現；三年級國語依學期切換標題與第三段敘事。
 
