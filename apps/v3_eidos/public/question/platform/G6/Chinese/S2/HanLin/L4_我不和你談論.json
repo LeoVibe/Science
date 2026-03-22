@@ -1,0 +1,115 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L4",
+  "lesson_title": "我不和你談論",
+  "questions": [
+    {
+      "question": "【分析詩歌結構】在吳晟的《我不和你談論》中，詩人為什麼「不和你談論」那些抽象的詩句或道理？",
+      "options": [
+        "因為他認為這些話題太過深奧，不適合在農田這種地方討論。",
+        "因為他主張真正的真理存在於勞動中，應直接去體驗大地的律動。",
+        "因為他感到疲倦了，想安靜地在樹蔭下休息，不想與任何人說話。",
+        "因為他忘了那些詩句的內容，希望能以此藉口來掩飾自己的健忘。"
+      ],
+      "answer_index": 1,
+      "explanation": "詩人強調行動與實踐的重要性。這首詩的核心在於對比「虛浮的談論」與「踏實的勞動」，唯有親近土地才能獲得真實的力量。",
+      "scenario": "探討詩歌的核心創作動機，理解「動手做」與「動嘴說」的價值對立。",
+      "commonMisconception": "學生易誤解詩人是在「拒絕溝通」[C]，而未看見他是在引導另一種「更高層次的溝通（與土地溝通）」。",
+      "taxonomy": "inferential",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀詩中意象】詩中提到的「汗水」、「泥土」與「莊稼」，象徵的是什麼樣的生活態度？",
+      "options": [
+        "枯燥乏味，只能重複同樣動作的傳統農村無奈感。",
+        "紮實耕耘，並在勞動中獲得身心安定的價值感。",
+        "希望能趕快賺大錢，以便早日離開土地的期望感。",
+        "面對自然災害時，完全無法依靠自己的無助感。"
+      ],
+      "answer_index": 1,
+      "explanation": "這些意象具象化了「踏實」的特質。在六下的課程中，這是一種對畢業後進入競爭社會前，對於「職人精神」與「根基教育」的隱喻。",
+      "scenario": "考驗對具象事物的抽象意義轉化能力（PIRLS 層次 3）。",
+      "commonMisconception": "學生常因對農事辛苦的刻板印象選[A]，而忽略了作者對此賦予的正面讚美色彩。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析修辭手法】詩中反覆出現「我不和你談論……去……吧」的句式，這種結構在詩中具有什麼樣的效果？",
+      "options": [
+        "這是一種強烈地排斥，顯示作者與聽話者之間有著嚴重的代溝。",
+        "這是一種引導與邀請，以否定的語氣帶出更主動、更紮實的行動力。",
+        "這是一種迷惘的表現，說明作者自己也不知道到底該做些什麼。",
+        "這是一種字數上的調整，目的是為了讓詩句讀起來有對稱的美感。"
+      ],
+      "answer_index": 1,
+      "explanation": "透過「不談 A，去 B 吧」的格式，詩人成功營造出從「虛無」轉向「實體」的動態節奏，具有強烈的導引力量。",
+      "scenario": "探討詩歌節奏與語氣對情感傳遞的影響。",
+      "commonMisconception": "學生若只看到表面的「不」，會誤以為是負面拒絕[A]，而看不見其後面的積極正面建設。",
+      "taxonomy": "analysis",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨領域思辨】如果將《我不和你談論》的精神應用到學習生活中，作者最可能會贊同下列哪一項建議？",
+      "options": [
+        "花更多的時間在補習班討論考試技巧，並大量背誦課本內容。",
+        "放下電子產品，親自到科學館操作實驗，觀察真實的物理現象。",
+        "與同學在下課後組成辯論小組，討論這學期學習了多少大道理。",
+        "要求父母提供更好的學習環境，以便自己能更安靜、優雅地讀書。"
+      ],
+      "answer_index": 1,
+      "explanation": "詩人尊崇的是「實踐」與「對世界的直接體驗」。[B] 選項中「動手做」的實驗精神最符合這首詩熱愛勞動、反對虛談的本質。",
+      "scenario": "將文學作品中的生命哲學應用於現代學習情境。",
+      "commonMisconception": "學生可能選[C]，認為討論就是學習。這正是吳晟這首詩想要反思的地方。",
+      "taxonomy": "applied",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主題】這首詩想要傳達給即將畢業的國小六年級生最重要的價值是什麼？",
+      "options": [
+        "社會是複雜的，能不說話就不要說話，以免發生衝突。",
+        "大地是沈穩的，腳踏實地的耕耘才是最真實的力量來源。",
+        "農業是落後的，應努力讀書以換取進入高科技業的機會。",
+        "詩歌是無用的，長大後應該把時間花在更有意義的事情上。"
+      ],
+      "answer_index": 1,
+      "explanation": "吳晟身為「泥土詩人」，他的詩作最終都是在回歸土地。對於即將邁入中學、面臨更多競爭與虛無討論的孩子，這是一首關於「回歸初心」的勉勵。",
+      "scenario": "從詩句的意象中提煉出對畢業生的核心期許。",
+      "commonMisconception": "容易誤選[D]，這類孩子常將詩人的「反思」過度簡化為對「詩」本身的否定。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

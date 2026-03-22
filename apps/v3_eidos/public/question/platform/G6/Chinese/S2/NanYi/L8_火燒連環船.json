@@ -1,0 +1,115 @@
+{
+  "publisher": "南一",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L8",
+  "lesson_title": "火燒連環船",
+  "questions": [
+    {
+      "question": "【分析三國計謀】在《火燒連環船》中，黃蓋為什麼要對曹操上演一場「苦肉計」？",
+      "options": [
+        "因為他在士兵面前犯了錯，所以主動要求被打以示公平正義。",
+        "為了消除曹操的戒心，使詐降信看起來更動真，以便能率領引火船靠近曹營。",
+        "因為他感到生活太無趣了，想測試看看周瑜對自己的耐心到底有多少。",
+        "為了吸引媒體的注意，讓自己能一舉成名，成為整個三國最紅的將領。"
+      ],
+      "answer_index": 1,
+      "explanation": "苦肉計是赤壁之戰的關鍵。透過身體的受創（被打）來掩護「投降」的真實意圖。這體現了古典小說中人物為了「大局」的犧牲與智鬥。",
+      "scenario": "解析三國演義中「計中計」的核心邏輯：表面犧牲換取策略空間。",
+      "commonMisconception": "學生常選[A]，忽略了軍事上的策略意圖，將其簡化為一般的道德案件。",
+      "taxonomy": "inferential",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀戰爭細節】曹操將戰船「連環鎖住」本來是為了解決什麼問題，但最後卻變成了致命的缺點？",
+      "options": [
+        "為了解決士兵暈船的問題，但一旦起火，所有船隻便無法及時分開逃脫。",
+        "為了解決船隻太多而相撞的問題，但最後卻因為鐵鍊太貴而導致國庫空虛。",
+        "為了解決糧食分配不均的問題，但連鎖後的船隻讓每個廚房都變得很擠。",
+        "為了解決士兵太無聊的問題，但最後卻演變成了大規模的撞船比賽。"
+      ],
+      "answer_index": 0,
+      "explanation": "曹操的優點（解決北方兵不習水性、容易暈船）被龐統（連環計）轉化為致命弱點。這展現了戰爭中「利弊轉換」的辯證法。",
+      "scenario": "解析策略的「兩面性」：因小利（平穩）而失大利（逃生空間）。",
+      "commonMisconception": "學生容易選[B]，誤將軍事失敗歸因為瑣碎的「金錢問題」。",
+      "taxonomy": "analysis",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析關鍵氣候】故事中諸葛亮「巧借東風」對於整個火燒連環船計畫的重要性在哪裡？",
+      "options": [
+        "東風很大，可以吹散船艙裡沈重的汗臭味，讓士兵感到神清氣爽。",
+        "風向直接決定了火焰蔓延的方向，沒有東風，火勢就無法燒向曹操。",
+        "東風會讓海鮮變得更甜美，諸葛亮想在那天舉辦一場盛大的海產拍賣。",
+        "東風會帶來大量的雨水，剛好可以熄滅那些被不小心點著的小火種。"
+      ],
+      "answer_index": 1,
+      "explanation": "「萬事俱備，只欠東風」。東風是完成火燒的核心環境變數。這體現了古典智慧中對「天時、地利、人和」的高度整合。",
+      "scenario": "探討環境變數（風向）如何成為決定戰勝敗的決定性因素。",
+      "commonMisconception": "學生易選[D]，完全讀反了风向對火攻的作用方向。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析小說的人物特寫】文中描述曹操看見火燒連環船時的「失神」與「驚叫」，作者這段描寫的主要意圖是什麼？",
+      "options": [
+        "嘲笑曹操是一個愛哭鬼，遇到一點小挫折就整天在家裡哭鬧。",
+        "藉由曹操的狼狽，反襯出周瑜、諸葛亮等人的運籌帷幄與勝利的高度。",
+        "證明原本曹操是一個非常優秀的歌唱家，所以他的驚叫聲非常動聽。",
+        "這是一篇醫學報告，細膩地紀錄了人在極度驚嚇後可能產生的生理症狀。"
+      ],
+      "answer_index": 1,
+      "explanation": "「反襯法」。輸家的慘烈是為了映襯贏家的智慧。這增加了小說的戲劇張力與閱讀快感。",
+      "scenario": "解析文學表現手法（反襯）在英雄傳記中的形塑功用。",
+      "commonMisconception": "學生常選[A]，將複雜的小說人物臉譜化，忽略了襯托的創作目的。",
+      "taxonomy": "analysis",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨情境連結】如果你是一位「現代專案經理」，從《火燒連環船》中最大的教育收穫是什麼？",
+      "options": [
+        "凡事都要把所有的東西鎖在一起，這樣才能顯得非常有團結力。",
+        "做決定前必須考慮環境風險（如風向），並避免過度僵化的「連動結構」。",
+        "只要有人表現得很努力（如黃蓋），就一定要把他狠狠地打一頓再說。",
+        "計畫一定要非常複雜，最好讓所有的夥伴都完全聽不懂你在做什麼。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一種「系統風險」意識。曹操的連鎖是僵化的系統。現代管理中，保持「彈性」與「風險評估」是至關重要的智慧。",
+      "scenario": "將古代軍事計謀整合至現代管理思維的情境中（PIRLS 層次 4）。 ",
+      "commonMisconception": "學生容易選[A]，僅停留於字面的「連環」，忽略了其在應變力上的毀滅。 ",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

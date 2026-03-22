@@ -1,0 +1,52 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L8",
+  "lesson_title": "落花生",
+  "questions": [
+    {
+      "question": "【在讀完許地山〈落花生〉後】作者的父親將花生與蘋果、石榴各別進行了「對比」，這裡的對等邏輯主要是想強調什麼？",
+      "options": [
+        "外表的「鮮紅、高掛」相對於花生的「埋在土裡、不起眼」，凸顯了內斂的價值。",
+        "說明花生的產量比石榴和蘋果更多，是農民獲取經濟收入的主要來源。",
+        "石榴和蘋果的營養價值不如花生，因此不建議大量栽種。",
+        "讚美石榴和蘋果的高深學問，希望孩子們長大後要學會如何包裝自己。"
+      ],
+      "answer_index": 0,
+      "explanation": "文中透過外觀的極大反差，引導孩子思考「實用與內斂」高於「華而不實」的生命哲學，這也是本課的核心主旨：要做有用的人，不要做偉大、體面的人。",
+      "scenario": "探討文章的核心隱喻，理解「託物言志」的寫作手法。",
+      "commonMisconception": "學生可能只停留在「水果好不好吃」的層次，無法跨越到「人格特質」的抽象類比。",
+      "taxonomy": "inferential",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 6,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【關於父親對孩子的期許】父親說：「要做有用的人，不要做偉大、體面的人。」這句話在現代職場或生活環境中，最合適的解讀是？",
+      "options": [
+        "反對任何形式的出名或成功，認為人應當一輩子默默無聞、不求上進。",
+        "鼓勵孩子選擇不需要與人競爭的工作，只要自己覺得有用就能獲得快樂。",
+        "認為體面的人都是虛偽的，只有長相醜陋、穿著破爛的人才可能具備真誠的心。",
+        "強調內在的才幹與對社會實際的貢獻，重於表面的虛榮與社會地位的包裝。"
+      ],
+      "answer_index": 3,
+      "explanation": "「偉大、體面」在文中指涉的是僅有外表但無實質回饋的虛榮，而「有用」則是指像花生一樣能實際供人食用、助人解飢的務實精神。",
+      "scenario": "將經典語錄與現代社會價值觀進行鏈結，測試學生對「價值觀」的深層理解。",
+      "commonMisconception": "學生易產生極端化偏見，認為「偉大」就等同於「壞」，忽略了作者是在強調「實質」的重要性。",
+      "taxonomy": "applied",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

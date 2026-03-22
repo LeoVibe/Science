@@ -1,0 +1,115 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L11",
+  "lesson_title": "紀念簿題歌",
+  "questions": [
+    {
+      "question": "【分析應用文的情感功能】在畢業紀念冊上寫下「題歌」或贈言，最主要的意義在於什麼？",
+      "options": [
+        "為了展示自己的書法功力，讓同學在多年後依然記得自己寫字很漂亮。",
+        "透過精簡、深刻且誠摯的文字，為彼此六年的同窗情誼留下恆久的見證。",
+        "完成老師交代的作業，以免因為沒有寫紀念冊而被扣除操行分數。",
+        "這是一場文字競賽，每個人都應該寫出比別人更長、更華麗的句子。"
+      ],
+      "answer_index": 1,
+      "explanation": "紀念簿題歌是一種高度精鍊的文學形式。在即將分離的時刻，用文字封存共同記憶，並給予未來祝福，這是人際情感的一種高層次昇華。",
+      "scenario": "探討畢業特定情境下，文學形式（題歌）如何支撐情感交流。",
+      "commonMisconception": "學生可能選[A]，將其物化為純粹的「筆跡展示」，而忽略了文字承載的生命重量。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀詩歌意象】詩中提到的「柳條」、「長路」與「星光」，分別可能在畢業贈言中象徵什麼？",
+      "options": [
+        "農產品的價格、交通規則以及天文學的科普知識。",
+        "離別的情感、未來的挑戰以及希望的指引。",
+        "學校裡的植物、操場的大小以及學校夜晚的電燈。",
+        "春天的過敏源、旅遊的規劃以及虛假的美麗。"
+      ],
+      "answer_index": 1,
+      "explanation": "柳條古來象徵「留（柳）」，長路代表未來的征途，星光則是黑暗中的亮光與指引。對於高年級生，理解這些文學符號是鑑賞詩歌的基礎。",
+      "scenario": "考驗對古典與現代詩歌中常用意象（象徵法）的對位理解。",
+      "commonMisconception": "學生易選[C]，停留在具體物理環境的認知，而無法完成文學轉化。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析寫作技巧】在撰寫給同學的臨別贈言時，作者認為最應該具備哪一種特質？",
+      "options": [
+        "虛偽表面的誇獎，讓每個人讀了都覺得自己是完美的。",
+        "真實且具備個人特色的回憶，能讓對方感受到你的真心。",
+        "大量的深奧成語彙整，即便自己和對方都看不懂也沒關係。",
+        "嘲弄同學的缺點，以此展現自己在畢業前依然具備幽默感。"
+      ],
+      "answer_index": 1,
+      "explanation": "誠摯是文學的靈魂。這首詩引導讀者發現，精準捕捉共同生活的細節，比空洞的祝福更能打動人心。",
+      "scenario": "將課文理念遷移至學生當前的「畢業紀念冊實踐」中。",
+      "commonMisconception": "學生常選[C]，陷入「辭藻華麗 = 高品質」的誤區。",
+      "taxonomy": "applied",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解析文章結構】這首詩將「過去」與「未來」交織在一起編寫，這種結構對即將畢業的你有什麼引導作用？",
+      "options": [
+        "讓你感到挫敗，因為過去已經無法改變，而未來充滿了未知感。",
+        "教導你如何帶著過往的養分與珍貴回憶，勇敢邁向新的人生階段。",
+        "告訴你過去的六年都是在浪費時間，只有未來才是值得追求的。",
+        "這是一種混亂的寫法，證明作者對時間的流逝感到非常困惑。"
+      ],
+      "answer_index": 1,
+      "explanation": "畢業是一個「承先啟後」的時間點。文章透過對往事的眷戀（承先）與對前程的期待（啟後），構築了完整的成長圖像。",
+      "scenario": "分析文本的時間結構對讀者心理建設的導引作用。",
+      "commonMisconception": "學生容易選[A]，反應出面臨變遷時的焦慮，而非作者提倡的「帶著養分出發」。",
+      "taxonomy": "analysis",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主題】《紀念簿題歌》這首詩最後留給讀者的「最高禮讚」是什麼樣的精神？",
+      "options": [
+        "無論身在何處，都能保持初心，成為更好的自己。",
+        "考上第一志願，讓所有的同學都對自己刮目相看。",
+        "永遠不要忘記老師交代的功課，每天都要認真複習。",
+        "長大後一定要賺很多錢，回來捐給母校蓋大樓。"
+      ],
+      "answer_index": 0,
+      "explanation": "這首詩最終指向「人格的完整性」。相比於名次或財富，保持那份純真與持續自我成長才是畢業典禮真正的意義。",
+      "scenario": "提煉畢業主題詩歌的核心人文靈魂（PIRLS 層次 4）。",
+      "commonMisconception": "學生易選[B]，將「成功」狹隘化為學業競賽。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}
