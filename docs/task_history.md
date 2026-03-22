@@ -2,6 +2,11 @@
 
 本文件紀錄專案的開發軌跡、關鍵決策與技術進展。
 
+### [2026-03-23] G6 南一路徑與題庫導覽 UX (JOB-096)
+
+- **路徑**：`NanI`→`NanYi`、`Mathematics`→`Math`；補南一數學／社會 `manifest.json`。
+- **UX**：`library_config` 未開放之科目，頁首 pill 反灰、`disabled`，`handleSubjectChange` 防呆。
+
 ### [2026-03-23] 小三下社會題庫 (翰林/康軒) 品質審計與修復 (JOB-092)
 
 - **核心修復**：解決翰林版 U1-U6 選項後綴污染（「這點在實務上很重要」等 AI 幻覺語句）與 `answer_index` 逻辑錯位問題。
