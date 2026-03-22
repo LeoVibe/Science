@@ -20,9 +20,16 @@
    將輸出的 `id` 寫入 `wrangler.toml` 的 `[[kv_namespaces]]` → `id`。
 
 5. **本地開發**  
-   `npm run dev`
+   `npm run dev`（預設 **http://127.0.0.1:8787**）
 
-6. **設定後台 owner 種子帳號（必要）**  
+6. **與前端聯測（後台「使用統計／使用者分析」）**  
+   - 前端 `apps/v3_eidos` 預設 `VITE_API_URL` 未設定時會連 **http://localhost:8787**（見 `src/data/api.ts`）。  
+   - 請**另開終端**啟動本 Worker，再 `npm run dev` 跑 Vite；否則活動 API 無法寫入 KV，後台會載入失敗或列表為空。  
+   - 「使用者分析」正式站預設活躍天數門檻為 5；**開發模式**前端會預設門檻 **1**，方便本機同一天測試。  
+   - **後台「本機認證測試」按鈕**：僅在 **`npm run dev`（`import.meta.env.DEV`）** 顯示。必須在 **`backend/api/.dev.vars`** 加入 `ADMIN_LOCAL_DEV_BYPASS=true`（見 `.dev.vars.example`），Worker 才會接受本機繞過 Token；否則進入 `/admin` 會被 `/api/admin/verify` 擋下。  
+   - **埠號（8080 / 8081）**：與按鈕有無無關；同一專案若開兩個 Vite，後啟者會自動換埠。**不同資料夾／worktree** 若程式版本不同，畫面就會不一樣。
+
+7. **設定後台 owner 種子帳號（必要）**  
    在 `wrangler.toml` 的 `[vars]` 或本地 `.dev.vars` 設定：
    `ADMIN_OWNER_EMAILS=owner1@example.com,owner2@example.com`  
    > 僅在 `admin_users` 尚未建立時作為首次 bootstrap 使用。

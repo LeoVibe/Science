@@ -6,6 +6,11 @@
  * - POST /api/admin/auth/request, GET/PATCH /api/admin/auth/users
  */
 
+import { aggregateUserAnalysis } from './userAnalysis';
+
+/** 與前端 AdminLogin 本機繞過按鈕共用；僅在 .dev.vars 設 ADMIN_LOCAL_DEV_BYPASS=true 時生效，勿上線正式環境 */
+const LOCAL_DEV_ADMIN_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
+
 export interface Env {
   DB: D1Database;
   SITE_SETTINGS: KVNamespace;
@@ -14,6 +19,11 @@ export interface Env {
   GOOGLE_CLIENT_ID?: string;
   /** 後台首次啟動的 owner 種子帳號（逗號分隔 email） */
   ADMIN_OWNER_EMAILS?: string;
+  /**
+   * 設為字串 "true" 時，允許 Bearer 為 {@link LOCAL_DEV_ADMIN_BYPASS_TOKEN} 的本機繞過登入（僅 wrangler dev + .dev.vars）。
+   * 正式部署勿設定此變數。
+   */
+  ADMIN_LOCAL_DEV_BYPASS?: string;
 }
 
 const KV_KEYS = {
@@ -44,6 +54,18 @@ type AdminConfig = {
   max_quiz_questions: number;
   library_config: unknown | null;
 };
+
+/** Cloudflare / 反向代理上的客戶端 IP（寫入活動紀錄供後台診斷） */
+function extractClientIp(req: Request): string {
+  const cf = req.headers.get('CF-Connecting-IP')?.trim();
+  if (cf) return cf;
+  const xff = req.headers.get('X-Forwarded-For');
+  if (xff) {
+    const first = xff.split(',')[0]?.trim();
+    if (first) return first;
+  }
+  return '';
+}
 
 function parseOwnerSeedEmails(raw: string | undefined): string[] {
   if (!raw) return [];
@@ -144,6 +166,10 @@ async function verifyAdminBearerToken(req: Request, env: Env): Promise<{ ok: tru
   const authHeader = req.headers.get('Authorization');
   const token = authHeader?.startsWith('Bearer ') ? authHeader.slice(7).trim() : '';
   if (!token) return { ok: false, status: 401, error: 'Unauthorized' };
+
+  if (env.ADMIN_LOCAL_DEV_BYPASS === 'true' && token === LOCAL_DEV_ADMIN_BYPASS_TOKEN) {
+    return { ok: true, email: 'local-dev@eidos.local', role: 'owner' };
+  }
 
   const clientId = env.GOOGLE_CLIENT_ID?.trim();
   const verified = await verifyGoogleIdToken(token, clientId ?? undefined);
@@ -434,34 +460,20 @@ export default {
         try {
           // 1. 總計與標籤分佈
           const tagStats = await env.DB.prepare(
-            "SELECT tag, COUNT(*) as count FROM feedback WHERE question_id != 'SITE_FEEDBACK' GROUP BY tag"
+            'SELECT tag, COUNT(*) as count FROM feedback GROUP BY tag'
           ).all();
 
           // 2. 熱點題目 (被投訴最多次的前 10 名)
           const hotspotQuestions = await env.DB.prepare(
-            "SELECT question_id, COUNT(*) as report_count FROM feedback WHERE question_id != 'SITE_FEEDBACK' GROUP BY question_id ORDER BY report_count DESC LIMIT 10"
+            'SELECT question_id, COUNT(*) as report_count FROM feedback GROUP BY question_id ORDER BY report_count DESC LIMIT 10'
           ).all();
 
           return json({
             ok: true,
-            total: tagStats.results.reduce((acc: number, curr: any) => acc + curr.count, 0),
+            total: tagStats.results.reduce((acc, curr: any) => acc + curr.count, 0),
             tagStats: tagStats.results,
             hotspots: hotspotQuestions.results
           }, { headers });
-        } catch (e) {
-          return json({ error: String(e) }, { status: 500, headers });
-        }
-      }
-
-      if (path === '/api/admin/site-feedback' && req.method === 'GET') {
-        const verify = await verifyAdminBearerToken(req, env);
-        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
-
-        try {
-          const details = await env.DB.prepare(
-            "SELECT * FROM feedback WHERE question_id = 'SITE_FEEDBACK' ORDER BY created_at DESC"
-          ).all();
-          return json({ ok: true, details: details.results }, { headers });
         } catch (e) {
           return json({ error: String(e) }, { status: 500, headers });
         }
@@ -496,6 +508,7 @@ export default {
         const raw = await env.ACTIVITY_LOGS.get('recent');
         const recent: unknown[] = raw ? JSON.parse(raw) : [];
         const max = 2000;
+        const clientIp = extractClientIp(req);
         for (const entry of logs) {
           if (entry?.deviceId && entry?.timestamp && entry?.action) {
             recent.push({
@@ -503,6 +516,7 @@ export default {
               timestamp: entry.timestamp,
               action: entry.action,
               details: entry.details || {},
+              ...(clientIp ? { clientIp } : {}),
             });
           }
         }
@@ -572,6 +586,24 @@ export default {
           activeDays: v.days.size,
         }));
         return json({ devices }, { headers });
+      }
+
+      // --- JOB-081: Admin-only 使用者分析（活躍天數門檻 + IP / 年級 / 科目 / 時段） ---
+      if (path === '/api/admin/activity/user-analysis' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+
+        const minDaysParam = url.searchParams.get('minDays');
+        let minDays = 5;
+        if (minDaysParam !== null) {
+          const n = parseInt(minDaysParam, 10);
+          if (Number.isFinite(n)) minDays = n;
+        }
+
+        const raw = await env.ACTIVITY_LOGS.get('recent');
+        const parsed: unknown = raw ? JSON.parse(raw) : [];
+        const devices = aggregateUserAnalysis(Array.isArray(parsed) ? parsed : [], minDays);
+        return json({ ok: true, minDays, devices }, { headers });
       }
 
       // --- JOB-016: Admin auth (dynamic whitelist) ---

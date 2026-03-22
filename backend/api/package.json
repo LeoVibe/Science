@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "db:create": "wrangler d1 create eidos-db",
-    "db:migrate": "wrangler d1 migrations apply eidos-db",
-    "db:migrate:local": "wrangler d1 migrations apply eidos-db --local",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "db:create": "npx wrangler d1 create eidos-db",
+    "db:migrate": "npx wrangler d1 migrations apply eidos-db",
+    "db:migrate:local": "npx wrangler d1 migrations apply eidos-db --local",
     "smoke": "node scripts/smoke.mjs"
   },
   "devDependencies": {

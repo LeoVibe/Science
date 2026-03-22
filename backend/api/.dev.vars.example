@@ -7,3 +7,7 @@ GOOGLE_CLIENT_ID=你的用戶端ID.apps.googleusercontent.com
 
 # 後台 owner 種子帳號（首次 bootstrap admin_users 時使用，逗號分隔）
 ADMIN_OWNER_EMAILS=owner1@example.com,owner2@example.com
+
+# 本機後台「認證測試」繞過（與前端 dev 按鈕共用固定 token，勿用於正式部署）
+# 設為 true 後，前端「本機認證測試」按鈕寫入的 Bearer 才會通過 /api/admin/verify
+ADMIN_LOCAL_DEV_BYPASS=true

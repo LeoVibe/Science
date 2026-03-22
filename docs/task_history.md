@@ -2,6 +2,14 @@
 
 本文件紀錄專案的開發軌跡、關鍵決策與技術進展。
 
+### [2026-03-22] 後台分析中心「使用者分析」與 Activity IP (JOB-081)
+- **完成項目**：
+  - Worker：`POST /api/activity` 寫入 `clientIp`（CF-Connecting-IP / X-Forwarded-For）；新增 `GET /api/admin/activity/user-analysis`（管理員 Bearer），聚合活躍天數門檻以上裝置之日／UTC 小時時段、IP、日誌推斷年級與常點科目、錯題統計路徑。
+  - 前端：`AdminUserAnalysis` 子分頁（`/admin/analytics/user_analysis`）。
+  - 更新 `docs/後台管理架構設計.md`。
+- **關鍵決策**：
+  - 錯題統計連結依日誌最近一次完整課程脈絡（年級／科目／學期／出版社）產生，統計內容仍為使用者瀏覽器本機資料，非伺服器端帳號級報表。
+
 ### [2026-03-22] Eidos 上版前總體驗證與未結任務清查 (JOB-080)
 - **完成項目**：
   - 執行 P1-P4 自動化測試與建置檢查，皆符合預期（Lint 錯誤屬預期中技術債）。

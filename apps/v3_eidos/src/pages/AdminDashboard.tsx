@@ -7,7 +7,7 @@ import AdminLibraryManager from '@/components/admin/AdminLibraryManager';
 import AdminQualityAnalyzer from '@/components/admin/AdminQualityAnalyzer';
 import AdminUserManager from '@/components/admin/AdminUserManager';
 import AdminFeedbackInsights from '@/components/admin/AdminFeedbackInsights';
-import AdminSiteFeedback from '@/components/admin/AdminSiteFeedback';
+import AdminUserAnalysis from '@/components/admin/AdminUserAnalysis';
 
 // ─── 三大功能群組定義 ───────────────────────────────────
 // 頂層 3 個 Tab + 每個群組內部的子分頁
@@ -46,8 +46,8 @@ const TAB_GROUPS: TabGroup[] = [
     icon: '📈',
     subTabs: [
       { key: 'usage', label: '使用統計', icon: '👥', component: AdminUserInsights },
+      { key: 'user_analysis', label: '使用者分析', icon: '🧭', component: AdminUserAnalysis },
       { key: 'feedback', label: '題目回饋', icon: '💬', component: AdminFeedbackInsights },
-      { key: 'site_feedback', label: '全站留言', icon: '💌', component: AdminSiteFeedback },
       { key: 'logs', label: '操作日誌', icon: '📋', component: AdminTestRunner },
     ],
   },
@@ -118,7 +118,7 @@ export default function AdminDashboard() {
         <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-lg">🛠️</span>
-            <h1 className="text-base font-black text-foreground">系統管理中心</h1>
+            <h1 className="text-base font-black text-foreground">eidos 後台管理</h1>
           </div>
           <button
             onClick={handleLogout}
@@ -155,7 +155,7 @@ export default function AdminDashboard() {
 
         {/* ─── 子分頁切換列（膠囊按鈕） ─── */}
         {visibleSubTabs.length > 1 && (
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {visibleSubTabs.map(s => (
               <button
                 key={s.key}

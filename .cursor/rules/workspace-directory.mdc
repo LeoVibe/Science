@@ -1,0 +1,31 @@
+---
+description: 強制單一 Git 工作樹：僅主目錄可改程式，禁止 worktree 路徑作為 AI 驗證或寫入目標
+alwaysApply: true
+---
+
+# 單一 Git 工作目錄（強制）
+
+## 唯一允許的程式碼工作根目錄
+
+- **團隊與本機多 Agent 共用之唯一真相目錄**（canonical clone）：
+  - **`/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject`**
+- 所有 **程式修改、新增/刪除檔案、`npm run dev` / `wrangler dev`、測試與驗證**，**僅得**在上述目錄（或其下子路徑）執行。
+
+## 嚴禁行為（Agent 必須遵守）
+
+1. **禁止**以 **`.cursor/worktrees/`**、**`worktrees/eidosProject/*`** 或任何 **detached HEAD 的 worktree** 作為：
+   - 寫入/編輯 `apps/`、`backend/`、`scripts/`、`jobs/`、`docs/` 等版控內容的目標；
+   - 「自己驗證用」的替代專案根目錄。
+2. **若目前 Cursor 工作區路徑包含** `worktrees` **或** `.cursor/worktrees`：
+   - **不得**直接進行程式碼修改或執行會改檔的指令；
+   - **必須**請使用者改為 **File → Open Folder** 僅開啟上述 **主目錄** 後再繼續。
+3. **禁止**建議或協助在另一路徑「再開一套 repo」作為長期開發副本；**同一台電腦、同一專案 = 同一工作目錄 + 同一分支策略**（功能請用 `feature/*` 分支，勿用第二個 clone 當主線）。
+
+## 與 Git 的關係
+
+- **只有一個**與 `origin` 對應的本地主 clone；並行開發使用 **branch**，不使用第二個完整複本當主工作區。
+- 合併他人或另一 Agent 的變更時，僅透過 **`git fetch` / `merge` / `rebase` / `cherry-pick` / PR**，不複製整份目錄互蓋。
+
+## 路徑宣告（給 Agent）
+
+執行任何 `run_terminal_cmd` 前，**先 `cd` 到 canonical 路徑**（若使用者已將該路徑設為工作區，則以工作區根目錄為準，且該根目錄**不得**為 worktree 路徑）。

@@ -2,6 +2,9 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { adminAuthRequest, getApiBaseUrl } from '@/data/api';
 
+/** 須與 Worker `LOCAL_DEV_ADMIN_BYPASS_TOKEN`（scripts/workers/api/src/index.ts）完全一致 */
+const LOCAL_DEV_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
+
 function decodeJwtPayload(token: string): Record<string, unknown> | null {
   const parts = token.split('.');
   if (parts.length !== 3) return null;
@@ -64,7 +67,7 @@ export default function AdminLogin() {
         const email = String(payload.email || '').toLowerCase();
         const emailVerified = payload.email_verified === true || payload.email_verified === 'true';
         if (!email || !emailVerified) {
-          setError('Google 尚未驗證此 Email，無法登入後台。');
+          setError('Google 尚未驗證此 Email，無法登入 Eidos 後台。');
           return;
         }
 
@@ -127,6 +130,21 @@ export default function AdminLogin() {
     });
   }, [gisReady, clientId]);
 
+  const handleLocalDevBypass = () => {
+    setError('');
+    setLoginState('idle');
+    sessionStorage.setItem('admin_token', LOCAL_DEV_BYPASS_TOKEN);
+    sessionStorage.setItem(
+      'admin_session',
+      JSON.stringify({
+        email: 'local-dev@eidos.local',
+        role: 'owner',
+        provider: 'local-dev',
+      })
+    );
+    navigate('/admin', { replace: true });
+  };
+
   const handleGoogleLogin = () => {
     setError('');
     setLoginState('idle');
@@ -153,8 +171,8 @@ export default function AdminLogin() {
           <div className="w-16 h-16 rounded-2xl bg-primary/10 mx-auto flex items-center justify-center">
             <span className="text-3xl">🔐</span>
           </div>
-          <h1 className="text-xl font-black text-foreground">系統管理</h1>
-          <p className="text-sm text-muted-foreground">管理員登入（透過 Google OAuth 驗證）</p>
+          <h1 className="text-xl font-black text-foreground">Eidos 後台管理</h1>
+          <p className="text-sm text-muted-foreground">Eidos 管理員登入（透過 Google OAuth 驗證）</p>
         </div>
 
         <div className="bg-card rounded-2xl border p-6 space-y-4">
@@ -178,24 +196,26 @@ export default function AdminLogin() {
             {loading ? '驗證中...' : !gisReady ? '載入 Google 登入...' : '使用 Google 帳號登入'}
           </button>
 
-          {/* 本機開發測試 Bypass */}
-          {(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') && (
-            <button
-              type="button"
-              onClick={() => {
-                sessionStorage.setItem('admin_session', JSON.stringify({ email: 'dev@local.host', role: 'owner', provider: 'local' }));
-                sessionStorage.setItem('admin_token', 'local-dev-token');
-                navigate('/admin', { replace: true });
-              }}
-              className="w-full h-9 rounded-xl border border-dashed border-primary/40 text-primary font-bold text-xs transition-all hover:bg-primary/5 active:scale-[0.98]"
-            >
-              本機認證測試 (Local Dev Bypass)
-            </button>
+          {import.meta.env.DEV && (
+            <>
+              <button
+                type="button"
+                onClick={handleLocalDevBypass}
+                className="w-full h-11 rounded-xl border border-input bg-background text-foreground font-bold text-sm transition-all hover:bg-muted/50 active:scale-[0.98]"
+              >
+                本機認證測試（Local Dev Bypass）
+              </button>
+              <p className="text-[10px] text-muted-foreground text-center">
+                需先於 <code className="bg-muted px-1 rounded text-[9px]">backend/api/.dev.vars</code> 設定{' '}
+                <code className="bg-muted px-1 rounded text-[9px]">ADMIN_LOCAL_DEV_BYPASS=true</code>
+                ，否則進入後台會被驗證擋下。
+              </p>
+            </>
           )}
         </div>
 
         <p className="text-center text-[10px] text-muted-foreground">
-          驗證機制：須先透過 Google OAuth 登入，經管理者許可後方可進入後台。
+          驗證機制：須先透過 Google OAuth 登入，經管理者許可後方可進入 Eidos 後台。
         </p>
         {clientId && (
           <p className="text-center text-[10px] text-muted-foreground/80 break-all">
