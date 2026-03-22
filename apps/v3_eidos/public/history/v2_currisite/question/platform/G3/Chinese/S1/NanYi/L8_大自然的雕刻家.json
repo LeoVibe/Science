@@ -12,65 +12,75 @@
     {
       "id": "1",
       "type": "multiple_choice",
-      "question": "本課中的「大自然雕刻家」，主要使用的是哪些「雕刻工具」？",
+      "question": "本課所謂的「大自然的雕刻家」主要指的是？",
       "options": [
-        "風、雨、海浪與溪水",
-        "雷電和雲朵",
-        "太陽和月亮",
-        "電鑽和鋸子"
+        "非常有名的石雕師傅",
+        "風、水、海浪等自然力量",
+        "拿著鑿子的人類",
+        "住在山裡的巨人"
       ],
-      "answer": "風、雨、海浪與溪水",
-      "explanation": "地形的形塑主要是透過風化、侵蝕、搬運、堆積等自然作用完成。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer": "風、水、海浪等自然力量",
+      "explanation": "運用擬人化的手法，說明地質變動與侵蝕作用的造物力量。",
+      "cqi_score": 5.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
       "type": "true_false",
-      "question": "野柳的「女王頭」是人為刻意雕刻出來的藝術品。",
-      "answer": "False",
-      "explanation": "它是自然界經過千百年風化與海蝕作用自然形成的奇岩。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "question": "文中提到了北海岸（如野柳）的奇岩怪石，都是這些巨大雕刻家的傑作。",
+      "answer": "True",
+      "explanation": "具體地景參照，連結自然與生活觀光經驗。",
+      "cqi_score": 2.25,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
-      "question": "溪水長期切割岩石，形成了壯觀的______地形。",
-      "answer": "峽谷",
-      "explanation": "如太魯閣國家公園即是溪流切割形成的峽谷奇觀。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "question": "著名的「女王頭」是經歷了千百年的風與海水的______作用而形成的。",
+      "answer": "侵蝕或風化",
+      "explanation": "科學知識與自然觀察的結合。",
+      "cqi_score": 2.75,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
       "type": "multiple_choice",
-      "question": "看這些自然景觀時，我們最應該體會到的是？",
+      "question": "作者在看這些奇石時，有著什麼樣的驚嘆？",
       "options": [
-        "石頭很重",
-        "人類很偉大",
-        "這裡很適合蓋房子",
-        "時間的力量與造物者的神妙"
+        "感嘆大自然的鬼斧神工，覺得充滿想像力",
+        "覺得石頭太大很危險",
+        "覺得要把石頭搬回家",
+        "想在上面刻字留名"
       ],
-      "answer": "時間的力量與造物者的神妙",
-      "explanation": "自然的演化往往需要極其漫長的時間。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer": "感嘆大自然的鬼斧神工，覺得充滿想像力",
+      "explanation": "培養美的領悟力與敬畏自然的態度。",
+      "cqi_score": 4.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
       "type": "multiple_choice",
-      "question": "針對這些脆弱的地理景觀，正確的旅遊行為是？",
+      "question": "這課最想引導小孩去？",
       "options": [
-        "在上面刻字留念",
-        "靜靜欣賞，不留垃圾，不隨意破壞",
-        "伸手觸摸或攀爬",
-        "帶走一小塊石頭當紀念"
+        "去海邊抓魚",
+        "自己也去刻石頭",
+        "欣賞自然景觀，並懂得地景保育的重要性",
+        "練習畫風景畫"
       ],
-      "answer": "靜靜欣賞，不留垃圾，不隨意破壞",
-      "explanation": "保護自然地景是永續觀光的重點。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer": "欣賞自然景觀，並懂得地景保育的重要性",
+      "explanation": "環境教育素養：尊重並愛護珍貴的地形資源。",
+      "cqi_score": 4.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

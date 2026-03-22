@@ -11,120 +11,148 @@
   "questions": [
     {
       "taxonomy": "literal",
-      "scenario": "重點成語與詞彙識記",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，小明終於學會了跳繩，心情「欣喜若狂」，這代表他的情緒是？",
+      "scenario": "成語識記",
+      "question": "小明學會跳繩後「欣喜若狂」，心情是？",
       "options": [
-        "說明他在看電視的時候覺得這些節目實在是太無聊了，所以現在只想趕快躺在床上睡覺，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　",
-        "因為他剛剛跟最好的朋友大吵了一架，所以他現在的心情非常生氣，簡直快要發狂了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　　",
-        "這其實是代表他這幾天因為感冒發高燒，所以精神狀態看起來非常不穩定好像生病了，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
-        "在高興到了極點，動作與情緒都非常興奮，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　　　　　　　　　　　　　　　　　　　　　"
+        "想睡覺",
+        "生氣及發狂",
+        "生病發燒",
+        "高興到了極點"
       ],
       "answer_index": 3,
-      "explanation": "欣喜若狂是典型的正向情緒形容詞。",
-      "commonMisconception": "字面誤解「狂」為生氣或生病。",
-      "quality_level": "L5",
-      "cqi_score": 8.5
+      "explanation": "正向情緒的極致形容。",
+      "commonMisconception": "字面誤解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "applied",
-      "scenario": "跨文本整合分析",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，本單元的標題是「我的心靈成長」。下列哪個行為最「不符合」這個主題？",
+      "scenario": "主題不符行為",
+      "question": "下列哪個不符合「我的心靈成長」？",
       "options": [
-        "能夠在每一次考試結束之後，靜下心來仔細地學會分析自己身上擁有的各種優點與缺點　　　",
-        "願意在學校舉辦的才藝表演大會上，鼓起勇氣去勇於嘗試一些自己原本非常害怕且不敢做的事",
-        "在和班上的好朋友發生爭吵的時候，願意主動學習去用更好的說話方式來與同學好好溝通　　",
-        "遇到一點點困難就立刻抱怨並放棄，但是這並不是這一小段文字最主要的重點核心所在　　　"
+        "分析優缺點",
+        "勇於嘗試害怕的事",
+        "主動與人溝通",
+        "遇困難即抱怨放棄"
       ],
       "answer_index": 3,
-      "explanation": "抱怨與放棄是成長的對立向。",
-      "commonMisconception": "混淆「成長過程中的情緒」與「行為結果」。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "explanation": "成長在於克服而非放棄。",
+      "commonMisconception": "將挫折反應誤認為成長。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文重點細節識記",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，在《既然》一課中，「既然」後面通常接的是？",
+      "scenario": "連接詞應用",
+      "question": "「既然」後面通常接的是？",
       "options": [
-        "這其實是一個非常少見的美味形容詞，通常只會出現在美食節目中用來形容超級好吃的高級牛排　　",
-        "這在古代的國語用法裡面，其實是專門用來代表這個人的家裡非常有錢、可以買很多東西的意思　　",
-        "已經成事實、或是已經確定的前提狀況，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "這是在形容那些根本就還沒有在現實生活中發生，完全只是大家在晚上睡覺時作夢所想像出來的事　"
+        "美味形容",
+        "富有狀況",
+        "已成事實的前提",
+        "夢境想像的事"
       ],
       "answer_index": 2,
-      "explanation": "連接詞的邏輯應用限制。",
-      "commonMisconception": "詞義誤解（誤為美味或財富）。",
-      "quality_level": "L5",
-      "cqi_score": 7
+      "explanation": "邏輯推導的起點。",
+      "commonMisconception": "語義模糊。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "分析角色的轉變",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，從「辦不到」到「辦到了」，角色内心最大的轉變通常是？",
+      "scenario": "內心轉變",
+      "question": "從「辦不到」到「辦到了」，最大轉變是？",
       "options": [
-        "從「自我懷疑」轉向「勇敢嘗試與自我肯定」，但是這並不是這一小段文字最主要的重點核心所在　　　",
-        "這代表了角色在一開始覺得非常「開心」，但後來卻因為發生了不好的事情而轉向極度「悲傷」的狀態　",
-        "這其實只是從原本下課時非常「想出去玩」的心情，突然轉向肚子餓了非常「想吃東西」的一種改變　　",
-        "這句話最主要的意思其實是在形容這兩個正在長大的小男孩，他們的身材都在這段時間之內變高了非常多"
+        "疑慮轉向肯定",
+        "開心變悲傷",
+        "想玩變想吃",
+        "身材長高"
       ],
       "answer_index": 0,
-      "explanation": "心理成長的核心是自我效能感的建立。",
-      "commonMisconception": "選到生理變化（長高）或無關的情緒轉移。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "explanation": "自我效能感的建立。",
+      "commonMisconception": "誤認為生理變化。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
-      "scenario": "生活情境識記",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，文中提到「溝通是最好的橋樑」，這句話的意思是？",
+      "scenario": "溝通比喻",
+      "question": "「溝通是最好橋樑」指？",
       "options": [
-        "這句話其實是在警告所有的危險讀者，如果隨便去跟不認識的陌生人溝通，是一件非常危險的可怕事情　　　",
-        "透過交流想法，能化解衝突並連結彼此的心，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重　",
-        "因為村子被颱風切斷了交通，所以為了要保持和外面的聯絡，大家真的準備要在大河上面蓋一座堅固的木橋　",
-        "這句話非常明顯地是在暗示所有正在看書的聰明讀者，如果想要找好工作就應該趕快去學會蓋房子的建築技術"
+        "警告陌生人危險",
+        "化解衝突連結彼此",
+        "在大河上蓋木橋",
+        "學習建築技術"
       ],
       "answer_index": 1,
-      "explanation": "抽象比喻的具象理解。",
-      "commonMisconception": "字面誤解為建築工程。",
-      "quality_level": "L5",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "課文中提到，當小明感到很開心的時候，他通常會怎麼做？",
-      "options": [
-        "大聲哭泣",
-        "和朋友分享喜悅",
-        "躲起來不說話",
-        "生氣地跺腳"
-      ],
-      "answer_index": 1,
-      "explanation": "根據課文對「開心」情緒的描述，小明通常會選擇和朋友分享，讓快樂加倍。",
-      "commonMisconception": "學生可能將「開心」誤認為其他情緒，或認為開心時應該獨自享受，而非分享。",
-      "quality_level": "L3",
+      "explanation": "抽象關係的連結。",
+      "commonMisconception": "字面建築化。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "根據課文內容，麗麗在遇到困難時，心裡會冒出什麼樣的想法？",
+      "scenario": "開心行為",
+      "question": "小明開心時通常會？",
       "options": [
-        "「我一定做不到！」",
-        "「這太簡單了！」",
-        "「我再試試看！」",
-        "「別人會笑我。」"
+        "大聲哭泣",
+        "分享喜悅",
+        "躲起來",
+        "跺腳"
       ],
-      "answer_index": 2,
-      "explanation": "課文強調心靈成長在於培養積極面對挑戰的態度，因此麗麗會鼓勵自己「再試試看」。",
-      "commonMisconception": "學生可能選擇負面自我對話（如「我一定做不到！」），或因害怕他人評價而退縮。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 1,
+      "explanation": "社交分享增加快樂。",
+      "commonMisconception": "情緒不一致反應。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "課文中描述，哪一種情緒會讓小華的臉變得紅通通的？",
+      "scenario": "面對困難想法",
+      "question": "遇困難時，麗麗會想？",
+      "options": [
+        "一定做不到",
+        "太簡單",
+        "我再試試看",
+        "別人會笑"
+      ],
+      "answer_index": 2,
+      "explanation": "挫折容忍力展現。",
+      "commonMisconception": "負面自我暗示。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "生氣特徵",
+      "question": "哪種情緒會讓臉紅通通？",
       "options": [
         "開心",
         "害怕",
@@ -132,362 +160,460 @@
         "難過"
       ],
       "answer_index": 2,
-      "explanation": "臉變紅通通是生氣時常見的生理反應，課文會以此來描寫情緒。",
-      "commonMisconception": "學生可能將開心或害怕時的臉部表情與生氣混淆，例如將興奮的紅潤誤認為生氣。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "explanation": "生理激起特徵。",
+      "commonMisconception": "誤為害羞或運動。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "情緒與生理反應連結，題目稍顯簡單，但符合認知。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "故事裡的主角小杰，他的心靈成長第一步是學習辨識什麼？",
+      "scenario": "小杰成長首步",
+      "question": "成長第一步是認識？",
       "options": [
-        "數學公式",
-        "交通號誌",
+        "數學",
+        "號誌",
         "陌生人",
         "自己的情緒"
       ],
       "answer_index": 3,
-      "explanation": "「我的心靈成長」單元的核心是引導學生認識和管理自己的情緒，這是心靈成長的基礎。",
-      "commonMisconception": "學生可能將學習與其他學科知識或生活技能混淆，忽略「心靈成長」的主題。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "情商教育基礎。",
+      "commonMisconception": "僅視為知識習得。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "課文提到，當我們感到害怕的時候，可以試著做什麼來讓自己平靜下來？",
+      "scenario": "平靜策略",
+      "question": "害怕時可如何平靜？",
       "options": [
-        "閉上眼睛深呼吸",
-        "大聲尖叫",
-        "跑開躲起來",
+        "深呼吸",
+        "尖叫",
+        "躲起",
         "假裝沒事"
       ],
       "answer_index": 0,
-      "explanation": "深呼吸是課文或教育中常用來教導孩子平復情緒的有效方法。",
-      "commonMisconception": "學生可能選擇直覺反應（尖叫、躲藏）或壓抑情緒（假裝沒事），而非積極的調節策略。",
-      "quality_level": "L5",
-      "cqi_score": 4
+      "explanation": "有效的中樞神經調節。",
+      "commonMisconception": "選到壓抑或失控反應。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "在故事中，小光如何表達他對朋友的關心？",
+      "scenario": "關心表達",
+      "question": "小光如何表達關心？",
       "options": [
-        "假裝沒看到朋友",
-        "大聲指責朋友的錯誤",
-        "輕聲問候並陪伴朋友",
-        "送給朋友很貴的禮物"
+        "無視",
+        "指責錯誤",
+        "問候陪伴",
+        "送貴禮"
       ],
       "answer_index": 2,
-      "explanation": "課文強調同理心和實際行動的關懷，輕聲問候與陪伴是直接且溫暖的表達方式。",
-      "commonMisconception": "學生可能誤以為物質給予（送禮物）是表達關心的唯一方式，或選擇了不恰當的反應。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "情緒支持優於物質。",
+      "commonMisconception": "重視金錢價值。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "課文指出，心靈成長的過程中，我們會學習到哪一種能力？",
+      "scenario": "學習能力",
+      "question": "成長過程中學到？",
       "options": [
-        "快速解題的能力",
-        "記憶很多數字",
-        "跑得更快",
-        "認識自己的感受"
+        "速解",
+        "記大數",
+        "跑快",
+        "認識感受"
       ],
       "answer_index": 3,
-      "explanation": "「認識自己的感受」是心靈成長的核心，有助於情緒管理和自我了解。",
-      "commonMisconception": "學生可能將心靈成長與體能或智力發展混淆，未能理解其內在層面。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "內省智力的發展。",
+      "commonMisconception": "混淆體能智力。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "故事裡，小雅在心情不好時，她的媽媽建議她可以做什麼？",
+      "scenario": "抒發心情",
+      "question": "心情不好時建議？",
       "options": [
-        "把不開心的事畫出來",
-        "一直看電視",
-        "躲在房間裡哭泣",
-        "和弟弟吵架"
+        "畫出來",
+        "看電視",
+        "哭泣",
+        "吵架"
       ],
       "answer_index": 0,
-      "explanation": "透過藝術表達是處理負面情緒的健康方式，課文常會鼓勵孩子利用創造力來抒發。",
-      "commonMisconception": "學生可能選擇被動或破壞性的處理方式，例如看電視逃避或與人爭吵。",
+      "explanation": "象徵性表達有助修復情緒。",
+      "commonMisconception": "轉向消極消磨。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "課文告訴我們，當我們犯錯時，應該怎麼面對？",
+      "scenario": "犯錯態度",
+      "question": "犯錯時應？",
       "options": [
-        "把責任推給別人",
-        "勇敢承認並改進",
-        "假裝沒發生",
-        "感到非常羞恥"
+        "推卸",
+        "承認並改進",
+        "假裝沒事",
+        "羞恥"
       ],
       "answer_index": 1,
-      "explanation": "心靈成長單元會教導孩子學習負責任，從錯誤中學習和成長。",
-      "commonMisconception": "學生可能選擇逃避責任、否認錯誤或過度自責，這些都是不健康的應對方式。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "責任感的建立。",
+      "commonMisconception": "逃避心理。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "課文情境",
-      "question": "根據課文，哪一種活動有助於我們放鬆心情，感受快樂？",
+      "scenario": "快樂活動",
+      "question": "有助放鬆感受快樂的活動？",
       "options": [
-        "整天待在室內",
-        "獨自一人玩遊戲",
-        "和家人一起散步",
-        "考試前熬夜"
+        "宅在家",
+        "獨自打電玩",
+        "和家人散步",
+        "熬夜"
       ],
       "answer_index": 2,
-      "explanation": "和家人一起散步結合了親情、運動和接觸大自然，有助於身心放鬆和愉悅。",
-      "commonMisconception": "學生可能選擇獨自活動或壓力大的行為，而忽略了社交和戶外活動的益處。",
+      "explanation": "人際連結與自然互動。",
+      "commonMisconception": "視為感官刺激消費。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "默默畫畫",
+      "question": "畫哭狗卻不說，代表？",
+      "options": [
+        "愛狗",
+        "愛畫畫",
+        "不想公開心情",
+        "想要狗"
+      ],
+      "answer_index": 2,
+      "explanation": "對隱私與情緒揭露的選擇。",
+      "commonMisconception": "字面表象化理解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "拍肩支持",
+      "question": "拍友肩代表？",
+      "options": [
+        "也想哭",
+        "不愛玩具",
+        "懂得體諒",
+        "想讓友停"
+      ],
+      "answer_index": 2,
+      "explanation": "非言語的同理心支持。",
+      "commonMisconception": "工具性意圖猜測（停哭）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "情緒表達情境",
-      "question": "【在小美因為考試考不好而難過時】她沒有告訴任何人，只是默默地在日記上畫了一隻哭泣的小狗。從這裡我們可以推斷小美可能覺得怎麼樣？",
+      "scenario": "心靈小樹",
+      "question": "心靈像小樹需照顧指？",
       "options": [
-        "她很喜歡小狗",
-        "她覺得畫畫很有趣",
-        "她不想讓別人知道她的心情",
-        "她想要一隻小狗"
+        "去種樹",
+        "樹會長大",
+        "內心需細心滋養",
+        "陽光對身體好"
       ],
       "answer_index": 2,
-      "explanation": "小美選擇在日記上表達，且沒有告訴任何人，推斷她可能還沒有準備好或不想公開分享自己的難過情緒。",
-      "commonMisconception": "學生可能過度解讀或誤解小狗的意義，將注意力放在表象而非行為背後的情緒動機。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
+      "explanation": "心靈成長的隱喻理解。",
+      "commonMisconception": "字面綠化誤解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "人際互動情境",
-      "question": "當小華看到朋友因為玩具壞掉而哭泣時，他沒有笑，反而輕輕拍拍朋友的肩膀。這代表小華有什麼樣的特質？",
+      "scenario": "上臺緊張",
+      "question": "緊張仍完成表演顯示？",
       "options": [
-        "他也很想哭",
-        "他不喜歡那個玩具",
-        "他很懂得體諒別人的感受",
-        "他希望朋友趕快停止哭泣"
+        "運氣好",
+        "愛表演",
+        "克服困難",
+        "不怕丟臉"
       ],
       "answer_index": 2,
-      "explanation": "小華的行為顯示他能理解並同情朋友的感受，這是同理心的表現。",
-      "commonMisconception": "學生可能將小華的行為解讀為自身情緒投射或不相關的原因，而忽略了行為本身所傳達的同理心。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "意志力克服生理反應。",
+      "commonMisconception": "無視努力特質。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "比喻情境",
-      "question": "課文中說：「心靈就像一棵小樹，需要陽光和水分才能長大。」這句話想告訴我們什麼？",
+      "scenario": "傾訴對象",
+      "question": "找母聊天心情變好代表？",
       "options": [
-        "我們應該多去戶外種樹",
-        "小樹長大後會變成大樹",
-        "我們的內心需要被好好照顧才能成長",
-        "陽光和水分對身體很重要"
+        "母幽默",
+        "挫折易解",
+        "傾訴是好方法",
+        "依賴"
       ],
       "answer_index": 2,
-      "explanation": "這是一個比喻，將心靈的成長比作植物生長，強調心靈需要細心呵護和滋養才能健康發展。",
-      "commonMisconception": "學生可能只看到比喻的字面意思，無法理解其深層的象徵意義。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "外部支持系統的功能。",
+      "commonMisconception": "負面依賴化解讀。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "挑戰克服情境",
-      "question": "【在小翰第一次上臺表演時】他心臟跳得很快，手心也都是汗，但他還是深呼吸，勇敢地完成了表演。這顯示了小翰什麼樣的品格？",
+      "scenario": "心中太陽",
+      "question": "有太陽但會被雲遮指？",
       "options": [
-        "他只是運氣好",
-        "他很喜歡表演",
-        "他學會了克服困難和緊張",
-        "他不怕丟臉"
-      ],
-      "answer_index": 2,
-      "explanation": "儘管感到緊張，小翰仍透過深呼吸並堅持完成表演，說明他學會了管理情緒並勇於面對挑戰。",
-      "commonMisconception": "學生可能將克服緊張歸因於外在因素（運氣好）或不完全相關的特質（喜歡表演、不怕丟臉）。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "情緒處理情境",
-      "question": "故事裡提到，小芬每次遇到挫折都會找媽媽聊天，聊完後心情就會好很多。這說明了什麼？",
-      "options": [
-        "媽媽很會講笑話",
-        "挫折很容易解決",
-        "傾訴是處理負面情緒的好方法",
-        "小芬很依賴媽媽"
-      ],
-      "answer_index": 2,
-      "explanation": "小芬透過與媽媽聊天來緩解負面情緒，這表明傾訴是有效的心理調適方式。",
-      "commonMisconception": "學生可能將好心情歸因於媽媽的特定行為，或將傾訴誤解為依賴，未理解其作為情緒處理策略的普遍性。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "比喻情境",
-      "question": "課文寫道：「每個人的心裡都住著一個小小的太陽，有時候會被烏雲遮住。」這句話最可能想表達什麼意思？",
-      "options": [
-        "烏雲會讓天氣變冷",
-        "我們的心臟是熱的",
-        "我們應該多曬太陽",
-        "我們每個人都有能力變開心，只是有時候會被不好的情緒影響"
+        "天氣冷",
+        "心是熱的",
+        "多曬太陽",
+        "有能力開心但會受情緒擾"
       ],
       "answer_index": 3,
-      "explanation": "「小小的太陽」象徵內心的光明與快樂，「烏雲遮住」則比喻負面情緒的暫時遮蔽，強調內在的樂觀潛力。",
-      "commonMisconception": "學生可能將比喻字面化，將其與天氣、生理或物理現象混淆。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "樂觀本質與情緒暫時性的比喻。",
+      "commonMisconception": "氣象化解讀。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "inferential",
-      "scenario": "學習態度情境",
-      "question": "【在小傑發現自己把功課寫錯時】他沒有馬上擦掉，而是先想了想錯在哪裡，然後才訂正。從這裡我們可以知道小傑是個什麼樣的孩子？",
+      "scenario": "想錯在哪",
+      "question": "先想錯處再訂正顯示？",
       "options": [
-        "他寫字很慢",
-        "他很粗心",
-        "他會反省自己的錯誤並學習",
-        "他不喜歡馬上改錯"
+        "寫慢",
+        "粗心",
+        "會反省學習",
+        "不愛改錯"
       ],
       "answer_index": 2,
-      "explanation": "小傑的行為表明他不僅是訂正錯誤，更重要的是反思錯誤原因，這是一種積極的學習和成長態度。",
-      "commonMisconception": "學生可能做出負面或不相關的判斷，例如認為他寫字慢或不喜歡改錯，未能看到其背後的反思精神。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
+      "explanation": "後設認知與深度學習。",
+      "commonMisconception": "操作速度化偏見。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "情緒分享情境",
-      "question": "課文說：「分享快樂，快樂會加倍；分擔難過，難過會減半。」這句話的道理是什麼？",
+      "scenario": "分享加倍",
+      "question": "分享與分擔的道理？",
       "options": [
-        "快樂和難過都可以用數學計算",
-        "我們應該多和朋友玩",
-        "和別人分享感受，可以讓情緒更好",
-        "快樂比難過重要"
+        "數學計算",
+        "多跟友玩",
+        "交流讓情緒更好",
+        "快樂更重要"
       ],
       "answer_index": 2,
-      "explanation": "這句話強調了社交連結和情緒分享在情緒調節中的重要性，能夠增強正面情緒，減輕負面情緒。",
-      "commonMisconception": "學生可能將比喻字面化，誤解為數學運算，或做出過於籠統的判斷。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "情緒社會化的調節力量。",
+      "commonMisconception": "字面數值化理解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "inferential",
-      "scenario": "面對挫折情境",
-      "question": "【在小芳第一次嘗試學騎腳踏車時】她跌倒了好幾次，但每次都自己爬起來，拍拍灰塵，繼續練習。這說明小芳具備了哪種心靈成長的特質？",
+      "scenario": "學騎車跌倒",
+      "question": "跌倒爬起繼續代表？",
       "options": [
-        "喜歡挑戰",
-        "她的腳踏車很堅固",
-        "很有毅力和不放棄的精神",
-        "不怕受傷"
+        "愛挑戰",
+        "車堅固",
+        "毅力不放棄",
+        "不怕痛"
       ],
       "answer_index": 2,
-      "explanation": "小芳面對跌倒仍堅持不懈地練習，展現了堅韌的毅力和永不放棄的精神，這是心靈成長的重要特質。",
-      "commonMisconception": "學生可能選擇部分正確但未完全涵蓋的選項（喜歡挑戰），或不相關的描述（腳踏車堅固）。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
+      "explanation": "挫折恢復力的展現。",
+      "commonMisconception": "忽略性格韌性。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "情緒管理情境",
-      "question": "故事中提到，小宇學會了在生氣時先數到十，才開口說話。這個做法最主要的好處是什麼？",
+      "scenario": "生氣數到十",
+      "question": "數到十的主要好處？",
       "options": [
-        "讓別人覺得他很慢",
-        "讓自己看起來很有耐心",
-        "避免說出後悔的話",
-        "忘記自己為什麼生氣"
+        "顯得慢",
+        "像有耐心",
+        "避免後悔言論",
+        "忘記生氣"
       ],
       "answer_index": 2,
-      "explanation": "數到十是延遲反應的策略，目的是給自己時間冷靜，避免衝動之下說出傷害自己或他人的話。",
-      "commonMisconception": "學生可能誤解為只是為了表現耐心，或認為這樣會忘記生氣的原因，而忽略了控制言語的重要性。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "人際互動情境",
-      "question": "如果你是課文中的小主角，當你看到朋友因為被老師誤會而覺得很委屈時，你會怎麼做？",
-      "options": [
-        "嘲笑朋友",
-        "假裝沒看到",
-        "告訴老師朋友是無辜的",
-        "叫朋友不要難過"
-      ],
-      "answer_index": 2,
-      "explanation": "面對朋友的委屈，主動向老師說明真相，是展現同理心、正義感和支持朋友的行為。",
-      "commonMisconception": "學生可能選擇逃避、嘲笑或提供無效的安慰，未能理解如何採取積極且具建設性的行動。",
-      "quality_level": "L5",
+      "explanation": "衝動控制機制。",
+      "commonMisconception": "僅視為外部禮貌。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "單元主題意義",
-      "question": "課文強調「認識自己的情緒」是心靈成長的重要一步。你認為為什麼這件事對中年級的小學生來說特別重要？",
+      "scenario": "友受委屈",
+      "question": "見友受委屈應？",
       "options": [
-        "因為長大後就不用學了",
-        "因為可以幫助他們更好地理解自己和他人，學習處理問題",
-        "因為老師會稱讚他們",
-        "因為這樣才知道要買什麼玩具"
+        "嘲笑",
+        "無視",
+        "向師說明真相",
+        "叫他別哭"
+      ],
+      "answer_index": 2,
+      "explanation": "正義感與友誼支持。",
+      "commonMisconception": "旁觀者冷漠。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "認識情緒重要性",
+      "question": "對中年級重要原因？",
+      "options": [
+        "長大不用學",
+        "助理解自他與解題",
+        "得讚",
+        "知買啥玩具"
       ],
       "answer_index": 1,
-      "explanation": "認識情緒是建立自我認知和社會情緒能力的基礎，能幫助孩子更好地適應環境、處理人際關係和解決問題。",
-      "commonMisconception": "學生可能選擇表面或功利性的理由，未能理解情緒教育對個人發展的深遠影響。",
-      "quality_level": "L5",
+      "explanation": "人格與社會化發展關鍵期。",
+      "commonMisconception": "功利化解讀。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "接受不完美",
+      "question": "那句話鼓勵我們？",
+      "options": [
+        "要變完美",
+        "接受不足並進步",
+        "隱藏缺點",
+        "有勇氣萬能"
+      ],
+      "answer_index": 1,
+      "explanation": "真誠的面對自我成長。",
+      "commonMisconception": "追求虛假的完美。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "critical",
-      "scenario": "成長哲理",
-      "question": "課文中說「勇敢面對自己的不完美，才能真正成長。」你覺得這句話在鼓勵我們什麼？",
+      "scenario": "單元核心",
+      "question": "單元最想教導？",
       "options": [
-        "只要努力，就可以變成完美的人",
-        "接受自己的不足，並從中學習進步",
-        "假裝自己沒有缺點",
-        "只要有勇氣，什麼事情都做得到"
-      ],
-      "answer_index": 1,
-      "explanation": "這句話鼓勵我們接納自己的缺點，將其視為學習和改進的機會，而非逃避或追求不可能的完美。",
-      "commonMisconception": "學生可能誤解為要追求完美，或選擇逃避現實，未能理解「不完美」是成長的契機。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "單元核心概念",
-      "question": "根據課文的主題，你認為「我的心靈成長」這個單元最想教導我們哪一個重要的道理？",
-      "options": [
-        "知識學習比情緒重要",
-        "只要開心就好，不用管其他情緒",
-        "了解、接納並學習處理自己的情緒，是讓自己變得更好的關鍵",
-        "只要不生氣，就是心靈成長了"
+        "知識勝情緒",
+        "開心就好",
+        "了解接納情緒是關鍵",
+        "不生氣即成長"
       ],
       "answer_index": 2,
-      "explanation": "此單元的核心目標是培養學生的情緒智能，讓他們學會認識、接納和有效管理自己的各種情緒，以促進全面的個人成長。",
-      "commonMisconception": "學生可能選擇片面、簡化或錯誤的觀點，未能掌握單元所要傳達的全面情緒教育理念。",
-      "quality_level": "L5",
+      "explanation": "全面的人格發展觀。",
+      "commonMisconception": "選到壓抑型成長觀（不生氣）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "表達自我情境",
-      "question": "【在班上同學舉辦「心情分享會」時】小恩猶豫了很久，最後還是決定上臺說出自己的煩惱。你覺得小恩這樣做的最大意義是什麼？",
+      "scenario": "分享會說煩惱",
+      "question": "說出煩惱最大意義？",
       "options": [
-        "他只是想說話",
-        "他想得到大家的稱讚",
-        "他學會了勇敢表達和信任他人",
-        "他希望別人幫他解決問題"
+        "想說話",
+        "求讚",
+        "勇氣表達與信任",
+        "求代勞解題"
       ],
       "answer_index": 2,
-      "explanation": "小恩克服猶豫，選擇在公開場合分享煩惱，這代表他跨出了勇敢表達自我的舒適圈，並對同伴和環境產生了信任。",
-      "commonMisconception": "學生可能將小恩的行為歸因於尋求外部獎勵或被動等待解決方案，而非主動的個人成長。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "explanation": "突破自我界限的開端。",
+      "commonMisconception": "誤解為依賴行為。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2
     }
   ]
 }

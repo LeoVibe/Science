@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "grade": "grade_6",
+    "semester": "semester_2",
+    "subject": "Chinese",
+    "publisher": "康軒",
+    "title": "馬達加斯加，出發！",
+    "lesson": "L5",
+    "order": 5
+  },
+  "questions": [
+    {
+      "question": "【分析遊記中的科普成分】作者在文中除了紀錄旅遊行程，還詳細介紹了馬達加斯加的特有種生物。這種「遊記結合科普」的寫法有什麼好處？",
+      "options": [
+        "能讓讀者在跟隨作者腳步冒險的同時，獲得具體的自然知識，增加文章的廣度。",
+        "這是為了要掩飾作者其實根本沒有去過馬達加斯加，只好抄錄百科全書的內容。",
+        "證明作者是一個非常嚴厲的生物老師，他在旅遊時也不忘要隨時考核讀者。",
+        "這是一種混亂的寫法，會導致讀者分不清楚這是在讀故事還是在讀課本。"
+      ],
+      "answer_index": 0,
+      "explanation": "當代遊記常具備「知性」成分。透過敘事（冒險）帶動知識（生態），能讓枯燥的數據變得生動，提升讀者的動機。",
+      "scenario": "探討混合文體（遊記+說明）在知識傳遞與趣味性上的平衡。",
+      "commonMisconception": "學生可能選[D]，對於文體融合缺乏理解，認為文章必須是純粹的類型。",
+      "taxonomy": "analysis",
+      "cqi_score": 6,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解析生態倫理】文中描述狐猴與當地森林的共生關係，這對人類開發自然環境有什麼樣的提醒？",
+      "options": [
+        "提醒我們要多抓一些狐猴到台灣來飼養，這樣台灣的森林也會變得更好。",
+        "任何一個物種的消失都可能導致生態鏈的崩潰，保護多樣性是人類的責任。",
+        "說明森林的存在只會妨礙觀光業的發展，應該要全面改建為五星級飯店。",
+        "狐猴是一種非常危險的生物，人類在進入馬達加斯加時應該隨身攜帶防護。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是本課在生態維護上的深層次意涵。馬達加斯加作為生物孤島，其脆弱性凸顯了「共生」的重要性。PIRLS 層次 3 的詮釋整合。",
+      "scenario": "從具體的生物習性描寫中推論出整體的生態保護價值感。",
+      "commonMisconception": "學生若選[A]，反應出對自然的「佔有慾」大於「尊重感」，是常見的倫理迷思。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析說明策略】作者在文中運用了「分類說明」來介紹當地的特有物種，這種策略對讀者掌握龐雜資訊有何屏障作用？",
+      "options": [
+        "讓讀者感到視覺疲倦，因為分類法通常會使用很多冷冰冰的數據與名詞。",
+        "建立清晰的認知地圖，幫助讀者在腦中將分散的生物細節進行有序的整合。",
+        "證明這是一篇非常嚴格的科學論文，主要讀者應該是博士學位的專家。",
+        "這是為了要強調作者的博學，故意讓讀者覺得馬達加斯加是一個很難懂的地方。"
+      ],
+      "answer_index": 1,
+      "explanation": "分類是說明文的核心手段。它可以降低記憶負荷，讓「特有種」這個抽象概念透過具體的類別（如靈長類、爬蟲類等）具象化。",
+      "scenario": "評估說明文寫法（分類策略）對資訊吸收效率的提升。",
+      "commonMisconception": "易選[A]，認為「分類 = 枯燥」。",
+      "taxonomy": "analysis",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀核心意象】作者將馬達加斯加稱為「失落的世界」或「演化的活實驗室」，這在文學修辭上有什麼樣的感染力？",
+      "options": [
+        "讓讀者以為那裡到處都是恐龍，而且隨時都會發生恐怖的實驗室爆炸。",
+        "賦予該地神祕且珍貴的歷史地位，激發讀者對未知世界探索的渴望。",
+        "嘲笑該國的科技非常落後，就像是生活在實驗室裡的白老鼠一樣。",
+        "證明這是一本純粹的歷史書，內容主要探討五十萬年前的古代氣候。"
+      ],
+      "answer_index": 1,
+      "explanation": "「活實驗室」是一個強而有力的隱喻。它將該地的生物學價值昇華為一種動態的、正在進行中的奇蹟，而非冷冰冰的遺跡。",
+      "scenario": "解析科普修辭（隱喻）對營造地方特色與重要性的作用（PIRLS 層次 3）。",
+      "commonMisconception": "學生常依據字面含義選[A]，無法完成隱喻的「價值轉移」。",
+      "taxonomy": "inferential",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【評估文章的預期讀者】下列哪一類人最不適合將這篇文章作為主要的參考資料？",
+      "options": [
+        "正在規劃馬達加斯加生態攝影深度旅遊的冒險家。",
+        "想要發表頂尖生物基因研究報告的專業醫學博士。",
+        "想要了解跨國旅遊遊記寫作技巧的小學六年級學生。",
+        "對於世界地理、氣候變遷有濃厚興趣的科普工作者。"
+      ],
+      "answer_index": 1,
+      "explanation": "本文屬於「科普旅遊文學」，雖然有正確知識，但深度不足以支撐頂尖的、具備數據嚴密性的醫學研究。這測驗學生對「文本定位」的認知。",
+      "scenario": "評估文本的「權威邊界」與「適用範圍」（PIRLS 層次 4）。",
+      "commonMisconception": "學生可能選[C]，忽略了這正是國小課程的核心選文，是極其適合的對象。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

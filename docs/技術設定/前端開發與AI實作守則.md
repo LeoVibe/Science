@@ -1,4 +1,6 @@
 ---
+last_updated: 2026-03-23 16:05
+updated_by: Cursor Agent
 description: 專案 UI/UX 與色彩設計規範 — 指導 AI 如何讀取規格書與防呆
 ---
 
@@ -32,7 +34,7 @@ description: 專案 UI/UX 與色彩設計規範 — 指導 AI 如何讀取規格
    - 區塊分隔優先使用 `border-border/50`，而非生硬深色的實線。
 
 4. **更新規格書防脫節**
-   - 當使用者明確要求一個**不在規格書內**的新設計（例如：新增一種紅色警告標籤），實作完成後，這項新規格**必須同步寫回** `docs/網站功能規格書.md`，並更新文件底部的變更紀錄。這可以與 `/sync` 流程合併執行。
+   - 當使用者明確要求一個**不在規格書內**的新設計（例如：新增一種紅色警告標籤），實作完成後，這項新規格**必須同步寫回** `docs/網站功能規格書.md`，並更新文件底部的變更紀錄。這可以與 **`/dosync`** 全域文件同步流程一併執行（見 `_agent/skills/dosync/SKILL.md`）。
 
 5. **頂規設計美學與互動 (Premium Aesthetics)**
    - **微互動生命力 (Micro-Animations)**：所有的按鈕、卡片 hover 時，必須伴隨 `transition-all duration-300 ease-out` 加上 `hover:shadow-md` 等立體浮現或微縮小 (`active:scale-[0.98]`) 效果。

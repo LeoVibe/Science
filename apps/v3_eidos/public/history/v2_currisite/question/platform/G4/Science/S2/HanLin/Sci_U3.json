@@ -40,7 +40,7 @@
       "answer": 1,
       "explanation": "長時間受到風力磨蝕與雨水化學/物理作用，使岩石結構改變並剝落。",
       "concept": "風化與侵蝕",
-      "quality_level": "L2",
+      "quality_level": "L4",
       "cqi_score": 4.5
     },
     {
@@ -57,7 +57,7 @@
       "answer": 2,
       "explanation": "躲在桌底可以避免被掉落的天花板或物品砸傷。並遠離易碎的玻璃窗。",
       "concept": "地震防災應變",
-      "quality_level": "L2",
+      "quality_level": "L4",
       "cqi_score": 4.5
     },
     {
@@ -74,7 +74,7 @@
       "answer": 1,
       "explanation": "水流流速隨坡度增加而變快，動能越大，對地表的侵蝕力就越強。",
       "concept": "水流侵蝕模型",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     },
     {
@@ -91,7 +91,7 @@
       "answer": 2,
       "explanation": "上游距離源頭近，尚未經過長時間磨損與搬運，故多為巨石且具稜角。",
       "concept": "河流地貌分布",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     },
     {
@@ -108,7 +108,7 @@
       "answer": 1,
       "explanation": "地球內部的板塊推擠產生的能量釋放是地震的主因。",
       "concept": "地震成因",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     },
     {
@@ -125,7 +125,7 @@
       "answer": 1,
       "explanation": "混濁代表水中懸浮了大量被沖刷下來的泥沙，顯示搬運能力旺盛（通常與流量大有關）。",
       "concept": "搬運作用觀察",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     },
     {
@@ -159,8 +159,8 @@
       "answer": 0,
       "explanation": "震度反映的是特定地點感受到的動搖程度；規模才代表能量釋放大小。震度隨距離震央遠近及地質而異。",
       "concept": "震度與規模定義",
-      "quality_level": "L2",
-      "cqi_score": 6
+      "quality_level": "L4",
+      "cqi_score": 4.5
     },
     {
       "id": "q10",
@@ -176,7 +176,7 @@
       "answer": 1,
       "explanation": "在搬運過程中，石頭互相碰撞、摩擦，磨去了稜角，逐漸變圓滑。",
       "concept": "地貌演變過程",
-      "quality_level": "L2",
+      "quality_level": "L3",
       "cqi_score": 3.5
     }
   ]

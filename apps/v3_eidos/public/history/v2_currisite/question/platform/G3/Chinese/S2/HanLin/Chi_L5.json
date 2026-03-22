@@ -14,48 +14,60 @@
       "scenario": "分析心理融入感",
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，作者在看著荷花時，為什麼會覺得自己彷彿「也變成了一朵荷花」？",
       "options": [
-        "因為他觀察得非常專注與投入，情緒與自然場景產生了強烈的共鳴，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重　　　　　　　　",
-        "這代表著他今天這趟出門的時候，身上正好穿著一件非常漂亮而且特別顯眼的綠色衣服，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　",
-        "因為他從小就在深山裡面向師傅學會了可以隨意變形、把自己變成一朵植物的特異功能，但是這並不是這一小段文字最主要的重點核心所在　　　　",
+        "因為他觀察得非常專注與投入，情緒與自然場景產生了強烈的共鳴，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
+        "這代表著他今天這趟出門的時候，身上正好穿著一件非常漂亮而且特別顯眼的綠色衣服，這也是作者在這裡特別想要傳達給我們的另外一個小觀念",
+        "因為他從小就在深山裡面向師傅學會了可以隨意變形、把自己變成一朵植物的特異功能，但是這並不是這一小段文字最主要的重點核心所在",
         "因為今天外面的太陽實在是太大了，導致他走在路上的時候中暑甚至還產生了奇怪的幻覺，這種想法在日常生活中其實也是非常常見的一種自然現象"
       ],
       "answer_index": 0,
       "explanation": "這是心理學中「物我兩忘」的審美最高境界，展現了極致的觀察與熱愛。",
       "commonMisconception": "將感官體驗誤解為「特異功能」或「中暑」。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析作者的觀賞順序",
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，作者在描寫荷花時，大致遵循了什麼樣的順序？",
       "options": [
-        "這其實只是作者昨天晚上一篇隨機亂寫、然後完全沒有任何邏輯結構的個人日記，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　　",
+        "這其實只是作者昨天晚上一篇隨機亂寫、然後完全沒有任何邏輯結構的個人日記，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
         "作者總是先花很多時間描寫這朵荷花到底有多麼的好吃，然後再寫荷花的外表很漂亮，這種想法在日常生活中其實也是非常常見的一種自然現象",
-        "作者的觀察順序是從池塘底下的黑色泥土一路往上慢慢地寫到天上的那顆大太陽，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節　",
-        "從整體到局部，從視覺色彩到動態聯想，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節　　　　　　　　　　　　　　　　　　　"
+        "作者的觀察順序是從池塘底下的黑色泥土一路往上慢慢地寫到天上的那顆大太陽，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
+        "從整體到局部，從視覺色彩到動態聯想，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節"
       ],
       "answer_index": 3,
       "explanation": "寫景散文通常具備清晰的觀察視角與路徑。",
       "commonMisconception": "忽略文本結構，認為是隨機描寫。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析「大自然的美術館」",
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，如果作者說這一池荷花是「一大幅活的畫」，這幅畫的「畫家」指的是誰？",
       "options": [
-        "指的是當初拿筆寫下這篇優美課文內容而且想像力非常豐富的作者本人，這種想法在日常生活中其實也是非常常見的一種自然現象　　　　　　",
-        "指的是一位年紀非常小，剛剛才拿著彩色筆努力在圖畫紙上面塗鴉的可愛小朋友，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節　",
-        "大自然（或造物主），不過這點很容易讓許多小朋友在閱讀的時候產生誤解，這種想法在日常生活中其實也是非常常見的一種自然現象　　　　",
+        "指的是當初拿筆寫下這篇優美課文內容而且想像力非常豐富的作者本人，這種想法在日常生活中其實也是非常常見的一種自然現象",
+        "指的是一位年紀非常小，剛剛才拿著彩色筆努力在圖畫紙上面塗鴉的可愛小朋友，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
+        "大自然（或造物主），不過這點很容易讓許多小朋友在閱讀的時候產生誤解，這種想法在日常生活中其實也是非常常見的一種自然現象",
         "指的是每天早上都在這個大公園裡面負責打掃、並且照顧這些花草樹木的認真管理員，這也是作者在這裡特別想要傳達給我們的另外一個小觀念"
       ],
       "answer_index": 2,
       "explanation": "讚嘆自然的鬼斧神工，這是生態美學的核心。",
       "commonMisconception": "誤解為具體的人類（管理員、小朋友）。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -64,14 +76,18 @@
       "options": [
         "用心觀察、忘記自我，體會世界的一草一木帶來的寧靜與美好，感受與自然共鳴的和諧律動",
         "在路上只要遇到任何看起來好看的東西，一定要趕快拿出手機瘋狂拍照然後上傳到網路分享",
-        "告訴自己不管以後在路上看到什麼美麗神奇的事物，都要覺得那很普通沒什麼大不了的　　",
+        "告訴自己不管以後在路上看到什麼美麗神奇的事物，都要覺得那很普通沒什麼大不了的",
         "只要這些植物在生長的時候完全不會吵到我的睡覺時間，那麼不管是什麼花開都對我無所謂"
       ],
       "answer_index": 0,
       "explanation": "強調內心的寧靜與對美好的深度體驗。",
       "commonMisconception": "選到快節奏社交（拍照上傳）或冷漠（無所謂）的回應。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -87,7 +103,11 @@
       "explanation": "課文裡常常把荷葉比喻成圓圓的大盤子，這是直接描述其外形的特點。",
       "commonMisconception": "小朋友容易混淆荷葉與其他植物的形狀，或錯誤聯想到不相關的物品。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -103,7 +123,11 @@
       "explanation": "荷花是一種水生植物，主要生長在有水的池塘或湖泊中，這是課文中會直接提到的基本知識。",
       "commonMisconception": "小朋友可能因不熟悉荷花的生長習性，而誤選其他不適合植物生長的地點。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -119,7 +143,11 @@
       "explanation": "「亭亭玉立」是指女子身材修長、姿態優雅，用來形容荷花，就是指它筆直地挺立在水面上，非常美麗。",
       "commonMisconception": "小朋友可能只從字面理解「立」而忽略了「亭亭玉」所帶來的優美姿態，或是誤以為是其他動作。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -132,10 +160,14 @@
         "紅、粉、白都有"
       ],
       "answer_index": 3,
-      "explanation": "常見的荷花品種顏色多樣，課文中為展現其豐富性，通常會描寫到紅色、粉色和白色等。",
+      "explanation": "常見的荷花品種顏色多樣，課文中為展現其豐富性，通常會描寫到紅色、粉色 and 白色等。",
       "commonMisconception": "小朋友可能只看過單一顏色的荷花，或誤以為所有花朵都只有一種顏色。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
@@ -151,6 +183,10 @@
       "explanation": "蜜蜂和蝴蝶會被花朵的香氣吸引，並從花朵中採集花蜜，這是大自然中常見的生物互動。",
       "commonMisconception": "小朋友可能將人類的行為或想像投射到植物上，誤以為花朵會進行娛樂活動。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
@@ -165,9 +201,13 @@
       ],
       "answer_index": 1,
       "explanation": "課文常會將荷花的花苞比喻為飽滿的筆尖，形容其尖尖向上、蓄勢待放的樣子。",
-      "commonMisconception": "小朋友可能對花苞的形狀沒有具體概念，容易選擇其他不相關的形狀描述。",
+      "commonMisconception": "小朋友對花苞形狀沒概念，容易選錯。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -180,10 +220,14 @@
         "荷花的香味"
       ],
       "answer_index": 3,
-      "explanation": "荷花開放時會散發出淡淡的清香，是其重要的特徵之一，也是吸引昆蟲的原因。",
-      "commonMisconception": "小朋友可能將周圍環境的其他氣味與荷花的香味混淆，或是認為是無形的風帶來的。",
+      "explanation": "荷花開放時會散發出淡淡的清香，是其最重要的特徵之一，也是吸引昆蟲的原因。",
+      "commonMisconception": "小朋友可能誤認味道來源。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -197,9 +241,13 @@
       ],
       "answer_index": 2,
       "explanation": "課文通常會詳細描寫荷花的葉子、花朵和花苞，但很少會深入提到埋在泥土裡的根莖部分。",
-      "commonMisconception": "小朋友可能對植物的各個部分名稱不熟悉，或認為只要是植物的部位都會被提到。",
+      "commonMisconception": "小朋友對植物部位不熟悉。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -213,9 +261,13 @@
       ],
       "answer_index": 1,
       "explanation": "將荷葉比喻成「大圓盤」，直接點出了荷葉的形狀是圓的，而且體積很大。",
-      "commonMisconception": "小朋友可能過度聯想圓盤的其他功能，而忽略了比喻句的重點是形容外形。",
+      "commonMisconception": "選到不相干的盤子功能。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
@@ -228,10 +280,14 @@
         "荷花的藥用價值"
       ],
       "answer_index": 0,
-      "explanation": "小學課文描寫荷花，通常著重於其外在的美感、旺盛的生命力以及對環境的點綴作用，旨在培養學生的審美情趣。",
-      "commonMisconception": "小朋友可能誤以為課文的目的是傳授實用知識，而非情感或美學的啟發。",
+      "explanation": "旨在培養學生的審美情趣。",
+      "commonMisconception": "誤以為是工具書。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
@@ -244,10 +300,14 @@
         "浮起來"
       ],
       "answer_index": 3,
-      "explanation": "荷葉具有浮力，能夠輕盈地漂浮在水面上，這是其顯著的物理特性，也是課文會描寫的畫面。",
-      "commonMisconception": "小朋友可能對葉子在水中的狀態有誤解，或選擇不可能發生的情況。",
+      "explanation": "荷葉具有浮力，漂浮在水面。",
+      "commonMisconception": "誤解物理現象。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -260,10 +320,14 @@
         "覺得很害怕"
       ],
       "answer_index": 0,
-      "explanation": "盛開的荷花池色彩繽紛，充滿生機，自然會帶給人賞心悅目、充滿活力的美好感受。",
-      "commonMisconception": "小朋友可能因個人喜好或誤解情境而產生負面或不相關的情緒聯想。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "explanation": "色彩繽紛充滿活力。",
+      "commonMisconception": "情緒投射偏誤。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "contextual",
@@ -276,10 +340,14 @@
         "提醒大家不要破壞荷花"
       ],
       "answer_index": 1,
-      "explanation": "小學課文通常透過生動的描寫，引導學生觀察自然景物，感受其獨特的姿態和旺盛的生命力。",
-      "commonMisconception": "小朋友可能將寫作目的誤認為是提供操作指南或進行道德勸說，而非文學性的描寫。",
+      "explanation": "觀察自然景物，感受生命力。",
+      "commonMisconception": "誤解文體目的。",
       "quality_level": "L3",
-      "cqi_score": 1.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2
     },
     {
       "taxonomy": "literal",
@@ -292,10 +360,14 @@
         "軟軟滑滑的"
       ],
       "answer_index": 3,
-      "explanation": "荷花花瓣通常輕薄而柔軟，觸感細膩滑順，這是自然界花朵的普遍特徵。",
-      "commonMisconception": "小朋友可能對植物的觸感沒有具體經驗，容易想像成堅硬或粗糙的物質。",
-      "quality_level": "L3",
-      "cqi_score": 2.5
+      "explanation": "花瓣觸感細膩。",
+      "commonMisconception": "對實物無感官連結。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
@@ -308,10 +380,14 @@
         "飛到天上"
       ],
       "answer_index": 0,
-      "explanation": "植物在微風吹拂下會輕輕搖擺，這是自然現象，也為荷花池增添了動態美。",
-      "commonMisconception": "小朋友可能會誤以為植物不會動，或選擇誇張、不符現實的動作。",
-      "quality_level": "L3",
-      "cqi_score": 7
+      "explanation": "微風帶來搖曳感。",
+      "commonMisconception": "忽略自然的動態美。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -324,10 +400,14 @@
         "變成黑暗的洞穴"
       ],
       "answer_index": 2,
-      "explanation": "荷花盛開時，色彩繽紛，蜜蜂蝴蝶飛舞，整個池塘充滿生機，如同一個熱鬧的樂園。",
-      "commonMisconception": "小朋友可能將池塘聯想到其他靜態或負面的環境，而忽略了盛開荷花所帶來的活力。",
+      "explanation": "荷花池充滿生機如樂園。",
+      "commonMisconception": "負面或靜態偏誤。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
@@ -340,10 +420,14 @@
         "因為它長得很美很高雅"
       ],
       "answer_index": 3,
-      "explanation": "「仙子」常用來形容美麗、脫俗且高雅的形象，用來比喻荷花，是讚美它在水中亭亭玉立、姿態優美的樣子。",
-      "commonMisconception": "小朋友可能會對「仙子」這個詞語進行字面理解，聯想到神話故事中的魔法或飛行能力。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "explanation": "形容高雅脫俗。",
+      "commonMisconception": "字面化理解比喻。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "contextual",
@@ -356,14 +440,18 @@
         "冬天"
       ],
       "answer_index": 0,
-      "explanation": "荷花通常在夏季盛開，因此描寫荷花的課文最適合呈現夏季的景色。",
-      "commonMisconception": "小朋友可能對不同季節的植物開花時間不熟悉，或隨意選擇一個季節。",
+      "explanation": "荷花通常在夏季盛開。",
+      "commonMisconception": "季節知識缺乏。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
-      "scenario": "荷花的花朵位置",
+      "scenario": "荷花花朵的位置",
       "question": "荷花的花朵是從哪裡長出來的？",
       "options": [
         "從樹枝上",
@@ -372,10 +460,14 @@
         "從石頭縫"
       ],
       "answer_index": 1,
-      "explanation": "荷花的根莖雖在泥土中，但花朵是從水面下向上生長，最終在水面上綻放的。",
-      "commonMisconception": "小朋友可能混淆荷花的生長方式與樹木或其他植物，或只知道它生長在水裡但不知道具體位置。",
-      "quality_level": "L3",
-      "cqi_score": 5.5
+      "explanation": "花朵在水面綻放。",
+      "commonMisconception": "生長位置誤解。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -388,10 +480,14 @@
         "形狀和姿態"
       ],
       "answer_index": 3,
-      "explanation": "「飽飽的」形容其圓潤，「筆尖」形容其尖端，兩者結合起來正是描述花苞的具體形狀和向上生長的姿態。",
-      "commonMisconception": "小朋友可能將形容詞的重點誤導到花苞的其他非外形特徵上。",
+      "explanation": "結合筆尖與飽滿形容姿態。",
+      "commonMisconception": "抓錯形容詞重心。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -404,10 +500,14 @@
         "小小的豆子"
       ],
       "answer_index": 2,
-      "explanation": "課文常將荷葉比喻成「大圓盤」或「帽子」，強調其圓形和較大的面積。",
-      "commonMisconception": "小朋友可能聯想到其他圓形或扁平的物品，但「大大的帽子」更符合其在水面上的視覺效果。",
-      "quality_level": "L3",
-      "cqi_score": 5.5
+      "explanation": "強調面積大且圓。",
+      "commonMisconception": "形狀聯想錯誤。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -420,10 +520,14 @@
         "黏黏的"
       ],
       "answer_index": 0,
-      "explanation": "大多數花朵的花瓣都比較薄，荷花也不例外，輕柔的觸感是其一大特色。",
-      "commonMisconception": "小朋友可能因缺乏實際觀察經驗，而選擇與花瓣實際感受不符的選項。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "explanation": "通常花瓣輕薄柔軟。",
+      "commonMisconception": "無實體經驗聯想。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
@@ -436,10 +540,14 @@
         "吵鬧的"
       ],
       "answer_index": 1,
-      "explanation": "課文通篇都在描寫荷花的美麗與姿態，因此「美麗的」最能代表對荷花的普遍感受。",
-      "commonMisconception": "小朋友可能會受負面情緒干擾，或選擇與課文主旨不符的形容詞。",
-      "quality_level": "L3",
-      "cqi_score": 5
+      "explanation": "課文描寫荷花之美。",
+      "commonMisconception": "選到與主旨相反的評論。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -452,10 +560,14 @@
         "盛開綻放"
       ],
       "answer_index": 3,
-      "explanation": "課文通常會選擇荷花最美、最有活力的「盛開綻放」狀態來描寫，以展現其魅力。",
-      "commonMisconception": "小朋友可能對植物的生命週期概念不清，或選擇荷花不具美感的狀態。",
+      "explanation": "通常描寫最燦爛的階段。",
+      "commonMisconception": "生命週期階段誤判。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -468,10 +580,14 @@
         "荷花一直睡覺"
       ],
       "answer_index": 0,
-      "explanation": "蜜蜂和蝴蝶的頻繁活動，顯示荷花充滿吸引力，也間接反映了荷花池的生機勃勃。",
-      "commonMisconception": "小朋友可能只關注荷花本身的靜態描述，而忽略了周遭環境與荷花的互動所展現的生命力。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "周邊互動帶出生機。",
+      "commonMisconception": "忽略文中的環境張力。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "contextual",
@@ -484,10 +600,14 @@
         "欣賞大自然的美好與生命力"
       ],
       "answer_index": 3,
-      "explanation": "小學課文通常透過描寫自然景物，引導學生觀察、欣賞大自然的美麗與生命力，培養對自然的熱愛。",
-      "commonMisconception": "小朋友可能誤解為實用知識、道德教訓或不安全的行為建議（如玩水），而忽略了核心的審美與生命教育。",
+      "explanation": "引導觀察自然，體會美感。",
+      "commonMisconception": "誤以為是實用生活守則。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     }
   ]
 }

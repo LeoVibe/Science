@@ -1,16 +1,45 @@
 // 數據加載中心 - 使用新的 JSON 檔案架構
 
-import { PUBLISHER_META_MAP } from './config.js'
+import {
+  PUBLISHER_META_MAP,
+  PUBLISHER_PLATFORM_FOLDER,
+  SUBJECT_MAP,
+  SUBJECT_PLATFORM_FOLDER
+} from './config.js'
 
 /**
- * 依規格取得路徑用科目名稱：G3-G6 為「英文」，G1-G2 為「英語」
- * @param {number} grade - 年級 (1-6)
- * @param {string} subject - UI 科目名稱
- * @returns {string} 用於路徑的科目名稱
+ * 取得與 `question/platform` 一致的科目資料夾名（Chinese / Science …）
  */
-function getSubjectForPath(grade, subject) {
-  if (grade >= 3 && subject === '英語') return '英文'
-  return subject
+function getSubjectFolderForPlatform(subject) {
+  return SUBJECT_PLATFORM_FOLDER[subject] || subject
+}
+
+function getPublisherFolderForPlatform(publisher) {
+  return PUBLISHER_PLATFORM_FOLDER[publisher] || publisher
+}
+
+function normalizePublisherToken(value) {
+  return String(value ?? '').toLowerCase().replace(/_/g, '')
+}
+
+/**
+ * 題庫 JSON 的 meta 與 UI 選擇是否一致（相容 G3 vs grade_3、Science vs 自然、KangHsuan vs kang_hsuan）
+ */
+function metaMatchesUi(meta, grade, semester, uiSubject, uiPublisher) {
+  if (!meta) return false
+  const gradeOk = meta.grade === `grade_${grade}` || meta.grade === `G${grade}`
+  const semesterOk = meta.semester === `semester_${semester}` || meta.semester === `S${semester}`
+  const subjectOk =
+    meta.subject === uiSubject ||
+    (SUBJECT_MAP[uiSubject] && meta.subject === SUBJECT_MAP[uiSubject])
+  const expectedMetaPub = PUBLISHER_META_MAP[uiPublisher]
+  const folderPub = PUBLISHER_PLATFORM_FOLDER[uiPublisher]
+  const pubOk =
+    !!expectedMetaPub &&
+    (meta.publisher === expectedMetaPub ||
+      normalizePublisherToken(meta.publisher) === normalizePublisherToken(expectedMetaPub) ||
+      (folderPub && meta.publisher === folderPub))
+  return gradeOk && semesterOk && subjectOk && pubOk
 }
 
 /**
@@ -25,16 +54,17 @@ function getSubjectForPath(grade, subject) {
 const getQuestionBaseUrl = () => './'
 
 export async function loadQuestions(grade, subject, semester, publisher) {
-  const pathSubject = getSubjectForPath(grade, subject)
+  const subjectFolder = getSubjectFolderForPlatform(subject)
+  const publisherFolder = getPublisherFolderForPlatform(publisher)
   const semesterDir = `S${semester}`
   const gradeDir = `G${grade}`
-  const basePathPrimary = `${getQuestionBaseUrl()}question/platform/${gradeDir}/${pathSubject}/${semesterDir}/${publisher}`
-  const basePathLegacy = `${getQuestionBaseUrl()}questions/platform/${gradeDir}/${pathSubject}/${semesterDir}/${publisher}`
+  const basePathPrimary = `${getQuestionBaseUrl()}question/platform/${gradeDir}/${subjectFolder}/${semesterDir}/${publisherFolder}`
+  const basePathLegacy = `${getQuestionBaseUrl()}questions/platform/${gradeDir}/${subjectFolder}/${semesterDir}/${publisherFolder}`
 
-  let questions = await loadQuestionsFromDirectory(basePathPrimary, grade, pathSubject, semester, publisher, [])
+  let questions = await loadQuestionsFromDirectory(basePathPrimary, grade, subject, semester, publisher, [])
   // Backward compatibility: some legacy local environments still use `questions/platform`.
   if (questions.length === 0 && basePathLegacy !== basePathPrimary) {
-    questions = await loadQuestionsFromDirectory(basePathLegacy, grade, pathSubject, semester, publisher, [])
+    questions = await loadQuestionsFromDirectory(basePathLegacy, grade, subject, semester, publisher, [])
   }
 
   // 返回標準化的模組格式
@@ -77,9 +107,6 @@ function getLessonPrefixes(subject) {
  */
 async function loadQuestionsFromDirectory(basePath, grade, subject, semester, publisher, fileList) {
   const allQuestions = []
-  const publisherMeta = PUBLISHER_META_MAP[publisher] || publisher.toLowerCase()
-  const semesterMeta = `semester_${semester}`
-  const gradeMeta = `grade_${grade}`
 
   // 依規格僅讀取 manifest.json（404 = 尚無題庫，不寫入 platform）
   if (fileList.length === 0) {
@@ -120,16 +147,12 @@ async function loadQuestionsFromDirectory(basePath, grade, subject, semester, pu
         return null
       }
 
-      // 驗證 meta 資訊是否符合條件
-      if (data.meta.grade !== gradeMeta ||
-        data.meta.semester !== semesterMeta ||
-        data.meta.subject !== subject ||
-        data.meta.publisher !== publisherMeta) {
+      if (!metaMatchesUi(data.meta, grade, semester, subject, publisher)) {
         console.warn(`檔案 meta 不符合條件: ${filePath}`, {
-          expected: { grade: gradeMeta, semester: semesterMeta, subject, publisher: publisherMeta },
+          expected: { grade, semester, subject, publisher },
           actual: data.meta
         })
-        return null // 不符合條件
+        return null
       }
 
       // 處理題目，添加課程資訊

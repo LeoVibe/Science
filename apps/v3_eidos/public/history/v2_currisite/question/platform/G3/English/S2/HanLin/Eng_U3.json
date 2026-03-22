@@ -15,15 +15,15 @@
       "question": "Mom: Are you happy, Ted?\nTed: __________________. Thank you, Mom!",
       "options": [
         "No, it isn't.",
-        "Yes, I am.　　　",
+        "Yes, I am.",
         "No, I am not.",
-        "Yes, I do.　　　"
+        "Yes, I do."
       ],
       "answer_index": 1,
       "explanation": "收到驚喜禮物通常是開心的，且 Are you...? 的問句應用 Yes, I am. 回答。選項 C 助動詞不符。",
       "taxonomy": "applied",
       "commonMisconception": "沒注意到與 Be 動詞問句的對應回答。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -32,16 +32,16 @@
       "scenario": "It's late at night and a boy is yawning.",
       "question": "A: Are you tired?\nB: __________________. I want to go to bed.",
       "options": [
-        "Yes, she is. ",
-        "No, I don't. ",
-        "Yes, I am. 　　",
+        "Yes, she is.",
+        "No, I don't.",
+        "Yes, I am.",
         "No, I am not."
       ],
       "answer_index": 2,
       "explanation": "想睡覺 (go to bed) 顯示很累。選項 D 助動詞錯誤。",
       "taxonomy": "inferential",
       "commonMisconception": "忽略後半句的需求描述來判斷情緒狀態。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -50,16 +50,16 @@
       "scenario": "A girl is crying because she lost her doll.",
       "question": "Teacher: Why are you crying? Are you sad?\nGirl: __________________",
       "options": [
-        "No, I am.   　",
+        "No, I am.",
         "No, I am not.",
-        "Yes, I am. 　　",
-        "Yes, I can. 　"
+        "Yes, I am.",
+        "Yes, I can."
       ],
       "answer_index": 2,
       "explanation": "哭泣 (crying) 代表難過。選項 D 為前後矛盾句。",
       "taxonomy": "inferential",
       "commonMisconception": "無法結合生理反應 (crying) 與心理狀態 (sad) 的關聯。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -77,7 +77,7 @@
       "explanation": "happy 的 a 發短母音 /æ/，與 bad 相同。選項 B, C, D 均為短母音 /ɛ/。",
       "taxonomy": "remembering",
       "commonMisconception": "混淆 /æ/ 與 /ɛ/ 的字母拼寫與發音對應。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -87,15 +87,15 @@
       "question": "A: Is the dog happy?\nB: __________________. Look at its tail.",
       "options": [
         "No, they aren't.",
-        "Yes, it is. 　　　　",
-        "No, it isn't.　　　",
-        "Yes, I am.  　　　　"
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, I am."
       ],
       "answer_index": 1,
       "explanation": "搖尾巴代表狗很開心，且主詞為單數 it。選項 C 人稱錯誤。",
       "taxonomy": "inferential",
       "commonMisconception": "忽略動物觀察行為所隱含的情緒資訊。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -104,16 +104,16 @@
       "scenario": "A girl hasn't eaten lunch and her stomach is making noise.",
       "question": "A: Are you hungry?\nB: __________________. I want a big hamburger.",
       "options": [
-        "Yes, I do.  　　",
+        "Yes, I do.",
         "No, thank you.",
-        "Yes, I am. 　　　",
-        "No, I am not.　"
+        "Yes, I am.",
+        "No, I am not."
       ],
       "answer_index": 2,
       "explanation": "想吃漢堡代表很餓。選項 C 助動詞不符問句 Be 動詞。",
       "taxonomy": "inferential",
       "commonMisconception": "在單純回答狀態時反射性使用 I do。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -122,16 +122,16 @@
       "scenario": "Brother and sister are sharing one small ice cream.",
       "question": "Mom: Are you angry?\nKids: __________________. We like sharing.",
       "options": [
-        "Yes, I am.   　",
-        "No, it isn't. ",
-        "Yes, we are. 　",
+        "Yes, I am.",
+        "No, it isn't.",
+        "Yes, we are.",
         "No, we aren't."
       ],
       "answer_index": 3,
       "explanation": "喜歡分享 (like sharing) 代表不生氣。主詞是複數 You (你們)，回答需用 we。選項 C 漏失複數對應。",
       "taxonomy": "applied",
       "commonMisconception": "沒看見對象是兩個人 (Kids) 而誤用單數回答。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -141,15 +141,15 @@
       "question": "A: Are you tired after the race?\nB: __________________, but I am very happy!",
       "options": [
         "No, I am not.",
-        "No, I am.   　",
-        "Yes, I am. 　　",
-        "Yes, I can. 　"
+        "No, I am.",
+        "Yes, I am.",
+        "Yes, I can."
       ],
       "answer_index": 2,
       "explanation": "跑完步通常會累 (tired)，但情緒是開心的。選項 D 為前後矛盾句。",
       "taxonomy": "inferential",
       "commonMisconception": "無法區分生理勞累與心理愉悅的轉折邏輯 (but)。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -160,14 +160,14 @@
       "options": [
         "angry",
         "tired",
-        "then　",
-        "sad　　"
+        "then",
+        "sad"
       ],
       "answer_index": 2,
       "explanation": "red 含有短母音 /ɛ/，then 亦同。選項 A 是 /æ/。",
       "taxonomy": "remembering",
       "commonMisconception": "混淆 /ɛ/ 與其他相似發音。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -176,16 +176,16 @@
       "scenario": "A boy waiting at the bus stop for a long time.",
       "question": "A: Are you angry?\nB: No, I am not angry. __________________",
       "options": [
-        "I am happy. 　",
-        "I am tired. 　",
-        "I am sing.  　",
+        "I am happy.",
+        "I am tired.",
+        "I am sing.",
         "I am not sad."
       ],
       "answer_index": 1,
       "explanation": "等很久通常會累。選項 C 為雙動詞錯誤。",
       "taxonomy": "applied",
       "commonMisconception": "在單純陳述狀態時誤加原形動詞 (I am sing)。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -195,15 +195,15 @@
       "question": "Mom: Is Dad tired?\nSon: __________________. He is sleeping.",
       "options": [
         "No, she isn't.",
-        "Yes, he is. 　　",
-        "Yes, I am.  　　",
-        "No, he isn't.　"
+        "Yes, he is.",
+        "Yes, I am.",
+        "No, he isn't."
       ],
       "answer_index": 1,
       "explanation": "在睡覺代表累了。選項 D 性別人稱錯誤。",
       "taxonomy": "applied",
       "commonMisconception": "無法結合動作行為 (sleeping) 判斷情緒狀態。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -212,16 +212,16 @@
       "scenario": "A girl after a long hike without water.",
       "question": "A: Are you thirsty?\nB: __________________. Give me some water, please.",
       "options": [
-        "No, I am not.　",
-        "Yes, I am. 　　　",
-        "No, it isn't. ",
-        "Yes, I do.  　　"
+        "No, I am not.",
+        "Yes, I am.",
+        "No, it isn't.",
+        "Yes, I do."
       ],
       "answer_index": 1,
       "explanation": "需要水代表口渴。選項 C 助動詞語法不正確。",
       "taxonomy": "inferential",
       "commonMisconception": "在口渴需求情境中錯選助動詞對應。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -230,16 +230,16 @@
       "scenario": "Phonics: Letter 'i' sound in 'six'.",
       "question": "Which word has the same short 'i' sound as 'six'?",
       "options": [
-        "nine　",
-        "five　",
-        "pig　　",
+        "nine",
+        "five",
+        "pig",
         "tired"
       ],
       "answer_index": 2,
       "explanation": "six 與 pig 均發短母音 /ɪ/。其他選項均為長母音 /aɪ/。",
       "taxonomy": "remembering",
       "commonMisconception": "混淆 i 的長短母音發音機制。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -248,16 +248,16 @@
       "scenario": "A team after losing a game.",
       "question": "Coach: Are you sad?\nPlayers: __________________, but we will try again!",
       "options": [
-        "Yes, you are. ",
-        "Yes, I am.   　",
+        "Yes, you are.",
+        "Yes, I am.",
         "No, we aren't.",
-        "Yes, we are. 　"
+        "Yes, we are."
       ],
       "answer_index": 3,
       "explanation": "輸掉比賽通常會難過，且對樣是複數 (Players)。選項 C 單複數不符。",
       "taxonomy": "applied",
       "commonMisconception": "忽略團體 (we) 對應的需求，反射性選我 (I)。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -266,16 +266,16 @@
       "scenario": "Mom returns home from work.",
       "question": "Mom: __________________\nKid: Yes, I am. Can we have dinner now?",
       "options": [
-        "Are you happy? ",
-        "Can you eat?   ",
+        "Are you happy?",
+        "Can you eat?",
         "Are you hungry?",
-        "Are you tired? "
+        "Are you tired?"
       ],
       "answer_index": 2,
       "explanation": "問晚餐 (dinner) 可推知前面是在問餓不餓。選項 D 雖相關但文法格式不符簡答。",
       "taxonomy": "inferential",
       "commonMisconception": "無法從具體需求 (dinner) 推論底層感覺 (hungry)。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -284,16 +284,16 @@
       "scenario": "A kitten is playing with a ball.",
       "question": "A: Is the kitten happy?\nB: __________________. It likes the ball.",
       "options": [
-        "Yes, it is. 　　",
+        "Yes, it is.",
         "Yes, they are.",
-        "No, it isn't.　",
-        "No, I am not.　"
+        "No, it isn't.",
+        "No, I am not."
       ],
       "answer_index": 0,
       "explanation": "愛玩通常代表開心，且主詞為單數 it。選項 C 單複數不符。",
       "taxonomy": "applied",
       "commonMisconception": "忘記單數動物代名詞需搭配 is。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -302,16 +302,16 @@
       "scenario": "Phonics: Letter 'o' sound in 'hot'.",
       "question": "Which word has the same short 'o' sound like in 'hot'?",
       "options": [
-        "dog　",
+        "dog",
         "note",
-        "no　　",
+        "no",
         "cold"
       ],
       "answer_index": 0,
       "explanation": "hot 與 dog 均發短母音 /ɑ/。其他選項為長母音。",
       "taxonomy": "remembering",
       "commonMisconception": "無法準確區分 o 的長短音。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -321,15 +321,15 @@
       "question": "A: Are you happy?\nB: __________________. I want to cry.",
       "options": [
         "No, I am not.",
-        "No, I am.    ",
-        "Yes, I am.   ",
-        "Yes, it is.  "
+        "No, I am.",
+        "Yes, I am.",
+        "Yes, it is."
       ],
       "answer_index": 0,
       "explanation": "想哭代表不開心。選項 C 為前後矛盾句。",
       "taxonomy": "inferential",
       "commonMisconception": "忽略後半句情緒行為 (cry) 的提示意義。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -338,16 +338,16 @@
       "scenario": "Asking about a sister's feelings during a movie.",
       "question": "A: __________________?\nB: No, she isn't. She is happy.",
       "options": [
-        "Is she sad　　",
-        "Are she sad　",
+        "Is she sad",
+        "Are she sad",
         "Does she sad",
-        "Is her sad　　"
+        "Is her sad"
       ],
       "answer_index": 0,
       "explanation": "由回答『She is happy』反推是在問情緒。主詞單數 she 配 Is。選項 B 誤用所有格。",
       "taxonomy": "applied",
       "commonMisconception": "將主格 (she) 與所有格 (her) 混淆。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -357,15 +357,15 @@
       "question": "Sister: Hey! That's my toy. I am __________________.",
       "options": [
         "thirsty",
-        "hungry　",
-        "happy　　",
-        "angry　　"
+        "hungry",
+        "happy",
+        "angry"
       ],
       "answer_index": 3,
       "explanation": "玩具被搶通常會生氣。選項 B, C, D 均不符衝突情境。",
       "taxonomy": "applied",
       "commonMisconception": "無法將生活衝突場景與正確情緒單字連結。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -374,16 +374,16 @@
       "scenario": "Asking two friends to come play.",
       "question": "A: Are you tired?\nB: __________________. Let's go and play!",
       "options": [
-        "Yes, I am.    ",
-        "Yes, we are.  ",
+        "Yes, I am.",
+        "Yes, we are.",
         "No, we aren't.",
-        "No, I am not. "
+        "No, I am not."
       ],
       "answer_index": 2,
       "explanation": "想去玩代表不累。對象為複數，回答用 we。選項 C 回答人稱覆蓋不足。",
       "taxonomy": "applied",
       "commonMisconception": "在複數問句中誤用單數回答語法。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -393,7 +393,7 @@
       "question": "Which word has the same short 'u' sound like in 'sun'?",
       "options": [
         "blue",
-        "use ",
+        "use",
         "ugly",
         "cute"
       ],
@@ -401,7 +401,7 @@
       "explanation": "sun 與 ugly 均發短母音 /ʌ/。選項 C, D 均為長母音且具意義轉變。",
       "taxonomy": "remembering",
       "commonMisconception": "混淆有聲子音對母音長短的影響判斷。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -410,16 +410,16 @@
       "scenario": "A teacher notices a student is very quiet.",
       "question": "Teacher: Are you okay? __________________?\nStudent: No, I am fine. I'm just tired.",
       "options": [
-        "Is you angry　",
+        "Is you angry",
         "Are you angry",
-        "Do you angry ",
+        "Do you angry",
         "Can you angry"
       ],
       "answer_index": 1,
       "explanation": "對人稱 you 使用 Be 動詞 Are。選項 C 為嚴重文法錯誤。",
       "taxonomy": "applied",
       "commonMisconception": "在情緒描述句中錯用助動詞 do 代替 Be 動詞。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -428,16 +428,16 @@
       "scenario": "Meeting a friendly cat.",
       "question": "A: Is the cat angry?\nB: No, __________________.",
       "options": [
-        "she are happy.　",
-        "it is happy.　　　",
+        "she are happy.",
+        "it is happy.",
         "they are happy.",
-        "it am happy. 　　"
+        "it am happy."
       ],
       "answer_index": 1,
       "explanation": "否定後順接肯定狀態，單數動物代名詞 it 配 is。選項 B 語法錯誤。",
       "taxonomy": "applied",
       "commonMisconception": "對動物代名詞與 Be 動詞的基礎對應不精確。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -446,16 +446,16 @@
       "scenario": "After playing in the hot sun.",
       "question": "A: Are you __________________?\nB: Yes, I am. I want a cold drink.",
       "options": [
-        "hungry ",
+        "hungry",
         "thirsty",
-        "happy  ",
-        "angry  "
+        "happy",
+        "angry"
       ],
       "answer_index": 1,
       "explanation": "想喝冷飲 (cold drink) 代表口渴。選項 B 是想吃東西。",
       "taxonomy": "inferential",
       "commonMisconception": "無法區分口渴與飢餓的生理需求差異。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -464,16 +464,16 @@
       "scenario": "Phonics: Letter 'a' long and short.",
       "question": "Which word has a DIFFERENT vowel sound?",
       "options": [
-        "sad　",
-        "cat　",
+        "sad",
+        "cat",
         "cake",
-        "bad　"
+        "bad"
       ],
       "answer_index": 2,
       "explanation": "cake 是長母音 /e/，其他均為短母音 /æ/。",
       "taxonomy": "remembering",
       "commonMisconception": "無法辨識字尾 e 對母音發音造成的影響。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -482,16 +482,16 @@
       "scenario": "A girl hasn't seen her friend for a long time.",
       "question": "Girl: __________________\nFriend: I'm happy to see you, too!",
       "options": [
-        "You are happy.       　",
+        "You are happy.",
         "Am I happy to see you?",
-        "Are you happy?       　",
+        "Are you happy?",
         "I am happy to see you!"
       ],
       "answer_index": 3,
       "explanation": "根據回應『too』代表前面是一個肯定的問候陳述句。選項 B 格式不對。",
       "taxonomy": "applied",
       "commonMisconception": "無法由 too 的對話功能回推首句必須是肯定陳述。",
-      "cqi_score": 10,
+      "cqi_score": 4.5,
       "quality_level": "L5"
     },
     {
@@ -501,15 +501,15 @@
       "question": "Which word has the same short 'u' sound as 'bus'?",
       "options": [
         "rule",
-        "rug　",
+        "rug",
         "blue",
-        "use "
+        "use"
       ],
       "answer_index": 1,
       "explanation": "bus 與 rug 均發短母音 /ʌ/。選項 D 為長母音。",
       "taxonomy": "remembering",
       "commonMisconception": "混淆拼寫相同但音質完全不同的 u 音。",
-      "cqi_score": 8,
+      "cqi_score": 5,
       "quality_level": "L5"
     },
     {
@@ -518,16 +518,16 @@
       "scenario": "Asking a friend about their parents.",
       "question": "A: Are your parents healthy and happy?\nB: __________________. They are in the park now.",
       "options": [
-        "Yes, she is. 　　　",
-        "Yes, they are.　　",
+        "Yes, she is.",
+        "Yes, they are.",
         "No, they aren't.",
-        "No, I am not.　　　"
+        "No, I am not."
       ],
       "answer_index": 1,
       "explanation": "在公園通常是開心的，且主詞是複數 parents。選項 C 代名詞不符。",
       "taxonomy": "applied",
       "commonMisconception": "在複數主語 parents 轉換時誤用單數代名詞。",
-      "cqi_score": 10,
+      "cqi_score": 6.5,
       "quality_level": "L5"
     },
     {
@@ -536,15 +536,15 @@
       "scenario": "Recap emotion: If you lose your pet, you are __________________.",
       "options": [
         "thirsty",
-        "sad　　　　",
-        "happy　　",
-        "hungry　"
+        "sad",
+        "happy",
+        "hungry"
       ],
       "answer_index": 1,
       "explanation": "失去寵物會難過。選項 B 邏輯錯誤。",
       "taxonomy": "applied",
       "commonMisconception": "在此特定假設情境下選錯情感詞。",
-      "cqi_score": 7,
+      "cqi_score": 6,
       "quality_level": "L1"
     }
   ]

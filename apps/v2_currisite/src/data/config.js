@@ -75,6 +75,23 @@ export const PUBLISHER_META_REVERSE_MAP = {
   'han_lin': '翰林'
 }
 
+/** 與根目錄 `question/platform` 一致的英文目錄名（v2 fetch 路徑用） */
+export const SUBJECT_PLATFORM_FOLDER = {
+  '國語': 'Chinese',
+  '數學': 'Math',
+  '自然': 'Science',
+  '社會': 'SocialStudies',
+  '英語': 'English',
+  '英文': 'English',
+  '生活': 'Life'
+}
+
+export const PUBLISHER_PLATFORM_FOLDER = {
+  '康軒': 'KangHsuan',
+  '南一': 'NanYi',
+  '翰林': 'HanLin'
+}
+
 // 学期显示名称
 export const SEMESTER_NAMES = {
   1: '上學期',

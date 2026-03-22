@@ -1,505 +1,631 @@
 {
   "meta": {
     "grade": "grade_3",
-    "semester": "semester_1",
+    "semester": "semester_2",
     "subject": "Chinese",
-    "publisher": "kang_hsuan",
-    "title": "Chi_L4",
-    "lesson": "Chi_L4",
-    "order": 1
+    "publisher": "nan_yi",
+    "title": "楊修猜字",
+    "lesson": "L4",
+    "order": 4
   },
   "questions": [
     {
-      "id": "G3-NanYi-L4-4",
-      "type": "multiple_choice",
-      "category": "楊修猜字",
       "taxonomy": "literal",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，曹操聽完楊修拆解「闊」字的解釋後，反應是？",
+      "scenario": "曹操反應",
+      "question": "曹操聽完「闊」字解釋後反應？",
       "options": [
-        "曹操聽完之後覺得非常難過，甚至在所有的大臣面前當場大哭，並且覺得楊修剛剛說的那些話完全就是在故意羞辱自己　　　",
-        "曹操聽完楊修的回答之後，覺得這個人實在是非常愚蠢而且根本就聽不懂別人的暗示，於是馬上叫士兵將他重重地趕出門　　",
-        "曹操聽完之後馬上生氣地把手上的毛筆折斷，並且對著所有人立刻大聲宣布他從此以後再也不要在任何紙上寫任何一個字了　",
-        "雖然心中佩服但也有被看穿的忌憚，這是一種常見的自然現象。，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節"
-      ],
-      "answer_index": 3,
-      "explanation": "人物心理與情節發展。",
-      "quality_level": "L5",
-      "scenario": "綜合語文與閱讀理解延伸推論",
-      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
-      "cqi_score": 6.5
-    },
-    {
-      "id": "G3-NanYi-L4-6",
-      "type": "multiple_choice",
-      "category": "楊修猜字",
-      "taxonomy": "inferential",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，楊修這類人物在文學中通常代表什麼形象？",
-      "options": [
-        "他們通常都是那些因為找不到工作，所以只好每天在人來人往的熱鬧街頭上辛苦地表演各種危險雜技與神奇魔術的流浪藝人　　",
-        "聰明過人但有時顯得鋒芒太露的智者，但在這裡可能並不適用。，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　　",
-        "他們通常都會被描寫成在戰場上拿著非常重的武器，擁有絕對可怕的強大武力且非常能夠帶領士兵到處去征善戰的偉大將軍　　",
-        "他們通常都會一個人獨自躲在深山裡面，個性非常沈默寡言，而且不管發生什麼事情都絕對完全不參與任何國家政治的孤獨隱士"
-      ],
-      "answer_index": 1,
-      "explanation": "這是一個非常重要且關鍵的學習重點，能夠幫助學生深入理解文章與作者真正想傳達的核心涵義。",
-      "quality_level": "L5",
-      "scenario": "綜合語文與閱讀理解延伸推論",
-      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
-      "cqi_score": 8.5
-    },
-    {
-      "id": "G3-NanYi-L4-7",
-      "type": "multiple_choice",
-      "category": "楊修猜字",
-      "taxonomy": "literal",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，故事背景發生在中國歷史上的哪一個時期？",
-      "options": [
-        "這則故事其實是發生在大家都已經在使用智慧型手機與電腦來進行溝通，充滿各種高科技產品的二十一世紀現代社會　　　　　",
-        "這則故事的背景是發生在當時社會非常動盪不安，而且經常受到很多不同外國軍隊無情攻擊與侵略的中國歷史清朝末年　　　　",
-        "從科學或自然的角度來看，三國時期，這是一個非常有趣的觀點。，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "這則充滿文人機智對決的有趣故事，其背景主要發生在充滿了各種優秀詩人且經濟非常繁榮發達的中國歷史唐朝盛世　　　　　"
+        "逐出門",
+        "折毛筆",
+        "佩服但忌憚",
+        "大臣前大哭"
       ],
       "answer_index": 2,
-      "explanation": "這是一個非常重要且關鍵的學習重點，能夠幫助學生深入理解文章與作者真正想傳達的核心涵義。",
-      "quality_level": "L5",
-      "scenario": "綜合語文與閱讀理解延伸推論",
-      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
-      "cqi_score": 7.5
+      "explanation": "人物複雜心理（英才與猜忌）。",
+      "commonMisconception": "簡化為純負面或純正面情緒。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
-      "id": "G3-NanYi-L4-9",
-      "type": "multiple_choice",
-      "category": "楊修猜字",
+      "taxonomy": "inferential",
+      "scenario": "人物形象",
+      "question": "楊修在文學中代表？",
+      "options": [
+        "聰明但鋒芒太露",
+        "隱士",
+        "流浪藝人",
+        "將軍"
+      ],
+      "answer_index": 0,
+      "explanation": "典型悲劇智者的性格分析。",
+      "commonMisconception": "人物類型定位偏差。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "故事背景",
+      "question": "故事背景歷史時期？",
+      "options": [
+        "唐朝",
+        "三國",
+        "21世紀",
+        "清末"
+      ],
+      "answer_index": 1,
+      "explanation": "史實常識與文本對接。",
+      "commonMisconception": "時代錯置。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
       "taxonomy": "applied",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，如果你是楊修，面對權威者的暗示，最保險的做法是？",
+      "scenario": "保險做法",
+      "question": "面對權威暗示最保險的做法？",
       "options": [
-        "看穿不說穿，適度展現機智且留餘地，這是一個非常有趣的觀點。，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
-        "為了避免惹上不必要的可怕麻煩，你最保險的做法就是立刻裝傻，假裝自己完全看不懂他在寫什麼然後馬上轉頭離開現場　　　　",
-        "你應該要展現出身為一個部屬的絕對誠實，立刻毫不留情地當面直接告訴那位長官，他剛剛在門上寫的字實在是非常難看　　　　",
-        "你應該要馬上跑去廣場的中央拿著大聲公，然後非常得意地大聲向所有的同事與路人到處炫耀自己成功地看穿了長官的想法　　　"
-      ],
-      "answer_index": 0,
-      "explanation": "情商與溝通智慧延伸。",
-      "quality_level": "L5",
-      "scenario": "綜合語文與閱讀理解延伸推論",
-      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
-      "cqi_score": 7.5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "關於清晨森林的描述",
-      "question": "根據課文描述，清晨的森林最先被什麼聲音喚醒？",
-      "options": [
-        "鳥兒清脆的歌聲",
-        "遠方傳來的蟲鳴",
-        "潺潺流水的聲音",
-        "風吹樹葉的沙沙聲"
-      ],
-      "answer_index": 0,
-      "explanation": "課文開頭通常會以生動的描述引導讀者進入情境，鳥兒的歌聲常被用來象徵早晨的到來，直接點出清晨森林的特色。",
-      "commonMisconception": "學生可能被其他自然聲音吸引，但課文往往會強調最具代表性的聲音作為開場。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "小溪流經山谷時",
-      "question": "【在小溪蜿蜒流過山谷時】，課文提到小溪「哼著輕快的歌」。這句話最可能在暗示什麼？",
-      "options": [
-        "小溪的水質非常清澈",
-        "小溪邊有許多人在唱歌",
-        "小溪的水流速度很快",
-        "小溪的流動充滿活力與喜悅"
-      ],
-      "answer_index": 3,
-      "explanation": "「哼著輕快的歌」是一種擬人化修辭，將小溪的流動比喻為快樂的歌聲，象徵其充滿生命力與愉悅的姿態，而非單純的速度或水質。選項D顯然不符擬人化。",
-      "commonMisconception": "學生可能只從字面理解「歌」，認為是實際的聲音，或將「輕快」聯想到物理速度。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "對於自然環境的感受",
-      "question": "課文透過描寫大自然，最想傳達給讀者哪一種「觀察自然」的態度？",
-      "options": [
-        "強調探索未知領域的勇氣",
-        "鼓勵人們記錄下所有細節",
-        "倡導保護環境的重要性",
-        "提醒我們要用心感受生活中的美好"
-      ],
-      "answer_index": 3,
-      "explanation": "課文的重點在於透過細膩的感官描寫，引導讀者去體驗和欣賞自然界的美，因此「用心感受生活中的美好」是其核心態度。雖然保護環境也很重要，但並非此課文主要傳達的訊息。",
-      "commonMisconception": "學生可能將「觀察」等同於「記錄」或「探索」，而忽略了更深層次的「感受」和「體驗」。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "在面對困難時的啟示",
-      "question": "【當課文中的小草面對狂風暴雨時，依然堅韌不拔地挺立著】，如果你是這棵小草，你從這次經歷中學到最重要的道理是什麼？",
-      "options": [
-        "要學會躲避所有的危險",
-        "等待別人來幫助自己",
-        "即使面對挑戰也要堅持下去",
-        "只要努力就能改變天氣"
+        "裝傻轉頭走",
+        "大聲炫耀",
+        "看穿不說穿留餘地",
+        "當面指筆跡醜"
       ],
       "answer_index": 2,
-      "explanation": "小草面對風雨的堅韌象徵著生命在逆境中的毅力，因此學到最重要的道理是「即使面對挑戰也要堅持下去」。選項A和B是逃避或依賴，選項D則是不切實際的幻想。",
-      "commonMisconception": "學生可能從個人經驗出發，認為遇到困難就應該尋求幫助或逃避，而忽略了課文所強調的韌性。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "explanation": "人際隱忍與處世哲學。",
+      "commonMisconception": "選到對立或挑釁行為。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "literal",
-      "scenario": "陽光穿透樹葉的景象",
-      "question": "課文提到陽光穿透樹葉時，在地面上形成了什麼圖案？",
+      "scenario": "森林喚醒聲",
+      "question": "清晨森林最先被何聲喚醒？",
       "options": [
-        "彩色的斑紋",
-        "閃爍的光點",
-        "小動物的形狀",
-        "不規則的陰影"
+        "流水",
+        "鳥兒歌聲",
+        "沙沙葉聲",
+        "蟲鳴"
       ],
       "answer_index": 1,
-      "explanation": "課文通常會直接描述陽光透過樹葉縫隙，在地面形成的光影效果，最常見且直接的描述是「閃爍的光點」或「碎金」。",
-      "commonMisconception": "學生可能會想像其他圖案，但課文會給出明確的視覺描寫。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "explanation": "文本環境首段細節。",
+      "commonMisconception": "背景音干擾。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "露珠在葉片上的樣貌",
-      "question": "課文中形容露珠像「晶瑩的珍珠」，這句話想表達露珠的哪種特質？",
+      "scenario": "哼著歌暗示",
+      "question": "小溪「哼著輕快的歌」暗示？",
       "options": [
-        "露珠摸起來很光滑圓潤",
-        "露珠可以被收集起來做裝飾",
-        "露珠在陽光下閃耀且透明",
-        "露珠非常稀有且珍貴"
+        "人唱歌",
+        "流速快",
+        "充滿活力喜悅",
+        "水清"
       ],
       "answer_index": 2,
-      "explanation": "「晶瑩的珍珠」強調的是露珠在光線下的透明、閃亮和圓潤感，而非其稀有性或實際用途。選項B的「摸起來很光滑圓潤」是物理感受，不如「閃耀且透明」更符合「晶瑩」的視覺意象。",
-      "commonMisconception": "學生可能將珍珠的價值屬性投射到露珠上，或只聯想到珍珠的形狀。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "思考大自然帶來的啟示",
-      "question": "課文透過描述大自然的許多微小細節，最想啟發讀者思考哪一個重要的生命課題？",
-      "options": [
-        "平凡中蘊藏著不凡的美好",
-        "科學探索自然奧秘的重要性",
-        "生命的渺小與無常",
-        "人定勝天，改造自然的力量"
-      ],
-      "answer_index": 0,
-      "explanation": "課文著重於描寫日常自然景物中的美感和生命力，旨在引導讀者發現和欣賞「平凡中蘊藏著不凡的美好」。選項A與課文強調的和諧相處不符，選項B過於悲觀，選項D則偏向科學而非感性體驗。",
-      "commonMisconception": "學生可能將課文的自然描寫引導向宏大的哲學思考或科學探索，忽略了其更貼近日常感悟的本質。",
-      "quality_level": "L5",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "描寫蝴蝶的動作",
-      "question": "課文形容蝴蝶在花叢中如何飛舞？",
-      "options": [
-        "緩慢地盤旋",
-        "輕盈地跳躍",
-        "笨拙地拍動",
-        "快速地穿梭"
-      ],
-      "answer_index": 2,
-      "explanation": "課文通常會使用「輕盈地拍動翅膀」或類似的詞語來描述蝴蝶優雅的飛舞姿態，強調其輕柔與美麗。",
-      "commonMisconception": "學生可能將蝴蝶的速度和動作混淆，或選擇一個看似積極的詞語。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "彩虹出現後的天空",
-      "question": "【在雨過天晴，彩虹高掛天空時】，課文說「天空洗淨了鉛華」。這句話暗示了什麼？",
-      "options": [
-        "天空不再烏雲密布，顯得清新明亮",
-        "空氣中的灰塵全部消失了",
-        "天空被雨水沖刷得一塵不染",
-        "天空的顏色變得更加湛藍"
-      ],
-      "answer_index": 3,
-      "explanation": "「洗淨鉛華」比喻洗去塵埃，變得清新脫俗。用於天空，最直接的視覺效果是天空從陰沉轉為湛藍，顯得更為潔淨明亮。選項C雖然有部分正確，但「湛藍」更精確地描述了「洗淨鉛華」後的視覺效果。",
-      "commonMisconception": "學生可能誤解「鉛華」為實際的灰塵，或只停留在「清新明亮」的廣泛概念。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "面對未知挑戰的態度",
-      "question": "【當課文中的主角第一次獨自走進森林深處時，感到既興奮又有點緊張】，如果你是主角，你會如何調整自己的心態來面對這種複雜的情緒？",
-      "options": [
-        "大聲唱歌壯膽，希望嚇跑潛在的危險",
-        "閉上眼睛，假裝自己不在森林裡",
-        "立刻掉頭回家，因為太害怕了",
-        "深呼吸，提醒自己要保持好奇心和警覺"
-      ],
-      "answer_index": 3,
-      "explanation": "面對興奮與緊張並存的情緒，深呼吸並提醒自己保持好奇與警覺是一種積極且有效的心態調整方式，既能享受探索的樂趣，也能注意安全。選項A是逃避，選項C可能引來不必要的麻煩，選項D則是自欺欺人。",
-      "commonMisconception": "學生可能傾向於選擇極端的情緒反應，如完全逃避或過度表現勇敢，而忽略了平衡和適應的心態。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "描寫夕陽西下的景象",
-      "question": "課文描述夕陽西下時，天空的顏色像什麼？",
-      "options": [
-        "溫暖的橘色毛毯",
-        "清澈的藍色湖泊",
-        "燃燒的火焰",
-        "被潑灑的顏料盤"
-      ],
-      "answer_index": 2,
-      "explanation": "夕陽的色彩通常被形容為熱烈而鮮豔，如「燃燒的火焰」或「紅霞滿天」，強調其壯麗與熱情。",
-      "commonMisconception": "學生可能會選擇其他美麗的意象，但課文會給出特定的比喻。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "感受夜晚的寧靜",
-      "question": "【在夜幕低垂，萬籟俱寂時】，課文提到「星星眨著眼」。這句話最能傳達夜晚的哪種氛圍？",
-      "options": [
-        "星星像活潑的孩子一樣在玩耍",
-        "夜空非常明亮，可以清楚看到星星",
-        "夜晚充滿了神秘和靜謐的氣息",
-        "星星正在和地上的生物對話"
-      ],
-      "answer_index": 2,
-      "explanation": "「星星眨著眼」是一種擬人化，讓靜止的星星變得生動，暗示著夜晚的靜謐中帶有一絲活潑的神秘感，而非單純的亮度或實際的對話。",
-      "commonMisconception": "學生可能將「眨眼」理解為星星的實際動作，或過於具象化其意涵。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "對待大自然資源的態度",
-      "question": "課文雖然描寫了許多自然美景，但沒有直接提到「保護環境」。你認為讀者從課文中能領悟到「保護環境」的哪一層深意？",
-      "options": [
-        "大自然的美是取之不盡，用之不竭的",
-        "唯有珍惜和維護，才能讓這些美好永續存在",
-        "保護環境是政府的責任，與個人無關",
-        "只有人類才能真正欣賞大自然的美"
-      ],
-      "answer_index": 1,
-      "explanation": "課文細膩描寫自然之美，旨在引發讀者對自然的熱愛與欣賞。這種熱愛自然的情感，自然會引導至「唯有珍惜和維護，才能讓這些美好永續存在」的深層領悟，這是保護環境的內在動機。",
-      "commonMisconception": "學生可能認為沒有直接提及的內容就不存在，或受社會上一些錯誤觀念（如資源無限、責任推卸）影響。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "描寫風的特徵",
-      "question": "課文是如何描述「風」的？",
-      "options": [
-        "一道無形的牆",
-        "一陣輕柔的呼吸",
-        "一個調皮的孩子",
-        "一雙看不見的手"
-      ],
-      "answer_index": 2,
-      "explanation": "課文通常會用擬人化手法將風比喻為「調皮的孩子」，強調其活潑好動、無形卻能影響萬物的特性。",
-      "commonMisconception": "學生可能選擇其他常見的風的比喻，但課文會使用特定的詞語。",
-      "quality_level": "L3",
-      "cqi_score": 2.5
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "葉子顏色的變化",
-      "question": "課文提到秋天的葉子「換上了五彩的衣裳」，這句話暗示了什麼？",
-      "options": [
-        "葉子準備要從樹上掉落下來了",
-        "葉子像人一樣會穿衣服",
-        "葉子因為天氣變冷而生病了",
-        "葉子在秋天會呈現多種鮮豔的顏色"
-      ],
-      "answer_index": 3,
-      "explanation": "「換上了五彩的衣裳」是擬人化的比喻，生動地描述了秋天葉子由綠轉黃、紅、褐等豐富色彩的現象，強調其視覺上的變化與美麗。",
-      "commonMisconception": "學生可能過於拘泥於「換衣裳」的字面意思，或將葉子變色與生病、掉落直接劃上等號。",
-      "quality_level": "L3",
+      "explanation": "擬人化情感意象。",
+      "commonMisconception": "字面化或物理化解讀。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
-      "taxonomy": "contextual",
-      "scenario": "在雨天觀察大自然",
-      "question": "【在一個下雨天的午後，你正在窗邊看著窗外的雨景】，你會如何運用課文所學的「觀察與感受」方法，來體驗這場雨？",
+      "taxonomy": "critical",
+      "scenario": "觀察態度",
+      "question": "課文最想傳達的態度？",
       "options": [
-        "抱怨天氣不好，無法出門玩耍",
-        "仔細聆聽雨滴落在不同物體上的聲音，感受雨的氣味",
-        "拿出手機拍照，記錄下雨點的瞬間",
-        "趕快把窗戶關緊，避免雨水潑進來"
+        "勇氣",
+        "保環重",
+        "記錄細節",
+        "用心感受生活美"
       ],
-      "answer_index": 1,
-      "explanation": "課文強調用心感受，因此「仔細聆聽雨滴落在不同物體上的聲音，感受雨的氣味」最能體現多感官的觀察與感受。選項A是負面情緒，選項B雖然是記錄，但少了深層的感受，選項D是迴避。",
-      "commonMisconception": "學生可能只停留在視覺觀察或習慣性反應，而忽略了多感官的體驗，也可能將記錄等同於感受。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "answer_index": 3,
+      "explanation": "感官審美教育的目標。",
+      "commonMisconception": "窄化為道德教訓或技能訓練。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "小草韌性學到",
+      "question": "見小草忍風雨應學到？",
+      "options": [
+        "等助",
+        "改天氣",
+        "面對挑戰堅持",
+        "避險"
+      ],
+      "answer_index": 2,
+      "explanation": "生命韌性的價值內化。",
+      "commonMisconception": "逃避型思维。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2
     },
     {
       "taxonomy": "literal",
-      "scenario": "描寫花朵的特徵",
-      "question": "課文提到花朵綻放時，散發出什麼樣的氣味？",
+      "scenario": "穿葉陽光",
+      "question": "地面形成何圖案？",
       "options": [
-        "清新淡雅的芬芳",
-        "略帶苦澀的草本味",
-        "毫無氣味的靜默",
-        "濃郁嗆鼻的香氣"
+        "陰影",
+        "形狀",
+        "閃爍光點",
+        "斑紋"
       ],
-      "answer_index": 0,
-      "explanation": "課文通常會使用正面且優美的詞語來描述花朵的氣味，如「清新淡雅的芬芳」，強調其宜人與美好。",
-      "commonMisconception": "學生可能會選擇其他氣味描述，但課文會有明確的形容詞。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 2,
+      "explanation": "視覺動態描述。",
+      "commonMisconception": "静止化陰影解讀。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 2,
+        "ai_reasoning": "針對課文細節描述的理解測驗。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "感受陽光的溫暖",
-      "question": "課文說「陽光像慈祥的母親輕撫著大地」，這句話想表達陽光的哪種特質？",
+      "scenario": "晶瑩珍珠表達",
+      "question": "形容露珠如珍珠指？",
       "options": [
-        "陽光有著母親般溫柔的觸感",
-        "陽光讓大地變得像母親一樣美麗",
-        "陽光是地球上所有生命的來源",
-        "陽光非常溫暖且給予生命"
+        "閃耀透明",
+        "可裝飾",
+        "滑潤感",
+        "稀有"
       ],
       "answer_index": 0,
-      "explanation": "「慈祥的母親輕撫著大地」是一種擬人化，強調陽光帶來的溫柔、呵護與溫暖的感覺，而非其生命來源的科學事實，或讓大地變美麗的結果。",
-      "commonMisconception": "學生可能將比喻的意涵擴大到科學知識，或只停留在「溫暖」的表層理解。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "explanation": "名詞喻體的性質對接。",
+      "commonMisconception": "工具價值化（裝飾、稀有）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "critical",
-      "scenario": "對比城鄉生活",
-      "question": "【在課文描寫了豐富的自然景觀後】，如果將課文內容與都市生活對比，你認為課文最想提醒都市人什麼？",
+      "scenario": "生命課題",
+      "question": "細節想啟發何課題？",
       "options": [
-        "自然環境比都市更適合居住",
-        "都市生活比自然生活更有趣",
-        "即使身處都市，也要學會發現身邊的美好",
-        "都市人應該搬到鄉下生活"
+        "科學心",
+        "改自然",
+        "無常感",
+        "平凡中之不凡美"
       ],
-      "answer_index": 2,
-      "explanation": "課文透過描寫自然之美，旨在啟發人們對美的感受力。因此，即使身處都市，也能運用這種感受力去發現周遭的美好，而不是單純比較或鼓吹搬遷。選項A和B是偏頗的比較。",
-      "commonMisconception": "學生可能將課文解讀為「自然優於都市」的二元對立，而忽略了課文核心的「感受力」訓練。",
-      "quality_level": "L5",
+      "answer_index": 3,
+      "explanation": "審美哲學的基礎。",
+      "commonMisconception": "功利化（科學）解讀。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "描寫雨滴的聲音",
-      "question": "課文是如何形容雨滴落在屋簷上的聲音的？",
+      "scenario": "蝶飛態",
+      "question": "蝶如何飛？",
       "options": [
-        "滴滴答答的樂章",
-        "叮叮咚咚的敲擊",
-        "沙沙作響的低語",
-        "嘩啦嘩啦的巨響"
+        "笨拙",
+        "緩盤",
+        "輕盈跳躍",
+        "速穿"
       ],
-      "answer_index": 1,
-      "explanation": "課文通常會使用具體的狀聲詞來描寫雨滴的聲音，如「叮叮咚咚」或「滴滴答答」，強調其規律而清晰的音響。",
-      "commonMisconception": "學生可能混淆不同大小雨滴的聲音，或選擇一個不夠精確的形容詞。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 0,
+      "explanation": "動作神態描摹。",
+      "commonMisconception": "被錯誤副詞誤導。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": 0,
+        "ai_reasoning": "考察對課文描寫動態的理解。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "感受泥土的氣味",
-      "question": "課文說「雨後的泥土散發出清新的氣息」，這句話最可能暗示了什麼？",
+      "scenario": "洗淨鉛華暗示",
+      "question": "此句暗示天空？",
       "options": [
-        "泥土本身就是香的，只是平時聞不到",
-        "雨水洗淨了空氣中的塵埃，讓泥土的氣味更明顯",
-        "雨後的泥土適合種植農作物",
-        "泥土中有很多微生物在活動"
+        "無雲明亮",
+        "湛藍潔淨",
+        "雨沖刷",
+        "無塵"
       ],
       "answer_index": 1,
-      "explanation": "雨後泥土的清新氣息，是因為雨水沖刷了空氣中的雜質，讓泥土本身特有的芬芳得以釋放，是一種感官體驗。選項A是科學知識，選項C不符合實際，選項D是應用。",
-      "commonMisconception": "學生可能將自然現象與科學原理混淆，或將氣味與其用途聯想。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "文學修辭的色彩轉化。",
+      "commonMisconception": "僅物理潔淨化解讀。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "contextual",
-      "scenario": "透過觀察獲得靈感",
-      "question": "【當課文中的主角透過觀察大自然，獲得了寫作的靈感時】，如果你也想寫一篇關於大自然的短文，你認為最有效的寫作方法是什麼？",
+      "scenario": "進森林心態",
+      "question": "興奮緊張應如何調適？",
       "options": [
-        "親自走到戶外，用眼睛看、耳朵聽、鼻子聞、用心感受",
-        "上網搜尋大量關於自然的資料",
-        "請家人或老師幫忙寫作",
-        "直接抄寫課文中的優美句子"
+        "大聲唱",
+        "回頭",
+        "深呼保持好奇警覺",
+        "閉眼"
       ],
-      "answer_index": 0,
-      "explanation": "課文強調的是親身觀察與感受，因此最有效的寫作方法是「親自走到戶外，用眼睛看、耳朵聽、鼻子聞、用心感受」，這能獲取第一手的真實體驗與靈感。選項A是抄襲，選項B是間接資料，選項D是依賴。",
-      "commonMisconception": "學生可能認為寫作就是從現有資料中擷取，或依賴他人，而非親身體驗。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "answer_index": 2,
+      "explanation": "情緒管理與環境適應。",
+      "commonMisconception": "極端情緒洩露。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "描寫清晨的霧氣",
-      "question": "課文描述清晨的霧氣像什麼？",
+      "scenario": "夕陽色比",
+      "question": "夕陽像？",
       "options": [
-        "厚重的棉被",
-        "輕柔的紗裙",
-        "潔白的雪花",
-        "飄渺的雲朵"
+        "湖",
+        "橘毯",
+        "燃燒火",
+        "顏料盤"
       ],
-      "answer_index": 1,
-      "explanation": "課文通常會使用「輕柔的紗裙」或「薄紗」來形容清晨霧氣的輕盈、飄逸和朦朧美。",
-      "commonMisconception": "學生可能選擇其他白色或輕柔的物體，但課文會有具體的比喻。",
-      "quality_level": "L3",
-      "cqi_score": 5.5
+      "answer_index": 2,
+      "explanation": "色感強烈度匹配。",
+      "commonMisconception": "選到溫和色彩意象（橘毯）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": 2,
+        "ai_reasoning": "考察譬喻修辭的視覺聯想。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "感受微風的涼爽",
-      "question": "課文說「微風輕輕拂過臉龐，像母親的手」，這句話暗示了微風給人的感覺是什麼？",
+      "scenario": "眨眼氛圍",
+      "question": "星眨眼傳達？",
       "options": [
-        "微風有著和母親一樣的溫暖",
-        "微風帶來溫柔、舒適和涼爽的感受",
-        "微風的速度非常快，讓人感到清爽",
-        "微風雖然很小，但力量很大"
+        "明亮",
+        "對話",
+        "玩耍",
+        "神秘靜謐"
       ],
-      "answer_index": 1,
-      "explanation": "「像母親的手」是一種擬人化，強調微風帶來的溫柔、舒適和涼爽的觸感，而非其速度或力量。雖然母親的手是溫暖的，但這裡的「微風」通常帶來的是涼爽感。",
-      "commonMisconception": "學生可能將母親手的「溫暖」直接投射到微風上，而忽略了微風本身的物理感受。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 3,
+      "explanation": "環境深邃感的文學表達。",
+      "commonMisconception": "動態化誤解（玩耍）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "critical",
-      "scenario": "反思人類與自然的關係",
-      "question": "【在課文細膩描繪了大自然的美麗與生命力後】，你認為課文最希望我們重新思考人類與大自然之間，應該建立怎樣的關係？",
+      "scenario": "保環深意",
+      "question": "從美景體認到？",
       "options": [
-        "人類應該遠離大自然，保持距離",
-        "人類與大自然是相互依存、和諧共生的關係",
-        "人類應該主宰和利用大自然",
-        "大自然是人類的玩樂場所，提供娛樂"
+        "珍惜才能永續",
+        "用不竭",
+        "人能賞",
+        "政之責"
+      ],
+      "answer_index": 0,
+      "explanation": "可持續發展的倫理啟蒙。",
+      "commonMisconception": "選到資源無限論。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "風之喻",
+      "question": "風像？",
+      "options": [
+        "手",
+        "調皮孩",
+        "呼吸",
+        "牆"
       ],
       "answer_index": 1,
-      "explanation": "課文透過欣賞自然，旨在引導讀者認識到大自然的價值，進而建立一種「相互依存、和諧共生」的關係。選項A是過度主宰，選項C是輕視，選項D是疏離，都不符合課文潛在的尊重自然精神。",
-      "commonMisconception": "學生可能受到一些人類中心主義思想的影響，或只將自然看作單純的資源或娛樂場所。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "explanation": "性格特質化擬人。",
+      "commonMisconception": "物理力場化擬人（手）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "五彩衣暗示",
+      "question": "秋葉穿五彩衣指？",
+      "options": [
+        "病了",
+        "落了",
+        "呈多種鮮豔色",
+        "穿衣"
+      ],
+      "answer_index": 2,
+      "explanation": "季相變化的感官描述。",
+      "commonMisconception": "衰亡論解讀（病、落）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "面對生活中的壓力與煩惱",
-      "question": "【當你感到學習壓力大或心情不好時】，根據課文對大自然的描寫，你覺得可以如何從大自然中尋求慰藉或啟發？",
+      "scenario": "下雨午後體驗",
+      "question": "如何體驗雨？",
       "options": [
-        "認為大自然太遙遠，對解決煩惱沒有幫助",
-        "找一處安靜的自然環境，觀察細節，讓心平靜下來",
-        "去大自然中大聲呼喊，發洩所有不滿",
-        "把自己的煩惱告訴樹木或小動物，尋求它們的幫助"
+        "抱怨",
+        "關窗",
+        "聽聲嗅味",
+        "拍照"
+      ],
+      "answer_index": 2,
+      "explanation": "多感官審美實踐。",
+      "commonMisconception": "功能性或消極回應。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "花香態",
+      "question": "何氣味？",
+      "options": [
+        "嗆鼻",
+        "清新芬芳",
+        "苦草",
+        "無味"
       ],
       "answer_index": 1,
-      "explanation": "課文強調觀察與感受大自然的美好，因此，在壓力大時，透過「找一處安靜的自然環境，觀察細節，讓心平靜下來」是最符合課文精神的尋求慰藉方式。選項B是情緒宣洩而非內省，選項C是擬人化過度，選項D是消極態度。",
-      "commonMisconception": "學生可能將尋求慰藉等同於情緒發洩，或對大自然的力量存有不切實際的幻想，或認為自然與現實生活無關。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "explanation": "嗅覺描述慣例。",
+      "commonMisconception": "負面氣味誤導。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "陽光如母特質",
+      "question": "輕撫指？",
+      "options": [
+        "給生命",
+        "變美",
+        "來源",
+        "溫柔舒適涼爽"
+      ],
+      "answer_index": 3,
+      "explanation": "情感安慰的功能喻。",
+      "commonMisconception": "硬核科學化（來源）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "城鄉思考",
+      "question": "提醒都市人？",
+      "options": [
+        "鄉下好",
+        "搬家",
+        "學會發現身邊美",
+        "都市趣"
+      ],
+      "answer_index": 2,
+      "explanation": "觀察力不分地域的普適性。",
+      "commonMisconception": "地緣歧視論。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "屋簷雨聲",
+      "question": "雨聲像？",
+      "options": [
+        "低語",
+        "叮咚敲擊",
+        "樂章",
+        "巨響"
+      ],
+      "answer_index": 1,
+      "explanation": "狀聲詞與物體接觸之描述。",
+      "commonMisconception": "音色誤判（沙沙、嘩啦）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "泥土清新暗示",
+      "question": "此句暗示？",
+      "options": [
+        "微物動",
+        "本來香",
+        "洗淨塵芬芳釋放",
+        "種植佳"
+      ],
+      "answer_index": 2,
+      "explanation": "感官清爽的成因直覺。",
+      "commonMisconception": "功利農耕化（種植）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "寫法靈思",
+      "question": "最效寫法？",
+      "options": [
+        "搜資",
+        "代寫",
+        "看聽嗅感受",
+        "抄優句"
+      ],
+      "answer_index": 2,
+      "explanation": "寫作素材的源泉在於體驗。",
+      "commonMisconception": "素材拼湊論。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "晨霧喻",
+      "question": "晨霧像？",
+      "options": [
+        "雪",
+        "雲",
+        "被",
+        "紗裙"
+      ],
+      "answer_index": 3,
+      "explanation": "質地與透明度之喻。",
+      "commonMisconception": "選到厚重喻體（被）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "微風如母手",
+      "question": "暗示感覺？",
+      "options": [
+        "速快",
+        "力大",
+        "溫暖",
+        "溫柔舒適涼爽"
+      ],
+      "answer_index": 3,
+      "explanation": "環境舒適度的體現。",
+      "commonMisconception": "物理效能化（力、速）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "人自關係思考",
+      "question": "建立何關係？",
+      "options": [
+        "主宰",
+        "互依共生",
+        "遠離",
+        "玩場"
+      ],
+      "answer_index": 1,
+      "explanation": "生態意識的基礎觀念。",
+      "commonMisconception": "資源玩物論。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "壓大時",
+      "question": "如何從自尋慰？",
+      "options": [
+        "告鳥",
+        "安靜觀察靜心",
+        "大喊",
+        "無助"
+      ],
+      "answer_index": 1,
+      "explanation": "內省智力與自然療癒。",
+      "commonMisconception": "選到發洩而非靜心。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     }
   ]
 }

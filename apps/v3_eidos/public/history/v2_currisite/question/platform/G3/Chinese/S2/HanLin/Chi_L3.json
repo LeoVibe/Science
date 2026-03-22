@@ -10,486 +10,604 @@
   },
   "questions": [
     {
-      "id": "HL_G3S2_Chi_L3_11",
-      "type": "multiple_choice",
-      "taxonomy": "inferential",
-      "scenario": "角色心情體會",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，當韋齊聽到觀眾震耳欲聾的掌聲時，她內心最可能的感受是？",
+      "taxonomy": "literal",
+      "scenario": "角色特質與情節檢核",
+      "question": "在《用膝蓋跳舞的女孩》一文中，作者描述主角在舞台上表演什麼？",
       "options": [
-        "感到所有的辛苦都是值得的，並對大眾的接納充滿感激，這種想法在日常生活中其實也是非常常見的一種自然現象　　　　　　　　　　　　　　　　　　　　",
-        "她可能認為觀眾並不是真心想要拍手的，而只是覺得大家在台下偷偷地一起大聲嘲笑她，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重　　　　",
-        "因為現場實在是太熱鬧了，所以她其實根本就完全沒有聽清楚台下的大批觀眾到底都在拍什麼手，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
-        "她覺得音樂廳裡面的這些拍手聲聽起來實在是太吵了，讓她只想馬上打包行李並趕快離開現場，這種想法在日常生活中其實也是非常常見的一種自然現象　　　"
+        "A. 彈鋼琴",
+        "B. 唱歌",
+        "C. 跳舞",
+        "D. 畫畫"
       ],
-      "answer_index": 0,
-      "explanation": "理解成功的喜悅與社會回饋對自我價值的肯定。",
-      "commonMisconception": "負面臆測（嘲笑）或生理功能的誤解。",
+      "answer_index": 2,
+      "explanation": "故事的主軸就是在描述一位失去雙腳的女孩，如何克服困難用膝蓋跳出優美的舞蹈。",
+      "commonMisconception": "學生可能因為題目提到「用膝蓋」而聯想到其他的表演形式，需仔細核對課文內容。",
       "quality_level": "L5",
-      "cqi_score": 10
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的身體狀況",
-      "question": "瑪麗莎出生時，她的雙腳有什麼特別的地方？",
-      "options": [
-        "A. 沒有小腿骨",
-        "B. 腳趾頭特別長",
-        "C. 只有一隻腳",
-        "D. 雙腳特別有力"
-      ],
-      "answer_index": 0,
-      "explanation": "課文明確指出瑪麗莎出生時沒有小腿骨，這是導致她後來需要截肢的主要原因。",
-      "commonMisconception": "學生可能被其他身體特徵的描述所吸引，但應回歸課文提供的具體細節。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
-      "scenario": "瑪麗莎的夢想",
-      "question": "瑪麗莎為什麼會想要跳舞，而不選擇其他活動？",
+      "scenario": "分析心理狀態與情感",
+      "question": "當表演結束，全場響起熱烈的掌聲時，你覺得這位女孩內心可能會有什麼感覺？",
       "options": [
-        "A. 她覺得跳舞是最簡單的運動",
-        "B. 她的朋友都在學跳舞",
-        "C. 她的醫生建議她跳舞復健",
-        "D. 她從小就喜歡音樂和律動"
-      ],
-      "answer_index": 3,
-      "explanation": "故事中強調瑪麗莎對跳舞的熱愛與渴望，這暗示了她內心對音樂和律動的喜愛，驅使她追求這個夢想，而非外在或功利的原因。",
-      "commonMisconception": "學生可能誤以為是外部因素（如朋友、醫生建議）影響了她的選擇，忽略了她內在的興趣與熱情。",
-      "quality_level": "L3",
-      "cqi_score": 7
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的學習過程",
-      "question": "瑪麗莎一開始學走路時，是依靠什麼工具？",
-      "options": [
-        "A. 輪椅和拐杖",
-        "B. 義肢和拐杖",
-        "C. 父母的攙扶",
-        "D. 特製的輔助器"
+        "A. 覺得很害怕，想要趕快躲起來",
+        "B. 感到非常欣慰與感激，覺得所有的辛苦都值得了",
+        "C. 覺得掌聲太吵了，讓她耳朵很不舒服",
+        "D. 覺得這一切都是理所當然的，不需要感謝任何人"
       ],
       "answer_index": 1,
-      "explanation": "課文中提到瑪麗莎在截肢後，最初是穿戴義肢並使用拐杖來學習移動和走路。",
-      "commonMisconception": "學生可能混淆不同的輔助工具，或只記得一部分，未能完整回憶課文描述。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的父母",
-      "question": "【在瑪麗莎決定要跳舞時】，她的父母可能抱持著什麼樣的心情？",
-      "options": [
-        "A. 覺得她異想天開，不應該跳舞",
-        "B. 希望她放棄，選擇更安全的活動",
-        "C. 完全不理會她的想法",
-        "D. 擔心她會受傷，但仍支持她的夢想"
-      ],
-      "answer_index": 3,
-      "explanation": "雖然父母會自然地擔心孩子的安全，但故事的主旨是鼓勵與克服，所以父母最終會選擇支持瑪麗莎的夢想，這是一種同理心的合理推測。",
-      "commonMisconception": "學生可能過度投射父母的擔心，而忽略了他們對孩子夢想的支持。",
-      "quality_level": "L3",
-      "cqi_score": 4
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎跳舞的方式",
-      "question": "瑪麗莎後來是如何展現她的舞蹈天賦的？",
-      "options": [
-        "A. 她穿著義肢在舞台上跳躍",
-        "B. 她用膝蓋在地上輕盈地旋轉",
-        "C. 她坐在輪椅上表演手部動作",
-        "D. 她利用高科技輔助工具跳舞"
-      ],
-      "answer_index": 1,
-      "explanation": "課文的核心內容就是描述瑪麗莎克服困難，發展出「用膝蓋跳舞」的獨特方式，這是她展現天賦的關鍵。",
-      "commonMisconception": "學生可能誤將她初期穿戴義肢的狀況，與她後來獨特的舞蹈方式混淆。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎對自己的看法",
-      "question": "瑪麗莎在練習跳舞的過程中，最不可能有的感受是什麼？",
-      "options": [
-        "A. 挫折",
-        "B. 快樂",
-        "C. 沮喪",
-        "D. 自卑"
-      ],
-      "answer_index": 3,
-      "explanation": "故事強調瑪麗莎的毅力和勇氣，她不斷克服困難，最終實現夢想。雖然她可能經歷挫折、快樂或沮喪，但故事的主軸是她對自我價值的肯定和對夢想的追求，因此「自卑」這種長期負面、否定自我的情緒，與故事傳達的積極精神最不符。",
-      "commonMisconception": "學生可能誤以為身體缺陷必然導致自卑，但故事的核心是她如何超越缺陷，找到自信。",
-      "quality_level": "L3",
-      "cqi_score": 7
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "故事主旨",
-      "question": "這篇故事最主要想傳達給讀者的訊息是什麼？",
-      "options": [
-        "A. 只要有錢就能實現夢想",
-        "B. 身體的殘缺會阻礙一切",
-        "C. 毅力與勇氣能克服困境",
-        "D. 跳舞是最好的運動方式"
-      ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎的故事是關於她如何透過不懈的努力和內心的力量，戰勝身體上的限制，追求並實現自己的夢想。這清楚地傳達了毅力與勇氣的重要性。",
-      "commonMisconception": "學生可能被其他看似合理的選項干擾，但應抓住故事中瑪麗莎的核心特質和她所面對的挑戰。",
-      "quality_level": "L3",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的學校生活",
-      "question": "瑪麗莎在學校裡，同學們對她的態度通常是怎麼樣的？",
-      "options": [
-        "A. 幫助她，鼓勵她",
-        "B. 嘲笑她，排擠她",
-        "C. 漠不關心，視而不見",
-        "D. 害怕她，不敢靠近"
-      ],
-      "answer_index": 0,
-      "explanation": "這類勵志故事通常會描寫主角得到周圍人的支持與鼓勵，以凸顯溫暖與包容的社會氛圍，因此「幫助她，鼓勵她」是符合課文情境的描述。",
-      "commonMisconception": "學生可能會聯想到現實中可能出現的負面情況，但應依據課文所營造的積極氛圍來判斷。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的努力",
-      "question": "瑪麗莎「用膝蓋跳舞」的這項技能，最能展現她哪一種特質？",
-      "options": [
-        "A. 天生麗質",
-        "B. 聰明才智",
-        "C. 堅持不懈",
-        "D. 幸運兒"
-      ],
-      "answer_index": 2,
-      "explanation": "用膝蓋跳舞是瑪麗莎克服身體限制後，透過反覆練習和不放棄的精神才學會的，最能展現她堅持不懈的毅力。",
-      "commonMisconception": "學生可能會將成就歸因於天賦或運氣，而忽略了背後持續不斷的努力。",
-      "quality_level": "L3",
-      "cqi_score": 4
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的表演",
-      "question": "瑪麗莎在哪裡展現了她「用膝蓋跳舞」的成果？",
-      "options": [
-        "A. 電視節目上",
-        "B. 學校運動會上",
-        "C. 學校的戲劇表演中",
-        "D. 國際舞蹈比賽中"
-      ],
-      "answer_index": 2,
-      "explanation": "課文情境通常設定在學校環境中，讓讀者更能感受其貼近性與鼓舞性，因此「學校的戲劇表演中」是符合課文情境的描述。",
-      "commonMisconception": "學生可能想像到更大的舞台，但應回歸課文所描述的具體場景。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的影響",
-      "question": "瑪麗莎的舞蹈表演，對觀看的人們產生了什麼樣的影響？",
-      "options": [
-        "A. 讓大家覺得很同情她",
-        "B. 讓大家覺得跳舞很困難",
-        "C. 讓大家覺得身體健康很重要",
-        "D. 讓大家感到驚訝和感動"
-      ],
-      "answer_index": 3,
-      "explanation": "瑪麗莎的故事旨在傳達積極正向的能量，她的表演不僅展現了技巧，更重要的是她克服困難的精神，這會讓觀眾感到驚訝並深受感動。",
-      "commonMisconception": "學生可能誤以為是產生同情或只關注身體健康，但故事更深層的影響是啟發人心。",
-      "quality_level": "L3",
-      "cqi_score": 7
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的身體狀況細節",
-      "question": "瑪麗莎的雙腿為什麼需要截肢？",
-      "options": [
-        "A. 因為她生了一場大病",
-        "B. 因為她天生沒有小腿骨",
-        "C. 因為她發生了意外事故",
-        "D. 因為醫生建議這樣能讓她跳舞"
-      ],
-      "answer_index": 1,
-      "explanation": "課文開頭就明確交代了瑪麗莎的先天性身體狀況，即「沒有小腿骨」，這是她截肢的原因。",
-      "commonMisconception": "學生可能將截肢的原因與其他常見情況（如疾病、意外）混淆，未能精確回憶課文細節。",
-      "quality_level": "L3",
-      "cqi_score": 5.5
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的內心世界",
-      "question": "【在瑪麗莎第一次嘗試用膝蓋跳舞時】，她心裡最可能的想法是什麼？",
-      "options": [
-        "A. 「這太簡單了！」",
-        "B. 「我一定做不到。」",
-        "C. 「雖然很難，但我會努力試試看。」",
-        "D. 「我應該放棄跳舞。」"
-      ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎的故事強調她的毅力與不放棄的精神，即使面對困難，她也會選擇嘗試和努力，這是對她性格的合理推斷。",
-      "commonMisconception": "學生可能被困難的表象迷惑，認為她會產生放棄的念頭，忽略了她內在的堅韌。",
+      "explanation": "透過成功的表演獲得認可，主角內心應是充滿正面情感，如欣慰、感激與成就感。",
+      "commonMisconception": "將正面情感誤解為負面或中性的生理反應。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
-      "taxonomy": "contextual",
-      "scenario": "故事的啟示",
-      "question": "從瑪麗莎的故事中，我們可以學到什麼重要的道理？",
+      "taxonomy": "applied",
+      "scenario": "生命教育的價值觀應用",
+      "question": "如果班上有一位身體有殘缺的同學，根據這課的精神，我們應該用什麼樣的態度對待他？",
       "options": [
-        "A. 每個人的身體狀況都一樣",
-        "B. 只要長得漂亮就能成功",
-        "C. 運動對身體沒有影響",
-        "D. 遇到困難時要勇敢面對"
+        "A. 用同情與可憐的眼神一直盯著他看",
+        "B. 故意躲得遠遠的，不要跟他一起玩",
+        "C. 尊重並主動詢問他是否需要幫助，同時欣賞他努力克服困難的精神",
+        "D. 嘲笑他的不一樣，讓自己覺得比較厲害"
       ],
-      "answer_index": 3,
-      "explanation": "瑪麗莎的故事核心就是她如何面對並克服身體上的困難，勇敢追求夢想，因此「遇到困難時要勇敢面對」是故事最直接的啟示。",
-      "commonMisconception": "學生可能被其他選項的表面合理性所誤導，應聚焦於故事中主角的行為和其所代表的精神。",
-      "quality_level": "L3",
-      "cqi_score": 5
+      "answer_index": 2,
+      "explanation": "這課的核心價值在於平等尊重與欣賞個體的生命韌性。",
+      "commonMisconception": "選到嘲諷或過度同情而非正向尊重的態度。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "瑪麗莎的成長",
-      "question": "瑪麗莎的父母在知道她想跳舞後，做了什麼來支持她？",
+      "scenario": "閱讀細節辨析",
+      "question": "文中提到，這位女孩的雙腳有什麼特別的地方？",
       "options": [
-        "A. 幫她尋找適合的老師和方法",
-        "B. 幫她報名舞蹈補習班",
-        "C. 每天陪她看舞蹈表演",
-        "D. 買了很多漂亮的舞衣給她"
+        "A. 她的雙腳長得比一般人還要長很多",
+        "B. 她沒有小腿骨，必須用膝蓋來支撐身體",
+        "C. 她的腳趾頭特別靈活，可以用來寫字",
+        "D. 她天生就有三隻腳，所以平衡感很好"
       ],
-      "answer_index": 0,
-      "explanation": "對於瑪麗莎的特殊情況，父母的支持會更為實際和量身訂做，尋找適合的老師和方法是最直接且有效的幫助。",
-      "commonMisconception": "學生可能選擇一般性的支持方式，而忽略了瑪麗莎身體狀況的特殊性，需要更專業的協助。",
+      "answer_index": 1,
+      "explanation": "這是文中對於主角生理特徵的直接描述，也是「用膝蓋跳舞」的原因。",
+      "commonMisconception": "對文字細節記憶模糊或產生錯誤聯想。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "瑪麗莎的自信",
-      "question": "瑪麗莎在舞台上表演時，她展現出的自信是從哪裡來的？",
+      "scenario": "分析生命韌性與意義",
+      "question": "為什麼作者要說主角是「在苦難中開出芬芳花朵」的女孩？",
       "options": [
-        "A. 因為她的服裝很華麗",
-        "B. 因為她長得很漂亮",
-        "C. 因為她經過長時間的努力練習",
-        "D. 因為觀眾都為她鼓掌"
+        "A. 因為主角平時非常喜歡在家裡種花，所以身上總是有花香味",
+        "B. 這是一種比喻，代表她雖然遭遇嚴重的挫折與病痛，卻能活出充滿光彩與自信的生命",
+        "C. 代表她是從花苞裡面誕生出來的神奇女孩，所以長大後會散發香氣",
+        "D. 這是在形容主角跳舞的姿勢很像是一棵正在開花的樹，非常美麗"
+      ],
+      "answer_index": 1,
+      "explanation": "譬喻法用來昇華生命的意義，將生理上的苦難與心靈上的綻放對比。",
+      "commonMisconception": "字面化解釋比喻或過度解讀跳舞姿勢。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "閱讀策略：性格再評價",
+      "question": "讀完這課後，如果你在學習新技能（如彈吉他或溜直排輪）遇到挫折想放棄，主角的精神能給你什麼啟示？",
+      "options": [
+        "A. 放棄是正常的，反正我也不像她那麼慘，不需要那麼努力",
+        "B. 既然連沒有雙腳的人都能跳出精彩的舞，我有健全的身體，更應該堅持下去克服小小的困難",
+        "C. 只要大聲尖叫釋放壓力，明天一早起來自然就會學會這項技能了",
+        "D. 應該去圖書館借閱更多關於這項技能的書，不要再去練習它了"
+      ],
+      "answer_index": 1,
+      "explanation": "將角色的生命力量遷移到學習動力上。",
+      "commonMisconception": "選擇放棄或尋找怪異的紓壓方式。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "情感描寫辨析",
+      "question": "文中描述主角在練習跳舞時，膝蓋常常會「磨破皮」甚至流血，呈現出什麼樣的意境？",
+      "options": [
+        "A. 這是在教導我們受傷時正確的包紮與急救方法",
+        "B. 這是在抱怨跳舞這項活動太危險，大家應該盡量減少練習",
+        "C. 展現主角為了追求夢想，甘願忍受身體上的極大痛苦而不退縮的毅力",
+        "D. 說明主角的皮膚特別嬌嫩，不適合進行過於激烈的地板運動"
       ],
       "answer_index": 2,
-      "explanation": "自信是內在的累積，瑪麗莎的自信源於她為夢想付出的汗水與堅持，這讓她能夠在舞台上展現自我。",
-      "commonMisconception": "學生可能將自信的來源歸因於外在條件（如服裝、外貌）或他人的肯定（如掌聲），而未理解其深層的內在根源。",
+      "explanation": "生理傷痕彰顯了心靈的強悍與對夢想的執著。",
+      "commonMisconception": "誤解為健康教育資訊（A）或運動建議（D）。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析社會影響力",
+      "question": "主角的故事最可能帶給社會大眾什麼樣的正向影響？",
+      "options": [
+        "A. 讓大家發現跳舞是可以賺大錢的好工作，所以都跑去學跳舞",
+        "B. 激勵所有的人不管身處何種逆境，都應該保有希望並活出自己的價值",
+        "C. 讓大家都不想再去醫院看病，覺得只要練習跳舞就能病好",
+        "D. 說明只要透過跳舞，大家以後都會長得跟主角一樣高大"
+      ],
+      "answer_index": 1,
+      "explanation": "勵志故事的核心作用在於引發群眾的情感共鳴與正向反思。",
+      "commonMisconception": "將心靈力量與物質利益（A）或生理療效（C）掛勾。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "寫作策略：摹寫法分析",
+      "question": "作者在描寫女孩跳舞時，穿插了許多觀眾震撼與感動的畫面，這樣寫有什麼好處？",
+      "options": [
+        "A. 為了讓文章字數看起來比較多，可以拿到比較高的國語成績分",
+        "B. 透過旁人的反應（側寫）來襯托主角表演的精彩程度與動人的生命力",
+        "C. 為了宣傳這場表演的票價非常便宜，所以有很多觀眾來看",
+        "D. 這代表觀眾們都非常愛偷懶，所以才會有時間在那邊看完一整場表演"
+      ],
+      "answer_index": 1,
+      "explanation": "側寫（烘托）是強化主角形象的有效文學手法。",
+      "commonMisconception": "誤解文學技巧為增加字數（A）或商業宣傳（C）。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "詞彙運用判斷",
+      "question": "文中用「勇氣」來形容主角，下列哪種行為最符合主角所展現的「勇氣」？",
+      "options": [
+        "A. 敢跟隔壁班力氣很大的同學吵架打架",
+        "B. 即使身體與別人不同，依然大方展現自我並勇敢追求夢想",
+        "C. 全班只有主角一個人敢在深夜的學校走廊跑步，不怕被處罰",
+        "D. 在沒有大人的陪同下，自己一個人偷偷跑去危險的海邊游泳"
+      ],
+      "answer_index": 1,
+      "explanation": "這課定義的「勇氣」是內在的自我肯定與毅力。",
+      "commonMisconception": "混淆真正的勇氣與魯莽、暴力或違規行為。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "生命教育的深度省思",
+      "question": "《用膝蓋跳舞的女孩》最想教導小朋友的生命道理是什麼？",
+      "options": [
+        "A. 只要我們有強大的意志力，就可以克服生命中的缺陷，發出屬於自己的光",
+        "B. 每個人都要學習如何在舞台上領取獎盃，這才是真正成功的人生",
+        "C. 世界上只有身體健康的人才有資格去追求夢想與快樂",
+        "D. 只要我們一直跳舞，膝蓋就會變得比鋼鐵還要堅硬"
+      ],
+      "answer_index": 0,
+      "explanation": "核心主旨是自我超越與生命的韌性。",
+      "commonMisconception": "導向物質榮譽（B）或生理限制論（C）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "總結思考：小智者的挑戰",
+      "question": "讀完這課後，如果你在路上遇到一位坐著輪椅的朋友，哪種舉動最合宜？",
+      "options": [
+        "A. 擋在他的面前大聲驚呼，想要看他的腿是不是跟課文的一樣",
+        "B. 在心中給予對方祝福，並在適當且有需要的時候，大方自然地提供必要的協助就好",
+        "C. 因為覺得他很可憐，所以把自己書包裡的兩塊巧克力全部強行塞進他的口袋裡",
+        "D. 趕快跑走，因為覺得身體不方便的人可能會帶給自己倒楣的好運氣"
+      ],
+      "answer_index": 1,
+      "explanation": "實踐基本的社交尊重與同理心。",
+      "commonMisconception": "選擇到無禮的圍觀（A）或迷信的閃躲（D）。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "表演細節",
+      "question": "在舞台上，女孩用哪一個部位來「跳舞」並接替了雙腳的功能？",
+      "options": [
+        "A. 雙手",
+        "B. 膝蓋",
+        "C. 屁股",
+        "D. 手肘"
+      ],
+      "answer_index": 1,
+      "explanation": "這是標題與課文重點，女孩因失去小腿，練習用膝蓋在地上旋轉舞蹈。",
+      "commonMisconception": "孩子可能聯想到輪椅舞或手舞，需確認其對課文核心行為的理解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "情感解讀",
+      "question": "為什麼女孩在舞台上的表演，會讓觀眾看得流下眼淚？",
+      "options": [
+        "A. 因為舞台的燈光太刺眼了",
+        "B. 因為女孩跳舞的技術非常糟糕，大家覺得很可憐",
+        "C. 因為觀眾被女孩不放棄夢想、努力克服用膝蓋跳舞的精神所感動",
+        "D. 因為音樂放得太大聲了，讓大家很不舒服"
+      ],
+      "answer_index": 2,
+      "explanation": "這是一種生命教育的共鳴。觀眾的淚水來自於對主角毅力的敬佩，而非單純的同情或生理不適。",
+      "commonMisconception": "孩子可能將情感反應（流淚）歸因為生理原因或單純的負面情緒（可憐）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "受傷描寫",
+      "question": "課文中提到，女孩為了練習用膝蓋跳舞，膝蓋常常會發生什麼事？",
+      "options": [
+        "A. 變得很強健強壯",
+        "B. 磨破皮、流血，甚至長出厚繭",
+        "C. 突然長出長長的絨毛",
+        "D. 變得可以像輪子一樣一直轉"
+      ],
+      "answer_index": 1,
+      "explanation": "這段文字描述了主角在練習過程中的艱辛與身體上的磨難，凸顯其毅力。",
+      "commonMisconception": "孩子可能忽略課文中的寫實描述，選擇較為童話或功能性的選項。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "正向價值",
+      "question": "女孩雖然身體不方便，但她展現出什麼樣的生活態度？",
+      "options": [
+        "A. 怨天尤人，覺得世界對她很不公平",
+        "B. 樂觀、自信，並不放棄追求自己的興趣",
+        "C. 害怕跟別人說話，躲在家裡不出門",
+        "D. 希望別人每天都送她免費的玩具"
+      ],
+      "answer_index": 1,
+      "explanation": "故事的核心是傳遞正能量，鼓勵孩子在逆境中依然保有樂觀的心態。",
+      "commonMisconception": "孩子可能傾向將殘疾角色預設為負面心態（怨天尤人、害怕），需透過課文導正觀念。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【小明在操場上跑步跌倒了，膝蓋破了一點皮，他覺得很痛想放棄比賽】",
+      "question": "如果你想用這個故事鼓勵小明，可以怎麼說？",
+      "options": [
+        "A. 妳看，別人的腳都不見了還在跳舞，妳破皮算什麼！",
+        "B. 女孩用膝蓋跳舞的勇氣告訴我們，小小的疼痛是可以忍耐並克服的，加油！",
+        "C. 不要跑了，我們趕快去圖書館坐著休息就好。",
+        "D. 既然跌倒了，就代表老天爺不想讓妳贏，放棄吧。"
+      ],
+      "answer_index": 1,
+      "explanation": "A 選項雖然是比較，但語氣較為粗魯。B 選項才是正向的鼓勵與價值的轉化。",
+      "commonMisconception": "孩子可能選擇 A（情緒勒索式的鼓勵）或 D（消極決定），未能學會適當的情感引導方式。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "舞台掌聲",
+      "question": "當表演結束後，台下觀眾的反響是如何的？",
+      "options": [
+        "A. 大家安靜地離開，沒有說話",
+        "B. 低著頭大聲批評女孩跳得不好",
+        "C. 響起如雷的掌聲，久久不停",
+        "D. 全部的人都在台上唱歌"
+      ],
+      "answer_index": 2,
+      "explanation": "這是成功的象徵，掌聲代表了觀眾對主角努力的極大肯定與敬意。",
+      "commonMisconception": "孩子可能忽略課文結尾對於氛圍的烘托描述。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "意義探索",
+      "question": "「用膝蓋跳舞」這個行為，除了是一種表演外，還代表了什麼？",
+      "options": [
+        "A. 代表女孩很懶惰，不想用腳走路",
+        "B. 代表她對生命的熱愛，以及永不服輸的精神",
+        "C. 代表她是家裡最有錢的小孩",
+        "D. 代表她正在練習一種新的體操動作"
+      ],
+      "answer_index": 1,
+      "explanation": "這考驗孩子對「行為意義」的解讀。這不只是體位動作，更是精神力量的具體展現。",
+      "commonMisconception": "孩子可能停留在表面的技術描述，未能挖掘深層的精神內涵。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "課文細節",
+      "question": "文中描述女孩穿著什麼樣的衣服上台表演？",
+      "options": [
+        "A. 漂亮的舞衣",
+        "B. 厚厚的雪衣",
+        "C. 寫功課時穿的制服",
+        "D. 到市場買水果穿的便服"
+      ],
+      "answer_index": 0,
+      "explanation": "舞台表演通常需要專業的打扮，穿著漂亮的舞衣凸顯了主角對表演的重視與自信。",
+      "commonMisconception": "孩子可能忽略具體的外觀描寫。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "主題反思",
+      "question": "這課最不可能想要表達的感受是什麼？",
+      "options": [
+        "A. 自信",
+        "B. 感動力",
+        "C. 毅力",
+        "D. 自卑感"
+      ],
+      "answer_index": 3,
+      "explanation": "課文強調的是突破困難後的自信，雖然主角可能有過挫折，但「自卑感」絕不是課文想要傳達的主軸。",
+      "commonMisconception": "孩子可能因為主角的殘疾而聯想到負面情緒，需強化對課文「轉向積極」的理解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "夢想追求",
+      "question": "女孩最初是因為什麼原因開始練習跳舞的？",
+      "options": [
+        "A. 因為她原本就很喜愛舞蹈，想圓一個夢",
+        "B. 因為她想賺大錢買新房子",
+        "C. 因為老師強迫她每天都要練習",
+        "D. 因為她想證明自己立氣最大"
+      ],
+      "answer_index": 0,
+      "explanation": "內在的動力（興趣、夢想）正是故事感人的源頭。",
+      "commonMisconception": "孩子可能將行為動機歸因為外在壓力（老師）或物質利益。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "社會觀點",
+      "question": "如果女孩因為膝蓋受傷就停止練習，這故事還會這麼動人嗎？為什麼？",
+      "options": [
+        "A. 會，因為休息是為了走更長遠的路",
+        "B. 不會，因為故事最精彩的部分就是她克服疼痛並堅持下去的勇氣",
+        "C. 會，因為大家本來就不喜歡看跳舞的表演",
+        "D. 不會，因為這樣大家就拿不到免費的門票了"
+      ],
+      "answer_index": 1,
+      "explanation": "故事的衝突點（疼痛、困難）與解決點（克服、堅持）構成了敘事的動人之處。",
+      "commonMisconception": "孩子可能過度強調「理性休息」（A），而忽略了勵志故事的核心價值在於超越生理苦難。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
       "taxonomy": "contextual",
-      "scenario": "故事主題",
-      "question": "瑪麗莎的故事，最適合用哪一句話來形容？",
+      "scenario": "【班上要舉辦成果發表會，有些同學覺得自己沒有才藝很沮喪】",
+      "question": "你會用這課的什麼觀點來給同學力量？",
       "options": [
-        "A. 一分耕耘，一分收穫",
-        "B. 天下沒有白吃的午餐",
-        "C. 只要努力，奇蹟就會發生",
-        "D. 船到橋頭自然直"
+        "A. 每個人只要肯練習，都能展現自己獨特且動人的那一面",
+        "B. 反正有人用膝蓋都能跳舞了，妳們隨便表演也沒差",
+        "C. 如果真的不會就不要上台，免得跟那個女孩一樣受傷",
+        "D. 大家趕快去找一個長得最漂亮的人來代替我們就好了"
       ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎的故事不僅強調努力，更重要的是她克服了常人認為不可能的身體限制，達成了看似奇蹟般的成就，因此「只要努力，奇蹟就會發生」最能概括其精神。",
-      "commonMisconception": "選項A雖然正確，但「奇蹟」一詞更能凸顯瑪麗莎超越身體限制的獨特性。選項D則與主動努力的精神不符。",
+      "answer_index": 0,
+      "explanation": "這是對「自我價值」的認可與鼓勵。B 選項雖然提到課文，但語氣帶有輕視，不合適。",
+      "commonMisconception": "孩子容易分不清「正向激發價值」與「消極比較」。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 2
     },
     {
       "taxonomy": "literal",
-      "scenario": "瑪麗莎的肢體狀況",
-      "question": "瑪麗莎的雙腳截肢後，她的膝蓋有什麼特別之處？",
+      "scenario": "女孩的背景",
+      "question": "文中提到的主角名叫什麼？（或她的綽號是什麼？）",
       "options": [
-        "A. 膝蓋不能彎曲",
-        "B. 膝蓋變得比別人強壯",
-        "C. 膝蓋可以像腳一樣靈活運用",
-        "D. 膝蓋完全沒有感覺"
-      ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎能夠用膝蓋跳舞，這意味著她經過訓練後，膝蓋擁有了不同於常人的靈活性和控制力，才能替代腳的功能。",
-      "commonMisconception": "學生可能誤解為膝蓋的生理變化，而非後天訓練使其功能性改變。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "社會的反應",
-      "question": "【在瑪麗莎勇敢地展現自己時】，社會大眾對她的故事，可能抱持著什麼樣的態度？",
-      "options": [
-        "A. 驚訝與敬佩",
-        "B. 冷漠與不解",
-        "C. 嘲笑與排斥",
-        "D. 覺得她很可憐"
+        "A. 郭韋齊（或类似的音譯）",
+        "B. 隔壁班的小花",
+        "C. 住在森林裡的小紅帽",
+        "D. 很愛跑步的飛毛腿"
       ],
       "answer_index": 0,
-      "explanation": "瑪麗莎的故事具有強烈的勵志性，她克服身體障礙展現才華，通常會引起大眾的驚訝和由衷的敬佩。",
-      "commonMisconception": "學生可能將「可憐」視為一種同情，但故事更強調的是她不屈不撓的精神，應是引發敬佩而非單純的憐憫。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的輔助工具",
-      "question": "除了義肢和拐杖，瑪麗莎為了跳舞，還可能需要哪些特殊的訓練或輔助？",
-      "options": [
-        "A. 特製的舞蹈鞋",
-        "B. 專門的聲樂課程",
-        "C. 記憶複雜的舞蹈編排",
-        "D. 強化膝蓋和核心肌群的訓練"
-      ],
-      "answer_index": 3,
-      "explanation": "由於瑪麗莎是用膝蓋跳舞，她必須特別強化膝蓋的承受能力和身體的平衡，因此相關的肌力訓練是必不可少的。",
-      "commonMisconception": "學生可能選擇與一般舞蹈相關的輔助，而忽略了她獨特舞蹈方式所需的特殊訓練。",
-      "quality_level": "L5",
-      "cqi_score": 4
+      "explanation": "這是事實查核。郭韋齊是真實存在的勵志人物，也是課文的原型。",
+      "commonMisconception": "孩子可能亂選卡通人物或不相關的虛擬角色。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "瑪麗莎的快樂",
-      "question": "瑪麗莎在跳舞時，她所感受到的快樂，最主要來自於什麼？",
+      "scenario": "生命教育的總結",
+      "question": "「用膝蓋跳舞」這個標題的核心精神，可以用下列哪一個詞來總結？",
       "options": [
-        "A. 觀眾的掌聲",
-        "B. 完成一個困難動作的成就感",
-        "C. 身體沒有任何疼痛",
-        "D. 老師的稱讚"
+        "A. 幸運",
+        "B. 變通與堅毅",
+        "C. 好玩",
+        "D. 競爭力"
       ],
       "answer_index": 1,
-      "explanation": "對瑪麗莎而言，克服身體限制並完成舞蹈動作的挑戰，所帶來的成就感是她快樂最深層的來源，超越了外在的肯定或生理感受。",
-      "commonMisconception": "學生可能將快樂歸因於外部獎勵（掌聲、稱讚），而未深入理解其內部動機和自我實現的喜悅。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "explanation": "變通（尋找替代雙腳的方法）與堅毅（忍痛練習）完美呈現了標題背後的深度。",
+      "commonMisconception": "學生可能選擇較為淺表的「幸運」或「好玩」，未能體會其沈重與強大。",
+      "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "contextual",
-      "scenario": "故事的教育意義",
-      "question": "如果你是瑪麗莎的同學，看到她努力跳舞，你最可能從她身上學到什麼？",
+      "scenario": "【大家在讀完這課後，正在討論未來的夢想】",
+      "question": "主角的故事給了大家什麼樣的夢想信心？",
       "options": [
-        "A. 遇到問題要尋求父母的幫助",
-        "B. 學習如何跳舞的技巧",
-        "C. 不要輕易放棄自己的夢想",
-        "D. 身體健康比什麼都重要"
+        "A. 只要現在開始存錢，以後夢想都會實現",
+        "B. 不管先天條件如何，只要努力不懈，夢想就有可能發光",
+        "C. 夢想一定是需要很多人幫忙，自己不用太努力也沒關係",
+        "D. 以後大家都要去應徵當舞者的信心"
       ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎的故事最核心的教育意義，是她面對逆境仍堅持不懈追求夢想的精神，這對周圍的人具有強烈的啟發作用。",
-      "commonMisconception": "學生可能選擇較為普遍的道理或具體技能，但故事的精髓在於其精神層面的啟示。",
-      "quality_level": "L5",
-      "cqi_score": 6
+      "answer_index": 1,
+      "explanation": "信心源於內在的火種與不屈的勞動。這正是女孩給予讀者最強大的心理支持。",
+      "commonMisconception": "誤解信心為物質保證（A）或他人代勞（C）。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "瑪麗莎的日常生活",
-      "question": "瑪麗莎在穿上義肢後，她的行動能力有什麼變化？",
+      "scenario": "成功的瞬間",
+      "question": "當表演達到高潮，女孩在舞台上做了什麼動作讓大家驚呼？",
       "options": [
-        "A. 可以像一般人一樣自由奔跑",
-        "B. 只能緩慢地移動",
-        "C. 仍然需要拐杖輔助",
-        "D. 完全無法走路"
+        "A. 突然在地上坐下來休息",
+        "B. 用膝蓋快速地旋轉，像一隻飛舞的蝴蝶",
+        "C. 大聲喊叫老師的名字",
+        "D. 拿起書包跑步回家"
       ],
-      "answer_index": 2,
-      "explanation": "課文描述她初期是穿戴義肢並使用拐杖，這表示義肢雖能幫助行走，但仍需要額外的輔助，行動能力並非完全恢復如常。",
-      "commonMisconception": "學生可能過度想像義肢的功能，或誤認為她完全無法行動。",
+      "answer_index": 1,
+      "explanation": "這是表演中的動態高峰，具備美感與難度，是視覺上的震撼點。",
+      "commonMisconception": "孩子可能隨意選擇非舞蹈性的搞笑動作。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
     },
     {
       "taxonomy": "inferential",
-      "scenario": "瑪麗莎的態度",
-      "question": "瑪麗莎面對自己身體的特殊狀況，展現了哪一種積極的態度？",
+      "scenario": "全課主旨感悟",
+      "question": "這課最想要留給讀者的一句話可能是？",
       "options": [
-        "A. 接受並尋找替代方案",
-        "B. 抱怨並要求特殊待遇",
-        "C. 隱藏自己的不同",
-        "D. 假裝自己沒有缺陷"
+        "A. 記得每天要多喝水保護喉嚨",
+        "B. 努力不一定會成功，但不努力很輕鬆",
+        "C. 生命中雖然有殘缺，但只要有勇氣與毅力，依然能跳出精彩的舞",
+        "D. 只要有漂亮的衣服穿，每個人都能成為大明星"
       ],
-      "answer_index": 0,
-      "explanation": "瑪麗莎的故事展現了她對自身狀況的接受，並積極尋找獨特的方式來實現夢想（用膝蓋跳舞），這是最具建設性的積極態度。",
-      "commonMisconception": "學生可能將不積極的應對方式（抱怨、隱藏）誤認為是應有的反應，忽略了主角積極解決問題的特質。",
+      "answer_index": 2,
+      "explanation": "這是一句典型的總結性座右銘，涵蓋了「現狀、特質與結果」三要素。",
+      "commonMisconception": "孩子可能被幽默但錯誤的價值觀（B）或物質主義（D）誘導。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
-      "taxonomy": "contextual",
-      "scenario": "故事對讀者的啟發",
-      "question": "讀完瑪麗莎的故事，如果你的朋友遇到困難想放棄，你會怎麼鼓勵他？",
+      "taxonomy": "literal",
+      "scenario": "作者的心情",
+      "question": "作者用什麼樣的筆觸來描寫這位女孩？",
       "options": [
-        "A. 「瑪麗莎都能做到，你一定也可以！」",
-        "B. 「沒關係，放棄也沒關係。」",
-        "C. 「這件事本來就很難，你不是唯一一個。」",
-        "D. 「找別人幫忙做就好了。」"
+        "A. 充滿敬佩與感人的正向筆觸",
+        "B. 充滿恐懼與抱怨的負面筆觸",
+        "C. 非常開玩笑且調皮的戲謔筆觸",
+        "D. 通篇都在睡覺的無聊筆觸"
       ],
       "answer_index": 0,
-      "explanation": "瑪麗莎的故事是關於克服巨大困難的典範，用她的例子來激勵朋友，能直接傳達不放棄的精神，並給予力量。",
-      "commonMisconception": "選項B和C雖然有同理心，但未能提供積極的鼓勵；選項D則是逃避問題，不符合故事的啟示。",
-      "quality_level": "L5",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的訓練",
-      "question": "瑪麗莎為了「用膝蓋跳舞」，她最主要的練習內容會是什麼？",
-      "options": [
-        "A. 學習各種舞蹈的基本步法",
-        "B. 記憶複雜的舞蹈編排",
-        "C. 強化膝蓋的承受力和平衡感",
-        "D. 練習穿著義肢行走"
-      ],
-      "answer_index": 2,
-      "explanation": "由於她是用膝蓋跳舞，因此強化膝蓋的耐受性、力量以及維持身體平衡的能力，是她訓練的核心。",
-      "commonMisconception": "學生可能將一般舞蹈訓練的內容與瑪麗莎獨特的訓練需求混淆。",
+      "explanation": "作者的態度決定了文章的基調。本文基調是嚴肅、敬佩且充滿希望的。",
+      "commonMisconception": "孩子可能分不清不同的語氣風格。",
       "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的老師",
-      "question": "瑪麗莎的舞蹈老師，在看到她用膝蓋跳舞的潛力時，最可能給予她什麼樣的建議？",
-      "options": [
-        "A. 勸她放棄，因為太危險了",
-        "B. 讓她轉學到特殊教育學校",
-        "C. 建議她改學唱歌",
-        "D. 鼓勵她發展這種獨特的舞蹈方式"
-      ],
-      "answer_index": 3,
-      "explanation": "一位好的老師應能看到學生的潛力並加以引導，對於瑪麗莎這種獨特的才能，鼓勵她發展是最佳的教育方式。",
-      "commonMisconception": "學生可能認為老師會因為安全或專業考量而勸退，但故事旨在展現支持與包容。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "瑪麗莎的表演影響",
-      "question": "瑪麗莎的表演，讓觀眾對「舞蹈」有了什麼新的認識？",
-      "options": [
-        "A. 舞蹈只能由身體健全的人跳",
-        "B. 舞蹈不一定要用腳來跳",
-        "C. 舞蹈只是一種娛樂活動",
-        "D. 舞蹈需要非常專業的訓練"
-      ],
-      "answer_index": 1,
-      "explanation": "瑪麗莎用膝蓋跳舞的行為，直接挑戰了人們對舞蹈的傳統認知，證明了舞蹈的形式可以不限於用腳。",
-      "commonMisconception": "選項A與故事主旨完全相反；選項C、D是關於舞蹈的一般性描述，而非瑪麗莎表演帶來的獨特新認識。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "瑪麗莎的未來",
-      "question": "根據瑪麗莎的故事，你認為她未來最可能繼續做什麼？",
-      "options": [
-        "A. 成為一名專業的舞蹈家",
-        "B. 轉行做其他工作",
-        "C. 繼續激勵更多的人",
-        "D. 隱居起來過平靜生活"
-      ],
-      "answer_index": 2,
-      "explanation": "瑪麗莎的故事本身就具有強大的啟發性，她的經歷和精神會讓她成為一個榜樣，繼續激勵他人是她人生最可能的延續與價值所在。",
-      "commonMisconception": "學生可能將焦點放在具體的職業選擇（專業舞蹈家），而忽略了她故事更深層次的社會影響和精神傳承。",
-      "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     }
   ]
 }

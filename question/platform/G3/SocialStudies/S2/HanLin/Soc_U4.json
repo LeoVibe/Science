@@ -1,4 +1,6 @@
 {
+  "last_updated": "2026-03-23 01:50",
+  "updated_by": "Antigravity",
   "publisher": "HanLin",
   "grade": "G3",
   "semester": "S2",
@@ -9,7 +11,7 @@
     {
       "taxonomy": "applied",
       "scenario": "交通轉變",
-      "question": "翰林版提到科技帶來的轉變，例如「YouBike 公共自行車」的出現。這種轉變對社區生活最大的好處是什麼？",
+      "question": "科技進步帶來了許多轉變，例如「YouBike 公共自行車」的出現。這種轉變對社區生活最大的好處是什麼？",
       "options": [
         "讓大家都不用買摩托車了",
         "解決最後一哩路的交通問題，且環保低汙染",
@@ -20,9 +22,9 @@
       "explanation": "公共自行車結合科技與共享概念，提升了社區內部的移動便利性。",
       "commonMisconception": "以為是休閒用，忽略了其作為「公共運輸」的功能。",
       "quality_level": "L5",
-      "cqi_score": 5.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -40,9 +42,9 @@
       "explanation": "在科技不發達的年代，電話、簡訊和視訊通話都還沒有普及，人們若要傳遞遠方的訊息，最主要且常見的方式就是透過書信往返。",
       "commonMisconception": "學生可能因為對現代科技的熟悉，而錯誤地將現代的通訊方式投射到過去，誤以為過去也有類似的便利工具。",
       "quality_level": "L3",
-      "cqi_score": 4.75,
-      "blind_evaluation": true,
+      "cqi_score": 1,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -52,7 +54,7 @@
       "question": "如果沒有洗衣機，以前的人洗衣服會是什麼情況？",
       "options": [
         "B. 洗衣服會花更多的時間和力氣",
-        "A. 衣服會洗得比較乾淨，並且需要經過深思熟慮的考量。",
+        "A. 衣服會洗得比較乾淨",
         "C. 可以邊看電視邊洗衣服",
         "D. 衣服會自己變乾淨"
       ],
@@ -60,9 +62,9 @@
       "explanation": "在沒有洗衣機的時代，人們通常需要用手搓洗、拍打衣服，這是一個非常耗時且費力的家務活，需要投入大量的時間和體力。",
       "commonMisconception": "學生可能將現代科技帶來的便利（如：洗衣機洗得更乾淨）與過去的生活混淆，或是投射現代邊看電視邊做事的習慣，而忽略了過去勞動的實際情況。",
       "quality_level": "L3",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 2,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -71,7 +73,7 @@
       "scenario": "【在小明家客廳時】小明看到阿公阿嬤以前的結婚照片，他們從家裡走到很遠的廟宇舉行儀式。現在的人結婚，大多會選擇搭車或開車去婚禮現場。",
       "question": "從這件事，你可以推斷以前的人生活中有什麼不同？",
       "options": [
-        "A. 以前的人比較喜歡走路運動，並且需要經過深思熟慮的考量。",
+        "A. 以前的人比較喜歡走路運動",
         "C. 以前的婚禮比較簡單隆重",
         "D. 以前的人比較有耐心和毅力",
         "B. 以前的交通工具不方便，選擇較少"
@@ -80,9 +82,9 @@
       "explanation": "從過去人們需要長時間步行前往遠處的廟宇舉行儀式，而現在則多搭乘交通工具，可以推斷出過去交通工具不發達，選擇較少，導致人們需要花費更多時間和體力在移動上。",
       "commonMisconception": "學生可能從表面現象推斷出個人喜好（喜歡走路）或個人特質（有耐心），而忽略了背後更根本的社會與科技發展差異，或是合理化過去的行為為一種簡單隆重的表現。",
       "quality_level": "L3",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 1,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -93,16 +95,16 @@
       "options": [
         "D. 乾脆請一個年輕的店員來負責電腦結帳",
         "C. 小華可以耐心地教阿嬤操作電腦，並從簡單的功能開始",
-        "B. 直接買一套電腦系統，強迫阿嬤學習，並且需要經過深思熟慮的考量。",
+        "B. 直接買一套電腦系統，強迫阿嬤學習",
         "A. 讓阿嬤繼續手寫記帳，反正她習慣了"
       ],
       "answer_index": 1,
       "explanation": "面對傳統與現代工具的選擇，最好的方式是兼顧效率與人情。小華可以透過耐心教導，讓阿嬤逐步適應新工具，既能提升效率，也尊重阿嬤的學習步調與情感，減少她對新事物的抗拒。",
       "commonMisconception": "學生可能傾向於維持現狀（A選項的合理化迷思），或盲目追求效率而忽略當事人的感受（B選項的強制性），或將責任完全轉嫁給他人（D選項的推卸責任），未能綜合考量人際互動與解決問題的平衡。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -120,9 +122,9 @@
       "explanation": "在農業機械化普及之前，牛隻是農家重要的勞動力，協助農夫耕田、拉車，是傳統農村生活中不可或缺的一部分。",
       "commonMisconception": "學生可能只知道現代的耕作機械，或將卡通、電影中的想像（如機器人）誤認為過去的工具，忽略了傳統農業的實際情況。",
       "quality_level": "L3",
-      "cqi_score": 5.25,
-      "blind_evaluation": true,
+      "cqi_score": 2,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -132,7 +134,7 @@
       "question": "像「打鐵鋪」這樣的工作變少，最主要的原因可能是什麼？",
       "options": [
         "B. 機器製造的產品更便宜、更快速方便",
-        "D. 政府規定不能再打鐵了，這也是作者想強調的重點之一。",
+        "D. 政府規定不能再打鐵了",
         "C. 打鐵師傅都退休了，沒有人接班",
         "A. 現代人不再需要鐵器"
       ],
@@ -140,9 +142,9 @@
       "explanation": "許多傳統手工行業的沒落，主要原因是隨著科技進步，機器製造的產品具有成本低、生產快、品質一致等優勢，取代了費時費力的人工製作。",
       "commonMisconception": "學生可能傾向於選擇較為直接或聽起來有道理但非主要原因的選項，例如認為是師傅退休（部分原因但非主因）或政府禁止（合理化迷思）。",
       "quality_level": "L3",
-      "cqi_score": 7,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -154,15 +156,15 @@
         "A. 玩電動玩具",
         "D. 上網和朋友聊天",
         "C. 跳繩、踢毽子、玩鬼抓人",
-        "B. 跑到圖書館看漫畫，並且需要經過深思熟慮的考量。"
+        "B. 跑到圖書館看漫畫"
       ],
       "answer_index": 2,
       "explanation": "在沒有現代電子產品的年代，小朋友的娛樂多半是戶外活動或傳統遊戲，例如跳繩、踢毽子、玩鬼抓人等，這些遊戲不需要複雜的工具，且能與同伴互動。",
       "commonMisconception": "學生可能將現代的娛樂方式（如電動、上網）投射到過去，或選擇雖然可能存在但非主要或普遍的活動（如看漫畫），未能理解過去生活情境下娛樂的真實樣貌。",
       "quality_level": "L3",
-      "cqi_score": 4.5,
-      "blind_evaluation": true,
+      "cqi_score": 3,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -180,9 +182,9 @@
       "explanation": "現代生活雖然帶來便利，但也增加資源消耗和垃圾量。身為地球公民，我們應該從自身做起，減少一次性物品的使用，並確實做好分類回收，這是保護環境最直接有效的方式。",
       "commonMisconception": "學生可能基於合理化迷思選擇逃避責任（A選項）、錯誤的價值觀（B選項的划算論），或是將責任完全推給政府（D選項），而未能認識到個人在環境保護中的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -194,15 +196,15 @@
         "B. 交通工具",
         "D. 建築技術",
         "C. 資訊科技",
-        "A. 印刷技術，這點在實務上很重要。"
+        "A. 印刷技術"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "圖書館從單純的紙本藏書轉變為結合網路與數位資源，最主要的原因是資訊科技的快速發展，使得資料的儲存、檢索和傳遞方式產生了革命性的變化。",
       "commonMisconception": "學生可能會被其他聽起來與圖書館相關的技術（如印刷技術）所迷惑，或選擇與圖書館功能較不直接相關的選項（如交通工具、建築技術），未能精準判斷核心的驅動因素。",
       "quality_level": "L3",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 1,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -220,9 +222,9 @@
       "explanation": "「電腦工程師」和「網路直播主」等職業都是隨著資訊科技和網路媒體的發展而誕生的新興行業，它們在過去的社會中並不存在，這說明了工作型態會隨著時代與科技的進步而轉變。",
       "commonMisconception": "學生可能基於同理心投射，認為過去的人不喜歡這些工作，或對過去科技發展的理解不足，產生「以前沒有人會用電腦」或「以前科技更進步」等錯誤認知。",
       "quality_level": "L3",
-      "cqi_score": 4.75,
-      "blind_evaluation": true,
+      "cqi_score": 1,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -232,7 +234,7 @@
       "question": "小明看到一輛古老的腳踏車，旁邊的說明寫著：「在以前，腳踏車是許多人長途移動的重要工具。」這句話主要說明了以前生活哪一方面的轉變？",
       "options": [
         "交通方式的改變",
-        "居住環境的改變，這也是作者想強調的重點之一。",
+        "居住環境的改變",
         "娛樂活動的改變",
         "飲食習慣的改變"
       ],
@@ -240,9 +242,9 @@
       "explanation": "題幹明確提到「長途移動的重要工具」，這直接指向交通方式的轉變，說明了過去與現在人們移動方式的差異。",
       "commonMisconception": "學生可能被「生活」兩字吸引，而沒有精準對應到「移動工具」與「交通」的關係，誤選其他與移動無關的選項。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -253,16 +255,16 @@
       "options": [
         "讓郵差的工作變得更忙碌。",
         "讓訊息傳遞變得更快速、方便。",
-        "讓家人之間的距離變得更遠了。，這點在實務上很重要。",
+        "讓家人之間的距離變得更遠了。",
         "讓大家更喜歡寫字了。"
       ],
       "answer_index": 1,
       "explanation": "以前寫信「等好幾天」，現在手機「立刻通話或視訊」，明顯說明了訊息傳遞的速度和便利性大大提升，縮短了人們溝通的時間成本。",
       "commonMisconception": "同理心投射：A選項「距離更遠」可能讓孩子覺得科技讓人們少了見面；合理化迷思：B選項「更喜歡寫字」與D選項「郵差更忙碌」是與現況不符的錯誤推論。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -273,16 +275,16 @@
       "options": [
         "所有的工作都必須由機器完成。",
         "科技進步，發明了更有效率的工具。",
-        "工廠老闆不喜歡看到太多工人。，這也是作者想強調的重點之一。",
+        "工廠老闆不喜歡看到太多工人。",
         "機器手臂比人類更需要休息。"
       ],
       "answer_index": 1,
       "explanation": "機器手臂的出現取代了部分人工作業，大幅提高生產效率和精準度，這正是科技進步帶來的成果，也是「生活與工作的轉變」的重要原因。",
       "commonMisconception": "同理心投射：A選項可能是孩子對老闆的誤解；合理化迷思：B選項與事實不符；D選項過於絕對，機器無法完成所有工作，且與情境不符。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -294,15 +296,15 @@
         "主要購買現成的罐頭食品。",
         "主要使用化學添加劑保鮮。",
         "主要依賴自然方法來延長保存期限。",
-        "主要使用冰箱冷凍食物。，並且需要經過深思熟慮的考量。"
+        "主要使用冰箱冷凍食物。"
       ],
       "answer_index": 2,
       "explanation": "「曬乾」、「醃製」都是利用自然環境或簡單的加工方法來保存食物，與現代的冰箱或化學添加劑等科技方式不同。",
       "commonMisconception": "A選項是現代方法，易與過去混淆；C和D選項在早期並不普遍，是合理化迷思，與題幹描述不符。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 3,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -311,26 +313,20 @@
       "scenario": "【在媽媽的生日派對上】",
       "question": "媽媽分享她小時候，每逢生日都要去傳統市場買菜，回家和外婆一起準備大餐。現在，媽媽常常在網路商店訂購食材，或是直接請外送員送到家。從媽媽的經驗中，我們可以推論購物方式的轉變，帶給人們生活什麼樣的便利？",
       "options": [
-        "讓食物的種類變得更少。，並且需要經過深思熟慮的考量。",
+        "讓食物的種類變得更少。",
         "讓家人相處的時間變少了。",
         "節省了採買的時間和力氣。",
         "讓大家更喜歡去市場逛街。"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "從「去市場買菜，回家和外婆一起準備」到「網路商店訂購食材，或外送」，明顯是減少了親自採買的時間和勞力，大幅增加了購物便利性。",
       "commonMisconception": "同理心投射：B選項可能讓孩子覺得科技讓人們互動變少，但並非購物方式轉變的主要便利性；合理化迷思：A選項與情境相反；D選項與事實不符。",
       "quality_level": "L5",
-      "cqi_score": 7,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_eval_mismatch": {
-        "ai_selected": 2,
-        "correct_answer": 3,
-        "ai_reasoning": "正確分析購物方式轉變帶來的便利性。",
-        "review_status": "pending"
-      }
+      "verifying_date": "2026-03-22"
     },
     {
       "taxonomy": "literal",
@@ -338,7 +334,7 @@
       "question": "小玉看到爺爺奶奶年輕時的照片，裡面有他們坐在戲院看布袋戲的畫面。爺爺說：「以前沒有電視，看布袋戲是大家最期待的休閒活動之一。」這說明了以前人們主要透過哪種方式來娛樂？",
       "options": [
         "觀看現場表演或傳統戲劇。",
-        "上網瀏覽影片。，這點在實務上很重要。",
+        "上網瀏覽影片。",
         "收聽廣播電台的音樂。",
         "使用智慧型手機玩遊戲。"
       ],
@@ -346,9 +342,9 @@
       "explanation": "題幹明確指出「看布袋戲」是休閒活動，這是一種現場表演的傳統戲劇，反映了過去的娛樂方式。",
       "commonMisconception": "A和D選項是現代娛樂方式，容易與過去混淆；C選項雖然是傳統方式，但與「看布袋戲」的具體描述不符，缺乏精準性。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 3,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -362,21 +358,15 @@
         "這些工人一定都失業了，沒有工作可做。",
         "這些工人應該都變成機器人了。"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "科技進步導致工作內容轉變時，人們通常會學習新技能以適應新工作，或轉型到其他領域。社會為了發展，通常會提供轉職或培訓的機會，因此B選項是符合現實且積極的答案。",
       "commonMisconception": "同理心投射：A選項是孩子可能產生的擔憂，但過於悲觀且不符現實；合理化迷思：C選項不符合社會運作常態；D選項是幻想，不具真實性。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_eval_mismatch": {
-        "ai_selected": 0,
-        "correct_answer": 3,
-        "ai_reasoning": "引導學生思考職業轉型與適應，具教育意義。",
-        "review_status": "pending"
-      }
+      "verifying_date": "2026-03-22"
     },
     {
       "taxonomy": "inferential",
@@ -384,7 +374,7 @@
       "question": "曾祖母的房子是土角厝，牆壁看起來有點斑駁，但冬暖夏涼。曾祖母說：「以前蓋房子都用土、竹子和茅草，現在的房子大多用鋼筋和水泥。」從這些話中，我們可以推論建造房屋的材料改變，主要帶來了什麼不同的影響？",
       "options": [
         "現代的房子通常更堅固耐用，能抵抗更多災害。",
-        "現代的房子都比較小，住起來不舒服。，這也是作者想強調的重點之一。",
+        "現代的房子都比較小，住起來不舒服。",
         "以前的房子比較堅固，不怕地震。",
         "以前的房子蓋起來比較快，省時間。"
       ],
@@ -392,9 +382,9 @@
       "explanation": "鋼筋水泥等現代建材比土、竹子、茅草等傳統建材更堅固，這是現代建築能抵抗更多自然災害（如颱風、地震）的主要原因，提升了居住安全性。",
       "commonMisconception": "合理化迷思：A和B選項與事實不符，傳統建材在堅固性或建造速度上通常不如現代材料；D選項與房屋大小無直接關係，且不一定正確。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -408,21 +398,15 @@
         "最主要的因素之一。",
         "唯一的結果。"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "科技進步確實是推動生活與工作轉變的重要動力，但並非唯一原因，還有社會需求、經濟發展等。選項B「最主要的因素之一」是較為精準的描述。",
       "commonMisconception": "合理化迷思：A選項過於絕對，忽略了其他因素；C和D選項則明顯錯誤，與課文核心概念相悖。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_eval_mismatch": {
-        "ai_selected": 2,
-        "correct_answer": 1,
-        "ai_reasoning": "正確定義科技進步在社會變遷中的角色。",
-        "review_status": "pending"
-      }
+      "verifying_date": "2026-03-22"
     },
     {
       "taxonomy": "inferential",
@@ -431,16 +415,16 @@
       "options": [
         "讓學校的圖書館變得沒有用了。",
         "讓學生更容易、更快速地獲取知識。",
-        "讓學生不需要老師也能學習。，並且需要經過深思熟慮的考量。",
+        "讓學生不需要老師也能學習。",
         "讓學生變得不喜歡閱讀紙本書籍。"
       ],
       "answer_index": 1,
       "explanation": "透過網路和數位典藏，學生可以更輕鬆、快速地找到所需的資料，大幅提升學習效率和便利性，這是資訊科技帶來的顯著好處。",
       "commonMisconception": "同理心投射/合理化迷思：A選項和C選項是孩子可能產生的片面理解或擔憂，但與事實不符，數位化是輔助而非完全取代；D選項過於誇大，老師的角色依然重要。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -450,7 +434,7 @@
       "question": "小明翻看奶奶小時候的照片，看到照片中的奶奶和她的家人，都是提著菜籃、走很遠的路到市場買東西。小明心想，現在家裡有冰箱，還有好多大賣場和便利商店，買東西方便多了！請問，從這段描述中，可以看出哪些「生活」上的改變？",
       "options": [
         "保存食物和購物的方式改變了。",
-        "家庭成員的職業類型不同了。，這也是作者想強調的重點之一。",
+        "家庭成員的職業類型不同了。",
         "交通方式變得更多元。",
         "人們的休閒活動變得更豐富。"
       ],
@@ -458,9 +442,9 @@
       "explanation": "題幹中提到「冰箱」和「大賣場、便利商店」，這直接對應了食物的保存方式和購物的地點與便利性，是生活上最明顯的改變。",
       "commonMisconception": "學生可能誤以為交通方式是主要改變，但題幹重點在於「買東西」的便利性，而非通勤方式。雖然交通可能影響購物，但冰箱和商店是更直接的改變。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -478,9 +462,9 @@
       "explanation": "從牛拉石磨到機器碾米，是農業生產工具和技術的演進，屬於農業技術的進步，讓工作效率更高。",
       "commonMisconception": "學生可能被「工廠」誤導，以為是工業或交通的改變，但核心是「碾米」這個農業環節的技術革新。",
       "quality_level": "L5",
-      "cqi_score": 6.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -492,15 +476,15 @@
         "人們不再喜歡吃自己種的食物。",
         "村子裡的人變懶惰了。",
         "現代社會分工越來越細，專業化程度高。",
-        "大家都搬到城市住了。，並且需要經過深思熟慮的考量。"
+        "大家都搬到城市住了。"
       ],
       "answer_index": 2,
       "explanation": "過去自給自足，現在到超市購買，反映了社會分工的專業化。人們不再需要親自生產所有生活所需，而是透過市場交換，這也是「工作轉變」的重要面向。",
       "commonMisconception": "學生可能用簡單的道德判斷（懶惰）或單一事件（搬家）來解釋複雜的社會現象，忽略了社會經濟結構的轉變。",
       "quality_level": "L5",
-      "cqi_score": 7,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -510,7 +494,7 @@
       "question": "老師展示了以前的書信和現在的電子郵件。以前寄一封信可能要好幾天才能送到，現在一封電子郵件幾乎是立刻就能傳達。請問，這說明了哪一方面有很大的轉變？",
       "options": [
         "通信技術與速度。",
-        "人們的寫字習慣。，這點在實務上很重要。",
+        "人們的寫字習慣。",
         "郵差的工作內容。",
         "郵局的數量。"
       ],
@@ -518,9 +502,9 @@
       "explanation": "從傳統書信到電子郵件，最明顯的改變就是訊息傳遞的速度與方式，也就是通信技術的進步。",
       "commonMisconception": "學生可能注意到郵差工作或寫字習慣的改變，但這些是通信技術進步所帶來的次要影響，核心仍是技術和速度。",
       "quality_level": "L5",
-      "cqi_score": 6.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -529,7 +513,7 @@
       "scenario": "【在阿嬤的廚房裡】",
       "question": "小芳看見阿嬤在廚房裡熟練地用大灶燒柴煮飯，火光熊熊，香氣四溢。阿嬤說：「以前沒有瓦斯爐和電鍋，煮一餐飯要花很多時間和力氣。」請問，阿嬤的話暗示了現代廚房工具對人們生活帶來了什麼影響？",
       "options": [
-        "讓煮飯變得更麻煩。，並且需要經過深思熟慮的考量。",
+        "讓煮飯變得更麻煩。",
         "讓食物的味道變得更好吃。",
         "讓大家更喜歡在外面用餐。",
         "讓家庭主婦的工作更輕鬆、省時。"
@@ -538,9 +522,9 @@
       "explanation": "瓦斯爐和電鍋的出現，讓煮飯不再需要燒柴，大大減少了時間和體力，使家務工作變得更輕鬆、省時。",
       "commonMisconception": "學生可能被「香氣四溢」誤導，認為食物味道是重點，或投射現代人外食的習慣。但阿嬤對比的是「時間和力氣」，直接指向家務的便利性。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -550,7 +534,7 @@
       "question": "小傑在圖書館看到一本老舊的百科全書，厚厚一本，裡面有很多圖片和文字。他想到現在只要上網搜尋，馬上就能找到各種資料和圖片。請問，這種從「查書」到「上網」的轉變，主要反映了哪方面的進步？",
       "options": [
         "資訊取得方式的便利性。",
-        "人們閱讀習慣的改變。，這點在實務上很重要。",
+        "人們閱讀習慣的改變。",
         "書本印刷技術的改良。",
         "圖書館收藏書籍的數量。"
       ],
@@ -558,9 +542,9 @@
       "explanation": "從厚重的百科全書到網路搜尋，核心的改變是獲取知識和資訊的效率與便利性大幅提升。",
       "commonMisconception": "學生可能會直觀地想到閱讀習慣的改變，但這只是結果之一。更根本的改變是資訊科技的發展，讓資訊的取得方式變得更便捷。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 3,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -571,16 +555,16 @@
       "options": [
         "手工藝品的價值更高。",
         "工具的進步讓工作效率提高。",
-        "學會使用電動工具更容易。，這點在實務上很重要。",
+        "學會使用電動工具更容易。",
         "人們不再喜歡手工製作。"
       ],
       "answer_index": 1,
       "explanation": "爸爸的話明確指出電動工具讓工作「省力又快速」，這直接說明了工具進步對工作效率的提升。",
       "commonMisconception": "學生可能根據主觀感受推斷手工藝品的價值，或誤以為人們不喜歡手工。但題幹的核心在於新舊工具的效率對比。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -592,15 +576,15 @@
         "讓家庭主婦的工作量增加。",
         "讓家裡的電費變得更便宜。",
         "增加了個人的學習與休閒時間。",
-        "讓家人之間的感情變淡。，並且需要經過深思熟慮的考量。"
+        "讓家人之間的感情變淡。"
       ],
       "answer_index": 2,
       "explanation": "洗衣機省下了手洗衣服的時間和力氣，讓媽媽可以將這些時間用於個人的興趣和休閒活動，提升了生活品質。",
       "commonMisconception": "學生可能從負面角度思考科技帶來的問題（如電費），或誤解為科技會減少人際互動。但題幹明確指出媽媽能「拿去學畫畫、做運動」，顯示是增加了個人時間。",
       "quality_level": "L5",
-      "cqi_score": 7,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -611,16 +595,16 @@
       "options": [
         "哪一種方式能讓政府賺更多錢。",
         "如何平衡現代發展與社區的永續發展和文化傳承。",
-        "哪一種方式能讓少數有錢人獲得最大利益。，這點在實務上很重要。",
+        "哪一種方式能讓少數有錢人獲得最大利益。",
         "哪一種方式能滿足最多人的短期需求。"
       ],
       "answer_index": 1,
       "explanation": "這個情境涉及發展與保育、便利與傳統的衝突。最核心的考量應是如何在追求現代便利的同時，也能兼顧社區的長期福祉、環境保護以及對過去文化的尊重與傳承，這是永續發展的思維。",
       "commonMisconception": "學生可能傾向於選擇短期、顯而易見的利益（如購物便利）或單一面向的考量（如政府收入），而忽略了更深層次的環境、文化和永續發展的議題。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     }

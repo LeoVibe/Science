@@ -21,7 +21,7 @@
       ],
       "answer": "正三角形",
       "explanation": "正三角形的三邊等長，且三個內角都是 60 度。",
-      "cqi_score": 7,
+      "cqi_score": 4.5,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "任意三角形的三個內角加起來（內角和）一定是 180 度。",
       "answer": "True",
       "explanation": "這是平面幾何中三角形的基本性質。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.25,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "等腰三角形中，兩條一樣長的邊稱之為「腰」，這兩條邊所對應的角（底角）大小會______。",
       "answer": "相等或一樣大",
       "explanation": "等腰三角形的基本性質：等邊對等角。",
-      "cqi_score": 5.5,
+      "cqi_score": 3.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "直角三角形",
       "explanation": "定義含有直角的三角形。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "2cm, 2cm, 5cm",
       "explanation": "2 + 2 = 4，不小於 5，無法接合成三角形。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     }
   ]

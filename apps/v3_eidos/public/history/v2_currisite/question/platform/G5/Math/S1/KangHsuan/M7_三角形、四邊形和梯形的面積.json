@@ -21,7 +21,7 @@
       ],
       "answer": "底 × 高",
       "explanation": "這是平面幾何的基本面積公式。",
-      "cqi_score": 6,
+      "cqi_score": 4,
       "quality_level": "L3"
     },
     {
@@ -30,7 +30,7 @@
       "question": "三角形的面積剛好是同底同高的平行四邊形面積的一半。",
       "answer": "True",
       "explanation": "因此三角形公式包含 ÷ 2。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "一個梯形的上底為 4 公分，下底為 6 公分，高為 5 公分，其面積為______平方公分。",
       "answer": "25",
       "explanation": "(4 + 6) × 5 ÷ 2 = 10 × 5 ÷ 2 = 25。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "8",
       "explanation": "40 = 10 × 高 ÷ 2，80 = 10 × 高，高 = 8。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "平行四邊形",
       "explanation": "拼成的平行四邊形底為 (上底 + 下底)，高不變。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]

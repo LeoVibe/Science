@@ -15,47 +15,59 @@
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，綜合《最美的模樣》與《用手縫出的愛》，這兩課共同強調的人生價值觀是？",
       "options": [
         "真正的價值不在於外顯的昂貴裝飾，而在於內在的情感、自信與無私的付出，這也是作者在這裡特別想要傳達給我們的另外一個小觀念",
-        "透過這兩篇課文的學習，我們可以非常清楚地知道，不管你原本長得怎樣，只要你能夠學會高超的縫紉技巧就一定能夠變美　　　　　",
-        "這兩篇課文其實都是在非常明顯地暗示正在看書的聰明讀者，如果想要找好工作的話長大之後就應該趕快去當一名專業的化妝師　　　",
-        "這兩篇課文主要是在告訴所有的讀者，為了要讓自己的外表看起來更加吸引人，人應該要花更多的錢去多買幾件非常漂亮的衣服　　　"
+        "這兩篇課文其實都是在非常明顯地暗示正在看書的聰明讀者，如果想要找好工作的話長大之後就應該趕快去當一名專業的化妝師",
+        "這兩篇課文主要是在告訴所有的讀者，為了要讓自己的外表看起來更加吸引人，人應該要花更多的錢去多買幾件非常漂亮的衣服",
+        "透過這兩篇課文的學習，我們可以非常清楚地知道，不管 you 門原本長得怎樣，只要你能夠學會高超的縫紉技巧就一定能夠變美"
       ],
       "answer_index": 0,
       "explanation": "整合「內在美」與「樸素的關愛」，提煉出核心價值。",
       "commonMisconception": "學生可能被「衣服（A）」或「縫紉技術（C）」等具象特徵干擾。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "applied",
       "scenario": "跨課文策略應用：創意與實踐",
       "question": "如果主角想用《誰最懂創意》的精神來實踐《用手縫出的愛》，他最可能做什麼？",
       "options": [
-        "如果他真的去做了這件事情，那其實就只是在向周圍的朋友非常無奈地抱怨，親手製作這種手工藝對他來說實在是太麻煩了　　　　",
+        "如果他真的去做了這件事情，那其實就只是在向周圍的朋友非常無奈地抱怨，親手製作這種手工藝對他來說實在是太麻煩了",
         "運用巧思將家中的廢棄舊衣，重新縫製成充滿回憶與實用性的環保提袋，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "他應該會馬上跑到百貨公司裡面去挑選一個最貴的而且是用真皮製作的昂貴名牌皮夾，然後把它當作禮物非常大方地送人　　　　　",
-        "他應該每天早上起床的時候都要站在家門口，然後對著天空非常大聲地連續喊三次「創意快來！」，希望這樣就能夠獲得靈感　　　"
+        "他應該會馬上跑到百貨公司裡面去挑選一個最貴的而且是用真皮製作的昂貴名牌皮夾，然後把它當作禮物非常大方地送人",
+        "他應該每天早上起床的時候都要站在家門口，然後對著天空非常大聲地連續喊三次「創意快來！」，希望這樣就能夠獲得靈感"
       ],
       "answer_index": 1,
       "explanation": "結合「創意（L2）」與「手工溫暖（L3）」的整合應用。",
       "commonMisconception": "選到物質滿足（買皮夾）或無效呼喊的回應。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析單元情感曲線",
       "question": "從 L1 到 L3 的情感發展，可以看作是一個從「發現自我」到「什麼」的過程？",
       "options": [
-        "這整個單元的學習過程，可以看作是一個從一開始不懂得欣賞自己的優點，到最後終於能夠在生活中到處「發現各種好吃美食」的貪吃過程　　　　　　　　　　　　　　　　　　　　　",
-        "當故事情節發展到這個最高潮的階段時，通常作者寫這些非常深奧的道理，其實就只是代表了各位看書的讀者現在應該準備去睡覺了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
-        "這其實是在講述一個充滿了奇幻冒險色彩的故事，描寫主角如何從原本對自己完全沒有自信，到最後居然在山上「成功發現閃亮金礦」的發財過程　　　　　　　　　　　　　　　　　　",
-        "根據文章內容描述，這代表到「付諸行動實踐愛與創新」的成長歷程，讓人覺得非常有意思。，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　　　　　　　　　　　　　　　"
+        "當故事情節發展到這個最高潮的階段時，通常作者寫 these 非常深奧的道理，其實就只是代表了各位看書的讀者現在應該準備去睡覺了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
+        "這其實是在講述一個充滿了奇幻冒險色彩的故事，描寫主角如何從原本對自己完全沒有自信，到最後居然在山上「成功發現閃亮金礦」的發財過程",
+        "根據文章內容描述，這代表到「付諸行動實踐愛與創新」的成長歷程，讓人覺得非常有意思。，這也是作者在這裡特別想要傳達給我們的另外一個小觀念",
+        "這整個單元的學習過程，可以看作是一個從一開始不懂得欣賞自己的優點，到最後終於能夠在生活中到處「發現各種好吃美食」的貪吃過程"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "總結單元從個人心理到社會互動的佈局。",
       "commonMisconception": "視為「物質發現」或生理反應。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -63,62 +75,84 @@
       "question": "課文中提到，小動物們最喜歡在哪裡玩耍？",
       "options": [
         "在農場裡的穀倉旁",
-        "在花園裡的池塘邊",
         "在森林裡的大樹下",
+        "在花園裡的池塘邊",
         "在小河邊的草地上"
       ],
       "answer_index": 3,
       "explanation": "課文明確指出小動物們最愛在小河邊的草地上嬉戲，這是直接從文本中提取的資訊。",
       "commonMisconception": "學生可能因為其他選項都是常見的動物活動場所，而誤選了森林或花園等，但文本有明確的描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課文內容脫節，未見於指定課文範圍，屬無效命題。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在討論節慶活動時】",
-      "question": "如果課文提到「大家準備了美味的月餅和柚子，一起賞月」，我們可以推斷他們可能在慶祝什麼節日？",
+      "question": "如果課文提到「大家準備了美味的月餅與柚子，一起賞月」，我們可以推斷他們可能在慶祝什麼節日？",
       "options": [
         "中秋節",
+        "端午節",
         "重陽節",
-        "元宵節",
-        "端午節"
+        "元宵節"
       ],
       "answer_index": 0,
       "explanation": "月餅、柚子和賞月是中秋節最具代表性的習俗，從這些關鍵字可以合理推斷出節日。",
       "commonMisconception": "學生可能對節慶習俗不夠熟悉，將其他有食物或團圓的節日納入考量，例如元宵節也有吃湯圓的習俗，但賞月和月餅是中秋節獨有的搭配。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
       "scenario": "【在學習形容詞時】",
       "question": "課文中描述太陽出來時，天空是什麼顏色？",
       "options": [
+        "灰濛濛的",
         "金黃色的",
-        "橘紅色的",
         "藍色的",
-        "灰濛濛的"
+        "橘紅色的"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "課文直接描述太陽出來時，天空是「金黃色的」，這是對文本內容的直接回憶。",
       "commonMisconception": "學生可能會根據常識，認為太陽出來天空是藍色或橘紅色，但課文的特定描述才是正確答案。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在理解故事中的角色心情時】",
       "question": "小明因為沒有得到第一名而「垂頭喪氣」，這句話最能說明他當時的心情是什麼？",
       "options": [
-        "覺得興奮",
         "感到好奇",
         "有點生氣",
-        "非常沮喪"
+        "非常沮喪",
+        "覺得興奮"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "「垂頭喪氣」形容低著頭，精神不振的樣子，通常用來表達失望、懊惱或沮喪的情緒。",
       "commonMisconception": "學生可能將沮喪和生氣混淆，認為沒得到第一名會生氣，但「垂頭喪氣」更強調失落感而非憤怒。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 6
     },
     {
@@ -126,176 +160,238 @@
       "scenario": "【在討論環保議題時】",
       "question": "課文提到「小溪裡的魚兒越來越少，水草也變得枯黃」，這可能暗示了什麼問題？",
       "options": [
-        "魚兒都長大了",
-        "小溪被污染了",
         "水草需要修剪了",
-        "季節進入了冬天"
+        "魚兒都長大了",
+        "季節進入了冬天",
+        "小溪被污染了"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "魚兒減少和水草枯黃通常是水質惡化的表現，合理推斷小溪可能受到了污染。",
       "commonMisconception": "學生可能從季節變化的角度思考，認為冬天會導致這些現象，但魚兒減少不完全符合季節變化，且污染是更直接的解釋。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
       "scenario": "【在認識自然景觀時】",
       "question": "課文描述山頂上常常被什麼覆蓋著，看起來白茫茫的一片？",
       "options": [
+        "濃密的雲霧",
         "一大片花海",
-        "潔白的沙土",
         "厚厚的白雪",
-        "濃密的雲霧"
+        "潔白的沙土"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "課文清楚說明山頂上被「濃密的雲霧」覆蓋，形成了白茫茫的景象。",
       "commonMisconception": "學生可能因為白茫茫而聯想到白雪，這是常見的聯想，但課文的描述是雲霧。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "critical",
       "scenario": "【在思考故事結局時】",
       "question": "如果故事中主角小華一直很懶惰，卻在最後突然變成勤勞的人，你覺得這個結局的安排是否合理？為什麼？",
       "options": [
-        "不合理，因為這樣的故事會讓讀者覺得無聊。",
         "合理，因為故事需要一個美好的結局。",
         "不合理，因為角色轉變太快，缺乏鋪陳。",
+        "不合理，因為這樣的故事會讓讀者覺得無聊。",
         "合理，因為人總會改變，沒有什麼不可能。"
       ],
-      "answer_index": 2,
-      "explanation": "一個好的故事通常需要對角色的轉變進行鋪陳和解釋，如果轉變過於突然，會讓讀者覺得不夠真實或缺乏說服力。",
+      "answer_index": 1,
+      "explanation": "一個好的故事通常需要對角色的轉變進行鋪陳與解釋，如果轉變過於突然，會讓讀者覺得不夠真實或缺乏說服力。",
       "commonMisconception": "學生可能基於對「好結局」的偏好，認為只要是好的轉變就是合理的，而忽略了故事邏輯和情節發展的連貫性。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在理解人物行為動機時】",
-      "question": "小芳每天放學後都幫媽媽提重物，週末還會主動幫忙打掃家裡。從這些行為，我們可以推斷小芳是什麼樣的孩子？",
+      "question": "小芳每天放學後都幫媽媽提重物，週末還會主動幫忙打掃家裡.從這些行為，我們可以推斷小芳是什麼樣的孩子？",
       "options": [
-        "孝順又懂事",
+        "力氣很大",
         "喜歡做家事",
-        "沒有玩伴",
-        "力氣很大"
+        "孝順又懂事",
+        "沒有玩伴"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "幫媽媽提重物和主動打掃家裡，這些行為都顯示出對父母的體貼和對家庭的責任感，因此可以推斷小芳是孝順又懂事的孩子。",
       "commonMisconception": "學生可能只看到表面行為，認為她只是喜歡做家事，或力氣大，而忽略了這些行為背後更深層次的品格展現。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
       "scenario": "【在識別課文主要角色時】",
       "question": "課文中，是誰提議大家一起去河邊野餐的？",
       "options": [
+        "小猴跳跳",
         "小狗旺旺",
         "小貓咪咪",
-        "小猴跳跳",
         "小鳥吱吱"
       ],
       "answer_index": 3,
       "explanation": "課文明確指出是「小鳥吱吱」提議去河邊野餐，這是直接的文本資訊。",
       "commonMisconception": "學生可能對角色名稱記憶不清，或者將不同角色的行為混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "純粹的事實提取題，缺乏深度，且與指定課文內容不符。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在解釋詞語意義時】",
       "question": "「津津有味」這個詞語用在吃東西時，最能表達什麼意思？",
       "options": [
-        "吃得非常飽足",
         "吃得非常香甜可口",
         "吃得非常快速",
-        "吃得非常安靜"
+        "吃得非常安靜",
+        "吃得非常飽足"
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation": "「津津有味」是指吃得很有滋味，形容食物美味，吃得很專心、很香甜。",
       "commonMisconception": "學生可能將其與吃得快或吃得飽混淆，但津津有味主要強調的是對食物的享受和美味的感受。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在判斷天氣變化時】",
       "question": "課文說「天空烏雲密布，不時有閃電劃過，雷聲隆隆」，接下來最可能發生什麼事？",
       "options": [
-        "會刮大風",
         "會起大霧",
         "會下大雨",
-        "會出大太陽"
+        "會出大太陽",
+        "會刮大風"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "烏雲密布、閃電和雷聲都是下大雨的前兆，這是對自然現象的常識性推斷。",
       "commonMisconception": "學生可能只抓住其中一個現象（例如烏雲密布可能伴隨大風），但閃電和雷聲更明確地指向雷雨。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
       "scenario": "【在回憶故事細節時】",
       "question": "故事中，小主角為了完成任務，在晚上點亮了什麼來照明？",
       "options": [
-        "蠟燭",
         "火把",
         "油燈",
+        "蠟燭",
         "手電筒"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "課文清楚說明小主角是點亮「蠟燭」來照明，這是直接的細節回憶。",
       "commonMisconception": "學生可能會根據現代生活經驗選擇手電筒，或者將其他古老的照明工具混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與指定課文內容無關，且選項缺乏情境脈絡。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "critical",
       "scenario": "【在評估角色行為時】",
       "question": "故事裡，小皮因為貪玩而忘記回家，讓家人非常擔心。你認為小皮下次應該怎麼做才能避免這種情況？",
       "options": [
-        "帶手機出門隨時聯絡",
         "找朋友一起玩，互相提醒",
-        "出門前告知家人去向和回家時間",
-        "以後都不要出門玩了"
+        "帶手機出門隨時聯絡",
+        "以後都不要出門玩了",
+        "出門前告知家人去向和回家時間"
       ],
-      "answer_index": 2,
-      "explanation": "主動告知家人去向和回家時間，是負責任的行為，也是避免家人擔心的最直接有效的方法。",
+      "answer_index": 3,
+      "explanation": "主動告知家人去向與回家時間，是負責任的行為，也是避免家人擔心的最直接有效的方法。",
       "commonMisconception": "學生可能認為帶手機是解決辦法，但對於小學生來說，最重要的還是事前的溝通和約定；不讓出門玩則是過度反應。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在理解自然現象的影響時】",
       "question": "課文提到「秋風吹過，樹葉紛紛落下，大地舖滿了金黃色的地毯」，這句話暗示了什麼？",
       "options": [
-        "樹木生病了",
-        "冬天即將來臨",
         "秋天來了",
-        "有人在打掃"
+        "有人在打掃",
+        "冬天即將來臨",
+        "樹木生病了"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "樹葉在秋風中變黃並落下，是大自然進入秋季的明顯標誌。",
       "commonMisconception": "學生可能聯想到冬天即將來臨，因為秋天是冬天的前奏，但「樹葉紛紛落下」直接描繪的是秋天的景象，而不是冬天。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
       "scenario": "【在認識顏色與形狀時】",
       "question": "課文中描述小鳥的羽毛是什麼顏色，而且翅膀上還有什麼花紋？",
       "options": [
-        "綠色，帶有黃色圓圈",
-        "紅色，帶有黑色條紋",
+        "紫色，帶有銀色亮片",
         "藍色，帶有白色斑點",
-        "紫色，帶有銀色亮片"
+        "綠色，帶有黃色圓圈",
+        "紅色，帶有黑色條紋"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "課文明確指出小鳥羽毛是「藍色」，翅膀有「白色斑點」。",
       "commonMisconception": "學生可能將其他動物的特徵或常見的鳥類顏色混淆，需要仔細回憶課文的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與指定課文內容無關，屬無效命題。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
@@ -304,190 +400,38 @@
       "options": [
         "時間會沖走一切",
         "時間很長很長",
-        "時間會帶來很多水",
-        "時間是持續不斷地流逝"
+        "時間是持續不斷地流逝",
+        "時間會帶來很多水"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "河流的「永不停歇」用來比喻時間的持續不斷地流逝，無法停止或倒流。",
       "commonMisconception": "學生可能被「沖走一切」這類較為負面或詩意的解讀吸引，但比喻的重點在於「永不停歇」的特性。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在判斷人物情緒時】",
       "question": "當小花看到自己精心照顧的花朵枯萎了，她「默默地流下眼淚」。這表示小花當時最可能的心情是什麼？",
       "options": [
-        "難過和失望",
-        "驚訝和不解",
         "無聊和沮喪",
-        "生氣和憤怒"
+        "生氣和憤怒",
+        "驚訝和不解",
+        "難過和失望"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "「默默地流下眼淚」清楚表達了小花內心的悲傷和對花朵枯萎的失落感。",
       "commonMisconception": "學生可能將「沮喪」與「難過」混淆，但「難過和失望」更精準地捕捉了「精心照顧」後失敗的複雜情感，而沮喪則更偏向於無力感。",
       "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在學習動植物知識時】",
-      "question": "課文提到，蜜蜂是靠什麼來採集花蜜的？",
-      "options": [
-        "牠們的腳",
-        "牠們的嘴巴",
-        "牠們的長鼻子",
-        "牠們的觸角"
-      ],
-      "answer_index": 1,
-      "explanation": "課文明確指出蜜蜂是靠「嘴巴」來採集花蜜，這是直接的知識點。",
-      "commonMisconception": "學生可能對蜜蜂的身體構造不熟悉，誤以為是鼻子或觸角等，但課文有明確描述。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "【在反思閱讀經驗時】",
-      "question": "你覺得這篇課文最想傳達給我們什麼重要的道理？",
-      "options": [
-        "大自然的美麗",
-        "團結合作的重要性",
-        "友誼的珍貴",
-        "努力就能成功"
-      ],
-      "answer_index": 1,
-      "explanation": "「統整活動」通常會強調一個核心價值觀，如果課文內容多處描寫大家一起完成任務或克服困難，那麼「團結合作」是很可能的主題。",
-      "commonMisconception": "學生可能只看到課文中的某個片段（例如成功或美麗的風景），而沒有抓住貫穿全文的核心思想。",
-      "quality_level": "L3",
-      "cqi_score": 2
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【在理解故事發展時】",
-      "question": "小華為了撿回掉進水裡的球，不顧危險地跳入水中。這說明了小華什麼樣的性格？",
-      "options": [
-        "勇敢但衝動",
-        "熱心但害羞",
-        "愛玩但謹慎",
-        "聰明但自私"
-      ],
-      "answer_index": 0,
-      "explanation": "不顧危險跳入水中是「勇敢」的表現，但沒有考慮後果則是「衝動」的體現。",
-      "commonMisconception": "學生可能只看到「勇敢」的一面，而忽略了「不顧危險」所暗示的「衝動」，或者將「愛玩」與此行為混淆。",
-      "quality_level": "L5",
-      "cqi_score": 8
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在認識傳統文化時】",
-      "question": "課文提到新年時，小朋友們會穿上什麼顏色的新衣服，並收到長輩的什麼？",
-      "options": [
-        "藍色新衣服，收到書本",
-        "紅色新衣服，收到紅包",
-        "黃色新衣服，收到糖果",
-        "綠色新衣服，收到玩具"
-      ],
-      "answer_index": 1,
-      "explanation": "課文明確指出新年穿「紅色新衣服」並收到「紅包」，這是對傳統習俗的直接敘述。",
-      "commonMisconception": "學生可能會將其他獎勵或禮物混淆，但紅包是新年最重要的象徵之一。",
-      "quality_level": "L5",
-      "cqi_score": 7
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "【在理解情緒表達時】",
-      "question": "當一個人「眉開眼笑」時，他的表情通常會是什麼樣子？",
-      "options": [
-        "眉頭緊鎖，眼神銳利",
-        "嘴角上揚，眼睛瞇成一條線",
-        "臉色蒼白，雙唇緊閉",
-        "低頭不語，雙手抱胸"
-      ],
-      "answer_index": 1,
-      "explanation": "「眉開眼笑」形容非常高興的樣子，其表情特徵就是嘴角上揚，眼睛因笑容而瞇起。",
-      "commonMisconception": "學生可能對成語的字面意思理解不夠，或者將其與其他負面或中性情緒的表情混淆。",
-      "quality_level": "L3",
-      "cqi_score": 2
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【在推測故事背景時】",
-      "question": "課文描述「村子裡的人們每天都提著水桶到遠處的山泉取水，非常辛苦」。這暗示了這個村子可能缺乏什麼？",
-      "options": [
-        "方便的自來水設施",
-        "足夠的食物供應",
-        "安全的居住環境",
-        "豐富的娛樂活動"
-      ],
-      "answer_index": 0,
-      "explanation": "需要到遠處取水，說明村子裡沒有方便的水源供應，最可能是缺乏自來水設施。",
-      "commonMisconception": "學生可能聯想到生活條件差的其他方面（如食物），但提水行為直接指向的是水資源獲取的問題。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在記憶數量詞時】",
-      "question": "課文中，小鳥一共摘了幾顆紅色的果實送給媽媽？",
-      "options": [
-        "十顆",
-        "五顆",
-        "七顆",
-        "三顆"
-      ],
-      "answer_index": 3,
-      "explanation": "課文明確指出小鳥摘了「三顆」紅色的果實，這是直接的數字資訊。",
-      "commonMisconception": "學生可能對數字細節記憶模糊，誤選其他數字，或者將數量與其他物品的數量混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "【在比較不同觀點時】",
-      "question": "故事中，小光認為玩遊戲最重要，小美則覺得寫功課更重要。如果你是他們的老師，你會如何引導他們？",
-      "options": [
-        "支持小光，認為玩樂是兒童的天性",
-        "讓他們自己決定，不干涉",
-        "支持小美，強調學習的重要性",
-        "引導他們分配時間，學習先完成重要的事情再娛樂"
-      ],
-      "answer_index": 3,
-      "explanation": "作為老師，應該教導學生時間管理和優先順序，讓他們認識到學習和玩樂都可以兼顧，但需要合理安排。",
-      "commonMisconception": "學生可能傾向於選擇其中一方，或者認為不干涉是尊重，但老師的角色是引導學生建立正確的價值觀和行為習慣。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "【在判斷語氣與態度時】",
-      "question": "當媽媽對孩子說：「你真是個小幫手！」這句話的語氣是想表達什麼？",
-      "options": [
-        "讚美和鼓勵",
-        "命令和要求",
-        "抱怨和指責",
-        "疑問和好奇"
-      ],
-      "answer_index": 0,
-      "explanation": "「你真是個小幫手！」這句話通常是在孩子做了幫忙的事情後說的，語氣充滿了肯定和欣賞，表達的是讚美和鼓勵。",
-      "commonMisconception": "學生可能將其理解為一種期待或要求，但從語氣和上下文來看，它更像是一種正面的評價。",
-      "quality_level": "L5",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【在理解人物情感變化時】",
-      "question": "小玉原本很害怕上臺表演，但當她看到臺下媽媽鼓勵的眼神時，她深吸一口氣，勇敢地唱了出來。這說明了什麼？",
-      "options": [
-        "小玉突然不怕生了",
-        "媽媽也想上臺表演",
-        "親人的支持能給予力量",
-        "小玉的歌聲很好聽"
-      ],
-      "answer_index": 2,
-      "explanation": "媽媽的眼神讓小玉從害怕到勇敢，明確顯示了親人支持對克服困難的重要性。",
-      "commonMisconception": "學生可能誤以為小玉突然就不怕生了，但重點在於「媽媽鼓勵的眼神」是轉變的關鍵，而不是她自己突然改變了性格。",
-      "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     }
   ]
 }

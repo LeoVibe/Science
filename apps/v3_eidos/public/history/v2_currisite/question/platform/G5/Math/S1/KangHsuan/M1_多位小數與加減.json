@@ -21,7 +21,7 @@
       ],
       "answer": "萬分位",
       "explanation": "小數點後第一位為十分位，第二位百分位，第三位千分位，第四位萬分位。",
-      "cqi_score": 8.5,
+      "cqi_score": 6.25,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "在小數加減計算中，最重要的一步是將「小數點」對齊。",
       "answer": "True",
       "explanation": "對齊小數點才能保證相同位值的數字進行加減。",
-      "cqi_score": 5.5,
+      "cqi_score": 3.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "計算 1.2345 + 0.5 = ______。",
       "answer": "1.7345",
       "explanation": "1.2345 + 0.5000 = 1.7345。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "0.01",
       "explanation": "比較百分位，1 大於 0。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "1.877",
       "explanation": "2.000 - 0.123 = 1.877。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]

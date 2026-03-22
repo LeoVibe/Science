@@ -23,7 +23,7 @@
       "explanation": "1250 + 890 = 2140。注意進位：十位 5+9=14 進 1 到百位，百位 2+8+1=11 進 1 到千位。",
       "commonMisconception": "學生常在連續進位時漏掉其中一次進位，導致結果少了 100 或 10。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +39,7 @@
       "explanation": "4005 - 1280 = 2725。減法時遇到「0」需要向前一位借位（百位、千位連續退位）。",
       "commonMisconception": "這是典型迷思題：學生在連續借位（中間是 0）時，常會忘記 0 被借走後變成 9。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -55,7 +55,7 @@
       "explanation": "345 取到百位是 300；412 取到百位是 400。300 + 400 = 700。注意題目要求先估算再計算。",
       "commonMisconception": "學生可能直接算出精確值 757 再取概數，但題目要求「先」取到百位。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -71,7 +71,7 @@
       "explanation": "2500 - 875 = 1625；1625 + 430 = 2055。這是加減混合的兩步驟應用題。",
       "commonMisconception": "學生可能會在計算過程中粗心，或者搞混「用掉」與「得到」的運算號。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -87,7 +87,7 @@
       "explanation": "利用逆運算：2089 + 1473 = 3562。所以方格中應填入 6。",
       "commonMisconception": "學生可能試圖用減法直接推算，但忽略了向千位借位的過程。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "applied",
@@ -103,7 +103,7 @@
       "explanation": "吸塵器省下：6000 - 4380 = 1620 元；空氣清淨機省下：8000 - 6250 = 1750 元。1750 > 1620，所以空氣清淨機省較多。",
       "commonMisconception": "學生可能只看特價後的價格，或者減法計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

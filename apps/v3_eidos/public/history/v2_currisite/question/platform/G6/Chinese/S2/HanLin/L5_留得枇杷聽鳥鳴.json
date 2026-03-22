@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "grade": "grade_6",
+    "semester": "semester_2",
+    "subject": "Chinese",
+    "publisher": "翰林",
+    "title": "留得枇杷聽鳥鳴",
+    "lesson": "L5",
+    "order": 5
+  },
+  "questions": [
+    {
+      "question": "【在分析人與自然的關係時】作者為什麼決定不摘下熟透的枇杷，反而要「留給鳥兒吃」？",
+      "options": [
+        "因為枇杷被蟲咬過了，味道不好，不值得花力氣去採摘它。",
+        "因為他想省下買鳥飼料的錢，直接引誘野鳥到庭院裡來玩。",
+        "因為他有一種「與萬物分享」的寬容，享受聽鳥鳴帶來的幸福感。",
+        "因為果實長得太高了，他沒有梯子可以爬上去，所以只好放棄。"
+      ],
+      "answer_index": 2,
+      "explanation": "文中的核心精神在於「生命的從容」。與其佔有果實（物質），不如分享果實以換取大自然的鳥鳴聲（精神饗宴）。這是一種跨物種的同理心。",
+      "scenario": "探討作者行為背後的深層核心動機：分享與共生的智慧。",
+      "commonMisconception": "學生可能選[A]，將作者的寬容解讀成現實的「無奈」，忽略了其中的情感高度。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀文章中的隱喻】「枇杷」與「鳥鳴」在文中的關係，可以用下列哪一個詞彙來適當形容？",
+      "options": [
+        "對立：枇杷是好吃的食物，而鳥兒是偷吃食物的小偷。",
+        "互補：透過果實的分享，換來了大自然動聽的樂章。",
+        "浪費：既然種了水果，就應該賣出去賺錢，不該隨便送人。",
+        "競爭：作者與鳥兒正在比賽誰能先吃到樹上最甜的那一顆。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一種生命能量的轉化。分享有形的物質，獲得無形的心靈滿足。在國小高年級的情境中，這能幫助孩子理解「共贏」的非競爭思維。",
+      "scenario": "分析兩個核心意象在全篇的情感結構中是如何互動的。",
+      "commonMisconception": "學生常以「物權」角度出發，將鳥類視為「偷竊者」[A]，反映出對生態共生的理解不足。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析作者的觀察策略】文中對鳥類「吃枇杷」的神態描寫非常細膩，這種細膩的觀察最能展現作者什麼樣的特質？",
+      "options": [
+        "他是一個非常有錢的作家，所以可以整天坐在窗邊不用工作。",
+        "他有一顆溫柔、平等且敏銳的心，能捕捉到微小生命的動感。",
+        "他是一個嚴格的生物老師，正在為即將出版的教科書蒐集資料。",
+        "他正計畫要捕捉這些鳥類，因此必須了解牠們的所有行為。"
+      ],
+      "answer_index": 1,
+      "explanation": "細膩的觀察源於「在乎」。作者不只是在看，而是在「體會」。這展現了與萬物和諧相處的慈悲與美學眼光。",
+      "scenario": "從「寫作實作（細膩描寫）」推論到「人物特質（敏銳的心）」。",
+      "commonMisconception": "容易選[C]，將文學性的感官觀察誤認為純粹的「工具性/學術性」觀察。",
+      "taxonomy": "inferential",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【在解構文章結構時】文章題目「留得枇杷聽鳥鳴」與下列哪一種古人追求的生活境界最為接近？",
+      "options": [
+        "採菊東籬下，悠然見南山。",
+        "書中自有黃金屋，自有顏如玉。",
+        "少壯不努力，老大徒傷悲。",
+        "十年寒窗無人問，一舉成名天下知。"
+      ],
+      "answer_index": 0,
+      "explanation": "本文與陶淵明的隱逸情懷一致，皆在於追求內心的寧靜、與自然的融合，以及在平凡生活中發現不凡的美感。",
+      "scenario": "跨文本對位：將現代散文的情感意境與古典詩詞的意境進行整合與評估。",
+      "commonMisconception": "學生可能被「名聲」[D] 的誘因吸引，忽略了本文追求的是「淡泊」而非「功名」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【評估文章的現代價值】在步調快速、競爭激烈的現代社會中，這篇文章想提供給讀者什麼樣的「心理緩衝」？",
+      "options": [
+        "教導大家要更努力工作，才有機會在退休後擁有一棵枇杷樹。",
+        "提醒我們在得失之間保持從容，享受當下的寧靜與生命的美好。",
+        "說明既然市場上的枇杷這麼貴，我們最好還是自己種枇杷吃。",
+        "建議大家多看電視上的自然頻道，就不用辛苦地親自觀察。"
+      ],
+      "answer_index": 1,
+      "explanation": "「留得」二字包含了智慧——放下當下的佔有，反而能獲得長遠的豐盈。這是現代人面對焦慮時的一劑良藥。",
+      "scenario": "評估文本在現代社會/個人生命成長中的實質指導意義。",
+      "commonMisconception": "學生容易選[A]，反映出追求成功後的「獎賞」心理，而非作者強調的「當下的存在」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

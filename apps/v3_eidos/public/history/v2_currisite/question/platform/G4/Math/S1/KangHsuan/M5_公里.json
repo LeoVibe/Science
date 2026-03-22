@@ -21,7 +21,7 @@
       ],
       "answer": "1000 公尺",
       "explanation": "公里（km）與公尺（m）的換算率是 1000。",
-      "cqi_score": 6,
+      "cqi_score": 4,
       "quality_level": "L3"
     },
     {
@@ -30,7 +30,7 @@
       "question": "測量從台北到高雄的距離，適合使用「公分」作為單位。",
       "answer": "False",
       "explanation": "長距離的地理位置建議使用「公里」較為方便。",
-      "cqi_score": 5.5,
+      "cqi_score": 3.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "3 公里 50 公尺 = ______ 公尺。",
       "answer": "3050",
       "explanation": "3 km = 3000 m，3000 + 50 = 3050。",
-      "cqi_score": 4,
+      "cqi_score": 2,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "2 公里",
       "explanation": "400 × 5 = 2000 公尺 = 2 公里。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "一樣長",
       "explanation": "4.5 公里 = 4500 公尺。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     }
   ]

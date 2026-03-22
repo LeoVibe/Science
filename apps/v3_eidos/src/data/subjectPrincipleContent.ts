@@ -6,17 +6,17 @@ export interface SubjectPrincipleSection {
 }
 
 export interface SubjectPrincipleResearchLayers {
-  /** 出題方向（對應內部：科總綱） */
+  /** 出題方向（科總綱／怎麼選考點） */
   r2: SubjectPrincipleSection;
-  /** 研究焦點（對應內部：年級／學期研究） */
+  /** 本冊出題焦點 */
   r3: SubjectPrincipleSection;
-  /** 學習認知（對應內部：全學齡節奏） */
+  /** 給家長：孩子要練的能力與節奏 */
   r1: SubjectPrincipleSection;
 }
 
 export interface SubjectPrincipleContent {
   title: string;
-  /** 學習規劃三卡：出題方向、研究焦點、學習認知 */
+  /** 出題規劃三卡：出題方向、本冊出題焦點、給家長／學習節奏 */
   researchLayers?: SubjectPrincipleResearchLayers;
   sections: SubjectPrincipleSection[];
 }
@@ -316,10 +316,10 @@ function getSubjectPrincipleContentCore(grade: Grade, semester: Semester, subjec
 }
 
 
-// 各科「出題方向」對外說明（不含內部文件代碼）
+// 各科「出題方向」預設說明（可再依年級／學期覆寫）
 const R2_SUBJECT_GUIDANCE: Record<Subject, string> = {
   國語:
-    '以「閱讀推論、誘答合理性、修辭與篇章結構」為主軸；誘答設計著重同理心投射、合理化迷思與語氣延展，避免無意義堆字。',
+    '我出題時會先把「讀懂」拆成可教的步驟：孩子在考場上能不能指認情节、抓出誰在對誰說話、聽出語氣是硬還是軟；再問篇章裡意象或結構為什麼這樣安排。誘答不會亂凑字，而會長得像「一慌就容易選到的合理誤解」——那才是我們真正想修掉的閱讀習慣。',
   數學:
     '重視「讀懂題意、迷思概念與同質性選項」：題目以情境建模與算用合一為核心，避免用長度或關鍵字盲猜。',
   自然:
@@ -332,16 +332,37 @@ const R2_SUBJECT_GUIDANCE: Record<Subject, string> = {
     '聚焦「整合活動與經驗連結」；題材貼近日常與安全，避免超出低年級語彙。',
 };
 
+/** 依年級／學期覆寫「出題方向」；給家長較具體的教師視角說明 */
+const R2_FOCUS: Partial<Record<string, string>> = {
+  '6_2_國語':
+    '六下國語我會先問自己：這一題是在測「看得懂字」還是「聽得懂話里有沒有刺」？文言與詩詞我會用少量字義題當鷹架，再進到語氣與用典；現代散文則把「物→情→理」拆成可選的線索，讓孩子用證據選出作者真正站哪一邊。誘答常做成「少讀一句就會上當」的說法，因為考場上真正的敵人往往是讀太快，不是讀不懂。',
+};
+
+function getR2Body(grade: Grade, semester: Semester, subject: Subject): string {
+  const key = `${grade}_${semester}_${subject}`;
+  const hit = R2_FOCUS[key];
+  if (hit) return hit;
+  return R2_SUBJECT_GUIDANCE[subject];
+}
+
 /** 精選：年級＋學期＋科目之本冊焦點；未列者走 getR3Body 預設模板 */
 const R3_FOCUS: Partial<Record<string, string>> = {
-  '3_1_國語': '三上：童話／神話與生活語彙；題組與課文目錄對齊，先穩住段落理解與詞彙策略，再銜接長文。',
-  '3_2_國語': '三下：寓言、說明應用與長文閱讀策略；題組與本冊素材對齊，強化推論與寫作遷移。',
-  '4_1_國語': '四上：篇章推論與修辭覺察起飛；題組呼應「段落因果與作者意圖」的學習里程碑。',
-  '4_2_國語': '四下：說明／議論文本入門；題組著重「觀點／事實」辨識與條理表達。',
-  '5_1_國語': '五上：弦外之音與進階修辭；題組強化象徵、反諷等閱讀跳躍。',
-  '5_2_國語': '五下：論點與證據的初步判讀；題組著重立場比較與說服力評估。',
-  '6_1_國語': '六上：篇章結構與升學銜接的穩定度；題組整合長文策略與語感。',
-  '6_2_國語': '六下：文言文入門、古典詩詞與託物言志；題組重視語氣、象徵與文化語感。',
+  '3_1_國語':
+    '三上我會把題目扣在「孩子能不能自己拼出故事線」：先讀懂每一段在做什麼，再問角色為什麼這樣說。字詞題不是考生詞表，而是考「換一個詞，意思還一樣嗎？」讓家長看見：閱讀力其實是慢慢長出來的線索感。',
+  '3_2_國語':
+    '三下開始出現比較長的說明與應用文，我出題會分兩層：一層是「找得到」資訊，一層是「用得到」——能不能把讀到的理，放回生活判斷。寓言題我偏愛問「寓意怎麼來的」，而不是背一句成語。',
+  '4_1_國語':
+    '四上我會逼孩子練「段落之間怎麼接」：刪掉一句話，故事還合理嗎？修辭題先問「畫面變清楚沒」，再問「作者為什麼要讓你看見這個畫面」。家長若看到錯在推論，多半不是粗心，是還沒習慣把證據講出來。',
+  '4_2_國語':
+    '四下第一次大量碰到「說明／議論」口吻，我會讓題目分辨「哪一句是主張、哪一句是理由、哪一句只是例子」。這是在為五年級的立場比較鋪路；家長可以問孩子：你選的答案是證據，還是感覺？',
+  '5_1_國語':
+    '五上我會刻意出「聽起來對、但其實漏讀一句」的選項，因為這年級開始考弦外之音。象徵、反諷題我會先確認孩子能重述情节，再進到「作者到底站在哪一邊」。',
+  '5_2_國語':
+    '五下我讓題目長得像小型辯論：兩個說法都部分合理，你要挑「證據更站得住腳」的那個。這不是刁難，是在練孩子未來讀新聞、讀廣告時最需要的能力。',
+  '6_1_國語':
+    '六上我會把長文切成「結構地圖」：哪段在鋪陳、哪段轉折、哪段收束。題目常問「如果拿掉某一段，論點還成立嗎？」讓家長看見：升學銜接要的是可檢驗的閱讀，不是背梗概。',
+  '6_2_國語':
+    '六下很多家長一見文言就慌，其實我們先考「話說給誰聽、底氣從哪裡來」——語氣對了，字義就不會散。詩詞我把重心放在「畫面與情感怎麼互相推一把」，不是背註解。現代散文的託物言志，則考「作者借這個物，想把自己放在什麼位置」。題組跟著課文走，不考冷知識，考你讀懂之後能不能說出作者要你轉的那個彎。',
   '3_2_數學': '三下：分數與幾何應用加深；題組與單元迷思點對齊，維持情境建模與解題步驟可檢核。',
   '6_2_數學': '六下：比例、速率與統計圖表銜接國中；題組著重圖表推論與真實問題。',
   '6_2_自然': '六下：地球科學與生態系統觀；題組著重巨觀概念與證據推理。',
@@ -366,8 +387,8 @@ function getR3Body(grade: Grade, semester: Semester, subject: Subject): string {
 }
 
 /**
- * R1「學習認知」：依年段 × 科目歸納「這一科在此階段主要鍛鍊哪一類心智與節奏」，
- * 與 R2（出題方向）、R3（本冊焦點）分層呼應，避免各科共用同一段中年段／高年段泛文。
+ * R1「給家長：孩子要練什麼」：依年段 × 科目歸納可觀察的學習成果與節奏，
+ * 與 R2（出題方向）、R3（本冊出題焦點）分層呼應。
  */
 const R1_FOCUS: Partial<Record<string, string>> = {
   '3_2_數學':
@@ -375,7 +396,7 @@ const R1_FOCUS: Partial<Record<string, string>> = {
   '3_2_國語':
     '三下國語：寓言、說明文與長文線索並陳；認知重點在「跨段整合與推論監控」，讀寫遷移與修辭覺察需分段鷹架，題組節奏仍保留低負荷錨題。',
   '6_2_國語':
-    '六下國語：文言語感與現代散文並重；認知上需切換「字句釋義」與「語氣／象徵」兩種處理深度，題組穿插較直白題作為換氣，避免連續高階推論。',
+    '給家長三句話就夠：這學期國語在磨「字句看得懂」「語氣聽得出」「象徵讀得透」三件事。孩子卡關時，往往不是笨，而是還停在第一層，就被問到第三層。我們會穿插比較直白的題讓他喘口氣、建立信心，再進階——這才是能持久的節奏。回家若只問「對幾題」，不如問「你覺得作者站在誰那邊？證據是哪一句？」',
 };
 
 function getR1BodyDefault(grade: Grade, subject: Subject): string {
@@ -451,7 +472,7 @@ function getR1Body(grade: Grade, semester: Semester, subject: Subject): string {
 }
 
 /**
- * 依年級、學期與科目取得「AI 專家說」內容：學習重點段落 + 三層學習規劃。
+ * 依年級、學期與科目取得「AI 專家說」內容：學習重點段落 + 出題規劃三卡。
  */
 export function getSubjectPrincipleContent(grade: Grade, semester: Semester, subject: Subject): SubjectPrincipleContent {
   const core = getSubjectPrincipleContentCore(grade, semester, subject);
@@ -459,15 +480,15 @@ export function getSubjectPrincipleContent(grade: Grade, semester: Semester, sub
     ...core,
     researchLayers: {
       r2: {
-        title: `${subject}出題方向`,
-        body: R2_SUBJECT_GUIDANCE[subject],
+        title: `${subject}：出題時，我們如何選考點？`,
+        body: getR2Body(grade, semester, subject),
       },
       r3: {
-        title: '研究焦點',
+        title: '這一冊，題目會鎖定什麼？',
         body: getR3Body(grade, semester, subject),
       },
       r1: {
-        title: '學習認知',
+        title: '給家長：孩子要練成什麼能力？',
         body: getR1Body(grade, semester, subject),
       },
     },

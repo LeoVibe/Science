@@ -1,6 +1,6 @@
 # 🧒 國小生課後複習平台 (專案名稱：Eidos)
 
-> **最後更新**：2026-03-18
+> **最後更新**：2026-03-23
 
 Eidos 是一個專為國小學生設計的高互動性題庫演練系統，提供 108 課綱與多個出版社授課內容所延伸的複習題目（康軒／翰林／南一）。
 
@@ -138,7 +138,11 @@ Eidos 是一個專為國小學生設計的高互動性題庫演練系統，提�
 | 題庫品質閘門的詳細條件 | [`knowledge/README_課程研究方法與準則.md`](knowledge/README_課程研究方法與準則.md)（§4.3 品質閘門） |
 | L3 素材庫的交付檢查清單 (CK) | [`_agent/skills/curri_research/SKILL.md`](_agent/skills/curri_research/SKILL.md) |
 | 題庫 JSON 的格式規範 | [`question/README_題庫格式規範.md`](question/README_題庫格式規範.md) |
-| 前端 UI/UX 規格 | [`docs/技術設定/網站功能規格書.md`](docs/技術設定/網站功能規格書.md) |
+| 前端開發與 AI 實作守則（色碼、元件禁令等） | [`docs/技術設定/前端開發與AI實作守則.md`](docs/技術設定/前端開發與AI實作守則.md) |
+| 前端 UI/UX 規格 | [`docs/網站功能規格書.md`](docs/網站功能規格書.md) |
+| Cursor / Agent 全域守則 | [`.cursorrules`](.cursorrules) |
+| 任務派工與狀態 | [`jobs/任務看板與派工.md`](jobs/任務看板與派工.md) |
+| 結案文件全域同步（/dosync） | [`_agent/skills/dosync/SKILL.md`](_agent/skills/dosync/SKILL.md) |
 | 專案當前進度與瓶頸 | [`docs/prj_status.md`](docs/prj_status.md) |
 | 本機多 Agent / 單一 Git 工作目錄 | [`docs/開發協作-單一Git與工作目錄規範.md`](docs/開發協作-單一Git與工作目錄規範.md) |
 

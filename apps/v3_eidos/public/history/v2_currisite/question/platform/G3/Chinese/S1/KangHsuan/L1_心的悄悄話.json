@@ -20,8 +20,10 @@
       ],
       "answer": "自我溝通（Self-communication）與情緒疏導，建立內在的安全空間",
       "explanation": "書寫是將抽象情感具象化的過程，有助於平視自己的情緒。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 4.5,
+      "quality_level": "L4",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
@@ -35,8 +37,10 @@
       ],
       "answer": "提供一個緩衝帶，降低衝突風險，同時精確表達真實想法",
       "explanation": "文字具備冷靜思考的特性，適合處理高度敏感的情緒。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.75,
+      "quality_level": "L4",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
@@ -50,8 +54,10 @@
       ],
       "answer": "找一本筆記本，不帶評論地寫下現在腦中出現的所有詞彙（Free Writing）",
       "explanation": "自由書寫是與潛意識對話、找回平靜的高效方式。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
@@ -59,23 +65,27 @@
       "question": "「心」也會說話，關鍵在於我們是否願意留出安靜的時間去聆聽。",
       "answer": "True",
       "explanation": "內省力（Introspection）是人格成熟的重要基礎。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "cqi_score": 2.75,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
       "type": "multiple_choice",
       "question": "回頭讀幾天前的悄悄話，可能會有「原來我當時是這樣想的」感覺。這種反思的建設性價值是？",
       "options": [
-        "覺得自己很好笑",
+        "記錄自己進展",
         "看見自己的成長軌跡，並從客觀視角重新審視問題（Meta-cognition）",
         "發現自己寫錯字",
         "決定把那一頁撕掉"
       ],
       "answer": "看見自己的成長軌跡，並從客觀視角重新審視問題（Meta-cognition）",
       "explanation": "跳脫當下情緒的回顧，能幫助我們發展出更包容的智慧。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.5,
+      "quality_level": "L4",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "6",
@@ -83,14 +93,16 @@
       "question": "當你對好朋友生氣卻不敢說時，寫「心的悄悄話」可以幫助你？",
       "options": [
         "寫壞話詛咒他",
-        "先對自己誠實，釐清「生氣」背後真正的需求，再尋求建設性的溝通途徑",
+        "先對自己誠實，釐調「生氣」背後真正的需求，再尋求建設性的溝通途徑",
         "決定不再跟他當朋友",
         "假裝沒這回事"
       ],
-      "answer": "先對自己誠實，釐清「生氣」背後真正的需求，再尋求建設性的溝通途徑",
+      "answer": "先對自己誠實，釐調「生氣」背後真正的需求，再尋求建設性的溝通途徑",
       "explanation": "情緒是訊號，書寫能解碼訊號背後的愛與期待。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 5.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "7",
@@ -98,8 +110,10 @@
       "question": "每個人都應該擁有一本「心的筆記本」，因為它是世界上最懂你的知音。",
       "answer": "True",
       "explanation": "你自己就是自己最好的心理諮商師。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "cqi_score": 3.25,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "8",
@@ -113,8 +127,10 @@
       ],
       "answer": "真實性（Authenticity）與非評價性的自我接納",
       "explanation": "當追求形式的束縛消失，內容的真實情感才會浮現。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "cqi_score": 5.25,
+      "quality_level": "L4",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "9",
@@ -128,8 +144,10 @@
       ],
       "answer": "心理邊界（Psychological Boundary）與隱私權的尊重",
       "explanation": "尊重他人的心靈私域是維繫健康關係的底線。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3.75,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "10",
@@ -137,8 +155,10 @@
       "question": "本課旨在引導學生建立「自我關照（Self-care）」的習慣，從小學習精神衛生的基礎訓練。",
       "answer": "True",
       "explanation": "身心健康始於對內在世界覺察（Awareness）。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "cqi_score": 3,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "11",
@@ -151,9 +171,11 @@
         "因為手機取代了筆記本"
       ],
       "answer": "可能因為社會化後過度在意他人評價，而漸漸封閉了與內在小孩的溝通頻道",
-      "explanation": "保持童心與自我對話的能力，是成年後依然快樂的關鍵。 ",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "explanation": "保持童心與自我對話的能力，是成年後依然快樂的關鍵。",
+      "cqi_score": 5,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

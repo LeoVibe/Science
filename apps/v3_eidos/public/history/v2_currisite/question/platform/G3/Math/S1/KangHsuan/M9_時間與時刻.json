@@ -23,7 +23,7 @@
       "explanation": "4 × 60 = 240 分鐘。",
       "commonMisconception": "學生在處理進位制（60 進位）時容易計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +39,7 @@
       "explanation": "1 時 30 分 + 2 時 15 分 = 3 時 45 分。",
       "commonMisconception": "簡單的加法，但需區分「時刻」與「時間」的概念。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "applied",
@@ -55,7 +55,7 @@
       "explanation": "6 時 15 分 - 5 時 40 分。借位計算：6 時 15 分 = 5 時 75 分。75 - 40 = 35 分鐘。",
       "commonMisconception": "這是時間減法的難點：借 1 小時是 60 分鐘，而不是 100。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -71,7 +71,7 @@
       "explanation": "時針走一大格代表 1 小時，分針則會走完一整圈，也就是 60 分鐘（60 小格）。",
       "commonMisconception": "學生可能將分針走一大格（5 分鐘）與走一圈混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -87,7 +87,7 @@
       "explanation": "11 時 50 分 + 1 時 20 分 = 12 時 70 分。70 分鐘換算成 1 小時 10 分，所以是 13 時 10 分，也就是下午 1 點 10 分。",
       "commonMisconception": "涉及中午 12 點的 12/24 小時制轉換與進位，是複合型難題。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

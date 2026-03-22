@@ -12,34 +12,42 @@
     {
       "taxonomy": "inferential",
       "scenario": "主角心理狀態的推測",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，主角最終學會騎腳踏車的那一刻，他心裡最可能浮現什麼想法？",
+      "question": "主角最終學會騎腳踏車的那一刻，他心裡最可能浮現什麼想法？",
       "options": [
-        "覺得自己只是運氣好碰巧成功而已沒什麼了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　",
-        "以後再也不要碰腳踏車了因為回憶太痛苦，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　",
-        "早知道這麼簡單我當初就不需要那麼認真，這種想法在日常生活中其實也是非常常見的一種自然現象　",
-        "還好我沒有放棄之前的努力都是值得的，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重"
+        "覺得自己只是運氣好碰巧成功而已沒什麼了",
+        "以後再也不要碰腳踏車了因為回憶太痛苦",
+        "早知道這麼簡單我當初就不需要那麼認真",
+        "還好我沒有放棄之前的努力都是值得的"
       ],
       "answer_index": 3,
       "explanation": "成功的喜悅之所以深刻，是因為那是用無數次失敗累積而來的，會對堅持產生由衷的感謝。",
-      "commonMisconception": "容易忽略成功與堅持之間的因果關聯，認為成功只是「剛好碰上的」。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "commonMisconception": "容易忽略成功與堅持之間的因果關聯。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "標題的修辭力量分析",
       "question": "課文標題「還要跌幾次」如果換成「學騎腳踏車」，你覺得讀起來有什麼不同？",
       "options": [
-        "「學騎腳踏車」比較有吸引力會讓人好奇想讀，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　　　",
-        "「還要跌幾次」更有情感張力帶出挫折與挑戰感，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
-        "「學騎腳踏車」更有戲劇效果適合拍成恐怖電影，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
-        "兩個標題完全一樣沒有差別讀者不會有不同感受，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重"
+        "「學騎腳踏車」比較有吸引力會讓人好奇想讀",
+        "「還要跌幾次」更有情感張力帶出挫折與挑戰感",
+        "「學騎腳踏車」更有戲劇效果適合拍成恐怖電影",
+        "兩個標題完全一樣沒有差別讀者不會有不同感受"
       ],
       "answer_index": 1,
-      "explanation": "好的標題不只說「做什麼」，更要引發情感共鳴。「還要跌幾次」隱含了焦慮、挑戰和不放棄的力量。",
-      "commonMisconception": "對標題的修辭效果缺乏敏感度，以為只要說出內容就是好標題。",
+      "explanation": "「還要跌幾次」引發情感共鳴，隱含了焦慮、挑戰和不放棄的力量。",
+      "commonMisconception": "對標題的修辭效果缺乏敏感度。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -48,14 +56,18 @@
       "options": [
         "有朋友在旁邊幫忙，所以從來沒跌倒。",
         "一直跌倒，但還是努力站起來。",
-        "很快就學會了，沒有遇到困難。",
+        "很快就學會了，沒有困難。",
         "因為害怕跌倒，所以不敢嘗試。"
       ],
       "answer_index": 1,
-      "explanation": "課文的核心情節就是主角在學習過程中不斷跌倒，但每次都選擇重新站起來，體現了堅持不懈的精神。",
-      "commonMisconception": "學生可能因為希望主角能順利成功，而誤選了沒有困難的選項，忽略了課文強調的「跌倒」與「再站起來」的過程。",
+      "explanation": "課文核心情節是主角在學習過程中不斷跌倒，但每次都選擇重新站起來。",
+      "commonMisconception": "學生可能希望主角順利成功，忽略了強調的挑戰過程。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -68,15 +80,19 @@
         "「太好了，這次跌倒讓我知道了下次要怎麼做！」"
       ],
       "answer_index": 2,
-      "explanation": "課文名稱《還要跌幾次》直接反映了主角在面對挫折時，既有疼痛和不滿，又帶著一絲對成功的渴望和對過程的疑問，這是孩子在學習新事物時常見的心理掙扎。",
-      "commonMisconception": "學生可能會誤選其他選項，例如過度樂觀的「太好了」或逃避責任的「鞋子不好」，而忽略了面對困難時的真實感受和疑問。",
+      "explanation": "課名直接反映了主角在挫折時真实的心理掙扎與對成功的渴望。",
+      "commonMisconception": "過度樂觀或逃避責任的猜測。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
       "scenario": "語詞理解",
-      "question": "課文中，「一次又一次地摔倒，又一次又一次地站起來」這句話最想表達什麼意思？",
+      "question": "課文中，「一次又一次地摔倒，又一次又一次地站起來」這句話最想表達什麼？",
       "options": [
         "主角非常喜歡跌倒和站起來的遊戲。",
         "主角的家人要求他必須一直練習，不能休息。",
@@ -84,10 +100,14 @@
         "主角在學習的過程中，展現了堅持不懈的精神。"
       ],
       "answer_index": 3,
-      "explanation": "這句話強調了跌倒和站起來的重複性，其核心目的是展現主角克服困難、不斷嘗試的毅力，是課文主旨的體現。",
-      "commonMisconception": "學生可能只看到表面的動作「跌倒、站起來」，而沒有理解到其背後所蘊含的「堅持」和「不放棄」的精神。",
+      "explanation": "重複性動作旨在展現主角克服困難、不斷嘗試的毅力。",
+      "commonMisconception": "只看到表面行為，忽略內在精神。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "critical",
@@ -100,10 +120,14 @@
         "只要有足夠的保護措施，就不會跌倒。"
       ],
       "answer_index": 0,
-      "explanation": "課文透過主角學習新技能的過程，傳達了「失敗為成功之母」的道理，鼓勵讀者在面對挑戰時要堅持不懈，從錯誤中學習。",
-      "commonMisconception": "學生可能因為害怕失敗而傾向於選擇放棄的選項，或是誤以為成功是沒有任何挫折的，忽略了課文強調的成長過程。",
+      "explanation": "課文傳達「失敗為成功之母」的道理，鼓勵在挑戰中堅持。",
+      "commonMisconception": "因害怕失敗而傾向於選擇放棄。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -116,10 +140,14 @@
         "背部。"
       ],
       "answer_index": 0,
-      "explanation": "課文通常會描述孩子在學習平衡時，會用手和膝蓋去支撐，這是最常見的跌倒保護反射動作，也是課文情境中會出現的細節。",
-      "commonMisconception": "學生可能沒有仔細回憶課文中的動作細節，或憑空想像其他部位，導致錯誤。",
+      "explanation": "手和膝蓋是跌倒時最常見的保護性接觸部位。",
+      "commonMisconception": "憑空想像其他部位，未細察課文描述。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
@@ -132,10 +160,14 @@
         "「太棒了！所有的努力都值得了！」"
       ],
       "answer_index": 3,
-      "explanation": "經過多次跌倒和嘗試後，第一次的成功會帶來巨大的喜悅和成就感，這是對之前努力的肯定，也是激勵繼續前進的動力。",
-      "commonMisconception": "學生可能因為對自己要求過高，或有挫折經驗，而選擇負面或不確定的選項，忽略了成功帶來的正面情緒。",
+      "explanation": "成功帶來的成就感是對先前努力的最高肯定。",
+      "commonMisconception": "選擇負面或不確定的心理狀態。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "contextual",
@@ -148,10 +180,14 @@
         "分享主角學習滑冰的有趣過程。"
       ],
       "answer_index": 0,
-      "explanation": "課文的核心訊息是關於毅力、堅持和從失敗中學習。作者希望透過主角的故事，傳達鼓勵讀者勇於面對挑戰，不輕言放棄的精神。",
-      "commonMisconception": "學生可能只看到課文表面描述的困難或保護措施，而沒有深入理解作者更深層次的教育目的。",
+      "explanation": "旨在傳達毅力、堅持和從失敗中學習的正面價值觀。",
+      "commonMisconception": "只聚焦於具體方法論（如保護措施）。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -164,42 +200,60 @@
         "自己一個人。"
       ],
       "answer_index": 1,
-      "explanation": "在小學課文中，通常會安排家人（爸爸或媽媽）在孩子學習新事物時給予支持和鼓勵，這是課文情境中常見的設定。",
-      "commonMisconception": "學生可能因為自己有其他學習經驗，而誤以為是老師或朋友，或忽略了家人在孩子成長過程中的重要角色。",
+      "explanation": "家人在兒童學習成長中通常扮演核心支持角色。",
+      "commonMisconception": "誤以為是老師或朋友。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 1,
+        "ai_reasoning": "課文強調主角內在的韌性，多為自我克服。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
       "scenario": "角色態度",
-      "question": "【當主角再次跌倒，但他沒有哭泣反而拍拍身上的灰塵時】，這代表他有什麼樣的態度？",
+      "question": "【當主角再次跌倒，但他沒有哭泣反而拍拍身上的灰塵時】，這代表什麼？",
       "options": [
         "他變得更堅強，願意繼續嘗試。",
         "他已經習慣跌倒了，所以不覺得痛。",
         "他覺得跌倒很好玩，所以不會難過。",
-        "他只是在假裝勇敢，其實心裡很害怕。"
+        "他只是在假裝勇敢"
       ],
       "answer_index": 0,
-      "explanation": "沒有哭泣而選擇拍拍灰塵，顯示主角已經從最初的沮喪中走出來，學會了面對失敗，並且有再次嘗試的決心，這是一種成長和堅強的表現。",
-      "commonMisconception": "學生可能誤以為是不痛或假裝勇敢，而沒有理解這種行為背後所代表的心理轉變和成長。",
+      "explanation": "此舉顯示主角已學會正視失敗，展現出堅韌的心理轉變。",
+      "commonMisconception": "誤解為對疼痛麻木或虛偽表現。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7
     },
     {
       "taxonomy": "critical",
       "scenario": "生活應用",
-      "question": "如果你的朋友在學習溜冰時一直跌倒，感到很沮喪，你會怎麼鼓勵他，讓他像課文主角一樣不放棄？",
+      "question": "如果你的朋友在練習時一直跌倒感到沮喪，你會如何鼓勵他？",
       "options": [
         "跟他說：「這個太難了，我們去玩別的遊戲吧！」",
-        "建議他：「你可以請別人幫你，這樣就不會跌倒了。」",
+        "建議他：「你可以請別人幫你。」",
         "嘲笑他：「你怎麼這麼笨，連這個都學不會。」",
         "告訴他：「沒關係，跌倒很正常，你已經很棒了，再試一次就好！」"
       ],
       "answer_index": 3,
-      "explanation": "最符合課文精神的鼓勵方式是肯定對方的努力，並給予正向支持，鼓勵再次嘗試，這能幫助對方建立信心。",
-      "commonMisconception": "學生可能因為同情而建議放棄，或沒有掌握正確的鼓勵方式，選擇了無效或負面的建議。",
-      "quality_level": "L5",
-      "cqi_score": 3
+      "explanation": "正向肯定與支持符合課文的勵志精神。",
+      "commonMisconception": "同情性放棄或無效建議。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -212,10 +266,14 @@
         "自己爬起來。"
       ],
       "answer_index": 3,
-      "explanation": "課文強調主角的自主性與毅力，通常會描述他跌倒後自己爬起來，這是展現其堅韌精神的重要細節。",
-      "commonMisconception": "學生可能會想像孩子跌倒後哭泣或需要幫助的畫面，而忽略了課文中主角展現的獨立性。",
+      "explanation": "強調自主性，跌倒後「自己爬起來」是堅韌精神的關鍵筆觸。",
+      "commonMisconception": "想像中孩子習慣性的哭鬧行為。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -228,15 +286,19 @@
         "學習過程中的困難或失敗。"
       ],
       "answer_index": 3,
-      "explanation": "在《還要跌幾次》這類強調成長的課文中，「跌倒」往往被賦予更深層的意義，代表著學習新事物時遇到的挫折、困難或失敗，是成長的必經之路。",
-      "commonMisconception": "學生可能只從字面意思理解「跌倒」，而沒有聯想到其在學習和人生中的引申義。",
+      "explanation": "「跌倒」在此情境下常被引申為成長與學習中的挫折。",
+      "commonMisconception": "僅限於物理層面的理解。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "詞語運用",
-      "question": "課文中，哪一個詞語最能形容主角不斷嘗試的行為？",
+      "question": "哪一個詞語最能形容主角不斷嘗試的行為？",
       "options": [
         "半途而廢。",
         "鍥而不捨。",
@@ -244,10 +306,14 @@
         "輕而易舉。"
       ],
       "answer_index": 1,
-      "explanation": "「鍥而不捨」意指堅持不懈，即使遇到困難也不放棄，這最符合主角在課文中反覆跌倒又站起來的行為模式。",
-      "commonMisconception": "學生可能會被其他選項的字面意思干擾，或對成語理解不夠透徹，未能選出最貼切的詞語。",
+      "explanation": "鍥而不捨描述在中途不放棄的精神。",
+      "commonMisconception": "詞義理解偏差導致誤選。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "critical",
@@ -260,10 +326,14 @@
         "不會，因為跌倒太多次會讓他感到太痛，最終會放棄。"
       ],
       "answer_index": 1,
-      "explanation": "根據課文強調的毅力與堅持，主角雖然跌倒多次，但他每次都選擇站起來繼續嘗試，這種精神是成功的關鍵預兆。",
-      "commonMisconception": "學生可能因為現實中對失敗的恐懼，而選擇負面或不確定的選項，忽略了課文所傳達的積極訊息。",
+      "explanation": "毅力是成功的預兆，符合課文積極導向。",
+      "commonMisconception": "被現實挫折感左右而做出悲觀預期。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -276,31 +346,39 @@
         "無法保持平衡。"
       ],
       "answer_index": 3,
-      "explanation": "課文通常會描述學習新技能（如溜冰、騎腳踏車）時，最主要的挑戰就是身體的平衡感，這也是導致跌倒的主要原因。",
-      "commonMisconception": "學生可能將其他外在因素或藉口視為主要困難，而忽略了技能本身的核心挑戰。",
+      "explanation": "平衡感是多數運動技能學習初期的核心生理挑戰。",
+      "commonMisconception": "歸因於外在瑣碎因素（如天氣）。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "情感理解",
-      "question": "【在主角終於不再像以前那樣常常跌倒，可以穩定前進時】，他對「跌倒」這件事的看法可能有什麼轉變？",
+      "question": "【當主角逐漸可以穩定前進時】他對「跌倒」的看法可能有什麼轉變？",
       "options": [
-        "認為自己以前太笨了，才一直跌倒。",
-        "覺得跌倒是一種很丟臉的事情，希望從未發生。",
-        "覺得跌倒只是一種運氣不好，跟努力沒關係。",
+        "認為自己以前太笨了",
+        "覺得跌倒是一種很丟臉的事情",
+        "覺得跌倒只是一種運氣不好",
         "從害怕和挫敗，轉變為視為學習過程的一部分。"
       ],
       "answer_index": 3,
-      "explanation": "隨著技能的進步，主角會逐漸認識到跌倒並不可怕，它是學習的必經之路，並且從中獲得了經驗，這是一種心態上的成熟。",
-      "commonMisconception": "學生可能停留在負面情緒，或認為過去的失敗是無意義的，而沒有理解到從經驗中學習的成長。",
+      "explanation": "技能進步伴隨心態成熟，體會失敗之必要性。",
+      "commonMisconception": "心態仍停留在初期的負面情緒。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "主旨歸納",
-      "question": "這篇課文《還要跌幾次》最想傳達給讀者的中心思想是什麼？",
+      "question": "這篇課文《還要跌幾次》最想傳達的中心思想是什麼？",
       "options": [
         "學習新技能時，保護措施比努力更重要。",
         "跌倒是很正常的，不用太在意。",
@@ -308,9 +386,13 @@
         "勇敢面對挑戰，從失敗中學習，堅持不懈才能成功。"
       ],
       "answer_index": 3,
-      "explanation": "課文透過主角的經歷，旨在傳達堅持、學習、克服困難的積極態度，這是一個綜合性的中心思想。",
-      "commonMisconception": "學生可能只抓住其中一個細節（如保護措施或跌倒正常），而沒有概括出課文最核心的勵志訊息。",
+      "explanation": "全方位概括勤奮、堅韌與學習的內涵。",
+      "commonMisconception": "只捕捉到局部細節而漏掉核心教育價值。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 2
     },
     {
@@ -324,10 +406,14 @@
         "「太棒了！」"
       ],
       "answer_index": 1,
-      "explanation": "跌倒通常會帶來疼痛或驚呼，這是孩子在面對意外狀況時最直接的反應，課文會真實呈現這些感受。",
-      "commonMisconception": "學生可能將跌倒與玩樂混淆，或錯誤地認為課文會強調積極的聲音，而忽略了跌倒的真實感受。",
+      "explanation": "真實呈現跌倒帶來的負面生理反應，藉此對比不放棄的勇氣。",
+      "commonMisconception": "誤以為勵志故事應全篇皆正向聲音。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
@@ -340,15 +426,19 @@
         "跌倒是一種運氣，下次就不會了。"
       ],
       "answer_index": 2,
-      "explanation": "從失敗中學習是成長的關鍵。主角透過每次跌倒，會逐漸摸索出保持平衡的技巧和自我保護的方法，這是經驗累積的結果。",
-      "commonMisconception": "學生可能誤以為失敗是沒有價值的，或將成功歸因於外力，而忽略了主角透過自身努力和反思所獲得的經驗。",
+      "explanation": "失敗提供的經驗反饋：包括技巧調整與自我保護。",
+      "commonMisconception": "歸因於純粹的運氣或外力介入。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "critical",
       "scenario": "情境應用",
-      "question": "如果你是課文中的主角，當你跌倒到第十次的時候，你會怎麼做？",
+      "question": "如果你是課文主角，當你跌倒到第十次的時候，你會怎麼做？",
       "options": [
         "假裝沒事，然後偷偷跑回家。",
         "坐在地上大哭，希望有人來安慰我。",
@@ -356,10 +446,14 @@
         "深呼吸，告訴自己：「再試一次，我一定可以的！」"
       ],
       "answer_index": 3,
-      "explanation": "根據課文主旨，即使多次跌倒，主角仍選擇堅持。最符合這種精神的行為是自我鼓勵，再次嘗試。",
-      "commonMisconception": "學生可能會代入自己感到挫折時的真實反應（如生氣、逃避、哭泣），而沒有選擇課文所鼓勵的積極應對方式。",
+      "explanation": "依據主旨選擇能體現自我激勵的正向行動。",
+      "commonMisconception": "選擇一般人面對挫折時可能產生的情緒性逃避行為。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -372,15 +466,19 @@
         "戶外空曠的場地，如公園或廣場。"
       ],
       "answer_index": 3,
-      "explanation": "學習溜冰、騎腳踏車等技能通常需要較大的開放空間，戶外公園或廣場是常見的練習場所。",
-      "commonMisconception": "學生可能因為生活經驗而聯想到其他室內或特定場所，忽略了課文情境的合理性。",
+      "explanation": "大範圍的肢體運動通常發生在空曠的戶外場地。",
+      "commonMisconception": "限縮於室內或特定小空間環境。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "情緒轉變",
-      "question": "【在故事的開頭，主角剛開始學習時】，他的心情可能是怎樣的？",
+      "question": "【在故事的開頭】剛開始學習時，他的心情可能是怎樣的？",
       "options": [
         "覺得自己一定學不會。",
         "充滿期待又帶點緊張。",
@@ -388,15 +486,19 @@
         "非常沮喪，不想嘗試。"
       ],
       "answer_index": 1,
-      "explanation": "學習新事物之初，孩子通常會對未知的挑戰感到興奮和好奇（期待），但同時也會因為不確定性而感到一絲緊張。",
-      "commonMisconception": "學生可能將故事中後期的挫折感帶入初期，或誤以為孩子一開始就抱持負面情緒。",
+      "explanation": "初期混雜著對未知的期待與對表現的緊張。",
+      "commonMisconception": "將挫折後的情緒提前設置在初期。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "成語應用",
-      "question": "如果用一個詞語來形容主角從跌倒中學習的過程，哪一個最貼切？",
+      "question": "形容主角從跌倒中學習的過程，哪一個詞語最貼切？",
       "options": [
         "半途而廢。",
         "坐享其成。",
@@ -404,90 +506,114 @@
         "一蹶不振。"
       ],
       "answer_index": 2,
-      "explanation": "「百折不撓」意指遭受再多的挫折也不屈服，這完美地描述了主角在多次跌倒後仍堅持不懈的精神。",
-      "commonMisconception": "學生可能對成語的理解不夠深入，或被負面選項干擾，未能選出最能體現課文精神的詞語。",
+      "explanation": "多次受挫（百折）而不屈服（不撓），精確描述其毅力。",
+      "commonMisconception": "誤選含義相反或負面的詞彙。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "critical",
       "scenario": "價值判斷",
-      "question": "你認為「跌倒」對主角來說，是好還是不好？為什麼？",
+      "question": "你認為「跌倒」對於成長中的主角來說，是好還是不好？",
       "options": [
-        "是不好的，因為跌倒會讓他受傷，而且感到疼痛。",
-        "不一定，有時候好，有時候不好，看情況而定。",
+        "是不好的，因為跌倒會讓他受傷且感到疼痛。",
+        "不一定，看情況而定。",
         "是好的，因為每次跌倒都讓他學到經驗，變得更堅強。",
-        "是無所謂的，反正最後都會學會。"
+        "是無所謂的"
       ],
       "answer_index": 2,
-      "explanation": "從課文強調成長與學習的角度來看，跌倒雖然帶來不適，但它更是主角獲得經驗、磨練意志的機會，因此是成長過程中「好」的一部分。",
-      "commonMisconception": "學生可能只看到跌倒的負面影響（疼痛、受傷），而沒有理解其在成長中的積極意義。",
+      "explanation": "肯定失敗在成長中的轉化價值：獲得經驗、磨練意志。",
+      "commonMisconception": "只聚焦於生理疼痛而忽略心理與技能增長。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
       "scenario": "故事結局",
-      "question": "根據課文的暗示，主角最終有沒有學會這項新技能？",
+      "question": "根據課文暗示，主角最終有沒有學會這項技能？",
       "options": [
-        "課文說他換了另一項簡單的技能學習。",
-        "課文沒有提到結局，留下懸念。",
-        "課文暗示他最終會學會，因為他持續努力。",
-        "課文明確說他放棄了，因為太難了。"
+        "換了技能學習。",
+        "留下懸念沒有提到。",
+        "暗示最終會學會，因為持續努力。",
+        "明確說放棄了。"
       ],
       "answer_index": 2,
-      "explanation": "這類勵志課文通常會透過主角的堅持不懈來暗示最終的成功，即使沒有直接說明結果，也能從主旨中推斷出來。",
-      "commonMisconception": "學生可能期待明確的結局，或因為對故事的悲觀預期而選擇放棄的選項。",
+      "explanation": "勵志課文必有的預期結局：努力終得成果。",
+      "commonMisconception": "偏重於「中途挫折」而給出悲觀答案。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "角色感受",
-      "question": "【當主角望著遠方，想像自己熟練地滑行時】，他的眼神中可能透露出什麼？",
+      "question": "【當主角望著遠方想像滑行時】他的眼神透露出什麼？",
       "options": [
         "對成功的渴望和對未來的憧憬。",
         "對身邊事物的不在意。",
         "對自己能力不足的失望。",
-        "對當下困難的逃避和不滿。"
+        "對當下困難的逃避。"
       ],
       "answer_index": 0,
-      "explanation": "在面對困難時，想像成功是孩子堅持下去的動力來源。這種眼神代表著對目標的堅定信念和積極的態度。",
-      "commonMisconception": "學生可能誤以為是逃避或失望，而沒有理解這種想像力對於鼓勵自己、維持動力的重要性。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "想像力是支撐其度過挫折期的內在動力來源。",
+      "commonMisconception": "被解讀為消極的幻想或逃避現實。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "標題意義",
-      "question": "課文的標題《還要跌幾次》最能表達主角什麼樣的心情？",
+      "question": "標題《還要跌幾次》最能表達主角什麼樣的心情？",
       "options": [
-        "希望有人告訴他確切的跌倒次數，好讓他準備。",
-        "感到非常生氣，覺得跌倒很煩人。",
+        "希望有人告訴他確切次數",
+        "感到非常生氣",
         "雖然感到挫折，但心中仍有堅持下去的疑問與決心。",
-        "覺得跌倒很好玩，想知道還能跌幾次。"
+        "覺得跌倒很好玩"
       ],
       "answer_index": 2,
-      "explanation": "這個標題既包含了對疼痛和挫折的疑問，也隱含了對成功的期待和不放棄的決心，是一種複雜而真實的兒童心理狀態。",
-      "commonMisconception": "學生可能只抓住「跌幾次」的字面意思，而沒有理解其中蘊含的掙扎、疑問與堅持並存的情緒。",
+      "explanation": "包含對過程的疲慮（疑問）與對目標的執著（決心）。",
+      "commonMisconception": "僅取其字面數值意義，未體察情感。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 2
     },
     {
       "taxonomy": "critical",
       "scenario": "跨文本連結",
-      "question": "《還要跌幾次》這篇課文的主題，與我們在生活中學習騎腳踏車、學游泳時的經驗有什麼共通之處？",
+      "question": "《還要跌幾次》的主題與日常生活有哪些共通點？",
       "options": [
-        "只要看別人怎麼做，自己就能馬上學會。",
-        "都需要經過不斷的練習和跌倒（或嗆水），才能逐漸掌握技巧。",
-        "都需要有專業的教練在旁邊指導，才能學會。",
-        "這些活動都非常危險，最好不要輕易嘗試。"
+        "只要看別人做，自己就能學會。",
+        "都需要經過不斷的練習和跌倒，才能逐漸掌握技巧。",
+        "都需要有專業教練指導。",
+        "最好都不要輕易嘗試以免危險。"
       ],
       "answer_index": 1,
-      "explanation": "這些技能的學習過程都涉及平衡、協調和克服恐懼，共同點是都需要透過不斷的嘗試、失敗和再嘗試來累積經驗，最終才能成功。",
-      "commonMisconception": "學生可能對學習過程有不切實際的幻想，或過度依賴外力，而沒有認識到個人努力和從錯誤中學習的重要性。",
-      "quality_level": "L5",
-      "cqi_score": 3
+      "explanation": "概括各類技能學習共同的規律：失敗與經驗之循環。",
+      "commonMisconception": "對學習過程有快速成功的妄想。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     }
   ]
 }

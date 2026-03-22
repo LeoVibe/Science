@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "grade": "grade_6",
+    "semester": "semester_2",
+    "subject": "Chinese",
+    "publisher": "南一",
+    "title": "打開心中的窗",
+    "lesson": "L10",
+    "order": 10
+  },
+  "questions": [
+    {
+      "question": "【分析散文比喻】作者在文中將人的「心情」比喻為一扇「窗」，這扇窗的情態主要受什麼因素影響？",
+      "options": [
+        "受外在天氣的好壞決定，只要天天下雨，窗戶就必然是灰暗的。",
+        "受個人的心理態度決定，即便身處困境，也能透過轉念看見陽光。",
+        "受窗帘的價格決定，只要買了最貴的絲綢窗帘，心情就會變好。",
+        "受房屋的座向決定，只有朝向南方的窗戶，才能擁有開朗的心情。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是本課的核心主旨——「境隨心轉」。窗戶是一個介面，決定讀者如何詮釋外界。積極的思維能讓人從裂縫中發現微光。",
+      "scenario": "解析核心意象（窗）與個人主觀意志（心理態度）之間的映射關係。",
+      "commonMisconception": "學生易選[A]，表達了對環境的絕對依賴，與本文強調的「心理主動性」相反。",
+      "taxonomy": "inferential",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】作者建議在面對「畢業前的焦慮」或「未知的恐懼」時，最好的做法是什麼？",
+      "options": [
+        "將窗戶關得更緊，避免外界任何訊息干擾自己安靜的心靈。",
+        "主動推開窗戶，以好奇與勇敢的心態去接納未來的各種可能。",
+        "換一扇更堅固的鋼鐵窗，以防止未來可能的挫折將自己擊垮。",
+        "直接把窗戶拆掉，認為既然未來無法預測，就完全不需要準備。"
+      ],
+      "answer_index": 1,
+      "explanation": "「開啟」象徵開放與接納。對於即將面臨環境劇變的六年級生，這是一份關於「心理韌性」與「主動出擊」的教育指引。",
+      "scenario": "將課文建議遷移至畢業生的「環境適應」心理情境中。",
+      "commonMisconception": "學生可能選[A]，誤將「自我保護」等同於「心理健康」，忽略了封閉帶來的萎縮。",
+      "taxonomy": "applied",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析寫作亮點】文中提到「窗外的風景其實一直都在，變的是看風景的角度」，這句話隱含了哪一種哲學思考？",
+      "options": [
+        "客觀世界是不真實的，所有的風景都只是人類腦袋裡的幻覺。",
+        "我們無法改變環境的所有變數，但可以選擇面對環境的情緒。",
+        "風景會隨著名稱的改變而改變，所以我們應該幫風景取好聽的名字。",
+        "這是一句錯誤的觀察，因為風景會隨著都市開發而天天都在改變。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是心理學中「重新框架（Reframing）」的文學表達。強調主觀賦予意義的重要性。PIRLS 層次 4 的價值評估重點。",
+      "scenario": "解析高度抽象的哲理金句，並與個人行為模式進行對位。",
+      "commonMisconception": "學生易選[D]，停留在物質層面的「風景變遷」，而忽略了文學中的「心境轉移」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落語氣】作者在結尾運用了呼喚式（感嘆句）的語調，這對讀者的情感產生了什麼樣的影響？",
+      "options": [
+        "讓讀者感到被驚嚇，認為作者是一個情緒不穩定、大吼大叫的人。",
+        "產生一種溫暖且有力量的鼓舞感，激發讀者採取積極行動的渴望。",
+        "顯示作者已經失去了理智，只能透過激烈的符號來掩飾邏輯的空洞。",
+        "這是一種強迫性的命令，讓讀者感到自主權受損而產生反抗心理。"
+      ],
+      "answer_index": 1,
+      "explanation": "結尾的情感昇華是散文的常見手法。感嘆句能將原本的「說理」轉化為「共鳴」，形成一種強大的感召力量。",
+      "scenario": "探討標點符號與語氣語調在文學結尾中的「情感增益」作用。",
+      "commonMisconception": "學生容易選[D]，忽略了文學創作中「呼告法」的共感目的。",
+      "taxonomy": "analysis",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主旨在現代生活的應用】針對現代社會中青少年常見的「容貌焦慮」或「社交壓力」，這篇文章能提供什麼良藥？",
+      "options": [
+        "建議大家多看濾鏡後的漂亮照片，以此來催眠自己也是完美的。",
+        "學會從不同的角度欣賞自己，並打開心窗去發現他人內在的善良。",
+        "建議大家乾脆退出社交平台，完全斷開與外界的所有任何連結。",
+        "認為只要努力賺錢做醫美手術，就能解決所有的心靈焦慮問題。"
+      ],
+      "answer_index": 1,
+      "explanation": "「開窗」不只是看風景，也是看自己與他人。核心在於視角的多元化與對本質的接納。",
+      "scenario": "評估文本對於當代青少年具體心理困境的「對治效益」（PIRLS 層次 4）。 ",
+      "commonMisconception": "學生容易選[C]，採取逃避式的極端做法，而未達成「心理轉化」。 ",
+      "taxonomy": "evaluative",
+      "cqi_score": 6,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

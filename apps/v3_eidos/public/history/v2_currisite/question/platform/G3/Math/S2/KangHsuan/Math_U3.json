@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "Math",
+    "publisher": "kang_hsuan",
+    "title": "尋找規律",
+    "lesson": "U3",
+    "order": 3
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "圖形規律",
+      "question": "有一串圖形按照「圓形、三角形、正方形、圓形、三角形、正方形...」的順序排列。請問第 10 個圖形是什麼？",
+      "options": [
+        "圓形",
+        "三角形",
+        "正方形",
+        "五角形"
+      ],
+      "answer_index": 0,
+      "explanation": "規律是每 3 個一循環（圓、三、正）。10 除以 3 餘 1，所以第 10 個圖形與第 1 個相同，是圓形。",
+      "commonMisconception": "學生可能直接數下去但數錯，或者不理解餘數與位置的關係。",
+      "quality_level": "L5",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數字數列",
+      "question": "觀察這串數字：5, 10, 15, 20, (  ), 30。括號中應該填入什麼數字？",
+      "options": [
+        "22",
+        "25",
+        "28",
+        "24"
+      ],
+      "answer_index": 1,
+      "explanation": "這是一個等差數列，每個數字都比前一個多 5。20 + 5 = 25。",
+      "commonMisconception": "學生可能看錯間隔或是計算錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "生活中的規律",
+      "question": "小明每 4 天去一次圖書館。如果他 3 月 1 日去過一次，下一次去是 3 月幾日？",
+      "options": [
+        "3 月 4 日",
+        "3 月 5 日",
+        "3 月 6 日",
+        "3 月 3 日"
+      ],
+      "answer_index": 1,
+      "explanation": "3 月 1 日出發，間隔 4 天，所以是 1 + 4 = 5 日。",
+      "commonMisconception": "學生可能以為包含當天，導致計算為 4 日。",
+      "quality_level": "L5",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "間隔問題",
+      "question": "在一段 20 公尺長的道路一旁種樹，每隔 5 公尺種一棵（兩端都種）。請問總共要種幾棵樹？",
+      "options": [
+        "4 棵",
+        "5 棵",
+        "6 棵",
+        "3 棵"
+      ],
+      "answer_index": 1,
+      "explanation": "間隔數 = 20 / 5 = 4 個。因為兩端都種，所以樹的數量 = 間隔數 + 1 = 5 棵。",
+      "commonMisconception": "經典的植樹問題陷阱，學生常忽略「兩端都種」需要加 1。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    }
+  ]
+}

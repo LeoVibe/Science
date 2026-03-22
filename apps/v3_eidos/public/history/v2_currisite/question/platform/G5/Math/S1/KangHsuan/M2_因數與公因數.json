@@ -21,7 +21,7 @@
       ],
       "answer": "因數",
       "explanation": "這是因數的基本定義。",
-      "cqi_score": 7.5,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "數字「1」是任何大於 0 的整數的因數。",
       "answer": "True",
       "explanation": "1 乘以任何數都等於該數，因此 1 是所有整數的因數。",
-      "cqi_score": 4,
+      "cqi_score": 3.25,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "數字 12 的所有因數有：1, 2, 3, 4, 6, ______。",
       "answer": "12",
       "explanation": "因數成對出現：1x12, 2x6, 3x4。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "6",
       "explanation": "12 的因數：1, 2, 3, 4, 6, 12；18 的因數：1, 2, 3, 6, 9, 18。公因數有 1, 2, 3, 6，最大是 6。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "公因數是指同時能整除兩個或兩個以上整數的數",
       "explanation": "公即共同的意思。",
-      "cqi_score": 6,
+      "cqi_score": 5.25,
       "quality_level": "L2"
     }
   ]

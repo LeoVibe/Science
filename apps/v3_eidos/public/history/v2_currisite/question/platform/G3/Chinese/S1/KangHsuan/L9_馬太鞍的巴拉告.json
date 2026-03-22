@@ -24,7 +24,9 @@
       "commonMisconception": "學生可能忽略材料與魚種習性的對應關係。",
       "taxonomy": "literal",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
@@ -41,7 +43,9 @@
       "commonMisconception": "學生可能以為中層是為了餵食魚類，實則是為了保護與繁殖。",
       "taxonomy": "inferential",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 4.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
@@ -55,10 +59,12 @@
       "answer_index": 1,
       "explanation": "上層覆蓋物提供了視覺遮蔽，能有效防範水鳥的俯衝攻擊。",
       "scenario": "生態觀察：分析上層的防禦作用。",
-      "commonMisconception": "學生可能以為植物只是裝飾或單純遮陽。",
+      "commonMisconception": "學生可能以為植物只是裝飾所或單純遮陽。",
       "taxonomy": "inferential",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 4.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
@@ -75,7 +81,9 @@
       "commonMisconception": "學生可能對「獲取資源」與「保護環境」的平衡點感到模糊。",
       "taxonomy": "applied",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 5.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
@@ -91,7 +99,9 @@
       "scenario": "情境應用：模擬阿美族人的傳統漁法。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 4,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "6",
@@ -107,7 +117,9 @@
       "scenario": "素養實踐：將傳統智慧應用於現代環境保護。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 4.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "7",
@@ -123,7 +135,9 @@
       "scenario": "科學析論：分析空間配置的科學依據。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "8",
@@ -139,7 +153,9 @@
       "scenario": "生態系統：分析「生生不息」的原因。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "9",
@@ -155,7 +171,9 @@
       "scenario": "詞彙選擇：分析主題核心詞。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 6.5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "10",
@@ -171,7 +189,9 @@
       "scenario": "創意應用：設計魚屋飯店的宣傳語。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "11",
@@ -187,7 +207,9 @@
       "scenario": "文化傳承：分析技術背後的價值觀。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 4.5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "12",
@@ -203,7 +225,9 @@
       "scenario": "假設辯證：分析環境變遷對巴拉告的影響。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

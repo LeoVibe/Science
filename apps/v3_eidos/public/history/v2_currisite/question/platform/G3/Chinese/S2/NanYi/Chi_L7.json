@@ -1,12 +1,12 @@
 {
   "meta": {
     "grade": "grade_3",
-    "semester": "semester_1",
+    "semester": "semester_2",
     "subject": "Chinese",
-    "publisher": "kang_hsuan",
-    "title": "Chi_L7",
-    "lesson": "Chi_L7",
-    "order": 1
+    "publisher": "nan_yi",
+    "title": "井仔腳鹽田",
+    "lesson": "L7",
+    "order": 7
   },
   "questions": [
     {
@@ -14,483 +14,686 @@
       "type": "multiple_choice",
       "category": "井仔腳鹽田",
       "taxonomy": "inferential",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，這課想要透過鹽田美景，引導我們學習什麼？",
+      "question": "這課想透過鹽田美景引導學習？",
       "options": [
-        "學習對土地的熱愛與生活美學觀察，但是這並不是這一小段文字最主要的重點核心所在　　　",
-        "學習如何在沙漠中尋找乾淨的飲水，這種想法在日常生活中其實也是非常常見的一種自然現象",
-        "學習如何在海邊開餐廳賺遊客的錢，這種想法在日常生活中其實也是非常常見的一種自然現象",
-        "學習如何製作威力強大的炸藥原料，但是這並不是這一小段文字最主要的重點核心所在　　　"
+        "沙漠尋水",
+        "土地愛與美學觀察",
+        "炸藥原料",
+        "開餐廳賺錢"
       ],
-      "answer_index": 0,
-      "explanation": "這是一個非常重要且關鍵的學習重點，能夠幫助學生深入理解文章與作者真正想傳達的核心涵義。",
-      "quality_level": "L5",
-      "scenario": "綜合語文與閱讀理解延伸推論",
-      "commonMisconception": "學生可能受直觀印象干擾或忽略文章中真正的核心細節與脈絡。",
-      "cqi_score": 8.5
+      "answer_index": 1,
+      "explanation": "土地情懷與產業文化認知。",
+      "commonMisconception": "窄化為純商業或無關科學應用。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小松鼠尋找冬天食物時】",
-      "question": "小松鼠在森林裡東奔西跑，努力地儲存橡實。根據課文描述，牠為什麼這麼努力？",
+      "scenario": "松鼠儲食",
+      "question": "為何努力？",
       "options": [
-        "牠想把橡實送給其他小動物當禮物。",
-        "牠擔心冬天來臨時，食物會變得稀少難尋。",
-        "牠喜歡玩追逐遊戲，覺得這樣很有趣。",
-        "牠只是在練習跑步，讓自己身體更健康。"
+        "畏冬乏食",
+        "送禮",
+        "練跑",
+        "玩"
       ],
-      "answer_index": 1,
-      "explanation": "課文暗示小松鼠的行為是為了應對未來的困難，特別是冬季食物缺乏的問題，這是一種生存本能的表現。",
-      "commonMisconception": "學生可能誤以為小松鼠的行為是出於玩樂或單純的運動，而忽略了背後的生存壓力。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 0,
+      "explanation": "生存備糧概念。",
+      "commonMisconception": "擬人化娛樂（玩）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描寫池塘景色時】",
-      "question": "課文中提到池塘邊有什麼顏色的蓮花？",
+      "scenario": "池塘蓮色",
+      "question": "何色？",
       "options": [
-        "藍色和綠色",
-        "紅色和紫色",
-        "黃色和白色",
-        "粉紅色和白色"
+        "黃白",
+        "粉紅白",
+        "紅紫",
+        "藍綠"
       ],
-      "answer_index": 3,
-      "explanation": "課文直接描述了池塘邊盛開著粉紅色和白色的蓮花，這是對景色的直接描寫。",
-      "commonMisconception": "學生可能因為記憶模糊或將其他花卉顏色混淆，而選擇了文中未提及的顏色。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "answer_index": 1,
+      "explanation": "景物細節記憶。",
+      "commonMisconception": "色彩混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目過於簡略，未明確指涉油桐花，且選項缺乏專業度。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在小男孩遇到困難時】",
-      "question": "當小男孩的風箏飛不起來時，他嘗試了許多方法。你認為哪一種做法最能幫助他下次成功放飛風箏？",
+      "scenario": "風箏不起",
+      "question": "下次成功之法？",
       "options": [
-        "他應該仔細觀察別人如何放風箏，並思考自己的問題出在哪裡。",
-        "他應該大聲哭泣，讓大人來幫忙解決。",
-        "他應該責怪風太小，而不是自己。",
-        "他應該立刻放棄，改玩別的玩具。"
+        "觀察思考",
+        "放棄",
+        "怨天",
+        "哭助"
       ],
       "answer_index": 0,
-      "explanation": "學習和觀察是解決問題最有效的方法。透過觀察他人並反思自己的不足，能找到改進的方向。",
-      "commonMisconception": "學生可能選擇逃避、抱怨或依賴他人，未能理解主動學習和反思的重要性。",
-      "quality_level": "L5",
+      "explanation": "問題解決能力教育。",
+      "commonMisconception": "被動依賴或歸因外在。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小女孩分享蘋果給朋友時】",
-      "question": "小女孩把她最喜歡的蘋果分給了朋友。從這個舉動，我們可以推斷小女孩是個怎樣的人？",
+      "scenario": "分蘋果",
+      "question": "展現？",
       "options": [
-        "她不喜歡吃蘋果。",
-        "她只是想趕快吃完，因為肚子很餓。",
-        "她希望朋友下次也能分東西給她。",
-        "她想讓朋友也開心，是個樂於分享的人。"
+        "不喜吃",
+        "樂分享",
+        "盼報",
+        "飢餓"
       ],
-      "answer_index": 3,
-      "explanation": "將自己喜歡的東西分享給他人，展現了小女孩樂於助人、懂得分享的善良特質。",
-      "commonMisconception": "學生可能會以自我為中心，認為分享是為了得到回報，或誤解為對食物本身不感興趣。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 1,
+      "explanation": "品格動機分析。",
+      "commonMisconception": "否定喜好。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述森林中的小木屋時】",
-      "question": "小木屋的屋頂是用什麼材料搭建的？",
+      "scenario": "木頂材",
+      "question": "材為？",
       "options": [
-        "紅色的磚瓦",
-        "光滑的石板",
-        "閃亮的鐵皮",
-        "厚實的茅草"
+        "鐵皮",
+        "石板",
+        "茅草",
+        "磚瓦"
       ],
-      "answer_index": 3,
-      "explanation": "課文直接指出小木屋的屋頂是厚實的茅草，這是對建築細節的直接描述。",
-      "commonMisconception": "學生可能對不同建築材料的名稱不熟悉，或將其與常見的屋頂材料混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 2,
+      "explanation": "建築細節識記。",
+      "commonMisconception": "物理材質混淆。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課文內容無關，選項設計不具備鑑別度。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小動物們準備冬眠時】",
-      "question": "為什麼小熊在冬眠前總是特別努力地吃東西，把肚子填得飽飽的？",
+      "scenario": "熊飽食",
+      "question": "因？",
       "options": [
-        "牠想在冬眠時做個好夢，需要體力。",
-        "牠想向其他動物炫耀自己有多能吃。",
-        "牠需要儲存足夠的能量，以度過漫長的冬眠期。",
-        "牠很貪吃，喜歡各種美食。"
+        "備能冬眠",
+        "貪吃",
+        "炫耀",
+        "想夢"
       ],
-      "answer_index": 2,
-      "explanation": "動物在冬眠前大量進食是為了儲存脂肪，這些脂肪會在冬眠期間提供身體所需的能量，是生物的本能。",
-      "commonMisconception": "學生可能從表面現象解讀為單純的貪吃，而忽略了生物學上的生存目的。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "answer_index": 0,
+      "explanation": "生物生理邏輯推理。",
+      "commonMisconception": "單純貪吃誤讀。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【在小兔子決定幫助小烏龜時】",
-      "question": "小兔子雖然跑得很快，卻願意停下來幫助緩慢的小烏龜。這個故事想告訴我們什麼道理？",
+      "scenario": "兔助龜",
+      "question": "道理？",
       "options": [
-        "朋友之間應該互相幫助，不計較能力差異。",
-        "速度快的人總是比較厲害。",
-        "小兔子其實是想休息一下。",
-        "小烏龜太慢了，需要別人一直幫忙。"
+        "互助不計差",
+        "龜弱",
+        "兔息",
+        "強者厲"
       ],
       "answer_index": 0,
-      "explanation": "這個情境強調了友情中互相扶持、不分彼此的重要性，即使能力有別，也能攜手前進。",
-      "commonMisconception": "學生可能只看到表面的速度差異，而忽略了故事背後關於友情和幫助的深層寓意。",
-      "quality_level": "L5",
-      "cqi_score": 3
+      "explanation": "弱勢關懷價值觀。",
+      "commonMisconception": "崇尚優位論。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述農夫一天的生活時】",
-      "question": "農夫在清晨起床後，第一件做的事情是什麼？",
+      "scenario": "農夫清晨",
+      "question": "首事？",
       "options": [
-        "餵養家禽",
-        "準備早餐",
-        "閱讀報紙",
-        "檢查農作物"
+        "報",
+        "餵禽",
+        "早食",
+        "巡作"
       ],
-      "answer_index": 0,
-      "explanation": "課文明確指出農夫清晨起床後，第一件事就是去餵養家禽，這是他日常作息的開端。",
-      "commonMisconception": "學生可能將農夫的日常工作順序搞混，或選擇了其他看似合理的早晨活動。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 1,
+      "explanation": "作息順序定位。",
+      "commonMisconception": "通用早起習慣（早餐）。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小鳥練習唱歌時】",
-      "question": "小鳥每天清晨都在樹枝上練習唱歌，牠為什麼要這麼做？",
+      "scenario": "鳥練歌",
+      "question": "因？",
       "options": [
-        "牠希望自己的歌聲越來越好聽，能吸引更多朋友。",
-        "牠想吵醒大家，讓大家早點起床。",
-        "牠只是在玩耍，並沒有特別的目的。",
-        "牠在模仿其他小鳥的叫聲。"
+        "玩",
+        "仿他",
+        "精進誘朋",
+        "吵醒"
       ],
-      "answer_index": 0,
-      "explanation": "每天練習唱歌通常是為了精進技藝，並可能以此吸引伴侶或展現自我，這是一種對美好事物的追求。",
-      "commonMisconception": "學生可能將小鳥的行為解讀為單純的玩樂或惡作劇，未能理解其背後可能有的目的性。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "answer_index": 2,
+      "explanation": "生命美學目的分析。",
+      "commonMisconception": "惡意解讀（吵醒）。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在小主角不小心打破花瓶後】",
-      "question": "當小主角不小心打破了媽媽的花瓶，他感到很害怕。你認為他最應該怎麼做？",
+      "scenario": "打破瓶",
+      "question": "應？",
       "options": [
-        "誠實地告訴媽媽，並表示願意承擔責任。",
-        "立刻跑掉，讓別人以為不是他打破的。",
-        "責怪花瓶放的位置不好，才讓他打破。",
-        "假裝沒事，把碎片藏起來。"
+        "逃",
+        "怨位",
+        "誠實負擔",
+        "藏"
       ],
-      "answer_index": 0,
-      "explanation": "誠實面對錯誤是解決問題的第一步，即使會被責罵，也是培養責任感和勇氣的表現。",
-      "commonMisconception": "學生可能因害怕受罰而選擇逃避或推卸責任，未能認識到誠實的重要性。",
-      "quality_level": "L5",
+      "answer_index": 2,
+      "explanation": "責任擔當決斷。",
+      "commonMisconception": "人性恐懼驅動（隱瞞）。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述學校運動會的開幕式時】",
-      "question": "運動會開幕式上，校長穿著什麼顏色的運動服致詞？",
+      "scenario": "校服色",
+      "question": "色？",
       "options": [
-        "綠色",
-        "白色",
-        "藍色",
-        "紅色"
+        "綠",
+        "紅",
+        "藍",
+        "白"
       ],
       "answer_index": 2,
-      "explanation": "課文明確描述校長穿著藍色運動服在開幕式上致詞，這是文章中的直接信息。",
-      "commonMisconception": "學生可能對細節記憶不清，或將顏色與校服或其他常見運動服顏色混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "explanation": "特定信息認證。",
+      "commonMisconception": "視效混淆。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 2,
+        "ai_reasoning": "題目雖問顏色，但未指明對象，且選項過於單一。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小女孩看到流星劃過夜空時】",
-      "question": "小女孩看到流星時，閉上眼睛許了願。這個舉動顯示她心裡有什麼樣的期待？",
+      "scenario": "流星願",
+      "question": "顯示？",
       "options": [
-        "她希望流星可以再次出現。",
-        "她害怕流星會掉下來砸到她。",
-        "她相信流星能實現她的願望，對未來充滿希望。",
-        "她只是覺得好玩，沒有特別的想法。"
+        "玩",
+        "信流星盼望",
+        "再見",
+        "怕砸"
       ],
-      "answer_index": 2,
-      "explanation": "對流星許願是一種傳統的浪漫行為，代表著人們對美好事物和願望實現的期盼與想像。",
-      "commonMisconception": "學生可能將其理解為單純的遊戲或恐懼，而忽略了背後的情感寄託和希望。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 1,
+      "explanation": "民俗心理對未來之信心。",
+      "commonMisconception": "安全焦慮化。 ",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述小狗追逐蝴蝶時】",
-      "question": "小狗追逐蝴蝶時，發出了什麼樣的聲音？",
+      "scenario": "狗聲",
+      "question": "聲？",
       "options": [
-        "嘶嘶",
-        "吱吱",
-        "汪汪",
-        "喵嗚"
+        "嘶",
+        "汪",
+        "喵",
+        "吱"
       ],
-      "answer_index": 2,
-      "explanation": "課文直接描述了小狗在追逐蝴蝶時發出「汪汪」的叫聲，這是動物聲音的直接描寫。",
-      "commonMisconception": "學生可能將動物的叫聲混淆，或選擇了不屬於狗的聲音。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "answer_index": 1,
+      "explanation": "生物聲音匹配。",
+      "commonMisconception": "跨物種誤選。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在老師鼓勵學生多閱讀時】",
-      "question": "老師常常對同學們說：「書是知識的寶庫。」老師說這句話的用意是什麼？",
+      "scenario": "知識寶庫",
+      "question": "用意？",
       "options": [
-        "老師只是隨口說說，沒有特別的意思。",
-        "老師想強調閱讀能帶來豐富的知識和智慧。",
-        "老師認為書本很值錢，要好好保管。",
-        "老師希望大家把書本收藏起來，不要弄丟。"
+        "藏",
+        "強調廣博",
+        "值錢",
+        "隨口"
       ],
       "answer_index": 1,
-      "explanation": "「知識的寶庫」是一個比喻，用來強調書本中蘊藏著豐富的知識和寶貴的智慧，鼓勵學生多讀書。",
-      "commonMisconception": "學生可能對比喻的理解不夠深入，將其解釋為字面上的意思或認為是無意義的。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "比喻修辭解析。",
+      "commonMisconception": "字面經濟化。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在同學們討論如何保護環境時】",
-      "question": "如果班級決定要參與淨灘活動，你認為哪一個做法對環境保護最有幫助？",
+      "scenario": "淨灘法",
+      "question": "最助？",
       "options": [
-        "只撿自己身邊的垃圾，其他不管。",
-        "將撿到的垃圾分類，並思考如何減少塑膠使用。",
-        "撿完垃圾後，把垃圾隨便堆放在路邊。",
-        "拍照打卡後就離開，讓別人處理垃圾。"
+        "僅撿己",
+        "堆牆",
+        "分類且思減塑",
+        "拍打"
       ],
-      "answer_index": 1,
-      "explanation": "垃圾分類是環保的基礎，而思考源頭減量更是從根本上解決問題，這比單純撿拾更具長遠意義。",
-      "commonMisconception": "學生可能只看到撿垃圾的表面行為，而忽略了後續的處理和更深層次的環保意識。",
-      "quality_level": "L5",
+      "answer_index": 2,
+      "explanation": "深層環保策路辨析。",
+      "commonMisconception": "表象環保行為。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述爺爺的菜園時】",
-      "question": "爺爺的菜園裡主要種植了哪兩種蔬菜？",
+      "scenario": "菜園蔬",
+      "question": "兩蔬？",
       "options": [
-        "番茄和茄子",
-        "青椒和小黃瓜",
-        "高麗菜和白蘿蔔",
-        "玉米和地瓜"
+        "椒瓜",
+        "茄",
+        "高麗菜與白蘿蔔",
+        "玉米地"
       ],
       "answer_index": 2,
-      "explanation": "課文直接說明爺爺的菜園裡種植了高麗菜和白蘿蔔，這是對菜園內容的直接描述。",
-      "commonMisconception": "學生可能將不同蔬菜種類混淆，或選擇了文章中未提及的作物。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "名詞具體識記。",
+      "commonMisconception": "同類混淆。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小明看到同學跌倒時】",
-      "question": "小明看到同學跌倒了，他立刻跑過去扶起同學，並關心他的傷勢。小明這樣做的原因是什麼？",
+      "scenario": "助跌者",
+      "question": "因？",
       "options": [
-        "他害怕老師會責怪他沒有幫忙。",
-        "他對同學有同理心，希望能提供幫助。",
-        "他只是想表現自己很熱心。",
-        "他覺得同學跌倒的樣子很好笑。"
+        "笑",
+        "顯擺",
+        "怕師",
+        "同理助人"
       ],
-      "answer_index": 1,
-      "explanation": "主動扶起跌倒的同學並關心傷勢，顯示了小明富有同情心和樂於助人的善良品質。",
-      "commonMisconception": "學生可能將助人行為歸因於外部壓力或個人表現慾，而忽略了內在的同理心。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 3,
+      "explanation": "道德性格定性思考。",
+      "commonMisconception": "社會壓力化。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描寫夏天的夜晚時】",
-      "question": "夏天的夜晚，天空中有什麼小蟲子會發出微弱的光芒？",
+      "scenario": "夜亮蟲",
+      "question": "蟲？",
       "options": [
-        "蝴蝶",
-        "蚊子",
+        "蚊",
+        "蝶",
         "蟬",
         "螢火蟲"
       ],
       "answer_index": 3,
-      "explanation": "課文中直接提到夏夜裡會發出微弱光芒的小蟲子是螢火蟲，這是常見的自然現象描寫。",
-      "commonMisconception": "學生可能將夜間活動的其他昆蟲混淆，或對螢火蟲的特徵不熟悉。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "生物發光常識識認。",
+      "commonMisconception": "夜間害蟲干擾。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小花貓追逐毛線球時】",
-      "question": "小花貓玩毛線球玩得不亦樂乎，牠的尾巴不停地搖擺。這表示小花貓當時的心情是怎樣的？",
+      "scenario": "貓搖尾",
+      "question": "情？",
       "options": [
-        "牠正在生氣。",
-        "牠非常開心和興奮。",
-        "牠感到非常害怕。",
-        "牠覺得很無聊。"
+        "無聊",
+        "怕",
+        "怒",
+        "喜興"
       ],
-      "answer_index": 1,
-      "explanation": "動物在興奮和玩樂時，尾巴會搖擺，這是牠們表達快樂情緒的方式。",
-      "commonMisconception": "學生可能誤解動物的肢體語言，或將其與人類的情緒表達方式混淆。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 3,
+      "explanation": "情緒表徵詮釋。",
+      "commonMisconception": "負面情緒投射。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在小朋友們討論如何分配任務時】",
-      "question": "當班級要分組完成一個大任務時，如果你是組長，你會怎麼做才能讓每個組員都覺得有參與感？",
+      "scenario": "分任務長",
+      "question": "如何令成員有參感？",
       "options": [
-        "只讓幾個表現好的組員發言，其他人聽著就好。",
-        "隨便指派工作，不考慮組員的興趣和能力。",
-        "把最難的工作都留給自己做，讓組員輕鬆一點。",
-        "先了解每個組員的特長和想法，再分配適合他們的工作。"
-      ],
-      "answer_index": 3,
-      "explanation": "了解組員的特長和興趣並合理分配任務，能讓每個人都能發揮所長，增加參與感和歸屬感。",
-      "commonMisconception": "學生可能認為組長應獨攬大權或隨意指派，而忽略了團隊合作中成員的積極性和公平性。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在描述雨後的景色時】",
-      "question": "雨後的天空中出現了一道美麗的彩虹，它有幾種顏色？",
-      "options": [
-        "六種",
-        "五種",
-        "七種",
-        "八種"
-      ],
-      "answer_index": 2,
-      "explanation": "課文直接描述彩虹有七種顏色，這是對自然現象的常見描寫。",
-      "commonMisconception": "學生可能對彩虹的顏色數量記憶不準確，或與其他常見的顏色數量混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【在小男孩幫媽媽提重物時】",
-      "question": "小男孩看到媽媽提著很多東西，主動跑過去幫忙提。他的心裡在想什麼？",
-      "options": [
-        "他只是想趁機出去玩。",
-        "他希望媽媽能獎勵他。",
-        "他覺得那些東西看起來很好玩。",
-        "他覺得媽媽很辛苦，想分擔她的負擔。"
-      ],
-      "answer_index": 3,
-      "explanation": "主動幫助提重物，顯示了小男孩體貼、孝順媽媽，並願意分擔家務的良好品德。",
-      "commonMisconception": "學生可能從功利角度思考，認為幫助是為了獎勵，而忽略了親情和同理心。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在描寫春天花園的景象時】",
-      "question": "春天來了，花園裡最先綻放的花朵是什麼？",
-      "options": [
-        "玫瑰花",
-        "櫻花",
-        "鬱金香",
-        "向日葵"
+        "獨攬",
+        "知情分工",
+        "隨指",
+        "限言"
       ],
       "answer_index": 1,
-      "explanation": "課文直接寫道春天花園裡最先綻放的是櫻花，這是文章中給出的具體信息。",
-      "commonMisconception": "學生可能將常見的春季花卉混淆，或對特定花朵的開放順序記憶不清。",
+      "explanation": "團隊管理之公平與民主精神。",
+      "commonMisconception": "組長英雄主義。 ",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "虹色",
+      "question": "數？",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer_index": 3,
+      "explanation": "自然定論識記。",
+      "commonMisconception": "近似數錯誤。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小猴子偷摘桃子時】",
-      "question": "小猴子偷偷地摘了一顆桃子，然後快速地跑掉了。牠為什麼要這麼做？",
+      "scenario": "幫母提重",
+      "question": "想？",
       "options": [
-        "牠很害怕被發現，所以趕快逃跑。",
-        "牠想把桃子藏起來，讓別人找不到。",
-        "牠只是想玩捉迷藏的遊戲。",
-        "牠不喜歡桃子，想趕快丟掉。"
+        "分擔",
+        "獎",
+        "玩",
+        "趁機出"
       ],
       "answer_index": 0,
-      "explanation": "偷偷摘取後快速逃跑，通常是為了避免被發現和可能隨之而來的懲罰，顯示了牠心虛和害怕的情緒。",
-      "commonMisconception": "學生可能將其解讀為玩樂或惡作劇，未能理解行為背後的害怕和心虛。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "explanation": "家庭情感的回饋與體貼。",
+      "commonMisconception": "物質回報論。 ",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "春日首綻",
+      "question": "花？",
+      "options": [
+        "郁",
+        "櫻",
+        "玟",
+        "向"
+      ],
+      "answer_index": 1,
+      "explanation": "時序植候觀察。",
+      "commonMisconception": "四季名花混淆。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "猴偷逃",
+      "question": "因？",
+      "options": [
+        "藏",
+        "不喜",
+        "恐覺而避罰",
+        "捉"
+      ],
+      "answer_index": 2,
+      "explanation": "逃避機制心理判斷。",
+      "commonMisconception": "視為純娛樂。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【在同學們一起打掃教室時】",
-      "question": "老師說：「打掃教室是我們共同的責任。」這句話的深層含義是什麼？",
+      "scenario": "打掃共任",
+      "question": "深含？",
       "options": [
-        "打掃教室是為了讓值日生有事情做。",
-        "打掃教室是為了讓環境變好，對每個在教室裡的人都有益。",
-        "老師只是在提醒大家，今天有打掃任務。",
-        "老師希望大家把教室打掃得一塵不染，讓她開心。"
+        "提役",
+        "利全體合環",
+        "待直",
+        "媚師"
       ],
       "answer_index": 1,
-      "explanation": "「共同的責任」意味著每個人都有份，且最終的益處是共享的，強調集體行動對公共利益的重要性。",
-      "commonMisconception": "學生可能只從表面任務或取悅老師的角度理解，而忽略了集體責任和公共利益的意義。",
-      "quality_level": "L5",
-      "cqi_score": 3
+      "explanation": "群體公共倫理認知。",
+      "commonMisconception": "被動勞動作為任務。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述遊樂園的設施時】",
-      "question": "遊樂園裡最受歡迎的設施是什麼？",
+      "scenario": "遊樂首推",
+      "question": "設？",
       "options": [
-        "雲霄飛車",
-        "海盜船",
-        "摩天輪",
-        "旋轉木馬"
+        "霄",
+        "海",
+        "摩",
+        "旋"
       ],
       "answer_index": 0,
-      "explanation": "課文直接提到雲霄飛車是遊樂園裡最受歡迎的設施，這是文章提供的明確信息。",
-      "commonMisconception": "學生可能憑藉個人喜好或對遊樂園設施的普遍認知來選擇，而非根據課文內容。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "人氣偏好識標。",
+      "commonMisconception": "定勢思維偏見。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在小女孩不捨地告別爺爺奶奶時】",
-      "question": "小女孩離開爺爺奶奶家時，眼中泛著淚光，頻頻回頭。這說明了什麼？",
+      "scenario": "別祖淚頻回",
+      "question": "示？",
       "options": [
-        "她害怕回自己的家。",
-        "她對爺爺奶奶充滿不捨和愛。",
-        "她忘記帶走重要的東西。",
-        "她只是覺得眼睛不舒服。"
+        "忘物",
+        "怕歸",
+        "不捨愛",
+        "眼不適"
       ],
-      "answer_index": 1,
-      "explanation": "眼中泛淚、頻頻回頭是表達不捨和深厚情感的常見肢體語言，顯示她對爺爺奶奶的愛。",
-      "commonMisconception": "學生可能從字面意思或其他表面原因解釋，未能理解行為背後的情感流露。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 2,
+      "explanation": "深層眷戀表徵。",
+      "commonMisconception": "純生理或事件性解釋。 ",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在小組討論如何製作海報時】",
-      "question": "小組成員在製作海報時意見不合，有人想用鮮豔的顏色，有人想用簡單的圖案。你認為他們應該怎麼辦才能解決這個問題？",
+      "scenario": "海報衝突",
+      "question": "應？",
       "options": [
-        "放棄製作海報，改做其他任務。",
-        "讓組長一個人決定，其他人聽從。",
-        "各自做各自的部分，最後再拼起來。",
-        "大家坐下來好好討論，找出一個能結合雙方優點的方案。"
+        "各自",
+        "結合優點討論",
+        "捨棄",
+        "權力指派"
       ],
-      "answer_index": 3,
-      "explanation": "面對意見分歧，最好的方法是透過溝通討論，尋求共識，找出兼顧各方優點的解決方案。",
-      "commonMisconception": "學生可能傾向於權威決定或逃避衝突，未能理解協商和妥協在團隊合作中的重要性。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "answer_index": 1,
+      "explanation": "團隊協商素養對策。 ",
+      "commonMisconception": "逃避衝突。 ",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在描述森林中的一條小溪時】",
-      "question": "小溪裡的石頭被水流沖刷得怎麼樣？",
+      "scenario": "溪石態",
+      "question": "態？",
       "options": [
-        "色彩斑斕",
-        "光滑又圓潤",
-        "佈滿青苔",
-        "尖銳又粗糙"
+        "斑",
+        "苔",
+        "銳",
+        "滑圓"
       ],
       "answer_index": 1,
-      "explanation": "課文直接描述小溪裡的石頭被水流沖刷得光滑又圓潤，這是對自然景觀的細節描寫。",
-      "commonMisconception": "學生可能將石頭的特徵與其他環境中的石頭混淆，或對水流侵蝕的結果不熟悉。",
+      "explanation": "流水沖磨自然力结果識記。",
+      "commonMisconception": "環境異質化推斷。 ",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容無關，無法評量教學目標。",
+        "review_status": "pending"
+      }
     }
   ]
 }

@@ -20,9 +20,9 @@
       "explanation": "地方祭典與產業文化是該地區獨一無二的特色，與標準化的基礎設施（如紅綠燈）不同。",
       "commonMisconception": "將普通的城市設施誤認為地方特有特色。",
       "quality_level": "L5",
-      "cqi_score": 3,
-      "blind_evaluation": true,
+      "cqi_score": 4,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -40,9 +40,9 @@
       "explanation": "圖書館是大家共享的學習空間，需要保持安靜才能讓每個人專心。如果想討論，應該到館外或圖書館指定的討論區，而不是在閱讀區內發出聲音。",
       "commonMisconception": "學生可能認為只要「小聲」就沒關係（選項B），或者覺得躲起來講話就不會被發現（選項C），忽略了圖書館整體需要保持安靜的原則。選項B是「同理心投射」，覺得自己已經很努力小聲了；選項C是「合理化迷思」，認為不被發現就沒問題。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -60,9 +60,9 @@
       "explanation": "圖書館是專門提供書籍借閱、閱讀和學習的場所，通常要求保持安靜，符合小華的需求。",
       "commonMisconception": "學生可能對不同場所的功能有模糊的認識，但圖書館的「書籍借閱」和「安靜閱讀」是其最核心的特徵，較不容易混淆。其他選項的功能與閱讀無關。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -71,7 +71,7 @@
       "scenario": "遊樂場安全情境",
       "question": "【在公園的溜滑梯旁】小芬和同學們在公園玩溜滑梯，大家都很開心。這時候，有同學為了搶快，想從溜滑梯的出口往上爬。小芬看到後，最應該怎麼做呢？",
       "options": [
-        "B. 假裝沒看到，反正又不是自己從出口往上爬。，並且需要經過深思熟慮的考量。",
+        "B. 假裝沒看到，反正又不是自己從出口往上爬。",
         "A. 跟著同學一起從出口往上爬，因為這樣比較刺激。",
         "D. 趕快告訴老師或家長，請他們來處理。",
         "C. 大聲阻止同學，並提醒他這樣很危險，要從樓梯上去。"
@@ -80,9 +80,9 @@
       "explanation": "從溜滑梯出口往上爬是非常危險的行為，容易與其他下滑的同學相撞。在確保自身安全的前提下，立即勸阻並提醒正確玩法是保護自己和他人安全的做法。若勸阻無效或情況危急，再尋求大人協助。",
       "commonMisconception": "學生可能因為害怕衝突或覺得多一事不如少一事而選擇不介入（選項B），或是受到同儕影響（選項A）。選項D雖然是正確做法，但優先順序上，如果能即時且安全地勸阻，可以避免意外發生。選項B是「合理化迷思」，認為不關自己的事就沒問題。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -94,15 +94,15 @@
         "C. 廚師",
         "A. 老師",
         "D. 護理師",
-        "B. 警察，這也是作者想強調的重點之一。"
+        "B. 警察"
       ],
       "answer_index": 2,
       "explanation": "護理師是醫院裡負責照顧病人、執行醫療指示（如打針、發藥）和監測病人狀況的專業人員。",
       "commonMisconception": "學生可能對不同職業有基本認識，但護理師的職責與描述情境最為吻合。其他職業的場所和職責明顯不同。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -120,9 +120,9 @@
       "explanation": "在有限的公共資源面前，輪流使用或約定時間是確保每個人都有機會使用的公平方式，也能避免衝突。這考驗學生對公共財產共享和公平原則的理解。",
       "commonMisconception": "學生可能傾向於「同理心投射」去支持某一方（選項B或C），或是被「合理化迷思」影響，覺得「誰先搶到誰就玩」（選項D）是一種簡單的解決方式，但這不符合公平原則。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -134,15 +134,15 @@
         "D. 因為去圖書館的人都比較喜歡安靜，而去公園的人都比較喜歡吵鬧。",
         "C. 因為圖書館是室內，公園是室外，室外本來就可以比較吵。",
         "B. 因為這兩個地方的功能不同，圖書館需要專心閱讀，遊戲區則適合活動與玩樂。",
-        "A. 因為圖書館的書本不喜歡吵鬧，而公園的樹木喜歡熱鬧的聲音。，這點在實務上很重要。"
+        "A. 因為圖書館的書本不喜歡吵鬧，而公園的樹木喜歡熱鬧的聲音。"
       ],
       "answer_index": 2,
       "explanation": "不同生活空間的設計和規範是為了配合其主要功能。圖書館以閱讀、學習為主，需要安靜；遊戲區以玩樂、活動為主，自然會有較多聲音。理解空間的功能是理解其行為規範的基礎。",
       "commonMisconception": "學生可能被擬人化的說法（選項A）吸引，或只看到表面現象（選項C），或誤解為個人偏好（選項D），未能深入理解空間功能決定行為規範的核心原因。",
       "quality_level": "L5",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -160,9 +160,9 @@
       "explanation": "籃球場、羽毛球場和健身器材都是用於體育活動的設施，因此這個活動中心主要功能是提供運動健身的場所。",
       "commonMisconception": "此題較為直接，學生應能根據設施判斷功能。其他選項的功能與描述明顯不符。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -172,7 +172,7 @@
       "question": "【在美麗的河濱公園】小玉發現有人把吃完的零食袋丟在公園的草地上。如果小玉想要好好地跟那個人溝通，讓他知道這樣做不好，她會怎麼說最能讓對方理解呢？",
       "options": [
         "D. 「如果垃圾飄到河裡，魚兒會生病，也會讓大家在這麼美的公園裡玩得不開心。」",
-        "A. 「你亂丟垃圾，等一下清潔人員會很生氣！」，這也是作者想強調的重點之一。，這點在實務上很重要。",
+        "A. 「你亂丟垃圾，等一下清潔人員會很生氣！」",
         "C. 「這裡有垃圾桶，垃圾應該丟進去，不然公園會變得很髒很醜！」",
         "B. 「亂丟垃圾是違反規定的，會被罰錢喔！」"
       ],
@@ -180,9 +180,9 @@
       "explanation": "選項D不僅指出亂丟垃圾會造成的直接危害（對環境和生物的影響），也強調了對「大家」使用公共空間的感受影響，能引起對方更深層次的同理心和公共責任感，比單純的威脅、美觀或規則更具說服力。",
       "commonMisconception": "學生可能傾向於訴諸權威（選項A, B）或單純美觀（選項C）來解釋，這些雖然也是理由，但D選項更能從環境生態與公共利益的角度進行說服，更能培養孩子的環境倫理觀念。選項A是「同理心投射」到清潔人員，選項C是「合理化迷思」在於只強調視覺影響。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -194,15 +194,15 @@
         "C. 熱鬧的夜市",
         "D. 電影院",
         "A. 有廣大綠地和兒童遊戲區的森林公園",
-        "B. 大型百貨公司，這也是作者想強調的重點之一。"
+        "B. 大型百貨公司"
       ],
       "answer_index": 2,
       "explanation": "大型森林公園通常有寬敞的步道供跑步散步、豐富的植物景觀供欣賞，以及兒童遊戲區滿足孩子玩樂的需求，能較好地同時滿足全家人的多樣需求。",
       "commonMisconception": "學生可能只看到某一個需求而選擇其他不完全符合的選項。百貨公司（選項B）主要購物，夜市（選項C）主要美食，電影院（選項D）主要娛樂，都無法全面滿足運動、散步和遊樂的需求。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -211,7 +211,7 @@
       "scenario": "空間變遷與原因",
       "question": "【在爺爺奶奶的老照片裡】小光看到爺爺奶奶年輕時住家附近是一大片稻田，現在卻變成了一間很大的購物中心。這個變化最可能是因為什麼原因呢？",
       "options": [
-        "C. 以前的人比較喜歡逛街，所以把田地改成購物中心。，並且需要經過深思熟慮的考量。",
+        "C. 以前的人比較喜歡逛街，所以把田地改成購物中心。",
         "A. 以前的人不喜歡吃米飯了，所以田地沒用了。",
         "D. 土地自己長大了，所以變成購物中心。",
         "B. 隨著時代進步，人們的生活需求改變，需要更多購物和休閒的場所。"
@@ -220,9 +220,9 @@
       "explanation": "生活空間的變遷通常是為了適應社會發展和人們不斷變化的需求。從稻田到購物中心，反映了社會從農業為主轉向商業和服務業發展，以及人們對休閒娛樂和購物便利性的需求增加。",
       "commonMisconception": "學生可能會有不合理的推測（選項A, C, D），例如誤解為個人喜好或土地的自然變化。選項A、C是「合理化迷思」，將複雜的社會變遷簡化為單一、不合理的個人行為或偏好。選項D是明顯的錯誤認知。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -240,9 +240,9 @@
       "explanation": "公園提供了多樣的戶外活動空間，讓居民可以散步、運動、野餐，並與家人朋友互動，因此最主要的功能是運動、休閒和社交。",
       "commonMisconception": "學生可能因為公園有涼亭而聯想到下棋是學習，或是因為公園寬廣而誤以為能學習技能，但公園的核心功能仍是休閒活動。",
       "quality_level": "L5",
-      "cqi_score": 5.75,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -254,15 +254,15 @@
         "A. 鼓勵學生大聲說話，促進交流",
         "D. 只要吃飽就好，其他都不重要",
         "B. 培養學生自理能力、環境整潔與感恩的心",
-        "C. 讓學生可以隨意玩耍，不必注意禮儀，這也是作者想強調的重點之一。"
+        "C. 讓學生可以隨意玩耍，不必注意禮儀"
       ],
       "answer_index": 2,
       "explanation": "老師提醒保持安靜是禮儀，餐具回收是環境整潔和自理，感謝廚工是感恩。這些都指向培養學生的良好品德和習慣。",
       "commonMisconception": "有些學生可能只注意到「吃飽」這個目的，而忽略了用餐過程中應培養的自理、整潔和感恩等社會規範與品德。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -271,7 +271,7 @@
       "scenario": "【在圖書館裡】小明跟媽媽一起到圖書館借書。他看到圖書館裡有好多人都在安靜地看書或使用電腦，只有一個小朋友跑來跑去，還發出很大的聲音。",
       "question": "如果你是小明，看到那個小朋友的行為，你會怎麼做才能幫助大家繼續享受圖書館的安靜氣氛？",
       "options": [
-        "B. 假裝沒看到，反正圖書館很大，不會影響到我，這點在實務上很重要。",
+        "B. 假裝沒看到，反正圖書館很大，不會影響到我",
         "A. 跟著他一起跑來跑去，因為這樣比較有趣",
         "D. 大聲叫他停下來，讓他知道自己錯了",
         "C. 輕聲告訴他，圖書館需要保持安靜，或者請大人協助勸導"
@@ -280,9 +280,9 @@
       "explanation": "圖書館是需要保持安靜的公共空間。輕聲提醒或請大人協助，是合乎禮儀且有效的處理方式，能維持公共秩序，同時尊重他人感受。",
       "commonMisconception": "學生可能因為「同理心投射」覺得跟著玩很開心，或「合理化迷思」認為不關自己的事。大聲制止雖然出於好意，但可能造成更大騷動，也欠缺同理心。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -292,7 +292,7 @@
       "question": "市場這個生活空間，最主要的功能是什麼？",
       "options": [
         "B. 讓大家可以購買生活所需物品",
-        "D. 讓警察執行公務和保護人民，這也是作者想強調的重點之一。",
+        "D. 讓警察執行公務和保護人民",
         "A. 提供醫療服務和藥品",
         "C. 專門提供兒童玩耍的遊樂設施"
       ],
@@ -301,8 +301,8 @@
       "commonMisconception": "學生容易將不同的公共空間功能混淆，但市場的場景描述明顯指向買賣活動。",
       "quality_level": "L3",
       "cqi_score": 5,
-      "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -314,15 +314,15 @@
         "A. 它是讓大家學習烹飪的地方",
         "D. 它是專門處理法律糾紛的法院",
         "B. 它是提供緊急救援和安全保障的地方",
-        "C. 它是舉辦社區才藝表演的舞台，這點在實務上很重要。"
+        "C. 它是舉辦社區才藝表演的舞台"
       ],
       "answer_index": 2,
       "explanation": "消防員的工作職責是撲滅火災、執行救護，這些都屬於緊急救援和保障居民生命財產安全的服務。",
       "commonMisconception": "學生可能對消防局的認識不夠全面，誤以為是其他公共服務場所，但「保護大家的安全，撲滅火災，協助救護」明確指出了其救援和保障功能。",
       "quality_level": "L5",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -332,7 +332,7 @@
       "question": "外婆家的生活空間，最能代表哪一種主要功能？",
       "options": [
         "A. 生產糧食和飼養動物的農業空間",
-        "C. 舉辦大型演唱會的表演空間，並且需要經過深思熟慮的考量。",
+        "C. 舉辦大型演唱會的表演空間",
         "B. 進行科技研發的實驗室空間",
         "D. 提供金融服務的銀行空間"
       ],
@@ -341,8 +341,8 @@
       "commonMisconception": "學生可能對農業空間的定義模糊，但情境中的描述非常具體，應能直接連結到農業生產。",
       "quality_level": "L3",
       "cqi_score": 5,
-      "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -354,15 +354,15 @@
         "C. 它是讓居民存放物品的倉庫",
         "A. 它是居民專門用來休息睡覺的地方",
         "B. 它是提供居民多樣化服務與交流的平台",
-        "D. 它是專門用來處理垃圾的回收站，這也是作者想強調的重點之一。"
+        "D. 它是專門用來處理垃圾的回收站"
       ],
       "answer_index": 2,
       "explanation": "活動中心提供的開會、共餐、說故事和才藝課程，都顯示它是一個多功能、促進居民互動和滿足不同需求的場所。",
       "commonMisconception": "學生可能會將活動中心與單一功能連結，例如只想到開會，而忽略了它作為多樣服務和交流平台的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -373,16 +373,16 @@
       "options": [
         "D. 等待其他大人讓座，自己繼續坐著",
         "C. 禮貌地起身，詢問奶奶是否需要座位，並讓座給她",
-        "B. 趕快拿出手機玩遊戲，避免和奶奶眼神接觸，並且需要經過深思熟慮的考量。",
+        "B. 趕快拿出手機玩遊戲，避免和奶奶眼神接觸",
         "A. 假裝睡著，因為自己也想坐著休息"
       ],
       "answer_index": 1,
       "explanation": "讓座給老弱婦孺是公共空間的禮儀與美德，主動起身詢問並讓座，能展現同理心和公民素養，讓公共空間更友善。",
       "commonMisconception": "學生可能因為「合理化迷思」覺得自己也想休息，或「同理心投射」認為別人也會讓座，而忽略了主動關懷的重要性。假裝沒看到或玩手機是逃避責任的表現。",
       "quality_level": "L3",
-      "cqi_score": 6,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -392,7 +392,7 @@
       "question": "根據小傑的觀察，醫院這個生活空間，為何需要這麼多不同職位的人共同努力？",
       "options": [
         "B. 因為醫院的工作非常複雜，需要專業分工來照顧病患並維持運作",
-        "C. 這些人都是來醫院探病的家屬，不是員工，並且需要經過深思熟慮的考量。",
+        "C. 這些人都是來醫院探病的家屬，不是員工",
         "A. 為了讓醫院看起來更熱鬧，吸引更多人來",
         "D. 只是為了讓每個部門都有足夠的人手，沒有特別原因"
       ],
@@ -400,9 +400,9 @@
       "explanation": "醫院提供醫療服務，涉及診斷、治療、護理、藥物管理、環境衛生等，這些都需要高度專業且細緻的分工合作，才能確保病患得到完善的照顧和醫院的順暢運作。",
       "commonMisconception": "學生可能只看到人多，而沒有深入思考背後的原因，誤以為是為了熱鬧或隨意安排。未能理解醫院工作的複雜性與專業分工的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6.5,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -414,15 +414,15 @@
         "A. 提供住宿和餐飲服務",
         "C. 專門販賣生活用品和紀念品",
         "B. 讓大家欣賞藝術、學習歷史文化知識",
-        "D. 提供戶外遊樂設施和表演，這點在實務上很重要。"
+        "D. 提供戶外遊樂設施和表演"
       ],
       "answer_index": 2,
       "explanation": "博物館的主要功能是保存、展示文物和藝術品，並透過講解等方式，讓參觀者學習歷史文化知識，欣賞人類文明的成就。",
       "commonMisconception": "學生可能因為博物館有紀念品店而誤以為販賣是主要功能，或者將其與其他娛樂場所混淆。但情境描述明確指向文物和歷史學習。",
       "quality_level": "L3",
-      "cqi_score": 5.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -431,7 +431,7 @@
       "scenario": "市場功能",
       "question": "【在週末的早晨，小華跟著媽媽到市場買菜時】他看到市場裡有好多攤位，賣著新鮮的蔬菜、水果和肉類。市場這樣的地方，最主要的功能是什麼呢？",
       "options": [
-        "讓小朋友可以盡情玩耍。，這點在實務上很重要。",
+        "讓小朋友可以盡情玩耍。",
         "提供一個安靜的讀書環境。",
         "舉辦大型表演活動。",
         "讓大家可以買到日常生活中需要的物品。"
@@ -440,9 +440,9 @@
       "explanation": "市場的主要功能是提供人們購買日常所需物品的場所，例如蔬菜、水果、肉類等，以滿足生活需求。",
       "commonMisconception": "學生可能將市場的功能與公園（玩耍）、圖書館（讀書）或表演場所（表演活動）的功能混淆，未能辨識不同生活空間的核心用途。",
       "quality_level": "L5",
-      "cqi_score": 6.75,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -452,7 +452,7 @@
       "question": "【在陽光普照的午後，小美和家人一起到社區公園散步時】她看到公園裡有溜滑梯、盪鞦韆，還有許多人在草地上野餐、跑步。公園這樣的地方，最主要的功能是什麼呢？",
       "options": [
         "提供人們運動休閒和放鬆身心的地方。",
-        "販售各種生活用品。，並且需要經過深思熟慮的考量。",
+        "販售各種生活用品。",
         "讓學生上課學習知識。",
         "製造工廠產品。"
       ],
@@ -460,9 +460,9 @@
       "explanation": "公園是提供居民進行運動、休憩、野餐等活動的場所，旨在讓大家放鬆身心，享受戶外時光。",
       "commonMisconception": "學生可能將公園的功能與市場（販售用品）、學校（學習知識）或工廠（製造產品）的功能混淆，未能區分不同生活空間的服務性質。",
       "quality_level": "L5",
-      "cqi_score": 6.75,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -474,15 +474,15 @@
         "舉辦大型演唱會的地方。",
         "讓大家可以購買生活用品的地方。",
         "提供孩子學習新知、發展能力的地方。",
-        "讓大人們工作賺錢的地方。，這也是作者想強調的重點之一。"
+        "讓大人們工作賺錢的地方。"
       ],
       "answer_index": 2,
       "explanation": "學校是專門為孩子們設計的學習環境，主要功能是傳授知識、培養技能，並促進學生全面發展。",
       "commonMisconception": "學生可能將學校的功能誤認為是娛樂場所（演唱會）、工作場所（賺錢）或商店（購買用品），未能理解學校在教育方面的核心價值。",
       "quality_level": "L5",
-      "cqi_score": 6.75,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -491,7 +491,7 @@
       "scenario": "住家與商店的區別",
       "question": "【小芳和爸爸媽媽一起回家時】她發現家裡附近的街道上，有些建築物是住家，但也有一些是賣早餐、賣文具的商店。住家和商店這兩種不同的空間，最主要的差別在哪裡呢？",
       "options": [
-        "住家只能晚上住，商店只能白天開。，這點在實務上很重要。",
+        "住家只能晚上住，商店只能白天開。",
         "住家都很大，商店都比較小。",
         "住家沒有窗戶，商店才有窗戶。",
         "住家主要是讓人居住和休息，商店主要是提供商品或服務。"
@@ -500,9 +500,9 @@
       "explanation": "住家是個人或家庭生活、休息的私密空間；商店則是提供商品買賣或服務的商業空間，兩者的主要功能不同。",
       "commonMisconception": "學生可能從表面現象（大小、外觀）或不完全正確的經驗（營業時間）來判斷，而忽略了住家與商店在功能和用途上的本質差異。",
       "quality_level": "L5",
-      "cqi_score": 7.25,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -512,7 +512,7 @@
       "question": "【小傑發現他家附近的大樓，一樓是便利商店和診所，二樓以上則是住家時】這種一棟建築物裡有不同功能的設計，代表著什麼樣的生活空間特色呢？",
       "options": [
         "這裡的生活機能很方便，可以同時滿足居住和生活需求。",
-        "這是為了節省建築材料的設計。，並且需要經過深思熟慮的考量。",
+        "這是為了節省建築材料的設計。",
         "只有有錢人才住得起這樣的大樓。",
         "這樣會讓住家很吵，不適合居住。"
       ],
@@ -520,9 +520,9 @@
       "explanation": "一棟建築物兼具商店、診所和住家功能，表示該區域的生活機能完善，居民在居住的同時也能方便地滿足購物和醫療等日常需求。",
       "commonMisconception": "學生可能從單一角度（如噪音）或不相關因素（如財富、建築成本）來判斷，未能綜合考量這種設計所帶來的整體便利性和多元性，屬於同理心投射或合理化迷思。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -534,15 +534,15 @@
         "圖書館會讓社區變得更熱鬧，吸引更多商店進駐。",
         "這樣可以增加社區的停車位，解決停車問題。",
         "社區居民可以有更多地方學習新知識、閱讀書籍。",
-        "圖書館會讓社區的房價變高。，並且需要經過深思熟慮的考量。"
+        "圖書館會讓社區的房價變高。"
       ],
       "answer_index": 2,
       "explanation": "圖書館最主要的功能是提供知識資源和閱讀空間，因此對社區最直接且合理的好處是豐富居民的學習和閱讀機會。",
       "commonMisconception": "學生可能將非直接或次要的影響（如帶動商業、增加停車位、影響房價）誤認為主要好處，未能辨識圖書館的核心價值與功能。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -552,7 +552,7 @@
       "question": "【小偉在社區裡散步，看到了郵差叔叔在送信，麵包店阿姨在烤麵包，還有清潔隊員在打掃街道時】這些不同的人在不同的地方努力工作，說明了我們的生活空間有什麼樣的特色呢？",
       "options": [
         "我們的生活空間是由許多不同功能的地方和分工合作的人們組成的。",
-        "這些工作都非常辛苦，所以大家都要互相幫忙。，這點在實務上很重要。",
+        "這些工作都非常辛苦，所以大家都要互相幫忙。",
         "只有大人才能在社區裡工作，小孩子不行。",
         "這些地方都離小偉家很近，所以他才能看到。"
       ],
@@ -560,9 +560,9 @@
       "explanation": "郵差、麵包師傅、清潔隊員等不同職業的人在各自的空間中提供服務，共同構成了社區多元的功能和分工合作的社會樣貌。",
       "commonMisconception": "學生可能只關注表面的、個人的感受（辛苦）或不相關的細節（離家近），未能從這些現象中歸納出生活空間的多元功能和社會分工的本質。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -574,15 +574,15 @@
         "假裝沒看到，反正不關自己的事。",
         "大聲罵他們，讓他們知道自己錯了。",
         "輕聲提醒同學，圖書館需要保持安靜，並告知管理員。",
-        "加入他們一起玩，因為這樣比較有趣。，這也是作者想強調的重點之一。"
+        "加入他們一起玩，因為這樣比較有趣。"
       ],
       "answer_index": 2,
       "explanation": "在公共場所遇到不當行為時，應以溫和的方式提醒，並在必要時尋求管理人員的協助，這是尊重他人權益並維護公共秩序的理性做法。",
       "commonMisconception": "學生可能選擇過激（大聲罵）或消極（假裝沒看到）的反應，或被當下的樂趣（加入玩耍）所吸引，未能考量公共空間的規範和解決問題的有效策略，屬於同理心投射或合理化迷思。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     },
@@ -592,7 +592,7 @@
       "question": "【小鎮上要規劃興建一個新的兒童遊戲場，大部分小朋友都很期待，但也有一些住在遊戲場附近的居民擔心會太吵，影響到他們的休息時】為了讓這個遊戲場能順利建成，並且讓所有居民都滿意，大家應該如何討論和解決這個問題呢？",
       "options": [
         "召開居民大會，讓大家說出自己的想法，一起尋找兼顧玩樂與安寧的解決方案。",
-        "只要小朋友喜歡就好，不用管大人的意見。，這點在實務上很重要。，並且需要經過深思熟慮的考量。",
+        "只要小朋友喜歡就好，不用管大人的意見。",
         "請鎮長直接決定，不要讓大家爭吵。",
         "乾脆不要蓋了，這樣就不會吵到別人。"
       ],
@@ -600,11 +600,13 @@
       "explanation": "面對社區發展的兩難，最好的方法是透過民主協商，讓不同立場的居民充分表達意見，共同尋求能兼顧各方需求的平衡點與解決方案。",
       "commonMisconception": "學生可能只考慮單方利益（小朋友喜歡）、採取消極放棄（不要蓋了）或訴諸權威（鎮長決定）的方式，未能理解社區事務應透過溝通協調來達成共識，屬於同理心投射或認知迷思。",
       "quality_level": "L5",
-      "cqi_score": 8,
-      "blind_evaluation": true,
+      "cqi_score": 5,
       "authoring_model": "Gemini-2.5-Pro",
+      "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
     }
-  ]
+  ],
+  "last_updated": "2026-03-23 01:50",
+  "updated_by": "Antigravity"
 }

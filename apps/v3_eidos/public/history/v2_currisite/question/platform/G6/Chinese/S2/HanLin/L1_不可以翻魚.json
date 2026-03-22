@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "grade": "grade_6",
+    "semester": "semester_2",
+    "subject": "Chinese",
+    "publisher": "翰林",
+    "title": "不可以翻魚",
+    "lesson": "L1",
+    "order": 1
+  },
+  "questions": [
+    {
+      "question": "【在分析家庭文化時】文中提到家人對「翻魚」的禁忌，這種禁忌在現代生活中最合理的詮釋是什麼？",
+      "options": [
+        "一種基於航海安全考量的迷信，雖然科學上無據，但承載了對家人的祈福。",
+        "一種嚴格的用餐禮儀規範，目的是訓練孩子在長輩面前保持端正的吃相。",
+        "一種家族遺傳的特殊習慣，主要是為了區分自己家族與其他家族的不同。",
+        "一個具體的科學定律，證明翻動魚身會直接導致遠方船隻發生翻覆意外。"
+      ],
+      "answer_index": 0,
+      "explanation": "文中的「不可以翻魚」源於漁民家族對平安的渴望。雖然在現代科學看來是迷信，但本質上是家庭成員表達關心、祈求平安的一種儀式感與文化傳承。",
+      "scenario": "探討傳統迷信在現代家庭中的意義轉化與情感價值。",
+      "commonMisconception": "學生易誤選[B]，將「文化禁忌」與單純的「餐桌禮儀」完全等同。",
+      "taxonomy": "inferential",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】作者在描述家人發現魚被翻動時的反應，運用了哪一種寫法來增強文章的感染力？",
+      "options": [
+        "沈默冷淡的側面描寫，讓讀者感受到家庭關係的疏離。",
+        "誇張幽默的戲劇化描述，反襯出家人對這份禁忌的重視。",
+        "長篇大論的科學論證，試圖說服讀者翻魚確實非常危險。",
+        "憤怒嚴厲的責備口吻，展現出威權家庭中無法撼動的規矩。"
+      ],
+      "answer_index": 1,
+      "explanation": "作者透過帶點幽默色彩的描述，將原本沈重的禁忌轉化為溫馨又帶點趣味的家庭記憶，讓讀者感受到禁忌背後濃濃的愛而非恐懼。",
+      "scenario": "分析作者的寫作風格與情感調適能力。",
+      "commonMisconception": "學生若忽略「幽默」的語調，可能會誤選[D]，認為這只是在描寫一種嚴厲的傳統。",
+      "taxonomy": "inferential",
+      "cqi_score": 7.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【在解讀文章主旨時】「不可以翻魚」這類禁忌在文中最終帶給作者什麼樣的啟發？",
+      "options": [
+        "學會了如何正確地品嚐魚料理，並能熟練地挑去魚刺。",
+        "體會到規矩的重要性，認為每個人都應該嚴格遵守迷信。",
+        "理解到禁忌背後的溫情，那是一種對生命平安的誠摯守護。",
+        "決定不再吃任何魚類，以免自己在無意間又觸犯了禁忌。"
+      ],
+      "answer_index": 2,
+      "explanation": "作者從最初的困惑、被糾正，到最後理解這不只是迷信，更是家人彼此連結、祈求對方平安的一種方式。",
+      "scenario": "歸納文章的情感昇華點，完成從「規範」到「情感」的理解轉移。",
+      "commonMisconception": "學生易停留在「行為遵守」[B]，而未察覺文章的核心在於「守護之情」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落細節】文中敘述者提到「我卻在眾人的驚呼聲中，利落地把魚翻了過來」，這段情節在全篇結構中起到什麼作用？",
+      "options": [
+        "製造衝突點，引發後續家人反應與作者思維轉變的關鍵導火線。",
+        "介紹作者高超的用餐技巧，證明他是一個勇於嘗試新事物的人。",
+        "顯示作者是一個不合群的人，刻意想在聚會中挑戰家人的威信。",
+        "這是一個多餘的情節，刪除後並不影響讀者對整篇文章的理解。"
+      ],
+      "answer_index": 0,
+      "explanation": "這是一個典型的「事件觸發」，打破了原本的和諧與規矩，從而帶出後續對禁忌意義的深入探討。",
+      "scenario": "考驗對敘事結構中「情節轉折」與「推動作用」的解析能力。",
+      "commonMisconception": "學生可能誤以為這只是在描寫一個「動作」[B]，而忽略了文學創作中的結構功能。",
+      "taxonomy": "inferential",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【如果從多元文化角度審視】對於不同家庭之間有著截然不同的「禁忌」或「儀式」，下列哪一個觀念最符合文章傳達的開放精神？",
+      "options": [
+        "我們應該大力檢舉那些不合科學的迷信，以維持社會進步。",
+        "每個人的家庭背景不同，尊重並理解其背後的情感意涵。",
+        "為了通訊方便，全國應該統一規定所有的禁忌與餐桌禮儀。",
+        "只要看到對方有與自己不同的習慣，就應該立即糾正對方。"
+      ],
+      "answer_index": 1,
+      "explanation": "文章雖然寫的是「禁忌」，但最終引導讀者看到的是那份溫柔的關懷，因此對於不同的文化習慣，應具備包容與理解的素養。",
+      "scenario": "將課文內容遷移至「跨文化理解」與「尊重差異」的公民素養。",
+      "commonMisconception": "學生可能選[A]，過度強調「科學正確」而忽略了「文化尊重」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

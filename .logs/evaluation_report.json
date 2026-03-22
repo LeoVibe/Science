@@ -4,25 +4,25 @@
     "totalQuestions": 330,
     "qualityDist": {
       "L5": 0,
-      "L4": 7,
-      "L3": 4,
+      "L4": 4,
+      "L3": 1,
       "L2": 0,
       "L1": 0,
       "BROKEN": 0,
-      "L1 (BIAS)": 0
+      "L1 (BIAS)": 6
     },
     "byPublisher": {
       "HanLin": {
         "files": 11,
         "questions": 330,
-        "avgCQI": "6.37"
+        "avgCQI": "5.65"
       }
     }
   },
   "details": [
     {
-      "quality": "L3",
-      "avgCqi": "6.08",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "4.82",
       "count": 30,
       "taxCount": {
         "literal": 23,
@@ -31,11 +31,11 @@
       },
       "answerDist": {
         "0": 7,
-        "1": 8,
+        "1": 7,
         "2": 9,
-        "3": 6
+        "3": 7
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 63% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -48,8 +48,8 @@
       "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U1.json"
     },
     {
-      "quality": "L4",
-      "avgCqi": "6.71",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "5.08",
       "count": 30,
       "taxCount": {
         "literal": 20,
@@ -62,7 +62,7 @@
         "2": 10,
         "3": 5
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -75,8 +75,8 @@
       "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U2.json"
     },
     {
-      "quality": "L4",
-      "avgCqi": "7.03",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "5.75",
       "count": 30,
       "taxCount": {
         "literal": 21,
@@ -89,7 +89,7 @@
         "2": 4,
         "3": 8
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 63% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -102,8 +102,8 @@
       "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U3.json"
     },
     {
-      "quality": "L3",
-      "avgCqi": "6.68",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "5.26",
       "count": 30,
       "taxCount": {
         "literal": 17,
@@ -112,11 +112,11 @@
       },
       "answerDist": {
         "0": 8,
-        "1": 9,
-        "2": 7,
+        "1": 8,
+        "2": 8,
         "3": 6
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 73% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -129,8 +129,8 @@
       "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U4.json"
     },
     {
-      "quality": "L4",
-      "avgCqi": "6.97",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "6.10",
       "count": 30,
       "taxCount": {
         "literal": 19,
@@ -143,7 +143,7 @@
         "2": 7,
         "3": 9
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 47% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
@@ -156,8 +156,8 @@
       "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U5.json"
     },
     {
-      "quality": "L3",
-      "avgCqi": "6.56",
+      "quality": "L1 (BIAS)",
+      "avgCqi": "5.05",
       "count": 30,
       "taxCount": {
         "literal": 20,
@@ -170,7 +170,7 @@
         "2": 12,
         "3": 4
       },
-      "biasWarning": null,
+      "biasWarning": "選項長度偏差: 77% 的正確答案為最長選項",
       "researchCeiling": "L4",
       "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {

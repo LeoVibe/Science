@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "grade": "grade_6",
+    "semester": "semester_2",
+    "subject": "Chinese",
+    "publisher": "康軒",
+    "title": "把愛傳下去",
+    "lesson": "L2",
+    "order": 2
+  },
+  "questions": [
+    {
+      "question": "【分析記敘文動機】文中的認養人並非都是大富大貴的人，有些甚至是辛苦工作的普通人。作者強調這一點的主要目的是什麼？",
+      "options": [
+        "嘲笑有錢人都不願意捐款，只有窮人才會互相幫助。",
+        "展現只要有心，每個人都能成為改變他人生命的力量。",
+        "提醒讀者如果自己不夠有錢，就千萬不要隨便幫助別人。",
+        "證明這是一篇關於個人理財的教學文章，教大家如何節省預算。"
+      ],
+      "answer_index": 1,
+      "explanation": "這是在建立「善的普適性」。如果只有富有的人能行善，善行就變成了一種專權；作者強調普通人的參與，是為了讓讀者感到自己也能有所貢獻。",
+      "scenario": "解析記敘文中關於「人物設定」對中心主旨（普世價值）的支撐作用。",
+      "commonMisconception": "學生容易選[A]，陷入階級對立的狹隘思考，而忽略了本文提倡的「大愛無疆」。",
+      "taxonomy": "inferential",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀「傳遞」的連鎖效應】當曾經受助的孩子長大後也成為認養人，這種行為在文中被賦予了什麼樣的象徵意義？",
+      "options": [
+        "證明這是一場完美的商業投資，最終一定會收回所有的成本。",
+        "象徵生命的韌性與愛心的生生不息，形成一個正向的循環迴圈。",
+        "顯示這些人可能有強迫症，必須透過重複相同的行為才能感到安心。",
+        "這是一種報復心態，他們想要證明自己長大後比原本的認養人更有錢。"
+      ],
+      "answer_index": 1,
+      "explanation": "「受助」轉為「助人」是本文回饋社會的核心論點。這不僅是物資的回報，更是精神價值的薪火相傳。",
+      "scenario": "分析故事情節中「角色身份轉換」所蘊含的社會心理意義。",
+      "commonMisconception": "學生若陷入功利主義選[A]，反應出對非營利組織運作核心（純粹利他）的理解不足。",
+      "taxonomy": "analysis",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析文章的情感語氣】作者在描述認養人與孩子初次見面的場景時，運用了大量的細節（如眼神、手心的溫度）。這種寫法有什麼功能？",
+      "options": [
+        "增加讀者的感官防禦，提醒讀者不要隨便與陌生人握手。",
+        "透過細膩的感官描寫，讓讀者感同身受那種超越血緣的暖心連結。",
+        "這是為了要拖慢故事的節奏，因為作者當時想不出接下來要寫什麼。",
+        "顯示作者是一個非常嚴厲的觀察者，任何小缺失都不會放過。"
+      ],
+      "answer_index": 1,
+      "explanation": "散文追求「情真」。細節是情感的載體。眼神與溫度能將抽象的「愛」轉化為具體的「共感」，極具感染力。",
+      "scenario": "探討具象描寫（眼神、溫度）在強化「情感共鳴」上的文學手段。",
+      "commonMisconception": "容易選[C]，對於文學中的「緩慢敘事」缺乏美學覺察，誤以為是廢話。",
+      "taxonomy": "analysis",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 8,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【評估行為的社會價值】在現今冷漠的數位社會中，文中提到的「認養計畫」具有哪一種最重要的修復功能？",
+      "options": [
+        "修復電腦軟體的漏洞，讓大家上網的速度變得更快、更穩定。",
+        "修復人與人之間日益斷裂的互信關係，重新建立起社會安全感。",
+        "修復破舊的校舍，讓每個孩子都能在豪華的別墅裡上學。",
+        "修復過時的法律條文，確保每個人都能獲得大量的免費獎勵。"
+      ],
+      "answer_index": 1,
+      "explanation": "這測驗學生對文本社會價值的延伸評估。認養不只是給錢，更是建立「連結」。[B] 選項對應了社會資本的重構。",
+      "scenario": "評估文本主旨在現代社會環境下的具體修復價值（PIRLS 層次 4）。",
+      "commonMisconception": "學生易選[C]，停留在純粹的物質改善，而忽略了心理與社會層面的重建。",
+      "taxonomy": "evaluative",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨領域整合】如果以此課主旨發起一場「校園微行動」，下列哪一種做法最符合「傳下去」的精神？",
+      "options": [
+        "把自己的作業直接抄給同學，讓全班一起享受不用努力的快樂。",
+        "學長姐整理筆記或分享經驗，幫助剛入學的學弟妹更快適應校園生活。",
+        "將全班的午餐全都藏起來，讓大家體驗看看飢餓是什麼樣的感覺。",
+        "在操場上大聲喊出自己的名字，並要求所有的同學都要記住自己。"
+      ],
+      "answer_index": 1,
+      "explanation": "「傳下去」的核心是「利他」與「傳承」。[B] 選項體現了利用自身資源幫助後來者的正向價值。",
+      "scenario": "將文本理念轉化為校園具體行動方案（PIRLS 層次 4）。",
+      "commonMisconception": "學生容易選[A]，誤解「幫助」的定義，將違規行為與互助混淆。",
+      "taxonomy": "applied",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 5.5,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

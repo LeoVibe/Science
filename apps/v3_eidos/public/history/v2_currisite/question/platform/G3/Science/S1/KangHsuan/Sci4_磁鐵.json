@@ -10,14 +10,18 @@
   },
   "questions": [
     {
+      "id": "Sci4_KH_001",
+      "type": "true_false",
+      "question": "磁鐵可以吸引所有的金屬，包含金、銀、銅嗎？",
       "options": [
         "是",
         "否"
       ],
       "answer": "False",
       "explanation": "主要吸鐵、鎳、鈷，不能吸金、銀、銅。",
-      "cqi_score": 2,
-      "quality_level": "L1"
+      "is_active": true,
+      "cqi_score": 2.75,
+      "quality_level": "L4"
     }
   ]
 }

@@ -21,7 +21,7 @@
       ],
       "answer": "五百零四萬零三百",
       "explanation": "每四位一撇（萬位級）：504,0300，即五百零四萬、零、三百。",
-      "cqi_score": 7,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "10 個一萬是十萬，10 個十萬是一百萬。",
       "answer": "True",
       "explanation": "位值的十進律：萬 -> 十萬 -> 百萬 -> 千萬 -> 億。",
-      "cqi_score": 4,
+      "cqi_score": 2.25,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "「三千萬零六百」記作______。",
       "answer": "30000600",
       "explanation": "千萬位是 3，百位是 6，其餘補 0。",
-      "cqi_score": 4,
+      "cqi_score": 3.25,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "87,000,000",
       "explanation": "位數多者較大，前者是八位數，後者是七位數。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "2,000,000",
       "explanation": "「2」位在百萬位，故代表二百萬。",
-      "cqi_score": 8.5,
+      "cqi_score": 6.25,
       "quality_level": "L4"
     }
   ]

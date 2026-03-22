@@ -21,7 +21,7 @@
       ],
       "answer": "小數點對齊",
       "explanation": "對齊小數點可以確保相同位數的數值進行運算。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "計算 0.5 + 0.6 的結果是 1.1。",
       "answer": "True",
       "explanation": "5 + 6 = 11，進位後為 1.1。",
-      "cqi_score": 4,
+      "cqi_score": 2,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "計算 3.45 - 1.25 = ______。",
       "answer": "2.2",
       "explanation": "3.45 - 1.25 = 2.20，末尾 0 可省略。",
-      "cqi_score": 4,
+      "cqi_score": 2,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "5.75 公尺",
       "explanation": "10.50 - 4.75 = 5.75。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "0.01",
       "explanation": "1.00 - 0.99 = 0.01。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]
