@@ -17,7 +17,7 @@ export const SESSION_ADMIN_API_REMOTE = 'eidos_admin_api_remote';
  * 正式 Worker 基底（建置未注入 VITE_API_URL 時，靜態託管網域不可當 API）
  * 與 deploy.yml / env.production.example 一致。
  */
-const FALLBACK_PRODUCTION_API_URL = 'https://eidos-api.eidos.workers.dev';
+const FALLBACK_PRODUCTION_API_URL = 'https://eidos-api.eidosedu.workers.dev';
 
 function isStaticSiteHost(hostname: string): boolean {
   return (

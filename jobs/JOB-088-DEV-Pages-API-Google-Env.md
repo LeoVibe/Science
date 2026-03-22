@@ -9,7 +9,7 @@
 
 ## 修正
 
-- `api.ts`：`*.pages.dev` / `*.github.io` 改為後備 `https://eidos-api.eidos.workers.dev`。
+- `api.ts`：`*.pages.dev` / `*.github.io` 改為後備 `https://eidos-api.eidosedu.workers.dev`。
 - `deploy.yml`：建置注入 `VITE_GOOGLE_CLIENT_ID: ${{ secrets.VITE_GOOGLE_CLIENT_ID }}`。
 - `docs/Cloudflare-Pages-與正式站環境變數.md`、`env.production.example` 補充說明。
 

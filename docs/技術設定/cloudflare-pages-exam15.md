@@ -35,14 +35,14 @@
 
 1. 開啟 https://exam15.pages.dev/
 2. 確認頁面完整載入（非白畫面）、導航與登入正常。
-3. 開啟開發者工具 → Network：確認 `assets/*.js` 等為 200，且 API 請求指向 `https://eidos-api.eidos.workers.dev`。
+3. 開啟開發者工具 → Network：確認 `assets/*.js` 等為 200，且 API 請求指向 `https://eidos-api.eidosedu.workers.dev`。
 
 ## 與 GitHub Pages 的差異
 
 | 項目 | GitHub Pages | Cloudflare Pages (exam15.pages.dev) |
 |------|--------------|----------------------------------------|
 | Base | `VITE_APP_BASE=/Science/` | `VITE_APP_BASE=/` |
-| API | `VITE_API_URL=https://eidos-api.eidos.workers.dev` | 同上 |
+| API | `VITE_API_URL=https://eidos-api.eidosedu.workers.dev` | 同上 |
 | 建置來源 | `.github/workflows/deploy.yml` | Cloudflare Pages 後台 Build 設定 |
 
 兩邊都使用同一個 Production API：**https://eidos-api.eidosedu.workers.dev**。

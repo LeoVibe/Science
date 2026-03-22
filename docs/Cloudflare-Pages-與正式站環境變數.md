@@ -13,7 +13,7 @@
 
 | 變數 | 說明 |
 |------|------|
-| `VITE_API_URL` | `https://eidos-api.eidos.workers.dev` |
+| `VITE_API_URL` | `https://eidos-api.eidosedu.workers.dev` |
 | `VITE_GOOGLE_CLIENT_ID` | Google Cloud OAuth 2.0 網頁應用程式 Client ID |
 | `VITE_APP_BASE` | 根路徑部署用 `/` |
 
