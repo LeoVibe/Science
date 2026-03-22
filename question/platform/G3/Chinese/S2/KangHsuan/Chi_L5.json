@@ -24,7 +24,11 @@
       "explanation": "課文設定主角是第一次獨自行動，導致對環境陌生而迷路。",
       "commonMisconception": "學生可能會憑空想像其他迷路原因，而忽略課文直接點出的「第一次獨自出門」。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "id": "Chi_L5_KH_002",
@@ -41,7 +45,11 @@
       "explanation": "「雖然...可是...」是 L5 的核心轉折句型，準確描述了主角「內心急迫」與「行動退縮」的矛盾心理。",
       "commonMisconception": "學生可能混淆因果句（因為...所以...）或遞進句（不僅...還...），忽略了主角內心的掙扎衝突。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "id": "Chi_L5_KH_003",
@@ -58,7 +66,17 @@
       "explanation": "課文強調田鼠問路時的「停下」與「禮貌詢問」，這是小主角學習的關鍵行為。",
       "commonMisconception": "學生可能誤選其他動物的本能行為（如氣味標記），而非課文描述的社交行為。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容嚴重不符，課文主題為皮爾森雪地開路，非田鼠問路，此題為無效題目。",
+        "review_status": "pending"
+      }
     },
     {
       "id": "Chi_L5_KH_004",
@@ -75,6 +93,10 @@
       "explanation": "害怕卻依然行動，屬於語氣上的轉折，故使用「雖然...但是...」。",
       "commonMisconception": "學生易混淆為因果句，但害怕通常會導致退縮，此處是反向行為。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 5.5
     },
     {
@@ -92,7 +114,11 @@
       "explanation": "溝通禮貌的核心在於「尊重的開頭（打招呼）」與「清晰的表達」，這是 L5 的教學重點。",
       "commonMisconception": "學生可能將「效率」或「酬勞」誤認為禮貌，忽略了人際互動的基本尊重。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "id": "Chi_L5_KH_006",
@@ -100,7 +126,7 @@
       "scenario": "角色的轉變原因",
       "question": "為什麼小主角看到田鼠問路後，會產生「如果不問路，我也會一直迷路」的轉折想法？",
       "options": [
-        "因為他發現迷路其實是一件很有趣的事情。",
+        "宣稱發現迷路其實是一件很有趣的事情。",
         "因為他意識到田鼠的勇敢解決了問題，而自己的害羞卻無法解決問題。",
         "因為他覺得田鼠長得很可愛，所以想跟牠做朋友。",
         "因為他發現田鼠問路的方向剛好跟他家相反。"
@@ -109,7 +135,17 @@
       "explanation": "這體現了主角從「情緒化焦慮」轉向「理性解決問題」的內在轉折，是成長的關鍵。",
       "commonMisconception": "學生可能將重點放在表面特徵（可愛、方向），而忽略了角色行為模式的對比分析。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課文內容嚴重不符，課文主題為皮爾森雪地開路，非田鼠問路，此題為無效題目。",
+        "review_status": "pending"
+      }
     },
     {
       "id": "Chi_L5_KH_007",
@@ -126,7 +162,11 @@
       "explanation": "選項B包含了禮貌問候、明確問題，符合課文倡導的正向溝通策略。",
       "commonMisconception": "學生可能選用命令式（A）或情緒勒索式（C）的說法，這些都不符合課文教育主旨。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "id": "Chi_L5_KH_008",
@@ -143,6 +183,10 @@
       "explanation": "課文核心在於「禮貌」與「勇氣」的結合，以解決生活中的實際困難。",
       "commonMisconception": "學生可能產生「別人一定會幫忙」的絕對化誤區，而忽略了個人的溝通素養。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 2.5
     },
     {
@@ -160,7 +204,11 @@
       "explanation": "「紅著臉」是典型的生理反應，象徵主角在害羞與勇氣之間的內心掙扎與突破。",
       "commonMisconception": "學生可能停留在字面上的生理現象（中暑、顏色），無法進行文學意象的推論。",
       "quality_level": "L3",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "id": "Chi_L5_KH_010",
@@ -177,7 +225,11 @@
       "explanation": "故事的結尾通常會回扣主題，強調「學會」某種技能或心態。在此為學會問路的溝通智慧。",
       "commonMisconception": "學生可能過度關注負面情緒（不想出門）或誇張化田鼠的角色（魔術師）。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "id": "Chi_L5_KH_011",
@@ -194,7 +246,11 @@
       "explanation": "「觀察」是智慧的體現，代表問路不只是開口，還包含環境判斷策略。",
       "commonMisconception": "忽略行為背後的目的性，視為隨機或無意義的舉動。",
       "quality_level": "L3",
-      "cqi_score": 2.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "id": "Chi_L5_KH_012",
@@ -211,7 +267,11 @@
       "explanation": "轉折句必須有對立面。「高」與「長滿葉子」並無對立關係，不應使用轉折句型。",
       "commonMisconception": "學生常只要看到句子通順就認為正確，忽略了邏輯上的「轉折」必要性。",
       "quality_level": "L3",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7
     },
     {
       "id": "Chi_L5_KH_013",
@@ -228,7 +288,11 @@
       "explanation": "故事強調禮貌，道謝是完成社交閉環的重要部分。",
       "commonMisconception": "容易忽略故事中細小的「禮貌」橋段。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "id": "Chi_L5_KH_014",
@@ -245,6 +309,10 @@
       "explanation": "將課文「勇敢求助」的道理應用到實際生活中的迷路情境，引導學生思考在現實中如何應對。",
       "commonMisconception": "學生可能選擇被動等待或情緒化反應，沒有將課文的啟示轉化為實際的行動策略。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3.5
     }
   ]

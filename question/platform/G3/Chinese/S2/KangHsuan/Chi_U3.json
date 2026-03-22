@@ -20,7 +20,11 @@
       "explanation": "「低干擾」與「守護」是環保育才的核心目標。",
       "commonMisconception": "選到佔有型（帶走石頭）或破壞型（刻名）的旅遊模式。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -36,7 +40,11 @@
       "explanation": "「尊重與聆聽自然」是本單元的價值核心。",
       "commonMisconception": "功利視角或破壞視角。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -52,7 +60,11 @@
       "explanation": "課文通常會描述水受熱後會蒸發變成水蒸氣，這是水循環的第一步。",
       "commonMisconception": "學生可能將水蒸氣與水珠、雨滴混淆，認為水被曬熱後直接變成可見的水珠或雨滴，而忽略了中間的氣態過程。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
@@ -68,7 +80,11 @@
       "explanation": "「眨眼睛」是擬人化的寫法，形容星星的光芒看起來忽明忽滅，給人一種生動、神祕的感覺，引導讀者感受大自然的奧秘。",
       "commonMisconception": "學生可能誤以為星星真的有生命，或是只停留在字面上的「數量多」或「仔細觀察」，而沒有理解到作者透過擬人化表達的「神祕感」。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
@@ -84,7 +100,11 @@
       "explanation": "課文會解釋葉綠素是植物進行光合作用、吸收陽光並呈現綠色的關鍵物質。",
       "commonMisconception": "學生可能誤認為是根部吸收陽光，或是莖部負責綠色，而沒有正確理解葉綠素的功能。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "critical",
@@ -100,7 +120,11 @@
       "explanation": "大自然的奧秘通常被用來激發學生的好奇心和探索精神，鼓勵他們主動學習和思考，而非僅僅是娛樂或尋寶。",
       "commonMisconception": "學生可能停留在比較表面的意義，例如覺得只是有趣、好玩，或是誤解為尋找特定資源，而沒有觸及到「探索與學習」的深層意義。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -116,7 +140,11 @@
       "explanation": "「看不見的魔法師」強調風雖然摸不著、看不見，卻能帶來各種變化和影響，就像魔法一樣神祕莫測。",
       "commonMisconception": "學生可能被「魔法師」一詞誤導，認為風真的有魔法，或是只看到表面的「讓樹木跳舞」的現象，而忽略了「看不見」和「變化多端」的本質。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -132,7 +160,11 @@
       "explanation": "彩虹是陽光穿透空氣中的水滴，經過折射和反射後形成的自然現象。",
       "commonMisconception": "學生可能對彩虹的形成機制不清楚，誤以為是陽光照射到雲朵或灰塵上。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "contextual",
@@ -148,7 +180,11 @@
       "explanation": "冬眠是動物適應環境的一種方式，主要目的是在寒冷且食物匱乏的季節，透過降低新陳代謝來保存能量和體力。",
       "commonMisconception": "學生可能只想到「太冷想睡覺」這個表面原因，或誤以為是為了躲避天敵，而沒有理解到冬眠背後「節省體力、度過食物稀少」的生存智慧。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
     },
     {
       "taxonomy": "inferential",
@@ -164,7 +200,11 @@
       "explanation": "「如歌」、「花香」等詞語表達了作者對大自然美好、和諧的感受，認為大自然充滿了令人愉悅的聲音和氣味。",
       "commonMisconception": "學生可能只注意到聲音，而忽略了「如歌」所傳達的美感，甚至誤解為吵雜。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -180,7 +220,11 @@
       "explanation": "地球上大部分的水是鹹水，以海水形式存在，無法直接飲用。",
       "commonMisconception": "學生可能知道水很多，但對「不能直接飲用」的原因或主要形式不清楚，可能誤選其他淡水來源。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "critical",
@@ -196,7 +240,11 @@
       "explanation": "保護大自然不僅是為了美觀，更是因為大自然提供了人類生存所需的空氣、水、食物等資源，是人類賴以生存的基礎。",
       "commonMisconception": "學生可能基於泛靈論或比較表面的原因（如美觀、旅遊）來解釋，而沒有理解到大自然與人類生存的深層連結。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "contextual",
@@ -212,7 +260,11 @@
       "explanation": "這段話透過描述四季不同的景色，展現了大自然隨著時間推移而呈現出的規律性變化和生命力。",
       "commonMisconception": "學生可能只看到季節的顏色或氣溫差異，而沒有抓到「規律變化」這個核心概念。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -228,7 +280,11 @@
       "explanation": "積雲常被形容為棉花糖狀，且通常出現在晴朗的天氣中。",
       "commonMisconception": "學生可能對不同雲朵的名稱和特徵不熟悉，容易混淆。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -244,7 +300,11 @@
       "explanation": "「大自然是最好的老師」是指大自然中蘊含著豐富的知識、生命哲理和自然規律，能給予我們啟發和教導。",
       "commonMisconception": "學生可能從字面上理解為真的要去大自然上學，或將其簡化為「快樂」或「寫功課」等不恰當的解釋。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
@@ -260,6 +320,10 @@
       "explanation": "在艱難的環境下仍能生長，展現了植物不屈不撓、頑強的生命力。",
       "commonMisconception": "學生可能誤以為岩石縫隙是理想生長環境，或過度解讀為「鑽破石頭」這種誇張的能力，而沒有抓住「頑強生命力」的核心。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 6
     },
     {
@@ -276,7 +340,11 @@
       "explanation": "火山噴發時，會將地底下的高溫岩漿和火山灰噴出地表。",
       "commonMisconception": "學生可能對火山噴發的物質不清楚，誤認為是常見的泥土或水。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "critical",
@@ -292,7 +360,11 @@
       "explanation": "享受大自然應以不破壞環境為前提，尊重自然生態，保持環境的原始狀態。",
       "commonMisconception": "學生可能因為好奇或不經意而做出破壞環境的行為，如採摘、帶走物品或製造噪音，缺乏對環境保護的意識。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -308,7 +380,11 @@
       "explanation": "「日夜拍打」和「雕刻出奇特的形狀」說明海浪雖然看似溫和，但長期累積下來卻具有改變地貌的巨大且持續的力量。",
       "commonMisconception": "學生可能從字面理解為海浪在玩耍，或誤以為其力量微弱，而沒有體會到「持續」所帶來的「巨大」影響。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
@@ -324,7 +400,11 @@
       "explanation": "地震主要是由地殼板塊的移動和碰撞引起的。",
       "commonMisconception": "學生可能對地球內部構造不熟悉，容易混淆地核、地幔和地殼的功能。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
@@ -340,6 +420,10 @@
       "explanation": "「忙碌地飛舞」、「採集花蜜」都說明蜜蜂為了維持蜂群的生存和發展，會勤奮地工作。",
       "commonMisconception": "學生可能誤以為蜜蜂只是在玩耍，或是只關注到單一的生理特徵（如視力），而沒有理解到其「為生存而努力」的習性。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 6
     },
     {
@@ -356,7 +440,11 @@
       "explanation": "「用心去感受和發現」鼓勵讀者親身投入大自然，透過實際的觀察和體驗來認識和理解自然。",
       "commonMisconception": "學生可能傾向於被動地接收知識（看電視、看書、問大人），而不是主動地去體驗和發現。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
@@ -372,7 +460,11 @@
       "explanation": "火成岩是岩漿冷卻凝固後形成的，與火山活動密切相關。",
       "commonMisconception": "學生可能對不同岩石的分類和形成過程不清楚，容易混淆。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "critical",
@@ -388,7 +480,11 @@
       "explanation": "面對未知，保持好奇心並主動探索、尋找答案是學習和成長的重要態度。",
       "commonMisconception": "學生可能因為害怕困難、懶惰思考或在意他人眼光而選擇逃避或被動接受，沒有展現積極的學習態度。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "inferential",
@@ -404,7 +500,11 @@
       "explanation": "「不遠千里」的長途飛行，說明候鳥為了適應環境、尋求生存，展現出克服困難的堅韌毅力。",
       "commonMisconception": "學生可能只看到表面的「旅行」或「方向感」，而沒有感受到背後「為了生存」所付出的「毅力」。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -420,7 +520,11 @@
       "explanation": "視覺的產生是基於物體反射光線進入眼睛的原理。",
       "commonMisconception": "學生可能對視覺的物理原理不清楚，或將其他感官訊息混淆。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
@@ -436,7 +540,11 @@
       "explanation": "「每天」、「從不間斷」強調了潮汐的規律性和週期性，是大自然運行的秩序之一。",
       "commonMisconception": "學生可能知道潮汐與月亮有關，但沒有抓住「每天」、「從不間斷」所強調的「規律性」這一核心特點。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "inferential",
@@ -452,7 +560,11 @@
       "explanation": "將秋葉比喻為「美麗的畫」，並與「魔法師」聯想，旨在強調大自然具有創造美好、令人驚嘆的藝術能力。",
       "commonMisconception": "學生可能只停留在「漂亮」的表面感受，或誤以為是單純的適應環境，而沒有理解到作者透過比喻所傳達的對大自然「藝術性」的讚嘆。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "critical",
@@ -468,7 +580,11 @@
       "explanation": "要讓大自然的奧秘永續存在，關鍵在於人類學會尊重、保護自然，並與之建立和諧共存的關係。",
       "commonMisconception": "學生可能誤以為物理隔離或單純的記錄就能保護，而沒有意識到「尊重」和「共存」才是長遠之道。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -484,7 +600,11 @@
       "explanation": "光的速度遠遠快於聲音的速度，所以閃電的光芒會比雷聲更快到達我們的眼睛。",
       "commonMisconception": "學生可能從字面上解釋為「閃電先發生」或「光比較亮」，而沒有理解到光速與音速的根本差異。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     }
   ]
 }

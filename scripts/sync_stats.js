@@ -30,4 +30,4 @@ function updateSummaryDoc(grade) {
     console.log(`${docPath} updated.`);
 }
 
-['G3', 'G4', 'G5'].forEach(updateSummaryDoc);
+['G3', 'G4', 'G5', 'G6'].forEach(updateSummaryDoc);

@@ -24,8 +24,25 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
     const [isOpen, setIsOpen] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [selectedTag, setSelectedTag] = useState<string | null>(null);
+    const [otherText, setOtherText] = useState('');
+
+    const handleOpenChange = (open: boolean) => {
+        setIsOpen(open);
+        if (!open) {
+            setTimeout(() => {
+                setSelectedTag(null);
+                setOtherText('');
+            }, 200);
+        }
+    };
 
     const handleFeedback = async (tag: string, label: string) => {
+        if (tag === 'other' && selectedTag !== 'other') {
+            setSelectedTag('other');
+            return;
+        }
+
         setIsSubmitting(true);
         try {
             const apiUrl = getApiBaseUrl();
@@ -38,6 +55,7 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
                 body: JSON.stringify({
                     questionId,
                     tag,
+                    comment: tag === 'other' ? otherText.trim() : undefined,
                     userId: userId || 'anonymous',
                 }),
             });
@@ -62,7 +80,7 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
     };
 
     return (
-        <Popover open={isOpen} onOpenChange={setIsOpen}>
+        <Popover open={isOpen} onOpenChange={handleOpenChange}>
             <PopoverTrigger asChild>
                 <Button
                     variant="ghost"
@@ -86,22 +104,54 @@ export default function QuestionFeedback({ questionId, userId, isToolbarStyle }:
                         <p className="text-[10px] text-muted-foreground">告訴我們，我們會馬上修復它！</p>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-1.5">
-                        {FEEDBACK_OPTIONS.map((tag) => (
-                            <Button
-                                key={tag.id}
-                                variant="outline"
-                                size="sm"
-                                disabled={isSubmitting || isSubmitted}
-                                className={`justify-start gap-2 h-9 text-xs rounded-xl hover:bg-amber-50 hover:text-amber-700 hover:border-amber-200 transition-all ${isSubmitted ? 'opacity-50' : ''
-                                    }`}
-                                onClick={() => handleFeedback(tag.id, tag.label)}
-                            >
-                                <span className="mr-2 text-xs">{tag.icon}</span>
-                                {tag.label}
-                            </Button>
-                        ))}
-                    </div>
+                    {!selectedTag ? (
+                        <div className="grid grid-cols-1 gap-1.5">
+                            {FEEDBACK_OPTIONS.map((tag) => (
+                                <Button
+                                    key={tag.id}
+                                    variant="outline"
+                                    size="sm"
+                                    disabled={isSubmitting || isSubmitted}
+                                    className={`justify-start gap-2 h-9 text-xs rounded-xl hover:bg-amber-50 hover:text-amber-700 hover:border-amber-200 transition-all ${isSubmitted ? 'opacity-50' : ''
+                                        }`}
+                                    onClick={() => handleFeedback(tag.id, tag.label)}
+                                >
+                                    <span className="mr-2 text-xs">{tag.icon}</span>
+                                    {tag.label}
+                                </Button>
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="flex flex-col gap-2 animate-in fade-in zoom-in-95 duration-200">
+                            <textarea
+                                autoFocus
+                                value={otherText}
+                                onChange={e => setOtherText(e.target.value)}
+                                placeholder="請輸入您具體的建議或發現..."
+                                className="w-full px-3 py-2 text-xs rounded-xl border border-amber-200 bg-amber-50/30 resize-none focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400 placeholder:text-amber-600/40 text-foreground"
+                                rows={3}
+                            />
+                            <div className="flex gap-2">
+                                <Button
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() => setSelectedTag(null)}
+                                    className="flex-1 h-8 text-xs rounded-xl"
+                                    disabled={isSubmitting}
+                                >
+                                    返回
+                                </Button>
+                                <Button
+                                    size="sm"
+                                    disabled={isSubmitting || !otherText.trim()}
+                                    onClick={() => handleFeedback('other', '💬 其他建議')}
+                                    className="flex-1 h-8 text-xs rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold"
+                                >
+                                    {isSubmitting ? '傳送中...' : '確認送出'}
+                                </Button>
+                            </div>
+                        </div>
+                    )}
 
                     {isSubmitted && (
                         <div className="pt-1 flex items-center justify-center gap-1.5 text-[10px] text-green-600 font-medium animate-in fade-in slide-in-from-bottom-1">

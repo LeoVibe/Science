@@ -1,0 +1,115 @@
+{
+  "publisher": "南一",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L7",
+  "lesson_title": "科學怪人",
+  "questions": [
+    {
+      "question": "【分析小說衝突】在《科學怪人》的選文中，造成法蘭肯斯坦教授與「怪物」之間產生尖銳衝突的最根本原因是什麼？",
+      "options": [
+        "因為怪物長得太醜了，且要求教授必須每天給予他美味的食物作為交換。　",
+        "因為教授對自己創造的生命缺乏責任感且充滿恐懼，而怪物渴望被關懷與接納。",
+        "因為怪物想要統治人類世界，以此發洩他對於原本社會秩序的不滿情緒。　",
+        "因為教授反悔了，不願意將原本答應給怪物的獎學金與研究經費發放下來。　"
+      ],
+      "answer_index": 1,
+      "explanation": "這是倫理學上的經典衝突。教授（造物者）遺棄了他的責任，而怪物（被造物）則在被拒絕中感到了孤獨與憤怒。這揭示了科學必須具備人文底線。",
+      "scenario": "解析科幻小說中的深層核心衝突：責任與被拋棄的痛苦。",
+      "commonMisconception": "學生常選[A] 或 [C]，僅看見怪物的表象（外貌、報復行為），忽略了其內在的「社交渴求」。",
+      "taxonomy": "inferential",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀人物心理】當怪物描述自己「在雪地裡感到寒冷，也在火邊感到溫暖」時，這段描寫最主要的目的是什麼？",
+      "options": [
+        "證明這是一個具備高度科學感知能力的機器人，能隨時回傳精確的溫度數據。　",
+        "賦予怪物「人性」的感官與情感，打破讀者對他只是「冷酷軀殼」的刻板印象。　",
+        "嘲笑人類對冷熱的抵抗力太弱，而怪物即便在風雪中也能不穿衣服地生存。　",
+        "提醒讀者在戶外野營時，一定要注意防火安全，以免因為取暖而造成火災。　"
+      ],
+      "answer_index": 1,
+      "explanation": "感受能力的描寫是為了「人物化（Characterization）」。如果他能感到冷熱、哀傷與喜悅，他就是一個具備靈魂的生命，而不是死物。",
+      "scenario": "解析具象感官描寫如何支撐起「生命主體性」的抽象命題。",
+      "commonMisconception": "學生易選[A]，受到現代AI科技影響，忽略了浪漫主義文學中對感官、情感的尊崇。",
+      "taxonomy": "analysis",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落語氣】故事中教授對怪物充滿了厭惡與悔恨，這種語氣對故事的氛圍產生了什麼樣的引導作用？",
+      "options": [
+        "營造出一種神祕且帶有恐怖色彩的悲劇感，強調了跨越自然界限的代價。　",
+        "帶出一種輕盈且幽默的氣息，讓讀者覺得教授是一個愛開玩笑的老先生。　",
+        "顯示這是一篇推廣身心健康的文章，提醒研發人員要保持心情平靜。　",
+        "這是一種成功的行銷手段，目的在於吸引更多人去購買教授所發名的藥。　"
+      ],
+      "answer_index": 0,
+      "explanation": "厭惡與悔恨構成了「哥德式小說」的基調。它警告人類：科技如果超出了倫理與責任的界線，最終會反過來吞噬創造者。",
+      "scenario": "探討文學語氣（Tone）對營造「科學邊界感」的重要性。",
+      "commonMisconception": "學生可能選[C]，對於文學中的情感張力缺乏共感，將其導向實用的「情緒管理」。",
+      "taxonomy": "analysis",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【評估小說的預言性】《科學怪人》雖然寫於兩百多年前，但在當今基因編輯與人工智慧興起的時代，它最重要的提醒是什麼？",
+      "options": [
+        "工程師應該要穿得帥一點，才不會在實驗室裡顯得太過突兀。　",
+        "當人類扮演造物者的角色時，必須為創造出的每一種生命負起最終的道德責任。",
+        "政府應該投入更多的錢，讓科學家能產出長得更漂亮的機器人。　",
+        "科學家應該要隨身攜帶武器，以免自己創造的生命突然反過來攻擊自己。　"
+      ],
+      "answer_index": 1,
+      "explanation": "「責任」是全篇的靈魂。這能引導學生思考科技與社會的關係，避免盲目的科技樂天派。",
+      "scenario": "將兩百年前的小說主題遷移至現代高科技倫理的思辨中（PIRLS 層次 4）。",
+      "commonMisconception": "學生容易選[D]，這反映出對「力量對抗」的興趣高於「倫理思辨」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨角色思考】如果你是那位「怪物」，在面對被遺棄的命運時，你最重要的訴求最可能是什麼？",
+      "options": [
+        "要求教授教他如何賺到更多的錢，以便自己能買下整座山莊。　",
+        "渴望一份平等的友誼、應得的身份認同以及被世界溫柔對待的權利。",
+        "希望能獲得比普通人更多的超能力，以便能更強力地報復社會。　",
+        "希望教授能將他重新拆卸成零件，讓他放回原本安靜的實驗箱裡。　"
+      ],
+      "answer_index": 1,
+      "explanation": "怪物的悲劇源於「被拒斥」。他的訴求是「被看見」與「被愛」。這測驗學生的移情能力與對社會公義的覺察。",
+      "scenario": "移情思考：嘗試代入邊緣化角色的視角，進行需求分析與同理。 ",
+      "commonMisconception": "易選[C]，選了「報復」而忽略了「報復」背後的真正渴望是「接納」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

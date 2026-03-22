@@ -20,6 +20,10 @@
       "explanation": "本單元基調是「溫暖」與「明亮」。",
       "commonMisconception": "詞義反差（如黑壓壓、苦哈哈）。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 7
     },
     {
@@ -36,7 +40,11 @@
       "explanation": "課文強調美好生活並非來自物質的滿足或他人的妥協，而是從日常生活中，透過用心觀察、感受、以及主動付出，來創造和體驗的。選項B最符合這個核心思想。",
       "commonMisconception": "孩子可能將「美好」與物質享受或個人慾望的滿足畫上等號，認為擁有越多、被遷就越多就是美好，忽略了精神層面和人際互動的重要性。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -52,7 +60,11 @@
       "explanation": "主動幫助家人，是美好生活起點中「付出」的體現。當孩子透過行動參與家庭事務並付出時，他們會從中獲得自我價值感和歸屬感，這種「溫暖」的感覺是貢獻後的正向回饋。",
       "commonMisconception": "部分孩子可能認為幫忙是為了獲得獎勵，或是將家務視為負擔，而忽略了付出本身帶來的情感滿足和家庭和諧的價值。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
@@ -68,7 +80,11 @@
       "explanation": "課文強調美好生活也包含人際間的關懷與同理。在朋友難過時，給予陪伴、傾聽和鼓勵，是體現關愛和支持的重要方式，能幫助朋友度過難關，也增進彼此情誼。",
       "commonMisconception": "孩子可能會誤以為只要讓朋友開心，就應該立刻轉移注意力或輕描淡寫，而忽略了傾聽和理解對方感受的重要性，這可能讓朋友覺得自己的情緒未被重視。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -84,7 +100,11 @@
       "explanation": "「心滿意足」指心裡非常滿足，沒有任何不滿意的地方，最能表達對現有的一切感到珍惜和快樂，符合課文鼓勵感受美好、知足常樂的精神。",
       "commonMisconception": "孩子可能對詞語的精確含義理解不足，或者容易被其他負面詞語的表面字義所迷惑。例如，誤將「漫不經心」理解為無憂無慮，但其真實含義是粗心大意。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.75
     },
     {
       "taxonomy": "inferential",
@@ -100,7 +120,11 @@
       "explanation": "小花持續且有耐心地澆花，甚至不因天氣而改變，這顯示她不僅有責任感，更是從照顧植物的過程中獲得了樂趣和成就感，這是美好生活中的「付出與成長」。",
       "commonMisconception": "孩子可能傾向於將行為與外在獎勵或壓力連結，而非內在的責任感、興趣或對生命的關愛。他們可能會合理化為「只是為了得到讚美」或「被逼迫的」。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -116,7 +140,11 @@
       "explanation": "課文強調美好生活來自於對日常小事的觀察與感受，例如自然界的變化和身邊的溫暖。選項B描述的正是這些唾手可得的、不需花費就能感受到的美好。",
       "commonMisconception": "孩子容易將「美好」與特殊節日、物質享受或虛幻情節掛鉤，而忽略了生活中簡單、自然的幸福感，這是對美好定義的狹隘理解。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -132,7 +160,11 @@
       "explanation": "微笑是一種正向情緒的表達，它不僅能改善自己的心情，也能傳遞友善和快樂給他人，進而影響周圍的氛圍，是啟動美好人際互動和自我愉悅的簡單方式。",
       "commonMisconception": "孩子可能將微笑的意義簡化為禮貌或為了得到表揚，而沒有意識到它在人際連結和情緒傳染上的力量。也有可能誤以為微笑是一種偽裝，而非真誠的表達。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "critical",
@@ -148,7 +180,11 @@
       "explanation": "課文強調美好生活是主動創造和感受的過程，並且從微小的行動和當下的時刻開始。選項C最完整地表達了這種積極主動、從自身做起、從細節累積的核心精神。",
       "commonMisconception": "孩子可能將美好生活寄託於未來的成功（讀書、金錢）或他人的給予，缺乏對當下和自身行動的重視。這是一種將責任外推的迷思。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -164,7 +200,11 @@
       "explanation": "「微小」在此處不是指其重要性或數量，而是指那些在日常生活中容易被忽視，但只要用心觀察就能發現其美好和價值的細節，例如一朵小花、一句溫暖的話語。",
       "commonMisconception": "孩子可能會將「微小」單純理解為物理上的小或不重要，而未能領會其在情感和意義層面上的深遠價值，這是一種字面理解的偏誤。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -180,7 +220,11 @@
       "explanation": "小麗主動扶起並關心同學，這是一種發自內心的善良和同理心，符合課文鼓勵的「付出關懷」和「與人為善」的美好生活理念。",
       "commonMisconception": "孩子可能將助人行為與功利目的（如得到表揚）或偶然性（順手）連結，而非其背後的善良動機。這是一種將內在價值外化的迷思。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -196,7 +240,11 @@
       "explanation": "課文強調的是日常、非物質的、透過感受和付出而來的美好。收到昂貴禮物雖然令人開心，但它屬於物質滿足，與課文強調的「從身邊小事」的理念有所區隔。",
       "commonMisconception": "孩子容易將「美好」與物質享受或特殊事件等同，而忽略了日常生活中簡單的幸福，這是一種對美好定義的誤解。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -212,7 +260,11 @@
       "explanation": "小華在多雲的天氣下仍能從鳥鳴中感受到愉悅，這顯示他具備了課文所強調的，從日常和自然中發現並欣賞美好的能力，而不是依賴特殊事件或特定條件。",
       "commonMisconception": "孩子可能將小華的愉悅歸因於外部因素（鳥聲特別、喜歡養鳥）或天氣影響，而非小華自身「感受美好」的主動性。這是一種將內在體驗外歸因的迷思。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
@@ -228,6 +280,10 @@
       "explanation": "課文強調美好生活源於感恩、付出和關愛。向家人表達感謝和幫助他們做家事，正是這些美好行動的具體實踐，能增進家庭和諧，讓生活更溫馨。",
       "commonMisconception": "孩子可能將美好生活與逃避責任（抱怨功課）、單純的個人娛樂（玩遊戲）或自我中心（不理會他人）連結，而忽略了積極參與和貢獻的重要性。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
@@ -244,7 +300,11 @@
       "explanation": "課文所描繪的美好生活，多半是從日常小事中感受到的寧靜、和諧與溫暖，例如家庭的溫馨、自然的平和。因此，「平靜溫馨」最能代表這種感受。",
       "commonMisconception": "孩子可能將「美好」與「熱鬧」或「刺激」混淆，認為只有充滿外在活動的生活才算美好，而忽略了內在的平和與情感的連結。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.75
     },
     {
       "taxonomy": "inferential",
@@ -260,7 +320,11 @@
       "explanation": "「知足常樂」的核心在於珍惜和欣賞自己所擁有的，不盲目追求更多。這種態度讓人更容易從現有的生活中發現美好，從而感到幸福，是美好生活的內在基礎。",
       "commonMisconception": "孩子可能將知足誤解為不思進取或放棄追求，或者認為知足是為了讓別人覺得自己富有。這是一種對知足本義的誤讀和合理化迷思。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "literal",
@@ -276,7 +340,11 @@
       "explanation": "這個情境描繪了多重感官的舒適體驗：陽光、閱讀、飯菜香。這些日常的組合往往能帶給人一種安穩、溫馨、滿足的幸福感，是課文強調的「感受美好」的具體體現。",
       "commonMisconception": "孩子可能將感受停留在生理需求（肚子餓）或對未來行動的期待（去玩遊戲），而忽略了當下情境所帶來的整體情感體驗，未能深入感受「美好」的寧靜與溫馨。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -292,7 +360,11 @@
       "explanation": "持續的抱怨和負面情緒會形成一個惡性循環，讓人更難看到生活中的亮點，進而影響心情和人際關係，使生活充滿負能量。這與課文鼓勵的積極心態背道而馳。",
       "commonMisconception": "孩子可能誤以為抱怨能引起注意或解決問題，或者認為負面情緒會帶來某種形式的「成長」。這是一種對情緒管理和因果關係的錯誤理解。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "critical",
@@ -308,7 +380,11 @@
       "explanation": "課文的核心理念是從人際關懷、付出、感受日常小事中尋找美好。小明的說法強調了人際關係和互相幫助，這與課文的價值觀高度契合，而小華的說法更偏向物質滿足。",
       "commonMisconception": "孩子可能會被「玩具帶來快樂」的表面現象所吸引，或認為「多樣定義」是正確的，而未能辨識課文所強調的核心價值觀，即超越物質層面的精神富足。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -324,7 +400,11 @@
       "explanation": "「用心」是指投入全部的注意力、情感和思考去體驗、理解和覺察事物。它不單指某個感官，而是整個人投入的狀態，才能真正領會事物的深層意義和美好。",
       "commonMisconception": "孩子可能將「用心」具體化為單一感官的運用（看或聽），而忽略了它更深層次的、涉及心靈和意識的投入，這是一種對抽象概念的具體化誤解。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "inferential",
@@ -340,7 +420,11 @@
       "explanation": "從小地方開始，意味著行動的可行性和累積性。小的改變容易實踐，也容易看到正向回饋，進而鼓勵我們持續下去，將點滴的美好匯聚成更廣闊、更深遠的幸福。",
       "commonMisconception": "孩子可能將「小地方」解讀為不重要或無奈的選擇，而非一種有效的策略。他們可能認為只有宏大的目標才值得追求，忽視了「積少成多」的道理。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -356,7 +440,11 @@
       "explanation": "「與家人共度時光」不僅是物理上的相處，更強調互動、參與和分享。一起做餅乾並分享，體現了合作、溫馨和付出，是課文所倡導的積極家庭互動。",
       "commonMisconception": "孩子可能將「共度時光」單純理解為身處同一空間，而忽略了互動和情感交流的重要性。例如，全家人都在客廳但各自玩手機，就缺乏了真正意義上的連結。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -372,7 +460,11 @@
       "explanation": "小恩的行為超越了單純的照顧，還包括了情感上的「說說話鼓勵」，這顯示他對植物抱持著一種生命關懷和同理心，將其視為有生命的個體，這種愛是美好生活的重要組成部分。",
       "commonMisconception": "孩子可能將小恩的行為歸因於功利目的（美觀、稱讚）或一時的同情，而未能深入理解其背後對生命的尊重和關愛，這是一種將深層情感表面化的迷思。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "contextual",
@@ -388,7 +480,11 @@
       "explanation": "課文強調美好生活來自於積極的心態和行動。在沮喪時，回想開心小事是練習感恩和正向思考，主動幫助別人則是付出關懷，這兩者都能有效轉移負面情緒，重新感受生活的美好。",
       "commonMisconception": "孩子可能在情緒低落時採取消極（躲避）或破壞性（吵架、燒掉）的應對方式，而未能運用課文所教導的積極轉化情緒的方法，這是一種情緒管理的迷思。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -404,6 +500,10 @@
       "explanation": "課文的核心主旨是強調美好生活並非遙遠或依賴外在條件，而是源於我們對日常的感受、積極的態度和點滴的付出。選項C精確概括了這一點。",
       "commonMisconception": "孩子可能將美好生活與物質財富、名氣或遠方冒險等外在、宏大的目標掛鉤，而忽略了課文強調的，美好存在於日常和內在心態的轉變。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
@@ -420,7 +520,11 @@
       "explanation": "小玉主動且有規律地幫助奶奶，這不僅是孝順的表現，更體現了她對家庭的責任感和樂於助人的善良品質，這些都是構成美好生活的重要價值。",
       "commonMisconception": "孩子可能將小玉的行為歸因於外部壓力（害怕生氣）或物質回報（零用錢），而未能理解其內在的孝順、責任感和助人為樂的真誠動機。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -436,7 +540,11 @@
       "explanation": "課文所傳達的幸福感，更多是來自於內心的平和與滿足，這種感覺常伴隨著輕鬆愉悅的表情，如嘴角上揚。這是一種內斂而持久的喜悅。",
       "commonMisconception": "孩子可能將幸福與激烈的興奮或物質慾望的滿足混淆，而忽略了幸福更常表現為一種內在的平靜與知足感。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -452,7 +560,11 @@
       "explanation": "感恩是一種積極的心態，它能引導我們去發現和珍惜生活中的點滴美好，從而滋養內心，帶來更多的快樂和滿足感，就像養分滋養植物一樣。",
       "commonMisconception": "孩子可能將感恩視為一種社交禮儀或一種逃避煩惱的方式，而未能理解其作為一種內在力量，能主動轉化心情、提升幸福感的核心作用。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "critical",
@@ -468,7 +580,11 @@
       "explanation": "課文強調美好生活來自於付出、關懷和對環境的責任。淨灘和送餐都是具體實踐這些理念的方式，能讓學生在服務中體驗到幫助他人的快樂和意義。",
       "commonMisconception": "孩子可能將「美好」與單純的娛樂（電玩、魔術）或個人表現（才藝）掛鉤，而忽略了集體參與、服務社會和付出關懷所帶來的更深層次的美好體驗。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -484,7 +600,11 @@
       "explanation": "「播下希望的種子」是一個比喻，指開始做一件充滿期盼、能帶來正向影響的事情，就像種子一樣，雖然微小，卻蘊含著成長和美好的潛力，符合課文「起點」的含義。",
       "commonMisconception": "孩子可能將比喻句字面化，誤解為實際的農業活動。或者未能理解其深層的象徵意義，即積極行動、期待未來的正向態度。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -500,6 +620,10 @@
       "explanation": "主動分享生活中的點滴，是建立良好家庭溝通的關鍵。這不僅讓家人更了解彼此，也能加深情感連結，讓家庭充滿溫馨和愛，這是美好生活的重要基石。",
       "commonMisconception": "孩子可能將分享行為與負面反應（囉嗦）或功利目的（零用錢）連結，而忽略了其在建立親密關係、促進情感交流方面的核心價值。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 5
     }
   ]

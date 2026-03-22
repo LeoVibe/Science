@@ -9,482 +9,602 @@
     {
       "taxonomy": "literal",
       "scenario": "文化知識識記",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，在《鹿港的高頭大馬》一文中，所謂的「高頭大馬」是指什麼？",
+      "question": "在《鹿港的高頭大馬》一文中，所謂的「高頭大馬」是指什麼？",
       "options": [
-        "傳統戲曲（如布袋戲）中，製作精美且高大的木偶馬，但是這並不是這一小段文字最主要的重點核心所在　　　　　　　　　　　　　　　",
-        "這是一種以前的人用木頭所打造出來、專門用來代替汽車在街上行走的巨大交通工具，但是這並不是這一小段文字最主要的重點核心所在　",
-        "這是鹿港當地為了吸引觀光客而特別設立在公園裡面供大家拍照的一種大型雕塑，這種想法在日常生活中其實也是非常常見的一種自然現象",
-        "這是指以前在鹿港的街道上，專門被用來幫忙載運貨物和客人在路上跑的真馬，這種想法在日常生活中其實也是非常常見的一種自然現象　"
+        "傳統戲曲（如布袋戲）中，製作精美且高大的木偶馬",
+        "用木頭打造代替汽車的交通工具",
+        "鹿港公園裡面供拍照的大型雕塑",
+        "鹿港街道上載運貨物的真馬"
       ],
       "answer_index": 0,
       "explanation": "高頭大馬在文中特指布袋戲中的道具，象徵傳統工藝的高度。",
       "commonMisconception": "學生可能被字面意思（真馬）或地理標示（雕塑）誤導。",
-      "quality_level": "L5",
-      "cqi_score": 8.5
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在課文中】",
+      "scenario": "街道特色",
       "question": "根據課文描述，鹿港的街道最主要的特色是什麼？",
       "options": [
-        "A. 寬廣筆直，車輛通行無阻",
-        "B. 彎曲狹窄，充滿古色古香的氛圍",
-        "C. 現代化設計，有許多高樓大廈",
-        "D. 整齊劃一，規劃為棋盤式街道"
+        "寬廣筆直，車輛通行無阻",
+        "彎曲狹窄，充滿古色古香的氛圍",
+        "現代化設計，有許多高樓大廈",
+        "整齊劃一，規劃為棋盤式街道"
       ],
       "answer_index": 1,
-      "explanation": "課文開頭便描述鹿港的街道彎彎曲曲、狹窄，充滿古老的味道，與現代城市不同。",
-      "commonMisconception": "學生可能因為現代城市多為寬廣街道，而誤以為所有城鎮都應如此，忽略課文對鹿港獨特性的強調。",
+      "explanation": "課文描述鹿港的街道彎彎曲曲、狹窄，充滿古老的味道。",
+      "commonMisconception": "學生可能因現代經驗誤以為街道應寬廣。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【在鹿港的街道上】",
-      "question": "課文提到鹿港的「高頭大馬」不一定是指真正的馬匹，這句話暗示了什麼？",
+      "scenario": "詞義暗示",
+      "question": "課文提到鹿港的「高頭大馬」不一定是指真正的馬匹，這暗示了？",
       "options": [
-        "A. 鹿港沒有真正的馬匹",
-        "B. 鹿港的人喜歡騎高大的馬",
-        "C. 「高頭大馬」是一種比喻，指在鹿港獨特的交通工具或生活方式",
-        "D. 鹿港人喜歡誇大其詞"
+        "鹿港沒有真馬",
+        "鹿港人喜歡騎高馬",
+        "一種比喻，指獨特的交通工具或生活方式",
+        "鹿港人喜歡誇大其詞"
       ],
       "answer_index": 2,
-      "explanation": "「高頭大馬」在課文中是個引人好奇的詞語，作者藉此引導讀者思考鹿港獨特的交通方式，例如高高的腳踏車，是一種比喻而非實指。",
-      "commonMisconception": "學生可能只從字面意思理解「高頭大馬」，而忽略了課文所要傳達的在地文化與生活型態的隱喻。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "這是一種比喻而非實指。",
+      "commonMisconception": "學生可能只從字面意思理解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【當你走在鹿港的巷弄中】",
-      "question": "課文將鹿港比喻為「活的博物館」，最主要的原因是什麼？",
+      "scenario": "比喻理解",
+      "question": "課文將鹿港比喻為「活的博物館」，主因是？",
       "options": [
-        "A. 鹿港有很多博物館供人參觀",
-        "B. 鹿港的建築和生活方式保留了許多歷史的痕跡，如同活生生的歷史呈現",
-        "C. 鹿港的居民都像博物館裡的展品一樣靜止不動",
-        "D. 鹿港的街道上隨處可見藝術品"
+        "有很多博物館",
+        "建築和生活方式保留了歷史痕跡",
+        "居民像展品一樣不動",
+        "隨處可見藝術品"
       ],
       "answer_index": 1,
-      "explanation": "「活的博物館」是形容鹿港的古老建築、傳統行業和生活步調，都像歷史一樣被完整地保留下來，讓人身歷其境。",
-      "commonMisconception": "學生可能誤解「博物館」為實體建築，而未理解其比喻意義，即歷史文化的傳承與展現。",
-      "quality_level": "L3",
-      "cqi_score": 2
+      "explanation": "歷史完整的保留。",
+      "commonMisconception": "誤解為實體建築。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在鹿港的日常生活中】",
-      "question": "課文提到，在鹿港的街道上，最常見的交通工具是哪兩種？",
+      "scenario": "交通工具",
+      "question": "鹿港街道上最常見的交通工具是？",
       "options": [
-        "A. 汽車和公車",
-        "B. 腳踏車和步行",
-        "C. 火車和捷運",
-        "D. 機車和計程車"
+        "汽車和公車",
+        "腳踏車和步行",
+        "火車和捷運",
+        "機車和計程車"
       ],
       "answer_index": 1,
-      "explanation": "課文中明確指出，由於街道狹窄，汽車不便通行，因此腳踏車和步行是鹿港居民最主要的交通方式。",
-      "commonMisconception": "學生可能因為現代社會機車普及，而誤以為機車也是主要的交通工具，忽略課文對鹿港特殊性的描述。",
+      "explanation": "腳踏車和步行是主要方式。",
+      "commonMisconception": "誤以為機車是主角。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【當作者描述鹿港的步調時】",
-      "question": "課文說鹿港的步調「慢活」，這代表了什麼樣的生活態度？",
+      "scenario": "生活態度",
+      "question": "鹿港的步調「慢活」，代表什麼？",
       "options": [
-        "A. 人們動作遲緩，效率不高",
-        "B. 人們生活悠閒，不急不躁，享受當下",
-        "C. 人們缺乏競爭力，容易被時代淘汰",
-        "D. 人們喜歡花很多時間睡覺"
+        "動作遲緩",
+        "生活悠閒，不急不躁",
+        "缺乏競爭力",
+        "喜歡睡覺"
       ],
       "answer_index": 1,
-      "explanation": "「慢活」是指一種不追求速度，注重生活品質、享受當下的生活方式，與鹿港的悠閒氛圍相符。",
-      "commonMisconception": "學生可能將「慢活」與「懶惰」或「效率低」混淆，未能理解其積極的生活哲學。",
+      "explanation": "不追求速度，注重品質。",
+      "commonMisconception": "與「懶惰」混淆。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "critical",
-      "scenario": "【如果你要向外國朋友介紹鹿港】",
-      "question": "綜合課文內容，你會建議外國朋友到鹿港體驗哪一種獨特的文化風情？",
+      "scenario": "建議行程",
+      "question": "你會建議外國朋友在鹿港體驗？",
       "options": [
-        "A. 體驗高速公路的便利",
-        "B. 感受現代化都市的繁華",
-        "C. 漫步古老街道，體驗慢活的傳統氣息",
-        "D. 參觀許多大型百貨公司"
+        "高速公路便利",
+        "現代都市繁華",
+        "漫步古老街道，體驗慢活",
+        "逛百貨中心"
       ],
       "answer_index": 2,
-      "explanation": "課文主要描寫鹿港的古老街道、慢活步調和傳統文化，這些都是鹿港最獨特的魅力，適合推薦給想體驗不同風情的朋友。",
-      "commonMisconception": "學生可能會誤以為所有觀光地都應以現代化設施為賣點，而忽略鹿港的傳統特色。",
-      "quality_level": "L5",
+      "explanation": "古街與慢活是魅力。",
+      "commonMisconception": "以現代化設施為賣點。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在鹿港的歷史建築中】",
-      "question": "課文提到鹿港的許多建築都很有特色，這些建築主要呈現什麼樣的風格？",
+      "scenario": "建築風格",
+      "question": "鹿港的建築呈現什麼風格？",
       "options": [
-        "A. 西方現代風格",
-        "B. 日式簡約風格",
-        "C. 古老的閩南式建築風格",
-        "D. 新穎的未來科技風格"
+        "西方現代",
+        "日式簡約",
+        "古代閩南建築",
+        "未來科技"
       ],
       "answer_index": 2,
-      "explanation": "鹿港是台灣著名的歷史古鎮，其建築風格多為保存良好的閩南式建築，反映了其歷史淵源。",
-      "commonMisconception": "學生可能對建築風格不熟悉，或誤以為現代建築才是有特色，而忽略了傳統建築的價值。",
-      "quality_level": "L5",
-      "cqi_score": 4
+      "explanation": "閩南式建築風格。",
+      "commonMisconception": "對風格不熟悉。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【當作者描寫鹿港的交通時】",
-      "question": "為什麼課文強調鹿港「沒有紅綠燈」的街道反而不亂？",
+      "scenario": "交通秩序",
+      "question": "為什麼「沒有紅綠燈」的街道反而不亂？",
       "options": [
-        "A. 因為鹿港人都不遵守交通規則",
-        "B. 因為鹿港的車輛很少，大家都會互相禮讓",
-        "C. 因為鹿港的警察很多，管理嚴格",
-        "D. 因為鹿港的街道很寬廣，不需要紅綠燈"
+        "不守規則",
+        "車少且互相禮讓",
+        "警察很多",
+        "路寬廣"
       ],
       "answer_index": 1,
-      "explanation": "課文暗示，鹿港的交通流量不大，且居民習慣了這種環境，彼此之間會互相禮讓，形成一種秩序。",
-      "commonMisconception": "學生可能認為沒有紅綠燈必然導致混亂，這是基於城市生活的經驗，而忽略了小鎮人情味和慢活步調所帶來的秩序感。",
-      "quality_level": "L3",
-      "cqi_score": 4
+      "explanation": "秩序感源於禮讓。",
+      "commonMisconception": "認為沒紅綠燈必亂。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【在鹿港的傳統市場裡】",
-      "question": "課文中提到鹿港有許多「老店」，這些老店的存在說明了什麼？",
+      "scenario": "老店意義",
+      "question": "「老店」的存在說明了什麼？",
       "options": [
-        "A. 鹿港的經濟發展停滯不前",
-        "B. 鹿港的商業活動很不發達",
-        "C. 鹿港保存了傳統的技藝和文化，有深厚的歷史底蘊",
-        "D. 鹿港的新式商店都無法生存"
+        "經濟停滯",
+        "不發達",
+        "保存了傳統技藝和文化",
+        "新店無法生存"
       ],
       "answer_index": 2,
-      "explanation": "老店通常代表著技藝的傳承和歷史的積澱，說明鹿港是一個重視傳統、保存文化的城鎮。",
-      "commonMisconception": "學生可能將「老」與「落後」劃上等號，未能理解老店所代表的文化價值和歷史意義。",
-      "quality_level": "L3",
-      "cqi_score": 2
+      "explanation": "技藝傳承與底蘊。",
+      "commonMisconception": "將「老」與「落後」等同。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在課文的結尾】",
-      "question": "作者在課文的最後，對鹿港表達了什麼樣的情感？",
+      "scenario": "作者情感",
+      "question": "作者對鹿港表達了什麼情感？",
       "options": [
-        "A. 感到失望與惋惜",
-        "B. 覺得鹿港過於落後",
-        "C. 充滿了讚美與喜愛，認為鹿港獨具魅力",
-        "D. 希望鹿港能加速現代化"
+        "失望惋惜",
+        "覺得落後",
+        "讚美與喜愛",
+        "希望現代化"
       ],
       "answer_index": 2,
-      "explanation": "課文通篇都以正面積極的語氣描述鹿港的獨特之美，結尾更是表達了對其傳統魅力的高度肯定和喜愛。",
-      "commonMisconception": "學生可能會誤以為作者對鹿港的「慢」和「舊」感到不滿，這是對作者情感投射的錯誤解讀。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "讚美魅力。",
+      "commonMisconception": "誤解為對「舊」的不滿。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【當你想像鹿港的居民生活時】",
-      "question": "為什麼鹿港的居民可能比大都市的人更常與鄰居互動？",
+      "scenario": "人際互動",
+      "question": "為什麼居民更常與鄰居互動？",
       "options": [
-        "A. 因為鹿港的房子沒有門",
-        "B. 因為鹿港的街道狹窄，人們距離更近，生活步調也較慢，有更多機會交流",
-        "C. 因為鹿港沒有電視和網路，大家只能聊天",
-        "D. 因為鹿港的居民都非常外向"
+        "沒門",
+        "街道狹窄且步調慢，機會多",
+        "沒電視",
+        "天生外向"
       ],
       "answer_index": 1,
-      "explanation": "狹窄的街道使得人與人之間的物理距離縮短，加上慢活的步調，提供了更多面對面交流的機會，增進鄰里情誼。",
-      "commonMisconception": "學生可能想不到地理環境和生活步調會影響人際互動，或將原因歸結於不切實際的假設。",
+      "explanation": "地理與步調利於交流。",
+      "commonMisconception": "沒想到環境因素。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "critical",
-      "scenario": "【如果你是鹿港的導遊】",
-      "question": "為了讓遊客更深入體驗鹿港的「高頭大馬」文化，你會建議他們怎麼做？",
+      "scenario": "深入體驗",
+      "question": "如何最深入體驗「高頭大馬」文化？",
       "options": [
-        "A. 租一台汽車在鹿港街道上兜風",
-        "B. 穿著高跟鞋逛街，體驗「高頭」的感覺",
-        "C. 租借腳踏車或徒步漫遊，仔細品味巷弄風情",
-        "D. 買一匹真正的馬來騎乘"
+        "開車兜風",
+        "穿高跟鞋",
+        "腳踏車或徒步漫遊",
+        "買馬騎乘"
       ],
       "answer_index": 2,
-      "explanation": "「高頭大馬」代表鹿港獨特的交通方式和慢活步調。租借腳踏車或徒步最能貼近在地生活，深入體驗其文化。",
-      "commonMisconception": "學生可能仍執著於「高頭大馬」的字面意義，或未將其與實際的體驗方式連結。",
-      "quality_level": "L5",
+      "explanation": "貼近在地生活。",
+      "commonMisconception": "執著於字面。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "時光倒流",
+      "question": "為何用「時光倒流」形容鹿港？",
+      "options": [
+        "有時間機器",
+        "保留古老樣貌",
+        "鐘錶店多",
+        "歷史課本多"
+      ],
+      "answer_index": 1,
+      "explanation": "古老氛圍的比喻。",
+      "commonMisconception": "字面誤解。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "汽車少見",
+      "question": "街道上為何少見汽車？",
+      "options": [
+        "不愛開車",
+        "街道狹窄難行",
+        "沒加油站",
+        "車價太高"
+      ],
+      "answer_index": 1,
+      "explanation": "地理限制。",
+      "commonMisconception": "忽略地理環境。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "觀光亮點",
+      "question": "鹿港觀光最可能強調？",
+      "options": [
+        "大型遊樂園",
+        "科技設施",
+        "保護古蹟與慢活文化",
+        "大型百貨"
+      ],
+      "answer_index": 2,
+      "explanation": "圍繞核心特色。",
+      "commonMisconception": "認為必須商業化。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "第一印象",
+      "question": "作者的第一印象是？",
+      "options": [
+        "繁華大都市",
+        "時光倒流的古城",
+        "新穎建築",
+        "很多真馬"
+      ],
+      "answer_index": 1,
+      "explanation": "開頭氛圍描述。",
+      "commonMisconception": "被標題馬字吸引。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "壓力小主因",
+      "question": "生活壓力較小是因為？",
+      "options": [
+        "不用工作",
+        "物價便宜",
+        "步調慢，心境和平",
+        "空氣好"
+      ],
+      "answer_index": 2,
+      "explanation": "態度決定高度。",
+      "commonMisconception": "物質化原因。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【當你閱讀課文中的描述】",
-      "question": "課文為何會用「時光倒流」來形容走進鹿港的感覺？",
+      "scenario": "真實情景",
+      "question": "「高頭大馬」最可能的真實情景？",
       "options": [
-        "A. 因為鹿港有時間機器可以回到過去",
-        "B. 因為鹿港的建築和生活方式保留了古老的樣貌，讓人感覺回到過去的年代",
-        "C. 因為鹿港的鐘錶店很多，讓人感覺時間變慢了",
-        "D. 因為鹿港的歷史課本特別多"
+        "真騎馬",
+        "加高腳踏車或自信模樣",
+        "高大機車",
+        "高跟鞋"
       ],
       "answer_index": 1,
-      "explanation": "「時光倒流」是比喻鹿港的古老氛圍和傳統生活方式，讓置身其中的人彷彿回到了過去的時代。",
-      "commonMisconception": "學生可能對「時光倒流」產生字面上的誤解，未能領會其比喻所表達的意境。",
-      "quality_level": "L3",
-      "cqi_score": 2
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在鹿港的街道上】",
-      "question": "課文提到鹿港的街道為什麼很少看到汽車？",
-      "options": [
-        "A. 因為鹿港居民不喜歡開車",
-        "B. 因為鹿港的街道太過狹窄，汽車難以通行",
-        "C. 因為鹿港沒有加油站",
-        "D. 因為鹿港的汽車價格太高"
-      ],
-      "answer_index": 1,
-      "explanation": "課文明確指出，鹿港的街道彎曲狹窄，不適合汽車行駛，所以汽車較少見。",
-      "commonMisconception": "學生可能基於現代城市經驗，認為汽車是普遍交通工具，忽略了鹿港特殊的地理環境。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【當你思考鹿港的未來發展】",
-      "question": "如果鹿港要發展觀光，根據課文的調性，最可能強調的會是什麼？",
-      "options": [
-        "A. 興建大型遊樂園",
-        "B. 大力推廣高速網路和科技設施",
-        "C. 保護古蹟，推廣傳統文化和慢活體驗",
-        "D. 建造更多高樓大廈和購物中心"
-      ],
-      "answer_index": 2,
-      "explanation": "課文強調鹿港的古樸、傳統和慢活，因此發展觀光也應圍繞這些核心價值，保護並推廣其獨特文化。",
-      "commonMisconception": "學生可能認為發展觀光就一定要現代化、商業化，而未意識到保留傳統特色也是一種吸引力。",
-      "quality_level": "L3",
-      "cqi_score": 4
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在課文的描述中】",
-      "question": "課文開頭就提到作者對鹿港的第一印象是什麼？",
-      "options": [
-        "A. 覺得它是一個繁華熱鬧的現代都市",
-        "B. 感覺像走進了一個時光倒流的古老城鎮",
-        "C. 認為這裡的建築風格非常新穎獨特",
-        "D. 看到許多高頭大馬在街上奔馳"
-      ],
-      "answer_index": 1,
-      "explanation": "課文第一段便描述鹿港給人的感覺是「時光倒流」，彷彿回到了過去的年代，這就是作者的第一印象。",
-      "commonMisconception": "學生可能會被「高頭大馬」這個標題吸引，誤以為這是第一印象，而忽略了課文開頭的整體氛圍描述。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【當你比較鹿港與現代城市】",
-      "question": "課文暗示，相較於現代城市，鹿港的生活壓力可能比較小，這是因為什麼？",
-      "options": [
-        "A. 鹿港的人都不用工作",
-        "B. 鹿港的物價特別便宜",
-        "C. 鹿港的生活步調緩慢，人們不追求快速與效率，心境較為平和",
-        "D. 鹿港的空氣特別好"
-      ],
-      "answer_index": 2,
-      "explanation": "「慢活」的步調和不急不躁的生活方式，減少了現代城市常見的競爭和時間壓力，使居民心境較為平和。",
-      "commonMisconception": "學生可能會將生活壓力小歸因於物質層面（如物價便宜），而未連結到生活態度和步調的影響。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "【當你看到鹿港的居民】",
-      "question": "課文提到鹿港人騎的「高頭大馬」，最有可能的真實情景是什麼？",
-      "options": [
-        "A. 居民真的騎著高大的馬匹",
-        "B. 居民騎著加高座椅的腳踏車，或是比喻他們走路時的神氣模樣",
-        "C. 居民騎著特別高大的機車",
-        "D. 居民穿著高高的鞋子走路"
-      ],
-      "answer_index": 1,
-      "explanation": "「高頭大馬」在鹿港的語境中，常指當地人騎乘的特殊高腳踏車，或是形容人們悠然自得、彷彿騎著高大駿馬般的姿態。",
-      "commonMisconception": "學生可能只從字面理解「馬」，未能聯想到鹿港特殊的交通工具或其引申的意涵。",
-      "quality_level": "L3",
-      "cqi_score": 2
+      "explanation": "特殊在地事物。",
+      "commonMisconception": "字面馬字誤導。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "critical",
-      "scenario": "【在鹿港的發展過程中】",
-      "question": "如果鹿港為了吸引更多遊客，將所有古老建築都改建成現代化商店，你認為會發生什麼事？",
+      "scenario": "現代化衝擊",
+      "question": "若全改建為現代商店會？",
       "options": [
-        "A. 鹿港會變得更受歡迎，遊客數量大增",
-        "B. 鹿港會失去其獨特的歷史文化魅力，變得和其他城市沒有區別",
-        "C. 鹿港的交通會變得更便利，不再塞車",
-        "D. 鹿港的居民會變得更富有"
+        "更受歡迎",
+        "失去特色魅力",
+        "不塞車",
+        "變富有"
       ],
       "answer_index": 1,
-      "explanation": "課文強調鹿港的獨特魅力在於其古老和傳統，若將其現代化，將會失去吸引遊客的核心價值。",
-      "commonMisconception": "學生可能誤以為現代化是唯一的發展方向，未能認識到保持特色對於文化觀光的重要性。",
-      "quality_level": "L5",
+      "explanation": "核心價值流失。",
+      "commonMisconception": "現代化唯一論。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在課文描述的鹿港】",
-      "question": "鹿港的街道上，除了腳踏車和步行者，還可能看到什麼交通工具？",
+      "scenario": "其他交通",
+      "question": "街道上還可能看到？",
       "options": [
-        "A. 大卡車",
-        "B. 摩托車",
-        "C. 飛機",
-        "D. 輪船"
+        "大卡車",
+        "摩托車",
+        "飛機",
+        "輪船"
       ],
       "answer_index": 1,
-      "explanation": "課文中雖強調汽車少見，但摩托車在台灣鄉鎮仍是常見交通工具，且相較於汽車更適合狹窄巷弄。",
-      "commonMisconception": "學生可能只記住汽車的稀少，而忽略了其他可能存在的交通工具，或將摩托車與汽車混淆。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "explanation": "摩托車適合窄巷。",
+      "commonMisconception": "誤以為除了腳踏車沒別的。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【當你思考作者寫這篇課文的目的】",
-      "question": "作者撰寫《鹿港的高頭大馬》這篇課文，最想傳達給讀者的核心訊息是什麼？",
+      "scenario": "核心訊息",
+      "question": "作者最想傳達？",
       "options": [
-        "A. 鼓勵大家多去鹿港購物",
-        "B. 介紹鹿港的交通問題",
-        "C. 讓讀者了解並欣賞鹿港獨特的歷史文化與慢活步調",
-        "D. 呼籲政府將鹿港改建成現代城市"
+        "鼓吹購買",
+        "交通問題",
+        "欣賞歷史與慢活價值",
+        "呼籲現代化"
       ],
       "answer_index": 2,
-      "explanation": "課文透過描述鹿港的街道、交通和生活方式，旨在展現鹿港獨有的傳統魅力和慢活哲學，引導讀者欣賞其價值。",
-      "commonMisconception": "學生可能將重點放在次要細節，而忽略了作者透過這些細節所要表達的整體主題。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "【在鹿港的古老商店中】",
-      "question": "課文提到鹿港有許多「傳統行業」，這些行業最能代表鹿港的什麼特色？",
-      "options": [
-        "A. 科技創新能力",
-        "B. 歷史傳承與工匠精神",
-        "C. 現代商業模式",
-        "D. 大量生產的工業化發展"
-      ],
-      "answer_index": 1,
-      "explanation": "傳統行業通常是代代相傳的技藝，代表著一個地方的歷史、文化和對手工藝的堅持。",
-      "commonMisconception": "學生可能對「傳統行業」的價值認識不足，或將其與現代工業混淆。",
-      "quality_level": "L5",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "【在課文的描述中】",
-      "question": "課文強調鹿港的街道「沒有」哪種現代都市常見的設施？",
-      "options": [
-        "A. 商店",
-        "B. 房屋",
-        "C. 紅綠燈",
-        "D. 行人"
-      ],
-      "answer_index": 2,
-      "explanation": "課文明確提到鹿港的街道少有紅綠燈，這是其與現代城市不同的重要特徵。",
-      "commonMisconception": "學生可能對細節記憶不清，或將其與其他現代設施混淆。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【當你想像在鹿港騎腳踏車】",
-      "question": "在鹿港騎腳踏車，與在一般大城市騎腳踏車，最大的不同感受會是什麼？",
-      "options": [
-        "A. 鹿港的路面比較平坦，騎起來更輕鬆",
-        "B. 鹿港的空氣比較清新，視野更開闊",
-        "C. 鹿港的街道更狹窄，需要更小心地穿梭，但能更貼近在地生活",
-        "D. 鹿港的腳踏車速度可以更快"
-      ],
-      "answer_index": 2,
-      "explanation": "課文強調鹿港街道的狹窄與彎曲，這會讓騎腳踏車的體驗更具挑戰性，但也更能深入巷弄，感受當地風情。",
-      "commonMisconception": "學生可能只想到騎腳踏車的優點，而忽略了鹿港特殊地理環境帶來的不同體驗。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "【在一個假日午後】",
-      "question": "如果一位小朋友習慣了城市生活，第一次來到鹿港，他最可能會感到驚訝的是什麼？",
-      "options": [
-        "A. 鹿港的遊樂設施很多",
-        "B. 鹿港的街道上竟然沒有很多汽車，而且生活步調很緩慢",
-        "C. 鹿港的商店都非常現代化",
-        "D. 鹿港的居民都講外語"
-      ],
-      "answer_index": 1,
-      "explanation": "課文強調鹿港與現代城市的差異，特別是交通方式和生活步調，這會讓習慣城市的孩子感到新奇和驚訝。",
-      "commonMisconception": "學生可能會將自己的城市經驗投射到鹿港，而無法預測不同環境帶來的文化衝擊。",
-      "quality_level": "L5",
+      "explanation": "推廣在地文化價值。",
+      "commonMisconception": "忽略整體主題。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
-      "scenario": "【當你思考鹿港的文化價值】",
-      "question": "課文描述鹿港「保留了許多老東西」，這對現代社會有什麼意義？",
+      "scenario": "傳統行業",
+      "question": "代表了鹿港的？",
       "options": [
-        "A. 讓鹿港看起來很落後，沒有進步",
-        "B. 提供了現代人了解過去、尋根溯源的機會，也提醒人們珍惜傳統",
-        "C. 使得鹿港的發展速度比其他城市慢",
-        "D. 造成鹿港居民生活上的不便"
+        "科技能力",
+        "歷史傳承與工匠精神",
+        "現代商業",
+        "工業化"
       ],
       "answer_index": 1,
-      "explanation": "保留「老東西」不僅是歷史的見證，也為現代人提供了文化學習的寶庫，並提醒人們思考傳統與現代的平衡。",
-      "commonMisconception": "學生可能認為「老」就是沒有價值或造成不便，未能理解其在文化傳承上的重要性。",
-      "quality_level": "L3",
-      "cqi_score": 2
+      "explanation": "技藝傳承。",
+      "commonMisconception": "價值認識不足。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
-      "scenario": "【在課文的敘述中】",
-      "question": "作者在課文中用哪種感官去感受鹿港的氛圍？",
+      "scenario": "缺少設施",
+      "question": "缺少哪種都市常見設施？",
       "options": [
-        "A. 主要透過聽覺，聽到各種叫賣聲",
-        "B. 主要透過視覺，看到古老的建築和獨特的交通",
-        "C. 主要透過味覺，品嚐鹿港小吃",
-        "D. 主要透過嗅覺，聞到食物的香氣"
+        "商店",
+        "房屋",
+        "紅綠燈",
+        "行人"
       ],
-      "answer_index": 1,
-      "explanation": "課文主要描述街道、建築、交通工具等，這些都是透過視覺來呈現鹿港的獨特氛圍。",
-      "commonMisconception": "學生可能會將課文所未提及的感官體驗（如味覺、嗅覺）誤認為是課文的重點。",
-      "quality_level": "L3",
-      "cqi_score": 3
+      "answer_index": 2,
+      "explanation": "文中特指。",
+      "commonMisconception": "細節模糊。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "inferential",
-      "scenario": "【當你閱讀課文時】",
-      "question": "課文沒有直接說鹿港很美，但從作者的描述中，讀者為何會感受到鹿港的美？",
+      "scenario": "城市 vs 鹿港",
+      "question": "騎腳踏車感受最大不同？",
       "options": [
-        "A. 因為作者直接說鹿港的風景很漂亮",
-        "B. 因為作者用「活的博物館」、「時光倒流」等比喻，以及對慢活步調的讚賞，讓讀者感受到一種獨特而古樸的美",
-        "C. 因為課文有附上很多鹿港風景的照片",
-        "D. 因為鹿港的居民都長得很漂亮"
+        "路面平坦",
+        "空氣清新",
+        "街道狹窄更貼近生活",
+        "速度更快"
       ],
-      "answer_index": 1,
-      "explanation": "作者透過生動的比喻和對鹿港獨特生活方式的肯定，間接表達了對鹿港的欣賞與讚美，讓讀者感受到其非凡之美。",
-      "commonMisconception": "學生可能只會尋找直接的讚美詞語，而忽略了文學作品中透過意象和情感傳達美感的方式。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 2,
+      "explanation": "地理差異帶來的體感。",
+      "commonMisconception": "只想到優點。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "critical",
-      "scenario": "【如果你是鹿港的居民】",
-      "question": "你認為居住在鹿港，最需要調整或適應的生活習慣可能有哪些？",
+      "scenario": "文化衝擊",
+      "question": "最可能感到驚訝的是？",
       "options": [
-        "A. 習慣搭乘大眾運輸工具通勤",
-        "B. 習慣開車出門，因為街道寬敞",
-        "C. 習慣步行或騎腳踏車，享受慢活步調，並學會與人互相禮讓",
-        "D. 習慣使用手機導航，因為街道很複雜"
+        "遊樂設施多",
+        "沒多少汽車且步調慢",
+        "商店現代化",
+        "講外語"
+      ],
+      "answer_index": 1,
+      "explanation": "鮮明對比。",
+      "commonMisconception": "經驗投射過度。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "老東西意義",
+      "question": "這對現代社會的意義是？",
+      "options": [
+        "落後",
+        "了解過去並珍惜傳統",
+        "發展慢",
+        "不便"
+      ],
+      "answer_index": 1,
+      "explanation": "文化寶庫。",
+      "commonMisconception": "誤解老的價值。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "感官體驗",
+      "question": "作者主要用哪種感官？",
+      "options": [
+        "聽覺",
+        "視覺",
+        "味覺",
+        "嗅覺"
+      ],
+      "answer_index": 1,
+      "explanation": "描述景觀。",
+      "commonMisconception": "誤認重點。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "美的傳達",
+      "question": "讀者為何能感受到美？",
+      "options": [
+        "直白讚美",
+        "用比喻且讚賞慢活步調",
+        "附照片",
+        "居民漂亮"
+      ],
+      "answer_index": 1,
+      "explanation": "意象與情感。",
+      "commonMisconception": "尋找直接讚美詞。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "生活適應",
+      "question": "居住在此需適應什麼？",
+      "options": [
+        "搭公車",
+        "開大車",
+        "步行或腳踏車且學會禮讓",
+        "手機導航"
       ],
       "answer_index": 2,
-      "explanation": "課文強調鹿港街道狹窄、汽車不便，以及慢活步調，因此居民需要適應以步行或腳踏車代步，並保持互相禮讓的習慣。",
-      "commonMisconception": "學生可能仍以現代都市的生活習慣來思考，未能從鹿港的獨特性出發，思考需要適應的方面。",
-      "quality_level": "L3",
-      "cqi_score": 2
+      "explanation": "與環境共處。",
+      "commonMisconception": "以都市經驗思考。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     }
   ]
 }

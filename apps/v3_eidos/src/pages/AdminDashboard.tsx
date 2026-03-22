@@ -7,6 +7,7 @@ import AdminLibraryManager from '@/components/admin/AdminLibraryManager';
 import AdminQualityAnalyzer from '@/components/admin/AdminQualityAnalyzer';
 import AdminUserManager from '@/components/admin/AdminUserManager';
 import AdminFeedbackInsights from '@/components/admin/AdminFeedbackInsights';
+import AdminSiteFeedback from '@/components/admin/AdminSiteFeedback';
 
 // ─── 三大功能群組定義 ───────────────────────────────────
 // 頂層 3 個 Tab + 每個群組內部的子分頁
@@ -46,6 +47,7 @@ const TAB_GROUPS: TabGroup[] = [
     subTabs: [
       { key: 'usage', label: '使用統計', icon: '👥', component: AdminUserInsights },
       { key: 'feedback', label: '題目回饋', icon: '💬', component: AdminFeedbackInsights },
+      { key: 'site_feedback', label: '全站留言', icon: '💌', component: AdminSiteFeedback },
       { key: 'logs', label: '操作日誌', icon: '📋', component: AdminTestRunner },
     ],
   },

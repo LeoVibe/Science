@@ -3,7 +3,16 @@
  * 開發環境預設 http://localhost:8787
  */
 
-const API_BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:8787';
+const API_BASE = (() => {
+  if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
+  if (typeof window !== 'undefined') {
+    const { hostname, origin } = window.location;
+    if (hostname === 'localhost' || hostname === '127.0.0.1') return 'http://localhost:8787';
+    // 若在 Cloudflare Pages 並缺少 VITE_API_URL，則預設與前端同網域 (通常 API 在同網域的 /api 下，由 worker proxy 或同 domain 處理)
+    if (hostname.endsWith('.pages.dev')) return origin;
+  }
+  return 'http://localhost:8787';
+})();
 
 export function getApiBaseUrl(): string {
   return API_BASE.replace(/\/$/, '');

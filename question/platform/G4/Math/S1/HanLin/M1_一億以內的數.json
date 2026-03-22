@@ -21,7 +21,7 @@
       ],
       "answer": "萬位",
       "explanation": "數位順序從右往左是：個、十、百、千、萬...",
-      "cqi_score": 8.5,
+      "cqi_score": 6.25,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "1000 個一萬是一千萬。",
       "answer": "True",
       "explanation": "1,000 × 10,000 = 10,000,000。",
-      "cqi_score": 3,
+      "cqi_score": 1.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "「四千零八萬零三百」記作______。",
       "answer": "40080300",
       "explanation": "千萬位 4，萬位 8，百位 3，其餘補 0。",
-      "cqi_score": 4,
+      "cqi_score": 3.25,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "50,500,000",
       "explanation": "比較十萬位，5 大於 0。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "9,999,999",
       "explanation": "只相差 1，最接近。",
-      "cqi_score": 6,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]

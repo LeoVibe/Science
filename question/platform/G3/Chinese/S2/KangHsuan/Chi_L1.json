@@ -20,7 +20,11 @@
       "explanation": "課文首段明確提到，作者希望變成一棵大樹，讓旅人可以在樹蔭下休息。",
       "commonMisconception": "學生可能過度帶入現代社會的商業思維飯店或魔幻元素魔毯。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -36,7 +40,11 @@
       "explanation": "課文原文提及「杜鵑花許願開得更美」，表達植物對自身生長與美麗的期盼。",
       "commonMisconception": "學生會混淆不同植物的特性，例如把樹的高大或花的攀比心態誤植於此。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -52,7 +60,11 @@
       "explanation": "課文描寫溪流「彈著清脆的琴聲」，利用水流的聲音轉化為聽覺上的音樂伴奏。",
       "commonMisconception": "學生若以自身對溪水的直覺（如洗澡、抓魚、吹風）作答，會忽略課文中的聽覺摹寫。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -68,7 +80,11 @@
       "explanation": "在此處「乘著」引申為搭乘或依託著夢想的翅膀（飛翔），讀音為ㄔㄥˊ。",
       "commonMisconception": "將多音字（如千乘之國的萬乘）或是數學的乘法互相混淆。",
       "quality_level": "L5",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "literal",
@@ -84,7 +100,11 @@
       "explanation": "課文中明確寫出小鳥的願望是「飛得更高」，象徵追求進步與突破。",
       "commonMisconception": "把動物最原始的覓食需求（吃蟲）或是外表虛榮（羽毛）與詩作的勵志主題搞混。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -100,7 +120,11 @@
       "explanation": "課文最後提到「把它放進心裡，生根發芽」，說明願望是需要放在心中去孕育的。",
       "commonMisconception": "將「放進心裡」這種抽象概念，誤認為是物理上的鎖進抽屜或埋進土裡。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -116,7 +140,11 @@
       "explanation": "「生根」和「發芽」是植物生長的連續動態過程，選項A「開花、結果」也是如此。",
       "commonMisconception": "只選了「兩個常連在一起的詞彙」，卻忽略了植物生長階段的時間連續性邏輯。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
@@ -132,7 +160,17 @@
       "explanation": "課文中提到老樹許願能再度開出花朵。",
       "commonMisconception": "容易因為前文的杜鵑花或是後文的作者而產生記憶混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 2,
+        "correct_answer": 0,
+        "ai_reasoning": "課文中杜鵑花許願開花，但題目問的是誰，應確認課文細節，此題設計稍有混淆。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -148,7 +186,11 @@
       "explanation": "疲倦就是指身體或精神上感到勞累困乏。",
       "commonMisconception": "將疲倦（生理勞累）與難過（心情沮喪）搞混。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -164,7 +206,11 @@
       "explanation": "「淡淡的」小白花在文學上常象徵純潔、低調與無私。作者不求成為視覺焦點，只求能發揮遮蔭的安全作用。",
       "commonMisconception": "容易過度負面解讀「淡淡的」一詞（如自卑、悲觀、無奈）。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "inferential",
@@ -180,7 +226,11 @@
       "explanation": "樹木是固定的（點的庇護），小溪是流動的（線的散播）。從靜到動，擴大了願望的生命力與影響範圍。",
       "commonMisconception": "缺乏文學解構能力，認為這純粹是跳躍性思考或者是樹木缺水的現實邏輯。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -196,7 +246,11 @@
       "explanation": "「推己及人」指將自己的心意推廣到他人身上，作者從自身出發，轉化為造福萬物的樹與溪流，這是一種共好的分享精神。",
       "commonMisconception": "可能選擇過度現實的字眼（如好高騖遠、守株待兔），而未能掌握詩中輕柔利他的美感。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "inferential",
@@ -212,7 +266,11 @@
       "explanation": "「飛向遠方」賦予了願望自由與擴散的魔力，突破了個人私有領域的侷限，象徵把善意散播出去。",
       "commonMisconception": "依據生活常理去解讀放棄（被風吹走）或物理安全（保險箱），忽略文學昇華的視角。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "inferential",
@@ -228,7 +286,11 @@
       "explanation": "課文寫「放進心裡，生根發芽」，這是一個隱喻，表示願望需要放在心中長時間孕育與努力才會成真。",
       "commonMisconception": "會被童話故事的魔法（憑空實現）或是負面情緒（忘記）干擾邏輯判斷。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -237,14 +299,18 @@
       "options": [
         "讓人覺得這是一份可怕的科學報告，所有的動植物都變種了",
         "因為動物會講話太吵了，所以讓人覺得有點煩躁",
-        "讓整首詩充滿了童真，彷彿萬物都有生命和夢想一樣溫暖",
+        "讓整首詩充滿了童真，彷彿萬物都有生命 and 夢想一樣溫暖",
         "作者只是不知道怎麼寫字，所以隨便讓動物當作主角"
       ],
       "answer_index": 2,
       "explanation": "擬人法賦予了大自然情感與思想，能夠營造出萬物共好、充滿溫暖與生機的文學氛圍。",
       "commonMisconception": "無法理解文學修辭的「情感效果」，反而用過於冰冷的現實科學邏輯去批評（變種或太吵）。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -260,7 +326,11 @@
       "explanation": "課文核心是利他與陪伴（如大樹遮蔭、小溪彈琴）。選項B完全符合「自然物發揮自身功能去照顧他人」的溫暖邏輯。",
       "commonMisconception": "被帶有負面情緒的破壞（烤焦）、怠惰（放假、下班）等干擾選項吸引。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 8
     },
     {
       "taxonomy": "inferential",
@@ -276,7 +346,11 @@
       "explanation": "這首詩的核心意象（生根、發芽、杜鵑花、小樹苗）皆為春天的典型景物。雖然大樹乘涼可能是夏天，但整體生機盎然的氛圍指向春季。",
       "commonMisconception": "僅取用單一線索（如乘涼推測夏天）而忽略了全篇大量出現的萌芽生機線索。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -284,15 +358,19 @@
       "question": "作者選擇在春天來臨時寫下這首《許願》詩，除了描寫風景，更希望能達到什麼目的？",
       "options": [
         "告訴大家春天很容易感冒，所以要像大樹一樣強壯才行",
-        "抗議現在的環境汙染太嚴重，導致都沒有樹和乾淨的小溪了。",
+        "抗議現在的環境汙染太嚴重，導致都沒有樹 and 乾淨的小溪了。",
         "利用春天的象徵，鼓勵讀者在一年之初訂下目標並抱持希望",
         "證明自己的寫作能力很好，所有的動植物都會聽他的指揮"
       ],
       "answer_index": 2,
       "explanation": "運用「春天（一年之計）」與「發芽（希望）」的連結，其深層寫作動機是鼓勵人們抱持希望並成長。",
-      "commonMisconception": "被環保議題或健康宣導等不相干但看似正向的價值觀干擾。",
+      "commonMisconception": "被帶有負面情緒的破壞（烤焦）、怠惰（放假、下班）等干擾選項吸引。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
@@ -308,7 +386,11 @@
       "explanation": "大樹精神在於不張揚地提供他庇護。主動承擔髒亂工作以改善環境，且不誇耀，最符合這種低調付出的特質。",
       "commonMisconception": "錯將「出風頭（要最強）」或「獨裁（命令別人）」與大樹的保護者形象掛鉤，或是真的以為要扮演一棵樹。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "contextual",
@@ -324,7 +406,11 @@
       "explanation": "利他共好的精神在於為他人帶來價值。小美希望用笑話排解同學難過，就如同大樹為旅人遮蔭、溪流為大地彈琴。",
       "commonMisconception": "學生習慣許下自利型（如小花的手機）或逃避型（如小信的不用上課）的願望，而忽略課文精神。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "critical",
@@ -340,7 +426,11 @@
       "explanation": "妹妹的話語正使用了與課文相同的擬人化與聽覺轉化，是想像力豐富的展現。",
       "commonMisconception": "因為過度理性的科學邏輯（耳朵壞掉）或過度世俗解讀（想買鋼琴）而扼殺了兒童直觀的修辭感受力。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "critical",
@@ -356,7 +446,11 @@
       "explanation": "作者在原文最後寫下「生根發芽」，正是不斷孕育與行動的象徵，與同學的「需要努力」價值觀是相符而非對立的。",
       "commonMisconception": "學生可能以為文學都是魔幻不切實際的（靠拜拜實現）或是抱持情緒性攻擊（詛咒同學）。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -372,6 +466,10 @@
       "explanation": "小溪的音樂是「和諧且不干擾」的陪伴。在圖書館的情境中，輕聲說故事既滿足了分享美好，也符合圖書館的禮儀規範。",
       "commonMisconception": "錯把大聲宣揚、強迫推銷或是破壞秩序當作是「帶來活力的音樂」。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4.5
     },
     {
@@ -388,7 +486,11 @@
       "explanation": "將「飛向遠方」轉化為帶走厄運與病痛的祝福，是最溫暖且貼合詩境的情境應用。",
       "commonMisconception": "用了過於冰冷現實的形容（冷氣像北極）或是語帶威脅（再也不理你），破壞了原本的善意。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
@@ -404,6 +506,10 @@
       "explanation": "陳伯伯不邀功、默默守護社區環境的行為，與大樹「淡淡小白花」及「提供休息」的低調奉獻意象完美契合。",
       "commonMisconception": "被表面的文字形容（小鳥想升高=長官、杜鵑花美=最帥）誤導，將奉獻解釋為愛慕虛榮。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4.5
     },
     {
@@ -420,7 +526,11 @@
       "explanation": "樹蔭象徵的是心靈上的安全空間。靜靜的陪伴就是提供這種庇護的最佳實踐。",
       "commonMisconception": "過度執著於物理意義上的「樹蔭（傘或紙箱蓋頭）」，或是用強迫中斷悲傷（去跑步）來取代溫暖理解。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "critical",
@@ -436,7 +546,11 @@
       "explanation": "小鳥想要飛得更高代表即使知道自己渺小，也不斷追求進步。小胖不具備極佳的天賦，卻有持續向上的毅力。",
       "commonMisconception": "將特徵進行錯誤的情緒錯位與滑稽聯想（如老樹=年紀大跑不動，或是小鳥=不見了）。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -452,6 +566,10 @@
       "explanation": "小溪的音樂是涓涓細流的溫柔。遞紙條是破冰的微小善意，具有「潤物細無聲」的和解力量。",
       "commonMisconception": "誤以為一定要發生實際上的音樂行為（播放搖滾樂或唱歌），無法理解象徵意義。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4.5
     },
     {
@@ -468,7 +586,11 @@
       "explanation": "詩中美麗的杜鵑花、大樹、小鳥皆是大自然和諧共生存的一環。班長破壞別人的作為嚴重違背了溫暖利他的本意。",
       "commonMisconception": "缺乏道德批判力，落入「為了求勝利不擇手段」的錯誤競爭陷阱，或被植物學的毒性干擾判斷。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 8
     },
     {
       "taxonomy": "contextual",
@@ -484,7 +606,11 @@
       "explanation": "將自己享受過的資源免費給予下一個人，就是願望「散播與發揚」的精神具現化。",
       "commonMisconception": "以利益算計的心態看待資源交換（想買新書），未能發掘行為背後的傳承價值。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     }
   ]
 }

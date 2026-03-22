@@ -21,7 +21,7 @@
       ],
       "answer": "25",
       "explanation": "先乘除後加減。5 × 2 = 10，15 + 10 = 25。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "在有括號的算式中，不一定要先算括號裡的。",
       "answer": "False",
       "explanation": "括號的優先權最高，必須先計算。",
-      "cqi_score": 4,
+      "cqi_score": 2.25,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "計算 (100 - 40) ÷ 3 = ______。",
       "answer": "20",
       "explanation": "100 - 40 = 60，60 ÷ 3 = 20。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.25,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "50 - 2 × 15",
       "explanation": "總錢數減去消費總額。",
-      "cqi_score": 7.5,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "15",
       "explanation": "由左至右計算：120 ÷ 4 = 30，30 ÷ 2 = 15。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]

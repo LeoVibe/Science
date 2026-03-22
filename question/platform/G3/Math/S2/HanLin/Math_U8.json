@@ -19,7 +19,7 @@
       "answer_index": 0,
       "explanation": "96 ÷ 8 = 12。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -34,7 +34,7 @@
       "answer_index": 1,
       "explanation": "25 × 4 = 100。 100 × 7 = 700。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "applied",
@@ -49,7 +49,7 @@
       "answer_index": 2,
       "explanation": "96 ÷ 12 = 8。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 6
     },
     {
       "taxonomy": "applied",
@@ -59,12 +59,12 @@
         "20 顆",
         "15 顆",
         "10 顆",
-        "5 顆　"
+        "5 顆"
       ],
       "answer_index": 3,
       "explanation": "60 ÷ 3 = 20。 20 ÷ 4 = 5。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -79,22 +79,22 @@
       "answer_index": 0,
       "explanation": "14 × 6 + 2 = 84 + 2 = 86。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
       "scenario": "乘除混合應用",
       "question": "果農採了 15 箱蘋果，每箱 8 個。如果要把這些蘋果重新平分給 10 個人。每人拿幾個？",
       "options": [
-        "15 個　",
-        "12 個　",
+        "15 個",
+        "12 個",
         "120 個",
-        "8 個　　"
+        "8 個"
       ],
       "answer_index": 1,
       "explanation": "15 × 8 = 120。 120 ÷ 10 = 12。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -102,29 +102,29 @@
       "question": "一打鉛筆 12 枝賣 60 元。小明帶 200 元最多可以買幾枝？",
       "options": [
         "36 枝",
-        "3 枝　",
+        "3 枝",
         "40 枝",
         "12 枝"
       ],
       "answer_index": 2,
       "explanation": "一枝單價：60 ÷ 12 = 5 元。 200 ÷ 5 = 40 枝。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "乘法分配律直覺",
       "question": "計算 15 × 8 和計算 15 × 2 × 4。結果會一樣嗎？為什麼？",
       "options": [
-        "一樣，但第二個算式比較難　　　",
-        "不一樣，順序不同答案會變　　　",
-        "不一樣，倍數不對　　　　　　　",
+        "一樣，但第二個算式比較難",
+        "不一樣，順序不同答案會變",
+        "不一樣，倍數不對",
         "一樣，因為 2 × 4 = 8"
       ],
       "answer_index": 3,
       "explanation": "連乘法的結合律性質。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -139,22 +139,22 @@
       "answer_index": 0,
       "explanation": "3 × 2 × 12 = 72。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
       "scenario": "運動步數",
       "question": "小明走一圈要 80 步。他今天走了 800 步。請問他走了幾圈？",
       "options": [
-        "8 圈　　",
-        "10 圈　",
+        "8 圈",
+        "10 圈",
         "100 圈",
         "640 圈"
       ],
       "answer_index": 1,
       "explanation": "800 ÷ 80 = 10。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -162,14 +162,14 @@
       "question": "有 145 顆糖，每 9 顆裝一袋。要分給 16 個小朋友每人一袋，糖果夠不夠？還差多少？",
       "options": [
         "不夠；還差 9 顆",
-        "夠了；剩 9 顆　",
+        "夠了；剩 9 顆",
         "不夠；還差 1 顆",
-        "夠了；剩 1 顆　"
+        "夠了；剩 1 顆"
       ],
       "answer_index": 2,
       "explanation": "需 16 袋 = 16 × 9 = 144。 145 - 144 = 1。目前有145顆，夠發一輪還剩一顆。修正：題目問還差多少，如果夠了則差0。原選項 A 不夠，B 夠了剩一顆。答案選 B。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -177,14 +177,14 @@
       "question": "5 盒餅乾賣 450 元。小英買 2 盒要付多少元？",
       "options": [
         "225 元",
-        "90 元　",
+        "90 元",
         "200 元",
         "180 元"
       ],
       "answer_index": 3,
       "explanation": "450 ÷ 5 = 90。 90 × 2 = 180。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
@@ -200,7 +200,7 @@
       "explanation": "這個問題是關於將相同數量的物品重複疊加的問題，也就是乘法。每串有 8 顆氣球，需要 6 串，所以是 8 顆/串 × 6 串 = 48 顆氣球。",
       "commonMisconception": "學生可能會將乘法誤認為加法 (8+6=14)，或是出現乘法計算錯誤 (如8×5=40，然後推導到8×6=42)。也有可能誤用減法。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -216,7 +216,7 @@
       "explanation": "這個問題是關於將總數平均分成若干份的問題，需要使用除法。總共有 24 塊小蛋糕，要分給 6 位小朋友，所以是 24 塊 ÷ 6 位 = 4 塊/位。",
       "commonMisconception": "學生可能誤以為是減法 (24-6=18)，或是加法 (24+6=30)。也有學生可能直接選擇題目中的數字作為答案，而沒有進行計算。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
@@ -232,7 +232,7 @@
       "explanation": "這是一個多步驟的問題。首先，計算大人門票費用：李老師是 1 位大人，所以 120 元 × 1 = 120 元。接著，計算小朋友門票費用：有 3 位小朋友，所以 80 元/位 × 3 位 = 240 元。最後，將兩者相加得到總費用：120 元 + 240 元 = 360 元。",
       "commonMisconception": "學生可能只計算大人和一位小朋友的票價 (120+80=200)，或者只計算小朋友的票價 (80×3=240) 而忽略大人的票價。也有可能將大人的人數誤認為是3位，導致錯誤計算 (120×3+80×3=600)。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -248,7 +248,7 @@
       "explanation": "這個問題需要進行有餘數的除法。將 35 枝彩色筆分給 8 個小組，所以是 35 ÷ 8。計算可得 35 = 8 × 4 + 3。因此，每個小組分到 4 枝，還剩下 3 枝。",
       "commonMisconception": "學生可能忽略餘數 (認為沒有剩下)，或是因為計算錯誤導致答案不正確 (如選項C和D)。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -264,7 +264,7 @@
       "explanation": "這個問題是已知總數和份數，求每份數量的問題，需要使用除法。總共有 45 本書，分成 5 層，所以是 45 本 ÷ 5 層 = 9 本/層。",
       "commonMisconception": "學生可能將除法誤認為加法 (45+5=50) 或乘法 (45×5=225)。也有可能計算錯誤 (如45÷5=8)。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
@@ -280,7 +280,7 @@
       "explanation": "這是一個比例應用問題。首先，算出每片餅乾需要多少麵粉：50 克 ÷ 10 片 = 5 克/片。接著，計算做 30 片餅乾所需的麵粉總量：5 克/片 × 30 片 = 150 克。或者可以直接看出 30 片是 10 片的 3 倍，所以麵粉量也是 3 倍：50 克 × 3 = 150 克。",
       "commonMisconception": "學生可能誤將數量關係看錯，例如認為 30 片是 10 片的 2 倍 (50×2=100)，或是直接將數字相加 (50+30=80)。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -296,7 +296,7 @@
       "explanation": "這個問題是關於將相同數量的物品重複疊加的問題，也就是乘法。一盒有 10 枝鉛筆，買了 7 盒，所以是 10 枝/盒 × 7 盒 = 70 枝鉛筆。",
       "commonMisconception": "學生可能會將乘法誤認為加法 (10+7=17)，或是減法 (10-7=3)。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +312,7 @@
       "explanation": "這個問題需要進行有餘數的除法，並且理解餘數在實際情境中的意義。將 47 個小朋友分組，每組 5 人，所以是 47 ÷ 5。計算可得 47 = 5 × 9 + 2。這表示有 9 個沙坑可以坐滿 5 個小朋友，還剩下 2 個小朋友。為了讓所有小朋友都有沙坑玩，這剩下的 2 個小朋友也需要一個沙坑，所以總共需要 9 + 1 = 10 個沙坑。",
       "commonMisconception": "學生可能只計算除法的商，而忽略餘數 (9個沙坑)，導致有小朋友沒沙坑玩。也有可能誤用加法或減法。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
@@ -328,7 +328,7 @@
       "explanation": "這是一個簡單的乘法問題。每一排有12張水餃皮，排了8排，所以總張數是12 × 8 = 96張。答案是96張。",
       "commonMisconception": "學生可能將乘法誤認為加法 (12+8=20)，或是計算錯誤 (例如12x7=84)。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
@@ -344,7 +344,7 @@
       "explanation": "這是一個有餘數的除法問題。將98顆糖果平均分給5個小朋友，算式是98 ÷ 5 = 19 餘 3。所以每個小朋友分到19顆，還剩下3顆。",
       "commonMisconception": "學生可能在除法計算中出錯，或忘記寫餘數，或誤以為餘數可以繼續分發。選項C的餘數大於除數，顯示計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
@@ -360,7 +360,7 @@
       "explanation": "這是一個乘法應用題。每份禮物有3個小玩具，要準備給15位同學，所以總共需要3 × 15 = 45個小玩具。",
       "commonMisconception": "學生可能會將乘法誤認為加法 (3+15=18)，或者計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
@@ -376,7 +376,7 @@
       "explanation": "這是一個簡單的除法問題。將48本書每6本疊成一堆，算式是48 ÷ 6 = 8。所以小明總共疊了8堆故事書。",
       "commonMisconception": "學生可能會在除法計算中出錯，或混淆乘法與除法。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -392,7 +392,7 @@
       "explanation": "首先計算小莉做的餅乾：24 × 3 = 72片。接著計算小華做的餅乾：24 × 2 = 48片。最後將兩人的餅乾數量加起來：72 + 48 = 120片。",
       "commonMisconception": "學生可能只計算其中一人做的餅乾數量，或者在多步驟計算中出錯。也有可能將包數相加後再乘以24 (3+2=5, 5x24=120)，這雖然得出正確答案，但思維過程略有不同。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -408,7 +408,7 @@
       "explanation": "首先，50 ÷ 8 = 6 餘 2。所以媽媽可以裝滿6盒。由於還剩下2顆，如果想多裝一盒，需要8 - 2 = 6顆小番茄。",
       "commonMisconception": "學生可能只算出裝滿的盒數和餘數，而沒有進一步計算「還需要多少顆」才能再裝滿一盒。選項A的「還需要2顆」是誤將餘數當作需要量。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -424,7 +424,7 @@
       "explanation": "首先計算向日葵的數量：12 × 4 = 48朵。接著計算玫瑰花的數量，是向日葵的2倍：48 × 2 = 96朵。",
       "commonMisconception": "學生可能只計算出向日葵的數量，或者在第二步計算「2倍」時出錯。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -440,7 +440,7 @@
       "explanation": "首先計算小芳看書的天數：27 ÷ 3 = 9天。接著計算小明看書的天數：35 ÷ 5 = 7天。比較兩者，小芳看了9天，小明看了7天，所以小芳比小明多看了9 - 7 = 2天。",
       "commonMisconception": "學生可能計算錯誤，或者混淆誰多誰少，或者將天數直接相減而沒有先算出各自的天數。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
@@ -456,7 +456,7 @@
       "explanation": "題目中提到蘋果和橘子總共有80顆水果，要平均分給7個小組，所以是80 ÷ 7 = 11 餘 3。這表示每個小組分到11顆水果，還剩下3顆水果。題目問「剩下幾顆橘子」，實際上是問剩下的水果，因為橘子的數量沒有單獨給出，但總數80顆是包含蘋果和橘子的，所以餘數就是剩下的水果。",
       "commonMisconception": "學生可能會被「3盒蘋果」和「一些橘子」的資訊干擾，試圖先算出橘子的數量（這是題目未給出的），或者誤以為餘數是橘子以外的水果。實際上「總共有80顆水果」已經是關鍵資訊，前面的蘋果數量是干擾項。另一個迷思是計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "critical",
@@ -472,7 +472,7 @@
       "explanation": "首先，計算可以裝滿幾盒蛋糕：70 ÷ 6 = 11 餘 4。這表示他們可以裝滿11盒蛋糕，剩下4個蛋糕不足一盒。由於只能賣整盒的蛋糕，所以最多可以賣出11盒。每盒賣120元，所以11 × 120 = 1320元。",
       "commonMisconception": "學生可能在除法計算中出錯，或忘記餘數不能賣錢，或者在乘法計算中出錯。選項A是10盒的價格，選項C是12盒的價格，選項D是將總蛋糕數乘以單價，沒有考慮分盒。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7
     }
   ]
 }

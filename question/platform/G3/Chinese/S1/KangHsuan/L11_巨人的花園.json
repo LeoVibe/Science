@@ -20,7 +20,9 @@
       "scenario": "動機分析：分析巨人築牆的心理原因。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 4.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
@@ -37,13 +39,15 @@
       "commonMisconception": "學生可能以為春天只與天氣有關，忽略了故事中「孩子」與「春天」的隱喻連結。",
       "taxonomy": "inferential",
       "quality_level": "L5",
-      "cqi_score": 10
+      "cqi_score": 7,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
       "question": "在漫長的冬天裡，巨人天天盼望著花園能再次長出新芽、開出紅花。請問在故事中，春天遲遲不到巨人花園的原因最可能是什麼？",
       "options": [
-        "因為那一年的冬天特別寒冷，全世界都在下雪",
+        "邊為那一年的冬天特別寒冷，全世界都在下雪",
         "因為巨人忘記澆水，導致植物全部都枯萎了",
         "因為花園裡少了孩子的笑聲，讓花兒與小鳥失去了動力",
         "因為圍牆蓋得太厚，太陽光完全照不進花園裡"
@@ -53,7 +57,9 @@
       "scenario": "因果連結：探討春天消失的深層原因。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
@@ -62,14 +68,16 @@
         "巨人花大錢請來了最專業的園藝師進行整修",
         "圍牆因為地震而自然垮掉，陽光照了進來",
         "春天的神仙路過花園，對著枯樹施展了魔法",
-        "孩子們發現了圍牆上有個小洞，並鑽進花園裡遊玩"
+        "孩子們發現了圍牆上有個小洞，並鑽進花園裡遊遊"
       ],
       "answer_index": 3,
       "explanation": "孩子的進入帶回了生機，這是一個具象化的轉折點。",
       "scenario": "情節定位：找出花園復甦的引發事件。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 5.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
@@ -85,7 +93,9 @@
       "scenario": "心理分析：分析巨人的自我省思。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "6",
@@ -101,7 +111,9 @@
       "scenario": "主旨歸納：分析拆牆背後的積極意義。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 10
+      "cqi_score": 7.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "7",
@@ -117,7 +129,9 @@
       "scenario": "寓意探討：分析春天與笑聲的哲學聯繫。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "8",
@@ -133,13 +147,15 @@
       "scenario": "文學解析：探討空間象徵的表達手法。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 10
+      "cqi_score": 7.5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "9",
       "question": "在故事中，冬天顯得特別漫長且「冷冷清清」。請問「冷冷清清」這個詞除了形容溫度低之外，還能如何正確描述巨人的生活狀態？",
       "options": [
-        "形容巨人的生活充滿了安靜、孤獨且缺乏溫暖的情感連結",
+        "形容巨人的生活充滿了安靜、孤獨且缺乏溫慢的情感連結",
         "形容巨人的房間裡有很多冰塊，所以變得很清涼",
         "形容巨人的鄰居們都突然搬家了，所以街道很冷清",
         "形容巨人的衣服太薄了，所以感受到皮膚很涼快"
@@ -149,7 +165,9 @@
       "scenario": "詞彙分析：解析詞語的情感深度。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 5.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "10",
@@ -165,7 +183,9 @@
       "scenario": "視角切換：從孩子的角度觀察巨人的變化。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "11",
@@ -181,7 +201,9 @@
       "scenario": "象徵意義：探討笑聲的社會與生態價值。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "12",
@@ -197,7 +219,9 @@
       "scenario": "主旨定位：找出故事最後的終極成長。",
       "taxonomy": "applied",
       "quality_level": "L3",
-      "cqi_score": 4.5
+      "cqi_score": 3.5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

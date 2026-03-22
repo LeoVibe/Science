@@ -7,74 +7,68 @@ import { withBase } from '@/utils/basePath';
 import { generateUUID } from '@/utils/uuid';
 
 
+import { toast } from 'sonner';
+import { getApiBaseUrl } from '@/data/api';
+import { getOrCreateUserId } from '@/utils/storage';
+
 const ABOUT_TABS = ['about', 'library', 'deepdive', 'changelog'] as const;
 export type AboutTab = (typeof ABOUT_TABS)[number];
 
-const DEEPDIVE_STORAGE_KEY_LIKES = 'EIDOS_DEEPDIVE_LIKES';
-const DEEPDIVE_STORAGE_KEY_COMMENTS = 'EIDOS_DEEPDIVE_COMMENTS';
-
-function getDeepDiveLikes(): Record<string, number> {
-  try {
-    const raw = localStorage.getItem(DEEPDIVE_STORAGE_KEY_LIKES);
-    return raw ? JSON.parse(raw) : {};
-  } catch { return {}; }
-}
-
-function setDeepDiveLike(articleId: string, count: number): void {
-  const prev = getDeepDiveLikes();
-  prev[articleId] = count;
-  localStorage.setItem(DEEPDIVE_STORAGE_KEY_LIKES, JSON.stringify(prev));
-}
-
-export interface DeepDiveComment {
-  id: string;
-  articleId: string;
-  text: string;
-  timestamp: number;
-}
-
-function getDeepDiveComments(): DeepDiveComment[] {
-  try {
-    const raw = localStorage.getItem(DEEPDIVE_STORAGE_KEY_COMMENTS);
-    return raw ? JSON.parse(raw) : [];
-  } catch { return []; }
-}
-
-function addDeepDiveComment(comment: Omit<DeepDiveComment, 'id' | 'timestamp'>): void {
-  const list = getDeepDiveComments();
-  list.unshift({
-    ...comment,
-    id: generateUUID(),
-    timestamp: Date.now(),
-  });
-
-  if (list.length > 200) list.length = 200;
-  localStorage.setItem(DEEPDIVE_STORAGE_KEY_COMMENTS, JSON.stringify(list));
-}
-
-function DeepDiveCommentForm({ articleId, onSubmitted }: { articleId: string; onSubmitted: () => void }) {
+function SiteFeedbackForm() {
   const [text, setText] = useState('');
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const trimmed = text.trim();
     if (!trimmed) return;
-    addDeepDiveComment({ articleId, text: trimmed });
-    setText('');
-    onSubmitted();
+    
+    setIsSubmitting(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/api/feedback`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-User-Id': getOrCreateUserId(),
+        },
+        body: JSON.stringify({
+          questionId: 'SITE_FEEDBACK',
+          tag: 'general',
+          comment: trimmed,
+          userId: getOrCreateUserId(),
+        }),
+      });
+
+      if (!response.ok) throw new Error('Failed to submit');
+      
+      toast.success('感謝您的留言！我們會認真閱讀並持續優化：）');
+      setText('');
+    } catch (e) {
+      toast.error('發送失敗，請稍後再試。');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
-      <input
-        type="text"
+    <form onSubmit={handleSubmit} className="flex flex-col gap-3 mt-2">
+      <textarea
         value={text}
         onChange={e => setText(e.target.value)}
-        placeholder="輸入留言或提問（僅存於本機，未來將串接後端）"
-        className="flex-1 min-w-0 px-3 py-2 rounded-xl border border-border bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
-        maxLength={500}
+        placeholder="請輸入您的建議..."
+        maxLength={1000}
+        rows={3}
+        className="w-full px-3 py-2.5 rounded-xl border border-border/60 bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 resize-none transition-shadow"
       />
-      <button type="submit" className="px-4 py-2 rounded-xl bg-primary text-primary-foreground font-bold text-sm hover:bg-primary/90 transition-colors shrink-0">
-        送出
-      </button>
+      <div className="flex justify-end">
+        <button 
+          type="submit" 
+          disabled={isSubmitting || !text.trim()}
+          className="px-5 py-2 rounded-xl bg-primary text-primary-foreground font-bold text-xs hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {isSubmitting ? '傳送中...' : '送出留言'}
+        </button>
+      </div>
     </form>
   );
 }
@@ -89,98 +83,8 @@ interface AboutViewProps {
   semester: Semester;
 }
 
-const DEEPDIVE_ARTICLES: { id: string; category: string; title: string; summary: string; content: JSX.Element }[] = [
-  {
-    id: 'design-paradigm',
-    category: '我的初衷',
-    title: '為什麼這裡的題目寫起來「不太一樣」？',
-    summary: '我不只是在找題目，是在幫孩子重塑題目。我希望每一題都能抓到課文的靈魂，而不職是考記憶。',
-    content: (
-      <div className="space-y-4">
-        <section className="bg-primary/5 p-4 rounded-2xl border border-primary/10">
-          <h5 className="font-bold text-primary text-xs mb-2">我的核心理念：懂了，比寫對更重要</h5>
-          <p className="text-xs text-muted-foreground leading-relaxed">
-            在陪孩子練習時，我發現很多題庫都跟課本脫節。所以我試著讓 AI 先讀過整篇課文，拆解出作者想表達的核心論點和邏輯，再根據這些重點來出題。
-          </p>
-        </section>
-        <div className="grid grid-cols-2 gap-3">
-          <div className="p-3 rounded-xl bg-background border border-border/50">
-            <p className="font-bold text-[11px] mb-1">不再盲目亂猜</p>
-            <p className="text-[10px] text-muted-foreground leading-snug">錯誤的選項是我故意設計過的，它們代表了孩子最容易卡關的地方。選錯了沒關係，那代表我們發現了可以進步的空間。</p>
-          </div>
-          <div className="p-3 rounded-xl bg-background border border-border/50">
-            <p className="font-bold text-[11px] mb-1">平等的選項設計</p>
-            <p className="text-[10px] text-muted-foreground leading-snug">我特別要求題目選項要差不多長，這樣孩子就不會因為「選最長的那個」而猜中，而是真的讀完並思考過。</p>
-          </div>
-        </div>
-      </div>
-    ),
-  },
-  {
-    id: 'chinese-insight',
-    category: '學科心得',
-    title: '國語：從故事裡找感覺',
-    summary: '拋棄死背注音符號。我希望孩子能在文字的脈絡中感受到語氣，而不僅僅是處理生字。',
-    content: (
-      <div className="space-y-3">
-        <p className="text-xs text-muted-foreground leading-relaxed italic">
-          「語文不該是負擔，它是孩子觀察世界的眼睛。」
-        </p>
-        <p className="text-xs text-muted-foreground leading-relaxed">
-          在幫兒子設計國語題時，我儘量避開那些會考倒人的冷門字彙。我更在意：
-        </p>
-        <ul className="list-disc pl-4 space-y-1 text-[11px] text-muted-foreground">
-          <li>能否在新的文章場景裡認出學過的字？</li>
-          <li>能不能聽懂角色為什麼要說這句話？</li>
-          <li>能不能分辨出作者想傳遞的微小情感？</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    id: 'math-insight',
-    category: '學科心得',
-    title: '數學：讓數字變成生活的小幫手',
-    summary: '數學不等於計算。我重新設計題目，讓孩子看見問題背後的模型，而不僅僅是在撥算盤。',
-    content: (
-      <div className="space-y-3">
-        <div className="bg-amber-50 dark:bg-amber-950/20 p-3 rounded-xl border border-amber-100 dark:border-amber-900/30">
-          <h5 className="font-bold text-amber-800 dark:text-amber-400 text-[11px] mb-1">告別機械運算</h5>
-          <p className="text-[10px] text-muted-foreground leading-relaxed">
-            我發現孩子會算 156 ÷ 6，但不懂「平分彩色筆」是什麼場景。所以我把題目改成像是規劃校外教學、或是去超市買東西，讓數學真的有用。
-          </p>
-        </div>
-        <p className="text-xs text-muted-foreground leading-relaxed">
-          特別是在分數和時間這類難關，我會加入更多情境引導，幫助孩子在大腦裡建立畫面。
-        </p>
-      </div>
-    ),
-  },
-  {
-    id: 'cognitive-load',
-    category: '陪練心法',
-    title: '剛剛好的難度：4-4-2 的節奏',
-    summary: '為什麼孩子寫練習會想逃避？因為太難會畏懼，太簡單會無聊。我用這套配比來維持練習的動力。',
-    content: (
-      <div className="space-y-3">
-        <p className="text-xs text-muted-foreground leading-relaxed">
-          我不想讓孩子練習到精疲力竭。所以每份練習中：
-        </p>
-        <div className="flex items-center gap-2 p-3 bg-secondary/50 rounded-xl">
-          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0 font-black text-primary text-[10px]">4:4:2</div>
-          <p className="text-[10px] text-muted-foreground leading-snug">
-            40% 複習今天的重點，增加信心；40% 練習常錯的地方，補強盲點；20% 給一點小挑戰，讓孩子發現自己可以做得到！
-          </p>
-        </div>
-      </div>
-    ),
-  },
-];
-
 export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, semester: userSemester }: AboutViewProps) {
   const [libraryConfig, setLibraryConfig] = useState<LibraryConfig | null>(null);
-  const [deepDiveLikes, setDeepDiveLikes] = useState<Record<string, number>>(getDeepDiveLikes);
-  const [deepDiveComments, setDeepDiveComments] = useState<DeepDiveComment[]>(getDeepDiveComments);
   const publisherStats = (libraryData as { publisherStats?: Record<string, { units: number; questions: number; quality: string }> }).publisherStats ?? {};
 
   useEffect(() => {
@@ -486,7 +390,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
             <div className="bg-secondary/20 rounded-2xl border-2 border-primary/10 p-5 space-y-5">
               <div className="space-y-1.5">
                 <h4 className="font-black text-foreground text-[15px] flex items-center gap-2 text-primary">
-                  <span>📐</span> 四層出題工法：為什麼每一題都不一樣？
+                  <span>📐</span> 我的初衷：為什麼這裡的題目寫起來「不太一樣」？
                 </h4>
                 <p className="text-[12px] text-muted-foreground leading-relaxed">
                   讓孩子寫題庫，不是為了機械化的反覆刷題。我們的每一道題目產出，都需要經過四層嚴謹的「AI 專家思考」，確保題目真的能幫助孩子成長。以下是我們對學習的堅持：
@@ -555,72 +459,15 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               </div>
             </div>
 
-            <div className="space-y-5">
-              {DEEPDIVE_ARTICLES.map(art => {
-                const likes = deepDiveLikes[art.id] ?? 0;
-                const articleComments = deepDiveComments.filter(c => c.articleId === art.id);
-                return (
-                  <article key={art.id} className="group bg-secondary/30 rounded-2xl border border-border/30 hover:border-primary/30 transition-all overflow-hidden">
-                    {/* Header: Category & Title */}
-                    <div className="p-4 pb-3 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-bold text-[9px] tracking-wider leading-none">
-                          {art.category}
-                        </span>
-                      </div>
-                      <h4 className="font-black text-foreground text-base tracking-tight">{art.title}</h4>
-                      <p className="text-[11px] text-muted-foreground leading-relaxed">
-                        {art.summary}
-                      </p>
-                    </div>
-
-                    {/* Content Section (Always expanded for now as per design) */}
-                    <div className="px-4 pb-4">
-                      <div className="pt-4 border-t border-border/40 prose prose-sm max-w-none dark:prose-invert">
-                        {art.content}
-                      </div>
-                    </div>
-
-                    {/* Footer: Interaction */}
-                    <div className="px-4 py-3 bg-secondary/40 border-t border-border/20 flex flex-wrap items-center justify-between gap-3">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          const next = likes + 1;
-                          setDeepDiveLike(art.id, next);
-                          setDeepDiveLikes(prev => ({ ...prev, [art.id]: next }));
-                        }}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-background border border-border/60 text-primary font-bold text-[10px] hover:bg-primary/5 hover:border-primary/30 transition-all"
-                      >
-                        👍 認同這份用心 {likes > 0 && `(${likes})`}
-                      </button>
-                      <span className="text-[10px] text-muted-foreground/60 italic">
-                        {articleComments.length} 則留言回饋
-                      </span>
-                    </div>
-
-                    {/* Comments Area */}
-                    <div className="p-4 pt-2 space-y-3 bg-secondary/20">
-                      <p className="text-[10px] font-bold text-muted-foreground/80 flex items-center gap-1">
-                        💬 家長與老師的話
-                      </p>
-                      <DeepDiveCommentForm
-                        articleId={art.id}
-                        onSubmitted={() => setDeepDiveComments(getDeepDiveComments())}
-                      />
-                      {articleComments.length > 0 && (
-                        <ul className="space-y-1.5 mt-2">
-                          {articleComments.slice(0, 3).map(c => (
-                            <li key={c.id} className="text-[10px] text-muted-foreground bg-background/40 rounded-lg px-3 py-2 border border-border/20">
-                              {c.text}
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </div>
-                  </article>
-                );
-              })}
+            {/* 🆕 給我回饋留言區塊 */}
+            <div className="bg-secondary/20 rounded-2xl border border-border/50 p-5 mt-6 space-y-3">
+              <h4 className="font-black text-foreground text-[14px] flex items-center gap-2">
+                <span>💬</span> 有什麼想告訴我們的嗎？
+              </h4>
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                不論是對題目的建議、希望追加的新功能，或是給開發者的鼓勵，都歡迎在這邊留言喔！（您的留言信將會被妥善收藏在管理後台）
+              </p>
+              <SiteFeedbackForm />
             </div>
 
             <p className="text-[10px] text-muted-foreground/60 text-center py-4">

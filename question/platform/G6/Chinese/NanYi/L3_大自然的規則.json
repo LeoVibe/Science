@@ -1,0 +1,115 @@
+{
+  "publisher": "南一",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L3",
+  "lesson_title": "大自然的規則",
+  "questions": [
+    {
+      "question": "【分析說明文邏輯】文中提到「當我們自以為是在保護弱小時，往往正在破壞大自然的規則」，這句話主要想傳達哪一種觀念？",
+      "options": [
+        "人類不應該有同情心，看到動物受傷應該要大聲嘲笑。　",
+        "生態系統具備複雜的因果關係，人為的片面干預反而會導致失衡。",
+        "強者欺負弱小是社會的常態，我們應該要努力成為強者。　",
+        "保護動物需要花費太多的預算，這對國家經濟發展沒有好處。　"
+      ],
+      "answer_index": 1,
+      "explanation": "這是生態學的核心——「食物鏈與反饋機制」。人類若基於感性保護弱小（如獵食者的獵物），可能導致該物種過剩，最終引發植被崩潰或其他連鎖反應。",
+      "scenario": "辨析「人類感性（同情心）」與「自然理性（規則）」之間的思辨衝突。",
+      "commonMisconception": "學生易因道德直覺選[A]，而忽略了科學邏輯上的「權衡（Trade-off）」。",
+      "taxonomy": "inferential",
+      "cqi_score": 1,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】文中舉出「狼與鹿」的生態案例，最後證實狼的存在對整個森林環境有什麼深遠的貢獻？",
+      "options": [
+        "狼會吃掉多餘的鹿，保持植被的覆蓋率，並讓鹿群體質更強健。",
+        "狼會嚇跑所有的人類開發者，讓森林能保有原本的靜謐。　",
+        "狼會與鹿成為好朋友，共同抵抗來自森林外圍的其他威脅。　",
+        "狼的存在本身沒有任何貢獻，這只是科學家隨口編造出的故事。　"
+      ],
+      "answer_index": 0,
+      "explanation": "狼作為頂端掠食者，能剔除老弱病殘（天擇），並控制鹿隻數量，防止過度放牧。這是「適度的壓力能促進系統健康」的科普應用。",
+      "scenario": "考驗對科普案例中「反直覺邏輯」的擷取與整合能力。",
+      "commonMisconception": "學生常受「負面形象」影響，無法接受掠食者的「正面功能」。",
+      "taxonomy": "inferential",
+      "cqi_score": 1,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落寫法】作者在文章中運用了大量的「如果……那麼……」等假想推論句式，這種設計的目的是什麼？",
+      "options": [
+        "顯示作者是一個愛幻想、不務正業的人，總是愛胡思亂想。　　",
+        "引導讀者進行邏輯思辨，一步步推演人為干預可能產生的惡果。　",
+        "增加文字的字數，讓這篇稿子能領到更多的稿費。　　　",
+        "向讀者展現各種可能發生的科幻情境，增加閱讀的趣味。　　"
+      ],
+      "answer_index": 1,
+      "explanation": "說明文追求「嚴謹」。透過假想實驗（Thought experiment），能讓讀者在不具備實體儀器的情況下，完成腦內的邏輯驗證。",
+      "scenario": "探討說明文中的「假設語法」如何增強論點的說服力。",
+      "commonMisconception": "學生易選[D]，忽略了其背後的「邏輯嚴密性」功能。",
+      "taxonomy": "analysis",
+      "cqi_score": 1,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【評估文章的立場】根據全篇內容，作者最可能會贊同下列哪一種對待大自然的態度？",
+      "options": [
+        "征服自然：利用高科技全面改造大自然，使其為人類服務。　",
+        "敬畏自然：順應自然的運作規律，減少不必要的人為干預。　",
+        "忽視自然：大自然有它自己的路，人類完全不需要關心。　　",
+        "利用自然：將大自然所有資源都換算成金錢，以便快速發展。　"
+      ],
+      "answer_index": 1,
+      "explanation": "「敬畏」源於對其規則複雜性的理解。作者呼籲的是一種「無為而治」的智慧，即尊重大自然的自我調節力。",
+      "scenario": "提煉文本的中心思想與生命態度（PIRLS 層次 4）。",
+      "commonMisconception": "學生容易選[C]，分不清「尊重規則不干預」與「漠不關心」的差異。",
+      "taxonomy": "evaluative",
+      "cqi_score": 2,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨領域思考】如果人類也能像大自然一樣擁有一套「規則」，這套規則在維持班級秩序時，最可能對應到哪一個做法？",
+      "options": [
+        "獎學金制度：讓考得好的人更有錢，考不好的人更貧窮。　",
+        "自治與糾錯機制：讓每個人在互動中學習互相制衡與自我管理。　",
+        "極致懲罰制度：只要有人犯錯，就全班一起受罰，不問原因。　",
+        "完全自由制度：大家想做什麼就做什麼，完全不需要任何規範。　"
+      ],
+      "answer_index": 1,
+      "explanation": "大自然規則的精髓在於「自我調適（Feedback loop）」。這對應到群體的自治力，而非外在的強權或絕對的混亂。",
+      "scenario": "將科學原理（自然法則）遷移至社會科學（班級管理）的情境中。",
+      "commonMisconception": "學生可能選[D]，誤解「自然」就是「隨便」，而沒看見背後嚴密的連鎖律。",
+      "taxonomy": "applied",
+      "cqi_score": 2,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

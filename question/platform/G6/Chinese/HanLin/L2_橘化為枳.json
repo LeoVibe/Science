@@ -20,7 +20,12 @@
       "commonMisconception": "學生易誤選[A]，僅從字面科學意義理解，忽略了外交辭令背後的反諷意圖。",
       "taxonomy": "applied",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     },
     {
       "question": "【閱讀課文內容後】文中提到的「葉徒相似，其實味不同」這句話，在晏子的論證邏輯中具有什麼樣的深層含義？",
@@ -35,8 +40,19 @@
       "scenario": "探討文章的核心比喻，將植物特性與人的人格特質進行類比推論。",
       "commonMisconception": "學生常受限於「具體運思」，僅停留在植物外觀的描述[A]，而無法完成抽象的意義轉移。",
       "taxonomy": "inferential",
-      "cqi_score": 6.5,
-      "quality_level": "L5"
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "選項(0)能引導學生思考晏子話語背後的邏輯意圖，而非僅停留在生物學表象，符合高階評鑑要求。",
+        "review_status": "pending"
+      }
     },
     {
       "question": "【在分析人物說話技巧時】當楚王問：「齊人固善盜乎？」晏子的回應語氣可以被解讀為下列何者？",
@@ -52,7 +68,12 @@
       "commonMisconception": "學生常因為讀不懂古文的反詰語氣，誤以為晏子是在「承認錯誤」或表現儒弱。",
       "taxonomy": "applied",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     },
     {
       "question": "【如果將《橘化為枳》的道理應用在現代生活中】下列哪一個情境最符合晏子所提出的「環境影響行為」觀點？",
@@ -68,7 +89,12 @@
       "commonMisconception": "學生可能選[B]，將「本質（天賦）」與「環境影響」混淆。",
       "taxonomy": "applied",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     },
     {
       "question": "【在解讀文章結構時】晏子先說橘與枳的故事，再說齊國人偷東西的事情。這種「類比推理」的方法在文中有什麼優點？",
@@ -83,8 +109,13 @@
       "scenario": "分析論說性文本的論證結構，理解「說理」的層次感。",
       "commonMisconception": "容易誤選[D]，認為晏子只是在逃避話題，卻沒看見這背後的論證陷阱。",
       "taxonomy": "inferential",
-      "cqi_score": 6.5,
-      "quality_level": "L5"
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     }
   ]
 }

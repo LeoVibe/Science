@@ -21,7 +21,7 @@
       ],
       "answer": "十分位",
       "explanation": "小數點右邊第一位是十分位。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "1.5 和 1.50 的大小是不相等的。",
       "answer": "False",
       "explanation": "小數末尾的 0 不影響數值大小。",
-      "cqi_score": 4,
+      "cqi_score": 2,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "計算 0.75 + 0.25 = ______。",
       "answer": "1",
       "explanation": "0.75 + 0.25 = 1.00，簡寫為 1。",
-      "cqi_score": 4,
+      "cqi_score": 2,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "0.9",
       "explanation": "比較十分位，9 大於 1。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "1.95",
       "explanation": "2.50 - 0.55 = 1.95。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     }
   ]

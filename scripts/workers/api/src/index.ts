@@ -434,20 +434,34 @@ export default {
         try {
           // 1. 總計與標籤分佈
           const tagStats = await env.DB.prepare(
-            'SELECT tag, COUNT(*) as count FROM feedback GROUP BY tag'
+            "SELECT tag, COUNT(*) as count FROM feedback WHERE question_id != 'SITE_FEEDBACK' GROUP BY tag"
           ).all();
 
           // 2. 熱點題目 (被投訴最多次的前 10 名)
           const hotspotQuestions = await env.DB.prepare(
-            'SELECT question_id, COUNT(*) as report_count FROM feedback GROUP BY question_id ORDER BY report_count DESC LIMIT 10'
+            "SELECT question_id, COUNT(*) as report_count FROM feedback WHERE question_id != 'SITE_FEEDBACK' GROUP BY question_id ORDER BY report_count DESC LIMIT 10"
           ).all();
 
           return json({
             ok: true,
-            total: tagStats.results.reduce((acc, curr: any) => acc + curr.count, 0),
+            total: tagStats.results.reduce((acc: number, curr: any) => acc + curr.count, 0),
             tagStats: tagStats.results,
             hotspots: hotspotQuestions.results
           }, { headers });
+        } catch (e) {
+          return json({ error: String(e) }, { status: 500, headers });
+        }
+      }
+
+      if (path === '/api/admin/site-feedback' && req.method === 'GET') {
+        const verify = await verifyAdminBearerToken(req, env);
+        if (!verify.ok) return json({ error: verify.error }, { status: verify.status, headers });
+
+        try {
+          const details = await env.DB.prepare(
+            "SELECT * FROM feedback WHERE question_id = 'SITE_FEEDBACK' ORDER BY created_at DESC"
+          ).all();
+          return json({ ok: true, details: details.results }, { headers });
         } catch (e) {
           return json({ error: String(e) }, { status: 500, headers });
         }

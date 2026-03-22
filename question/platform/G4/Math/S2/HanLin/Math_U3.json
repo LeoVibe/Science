@@ -18,7 +18,7 @@
       "explanation": "450 * 30 = 13500。可以先算 45 * 3 = 135，再補回兩個 0。",
       "concept": "乘數為整十的乘法",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.25
     },
     {
       "id": "q2",
@@ -35,7 +35,7 @@
       "explanation": "785 取概數到百位為 800，125 取概數到百位為 100。 800 * 100 = 80,000。",
       "concept": "乘法的估算",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6
     },
     {
       "id": "q3",
@@ -52,7 +52,7 @@
       "explanation": "542 * 12 = 542 * 10 + 542 * 2 = 5420 + 1084 = 6504。",
       "concept": "三位數乘兩位數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q4",
@@ -69,7 +69,7 @@
       "explanation": "2050 * 24 = 49200。",
       "concept": "含零大數的乘法",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q5",
@@ -86,7 +86,7 @@
       "explanation": "1500 * 365 = 547500。",
       "concept": "四位數乘三位數簡化",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q6",
@@ -103,7 +103,7 @@
       "explanation": "125 * 48 = 125 * 8 * 6 = 1000 * 6 = 6000。",
       "concept": "乘法分解計算",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q7",
@@ -120,7 +120,7 @@
       "explanation": "400 * 15 = 6000。",
       "concept": "整百乘法",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.25
     },
     {
       "id": "q8",
@@ -137,7 +137,7 @@
       "explanation": "185 * 102 = 185 * 100 + 185 * 2 = 18500 + 370 = 18870。",
       "concept": "三位數乘三位數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q9",
@@ -154,7 +154,7 @@
       "explanation": "256 * 128 = 32768。",
       "concept": "三位數乘三位數進位",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q10",
@@ -171,7 +171,7 @@
       "explanation": "120 * 50 = 6000。",
       "concept": "生活計量乘法",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.75
     }
   ]
 }

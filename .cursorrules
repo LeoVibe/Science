@@ -15,6 +15,8 @@
 2. **`docs/網站功能規格書.md`**：指導你「UI 應該長什麼樣」(如按鈕是圓角多大、選中時是什麼狀態)。
 
 ## 🚨 核心禁令 (Strict Prohibitions)
+- **API 成本意識**：在執行任何涉及大規模 LLM 呼叫的任務前，**強制閱讀並遵守** `_agent/API_RULES.md` 的金鑰分級、調速與預算警示原則。結案時必須回報 Token 與預估花費。
+- **變更追溯**：所有文件（MD、JSON）均須記錄 `last_updated`（YYYY-MM-DD HH:mm）與 `updated_by`。
 - **禁止 Hardcode 色彩**：絕不可以在 `.tsx` 中寫死色碼（如 `text-[#333]` 或 `hsl(200 40% 65%)`）。請始終使用 `config.ts` 定義的 Semantic Colors，或是使用 `index.css` 定義的 CSS 變數（如 `subject-text-{theme}`）。
 - **禁止發明新規格**：若遇到不在《網站功能規格書》上的新元件，請依循專案「暖調琥珀 (Warm Amber)」與「溫和低負擔」的風格設計。
 - **禁止使用絕對路徑**：無論是在 Markdown 文件中建立連結，還是在程式碼中引用資源，**絕對禁止**使用類似 `/Users/xxx/...` 的本地絕對路徑。必須始終使用基於專案根目錄（或當下目錄）的「相對路徑 (Relative Paths)」，確保專案在跨設備、跨 Agent 交接時不會斷鏈。

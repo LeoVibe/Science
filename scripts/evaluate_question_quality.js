@@ -47,14 +47,18 @@ function checkResearchSupport(filePath, meta) {
     const semesterCN = semesterMap[semester] || semester;
     const outlineFileNameCN = `${gradeCN}${semesterCN}_${subjectCN}_發展綱要.md`;
     const outlineFileNameEN = `${grade}_${semester}_${subjectCN}發展綱要.md`;
+    const outlineFileNameEN2 = `${grade}_${semester}_${subjectCN}_發展綱要.md`;
 
     let outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameCN);
     if (!fs.existsSync(outlinePath)) {
         outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameEN);
     }
+    if (!fs.existsSync(outlinePath)) {
+        outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameEN2);
+    }
 
     if (!fs.existsSync(outlinePath)) {
-        return { ceiling: 'L1', reason: `發展綱要不存在: ${outlineFileNameCN}` };
+        return { ceiling: 'L1', reason: `發展綱要不存在: ${outlineFileNameCN} / ${outlineFileNameEN2}` };
     }
 
     const content = fs.readFileSync(outlinePath, 'utf8');
@@ -84,16 +88,15 @@ function evaluateQuestion(q, subject) {
     let isLongestAnswer = false;
 
     // ==========================================
-    // 1. CQI (Composite Quality Index) 綜合加分計算
+    // 1. CQI v2 (Composite Quality Index) 綜合加分計算
+    // 版本：v2.0 (2026-03-21 重構)
+    // 配分總表：A(2.0) + B(2.0) + C(1.5) + D(1.0) + E(1.0) + F(1.0) + G(0.5) = 9.0 基礎
+    //           + H(1.0 誘答鑑別度, Phase 3 離線批次) = 10.0 滿分
+    //           - I(文化公平性扣分制, 觸發扣 0.5)
     // ==========================================
     let cqi_score = 0;
 
-    // A. 結構完整性 (最高 2.0 分)
-    if (q.id || q.lesson_id) cqi_score += 0.5;
-    if (q.commonMisconception || q.scenario) cqi_score += 0.5;
-    if (explanationText && explanationText.length > 10) cqi_score += 1.0;
-
-    // B. 選項對稱性 (最高 3.0 分)
+    // --- A. 選項對稱性 (最高 2.0 分) ---
     if (options.length === 4) {
         const lengths = options.map(o => String(o).length);
         const avgLen = lengths.reduce((a, b) => a + b, 0) / 4;
@@ -106,11 +109,11 @@ function evaluateQuestion(q, subject) {
 
         if (avgLen > 0) {
             if (['Math', 'Science', 'English'].includes(subject) && avgLen < 15) {
-                cqi_score += 3.0;
+                cqi_score += 2.0;
                 isLongestAnswer = false;
             } else {
                 if (!isLongestAnswer) {
-                    cqi_score += 3.0;
+                    cqi_score += 2.0;
                 } else {
                     reports.push('正確選項為最長選項，易被盲猜');
                 }
@@ -118,24 +121,69 @@ function evaluateQuestion(q, subject) {
         }
     }
 
-    // C. 情境深度 (最高 3.0 分)
+    // --- B. 情境深度 (最高 2.0 分) ---
+    // B1: 字數門檻 (1.0)
+    // B2: 情境標籤或對話框檢測 (1.0)
     const qLen = String(questionText).length;
+    let scenarioDepthScore = 0;
     if (['Math', 'Science', 'English'].includes(subject)) {
-        if (qLen >= 25) cqi_score += 3.0;
-        else if (qLen >= 15) cqi_score += 1.5;
-        else if (qLen >= 5) cqi_score += 0.5;
-        else reports.push('數理/英語題幹過短 (<5字)');
+        if (qLen >= 25) scenarioDepthScore += 1.0;
+        else if (qLen >= 15) scenarioDepthScore += 0.5;
+        else if (qLen < 5) reports.push('數理/英語題幹過短 (<5字)');
     } else {
-        if (qLen >= 50) cqi_score += 3.0;
-        else if (qLen >= 30) cqi_score += 1.5;
-        else if (qLen >= 15) cqi_score += 0.5;
-        else reports.push('文科題幹過短 (<15字)');
+        if (qLen >= 50) scenarioDepthScore += 1.0;
+        else if (qLen >= 30) scenarioDepthScore += 0.5;
+        else if (qLen < 15) reports.push('文科題幹過短 (<15字)');
     }
+    // B2: 情境標籤檢測（【...】或「...」對話框）
+    const hasContextTag = /【.+?】/.test(questionText) || /「.+?」/.test(questionText);
+    if (hasContextTag) scenarioDepthScore += 1.0;
+    cqi_score += Math.min(scenarioDepthScore, 2.0);
 
-    // D. 認知層次標註 (最高 2.0 分)
+    // --- C. 認知層次標註 (最高 1.5 分) ---
     const taxonomy = q.taxonomy || q.type_pirls || 'literal';
-    if (['inferential', 'applied'].includes(taxonomy)) cqi_score += 2.0;
-    else if (taxonomy === 'literal') cqi_score += 1.0;
+    if (['inferential', 'applied', 'critical', 'evaluative', 'analysis'].includes(taxonomy)) cqi_score += 1.5;
+    else if (taxonomy === 'literal') cqi_score += 0.75;
+
+    // --- D. 結構完整度 (最高 1.0 分) ---
+    if (explanationText && explanationText.length > 10) cqi_score += 0.5;
+    if (q.commonMisconception || q.scenario) cqi_score += 0.5;
+
+    // --- E. 易讀性 (最高 1.0 分) ---
+    // 計算題幹+選項的平均句長，比對年級合理範圍
+    const allText = questionText + ' ' + options.map(o => String(o)).join(' ');
+    const sentences = allText.split(/[，。？！；：、\n]/g).filter(s => s.trim().length > 0);
+    const avgSentLen = sentences.length > 0 ? sentences.reduce((a, s) => a + s.trim().length, 0) / sentences.length : 0;
+    // 依年級判定合理範圍（從 meta 中的 grade 推算，預設中年級標準）
+    const gradeNum = parseInt(String(subject === 'English' ? 6 : (q._gradeNum || 4)));
+    const sentLenLimit = gradeNum <= 2 ? 12 : gradeNum <= 4 ? 18 : 25;
+    if (avgSentLen > 0 && avgSentLen <= sentLenLimit) cqi_score += 0.5;
+    else if (avgSentLen > 0 && avgSentLen <= sentLenLimit * 1.3) cqi_score += 0.25;
+    // 選項是否含特殊難字（簡易檢測：超長選項可能含難詞）
+    const optionAvgLen = options.length > 0 ? options.reduce((a, o) => a + String(o).length, 0) / options.length : 0;
+    if (optionAvgLen > 0 && optionAvgLen <= 40) cqi_score += 0.5;
+    else if (optionAvgLen > 0 && optionAvgLen <= 60) cqi_score += 0.25;
+
+    // --- F. 課綱對齊 (最高 1.0 分) ---
+    // Phase 2 完整實作（需 Curriculum Matrix 結構化）
+    // Phase 1 簡易版：研究檔存在即得 0.5，題目有 scenario 且 > 5 字再加 0.5
+    if (q.scenario && String(q.scenario).length > 5) cqi_score += 0.5;
+    // 研究檔的 0.5 分由全檔級 checkResearchSupport() 提供（見 evaluateFile）
+
+    // --- G. 認知成熟度匹配 (最高 0.5 分) ---
+    // 此為全檔級指標，在 evaluateFile() 中攤回每題。此處預留欄位。
+
+    // --- H. 誘答鑑別度 (最高 1.0 分, Phase 3) ---
+    // 需 LLM 離線批次驗證結果（blind_test_result 欄位），Phase 1 暫不計入
+
+    // --- I. 文化公平性 (扣分制：觸發扣 0.5) ---
+    const biasKeywords = ['百貨公司', '名牌', '出國旅遊', '商務艙', '高鐵商務', '信用卡', '豪宅', '別墅', '跑車', '精品店', '五星級飯店'];
+    const fullText = questionText + ' ' + options.join(' ');
+    const hasCulturalBias = biasKeywords.some(kw => fullText.includes(kw));
+    if (hasCulturalBias) {
+        cqi_score -= 0.5;
+        reports.push('⚠️ 文化公平性警告：題目含高社經偏見關鍵字');
+    }
 
     // 確保分數在 0~10 區間
     cqi_score = Math.min(Math.max(cqi_score, 0), 10);
@@ -234,8 +282,33 @@ function evaluateFile(filePath) {
         // 統計 QG 各等級的題目數量
         const levelCount = { 'L1': 0, 'L2': 0, 'L3': 0, 'L4': 0, 'L5': 0 };
 
+        // CQI v2: 注入年級數字供易讀性評估使用
+        const gradeNumForFile = parseInt(String(meta.grade || 'G4').replace(/\D/g, '')) || 4;
+
+        let modified = false;
+
         questions.forEach(q => {
+            // 自動清洗選項與解答中的作弊空白 (包含全形與半形)
+            if (Array.isArray(q.options)) {
+                const cleanedOptions = q.options.map(o => String(o).replace(/[ \u3000]+/g, ' ').trim());
+                for (let i = 0; i < q.options.length; i++) {
+                    if (q.options[i] !== cleanedOptions[i]) {
+                        q.options[i] = cleanedOptions[i];
+                        modified = true;
+                    }
+                }
+            }
+            if (typeof q.answer === 'string') {
+                const cleanedAns = q.answer.replace(/[ \u3000]+/g, ' ').trim();
+                if (q.answer !== cleanedAns) {
+                    q.answer = cleanedAns;
+                    modified = true;
+                }
+            }
+
+            q._gradeNum = gradeNumForFile; // 暫存年級供 evaluateQuestion 使用
             const result = evaluateQuestion(q, meta.subject);
+            delete q._gradeNum; // 清除暫存
             totalCqiScore += result.cqi_score;
             levelCount[result.qg_level]++;
 
@@ -300,6 +373,10 @@ function evaluateFile(filePath) {
 
         // 將有品質標記 (QG 與 CQI) 的 JSON 寫回
         fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf8');
+        
+        if (modified) {
+            console.log(`🧹 自動移除作弊空白並存檔: ${path.basename(filePath)}`);
+        }
 
         return {
             quality: qg_quality,       // QG (對外)
@@ -396,14 +473,18 @@ if (require.main === module) {
         console.log('\n=== 題庫雙軌品質評核總結報告 (CQI & QG) ===');
         console.log(JSON.stringify(summary, null, 2));
 
-        const logDir = path.join(process.cwd(), 'docs/reports');
+        const logDir = path.join(process.cwd(), '.logs');
         if (!fs.existsSync(logDir)) {
             fs.mkdirSync(logDir, { recursive: true });
         }
 
         const reportPath = path.join(logDir, 'evaluation_report.json');
-        fs.writeFileSync(reportPath, JSON.stringify({ summary, details: allResults }, null, 2));
-        console.log(`\n詳細報告已儲存至 ${reportPath}`);
+        try {
+            fs.writeFileSync(reportPath, JSON.stringify({ summary, details: allResults }, null, 2));
+            console.log(`\n詳細報告已儲存至 ${reportPath}`);
+        } catch (e) {
+            console.log(`\n寫入報告失敗 (無權限): ${e.message}`);
+        }
 
         if (isGateMode && hasCriticalFailure) {
             console.error('\n❌ [Quality Gate] 偵測到嚴重品質異常或包含低於標準備備 (L1, L2) 之內容，產出被攔截！');

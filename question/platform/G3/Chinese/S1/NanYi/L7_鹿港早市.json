@@ -12,65 +12,75 @@
     {
       "id": "1",
       "type": "multiple_choice",
-      "question": "鹿港位於台灣的哪一個縣市？",
+      "question": "本課「鹿港早市」中，作者主要描寫了什麼樣的地方風景？",
       "options": [
-        "嘉義縣",
-        "雲林縣",
-        "彰化縣",
-        "南投縣"
+        "鹿港的現代百貨公司",
+        "鹿港的傳統早市",
+        "鹿港的深夜食堂",
+        "鹿港的學校操場"
       ],
-      "answer": "彰化縣",
-      "explanation": "鹿港是彰化縣著名的歷史名鎮。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "answer": "鹿港的傳統早市",
+      "explanation": "透過早市的觀察，體驗在地的人文氣息與生活質感。",
+      "cqi_score": 4.5,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
       "type": "true_false",
-      "question": "鹿港早市充滿了在地人的活力與特色美食。",
+      "question": "文中提到，早市裡充滿了熱鬧的人情味、古樸的建築與道地的美食香氣。",
       "answer": "True",
-      "explanation": "傳統市場是體驗在地文化與民生百態的最佳場景。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "explanation": "早市是鄉土文化與五感經驗的最佳體現場域。",
+      "cqi_score": 2.25,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
-      "question": "在市集中，可以聽到小販熱情的______聲，這也是一種在地的人情味。",
-      "answer": "叫賣或吆喝",
-      "explanation": "喧騰的市井聲響是早市的靈魂。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "question": "早上的市場人聲鼎沸，作者將其熱鬧景象比喻成一場精彩的______。",
+      "answer": "大自然的交響合奏或熱鬧的劇場",
+      "explanation": "運用譬喻法描述市場的活力。",
+      "cqi_score": 2.25,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
       "type": "multiple_choice",
-      "question": "這課描寫的鹿港早市，給讀者什麼樣的感覺？",
+      "question": "為什麼作者要特別觀察早市？",
       "options": [
-        "安靜無聲",
-        "古樸、熱鬧且溫暖",
-        "現代且冷清",
-        "雜亂且可怕"
+        "因為那是家鄉最有活力的地方",
+        "透過常民生活觀察家鄉的文化特色與生命力",
+        "因為作者很餓",
+        "要幫忙叫賣"
       ],
-      "answer": "古樸、熱鬧且溫暖",
-      "explanation": "充滿傳統文化底蘊與濃郁人情。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer": "透過常民生活觀察家鄉的文化特色與生命力",
+      "explanation": "從微觀的生活場景連結到宏觀的家鄉文化意識。",
+      "cqi_score": 3.75,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
       "type": "multiple_choice",
-      "question": "下列哪種特產最可能出現在鹿港的傳統市場？",
+      "question": "這一課引導讀者具備什麼樣的鄉土情懷？",
       "options": [
-        "蚵仔麵線、糕餅",
-        "法國長棍麵包",
-        "泰式酸辣粉",
-        "美式熱狗"
+        "趕快離開家鄉去城市",
+        "珍惜傳統文化，觀察生活中的土地情感",
+        "如何當一個成功的攤販",
+        "去市場買便宜的東西"
       ],
-      "answer": "蚵仔麵線、糕餅",
-      "explanation": "鹿港以傳統小吃與工藝（如牛舌餅、麵茶）聞名。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer": "珍惜傳統文化，觀察生活中的土地情感",
+      "explanation": "鄉土教育與社會觀察能力的培養。",
+      "cqi_score": 4,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

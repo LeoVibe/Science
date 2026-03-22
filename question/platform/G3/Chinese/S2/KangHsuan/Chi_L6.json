@@ -20,7 +20,17 @@
       "explanation": "這些場所都需要大量的資訊管理與快速流通。",
       "commonMisconception": "細節提取錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "applied",
@@ -36,7 +46,17 @@
       "explanation": "本課延伸出的「密碼與安全」是現實生活中極重要的資訊守法素養。",
       "commonMisconception": "對資訊安全缺乏意識。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -48,11 +68,21 @@
         "「你不借我就不跟你玩了！」",
         "「喂，把筆借我！」"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "「請」是請求幫助時的禮貌用語，加上溫和的語氣能讓對方感受到尊重，更願意提供幫助。",
       "commonMisconception": "孩子可能認為直接或強硬的語氣能更快達到目的，而忽略了禮貌的重要性，導致人際關係緊張。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -64,11 +94,21 @@
         "「我吃飽了。」",
         "「謝謝媽媽，晚餐真好吃！」"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "「謝謝」是表達感謝最直接且恰當的「神奇密碼」，能讓對方感受到自己的付出被看見和重視。",
       "commonMisconception": "孩子可能只專注於自己的感受（吃飽了），或表達未來的期望，而忘了對當下的付出表達感謝。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -80,11 +120,15 @@
         "用力推同學一下，然後說：「活該！」",
         "假裝沒看到，趕快跑開。"
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation": "說「對不起」能表達歉意，讓對方知道你不是故意的，有助於平復對方的情緒，避免衝突。",
       "commonMisconception": "有些孩子在犯錯時會因為害怕被責罵或感到尷尬而選擇逃避責任，甚至反過來指責對方。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -96,11 +140,21 @@
         "能讓電腦動起來的指令。",
         "一組可以打開寶箱的數字。"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "課文將「請」、「謝謝」、「對不起」等禮貌用語比喻為「神奇密碼」，強調它們能改善人際關係，帶來正面影響。",
       "commonMisconception": "孩子可能會被「密碼」的字面意思誤導，聯想到實際的密碼或魔法咒語，而非其在人際溝通中的引申義。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -112,11 +166,21 @@
         "覺得很溫暖、很開心。",
         "覺得很無聊。"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "課文明確指出，使用禮貌用語能讓周圍的人感到溫暖和開心，促進和諧的氛圍。",
       "commonMisconception": "孩子可能對人際互動的感受不敏感，或認為自己的言語對他人情緒影響不大。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -130,9 +194,19 @@
       ],
       "answer_index": 3,
       "explanation": "課文的核心主旨是教導孩子使用禮貌用語的重要性，以及它們如何促進良好的人際關係和更美好的生活。",
-      "commonMisconception": "孩子可能會過度簡化禮貌用語的效果，認為它們是萬能的（選項C），或誤以為禮貌只適用於特定人群（選項D）。",
+      "commonMisconception": "孩子可能會過度簡化禮貌用語的效果，認為它們是萬能的，或誤以為禮貌只適用於特定人群。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
@@ -148,6 +222,10 @@
       "explanation": "在請求幫助時，使用「請」表示禮貌，並在請求後加上「謝謝」表達預期的感謝，能讓對方感到被尊重，更樂意提供幫助。",
       "commonMisconception": "孩子可能會因為急於達成目的而使用命令或不禮貌的稱呼，忽略了情境中的人際互動禮儀。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 3
     },
     {
@@ -160,11 +238,15 @@
         "覺得你很酷，很勇敢。",
         "覺得你很有個性，會更喜歡你。"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "未能及時道歉會讓對方覺得你不在乎他的感受或物品，進而產生負面情緒，損害友誼。",
       "commonMisconception": "孩子可能認為不道歉是為了維護自己的面子，或者覺得對方不會介意，低估了道歉在修復關係中的作用。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -176,11 +258,21 @@
         "「請幫我。」",
         "「快一點！」"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "課文主要強調「請」、「謝謝」、「對不起」這三種禮貌用語為「神奇密碼」，「快一點！」不具備禮貌和尊重的語氣。",
       "commonMisconception": "孩子可能會將任何常用的口語都誤認為是「神奇密碼」，而忽略了禮貌用語的核心特徵。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -196,7 +288,17 @@
       "explanation": "禮貌用語能表達尊重和關心，讓朋友感到被重視，自然會更喜歡與你相處，並樂意提供幫助。",
       "commonMisconception": "孩子可能認為過於禮貌會顯得生疏或不自然，或者覺得朋友間不需要那麼多客套。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -208,11 +310,21 @@
         "等下次見面再說。",
         "假裝沒發生過。"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "課文強調，表達感謝應是即時且真誠的，這樣才能讓對方感受到你的心意。",
       "commonMisconception": "孩子可能會因為害羞、健忘或覺得不重要而延遲或忽略表達感謝，錯失建立良好人際關係的機會。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -224,11 +336,21 @@
         "因為它們只有在特定時間才能說。",
         "因為它們可以變出東西。"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "「神奇」指的是這些詞語能夠像魔法一樣，改變人際互動的氛圍，讓溝通更順暢，問題更容易解決。",
       "commonMisconception": "孩子可能會將「神奇」的字面意思與魔幻力量聯想，而忽略了它在人際溝通中的比喻義。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -240,11 +362,21 @@
         "覺得很後悔。",
         "覺得很累。"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "課文強調，禮貌不僅讓別人開心，也能讓自己因為表達了善意而感到開心和滿足。",
       "commonMisconception": "孩子可能只關注他人的反應，而忽略了表達禮貌對自己內心感受的積極影響。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
@@ -256,11 +388,15 @@
         "不耐煩，敷衍了事。",
         "小聲嘀咕，讓別人聽不清楚。"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "即使說了禮貌詞語，若語氣不佳，也無法達到「神奇密碼」的效果。誠懇、溫和的語氣才能真正傳達善意。",
-      "commonMisconception": "孩子可能認為只要說出詞語即可，而忽略了語氣和態度在溝通中的重要性。",
+      "commonMisconception": "孩子可能認為只要口頭說出詞語就算完成任務，忽略了態度和語氣的重要性。",
       "quality_level": "L3",
-      "cqi_score": 1.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "critical",
@@ -272,11 +408,21 @@
         "笑一笑，說「沒關係啦！」。",
         "假裝沒看到，繼續吃飯。"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "真誠的道歉後，主動提供實際幫助能讓對方感受到你的歉意是發自內心的，並有助於解決問題。",
-      "commonMisconception": "孩子可能傾向於逃避責任（選項B），或將責任轉嫁給大人（選項A），或輕描淡寫地處理（選項D），未能意識到主動補救的重要性。",
+      "commonMisconception": "孩子可能傾向於逃避責任，或將責任轉嫁給大人，未能意識到主動補救的重要性。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -288,11 +434,21 @@
         "「哈囉」、「再見」、「晚安」。",
         "「你」、「我」、「他」。"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "課文明確指出，「請」、「謝謝」、「對不起」是主要的「神奇密碼」。",
       "commonMisconception": "孩子可能混淆禮貌用語與日常的問候語或指示語，未能辨識出「神奇密碼」的特定範疇。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -308,7 +464,17 @@
       "explanation": "及時的道歉能展現對朋友的關心和尊重，避免負面情緒累積，有助於維護友誼。",
       "commonMisconception": "孩子可能將道歉視為一種免責或避免懲罰的手段，而非真心修復關係的表現。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -324,7 +490,11 @@
       "explanation": "「請」除了請求，也常用於邀請、指示他人做某事，以示禮貌，如「請坐」、「請進」等。",
       "commonMisconception": "孩子可能只將「請」理解為單一的請求用途，而忽略其在其他禮貌情境中的應用。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
@@ -336,11 +506,21 @@
         "變得更生氣。",
         "變得更沮喪。"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "禮貌的言語能讓對方感受到尊重和關懷，自然會讓他們心情變好，更樂於與你互動。",
       "commonMisconception": "孩子可能低估了自己言語對他人情緒的影響力，或認為他人的情緒與自己無關。",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "critical",
@@ -352,11 +532,21 @@
         "「你下次小心一點，別再掉了！」",
         "「不客氣，舉手之勞而已。」"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "當別人表達感謝時，謙虛且友善的回應，如「不客氣」或「舉手之勞」，能讓對方感到溫暖和舒適，維護良好的人際關係。",
       "commonMisconception": "孩子可能不知道如何恰當回應感謝，或因為害羞而敷衍，甚至可能帶有責備的語氣。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -372,7 +562,17 @@
       "explanation": "課文強調，使用「神奇密碼」能讓自己更受歡迎，同時也會讓自己感到心情愉悅，帶來正向的自我感受。",
       "commonMisconception": "孩子可能會將好事與物質獎勵或不切實際的優勢聯想起來，而忽略了內在的心理滿足和社會回饋。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -388,7 +588,17 @@
       "explanation": "孩子難以說「對不起」的原因可能包括自尊心、害怕承認錯誤、面子問題，或確實不認為自己有錯。這些都是常見的心理障礙。",
       "commonMisconception": "孩子可能只考慮到單一原因，而未能理解道歉背後複雜的心理因素。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -400,11 +610,21 @@
         "這些詞語能像魔法一樣，改變人與人之間的氣氛和感受。",
         "這些詞語很難學會。"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "「神奇」在此處是比喻，指這些禮貌用語能產生意想不到的積極效果，如同魔法般讓情況變好。",
       "commonMisconception": "孩子可能將「神奇」理解為字面上的魔幻能力，而非其在人際溝通中的引申義。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
@@ -416,15 +636,25 @@
         "說得很大聲。",
         "態度誠懇，真心實意。"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "即使說了禮貌詞語，若缺乏誠懇的態度，也無法達到其正面效果。真心實意是禮貌溝通的核心。",
       "commonMisconception": "孩子可能認為只要口頭說出詞語就算完成任務，忽略了態度在溝通中的關鍵作用。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "如果一個班級裡的同學都能常常使用「神奇密碼」互相溝通，",
+      "scenario": "如果一個班級裡的同學都能常常使用「神奇密碼」互相溝通應用的場景，",
       "question": "這個班級會變得怎麼樣？",
       "options": [
         "大家會變得更冷漠。",
@@ -434,9 +664,19 @@
       ],
       "answer_index": 1,
       "explanation": "當每個人都禮貌溝通時，能減少誤會和衝突，增進彼此的理解與友誼，使班級氣氛更和諧。",
-      "commonMisconception": "孩子可能無法將個人的禮貌行為與整個群體氛圍的改善聯繫起來，或者認為禮貌會導致過於拘謹。",
+      "commonMisconception": "孩子可能無法將個人的禮貌行為與整個群體氛圍的改善聯繫起來。",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -448,11 +688,21 @@
         "因為這句話語氣聽起來像命令，沒有禮貌，缺少了「請」字。",
         "因為他沒有說「謝謝」。"
       ],
-      "answer_index": 1,
-      "explanation": "「神奇密碼」的核心是禮貌和尊重，小華的語氣帶有命令，缺乏了請求時應有的「請」字，因此不符合「神奇密碼」的精神。",
-      "commonMisconception": "孩子可能只專注於缺少了其他禮貌詞語，而忽略了語氣本身的不禮貌，以及「請」字在請求中的關鍵作用。",
+      "answer_index": 2,
+      "explanation": "「神奇密碼」的核心是禮貌和尊重，小華的語氣帶有命令，缺乏了請求時應有的「請」字。",
+      "commonMisconception": "孩子可能只專注於缺少了其他禮貌詞語，而忽略了語氣本身的不禮貌。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱《月世界》內容完全無關，屬於離題題目。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
@@ -464,11 +714,15 @@
         "普通。",
         "危險。"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "課文中的「神奇」是比喻這些禮貌用語具有改變人際互動的奇妙力量，與「魔法」有異曲同工之妙。",
-      "commonMisconception": "孩子可能會因為詞彙量限制，選擇與「神奇」詞性相反或不相關的詞語。",
+      "commonMisconception": "孩子可能會選擇不相關的詞語。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -480,11 +734,15 @@
         "只說「謝謝」就好，不用說「請」。",
         "隨便說哪一個都可以。"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "「請」用於發出請求，而「謝謝」用於表達感謝，兩者在不同階段發揮作用，是完整禮貌互動的體現。",
       "commonMisconception": "孩子可能認為只需使用其中一個詞語即可，或者混淆兩者的使用時機。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     }
   ]
 }

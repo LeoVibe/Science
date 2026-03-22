@@ -20,7 +20,17 @@
       "explanation": "課文明確提到小雅的媽媽送給她一雙她一直渴望的紅色鞋子，這份禮物象徵著媽媽對她的愛與陪伴她成長的期許。",
       "commonMisconception": "孩子可能因為喜歡繪本或玩具，而誤選其他選項，但課文清楚描寫了紅色鞋子的意義。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目過於瑣碎，屬於事實提取，缺乏對課文核心素養的深度考察。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -36,7 +46,11 @@
       "explanation": "媽媽的溫柔反應顯示她理解小明是想幫忙，並且鼓勵他的成長和嘗試，而不是只看重結果或物質損失。",
       "commonMisconception": "孩子可能會誤以為媽媽不在意物品損失，或覺得媽媽對小明行為沒有反應，忽略了背後更深層的鼓勵與愛。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -52,7 +66,11 @@
       "explanation": "這句話以具象的「腳印」比喻成長的過程，強調童年時期充滿了對新事物的學習、探索和好奇心，每一個腳印都代表著一次成長的體驗。",
       "commonMisconception": "孩子可能從字面意義理解「腳印小」，而忽略了其比喻的意義，選擇與實際行為相關的選項。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -68,7 +86,17 @@
       "explanation": "課文中提到爺爺奶奶總是選在傍晚時分，牽著小華的手到公園散步，享受溫馨的家庭時光。",
       "commonMisconception": "孩子可能將自己習慣的活動時間投射到課文情境中，而忽略了課文明確指出的時間點。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "過於細節的事實提取，對學生高階思維訓練無實質幫助。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -84,7 +112,11 @@
       "explanation": "小芳從家人的笑容中感受到自己的努力被肯定，這份肯定帶給她成就感，也成為她繼續學習和成長的動力。",
       "commonMisconception": "孩子可能會從表面的行為判斷，認為小芳喜歡煮水餃或技術好，而忽略了家人反應對小芳內心感受的影響。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "critical",
@@ -100,7 +132,11 @@
       "explanation": "愛是情感上的支持，提供安全感和鼓勵，讓孩子有勇氣去嘗試、學習和面對困難，從而實現個人成長。兩者相互促進，缺一不可。",
       "commonMisconception": "孩子可能將「愛」和「成長」理解為獨立的或簡單的因果關係（如長高），而未能理解其深層的相互滋養的關係。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -116,7 +152,17 @@
       "explanation": "課文明確指出，作者小時候最喜歡全家大小一起在廚房裡，分工合作做點心，那是充滿歡笑的回憶。",
       "commonMisconception": "孩子可能將自己或周遭朋友喜歡的家庭活動投射進來，而忽略課文的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "瑣碎的事實記憶題，缺乏素養導向的設計。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -132,7 +178,11 @@
       "explanation": "小傑雖然輸了比賽，但沒有氣餒，反而立志下次要跑得更快，這顯示他擁有積極面對挑戰、從失敗中學習並努力進取的毅力。",
       "commonMisconception": "孩子可能只看到表面結果，或誤以為小傑不在乎，而忽略了他內心的自我鼓勵與對未來的期許。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -148,7 +198,11 @@
       "explanation": "「深淺、直彎」是比喻成長過程中會遇到順利與困難、成功與挫折，以及不同的選擇與方向，暗示成長的多元與不易。",
       "commonMisconception": "孩子可能將「腳印」的物理特性與「成長」的抽象意義混淆，而選擇與走路動作相關的選項。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -164,7 +218,17 @@
       "explanation": "課文明確描述爸爸會在作者睡覺前，坐在床邊為他講故事，那是他一天中最期待的時刻。",
       "commonMisconception": "孩子可能將自己習慣的聽故事時間代入，而忽略課文中的具體情境。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "過於瑣碎的細節提取，缺乏教學價值。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -180,7 +244,11 @@
       "explanation": "綁鞋帶是孩子學習獨立生活技能的一個重要里程碑，奶奶的反應是為小玉學會照顧自己、邁向獨立感到欣慰和驕傲。",
       "commonMisconception": "孩子可能從字面上理解「長大」，而忽略了技能學習和獨立性提升所代表的成長意義。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "critical",
@@ -196,7 +264,11 @@
       "explanation": "「最深的腳印」象徵著影響最深遠、最難忘的回憶。通常是那些帶來情感共鳴、促使我們學習或成長的經歷，例如被愛、成功克服挑戰或從錯誤中學習。",
       "commonMisconception": "孩子可能將「深」與「快樂」直接劃上等號，而忽略了經歷挑戰和學習成長的重要性。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -212,7 +284,17 @@
       "explanation": "課文敘述，當作者遇到困難或心情不好時，總是媽媽輕輕拍拍他的肩膀，給予溫暖的安慰和鼓勵。",
       "commonMisconception": "孩子可能會將父母的角色混淆，或認為老師和朋友也會給予同樣的安慰。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "單純的事實記憶，缺乏對文本深層意義的探討。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -228,7 +310,11 @@
       "explanation": "小軒的開心源於他成功完成了原本由他人代勞的事，這讓他感受到獨立自主的能力和成長的喜悅。",
       "commonMisconception": "孩子可能將開心歸因於表面的玩樂或期待獎勵，而忽略了自我成就感和獨立意識的提升。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -244,6 +330,10 @@
       "explanation": "這句話用腳印比喻人生不同階段的特點，說明隨著年齡增長，個人的關注點和肩負的責任會從純粹的好奇轉向對未來目標的追求。",
       "commonMisconception": "孩子可能將「好奇」與「責任」視為互斥，或只關注腳印的物理變化，而忽略了其比喻的意義。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4.5
     },
     {
@@ -260,7 +350,11 @@
       "explanation": "課文結尾強調作者會將那些與家人朋友共同創造的，充滿愛與成長的珍貴回憶，永遠銘記在心。",
       "commonMisconception": "孩子可能將物質的擁有與情感的記憶混淆，而選擇與物品相關的選項。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
@@ -276,7 +370,11 @@
       "explanation": "老師將畫貼在顯眼處，不僅是對小晴作品的肯定，更是對她努力和創意的鼓勵，希望藉此提升她的自信心和學習熱情。",
       "commonMisconception": "孩子可能將老師的行為解讀為單純的喜好或對作品本身的評價，而忽略了背後更重要的教育意義和對孩子成長的關懷。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "critical",
@@ -292,7 +390,11 @@
       "explanation": "課文的核心主題是「愛與成長」，強調個人努力固然重要，但家人和朋友的愛、鼓勵與支持，更是推動我們成長不可或缺的溫暖力量。",
       "commonMisconception": "孩子可能只專注於個人層面的努力或能力，而忽略了人際關係和情感支持在成長中的關鍵作用。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -308,7 +410,11 @@
       "explanation": "課文標題即為「愛與成長的腳印」，內文也多次用「腳印」來象徵人生的每一步和經歷。",
       "commonMisconception": "孩子可能選擇其他常見的比喻，但課文的核心意象是「腳印」。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -324,7 +430,11 @@
       "explanation": "小華看到弟弟難過便主動分享和安慰，這顯示他能理解弟弟的心情，並做出友善的舉動，是同理心和分享的體現。",
       "commonMisconception": "孩子可能單純從行為結果判斷，而忽略了小華內在的情感理解和社會技能的成長。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -340,7 +450,11 @@
       "explanation": "「每個腳印都是一個故事」是比喻每個人生階段、每次經歷，都如同一個故事般，充滿了獨特的意義、情感和學習的機會。",
       "commonMisconception": "孩子可能從字面意義理解腳印，而忽略了其比喻的深層含義。",
       "quality_level": "L3",
-      "cqi_score": 2
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -356,7 +470,17 @@
       "explanation": "課文描寫了父母親無微不至的關愛、爺爺奶奶的陪伴，以及與好朋友的互動，這些都是影響作者成長的重要人物。",
       "commonMisconception": "孩子可能只想到最親近的父母，而忽略了課文提及的其他重要關係。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "瑣碎的事實提取，缺乏對文本結構的分析。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -372,7 +496,11 @@
       "explanation": "小麗克服害怕，獨立完成任務，這不僅是學會搭公車，更是對自己能力的肯定，從而增強了自信心和獨立性。",
       "commonMisconception": "孩子可能將焦點放在具體技能或表面的好處，而忽略了內在自信和獨立能力的提升。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "critical",
@@ -388,7 +516,11 @@
       "explanation": "豐富精彩的成長腳印，指的是充滿有意義的經歷、學習和情感連結。這需要積極的態度，包括勇於挑戰、關愛他人和從經驗中學習，並懂得感恩。",
       "commonMisconception": "孩子可能將「豐富精彩」與物質或表面的活動畫上等號，而忽略了內在的成長和人際互動的重要性。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -404,7 +536,17 @@
       "explanation": "課文提到作者小時候最喜歡在自家後院玩耍，那裡有他許多童年的回憶。",
       "commonMisconception": "孩子可能會將自己喜歡的玩耍地點投射進來，而忽略課文的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "過於瑣碎的事實記憶，缺乏教學意義。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -420,7 +562,11 @@
       "explanation": "小君主動分享便當，是因為她察覺到同學的困難並願意伸出援手，這展現了她的慷慨、同理心和助人為樂的品德。",
       "commonMisconception": "孩子可能將行為歸因於個人的喜好或期望回報，而忽略了行為背後更深層的品德展現。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
@@ -436,7 +582,11 @@
       "explanation": "這句話用「陽光」比喻「愛」的作用，強調愛能帶來溫暖、希望和方向感，是孩子健康成長不可或缺的精神養分。",
       "commonMisconception": "孩子可能從字面意義理解「陽光」，而忽略了其比喻的抽象意義。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -452,7 +602,17 @@
       "explanation": "課文描述了作者最喜歡和爸爸一起閱讀故事書，享受父子共讀的時光。",
       "commonMisconception": "孩子可能會將自己習慣的閱讀夥伴投射進來，而忽略課文的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "瑣碎的事實記憶，缺乏素養導向。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -468,7 +628,11 @@
       "explanation": "媽媽的擁抱是對小志努力的肯定和鼓勵，即使結果不完美，也欣賞他願意嘗試、學習獨立的態度，這對孩子的成長至關重要。",
       "commonMisconception": "孩子可能將擁抱解讀為單純的喜愛或對結果的認可，而忽略了對過程和努力的肯定。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "critical",
@@ -484,7 +648,11 @@
       "explanation": "這個問題考驗孩子對「成長」概念的理解和概括能力。「每一步都是新的發現」最能概括成長過程中不斷學習、探索和進步的特點。",
       "commonMisconception": "孩子可能選擇與個人興趣或日常生活相關的選項，而未能從更宏觀的角度理解成長的意義。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     }
   ]
 }

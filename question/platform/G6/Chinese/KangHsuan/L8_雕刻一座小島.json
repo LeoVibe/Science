@@ -1,0 +1,115 @@
+{
+  "publisher": "康軒",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L8",
+  "lesson_title": "雕刻一座小島",
+  "questions": [
+    {
+      "question": "【分析核心主旨】這篇文章主要透過朱銘美術館的建立過程，探討哪一種藝術創作的最高境界？",
+      "options": [
+        "藝術家應該要追求最昂貴的材料，才能展現出作品的不凡身價。　",
+        "藝術應該與土地、自然環境和諧共生，並由創作者親力親為打造環境。",
+        "藝術是不需要被一般大眾理解的，只要創作者自己覺得漂亮就可以了。　",
+        "成功的藝術家應該要把所有的時間都花在國外，尋求國際比賽的認可。　"
+      ],
+      "answer_index": 1,
+      "explanation": "朱銘的「雕刻小島」不只是雕塑，更是在金山的山坡上進行一種整體的環境造景。這種「在地化」與「勞動實質性」是本篇的核心精神。",
+      "scenario": "提煉文本中關於「藝術價值」的核心定義。",
+      "commonMisconception": "學生常選[D]，誤將「名聲」等同於「藝術的深度」。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀「雕刻」的多重含義】在本文標題「雕刻一座小島」中，「雕刻」二字除了指敲打木頭或石頭，還包含了什麼樣的延伸意義？",
+      "options": [
+        "指在操場上辛苦地挖洞，以便收集那些被遺落的硬幣。　　",
+        "指對荒蕪土地的長久經營、細心修整，將理想實現在現實大地上。",
+        "指對現有法律條文的修正與刪除，以利於美術館的節稅。　",
+        "這只是一個故作高深的文學修辭，其實作者並沒有做任何事情。　"
+      ],
+      "answer_index": 1,
+      "explanation": "這測驗主題詞的隱喻轉化。從「刻工（個人技術）」轉向「經營（生命實踐）」。這引導學生建立一種「宏觀的創造觀」。",
+      "scenario": "解析核心關鍵詞（雕刻）從具體動作到抽象生命實踐的轉化過程。",
+      "commonMisconception": "學生容易選[A]，停留於物理動作的淺層理解。",
+      "taxonomy": "inferential",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落語氣】文中描述藝術家在烈日下流汗、拓荒的艱辛過程，這段寫法的主要意圖是什麼？",
+      "options": [
+        "抱怨藝術工作實在太辛苦了，強烈建議讀者長大後千萬不要當藝術家。　",
+        "透過辛苦的勞作過程，反襯出藝術夢想落地時的堅實感與尊嚴。　　",
+        "證明這是一篇關於中暑與防護的健康教育文章，提醒大家多喝水。　",
+        "顯示作者是一個愛操心的人，總是喜歡關注這些跟藝術無關的瑣事。　"
+      ],
+      "answer_index": 1,
+      "explanation": "「勞作」是朱銘雕刻哲學的重要部分（人間系列）。強調作品不只是大腦的發明，更是雙手與大地的對話紀錄（PIRLS 層次 3）。",
+      "scenario": "探討文章中「艱辛苦難」的描寫在提升「成就價值感」上的作用。",
+      "commonMisconception": "學生可能選[A]，未察覺苦難與成就之間的正向轉化關係。",
+      "taxonomy": "analysis",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀藝術與社會】朱銘建立這座美術館並開放給大眾參觀，反映了他對藝術推廣的哪一種熱誠？",
+      "options": [
+        "希望能向每位參觀者拍賣昂貴的小雕像，增加個人收入。　",
+        "將私人的藝術園地公共化，讓美感能更廣泛地滋潤大眾的心靈。　",
+        "為了展示自己的豪宅有多大，讓鄰居都感到羨慕與忌妒。　",
+        "這是一場心理實驗，測試究竟有多少人願意買票進來看石頭。　"
+      ],
+      "answer_index": 1,
+      "explanation": "「公共性」是美術館的核心功能。將個人的創作「小島」向社會「開放」，展現了藝術家對社會美感素養的承擔。",
+      "scenario": "分析「從私人到公共（開放）」行為背後的社會責任感。",
+      "commonMisconception": "學生易選[A]，反應出對藝術機構運作動機的誤解。",
+      "taxonomy": "evaluative",
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【跨情境應用】如果這篇文章要在「世界地球日」進行聯播，最適合下的副標題是什麼？",
+      "options": [
+        "只要有錢，就能買下整座山脈。　",
+        "尊重自然秩序，用藝術守護土地。　",
+        "遠離城市，自己去山裡當國王。　",
+        "最貴的石頭，就在金山美術館。　"
+      ],
+      "answer_index": 1,
+      "explanation": "本文的精髓在於「人、地、藝」的統籌。這完美契合了地球日關於「人地關係再思考」的需求。",
+      "scenario": "將文本主旨與「現代國際公募活動（地球日）」進行議題對接（PIRLS 層次 4）。 ",
+      "commonMisconception": "容易選[C]，展現了一種避世或自私的英雄主義，與原文的「共享土地」相左。 ",
+      "taxonomy": "applied",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "publisher": "康軒",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L10",
+  "lesson_title": "追夢的翅膀",
+  "questions": [
+    {
+      "question": "【分析記敘文核心衝突】在本文的追夢歷程中，主角所面臨最大的「枷鎖」是什麼，而他又是如何轉化的？",
+      "options": [
+        "是缺乏學習藝術的機會，他積極爭取獎學金並獲得了名師指導。",
+        "是旁人對他能力的質疑，他用不斷的努力與作品證明了自身的價值。",
+        "是身體的缺憾或外界的歧視，他透過對藝術的堅持將其化為「夢想的動力」。",
+        "是創作工具與材料的不足，他省吃儉用並獲得社會幫助來克服困難。"
+      ],
+      "answer_index": 2,
+      "explanation": "「轉化（Transformation）」是正向記敘文的靈魂。將苦難、缺憾這類負面資源，透過意志力轉化為前進的推力，是命題的核心焦點。",
+      "scenario": "解析成功傳記/記敘文中「資源轉化（磨難轉變為動能）」的核心策略。",
+      "commonMisconception": "學生常選[C]，停留在純粹的物質解決方案，而忽略了內在意志的鍛鍊。",
+      "taxonomy": "inferential",
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【解讀核心隱喻】課文標題中提到的「翅膀」，在生活中通常象徵著哪一種精神？",
+      "options": [
+        "象徵鳥類飛翔的能力，幫助人類在空中自由翱翔，探索未知的世界。",
+        "象徵達成目標所需的實際資源與外部支援，例如金錢、人脈或師長的協助。",
+        "象徵跳脫現實框架的想像力、勇氣，以及追求自由、實現自我的能力。",
+        "象徵為實現理想而付出的艱辛努力、不屈不撓的意志，以及永不放棄的決心。"
+      ],
+      "answer_index": 2,
+      "explanation": "這是在測驗學生的「抽象能力」。翅膀不具備飛行功能（人體沒有），但具备「心理高度」。PIRLS 層次 3 的整合詮釋。",
+      "scenario": "解析經典文學意象（翅膀）從具體解剖學結構到抽象精神價值的映射。",
+      "commonMisconception": "學生容易選[A]，仍停留在生理性的功能解釋。",
+      "taxonomy": "inferential",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 2,
+        "ai_reasoning": "題目要求解析隱喻，選項(3)強調意志力與努力，最貼合課綱中「翅膀」需後天努力支撐的定義。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "question": "【評估人物性格】當主角說「我最在意的不是結果，而是我奮鬥過的每一個瞬間」，這反映出他是一個具備什麼特質的人？",
+      "options": [
+        "深信只要全力以赴，最終必能達成目標，享受努力後的甜美成果。",
+        "害怕失敗帶來的挫折感，因此將注意力放在過程，以減輕對結果的焦慮。",
+        "具備高度的自我效能感，並注重過程中的磨練與人格成長。",
+        "希望透過展現努力的過程，贏得他人的肯定與讚賞，證明自己的價值。"
+      ],
+      "answer_index": 2,
+      "explanation": "這種「重過程勝於重結果」的態度，是成長發展心理學提倡的。它測驗學生對「奮鬥價值」的正確認知。",
+      "scenario": "分析關鍵對白中所包含的角色觀點及其心理強度（PIRLS 層次 4）。",
+      "commonMisconception": "學生容易選[A] 或 [D]，反映出功利主義盛行的環境下，對「過程價值」的輕視。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析文章結構】文中多次描寫「跌倒」與「重新站起來」的循環，這種結構安排有什麼意圖？",
+      "options": [
+        "呈現追夢過程的艱辛與挑戰，讓讀者深刻體會到成功背後的努力與付出。",
+        "透過節奏性的堆疊，強調「恆毅力」是在追夢道路上不可避免的配備。",
+        "展現主角從每次跌倒中學習並成長，讓讀者看見他永不放棄的堅韌性格。",
+        "讓讀者隨著情節的起伏跌宕，感受到故事的張力與主角克服困難的決心。"
+      ],
+      "answer_index": 1,
+      "explanation": "「節奏與堆疊」。透過不斷重複的動作，強化了「毅力」的具象化呈現，使讀者在腦中建立起堅不可摧的主角形象。",
+      "scenario": "探討結構安排（重複與對比）對強化中心主旨的作用。",
+      "commonMisconception": "容易選[C]，缺乏對「文學性強調」手段的認知。",
+      "taxonomy": "analysis",
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主題的生命遷移】這篇文章最適合用來回答哪一個關於人生的終極問題？",
+      "options": [
+        "在人生的十字路口，我們該如何選擇一條通往夢想的道路？",
+        "追逐夢想的過程中，我們需要具備哪些條件才能順利成功？",
+        "在限制重重的世界中，個人該如何保持向上飛升的動力？",
+        "當現實與理想產生衝突時，我們該如何調整心態以適應環境？"
+      ],
+      "answer_index": 2,
+      "explanation": "本文的核心在於「受限下的超越」。這是畢業生即將面臨複雜社會時，必備的手冊級智慧。[B] 選項對應了此高度。",
+      "scenario": "將文本主旨與「人生哲學問題」對接，進行高階的價值評估（PIRLS 層次 4）。 ",
+      "commonMisconception": "學生可能選[D]，這顯示了思維尚未脫離「物化」或「玩耍」層次。 ",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}

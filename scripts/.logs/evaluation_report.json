@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "totalFiles": 4,
+    "totalQuestions": 0,
+    "qualityDist": {
+      "L5": 0,
+      "L4": 0,
+      "L3": 0,
+      "L2": 0,
+      "L1": 0,
+      "BROKEN": 4,
+      "L1 (BIAS)": 0
+    },
+    "byPublisher": {}
+  },
+  "details": [
+    {
+      "quality": "BROKEN",
+      "error": "EPERM: operation not permitted, open '/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L1.json'",
+      "filePath": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L1.json"
+    },
+    {
+      "quality": "BROKEN",
+      "error": "EPERM: operation not permitted, open '/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L2.json'",
+      "filePath": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L2.json"
+    },
+    {
+      "quality": "BROKEN",
+      "error": "EPERM: operation not permitted, open '/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L3.json'",
+      "filePath": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L3.json"
+    },
+    {
+      "quality": "BROKEN",
+      "error": "EPERM: operation not permitted, open '/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L4.json'",
+      "filePath": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G6/SocialStudies/S2/HanLin/Soc_L4.json"
+    }
+  ]
+}

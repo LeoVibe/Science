@@ -20,7 +20,11 @@
       "explanation": "課文開頭就描寫美如奶奶「圓圓的臉蛋、灰白短髮」，並提到她會穿「藍色工作圍裙」與「紫色眼鏡」。",
       "commonMisconception": "學生可能未熟讀課本中詳細的外表描寫，被西裝老闆或是魔法婆婆的偏見形象所誤導。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "literal",
@@ -36,7 +40,11 @@
       "explanation": "課文內容提到小朋友放學後最愛去的據點就是「美如小書店」。",
       "commonMisconception": "以現代學生放學最愛去的地方（網咖、超商）進行主觀聯想。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -52,7 +60,11 @@
       "explanation": "美如奶奶用溫和的方式（微笑加上安靜暗號）來提醒大家降低音量，展現她的親和力。",
       "commonMisconception": "學生會習慣大人嚴厲警告或懲罰的方式（敲桌子、沒收），忽略了這篇課文中奶奶的溫柔手段。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -68,7 +80,11 @@
       "explanation": "課文中作者使用譬喻法，形容奶奶的腦袋「好像有部電腦」，記憶力極佳且能迅速檢索。",
       "commonMisconception": "被奇幻故事題材中的精靈或鸚鵡誤導。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -84,7 +100,11 @@
       "explanation": "這段情節是用來印證美如奶奶「腦中像是有部電腦」般的書籍檢索能力。要找科展書，她就能立刻找到科學遊戲。",
       "commonMisconception": "認為奶奶會親自下海表演實驗，或者是思想傳統而禁止科學冒險。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.75
     },
     {
       "taxonomy": "literal",
@@ -100,7 +120,11 @@
       "explanation": "結尾提到書店的標語是鼓勵大家把書本當朋友，這也是整篇課文在推廣熱愛閱讀的主旨所在。",
       "commonMisconception": "學生會以一般商場嚴厲的「打破賠償」或「熱賣特價」標語作為聯想，缺乏文學素養的辨識。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -116,7 +140,11 @@
       "explanation": "「忍不住」表示無法控制自己。在這裡是因為看到精彩的內容，不由自主分享討論起來。",
       "commonMisconception": "將忍耐身體肉體的痛苦（如生病、力氣大）與情緒上無法自拔（忍不住興奮）混淆。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
@@ -132,7 +160,11 @@
       "explanation": "不論是要做科展還是要變魔術，美如奶奶都能精準的從書架上找出對應的書遞給孩子。",
       "commonMisconception": "被魔法秀或外在購買道具的現實認知給誤導。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -148,12 +180,16 @@
       "explanation": "她能夠快速檢索知識，顯示她自己一定花很多時間在閱讀、整理、熟悉書籍（穿工作圍裙的親力親為）。",
       "commonMisconception": "認為工作圍裙=只做煮飯家事，或是誤以為快速找書是因為不認識字而要別人幫忙背。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "管理與溝通方式推導",
-      "question": "為什麼美如奶奶在小朋友吵鬧時，只比出一個「請安靜的微小暗號」而不是直接大聲喝斥他們？",
+      "question": "為什麼美如奶奶在小朋友吵鬧時，只比出一個「請安靜的微小暗號」反應，而不是直接大聲喝斥他們？",
       "options": [
         "其實是因為她的喉嚨受傷了發不出聲音，迫不得已只好用手語",
         "因為她害怕得罪這些來買東西的客人，導致書店賺不到錢",
@@ -164,23 +200,31 @@
       "explanation": "她知道孩子大聲是因為「看書太入迷」而不是惡意搗亂。她用暗號代替大罵，展現了長者對孩子的包容以及維持書店氣氛的智慧。",
       "commonMisconception": "用成人的利益關係（怕得罪客人）或是生理疾病（喉嚨痛）去解釋這樣一個溫馨且具有教育意義的動作。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "寫作技巧解讀",
       "question": "作者用「腦袋像一部電腦」來形容奶奶，這個譬喻最能突顯出奶奶的哪一項優點？",
       "options": [
-        "突顯了奶奶非常會賺錢，連電腦程式的計算都有辦法超越呢。",
+        "突顯了奶奶非常會轉錢，連電腦程式的計算都有辦法超越呢。",
         "暗示奶奶的身體全部都是由各種昂貴的機器零件所組裝而成的才對！",
         "突顯了她在書店裡強大、迅速的記憶力以及驚人的知識庫存",
-        "說明奶奶只有在一直接上電源插座的時候，腦袋才能順利運作。"
+        "說明奶奶只有在一一直接上電源插座的時候，腦袋才能順利運作。"
       ],
       "answer_index": 2,
       "explanation": "將人腦比喻成電腦，通常是用來強調儲存容量龐大（知識庫存多）與檢索速度極快（精準找到書）。",
       "commonMisconception": "被科幻電影情節干擾，誤以為是機器人、要插電，或連結到計算金流的世俗概念。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "inferential",
@@ -196,6 +240,10 @@
       "explanation": "「跟書本做朋友」象徵閱讀能夠為人提供智慧的後盾，無論是科展還是變魔術，書本（知識）永遠在那相伴不離。",
       "commonMisconception": "將純真的友誼解釋為功利（打折）、人際逃避（人類太麻煩）或負面的孤立（朋友變少）。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 7
     },
     {
@@ -212,7 +260,11 @@
       "explanation": "「忍不住」是一個積極的情緒破口，這群孩子因為書本的內容太吸引人（有共鳴），才會忘了圖書館法則而激動討論。",
       "commonMisconception": "將「忍不住」此一精神上的情緒投入，扭曲為物理層面的隔音不好、冷氣太冷或是身體生病發抖。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "inferential",
@@ -228,7 +280,11 @@
       "explanation": "運用「外貌描寫」，透過有顏色的配件（紫色眼鏡、藍色圍裙）與和藹的特徵（圓臉、短髮），能立刻拉近讀者與這個角色的溫暖距離。",
       "commonMisconception": "把這樣親切的人物寫實描寫，當成是在批評年紀，或者是某種奇怪的服儀規定（dress code）。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -244,7 +300,11 @@
       "explanation": "人物（奶奶）與地點（書店）都是載體，真正的重點在最後一段：推廣喜愛閱讀（與書本當好朋友）。",
       "commonMisconception": "被單一的情節段落（科展、吵鬧、超市）給帶走，無法收斂至「閱讀推廣」的主旨高點。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -260,7 +320,11 @@
       "explanation": "以「溫和、包容」的非語言溝通（噓的手勢暗號）代替言語斥責或處罰，此舉既能達成制止目的又不傷感情。",
       "commonMisconception": "誤以為管理秩序只能透過高壓大聲的強制力（拿麥克風大吼、沒收權利），或是荒謬的以暴制暴（放音樂蓋過去）。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
@@ -276,12 +340,16 @@
       "explanation": "「美如奶奶」的特質是熟知書籍資源與知識檢索的能力，在圖書館中這種身分對應的便是圖書館員。",
       "commonMisconception": "被美如奶奶表面的「外表特徵」（戴紫眼鏡老奶奶）所侷限思考，而忽略了她「知識檢核能力」的職人本質。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "critical",
       "scenario": "【在連鎖大書店買書】",
-      "question": "【在連鎖大書店買書】小華說：「現在有很多大書店可以用平版電腦直接搜索書籍借了，根本不需要像美如奶奶這樣的老闆了啦！」你會怎麼提出不同的意見來反駁他？",
+      "question": "【在連鎖大書店買書】小華說：「現在有很多大書店可以用平版電腦直接搜索書籍借閱了，根本不需要像美如奶奶這樣的老闆了啦！」你會怎麼提出不同的意見來反論他？",
       "options": [
         "「你說得對，有了機器之後，傳統的人類早就該全部被淘汰掉才對。」",
         "「電腦只能冰冷的告訴你位置，但奶奶還能提供充滿人情味的溫暖推薦與包容陪伴」",
@@ -289,10 +357,14 @@
         "「其實美如奶奶的腦袋裡裝的就是最新款的蘋果電腦，所以速度非常快！」"
       ],
       "answer_index": 1,
-      "explanation": "自動搜索系統缺乏人類的情感連結。奶奶看見做科展就遞出科學書的敏銳，以及對吵鬧孩子的溫和包容，是機器無法取代的人情味價值。",
+      "explanation": "自動搜索系統缺乏人類的情感連結。奶奶看見做科展就遞出科學書的敏認，以及對吵鬧孩子的溫和包容，是機器無法取代的人情味價值。",
       "commonMisconception": "被小華錯誤的「科技冰冷決定論（人類該被淘汰）」說服，或者是用「買不起平板」等刻板印象去解讀小書店的溫暖存在。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -308,7 +380,11 @@
       "explanation": "把書本當朋友代表珍惜與其相處的時光（重溫書籍），或者是有價值的轉介分享（送給學弟妹），這也是推廣閱讀的表現。",
       "commonMisconception": "做出浪費資源（丟棄、撕碎）或是喜新厭舊（只要新書）等違背珍惜閱讀資源的舉動。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "critical",
@@ -324,7 +400,11 @@
       "explanation": "譬喻的好壞在於其引發的情感聯想。「腦袋有部電腦」是讚美奶奶知識淵博且快速；若說是監視器，則變成負面的監控者，完全違背她溫暖親切的基調。",
       "commonMisconception": "只用科技產品的「共通性（都是電子產品）」去判斷，而失去了文學語言所具有的不同「感情色彩（正向vs負向）」。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
@@ -340,7 +420,11 @@
       "explanation": "奶奶這角色的實用價值在於「提供知識的解方」。既然沒有奶奶，就應該主動學她將問題轉向找書、找知識來破關的做法。",
       "commonMisconception": "過度執迷於無意義的外在形式（戴眼鏡）、被動地乞求別人解救（大喊叫命），或遇到挫折就輕易放棄的消極態度。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "critical",
@@ -356,7 +440,11 @@
       "explanation": "課文描寫的美如奶奶能理解孩子看書的激動並有禮貌的「微笑暗號」制止，是一種基於理解的體諒。這裡的冷眼旁觀缺乏了這種體諒與雙向溝通。",
       "commonMisconception": "將解決問題的方法訴諸於極端高壓（大聲趕出去）或無理縱容（免費送玩具）等失敗的互動手段。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "contextual",
@@ -372,7 +460,11 @@
       "explanation": "「活電腦」來自深刻的專業素養與用心（如對書籍位置的掌握、對客人的理解推薦）。用心的經營才能呈現這種境界。",
       "commonMisconception": "認為專業是靠外觀造假（裝假紙箱）、表面道具（裝天線）或者是傲慢不理會別人的行徑所建構。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "critical",
@@ -388,7 +480,11 @@
       "explanation": "工作價值並不僅在於金錢或規模，而更在於為社會與他人創造的支持性與啟發性（如美如奶奶帶給小朋友成為愛書人的改變）。",
       "commonMisconception": "繼續使用偏狹「金錢至上」的眼光（最貴的書、真的很窮），或「逃避責任」的態度（為了睡得晚）去評價各行各業。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 8
     },
     {
       "taxonomy": "contextual",
@@ -404,6 +500,10 @@
       "explanation": "美如奶奶是針對客人的具體「需求任務」（如科展、變魔術）來精準「客製化推介」，這樣的推銷員也是從關心顧客需求出發。",
       "commonMisconception": "被惡質推銷文化感染（只推價格最高的、趕人家下班結帳）或者是消極敷衍做生意。",
       "quality_level": "L5",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4.5
     },
     {
@@ -420,7 +520,11 @@
       "explanation": "課文不斷強調美如奶奶的溫暖態度和體貼作風，是讓孩子們一來再來的主要原因。書店的魅力在於「人」而非「價格」或「地點」。",
       "commonMisconception": "有些同學會以為便宜或免費才能吸引人，但課文要傳達的是「人情味」的價值。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -436,7 +540,11 @@
       "explanation": "課文中美如奶奶展現的正是溫暖而不催促的態度，她像家人般提醒小朋友注意時間，而不是強硬驅趕。",
       "commonMisconception": "有些同學可能誤以為書店老闆都會直接趕人，但美如奶奶代表的是一種有耐心、有溫度的長輩形象。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "contextual",
@@ -452,7 +560,11 @@
       "explanation": "陳阿姨主動微笑、送餅乾的行為，正好呼應了課文中美如奶奶溫暖地對待每一位小讀者的描述。兩位長輩都是透過日常的小舉動來傳遞關懷。",
       "commonMisconception": "「送東西是為了賣東西」是一種常見的功利主義偏見。課文傳達的是無條件的溫暖和社區人情。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
@@ -468,7 +580,11 @@
       "explanation": "「書香」是一個帶有文化意涵的詞語，不只是指實際的氣味，更重要的是營造出一種充滿書卷氣息、寧靜而溫馨的感受。",
       "commonMisconception": "有些同學可能會從字面上直接理解為「有香味」，忽略了「書香」傳達的是文化氛圍與心靈感受。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
@@ -481,10 +597,14 @@
         "最好的策略就是盡量壓低成本然後大量進貨賣給更多人，靠薄利多銷自然就能變成有錢人開更大的連鎖店"
       ],
       "answer_index": 1,
-      "explanation": "課文的核心價值在於「用心待人」比「追求利潤」更重要。美如奶奶的成功秘訣正是她發自內心的溫暖，讓客人自然而然地成為「常客」。",
+      "explanation": "課文的核心價值在於「用心待人」比「追求利潤」更重要。美如奶奶的成功秘訣正是她在真心的溫暖，讓客人自然而然地成為「常客」。",
       "commonMisconception": "有些同學可能認為做生意的核心就是賺錢，但課文透過美如奶奶的故事告訴我們，人與人之間的真誠交流才是最珍貴的資產。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 7.25
     }
   ]
 }

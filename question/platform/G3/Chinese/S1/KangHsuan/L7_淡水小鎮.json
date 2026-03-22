@@ -21,8 +21,10 @@
       ],
       "answer": "夕陽、古蹟（如：紅毛城）與濃厚的人文氣息",
       "explanation": "淡水以其悠久的歷史與絕美的自然與人文景觀融合而聞名。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.75,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
@@ -30,17 +32,21 @@
       "question": "文中描述了在淡水河邊散步、吹著海風，感覺身心都放鬆了下來。",
       "answer": "True",
       "explanation": "悠閒的生活步調是淡水帶給旅人的共通感受。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "cqi_score": 1.75,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "淡水的「阿給」與「魚丸」是當地很有名的特色______。",
-      "answer": "小吃、美食或特產",
+      "answer": "小吃、美食 or 特產",
       "explanation": "飲食文化也是地方特色不可或缺的一部分。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "cqi_score": 2.25,
+      "quality_level": "L1",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
@@ -54,8 +60,10 @@
       ],
       "answer": "它完美地結合了大自然美景（山河海）與豐富的歷史故事（古蹟）",
       "explanation": "理解一個地方之所以吸引人的核心價值。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 3.75,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
@@ -69,8 +77,10 @@
       ],
       "answer": "欣賞家鄉土地的美好，建立對本土文化與景觀的認同感",
       "explanation": "家鄉情懷與生活美育的結合。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "cqi_score": 4.25,
+      "quality_level": "L3",
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

@@ -20,7 +20,7 @@
       "explanation": "9800 - 7999 = 1801。這題涉及連續借位（從百位、千位借到十位與個位）。",
       "commonMisconception": "學生在處理 0 減 9 的連續借位時，常會遺漏借位後的數值變化。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -36,7 +36,7 @@
       "explanation": "今天採收：3450 + 890 = 4340。總和：3450 + 4340 = 7790。",
       "commonMisconception": "典型的兩步驟迷思題目，學生常會忘記最後一步的總和計算。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -52,7 +52,7 @@
       "explanation": "總花費：1250 + 3680 = 4930。剩餘：5000 - 4930 = 70 元。所以夠付。",
       "commonMisconception": "學生在計算加法後，可能在最後的比大小或減法判斷上出錯。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
@@ -68,7 +68,7 @@
       "explanation": "6005 - 1280 = 4725。4725 + 450 = 5175。",
       "commonMisconception": "連續加減運算中，學生容易在「借出」與「歸還」的意義與對應運算符號上產生混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -84,7 +84,7 @@
       "explanation": "451+349 = 800。雖然剛好 800，但因為實際生活中有時會進位，或者是若商品是 451 與 349 的情境估算。這裡 451+349=800。 (修正：若題目是 451+349=800，8張就夠。但如果是估算：500+400=900。為了安全性與找錢考量，生活化估算常會往上取。為了嚴謹，改題目數字：451+359=810，則需 9 張。)",
       "commonMisconception": "估算題學生的弱點在於「進位」的邏輯判斷。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

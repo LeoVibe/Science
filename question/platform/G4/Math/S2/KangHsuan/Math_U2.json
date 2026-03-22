@@ -18,7 +18,7 @@
       "explanation": "65 * 32 = 65 * 30 + 65 * 2 = 1950 + 130 = 2080。",
       "concept": "兩位數乘兩位數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q2",
@@ -35,7 +35,7 @@
       "explanation": "248 * 55 = 13640。",
       "concept": "三位數乘兩位數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q3",
@@ -52,7 +52,7 @@
       "explanation": "45 * 120 = 5400。",
       "concept": "乘數為整十、整百倍數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q4",
@@ -69,7 +69,7 @@
       "explanation": "1050 * 12 = 12600。",
       "concept": "含零數值的乘法",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q5",
@@ -86,7 +86,7 @@
       "explanation": "385 * 1000 = 385000。",
       "concept": "大數乘以 1000",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 3.25
     },
     {
       "id": "q6",
@@ -103,7 +103,7 @@
       "explanation": "1280 * 25 = 32000。",
       "concept": "四位數乘兩位數",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q7",
@@ -120,7 +120,7 @@
       "explanation": "甲總價 = 450 * 15 = 6750。 乙總價 = 32 * 25 = 800 (Wait, 32*25 = 800. Let me adjust values for better comparison). Let's change 乙 to 320元買一個。 320 * 25 = 8000. So 乙 > 甲. (Actually let me make it closer). 甲: 450*15=6750. 乙: 280*25=7000. 乙更高。",
       "concept": "乘法與大小比較",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25
     },
     {
       "id": "q8",
@@ -137,7 +137,7 @@
       "explanation": "500 * 45 = 22500。",
       "concept": "整百乘法應用",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.25
     },
     {
       "id": "q9",
@@ -154,7 +154,7 @@
       "explanation": "65 * 1000 = 65000。",
       "concept": "生活中乘以 1000",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q10",
@@ -171,7 +171,7 @@
       "explanation": "88 四捨五入到百位是 100。 988 四捨五入到百位是 1000。 100 * 1000 = 100,000。",
       "concept": "乘法與概數估算",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6.25
     }
   ]
 }

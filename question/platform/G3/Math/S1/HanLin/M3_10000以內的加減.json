@@ -20,7 +20,7 @@
       "explanation": "9 張一千元是 9000 元。9000 - 8500 = 500 元。",
       "commonMisconception": "簡單減法，考驗學生對幣值換算與減法的連結。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -36,7 +36,7 @@
       "explanation": "先算小華：4560 + 1440 = 6000 元。再算兩人總和：4560 + 6000 = 10560 元。",
       "commonMisconception": "這是一道需要兩步驟的題目。學生常算出 6000 就以為是答案，漏算「總共」的部分。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -52,7 +52,7 @@
       "explanation": "利用逆運算：3631 - 1386 = 2245。所以框框中應為 2。",
       "commonMisconception": "學生可能試圖從加法直接推演，但容易在進位處出錯。逆運算是較保險的做法。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -68,7 +68,7 @@
       "explanation": "7000 - 1234 = 5766。這考驗「連續借位（多個 0）」的技巧。",
       "commonMisconception": "連續退位是學生的最大罩門，常會算出 6876 等錯誤結果。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -84,7 +84,7 @@
       "explanation": "2800 - 1250 = 1550。此題旨在練習找出「減數」。",
       "commonMisconception": "學生可能誤將 2800 + 1250 相加，混淆了題目情境的運算關係。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     }
   ]
 }

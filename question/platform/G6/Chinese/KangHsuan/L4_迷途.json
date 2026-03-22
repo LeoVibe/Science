@@ -18,7 +18,14 @@
       "explanation": "這種「以景寫情」的手法，將原本中立的環境物件賦予了主角的主觀恐懼色彩，是高段的心理描摹技巧。",
       "scenario": "分析小說中的情境渲染，理解作者如何透過外界描述反映人物內心。",
       "commonMisconception": "學生常只看到景物表面，無法理解這其實是主角心理的「投射」。",
-      "taxonomy": "inferential"
+      "taxonomy": "inferential",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     }
   ]
 }

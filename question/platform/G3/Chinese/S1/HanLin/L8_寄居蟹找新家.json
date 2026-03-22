@@ -20,7 +20,9 @@
       "scenario": "劇本導讀：分析第一幕的衝突點。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 4,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "2",
@@ -32,12 +34,14 @@
         "因為海裡的貝殼現在都長得太小，裝不下寄居蟹"
       ],
       "answer_index": 0,
-      "explanation": "人類在沙灘过量撿拾貝殼，截斷了寄居蟹更換房屋的自然資源鏈。",
+      "explanation": "人類在沙灘過量撿拾貝殼，截斷了寄居蟹更換房屋的自然資源鏈。",
       "scenario": "因果分析：寄居蟹為何淪落至居住垃圾。",
       "commonMisconception": "學生可能以為貝殼是自然消失，需導正為人類活動影響。",
       "taxonomy": "inferential",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "3",
@@ -53,7 +57,9 @@
       "scenario": "素養行動：如果你是環保志工。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "4",
@@ -69,7 +75,9 @@
       "scenario": "價值內化：學生學習後的行為改變。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "5",
@@ -85,7 +93,9 @@
       "scenario": "文體知識：分析劇本的寫作特徵。",
       "taxonomy": "literal",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 5.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "6",
@@ -101,7 +111,9 @@
       "scenario": "深度理解：分析故事角色的情感轉向。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "7",
@@ -117,7 +129,9 @@
       "scenario": "科學觀點：分析資源在生態系的角色。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "8",
@@ -133,7 +147,9 @@
       "scenario": "語氣揣摩：分析角色的憂慮來源。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "9",
@@ -149,7 +165,9 @@
       "scenario": "心理層面：分析同理心與環保的連結。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "10",
@@ -165,7 +183,9 @@
       "scenario": "批判思考：評價人造補償方案。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.5,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "11",
@@ -181,7 +201,9 @@
       "scenario": "主旨歸納：總結課程的核心目標。",
       "taxonomy": "applied",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.25,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     },
     {
       "id": "12",
@@ -197,7 +219,9 @@
       "scenario": "角色對話：分析「守護者」的定義。",
       "taxonomy": "inferential",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 6,
+      "verifying_date": "2026-03-21",
+      "blind_evaluation": false
     }
   ]
 }

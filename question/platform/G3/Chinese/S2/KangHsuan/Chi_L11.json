@@ -20,7 +20,11 @@
       "explanation": "機智的核心是「應變」與「智慧」。",
       "commonMisconception": "字面解讀成「機器」。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "applied",
@@ -34,9 +38,13 @@
       ],
       "answer_index": 0,
       "explanation": "文學上的成功對比通常集中在「外在弱勢」與「內在優勢」的反差上。",
-      "commonMisconception": "選到無關痛癢的對比項目（如頭髮）。",
+      "commonMisconception": "選到無關痛癢的對比項目。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -49,10 +57,14 @@
         "一群正在睡覺的老虎"
       ],
       "answer_index": 1,
-      "explanation": "課文描述鼠鹿遇到一群飢餓的鱷魚擋在河中，牠們是鼠鹿過河的障礙。",
-      "commonMisconception": "學生可能因為常見的叢林故事，誤以為是獅子或老虎。但課文中明確指出是鱷魚。",
+      "explanation": "課文描述鼠鹿遇到一群飢餓的鱷魚擋在河中。",
+      "commonMisconception": "誤以為是常見的獅子或老虎。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -62,13 +74,17 @@
         "因為牠想挑戰自己的膽量",
         "因為河對岸有牠最喜歡的食物，而且沒有其他路可走",
         "因為牠想向鱷魚證明自己很聰明",
-        "因為牠迷路了，不確定哪條路才對"
+        "因為牠迷路了"
       ],
       "answer_index": 1,
-      "explanation": "鼠鹿通常是為了尋找食物或更安全的棲息地而冒險，且課文暗示牠別無選擇，這符合牠求生的本能。選項B最能體現這種生存驅動。",
-      "commonMisconception": "學生可能誤以為鼠鹿只是愛玩或想證明自己，忽略了動物行為的生存動機。",
+      "explanation": "鼠鹿通常是為了求生（尋找食物）而冒險，且別無選擇。",
+      "commonMisconception": "忽略了動物行為的生存動機。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "literal",
@@ -81,15 +97,19 @@
         "山羊國王"
       ],
       "answer_index": 0,
-      "explanation": "鼠鹿為了讓鱷魚聽從指示，謊稱自己是奉了「森林之王」的命令來清點動物數量，這賦予了牠計策的權威性。",
-      "commonMisconception": "學生可能混淆角色，但「森林之王」通常是老虎或獅子，是權威的象徵。",
+      "explanation": "鼠鹿謊稱奉「森林之王」命令，賦予計策權威性。",
+      "commonMisconception": "對角色背景不熟悉的隨意猜測。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "鱷魚的心態",
-      "question": "鱷魚們聽到鼠鹿要奉命清點牠們的數量時，為什麼會乖乖排隊？",
+      "question": "鱷魚們聽到鼠鹿要奉命清點數量時，為什麼會乖乖排隊？",
       "options": [
         "因為牠們很害怕鼠鹿",
         "因為牠們覺得排隊很好玩",
@@ -97,15 +117,19 @@
         "因為牠們想趁機抓住鼠鹿"
       ],
       "answer_index": 2,
-      "explanation": "鱷魚們被「森林之王」的命令所震懾，並可能因為被清點而感到自己被重視，或是期待有什麼好處，因此乖乖排隊。這是利用了牠們的自大或單純。",
-      "commonMisconception": "學生可能誤以為鱷魚很笨，或只是想抓鼠鹿。但牠們排隊是因為被權威和可能的好處所吸引。",
+      "explanation": "鱷魚被權威感和可能的好處吸引，利用了牠們的輕信。",
+      "commonMisconception": "誤以為鱷魚只是想玩或想抓鼠鹿。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "literal",
       "scenario": "鼠鹿的行動",
-      "question": "鼠鹿是如何從一隻鱷魚背上跳到另一隻鱷魚背上，藉此過河的？",
+      "question": "鼠鹿是如何從一隻鱷魚背上跳到另一隻鱷魚背上過河的？",
       "options": [
         "牠用繩子把自己綁在鱷魚身上",
         "牠請鳥兒幫忙載牠飛過去",
@@ -113,15 +137,19 @@
         "牠輕巧地從牠們的頭上逐一踩過"
       ],
       "answer_index": 3,
-      "explanation": "課文的核心情節是鼠鹿利用輕巧的身體，踩踏鱷魚的背部作為橋樑來過河。",
-      "commonMisconception": "選項中的其他方式雖然聽起來也可能過河，但與故事中鼠鹿的智慧行為不符。",
+      "explanation": "課文核心情節：踩踏鱷魚背部作為橋樑。",
+      "commonMisconception": "想像出故事中未提及的其他過河方式。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "智慧的展現",
-      "question": "鼠鹿的計策成功過河，這主要展現了牠哪方面的能力？",
+      "question": "鼠鹿的計策成功過河，主要展現了牠哪方面的能力？",
       "options": [
         "牠的機智與應變能力，善於思考解決問題",
         "牠的力氣很大，可以推開鱷魚",
@@ -129,9 +157,13 @@
         "牠的叫聲很大，可以嚇跑鱷魚"
       ],
       "answer_index": 0,
-      "explanation": "鼠鹿體型小巧，無法依靠力量或速度，牠是憑藉著巧妙的計策和快速的反應來解決困難，這就是機智與應變能力的體現。",
-      "commonMisconception": "學生可能傾向於從物理能力角度思考，忽略了智慧在解決問題中的關鍵作用。",
+      "explanation": "體型弱小而智取強大，是機智與應變能力的體現。",
+      "commonMisconception": "傾向於從物理能力角度思考。",
       "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 2
     },
     {
@@ -145,10 +177,20 @@
         "「國王其實沒有要數你們喔！」"
       ],
       "answer_index": 3,
-      "explanation": "鼠鹿在過河後，通常會揭穿自己並沒有奉國王命令清點動物的事實，讓鱷魚們知道自己被騙了。",
-      "commonMisconception": "學生可能誤以為鼠鹿會說出感謝或嘲諷的話，但直接揭穿謊言是故事的經典橋段。",
+      "explanation": "揭穿謊言是民間智慧故事的經典結尾。",
+      "commonMisconception": "誤以為鼠鹿會挑釁或感謝。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱內容完全不符，此題應為誤植，但就語意邏輯選1。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -158,13 +200,17 @@
         "感到非常生氣和懊惱",
         "覺得很有趣，哈哈大笑",
         "覺得鼠鹿很勇敢，值得學習",
-        "感到有些難過，但很快就忘了"
+        "感到有些難過"
       ],
       "answer_index": 0,
-      "explanation": "被欺騙的動物通常會感到憤怒和後悔，尤其是在被一個比自己弱小的動物戲弄之後。懊惱是對於自己輕信的表現。",
-      "commonMisconception": "學生可能投射自己的情感，覺得有趣或難過，但對於被戲弄的動物來說，生氣和懊惱是更合理的反應。",
+      "explanation": "生氣與對自己輕信的懊惱，是此情境下合理的反應。",
+      "commonMisconception": "投射不切實際的友善情感。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -177,10 +223,14 @@
         "像大象一樣巨大"
       ],
       "answer_index": 2,
-      "explanation": "鼠鹿以小巧的體型卻能智取大型動物聞名，所以牠的體型比鱷魚小很多是故事的基礎設定。",
-      "commonMisconception": "學生若不熟悉鼠鹿，可能會誤以為牠的體型與其他動物相似，但大小對比是故事張力的來源。",
+      "explanation": "小身材智取大型猛獸是故事張力的基礎。",
+      "commonMisconception": "對特定物種的大小缺乏概念。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -193,10 +243,14 @@
         "聰明才智比蠻力更有用"
       ],
       "answer_index": 3,
-      "explanation": "故事的核心是鼠鹿用智慧戰勝了體型和力量都遠勝於牠的鱷魚，強調了智慧的重要性。",
-      "commonMisconception": "選項D雖然也是一個道理，但並非故事的主旨，故事更側重於展現鼠鹿的智慧。",
+      "explanation": "核心主旨是智慧勝過蠻力。",
+      "commonMisconception": "混淆一般性的美德與本篇故事特有的主題。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3
     },
     {
       "taxonomy": "contextual",
@@ -205,14 +259,18 @@
       "options": [
         "看到鼠鹿出現就立刻把牠吃掉",
         "要求鼠鹿出示國王的證明文件",
-        "請鼠鹿自己游過去，不要打擾牠們",
+        "請鼠鹿自己游過去",
         "假裝聽不懂鼠鹿說的話"
       ],
       "answer_index": 1,
-      "explanation": "鱷魚如果能質疑鼠鹿的說法，要求證明，就能識破謊言。這是對「合理化迷思」的反思，思考如何避免輕信。",
-      "commonMisconception": "學生可能只想到用暴力解決（A），或消極應對（C, D），而沒想到用邏輯質疑的方法。",
+      "explanation": "質疑資訊來源、尋求證據是防止輕信最邏輯的做法。",
+      "commonMisconception": "只想到暴力解決或消極逃避。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5
     },
     {
       "taxonomy": "literal",
@@ -225,10 +283,14 @@
         "一群等待牠的朋友"
       ],
       "answer_index": 0,
-      "explanation": "鼠鹿通常是為了尋找食物而冒險，鮮甜的果樹林是牠過河的主要誘因。",
-      "commonMisconception": "學生可能認為是為了玩耍或見朋友，但動物的生存本能驅使牠們尋找食物。",
+      "explanation": "食物誘惑是動物冒險過河的根本動機。",
+      "commonMisconception": "以人類玩樂心態揣摩動物動機。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
@@ -237,14 +299,18 @@
       "options": [
         "因為牠知道自己跑不贏鱷魚",
         "因為牠想知道鱷魚的名字",
-        "因為牠想利用言語來分散鱷魚的注意力，爭取時間思考對策",
+        "因為牠想利用言語分散注意力，爭取思考對策",
         "因為牠覺得鱷魚其實很可愛"
       ],
       "answer_index": 2,
-      "explanation": "鼠鹿深知自己體型弱小，直接逃跑可能不成功。透過對話，牠能爭取時間、評估情況，並實施其智取策略。",
-      "commonMisconception": "學生可能誤以為鼠鹿只是想聊天，忽略了這是牠策略的一部分。",
+      "explanation": "對話是爭取緩衝時間並實施计取策略的手段。",
+      "commonMisconception": "忽略其溝通行為背後的目的性。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -254,13 +320,17 @@
         "圍成一個圓圈",
         "排成兩列縱隊",
         "一個接著一個排成一條長長的直線",
-        "隨意散開，讓鼠鹿自己去找"
+        "隨意散開"
       ],
       "answer_index": 2,
-      "explanation": "為了讓鼠鹿能夠踩著牠們過河，鱷魚們需要排成一條直線，形成「橋樑」。",
-      "commonMisconception": "其他排隊方式都不利於鼠鹿過河，只有排成直線才能實現其計策。",
+      "explanation": "排成直線是為了形成能踩跨的橋樑。",
+      "commonMisconception": "未能將排隊方式與其目的（過河）聯繫起來。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
@@ -273,15 +343,19 @@
         "懇求又可憐"
       ],
       "answer_index": 0,
-      "explanation": "鼠鹿能成功欺騙鱷魚，必然要表現出自信和鎮定，才能讓鱷魚相信牠的話，不會產生懷疑。",
-      "commonMisconception": "學生可能認為鼠鹿會害怕，但牠的智慧在於能掩飾恐懼，表現出掌控局面的樣子。",
+      "explanation": "自信鎮定才有助於建立說服力並掩飾謊言。",
+      "commonMisconception": "根據外在弱小推論其情緒必為害怕。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "如果重來",
-      "question": "【如果鱷魚在排隊時】，突然有一隻鱷魚對鼠鹿的說法產生了懷疑，你覺得牠可能會問什麼問題？",
+      "question": "【如果鱷魚在排隊時】突然有一隻鱷魚產生了懷疑，牠可能會問什麼？",
       "options": [
         "「鼠鹿，你肚子餓不餓啊？」",
         "「國王怎麼會派你來數我們呢？」",
@@ -289,10 +363,14 @@
         "「數完之後我們有什麼獎勵嗎？」"
       ],
       "answer_index": 1,
-      "explanation": "質疑國王為何派鼠鹿這樣的小動物來，是最直接且合理的懷疑點，這能揭露鼠鹿謊言的破綻。",
-      "commonMisconception": "學生可能想到獎勵或外觀，但直接質疑其權威來源更能體現批判性思考。",
+      "explanation": "質疑執行者的身分及任務來源是識破謊言最直接的切點。",
+      "commonMisconception": "提問不具邏輯防備性（如關心對方肚子餓）。",
       "quality_level": "L5",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -305,26 +383,34 @@
         "用石頭丟過去"
       ],
       "answer_index": 2,
-      "explanation": "故事中鼠鹿是透過輕巧地踩踏鱷魚的背部來「清點」，這也是牠過河的方式。",
-      "commonMisconception": "學生可能誤以為有實際的標記工具，但鼠鹿的動作本身就是「數」的行為。",
+      "explanation": "踩踏動作即是鼠鹿清點的「工具」，也是其實際目的。",
+      "commonMisconception": "尋找故事背景中未交代的特定外在工具。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "故事的深意",
-      "question": "從鼠鹿的故事中，我們可以學到在面對困難時，最重要的是什麼？",
+      "question": "從鼠鹿的故事中，我們可以學到在面對困難時，最重要是什麼？",
       "options": [
         "要勇敢地和敵人打架",
         "要請求大人的幫忙",
         "要冷靜思考，運用智慧解決問題",
-        "要逃避問題，假裝看不見"
+        "要逃避問題"
       ],
       "answer_index": 2,
-      "explanation": "鼠鹿的故事是典型的智取故事，強調在面對強大困難時，智慧和策略比蠻力更有效。",
-      "commonMisconception": "學生可能誤以為是求助或戰鬥，但故事核心是智慧的力量。",
+      "explanation": "冷靜思考與運用智慧是各種智取故事的核心教育價值。",
+      "commonMisconception": "誤以為戰鬥或逃避是正確解法。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -333,14 +419,18 @@
       "options": [
         "有，牠回去向鱷魚道歉",
         "有，牠回去和鱷魚玩遊戲",
-        "有，牠回去把國王的命令解釋清楚",
+        "有，牠回去解釋清楚",
         "沒有，牠頭也不回地跑走了"
       ],
       "answer_index": 3,
-      "explanation": "鼠鹿成功過河後，為了安全會立刻跑走，不會再回到危險的鱷魚群中。",
-      "commonMisconception": "學生可能認為鼠鹿會回去道歉或解釋，但從生存角度來看，逃走是合理的。",
+      "explanation": "從求生邏輯看，脫險後立即逃離危險區是最合理的行動。",
+      "commonMisconception": "想像出和諧但非現實的「大團圓」結局。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
@@ -353,15 +443,19 @@
         "牠們很喜歡聽故事"
       ],
       "answer_index": 0,
-      "explanation": "鱷魚的貪吃讓牠們對「清點」後可能有的好處（如食物）產生期待，而牠們的相對缺乏思考能力（或說容易輕信）則讓鼠鹿的謊言得逞。",
-      "commonMisconception": "學生可能只看到貪吃，但「有點笨」或「容易輕信」也是關鍵。",
+      "explanation": "對利益的貪念（想被數）與認知不足（輕信）是其受騙主因。",
+      "commonMisconception": "僅將受騙歸咎於單一物理弱點。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "生活應用",
-      "question": "【在我們日常生活中】，如果遇到類似鼠鹿的困境（例如：想做一件事但有困難），我們可以從鼠鹿身上學到什麼？",
+      "question": "如果遇到類似鼠鹿想做一件事但有困難的情況，我們可以學到什麼？",
       "options": [
         "只要遇到困難就放棄",
         "要學會說謊來達到目的",
@@ -369,10 +463,14 @@
         "要找比自己強大的人幫忙"
       ],
       "answer_index": 2,
-      "explanation": "鼠鹿的智慧在於觀察環境（鱷魚、河）、分析情況，並想出獨特的解決方案，這啟發我們也要有創意和觀察力。",
-      "commonMisconception": "學生可能誤解為鼓勵說謊，但核心是創意解決問題，而非說謊本身。",
+      "explanation": "創意解決問題是故事能給予現代學生的積極啟發。",
+      "commonMisconception": "將「智慧策略」等同於「鼓勵欺騙」。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25
     },
     {
       "taxonomy": "literal",
@@ -385,15 +483,19 @@
         "找到對岸的果樹，大吃一頓"
       ],
       "answer_index": 3,
-      "explanation": "故事開頭或背景通常會交代鼠鹿過河是為了尋找食物，所以成功後自然會去享用。",
-      "commonMisconception": "學生可能認為牠會炫耀或休息，但生存本能驅使牠先滿足飢餓。",
+      "explanation": "目標導向的行動结語：實現過河的初衷（吃果子）。",
+      "commonMisconception": "將行動後的優先順序誤置。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "鼠鹿的性格",
-      "question": "除了聰明，你覺得鼠鹿還具備了哪一種重要的性格特質，才能完成過河的任務？",
+      "question": "除了聰明，鼠鹿還具備哪種重要特質才能完成過河任務？",
       "options": [
         "懶惰",
         "膽小",
@@ -401,10 +503,14 @@
         "自私"
       ],
       "answer_index": 2,
-      "explanation": "面對一群飢餓的鱷魚，即使有智慧，也需要極大的勇氣才能靠近並實施計策。這是「同理心投射」的考量，理解鼠鹿面對的危險。",
-      "commonMisconception": "學生可能只看到聰明，忽略了面對危險時的膽量。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "explanation": "深入險境實施計畫需要極大的勇氣作為支持。",
+      "commonMisconception": "認為「智取」代表不需要「勇氣」。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -417,10 +523,14 @@
         "高高的山頂"
       ],
       "answer_index": 2,
-      "explanation": "故事的核心是鼠鹿過河，所以主要場景發生在河邊和河上。",
-      "commonMisconception": "學生可能聯想到森林，但具體地點是河邊。",
+      "explanation": "場景圍繞著河流展開，包含兩岸與河中央的排隊過程。",
+      "commonMisconception": "籠統回答森林或草原。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5
     },
     {
       "taxonomy": "inferential",
@@ -433,15 +543,19 @@
         "大動物都很容易被欺騙"
       ],
       "answer_index": 2,
-      "explanation": "以小勝大、以弱勝強是鼠鹿故事最經典的主題，強調智慧的力量超越體格。",
-      "commonMisconception": "學生可能泛化結論（B, D），但故事更強調「即使是」弱小也能成功，而非絕對。",
+      "explanation": "強烈的大小對比是為了彰顯智慧這種「無形力量」的強大。",
+      "commonMisconception": "得出「大動物皆愚蠢」的偏激結論。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "不同結局",
-      "question": "【如果鱷魚們不是那麼容易相信別人】，這個故事的結局可能會變成怎樣？",
+      "question": "【如果鱷魚們不是那麼容易相信別人】，故事結局可能會變成怎樣？",
       "options": [
         "鼠鹿會被鱷魚吃掉，無法過河",
         "鼠鹿和鱷魚成為了朋友",
@@ -449,42 +563,54 @@
         "鱷魚會主動幫助鼠鹿過河"
       ],
       "answer_index": 0,
-      "explanation": "如果鱷魚不輕信，鼠鹿的計策就無法實施，最直接的後果就是牠可能被捕食，無法達成目標。",
-      "commonMisconception": "學生可能幻想更美好的結局，但現實且符合故事背景的，是鼠鹿會面臨危險。",
+      "explanation": "從叢林法則分析：謊言失敗即意味著獵殺行為可能發生。",
+      "commonMisconception": "不合邏輯的「童話式美好」。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
       "scenario": "鼠鹿的叫聲",
-      "question": "故事中，鼠鹿在與鱷魚對話時，牠的聲音通常被描述為怎麼樣的？",
+      "question": "故事中鼠鹿在對話時，其聲音描述為何較合理？",
       "options": [
-        "粗啞低沉",
+        "粗啞低沈",
         "尖銳刺耳",
         "輕柔而清晰",
         "震耳欲聾"
       ],
       "answer_index": 2,
-      "explanation": "鼠鹿體型小巧，聲音不會粗啞或震耳欲聾，為了讓鱷魚聽清且不引起反感，輕柔而清晰的語氣是合理的。",
-      "commonMisconception": "學生可能對鼠鹿的聲音沒有概念，但結合其角色和計策，輕柔清晰更符合。",
+      "explanation": "符合小動物身型及其具說服力的溝通模式設定。",
+      "commonMisconception": "隨機選擇無關特徵（如粗啞）。",
       "quality_level": "L3",
-      "cqi_score": 3
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "鼠鹿的準備",
-      "question": "鼠鹿在接近鱷魚之前，牠可能在心裡做了哪些準備？",
+      "question": "鼠鹿在接近鱷魚之前，可能在心裡做了哪些準備？",
       "options": [
         "練習游泳",
         "準備了武器",
-        "找了幫手一起對付鱷魚",
+        "找了幫手",
         "想好了一套說詞和應對策略"
       ],
       "answer_index": 3,
-      "explanation": "鼠鹿的聰明體現在牠會預先思考並規劃，準備好一套能說服鱷魚的說詞和應對牠們反應的策略。",
-      "commonMisconception": "學生可能誤以為是物理上的準備，但鼠鹿的強項是智力。",
+      "explanation": "智力作戰的核心在於事前縝密的策略模擬。",
+      "commonMisconception": "認為其依靠即興發揮而非預備。",
       "quality_level": "L3",
-      "cqi_score": 4
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.5
     }
   ]
 }

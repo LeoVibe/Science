@@ -8,483 +8,753 @@
   "questions": [
     {
       "taxonomy": "inferential",
-      "scenario": "分析聽覺與心境的關係",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，作者在文中強調「沈默」與「專心聽」。這對觀察自然有什麼好處？",
+      "scenario": "聽覺與心境",
+      "question": "作者強調「沈默」與「專心聽」，對觀察自然有什麼好處？",
       "options": [
-        "因為他現在正在跟他的好朋友一起在森林裡面開心地練習躲貓貓，所以絕對不能發出聲音　　",
-        "這其實只不過是在說明作者天生就是一個不喜歡說話的人，所以他才會希望大家都能保持安靜",
-        "只有在安靜與專注的狀態下，人類才能細微地捕捉到原本被忽略的自然節奏與生命信息　　　",
-        "最重要的原因其實只是因為他現在非常怕把樹上那隻難得一見的小鳥嚇跑，所以才不能說話　"
+        "可以玩躲貓貓不被發現",
+        "說明作者天生不愛說話",
+        "能細微捕捉被忽略的自然節奏與生命信息",
+        "怕把樹上的小鳥嚇跑"
       ],
       "answer_index": 2,
       "explanation": "「靜」是「聽」的前提，也是审美的必要條件。",
-      "commonMisconception": "淺層理解為「怕嚇跑鳥」或「不愛說話」。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "commonMisconception": "淺層理解為怕嚇跑鳥。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "重點詞彙辨析",
-      "question": "文中形容大自然的聲音層次分明，像是一場「盛大」的音樂會，「盛大」的意思是？",
+      "scenario": "詞彙辨析",
+      "question": "形容聲音層次分像「盛大」音樂會，「盛大」指？",
       "options": [
-        "這個形容詞的出現，其實就代表了接下來整篇文章都在講述一個發生在非常很久以前的故事　　",
-        "主要是用來形容這場音樂會的聲音非常細小，如果沒有仔細聽的話其實幾乎完全都聽不見　　　",
-        "這是在向所有的讀者暗示，如果想要去現場聽這場好聽的音樂會其實必須要買非常昂貴的門票　",
-        "規模宏大、氣勢雄壯且內容豐富，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重"
+        "故事很久以前發生",
+        "聲音非常細小",
+        "門票非常昂貴",
+        "規模宏大、氣勢雄壯且內容豐富"
       ],
       "answer_index": 3,
       "explanation": "形容場面或感官體驗的宏大感。",
-      "commonMisconception": "詞義誤解（誤為門票貴或很久以前）。",
-      "quality_level": "L5",
-      "cqi_score": 7
+      "commonMisconception": "詞義誤解。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.75,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "分析聽覺的聯想力",
-      "question": "當作者聽到「嘩啦嘩啦」的水聲時，他脑海中浮現了溪流在奔跑。這種「聽覺化為視覺」的現象說明了？",
+      "scenario": "聯想力",
+      "question": "聽到「嘩啦嘩啦」想到溪流奔跑，說明了？",
       "options": [
-        "這完全是因為作者在野外走了太久覺得非常口渴，所以他的腦袋裡面才會一直瘋狂地想到水，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　　　",
-        "這其實是在偷偷地暗示大家，因為最近的天氣實在是太熱了，所以讀者有空的話應該要去游泳，這種想法在日常生活中其實也是非常常見的一種自然現象　",
-        "聲音能喚起記憶與體驗，豐富我們的想像力，讓文字本身具有畫面感，這種想法在日常生活中其實也是非常常見的一種自然現象　　　　　　　　　　　　",
-        "這代表作者真的聽到了溪流裡面有兩條腿在跑步的聲音，非常明顯地說明這位作者的耳朵壞掉了，這種想法在日常生活中其實也是非常常見的一種自然現象"
+        "作者口渴想喝水",
+        "天氣熱想去游泳",
+        "聲音能喚起記憶與體驗，豐富想像力",
+        "作者耳朵壞了"
       ],
       "answer_index": 2,
       "explanation": "感官聯覺（Synesthesia）是寫作與欣賞的高階技巧。",
-      "commonMisconception": "誤解為「生理渴（C）」或「功能損壞（A）」。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "commonMisconception": "誤解為生理渴。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "applied",
-      "scenario": "寫作策略：擬人化聲音應用",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，作者把雷聲描寫成「脾氣暴躁的巨人」。這樣寫的主要好處是？",
+      "scenario": "擬人化應用",
+      "question": "雷聲描寫成「脾氣暴躁的巨人」，主要好處是？",
       "options": [
-        "這最主要只是為了向大家說明，這位看起來膽子非常大的作者其實從小就非常害怕遇到打雷，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "賦予無生命的氣象現象一種鮮明的個性與情緒，讓文章變得幽默且容易親近，這種想法在日常生活中其實也是非常常見的一種自然現象　　　　　　　　",
-        "這種寫法其實代表了昨天晚上的雷聲非常難聽，聽起來就像是一個完全不會唱歌的巨人在大叫，這種想法在日常生活中其實也是非常常見的一種自然現象",
-        "作者是為了要非常嚴肅地告訴所有讀者，在我們頭頂上的天空中其實真的住著一個暴躁的巨人，不過這點很容易讓許多小朋友在閱讀的時候產生誤解　　"
+        "說明作者害怕打雷",
+        "賦予無生命現象鮮明個性，讓文章幽默易親近",
+        "代表雷聲很難聽",
+        "天空真的住著巨人"
       ],
       "answer_index": 1,
-      "explanation": "修辭的作用在於增強文本的趣味與形象感。",
-      "commonMisconception": "視為「作者很害怕」或「科學事實（真有巨人）」。",
-      "quality_level": "L5",
-      "cqi_score": 9.5
+      "explanation": "修辭增強文本趣味與形象感。",
+      "commonMisconception": "視為科學事實。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "applied",
-      "scenario": "全篇情緒主調分析",
-      "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，讀完這課後，你覺得「聽」這個動作在作者眼中是一種？",
+      "scenario": "情緒主調",
+      "question": "讀完課後，你覺得「聽」在作者眼中是？",
       "options": [
-        "這就只不過是為了能夠在明天的期末考試裡面順利拿到一百分的好成績，所以現在才勉強要做的事",
-        "與自然溝通、與內心對話的神奇橋樑，這也是作者在這裡特別想要傳達給我們的另外一個小觀念　",
-        "這非常明顯地代表了他其實是一個非常喜歡偷偷躲在別人家外面，每天暗中監視別人的奇怪鄰居　",
-        "這完全是一件如果不把耳朵塞起來天天聽就會覺得非常煩躁，而且會讓人覺得很累人的悲慘差事　"
+        "為了考試拿到滿分才做的事",
+        "與自然溝通、與內心對話的神奇橋樑",
+        "監視別人的奇怪行為",
+        "沒人聽會很煩躁的差事"
       ],
       "answer_index": 1,
       "explanation": "聽覺被昇華為一種心靈活動。",
-      "commonMisconception": "選到功利（考試）或負面（很累、監視）的回應。",
-      "quality_level": "L5",
-      "cqi_score": 8
+      "commonMisconception": "選到功利回應。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中描述了許多來自大自然的聲音。哪一種聲音通常被形容為「沙沙」作響？",
+      "scenario": "自然聲音",
+      "question": "哪種聲音常被形容為「沙沙」作響？",
       "options": [
-        "A. 風吹過樹葉的聲音",
-        "B. 小鳥唱歌的聲音",
-        "C. 小狗追逐的聲音",
-        "D. 汽車喇叭的聲音"
+        "風吹過樹葉",
+        "小鳥唱歌",
+        "小狗追逐",
+        "汽車喇叭"
       ],
       "answer_index": 0,
-      "explanation": "課文經常會用「沙沙」來形容風吹動樹葉或草地的聲音，這是一種輕柔而連續的摩擦聲。",
-      "commonMisconception": "學生可能會將「沙沙」與其他輕微的聲音混淆，但風吹樹葉的沙沙聲是其最典型的描述。",
-      "quality_level": "L5",
+      "explanation": "輕柔的摩擦聲。",
+      "commonMisconception": "與其他輕微聲混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "森林聲音",
+      "question": "聽到「嗚—嗚—」的低沈叫聲，代表？",
+      "options": [
+        "小貓找媽",
+        "貓頭鷹呼喚同伴",
+        "小狗吠叫",
+        "消防車任務"
+      ],
+      "answer_index": 1,
+      "explanation": "貓頭鷹常見叫聲。",
+      "commonMisconception": "忽略場景提示。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "重要性",
+      "question": "若聲音消失，最大困難是？",
+      "options": [
+        "眼睛變銳利",
+        "無法有效溝通和感受環境變化",
+        "睡得更好",
+        "更專心"
+      ],
+      "answer_index": 1,
+      "explanation": "聲音是溝通與感知的關鍵。",
+      "commonMisconception": "傾向於選擇「好處」。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "雨聲",
+      "question": "雨打屋頂的聲音通常是？",
+      "options": [
+        "轟隆隆",
+        "嘩啦啦",
+        "滴滴答答",
+        "淅瀝嘩啦"
+      ],
+      "answer_index": 2,
+      "explanation": "輕快有節奏。",
+      "commonMisconception": "與大雨聲混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "公雞啼",
+      "question": "公雞「喔—喔—」叫提醒大眾？",
+      "options": [
+        "肚子餓",
+        "有危險",
+        "呼喚母雞",
+        "天亮了起床"
+      ],
+      "answer_index": 3,
+      "explanation": "自然宣告。",
+      "commonMisconception": "誤為生理需求。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "流水聲",
+      "question": "流水流淌發出什麼聲音？",
+      "options": [
+        "潺潺",
+        "嘩嘩",
+        "叮咚",
+        "轟隆"
+      ],
+      "answer_index": 0,
+      "explanation": "細小流動感。",
+      "commonMisconception": "與大水流混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "緊急信號",
+      "question": "消防車「嗚咿—嗚咿—」最重要的意義？",
+      "options": [
+        "玩遊戲",
+        "提醒避讓，執行任務",
+        "人很無聊",
+        "告知行蹤"
+      ],
+      "answer_index": 1,
+      "explanation": "緊急避讓信號。",
+      "commonMisconception": "僅視為告知行蹤。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖書館",
+      "question": "聽到「噓—」代表？",
+      "options": [
+        "唱歌",
+        "肚子餓",
+        "保持安靜",
+        "打招呼"
+      ],
+      "answer_index": 2,
+      "explanation": "肅靜要求。",
+      "commonMisconception": "無關動作混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "動物叫聲",
+      "question": "哪種動物叫聲是「呱呱」？",
+      "options": [
+        "小雞",
+        "小貓",
+        "小狗",
+        "青蛙"
+      ],
+      "answer_index": 3,
+      "explanation": "青蛙特徵。",
+      "commonMisconception": "認知不精確。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "海浪聲",
+      "question": "海浪「嘩—嘩—」聯想到？",
+      "options": [
+        "大海遼闊與力量",
+        "小鳥築巢",
+        "山谷回音",
+        "雨水打窗"
+      ],
+      "answer_index": 0,
+      "explanation": "獨特標誌感。",
+      "commonMisconception": "一般流動聲混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在森林裡散步時】，你聽到遠處傳來「嗚—嗚—」的低沉叫聲，這最可能代表什麼？",
+      "taxonomy": "literal",
+      "scenario": "學校鐘",
+      "question": "鐘樓傳來的聲音？",
       "options": [
-        "A. 有一隻小貓在找媽媽",
-        "B. 貓頭鷹在夜空中活動或呼喚同伴",
-        "C. 小狗在對陌生人吠叫",
-        "D. 消防車正在執行任務"
+        "翻頁聲",
+        "噹—噹—",
+        "講話聲",
+        "粉筆聲"
       ],
       "answer_index": 1,
-      "explanation": "「嗚—嗚—」是貓頭鷹常見的叫聲，尤其在夜晚的森林中，牠們會用這種聲音來溝通或宣示地盤。",
-      "commonMisconception": "學生可能將低沉的聲音與其他動物或人為聲響混淆，但結合「森林」和「夜晚」的語境，貓頭鷹的可能性最高。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "定時提醒。",
+      "commonMisconception": "地點誤選。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文讓我們用心聆聽周遭的聲音。如果世界上所有的聲音都消失了，我們將會面臨最大的困難是什麼？",
+      "scenario": "辨識意義",
+      "question": "為何需學會辨識各種聲音？",
       "options": [
-        "A. 我們的眼睛會變得更銳利",
-        "B. 我們將無法有效溝通和感受環境變化",
-        "C. 我們會睡得更好，因為沒有噪音",
-        "D. 我們可以更專心做自己的事情"
+        "當偵探",
+        "了解世界並保護自己",
+        "考高分",
+        "模仿遊戲"
       ],
       "answer_index": 1,
-      "explanation": "聲音是我們溝通和感知世界的重要方式。沒有聲音，我們無法聽見他人的話語，也無法察覺環境中的危險或變化，生活將變得極為不便。",
-      "commonMisconception": "學生可能會傾向於選擇聲音消失帶來的「好處」（如更安靜），而忽略了溝通和感知環境的核心功能。",
-      "quality_level": "L5",
-      "cqi_score": 3
+      "explanation": "環境應對與生存。",
+      "commonMisconception": "表面化原因。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "夜晚聲",
+      "question": "「唧—唧—」可能代表？",
+      "options": [
+        "小鳥唱歌",
+        "小狗追逐",
+        "小貓玩耍",
+        "蟋蟀或蟲鳴"
+      ],
+      "answer_index": 3,
+      "explanation": "昆蟲特徵。",
+      "commonMisconception": "忽略夜晚情境。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中有提到，在下雨的時候，雨滴打在屋頂上會發出什麼樣的聲音？",
+      "scenario": "雷聲形容",
+      "question": "「雷聲轟隆隆」形容？",
       "options": [
-        "A. 轟隆隆",
-        "B. 嘩啦啦",
-        "C. 滴滴答答",
-        "D. 淅瀝嘩啦"
+        "打雷",
+        "下雨",
+        "風吹",
+        "唱歌"
+      ],
+      "answer_index": 0,
+      "explanation": "典型形容。",
+      "commonMisconception": "天氣現象混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "遊樂園",
+      "question": "聽到「咻—」和歡呼？",
+      "options": [
+        "跌倒了",
+        "雲霄飛車衝過",
+        "吹口哨",
+        "鳥飛過"
+      ],
+      "answer_index": 1,
+      "explanation": "快速移動情境。",
+      "commonMisconception": "幻想其他聲響。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "微風聲",
+      "question": "微風吹過通常形容為？",
+      "options": [
+        "刺耳",
+        "吵雜",
+        "輕柔",
+        "響亮"
       ],
       "answer_index": 2,
-      "explanation": "「滴滴答答」是形容雨滴落下時，輕快而有節奏的聲音，特別是落在堅硬表面時。",
-      "commonMisconception": "「嘩啦啦」和「淅瀝嘩啦」通常形容大雨或雨水流動的聲音，而「轟隆隆」是雷聲。學生容易將類似的狀聲詞混淆。",
-      "quality_level": "L5",
+      "explanation": "意象特點。",
+      "commonMisconception": "忽略詞語意象。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "聆聽好處",
+      "question": "聆聽好處是？",
+      "options": [
+        "模仿嚇人",
+        "變聰明",
+        "聽力變好",
+        "發現世界美好，豐富生活體驗"
+      ],
+      "answer_index": 3,
+      "explanation": "感官與生活的豐富。",
+      "commonMisconception": "追求具體非核心利。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "貓鳴",
+      "question": "小貓「喵—哇—」持續叫？",
+      "options": [
+        "找同伴或孤單",
+        "玩耍",
+        "吃東西",
+        "睡覺"
+      ],
+      "answer_index": 0,
+      "explanation": "求助或連結信號。",
+      "commonMisconception": "誤為單純遊戲。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
       "cqi_score": 4
     },
     {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在清晨的農場裡】，你聽到公雞「喔—喔—」地叫著，這最可能是在提醒大家什麼？",
+      "taxonomy": "literal",
+      "scenario": "汽水聲",
+      "question": "打開汽水的聲音？",
       "options": [
-        "A. 牠們肚子餓了，要吃早餐",
-        "B. 有危險靠近，要大家小心",
-        "C. 牠們在呼喚母雞回家",
-        "D. 天亮了，該起床開始新的一天了"
+        "咚咚",
+        "嘶—",
+        "嘎吱",
+        "叮鈴"
       ],
-      "answer_index": 3,
-      "explanation": "公雞啼叫是牠們的自然行為，通常發生在日出時分，作為一種宣告天亮的信號，提醒其他動物和人們新的一天開始了。",
-      "commonMisconception": "學生可能將公雞的叫聲與其他動物的叫聲目的混淆，或誤以為是單純的生理需求。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "answer_index": 1,
+      "explanation": "氣體釋放聲。",
+      "commonMisconception": "其他開罐聲混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "廚房聲",
+      "question": "聽到「滋滋—」和香味？",
+      "options": [
+        "洗碗",
+        "切菜",
+        "煎煮食物",
+        "喝水"
+      ],
+      "answer_index": 2,
+      "explanation": "烹飪情境。",
+      "commonMisconception": "無關動作。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中提到，當小溪裡的流水輕輕流淌時，會發出像什麼一樣的聲音？",
+      "scenario": "牛鳴",
+      "question": "哪種動物叫聲是「哞—」？",
       "options": [
-        "A. 潺潺",
-        "B. 嘩嘩",
-        "C. 叮咚",
-        "D. 轟隆"
+        "小羊",
+        "小豬",
+        "小雞",
+        "乳牛"
       ],
-      "answer_index": 0,
-      "explanation": "「潺潺」是形容流水緩慢而細小的聲音，常與小溪或泉水相連。這是課文中描寫自然聲音的常見狀聲詞。",
-      "commonMisconception": "「嘩嘩」通常形容大水流動；「叮咚」是水滴或鈴聲；「轟隆」是雷聲或巨大聲響。學生容易混淆狀聲詞的使用情境。",
-      "quality_level": "L5",
-      "cqi_score": 7
+      "answer_index": 3,
+      "explanation": "乳牛特徵。",
+      "commonMisconception": "農場認知模糊。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 5.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "contextual",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在交通繁忙的馬路上】，聽見消防車發出「嗚咿—嗚咿—」的警笛聲，這聲音對我們來說最重要的意義是什麼？",
+      "scenario": "情境連結",
+      "question": "聲音為何常伴隨特定情境？",
       "options": [
-        "A. 告訴大家消防車正在玩遊戲",
-        "B. 提醒大家避讓，讓消防車快速通過執行任務",
-        "C. 表示消防車裡的人很無聊",
-        "D. 讓大家知道消防車要去哪裡"
+        "有魔法",
+        "是我們理解環境的一部分",
+        "人類發明",
+        "大腦分類"
       ],
       "answer_index": 1,
-      "explanation": "消防車的警笛聲是緊急信號，用來提醒周圍的車輛和行人避讓，確保消防車能迅速抵達事故現場，挽救生命和財產。",
-      "commonMisconception": "學生可能對緊急車輛的警笛聲有模糊的認知，但未必理解其「避讓」的實際行動意義，可能誤以為僅是告知行蹤。",
-      "quality_level": "L5",
-      "cqi_score": 4.5
+      "explanation": "感官輸入與環境理解。",
+      "commonMisconception": "視為偶然分類。",
+      "quality_level": "L3",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 1.5,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在圖書館裡】，你聽到「噓—」的一聲，這代表什麼意思？",
+      "scenario": "警報聲",
+      "question": "急促「嗶—嗶—」警告？",
       "options": [
-        "A. 有人在唱歌",
-        "B. 有人肚子餓了",
-        "C. 希望大家保持安靜",
-        "D. 有人在打招呼"
+        "玩遊戲",
+        "火災或緊急疏散",
+        "按門鈴",
+        "吹蠟燭"
+      ],
+      "answer_index": 1,
+      "explanation": "公共場所警示。",
+      "commonMisconception": "電子音混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 1,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "風鈴聲",
+      "question": "風鈴吹動發出什麼聲音？",
+      "options": [
+        "嘎吱",
+        "轟隆",
+        "叮叮噹噹",
+        "呼呼"
       ],
       "answer_index": 2,
-      "explanation": "「噓—」這個聲音通常是為了讓周圍的人保持安靜，尤其在圖書館這類需要保持肅靜的場所。",
-      "commonMisconception": "學生可能會將其與其他發聲動作混淆，但結合圖書館的場景，安靜的要求是顯而易見的。",
-      "quality_level": "L3",
-      "cqi_score": 4
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中描述了許多動物的叫聲。請問哪種動物的叫聲是「呱呱」？",
-      "options": [
-        "A. 小雞",
-        "B. 小貓",
-        "C. 小狗",
-        "D. 青蛙"
-      ],
-      "answer_index": 3,
-      "explanation": "「呱呱」是青蛙的典型叫聲，尤其在水邊或雨後的夜晚，青蛙會發出這種聲音。",
-      "commonMisconception": "學生對動物叫聲的認知可能不夠精確，容易將「呱呱」與「咯咯」（小雞）、「喵喵」（小貓）、「汪汪」（小狗）等混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
+      "explanation": "清脆碰撞聲。",
+      "commonMisconception": "空氣流動聲混淆。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 2.25,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     },
     {
       "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在海邊遊玩時】，你聽到海浪發出「嘩—嘩—」的聲音，這最可能讓你聯想到什麼？",
+      "scenario": "教室小動作",
+      "question": "安靜教室傳來「沙沙」推測？",
       "options": [
-        "A. 大海的遼闊和力量",
-        "B. 小鳥在樹上築巢",
-        "C. 山谷裡的回音",
-        "D. 雨水打在窗戶上"
-      ],
-      "answer_index": 0,
-      "explanation": "海浪的「嘩—嘩—」聲是其獨特的標誌，這種聲音能夠讓人感受到大海的廣闊無垠和它蘊藏的巨大能量。",
-      "commonMisconception": "學生可能會將其與其他流動的聲音混淆，但「海邊」的場景提示了這是大海的聲音，其特點是宏大而有節奏。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文裡提到了許多日常生活的聲音。請問哪一種聲音是從學校的鐘樓傳來的？",
-      "options": [
-        "A. 書本翻頁的聲音",
-        "B. 鐘聲「噹—噹—」的聲音",
-        "C. 同學們說話的聲音",
-        "D. 粉筆寫字的聲音"
-      ],
-      "answer_index": 1,
-      "explanation": "學校鐘樓通常會定時敲響鐘聲，以「噹—噹—」來提醒學生上下課時間。",
-      "commonMisconception": "其他選項雖然也與學校相關，但只有鐘聲是從鐘樓傳來的，且有其特定的狀聲詞。",
-      "quality_level": "L5",
-      "cqi_score": 4
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "聽！那是誰的聲音",
-      "question": "為什麼我們需要學習辨識各種不同的聲音？",
-      "options": [
-        "A. 這樣我們就可以假裝自己是偵探",
-        "B. 這樣我們能更了解周遭世界，並保護自己",
-        "C. 這樣我們考試才能考高分",
-        "D. 這樣我們可以模仿動物叫聲來玩"
-      ],
-      "answer_index": 1,
-      "explanation": "辨識聲音能幫助我們理解周圍環境的變化，例如聽到警笛聲知道有緊急狀況，聽到雷聲知道要躲雨，這些都能幫助我們更好地應對生活，甚至保護自己。",
-      "commonMisconception": "學生可能會選擇一些比較有趣或表面的原因，而忽略了辨識聲音在實際生活中的重要性和實用性。",
-      "quality_level": "L3",
-      "cqi_score": 2
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在溫暖的夜晚】，你聽到「唧—唧—」的聲音，這最可能代表什麼？",
-      "options": [
-        "A. 有小鳥在唱歌",
-        "B. 有小狗在追逐",
-        "C. 有小貓在玩耍",
-        "D. 蟋蟀或蟲子在鳴叫"
-      ],
-      "answer_index": 3,
-      "explanation": "「唧—唧—」是蟋蟀或某些昆蟲在溫暖夜晚常見的鳴叫聲，牠們用這種聲音來溝通或吸引配偶。",
-      "commonMisconception": "學生可能將其與其他小動物的叫聲混淆，但結合「夜晚」和「唧—唧—」的特點，指向昆蟲的鳴叫。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "當課文提到「雷聲轟隆隆」時，是在形容哪一種自然現象的聲音？",
-      "options": [
-        "A. 打雷",
-        "B. 下雨",
-        "C. 風吹",
-        "D. 小鳥唱歌"
-      ],
-      "answer_index": 0,
-      "explanation": "「轟隆隆」是形容雷聲的狀聲詞，通常伴隨著閃電在暴風雨天氣中出現。",
-      "commonMisconception": "學生可能會將其與其他天氣現象的聲音混淆，但「轟隆隆」特指雷聲。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在遊樂園裡】，你聽到「咻—」的一聲，接著傳來一陣歡呼，你認為這是什麼發出的聲音？",
-      "options": [
-        "A. 有人跌倒了",
-        "B. 雲霄飛車快速衝過",
-        "C. 有人在吹口哨",
-        "D. 小鳥從頭上飛過"
-      ],
-      "answer_index": 1,
-      "explanation": "「咻—」的快速移動聲和隨後的歡呼聲，是雲霄飛車在遊樂園中高速行駛時的典型情境。",
-      "commonMisconception": "學生可能會想像其他快速移動的聲音，但結合「遊樂園」和「歡呼」的線索，雲霄飛車是最合理的推斷。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中，當描述微風輕輕吹過時，通常會用哪種感覺的聲音來形容？",
-      "options": [
-        "A. 刺耳的",
-        "B. 吵雜的",
-        "C. 輕柔的",
-        "D. 響亮的"
+        "寫作業",
+        "睡覺",
+        "偷偷翻找或吃零食",
+        "專心聽講"
       ],
       "answer_index": 2,
-      "explanation": "微風的聲音通常是輕柔、細小的，不會給人吵雜或刺耳的感覺，這是課文對自然聲音美感的描述。",
-      "commonMisconception": "學生可能會根據聲音大小來判斷，但「微風」本身就帶有輕柔的意象。",
-      "quality_level": "L5",
-      "cqi_score": 7
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文鼓勵我們仔細聆聽生活中的各種聲音。這對我們來說最大的好處是什麼？",
-      "options": [
-        "A. 讓我們可以模仿各種聲音來嚇人",
-        "B. 讓我們變得更聰明，因為聽到很多知識",
-        "C. 讓我們的聽力變得更好，可以聽到很遠的聲音",
-        "D. 幫助我們發現世界的美好與變化，豐富我們的生活體驗"
-      ],
-      "answer_index": 3,
-      "explanation": "用心聆聽周遭的聲音，能讓我們感受到大自然和生活的細微變化，從而豐富我們對世界的感知和體驗，發現更多美好。",
-      "commonMisconception": "學生可能會被一些具體但非核心的好處吸引，如「聽到很多知識」或「聽力變好」，而忽略了更深層次的感官體驗和生活豐富度。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在寂靜的夜晚】，你聽到小貓「喵—嗚—」的叫聲，持續了一段時間，這最可能代表什麼？",
-      "options": [
-        "A. 小貓可能在找同伴或感到孤單",
-        "B. 小貓只是在玩耍",
-        "C. 小貓在吃東西",
-        "D. 小貓在睡覺"
-      ],
-      "answer_index": 0,
-      "explanation": "小貓長時間發出「喵—嗚—」的叫聲，尤其在夜晚，常表示牠們在呼喚、尋求關注或感到不安、孤單。",
-      "commonMisconception": "學生可能誤以為是單純的遊戲或生理行為，但持續的叫聲在寂靜夜晚通常帶有求助或尋求連結的意味。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中提到，當我們打開一罐汽水時，會聽到什麼樣的聲音？",
-      "options": [
-        "A. 咚咚",
-        "B. 嘶—",
-        "C. 嘎吱",
-        "D. 叮鈴"
-      ],
-      "answer_index": 1,
-      "explanation": "打開汽水時，氣體釋放會發出「嘶—」的聲音，這是壓力釋放的特徵。",
-      "commonMisconception": "學生可能將其與其他開罐或打開物品的聲音混淆，但「嘶—」是汽水特有的氣體聲。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在廚房裡】，你聽到「滋滋—」的聲音，並聞到食物的香味，你認為媽媽可能在做什麼？",
-      "options": [
-        "A. 在洗碗",
-        "B. 在切菜",
-        "C. 在煎煮食物",
-        "D. 在喝水"
-      ],
-      "answer_index": 2,
-      "explanation": "「滋滋—」的聲音通常是食物在熱鍋上煎炸時發出的，伴隨食物香味，這表示媽媽正在烹飪。",
-      "commonMisconception": "學生可能會想到其他廚房活動，但「滋滋—」和「香味」是煎煮食物的明確線索。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文中，哪種動物的叫聲被形容為「哞—」？",
-      "options": [
-        "A. 小羊",
-        "B. 小豬",
-        "C. 小雞",
-        "D. 乳牛"
-      ],
-      "answer_index": 3,
-      "explanation": "「哞—」是乳牛的典型叫聲，聲音低沉而悠長，是農場裡常見的聲音。",
-      "commonMisconception": "學生對農場動物叫聲的認知可能不夠精確，容易將「哞—」與其他動物的叫聲混淆。",
-      "quality_level": "L3",
-      "cqi_score": 6
-    },
-    {
-      "taxonomy": "contextual",
-      "scenario": "聽！那是誰的聲音",
-      "question": "在學習辨識各種聲音的過程中，為什麼多數聲音會伴隨特定的情境或感受？",
-      "options": [
-        "A. 因為聲音本身就帶有魔法",
-        "B. 因為聲音是我們與世界互動，理解環境的一部分",
-        "C. 因為聲音都是由人類發明的",
-        "D. 因為我們的大腦喜歡把聲音分類"
-      ],
-      "answer_index": 1,
-      "explanation": "聲音不僅是物理現象，更是我們感知和理解周圍世界的重要媒介。不同的聲音在特定情境下，會引發我們特定的情感反應和行為。",
-      "commonMisconception": "學生可能認為聲音與情境的連結是偶然的或單純的分類行為，而忽略了其作為感官輸入，幫助我們理解世界和產生情感反應的功能。",
-      "quality_level": "L5",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在百貨公司裡】，你突然聽到一陣「嗶—嗶—」的急促聲，這最可能是在警告什麼？",
-      "options": [
-        "A. 有人在玩電動遊戲",
-        "B. 火災警報響了，可能需要疏散",
-        "C. 有人在按門鈴",
-        "D. 有人在吹生日蠟燭"
-      ],
-      "answer_index": 1,
-      "explanation": "在公共場所聽到急促的「嗶—嗶—」聲，通常是火災警報或其他緊急情況的警示，提醒人們注意安全並可能需要疏散。",
-      "commonMisconception": "學生可能將其與其他電子聲音混淆，但「百貨公司」和「急促」的特點指向緊急警報。",
-      "quality_level": "L5",
-      "cqi_score": 5
-    },
-    {
-      "taxonomy": "literal",
-      "scenario": "聽！那是誰的聲音",
-      "question": "課文描述了「風鈴」被風吹動時，會發出什麼樣悅耳的聲音？",
-      "options": [
-        "A. 嘎吱嘎吱",
-        "B. 轟隆轟隆",
-        "C. 叮叮噹噹",
-        "D. 呼呼"
-      ],
-      "answer_index": 2,
-      "explanation": "風鈴被風吹動時，各個小部件相互碰撞，發出清脆悅耳的「叮叮噹噹」聲。",
-      "commonMisconception": "學生可能將其與其他物體摩擦或空氣流動的聲音混淆，但「叮叮噹噹」是風鈴特有的聲音。",
-      "quality_level": "L3",
-      "cqi_score": 3
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "聽！那是誰的聲音",
-      "question": "【在安靜的教室裡】，你聽到「沙沙—」的聲音從同學的桌子底下傳來，你推測他可能在做什麼？",
-      "options": [
-        "A. 正在專心聽老師講課",
-        "B. 正在睡覺",
-        "C. 正在偷偷吃零食或翻找東西",
-        "D. 正在寫作業"
-      ],
-      "answer_index": 2,
-      "explanation": "在安靜的教室裡，桌子底下傳來的「沙沙—」聲，常暗示同學正在進行一些不應該在課堂上做的事情，比如偷偷吃零食或翻找個人物品。",
-      "commonMisconception": "學生可能會選擇一些正面的行為，但結合「安靜的教室」和「桌子底下」的隱蔽性，偷偷摸摸的行為可能性更高。",
-      "quality_level": "L5",
-      "cqi_score": 5
+      "explanation": "隱蔽性小動作。",
+      "commonMisconception": "選正面行為。",
+      "quality_level": "L2",
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "cqi_score": 4,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與課綱【Chi_L10：漁夫和金魚】完全無關，屬錯誤教材內容。",
+        "review_status": "pending"
+      }
     }
   ]
 }

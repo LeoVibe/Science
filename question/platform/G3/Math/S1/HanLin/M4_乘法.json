@@ -20,7 +20,7 @@
       "explanation": "125 × 7 = 875。計算過程：5×7=35 進 3，2×7+3=17 進 1，1×7+1=8。",
       "commonMisconception": "進位計算錯誤是乘法最常見的失誤點。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -36,7 +36,7 @@
       "explanation": "一星期有 7 天，兩個星期是 14 天。40 × 14 = 560。或者 40 × 7 × 2 = 560。",
       "commonMisconception": "學生可能只算一星期 (40x7=280)，而忽略「兩個星期」的條件。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -52,7 +52,7 @@
       "explanation": "先算搬一次的瓶數：24 × 8 = 192。再算 5 次的總數：192 × 5 = 960。或 (8×5)×24=40×24=960。",
       "commonMisconception": "多層次的連乘問題，學生容易在中間步驟疲乏而算錯。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -68,7 +68,7 @@
       "explanation": "450 乘數擴大 10 倍，積也會擴大 10 倍。360 × 10 = 3600。",
       "commonMisconception": "學生對於「末尾補零」的邏輯若是死背，容易在零的個數上出錯。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -84,7 +84,7 @@
       "explanation": "先算總數：12 × 9 = 108 枝。因為 108 > 100，所以「剩」8 枝。 (修正：題目問的是剩還是不夠。選項應配合計算結果。修正答案為剩 8 枝，對應選項 0)",
       "commonMisconception": "此題結合乘法與比較，學生容易在「剩下的」計算中粗心。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

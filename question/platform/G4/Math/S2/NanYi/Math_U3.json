@@ -18,7 +18,7 @@
       "explanation": "2兆1800億 = 2,1800,0000,0000。",
       "concept": "大數讀寫",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 3.75
     },
     {
       "id": "q2",
@@ -35,7 +35,7 @@
       "explanation": "1 億 = 1,0000 萬。 故 12 兆 1 億 > 12 兆 4500 萬。",
       "concept": "大數單位比較",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q3",
@@ -52,7 +52,7 @@
       "explanation": "8400 + 2000 = 10400 億 = 1 兆 400 億。 5 + 1 = 6，故為 6 兆 400 億。",
       "concept": "大數進位加法",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "id": "q4",
@@ -69,7 +69,7 @@
       "explanation": "1,0000,0000 / 1,0000 = 1,0000。在一萬進法下，一萬個萬就是一億。",
       "concept": "位值與進率",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 6
     },
     {
       "id": "q5",
@@ -86,7 +86,7 @@
       "explanation": "3 在「十兆位」，0 在「兆位」。",
       "concept": "特定數位識別",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 6.75
     },
     {
       "id": "q6",
@@ -103,7 +103,7 @@
       "explanation": "兆與億區中間有連續零，通常讀出一個「零」。",
       "concept": "含零大數讀法",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 4.75
     },
     {
       "id": "q7",
@@ -120,7 +120,7 @@
       "explanation": "1 兆 = 10000 億。 10000 - 4500 = 5500 億。",
       "concept": "跨單位大數減法",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "id": "q8",
@@ -137,7 +137,7 @@
       "explanation": "直接就是一百億。",
       "concept": "數位的倍數",
       "quality_level": "L2",
-      "cqi_score": 2
+      "cqi_score": 2.75
     },
     {
       "id": "q9",
@@ -154,7 +154,7 @@
       "explanation": "14 億 * 100 = 1400 億。",
       "concept": "大數乘法感",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75
     },
     {
       "id": "q10",
@@ -171,7 +171,7 @@
       "explanation": "2 在千億位。換成 5 增加了 3 個千億 = 3000 億 = 300,000,000,000。",
       "concept": "數位值的變動分析",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 6.25
     }
   ]
 }

@@ -21,7 +21,7 @@
       ],
       "answer": "通路（形成閉合迴路）",
       "explanation": "電流必須能從電池正極出發，經過燈泡，回到電池負極。",
-      "cqi_score": 7,
+      "cqi_score": 4.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "在電路中，金屬物質（如迴紋針、銅線）通常比木頭或塑膠更容易導電。",
       "answer": "True",
       "explanation": "金屬是良好的導體，而木頭、塑膠是絕緣體。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "兩顆電池正極接負極、負極接正極，一個接一個排成一列的接法，稱之為電池的______接法。",
       "answer": "串聯",
       "explanation": "電池串聯能增加電壓，讓燈泡變得更亮。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "其中一個燈泡壞了，另一個仍然會亮",
       "explanation": "燈泡並聯時各有獨立的電流路徑，互不影響。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "用溼的手去觸摸電源開關",
       "explanation": "水會導電，溼手觸摸開關極易造成觸電危險。",
-      "cqi_score": 7,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     }
   ]

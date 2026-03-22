@@ -21,7 +21,7 @@
       ],
       "answer": "電池串聯",
       "explanation": "電池串聯可以增加總電壓，讓燈泡亮度大幅提升。",
-      "cqi_score": 8.5,
+      "cqi_score": 6.25,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "在「燈泡並聯」的電路中，如果其中一個燈泡壞了，另一個燈泡仍然可以發亮。",
       "answer": "True",
       "explanation": "並聯路徑互相獨立，互不干擾。",
-      "cqi_score": 5.5,
+      "cqi_score": 3.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "能讓電流通往燈泡的物質（如銅線、鐵釘）稱為______。",
       "answer": "導體",
       "explanation": "導體具有自由移動的電子或離子。",
-      "cqi_score": 5.5,
+      "cqi_score": 2.75,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "燈泡數越多，每個燈泡分配到的電壓越少，亮度越暗",
       "explanation": "串聯電路中，電壓會被各負載（燈泡）瓜分。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "並聯",
       "explanation": "並聯保證每個電器都能獲得穩定的電壓（110V），且單一電器故障不影響其他電器運作。",
-      "cqi_score": 8.5,
+      "cqi_score": 5,
       "quality_level": "L4"
     }
   ]

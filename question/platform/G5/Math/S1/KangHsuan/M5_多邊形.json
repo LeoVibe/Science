@@ -21,7 +21,7 @@
       ],
       "answer": "540 度",
       "explanation": "公式為 (n-2) × 180，(5-2) × 180 = 540。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -30,7 +30,7 @@
       "question": "「正多邊形」是指所有邊都一樣長，且所有內角也都一樣大的多邊形。",
       "answer": "True",
       "explanation": "這是正多邊形的嚴格定義。",
-      "cqi_score": 5.5,
+      "cqi_score": 3.75,
       "quality_level": "L1"
     },
     {
@@ -39,7 +39,7 @@
       "question": "正六邊形的每一個內角是______度。",
       "answer": "120",
       "explanation": "內角和 720 除以 6 = 120。",
-      "cqi_score": 4,
+      "cqi_score": 2.25,
       "quality_level": "L1"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "answer": "可能會有兩個直角",
       "explanation": "若有兩個直角，角度和已達 180，無法形成三角形。",
-      "cqi_score": 7,
+      "cqi_score": 5.75,
       "quality_level": "L4"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "answer": "六邊形",
       "explanation": "三角形個數 = n-2，4 = n-2，所以 n = 6。",
-      "cqi_score": 8.5,
+      "cqi_score": 5.25,
       "quality_level": "L4"
     }
   ]

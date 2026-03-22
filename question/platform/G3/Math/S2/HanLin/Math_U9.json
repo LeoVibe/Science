@@ -11,15 +11,15 @@
       "scenario": "面積概念",
       "question": "邊長 1 公分的正方形，它的面積是多少？",
       "options": [
-        "1 公分　　",
-        "4 公分　　",
+        "1 公分",
+        "4 公分",
         "4 平方公分",
         "1 平方公分"
       ],
       "answer_index": 3,
       "explanation": "定義 1cm×1cm = 1 平方公分。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -34,22 +34,22 @@
       "answer_index": 1,
       "explanation": "7 × 3 = 21。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
       "scenario": "面積估算",
       "question": "甲圖形用了 12 個方塊，乙圖形用了 15 個方塊。誰的面積比較大？（假設方塊大小相同）",
       "options": [
-        "一樣大　",
+        "一樣大",
         "無法比較",
-        "乙圖形　",
-        "甲圖形　"
+        "乙圖形",
+        "甲圖形"
       ],
       "answer_index": 2,
       "explanation": "數量越多，覆蓋面積越大。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -57,21 +57,21 @@
       "question": "正方形的邊長是 8 公分。它的面積是多少平方公分？",
       "options": [
         "32 平方公分",
-        "8 平方公分　",
+        "8 平方公分",
         "64 平方公分",
         "16 平方公分"
       ],
       "answer_index": 2,
       "explanation": "8 × 8 = 64。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
       "scenario": "圖形拼湊面積",
       "question": "小英將兩個面積都是 10 平方公分的長方形拼在一起（不重疊）。新圖形的面積是多少？",
       "options": [
-        "無法判斷　　　",
+        "無法判斷",
         "20 平方公分",
         "10 平方公分",
         "40 平方公分"
@@ -79,22 +79,22 @@
       "answer_index": 1,
       "explanation": "面積具有加成性。 10 + 10 = 20。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.75
     },
     {
       "taxonomy": "literal",
       "scenario": "平方公分縮寫",
       "question": "『平方公分』通常用什麼英文縮寫表示？",
       "options": [
-        "cm　",
-        "m²　",
-        "kg　",
+        "cm",
+        "m²",
+        "kg",
         "cm²"
       ],
       "answer_index": 3,
       "explanation": "cm² 是標準國際單位縮寫。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -102,29 +102,29 @@
       "question": "公園有一塊長 15 公尺、寬 10 公尺的長方形草地。請問面積是多少『平方公尺』？",
       "options": [
         "150 平方公尺",
-        "50 平方公尺　",
-        "150 公尺　　",
-        "25 平方公尺　"
+        "50 平方公尺",
+        "150 公尺",
+        "25 平方公尺"
       ],
       "answer_index": 0,
       "explanation": "15 × 10 = 150。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
       "scenario": "面積與周長區分",
       "question": "一個正方形的面積是 16 平方公分。它的周長是多少公分？",
       "options": [
-        "8 公分　",
+        "8 公分",
         "32 公分",
         "16 公分",
-        "4 公分　"
+        "4 公分"
       ],
       "answer_index": 2,
       "explanation": "邊長 = 4 (4×4=16)。周長 = 4 × 4 = 16。本題剛好數值相同，測驗學生對邊長的求取路徑。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -139,7 +139,7 @@
       "answer_index": 1,
       "explanation": "50 - 12 = 38。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -154,7 +154,7 @@
       "answer_index": 3,
       "explanation": "切割與排列不改圖形總覆蓋體積。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -169,22 +169,22 @@
       "answer_index": 2,
       "explanation": "面積 2×2=4。地墊面積 1×1=1。 4/1 = 4。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
       "scenario": "比較推理",
       "question": "甲是一個邊長 6 公分正方形。乙是一個長 9 公分、寬 4 公分長方形。誰比較佔空間（面積大）？",
       "options": [
-        "甲大　　　",
-        "乙大　　　",
+        "甲大",
+        "乙大",
         "看顏色決定",
-        "一樣大　　"
+        "一樣大"
       ],
       "answer_index": 3,
       "explanation": "6×6=36。 9×4=36。故一樣大。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -200,7 +200,7 @@
       "explanation": "面積是指物體表面所佔空間的大小。小雅用了 8 個小正方形，小傑用了 7 個小正方形。因為 8 比 7 大，所以小雅拼的圖案面積比較大。",
       "commonMisconception": "學生可能被圖案的視覺形狀（例如T型看起來比較「胖」或L型比較「長」）所干擾，而忽略了直接計算構成面積的單位數量。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -216,7 +216,7 @@
       "explanation": "面積是指一個平面圖形或物體表面所佔空間的大小，它描述的是「覆蓋」一個平面的範圍。桌巾蓋住桌面就是覆蓋了桌面的整個表面，因此最接近面積的概念。",
       "commonMisconception": "學生可能混淆周長（物體的邊界長度）和面積（物體所佔的平面大小），或是其他測量概念。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "literal",
@@ -232,7 +232,7 @@
       "explanation": "字典的封面通常比鉛筆盒的表面大很多。這是直接觀察和比較兩個物體平面大小的能力。",
       "commonMisconception": "學生可能會被字典的厚度或重量所干擾，誤以為體積大的面積就一定大，或者覺得鉛筆盒雖小但很「實用」所以面積不一定小。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "literal",
@@ -248,7 +248,7 @@
       "explanation": "每個半格代表 0.5 個方格的面積，所以 4 個半格等於 4 × 0.5 = 2 個方格。因此，總面積是 12（完整方格）+ 2（半格）= 14 個方格。",
       "commonMisconception": "學生可能忽略半格的計算，或者將半格當作整格計算，導致錯誤的總面積。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -264,7 +264,7 @@
       "explanation": "面積的計算取決於構成形狀的單位數量。小翰和小恩都使用了 10 個相同大小的正方形積木，即使形狀不同，它們所佔的總面積仍然是相等的，因為組成面積的單位數量沒有改變。",
       "commonMisconception": "學生可能受到形狀的視覺錯覺影響，例如認為「高樓」形狀看起來比較高，或者「長方形」看起來比較寬，而誤以為面積會因此改變。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -280,7 +280,7 @@
       "explanation": "面積是物體表面所佔空間的大小。小琪只是將色紙剪開並重新排列，並沒有增加或減少紙張的材料。因此，無論她如何重新拼湊，色紙的總面積都會和原來一樣大。",
       "commonMisconception": "學生可能誤以為形狀的改變會影響其面積，或者被剪開的「縫隙」所干擾，認為有材料損耗導致面積減少。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +296,7 @@
       "explanation": "面積的單位是「單位面積」，當我們用小正方形貼紙來覆蓋時，每張貼紙就代表一個單位面積。因此，如果可以貼滿 20 張貼紙，就表示這塊區域的面積是 20 個小正方形貼紙的面積。",
       "commonMisconception": "學生可能混淆長度、周長和面積的概念，或者在沒有明確單位定義（如每張貼紙是 1 平方公分）的情況下，誤選了標準單位「平方公分」。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +312,7 @@
       "explanation": "如果每個手掌可以蓋住 3 個小方格的面積，而桌面需要 15 個手掌才能蓋滿，那麼總面積就是 15 個手掌的面積總和，也就是 15 × 3 = 45 個小方格的面積。",
       "commonMisconception": "學生可能只記住手掌的數量（15）或每個手掌的方格數（3），而忘記將這兩個數值相乘，或者錯誤地進行加法運算。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
@@ -328,7 +328,7 @@
       "explanation": "操場是一個非常大的區域。使用小尺測量會非常耗時且不實際；用腳步量雖然快，但精度不足且不具備標準性。平方公尺是國際上通用的面積單位，且比平方公分大，更適合用來測量如操場般的大面積，既有效率又準確。",
       "commonMisconception": "學生可能只考慮測量的精準度（小尺）或速度（腳步），而沒有綜合考慮測量對象的大小、測量效率和單位選擇的合適性。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "critical",
@@ -344,7 +344,7 @@
       "explanation": "面積是指物體表面所佔的平面空間大小。無論形狀如何變化，只要組成圖案的單位數量（這裡是正方形拼圖）相同，它們所佔的總面積就是一樣大的。",
       "commonMisconception": "學生容易受到視覺上的「長」或「寬」等外觀特徵所誤導，而忽略了面積的本質是覆蓋的單位數量，導致誤判面積大小。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 8
     },
     {
       "taxonomy": "literal",
@@ -360,7 +360,7 @@
       "explanation": "相框的面積是6張 × 4張 = 24張貼紙。杯墊的面積是5張 × 5張 = 25張貼紙。因此，杯墊需要比較多張貼紙才能完全覆蓋表面。",
       "commonMisconception": "學生可能只看單邊長度或總長度來判斷大小，而不是計算總面積。也有可能誤算面積，或是認為長方形一定比正方形大。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -376,7 +376,7 @@
       "explanation": "題目明確說明每個小方格代表1平方公尺，而水池佔據了10個完整的方格。因此，水池的面積就是10 × 1平方公尺 = 10平方公尺。",
       "commonMisconception": "學生可能只回答「10個方格」而沒有轉換成正確的面積單位，或是混淆面積與長度單位。也有可能誤以為L形會需要複雜的計算。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 8
     },
     {
       "taxonomy": "literal",
@@ -392,7 +392,7 @@
       "explanation": "第一個窗戶的布料面積是3 × 2 = 6平方單位。第二個窗戶的布料面積是4 × 1 = 4平方單位。正方形抱枕套的布料面積是2 × 2 = 4平方單位。因此，第一個窗戶的布料面積最大。",
       "commonMisconception": "學生可能只看長度或寬度，或誤以為長方形一定比正方形大，而沒有實際計算或比較面積。也可能誤以為不同形狀的面積無法比較。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "inferential",
@@ -408,7 +408,7 @@
       "explanation": "每個被覆蓋一半的方格，大約可以算作0.5個方格。所以8個半格大約是8 ÷ 2 = 4個方格。因此，這朵雲的總面積大約是15個完整方格 + 4個方格 = 19個方格。",
       "commonMisconception": "學生可能只計算完整的方格，忽略半格，或是將半格直接算作一個方格，導致答案錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
@@ -424,7 +424,7 @@
       "explanation": "餐桌的面積是80 × 60 = 4800平方公分。第一塊桌巾的面積是90 × 70 = 6300平方公分，且長寬都大於餐桌，所以可以完全覆蓋。第二塊桌巾的面積是100 × 50 = 5000平方公分，雖然面積比餐桌大，但寬度50公分小於餐桌的寬度60公分，所以無法完全覆蓋餐桌。因此，只有第一塊桌巾符合條件。",
       "commonMisconception": "學生可能只比較面積大小，而忽略了長寬是否能完全覆蓋；或是只比較單邊長度。也可能誤以為只要面積大就能覆蓋。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -440,7 +440,7 @@
       "explanation": "面積是指物體表面所佔空間的大小。小明只是將一張色紙剪開後重新排列組合，並沒有增加或減少任何紙張。因此，雖然形狀改變了，但紙張的總量（面積）保持不變。",
       "commonMisconception": "學生可能因為形狀改變而誤以為面積也改變，特別是當形狀看起來更「長」或更「尖」時，會產生面積變大或變小的錯覺。這是在考驗面積守恆的概念。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
@@ -456,7 +456,7 @@
       "explanation": "要計算覆蓋整個公布欄所需的便利貼數量，就是計算公布欄的面積。長邊排7張，短邊排5張，所以總共需要7 × 5 = 35張便利貼。",
       "commonMisconception": "學生可能將長度和寬度相加（7+5=12），誤以為是計算周長而不是面積，或是計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "contextual",
@@ -472,7 +472,7 @@
       "explanation": "客廳中央的正方形區域是4 × 4 = 16塊地磚。如果要在四周鋪一圈，那麼新的大正方形的邊長會變成 (4+2) = 6個地磚長度 (因為兩邊各增加一塊)。這個大正方形的總面積是6 × 6 = 36塊地磚。所以，裝飾用的地磚數量就是大正方形的總面積減去中央區域的面積：36 - 16 = 20塊地磚。",
       "commonMisconception": "學生可能只計算中央區域的周長並乘以一個厚度，或是在計算外圍面積時漏算或多算。例如，只算4x4=16塊，或算成6x6=36塊（總面積）。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 5.5
     }
   ]
 }

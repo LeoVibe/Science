@@ -18,7 +18,14 @@
       "explanation": "文中透過外觀的極大反差，引導孩子思考「實用與內斂」高於「華而不實」的生命哲學，這也是本課的核心主旨：要做有用的人，不要做偉大、體面的人。",
       "scenario": "探討文章的核心隱喻，理解「託物言志」的寫作手法。",
       "commonMisconception": "學生可能只停留在「水果好不好吃」的層次，無法跨越到「人格特質」的抽象類比。",
-      "taxonomy": "inferential"
+      "taxonomy": "inferential",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     },
     {
       "question": "【關於父親對孩子的期許】父親說：「要做有用的人，不要做偉大、體面的人。」這句話在現代職場或生活環境中，最合適的解讀是？",
@@ -32,7 +39,14 @@
       "explanation": "「偉大、體面」在文中指涉的是僅有外表但無實質回饋的虛榮，而「有用」則是指像花生一樣能實際供人食用、助人解飢的務實精神。",
       "scenario": "將經典語錄與現代社會價值觀進行鏈結，測試學生對「價值觀」的深層理解。",
       "commonMisconception": "學生易產生極端化偏見，認為「偉大」就等同於「壞」，忽略了作者是在強調「實質」的重要性。",
-      "taxonomy": "applied"
+      "taxonomy": "applied",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
     }
   ]
 }

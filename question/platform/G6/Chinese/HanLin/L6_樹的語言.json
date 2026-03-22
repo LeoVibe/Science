@@ -1,0 +1,115 @@
+{
+  "publisher": "翰林",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Chinese",
+  "lesson_id": "L6",
+  "lesson_title": "樹的語言",
+  "questions": [
+    {
+      "question": "【分析說明文的寫法】作者為什麼將植物的生長與溝通機制稱為「樹的語言」？",
+      "options": [
+        "因為樹木真的像人類一樣，會發出大聲的聲響來互相打招呼。　",
+        "這是一種擬人化手法，讓抽象的化學訊息交換變得容易理解。　",
+        "為了增加故事的神祕感，讓讀者誤以為這是一篇科幻奇幻小說。　",
+        "因為科學家已經研發出翻譯機，可以直接將樹木的聲音翻譯出來。　"
+      ],
+      "answer_index": 1,
+      "explanation": "說明文常用擬人化或譬喻法。將植物透過根部或氣味傳導的訊息交換稱為「語言」，能增加趣味性並幫助讀者建立「訊息傳遞」的核心認知。",
+      "scenario": "探討科學說明文中的文學策略（擬人化）及其科普功能。",
+      "commonMisconception": "學生易選[A]，混淆了「擬人修辭」與「客觀事實」的界線。",
+      "taxonomy": "analysis",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【閱讀課文內容後】文中提到，當某棵樹受到某些蟲害攻擊時，周圍的樹木會產生什麼樣的生理反應？",
+      "options": [
+        "立即落葉以示抗議，讓環境變得更不適合蟲子居住。　　",
+        "接收到警訊並產生化學防禦物質，以此增加蟲子的食用門檻。　",
+        "集體枯萎自殺，以便將生存空間留給更強壯的外來物種。　",
+        "發出高頻的聲波，吸引獵食者過來消滅這些有害的蟲子。　"
+      ],
+      "answer_index": 1,
+      "explanation": "這是植物界的「防禦機制」。一旦收到「同伴遇襲」的警訊（化學氣體），其他樹木會預先增強體內的苦澀物質或毒素，降低受害機率。",
+      "scenario": "考驗對科普知識的精準擷取與訊息關聯能力。",
+      "commonMisconception": "學生可能被科幻電影影響而選[D]，應回歸文本中的化學防禦解釋。",
+      "taxonomy": "literal",
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【在解讀植物智慧時】「樹木透過真菌網絡互相分享養分」這個細節，在文中傳遞了哪一種生命哲學？",
+      "options": [
+        "物競天擇、適者生存，弱小的樹木最終都會被自然淘汰。　",
+        "大自然也具備互助共存的精神，單木不成林，群體更穩定。　",
+        "樹木之間也存在著自私的交易，必須付出養分才能獲得資訊。　",
+        "人類應該多學學樹木，不需要努力讀書就能與大自然溝通。　"
+      ],
+      "answer_index": 1,
+      "explanation": "作者強調的是「森林作為一個生命共同體」。這不只是科學觀察，更是一種對於「團結與分享」價值觀的肯定。",
+      "scenario": "從科學事實（互送養分）推論到人文價值（共生精神）。",
+      "commonMisconception": "學生易受競爭思維影響選[A]，而忽略了本文強調的「互助」主軸。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【分析段落功能】文中詳盡介紹了一公分樹木年輪中隱藏的降雨與氣候資訊，這段描寫最主要的目的是什麼？",
+      "options": [
+        "教導讀者如何正確地鋸開樹木，以便收集冬天的木柴。　　",
+        "讓讀者體會樹木如同「自然的錄音帶」，忠實記錄了環境史變遷。　",
+        "說明數樹木年輪是一件非常辛苦且沒有效率的科學實驗工作。　",
+        "證明所有的樹木在任何年份裡，生長的速度都是完全一樣的。　"
+      ],
+      "answer_index": 1,
+      "explanation": "透過「記錄者」的意象，作者引導讀者對樹木產生敬畏感。年輪不只是生長痕跡，更是大數據的歷史存擋。",
+      "scenario": "理解科普文本中的關鍵細節與整體意旨的支撐關係。",
+      "commonMisconception": "學生容易停留在「數字計算」[C]，而忽略了其背後的「歷史意義」。",
+      "taxonomy": "inferential",
+      "cqi_score": 4,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    },
+    {
+      "question": "【總結全篇主旨在現代生活的應用】這篇文章希望現代人在看見一棵樹時，應具備什麼樣的新視角？",
+      "options": [
+        "這是一塊非常有價值的木材，可以打造成昂貴的實木家具。　",
+        "這是一個有感知、能溝通且與環境共動的深邃生命體。　",
+        "這是一個路邊常見的景觀裝飾，不需要投入太多的注意力。　",
+        "這是一個妨礙都市擴充開發的阻礙，應該適時地進行移走。　"
+      ],
+      "answer_index": 1,
+      "explanation": "從「景觀/工具」視角轉向「生命/共同體」視角是科普文學的最高目的。本文成功地賦予了植物主體性。",
+      "scenario": "評估文本對於讀者「生態素養」的最終改變作用。",
+      "commonMisconception": "學生易選[A]，反應出對自然的工具化傲慢。",
+      "taxonomy": "evaluative",
+      "cqi_score": 5,
+      "quality_level": "L5",
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_evaluation": true,
+      "authoring_date": null
+    }
+  ]
+}
