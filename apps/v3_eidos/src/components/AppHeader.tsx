@@ -3,7 +3,6 @@ import { Grade, Semester, Publisher, Subject, SUBJECT_ICONS, SUBJECT_SHORT, SUBJ
 const GRADE_CN: Record<Grade, string> = { 1: '一', 2: '二', 3: '三', 4: '四', 5: '五', 6: '六' };
 const SEM_CN: Record<Semester, string> = { 1: '上', 2: '下' };
 
-// Warm-amber active pill styles（與 index.css subject 色同步）
 const SUBJECT_ACTIVE_STYLE: Record<string, React.CSSProperties> = {
   chinese: { background: 'hsl(345 42% 62%)', color: '#fff' },
   math: { background: 'hsl(200 45% 55%)', color: '#fff' },
@@ -22,12 +21,15 @@ interface AppHeaderProps {
   onOpenSettings: () => void;
   onLearningReport: () => void;
   onAbout: () => void;
+  /** 後台 library_config 未開放之科目為 false，按鈕反灰不可點 */
+  isSubjectNavEnabled?: (s: Subject) => boolean;
 }
 
 export default function AppHeader({
-  grade, semester, publisher, subject,
+  grade, semester, publisher: _publisher, subject,
   onSubjectChange, onOpenSettings,
   onLearningReport, onAbout,
+  isSubjectNavEnabled,
 }: AppHeaderProps) {
   const subjects = getSubjectsByGrade(grade);
 
@@ -35,7 +37,6 @@ export default function AppHeader({
     <header className="sticky top-0 z-50 bg-card/90 backdrop-blur-md border-b">
       <div className="max-w-4xl mx-auto px-3 sm:px-4 py-2">
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Grade/Semester — 琥珀盾牌徽章 */}
           <button
             id="shield-setup-trigger"
             onClick={onOpenSettings}
@@ -52,23 +53,30 @@ export default function AppHeader({
             </svg>
           </button>
 
-          {/* Divider */}
           <div className="w-px h-6 bg-border/60 shrink-0" />
 
-          {/* Subject pills */}
           <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide flex-1">
             {subjects.map(s => {
+              const navEnabled = isSubjectNavEnabled ? isSubjectNavEnabled(s) : true;
               const isActive = subject === s;
+              const showActiveStyle = isActive && navEnabled;
               const sTheme = SUBJECT_THEME_MAP[s];
               return (
                 <button
                   key={s}
-                  onClick={() => onSubjectChange(s)}
-                  className={`flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shrink-0 active:scale-95 ${isActive ? 'shadow-sm' : 'bg-secondary text-muted-foreground hover:bg-muted'
+                  type="button"
+                  disabled={!navEnabled}
+                  onClick={() => navEnabled && onSubjectChange(s)}
+                  title={navEnabled ? undefined : '此題庫未開放'}
+                  className={`flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shrink-0 ${!navEnabled
+                    ? 'opacity-45 cursor-not-allowed bg-muted/50 text-muted-foreground border border-transparent'
+                    : showActiveStyle
+                      ? 'shadow-sm active:scale-95'
+                      : 'bg-secondary text-muted-foreground hover:bg-muted active:scale-95'
                     }`}
-                  style={isActive ? SUBJECT_ACTIVE_STYLE[sTheme] : undefined}
+                  style={showActiveStyle ? SUBJECT_ACTIVE_STYLE[sTheme] : undefined}
                 >
-                  <span>{SUBJECT_ICONS[s]}</span>
+                  <span className={!navEnabled ? 'grayscale' : ''}>{SUBJECT_ICONS[s]}</span>
                   <span className="hidden sm:inline">{s}</span>
                   <span className="sm:hidden">{SUBJECT_SHORT[s]}</span>
                 </button>
@@ -76,7 +84,6 @@ export default function AppHeader({
             })}
           </div>
 
-          {/* Utility buttons */}
           <div className="flex gap-0.5 shrink-0">
             <button onClick={onLearningReport} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="學習統計">
               📊<span className="hidden sm:inline ml-0.5">統計</span>
@@ -97,7 +104,6 @@ export default function AppHeader({
                 strokeWidth="3.5"
                 strokeLinecap="round"
               >
-                {/* 極致精簡版：雙線調節滑桿 (Mixer Toggles) */}
                 <path d="M4 8h16M4 16h16" />
                 <circle cx="8" cy="8" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />
                 <circle cx="16" cy="16" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />

@@ -437,9 +437,14 @@ const Index = () => {
   }, [ensureQuestionsLoaded, libraryConfig, grade, subject, semester, publisher]);
 
   const handleSubjectChange = useCallback((s: Subject) => {
+    const pub = getPublisherForSubject(s);
+    if (!isLibraryEnabled(libraryConfig, grade, s, semester, pub)) {
+      toast.error('此題庫未開放');
+      return;
+    }
     setSubject(s);
     if (view !== 'menu') setView('menu');
-  }, [view]);
+  }, [view, libraryConfig, grade, semester]);
 
   // Quiz start
   const handleStartQuiz = useCallback(async (type: string, count: number, restrictCategories?: string[]) => {
@@ -632,6 +637,7 @@ const Index = () => {
         onOpenSettings={() => setShowSetup(true)}
         onLearningReport={() => setView('learning-report')}
         onAbout={() => setView('about')}
+        isSubjectNavEnabled={(s) => isLibraryEnabled(libraryConfig, grade, s, semester, getPublisherForSubject(s))}
       />
 
       <main className="pb-8" style={{ minHeight: 'calc(100vh - 120px)' }}>
