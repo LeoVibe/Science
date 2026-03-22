@@ -42,6 +42,7 @@ jobs:
         env:
           VITE_APP_BASE: /Science/
           VITE_API_URL: https://eidos-api.eidos.workers.dev
+          VITE_GOOGLE_CLIENT_ID: ${{ secrets.VITE_GOOGLE_CLIENT_ID }}
         run: npm run build
 
       - name: Setup Pages
@@ -62,6 +63,7 @@ jobs:
         env:
           VITE_APP_BASE: /
           VITE_API_URL: https://eidos-api.eidos.workers.dev
+          VITE_GOOGLE_CLIENT_ID: ${{ secrets.VITE_GOOGLE_CLIENT_ID }}
         run: npm run build
 
       - name: Deploy to Cloudflare Pages

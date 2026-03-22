@@ -626,6 +626,28 @@ export default {
       if (path === '/api/activity/insights' && req.method === 'GET') {
         const raw = await env.ACTIVITY_LOGS.get('recent');
         const logs: Array<{ deviceId: string; timestamp: string }> = raw ? JSON.parse(raw) : [];
+        const nowMs = Date.now();
+        const uniqSince = (days: number) => {
+          const cut = nowMs - days * 86400000;
+          const s = new Set<string>();
+          for (const e of logs) {
+            if (!e.deviceId || !e.timestamp) continue;
+            const t = Date.parse(e.timestamp);
+            if (Number.isFinite(t) && t >= cut) s.add(e.deviceId);
+          }
+          return s.size;
+        };
+        const allDevices = new Set<string>();
+        for (const e of logs) {
+          if (e.deviceId) allDevices.add(e.deviceId);
+        }
+        const uniqueUsers = {
+          d1: uniqSince(1),
+          d7: uniqSince(7),
+          d30: uniqSince(30),
+          d90: uniqSince(90),
+          all: allDevices.size,
+        };
         const byDevice = new Map<string, { first: string; last: string; days: Set<string> }>();
         for (const e of logs) {
           if (!e.deviceId || !e.timestamp) continue;
@@ -646,7 +668,7 @@ export default {
           lastSeen: v.last,
           activeDays: v.days.size,
         }));
-        return json({ devices }, { headers });
+        return json({ devices, uniqueUsers }, { headers });
       }
 
       if (path === '/api/admin/activity/user-stats' && req.method === 'GET') {

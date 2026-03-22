@@ -28,6 +28,11 @@ export interface UserAnalysisDevice {
   topSubject: string | null;
   /** 與前台路由一致：…/stats/wrong（錯題／學習成果）；無完整脈絡時為 null */
   statsWrongPath: string | null;
+  /** 來自 answer_question 且 details.correct 為布林的筆數 */
+  answerQuestionTotal: number;
+  answerQuestionWrong: number;
+  /** 錯誤比例 wrong/total；無答題或無法辨識時為 null */
+  answerWrongRatio: number | null;
   byDay: Array<{ date: string; hours: DayHourSegment[] }>;
 }
 
@@ -89,6 +94,26 @@ function topByCountWithRecency<T extends string | number>(
     }
   }
   return best;
+}
+
+function countAnswerQuestionStats(entries: ActivityLogEntry[]): {
+  total: number;
+  wrong: number;
+  correct: number;
+} {
+  let total = 0;
+  let wrong = 0;
+  let correct = 0;
+  for (const e of entries) {
+    if (e.action !== 'answer_question') continue;
+    const det = asRecord(e.details);
+    const c = det?.correct;
+    if (typeof c !== 'boolean') continue;
+    total++;
+    if (c) correct++;
+    else wrong++;
+  }
+  return { total, wrong, correct };
 }
 
 function inferStatsPath(entries: ActivityLogEntry[]): string | null {
@@ -174,6 +199,8 @@ export function aggregateUserAnalysis(rawLogs: unknown[], minActiveDays: number)
     );
 
     const statsWrongPath = inferStatsPath(entries);
+    const aq = countAnswerQuestionStats(entries);
+    const answerWrongRatio = aq.total > 0 ? aq.wrong / aq.total : null;
 
     // 依日期聚合：每日內再依 UTC 小時分桶（一小時內多筆事件合併為一段「時段 session」）
     const sortedDays = [...days].sort();
@@ -217,6 +244,9 @@ export function aggregateUserAnalysis(rawLogs: unknown[], minActiveDays: number)
       topGrade,
       topSubject,
       statsWrongPath,
+      answerQuestionTotal: aq.total,
+      answerQuestionWrong: aq.wrong,
+      answerWrongRatio,
       byDay,
     });
   }

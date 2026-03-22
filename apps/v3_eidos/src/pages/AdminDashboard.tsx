@@ -79,9 +79,9 @@ const TAB_GROUPS: TabGroup[] = [
     subTabs: [
       { key: 'site_feedback', label: '留言回饋', icon: '💌', component: AdminSiteFeedback },
       { key: 'feedback', label: '題目回饋', icon: '💬', component: AdminFeedbackInsights },
-      { key: 'user_stats', label: '使用者統計', icon: '📊', component: AdminUserStats },
+      { key: 'user_stats', label: '營運統計', icon: '📊', component: AdminUserStats },
       { key: 'user_analysis', label: '使用者分析', icon: '🧭', component: AdminUserAnalysis },
-      { key: 'usage', label: '使用統計', icon: '👥', component: AdminUserInsights },
+      { key: 'usage', label: '使用者統計', icon: '👥', component: AdminUserInsights },
       { key: 'logs', label: '操作日誌', icon: '📋', component: AdminTestRunner },
     ],
   },

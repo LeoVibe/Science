@@ -13,17 +13,32 @@ const LOCAL_DEV_BYPASS_TOKEN = 'eidos-local-dev-bypass-v1';
 /** Google 後台登入成功後設為 '1'，登出／本機繞過時清除 */
 export const SESSION_ADMIN_API_REMOTE = 'eidos_admin_api_remote';
 
+/**
+ * 正式 Worker 基底（建置未注入 VITE_API_URL 時，靜態託管網域不可當 API）
+ * 與 deploy.yml / env.production.example 一致。
+ */
+const FALLBACK_PRODUCTION_API_URL = 'https://eidos-api.eidos.workers.dev';
+
+function isStaticSiteHost(hostname: string): boolean {
+  return (
+    hostname.endsWith('.pages.dev') ||
+    hostname.endsWith('.github.io') ||
+    hostname === 'pages.dev'
+  );
+}
+
 function getLocalApiBaseUrl(): string {
   if (import.meta.env.VITE_API_URL) {
     return String(import.meta.env.VITE_API_URL).replace(/\/$/, '');
   }
   if (typeof window !== 'undefined') {
-    const { hostname, origin } = window.location;
+    const { hostname } = window.location;
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
       return 'http://localhost:8787';
     }
-    if (hostname.endsWith('.pages.dev')) {
-      return origin.replace(/\/$/, '');
+    // Cloudflare Pages / GitHub Pages 僅靜態檔，沒有 /api；不可使用 location.origin
+    if (isStaticSiteHost(hostname)) {
+      return FALLBACK_PRODUCTION_API_URL;
     }
   }
   return 'http://localhost:8787';

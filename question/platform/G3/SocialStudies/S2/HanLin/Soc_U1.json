@@ -20,7 +20,597 @@
       "explanation": "互助合作是鄰里相處的核心，互相守望相助能讓生活更安全。",
       "commonMisconception": "以為不吵架就是好鄰居，忽略了積極的互助。",
       "quality_level": "L5",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小明和家人一起出去散步時，看到許多不同的建築物。",
+      "question": "【在社區公園旁時】，小明看到一個有溜滑梯、盪鞦韆和沙坑的地方，許多小朋友正在那裡玩耍。這個地方最可能是下列哪一種社區設施？",
+      "options": [
+        "社區活動中心",
+        "公園",
+        "圖書館",
+        "消防局"
+      ],
+      "answer_index": 1,
+      "explanation": "題目情境描述了有溜滑梯、盪鞦韆和沙坑，並且許多小朋友在玩耍，這些都是公園的典型特徵和功能，提供居民休憩與兒童遊樂的場所。",
+      "commonMisconception": "學生可能因為社區活動中心也提供活動而混淆，但公園更側重戶外遊樂設施；圖書館和消防局的功能與描述明顯不符。",
+      "quality_level": "L5",
+      "cqi_score": 7.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小華的奶奶身體不舒服，需要去看醫生。",
+      "question": "【在奶奶家裡時】，小華心想，要帶奶奶去哪裡才能讓醫生檢查身體、開藥呢？他應該帶奶奶去社區裡的哪一個地方？",
+      "options": [
+        "醫院或診所",
+        "郵局，這點在實務上很重要。",
+        "警察局",
+        "百貨公司"
+      ],
+      "answer_index": 0,
+      "explanation": "當家人身體不適需要看醫生時，最直接且正確的選擇是前往提供醫療服務的醫院或診所，這些都是社區中重要的醫療設施。",
+      "commonMisconception": "學生可能對社區設施的功能不清楚，誤以為其他場所也能處理類似情況；或因為日常生活中常接觸百貨公司而誤選，忽略了服務性質的差異。",
+      "quality_level": "L5",
+      "cqi_score": 7.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "學校舉辦了「我愛我家鄉」的活動，鼓勵大家觀察自己居住的地方。",
+      "question": "【在學校討論時】，老師問大家：「如果你們發現社區的河邊有很多垃圾，你會怎麼做才能讓家鄉變得更美好？」小光說他會告訴爸爸媽媽，小雅說她會自己去撿，小傑說他會請環保局來處理。請問，哪一個做法最能有效且長久地解決問題？",
+      "options": [
+        "把垃圾推到更遠的地方，讓別人看不到，這點在實務上很重要。",
+        "假裝沒看到，反正又不是我丟的",
+        "自己偷偷去撿垃圾，不告訴任何人",
+        "告訴大人，並建議大家一起向環保局反映，或組織淨灘活動"
+      ],
+      "answer_index": 3,
+      "explanation": "有效的社區改善需要集體行動和向權責單位反映。告訴大人並組織活動或向環保局反映，能將問題擴大處理，並可能帶來長期解決方案，例如定期清潔或宣導。",
+      "commonMisconception": "學生可能傾向於個人英雄主義（自己去撿）或逃避責任（假裝沒看到），或認為只要告訴大人就夠了。但單獨行動效果有限，逃避責任則無法解決問題。最有效的做法是結合個人行動與群體力量，並尋求專業協助。",
+      "quality_level": "L5",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "小芬想要寄一封信給遠方的表哥。",
+      "question": "【在準備寄信時】，小芬應該把寫好的信，拿到社區裡哪一個地方去寄出呢？",
+      "options": [
+        "銀行",
+        "超市",
+        "郵局",
+        "警察局"
+      ],
+      "answer_index": 2,
+      "explanation": "郵局是社區中負責處理郵件寄送、包裹遞送以及其他相關郵政服務的機構，因此小芬應該到郵局寄信。",
+      "commonMisconception": "學生可能對不同社區設施的功能不夠明確，誤以為其他場所也能處理信件，例如銀行處理金融業務，超市買賣物品，警察局負責治安。",
+      "quality_level": "L5",
+      "cqi_score": 6.75,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "今天是社區園遊會，大家都很開心。",
+      "question": "【在園遊會上時】，小志看到有消防叔叔阿姨在宣導防火知識，還有警察叔叔阿姨在教大家交通安全。這代表了什麼？",
+      "options": [
+        "他們只是來玩，順便發傳單",
+        "這些單位的人都很閒，所以來參加活動",
+        "社區裡有許多不同的人，他們提供不同的服務，讓大家生活更安全、方便",
+        "只有園遊會的時候，這些人才會出現，這也是作者想強調的重點之一。，這也是作者想強調的重點之一。"
+      ],
+      "answer_index": 2,
+      "explanation": "消防局和警察局是社區中提供公共服務的重要單位，他們在園遊會上宣導，是為了讓居民了解他們在日常生活中提供的安全與便利服務，體現了社區分工合作的精神。",
+      "commonMisconception": "學生可能誤以為這些人員只是參與活動，或對其日常職責認識不足。誘答選項試圖引導學生從表面現象判斷，而非理解其背後的服務意義。",
+      "quality_level": "L5",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "小美和家人搬到了一個新社區，她想知道這個社區有什麼特別的地方。",
+      "question": "【在新家附近散步時】，小美發現社區裡有一座很老舊的紅磚屋，上面寫著「OO歷史文物館」。這棟建築物最可能代表這個社區的什麼？",
+      "options": [
+        "最新的遊樂設施",
+        "一個普通的住家",
+        "過去的歷史和文化",
+        "未來會蓋的購物中心"
+      ],
+      "answer_index": 2,
+      "explanation": "「歷史文物館」的名稱和「老舊紅磚屋」的描述，都指向這棟建築物承載著社區過往的歷史與文化，是了解社區發展的重要線索。",
+      "commonMisconception": "學生可能誤以為所有建築物都與現代生活相關，或將其視為一般住家。忽略了「歷史文物館」的明確標示，可能被「老舊」的表象誤導。",
+      "quality_level": "L5",
+      "cqi_score": 6.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "阿嬤常常去傳統市場買菜。",
+      "question": "【在傳統市場時】，阿嬤會買到哪些東西，讓家裡有新鮮的食材可以煮飯？",
+      "options": [
+        "圖書和文具",
+        "衣服和鞋子",
+        "蔬菜、水果和魚肉",
+        "汽油和機油，並且需要經過深思熟慮的考量。"
+      ],
+      "answer_index": 2,
+      "explanation": "傳統市場的主要功能是提供新鮮的農產品、海鮮、肉類等食材，供居民日常採買。",
+      "commonMisconception": "學生可能對市場的產品種類不夠熟悉，或將其與其他商店（如百貨公司、加油站、書局）混淆，誤選了不屬於傳統市場主要販售的商品。",
+      "quality_level": "L5",
+      "cqi_score": 6.75,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "社區最近在討論是否要將一塊空地改建成停車場。",
+      "question": "【在社區會議時】，小志的爸爸媽媽正在討論這件事。如果社區裡的小朋友希望這塊空地變成遊戲區，他們可以怎麼做，讓自己的意見被聽到？",
+      "options": [
+        "自己去空地玩，不理會大人的決定",
+        "畫圖或寫信給里長伯伯，表達希望有遊戲區的心聲",
+        "跟同學抱怨，但什麼都不做，並且需要經過深思熟慮的考量。",
+        "等到停車場蓋好後，再去破壞它"
+      ],
+      "answer_index": 1,
+      "explanation": "要讓自己的意見被聽到並影響社區決策，最有效且合適的方式是透過正式管道向負責人（如里長）表達，並提供具體建議，例如透過圖畫或信件。",
+      "commonMisconception": "學生可能傾向於消極抱怨或採取破壞性行為，或認為自己的意見不重要。這題旨在引導學生學習積極參與社區事務的正確方法。",
+      "quality_level": "L5",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "小君發現社區的公共飲水機壞掉了，沒有人修理。",
+      "question": "【在放學回家路上時】，小君每天經過都覺得很可惜，因為大家都沒水喝。她想幫忙解決這個問題。請問，下列哪一個做法最能有效推動飲水機修理，並讓更多人受益？",
+      "options": [
+        "在學校告訴老師，請老師幫忙寫信給里長或社區管理委員會反映",
+        "自己嘗試修理飲水機，但可能造成危險，並且需要經過深思熟慮的考量。",
+        "跟好朋友抱怨，但沒有採取任何行動",
+        "自己默默地觀察飲水機，期待它自己修好"
+      ],
+      "answer_index": 0,
+      "explanation": "遇到公共設施損壞，最有效的方式是向負責管理或維護的單位（如里長或社區管委會）反映。透過老師的協助，能讓反映更具影響力且安全。個人嘗試修理可能導致危險或更嚴重的損壞。",
+      "commonMisconception": "學生可能因缺乏經驗而選擇被動等待、抱怨或嘗試自行解決。此題旨在教導學生如何透過正確的管道和適當的協助，積極參與社區問題的解決。",
+      "quality_level": "L5",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "小翰的爺爺常常說：「以前這裡都是田地，現在都蓋滿了高樓大廈了！」",
+      "question": "【在爺爺講故事時】，小翰聽了爺爺的話，他了解了什麼關於自己居住的地方的變化？",
+      "options": [
+        "社區從農業為主的鄉村變成都市化的居住區",
+        "這裡的房子越來越小，人口也越來越少，這也是作者想強調的重點之一。",
+        "社區的地形從平坦變成崎嶇的山區",
+        "爺爺記錯了，這裡一直都是高樓大廈"
+      ],
+      "answer_index": 0,
+      "explanation": "從「以前都是田地」到「現在都蓋滿了高樓大廈」，明顯描述了土地利用方式的轉變，從農業景觀變成了都市建築，這代表了社區從鄉村發展為都市化的過程。",
+      "commonMisconception": "學生可能對社區的變化缺乏歷史觀念，或無法從簡單的描述中推斷出更深層的地理與社會變遷。選項中一些不合理的變化（地形、人口減少）是干擾項。",
+      "quality_level": "L5",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在社區公園玩耍時】，小君發現有些設施壞掉了，地上還有許多垃圾。她心想：「如果這裡一直這麼亂，大家就不喜歡來玩了。」",
+      "question": "小君觀察到的現象，最可能是因為社區居民缺乏哪一種意識？",
+      "options": [
+        "認識社區設施的機會",
+        "共同維護環境的責任心",
+        "追求個人自由的權力，這點在實務上很重要。",
+        "享受休閒娛樂的權利"
+      ],
+      "answer_index": 1,
+      "explanation": "小君看到公園設施損壞和垃圾，反映了大家沒有好好照顧公共空間。這表示社區居民沒有共同維護環境的責任心，才導致公園變得髒亂，讓大家不想來。",
+      "commonMisconception": "學生可能誤以為是缺乏權利或機會，但問題核心在於「維護」的行為，這需要責任心。選擇「享受休閒娛樂的權利」是將問題歸咎於他人或系統，而非個人行為。",
+      "quality_level": "L3",
+      "cqi_score": 4.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在學校學習時】，老師介紹了社區裡不同的公共場所，像是圖書館、郵局和消防局。小華很好奇，這些地方分別有什麼用途呢？",
+      "question": "下列哪一個公共場所的主要功能是「提供書籍借閱和閱讀空間」？",
+      "options": [
+        "圖書館",
+        "郵局，這也是作者想強調的重點之一。",
+        "消防局",
+        "警察局"
+      ],
+      "answer_index": 0,
+      "explanation": "圖書館是社區中專門提供書籍、報章雜誌借閱和閱讀空間的地方，讓大家可以學習知識、充實自己。",
+      "commonMisconception": "學生可能對各公共場所的功能有初步認識，但若不夠精確，可能會混淆。例如，郵局處理信件包裹，消防局負責救災救護，警察局維護治安，這些功能與閱讀無關。",
+      "quality_level": "L3",
+      "cqi_score": 6.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在放學回家的路上】，小明看到一條新開闢的自行車道，讓大家騎車更安全。但他同時也發現，為了蓋這條車道，社區裡幾棵老樹被移走了。小明覺得有點可惜。",
+      "question": "面對自行車道帶來的好處和老樹被移走的遺憾，小明可以如何思考這個問題？",
+      "options": [
+        "只看到自行車道的好處，忽略老樹的價值。",
+        "思考如何在發展建設的同時，也兼顧環境保護。",
+        "反正車道已經蓋好了，想再多也沒用。，這也是作者想強調的重點之一。",
+        "抱怨政府沒有事先徵求大家的意見。"
+      ],
+      "answer_index": 1,
+      "explanation": "這個情境呈現了社區發展中的兩難：便利性與環境保護。小明應思考如何在未來規劃中找到平衡點，兼顧兩者，這是一種更高層次的公民參與和批判性思考。",
+      "commonMisconception": "學生可能傾向於單一視角，如只抱怨、只接受或只看好處，缺乏全面性思考。選擇「反正車道已經蓋好了，想再多也沒用」是合理化迷思，放棄思考和解決問題。",
+      "quality_level": "L5",
+      "cqi_score": 6.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在社區舉辦的尋寶遊戲中】，老師給了一張只有圖案和簡單線條的地圖，上面標示著「郵局」、「公園」和「便利商店」。小芬需要根據地圖上的指示找到寶藏。",
+      "question": "小芬在這張地圖上，最不可能看到下列哪一種資訊？",
+      "options": [
+        "社區內主要街道的名稱",
+        "不同建築物的代表符號",
+        "從一個地點到另一個地點的路線",
+        "寶藏的確切經緯度座標"
+      ],
+      "answer_index": 3,
+      "explanation": "國小中年級的地圖通常是簡化的，會包含符號、路線和街道名稱，但不會有精確的經緯度座標，那屬於更專業的地理資訊。",
+      "commonMisconception": "學生可能對地圖的複雜程度認知不足，誤以為地圖上會包含所有地理資訊。選擇其他選項則是混淆了地圖的基本元素。",
+      "quality_level": "L3",
+      "cqi_score": 4.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在家庭聚餐時】，阿嬤分享了她小時候居住的房子，說那時候鄰居們都住在連在一起的「透天厝」，不像現在有很多高高的「公寓大樓」。",
+      "question": "阿嬤提到的「透天厝」和「公寓大樓」，主要是用來描述什麼？",
+      "options": [
+        "不同時期流行的交通工具",
+        "不同地區的氣候類型",
+        "不同年代的服裝款式",
+        "不同種類的居住建築形式"
+      ],
+      "answer_index": 1,
+      "explanation": "透天厝和公寓大樓都是居住的建築形式，它們代表了不同時期或不同區域的居住型態。",
+      "commonMisconception": "學生若不專心聆聽或對詞彙不熟悉，可能會將其與其他生活面向混淆。此題的誘答選項設計在於將其與不相關的領域連結，考驗學生對基本生活詞彙的理解。",
+      "quality_level": "L3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22",
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 1,
+        "ai_reasoning": "題目能引導學生認識居住形式，符合課綱。",
+        "review_status": "pending"
+      }
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在社區舉辦的清潔日活動中】，小華看到有些大人把不該回收的垃圾丟進回收桶，還有人把大型廢棄物隨意堆放在路邊，造成環境髒亂。小華覺得很困擾。",
+      "question": "面對這種情況，小華最適合怎麼做才能幫助改善社區環境？",
+      "options": [
+        "反正又不是我丟的，假裝沒看到就好。，這點在實務上很重要。",
+        "自己去把那些垃圾清乾淨，讓環境恢復整潔。",
+        "跟著大家一起亂丟，因為反正別人也這樣做。",
+        "主動向大人說明正確的垃圾分類方法，並鼓勵他們遵守規定。"
+      ],
+      "answer_index": 3,
+      "explanation": "小華作為社區的一份子，應該主動且禮貌地提醒他人正確的行為，並鼓勵遵守規定，這比自己默默清理或視而不見更能從根本上解決問題，並發揮公民影響力。",
+      "commonMisconception": "學生可能會有「同理心投射」的迷思，認為自己動手清理是最好的，但這並未解決根本問題；或產生「合理化迷思」，認為「反正別人也這樣做」就跟著做。正確的做法是積極溝通和宣導。",
+      "quality_level": "L3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在參觀社區的消防隊時】，消防員叔叔向大家介紹了他們的工作內容，除了滅火救災，還會協助哪些事項？",
+      "question": "除了滅火救災，消防隊通常還會提供哪一項重要的社區服務？",
+      "options": [
+        "舉辦社區活動和節慶慶典，這也是作者想強調的重點之一。",
+        "發送信件和包裹到各家戶",
+        "處理社區糾紛和鄰里問題",
+        "緊急救護服務，例如送傷患到醫院"
+      ],
+      "answer_index": 3,
+      "explanation": "消防隊除了滅火，也負責緊急救護，例如在有人受傷或生病時，將他們迅速送往醫院接受治療。",
+      "commonMisconception": "學生可能只知道消防隊滅火的功能，而忽略了其廣泛的公共安全服務。其他選項的功能屬於郵局、警察局或里辦公室等不同單位。",
+      "quality_level": "L3",
+      "cqi_score": 4.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在戶外教學時】，老師帶大家到住家附近的小山丘，介紹了山脈、河流和海岸線等自然景觀。小玉覺得這些景色真美！",
+      "question": "這些「山脈、河流、海岸線」主要屬於我們居住環境中的哪一類？",
+      "options": [
+        "交通設施",
+        "人文景觀",
+        "自然景觀",
+        "商業設施，這點在實務上很重要。"
+      ],
+      "answer_index": 2,
+      "explanation": "山脈、河流和海岸線是地球自然形成的地形地貌，不經人類加工，因此屬於自然景觀。",
+      "commonMisconception": "學生可能對自然景觀和人文景觀的區分不夠明確，容易混淆。此題的誘答項旨在測試學生是否能正確辨別。",
+      "quality_level": "L3",
+      "cqi_score": 6.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在里長辦公室的布告欄旁】，小華看到一張海報，上面寫著「社區環境美化志工招募中」，邀請大家一起來種花、清理垃圾。小華很想參加，但又擔心自己幫不上什麼忙。",
+      "question": "如果小華想為社區盡一份心力，他最適合怎麼做？",
+      "options": [
+        "鼓起勇氣報名參加，即使是小小的幫忙也很有意義。",
+        "等長大以後再參加，現在還太小了。，並且需要經過深思熟慮的考量。",
+        "反正有大人會做，自己就不用去了。",
+        "只在心裡默默支持，不實際參與。"
+      ],
+      "answer_index": 0,
+      "explanation": "即使是小學生，只要有心，也能透過參與志工活動為社區做出貢獻。鼓起勇氣報名是最好的方式，能讓小華實際體驗參與社區事務的樂趣和意義。",
+      "commonMisconception": "學生可能會有「合理化迷思」，認為自己年紀小或能力不足而不敢參與，或覺得有人會做就不用自己動手。這會錯失培養公民意識和參與感的好機會。",
+      "quality_level": "L3",
+      "cqi_score": 4.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在歷史故事時間】，爺爺向小明講述了他們家鄉從古早時代到現在的變化，例如舊的火車站變成文化園區，還有一些老店鋪被保存下來。",
+      "question": "爺爺講述的這些關於家鄉過去的故事和變化，主要是在說明什麼？",
+      "options": [
+        "社區的經濟狀況與產業",
+        "社區的人口組成與教育",
+        "社區的地理位置與氣候",
+        "社區的歷史與發展"
+      ],
+      "answer_index": 3,
+      "explanation": "爺爺分享的內容，如火車站的演變和老店鋪的保存，都與時間的推移和地方的變遷有關，這正是社區歷史與發展的展現。",
+      "commonMisconception": "學生可能對「歷史」的概念較為模糊，容易將其與其他社區面向混淆。此題的誘答項設計在於將其與不相關的社區要素連結，考驗學生對歷史概念的理解。",
+      "quality_level": "L3",
+      "cqi_score": 5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在社區導覽時】小華跟著導覽員叔叔，沿著社區的巷弄漫步。他發現這裡的房子大多是兩三層樓高，門口種著許多花草，有些老屋的牆壁上還有美麗的壁畫。導覽員叔叔說，這裡的居民很喜歡把自己的家裝飾得很漂亮。",
+      "question": "根據導覽員的介紹，小華的社區最不可能有以下哪一種特色？",
+      "options": [
+        "社區可能擁有獨特的藝術氛圍",
+        "居民重視居家美化",
+        "建築物大多是高樓大廈",
+        "社區內有許多綠色植物"
+      ],
+      "answer_index": 2,
+      "explanation": "題幹中提到「房子大多是兩三層樓高」，與「高樓大廈」的描述不符，因此最不可能有此特色。",
+      "commonMisconception": "學生可能被「裝飾得很漂亮」的描述吸引，誤以為高樓大廈也可以被裝飾得很漂亮，而忽略了題幹中明確的建築高度描述。",
+      "quality_level": "L3",
+      "cqi_score": 5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在河邊寫生時】小雅坐在家鄉的河堤邊，看著寬闊的河流緩緩流過。她觀察到河岸兩旁有許多農田，農夫們正在忙碌地工作，而河面上不時有小船經過。她想著，河流對這裡的生活一定很重要。",
+      "question": "根據小雅的觀察，她的家鄉可能會有哪種與河流相關的特色？",
+      "options": [
+        "主要以捕魚為生，並建造許多碼頭",
+        "發展出灌溉農業與水路運輸",
+        "河流是觀光景點，主要提供遊客遊船體驗",
+        "因為常有洪水，所以居民較少利用河流"
+      ],
+      "answer_index": 1,
+      "explanation": "題幹中提到河岸兩旁有農田且農夫忙碌，暗示河流提供灌溉；而河面有小船經過，則表示有水路運輸的功能。因此，發展出灌溉農業與水路運輸是合理的推論。",
+      "commonMisconception": "學生可能被「捕魚」或「觀光」等常見的河流利用方式吸引，但題幹中並未明確提及捕魚是主要生計，也未強調觀光目的。選擇這些選項是基於片面理解或過度推論。",
+      "quality_level": "L3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在社區會議時】市政府計畫在小鎮的森林邊緣興建一座大型購物中心。支持者認為這能帶來更多工作機會，讓小鎮更繁榮；但反對者擔心，購物中心會破壞森林生態，並增加交通堵塞。鎮長請大家發表意見，希望找到一個平衡點。",
+      "question": "如果你是小鎮的居民，在這次會議中，你會最優先考量哪個層面的問題？",
+      "options": [
+        "購物中心能提供多少商品種類",
+        "如何兼顧經濟發展與環境保護",
+        "購物中心能否吸引外地遊客來觀光",
+        "能否提供更多的停車位給居民使用"
+      ],
+      "answer_index": 1,
+      "explanation": "此情境是一個典型的社會兩難，涉及經濟發展和環境保護的衝突。作為居民，最優先應該考量如何平衡這兩者的需求，以維護社區的永續發展。",
+      "commonMisconception": "學生可能被「更多商品」或「觀光客」等短期利益吸引，或是只考慮「停車位」等個人便利性，而忽略了更宏觀的環境與經濟發展的平衡問題。這反映了對公共議題權衡的深度不足。",
+      "quality_level": "L5",
+      "cqi_score": 6.25,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在學校參觀時】小傑的班級參觀了社區裡的幾處地方，包括消防隊、警察局、圖書館和郵局。老師問大家：「這些地方有什麼共通點呢？」小傑很快就舉手回答了。",
+      "question": "小傑最可能會說這些地方的共通點是什麼？",
+      "options": [
+        "是社區居民交流的場所",
+        "都是私人經營的商店",
+        "提供社區居民各種公共服務",
+        "提供娛樂休閒服務，這點在實務上很重要。"
+      ],
+      "answer_index": 2,
+      "explanation": "消防隊、警察局、圖書館和郵局都是政府或公共機構設立，主要目的是為社區居民提供安全、知識、通訊等公共服務。",
+      "commonMisconception": "學生可能將圖書館視為休閒場所，或認為這些地方也促進了居民交流，但最核心且涵蓋所有列出機構的共通點是「提供公共服務」。誤選其他選項是未能抓到這些機構最本質的功能。",
+      "quality_level": "L3",
+      "cqi_score": 5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在老街散步時】阿嬤帶著小芳走過一條充滿古老建築和傳統商店的老街。老街上有賣著傳統糕點的店鋪、手工藝品店，還有幾間香火鼎盛的廟宇。阿嬤說：「這裡以前可是我們鎮上最熱鬧的地方呢！」",
+      "question": "根據阿嬤的描述，這條老街最能反映出小鎮的哪一種特色？",
+      "options": [
+        "豐富的自然生態資源",
+        "現代化的高科技產業發展",
+        "便利的交通運輸網絡",
+        "深厚的歷史文化與傳統"
+      ],
+      "answer_index": 3,
+      "explanation": "古老建築、傳統商店、傳統糕點、手工藝品和香火鼎盛的廟宇，這些元素都強烈指向一個地方擁有深厚的歷史文化與傳統。",
+      "commonMisconception": "學生可能被「熱鬧」一詞誤導，聯想到現代的商業活動或便捷交通，而忽略了「古老建築」、「傳統商店」等關鍵詞所指涉的歷史和文化底蘊。",
+      "quality_level": "L3",
+      "cqi_score": 5.75,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在學校討論時】小敏的家鄉有一座被指定為古蹟的老火車站，許多遊客都慕名而來。但最近，火車站周圍的商家希望將部分閒置空間改建成現代化的咖啡廳和文創商店，以吸引更多年輕人。有些居民擔心這樣會破壞古蹟的原始風貌。",
+      "question": "面對這種情況，身為社區的一份子，你認為最理想的解決方式是什麼？",
+      "options": [
+        "在保存古蹟主要結構的前提下，適度融入新元素",
+        "讓商家自由決定如何改建，以促進商業發展，並且需要經過深思熟慮的考量。",
+        "完全禁止任何改建，維持火車站原貌",
+        "全部改建成現代商店，吸引年輕人消費"
+      ],
+      "answer_index": 0,
+      "explanation": "此情境涉及文化資產保存與現代商業發展的衝突。最理想的解決方式是尋求平衡，在保護古蹟核心價值的前提下，進行適度的創新與活化，讓新舊元素和諧共存。",
+      "commonMisconception": "學生可能偏向極端思考，選擇完全保存（同理心投射對傳統的尊重）或完全發展（合理化經濟利益）。未能理解在現實生活中，往往需要尋求折衷與共贏的方案。",
+      "quality_level": "L5",
+      "cqi_score": 6.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "【在家庭旅遊時】小君一家人到外縣市旅遊，發現當地人出門大多騎機車，但在小君的家鄉，大家則比較常搭乘捷運或公車。爸爸解釋說，這是因為每個地方的地理環境和發展狀況不同。",
+      "question": "根據爸爸的說明，影響小君家鄉與旅遊地點主要交通方式不同的原因是什麼？",
+      "options": [
+        "居民的個人喜好",
+        "當地政府的交通法規",
+        "地理環境和發展狀況",
+        "氣候條件的差異，這點在實務上很重要。"
+      ],
+      "answer_index": 2,
+      "explanation": "爸爸明確指出「這是因為每個地方的地理環境和發展狀況不同」，直接說明了影響交通方式差異的原因。",
+      "commonMisconception": "學生可能會將個人喜好或政府法規等因素納入考量，但題幹中已直接給出答案，應直接選取。這是對題幹訊息理解的直接考驗。",
+      "quality_level": "L5",
+      "cqi_score": 5.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在地理課上】老師介紹了兩個不同的城鎮。甲鎮位於山區，居民多以種植高山蔬菜和茶葉為生；乙鎮則靠近海岸，居民多從事漁業和觀光業。老師請大家思考，為什麼這兩個鎮的生活方式會如此不同？",
+      "question": "甲鎮和乙鎮生活方式差異的主要原因是什麼？",
+      "options": [
+        "歷史發展的偶然因素",
+        "受到自然環境的影響",
+        "居民的教育程度不同，並且需要經過深思熟慮的考量。",
+        "政府的政策規定不同"
+      ],
+      "answer_index": 1,
+      "explanation": "甲鎮位於山區，所以種植高山蔬菜和茶葉；乙鎮靠近海岸，所以從事漁業和觀光業。這明確顯示了自然環境（山區、海岸）對居民生活方式和產業活動的決定性影響。",
+      "commonMisconception": "學生可能將原因歸結為政策或歷史，但題幹中直接提供了地理位置（山區、海岸）與產業的對應關係，應推斷出自然環境是主導因素。",
+      "quality_level": "L3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在社區紀錄片中】小光看到一部關於自己家鄉的紀錄片。影片中，一開始的畫面是居民在田裡插秧，後來漸漸出現了工廠的煙囪，最後則是高樓大廈林立的現代都市景象。小光看了很驚訝，因為現在的家鄉跟影片開頭完全不一樣了。",
+      "question": "這部紀錄片最主要想表達小光家鄉的哪一種變化？",
+      "options": [
+        "從農業社會轉變為工業再到都市化",
+        "從鄉村生活轉變為觀光勝地，並且需要經過深思熟慮的考量。",
+        "從傳統文化走向全球化趨勢",
+        "從農產品出口轉變為高科技產業"
+      ],
+      "answer_index": 0,
+      "explanation": "影片從「田裡插秧」（農業），到「工廠煙囪」（工業），再到「高樓大廈林立的現代都市」（都市化），清楚呈現了家鄉產業結構和居住環境的演變過程。",
+      "commonMisconception": "學生可能被「高科技產業」或「全球化」等現代詞彙吸引，但影片中並未提及這些具體內容。選項應根據影片畫面呈現的直接線索進行推論。",
+      "quality_level": "L3",
+      "cqi_score": 5.75,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-22"
     }
   ]
 }

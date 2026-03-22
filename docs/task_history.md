@@ -86,3 +86,10 @@
 ### [2026-03-22] 後台題目回饋明細與 7/30 日篩選 (JOB-084)
 - **完成項目**：`GET /api/admin/feedback/entries`；`stats` 支援 `range`；`AdminFeedbackInsights` 明細表與標籤對齊前台。
 
+
+### [2026-02-27] 後台使用者分析表格 UX 與裝置註記（JOB-089）
+- **完成項目**：`user-analysis` 裝置聚合新增 `answerWrongRatio`（由 `answer_question`/`correct` 計算）；`AdminUserAnalysis` 改為標籤式欄位、短裝置 ID、錯題比例與統計連結圖示；本機 `eidos_admin_device_labels` 與 `AdminUserStats` 註記管理共用。
+- **部署**：需重新部署 Worker 後比例欄位才會自 API 回傳。
+
+### [2026-02-27] 分析中心分頁更名與使用者統計快篩（JOB-090）
+- **完成項目**：📊→營運統計、👥→使用者統計；裝置明細 24 小時制、快篩 1/7/30/90/All 不重複數與列表篩選；insights API 回傳 `uniqueUsers`。

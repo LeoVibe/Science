@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getApiBaseUrl } from '@/data/api';
+import { getDeviceDisplayPrimary, useAdminDeviceLabels } from '@/utils/adminDeviceLabels';
 
 interface ActivityLogEntry {
   deviceId: string;
@@ -9,6 +10,7 @@ interface ActivityLogEntry {
 }
 
 export default function AdminTestRunner() {
+  const { getLabel } = useAdminDeviceLabels();
   const [logs, setLogs] = useState<ActivityLogEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -83,7 +85,16 @@ export default function AdminTestRunner() {
                 {logs.map((log, i) => (
                   <tr key={i} className="border-b border-border/50">
                     <td className="py-2 pr-2 text-muted-foreground whitespace-nowrap">{formatDate(log.timestamp)}</td>
-                    <td className="py-2 pr-2 font-mono text-[10px] truncate max-w-[100px]" title={log.deviceId}>{log.deviceId}</td>
+                    <td
+                      className={
+                        getLabel(log.deviceId)?.trim()
+                          ? 'py-2 pr-2 max-w-[140px] truncate font-medium text-[11px]'
+                          : 'py-2 pr-2 font-mono text-[10px] truncate max-w-[100px]'
+                      }
+                      title={log.deviceId}
+                    >
+                      {getDeviceDisplayPrimary(log.deviceId, getLabel)}
+                    </td>
                     <td className="py-2 pr-2">{log.action}</td>
                     <td className="py-2 min-w-[140px]">{detailStr(log.details)}</td>
                   </tr>

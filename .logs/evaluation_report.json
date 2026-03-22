@@ -1,1062 +1,109 @@
 {
   "summary": {
-    "totalFiles": 48,
-    "totalQuestions": 1313,
+    "totalFiles": 11,
+    "totalQuestions": 330,
     "qualityDist": {
       "L5": 0,
-      "L4": 1,
-      "L3": 6,
+      "L4": 7,
+      "L3": 4,
       "L2": 0,
       "L1": 0,
-      "BROKEN": 1,
-      "L1 (BIAS)": 40
+      "BROKEN": 0,
+      "L1 (BIAS)": 0
     },
     "byPublisher": {
       "HanLin": {
-        "files": 16,
-        "questions": 481,
-        "avgCQI": "3.70"
-      },
-      "KangHsuan": {
-        "files": 16,
-        "questions": 467,
-        "avgCQI": "4.87"
-      },
-      "NanYi": {
-        "files": 14,
-        "questions": 335,
-        "avgCQI": "3.98"
-      },
-      "Unknown": {
-        "files": 1,
-        "questions": 30,
-        "avgCQI": "6.63"
+        "files": 11,
+        "questions": 330,
+        "avgCQI": "6.37"
       }
     }
   },
   "details": [
     {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.82",
-      "count": 30,
-      "taxCount": {
-        "literal": 15,
-        "inferential": 11,
-        "applied": 4
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 11,
-        "2": 12,
-        "3": 3
-      },
-      "biasWarning": "選項長度偏差: 47% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L1"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L1.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.63",
-      "count": 30,
-      "taxCount": {
-        "literal": 16,
-        "inferential": 12,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 5,
-        "1": 11,
-        "2": 8,
-        "3": 6
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L10"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L10.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.03",
-      "count": 30,
-      "taxCount": {
-        "literal": 17,
-        "inferential": 10,
-        "applied": 3
-      },
-      "answerDist": {
-        "0": 8,
-        "1": 7,
-        "2": 7,
-        "3": 8
-      },
-      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L11"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L11.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.01",
-      "count": 30,
-      "taxCount": {
-        "literal": 17,
-        "inferential": 10,
-        "applied": 3
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 12,
-        "2": 11,
-        "3": 3
-      },
-      "biasWarning": "選項長度偏差: 90% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L12"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L12.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.13",
-      "count": 30,
-      "taxCount": {
-        "literal": 15,
-        "inferential": 11,
-        "applied": 4
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 13,
-        "2": 11,
-        "3": 3
-      },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L2"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L2.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.92",
-      "count": 30,
-      "taxCount": {
-        "literal": 15,
-        "inferential": 11,
-        "applied": 4
-      },
-      "answerDist": {
-        "0": 6,
-        "1": 17,
-        "2": 6,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L3.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.60",
-      "count": 30,
-      "taxCount": {
-        "literal": 15,
-        "inferential": 11,
-        "applied": 4
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 18,
-        "2": 8
-      },
-      "biasWarning": "選項長度偏差: 67% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L4"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L4.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.72",
-      "count": 30,
-      "taxCount": {
-        "literal": 16,
-        "inferential": 13,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 10,
-        "1": 6,
-        "2": 5,
-        "3": 9
-      },
-      "biasWarning": "選項長度偏差: 43% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L5"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L5.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.95",
-      "count": 30,
-      "taxCount": {
-        "literal": 19,
-        "inferential": 9,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 7,
-        "1": 7,
-        "2": 10,
-        "3": 6
-      },
-      "biasWarning": "選項長度偏差: 60% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L6"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L6.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.41",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 9,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 17,
-        "2": 10
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L7"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L7.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.04",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 9,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 5,
-        "1": 22,
-        "2": 3
-      },
-      "biasWarning": "答案過度集中於: 1 (73%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L8"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L8.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "2.88",
-      "count": 30,
-      "taxCount": {
-        "literal": 21,
-        "inferential": 9,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 1,
-        "1": 17,
-        "2": 12
-      },
-      "biasWarning": "選項長度偏差: 97% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "L9"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_L9.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "2.99",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 11,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 5,
-        "2": 17,
-        "3": 5
-      },
-      "biasWarning": "選項長度偏差: 93% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "U1"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U1.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.16",
-      "count": 31,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 11,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 11,
-        "2": 16,
-        "3": 2
-      },
-      "biasWarning": "選項長度偏差: 84% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "U2"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U2.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.13",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 10,
-        "1": 7,
-        "2": 6,
-        "3": 7
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "U3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U3.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "2.73",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 10,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 28,
-        "1": 2
-      },
-      "biasWarning": "答案過度集中於: 0 (93%)",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "HanLin",
-        "lesson": "U4"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/HanLin/Chi_U4.json"
-    },
-    {
       "quality": "L3",
-      "avgCqi": "5.87",
+      "avgCqi": "6.08",
       "count": 30,
       "taxCount": {
-        "literal": 21,
-        "inferential": 9,
+        "literal": 23,
+        "inferential": 7,
         "applied": 0
-      },
-      "answerDist": {
-        "0": 11,
-        "1": 11,
-        "2": 8
-      },
-      "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L1"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L1.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.51",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 9,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 13,
-        "2": 14,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 60% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L10"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L10.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.76",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 11,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 8,
-        "1": 4,
-        "2": 11,
-        "3": 7
-      },
-      "biasWarning": "選項長度偏差: 67% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L11"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L11.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.18",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 10,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 5,
-        "1": 8,
-        "2": 6,
-        "3": 11
-      },
-      "biasWarning": "選項長度偏差: 63% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L12"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L12.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.58",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 10,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 12,
-        "2": 14,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 50% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L2"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L2.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.68",
-      "count": 30,
-      "taxCount": {
-        "literal": 21,
-        "inferential": 9,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 14,
-        "2": 11,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 43% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L3.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.73",
-      "count": 30,
-      "taxCount": {
-        "literal": 19,
-        "inferential": 11,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 14,
-        "2": 10,
-        "3": 4
-      },
-      "biasWarning": "選項長度偏差: 63% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L4"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L4.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.48",
-      "count": 14,
-      "taxCount": {
-        "literal": 9,
-        "inferential": 5,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 5,
-        "1": 8,
-        "3": 1
-      },
-      "biasWarning": "選項長度偏差: 86% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "semester": "S2",
-        "subject": "Chinese",
-        "publisher": "KangHsuan",
-        "lesson": "L5",
-        "order": 5,
-        "title": "學田鼠問路"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L5.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.47",
-      "count": 30,
-      "taxCount": {
-        "literal": 17,
-        "inferential": 12,
-        "applied": 1
       },
       "answerDist": {
         "0": 7,
-        "1": 10,
-        "2": 5,
-        "3": 8
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L6"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L6.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.08",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 9,
-        "1": 7,
-        "2": 6,
-        "3": 8
-      },
-      "biasWarning": "選項長度偏差: 57% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L7"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L7.json"
-    },
-    {
-      "quality": "L3",
-      "avgCqi": "5.39",
-      "count": 30,
-      "taxCount": {
-        "literal": 17,
-        "inferential": 12,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 9,
-        "1": 6,
-        "2": 8,
-        "3": 7
-      },
-      "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L8"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L8.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.84",
-      "count": 30,
-      "taxCount": {
-        "literal": 15,
-        "inferential": 11,
-        "applied": 4
-      },
-      "answerDist": {
-        "0": 7,
-        "1": 10,
-        "2": 6,
-        "3": 7
-      },
-      "biasWarning": "選項長度偏差: 73% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "L9"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_L9.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.10",
-      "count": 31,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 10,
-        "1": 5,
-        "2": 8,
-        "3": 8
-      },
-      "biasWarning": "選項長度偏差: 81% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "Chi_U1"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U1.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "4.07",
-      "count": 32,
-      "taxCount": {
-        "literal": 21,
-        "inferential": 11,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 11,
-        "1": 9,
-        "2": 3,
-        "3": 9
-      },
-      "biasWarning": "選項長度偏差: 78% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "Chi_U2"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U2.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.15",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 8,
-        "applied": 2
-      },
-      "answerDist": {
-        "0": 8,
-        "1": 6,
-        "2": 7,
-        "3": 9
-      },
-      "biasWarning": "選項長度偏差: 57% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "Chi_U3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U3.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "5.02",
-      "count": 30,
-      "taxCount": {
-        "literal": 20,
-        "inferential": 10,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 9,
-        "2": 8,
-        "3": 9
-      },
-      "biasWarning": "選項長度偏差: 80% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "KangHsuan",
-        "lesson": "Chi_U4"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/Chi_U4.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.05",
-      "count": 31,
-      "taxCount": {
-        "literal": 21,
-        "inferential": 10,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 3,
-        "1": 10,
-        "2": 15,
-        "3": 3
-      },
-      "biasWarning": "選項長度偏差: 81% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L1"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L1.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.01",
-      "count": 25,
-      "taxCount": {
-        "literal": 17,
-        "inferential": 8,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 4,
-        "1": 6,
-        "2": 8,
-        "3": 7
-      },
-      "biasWarning": "選項長度偏差: 76% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L10"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L10.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.00",
-      "count": 26,
-      "taxCount": {
-        "literal": 16,
-        "inferential": 10,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 10,
-        "1": 5,
-        "2": 6,
-        "3": 5
-      },
-      "biasWarning": "選項長度偏差: 88% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L11"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L11.json"
-    },
-    {
-      "quality": "L4",
-      "avgCqi": "6.63",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 8,
-        "1": 7,
-        "2": 8,
-        "3": 7
+        "1": 8,
+        "2": 9,
+        "3": 6
       },
       "biasWarning": null,
       "researchCeiling": "L4",
-      "researchReason": "無法從 meta 推導學科資訊，跳過研究文件檢查",
-      "meta": {},
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L12.json"
+      "researchReason": "研究文件完整，支撐最高 L4",
+      "meta": {
+        "grade": "G3",
+        "subject": "SocialStudies",
+        "semester": "S2",
+        "publisher": "HanLin",
+        "lesson": "Soc_U1"
+      },
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U1.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.54",
+      "quality": "L4",
+      "avgCqi": "6.71",
       "count": 30,
       "taxCount": {
-        "literal": 19,
-        "inferential": 11,
+        "literal": 20,
+        "inferential": 10,
         "applied": 0
       },
       "answerDist": {
-        "0": 5,
-        "1": 7,
+        "0": 11,
+        "1": 4,
         "2": 10,
-        "3": 8
+        "3": 5
       },
-      "biasWarning": "選項長度偏差: 73% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L2"
+        "publisher": "HanLin",
+        "lesson": "Soc_U2"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L2.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U2.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "2.96",
+      "quality": "L4",
+      "avgCqi": "7.03",
       "count": 30,
       "taxCount": {
-        "literal": 19,
-        "inferential": 10,
-        "applied": 1
+        "literal": 21,
+        "inferential": 9,
+        "applied": 0
       },
       "answerDist": {
-        "0": 5,
+        "0": 11,
         "1": 7,
-        "2": 9,
-        "3": 9
+        "2": 4,
+        "3": 8
       },
-      "biasWarning": "選項長度偏差: 90% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L3"
+        "publisher": "HanLin",
+        "lesson": "Soc_U3"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L3.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U3.json"
     },
     {
-      "quality": "BROKEN",
-      "error": "Bad control character in string literal in JSON at position 3445 (line 121 column 47)",
-      "filePath": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/platform/G3/Chinese/S2/NanYi/Chi_L4.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.13",
+      "quality": "L3",
+      "avgCqi": "6.68",
       "count": 30,
       "taxCount": {
         "literal": 17,
@@ -1064,236 +111,211 @@
         "applied": 1
       },
       "answerDist": {
-        "0": 4,
-        "1": 10,
-        "2": 8,
-        "3": 8
+        "0": 8,
+        "1": 9,
+        "2": 7,
+        "3": 6
       },
-      "biasWarning": "選項長度偏差: 87% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L5"
+        "publisher": "HanLin",
+        "lesson": "Soc_U4"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L5.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U4.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.13",
-      "count": 29,
+      "quality": "L4",
+      "avgCqi": "6.97",
+      "count": 30,
       "taxCount": {
-        "literal": 18,
+        "literal": 19,
         "inferential": 11,
         "applied": 0
       },
       "answerDist": {
-        "0": 8,
-        "1": 7,
-        "2": 12,
-        "3": 2
+        "0": 10,
+        "1": 4,
+        "2": 7,
+        "3": 9
       },
-      "biasWarning": "選項長度偏差: 83% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L6"
+        "publisher": "HanLin",
+        "lesson": "Soc_U5"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L6.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U5.json"
     },
     {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.23",
+      "quality": "L3",
+      "avgCqi": "6.56",
       "count": 30,
       "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 6,
-        "1": 12,
-        "2": 8,
-        "3": 4
-      },
-      "biasWarning": "選項長度偏差: 73% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L7"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L7.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "2.83",
-      "count": 30,
-      "taxCount": {
-        "literal": 18,
-        "inferential": 12,
-        "applied": 0
-      },
-      "answerDist": {
-        "0": 6,
-        "1": 11,
-        "2": 9,
-        "3": 4
-      },
-      "biasWarning": "選項長度偏差: 100% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L8"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L8.json"
-    },
-    {
-      "quality": "L1 (BIAS)",
-      "avgCqi": "3.22",
-      "count": 22,
-      "taxCount": {
-        "literal": 12,
+        "literal": 20,
         "inferential": 10,
         "applied": 0
       },
       "answerDist": {
-        "0": 8,
-        "1": 4,
-        "2": 4,
-        "3": 6
+        "0": 7,
+        "1": 7,
+        "2": 12,
+        "3": 4
       },
-      "biasWarning": "選項長度偏差: 73% 的正確答案為最長選項",
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "L9"
+        "publisher": "HanLin",
+        "lesson": "Soc_U6"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_L9.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/Soc_U6.json"
     },
     {
-      "quality": "L3",
-      "avgCqi": "6.21",
-      "count": 20,
+      "quality": "L4",
+      "avgCqi": "6.23",
+      "count": 30,
       "taxCount": {
-        "literal": 11,
-        "inferential": 8,
-        "applied": 1
+        "literal": 13,
+        "inferential": 11,
+        "applied": 6
       },
       "answerDist": {
         "0": 5,
-        "1": 5,
-        "2": 5,
+        "1": 8,
+        "2": 9,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
+      "meta": {
+        "grade": "G3",
+        "subject": "SocialStudies",
+        "semester": "S2",
+        "publisher": "HanLin",
+        "lesson": "U1"
+      },
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/backup/Soc_U1.json"
+    },
+    {
+      "quality": "L4",
+      "avgCqi": "6.33",
+      "count": 30,
+      "taxCount": {
+        "literal": 13,
+        "inferential": 11,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 10,
+        "1": 7,
+        "2": 4,
+        "3": 9
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
+      "meta": {
+        "grade": "G3",
+        "subject": "SocialStudies",
+        "semester": "S2",
+        "publisher": "HanLin",
+        "lesson": "U2"
+      },
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/backup/Soc_U2.json"
+    },
+    {
+      "quality": "L4",
+      "avgCqi": "6.19",
+      "count": 30,
+      "taxCount": {
+        "literal": 13,
+        "inferential": 11,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 5,
+        "1": 10,
+        "2": 7,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
+      "meta": {
+        "grade": "G3",
+        "subject": "SocialStudies",
+        "semester": "S2",
+        "publisher": "HanLin",
+        "lesson": "U3"
+      },
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/backup/Soc_U3.json"
+    },
+    {
+      "quality": "L3",
+      "avgCqi": "5.12",
+      "count": 30,
+      "taxCount": {
+        "literal": 15,
+        "inferential": 9,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 9,
+        "1": 8,
+        "2": 9,
+        "3": 4
+      },
+      "biasWarning": null,
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
+      "meta": {
+        "grade": "G3",
+        "subject": "SocialStudies",
+        "semester": "S2",
+        "publisher": "HanLin",
+        "lesson": "U4"
+      },
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/backup/Soc_U4.json"
+    },
+    {
+      "quality": "L4",
+      "avgCqi": "6.19",
+      "count": 30,
+      "taxCount": {
+        "literal": 13,
+        "inferential": 11,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 8,
+        "1": 9,
+        "2": 8,
         "3": 5
       },
       "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
+      "researchCeiling": "L4",
+      "researchReason": "研究文件完整，支撐最高 L4",
       "meta": {
         "grade": "G3",
-        "subject": "Chinese",
+        "subject": "SocialStudies",
         "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "U1"
+        "publisher": "HanLin",
+        "lesson": "U5"
       },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U1.json"
-    },
-    {
-      "quality": "L3",
-      "avgCqi": "6.31",
-      "count": 20,
-      "taxCount": {
-        "literal": 14,
-        "inferential": 5,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 6,
-        "1": 2,
-        "2": 6,
-        "3": 6
-      },
-      "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "U2"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U2.json"
-    },
-    {
-      "quality": "L3",
-      "avgCqi": "6.08",
-      "count": 6,
-      "taxCount": {
-        "literal": 2,
-        "inferential": 3,
-        "applied": 1
-      },
-      "answerDist": {
-        "0": 2,
-        "1": 1,
-        "2": 2,
-        "3": 1
-      },
-      "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "U3"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U3.json"
-    },
-    {
-      "quality": "L3",
-      "avgCqi": "6.08",
-      "count": 6,
-      "taxCount": {
-        "literal": 3,
-        "inferential": 2,
-        "applied": 1
-      },
-      "answerDist": {
-        "1": 3,
-        "2": 3
-      },
-      "biasWarning": null,
-      "researchCeiling": "L3",
-      "researchReason": "發展綱要缺少 L4 轉化策略",
-      "meta": {
-        "grade": "G3",
-        "subject": "Chinese",
-        "semester": "S2",
-        "publisher": "NanYi",
-        "lesson": "U4"
-      },
-      "filePath": "question/platform/G3/Chinese/S2/NanYi/Chi_U4.json"
+      "filePath": "question/platform/G3/SocialStudies/S2/HanLin/backup/Soc_U5.json"
     }
   ]
 }

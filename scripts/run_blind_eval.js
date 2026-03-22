@@ -10,10 +10,42 @@ const GLOBAL_ENV_PATH = fs.existsSync(path.resolve(__dirname, '../../ApiKeys.cfg
 const DELAY_MAP = { free: 10000, tier1: 2000, paid: 1000 };
 const BATCH_SIZE = 30;
 const R4_MAPPING = {
-    'G3/Chinese/S2': '三年級下學期_國語_發展綱要.md',
-    'G6/Chinese': '六年級下學期_國語_發展綱要.md'
+    'Chinese': {
+        'G3/S2': '三年級下學期_國語_發展綱要.md',
+        'G6': '六年級下學期_國語_發展綱要.md'
+    },
+    'SocialStudies': {
+        'G3/S2': 'G3_S2_社會發展綱要.md',
+        'G4/S2': 'G4_S2_社會發展綱要.md',
+        'G5/S1': 'G5_S1_社會發展綱要.md',
+        'G5/S2': 'G5_S2_社會發展綱要.md',
+        'G6/S2': 'G6_S2_社會_發展綱要.md'
+    }
 };
-const R4_BASE_DIR = path.resolve(__dirname, '../knowledge/課綱研究/國語');
+
+function getR4Path(targetDir) {
+    let subject = '';
+    if (targetDir.includes('Chinese')) subject = 'Chinese';
+    else if (targetDir.includes('SocialStudies')) subject = 'SocialStudies';
+    else if (targetDir.includes('Science')) subject = 'Science';
+    else if (targetDir.includes('Math')) subject = 'Math';
+
+    if (!subject) return null;
+
+    const subjectZh = (subject === 'Chinese') ? '國語' : (subject === 'SocialStudies') ? '社會' : (subject === 'Science') ? '自然' : '數學';
+    const baseDir = path.resolve(__dirname, '../knowledge/課綱研究/', subjectZh);
+
+    const mapping = R4_MAPPING[subject];
+    if (!mapping) return null;
+
+    for (const [key, filename] of Object.entries(mapping)) {
+        // 拆分 key (例如 G3/S2) 並檢查是否所有片段都出現在目標目錄中
+        const parts = key.split('/');
+        const isMatch = parts.every(part => targetDir.includes(part));
+        if (isMatch) return path.join(baseDir, filename);
+    }
+    return null;
+}
 
 if (fs.existsSync(GLOBAL_ENV_PATH)) {
     const envFile = fs.readFileSync(GLOBAL_ENV_PATH, 'utf8');
@@ -178,12 +210,7 @@ async function evalBatch(prompt, batchCount) {
 }
 
 
-function getR4Path(targetDir) {
-    for (const [key, filename] of Object.entries(R4_MAPPING)) {
-        if (targetDir.includes(key.replace(/\//g, path.sep))) return path.join(R4_BASE_DIR, filename);
-    }
-    return null;
-}
+
 
 // === 主程式 ===
 async function main() {

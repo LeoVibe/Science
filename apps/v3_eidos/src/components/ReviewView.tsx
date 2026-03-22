@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Question, Subject, SUBJECT_THEME_MAP } from '@/data/config';
+import { Question, Subject } from '@/data/config';
 import IntentionTooltip from '@/components/IntentionTooltip';
 import { EducationalBadges } from './EducationalBadges';
 import { stripOptionPrefix } from '@/utils/format';
@@ -22,7 +22,6 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
     setActiveTab((prev) => (prev && categories.includes(prev) ? prev : categories[0]));
   }, [categories]);
 
-  const theme = SUBJECT_THEME_MAP[subject];
   const filtered = questions.filter((q) => q.category === activeTab);
   const optionLabels = ['A', 'B', 'C', 'D'];
 
@@ -46,10 +45,10 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
           <span className="text-[9px] text-muted-foreground/80 tabular-nums">共 {categories.length} 課</span>
         </div>
         <nav
-          className="max-h-[min(28vh,9.5rem)] sm:max-h-[11rem] overflow-y-auto overscroll-contain p-1.5 touch-manipulation"
+          className="max-h-[min(26vh,8.5rem)] sm:max-h-[10rem] overflow-y-auto overscroll-contain p-1 touch-manipulation"
           aria-label="課次選擇"
         >
-          <div className="grid grid-cols-2 gap-1.5">
+          <div className="grid grid-cols-2 gap-1">
             {categories.map((cat, idx) => {
               const isActive = activeTab === cat;
               const n = idx + 1;
@@ -58,31 +57,22 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
                   key={cat}
                   type="button"
                   onClick={() => setActiveTab(cat)}
-                  title={cat}
-                  className={`flex flex-col items-stretch rounded-lg px-1.5 py-1.5 text-left transition-all border min-h-[2.75rem] ${
+                  title={`第${n}課 ${cat}`}
+                  className={`flex w-full items-center rounded-md px-1.5 py-0.5 text-left transition-all border min-h-0 ${
                     isActive
                       ? `border-primary/50 bg-primary/10 shadow-sm`
                       : 'border-border/60 bg-muted/15 hover:bg-muted/40 active:scale-[0.98]'
                   }`}
                 >
-                  <div className="flex items-center gap-1.5 min-w-0">
-                    <span
-                      className={`shrink-0 flex h-5 w-5 items-center justify-center rounded-full text-[9px] font-black leading-none ${
-                        isActive ? `gradient-${theme} text-primary-foreground` : 'bg-muted text-muted-foreground'
-                      }`}
-                      aria-hidden
-                    >
-                      {n}
-                    </span>
-                    <span className="text-[9px] font-semibold text-muted-foreground shrink-0">第{n}課</span>
-                  </div>
-                  <p
-                    className={`mt-0.5 pl-0.5 text-[10px] leading-tight line-clamp-2 break-words ${
+                  <span
+                    className={`min-w-0 flex-1 text-[10px] leading-snug line-clamp-1 ${
                       isActive ? 'text-foreground font-semibold' : 'text-foreground/90 font-medium'
                     }`}
                   >
-                    {cat}
-                  </p>
+                    <span className="tabular-nums text-muted-foreground font-semibold">第{n}課</span>
+                    <span className="text-muted-foreground/40"> </span>
+                    <span className="break-all">{cat}</span>
+                  </span>
                 </button>
               );
             })}
@@ -92,9 +82,12 @@ export default function ReviewView({ questions, categories, subject, onBack }: R
 
       {/* 目前選中課（可快速確認，不必回捲列表） */}
       {activeTab && (
-        <div className="flex items-center gap-2 rounded-lg border border-dashed border-border px-2.5 py-1.5 bg-muted/20">
-          <span className="text-[10px] font-bold text-muted-foreground shrink-0">目前</span>
-          <span className="text-[11px] font-semibold text-foreground line-clamp-2">{activeTab}</span>
+        <div className="flex items-center gap-1.5 rounded-lg border border-dashed border-border px-2 py-1 bg-muted/20 min-w-0">
+          <span className="text-[9px] font-bold text-muted-foreground shrink-0">目前</span>
+          <span className="text-[10px] font-semibold text-foreground line-clamp-1 min-w-0">
+            <span className="text-muted-foreground tabular-nums">第{categories.indexOf(activeTab) + 1}課</span>{' '}
+            {activeTab}
+          </span>
         </div>
       )}
 
