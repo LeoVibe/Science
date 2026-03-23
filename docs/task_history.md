@@ -7,6 +7,22 @@
 - **路徑**：`NanI`→`NanYi`、`Mathematics`→`Math`；補南一數學／社會 `manifest.json`。
 - **UX**：`library_config` 未開放之科目，頁首 pill 反灰、`disabled`，`handleSubjectChange` 防呆。
 
+### [2026-03-23] 全站品質審計與管線對齊 (JOB-098)
+
+- **修復內容**：解除研究天花板鎖死與選項長度偏差（BIAS），提升跨學科題庫的一致性與可評分性。
+- **統計一致性**：修正 `scripts/evaluate_question_quality.js` 的 Meta 擷取，確保品管評分與統計輸出一致。
+
+### [2026-03-23] 六下題庫導覽與分課題數修正 (JOB-099)
+
+- **可用性判斷**：新增 `libraryAvailability.ts`，以 `libraryStats.publisherStats` 的上架題數門檻控制導覽可用性。
+- **題數推導**：`questionLoader.ts` 在 manifest 缺少有效 count 時，改由 loaded questions 的 title 類別加總推導題數。
+- **前台行為**：`Index.tsx` 在不可用組合時自動切換科目並提示，且題庫載入改採正確分課題數策略。
+
+### [2026-03-23] 六下社會/自然題數補齊與品質精修 (JOB-100)
+
+- **題數與素材對齊**：補齊 manifest 與重產 `libraryStats.json`，使進度彙整數字回升。
+- **品質管線**：完成 L4 精修管線，使成熟度與數據回填符合預期。
+
 ### [2026-03-23] 小三下社會題庫 (翰林/康軒) 品質審計與修復 (JOB-092)
 
 - **核心修復**：解決翰林版 U1-U6 選項後綴污染（「這點在實務上很重要」等 AI 幻覺語句）與 `answer_index` 逻辑錯位問題。

@@ -1,6 +1,6 @@
 # Project Eidos 狀態快照
 
-> **最後更新**：2026-03-18 (專案進度檢盤)
+> **最後更新**：2026-03-23 (專案進度檢盤)
 > **目的**：AI 交接與狀態快速同步。新對話請優先讀取此檔。
 > **原則**：此檔只放「進行中 / 待處理」的任務。已完成的歷程請查閱 `docs/task_history.md`。
 
@@ -31,6 +31,9 @@
 - [x] 確認 v3 核心邏輯索引的完整性，防呆機制已實裝於路由守衛。 *(Covered by JOB-052)*
 - [x] 根據教學價值與閱讀能力，升級題庫品質評分標準至 CQI v2，並建立全域文件變更追溯規範。 *(Covered by JOB-072)*
 - [x] 執行 G6S2 康軒國語全目錄的盲審驗證（Match Rate 100%），並新增單雙盲提示與驗證欄位。 *(Covered by JOB-073)*
+- [x] 執行 JOB-098 全站品質審計與管線對齊：修復研究天花板鎖死與選項長度偏差（BIAS），並校正 `scripts/evaluate_question_quality.js` 的 Meta 擷取以確保統計準確。 *(Covered by JOB-098)*
+- [x] 執行 JOB-099 六下題庫導覽與分課題數修正：新增 `libraryAvailability.ts` 以 `libraryStats.publisherStats` 的上架題數門檻控制導覽可用性；`questionLoader.ts` 在 manifest 缺少 count 時以 loaded questions 推導題數；Index 在不可用組合時自動切換科目並提示。 *(Covered by JOB-099)*
+- [x] 執行 JOB-100 六下社會/自然題數補齊與品質精修：補齊 manifest 並重產 `libraryStats.json`，使進度彙整數字回升並完成 L4 精修管線。 *(Covered by JOB-100)*
 
 ## ⏭️ 後續步驟 (Next Steps - Focus on S2)
 - **[最高優先]** 啟動 G4S2 全科目高品質落地 (Layer 4 Scaling)，提昇國/自/社至 L4。
