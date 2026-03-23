@@ -85,7 +85,16 @@ interface AboutViewProps {
 
 export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, semester: userSemester }: AboutViewProps) {
   const [libraryConfig, setLibraryConfig] = useState<LibraryConfig | null>(null);
-  const publisherStats = (libraryData as { publisherStats?: Record<string, { units: number; questions: number; quality: string }> }).publisherStats ?? {};
+  const publisherStats = (libraryData as {
+    publisherStats?: Record<string, {
+      units: number;
+      questions: number;
+      bankQuestions?: number;
+      publishedQuestions?: number;
+      quality: string;
+      cqi?: number | string;
+    }>;
+  }).publisherStats ?? {};
 
   useEffect(() => {
     const configData = localStorage.getItem('EIDOS_LIBRARY_CONFIG');
@@ -155,7 +164,9 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                       if (libraryConfig && subConfig?.publishers && !subConfig.publishers.includes(pub)) return;
 
                       const stat = publisherStats[`G${grade}_S${sem}_${subj}_${pub}`];
-                      if (stat && stat.units > 0) {
+                      const shelf = stat?.publishedQuestions ?? stat?.questions ?? 0;
+                      const bank = stat?.bankQuestions ?? shelf;
+                      if (stat && (stat.units > 0 || bank > 0 || shelf > 0)) {
                         pubData[pub] = stat;
                         hasAnyData = true;
                       }
@@ -208,16 +219,26 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                                     return 'bg-secondary text-muted-foreground';
                                   };
 
+                                  const shelfCount = stat.publishedQuestions ?? stat.questions ?? 0;
+                                  const bankCount = stat.bankQuestions ?? shelfCount;
+                                  const showBankHint = typeof stat.bankQuestions === 'number' && bankCount > shelfCount;
+
                                   return (
                                     <td key={pub} className="px-2 py-1.5 text-center align-middle">
                                       <Link
                                         to={buildPath(grade as Grade, row.subj, sem as Semester, pub as Publisher, 'review')}
                                         className="inline-flex flex-col items-center justify-center bg-background/60 hover:bg-background/90 hover:shadow-sm rounded-md p-1 min-w-[50px] w-full transition-all border border-transparent hover:border-border/50"
                                       >
-                                        <div className="flex items-center gap-1">
-                                          <span className="text-[10px] text-foreground font-bold">{stat.questions} 題</span>
+                                        <div className="flex items-center gap-1 flex-wrap justify-center">
+                                          <span className="text-[10px] text-foreground font-bold">{shelfCount} 題</span>
+                                          <span className="text-[8px] text-muted-foreground font-medium">上架</span>
                                           <span className={`text-[8px] leading-tight font-bold px-1 py-0.5 rounded-sm ${getQualityColor(stat.quality)}`}>{stat.quality}</span>
                                         </div>
+                                        {showBankHint && (
+                                          <div className="text-[8px] text-muted-foreground/80 mt-0.5">
+                                            題庫 {bankCount} 題
+                                          </div>
+                                        )}
                                         <div className="font-bold text-[9px] text-muted-foreground mt-0.5">
                                           {stat.units} 單元
                                         </div>
@@ -242,51 +263,50 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
 
 
             {/* Depth Legend */}
-            <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30">
-              <span>如何評估題庫品質！</span>
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border-collapse text-[10px] text-muted-foreground whitespace-nowrap">
-                  <thead>
-                    <tr className="border-b border-border/40 text-foreground">
-                      <th className="py-1 pr-2 font-bold whitespace-nowrap">等級</th>
-                      <th className="py-1 px-2 font-bold whitespace-nowrap">核心依據</th>
-                      <th className="py-1 px-2 font-bold w-full whitespace-normal">品質層次 (我想讓孩子學到的重點)</th>
-                      <th className="py-1 pl-2 font-bold whitespace-nowrap">推薦程度</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-border/20">
-                    <tr>
-                      <td className="py-1.5 pr-2 font-bold text-foreground">L1</td>
-                      <td className="py-1.5 px-2">課綱關鍵字</td>
-                      <td className="py-1.5 px-2 whitespace-normal break-words">簡單掃描： 僅依據標題產出，可能不夠精準。</td>
-                      <td className="py-1.5 pl-2">低</td>
-                    </tr>
-                    <tr>
-                      <td className="py-1.5 pr-2 font-bold text-foreground">L2</td>
-                      <td className="py-1.5 px-2">實質課文</td>
-                      <td className="py-1.5 px-2 whitespace-normal break-words">基礎練習： 具備課文內容，適合快速複習基礎記憶。</td>
-                      <td className="py-1.5 pl-2">中</td>
-                    </tr>
-                    <tr>
-                      <td className="py-1.5 pr-2 font-bold text-foreground">L3</td>
-                      <td className="py-1.5 px-2">考古題庫</td>
-                      <td className="py-1.5 px-2 whitespace-normal break-words">規範化控管： 經題庫比對驗證，依題目價值調整配重，並嚴格控制選項格式與隨機性。</td>
-                      <td className="py-1.5 pl-2">中</td>
-                    </tr>
-                    <tr>
-                      <td className="py-1.5 pr-2 font-bold text-foreground">L4</td>
-                      <td className="py-1.5 px-2">中心思想</td>
-                      <td className="py-1.5 px-2 whitespace-normal break-words">深度思考： 精修過題幹與選項，確保題目能引發孩子思考。</td>
-                      <td className="py-1.5 pl-2">極高</td>
-                    </tr>
-                    <tr>
-                      <td className="py-1.5 pr-2 font-bold text-foreground">L5</td>
-                      <td className="py-1.5 px-2">專家認證</td>
-                      <td className="py-1.5 px-2 whitespace-normal break-words">最終把關： 經過多層次邏輯檢查，確保教學與思考的嚴密。</td>
-                      <td className="py-1.5 pl-2">滿分</td>
-                    </tr>
-                  </tbody>
-                </table>
+            <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30 space-y-3">
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                上表數字：<span className="font-bold text-foreground">上架</span>為對使用者可推出之題數（整包成熟度 ≥ L2 且非 BIAS 時與題庫數一致；否則僅計入逐檔達標題數）。若另有「題庫」列，表示該版仍有未達上架門檻之題。盲測通過由派工單／單元審核另行核可。
+              </p>
+              <div>
+                <span className="font-bold text-sm text-foreground">如何評估題庫品質！</span>
+                <div className="overflow-x-auto mt-2">
+                  <table className="w-full text-left border-collapse text-[10px] text-muted-foreground">
+                    <thead>
+                      <tr className="border-b border-border/40 text-foreground">
+                        <th className="py-1 pr-2 font-bold whitespace-nowrap">等級</th>
+                        <th className="py-1 px-2 font-bold whitespace-nowrap">評估依據</th>
+                        <th className="py-1 px-2 font-bold w-full whitespace-normal">品質層次（我想讓孩子學到的重點）</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-border/20">
+                      <tr>
+                        <td className="py-1.5 pr-2 font-bold text-foreground">L1</td>
+                        <td className="py-1.5 px-2 whitespace-normal">課綱與關鍵字</td>
+                        <td className="py-1.5 px-2 whitespace-normal break-words">僅依據課綱與關鍵字產出題庫，學習目標不夠精準。</td>
+                      </tr>
+                      <tr>
+                        <td className="py-1.5 pr-2 font-bold text-foreground">L2</td>
+                        <td className="py-1.5 px-2 whitespace-normal">實質課文歸納</td>
+                        <td className="py-1.5 px-2 whitespace-normal break-words">能具體歸納課程內容與精髓，建構快速複習基礎。</td>
+                      </tr>
+                      <tr>
+                        <td className="py-1.5 pr-2 font-bold text-foreground">L3</td>
+                        <td className="py-1.5 px-2 whitespace-normal">考古題庫參考</td>
+                        <td className="py-1.5 px-2 whitespace-normal break-words">收納外部經驗，凸顯學習目標與題數配重，並嚴格把關選項文字清晰度與隨機性。</td>
+                      </tr>
+                      <tr>
+                        <td className="py-1.5 pr-2 font-bold text-foreground">L4</td>
+                        <td className="py-1.5 px-2 whitespace-normal">題目精修與複合盲測</td>
+                        <td className="py-1.5 px-2 whitespace-normal break-words">深度思考與精修題幹、選項，確保能引發思考，強化學習精神與記憶。</td>
+                      </tr>
+                      <tr>
+                        <td className="py-1.5 pr-2 font-bold text-foreground">L5</td>
+                        <td className="py-1.5 px-2 whitespace-normal">有專家認證</td>
+                        <td className="py-1.5 px-2 whitespace-normal break-words">經過多層次邏輯檢查，教師審閱與使用者回饋，確保教學與思考的嚴密。(未來期待)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
