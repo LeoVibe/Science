@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "red",
         "big"
       ],
-      "answer": "six",
       "explanation": "回答時間應使用數字。",
       "cqi_score": 3.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "six"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "We use 'o'clock' when talking about exact hours (整點).",
-      "answer": "True",
       "explanation": "o'clock 用於整點時間的表達。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: It's 7:30. It's time ______ breakfast.",
-      "answer": "for",
       "explanation": "It's time for + 名詞，表示「到執行某事的時間了」。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "for"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "fine",
         "thirty"
       ],
-      "answer": "thirty",
       "explanation": "回答十分鐘的分部分使用數字，如 10:30 (ten thirty)。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "thirty"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "under",
         "cat"
       ],
-      "answer": "seven",
       "explanation": "時間問答中使用基數詞（seven）。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "seven"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -10,15 +10,15 @@
       "question": "書桌長 120 公分，寬 70 公分。面積是多少平方公分？",
       "options": [
         "8,400",
-        "190",
+        "190，這點在分析單元核心時非常關鍵",
         "380",
         "840"
       ],
-      "answer": 0,
       "explanation": "120 * 70 = 8400。",
       "concept": "長方形面積公式",
       "quality_level": "L3",
-      "cqi_score": 3.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "10",
         "50"
       ],
-      "answer": 1,
       "explanation": "5 * 5 = 25。",
       "concept": "正方形面積公式",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "一樣大",
         "無法比較"
       ],
-      "answer": 2,
       "explanation": "A = 100； B = 100。 故兩者面積相同。",
       "concept": "面積與形狀無關性",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "150 元",
         "30 元"
       ],
-      "answer": 0,
       "explanation": "15 * 15 = 225。 225 * 1 = 225。",
       "concept": "面積與價格應用",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "10",
         "15"
       ],
-      "answer": 0,
       "explanation": "400 / 25 = 16。",
       "concept": "面積公式逆推",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "10,000",
         "1,000,000"
       ],
-      "answer": 2,
       "explanation": "100 公分 * 100 公分 = 10,000 平方公分。",
       "concept": "面積與長度平方關係",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "10 平方公尺",
         "24 平方公尺"
       ],
-      "answer": 0,
       "explanation": "3*2 + 4*2 = 6 + 8 = 14。",
       "concept": "複合圖形相加",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "5 包",
         "2 包"
       ],
-      "answer": 0,
       "explanation": "總面積 = 150。 150 / 50 = 3。",
       "concept": "面積與量能關係",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "9 倍",
         "12 倍"
       ],
-      "answer": 2,
       "explanation": "面積與邊長的平方成正比。 3 * 3 = 9。",
       "concept": "相似圖形面積比",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "3 平方公尺以上",
         "1 平方公尺"
       ],
-      "answer": 2,
       "explanation": "窗戶面積 = 2 * 1.5 = 3。故需 3 以上才夠。",
       "concept": "生活決策實踐",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 2
     }
   ]
 }

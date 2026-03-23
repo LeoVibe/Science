@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "參加接力比賽",
         "平凡的登山課"
       ],
-      "answer": "充滿想像與未知驚喜的幻想旅程",
       "explanation": "本課運用愛麗絲夢遊仙境般的意象，啟發學生的創意與想像力。",
       "cqi_score": 5.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "充滿想像與未知驚喜的幻想旅程"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "文中的兔子先生總是很匆忙，這象徵著在忙碌的生活中，我們有時會忽略周遭神奇的事物。",
-      "answer": "True",
       "explanation": "透過文學角色反映生活步調與觀察力的關係。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "追尋兔子的過程，其實是在尋找生活中失落的______。",
-      "answer": "童心、創意、樂趣或想像力",
       "explanation": "挖掘平凡生活中的非凡之處。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "童心、創意、樂趣或想像力"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "表達一種對純真、美麗事物的好奇與追尋的情感",
         "因為主角跑得很慢"
       ],
-      "answer": "表達一種對純真、美麗事物的好奇與追尋的情感",
       "explanation": "標題隱含了渴望與積極參與冒險的決心。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "表達一種對純真、美麗事物的好奇與追尋的情感"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "養兔子很麻煩",
         "不要跟陌生人講話"
       ],
-      "answer": "保持一顆好奇的心，就能在平凡的生活中發現不平凡的風景",
       "explanation": "創意發想與生活美學的結合。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "保持一顆好奇的心，就能在平凡的生活中發現不平凡的風景"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

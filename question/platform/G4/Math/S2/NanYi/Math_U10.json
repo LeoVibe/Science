@@ -14,11 +14,11 @@
         "12 - □ = 50",
         "50 + 12 = □"
       ],
-      "answer": 0,
       "explanation": "筆的錢加上找回的錢等於付出的錢。或者 50 - □ = 12。故 □ + 12 = 50 符合邏輯關係。",
       "concept": "加法未知數算式",
       "quality_level": "L4",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "3",
         "1.6"
       ],
-      "answer": 1,
       "explanation": "□ / 5 = 8。 故 □ = 8 * 5 = 40。",
       "concept": "除法未知數算式",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "85 公尺",
         "65 公尺"
       ],
-      "answer": 1,
       "explanation": "120 - □ = 45。 □ = 120 - 45 = 75。",
       "concept": "減法未知數算式",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "10 元",
         "50 元"
       ],
-      "answer": 0,
       "explanation": "300 + □ * 10 = 500。 □ * 10 = 200。 □ = 20。",
       "concept": "乘加複合未知數",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "6",
         "8"
       ],
-      "answer": 2,
       "explanation": "□ * 4 = 24。 □ = 6。",
       "concept": "幾何與未知數",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "x * 12 = 96",
         "12 - x = 96"
       ],
-      "answer": 2,
       "explanation": "文字敘述直接轉為算式： 某數 (x) 乘以 (*) 12 等於 (=) 96。",
       "concept": "文字轉代數算式",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "0",
         "125"
       ],
-      "answer": 1,
       "explanation": "□ = 75 + 25 = 100。",
       "concept": "減法逆算",
       "quality_level": "L3",
-      "cqi_score": 2.75
+      "cqi_score": 2.75,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "120",
         "45"
       ],
-      "answer": 0,
       "explanation": "總重 = 40 * 3 = 120。 □ = 120 - 85 = 35。",
       "concept": "綜合應用與未知數",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "10",
         "20"
       ],
-      "answer": 0,
       "explanation": "60 / □ = 4。 □ = 60 / 4 = 15。",
       "concept": "除法逆算",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "42",
         "1"
       ],
-      "answer": 0,
       "explanation": "□ * 7 = 42。 □ = 6。",
       "concept": "逆向思考應用",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     }
   ]
 }

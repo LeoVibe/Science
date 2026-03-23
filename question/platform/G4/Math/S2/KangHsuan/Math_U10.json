@@ -14,11 +14,11 @@
         "10 時 65 分",
         "10 時半"
       ],
-      "answer": 0,
       "explanation": "10:20 + 45 分 = 11:05。 (20+45=65，進位 1 小時 5 分)。",
       "concept": "時間相加",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "4 小時 40 分",
         "3 小時"
       ],
-      "answer": 0,
       "explanation": "14:30 - 11:10 = 3 小時 20 分。",
       "concept": "時間跨度減法",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "2 小時 10 分",
         "3 小時"
       ],
-      "answer": 0,
       "explanation": "1時40分 + 50分 = 1時90分 = 2時30分。",
       "concept": "時間進位練習",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "15 分 15 秒",
         "14 分"
       ],
-      "answer": 1,
       "explanation": "2分15秒 * 7 = 14分 105秒 = 15分 45秒。",
       "concept": "時間乘以整數",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "6 小時",
         "17 小時"
       ],
-      "answer": 0,
       "explanation": "23:00 到 24:00 是 1 小時。 再加 6 小時。總共 7 小時。",
       "concept": "跨日時間計算",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "一樣快",
         "無法比較"
       ],
-      "answer": 1,
       "explanation": "乙 = 6 * 60 + 10 = 370 秒。 370 < 380，故乙快。",
       "concept": "時間單位比較",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "下午 4 時 45 分",
         "下午 5 時"
       ],
-      "answer": 0,
       "explanation": "5:15 - 40 分 = 4:75 - 40 = 4:35。",
       "concept": "時間相減借位",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "11 小時",
         "8 小時 30 分"
       ],
-      "answer": 1,
       "explanation": "24:00 - 21:30 = 2時30分。 再加上隔天的 7 時。總共 9時30分。",
       "concept": "睡眠時間跨度",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "420 秒",
         "100 秒"
       ],
-      "answer": 1,
       "explanation": "4 * 60 + 20 = 260。",
       "concept": "分秒換算",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "10:10",
         "09:40"
       ],
-      "answer": 1,
       "explanation": "第一節: 08:30-09:10。 休息: 09:10-09:20。 第二節: 09:20-10:00。",
       "concept": "時間間隔累計",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     }
   ]
 }

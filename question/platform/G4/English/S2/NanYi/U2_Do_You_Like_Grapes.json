@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "英文",
     "publisher": "NanYi",
@@ -21,28 +21,28 @@
         "I am",
         "I do"
       ],
-      "answer": "I do",
       "explanation": "Do you like...? 的肯定回答是 Yes, I do。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "I do"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'He doesn't like lemons.' means '他不喜歡檸檬'。",
-      "answer": "True",
       "explanation": "doesn't like 表示不喜歡。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Does she like cherries? B: No, she ______.",
-      "answer": "doesn't",
       "explanation": "Does she...? 的否定回答是 No, she doesn't。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "doesn't"
     },
     {
       "id": "4",
@@ -54,10 +54,10 @@
         "too",
         "very"
       ],
-      "answer": "really",
       "explanation": "really like 表示真的很喜歡。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "really"
     },
     {
       "id": "5",
@@ -69,10 +69,11 @@
         "juice",
         "kiwis"
       ],
-      "answer": "kiwis",
       "explanation": "kiwis (奇異果) 是水果，符合問句語境。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "kiwis"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

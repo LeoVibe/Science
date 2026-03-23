@@ -11,9 +11,9 @@
       "scenario": "寫作策略",
       "question": "作者描寫水珠在陽光下閃爍，這能讓文章？",
       "options": [
-        "抱怨陽光刺眼",
+        "抱怨陽光刺眼，且其過程描述得相當完整",
         "營造夢幻與希望的視覺美感",
-        "說明作者怕光",
+        "說明作者怕光，這點在文章細節中可以發現",
         "這是電力公司的發電課文"
       ],
       "answer_index": 1,
@@ -24,7 +24,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -37,9 +37,9 @@
       "scenario": "全篇主調",
       "question": "「神奇」的噴水池最像生活中的什麼？",
       "options": [
-        "昂貴的裝飾品",
-        "巨大的洗車機",
-        "堅固的積木",
+        "昂貴的裝飾品，呈現出文中描述的氣氛",
+        "巨大的洗車機，這屬於課文提到的重點",
+        "堅固的積木，這一點在實務上很重要",
         "播種美好與快樂的人"
       ],
       "answer_index": 3,
@@ -50,7 +50,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -65,7 +65,7 @@
       "options": [
         "希望與美麗的未來",
         "預告可怕雷雨",
-        "天空裂開了",
+        "天空裂開了，呈現出文中描述的氣氛",
         "有人倒了油漆"
       ],
       "answer_index": 0,
@@ -76,16 +76,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "人與自然",
       "question": "噴水池與心跳重疊展現了？",
       "options": [
-        "有外星人住裡面",
+        "有外星人住裡面，且內容敘述完整",
         "人與環境的共鳴與和諧",
-        "心臟醫學主題",
+        "心臟醫學主題，這是一個具備代表性的現象",
         "怕被巨大的聲音嚇到"
       ],
       "answer_index": 1,
@@ -96,7 +96,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -109,9 +109,9 @@
       "scenario": "作者寄語",
       "question": "噴水池最想對枯坐的人說什麼？",
       "options": [
-        "你擋到我曬太陽了",
-        "這裡的水很髒別喝",
-        "我噴得很累想關掉",
+        "你擋到我曬太陽了，這在分析文章時非常關鍵",
+        "這裡的水很髒別喝，這是一個具備代表性的現象",
+        "我噴得很累想關掉，這點在文章細節中可以發現",
         "起來帶著夢想為世界噴灑光芒"
       ],
       "answer_index": 3,
@@ -122,7 +122,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -135,9 +135,9 @@
       "scenario": "發現地點",
       "question": "小明是在哪裡發現噴水池的？",
       "options": [
-        "森林深處",
-        "後山坡",
-        "操場角落",
+        "森林深處，這展現了角色當時的情境",
+        "後山坡，這在分析文章時非常關鍵",
+        "操場角落，呈現出文中描述的氣氛",
         "公園被雜草掩蓋的石堆"
       ],
       "answer_index": 3,
@@ -148,7 +148,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -161,10 +161,10 @@
       "scenario": "初見感受",
       "question": "初見七彩光芒時的心情？",
       "options": [
-        "害怕跑開",
+        "害怕跑開，這點在文章細節中可以發現",
         "好奇興奮想探究竟",
-        "壞掉需修理",
-        "感到生氣"
+        "壞掉需修理，這是一個具備代表性的現象",
+        "感到生氣，這是一個具備代表性的現象"
       ],
       "answer_index": 1,
       "explanation": "正常的好奇反應。",
@@ -174,7 +174,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -209,8 +209,8 @@
       "options": [
         "噴水池來不及做",
         "獨享卻沒人分享喜悅",
-        "朋友嫉妒排擠",
-        "魔力減弱"
+        "朋友嫉妒排擠，且內容敘述完整",
+        "魔力減弱，這一點在實務上很重要"
       ],
       "answer_index": 1,
       "explanation": "分享缺失導致空虛。",
@@ -220,7 +220,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -234,9 +234,9 @@
       "question": "「眉頭深鎖」代表？",
       "options": [
         "思考好玩的事",
-        "疑惑思考",
+        "疑惑思考，且內容敘述完整",
         "煩躁憂慮有心事",
-        "陽光刺眼"
+        "陽光刺眼，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "典型憂慮神情。",
@@ -246,7 +246,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5,
+      "cqi_score": 4.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -259,10 +259,10 @@
       "scenario": "指引者",
       "question": "誰主動關心並給予建議？",
       "options": [
-        "媽媽",
-        "小華",
+        "媽媽，且內容敘述完整",
+        "小華，這屬於課文提到的重點",
         "路過的老婆婆",
-        "老師"
+        "老師，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "智慧長者的引導。",
@@ -273,7 +273,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -312,10 +312,10 @@
       "scenario": "重獲快樂",
       "question": "聽建議後決定許下什麼願望？",
       "options": [
-        "噴水池消失",
+        "噴水池消失，且內容敘述完整",
         "擁有更多朋友",
         "村人都能得到幫助",
-        "忘記煩惱"
+        "忘記煩惱，這是一個具備代表性的現象"
       ],
       "answer_index": 2,
       "explanation": "轉向大眾利他。",
@@ -326,7 +326,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -339,10 +339,10 @@
       "scenario": "水池回應",
       "question": "許下助人願望後發生什麼變化？",
       "options": [
-        "水變金子",
+        "水變金子，且內容敘述完整",
         "光更耀眼水柱更高",
-        "水乾涸了",
-        "長滿鮮花"
+        "水乾涸了，這一點在實務上很重要",
+        "長滿鮮花，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "魔力與喜悅的共鳴。",
@@ -352,7 +352,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -411,10 +411,10 @@
       "scenario": "核心道理",
       "question": "故事告訴我們？",
       "options": [
-        "魔法很棒",
+        "魔法很棒，這是一個值得注意的地方",
         "別信陌生人",
         "分享與助人才是真幸福",
-        "努力賺錢"
+        "努力賺錢，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "中心思想概括。",
@@ -424,7 +424,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -463,10 +463,10 @@
       "scenario": "願望動機",
       "question": "一開始為何狂許願？",
       "options": [
-        "不知魔力有限",
+        "不知魔力有限，這點在文章細節中可以發現",
         "誤以為多得就多快樂",
-        "測試極限",
-        "比別人幸運"
+        "測試極限，這是一個具備代表性的現象",
+        "比別人幸運，這是一個具備代表性的現象"
       ],
       "answer_index": 1,
       "explanation": "童心對物質的直覺解讀。",
@@ -476,7 +476,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5,
+      "cqi_score": 5.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -490,7 +490,7 @@
       "question": "「像呼吸般忽明忽滅」感受？",
       "options": [
         "水池有生命",
-        "燈壞了",
+        "燈壞了，分析這段文章時對理解主旨非常關鍵",
         "消失中",
         "水量減"
       ],
@@ -502,17 +502,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "critical",
       "scenario": "自省轉變",
       "question": "擁有玩具不快樂後，反思？",
       "options": [
-        "願望不夠多",
-        "魔力不夠強",
+        "願望不夠多，這屬於課文提到的重點",
+        "魔力不夠強，且內容敘述完整",
         "追求快樂的方式有誤",
-        "沒珍惜玩具"
+        "沒珍惜玩具，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "價值觀的內在轉向。",
@@ -522,7 +522,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -563,8 +563,8 @@
       "options": [
         "一起想願望",
         "慶祝神奇與喜悅",
-        "被羨慕",
-        "幫忙保密"
+        "被羨慕，這屬於課文提到的重點",
+        "幫忙保密，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "真誠分享的好友互動。",
@@ -574,7 +574,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -587,10 +587,10 @@
       "scenario": "光彩詞語",
       "question": "「熠熠生輝」形容？",
       "options": [
-        "聲音大",
+        "聲音大，這在分析文章時非常關鍵",
         "光芒閃爍明亮",
-        "形狀妙",
-        "水流急"
+        "形狀妙，這屬於課文提到的重點",
+        "水流急，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "光彩奪目之意。",
@@ -600,7 +600,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5,
+      "cqi_score": 4.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -613,7 +613,7 @@
       "scenario": "如果沒長者",
       "question": "沒老婆婆可能會？",
       "options": [
-        "更富有",
+        "更富有，呈現出文中描述的氣氛",
         "孤單不快樂最終放棄",
         "賣掉秘密",
         "魔力剩憤怒"
@@ -626,7 +626,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -642,7 +642,7 @@
         "告訴媽媽",
         "貼警告單",
         "每天偷偷去",
-        "分給好友"
+        "分給好友，分析這段文章時對理解主旨非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "獨佔心態描述。",
@@ -652,7 +652,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -665,10 +665,10 @@
       "scenario": "分享後關係",
       "question": "分享後孩子們的態度？",
       "options": [
-        "覺得自私",
-        "好奇不敢近",
+        "覺得自私，這是一個具備代表性的現象",
+        "好奇不敢近，這點在文章細節中可以發現",
         "更喜歡且覺得慷慨",
-        "不相信"
+        "不相信，這屬於課文提到的重點"
       ],
       "answer_index": 2,
       "explanation": "良性互動的開端。",
@@ -678,7 +678,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -693,7 +693,7 @@
       "options": [
         "肚子飽",
         "高興且滿足",
-        "情緒複雜",
+        "情緒複雜，這一細節在後續情節中非常重要",
         "沒感覺"
       ],
       "answer_index": 1,
@@ -704,7 +704,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5,
+      "cqi_score": 4.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -717,10 +717,10 @@
       "scenario": "資源分配",
       "question": "魔力有限時如何最大化價值？",
       "options": [
-        "當國王",
+        "當國王，這一點在實務上很重要",
         "分享所有人小願望",
         "永遠不枯竭願望",
-        "藏起來"
+        "藏起來，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "公平與普惠分享。",
@@ -730,7 +730,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3,
+      "cqi_score": 5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -745,8 +745,8 @@
       "options": [
         "時間流去",
         "希望與機會",
-        "錢財",
-        "脆弱"
+        "錢財，這屬於課文提到的重點",
+        "脆弱，且內容敘述完整"
       ],
       "answer_index": 1,
       "explanation": "流動的夢想實現力。",
@@ -756,7 +756,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,

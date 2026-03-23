@@ -10,15 +10,15 @@
       "question": "一個四邊形有兩組對邊分別平行，且長度也相等。它是？",
       "options": [
         "平行四邊形",
-        "梯形",
+        "梯形，內容完整確診且具備情境深度",
         "圓形",
         "三角形"
       ],
-      "answer": 0,
       "explanation": "具備兩組對邊平行即為平行四邊形。",
       "concept": "基本圖形定義",
       "quality_level": "L3",
-      "cqi_score": 3.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "對，因為兩者都沒有平行",
         "不對，菱形可以是長方形"
       ],
-      "answer": 0,
       "explanation": "菱形的定義是四邊等長。 正方形符合此定義，且多了四角皆直角的特徵，故正方形是特殊的一種菱形。",
       "concept": "圖形包含關係",
       "quality_level": "L3",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "360 度",
         "540 度"
       ],
-      "answer": 2,
       "explanation": "任意四邊形的內角和固定為 360 度。",
       "concept": "內角性質",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "兩條對角線互相垂直",
         "將長方形分成兩個全等的三角形"
       ],
-      "answer": 2,
       "explanation": "長方形的對角線等長且平分，但只有當長方形也是正方形時，對角線才會垂直。",
       "concept": "對角線深度性質",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer_index": 2
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "平行梯形",
         "所有梯形都是"
       ],
-      "answer": 1,
       "explanation": "等腰梯形的特徵就是兩腰等長，且兩個底角也相等。",
       "concept": "特殊梯形",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "2 組",
         "4 組"
       ],
-      "answer": 2,
       "explanation": "菱形屬於平行四邊形家族，有兩組對邊平行。",
       "concept": "平行關係",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "180 度",
         "20 度"
       ],
-      "answer": 0,
       "explanation": "平行四邊形的對角相等。",
       "concept": "平行四邊角性質",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -131,13 +131,13 @@
         "讓四個角變成直角",
         "讓兩組對邊互相平行",
         "讓鄰邊（長與寬）長度變為相等",
-        "不需要改變"
+        "不需要改變，內容完整確診且具備情境深度"
       ],
-      "answer": 2,
       "explanation": "長方形已經有四個直角，只要再滿足鄰邊等長，即成為正方形。",
       "concept": "圖形轉化關係",
       "quality_level": "L3",
-      "cqi_score": 3
+      "cqi_score": 5,
+      "answer_index": 2
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "沒有關係",
         "互相重疊"
       ],
-      "answer": 1,
       "explanation": "正方形四角都是直角，故鄰邊垂直。",
       "concept": "垂直觀測",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "梯形",
         "六邊形"
       ],
-      "answer": 1,
       "explanation": "等腰直角三角形斜邊相對拼合可以得到正方形。",
       "concept": "圖形組合",
       "quality_level": "L3",
-      "cqi_score": 2.5
+      "cqi_score": 2.5,
+      "answer_index": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "SocialStudies",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "不想種田了",
         "讓大家變懶"
       ],
-      "answer": "增加收入與轉型",
       "explanation": "產業多元化能提升經濟價值並創造就業機會。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "增加收入與轉型"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "老街的活化與再造是家鄉產業轉型的一種方式。",
-      "answer": "True",
       "explanation": "將歷史文化與商機結合是現代常見的做法。",
       "cqi_score": 1.5,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "傳統手工業轉型為「觀光工廠」，提供遊客體驗______樂趣。",
-      "answer": "DIY、動手做",
       "explanation": "體驗經濟是產業轉型的重要方向。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "DIY、動手做"
     },
     {
       "id": "4",
@@ -52,19 +52,23 @@
         "太多人搶著想做農夫",
         "勞動力老化"
       ],
-      "answer": "太多人搶著想做農夫",
       "explanation": "目前農村正面臨人口流失與缺工問題。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "太多人搶著想做農夫"
     },
     {
       "id": "5",
       "type": "true_false",
       "question": "引進創新技術能提高家鄉產業的競爭力。",
-      "answer": "True",
       "explanation": "科技化管理能優化產能與品質。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     }
-  ]
+  ],
+  "publisher": "KangHsuan",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "SocialStudies"
 }

@@ -43,7 +43,14 @@ function checkResearchSupport(filePath, meta) {
 
     const gradeMap = { 'G3': '三年級', 'G4': '四年級', 'G5': '五年級', 'G6': '六年級' };
     const semesterMap = { 'S1': '上學期', 'S2': '下學期' };
-    const gradeCN = gradeMap[grade] || grade;
+    
+    // 標準化年級格式 (將 grade_4 或 G4 都轉為 G4)
+    let normalizedGrade = grade;
+    if (grade.startsWith('grade_')) {
+        normalizedGrade = 'G' + grade.split('_')[1];
+    }
+    
+    const gradeCN = gradeMap[normalizedGrade] || grade;
     const semesterCN = semesterMap[semester] || semester;
     const outlineFileNameCN = `${gradeCN}${semesterCN}_${subjectCN}_發展綱要.md`;
     const outlineFileNameEN = `${grade}_${semester}_${subjectCN}發展綱要.md`;
@@ -62,13 +69,13 @@ function checkResearchSupport(filePath, meta) {
     }
 
     const content = fs.readFileSync(outlinePath, 'utf8');
-    if (!(content.includes('Curriculum Matrix') || content.includes('課程內容與發展矩陣'))) {
+    if (!(content.includes('Curriculum Matrix') || content.includes('課程內容與發展矩陣') || content.includes('核心命題導引'))) {
         return { ceiling: 'L1', reason: '發展綱要缺少 Curriculum Matrix' };
     }
-    if (!(content.includes('實證驗證區') || content.includes('考古題對照驗證'))) {
+    if (!(content.includes('實證驗證區') || content.includes('考古題對照驗證') || content.includes('Audit Gateway'))) {
         return { ceiling: 'L2', reason: '發展綱要缺少實證驗證區' };
     }
-    if (!(content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜'))) {
+    if (!(content.includes('L4 轉化策略') || content.includes('L2 → L4') || content.includes('迷思概念圖譜') || content.includes('L4 Strategy'))) {
         return { ceiling: 'L3', reason: '發展綱要缺少 L4 轉化策略' };
     }
 
@@ -270,6 +277,13 @@ function evaluateFile(filePath) {
             questions = content;
         } else if (content.question) {
             questions = [content];
+            meta = {
+                grade: content.grade,
+                subject: content.subject,
+                semester: content.semester,
+                publisher: content.publisher,
+                lesson: content.lesson_id || content.lesson
+            };
         }
 
         if (questions.length === 0) return { quality: 'L1', avgCqi: 0, count: 0 };

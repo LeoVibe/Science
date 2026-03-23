@@ -14,11 +14,11 @@
         "2,0180,0000,0000",
         "21,800,000,000"
       ],
-      "answer": 0,
       "explanation": "2兆1800億 = 2,1800,0000,0000。",
       "concept": "大數讀寫",
       "quality_level": "L3",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "一樣多",
         "無法比較"
       ],
-      "answer": 1,
       "explanation": "1 億 = 1,0000 萬。 故 12 兆 1 億 > 12 兆 4500 萬。",
       "concept": "大數單位比較",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "6 兆 8400 億",
         "7 兆 8400 億"
       ],
-      "answer": 0,
       "explanation": "8400 + 2000 = 10400 億 = 1 兆 400 億。 5 + 1 = 6，故為 6 兆 400 億。",
       "concept": "大數進位加法",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "10000 個",
         "100000 個"
       ],
-      "answer": 2,
       "explanation": "1,0000,0000 / 1,0000 = 1,0000。在一萬進法下，一萬個萬就是一億。",
       "concept": "位值與進率",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer_index": 2
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "5",
         "7"
       ],
-      "answer": 1,
       "explanation": "3 在「十兆位」，0 在「兆位」。",
       "concept": "特定數位識別",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "一兆四億",
         "一百兆零四十億"
       ],
-      "answer": 0,
       "explanation": "兆與億區中間有連續零，通常讀出一個「零」。",
       "concept": "含零大數讀法",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 0
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "5000 億 GB",
         "1000 億 GB"
       ],
-      "answer": 0,
       "explanation": "1 兆 = 10000 億。 10000 - 4500 = 5500 億。",
       "concept": "跨單位大數減法",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -129,15 +129,15 @@
       "question": "100 個一億是多少？",
       "options": [
         "100 億",
-        "1 兆",
+        "1 兆，這點在分析單元核心時非常關鍵",
         "10 億",
         "1 億"
       ],
-      "answer": 0,
       "explanation": "直接就是一百億。",
       "concept": "數位的倍數",
       "quality_level": "L2",
-      "cqi_score": 2.75
+      "cqi_score": 4.75,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "14 兆",
         "140 億"
       ],
-      "answer": 0,
       "explanation": "14 億 * 100 = 1400 億。",
       "concept": "大數乘法感",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "3,000,000,000,000",
         "3,000,000,000"
       ],
-      "answer": 1,
       "explanation": "2 在千億位。換成 5 增加了 3 個千億 = 3000 億 = 300,000,000,000。",
       "concept": "數位值的變動分析",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     }
   ]
 }

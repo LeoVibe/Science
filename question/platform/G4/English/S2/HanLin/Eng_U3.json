@@ -22,7 +22,7 @@
       "explanation": "每週上課的第一天通常是星期一 (Monday)。",
       "commonMisconception": "將第一天上學日與週日混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -34,13 +34,13 @@
         "Friday",
         "Monday",
         "Saturday",
-        "Tuesday"
+        "Tuesday，呈現出課綱所要求之探索精神"
       ],
       "answer_index": 2,
       "explanation": "如果明天是週日且不用上學，那今天就是週六 (Saturday)。",
       "commonMisconception": "星期的先後順序判定錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -50,7 +50,7 @@
       "question": "My favorite day is ______. It is the day before Thursday.",
       "options": [
         "Wednesday",
-        "Tuesday",
+        "Tuesday，呈現出課綱所要求之探索精神",
         "Friday",
         "Monday"
       ],
@@ -58,7 +58,7 @@
       "explanation": "週四的前一天是週三 (Wednesday)。",
       "commonMisconception": "星期的前後對應力弱。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -76,7 +76,7 @@
       "explanation": "詢問「今天是星期幾」的固定句型為 'What day is today?'。",
       "commonMisconception": "誤用 When (問日期或具體時間點)。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -94,7 +94,7 @@
       "explanation": "對於 'Is today...?' 的肯定簡答，最正式且正確的結構是 'Yes, it is'。",
       "commonMisconception": "誤以為可以用縮寫 Yes, it's 作為句子結尾。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -112,7 +112,7 @@
       "explanation": "否定語境下，對於 'Is it...?' 的答覆應為 'No, it isn't'。",
       "commonMisconception": "助動詞選取錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -130,7 +130,7 @@
       "explanation": "今天週三，明天 (Tomorrow) 是週四。",
       "commonMisconception": "Today / Tomorrow / Yesterday 詞義混淆。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -142,13 +142,13 @@
         "I like monday.",
         "It's monday today.",
         "We have art class on Monday.",
-        "Today is m-o-n-d-a-y."
+        "Today is m-o-n-d-a-y.，這點在分析單元核心時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "英文中的星期名稱第一個字母必須「大寫」。",
       "commonMisconception": "星期的首字母未大寫。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -166,7 +166,7 @@
       "explanation": "在「星期幾」，介係詞應使用 'on'。",
       "commonMisconception": "誤用 in 或 at。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +184,7 @@
       "explanation": "文中敘述 'We have music class on Friday'。",
       "commonMisconception": "資訊比對錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -202,7 +202,7 @@
       "explanation": "週二的兩天後 (週三、週四) 是週四 (Thursday)。",
       "commonMisconception": "日期計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -220,7 +220,7 @@
       "explanation": "週末 (weekend) 指的是週六和週日。選項中只有週六符合。",
       "commonMisconception": "不了解 weekend 的具體範圍。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -238,7 +238,7 @@
       "explanation": "週五後天回家，在家待週六、週日，接著週一 (Monday) 上學。",
       "commonMisconception": "邏輯鏈條過長導致推算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -249,14 +249,14 @@
       "options": [
         "Yes, they do.",
         "No, they don't.",
-        "Yes, it is.",
+        "Yes, it is.，內容完整確診且具備情境深度",
         "No, it isn't."
       ],
       "answer_index": 1,
       "explanation": "兩人打球的日期完全沒有重疊。",
       "commonMisconception": "資訊提取不全。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -274,7 +274,7 @@
       "explanation": "表達「每個星期幾」，可以使用 'on Sundays' (複數名詞) 或 'every Sunday'。",
       "commonMisconception": "不知星期名稱可加 s 表達頻率概念。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -286,13 +286,13 @@
         "Monday",
         "Tuesday",
         "Wednesday",
-        "Thursday"
+        "Thursday，內容完整確診且具備情境深度"
       ],
       "answer_index": 2,
       "explanation": "1號是週一，2號是週二，3號是週三 (Wednesday)。",
       "commonMisconception": "基數與序數對應落差。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -310,7 +310,7 @@
       "explanation": "露營應選晴天，所以是週日 (Sunday)。",
       "commonMisconception": "因果判定錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -328,7 +328,7 @@
       "explanation": "在西方宗教文化或許多曆法中，週日 (Sunday) 被視為一週的第一天。",
       "commonMisconception": "不了解中西曆法文化差異。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

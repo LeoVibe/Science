@@ -14,11 +14,11 @@
         "1 公斤",
         "5/7 公斤"
       ],
-      "answer": 0,
       "explanation": "4/7 + 2/7 = 6/7。",
       "concept": "同分母分數加法",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "1 公斤",
         "2 公斤"
       ],
-      "answer": 1,
       "explanation": "1 2/5 + 4/5 = 1 6/5 = 2 1/5。",
       "concept": "帶分數與真分數相加",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "2 公尺",
         "1 又 3/8 公尺"
       ],
-      "answer": 0,
       "explanation": "3 1/8 - 1 5/8 = 2 9/8 - 1 5/8 = 1 4/8。",
       "concept": "帶分數減法（借位）",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "3 又 7/10 公升",
         "以上皆是"
       ],
-      "answer": 3,
       "explanation": "15/10 + 22/10 = 37/10 = 3 7/10 = 3.7。三種表達方式都正確。",
       "concept": "分數加法的不同表達",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 3
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "7/6 盒",
         "11/6 盒"
       ],
-      "answer": 0,
       "explanation": "2 - 5/6 = 1 6/6 - 5/6 = 1 1/6。",
       "concept": "整數減真分數",
       "quality_level": "L3",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "18 又 5/9 公里",
         "20 公里"
       ],
-      "answer": 1,
       "explanation": "第二段 = 8 4/9 + 1 7/9 = 9 11/9 = 10 2/9。 總長 = 8 4/9 + 10 2/9 = 18 6/9。",
       "concept": "兩步驟帶分數應用",
       "quality_level": "L4",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "1",
         "2 又 2/4"
       ],
-      "answer": 1,
       "explanation": "5/4 等於 1 1/4，所以差是 0。",
       "concept": "假分數與帶分數對等",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "1/3 袋",
         "不剩"
       ],
-      "answer": 0,
       "explanation": "混合 = 2 1/3 + 1 2/3 = 3 3/3 = 4。 剩餘 = 4 - 3 = 1。",
       "concept": "整數化計算",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "小英多 1/12 公里",
         "一樣多"
       ],
-      "answer": 0,
       "explanation": "小花 = 1 2/12 = 14/12。 小英 = 17/12。 17/12 - 14/12 = 3/12。故小英多。",
       "concept": "分數大小比較與運算",
       "quality_level": "L4",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "3 小時",
         "4 小時"
       ],
-      "answer": 1,
       "explanation": "1 3/4 + 1 2/4 = 2 5/4 = 3 1/4。",
       "concept": "生活中分數累計",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 1
     }
   ]
 }

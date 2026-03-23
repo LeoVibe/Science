@@ -231,7 +231,14 @@ export default function AdminLibraryManager() {
   };
 
   const publisherStats = (libraryData as {
-    publisherStats?: Record<string, { units: number; questions: number; quality: string; cqi?: number | string }>;
+    publisherStats?: Record<string, {
+      units: number;
+      questions: number;
+      bankQuestions?: number;
+      publishedQuestions?: number;
+      quality: string;
+      cqi?: number | string;
+    }>;
   })
     .publisherStats ?? {};
 
@@ -360,8 +367,9 @@ export default function AdminLibraryManager() {
                                     const statKey = `G${grade}_S${sem}_${subject}_${pub}`;
                                     const stat = publisherStats[statKey];
                                     const quality = stat?.quality ?? '—';
-                                    const questionCount = stat?.questions ?? 0;
-                                    const hasData = stat && stat.units > 0;
+                                    const shelfCount = stat?.publishedQuestions ?? stat?.questions ?? 0;
+                                    const bankCount = stat?.bankQuestions ?? shelfCount;
+                                    const hasData = stat && (stat.units > 0 || shelfCount > 0 || bankCount > 0);
                                     const isSelectable = !!hasData;
                                     const rawCqi = stat?.cqi ?? 0;
                                     const cqiValue =
@@ -398,8 +406,17 @@ export default function AdminLibraryManager() {
                                           >
                                             {hasCqi ? cqiValue.toFixed(2) : '—'}
                                           </span>
-                                          <span className={`text-[10px] font-medium ml-auto shrink-0 ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
-                                            {hasData ? `${questionCount} 題` : '無題庫'}
+                                          <span className={`text-[10px] font-medium ml-auto shrink-0 flex flex-col items-end leading-tight ${isOn ? 'opacity-90' : 'text-muted-foreground'}`}>
+                                            {hasData ? (
+                                              <>
+                                                <span>{shelfCount} 題 上架</span>
+                                                {bankCount > shelfCount && (
+                                                  <span className="text-[9px] opacity-80">題庫 {bankCount}</span>
+                                                )}
+                                              </>
+                                            ) : (
+                                              '無題庫'
+                                            )}
                                           </span>
                                           {isOn && isSelectable && (
                                             <span className="w-4 h-4 rounded-full bg-white/35 flex items-center justify-center text-[10px] text-white font-bold shrink-0">

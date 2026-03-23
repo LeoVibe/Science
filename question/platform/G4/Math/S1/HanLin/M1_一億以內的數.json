@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "萬位",
         "百萬位"
       ],
-      "answer": "萬位",
       "explanation": "數位順序從右往左是：個、十、百、千、萬...",
       "cqi_score": 6.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "萬位"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "1000 個一萬是一千萬。",
-      "answer": "True",
       "explanation": "1,000 × 10,000 = 10,000,000。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "「四千零八萬零三百」記作______。",
-      "answer": "40080300",
       "explanation": "千萬位 4，萬位 8，百位 3，其餘補 0。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "40080300"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "無法比較",
         "50,500,000"
       ],
-      "answer": "50,500,000",
       "explanation": "比較十萬位，5 大於 0。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "50,500,000"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "10,005,000",
         "9,999,999"
       ],
-      "answer": "9,999,999",
       "explanation": "只相差 1，最接近。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "9,999,999"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -14,11 +14,11 @@
         "水生植物",
         "爬藤植物"
       ],
-      "answer": 1,
       "explanation": "草本植物的莖含有較多葉綠體且質地較軟，壽命多為一至二年。",
       "concept": "植物分類-莖的特徵",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -28,14 +28,14 @@
       "options": [
         "吸收陽光",
         "吸收水和礦物質，並固定植物",
-        "進行光合作用",
+        "進行光合作用，這點在分析單元核心時非常關鍵",
         "吸引昆蟲"
       ],
-      "answer": 1,
       "explanation": "根位於土中，主要負責吸水、吸收礦物質及支撐固定植物體。",
       "concept": "植物器官構造",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -45,14 +45,14 @@
       "options": [
         "比較漂亮",
         "分散葉片避免互相遮擋，以獲得最多的陽光",
-        "減少水分蒸發",
+        "減少水分蒸發，內容完整確診且具備情境深度",
         "避免被蟲吃"
       ],
-      "answer": 1,
       "explanation": "葉序的排列是為了優化受光面積，以進行有效率的光合作用。",
       "concept": "葉序與光合作用",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "挺水性",
         "漂浮性"
       ],
-      "answer": 1,
       "explanation": "浮水植物的根長在水底土壤，葉片漂浮於水面。 (Note: 漂浮植物是根不著地)。",
       "concept": "水生植物分類",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "葉",
         "花"
       ],
-      "answer": 2,
       "explanation": "落地生根的葉緣缺刻處會長出小芽，屬於葉片營養繁殖。",
       "concept": "營養器官繁殖",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "輻射脈",
         "羽狀脈"
       ],
-      "answer": 1,
       "explanation": "單子葉植物（如百合、稻子）通常具備平行葉脈。",
       "concept": "葉脈特徵",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "睡覺現象",
         "枯萎現象"
       ],
-      "answer": 1,
       "explanation": "植物對外界刺激產生的快速反應，由細胞壓力（膨壓）改變引起。",
       "concept": "植物感應",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 4.75,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -130,14 +130,14 @@
       "options": [
         "厚厚的毛",
         "強韌的氣室與骨架(粗大的葉脈)",
-        "黏液層",
+        "黏液層，呈現出課綱所要求之探索精神",
         "很多洞洞"
       ],
-      "answer": 1,
       "explanation": "大王蓮葉背具有粗壯的葉脈支撐且內含氣體，增加升力與強度。",
       "concept": "植物形態與環境適應",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -146,15 +146,15 @@
       "question": "一朵『完全花』必須具備哪四個部分？",
       "options": [
         "花瓣、花萼、雄蕊、雌蕊",
-        "花瓣、葉子、莖、根",
+        "花瓣、葉子、莖、根，這點在分析單元核心時非常關鍵",
         "花粉、昆蟲、陽光、水",
         "花苞、刺、果實、種子"
       ],
-      "answer": 0,
       "explanation": "完全花的四要素包含：花瓣、花萼、雌蕊、雄蕊。",
       "concept": "花的構造",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "氧氣",
         "氫氣"
       ],
-      "answer": 2,
       "explanation": "光合作用吸收二氧化碳並釋放氧氣。",
       "concept": "光合作用產物",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     }
   ]
 }

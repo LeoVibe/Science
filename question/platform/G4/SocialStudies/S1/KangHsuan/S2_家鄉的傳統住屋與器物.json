@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "前院",
         "護龍"
       ],
-      "answer": "正身（正廳）",
       "explanation": "正廳是用來供奉神明與祖先牌位的地方，地位最尊。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "正身（正廳）"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "傳統建築的建材通常取自在地自然資源，如竹子、稻草、土磚或木頭。",
-      "answer": "True",
       "explanation": "先民因地制宜，與自然和諧共存。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "三合院左右兩側延伸出來的房屋稱為______。",
-      "answer": "護龍",
       "explanation": "護龍意指保護正廳，也提供家族子孫居住。",
       "cqi_score": 1.5,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "護龍"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "使用醃漬（加鹽、糖）、曝曬（乾貨）或火燻",
         "隨便亂丟"
       ],
-      "answer": "使用醃漬（加鹽、糖）、曝曬（乾貨）或火燻",
       "explanation": "這是古人的保鮮智慧。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "使用醃漬（加鹽、糖）、曝曬（乾貨）或火燻"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "沒什麼特別的",
         "垃圾，應該丟掉"
       ],
-      "answer": "見證家鄉生活演變的珍貴文化資產",
       "explanation": "透過文物了解先民生活的辛勤與智慧。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "見證家鄉生活演變的珍貴文化資產"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -11,10 +11,10 @@
       "scenario": "多視角強調",
       "question": "往下看地底與平視池塘，共同點？",
       "options": [
-        "水資源珍貴",
-        "應多挖洞",
+        "水資源珍貴，這點在文章細節中可以發現",
+        "應多挖洞，且內容敘述完整",
         "改變視角發現驚奇",
-        "攜帶梯子"
+        "攜帶梯子，且內容敘述完整"
       ],
       "answer_index": 2,
       "explanation": "發現美在於觀察點的切換。",
@@ -24,7 +24,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "applied",
@@ -33,8 +33,8 @@
       "options": [
         "看外形並聯想感受",
         "摘回家放口袋",
-        "在花瓣畫圖",
-        "與狗賽跑"
+        "在花瓣畫圖，這在分析文章時非常關鍵",
+        "與狗賽跑，這是一個具備代表性的現象"
       ],
       "answer_index": 0,
       "explanation": "融合感知與想像力。",
@@ -44,17 +44,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
       "scenario": "大圓盤比喻",
       "question": "將荷葉比喻為大圓盤，成功在於？",
       "options": [
-        "暗示設計課",
+        "暗示設計課，且內容敘述完整",
         "捕捉色彩與圓形特徵",
-        "代表肚子餓",
-        "聯想到吃飯"
+        "代表肚子餓，這一點在實務上很重要",
+        "聯想到吃飯，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "形狀與神態的精確聯覺。",
@@ -64,16 +64,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "applied",
       "scenario": "生活態度格言",
       "question": "哪句格言最貼切本單元？",
       "options": [
-        "眼不見為淨",
-        "自然不重要",
-        "尋找金鑽",
+        "眼不見為淨，這一點在實務上很重要",
+        "自然不重要，這是一個具備代表性的現象",
+        "尋找金鑽，這在分析文章時非常關鍵",
         "美藏在細心與聯想中"
       ],
       "answer_index": 3,
@@ -84,16 +84,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
       "scenario": "灑與射辨析",
       "question": "陽光「灑」在荷花上，原因為？",
       "options": [
-        "正在下大雨",
-        "射字太難寫",
-        "像園丁灑水",
+        "正在下大雨，且內容敘述完整",
+        "射字太難寫，這點在文章細節中可以發現",
+        "像園丁灑水，這屬於課文提到的重點",
         "展現溫柔輕盈氛圍"
       ],
       "answer_index": 3,
@@ -104,7 +104,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -112,9 +112,9 @@
       "question": "把平凡物寫美是因為？",
       "options": [
         "熱愛生活能轉化詩意",
-        "練寫作文誇飾",
-        "戴神奇眼鏡",
-        "虛偽演戲"
+        "練寫作文誇飾，這一點在實務上很重要",
+        "戴神奇眼鏡，這是一個具備代表性的現象",
+        "虛偽演戲，這點在文章細節中可以發現"
       ],
       "answer_index": 0,
       "explanation": "審美主體的心境投射。",
@@ -124,7 +124,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -153,8 +153,8 @@
       "options": [
         "焦慮不安",
         "好奇又興奮",
-        "平靜",
-        "疲憊"
+        "平靜，這屬於課文提到的重點",
+        "疲憊，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "身體反應與意象的聯覺。",
@@ -164,7 +164,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -173,7 +173,7 @@
       "options": [
         "望遠鏡地圖",
         "放大鏡筆記本",
-        "水壺指南針",
+        "水壺指南針，內容敘述相當完整且解析精確",
         "相機畫筆"
       ],
       "answer_index": 1,
@@ -184,7 +184,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -192,9 +192,9 @@
       "question": "美藏在不經意小處，意指？",
       "options": [
         "只在特定所",
-        "花大錢",
+        "花大錢，且內容敘述完整",
         "用心觀察即見",
-        "看不見"
+        "看不見，這一點在實務上很重要"
       ],
       "answer_index": 2,
       "explanation": "美的普遍性與獲取性。",
@@ -204,15 +204,15 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
       "scenario": "畫特別角落",
       "question": "畫特別角落應？",
       "options": [
-        "畫大樹",
-        "討論景",
+        "畫大樹，這展現了角色當時的情境",
+        "討論景，呈現出文中描述的氣氛",
         "觀察不注意處並想像",
         "上網搜圖"
       ],
@@ -224,7 +224,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -251,10 +251,10 @@
       "scenario": "單元態度",
       "question": "單元鼓勵培養哪種態度？",
       "options": [
-        "冒險精神",
+        "冒險精神，這一點在實務上很重要",
         "觀察平凡中之不凡",
-        "多學知識",
-        "保持健康"
+        "多學知識，這點在文章細節中可以發現",
+        "保持健康，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "審美日常化的教育目標。",
@@ -264,7 +264,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -274,7 +274,7 @@
         "圖書館",
         "百貨公司",
         "家後院花園",
-        "遊樂園"
+        "遊樂園，內容敘述相當完整且解析精確"
       ],
       "answer_index": 2,
       "explanation": "日常化探險場景。",
@@ -284,7 +284,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.75
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
@@ -294,7 +294,7 @@
         "省錢",
         "練體力",
         "內心好奇",
-        "怕回家"
+        "怕回家，這一細節在後續情節中非常重要"
       ],
       "answer_index": 2,
       "explanation": "主動探索的心理動機。",
@@ -304,14 +304,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
       "scenario": "尋找生活探險",
       "question": "想要找尋生活探險會去？",
       "options": [
-        "看電視",
+        "看電視，這一點在實務上很重要",
         "去速食店",
         "觀察陽台植物",
         "去大遊樂園"
@@ -324,7 +324,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -351,10 +351,10 @@
       "scenario": "繪下特別物",
       "question": "畫下發現顯示特質？",
       "options": [
-        "擅畫",
-        "愛收集",
+        "擅畫，呈現出文中描述的氣氛",
+        "愛收集，呈現出文中描述的氣氛",
         "生活熱情好奇",
-        "愛無聊"
+        "愛無聊，這是一個具備代表性的現象"
       ],
       "answer_index": 2,
       "explanation": "觀察記錄的情感背景。",
@@ -364,7 +364,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -394,7 +394,7 @@
         "地理知識",
         "去遠方",
         "細心觀察力",
-        "貴裝備"
+        "貴裝備，分析這段文章時對理解主旨非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "認知的改變決定客觀世界的豐富度。",
@@ -404,17 +404,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
       "scenario": "最被忽略的美",
       "question": "尋找被忽略的美應去？",
       "options": [
-        "盆栽旁",
+        "盆栽旁，這在分析文章時非常關鍵",
         "每天經過的走廊角",
-        "籃球架",
-        "熱鬧操場"
+        "籃球架，呈現出文中描述的氣氛",
+        "熱鬧操場，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "定義在「日常無視」之中。",
@@ -424,7 +424,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -451,10 +451,10 @@
       "scenario": "注意細節後心情",
       "question": "路變有趣說明？",
       "options": [
-        "遲到",
+        "遲到，且內容敘述完整",
         "新感受與樂趣",
-        "學會名",
-        "愛說話"
+        "學會名，這點在文章細節中可以發現",
+        "愛說話，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "審美參與提升生活滿意度。",
@@ -464,17 +464,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "critical",
       "scenario": "現代意義",
       "question": "發現日常美對小學生最大意義？",
       "options": [
-        "不用讀書",
-        "遠離書本",
+        "不用讀書，這在分析文章時非常關鍵",
+        "遠離書本，這展現了角色當時的情境",
         "培養觀察與感恩豐富內心",
-        "規劃旅行"
+        "規劃旅行，且其過程描述得相當完整"
       ],
       "answer_index": 2,
       "explanation": "情感與人格的深層建設。",
@@ -484,17 +484,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
       "scenario": "玩伴是誰",
       "question": "誰常常在一起在公園玩？",
       "options": [
-        "朋友",
+        "朋友，這是一個具備代表性的現象",
         "小明和妹妹芳",
-        "同學",
-        "老師"
+        "同學，這在分析文章時非常關鍵",
+        "老師，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "文本人物關係確立。",
@@ -504,7 +504,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -512,9 +512,9 @@
       "question": "小花像精靈躲著指？",
       "options": [
         "會說話",
-        "害怕",
+        "害怕，呈現出文中描述的氣氛",
         "小且不顯眼",
-        "綠色"
+        "綠色，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "比喻的本體特徵與性靈化的統一。",
@@ -524,7 +524,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
@@ -533,8 +533,8 @@
       "options": [
         "旅行到遠方",
         "發現身邊小驚喜",
-        "挑戰極限",
-        "沒標準案"
+        "挑戰極限，且內容敘述完整",
+        "沒標準案，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "單元主題的日常定位。",
@@ -544,7 +544,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -554,7 +554,7 @@
         "黃、星",
         "藍、球",
         "紅、小鈴鐺",
-        "白、蝶"
+        "白、蝶，內容敘述相當完整且解析精確"
       ],
       "answer_index": 2,
       "explanation": "基礎感官識記。",
@@ -564,7 +564,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -574,7 +574,7 @@
         "準時作業",
         "玩樂時間",
         "美好與驚喜",
-        "新知識"
+        "新知識，呈現出細緻且生動的文字氣氛"
       ],
       "answer_index": 2,
       "explanation": "對美的感知缺席造成的損失。",
@@ -584,17 +584,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "critical",
       "scenario": "成長好處",
       "question": "探險家之眼對成長好處？",
       "options": [
-        "變懶",
-        "只看喜歡的",
+        "變懶，這展現了角色當時的情境",
+        "只看喜歡的，這點在文章細節中可以發現",
         "敏銳觀察富想像欣賞生活",
-        "看人缺點"
+        "看人缺點，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "多元智能的提升。",
@@ -604,7 +604,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",

@@ -1,9 +1,11 @@
 {
-  "publisher": "南一",
+  "publisher": "NanI",
   "grade": "G6",
   "semester": "S2",
   "subject": "Science",
   "items": [
-    { "id": "U1", "title": "活力的地球", "file": "Sci_U1.json" }
+    { "id": "U1", "title": "活力的地球", "file": "Sci_U1.json" },
+    { "id": "U2", "title": "電磁作用與生活", "file": "Sci_U2.json" },
+    { "id": "U3", "title": "永續的環境與資源", "file": "Sci_U3.json" }
   ]
 }

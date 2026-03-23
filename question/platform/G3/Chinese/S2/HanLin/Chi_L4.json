@@ -34,7 +34,7 @@
         "因為他昨天晚上沒有睡好，所以現在覺得腦袋昏沉沉的，不知道自己在說什麼話",
         "他是一個非常愛計較且小氣的人，想要找出是誰把垃圾偷偷藏在石頭下面不清理",
         "這代表他對這個世界充滿了強烈的好奇心與探索欲望，想要發現那些看不見的祕密",
-        "他覺得非常無聊，因為沒人陪他玩遊戲，所以只好對著地板一直隨便地亂說話"
+        "他覺得非常無聊，因為沒人陪他玩遊戲，所以只好對著地板一直隨便地亂說話，這點在文章細節中可以清楚發現"
       ],
       "answer_index": 2,
       "explanation": "「下面有什麼」是好奇心的化身語句。",
@@ -44,7 +44,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
@@ -133,7 +133,7 @@
       "options": [
         "這代表作者當時覺得非常害怕，在那邊一直發抖且想要趕快找老師幫他去抓小螞蟻",
         "這是在模擬那種發現新事物時驚喜若狂的興奮感，帶領讀者進入那種發現驚喜的當下",
-        "他在那邊大聲抗議，覺得石頭下面長得太醜了，讓他心情變得很糟糕、不想要看",
+        "他在那邊大聲抗議，覺得石頭下面長得太醜了，讓他心情變得很糟糕、不想要看，這屬於課文中提到的核心學習重點",
         "他想在那邊大聲唱歌，既然這是一次非常難得的表演機會，那他就決定要放聲大叫"
       ],
       "answer_index": 1,
@@ -144,7 +144,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 7.25
     },
     {
       "taxonomy": "inferential",
@@ -271,10 +271,10 @@
       "scenario": "心情推斷",
       "question": "為什麼作者在翻開東西之前，會覺得心跳有一點快？",
       "options": [
-        "A. 因為外面天氣太熱了",
-        "B. 因為他剛剛跑了大隊接力賽跑",
+        "A. 因為外面天氣太熱了，這是一個值得注意的地方",
+        "B. 因為他剛剛跑了大隊接力賽跑，這在分析文章時非常關鍵",
         "C. 因為充滿好奇與期待，想知道下面到底藏著什麼驚喜",
-        "D. 因為他剛才喝了太多的汽水"
+        "D. 因為他剛才喝了太多的汽水，且其過程描述得相當完整"
       ],
       "answer_index": 2,
       "explanation": "這是一種對「未知」的正面反應，即興奮與好奇。心跳快在這裡是情緒的描寫。",
@@ -284,17 +284,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
       "scenario": "觀察與細節",
       "question": "當作者翻開枯葉堆時，最有可能看到下列哪一種小生物在下面蠕動？",
       "options": [
-        "A. 會飛的小麻雀",
+        "A. 會飛的小麻雀，且內容敘述完整",
         "B. 正在搬家的小螞蟻或蚯蚓",
-        "C. 巨大的北極熊",
-        "D. 在水裡游泳的小魚"
+        "C. 巨大的北極熊，這在分析文章時非常關鍵",
+        "D. 在水裡游泳的小魚，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "這結合了常識與課文描述，泥土與枯葉交界處是小型節肢動物或環節動物的棲息地。",
@@ -304,14 +304,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "主旨理解",
       "question": "這篇文章的核心問題「下面有什麼？」，最能代表作者的哪一種態度？",
       "options": [
-        "A. 反正什麼都沒有，懶得去看",
+        "A. 反正什麼都沒有，懶得去看，呈現出文中描述的氣氛",
         "B. 對生活充滿好奇與熱情的探索精神",
         "C. 覺得這個世界很可怕，想躲起來",
         "D. 想要趕快把功課寫完去玩電動"
@@ -324,17 +324,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 7
     },
     {
       "taxonomy": "contextual",
       "scenario": "【小明在公園看到一個半掩著的小木箱】",
       "question": "如果你想學這篇課文的主角，你會怎麼做？",
       "options": [
-        "A. 大聲尖叫一聲然後趕快跑開",
+        "A. 大聲尖叫一聲然後趕快跑開，這點在文章細節中可以發現",
         "B. 輕輕地、好奇地去翻開看看裡面有什麼驚喜",
-        "C. 坐在木箱上面當馬騎",
-        "D. 把木箱踢到水溝裡面去"
+        "C. 坐在木箱上面當馬騎，這屬於課文中提到的重點",
+        "D. 把木箱踢到水溝裡面去，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "這考驗孩子是否能將「輕輕觀察」的原則應用到生活中。",
@@ -344,7 +344,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -352,8 +352,8 @@
       "question": "作者在房間裡也進行了探索，他翻開了什麼？",
       "options": [
         "A. 床底下的舊玩具和灰塵",
-        "B. 衣櫃裡的新衣服",
-        "C. 廚房裡的平底鍋",
+        "B. 衣櫃裡的新衣服，這屬於課文提到的重點",
+        "C. 廚房裡的平底鍋，呈現出文中描述的氣氛",
         "D. 書桌上的國語課本"
       ],
       "answer_index": 0,
@@ -364,17 +364,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "深層含義",
       "question": "课文最後提到的「心裡面，下面有什麼？」，這是在教我們什麼？",
       "options": [
-        "A. 教我們要多喝水保護心臟",
+        "A. 教我們要多喝水保護心臟，呈現出文中描述的氣氛",
         "B. 教我們要學習反思，了解自己真實的感受與祕密",
-        "C. 教我們如何練習大聲唱歌",
-        "D. 說明心臟長在身體的下面"
+        "C. 教我們如何練習大聲唱歌，呈現出文中描述的氣氛",
+        "D. 說明心臟長在身體的下面，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "這是文章層次的昇華，從實體的探索轉向心靈的自我覺察（內省）。",
@@ -384,7 +384,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -413,7 +413,7 @@
       "options": [
         "A. 因為他覺得被泥土弄髒，所以在那邊生氣尖叫",
         "B. 因為他的猜測成真了，覺得非常有滿足感與驚喜感",
-        "C. 因為他看到老師就在石頭下面工作",
+        "C. 因為他看到老師就在石頭下面工作，這展現了角色當時的情境",
         "D. 因為他的這聲音是用來嚇跑路過的野狗"
       ],
       "answer_index": 1,
@@ -424,17 +424,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
       "scenario": "角色態度",
       "question": "作者在探索完後，他會把翻開的石頭或枯葉怎麼處理？",
       "options": [
-        "A. 隨便亂丟到馬路上",
+        "A. 隨便亂丟到馬路上，且其過程描述得相當完整",
         "B. 小心地恢復原狀，讓小生物能繼續安靜生活",
         "C. 把這些石頭全部搬回家當收藏品",
-        "D. 請警察叔叔過來把石頭抓走"
+        "D. 請警察叔叔過來把石頭抓走，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "這是愛護自然的表現。探索是為了了解而非佔有或破壞。",
@@ -444,16 +444,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "邏輯關係",
       "question": "為什麼「翻開石頭」之後，會看見「泥土的潮濕味道」？",
       "options": [
-        "A. 因為有人剛好在石頭後面灑水",
+        "A. 因為有人剛好在石頭後面灑水，呈現出文中描述的氣氛",
         "B. 因為石頭能擋住陽光，讓下面的水分不容易散發掉",
-        "C. 因為石頭本身會一直流出汗水",
+        "C. 因為石頭本身會一直流出汗水，呈現出文中描述的氣氛",
         "D. 因為土裡面藏了很多冰棒，所以感覺涼涼的"
       ],
       "answer_index": 1,
@@ -464,17 +464,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "【如果你也可以像作者一樣，有一次翻開機會】",
       "question": "你最想翻開什麼？哪一個回應最符合這課「看見美好」的精神？",
       "options": [
-        "A. 我想翻開電視機看裡面有沒有人住",
+        "A. 我想翻開電視機看裡面有沒有人住，這是一個值得注意的地方",
         "B. 我想翻開花叢下的落葉，看看有沒有可愛的小蝸牛正在散步",
         "C. 我想翻開別人的鉛筆盒，看裡面有沒有昂貴的筆可以拿",
-        "D. 我想翻開馬路的下水道看臭水溝"
+        "D. 我想翻開馬路的下水道看臭水溝，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "B 選項符合自然觀察與友善發現的基調。A 太過科幻，C 則是偏差的道德觀。",
@@ -484,7 +484,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -493,7 +493,7 @@
       "options": [
         "A. 覺得作者很囉唆，不想再看下去了",
         "B. 也跟著心跳加速，很想趕快知道到底有什麼",
-        "C. 覺得很睏想趕快去睡覺",
+        "C. 覺得很睏想趕快去睡覺，呈現出文中描述的氣氛",
         "D. 覺得作者是個不會說其他話的小怪胎"
       ],
       "answer_index": 1,
@@ -504,17 +504,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "創意聯想",
       "question": "如果不翻開石頭，我們可能永遠都不會知道下面有螞蟻搬家。這告訴我們什麼道理？",
       "options": [
-        "A. 螞蟻是非常愛玩捉迷藏的生物",
+        "A. 螞蟻是非常愛玩捉迷藏的生物，呈現出文中描述的氣氛",
         "B. 只要願意動手嘗試與觀察，就能看見平常忽略掉的風景",
-        "C. 只要有石頭的地方，就一定會有螞蟻",
-        "D. 不翻開石頭才是保護自己的最好方式"
+        "C. 只要有石頭的地方，就一定會有螞蟻，且其過程描述得相當完整",
+        "D. 不翻開石頭才是保護自己的最好方式，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "這課的核心價值在於「主動發現」。風景就在身邊，端看你是否願意動手「翻開」。",
@@ -524,17 +524,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
       "scenario": "未來展望",
       "question": "未來如果你當了科學家，這篇課文給你最強大的武器是什麼？",
       "options": [
-        "A. 一個超級大的放大鏡",
+        "A. 一個超級大的放大鏡，這屬於課文中提到的重點",
         "B. 永不枯竭的好奇心與敏銳的觀察力",
         "C. 很強壯的肌肉去搬石頭",
-        "D. 很多的獎學金"
+        "D. 很多的獎學金，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "好奇心與觀察力是科學研究的基石，這也是這篇文學課文與科學研究的交界點。",
@@ -544,7 +544,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "literal",
@@ -571,10 +571,10 @@
       "scenario": "全課精神",
       "question": "讀完《下面有什麼？》，你覺得這世界像什麼？",
       "options": [
-        "A. 像一個冷冰冰且完全沒有任何驚喜的石頭",
+        "A. 像一個冷冰冰且完全沒有任何驚喜的石頭，這展現了角色當時的情境",
         "B. 像一個充滿各種神祕小口袋，等待我們去翻開的大禮物",
-        "C. 像一場永遠考不完試的可怕惡夢",
-        "D. 像一個只有大人才能看見風景的高塔"
+        "C. 像一場永遠考不完試的可怕惡夢，呈現出文中描述的氣氛",
+        "D. 像一個只有大人才能看見風景的高塔，這展現了角色當時的情境"
       ],
       "answer_index": 1,
       "explanation": "這是一個充滿詩意的總結。將世界視為禮物，體現了對生命的熱愛與對未知的期待。",
@@ -584,7 +584,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",

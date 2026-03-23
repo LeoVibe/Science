@@ -14,6 +14,7 @@ import {
   getTodayQuizzedIds, addTodayQuizzedIds,
 } from '@/utils/storage';
 import { stratifiedSample } from '@/utils/quizSampler';
+import { hasPublishedLibraryUnits } from '@/utils/libraryAvailability';
 import { syncActivityLogs } from '@/utils/activityLogger';
 import { logActivity } from '@/utils/activityLogger';
 const SYNC_INTERVAL_MS = 60 * 1000; // 每分鐘同步一次
@@ -66,7 +67,8 @@ export type LibraryConfig = {
   }>;
 };
 
-function isLibraryEnabled(
+/** 後台 library_config：年級/學期/科/社開關 */
+function isLibraryEnabledByRemoteConfig(
   config: LibraryConfig | null,
   grade: Grade,
   subject: Subject,
@@ -83,6 +85,17 @@ function isLibraryEnabled(
   const publishers = sub?.publishers ?? [];
   if (publishers.length > 0 && !publishers.includes(publisher)) return false;
   return true;
+}
+
+function isLibraryEnabled(
+  config: LibraryConfig | null,
+  grade: Grade,
+  subject: Subject,
+  semester: Semester,
+  publisher: Publisher
+): boolean {
+  if (!isLibraryEnabledByRemoteConfig(config, grade, subject, semester, publisher)) return false;
+  return hasPublishedLibraryUnits(grade, semester, subject, publisher);
 }
 
 const Index = () => {
@@ -254,6 +267,21 @@ const Index = () => {
     return () => { cancelled = true; };
   }, []);
 
+  // 目前科別若未開放或 libraryStats 標記未上架，自動切到第一個可用科目
+  useEffect(() => {
+    if (!profileReady || !settingsLoaded) return;
+    if (isLibraryEnabled(libraryConfig, grade, subject, semester, publisher)) return;
+    const subs = getSubjectsByGrade(grade);
+    const next = subs.find((s) => {
+      const p = getPublisherForSubject(s);
+      return isLibraryEnabled(libraryConfig, grade, s, semester, p);
+    });
+    if (next) {
+      setSubject(next);
+      toast.info('此組合題庫未開放或未上架，已為您切換科目');
+    }
+  }, [profileReady, settingsLoaded, libraryConfig, grade, semester, subject, publisher]);
+
   // 進入時從 API 拉取 profile 並合併（可選，不阻塞畫面）
   useEffect(() => {
     if (!settingsLoaded) return;
@@ -349,7 +377,7 @@ const Index = () => {
     if (needFull && loaded.questions.length > 0 && loadedForRef.current === loadKey) return;
 
     setLoading(true);
-    const promise = loadQuestions(grade, subject, semester, publisher, !needFull);
+    const promise = loadQuestions(grade, subject, semester, publisher, false);
     loadPromiseRef.current = promise;
     promise.then((result) => {
       if (!cancelled && loadPromiseRef.current === promise) {

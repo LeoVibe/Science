@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "is",
         "am"
       ],
-      "answer": "in",
       "explanation": "in 表示物品在容器內。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "in"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'Where is' can be shortened to 'Where's'.",
-      "answer": "True",
       "explanation": "Where is 的縮寫是 Where's。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Where's the ball? B: It's ______ (在...下面) the chair.",
-      "answer": "under",
       "explanation": "under 的意思是「在...下面」。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "under"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "How",
         "Who"
       ],
-      "answer": "Where",
       "explanation": "詢問位置使用 Where。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "Where"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "on",
         "in"
       ],
-      "answer": "on",
       "explanation": "on 的意思是「在...上面」。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "on"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

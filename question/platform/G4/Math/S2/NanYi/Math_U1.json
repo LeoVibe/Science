@@ -14,11 +14,11 @@
         "2,450 元",
         "30,000 元"
       ],
-      "answer": 0,
       "explanation": "245 * 120 = 245 * 10 * 12 = 29400。",
       "concept": "多位數乘法",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "3,750 籃",
         "100 籃"
       ],
-      "answer": 0,
       "explanation": "總收成 = 75 * 50 = 3750。 籃數 = 3750 / 15 = 250。",
       "concept": "乘除複合運算",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "30 元",
         "3,000 元"
       ],
-      "answer": 0,
       "explanation": "45000 / 150 = 300。",
       "concept": "多位數除法",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "4,800 個",
         "800 個"
       ],
-      "answer": 0,
       "explanation": "4800 / 12 = 400。 或是 (4800 / 12 * 24) / 24。核心考查一小時的產率。",
       "concept": "平均率除法",
       "quality_level": "L4",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "40 個",
         "3 個"
       ],
-      "answer": 0,
       "explanation": "540 / 18 = 30。",
       "concept": "除法應用",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "15,000",
         "20,000"
       ],
-      "answer": 0,
       "explanation": "158 四捨五入到十位 = 160。 125 四捨五入到百位 = 100。 160 * 100 = 16,000。",
       "concept": "乘法與概數估計",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "22 個，剩 5 個",
         "25 個，不剩"
       ],
-      "answer": 0,
       "explanation": "300 / 14 = 21 ... 6。",
       "concept": "有餘數的除法實踐",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "438",
         "500"
       ],
-      "answer": 0,
       "explanation": "25 * 18 + 12 = 450 + 12 = 462。",
       "concept": "除法驗算關係",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "3,600 秒；除法",
         "1,200 秒；乘法"
       ],
-      "answer": 0,
       "explanation": "60 * 60 = 3600。",
       "concept": "複名數乘法",
       "quality_level": "L4",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "54,000 元",
         "60,000 元"
       ],
-      "answer": 1,
       "explanation": "45 * 120 = 5400 (每月)。 5400 * 12 = 64800 (每年)。",
       "concept": "多步驟倍數計算",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 1
     }
   ]
 }

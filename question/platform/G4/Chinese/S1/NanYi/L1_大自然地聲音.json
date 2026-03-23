@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "睡覺的催眠曲",
         "工廠的機器聲"
       ],
-      "answer": "豐富美妙的交響樂",
       "explanation": "大自然中風聲、雨聲、蟲鳴鳥叫交織而成美妙的音律。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "豐富美妙的交響樂"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "聽見大自然的聲音，需要安靜下來並用心感受，才能領略其中的美感。",
-      "answer": "True",
       "explanation": "平靜的心才能體會細微的聲音變化。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "文中描述雨點落在屋頂上的聲音叮叮咚咚，這是一種______修辭法。",
-      "answer": "摹聲或擬聲",
       "explanation": "利用模擬聲音的詞語來增加文章的生動感。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "摹聲或擬聲"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "焦躁不安",
         "覺得很無聊"
       ],
-      "answer": "寧靜且富有詩意",
       "explanation": "自然聲響有助於放鬆心情，陶冶情操。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "寧靜且富有詩意"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "比較誰的收音設備比較好",
         "學習如何製造噪音"
       ],
-      "answer": "培養對自然環境的敏銳覺察力與審美情懷",
       "explanation": "生活美學的基礎在於五感開發。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "培養對自然環境的敏銳覺察力與審美情懷"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

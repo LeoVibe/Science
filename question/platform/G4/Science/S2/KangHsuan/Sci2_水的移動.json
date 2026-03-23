@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Science",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "空氣",
         "沙子"
       ],
-      "answer": "水",
       "explanation": "虹吸必須先建立連綿的水柱才能啟動。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "水"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "毛細現象讓衣服上的汗水能迅速擴散。",
-      "answer": "True",
       "explanation": "布料纖維間的細縫產生毛細吸力。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "茶杯中的水靜止時，水面保持______。",
-      "answer": "水平",
       "explanation": "受重力影響，靜止液面恆為水平。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "水平"
     },
     {
       "id": "4",
@@ -52,19 +52,20 @@
         "溫度計",
         "手電筒"
       ],
-      "answer": "飲水機水位計",
       "explanation": "水位計能顯示與內部等高的水面。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "飲水機水位計"
     },
     {
       "id": "5",
       "type": "true_false",
       "question": "只有吸管能產生虹吸現象，粗水管不行。",
-      "answer": "False",
       "explanation": "任何密封且充滿水的管路都能產生虹吸。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

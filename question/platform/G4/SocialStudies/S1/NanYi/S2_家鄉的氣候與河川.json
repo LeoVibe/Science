@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "華氏度",
         "公分"
       ],
-      "answer": "攝氏度",
       "explanation": "攝氏（Celsius）是台灣常用的氣溫測量標準。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "攝氏度"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "台灣的河川通常長度較短、坡度較陡，且夏季雨量充沛。",
-      "answer": "True",
       "explanation": "這造成水源保持不易，需要興建水庫。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "家鄉中為了灌溉農田、蓄積雨水而人工挖掘的水池，桃園地區稱之為______。",
-      "answer": "埤塘",
       "explanation": "埤塘是桃園台地重要的地理文化景觀。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "埤塘"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "遊樂園",
         "排水系統與防洪工程"
       ],
-      "answer": "排水系統與防洪工程",
       "explanation": "防災是現代社區安全的首要課題。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "排水系統與防洪工程"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "水庫的蓄水量",
         "以上皆是"
       ],
-      "answer": "以上皆是",
       "explanation": "雨水是萬物生長的命脈，也深刻影響人類活動。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "以上皆是"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

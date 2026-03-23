@@ -14,11 +14,11 @@
         "彈力",
         "電力"
       ],
-      "answer": 2,
       "explanation": "物體受力形變後產生的回彈力量稱為彈力。",
       "concept": "彈力現象",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q2",
@@ -28,14 +28,14 @@
       "options": [
         "浮力",
         "摩擦力",
-        "重力",
+        "重力，這點在分析單元核心時非常關鍵",
         "電力"
       ],
-      "answer": 1,
       "explanation": "摩擦力與接觸面的粗糙程度有關，面越粗糙，阻力越大。",
       "concept": "摩擦力與接觸面",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "重力",
         "彈力"
       ],
-      "answer": 2,
       "explanation": "地球對萬物的吸引力稱為重力，方向朝向地心。",
       "concept": "重力方向",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "沒有反應",
         "爆炸"
       ],
-      "answer": 1,
       "explanation": "磁鐵性質：同極相斥，異極相吸。",
       "concept": "磁力性質",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "4 公分",
         "8 公分"
       ],
-      "answer": 2,
       "explanation": "在彈性限度內，伸長量與受力大小成正比。",
       "concept": "力的量化與彈簧秤",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6.25,
+      "answer_index": 2
     },
     {
       "id": "q6",
@@ -97,13 +97,13 @@
         "增加摩擦力",
         "好看",
         "將滑動摩擦改為滾動摩擦，以減少阻力",
-        "增加重力"
+        "增加重力，內容完整確診且具備情境深度"
       ],
-      "answer": 2,
       "explanation": "滾動產生的摩擦力遠小於滑動摩擦力，使搬運更輕鬆。",
       "concept": "減少摩擦力應用",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -113,14 +113,14 @@
       "options": [
         "兩邊都沒用力",
         "兩邊力氣一樣大，方向相反",
-        "左邊力氣大",
+        "左邊力氣大，呈現出課綱所要求之探索精神",
         "右邊力氣大"
       ],
-      "answer": 1,
       "explanation": "物體受力且保持不動，稱為力達到平衡。",
       "concept": "力的平衡",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -131,13 +131,13 @@
         "薄紙片",
         "墊板",
         "厚的鐵板",
-        "空氣"
+        "空氣，呈現出課綱所要求之探索精神"
       ],
-      "answer": 2,
       "explanation": "磁力可以穿透許多非磁性物質，但導磁物質（如厚鐵板）會屏蔽磁場，使其難以穿透吸住後方物體。 (Note: For G4, simplified as 'materials that are also magnetic block it' or just distance reduces it).",
       "concept": "磁力穿透性",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q9",
@@ -147,14 +147,14 @@
       "options": [
         "平滑的",
         "有深刻紋路的",
-        "塗上油的",
+        "塗上油的，內容完整確診且具備情境深度",
         "高跟的"
       ],
-      "answer": 1,
       "explanation": "深紋路增加粗糙度，增加摩擦力防滑。",
       "concept": "增加摩擦力實作",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -164,14 +164,14 @@
       "options": [
         "形狀",
         "運動狀態",
-        "重量",
+        "重量，呈現出課綱所要求之探索精神",
         "磁性"
       ],
-      "answer": 1,
       "explanation": "讓球從運動變為靜止，屬於改變運動狀態。",
       "concept": "力的效應",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     }
   ]
 }

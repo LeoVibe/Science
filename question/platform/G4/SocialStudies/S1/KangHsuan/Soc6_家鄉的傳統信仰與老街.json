@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "遊樂園",
         "派出所"
       ],
-      "answer": "情感交流、訊息傳遞與社會救助場所",
       "explanation": "宗教場所常是社區活動的核心位置。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "情感交流、訊息傳遞與社會救助場所"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "老街通常是因為交通便利或產業聚集而形成的歷史商業街道。",
-      "answer": "True",
       "explanation": "老街往往見證了地方的繁榮與興衰。",
       "cqi_score": 1.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "老街上的建築外牆若有華麗的雕刻與裝飾，通常顯示當時這裡的貿易非常______。",
-      "answer": "繁榮或發達",
       "explanation": "富裕的商賈會花錢裝飾門面，體現身分。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "繁榮或發達"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "全部拆掉蓋高樓大廈最現代化",
         "維護古蹟風貌與特色，結合觀光產業重塑活力"
       ],
-      "answer": "維護古蹟風貌與特色，結合觀光產業重塑活力",
       "explanation": "文化資源再利用是現代都市發展的重要趨勢。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "維護古蹟風貌與特色，結合觀光產業重塑活力"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "三峽老街",
         "鹿港老街"
       ],
-      "answer": "以上皆是",
       "explanation": "台灣各地都有極具地方特色的歷史街道。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "以上皆是"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

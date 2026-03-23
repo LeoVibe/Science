@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -13,10 +13,11 @@
       "id": "1",
       "type": "true_false",
       "question": "這一天是屬於兒童的節日。",
-      "answer": "True",
       "explanation": "慶祝兒童節。",
       "cqi_score": 1.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

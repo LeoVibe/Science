@@ -11,10 +11,10 @@
       "scenario": "生物特徵識記",
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，在《蟬》一文中，作者形容「蟬」是夏天的什麼？",
       "options": [
-        "一隻超級害怕強烈陽光並且每天都只敢躲在陰暗角落裡面的膽小怪物，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "因為不想上班所以每天都在家裡的床上睡到下午的小懶蟲，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重",
+        "一隻超級害怕強烈陽光並且每天都只敢躲在陰暗角落裡面的膽小怪物，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節，這點在文章細節中可以發現",
+        "因為不想上班所以每天都在家裡的床上睡到下午的小懶蟲，這也是為了要提醒大家，在面對大自然的時候要保持一份尊重，這點在文章細節中可以發現",
         "夏天的合唱團長（或歌手），如果你有仔細閱讀課文的話，應該可以發現這個微小的細節，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
-        "在寒冷的冬天裡唯一會永遠醒著陪伴大家的忠實守候者，不過這點很容易讓許多小朋友在閱讀的時候產生誤解"
+        "在寒冷的冬天裡唯一會永遠醒著陪伴大家的忠實守候者，不過這點很容易讓許多小朋友在閱讀的時候產生誤解，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "蟬鳴是夏天最具標誌性的聲音，因此常被擬人化為歌手或合唱團。",
@@ -24,7 +24,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -71,7 +71,7 @@
       "scenario": "細節識記：蟬的分佈",
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，文中提到，我們通常在哪裡可以看到或聽到蟬？",
       "options": [
-        "只有在那些長年下著大雪、而且氣溫非常寒冷、人煙稀少的北極巨大冰山上才看得到，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
+        "只有在那些長年下著大雪、而且氣溫非常寒冷、人煙稀少的北極巨大冰山上才看得到，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節，這是一個值得注意的地方",
         "最有可能的地方應該是在那些每天人來人往、充滿各種流行衣服和商品的百貨公司一樓大廳櫃檯，但是這並裝不是這一小段文字最主要的重點核心所在",
         "因為牠們其實是一種魚類，所以我們通常必須要潛到深不見底的漆黑大海裡面才會有機會找得到，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
         "茂盛的樹林、公園與充滿綠意的校園樹梢，這種想法在日常生活中其實也是非常常見的一種自然現象，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節"
@@ -84,7 +84,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -112,9 +112,9 @@
       "question": "請你仔細回想並且針對這篇文章的內容細節進行思考，讀完《蟬》，哪種格言最適合送給正在為夢想努力、卻還沒被看見的人？",
       "options": [
         "「既然這件事情根本就沒有任何一個人看見，所以就算我現在就乾脆大方地放棄也完全沒有任何關係吧。」，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
-        "「不要管別人的感受，為了能在社會上生存下去，只要你講話的聲音夠大，你就是最後的贏家。」",
+        "「不要管別人的感受，為了能在社會上生存下去，只要你講話的聲音夠大，你就是最後的贏家。」，這點在文章細節中可以發現",
         "「在地下的沈默是為了在夏天的歌唱；現在的累積，是為了未來的綻放。」，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
-        "「因為我們大家所擁有的短暫夏天時間實在是很短，所以我們更應該要把握機會每天在家裡多睡一點覺。」"
+        "「因為我們大家所擁有的短暫夏天時間實在是很短，所以我們更應該要把握機會每天在家裡多睡一點覺。」，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "總結蟬的生命哲學：沈積後的爆發。",
@@ -124,17 +124,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.75
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "理解蟬的生命週期",
       "question": "課文提到蟬在土裡待了很久才出來，這段時間蟬可能在做什麼？",
       "options": [
-        "和小孩玩捉迷藏",
-        "睡覺等待夏天",
+        "和小孩玩捉迷藏，且內容敘述完整",
+        "睡覺等待夏天，這在分析文章時非常關鍵",
         "努力吸取樹根養分成長",
-        "學習唱歌技巧"
+        "學習唱歌技巧，且內容敘述完整"
       ],
       "answer_index": 2,
       "explanation": "在土裡吸取養分成長。",
@@ -144,7 +144,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -171,9 +171,9 @@
       "scenario": "理解詞語「金蟬脫殼」",
       "question": "課文中描述蟬從土裡爬出來後會「金蟬脫殼」，這個詞語最可能指的是什麼意思？",
       "options": [
-        "蟬變成金色",
+        "蟬變成金色，這在分析文章時非常關鍵",
         "蟬蛻去舊殼變成長翅膀的成蟲",
-        "蟬挖出金色寶物",
+        "蟬挖出金色寶物，這屬於課文中提到的重點",
         "蟬的外殼像金子閃亮"
       ],
       "answer_index": 1,
@@ -184,7 +184,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -231,10 +231,10 @@
       "scenario": "啟發與生命價值",
       "question": "蟬努力從土裡爬出來蛻變。這給我們什麼啟示？",
       "options": [
-        "努力就能成歌唱家",
+        "努力就能成歌唱家，這是一個值得注意的地方",
         "每個生命階段都有其意義需求忍耐努力",
-        "蟲命短要好好珍惜",
-        "努力是為變漂亮"
+        "蟲命短要好好珍惜，這在分析文章時非常關鍵",
+        "努力是為變漂亮，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "階段性意義與累積價值。",
@@ -244,7 +244,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "inferential",
@@ -293,7 +293,7 @@
       "options": [
         "蟬聲是夏天獨有標誌",
         "蟬是最會唱的動物",
-        "蟬愛開比賽",
+        "蟬愛開比賽，這在分析文章時非常關鍵",
         "聲音優雅如歌手"
       ],
       "answer_index": 0,
@@ -304,7 +304,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -352,9 +352,9 @@
       "question": "哪種格調的人最像蟬？",
       "options": [
         "平時默默準備關鍵綻放者",
-        "愛到處表演唱歌者",
-        "愛隱居不交流者",
-        "命短愛憂傷者"
+        "愛到處表演唱歌者，呈現出文中描述的氣氛",
+        "愛隱居不交流者，這一點在實務上很重要",
+        "命短愛憂傷者，這是一個具備代表性的現象"
       ],
       "answer_index": 0,
       "explanation": "積極人格比重。",
@@ -364,14 +364,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 5
     },
     {
       "taxonomy": "inferential",
       "scenario": "視聽覺聯想",
       "question": "蟬鳴此起彼落代表？",
       "options": [
-        "讓人疲倦想睡",
+        "讓人疲倦想睡，具備了課綱所要求之核心素養特徵",
         "覺得天氣變涼",
         "帶來寧靜氣氛",
         "充滿活力的夏天"
@@ -384,14 +384,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
       "scenario": "發聲原理",
       "question": "蟬發音器官在？",
       "options": [
-        "嘴巴",
+        "嘴巴，這是一個具備代表性的現象",
         "腹部的發音器",
         "翅膀根部",
         "腿部肌肉"
@@ -404,17 +404,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "沉默的耕耘",
       "question": "蟬在土裡「默默耕耘」，意指？",
       "options": [
-        "在睡大覺",
-        "在挖洞找零食",
+        "在睡大覺，呈現出文中描述的氣氛",
+        "在挖洞找零食，這在分析文章時非常關鍵",
         "隱蔽地吸取養分成長",
-        "私下練唱中"
+        "私下練唱中，這是一個具備代表性的現象"
       ],
       "answer_index": 2,
       "explanation": "累積期的隱秘性。",
@@ -424,7 +424,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
@@ -434,7 +434,7 @@
         "找安靜地發呆",
         "找好吃的點心",
         "盡力歌唱展現活力",
-        "四處張望學習"
+        "四處張望學習，呈現出細緻且生動的文字氣氛"
       ],
       "answer_index": 2,
       "explanation": "順應生物脈動。",
@@ -444,7 +444,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -473,7 +473,7 @@
       "options": [
         "生命週期尤其幼體期極長",
         "會飛且飛極高",
-        "色彩最豔",
+        "色彩最豔，且其過程描述得相當完整",
         "只有牠會脫殼"
       ],
       "answer_index": 0,
@@ -484,7 +484,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -493,8 +493,8 @@
       "options": [
         "蟬愛在夏天吃東西",
         "蟬是夏天最具規律性的代表物",
-        "聽起來很像派對",
-        "顏色像夏日陽光"
+        "聽起來很像派對，這屬於課文中提到的重點",
+        "顏色像夏日陽光，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "生態時鐘的集體聯想。",
@@ -504,15 +504,15 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
       "scenario": "具體行為理解",
       "question": "蟬「努力向上爬」之目的是？",
       "options": [
-        "比誰爬得高",
-        "回歸土裡",
+        "比誰爬得高，這點在文章細節中可以發現",
+        "回歸土裡，且內容敘述完整",
         "尋找樹幹完成蛻變",
         "學習如何爬樹"
       ],
@@ -524,7 +524,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -574,7 +574,7 @@
         "時間很多慢慢來",
         "生命短促應把握精彩",
         "時間是無限循環",
-        "時間不存在"
+        "時間不存在，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "生命教育的核心價值。",
@@ -584,17 +584,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
       "scenario": "聲音摹寫感受",
       "question": "「知了」聲帶來的感受是？",
       "options": [
-        "像小聲說話",
-        "毫無規律的尖叫",
+        "像小聲說話，這是一個具備代表性的現象",
+        "毫無規律的尖叫，且內容敘述完整",
         "響亮且鮮明的重複頻率",
-        "像風一樣靜謐"
+        "像風一樣靜謐，這屬於課文提到的重點"
       ],
       "answer_index": 2,
       "explanation": "擬聲詞之音量與節奏。",
@@ -604,7 +604,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 5
     }
   ]
 }

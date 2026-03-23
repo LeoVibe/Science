@@ -14,11 +14,11 @@
         "50 平方公尺",
         "1500 平方公尺"
       ],
-      "answer": 1,
       "explanation": "長方形面積 = 長 * 寬 = 15 * 10 = 150。",
       "concept": "長方形面積公式",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "周長 16 公尺，面積 32 平方公尺",
         "兩者都是 32"
       ],
-      "answer": 0,
       "explanation": "周長 = 邊長 * 4 = 8 * 4 = 32。 面積 = 邊長 * 邊長 = 8 * 8 = 64。",
       "concept": "面積與周長的區分",
       "quality_level": "L3",
-      "cqi_score": 2.75
+      "cqi_score": 2.75,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "250 平方公尺",
         "325 平方公尺"
       ],
-      "answer": 1,
       "explanation": "總面積 = 20 * 15 = 300。 水池面積 = 5 * 5 = 25。 剩餘面積 = 300 - 25 = 275。",
       "concept": "複合圖形減法計算",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "12 公分",
         "10 公分"
       ],
-      "answer": 0,
       "explanation": "長 = 面積 / 寬 = 48 / 6 = 8。",
       "concept": "面積公式逆運算",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "8 倍",
         "16 倍"
       ],
-      "answer": 1,
       "explanation": "甲面積 = 16。 乙面積 = 64。 64 / 16 = 4。當邊長變為 2 倍，面積會變為 4 倍。",
       "concept": "邊長與面積的倍數關係",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "8 平方公分",
         "16 平方公分"
       ],
-      "answer": 1,
       "explanation": "一個面積 = 5 * 3 = 15。兩個就是 15 * 2 = 30。",
       "concept": "面積相加",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "13 平方公尺",
         "7 平方公尺"
       ],
-      "answer": 1,
       "explanation": "牆面 = 4 * 3 = 12。 窗戶 = 1 * 1 = 1。 需油漆部分 = 12 - 1 = 11。",
       "concept": "生活情境複合計算",
       "quality_level": "L4",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "公分",
         "公尺"
       ],
-      "answer": 1,
       "explanation": "教室面積適中，以平方公尺作為單位最為簡便。",
       "concept": "單位量感選擇",
       "quality_level": "L3",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -147,14 +147,14 @@
       "options": [
         "40 塊",
         "120 塊",
-        "60 塊",
+        "60 塊，內容完整確診且具備情境深度",
         "43 塊"
       ],
-      "answer": 1,
       "explanation": "面積 = 20 * 2 = 40。 總塊數 = 40 * 3 = 120。",
       "concept": "面積與乘法結合應用",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -165,13 +165,13 @@
         "長 9 寬 1",
         "長 6 寬 4",
         "圍成正方形（邊長 5）",
-        "長 7 寬 3"
+        "長 7 寬 3，呈現出課綱所要求之探索精神"
       ],
-      "answer": 2,
       "explanation": "周長固定時，長寬越接近（即正方形），面積越大。 (5*5=25 > 6*4=24 > 7*3=21 > 9*1=9)。",
       "concept": "極值概念初步探討",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 5.5,
+      "answer_index": 2
     }
   ]
 }

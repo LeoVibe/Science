@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "英文",
     "publisher": "KangHsuan",
@@ -21,28 +21,28 @@
         "am",
         "can"
       ],
-      "answer": "do",
       "explanation": "Do you like...? 的肯定回答是 Yes, I do。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "do"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'I don't like bananas.' means '我不喜歡香蕉'。",
-      "answer": "True",
       "explanation": "don't like 表示不喜歡。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Do you like oranges? B: No, I ______.",
-      "answer": "don't",
       "explanation": "Do you...? 的否定回答是 No, I don't。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "don't"
     },
     {
       "id": "4",
@@ -54,10 +54,10 @@
         "grapes",
         "rice"
       ],
-      "answer": "grapes",
       "explanation": "grapes (葡萄) 是水果，其他選項不是。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "grapes"
     },
     {
       "id": "5",
@@ -69,10 +69,11 @@
         "to like",
         "like"
       ],
-      "answer": "likes",
       "explanation": "第三人稱單數 she 後面動詞要加 s。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "likes"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

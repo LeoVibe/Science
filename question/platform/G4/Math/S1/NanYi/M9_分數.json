@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "真分數",
         "帶分數"
       ],
-      "answer": "假分數",
       "explanation": "這是分數的分類定義。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "假分數"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "比值小於 1 的分數稱為真分數。",
-      "answer": "True",
       "explanation": "例如 1/2, 3/4 等。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "假分數 13/4 等於帶分數______。",
-      "answer": "3 又 1/4",
       "explanation": "13 ÷ 4 = 3 ... 1。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "3 又 1/4"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "1/7",
         "6/14"
       ],
-      "answer": "6/7",
       "explanation": "分母相同，分子相加。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "6/7"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "5/2",
         "3/5"
       ],
-      "answer": "7/5",
       "explanation": "1 × 5 + 2 = 7。",
       "cqi_score": 4.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "7/5"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

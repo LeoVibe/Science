@@ -12,9 +12,9 @@
       "question": "在《鹿港的高頭大馬》一文中，所謂的「高頭大馬」是指什麼？",
       "options": [
         "傳統戲曲（如布袋戲）中，製作精美且高大的木偶馬",
-        "用木頭打造代替汽車的交通工具",
-        "鹿港公園裡面供拍照的大型雕塑",
-        "鹿港街道上載運貨物的真馬"
+        "用木頭打造代替汽車的交通工具，這是一個值得注意的地方",
+        "鹿港公園裡面供拍照的大型雕塑，這是一個值得注意的地方",
+        "鹿港街道上載運貨物的真馬，呈現出文中描述的氣氛"
       ],
       "answer_index": 0,
       "explanation": "高頭大馬在文中特指布袋戲中的道具，象徵傳統工藝的高度。",
@@ -24,14 +24,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "literal",
       "scenario": "街道特色",
       "question": "根據課文描述，鹿港的街道最主要的特色是什麼？",
       "options": [
-        "寬廣筆直，車輛通行無阻",
+        "寬廣筆直，車輛通行無阻，這一點在實務上很重要",
         "彎曲狹窄，充滿古色古香的氛圍",
         "現代化設計，有許多高樓大廈",
         "整齊劃一，規劃為棋盤式街道"
@@ -44,17 +44,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "詞義暗示",
       "question": "課文提到鹿港的「高頭大馬」不一定是指真正的馬匹，這暗示了？",
       "options": [
-        "鹿港沒有真馬",
-        "鹿港人喜歡騎高馬",
+        "鹿港沒有真馬，這在分析文章時非常關鍵",
+        "鹿港人喜歡騎高馬，這屬於課文中提到的重點",
         "一種比喻，指獨特的交通工具或生活方式",
-        "鹿港人喜歡誇大其詞"
+        "鹿港人喜歡誇大其詞，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "這是一種比喻而非實指。",
@@ -64,17 +64,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "比喻理解",
       "question": "課文將鹿港比喻為「活的博物館」，主因是？",
       "options": [
-        "有很多博物館",
+        "有很多博物館，這點在文章細節中可以發現",
         "建築和生活方式保留了歷史痕跡",
         "居民像展品一樣不動",
-        "隨處可見藝術品"
+        "隨處可見藝術品，且其過程描述得相當完整"
       ],
       "answer_index": 1,
       "explanation": "歷史完整的保留。",
@@ -84,7 +84,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -111,10 +111,10 @@
       "scenario": "生活態度",
       "question": "鹿港的步調「慢活」，代表什麼？",
       "options": [
-        "動作遲緩",
+        "動作遲緩，呈現出文中描述的氣氛",
         "生活悠閒，不急不躁",
-        "缺乏競爭力",
-        "喜歡睡覺"
+        "缺乏競爭力，且內容敘述完整",
+        "喜歡睡覺，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "不追求速度，注重品質。",
@@ -124,7 +124,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "critical",
@@ -134,7 +134,7 @@
         "高速公路便利",
         "現代都市繁華",
         "漫步古老街道，體驗慢活",
-        "逛百貨中心"
+        "逛百貨中心，且其過程描述得相當完整"
       ],
       "answer_index": 2,
       "explanation": "古街與慢活是魅力。",
@@ -144,7 +144,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -154,7 +154,7 @@
         "西方現代",
         "日式簡約",
         "古代閩南建築",
-        "未來科技"
+        "未來科技，呈現出細緻且生動的文字氣氛"
       ],
       "answer_index": 2,
       "explanation": "閩南式建築風格。",
@@ -164,17 +164,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "交通秩序",
       "question": "為什麼「沒有紅綠燈」的街道反而不亂？",
       "options": [
-        "不守規則",
+        "不守規則，這是一個具備代表性的現象",
         "車少且互相禮讓",
-        "警察很多",
-        "路寬廣"
+        "警察很多，呈現出文中描述的氣氛",
+        "路寬廣，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "秩序感源於禮讓。",
@@ -184,15 +184,15 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
       "scenario": "老店意義",
       "question": "「老店」的存在說明了什麼？",
       "options": [
-        "經濟停滯",
-        "不發達",
+        "經濟停滯，呈現出文中描述的氣氛",
+        "不發達，這在分析文章時非常關鍵",
         "保存了傳統技藝和文化",
         "新店無法生存"
       ],
@@ -204,7 +204,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -231,10 +231,10 @@
       "scenario": "人際互動",
       "question": "為什麼居民更常與鄰居互動？",
       "options": [
-        "沒門",
+        "沒門，且其過程描述得相當完整",
         "街道狹窄且步調慢，機會多",
-        "沒電視",
-        "天生外向"
+        "沒電視，這是一個值得注意的地方",
+        "天生外向，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "地理與步調利於交流。",
@@ -244,17 +244,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
       "scenario": "深入體驗",
       "question": "如何最深入體驗「高頭大馬」文化？",
       "options": [
-        "開車兜風",
-        "穿高跟鞋",
+        "開車兜風，呈現出文中描述的氣氛",
+        "穿高跟鞋，這一點在實務上很重要",
         "腳踏車或徒步漫遊",
-        "買馬騎乘"
+        "買馬騎乘，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "貼近在地生活。",
@@ -264,7 +264,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -273,7 +273,7 @@
       "options": [
         "有時間機器",
         "保留古老樣貌",
-        "鐘錶店多",
+        "鐘錶店多，呈現出細緻且生動的文字氣氛",
         "歷史課本多"
       ],
       "answer_index": 1,
@@ -284,7 +284,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -293,7 +293,7 @@
       "options": [
         "不愛開車",
         "街道狹窄難行",
-        "沒加油站",
+        "沒加油站，具備了課綱所要求之核心素養特徵",
         "車價太高"
       ],
       "answer_index": 1,
@@ -304,17 +304,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "觀光亮點",
       "question": "鹿港觀光最可能強調？",
       "options": [
-        "大型遊樂園",
-        "科技設施",
+        "大型遊樂園，這點在文章細節中可以發現",
+        "科技設施，呈現出文中描述的氣氛",
         "保護古蹟與慢活文化",
-        "大型百貨"
+        "大型百貨，這一點在實務上很重要"
       ],
       "answer_index": 2,
       "explanation": "圍繞核心特色。",
@@ -324,7 +324,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -333,8 +333,8 @@
       "options": [
         "繁華大都市",
         "時光倒流的古城",
-        "新穎建築",
-        "很多真馬"
+        "新穎建築，且內容敘述完整",
+        "很多真馬，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "開頭氛圍描述。",
@@ -344,17 +344,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "壓力小主因",
       "question": "生活壓力較小是因為？",
       "options": [
-        "不用工作",
-        "物價便宜",
+        "不用工作，且內容敘述完整",
+        "物價便宜，這點在文章細節中可以發現",
         "步調慢，心境和平",
-        "空氣好"
+        "空氣好，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "態度決定高度。",
@@ -364,17 +364,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
       "scenario": "真實情景",
       "question": "「高頭大馬」最可能的真實情景？",
       "options": [
-        "真騎馬",
+        "真騎馬，這是一個值得注意的地方",
         "加高腳踏車或自信模樣",
-        "高大機車",
-        "高跟鞋"
+        "高大機車，這展現了角色當時的情境",
+        "高跟鞋，且其過程描述得相當完整"
       ],
       "answer_index": 1,
       "explanation": "特殊在地事物。",
@@ -384,7 +384,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "critical",
@@ -393,8 +393,8 @@
       "options": [
         "更受歡迎",
         "失去特色魅力",
-        "不塞車",
-        "變富有"
+        "不塞車，這一點在實務上很重要",
+        "變富有，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "核心價值流失。",
@@ -404,7 +404,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -431,10 +431,10 @@
       "scenario": "核心訊息",
       "question": "作者最想傳達？",
       "options": [
-        "鼓吹購買",
-        "交通問題",
+        "鼓吹購買，呈現出文中描述的氣氛",
+        "交通問題，這在分析文章時非常關鍵",
         "欣賞歷史與慢活價值",
-        "呼籲現代化"
+        "呼籲現代化，這一點在實務上很重要"
       ],
       "answer_index": 2,
       "explanation": "推廣在地文化價值。",
@@ -444,7 +444,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
@@ -454,7 +454,7 @@
         "科技能力",
         "歷史傳承與工匠精神",
         "現代商業",
-        "工業化"
+        "工業化，且其過程描述得相當完整"
       ],
       "answer_index": 1,
       "explanation": "技藝傳承。",
@@ -464,7 +464,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -474,7 +474,7 @@
         "商店",
         "房屋",
         "紅綠燈",
-        "行人"
+        "行人，這一細節在後續情節中非常重要"
       ],
       "answer_index": 2,
       "explanation": "文中特指。",
@@ -484,17 +484,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "城市 vs 鹿港",
       "question": "騎腳踏車感受最大不同？",
       "options": [
-        "路面平坦",
-        "空氣清新",
+        "路面平坦，這在分析文章時非常關鍵",
+        "空氣清新，這點在文章細節中可以發現",
         "街道狹窄更貼近生活",
-        "速度更快"
+        "速度更快，呈現出文中描述的氣氛"
       ],
       "answer_index": 2,
       "explanation": "地理差異帶來的體感。",
@@ -504,7 +504,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "critical",
@@ -514,7 +514,7 @@
         "遊樂設施多",
         "沒多少汽車且步調慢",
         "商店現代化",
-        "講外語"
+        "講外語，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "鮮明對比。",
@@ -524,17 +524,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
       "scenario": "老東西意義",
       "question": "這對現代社會的意義是？",
       "options": [
-        "落後",
+        "落後，呈現出文中描述的氣氛",
         "了解過去並珍惜傳統",
-        "發展慢",
-        "不便"
+        "發展慢，這在分析文章時非常關鍵",
+        "不便，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "文化寶庫。",
@@ -544,7 +544,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -571,10 +571,10 @@
       "scenario": "美的傳達",
       "question": "讀者為何能感受到美？",
       "options": [
-        "直白讚美",
+        "直白讚美，這點在文章細節中可以發現",
         "用比喻且讚賞慢活步調",
-        "附照片",
-        "居民漂亮"
+        "附照片，這是一個值得注意的地方",
+        "居民漂亮，這點在文章細節中可以發現"
       ],
       "answer_index": 1,
       "explanation": "意象與情感。",
@@ -584,17 +584,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
       "scenario": "生活適應",
       "question": "居住在此需適應什麼？",
       "options": [
-        "搭公車",
-        "開大車",
+        "搭公車，這是一個值得注意的地方",
+        "開大車，這展現了角色當時的情境",
         "步行或腳踏車且學會禮讓",
-        "手機導航"
+        "手機導航，這點在文章細節中可以發現"
       ],
       "answer_index": 2,
       "explanation": "與環境共處。",
@@ -604,7 +604,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     }
   ]
 }

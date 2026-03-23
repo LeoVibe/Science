@@ -11,14 +11,14 @@
       "options": [
         "斷路",
         "通路 (閉合回路)",
-        "開路",
+        "開路，內容完整確診且具備情境深度",
         "短路"
       ],
-      "answer": 1,
       "explanation": "電流必須從電池正極出發，經過導線、燈泡，回到負極形成完整的封閉路徑。",
       "concept": "通路與斷路",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 4.75,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "不變",
         "熄滅"
       ],
-      "answer": 1,
       "explanation": "串聯電池會增加總電壓，提供更多能量給燈泡，使其更亮。",
       "concept": "電池串聯性質",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "橡皮筋",
         "鐵捲尺"
       ],
-      "answer": 2,
       "explanation": "橡皮筋是絕緣體，電流無法通過。金屬類通常是導體。",
       "concept": "導體與絕緣體",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 2.75,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "比較暗",
         "燈泡會燒掉"
       ],
-      "answer": 1,
       "explanation": "並聯電池電壓不變，但可以延長供電時間，亮度與單顆相當。",
       "concept": "電池並聯性質",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "太陽能",
         "天然氣"
       ],
-      "answer": 2,
       "explanation": "太陽能、風能、水能屬於再生能源。化石燃料則會枯竭且造成污染。",
       "concept": "再生能源與非再生能源",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 3.25,
+      "answer_index": 2
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "燈泡壞了",
         "接觸優良"
       ],
-      "answer": 1,
       "explanation": "電池若方向相反，電壓會互相抵銷或無法形成正確迴路，導致斷路。",
       "concept": "電路故障排除",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -114,13 +114,13 @@
         "隨手關燈",
         "冷氣設定在 26~28 度",
         "沒人時電視也開著當背景音樂",
-        "多搭乘大眾運輸工具"
+        "多搭乘大眾運輸工具，內容完整確診且具備情境深度"
       ],
-      "answer": 2,
       "explanation": "沒人看電視卻開著是無謂的能源浪費。",
       "concept": "節約能源意識",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5,
+      "answer_index": 2
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "沒接電池",
         "隨機接"
       ],
-      "answer": 1,
       "explanation": "並聯電路中各分支互不干擾，一處斷路不影響其他路徑。",
       "concept": "燈泡並聯應用",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -147,14 +147,14 @@
       "options": [
         "會產生核廢料",
         "風力有時強有時弱，不夠穩定",
-        "風很大會把房子吹走",
+        "風很大會把房子吹走，內容完整確診且具備情境深度",
         "完全沒有電量"
       ],
-      "answer": 1,
       "explanation": "風能受氣候影響大，具有不穩定性，是目前開發的技術挑戰之一。",
       "concept": "能源限制分析",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -164,14 +164,14 @@
       "options": [
         "手會變髒",
         "普通的水也是導體，容易觸電",
-        "開關會生鏽",
+        "開關會生鏽，這點在分析單元核心時非常關鍵",
         "燈泡會爆炸"
       ],
-      "answer": 1,
       "explanation": "人體與水都是良好的導電媒介，濕手操作電器極具危險性。",
       "concept": "用電安全",
       "quality_level": "L3",
-      "cqi_score": 3
+      "cqi_score": 5.25,
+      "answer_index": 1
     }
   ]
 }

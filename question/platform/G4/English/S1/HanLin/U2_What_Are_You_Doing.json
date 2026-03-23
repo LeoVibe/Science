@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "are",
         "is"
       ],
-      "answer": "am",
       "explanation": "配合主詞 I，be 動詞使用 am。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "am"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "The question 'What are you doing?' asks about things happening right now.",
-      "answer": "True",
       "explanation": "現在進行式用來詢問或描述當下的行為。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: What is Dino doing? B: He is ______ (跳舞).",
-      "answer": "dancing",
       "explanation": "dancing 的意思是正在跳舞。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "dancing"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "to watch",
         "watching"
       ],
-      "answer": "watching",
       "explanation": "be 動詞後接 V-ing (watching)。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "watching"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "is",
         "do"
       ],
-      "answer": "are",
       "explanation": "主詞是複數（They），使用 are。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "are"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

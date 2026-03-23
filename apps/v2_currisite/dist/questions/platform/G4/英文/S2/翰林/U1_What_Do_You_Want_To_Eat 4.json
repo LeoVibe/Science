@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U1",
+    "order": 1,
+    "title": "Unit 1 What Do You Want To Eat?",
+    "verified": true,
+    "verification_source": "翰林官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What do you want to eat? B: I want to eat ______.",
+      "options": [
+        "hungry",
+        "food",
+        "eat",
+        "noodles"
+      ],
+      "answer": "noodles",
+      "explanation": "want to eat 後面接食物名稱。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'I want to eat a sandwich.' means '我想吃三明治'。",
+      "answer": "True",
+      "explanation": "want to eat 表示想要吃。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: What does she want to eat? B: She ______ to eat rice.",
+      "answer": "wants",
+      "explanation": "第三人稱單數用 wants。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "A: Do you want to eat pizza? B: Yes, ______.",
+      "options": [
+        "I do",
+        "I am",
+        "I eat",
+        "I want"
+      ],
+      "answer": "I do",
+      "explanation": "Do you want...? 的肯定回答是 Yes, I do。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "He wants ______ eat chicken.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "in"
+      ],
+      "answer": "to",
+      "explanation": "want to + 動詞原形。"
+    }
+  ]
+}

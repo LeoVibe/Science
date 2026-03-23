@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -18,10 +18,10 @@
         "這是一間餐廳",
         "因位老板姓五"
       ],
-      "answer": "生命具備「酸、甜、苦、辣、鹹」多種體驗（Resilience through diversity），並在志工與孩子的陪伴下共同品味",
       "explanation": "體驗教育（Experiential Learning）不應只有單一的快樂。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "生命具備「酸、甜、苦、辣、鹹」多種體驗（Resilience through diversity），並在志工與孩子的陪伴下共同品味"
     },
     {
       "id": "2",
@@ -33,10 +33,10 @@
         "因為這好玩",
         "為了省下請員工的錢"
       ],
-      "answer": "「賦能教育（Empowerment）」：讓鄉村孩子在真實場景中學習生活技能與財務責任感",
       "explanation": "最好的學習是在真實的世界（Real World Context）中操作。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "「賦能教育（Empowerment）」：讓鄉村孩子在真實場景中學習生活技能與財務責任感"
     },
     {
       "id": "3",
@@ -48,19 +48,19 @@
         "因為店員不會算數學",
         "東西太舊了賣不掉"
       ],
-      "answer": "挑戰「商品化」思維，回歸物品的真實使用價值（Utility Value）與人與人之間的信任關係",
       "explanation": "價值（Value）不等於價格（Price）。",
       "cqi_score": 5.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "挑戰「商品化」思維，回歸物品的真實使用價值（Utility Value）與人與人之間的信任關係"
     },
     {
       "id": "4",
       "type": "true_false",
       "question": "五味屋的精神是「不只是商店（Not just a shop）」，而是社區的客廳與共學的教室。",
-      "answer": "True",
       "explanation": "場所的建設取決於它創造了多少具備意義的人際連結（Social Connection）。",
       "cqi_score": 3,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "5",
@@ -72,10 +72,10 @@
         "為了讓遊客可以拍照打卡",
         "因位離火車站很近"
       ],
-      "answer": "「空間轉化（Spatial Transformation）」：將歷史的塵埃轉化為希望的火苗，賦予老建築新的生命韌性",
       "explanation": "只要心靈具備創意，舊物與舊屋皆能發光。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "「空間轉化（Spatial Transformation）」：將歷史的塵埃轉化為希望的火苗，賦予老建築新的生命韌性"
     },
     {
       "id": "6",
@@ -87,19 +87,19 @@
         "家裡沒地方放就要捐出去",
         "二手物可以換很多錢"
       ],
-      "answer": "「資源循環（Resource Circulation）」與惜物精神：每樣物品都有它下一個主人（Second Life）",
       "explanation": "循環經濟（Circular Economy）是永續建設的核心支柱。",
       "cqi_score": 4.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "「資源循環（Resource Circulation）」與惜物精神：每樣物品都有它下一個主人（Second Life）"
     },
     {
       "id": "7",
       "type": "true_false",
       "question": "五味屋的孩子們可以透過工作換取「點數」或「出國看世界的機會」，這建立了「付出即收穫（Value Exchange）」的正向邏輯。",
-      "answer": "True",
       "explanation": "尊嚴來自於有對價、有品質的勞動投入。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "8",
@@ -111,10 +111,10 @@
         "直接在大門口丟下一箱物品就走",
         "希望對方可以給我一些獎勵回報"
       ],
-      "answer": "捐贈前先將物品洗淨、修繕並貼上祝福，尊重下一個使用者並維持服務品質",
       "explanation": "慈善的品質取決於對人的尊重（Dignity）。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "捐贈前先將物品洗淨、修繕並貼上祝福，尊重下一個使用者並維持服務品質"
     },
     {
       "id": "9",
@@ -126,19 +126,19 @@
         "因為他在東華大學沒事做",
         "為了要出名"
       ],
-      "answer": "要為這個世界「撐起一個溫暖的空間（Safe Space）」，讓偏鄉孩子看見不一樣的人生可能",
       "explanation": "陪伴（Accompaniment）才是最高層級的社區建構。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "要為這個世界「撐起一個溫暖的空間（Safe Space）」，讓偏鄉孩子看見不一樣的人生可能"
     },
     {
       "id": "10",
       "type": "true_false",
       "question": "「溫柔的建設」是指像五味屋這樣，不用鋼筋水泥而是用人情與陪伴，修護社會底層或偏鄉的心理結構。",
-      "answer": "True",
       "explanation": "社會基礎設施不僅是馬路，更是人心中的信任。 ",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "11",
@@ -150,10 +150,11 @@
         "希望是快點放暑假",
         "希望是不用寫家庭作業"
       ],
-      "answer": "希望是即使在看似不起眼的舊事物中，依然能找到「翻轉與重生（Regeneration）」的力量",
       "explanation": "創造力與慈悲心，就是希望的動力源。 ",
       "cqi_score": 4.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "希望是即使在看似不起眼的舊事物中，依然能找到「翻轉與重生（Regeneration）」的力量"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

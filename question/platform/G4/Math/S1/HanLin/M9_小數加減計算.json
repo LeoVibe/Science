@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "數字靠左對齊",
         "小數點對齊"
       ],
-      "answer": "小數點對齊",
       "explanation": "對齊小數點可以確保相同位數的數值進行運算。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "小數點對齊"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "計算 0.5 + 0.6 的結果是 1.1。",
-      "answer": "True",
       "explanation": "5 + 6 = 11，進位後為 1.1。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 3.45 - 1.25 = ______。",
-      "answer": "2.2",
       "explanation": "3.45 - 1.25 = 2.20，末尾 0 可省略。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "2.2"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "6.75 公尺",
         "5.25 公尺"
       ],
-      "answer": "5.75 公尺",
       "explanation": "10.50 - 4.75 = 5.75。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "5.75 公尺"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "0.01",
         "0.11"
       ],
-      "answer": "0.01",
       "explanation": "1.00 - 0.99 = 0.01。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "0.01"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

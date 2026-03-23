@@ -133,7 +133,7 @@
       "options": [
         "彎彎曲曲的",
         "站得很直很美",
-        "躲在水裡",
+        "躲在水裡，具備了課綱所要求之核心素養特徵",
         "躺在地上"
       ],
       "answer_index": 1,
@@ -144,16 +144,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 7
     },
     {
       "taxonomy": "literal",
       "scenario": "荷花的顏色特徵",
       "question": "課文中通常會提到荷花的顏色有哪些？",
       "options": [
-        "只有紅色",
-        "只有黃色",
-        "只有黑色",
+        "只有紅色，且內容敘述完整",
+        "只有黃色，這屬於課文提到的重點",
+        "只有黑色，這一點在實務上很重要",
         "紅、粉、白都有"
       ],
       "answer_index": 3,
@@ -164,7 +164,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
@@ -173,8 +173,8 @@
       "options": [
         "因為荷花有香氣和花蜜",
         "因為荷花可以玩遊戲",
-        "因為荷花會唱歌",
-        "因為荷花會跳舞"
+        "因為荷花會唱歌，呈現出文中描述的氣氛",
+        "因為荷花會跳舞，這一點在實務上很重要"
       ],
       "answer_index": 0,
       "explanation": "蜜蜂和蝴蝶會被花朵的香氣吸引，並從花朵中採集花蜜，這是大自然中常見的生物互動。",
@@ -184,7 +184,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -253,7 +253,7 @@
       "options": [
         "葉子很輕",
         "葉子很大很圓",
-        "葉子可以吃",
+        "葉子可以吃，這一細節在後續情節中非常重要",
         "葉子會飛"
       ],
       "answer_index": 1,
@@ -264,7 +264,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "contextual",
@@ -272,7 +272,7 @@
       "question": "這篇課文主要想讓讀者感受到荷花的什麼？",
       "options": [
         "荷花的美麗與生機",
-        "荷花的歷史故事",
+        "荷花的歷史故事，分析這段文章時對理解主旨非常關鍵",
         "荷花的種植方法",
         "荷花的藥用價值"
       ],
@@ -284,7 +284,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "literal",
@@ -312,9 +312,9 @@
       "question": "當荷花池裡開滿了五顏六色的荷花，會給人什麼感覺？",
       "options": [
         "覺得很漂亮很有活力",
-        "覺得很無聊",
-        "覺得很吵鬧",
-        "覺得很害怕"
+        "覺得很無聊，這是一個具備代表性的現象",
+        "覺得很吵鬧，這屬於課文提到的重點",
+        "覺得很害怕，呈現出文中描述的氣氛"
       ],
       "answer_index": 0,
       "explanation": "色彩繽紛充滿活力。",
@@ -324,7 +324,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
@@ -333,7 +333,7 @@
       "options": [
         "告訴大家如何畫荷花",
         "描寫荷花的姿態與生命力",
-        "介紹荷花的各種用途",
+        "介紹荷花的各種用途，內容敘述相當完整且解析精確",
         "提醒大家不要破壞荷花"
       ],
       "answer_index": 1,
@@ -344,14 +344,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "literal",
       "scenario": "荷花花瓣的觸感",
       "question": "荷花的花瓣摸起來感覺如何？",
       "options": [
-        "硬硬的",
+        "硬硬的，這一細節在後續情節中非常重要",
         "粗粗的",
         "黏黏的",
         "軟軟滑滑的"
@@ -364,7 +364,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "inferential",
@@ -411,9 +411,9 @@
       "scenario": "理解比喻詞",
       "question": "為什麼說荷花是「水中的仙子」？",
       "options": [
-        "因為它會魔法",
-        "因為它住在天上",
-        "因為它會飛",
+        "因為它會魔法，這在分析文章時非常關鍵",
+        "因為它住在天上，這點在文章細節中可以發現",
+        "因為它會飛，這一點在實務上很重要",
         "因為它長得很美很高雅"
       ],
       "answer_index": 3,
@@ -424,7 +424,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "contextual",
@@ -471,7 +471,7 @@
       "scenario": "理解花苞的形容",
       "question": "荷花的花苞「飽飽的，像一支支筆尖」，這句話主要是形容花苞的什麼？",
       "options": [
-        "顏色很深",
+        "顏色很深，分析這段文章時對理解主旨非常關鍵",
         "數量很多",
         "味道很香",
         "形狀和姿態"
@@ -484,7 +484,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Science",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "反射",
         "直線傳播"
       ],
-      "answer": "反射",
       "explanation": "聲波遇到障礙物（如牆壁、山壁）後反彈，形成回音。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "反射"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "光前進時如果遇到平面鏡，會發生反射現象，反射角等於入射角。",
-      "answer": "True",
       "explanation": "這是光的反射定律的基本原則。",
       "cqi_score": 2.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "潛水艇能在水下看到海面的景象，主要是利用內部裝配的______（工具）。",
-      "answer": "潛望鏡",
       "explanation": "潛望鏡利用兩塊平面鏡的二次反射來改變視線路徑。",
       "cqi_score": 2.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "潛望鏡"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "空氣",
         "水"
       ],
-      "answer": "木頭或鋼鐵等固體",
       "explanation": "介質分子愈緊密，傳播能量的效率愈高；真空不能傳聲。",
       "cqi_score": 6.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "木頭或鋼鐵等固體"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "放大鏡（老花眼鏡）",
         "整理儀容的試衣鏡"
       ],
-      "answer": "放大鏡（老花眼鏡）",
       "explanation": "放大鏡是利用光的「折射」原理。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "放大鏡（老花眼鏡）"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

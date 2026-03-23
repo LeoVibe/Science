@@ -220,7 +220,7 @@ node scripts/evaluate_question_quality.js {目標目錄路徑}
 
 1. 同步數據：`node scripts/sync_stats.js`
 2. 更新 `manifest.json`（若有新課次）
-3. 更新 `docs/進度彙整_全站研發與題庫產出.md`
+3. 更新 `docs/進度彙整_全站研發與題庫產出.md`（節二：R3＝發展綱要、R4＝原始研究素材庫，`YYYY-MM-DD <a href="../knowledge/課綱研究/…" style="text-decoration: none; color: inherit">🔗</a>`；三社欄兩行與 `generate_library_stats` 對齊）
 
 **完工品質檢核清單 (Mandatory Checklist)：**
 - [ ] 是否已杜絕荒謬誘答？品質符合 R1-R4 教學定義？

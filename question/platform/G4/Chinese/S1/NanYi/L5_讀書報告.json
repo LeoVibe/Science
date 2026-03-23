@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "幫助學生有系統地整理讀書的心得，並學會與他人分享閱讀的驚喜",
         "為了湊齊作業字數"
       ],
-      "answer": "幫助學生有系統地整理讀書的心得，並學會與他人分享閱讀的驚喜",
       "explanation": "讀書報告是語文學習中整合理解、分析與表達的重要訓練。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "幫助學生有系統地整理讀書的心得，並學會與他人分享閱讀的驚喜"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "一篇完整的讀書報告通常包含了：書名、作者、內容大意、佳句摘錄以及個人心得感悟。",
-      "answer": "True",
       "explanation": "這些是構成讀書報告的基本格式與結構。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "寫「個人心得」時，最重要的是要寫出這本書對你產生的______或啟發。",
-      "answer": "共鳴、影響、感受或連結",
       "explanation": "心得的價值在於個人化的思考而非重複故事內容。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "共鳴、影響、感受或連結"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "為了把書抄一遍",
         "為了練習寫字"
       ],
-      "answer": "幫助還沒讀過這本書的人能快速掌握故事的主軸與架構",
       "explanation": "考驗學生的統整與歸納能力。",
       "cqi_score": 4.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "幫助還沒讀過這本書的人能快速掌握故事的主軸與架構"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "看完書就趕快丟掉",
         "只看書的封面就好"
       ],
-      "answer": "善用閱讀策略，多思考、多記錄、多分享",
       "explanation": "培養學生的深層閱讀素養與分享熱忱。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "善用閱讀策略，多思考、多記錄、多分享"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

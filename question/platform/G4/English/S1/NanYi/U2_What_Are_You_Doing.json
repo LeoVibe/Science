@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "do",
         "is"
       ],
-      "answer": "am",
       "explanation": "主詞 I 配合 be 動詞 am。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "am"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "To form the present continuous, we add '-ing' to the action word.",
-      "answer": "True",
       "explanation": "現在進行式的動詞變化是在原形動詞後加 ing。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: What is Sam doing? B: He is ______ (大聲喊叫/唱歌).",
-      "answer": "singing",
       "explanation": "配合常見的課文情境，singing（唱歌）是常見動作。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "singing"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "drink",
         "drinking"
       ],
-      "answer": "drinking",
       "explanation": "正在喝牛奶的情境。",
       "cqi_score": 3.75,
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "answer_index": "drinking"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "am",
         "are"
       ],
-      "answer": "are",
       "explanation": "主詞 you 配合 be 動詞 are。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "are"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

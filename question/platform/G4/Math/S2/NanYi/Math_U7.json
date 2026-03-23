@@ -14,11 +14,11 @@
         "相交但不垂直",
         "重疊"
       ],
-      "answer": 1,
       "explanation": "交會成直角（90度）即為垂直。",
       "concept": "垂直定義",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "重合",
         "分立"
       ],
-      "answer": 1,
       "explanation": "這是平行的重要幾何特性。",
       "concept": "平行定義",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "互相相交成 45 度",
         "沒有關係"
       ],
-      "answer": 1,
       "explanation": "在平面上，兩條直線同時垂直於第三條直線，則此兩線互相平行。",
       "concept": "平行與垂直的推導",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 1
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "14 個頂點，7 條邊",
         "8 個頂點，8 條邊"
       ],
-      "answer": 1,
       "explanation": "多邊形的邊數與頂點數必相等。",
       "concept": "多邊形構造",
       "quality_level": "L3",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -80,13 +80,13 @@
         "五條邊一樣長",
         "五個角一樣大",
         "五條邊一樣長且五個角一樣大",
-        "只要有五個角即可"
+        "只要有五個角即可，這點在分析單元核心時非常關鍵"
       ],
-      "answer": 2,
       "explanation": "正多邊形需滿足邊等長且角等大。",
       "concept": "正多邊形定義",
       "quality_level": "L3",
-      "cqi_score": 2.75
+      "cqi_score": 5,
+      "answer_index": 2
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "0 公分",
         "無法確定"
       ],
-      "answer": 0,
       "explanation": "平行線間距恆等。",
       "concept": "平行穩定性",
       "quality_level": "L2",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "斜邊中心",
         "底邊延長線"
       ],
-      "answer": 0,
       "explanation": "直角構造是產生垂直線最直接的工具。",
       "concept": "工具應用",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "0 條；1 個三角形",
         "4 條；4 個三角形"
       ],
-      "answer": 0,
       "explanation": "四邊形從一頂點出發可畫 (4-3)=1 條對角線。切成 2 個三角形。",
       "concept": "多邊形分割",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "垂直；垂直",
         "平行；平行"
       ],
-      "answer": 0,
       "explanation": "相鄰邊成直角即垂直。相對邊互不相交即平行。",
       "concept": "空間幾何應用",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "五邊形",
         "六邊形"
       ],
-      "answer": 1,
       "explanation": "四邊形內角和固定為 360 度。",
       "concept": "角度邏輯",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 1
     }
   ]
 }

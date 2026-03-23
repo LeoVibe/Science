@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "彈珠",
         "陀螺"
       ],
-      "answer": "陀螺",
       "explanation": "陀螺是歷史悠久的傳統玩具，透過繩索拉力使其產生旋轉慣性。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "陀螺"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "打陀螺時需要技巧，包含纏繩的鬆緊與甩出的力道。",
-      "answer": "True",
       "explanation": "動作的協調性是讓陀螺轉得久、轉得穩的關鍵。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "陀螺旋轉時，看起來中心點似乎是不動的，這就是______的力量。",
-      "answer": "重心或平衡",
       "explanation": "旋轉產生的離心力與地心引力達成平衡。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "重心或平衡"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "大家都去買塑膠陀螺",
         "認識高級的遙控玩具"
       ],
-      "answer": "珍惜傳統童玩，體會手作與競賽的純粹快樂",
       "explanation": "找回古早味的快樂，減少對科技產品的依賴。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "珍惜傳統童玩，體會手作與競賽的純粹快樂"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "人與人之間互動的熱鬧與情誼交流",
         "天氣太熱了"
       ],
-      "answer": "人與人之間互動的熱鬧與情誼交流",
       "explanation": "童玩是凝聚群體情感的良好媒介。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "人與人之間互動的熱鬧與情誼交流"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

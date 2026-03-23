@@ -14,11 +14,11 @@
         "消失",
         "風化"
       ],
-      "answer": 1,
       "explanation": "固體均勻散布在液體中的過程稱為溶解。融化指的是受熱由固態變液態。",
       "concept": "溶解 vs 融化",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "一樣快",
         "都不能溶解"
       ],
-      "answer": 1,
       "explanation": "高溫可以增加分子的動能，增加溶解速率。",
       "concept": "影響溶解速率因素",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -45,14 +45,14 @@
       "options": [
         "鹽變硬了",
         "水已經達到了『飽和』狀態",
-        "那是假的鹽",
+        "那是假的鹽，內容完整確診且具備情境深度",
         "攪拌得不夠用力"
       ],
-      "answer": 1,
       "explanation": "當液體無法再容納更多溶質時，稱為飽和。",
       "concept": "溶解的極限-飽和",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q4",
@@ -63,13 +63,13 @@
         "氧氣",
         "氮氣",
         "二氧化碳",
-        "氫氣"
+        "氫氣，內容完整確診且具備情境深度"
       ],
-      "answer": 2,
       "explanation": "酸性物質與碳酸鹽（小蘇打）反應會釋放二氧化碳。",
       "concept": "酸鹼化學反應",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "變成了糖",
         "消失了"
       ],
-      "answer": 1,
       "explanation": "沉澱且濾紙可慮出代表其為懸浮而不溶解。",
       "concept": "溶解的判斷",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "都一樣",
         "都不會燙"
       ],
-      "answer": 1,
       "explanation": "金屬是良好的熱導體，傳熱速度快。",
       "concept": "熱傳導",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -114,13 +114,13 @@
         "醋",
         "沙拉油",
         "洗潔精(肥皂)",
-        "食鹽"
+        "食鹽，內容完整確診且具備情境深度"
       ],
-      "answer": 2,
       "explanation": "界面活性劑可以同時導向水和油脂，幫助清潔。",
       "concept": "清潔與乳化",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 4.75,
+      "answer_index": 2
     },
     {
       "id": "q8",
@@ -130,14 +130,14 @@
       "options": [
         "物理變化(形狀變了)",
         "化學變化(產生新物質)",
-        "沒洗乾淨",
+        "沒洗乾淨，內容完整確診且具備情境深度",
         "正常現象"
       ],
-      "answer": 1,
       "explanation": "那是氧化反應產生的褐變，屬於化學變化。",
       "concept": "物質的化學變化",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -147,14 +147,14 @@
       "options": [
         "讓巧克力比較香",
         "維持受熱均勻且溫度不會過高",
-        "增加重量",
+        "增加重量，內容完整確診且具備情境深度",
         "比較好清洗"
       ],
-      "answer": 1,
       "explanation": "水浴法可以穩定維持在 100 度以下，避免直接火燒導致燒焦。",
       "concept": "實驗方法-水浴法",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -164,14 +164,14 @@
       "options": [
         "水汽",
         "氣體(二氧化碳)",
-        "糖分",
+        "糖分，呈現出課綱所要求之探索精神",
         "油脂"
       ],
-      "answer": 1,
       "explanation": "發酵或化學發粉產生氣體撐開組織，加熱後氣體膨脹留下孔隙。",
       "concept": "發酵現象",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     }
   ]
 }

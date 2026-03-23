@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "1/100",
         "1/10"
       ],
-      "answer": "1/10",
       "explanation": "小數點第一位是十分位。",
       "cqi_score": 4.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "1/10"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "在 5.67 這個數中，「7」所在的位數是百分位。",
-      "answer": "True",
       "explanation": "小數點右邊第二位是百分位。",
       "cqi_score": 3.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "「零點零三」記作______。",
-      "answer": "0.03",
       "explanation": "百分位是 3，十分位是 0。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "0.03"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "無法比較",
         "一樣大"
       ],
-      "answer": "1.2",
       "explanation": "比較十分位，2 大於 1。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "1.2"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "0.001",
         "10"
       ],
-      "answer": "0.1",
       "explanation": "10 × 0.01 = 0.10，末尾 0 可省略。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "0.1"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

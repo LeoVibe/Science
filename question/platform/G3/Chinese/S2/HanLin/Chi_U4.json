@@ -11,10 +11,10 @@
       "scenario": "聽覺發現感悟",
       "question": "《聽！那是誰的聲音》對我們的啟發？",
       "options": [
-        "去當錄音師",
+        "去當錄音師，呈現出文中描述的氣氛",
         "多感官陶冶增強情感聯結與尊重",
-        "閉嘴不要說話",
-        "耳朵比眼重要"
+        "閉嘴不要說話，這是一個值得注意的地方",
+        "耳朵比眼重要，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "審美教育的統合價值。",
@@ -24,7 +24,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "applied",
@@ -33,7 +33,7 @@
       "options": [
         "感受到奔跑的活力與生命旋律",
         "像怪獸奪門而出地裂開",
-        "像跑步機廣告",
+        "像跑步機廣告，且其過程描述得相當完整",
         "覺得被吵到想檢舉"
       ],
       "answer_index": 0,
@@ -44,17 +44,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.75
+      "cqi_score": 7
     },
     {
       "taxonomy": "applied",
       "scenario": "作者稱號",
       "question": "送四位作者一個貼切稱號？",
       "options": [
-        "無聊科學家",
+        "無聊科學家，這屬於課文中提到的重點",
         "美好心靈播種者與發現家",
-        "電腦專家",
-        "嚴厲執法者"
+        "電腦專家，這點在文章細節中可以發現",
+        "嚴厲執法者，這展現了角色當時的情境"
       ],
       "answer_index": 1,
       "explanation": "概括本單元寫作特質。",
@@ -64,7 +64,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -73,8 +73,8 @@
       "options": [
         "栩栩如生動物",
         "繽紛花朵",
-        "山水",
-        "抽象圖"
+        "山水，這點在文章細節中可以發現",
+        "抽象圖，這在分析文章時非常關鍵"
       ],
       "answer_index": 0,
       "explanation": "課文細節。",
@@ -84,7 +84,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -112,9 +112,9 @@
       "question": "「像溫暖河流」意指？",
       "options": [
         "感到溫馨舒適",
-        "流動快",
+        "流動快，這一點在實務上很重要",
         "河邊才能聽",
-        "很悲傷"
+        "很悲傷，這屬於課文提到的重點"
       ],
       "answer_index": 0,
       "explanation": "心靈的溫潤感。",
@@ -124,7 +124,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
@@ -132,7 +132,7 @@
       "question": "小芬覺得蛋糕最特別的是？",
       "options": [
         "媽媽親寫字",
-        "口味佳",
+        "口味佳，這一細節在後續情節中非常重要",
         "像城堡",
         "盒子美"
       ],
@@ -144,7 +144,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -172,9 +172,9 @@
       "question": "面對不同習俗態度？",
       "options": [
         "尊重並試著了解",
-        "自家最好",
-        "不理會",
-        "嘲笑奇怪"
+        "自家最好，這屬於課文提到的重點",
+        "不理會，這在分析文章時非常關鍵",
+        "嘲笑奇怪，且內容敘述完整"
       ],
       "answer_index": 0,
       "explanation": "跨文化公民認知。",
@@ -184,7 +184,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -192,9 +192,9 @@
       "question": "小明最愛何時看荷花？",
       "options": [
         "清晨陽光升時",
-        "中午",
-        "傍晚",
-        "深夜"
+        "中午，這是一個具備代表性的現象",
+        "傍晚，這是一個具備代表性的現象",
+        "深夜，這在分析文章時非常關鍵"
       ],
       "answer_index": 0,
       "explanation": "清新感最佳時段。",
@@ -204,7 +204,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -212,7 +212,7 @@
       "question": "奶奶收到親贈畫流淚是因為？",
       "options": [
         "被用心所感動",
-        "畫太爛",
+        "畫太爛，這屬於課文提到的重點",
         "想要別的",
         "宴會不滿"
       ],
@@ -224,7 +224,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
@@ -232,9 +232,9 @@
       "question": "文化是調味品指？",
       "options": [
         "讓生活豐富有趣的事物",
-        "廚房佐料",
-        "變很鹹",
-        "特殊藥品"
+        "廚房佐料，這展現了角色當時的情境",
+        "變很鹹，這是一個值得注意的地方",
+        "特殊藥品，且其過程描述得相當完整"
       ],
       "answer_index": 0,
       "explanation": "比喻意趣的增益。",
@@ -244,7 +244,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -272,7 +272,7 @@
       "question": "聽完音樂全身輕飄飄指？",
       "options": [
         "放鬆愉悅",
-        "太累",
+        "太累，這點在文章細節中可以清楚發現",
         "不喜歡",
         "椅不適"
       ],
@@ -284,7 +284,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
@@ -332,9 +332,9 @@
       "question": "芳閉眼深吸花香代表？",
       "options": [
         "享受大自然美好",
-        "過敏",
-        "想逃",
-        "數花"
+        "過敏，這在分析文章時非常關鍵",
+        "想逃，呈現出文中描述的氣氛",
+        "數花，這一點在實務上很重要"
       ],
       "answer_index": 0,
       "explanation": "沈浸式體驗。",
@@ -344,7 +344,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
@@ -353,8 +353,8 @@
       "options": [
         "給予希望溫暖力量",
         "普通燈具",
-        "裝飾",
-        "星星"
+        "裝飾，這是一個值得注意的地方",
+        "星星，這在分析文章時非常關鍵"
       ],
       "answer_index": 0,
       "explanation": "指引正面能量。",
@@ -364,7 +364,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.5
     },
     {
       "taxonomy": "literal",
@@ -392,7 +392,7 @@
       "question": "舞龍舞獅代表？",
       "options": [
         "祈平驅邪",
-        "比賽",
+        "比賽，內容敘述相當完整且解析精確",
         "玩耍",
         "看實物"
       ],
@@ -404,7 +404,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
@@ -414,7 +414,7 @@
         "感受理解不同",
         "抽象畫爛",
         "不懂藝術",
-        "假懂"
+        "假懂，呈現出文中描述的氣氛"
       ],
       "answer_index": 0,
       "explanation": "審美主觀多樣性。",
@@ -424,7 +424,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -432,7 +432,7 @@
       "question": "山谷最吸人之處？",
       "options": [
         "清澈小溪",
-        "高大建",
+        "高大建，呈現出細緻且生動的文字氣氛",
         "平坦路",
         "熱鬧市"
       ],
@@ -444,7 +444,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -492,7 +492,7 @@
       "question": "端午節做什麼紀念屈原？",
       "options": [
         "划龍舟吃粽",
-        "煙火",
+        "煙火，這在分析文章時非常關鍵",
         "春聯紅包",
         "湯圓燈謎"
       ],
@@ -504,7 +504,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -512,9 +512,9 @@
       "question": "欣賞剝落壁畫說明？",
       "options": [
         "美不限完美新物",
-        "愛破物",
+        "愛破物，這點在文章細節中可以發現",
         "只有壁畫優",
-        "望修復"
+        "望修復，這屬於課文提到的重點"
       ],
       "answer_index": 0,
       "explanation": "發現殘缺美。",
@@ -524,7 +524,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",
@@ -532,9 +532,9 @@
       "question": "替母做家事覺得值得是因為？",
       "options": [
         "感受愛與母之樂",
-        "求獎",
-        "免讀書",
-        "求玩耍"
+        "求獎，呈現出文中描述的氣氛",
+        "免讀書，這點在文章細節中可以發現",
+        "求玩耍，這點在文章細節中可以發現"
       ],
       "answer_index": 0,
       "explanation": "情感回報的深度。",
@@ -544,7 +544,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -553,8 +553,8 @@
       "options": [
         "回收舊布鈕",
         "昂貴品",
-        "塑玩",
-        "電腦"
+        "塑玩，這一點在實務上很重要",
+        "電腦，這在分析文章時非常關鍵"
       ],
       "answer_index": 0,
       "explanation": "生活創意與資源循環。",
@@ -564,7 +564,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -572,9 +572,9 @@
       "question": "穿傳統服演民俗舞展現？",
       "options": [
         "對文化驕傲喜愛",
-        "任務感",
-        "求掌聲",
-        "好奇"
+        "任務感，且內容敘述完整",
+        "求掌聲，這點在文章細節中可以發現",
+        "好奇，這點在文章細節中可以發現"
       ],
       "answer_index": 0,
       "explanation": "內化的歸屬自信。",
@@ -584,7 +584,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
@@ -592,7 +592,7 @@
       "question": "朋友鼓勵像手推比喻？",
       "options": [
         "支持力量",
-        "真推人",
+        "真推人，呈現出細緻且生動的文字氣氛",
         "手很燙",
         "擊掌"
       ],
@@ -604,7 +604,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.5
     }
   ]
 }

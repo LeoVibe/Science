@@ -1,9 +1,11 @@
 {
-  "publisher": "翰林",
+  "publisher": "HanLin",
   "grade": "G6",
   "semester": "S2",
   "subject": "Science",
   "items": [
-    { "id": "U1", "title": "變動的大地", "file": "Sci_U1.json" }
+    { "id": "U1", "title": "變動的大地", "file": "Sci_U1.json" },
+    { "id": "U2", "title": "電與磁的作用", "file": "Sci_U2.json" },
+    { "id": "U3", "title": "環境保護與永續發展", "file": "Sci_U3.json" }
   ]
 }

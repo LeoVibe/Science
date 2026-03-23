@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "旋律如同是有魔力的翅膀，能帶領人的心靈進入不同的奇幻時空",
         "聽音樂會頭痛"
       ],
-      "answer": "旋律如同是有魔力的翅膀，能帶領人的心靈進入不同的奇幻時空",
       "explanation": "運用誇飾與比喻，呈現對音樂意境的感受與想像。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "旋律如同是有魔力的翅膀，能帶領人的心靈進入不同的奇幻時空"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "文中描述，當小提琴或鋼琴的聲音響起時，聽眾彷彿看見了奔跑的鹿、飛舞的森林等景象。",
-      "answer": "True",
       "explanation": "這是運用文字呈現「通感」（Synesthesia）的寫作特色。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "音樂的奇幻之處在於，即使沒有歌詞，也能透過音調的起伏傳達______。",
-      "answer": "情感、故事、心情或力量",
       "explanation": "探討藝術的非語言溝通特質。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "情感、故事、心情或力量"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "因為音樂家會變魔術",
         "因為音樂產生的聯想往往超脫現實，充滿想像的空間"
       ],
-      "answer": "因為音樂產生的聯想往往超脫現實，充滿想像的空間",
       "explanation": "強調藝術創造的心理作用。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "因為音樂產生的聯想往往超脫現實，充滿想像的空間"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "練習每天大聲唱歌",
         "細心聆聽及領略聲音的美感，豐富精神生活"
       ],
-      "answer": "細心聆聽及領略聲音的美感，豐富精神生活",
       "explanation": "感官美育教育的重要一環。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "細心聆聽及領略聲音的美感，豐富精神生活"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

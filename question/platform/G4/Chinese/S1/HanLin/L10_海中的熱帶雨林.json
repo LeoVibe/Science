@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "擁有極高的生物多樣性，提供了海洋生物豐富的棲息地與食物來源",
         "在海底也下很多雨"
       ],
-      "answer": "擁有極高的生物多樣性，提供了海洋生物豐富的棲息地與食物來源",
       "explanation": "珊瑚礁是海洋中的生態樞紐，如同熱帶雨林地位之於陸地。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "擁有極高的生物多樣性，提供了海洋生物豐富的棲息地與食物來源"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "文中提到珊瑚其實是由珊瑚蟲累積而成的，它們對環境變化非常敏感，尤其是海水溫度的升高。",
-      "answer": "True",
       "explanation": "引入生態科普知識，探討珊瑚白化與全球暖化的關係。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "珊瑚礁色彩繽紛，是因為身上共生了各種彩色的______，它們共存共榮。",
-      "answer": "藻類",
       "explanation": "探討生物間的共生關係。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "藻類"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "魚會變多",
         "珊瑚會死亡、生態系統崩潰，導致海洋生物失去家園"
       ],
-      "answer": "珊瑚會死亡、生態系統崩潰，導致海洋生物失去家園",
       "explanation": "強調環境保護的緊迫性。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "珊瑚會死亡、生態系統崩潰，導致海洋生物失去家園"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "研究珊瑚的化學成分",
         "關懷海洋生態、保護自然棲地，讓這份美麗長存"
       ],
-      "answer": "關懷海洋生態、保護自然棲地，讓這份美麗長存",
       "explanation": "環境永續發展觀念的注入。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "關懷海洋生態、保護自然棲地，讓這份美麗長存"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

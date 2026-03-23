@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "4",
         "5"
       ],
-      "answer": "5",
       "explanation": "45 ÷ 9 = 5。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "5"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "除法算式中，餘數絕對不可以等於或大於除數。",
-      "answer": "True",
       "explanation": "如果餘數大於除數，表示商還可以再進一位。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 728 ÷ 24 = ______ ... ______。（寫出商和餘數）",
-      "answer": "30 ... 8",
       "explanation": "24 × 30 = 720，728 - 720 = 8。",
       "cqi_score": 2.5,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "30 ... 8"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "30 顆",
         "20 顆"
       ],
-      "answer": "20 顆",
       "explanation": "300 ÷ 15 = 20。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "20 顆"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "沒有商的算式",
         "商是 0 的算式"
       ],
-      "answer": "餘數是 0 的算式",
       "explanation": "整除意味著除數能完全分裝被乘數而不剩餘。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "餘數是 0 的算式"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

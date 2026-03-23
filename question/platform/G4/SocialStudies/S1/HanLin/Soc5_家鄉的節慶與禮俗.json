@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "收涎",
         "抓周"
       ],
-      "answer": "抓周",
       "explanation": "抓周是用來預測或祝福孩子未來志向、行業的一種趣味習俗。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "抓周"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "「清明節」是家鄉重要的節慶，主要活動是祭祖與掃墓，表達對祖先的懷念。",
-      "answer": "True",
       "explanation": "慎終追遠是中華傳統文化的重要核心。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "農曆正月十五日是______節，習俗有吃元宵、提燈籠、猜燈謎等活動。",
-      "answer": "元宵",
       "explanation": "元宵節又稱「小過年」，標誌著春節活動的結束。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "元宵"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "沒什麼意義，很麻煩",
         "為了收紅包"
       ],
-      "answer": "慶祝人生的重要階段，並給予當事人祝福與認同",
       "explanation": "禮俗強化了家庭成員間的情感連結。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "慶祝人生的重要階段，並給予當事人祝福與認同"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "傳統文化已經消失了",
         "大家變懶了"
       ],
-      "answer": "文化會隨時代進步而演變，但其中的情感價值依然不變",
       "explanation": "文化具有變遷性與承襲性。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "文化會隨時代進步而演變，但其中的情感價值依然不變"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

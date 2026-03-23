@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "地形",
         "交通"
       ],
-      "answer": "地形",
       "explanation": "地形包含平原、盆地、台地、丘陵與山地等種類。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "地形"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "盆地地形的特徵是四周高、中間低平，就像一個面盆一樣。",
-      "answer": "True",
       "explanation": "例如台北盆地、台中盆地。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "一望無際、地勢低平的地形稱為______，是早期發展農業與城市最理想的地方。",
-      "answer": "平原",
       "explanation": "例如嘉南平原、屏東平原。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "平原"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "以上皆是",
         "交通路線的開闢"
       ],
-      "answer": "以上皆是",
       "explanation": "自然環境是人類活動的基礎載體。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "以上皆是"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "位於河口",
         "海拔很高，且坡度陡峭"
       ],
-      "answer": "海拔很高，且坡度陡峭",
       "explanation": "台灣山地面積廣大，中央山脈是著名的屋脊。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "海拔很高，且坡度陡峭"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

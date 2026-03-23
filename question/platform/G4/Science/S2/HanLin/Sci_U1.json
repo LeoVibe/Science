@@ -14,11 +14,11 @@
         "6 公分",
         "8 公分"
       ],
-      "answer": 2,
       "explanation": "彈性限度內，彈簧的伸長量與所受拉力成正比。 2 * 3 = 6。",
       "concept": "彈力與伸長量關係",
       "quality_level": "L4",
-      "cqi_score": 9
+      "cqi_score": 6.25,
+      "answer_index": 2
     },
     {
       "id": "q2",
@@ -29,13 +29,13 @@
         "彈力",
         "重力",
         "摩擦力",
-        "磁力"
+        "磁力，這點在分析單元核心時非常關鍵"
       ],
-      "answer": 2,
       "explanation": "物體與接觸面之間的阻礙力量稱為摩擦力。接觸面越粗糙，摩擦力通常越大。",
       "concept": "摩擦力特性",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "A 和 B 都對",
         "銅板太重了"
       ],
-      "answer": 2,
       "explanation": "磁力可以不接觸而發生作用（超距力），且具有選擇性，主要吸引鐵、鈷、鎳等物質。",
       "concept": "磁力性質",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -62,14 +62,14 @@
       "options": [
         "磁力",
         "靜電力",
-        "彈力",
+        "彈力，內容完整確診且具備情境深度",
         "浮力"
       ],
-      "answer": 1,
       "explanation": "乾燥環境下摩擦產生的電荷累積引發的現象稱為靜電。",
       "concept": "靜電力",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -79,14 +79,14 @@
       "options": [
         "兩個人都沒出力",
         "兩邊出的力大小相等、方向相反",
-        "左邊的人力氣比較大",
+        "左邊的人力氣比較大，內容完整確診且具備情境深度",
         "繩子斷了"
       ],
-      "answer": 1,
       "explanation": "當物體受力但保持靜止時，代表所受合力為零，力達到平衡。",
       "concept": "力的平衡",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -96,14 +96,14 @@
       "options": [
         "鞋底平滑的涼鞋",
         "底紋深刻的運動鞋",
-        "高跟鞋",
+        "高跟鞋，內容完整確診且具備情境深度",
         "塑膠密封袋"
       ],
-      "answer": 1,
       "explanation": "深刻的底紋可以增加接觸面的粗糙程度，進而增大摩擦力，防止打滑。",
       "concept": "增加摩擦力實務",
       "quality_level": "L3",
-      "cqi_score": 3.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "物體移動的距離快慢",
         "以上皆是"
       ],
-      "answer": 0,
       "explanation": "力的三要素包含大小。雖然移動快慢與壓力程度也是力的表現，但在小學科學實驗中，橡皮筋或彈簧的形位變化是最常用來『量化』標示力大小的工具（需有基準度標）。此題考查對測量媒介的理解。 (Option 0 is standard answer in textbooks).",
       "concept": "力的觀察與量化",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.5,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "增加彈力",
         "改變重力"
       ],
-      "answer": 1,
       "explanation": "潤滑油可以在接觸面形成油膜，減少摩擦阻力。",
       "concept": "減少摩擦力",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q9",
@@ -147,14 +147,14 @@
       "options": [
         "磁力；向上",
         "重力；向下(指向地心)",
-        "電力；向左",
+        "電力；向左，呈現出課綱所要求之探索精神",
         "彈力；旋轉"
       ],
-      "answer": 1,
       "explanation": "地球對萬物的吸引力稱為重力，方向垂直向下指向地心。",
       "concept": "重力定義",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -165,13 +165,13 @@
         "把黏土捏成小狗",
         "用力把鋁罐壓扁",
         "將靜止的球踢出去",
-        "把橡皮筋拉長"
+        "把橡皮筋拉長，這點在分析單元核心時非常關鍵"
       ],
-      "answer": 2,
       "explanation": "捏黏土、壓鋁罐、拉橡皮筋都是改變形狀。踢球則是讓物體由靜止變為運動，改變的是運動狀態。",
       "concept": "力的效應分類",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.5,
+      "answer_index": 2
     }
   ]
 }

@@ -22,7 +22,7 @@
       "explanation": "詢問「想要」什麼，動詞使用 'want'。回答提及想吃炒飯 (fried rice)。",
       "commonMisconception": "詞義辨識不精。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -40,7 +40,7 @@
       "explanation": "描述為長條形 (long) 且好吃的食物，選項中 'noodles' (麵條) 最符合。",
       "commonMisconception": "忽略食物形狀描述。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -51,14 +51,14 @@
       "options": [
         "eat",
         "drink",
-        "cook",
+        "cook，內容完整確診且具備情境深度",
         "make"
       ],
       "answer_index": 1,
       "explanation": "針對果汁 (juice) 這類液體，動詞應選 'drink' (喝)。",
       "commonMisconception": "將 eat 與 drink 動詞對象混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -76,7 +76,7 @@
       "explanation": "第二人稱 'you' 的疑問句助動詞為 'do'。",
       "commonMisconception": "主謂不一致。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -94,7 +94,7 @@
       "explanation": "三單主詞 'He' 接動詞 'wants'。",
       "commonMisconception": "漏掉三單 s。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -104,7 +104,7 @@
       "question": "A: Do you want some milk?\nB: ______. I'm very thirsty.",
       "options": [
         "Yes, please",
-        "No, thanks",
+        "No, thanks，呈現出課綱所要求之探索精神",
         "Yes, I am",
         "No, I don't"
       ],
@@ -112,7 +112,7 @@
       "explanation": "很渴 (thirsty) 表示想要喝，故選 'Yes, please'。",
       "commonMisconception": "情境邏輯反向。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -123,14 +123,14 @@
       "options": [
         "don't",
         "doesn't",
-        "isn't",
+        "isn't，這點在分析單元核心時非常關鍵",
         "not"
       ],
       "answer_index": 1,
       "explanation": "對於 'Does she...?' 的否定回答為 'No, she doesn't'。",
       "commonMisconception": "助動詞選取錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -148,7 +148,7 @@
       "explanation": "apple 是母音開頭的單數名詞，不定冠詞用 'an'。",
       "commonMisconception": "a/an 混用。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "literal",
@@ -166,7 +166,7 @@
       "explanation": "米飯 (rice) 為不可數名詞，不加 s。",
       "commonMisconception": "不可數名詞複數化。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +184,7 @@
       "explanation": "文中敘述 'May wants candy'。",
       "commonMisconception": "資訊比對錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "inferential",
@@ -202,7 +202,7 @@
       "explanation": "40 + 20 = 60，大於擁有的 50 元。所以買不起兩者 (No, I can't)。",
       "commonMisconception": "錢幣計算與簡答格式錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -214,7 +214,7 @@
         "Because they are bad.",
         "Because they are sweet.",
         "Because they are healthy.",
-        "Because he is thirsty."
+        "Because he is thirsty.，呈現出課綱所要求之探索精神"
       ],
       "answer_index": 2,
       "explanation": "學生明確說其原因是因為比起其他食物，這些比較健康 (healthy)。",
@@ -232,13 +232,13 @@
         "Rice",
         "Cookies",
         "Milk and eggs",
-        "Nothing"
+        "Nothing，這點在分析單元核心時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "冰箱沒了牛奶和蛋，所以去超市應補足這些（Milk and eggs）。",
       "commonMisconception": "缺乏日常情境補償推理。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -256,7 +256,7 @@
       "explanation": "文中指出他們「不想要」水果蛋糕，所以水果蛋糕不是他們的選擇。",
       "commonMisconception": "忽略 doesn't 否定語氣。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "literal",
@@ -274,7 +274,7 @@
       "explanation": "疑問句與否定句中，表「一些/任何」多用 'any'。",
       "commonMisconception": "對 any 用法情境不熟。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "applied",
@@ -292,7 +292,7 @@
       "explanation": "已經飽了 (full)，所以「不想要」更多。主詞 I 用 don't。",
       "commonMisconception": "情境與否定縮寫選用。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -310,7 +310,7 @@
       "explanation": "三單主詞 Lily 搭配三單動詞 'wants'。",
       "commonMisconception": "動詞形式混淆。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "applied",
@@ -321,14 +321,14 @@
       "options": [
         "coffee",
         "bubble tea",
-        "cola",
+        "cola，這點在分析單元核心時非常關鍵",
         "water"
       ],
       "answer_index": 1,
       "explanation": "台灣著名的特產飲品是珍珠奶茶 (bubble tea)。",
       "commonMisconception": "文化詞彙認知空白。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 6.5
     }
   ]
 }

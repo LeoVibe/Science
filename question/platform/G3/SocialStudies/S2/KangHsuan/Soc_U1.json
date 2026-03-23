@@ -16,14 +16,14 @@
       "options": [
         "當地的氣候非常寒冷，像冰塊一樣",
         "當地有一座形狀像門的天然巨大海蝕岩洞",
-        "這裡以前是專門製造石頭門的工廠",
+        "這裡以前是專門製造石頭門的工廠，呈現出課綱所要求之探索精神",
         "這裡住著一位名字叫做「石門」的長輩"
       ],
       "answer_index": 1,
       "explanation": "地名的由來常與當地的地形特徵有關。石門因有一座巨大的海蝕洞，形狀像扇門而得名，這是人與自然環境連結的實例。",
       "commonMisconception": "學生可能誤以為地名是隨機取的或是以人名命名，而忽略了地理特徵對初早期命名的關鍵影響。",
       "quality_level": "L5",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "authoring_model": "Gemini 3 Flash",
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -37,7 +37,7 @@
       "options": [
         "因為當地人很喜歡養鸚鵡作為寵物",
         "因為這裡的地型特徵（像鸚鵡的石頭）轉化為地名",
-        "因為以前這裡有很多會唱歌的小鳥",
+        "因為以前這裡有很多會唱歌的小鳥，這點在分析單元核心時非常關鍵",
         "因為這裡的陶瓷作品大多是以鳥類為主題"
       ],
       "answer_index": 1,
@@ -45,7 +45,7 @@
       "commonMisconception": "學生可能將後續發展的產業（陶瓷）誤認為地名的起源，或被表面文字（唱歌的鳥）所誤導。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -58,7 +58,7 @@
       "options": [
         "這裡的土質非常乾硬，不適合種植植物",
         "這裡早期長滿了茂盛的竹林，是重要的天然資源",
-        "這裡的地形非常平坦，完全沒有山丘",
+        "這裡的地形非常平坦，完全沒有山丘，呈現出課綱所要求之探索精神",
         "這裡的人是因為喜歡吃竹筍才把地名改成竹山"
       ],
       "answer_index": 1,
@@ -66,7 +66,7 @@
       "commonMisconception": "學生可能混淆因果關係，認為是先有產業才有名字，實際上地名往往反映了原始的自然景觀。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -87,7 +87,7 @@
       "commonMisconception": "學生可能不熟悉經緯度與氣候的關係，或誤解『恆』字的意思。選項設計以鮮明的氣候對比來強化學生的認知。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -108,7 +108,7 @@
       "commonMisconception": "學生可能將「新」字誤解為現代的開發，而忽略了歷史脈絡中「新開墾」的意義。透過選項設計，引導學生思考地名背後的開墾意義。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.5,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -129,7 +129,7 @@
       "commonMisconception": "學生可能忽略台灣地名中深厚的原住民背景。透過「冒煙的熱水」的直觀描述，連結溫泉與族語命名。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.5,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -142,7 +142,7 @@
       "options": [
         "這裡以前是高山陡坡，完全沒有水源",
         "這裡早期靠近水源，可能有發達的水運或捕魚活動",
-        "這裡以前是沙漠地帶，非常乾旱",
+        "這裡以前是沙漠地帶，非常乾旱，內容完整且具備情境深度",
         "這裡以前是專門讓馬車賽跑的跑道"
       ],
       "answer_index": 1,
@@ -150,7 +150,7 @@
       "commonMisconception": "學生可能受限於現代都市地貌，難以想像過去水文對生活空間的形塑。藉由地圖符號引導學生進行空間推論。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -163,7 +163,7 @@
       "options": [
         "學會如何幫阿公修手機，增加自己的技能",
         "透過長輩的記憶，補足被遺忘的地方歷史與情感連結",
-        "確認阿公每天吃的午餐是什麼，可以回報案給老師",
+        "確認阿公每天吃的午餐是什麼，可以回報案給老師，這點在分析單元核心時非常關鍵",
         "讓阿公感到很煩，因為問題太多了"
       ],
       "answer_index": 1,
@@ -171,7 +171,7 @@
       "commonMisconception": "學生可能將訪談視為形式，或忽略了長輩作為「活百科全書」的文化價值。選項引導學生理解文化保存的深層意義。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -184,7 +184,7 @@
       "options": [
         "覺得以前的人很窮，應該全部忘掉過去發生的事",
         "欣賞科技帶來的便利，同時也珍惜並保存家鄉的珍貴記憶",
-        "要求政府把高鐵站拆掉，恢復以前牛車走路的樣子",
+        "要求政府把高鐵站拆掉，恢復以前牛車走路的樣子，呈現出課綱所要求之探索精神",
         "只關心現在流行什麼，完全不看舊照片"
       ],
       "answer_index": 1,
@@ -192,7 +192,7 @@
       "commonMisconception": "唯發展論：學生可能偏向 B 選項（遺忘過去），或極端復古（選項 C）。選項 B 指引了正確的價值觀架構。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -213,7 +213,7 @@
       "commonMisconception": "利慾薰心或輕信：學生可能被「免費」誘騙，或缺乏網路風險意識。選項 D 的「阿公」是針對時空背景刻意設計的誘答，釐清時代差異。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -234,7 +234,7 @@
       "commonMisconception": "字面混淆：學生可能將「三層」誤以為是三個人或三個池塘。正確的空間推論需要結合地形關鍵詞。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -247,7 +247,7 @@
       "options": [
         "舉雙手贊成，因為新地名聽起來比較時尚",
         "向居民說明原地名背後的歷史與生態意義，建議保留文化特色",
-        "不關我的事，反正地址怎麼改我都收得到包裹",
+        "不關我的事，反正地址怎麼改我都收得到包裹，呈現出課綱所要求之探索精神",
         "大聲抗議並跟支持改名的人吵架打架"
       ],
       "answer_index": 1,
@@ -255,7 +255,7 @@
       "commonMisconception": "唯發展論或漠不關心。選項 D 的「吵架」是錯誤的公民參與方式，選項 B 則是核心價值的引導。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -268,7 +268,7 @@
       "options": [
         "以前的人很喜歡養孔雀和火雞",
         "以前的人在這些地方開採資源或居住在簡陋房舍",
-        "那是外星人降落時留下的祕密基地",
+        "那是外星人降落時留下的祕密基地，這點在分析單元核心時非常關鍵",
         "那代表這裡以前曾經是大型的運動中心"
       ],
       "answer_index": 1,
@@ -276,7 +276,7 @@
       "commonMisconception": "學生可能對傳統地名詞彙無感。選項設計以誇張的答案（外星人）凸顯真實歷史研究的重要性。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -289,7 +289,7 @@
       "options": [
         "以前的人很笨，不知道怎麼把水排掉",
         "人類應該順應自然環境並運用智慧來解決生活難題",
-        "現代建築只要夠高就好，不用考慮排水問題",
+        "現代建築只要夠高就好，不用考慮排水問題，呈現出課綱所要求之探索精神",
         "把以前的土角厝全部拆掉，才能保護地球"
       ],
       "answer_index": 1,
@@ -297,7 +297,7 @@
       "commonMisconception": "進步迷思：認為過去的一切都是落後的。選項 B 的「順應與智慧」是核心價值的引導。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -310,7 +310,7 @@
       "options": [
         "只要我有交稅，我就可以在圖書館大聲唱歌",
         "每個人都應該愛護公共設施，並遵守使用規範，讓大家都能均衡使用",
-        "既然是公家的物品，如果弄壞了也沒關係，政府會修",
+        "既然是公家的物品，如果弄壞了也沒關係，政府會修，內容完整且具備情境深度",
         "我們可以私自把公園裡的樹砍掉回家種"
       ],
       "answer_index": 1,
@@ -318,7 +318,7 @@
       "commonMisconception": "權利與義務的誤解（選項 A, C）。選項 B 指向正確的公民素養。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -331,7 +331,7 @@
       "options": [
         "了解當時的人比較喜歡住在河邊游泳",
         "了解該地區在過去的自然環境與地理樣貌",
-        "了解這裡以前的人都改名叫做「舊岸」",
+        "了解這裡以前的人都改名叫做「舊岸」，內容完整且具備情境深度",
         "了解現在的柏油路比以前的河水更好喝"
       ],
       "answer_index": 1,
@@ -339,7 +339,7 @@
       "commonMisconception": "學生可能忽略地名的歷史檔案功能。選項 D 透過誇張的描述引導回正確邏輯。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -360,7 +360,7 @@
       "commonMisconception": "字面混淆：學生可能同時被「水」與「沙」干擾。選項 B 連結了水文環境與命名的連貫性。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -381,7 +381,7 @@
       "commonMisconception": "學生可能以現代的高科技建材作為唯一的衡量標準。選項 B 引導認識「適應力」的價值。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -394,7 +394,7 @@
       "options": [
         "讓大家都有更多時間可以坐在路邊看牛車",
         "大大縮短了貨物運輸的時間，讓生活物資取得更便利",
-        "讓農夫變得很閒，每天都去跳舞",
+        "讓農夫變得很閒，每天都去跳舞，內容完整且具備情境深度",
         "讓家鄉的空氣變得比以前更清新香甜"
       ],
       "answer_index": 1,
@@ -402,7 +402,7 @@
       "commonMisconception": "學生可能只看到交通工具的外型改變。選項 B 深入到「生活機能」的提升。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -415,7 +415,7 @@
       "options": [
         "他們是一群專門收保護費的人，不認識他們也沒關係",
         "他們是民間組織，旨在透過居民共同參與，改善並繁榮社區生活",
-        "只要加入協會，每個月就可以領到一萬元獎金",
+        "只要加入協會，每個月就可以領到一萬元獎金，內容完整且具備情境深度",
         "他們的工作就是每天幫小朋友寫功課"
       ],
       "answer_index": 1,
@@ -423,7 +423,7 @@
       "commonMisconception": "學生可能分不清政府組織與民間組織。透過具體活動情境，引導認識「公民參與」的組織形式。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -436,7 +436,7 @@
       "options": [
         "負責幫大家決定每天早餐要吃什麼",
         "協助處理社區內的公共事務、反映里民意見並協助政令推行",
-        "他是社區裡最有錢的人，我們應該常向他借錢",
+        "他是社區裡最有錢的人，我們應該常向他借錢，這點在分析單元核心時非常關鍵",
         "他是一個專門表演魔術給里民看的人"
       ],
       "answer_index": 1,
@@ -444,7 +444,7 @@
       "commonMisconception": "三年級學童可能對各級公務人員權限不清楚。選項 B 清晰列出里長的法定與慣常責任。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -465,7 +465,7 @@
       "commonMisconception": "即時滿足是學童常見迷思。選項 B 強調了資源有限下的優先順序。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -486,7 +486,7 @@
       "commonMisconception": "認為「地名只是一個代號」。選項 B 導引向更具人文關懷的視角。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -499,7 +499,7 @@
       "options": [
         "在路邊大聲吵鬧，引起居民的注意",
         "隨身攜帶筆記本和相機，詳實紀錄觀察到的景象並訪談在地人",
-        "看到好吃的零食店就待在那裡吃吃喝喝，忘記觀察任務",
+        "看到好吃的零食店就待在那裡吃吃喝喝，忘記觀察任務，呈現出課綱所要求之探索精神",
         "直接開門進入別人的房子裡，看他們家有沒有髒亂"
       ],
       "answer_index": 1,
@@ -507,7 +507,7 @@
       "commonMisconception": "學生可能將考察當作遠足或侵犯他人隱私。選項 B 勾勒出專業田野調查的雛形。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -520,7 +520,7 @@
       "options": [
         "在電腦公司上班的軟體工程師",
         "種植甘蔗或在糖廠工作的農夫與工人",
-        "在遊樂園裡表演的特技演員",
+        "在遊樂園裡表演的特技演員，這點在分析單元核心時非常關鍵",
         "在大學裡教導機器人設計的教授"
       ],
       "answer_index": 1,
@@ -528,7 +528,7 @@
       "commonMisconception": "學生可能因時空穿越而誤植現代職位。選項 B 強點產業與職業的連動。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 7.5,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -549,7 +549,7 @@
       "commonMisconception": "旁觀者效應或不當處理。選項 C 指向了建設性的社區參與路徑。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.5,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -562,7 +562,7 @@
       "options": [
         "因為三星代表星星，聽起來很好吃",
         "因為地名常與產地的特有環境、歷史和傳統手藝結合在一起",
-        "因為隨便換一個地名，味道就會變得很奇怪",
+        "因為隨便換一個地名，味道就會變得很奇怪，這點在分析單元核心時非常關鍵",
         "因為地名是政府花錢買來的品牌，不介紹會被罰款"
       ],
       "answer_index": 1,
@@ -570,7 +570,7 @@
       "commonMisconception": "學生可能將地名視為單純標籤。選項 B 深入到地方品牌與文化深度。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -583,7 +583,7 @@
       "options": [
         "可以讓我們在家看著地圖，就不用出門走路運動了",
         "可以不受時空限制，快速且清晰地了解家鄉整體的地理位置與環境面貌",
-        "可以讓我們在地圖上玩捉迷藏遊戲",
+        "可以讓我們在地圖上玩捉迷藏遊戲，這點在分析單元核心時非常關鍵，這點在分析單元核心時非常關鍵",
         "可以在地圖上找尋藏寶箱，領取真實的金幣"
       ],
       "answer_index": 1,
@@ -591,7 +591,7 @@
       "commonMisconception": "工具錯置。選項 B 列出了數位地圖在「認知空間」上的正式功能。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -612,7 +612,7 @@
       "commonMisconception": "推缷責任或過度依賴公權力。選項 B 勾劃了個人與社會的健康互動關係。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"
@@ -625,7 +625,7 @@
       "options": [
         "不再提起家鄉的名字，因為我要去更遠的地方發展",
         "珍藏故鄉的照片與故事，並向其他人分享家鄉的美好與文化特色",
-        "把家鄉的土地全部賣掉，這樣就不用再付稅金了",
+        "把家鄉的土地全部賣掉，這樣就不用再付稅金了，呈現出課綱所要求之探索精神",
         "要求家鄉的每個人都要每天傳一千封簡訊給我"
       ],
       "answer_index": 1,
@@ -633,7 +633,7 @@
       "commonMisconception": "冷漠或極端功利主義。選項 B 建立了情感連結與價值傳承的積極典範。",
       "quality_level": "L5",
       "authoring_model": "Gemini 3 Flash",
-      "cqi_score": 3,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22"

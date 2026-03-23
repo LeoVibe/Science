@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "八千五百萬二百",
         "八千零五十萬零二百"
       ],
-      "answer": "八千零五十萬零二百",
       "explanation": "80,50,0,200。千萬位 8，百萬位 0，十萬位 5，萬位 0，千位 0，百位 2。讀作：八千零五十萬零二百。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "八千零五十萬零二百"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "「千萬位」左邊一位是「億位」。",
-      "answer": "True",
       "explanation": "個、十、百、千、萬、十萬、百萬、千萬、億。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "「二千七百萬」記作______。",
-      "answer": "27000000",
       "explanation": "千萬位 2，百萬位 7，其餘補 0。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "27000000"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "一百萬",
         "一萬"
       ],
-      "answer": "一千萬",
       "explanation": "1 位在千萬位上。",
       "cqi_score": 5.75,
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "answer_index": "一千萬"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "9991 萬",
         "100 萬"
       ],
-      "answer": "1000 萬",
       "explanation": "999 + 1 = 1000，即一千萬。",
       "cqi_score": 4.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "1000 萬"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

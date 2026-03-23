@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "自己的電話號碼",
         "主題（家鄉名稱）與吸引人的標題"
       ],
-      "answer": "主題（家鄉名稱）與吸引人的標題",
       "explanation": "清晰的主題能讓讀者一目了然。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "主題（家鄉名稱）與吸引人的標題"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "成功的導覽員在介紹時會加入情感，並能具體說出地景背後的歷史與人物故事。",
-      "answer": "True",
       "explanation": "深度故事能讓冰冷的地點變得溫暖動人。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "導覽時如果能利用地圖、圖片或實物來輔助說明，稱之為______引導方式。",
-      "answer": "視覺或多感官",
       "explanation": "多樣化的媒介能增加聽眾的印象。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "視覺或多感官"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "為了吃好吃的",
         "沒什麼目的"
       ],
-      "answer": "親眼確認環境變化，並補捉真實的景觀細節",
       "explanation": "實地觀察比單純閱讀書本更具說服力。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "親眼確認環境變化，並補捉真實的景觀細節"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "證明聽眾沒在聽",
         "能了解聽眾的需求，並藉由回饋不斷改進導覽內容"
       ],
-      "answer": "能了解聽眾的需求，並藉由回饋不斷改進導覽內容",
       "explanation": "互動雙向學習的過程。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "能了解聽眾的需求，並藉由回饋不斷改進導覽內容"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

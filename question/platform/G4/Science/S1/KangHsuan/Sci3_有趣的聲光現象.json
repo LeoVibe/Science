@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Science",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "太陽光照到物體時",
         "只有在有風的時候"
       ],
-      "answer": "物體發生劇烈振動時",
       "explanation": "振動停止，聲音也就跟著消失。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "物體發生劇烈振動時"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "聲音可以在空氣中傳播，也可以在固體（如木板、牆壁）中傳播。",
-      "answer": "True",
       "explanation": "固體通常傳聲速度比空氣還要快。",
       "cqi_score": 2.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "光在空氣中傳布時，它是遵循______路徑前進的。",
-      "answer": "直線",
       "explanation": "光的直線傳播特性可以用來製作皮影戲或解釋影子形成的原理。",
       "cqi_score": 2.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "直線"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "散色作用",
         "反射作用"
       ],
-      "answer": "反射作用",
       "explanation": "光線遇到光滑平面反射回我們的眼睛。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "反射作用"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "耳朵變大",
         "心情變好"
       ],
-      "answer": "聽力受損並產生焦慮心態",
       "explanation": "保護耳朵防止噪音汙染是生活中的重要環節。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "聽力受損並產生焦慮心態"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "深山僻野",
         "氣候極度惡劣"
       ],
-      "answer": "生活機能便利且工作機會多",
       "explanation": "人們傾向於居住在生活便利度較高的城市或城鎮。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "生活機能便利且工作機會多"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "「高齡化社會」意味著社會需要更多的長期照護與醫療設施。",
-      "answer": "True",
       "explanation": "隨著老年人口增加，社會福利體系面臨轉型。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "因為出生率持續下降，導致家鄉新生兒減少的現象稱為______。",
-      "answer": "少子化",
       "explanation": "少子化是目前台灣面臨的重大人口挑戰。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "少子化"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "只會增加政府負擔",
         "造成社會不穩定"
       ],
-      "answer": "帶來新活力與豐富的異國文化",
       "explanation": "多元文化的融合使社會更具包容力。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "帶來新活力與豐富的異國文化"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "學生證",
         "健保卡"
       ],
-      "answer": "戶口名簿與身分證（戶政系統）",
       "explanation": "戶籍制度是國家治理人口的重要工具。",
       "cqi_score": 3.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "戶口名簿與身分證（戶政系統）"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

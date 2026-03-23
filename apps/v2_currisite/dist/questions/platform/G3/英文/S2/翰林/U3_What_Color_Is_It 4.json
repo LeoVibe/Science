@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "semester": "semester_2",
+    "subject": "英文",
+    "publisher": "han_lin",
+    "lesson": "U3",
+    "order": 3,
+    "title": "Unit 3 What Color Is It?",
+    "verified": true,
+    "verification_source": "翰林官網教材內容"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "A: What color is it? B: It is ______ (黃色).",
+      "options": [
+        "white",
+        "black",
+        "yellow",
+        "red"
+      ],
+      "answer": "yellow",
+      "explanation": "黃色的英文是 yellow。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "'Orange' can mean a fruit and a color.",
+      "answer": "True",
+      "explanation": "Orange 既是橘子也是橘色。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "A: Is it ______? (綠色) B: Yes, it is.",
+      "answer": "green",
+      "explanation": "綠色的英文是 green。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "An apple is usually ______.",
+      "options": [
+        "blue",
+        "purple",
+        "white",
+        "red"
+      ],
+      "answer": "red",
+      "explanation": "蘋果通常是 red (紅色)。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "Snow is ______.",
+      "options": [
+        "white",
+        "black",
+        "green",
+        "orange"
+      ],
+      "answer": "white",
+      "explanation": "雪是 white (白色)。"
+    }
+  ]
+}

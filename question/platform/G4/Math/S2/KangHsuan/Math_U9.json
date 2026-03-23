@@ -14,11 +14,11 @@
         "36 平方公尺",
         "108 平方公尺"
       ],
-      "answer": 1,
       "explanation": "10 * 8 = 80 平方公尺。",
       "concept": "長方形面積",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "18,000 元",
         "36,000 元"
       ],
-      "answer": 2,
       "explanation": "面積 = 6 * 6 = 36。 總價 = 36 * 500 = 18000。",
       "concept": "面積與價格乘法",
       "quality_level": "L4",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer_index": 2
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "一樣大",
         "無法比較"
       ],
-      "answer": 0,
       "explanation": "1 平方公尺 = 10,000 平方公分。 所以甲區域 (100 平方公尺) 遠大於乙區域 (1 平方公尺)。",
       "concept": "面積單位換算比較",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "2 平方公尺",
         "22 平方公尺"
       ],
-      "answer": 1,
       "explanation": "總面積 = 20。 扣除窗戶 = 2。 剩餘 = 18。",
       "concept": "複合圖形面積",
       "quality_level": "L4",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "25 公尺",
         "400 公尺"
       ],
-      "answer": 0,
       "explanation": "邊長 * 邊長 = 100。 故邊長為 10。",
       "concept": "面積與平方根感",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -96,14 +96,14 @@
       "options": [
         "一定一樣",
         "不一定，形狀不同面積就可能不同",
-        "正方形一定比較小",
+        "正方形一定比較小，這點在分析單元核心時非常關鍵",
         "無法判斷"
       ],
-      "answer": 1,
       "explanation": "周長相同時，面積會隨形狀改變。例如周長 20。正方形 (5*5) 面積 25。長方形 (9*1) 面積 9。",
       "concept": "周長與面積的關係",
       "quality_level": "L3",
-      "cqi_score": 4.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "4 平方公尺",
         "64 平方公尺"
       ],
-      "answer": 1,
       "explanation": "一個面積 = 4。 4 個總面積 = 16。 或者看邊長變為 4。 4 * 4 = 16。",
       "concept": "圖形倍率應用",
       "quality_level": "L4",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer_index": 1
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "96",
         "1,200"
       ],
-      "answer": 0,
       "explanation": "120 * 80 = 9600。",
       "concept": "大單位數字面積",
       "quality_level": "L4",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "90 平方公尺",
         "19 平方公尺"
       ],
-      "answer": 1,
       "explanation": "可以想成四塊 4.5 * 4.5 的區。 或者平移步道，剩下的區域是長 (10-1) 寬 (10-1) 的正方形。 9 * 9 = 81。",
       "concept": "進階複合圖形思考",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "公畝",
         "平方公分"
       ],
-      "answer": 1,
       "explanation": "國家面積採用平方公里最合適。雖然這可能超出 U9 範圍，但能測驗單位感。",
       "concept": "量感選擇",
       "quality_level": "L3",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 1
     }
   ]
 }

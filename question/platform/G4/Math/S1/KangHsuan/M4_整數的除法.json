@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "6",
         "7"
       ],
-      "answer": "8",
       "explanation": "240 除以 30 等於 8，也可以看成 24 除以 3。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "8"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "在除法算式中，「餘數」必須比「除數」大。",
-      "answer": "False",
       "explanation": "餘數必須小於除數，否則表示商還可以再增加。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 850 ÷ 25 = ______。",
-      "answer": "34",
       "explanation": "850 除以 25 的商是 34。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "34"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "12 本",
         "14 本"
       ],
-      "answer": "13 本",
       "explanation": "200 ÷ 15 = 13 ... 5，所以最多能買 13 本。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "13 本"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "50 ÷ 4",
         "100 ÷ 3"
       ],
-      "answer": "121 ÷ 11",
       "explanation": "121 = 11 × 11，所以餘數為 0。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "121 ÷ 11"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

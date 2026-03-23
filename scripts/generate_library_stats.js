@@ -27,6 +27,13 @@ const PUBLISHER_MAP = {
     'HanLin': '翰林'
 };
 
+/** 檔案級成熟度是否達「可上架」：至少 L2，且非 L1 (BIAS)。盲測通過由派工／metadata 人工核可，未寫入 JSON 前不由此欄判斷。 */
+function isPublishedFileQuality(quality) {
+    if (!quality || quality === 'BROKEN') return false;
+    if (quality === 'L1' || quality === 'L1 (BIAS)') return false;
+    return ['L2', 'L3', 'L4', 'L5'].some((l) => quality.startsWith(l));
+}
+
 function scanPlatform() {
     const stats = {};
     const publisherStats = {};
@@ -61,7 +68,8 @@ function scanPlatform() {
                         try {
                             const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
                             let unitCount = 0;
-                            let totalQuestions = 0;
+                            let totalBankQuestions = 0;
+                            let totalPublishedQuestions = 0;
                             let totalScore = 0;
                             let unitList = manifest.items || [];
                             let highestQuality = 'L1';
@@ -79,7 +87,10 @@ function scanPlatform() {
                                             try {
                                                 const evalResult = evaluateFile(filePath);
                                                 if (evalResult && evalResult.quality !== 'BROKEN') {
-                                                    totalQuestions += evalResult.count;
+                                                    totalBankQuestions += evalResult.count;
+                                                    if (isPublishedFileQuality(evalResult.quality)) {
+                                                        totalPublishedQuestions += evalResult.count;
+                                                    }
                                                     totalScore += parseFloat(evalResult.avgCqi || 0) * evalResult.count;
 
                                                     // QG 採用最嚴格木桶原則或以最高等為代表？
@@ -99,9 +110,16 @@ function scanPlatform() {
                             }
 
                             let packageAvgCqi = 0;
-                            if (totalQuestions > 0) {
-                                packageAvgCqi = (totalScore / totalQuestions).toFixed(2);
+                            if (totalBankQuestions > 0) {
+                                packageAvgCqi = (totalScore / totalBankQuestions).toFixed(2);
                             }
+
+                            /** 整包可上架題數：整包成熟度已達 L2+（非 L1／BIAS）時，與題庫數一致；否則僅計入逐檔達 L2+ 之題（草稿／偏差檔不計入上架） */
+                            const packageEligible =
+                                highestQuality !== 'L1' && highestQuality !== 'L1 (BIAS)';
+                            const shelfQuestions = packageEligible
+                                ? totalBankQuestions
+                                : totalPublishedQuestions;
 
                             const statKey = `${grade}_${semester}_${subject}`;
                             if (!stats[statKey]) {
@@ -125,7 +143,12 @@ function scanPlatform() {
                             const pubStatKey = `${statKey}_${publisher}`;
                             publisherStats[pubStatKey] = {
                                 units: unitCount,
-                                questions: totalQuestions,
+                                /** 題庫數：manifest 內所有可評分題數加總 */
+                                bankQuestions: totalBankQuestions,
+                                /** 上架數／站內對使用者顯示之可作答題數（整包 L2+ 時等同題庫數；整包 L1／BIAS 時改採逐檔 L2+）。盲測通過由派工／metadata 另行核可 */
+                                publishedQuestions: shelfQuestions,
+                                /** 與 publishedQuestions 相同，保留給舊版前端／腳本 */
+                                questions: shelfQuestions,
                                 quality: highestQuality,
                                 cqi: packageAvgCqi
                             };

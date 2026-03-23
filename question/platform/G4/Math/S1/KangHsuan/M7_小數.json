@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "個位",
         "百分位"
       ],
-      "answer": "十分位",
       "explanation": "數位順序為：個位 . 十分位、百分位...",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "十分位"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "0.5 和 0.50 的大小是相等的。",
-      "answer": "True",
       "explanation": "小數末尾的 0 不影響數值的大小。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 1.25 + 0.75 = ______。",
-      "answer": "2",
       "explanation": "1.25 + 0.75 = 2.00，簡寫為 2。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "2"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "三點零四八",
         "三點四十八"
       ],
-      "answer": "三點四八",
       "explanation": "小數部位要一個數字一個數字分開讀。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "三點四八"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "無法比較",
         "0.2"
       ],
-      "answer": "0.2",
       "explanation": "比較十分位，2 大於 1，所以 0.2 較大。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "0.2"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

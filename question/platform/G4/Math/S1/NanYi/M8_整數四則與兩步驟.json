@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "40",
         "25"
       ],
-      "answer": "25",
       "explanation": "先乘除後加減。5 × 2 = 10，15 + 10 = 25。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "25"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "在有括號的算式中，不一定要先算括號裡的。",
-      "answer": "False",
       "explanation": "括號的優先權最高，必須先計算。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 (100 - 40) ÷ 3 = ______。",
-      "answer": "20",
       "explanation": "100 - 40 = 60，60 ÷ 3 = 20。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "20"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "50 - 2 + 15",
         "(50 - 2) × 15"
       ],
-      "answer": "50 - 2 × 15",
       "explanation": "總錢數減去消費總額。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "50 - 2 × 15"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "15",
         "30"
       ],
-      "answer": "15",
       "explanation": "由左至右計算：120 ÷ 4 = 30，30 ÷ 2 = 15。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "15"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

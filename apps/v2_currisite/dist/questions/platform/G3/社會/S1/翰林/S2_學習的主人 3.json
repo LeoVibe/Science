@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "grade": "grade_3",
+    "subject": "社會",
+    "publisher": "han_lin",
+    "lesson": "S2",
+    "title": "學習的主人",
+    "semester": "semester_1",
+    "order": 2
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "成為「學習的主人」是指什麼？",
+      "options": [
+        "不用聽老師上課",
+        "主動管理時間與設定目標",
+        "只寫自已想寫的科目",
+        "叫爸爸媽媽幫我寫功課"
+      ],
+      "answer": "主動管理時間與設定目標",
+      "explanation": "自主學習是指能主動規劃、執行並自我調整學習進度。"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "良好的讀書環境應該要光線充足且安靜。",
+      "answer": "True",
+      "explanation": "環境會影響專注力，舒適明亮的場地能提升學習效率。"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "遇到不會的問題時，我應該勇於______，找出答案。",
+      "answer": "發問或請教",
+      "explanation": "不恥下問是學習進步的關鍵。"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "下列哪一種工具可以用來幫助我們規劃學習時間？",
+      "options": [
+        "零食包裝袋",
+        "遊戲機",
+        "電視遙控器",
+        "功課表與聯絡簿"
+      ],
+      "answer": "功課表與聯絡簿",
+      "explanation": "聯絡簿能記錄待辦事項，功課表能預知課程進度。"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "除了課本，還有哪裡可以獲得新知識？",
+      "options": [
+        "以上皆是",
+        "大自然觀察",
+        "報章雜誌",
+        "圖書館資料"
+      ],
+      "answer": "以上皆是",
+      "explanation": "知識無所不在，鼓勵多元探索。"
+    }
+  ]
+}

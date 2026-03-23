@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "英文",
     "publisher": "KangHsuan",
@@ -21,28 +21,28 @@
         "do",
         "can"
       ],
-      "answer": "can",
       "explanation": "Can you...? 的肯定回答是 Yes, I can。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "can"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'He can ride a bike.' means '他會騎腳踏車'。",
-      "answer": "True",
       "explanation": "can ride a bike 表示會騎腳踏車。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Can she play basketball? B: No, she ______.",
-      "answer": "can't / cannot",
       "explanation": "Can...? 的否定回答是 No, she can't。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "can't / cannot"
     },
     {
       "id": "4",
@@ -54,10 +54,10 @@
         "skate",
         "to skate"
       ],
-      "answer": "skate",
       "explanation": "can 後面接動詞原形。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "skate"
     },
     {
       "id": "5",
@@ -69,10 +69,11 @@
         "can",
         "do"
       ],
-      "answer": "can",
       "explanation": "表示能力用 can。",
       "cqi_score": 3.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "can"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

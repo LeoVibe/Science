@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "大家都搬到山上住",
         "小朋友越來越多"
       ],
-      "answer": "社會中老年人口所占的比例越來越高",
       "explanation": "醫療進步與平均壽命延長導致高齡人口比例增加。",
       "cqi_score": 5.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "社會中老年人口所占的比例越來越高"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "「少子化」會導致未來家鄉的勞動力減少，學校班級人數也可能縮減。",
-      "answer": "True",
       "explanation": "出生率下降對社會結構產生長遠影響。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "人口通常會往交通便利、工作機會多的______（區域類型）聚集。",
-      "answer": "都市或城市",
       "explanation": "城鄉發展不均導致人口高度集中在都會區。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "都市或城市"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "不應該歡迎他們",
         "沒什麼特別影響"
       ],
-      "answer": "能為家鄉帶來多元的文化色彩與豐富的美食",
       "explanation": "多元文化的融合能增強社會的和諧與活力。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "能為家鄉帶來多元的文化色彩與豐富的美食"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "人口普查",
         "考試"
       ],
-      "answer": "人口普查",
       "explanation": "普查資料能提供政府規劃各項建設的依據。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "人口普查"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

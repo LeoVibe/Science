@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "英文",
     "publisher": "HanLin",
@@ -21,28 +21,28 @@
         "doesn't",
         "am not"
       ],
-      "answer": "can't",
       "explanation": "Can you...? 的否定回答是 No, I can't。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "can't"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'She can play the piano.' means '她會彈鋼琴'。",
-      "answer": "True",
       "explanation": "can play the piano 表示會彈鋼琴。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Can he ______? (跑步) B: Yes, he can run very fast.",
-      "answer": "run",
       "explanation": "can 後面接動詞原形 run。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "run"
     },
     {
       "id": "4",
@@ -54,10 +54,10 @@
         "are",
         "do"
       ],
-      "answer": "can",
       "explanation": "表示能力用 can。",
       "cqi_score": 3.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "can"
     },
     {
       "id": "5",
@@ -69,10 +69,11 @@
         "ride",
         "rides"
       ],
-      "answer": "ride",
       "explanation": "can 後面接動詞原形。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "ride"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

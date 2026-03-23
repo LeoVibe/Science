@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "they",
         "I"
       ],
-      "answer": "my",
       "explanation": "my 是所有格，表示「我的」。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "my"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'Whose' is used to ask about who owns something.",
-      "answer": "True",
       "explanation": "Whose 用來詢問某物是屬於誰的。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Whose ball is this? B: It is ______ (Dino 的) ball.",
-      "answer": "Dino's",
       "explanation": "在人名後加上 's 表示所有權。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "Dino's"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "socks",
         "pen"
       ],
-      "answer": "socks",
       "explanation": "因為回答用 these/they are，表示物體是複數。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "socks"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "your",
         "you"
       ],
-      "answer": "mine",
       "explanation": "mine 是所有格代名詞，代表 my pen。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "mine"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

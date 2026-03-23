@@ -14,11 +14,11 @@
         "一樣多",
         "無法比較"
       ],
-      "answer": 1,
       "explanation": "1.5 = 1.50。 1.50 > 1.25，故果汁瓶較多。",
       "concept": "小數大小比較",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "5.5 公分",
         "24.15 公分"
       ],
-      "answer": 0,
       "explanation": "14.85 - 9.30 = 5.55。",
       "concept": "二位小數減法",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -44,15 +44,15 @@
       "question": "第一小時降雨 4.6 毫米，第二小時降雨 5.75 毫米。兩小時共降雨多少？",
       "options": [
         "10.35 毫米",
-        "9.35 毫米",
+        "9.35 毫米，呈現出課綱所要求之探索精神",
         "10.3 毫米",
         "10 毫米"
       ],
-      "answer": 0,
       "explanation": "4.60 + 5.75 = 10.35。",
       "concept": "小數加法與位值補零",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "0.001",
         "10"
       ],
-      "answer": 0,
       "explanation": "0.01 乘以 10 等於 0.1。",
       "concept": "小數的位值構造",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "5.5 公斤",
         "6.1 公斤"
       ],
-      "answer": 0,
       "explanation": "3.25 + 2.75 = 6.00。",
       "concept": "小數加法整教化",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "2.1 公尺",
         "3.05 公尺"
       ],
-      "answer": 0,
       "explanation": "總支出 = 3.45 + 4.50 = 7.95。 剩餘 = 10.00 - 7.95 = 2.05。",
       "concept": "多步驟小數計算",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "小強遠 0.2 公尺",
         "一樣遠"
       ],
-      "answer": 0,
       "explanation": "3.20 > 3.18。 相差 3.20 - 3.18 = 0.02。",
       "concept": "小數大小對比與計算",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -131,13 +131,13 @@
         "五個一",
         "五個 0.1",
         "五個 0.01",
-        "五個 10"
+        "五個 10，這點在分析單元核心時非常關鍵"
       ],
-      "answer": 2,
       "explanation": "5 在百分位，代表五個 0.01。",
       "concept": "小數數位深度理解",
       "quality_level": "L3",
-      "cqi_score": 3.25
+      "cqi_score": 5.25,
+      "answer_index": 2
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "0.375 公斤",
         "0.8 公斤"
       ],
-      "answer": 0,
       "explanation": "水淨重 = 1.2 - 0.45 = 0.75。 水的一半 = 0.375。 總重 = 0.45 (瓶重) + 0.375 (剩水) = 0.825。 (對小四來說稍難，但符合 L4 挑選題)",
       "concept": "小數加減綜合應用",
       "quality_level": "L4",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "0.238",
         "2.11"
       ],
-      "answer": 0,
       "explanation": "2 + 0.3 + 0.08 = 2.38。",
       "concept": "小數合成",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     }
   ]
 }

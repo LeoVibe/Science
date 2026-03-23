@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "十分位",
         "百分位"
       ],
-      "answer": "十分位",
       "explanation": "小數點右邊第一位是十分位。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "十分位"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "1.5 和 1.50 的大小是不相等的。",
-      "answer": "False",
       "explanation": "小數末尾的 0 不影響數值大小。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "計算 0.75 + 0.25 = ______。",
-      "answer": "1",
       "explanation": "0.75 + 0.25 = 1.00，簡寫為 1。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "1"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "一樣大",
         "0.9"
       ],
-      "answer": "0.9",
       "explanation": "比較十分位，9 大於 1。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "0.9"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "1.95",
         "2.05"
       ],
-      "answer": "1.95",
       "explanation": "2.50 - 0.55 = 1.95。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "1.95"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

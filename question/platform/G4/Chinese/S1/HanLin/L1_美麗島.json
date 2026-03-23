@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "台灣島",
         "海南島"
       ],
-      "answer": "台灣島",
       "explanation": "本課是透過文學性的筆觸，讚頌台灣這座美麗的海島。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "台灣島"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "文中描述了台灣的高山、平原與海洋，強調了這座島嶼豐富多變的地形之美。",
-      "answer": "True",
       "explanation": "對自然景觀的讚歎是本課的情感基調。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "作者將大地比喻成一位慈祥的______，孕育著島上的萬物與人民。",
-      "answer": "母親或大地之母",
       "explanation": "運用譬喻法建立對土地的親近感與歸屬感。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "母親或大地之母"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "地圖上的錯誤標記",
         "一個古代國家的名字"
       ],
-      "answer": "西方探險家對台灣「美麗之島」的驚嘆稱號",
       "explanation": "融入歷史文化背景，增進學生的知識深度。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "西方探險家對台灣「美麗之島」的驚嘆稱號"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "不需要保護環境",
         "熱愛鄉土、珍惜自然環境與本土文化"
       ],
-      "answer": "熱愛鄉土、珍惜自然環境與本土文化",
       "explanation": "鄉土情懷與環境素養的建立。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "熱愛鄉土、珍惜自然環境與本土文化"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

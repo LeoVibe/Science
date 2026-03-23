@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "馬拉松",
         "游泳"
       ],
-      "answer": "拔河",
       "explanation": "拔河比賽中，雙手抓緊繩子、團隊一致不放手是獲勝的唯一信念。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "拔河"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "文中描述了選手們在訓練過程中雙手磨出厚繭、甚至受傷，但他們依然堅持夢想。",
-      "answer": "True",
       "explanation": "這種刻苦訓練的毅力是運動家精神的展現。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "拔河不只是比力氣，更是比全隊的向心力與永不言敗的______。",
-      "answer": "精神、意志、斗志或毅力",
       "explanation": "強調團隊協作與心理素質。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "精神、意志、斗志或毅力"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "因為那條繩子很貴",
         "因為那是規定的運動"
       ],
-      "answer": "為了爭取榮譽，並證明只要肯拚，就能站上世界巔峰",
       "explanation": "追求榮譽感與自我實現是核心動力。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "為了爭取榮譽，並證明只要肯拚，就能站上世界巔峰"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "堅持到底、不畏艱難，並重視團隊合作",
         "手不要拿太重的東西"
       ],
-      "answer": "堅持到底、不畏艱難，並重視團隊合作",
       "explanation": "建立學生的內在韌性（Resilience）。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "堅持到底、不畏艱難，並重視團隊合作"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

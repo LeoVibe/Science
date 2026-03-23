@@ -14,11 +14,11 @@
         "連通管原理",
         "蒸發現象"
       ],
-      "answer": 1,
       "explanation": "水沿著材料內部的細微孔隙自動爬升或移動的現象稱為毛細現象。",
       "concept": "毛細現象定義",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -29,13 +29,13 @@
         "裝滿空氣",
         "保持乾燥",
         "先裝滿水並排空空氣",
-        "塗上膠水"
+        "塗上膠水，這點在分析單元核心時非常關鍵"
       ],
-      "answer": 2,
       "explanation": "虹吸現象需要利用大氣壓力與水柱重力力差，管內充滿連續的水柱是成功的關鍵。",
       "concept": "虹吸現象成功條件",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "高度相同",
         "不一定"
       ],
-      "answer": 2,
       "explanation": "連通管原理指出，底部相通的容器，在靜止時各管內的水面高度會一樣高。",
       "concept": "連通管原理",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "兩者都是",
         "兩者都不是"
       ],
-      "answer": 1,
       "explanation": "當物體的向上浮力大於向下重力時，物體會浮出水面。",
       "concept": "浮力與重力平衡",
       "quality_level": "L4",
-      "cqi_score": 7.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -79,14 +79,14 @@
       "options": [
         "油土變輕了",
         "油土排開的水量增加，浮力變大",
-        "形狀改變讓重力變小",
+        "形狀改變讓重力變小，呈現出課綱所要求之探索精神",
         "水中加入了鹽"
       ],
-      "answer": 1,
       "explanation": "形狀改變增加了在水中的體積，排開更多水，根據阿基米德原理，浮力隨之增大。",
       "concept": "探討浮力影響因素",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "吸管喝果汁",
         "衛生紙吸水"
       ],
-      "answer": 2,
       "explanation": "吸管喝果汁是利用大氣壓力的壓力差。毛筆、粉筆、衛生紙則是利用纖維間隙產生的毛細現象。",
       "concept": "虹吸/毛細現象區分",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 5,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -114,13 +114,13 @@
         "虹吸現象",
         "重力傳導",
         "連通管原理",
-        "防漏機制"
+        "防漏機制，呈現出課綱所要求之探索精神"
       ],
-      "answer": 2,
       "explanation": "U 型管兩端開口且底部相連，是典型的連通管原理應用。",
       "concept": "連通管應用",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "5mm (越粗)",
         "都一樣高"
       ],
-      "answer": 0,
       "explanation": "細縫越窄、管徑越細，毛細現象越明顯，上升高度越高。",
       "concept": "毛細現象影響因素",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 3.25,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "浮力",
         "彈力"
       ],
-      "answer": 2,
       "explanation": "水對物體產生向上的力量（浮力），抵銷了部分的重力，使人感覺重量變輕（表觀重量減少）。",
       "concept": "浮力感官理解",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 4.75,
+      "answer_index": 2
     },
     {
       "id": "q10",
@@ -164,14 +164,14 @@
       "options": [
         "虹吸現象",
         "連通管原理",
-        "毛細現象",
+        "毛細現象，呈現出課綱所要求之探索精神",
         "電力驅動"
       ],
-      "answer": 1,
       "explanation": "連通管原理會使水向較低的一端流動以尋求水面一致。如果出口低於水面，水就會流出（噴出）。",
       "concept": "連通管原理進階",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 5.25,
+      "answer_index": 1
     }
   ]
 }

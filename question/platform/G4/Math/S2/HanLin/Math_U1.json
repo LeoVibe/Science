@@ -14,11 +14,11 @@
         "2,000,504,300,000",
         "2,543,000,000"
       ],
-      "answer": 1,
       "explanation": "大數的讀寫遵循每四位一循環（萬、億、兆）。「二兆」佔據兆位，「五百零四億」佔據億位，「三千萬」佔據萬位。注意補零。",
       "concept": "大數讀寫",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 1
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "一樣多",
         "無法判斷"
       ],
-      "answer": 0,
       "explanation": "比較大數時先比最高位（兆位相同），再比下一位（億位）。A公司是 340 億，B公司是 40 億，故 A > B。",
       "concept": "大數大小比較",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "十兆七億",
         "一百零七億"
       ],
-      "answer": 0,
       "explanation": "數字寫出來是 1,0007,0000,0000。讀法中，若數位中間有連續的零，通常讀出一個『零』來區隔大的單位（兆與億之間有四個零）。",
       "concept": "含零大數的讀法",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "8,200,000,000",
         "8,000,200,000,000"
       ],
-      "answer": 1,
       "explanation": "注意單位轉換。8兆是 8 萬億，或 8,0000,0000,0000。加上 2000 萬後，在萬位區補上 2000。",
       "concept": "大數進位加法",
       "quality_level": "L3",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "4 兆",
         "5 兆"
       ],
-      "answer": 0,
       "explanation": "直接在兆位減去 1。5 - 1 = 4，億位維持不變。",
       "concept": "大數減法",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -96,14 +96,14 @@
       "options": [
         "10 億",
         "100 億",
-        "1 兆",
+        "1 兆，這點在分析單元核心時非常關鍵",
         "10 兆"
       ],
-      "answer": 1,
       "explanation": "10 個一億是一十億，100 個一億是一百億。注意台灣是四位一法，一兆需要 10000 個一億（一萬億）。",
       "concept": "位值進率",
       "quality_level": "L3",
-      "cqi_score": 3.25
+      "cqi_score": 5.25,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "百億位",
         "十兆位"
       ],
-      "answer": 3,
       "explanation": "該數為 30 兆...。最高位是十兆位（3），第二位是兆位（0）。",
       "concept": "數位辨識",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 3
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "48",
         "480"
       ],
-      "answer": 2,
       "explanation": "48,000,000 / 1,000,000 = 48。",
       "concept": "量感培養",
       "quality_level": "L3",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 2
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "1 兆",
         "無法計算"
       ],
-      "answer": 1,
       "explanation": "2345 + 655 = 3000。故總共 3000 億度。",
       "concept": "大數加法運算",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 1
     },
     {
       "id": "q10",
@@ -164,14 +164,14 @@
       "options": [
         "800 億",
         "8000 億",
-        "8 兆",
+        "8 兆，呈現出課綱所要求之探索精神",
         "80 兆"
       ],
-      "answer": 1,
       "explanation": "80 億 * 100 = 8000 億。注意四位一進的原則。",
       "concept": "大數乘法應用",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     }
   ]
 }

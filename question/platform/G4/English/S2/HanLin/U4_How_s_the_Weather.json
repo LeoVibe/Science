@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "英文",
     "publisher": "HanLin",
@@ -21,28 +21,28 @@
         "rainy",
         "raining"
       ],
-      "answer": "rainy",
       "explanation": "描述天氣用形容詞 rainy (下雨的)。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "rainy"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'It's windy and cold.' means '又刮風又冷'。",
-      "answer": "True",
       "explanation": "windy 是刮風的，cold 是冷的。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Is it sunny today? B: No, it's ______ (多雲的).",
-      "answer": "cloudy",
       "explanation": "cloudy 是多雲的意思。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "cloudy"
     },
     {
       "id": "4",
@@ -54,10 +54,10 @@
         "warm",
         "snowy"
       ],
-      "answer": "snowy",
       "explanation": "堆雪人需要下雪的天氣 (snowy)。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "snowy"
     },
     {
       "id": "5",
@@ -69,10 +69,11 @@
         "cold",
         "snowy"
       ],
-      "answer": "hot",
       "explanation": "夏天通常是 hot (炎熱的)。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "hot"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "衛星雲圖或地圖",
         "指南針"
       ],
-      "answer": "衛星雲圖或地圖",
       "explanation": "地圖能展現家鄉與周邊縣市、山脈或海洋的相對位置。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "衛星雲圖或地圖"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "台灣的地形分布非常多樣，包括平原、盆地、丘陵、台地與山地。",
-      "answer": "True",
       "explanation": "這是台灣地形的五大特色。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "四周高中間低平的地形，就像一個洗臉盆，稱之為______。",
-      "answer": "盆地",
       "explanation": "例如台北盆地、台中盆地。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "盆地"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "每天的氣溫都是固定的",
         "全台灣一整年的天氣都一模一樣"
       ],
-      "answer": "氣候會受地形、緯度與季風的影響而有不同",
       "explanation": "自然地理因素決定了地方的小氣候特性。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "氣候會受地形、緯度與季風的影響而有不同"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "砍掉所有的樹木",
         "隨便把廢水排入河川"
       ],
-      "answer": "多蓋水庫與珍惜用水",
       "explanation": "水是生命之源，保護水源環境是公民的責任。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "多蓋水庫與珍惜用水"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

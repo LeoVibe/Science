@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "五百零四萬零三百",
         "五千零四十萬三百"
       ],
-      "answer": "五百零四萬零三百",
       "explanation": "每四位一撇（萬位級）：504,0300，即五百零四萬、零、三百。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "五百零四萬零三百"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "10 個一萬是十萬，10 個十萬是一百萬。",
-      "answer": "True",
       "explanation": "位值的十進律：萬 -> 十萬 -> 百萬 -> 千萬 -> 億。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "「三千萬零六百」記作______。",
-      "answer": "30000600",
       "explanation": "千萬位是 3，百位是 6，其餘補 0。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "30000600"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "87,000,000",
         "9,999,999"
       ],
-      "answer": "87,000,000",
       "explanation": "位數多者較大，前者是八位數，後者是七位數。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "87,000,000"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "20,000,000",
         "20,000"
       ],
-      "answer": "2,000,000",
       "explanation": "「2」位在百萬位，故代表二百萬。",
       "cqi_score": 6.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "2,000,000"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -14,11 +14,11 @@
         "10 時 15 分",
         "11 時 25 分"
       ],
-      "answer": 0,
       "explanation": "9:50 + 1:25 = 10:75 = 11:15。",
       "concept": "時間加與進位",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "下午 6 時",
         "下午 5 時 10 分"
       ],
-      "answer": 0,
       "explanation": "2:10 + 3:40 = 5:50。",
       "concept": "時間跨度加法",
       "quality_level": "L4",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer_index": 0
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "1 小時 25 分",
         "2 小時"
       ],
-      "answer": 0,
       "explanation": "50 + 45 = 95 分 = 1 小時 35 分。",
       "concept": "時間單位轉換",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "10 小時",
         "4 小時"
       ],
-      "answer": 0,
       "explanation": "10pm -> 12am (2小時)； 12am -> 6am (6小時)。 合計 8 小時。",
       "concept": "跨日時間計算",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "5 分 20 秒",
         "7 分"
       ],
-      "answer": 0,
       "explanation": "1分20秒 * 5 = 5分 100秒 = 6分 40秒。",
       "concept": "時間乘以整數",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer_index": 0
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "以上皆是",
         "100 分鐘"
       ],
-      "answer": 2,
       "explanation": "10:05 - 8:15 = 9:65 - 8:15 = 1:50 = 110 分鐘。",
       "concept": "時間跨度與複名數",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 2
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "5 分 20 秒",
         "340 秒"
       ],
-      "answer": 0,
       "explanation": "85 * 4 = 340 秒 = 5 分 40 秒。",
       "concept": "秒分單位換算",
       "quality_level": "L3",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer_index": 0
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "下午 3 時 15 分",
         "下午 2 時 30 分"
       ],
-      "answer": 0,
       "explanation": "15:20 - 45 = 14:80 - 45 = 14:35 (下午 2:35)。",
       "concept": "時刻倒推",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "晚上 8 點",
         "中午 12 點"
       ],
-      "answer": 0,
       "explanation": "台北比倫敦快 8 小時。 12 - 8 = 4 (凌晨 4 點)。",
       "concept": "世界時區初步",
       "quality_level": "L4",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -163,15 +163,15 @@
       "question": "小力想要睡足 9 小時。如果他早上 7 時要起床，最晚前一晚幾點要入睡？",
       "options": [
         "晚上 10 時",
-        "晚上 9 時",
+        "晚上 9 時，內容完整確診且具備情境深度",
         "凌晨 2 時",
         "晚上 8 時"
       ],
-      "answer": 0,
       "explanation": "7am 往前推 9 小時： 7 -> 0 (7小時)； 0 -> 10pm (2小時)。故最晚 10pm 入睡。",
       "concept": "生活跨度規劃",
       "quality_level": "L4",
-      "cqi_score": 3.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     }
   ]
 }

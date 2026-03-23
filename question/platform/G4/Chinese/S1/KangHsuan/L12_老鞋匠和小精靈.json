@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "因為他們白天要睡覺",
         "老鞋匠是他們的親戚"
       ],
-      "answer": "為了報答老鞋匠平時的善良與辛苦，帶給他溫暖的驚喜",
       "explanation": "善良與互助是本課核心的寓意。",
       "cqi_score": 5.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "為了報答老鞋匠平時的善良與辛苦，帶給他溫暖的驚喜"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "老鞋匠夫妻發現小精靈赤著身子在寒冷的夜裡工作，特地縫製了小衣服和小鞋子送給他們，這展現了「感恩」的情誼。",
-      "answer": "True",
       "explanation": "善念的循環是這則童話最美的地方。",
       "cqi_score": 3.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "故事中，精緻的鞋子象徵著認真的態度，而老鞋匠與小精靈的關係則體現了人與人之間的______。",
-      "answer": "關懷、良善、互動或溫情",
       "explanation": "建立正向的人際互動觀念。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "關懷、良善、互動或溫情"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "鞋匠賺了很多錢",
         "大家都不喜歡買鞋"
       ],
-      "answer": "強調即便是一雙鞋子，也要用心製作，展現職人精神與品質",
       "explanation": "品格教育與職業價值的導引。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "強調即便是一雙鞋子，也要用心製作，展現職人精神與品質"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "長大後要當鞋匠",
         "助人為快樂之本，且懂得感恩回饋，生命會更美好"
       ],
-      "answer": "助人為快樂之本，且懂得感恩回饋，生命會更美好",
       "explanation": "培養慈悲心與感恩的情操。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "助人為快樂之本，且懂得感恩回饋，生命會更美好"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

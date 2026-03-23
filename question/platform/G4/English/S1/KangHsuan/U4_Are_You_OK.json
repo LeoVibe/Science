@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "sick",
         "happy"
       ],
-      "answer": "sick",
       "explanation": "sick 的意思是生病的。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "sick"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "If you are 'thirsty', you want to drink water.",
-      "answer": "True",
       "explanation": "thirsty 的意思是口渴的。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Are you ______ (餓了)? B: Yes, I am.",
-      "answer": "hungry",
       "explanation": "hungry 的意思是餓了。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "hungry"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "am",
         "are"
       ],
-      "answer": "am",
       "explanation": "針對 Are you...? 的問句，回答用 I am。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "am"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "great",
         "hot"
       ],
-      "answer": "tired",
       "explanation": "tired 的意思是累了。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "tired"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

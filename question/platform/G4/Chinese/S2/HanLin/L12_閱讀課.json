@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -17,11 +17,12 @@
         "是",
         "否"
       ],
-      "answer": "True",
       "explanation": "閱讀是學習的重要途徑。",
       "is_active": true,
       "cqi_score": 2.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "True"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

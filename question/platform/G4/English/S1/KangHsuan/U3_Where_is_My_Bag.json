@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "up",
         "on"
       ],
-      "answer": "on",
       "explanation": "on 指的是在某物上面。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "on"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'Under' means 'below something'.",
-      "answer": "True",
       "explanation": "under 的意思是「在...下面」。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Where is your ball? B: It's ______ (在...裡面) the box.",
-      "answer": "in",
       "explanation": "in 的意思是「在...裡面」。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "in"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "Who",
         "How"
       ],
-      "answer": "Where",
       "explanation": "詢問地點或位置使用疑問詞 Where。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "Where"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "in",
         "under"
       ],
-      "answer": "next to",
       "explanation": "next to 的意思是「在...旁邊」。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "next to"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

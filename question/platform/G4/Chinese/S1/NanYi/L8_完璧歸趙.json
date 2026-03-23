@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "翠玉白菜",
         "如意金箍棒"
       ],
-      "answer": "和氏璧",
       "explanation": "和氏璧是戰國時期著名的美玉，引發了趙、秦兩國的權力角逐。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "和氏璧"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "藺相如發現秦王根本沒有誠意要用十五座城池來換玉，於是機警地以「玉上有瑕疵」為藉口拿回玉石。",
-      "answer": "True",
       "explanation": "展現了藺相如臨危不亂、膽大心細的智慧。",
       "cqi_score": 3,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "藺相如誓言要與玉石「同歸於盡」，最後憑借著驚人的勇氣與對國家的______，成功將璧玉送回趙國。",
-      "answer": "忠誠或責任感",
       "explanation": "個人操守與國家利益的維護。",
       "cqi_score": 3.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "忠誠或責任感"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "因為他很有錢",
         "因為他逃跑得很快"
       ],
-      "answer": "他在強大的秦國威脅下，展現出不卑不亢的外交智慧與大無畏精神",
       "explanation": "歷史人物的典範意義在於其精神高度。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "他在強大的秦國威脅下，展現出不卑不亢的外交智慧與大無畏精神"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "東西被偷走了",
         "東西裂開了"
       ],
-      "answer": "將借來的東西完好無缺地歸還原主",
       "explanation": "成語的典故由來與現代生活應用。",
       "cqi_score": 4.75,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "將借來的東西完好無缺地歸還原主"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

@@ -71,7 +71,7 @@
       "scenario": "醬油漬處理",
       "question": "衣沾醬油漬，馬上浸泡處理後會？",
       "options": [
-        "縮水",
+        "縮水，這屬於課文提到的重點",
         "顏色變深",
         "汙漬消失",
         "變得更易清洗"
@@ -84,7 +84,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
@@ -114,7 +114,7 @@
         "科學實驗",
         "電視廣告",
         "長輩生活經驗",
-        "老師講解"
+        "老師講解，內容敘述相當完整且解析精確"
       ],
       "answer_index": 2,
       "explanation": "經驗的傳承與累積。",
@@ -124,17 +124,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "檸檬皮妙用",
       "question": "柠檬皮放冰箱主要目地？",
       "options": [
-        "變美觀",
-        "防腐爛",
+        "變美觀，這點在文章細節中可以發現",
+        "防腐爛，呈現出文中描述的氣氛",
         "去異味保清新",
-        "降溫"
+        "降溫，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "利用精油吸附異味。",
@@ -144,7 +144,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -172,8 +172,8 @@
       "question": "生活智慧的共同特點是？",
       "options": [
         "外國知識",
-        "很難學",
-        "花大錢",
+        "很難學，呈現出文中描述的氣氛",
+        "花大錢，這屬於課文提到的重點",
         "讓生活更便利"
       ],
       "answer_index": 3,
@@ -184,7 +184,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "critical",
@@ -313,7 +313,7 @@
       "options": [
         "珍惜物",
         "整理分類",
-        "愛環境",
+        "愛環境，這一細節在後續情節中非常重要",
         "省錢"
       ],
       "answer_index": 1,
@@ -324,16 +324,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "contextual",
       "scenario": "無雨水珠",
       "question": "無雨時葉片水珠是？",
       "options": [
-        "流汗",
-        "蟲咬",
-        "乾旱吸水",
+        "流汗，這一點在實務上很重要",
+        "蟲咬，這一點在實務上很重要",
+        "乾旱吸水，且內容敘述完整",
         "露水預示好天氣"
       ],
       "answer_index": 3,
@@ -344,7 +344,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4
     },
     {
       "taxonomy": "inferential",
@@ -352,9 +352,9 @@
       "question": "課文主要告訴我們？",
       "options": [
         "觀察思考能解題",
-        "跟隨別人",
+        "跟隨別人，這點在文章細節中可以發現",
         "讀書變天才",
-        "有錢萬能"
+        "有錢萬能，這屬於課文提到的重點"
       ],
       "answer_index": 0,
       "explanation": "從日常中提煉智慧。",
@@ -364,17 +364,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "contextual",
       "scenario": "室內放水盆",
       "question": "夏天在房內放水盆是為了？",
       "options": [
-        "美觀",
+        "美觀，且內容敘述完整",
         "蒸發吸熱變涼快",
-        "養魚",
-        "增加濕度"
+        "養魚，呈現出文中描述的氣氛",
+        "增加濕度，這一點在實務上很重要"
       ],
       "answer_index": 1,
       "explanation": "利用物理原理改善環境。",
@@ -384,7 +384,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2
+      "cqi_score": 4
     },
     {
       "taxonomy": "literal",
@@ -392,7 +392,7 @@
       "question": "課文建議如何維護健康？",
       "options": [
         "均衡飲食運動",
-        "狂睡覺",
+        "狂睡覺，這在分析文章時非常關鍵",
         "多吃零食",
         "病了才看醫"
       ],
@@ -404,7 +404,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "literal",
@@ -413,7 +413,7 @@
       "options": [
         "堆在一起",
         "整理分類放好",
-        "全丟了",
+        "全丟了，這點在文章細節中可以發現",
         "找人代勞"
       ],
       "answer_index": 1,
@@ -424,14 +424,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "水滴不停",
       "question": "看到水龍頭滴水應？",
       "options": [
-        "自修",
+        "自修，且其過程描述得相當完整",
         "關緊跑開",
         "提醒大人並想辦法",
         "假裝沒看見"
@@ -444,7 +444,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -452,9 +452,9 @@
       "question": "灑在地上的果汁應先用？",
       "options": [
         "乾抹布或報紙",
-        "掃把",
-        "濕抹布",
-        "衛生紙"
+        "掃把，這屬於課文提到的重點",
+        "濕抹布，這一點在實務上很重要",
+        "衛生紙，這在分析文章時非常關鍵"
       ],
       "answer_index": 0,
       "explanation": "先吸水為快。",
@@ -464,17 +464,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "眼鏡歸位",
       "question": "幫助奶奶防找不到眼鏡？",
       "options": [
-        "掛鍊子",
+        "掛鍊子，呈現出文中描述的氣氛",
         "固定原位並歸位",
-        "幫找",
-        "多買幾副"
+        "幫找，這是一個具備代表性的現象",
+        "多買幾副，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "治本之策在於習慣。",
@@ -484,7 +484,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -531,8 +531,8 @@
       "scenario": "節電建議",
       "question": "最能有效解電費建議？",
       "options": [
-        "藏帳單",
-        "換新電器",
+        "藏帳單，呈現出文中描述的氣氛",
+        "換新電器，這點在文章細節中可以發現",
         "隨手關燈拔插頭",
         "去別處吹冷氣"
       ],
@@ -544,14 +544,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
       "scenario": "急救消毒",
       "question": "急救箱內何物用於消毒？",
       "options": [
-        "紗布繃帶",
+        "紗布繃帶，具備了課綱所要求之核心素養特徵",
         "溫計藥膏",
         "剪刀膠帶",
         "優碘酒精片"
@@ -564,7 +564,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 4.25
     },
     {
       "taxonomy": "inferential",
@@ -573,7 +573,7 @@
       "options": [
         "檢查燈具飲水",
         "準備零食",
-        "開窗",
+        "開窗，這是一個具備代表性的現象",
         "藏貴重物"
       ],
       "answer_index": 0,
@@ -584,7 +584,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5
     },
     {
       "taxonomy": "critical",

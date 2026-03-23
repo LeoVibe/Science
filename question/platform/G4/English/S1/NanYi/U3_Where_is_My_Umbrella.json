@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "英文",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "am",
         "are"
       ],
-      "answer": "behind",
       "explanation": "behind 指的是在某物後面。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "behind"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "'Next to' means the same as 'beside'.",
-      "answer": "True",
       "explanation": "next to 與 beside 都有「在...旁邊」的意思。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "A: Where is your bag? B: It's ______ (在...下面) the desk.",
-      "answer": "under",
       "explanation": "under 的意思是「在...下面」。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "under"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "What",
         "Where"
       ],
-      "answer": "Where",
       "explanation": "詢問地點位置。",
       "cqi_score": 3.75,
-      "quality_level": "L2"
+      "quality_level": "L2",
+      "answer_index": "Where"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "on",
         "in"
       ],
-      "answer": "on",
       "explanation": "on 指的是在上方接觸。",
       "cqi_score": 4.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "on"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "真分數",
         "假分數"
       ],
-      "answer": "假分數",
       "explanation": "分子（11）大於分母（4），所以是假分數。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "假分數"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "假分數 9/3 的值等於 3。",
-      "answer": "True",
       "explanation": "9 ÷ 3 = 3。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "將帶分數 2 又 3/5 化為假分數是______。",
-      "answer": "13/5",
       "explanation": "2 × 5 + 3 = 13。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "13/5"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "6/8",
         "3/4"
       ],
-      "answer": "選項 B 和 C 都是",
       "explanation": "6/8 約分後等於 3/4。",
       "cqi_score": 4.5,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "選項 B 和 C 都是"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "1 又 2/3",
         "1 又 1/3"
       ],
-      "answer": "1 又 1/3",
       "explanation": "3 - 1 - 2/3 = 2 - 2/3 = 1 又 1/3。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "1 又 1/3"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -14,11 +14,11 @@
         "1,500 元；四捨五入法",
         "1,400 元；四捨五入法"
       ],
-      "answer": 0,
       "explanation": "不預領（只拿現有的整百），多餘的 85 元捨棄，為無條件捨去法。",
       "concept": "無條件捨去法應用",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 0
     },
     {
       "id": "q2",
@@ -31,11 +31,11 @@
         "2 盒；四捨五入法",
         "3 盒；四捨五入法"
       ],
-      "answer": 1,
       "explanation": "為了讓每人都有（確保足夠），不滿一盒也必須多買一盒。 22 除以 10 = 2 ... 2。 2+1=3。為無條件進入法。",
       "concept": "無條件進入法應用",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer_index": 1
     },
     {
       "id": "q3",
@@ -48,11 +48,11 @@
         "13,500",
         "15,000"
       ],
-      "answer": 0,
       "explanation": "取到千位看百位。百位是 4（小於 5），故捨去。結果為 13,000。",
       "concept": "四捨五入法數位判斷",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer_index": 0
     },
     {
       "id": "q4",
@@ -65,11 +65,11 @@
         "兩地一樣多",
         "無法單純從概數判斷"
       ],
-      "answer": 0,
       "explanation": "甲地捨去後是 25400，代表實際數範圍在 [25400, 25499]。 乙地進入後是 24600，代表實際數範圍在 [24501, 24600]。 故甲地實際人數一定比乙地多。",
       "concept": "概數還原與區間概念",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer_index": 0
     },
     {
       "id": "q5",
@@ -82,11 +82,11 @@
         "四捨五入法",
         "完全不能用概數估計"
       ],
-      "answer": 1,
       "explanation": "為了安全（怕超重），應該把每個人的重量都「往大估」（進入法），如果進入法估算沒超重，實際數就更不會超重。",
       "concept": "安全決策與概數",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer_index": 1
     },
     {
       "id": "q6",
@@ -99,11 +99,11 @@
         "49,500",
         "60,000"
       ],
-      "answer": 1,
       "explanation": "495 四捨五入到百位 = 500。 500 * 100 = 50,000。",
       "concept": "概數的乘法估算",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer_index": 1
     },
     {
       "id": "q7",
@@ -116,11 +116,11 @@
         "150",
         "144"
       ],
-      "answer": 3,
       "explanation": "四捨五入到十位得 150 的範圍是 [145, 154]。 144 會捨入為 140。",
       "concept": "逆推概數範圍",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer_index": 3
     },
     {
       "id": "q8",
@@ -133,11 +133,11 @@
         "1,200,000",
         "1,234,000"
       ],
-      "answer": 0,
       "explanation": "萬位是 3。後方的數全部變 0。結果為 1,230,000。",
       "concept": "大數概數實作",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer_index": 0
     },
     {
       "id": "q9",
@@ -150,11 +150,11 @@
         "400 元；四捨五入法",
         "300 元；四捨五入法"
       ],
-      "answer": 0,
       "explanation": "滿千才送，不滿千的部分 (980) 捨棄。 3000 元得 3 張 = 300 元。 應用捨去法。",
       "concept": "生活規則與概數",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     },
     {
       "id": "q10",
@@ -167,11 +167,11 @@
         "不一樣，前者 30，後者 20",
         "無法計算"
       ],
-      "answer": 0,
       "explanation": "前者：10 + 20 = 30。 後者：14 + 16 = 30，四捨五入仍是 30。 (注意：並非所有情況都一樣，如 14+14=28->30 vs 10+10=20)。這題是設計過的陷阱。",
       "concept": "概數運算的特性",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer_index": 0
     }
   ]
 }

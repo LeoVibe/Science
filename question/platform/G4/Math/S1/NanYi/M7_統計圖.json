@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "點圖",
         "折線圖"
       ],
-      "answer": "長條圖",
       "explanation": "長條圖適合用來顯示與比較分類數據的數量大小。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "長條圖"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "折線圖的線段如果往右上傾斜，代表數值正在增加。",
-      "answer": "True",
       "explanation": "折線圖能清楚展現時間序列數據的變化趨勢。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "統計圖側邊標註數據大小的線條稱為______軸。",
-      "answer": "縱或 Y",
       "explanation": "通常縱軸代表數值，橫軸代表項目或時間。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "縱或 Y"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "15 人",
         "17.5 人"
       ],
-      "answer": "17.5 人",
       "explanation": "3.5 × 5 = 17.5。",
       "cqi_score": 5.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "17.5 人"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "單位的定義",
         "以上皆是"
       ],
-      "answer": "以上皆是",
       "explanation": "全面的閱讀能避免誤讀資訊。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "以上皆是"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

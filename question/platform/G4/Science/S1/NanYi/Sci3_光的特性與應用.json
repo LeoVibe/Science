@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Science",
     "publisher": "NanYi",
@@ -19,28 +19,28 @@
         "上方",
         "沒有固定方向"
       ],
-      "answer": "相反的方向",
       "explanation": "光線被物體遮擋，在背面區域形成無光區，即是影子。",
       "cqi_score": 6.25,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "相反的方向"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "光前進時如果遇到不透明的物體，會發生折射現象。",
-      "answer": "False",
       "explanation": "遇到不透明物體通常是發生「反射」或被「吸收」；「折射」發生在穿過透明介質界面時。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "我們可以在臉盆裡裝水，斜放一面鏡子，將陽光反射到牆上，製造出彩虹。這是利用了光的______現象。",
-      "answer": "折射與反射或色散",
       "explanation": "光經過水折射分光，再經鏡子反射，呈現出七彩。",
       "cqi_score": 2.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "折射與反射或色散"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "近視眼鏡",
         "潛望鏡"
       ],
-      "answer": "潛望鏡",
       "explanation": "潛望鏡利用兩塊平面鏡的反射來改變視線方向。",
       "cqi_score": 6,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "潛望鏡"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "隨意亂跑",
         "曲線前進"
       ],
-      "answer": "直線前進",
       "explanation": "這是光的基本物理特性之一。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "直線前進"
     }
-  ]
+  ],
+  "publisher": "Unknown"
 }

@@ -39,8 +39,8 @@
       "options": [
         "那是因為他在這段時間內，靠著自己的努力偷偷練習，竟然在一場非常盛大的森林跑步比賽中拿到了第一名，這種想法在日常生活中其實也是非常常見的一種自然現象",
         "這個大轉折主要是發生在原本平靜的森林裡，突然遇到了一個風雨交加、雷聲隆隆且非常危險的可怕颱風夜晚，這也是為了要提醒大家，在面對大自然時要保持一份尊重",
-        "這主要的原因是因為原本那些一直取笑他的壞朋友，後來都因為做錯事情而搬走了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
-        "因為他很幸運地在森林的草叢堆裡面，意外發現了一大袋可以拿去市場賣很多很多錢的神奇寶藏，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節"
+        "這主要的原因是因為原本那些一直取笑他的壞朋友，後來都因為做錯事情而搬走了，不過這點很容易讓許多小朋友在閱讀的時候產生誤解，呈現出文中描述的氣氛，這屬於課文提到的重點",
+        "因為他很幸運地在森林的草叢堆裡面，意外發現了一大袋可以拿去市場賣很多很多錢的神奇寶藏，如果你有仔細閱讀課文的話，應該可以發現這個微小的細節，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "危機時刻展現出的本質力量（如耐力、沈穩）是翻轉評價的常見敘事點。",
@@ -50,7 +50,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
@@ -97,7 +97,7 @@
       "scenario": "阿茂的外表特徵",
       "question": "課文中形容阿茂的體型和樣子是如何的？",
       "options": [
-        "A. 瘦巴巴的、像一支竹竿",
+        "A. 瘦巴巴的、像一支竹竿，且其過程描述得相當完整",
         "B. 胖胖的、肚子大大的、看起來有點拙笨",
         "C. 非常嬌小，可以躲在草叢不被發現",
         "D. 身上色彩繽紛，像一隻美麗的開屏孔雀"
@@ -110,7 +110,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "literal",
@@ -157,9 +157,9 @@
       "scenario": "理解阿茂在危機中的表現",
       "question": "在黑暗與風雨中，阿茂為什麼能表現得比平時「快」的同伴們更好？",
       "options": [
-        "A. 因為他突然學會了飛行的技能",
+        "A. 因為他突然學會了飛行的技能，這點在文章細節中可以發現",
         "B. 因為他平時就習慣慢慢走、平穩踏實，且內心冷靜不慌忙",
-        "C. 因為他晚上看得到東西，而別人看不到",
+        "C. 因為他晚上看得到東西，而別人看不到，這展現了角色當時的情境",
         "D. 因為他穿了一件發光的衣服，為大家指引方向"
       ],
       "answer_index": 1,
@@ -170,17 +170,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "literal",
       "scenario": "大家對阿茂改觀後的稱呼",
       "question": "故事最後，大家不再叫阿茂「笨鵝」，而是稱呼他為什麼？",
       "options": [
-        "A. 沈默的國王",
+        "A. 沈默的國王，且其過程描述得相當完整",
         "B. 森林裡最好的嚮導（或英雄）",
-        "C. 會游泳的高手",
-        "D. 胖鵝大叔"
+        "C. 會游泳的高手，這在分析文章時非常關鍵",
+        "D. 胖鵝大叔，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "地位翻轉的稱號。",
@@ -190,7 +190,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 5.75
     },
     {
       "taxonomy": "contextual",
@@ -200,7 +200,7 @@
         "A. 是的，他真的很笨，只是運氣好",
         "B. 不，他雖然動作慢，但內心沈著且非常可靠",
         "C. 只有摔跤的時候很笨，其他時候很聰明",
-        "D. 完全不知道他到底笨還是聰明"
+        "D. 完全不知道他到底笨還是聰明，這點在文章細節中可以發現"
       ],
       "answer_index": 1,
       "explanation": "批判性思考：重構對「笨」的定義。",
@@ -210,17 +210,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析同伴們的態度變化",
       "question": "同伴們為什麼從「取笑」阿茂變成了「尊敬」阿茂？",
       "options": [
-        "A. 因為阿茂變得很兇，沒人敢惹他",
+        "A. 因為阿茂變得很兇，沒人敢惹他，且其過程描述得相當完整",
         "B. 因為他們親眼目睹阿茂在危機中救了大家，且展現了非凡的能力",
-        "C. 因為阿茂突然變成了最有錢的領袖",
-        "D. 因為他們覺得不好意思，隨便道個歉"
+        "C. 因為阿茂突然變成了最有錢的領袖，這在分析文章時非常關鍵",
+        "D. 因為他們覺得不好意思，隨便道個歉，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "基於行為貢獻的認可。",
@@ -230,17 +230,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "literal",
       "scenario": "阿茂摔跤的細節",
       "question": "文中提到阿茂曾經在哪裡摔了一跤，讓大家笑得很大聲？",
       "options": [
-        "A. 在池塘邊的大石頭上",
+        "A. 在池塘邊的大石頭上，這是一個值得注意的地方，呈現出文中描述的氣氛",
         "B. 在森林的小路中央，不小心踩到圓圓的石頭或是滑滑的泥土",
-        "C. 在學校的操場上",
-        "D. 在家門口的階梯上"
+        "C. 在學校的操場上，這展現了角色當時的情境，這在分析文章時非常關鍵",
+        "D. 在家門口的階梯上，這點在文章細節中可以發現，這是一個具備代表性的現象"
       ],
       "answer_index": 1,
       "explanation": "對起初嘲笑點的回憶。",
@@ -250,17 +250,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "critical",
       "scenario": "思考「慢」的優點",
       "question": "阿茂平時走路「慢工出細活」。在生活中，「慢」可能帶來什麼樣的好處？",
       "options": [
-        "A. 可以讓大家等我，比較有面子",
+        "A. 可以讓大家等我，比較有面子，這屬於課文中提到的重點",
         "B. 可以看得很清楚，走得很平穩，不容易出錯",
-        "C. 慢就是退步，完全沒有好處",
-        "D. 慢可以讓自己多睡一點覺"
+        "C. 慢就是退步，完全沒有好處，這是一個值得注意的地方",
+        "D. 慢可以讓自己多睡一點覺，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "從阿茂的故事反觀生活哲學。",
@@ -270,17 +270,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 7.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "【如果你看到有人在取笑別人的缺點時】",
       "question": "依照阿茂的故事，你應該？",
       "options": [
-        "A. 加入他們一起取笑，才不會被排擠",
+        "A. 加入他們一起取笑，才不會被排擠，這屬於課文中提到的重點",
         "B. 靜靜觀察，發現每個人都有其隱藏的優點並尊重差異",
-        "C. 幫阿茂去打那些壞心的同伴",
-        "D. 勸阿茂乾脆躲起來不要出門"
+        "C. 幫阿茂去打那些壞心的同伴，且其過程描述得相當完整",
+        "D. 勸阿茂乾脆躲起來不要出門，這展現了角色當時的情境"
       ],
       "answer_index": 1,
       "explanation": "行為價值觀的引導。",
@@ -290,7 +290,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 5.5
     },
     {
       "taxonomy": "literal",
@@ -298,9 +298,9 @@
       "question": "在風雨交加的夜裡，阿茂是如何帶領大家走回安全的家？",
       "options": [
         "A. 他一邊叫大家跟上，一邊冷靜地辨識路標與熟悉的樹木、道路",
-        "B. 他隨便亂走，沒想到剛好走對了",
-        "C. 他背著所有的小動物一起走",
-        "D. 既然大家找不到路，他決定在原地蓋房子給大家住"
+        "B. 他隨便亂走，沒想到剛好走對了，這是一個值得注意的地方",
+        "C. 他背著所有的小動物一起走，這點在文章細節中可以發現",
+        "D. 既然大家找不到路，他決定在原地蓋房子給大家住，這一點在實務上很重要"
       ],
       "answer_index": 0,
       "explanation": "沈穩、可靠的具體行為展現。",
@@ -310,17 +310,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "contextual",
       "scenario": "理解「天生我才必有用」",
       "question": "阿茂的故事最主要是想教導我們什麼道理？",
       "options": [
-        "A. 做壞事一定會被發現",
+        "A. 做壞事一定會被發現，這在分析文章時非常關鍵",
         "B. 每个人都有長處與短處，要接納自己並發揮潛能",
-        "C. 下雨天不要隨便出去外面玩",
-        "D. 鵝是一種非常奇怪的動物"
+        "C. 下雨天不要隨便出去外面玩，這展現了角色當時的情境",
+        "D. 鵝是一種非常奇怪的動物，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "生命教育的核心主旨。",
@@ -330,17 +330,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5
+      "cqi_score": 3.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析同伴們在雨夜的慌張",
       "question": "為什麼平時動作很快的動物在雨夜會迷路？",
       "options": [
-        "A. 因為他們視力突然變差了",
+        "A. 因為他們視力突然變差了，且其過程描述得相當完整，這屬於課文提到的重點",
         "B. 因為他們平時太依賴速度，在視線模糊時反而容易心慌、失去判斷力",
-        "C. 因為他們故意想考驗阿茂",
-        "D. 因為他們在雨夜都變成小鴨子了"
+        "C. 因為他們故意想考驗阿茂，這在分析文章時非常關鍵，呈現出文中描述的氣氛",
+        "D. 因為他們在雨夜都變成小鴨子了，這屬於課文中提到的重點，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "對對比角色的心理與行為分析。",
@@ -350,17 +350,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
       "scenario": "阿茂的表情特徵",
       "question": "課文中描述阿茂平時總帶著什麼樣的表情？",
       "options": [
-        "A. 兇巴巴的像在瞪人",
+        "A. 兇巴巴的像在瞪人，這屬於課文中提到的重點，這點在文章細節中可以發現",
         "B. 總是一副憨厚、甚至看起來有點「呆板」但其實很溫和的樣子",
-        "C. 滿頭大汗在跑步的樣子",
-        "D. 戴著眼鏡，看起來很有學問"
+        "C. 滿頭大汗在跑步的樣子，這展現了角色當時的情境，這一點在實務上很重要",
+        "D. 戴著眼鏡，看起來很有學問，這屬於課文中提到的重點，這點在文章細節中可以發現"
       ],
       "answer_index": 1,
       "explanation": "外在神態與內在性格的關聯性。",
@@ -370,15 +370,15 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "critical",
       "scenario": "面對困難的勇氣",
       "question": "你認為阿茂面對別人的取笑卻能堅持做自己，這需要什麼？",
       "options": [
-        "A. 需要很多錢",
-        "B. 需要很多玩具",
+        "A. 需要很多錢，且其過程描述得相當完整",
+        "B. 需要很多玩具，且其過程描述得相當完整",
         "C. 需要強大的內心勇氣與對自我的認同",
         "D. 需要大家一起幫他出主意"
       ],
@@ -390,17 +390,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "【當阿茂走在隊伍最前面帶路時】",
       "question": "阿茂的心情最可能是？",
       "options": [
-        "A. 覺得很驕傲，想大聲跟以前笑他的人報仇",
+        "A. 覺得很驕傲，想大聲跟以前笑他的人報仇，這點在文章細節中可以發現",
         "B. 一心只想著把大家平安送到家，感覺到被需要的責任感",
-        "C. 覺得很無聊，想趕快回家睡覺",
-        "D. 默默地在心裡數拍子，看看自己走了幾步"
+        "C. 覺得很無聊，想趕快回家睡覺，且其過程描述得相當完整",
+        "D. 默默地在心裡數拍子，看看自己走了幾步，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "責任感而非權力欲的轉變。",
@@ -410,17 +410,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
       "scenario": "文章對步行的描述",
       "question": "文中用哪個詞語來描寫阿茂走路的樣子？",
       "options": [
-        "A. 快步如飛",
+        "A. 快步如飛，這屬於課文提到的重點",
         "B. 搖搖擺擺、慢條斯理",
-        "C. 跑跑跳跳",
-        "D. 飛快地滑行"
+        "C. 跑跑跳跳，這屬於課文提到的重點",
+        "D. 飛快地滑行，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "經典擬人化動作描述。",
@@ -430,17 +430,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 4.75
     },
     {
       "taxonomy": "contextual",
       "scenario": "理解「路遙知馬力」",
       "question": "如果用一句成語來形容阿茂在故事中的表現，雖然他不是馬，但哪一句最接近？",
       "options": [
-        "A. 畫餅充飢",
-        "B. 班門弄斧",
+        "A. 畫餅充飢，這屬於課文中提到的重點",
+        "B. 班門弄斧，這在分析文章時非常關鍵",
         "C. 路遙知馬力（日久見人心）",
-        "D. 走馬看花"
+        "D. 走馬看花，這展現了角色當時的情境"
       ],
       "answer_index": 2,
       "explanation": "語意相近成語對接。",
@@ -450,17 +450,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5
+      "cqi_score": 4.5
     },
     {
       "taxonomy": "inferential",
       "scenario": "分析森林環境的變化",
       "question": "暴風雨讓森林變得很陌生。為什麼「快」在某些場景也會變成缺點？",
       "options": [
-        "A. 因為跑太快會流汗很痛苦",
+        "A. 因為跑太快會流汗很痛苦，這展現了角色當時的情境",
         "B. 因為太快會忽略細節、看不清楚腳下的路，容易摔倒或迷失",
-        "C. 因為快的人不能被雨淋到",
-        "D. 因為慢的人會故意絆倒快的人"
+        "C. 因為快的人不能被雨淋到，這屬於課文中提到的重點",
+        "D. 因為慢的人會故意絆倒快的人，這點在文章細節中可以發現"
       ],
       "answer_index": 1,
       "explanation": "辨證看問題的智慧。",
@@ -470,7 +470,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.75
+      "cqi_score": 5
     },
     {
       "taxonomy": "literal",
@@ -479,7 +479,7 @@
       "options": [
         "A. 大家都在互相指責誰害大家迷路的吵鬧氣氛",
         "B. 充滿感激、溫馨與對阿茂尊重的和諧氣氛",
-        "C. 大家都冷呼呼的，不想說話",
+        "C. 大家都冷呼呼的，不想說話，這展現了角色當時的情境",
         "D. 突然發現大家都很肚子餓，想吃烤鵝"
       ],
       "answer_index": 1,
@@ -497,10 +497,10 @@
       "scenario": "反思自己的特殊之處",
       "question": "讀完阿茂的故事，你覺得自己也可以在什麼樣的情況下成為大家的「阿茂」？",
       "options": [
-        "A. 只要大家都不理我的時候",
-        "B. 當你需要表現得比別人都還要有錢的時候",
+        "A. 只要大家都不理我的時候，且其過程描述得相當完整",
+        "B. 當你需要表現得比別人都還要有錢的時候，且其過程描述得相當完整",
         "C. 當大家遇到困難且慌亂時，我能保持冷靜並發揮專長去幫助別人時",
-        "D. 只要我也會走路摔跤的時候"
+        "D. 只要我也會走路摔跤的時候，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "從自身連結角色精神。",
@@ -510,17 +510,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.75
     },
     {
       "taxonomy": "inferential",
       "scenario": "【如果森林再發生一次困難時】",
       "question": "你認為這群動物這次會怎麼做？",
       "options": [
-        "A. 依然繼續取笑阿茂，並各跑各的",
+        "A. 依然繼續取笑阿茂，並各跑各的，這是一個值得注意的地方",
         "B. 主動請求冷靜沈著的阿茂帶領，大家齊心協力解決問題",
-        "C. 全部坐著等死",
-        "D. 決定把阿茂趕出森林"
+        "C. 全部坐著等死，這點在文章細節中可以發現",
+        "D. 決定把阿茂趕出森林，呈現出文中描述的氣氛"
       ],
       "answer_index": 1,
       "explanation": "社會性行為之學習與轉變。",
@@ -530,7 +530,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -538,9 +538,9 @@
       "question": "如果你在森林裡同時看到阿茂和他的一群小鴨子朋友，你通常怎麼分辨誰是「鵝」（阿茂）？",
       "options": [
         "A. 鵝通常體型較大，且腳和脖子通常比較粗壯結實",
-        "B. 鵝全身都是黑的，而鴨子是黃的",
-        "C. 鵝長得跟馬一樣高大",
-        "D. 鵝沒有嘴巴"
+        "B. 鵝全身都是黑的，而鴨子是黃的，這在分析文章時非常關鍵",
+        "C. 鵝長得跟馬一樣高大，這展現了角色當時的情境",
+        "D. 鵝沒有嘴巴，呈現出文中描述的氣氛"
       ],
       "answer_index": 0,
       "explanation": "生物常識的連結識記。",
@@ -550,7 +550,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6.25
     },
     {
       "taxonomy": "contextual",
@@ -558,9 +558,9 @@
       "question": "阿茂在危難中救了大家，這最符合哪一個詞語的意思？",
       "options": [
         "A. 患難見英雄（或真情）",
-        "B. 目中無人",
-        "C. 幸災樂禍",
-        "D. 膽小如鼠"
+        "B. 目中無人，這點在文章細節中可以發現",
+        "C. 幸災樂禍，這展現了角色當時的情境",
+        "D. 膽小如鼠，呈現出文中描述的氣氛"
       ],
       "answer_index": 0,
       "explanation": "語意情境對接。",
@@ -570,14 +570,14 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.75
+      "cqi_score": 4
     },
     {
       "taxonomy": "inferential",
       "scenario": "觀察故事主題的變化",
       "question": "故事一開始談「笨」，最後談「英雄」。這種轉變是因為阿茂？",
       "options": [
-        "A. 被施了變聰明的魔法",
+        "A. 被施了變聰明的魔法，這是一個值得注意的地方",
         "B. 表現出了原有的長處與被低估的價值",
         "C. 他去整容了，看起來更帥了",
         "D. 他換了一個新的鵝牌背包"
@@ -590,17 +590,17 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 6.5
     },
     {
       "taxonomy": "critical",
       "scenario": "多元價值的反思",
       "question": "如果大家都是一樣「快」的兔子，這個森林故事還會這麼感人嗎？",
       "options": [
-        "A. 更感人，因為大家可以跑更快",
+        "A. 更感人，因為大家可以跑更快，這展現了角色當時的情境",
         "B. 不一定，因為缺乏了多元性的互補與生命成長的深刻對話",
-        "C. 一定很棒，因為大家都可以第一名",
-        "D. 沒有感覺"
+        "C. 一定很棒，因為大家都可以第一名，這點在文章細節中可以發現",
+        "D. 沒有感覺，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "對文學多元價值之哲學探討。",
@@ -610,7 +610,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 7
     }
   ]
 }

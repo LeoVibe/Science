@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Math",
     "publisher": "KangHsuan",
@@ -19,28 +19,28 @@
         "直尺",
         "圓規"
       ],
-      "answer": "量角器",
       "explanation": "量角器是專門用來測量與畫角度的工具，單位是度（°）。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "量角器"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "一週角（繞圓中心轉一圈）是 360 度。",
-      "answer": "True",
       "explanation": "圓周被定義為 360 度。",
       "cqi_score": 2,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "直角是______度。",
-      "answer": "90",
       "explanation": "垂直的兩線所夾的角稱為直角，角度為 90°。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "90"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "直角",
         "銳角"
       ],
-      "answer": "銳角",
       "explanation": "銳角小於 90 度，鈍角大於 90 度但小於 180 度。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "銳角"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "2 個",
         "3 個"
       ],
-      "answer": "2 個",
       "explanation": "180 ÷ 90 = 2。",
       "cqi_score": 4.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "2 個"
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

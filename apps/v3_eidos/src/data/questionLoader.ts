@@ -163,7 +163,10 @@ export async function loadQuestions(
       const categories = items.map((it) => it.title ?? '').filter(Boolean).filter((title) => !isCurriculumUnitLabel(title));
       const categoryCounts: Record<string, number> = {};
       items.forEach((it) => {
-        if (it.title && !isCurriculumUnitLabel(it.title)) categoryCounts[it.title] = it.count ?? 0;
+        if (it.title && !isCurriculumUnitLabel(it.title)) {
+          const fromManifest = typeof it.count === 'number' && it.count > 0 ? it.count : 0;
+          categoryCounts[it.title] = fromManifest;
+        }
       });
 
       return {
@@ -326,9 +329,17 @@ export async function loadQuestions(
     allQuestions = allQuestions.filter((q) => !isCurriculumUnitLabel(String(q.category ?? '')));
     const status: QuestionLoadStatus = allQuestions.length > 0 || manifestOnly ? 'success' : 'empty';
     const items = Array.isArray(manifest.items) ? (manifest.items as (ManifestUnitLike & { count?: number })[]) : [];
+    const computedByTitle: Record<string, number> = {};
+    allQuestions.forEach((q) => {
+      const c = String(q.category ?? '');
+      if (c && !isCurriculumUnitLabel(c)) computedByTitle[c] = (computedByTitle[c] || 0) + 1;
+    });
     const categoryCounts: Record<string, number> = {};
     items.forEach((it) => {
-      if (it.title && !isCurriculumUnitLabel(it.title)) categoryCounts[it.title] = it.count ?? 0;
+      if (it.title && !isCurriculumUnitLabel(it.title)) {
+        const fromManifest = typeof it.count === 'number' && it.count > 0 ? it.count : 0;
+        categoryCounts[it.title] = fromManifest > 0 ? fromManifest : (computedByTitle[it.title] ?? 0);
+      }
     });
 
     return {

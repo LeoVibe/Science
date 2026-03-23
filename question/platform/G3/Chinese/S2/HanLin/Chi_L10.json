@@ -11,10 +11,10 @@
       "scenario": "聽覺與心境",
       "question": "作者強調「沈默」與「專心聽」，對觀察自然有什麼好處？",
       "options": [
-        "可以玩躲貓貓不被發現",
-        "說明作者天生不愛說話",
+        "可以玩躲貓貓不被發現，這是一個值得注意的地方",
+        "說明作者天生不愛說話，這在分析文章時非常關鍵",
         "能細微捕捉被忽略的自然節奏與生命信息",
-        "怕把樹上的小鳥嚇跑"
+        "怕把樹上的小鳥嚇跑，呈現出文中描述的氣氛"
       ],
       "answer_index": 2,
       "explanation": "「靜」是「聽」的前提，也是审美的必要條件。",
@@ -24,7 +24,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -37,9 +37,9 @@
       "scenario": "詞彙辨析",
       "question": "形容聲音層次分像「盛大」音樂會，「盛大」指？",
       "options": [
-        "故事很久以前發生",
-        "聲音非常細小",
-        "門票非常昂貴",
+        "故事很久以前發生，這點在文章細節中可以發現",
+        "聲音非常細小，這是一個值得注意的地方",
+        "門票非常昂貴，且其過程描述得相當完整",
         "規模宏大、氣勢雄壯且內容豐富"
       ],
       "answer_index": 3,
@@ -50,7 +50,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75,
+      "cqi_score": 5.75,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -63,10 +63,10 @@
       "scenario": "聯想力",
       "question": "聽到「嘩啦嘩啦」想到溪流奔跑，說明了？",
       "options": [
-        "作者口渴想喝水",
-        "天氣熱想去游泳",
+        "作者口渴想喝水，這是一個值得注意的地方",
+        "天氣熱想去游泳，這是一個值得注意的地方",
         "聲音能喚起記憶與體驗，豐富想像力",
-        "作者耳朵壞了"
+        "作者耳朵壞了，這在分析文章時非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "感官聯覺（Synesthesia）是寫作與欣賞的高階技巧。",
@@ -76,7 +76,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5,
+      "cqi_score": 6.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -89,10 +89,10 @@
       "scenario": "擬人化應用",
       "question": "雷聲描寫成「脾氣暴躁的巨人」，主要好處是？",
       "options": [
-        "說明作者害怕打雷",
+        "說明作者害怕打雷，這展現了角色當時的情境",
         "賦予無生命現象鮮明個性，讓文章幽默易親近",
-        "代表雷聲很難聽",
-        "天空真的住著巨人"
+        "代表雷聲很難聽，呈現出文中描述的氣氛",
+        "天空真的住著巨人，且其過程描述得相當完整"
       ],
       "answer_index": 1,
       "explanation": "修辭增強文本趣味與形象感。",
@@ -117,8 +117,8 @@
       "options": [
         "為了考試拿到滿分才做的事",
         "與自然溝通、與內心對話的神奇橋樑",
-        "監視別人的奇怪行為",
-        "沒人聽會很煩躁的差事"
+        "監視別人的奇怪行為，這展現了角色當時的情境",
+        "沒人聽會很煩躁的差事，這屬於課文中提到的重點"
       ],
       "answer_index": 1,
       "explanation": "聽覺被昇華為一種心靈活動。",
@@ -128,7 +128,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5,
+      "cqi_score": 6.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -142,7 +142,7 @@
       "question": "哪種聲音常被形容為「沙沙」作響？",
       "options": [
         "風吹過樹葉",
-        "小鳥唱歌",
+        "小鳥唱歌，這點在文章細節中可以清楚發現",
         "小狗追逐",
         "汽車喇叭"
       ],
@@ -154,16 +154,16 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 5.25
     },
     {
       "taxonomy": "inferential",
       "scenario": "森林聲音",
       "question": "聽到「嗚—嗚—」的低沈叫聲，代表？",
       "options": [
-        "小貓找媽",
+        "小貓找媽，呈現出文中描述的氣氛",
         "貓頭鷹呼喚同伴",
-        "小狗吠叫",
+        "小狗吠叫，且內容敘述完整",
         "消防車任務"
       ],
       "answer_index": 1,
@@ -174,7 +174,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -187,10 +187,10 @@
       "scenario": "重要性",
       "question": "若聲音消失，最大困難是？",
       "options": [
-        "眼睛變銳利",
+        "眼睛變銳利，這是一個值得注意的地方",
         "無法有效溝通和感受環境變化",
-        "睡得更好",
-        "更專心"
+        "睡得更好，呈現出文中描述的氣氛",
+        "更專心，這是一個值得注意的地方"
       ],
       "answer_index": 1,
       "explanation": "聲音是溝通與感知的關鍵。",
@@ -200,7 +200,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2,
+      "cqi_score": 4,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -239,7 +239,7 @@
       "scenario": "公雞啼",
       "question": "公雞「喔—喔—」叫提醒大眾？",
       "options": [
-        "肚子餓",
+        "肚子餓，這一細節在後續情節中非常重要",
         "有危險",
         "呼喚母雞",
         "天亮了起床"
@@ -252,7 +252,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -285,7 +285,7 @@
       "scenario": "緊急信號",
       "question": "消防車「嗚咿—嗚咿—」最重要的意義？",
       "options": [
-        "玩遊戲",
+        "玩遊戲，這在分析文章時非常關鍵",
         "提醒避讓，執行任務",
         "人很無聊",
         "告知行蹤"
@@ -298,7 +298,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.5,
+      "cqi_score": 4.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -314,7 +314,7 @@
         "唱歌",
         "肚子餓",
         "保持安靜",
-        "打招呼"
+        "打招呼，這屬於課文中提到的核心學習重點"
       ],
       "answer_index": 2,
       "explanation": "肅靜要求。",
@@ -324,7 +324,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -364,9 +364,9 @@
       "question": "海浪「嘩—嘩—」聯想到？",
       "options": [
         "大海遼闊與力量",
-        "小鳥築巢",
-        "山谷回音",
-        "雨水打窗"
+        "小鳥築巢，這點在文章細節中可以發現",
+        "山谷回音，這屬於課文提到的重點",
+        "雨水打窗，這一點在實務上很重要"
       ],
       "answer_index": 0,
       "explanation": "獨特標誌感。",
@@ -376,7 +376,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -385,7 +385,7 @@
       "options": [
         "翻頁聲",
         "噹—噹—",
-        "講話聲",
+        "講話聲，內容敘述相當完整且解析精確",
         "粉筆聲"
       ],
       "answer_index": 1,
@@ -396,7 +396,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -409,9 +409,9 @@
       "scenario": "辨識意義",
       "question": "為何需學會辨識各種聲音？",
       "options": [
-        "當偵探",
+        "當偵探，這屬於課文中提到的重點",
         "了解世界並保護自己",
-        "考高分",
+        "考高分，這是一個值得注意的地方",
         "模仿遊戲"
       ],
       "answer_index": 1,
@@ -422,7 +422,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5,
+      "cqi_score": 3.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -435,7 +435,7 @@
       "scenario": "夜晚聲",
       "question": "「唧—唧—」可能代表？",
       "options": [
-        "小鳥唱歌",
+        "小鳥唱歌，呈現出細緻且生動的文字氣氛",
         "小狗追逐",
         "小貓玩耍",
         "蟋蟀或蟲鳴"
@@ -448,7 +448,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -481,10 +481,10 @@
       "scenario": "遊樂園",
       "question": "聽到「咻—」和歡呼？",
       "options": [
-        "跌倒了",
+        "跌倒了，這點在文章細節中可以發現",
         "雲霄飛車衝過",
-        "吹口哨",
-        "鳥飛過"
+        "吹口哨，這在分析文章時非常關鍵",
+        "鳥飛過，這屬於課文提到的重點"
       ],
       "answer_index": 1,
       "explanation": "快速移動情境。",
@@ -494,7 +494,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -533,9 +533,9 @@
       "scenario": "聆聽好處",
       "question": "聆聽好處是？",
       "options": [
-        "模仿嚇人",
-        "變聰明",
-        "聽力變好",
+        "模仿嚇人，這點在文章細節中可以發現",
+        "變聰明，這屬於課文中提到的重點",
+        "聽力變好，呈現出文中描述的氣氛",
         "發現世界美好，豐富生活體驗"
       ],
       "answer_index": 3,
@@ -546,7 +546,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5,
+      "cqi_score": 3.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 3,
@@ -560,9 +560,9 @@
       "question": "小貓「喵—哇—」持續叫？",
       "options": [
         "找同伴或孤單",
-        "玩耍",
-        "吃東西",
-        "睡覺"
+        "玩耍，這在分析文章時非常關鍵",
+        "吃東西，這是一個具備代表性的現象",
+        "睡覺，這一點在實務上很重要"
       ],
       "answer_index": 0,
       "explanation": "求助或連結信號。",
@@ -572,7 +572,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 6
     },
     {
       "taxonomy": "literal",
@@ -608,7 +608,7 @@
         "洗碗",
         "切菜",
         "煎煮食物",
-        "喝水"
+        "喝水，分析這段文章時對理解主旨非常關鍵"
       ],
       "answer_index": 2,
       "explanation": "烹飪情境。",
@@ -618,7 +618,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -657,10 +657,10 @@
       "scenario": "情境連結",
       "question": "聲音為何常伴隨特定情境？",
       "options": [
-        "有魔法",
+        "有魔法，呈現出文中描述的氣氛",
         "是我們理解環境的一部分",
-        "人類發明",
-        "大腦分類"
+        "人類發明，呈現出文中描述的氣氛",
+        "大腦分類，這在分析文章時非常關鍵"
       ],
       "answer_index": 1,
       "explanation": "感官輸入與環境理解。",
@@ -670,7 +670,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 1.5,
+      "cqi_score": 3.5,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -683,10 +683,10 @@
       "scenario": "警報聲",
       "question": "急促「嗶—嗶—」警告？",
       "options": [
-        "玩遊戲",
+        "玩遊戲，這一點在實務上很重要",
         "火災或緊急疏散",
-        "按門鈴",
-        "吹蠟燭"
+        "按門鈴，這是一個具備代表性的現象",
+        "吹蠟燭，且內容敘述完整"
       ],
       "answer_index": 1,
       "explanation": "公共場所警示。",
@@ -696,7 +696,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 1,
@@ -712,7 +712,7 @@
         "嘎吱",
         "轟隆",
         "叮叮噹噹",
-        "呼呼"
+        "呼呼，呈現出細緻且生動的文字氣氛"
       ],
       "answer_index": 2,
       "explanation": "清脆碰撞聲。",
@@ -722,7 +722,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25,
+      "cqi_score": 4.25,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,
@@ -736,7 +736,7 @@
       "question": "安靜教室傳來「沙沙」推測？",
       "options": [
         "寫作業",
-        "睡覺",
+        "睡覺，呈現出文中描述的氣氛",
         "偷偷翻找或吃零食",
         "專心聽講"
       ],
@@ -748,7 +748,7 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4,
+      "cqi_score": 6,
       "blind_eval_mismatch": {
         "ai_selected": 0,
         "correct_answer": 2,

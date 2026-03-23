@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "SocialStudies",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "農業",
         "銀行業"
       ],
-      "answer": "農業",
       "explanation": "直接從自然界獲取資源的產業（如農林漁牧）稱為第一級產業。",
       "cqi_score": 5.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "農業"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "隨著科技進步，現在家鄉的耕作大多已經自動化。",
-      "answer": "True",
       "explanation": "機械取代人力是現代農業的特徵。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "家鄉的特色產品可以透過______或是網路行銷到全世界。",
-      "answer": "觀光、市集",
       "explanation": "多元行銷管道能增加家鄉收入。",
       "cqi_score": 1.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "觀光、市集"
     },
     {
       "id": "4",
@@ -52,19 +52,23 @@
         "市長的身高",
         "昨天的晚餐"
       ],
-      "answer": "地形與氣候",
       "explanation": "自然環境決定了適宜發展的基礎產業。",
       "cqi_score": 4,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "地形與氣候"
     },
     {
       "id": "5",
       "type": "true_false",
       "question": "所有家鄉生產的東西都只能在當地賣掉。",
-      "answer": "False",
       "explanation": "現代交通發達，產品可以外銷到其他地方。",
       "cqi_score": 1.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "False"
     }
-  ]
+  ],
+  "publisher": "HanLin",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "SocialStudies"
 }

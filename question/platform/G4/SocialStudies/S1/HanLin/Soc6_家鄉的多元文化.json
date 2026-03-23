@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "SocialStudies",
     "publisher": "HanLin",
@@ -19,28 +19,28 @@
         "三合院：佛教",
         "教堂：基督教或天主教"
       ],
-      "answer": "三合院：佛教",
       "explanation": "三合院是傳統民居建築，並非特定宗教場所。",
       "cqi_score": 5.75,
-      "quality_level": "L4"
+      "quality_level": "L4",
+      "answer_index": "三合院：佛教"
     },
     {
       "id": "2",
       "type": "true_false",
       "question": "多元文化社會中，我們應該尊重每個族群不同的飲食禁忌與生活習慣。",
-      "answer": "True",
       "explanation": "尊重差異是社會和諧的基礎。",
       "cqi_score": 2.25,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "True"
     },
     {
       "id": "3",
       "type": "fill_in_the_blank",
       "question": "東南亞地區的「潑水節」象徵著洗去過去一年的不幸，並迎接新的一年。這是來自______（國家/族群類型）的文化。",
-      "answer": "泰國、緬甸或新住民",
       "explanation": "潑水節是許多新住民家鄉的重要節日。",
       "cqi_score": 3.75,
-      "quality_level": "L1"
+      "quality_level": "L1",
+      "answer_index": "泰國、緬甸或新住民"
     },
     {
       "id": "4",
@@ -52,10 +52,10 @@
         "原住民的豐年祭吸引各族群觀光",
         "以上皆是"
       ],
-      "answer": "以上皆是",
       "explanation": "文化透過接觸互相影響、融合。",
       "cqi_score": 5,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "以上皆是"
     },
     {
       "id": "5",
@@ -67,10 +67,11 @@
         "排斥它",
         "沒興趣，不想理會"
       ],
-      "answer": "保持開放的心與學習的態度去理解對方",
       "explanation": "培養學生的跨文化素養。",
       "cqi_score": 4.25,
-      "quality_level": "L3"
+      "quality_level": "L3",
+      "answer_index": "保持開放的心與學習的態度去理解對方"
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }
