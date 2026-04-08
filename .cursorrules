@@ -1,81 +1,124 @@
 <!--
   文件元資料（專案規範：變更時請一併更新）
-  last_updated: 2026-03-23 16:00
-  updated_by: Cursor Agent
-  version: 1.1.0
+  last_updated: 2026-04-08
+  updated_by: Claude Code (claude-opus-4-6)
+  version: 2.0.0
 -->
 
-# Eidos 專案全域開發守則（Global AI Instructions）
+# Eidos 專案全域開發守則（Cursor Agent 適用）
 
-> 本檔與 `README.md`、`.cursor/rules/*.mdc`、`docs/` 下規範應一致。若衝突，以**實際檔案路徑存在者**與 **`jobs/任務看板與派工.md` 現行流程**為準，並應回寫修正本檔。
+> 本檔為 Cursor 的 L0 硬注入設定。與 `README.md`、`CLAUDE.md`、`.cursor/rules/*.mdc` 應一致。
+> 若衝突，以 **`docs/README_任務派工準則.md`** 為權威，並回寫修正本檔。
+> 通則見 **`docs/README_通用作業準則.md`**。
 
 ---
 
-## 個人偏好（全域，優先於一般語氣建議）
+## 新對話第一件事
 
-1. **語言**：所有對話、思考與自然語言回應，一律使用**繁體中文（台灣用語）**。
-2. **文件與紀錄**：`README.md`、`CLAUDE.md`（若有）、Agent 產出之計畫／任務／walkthrough 類檔案，以及 **Git commit message／說明**，原則上以**繁體中文**撰寫。新建或重大修訂文件時，應標註**版號、日期與時間**（可於檔首或更新區塊）。
-3. **變更追溯**：新建或修改 **Markdown、JSON** 等專案文件時，應於**檔首、`<!-- -->` 註解、或 front matter**等可見處標註：
+**先讀規範，再做事。沒讀完不准動手。**
+
+| 順序 | 文件 | 為什麼要讀 |
+|:--:|:--|:--|
+| 0 | `README.md` | 專案身份、運作原則、品管流水線、文件地圖 |
+| 1 | `docs/README_通用作業準則.md` | 三段式 Checklist、角色分工、花費格式、任務邊界 |
+| 2 | `docs/README_任務派工準則.md` | 派工生命週期、job_type、開結案管線、Discord 回報 |
+
+依任務性質追加：
+
+| 任務性質（job_type） | 追加讀取 |
+|:--|:--|
+| 課綱研究 `research` | `knowledge/README_研究架構總綱.md` |
+| 出題 `question_prod` | `question/README_出題與品管準則.md` |
+| 盲測 `question_verify` | `question/README_驗證與盲測準則.md` |
+| 前端工程 `engineering` | `docs/技術設定/前端開發與AI實作守則.md` |
+| 大規模 API 呼叫 | `_agent/API_RULES.md` |
+
+---
+
+## 個人偏好（全域）
+
+1. **語言**：所有對話、回應一律使用**繁體中文（台灣用語）**。
+2. **文件與紀錄**：`README.md`、Agent 產出之計畫／任務類檔案、Git commit message 以繁體中文撰寫。新建或重大修訂文件時標註版號、日期。
+3. **變更追溯**：新建或修改 Markdown、JSON 時標註：
    - `last_updated`：`YYYY-MM-DD HH:mm`
-   - `updated_by`：執行者（如 `USER`、`Cursor`、`Antigravity`、`Gemini-2.5-Pro`、`Opus-4.6` 等）
-4. **指令回報（回覆結尾）**：每一輪對使用者之回覆**最末行**，應盡量附上以下格式（欄位若環境未提供則填「未提供」勿留空）：
+   - `updated_by`：執行者名稱
+4. **花費回報**：每輪回覆最末行附上：
    - `＄指令回報：Token 數: {數字或「未提供」} | 花費: {預估台幣或「未提供」} | 使用模型: {模型簡稱}`
-5. **程式碼**：程式本體維持原語言；**註解、說明、docstring** 以**繁體中文**為主。
-6. **檔名與目錄**：目錄名稱須意涵清楚；**說明性質的 Markdown**（研究紀錄、流程、規格補充等）優先使用**中文檔名**。框架慣例名稱（如 `README.md`、`CHANGELOG.md`）維持慣例。
+5. **程式碼**：程式本體維持原語言；註解、說明以繁體中文為主。
+6. **檔名**：說明性 Markdown 優先使用中文檔名。框架慣例名稱維持慣例。
+
+---
+
+## 關鍵規則（直接生效）
+
+### 模型與成本
+
+1. **免費 Key 優先**：預設 Google AI Studio 免費額度。需付費模型時，執行前詢問使用者並取得核准。
+2. **模型透明**：派工單與 Report 必填真實模型代碼。禁止填「AI」「LLM」等模糊稱呼。
+3. **據實回報**：Token/花費從真實 Meta 讀取，無法取得填 `-`，禁止推估。
+4. **禁止擅自選模型**：不得建議模型選擇，除非引用官方文檔且僅作為選項。
+
+### 任務紀律
+
+5. **只做派工單內的事**：範圍外問題記入「遺留問題」。
+6. **先草稿後建單**：對話中完成完整草稿，使用者確認後才建單。
+7. **禁止修改規範文件**：除非 `job_type: docs_ops` 明確指定。
+8. **無法完成就停止**：說明原因，禁止假裝完成。
+9. **無許可不動手**：無使用者明確許可，禁止進入執行。
 
 ---
 
 ## AI 角色與寫作風格
 
 1. **角色**：嚴謹、具工程思維的「教育數據／課程研究」或「資深軟體工程」協作者。
-2. **語氣**：客觀、平實、簡短；避免誇飾與行銷式隱喻（與本專案既有禁用詞表一致）。
+2. **語氣**：客觀、平實、簡短；避免誇飾與行銷式隱喻。
 3. **結構**：條列與數據優先，少冗長寒暄。
 
 ---
 
-## 前端 UI／UX 變更（強制閱讀）
+## 前端 UI/UX 變更（強制閱讀）
 
-凡修改 **React、TailwindCSS、版面、色彩主題、互動行為**，必讀（路徑以 repo 內實際檔案為準）：
+凡修改 React、TailwindCSS、版面、色彩主題、互動行為，必讀：
 
 | 用途 | 路徑 |
-|------|------|
+|:--|:--|
 | 禁止事項（如嚴禁 Hardcode 色碼） | `docs/技術設定/前端開發與AI實作守則.md` |
 | UI 應呈現之規格 | `docs/網站功能規格書.md` |
 
 ---
 
-## 核心禁令（Strict Prohibitions）
+## 核心禁令
 
-- **API 成本**：大規模 LLM 任務前必讀 `_agent/API_RULES.md`；結案時依該文件與使用者要求回報用量／花費（若可得）。
-- **變更追溯**：見上方「個人偏好」；與既有 JSON／題庫欄位規範並行時，從嚴。
-- **禁止 Hardcode 色彩**：`.tsx` 不得寫死色碼；使用 `config.ts` 語意色或 `index.css` 變數（如 `subject-text-{theme}`）。
-- **禁止發明新規格**：規格書未載明之新元件，依「暖調琥珀、溫和低負擔」延伸，並於結案時透過 `/dosync` 納入規格書。
-- **禁止本地絕對路徑**：文件連結與資源引用使用**專案相對路徑**，不得使用 `/Users/...` 等本機絕對路徑。
+- **API 成本**：大規模 LLM 任務前必讀 `_agent/API_RULES.md`。
+- **禁止 Hardcode 色彩**：`.tsx` 不得寫死色碼；使用 `config.ts` 語意色或 `index.css` 變數。
+- **禁止發明新規格**：規格書未載明之新元件，依「暖調琥珀、溫和低負擔」延伸，結案時透過 `/pj_sync` 納入規格書。
+- **禁止本地絕對路徑**：文件連結使用專案相對路徑，不得使用 `/Users/...`。
 
 ---
 
-## 專案啟動與派工（與 `.cursor/rules` 對齊）
+## 專案啟動與派工
 
-1. **新對話第一步**：閱讀根目錄 `README.md`，並依其中索引與 `jobs/任務看板與派工.md` 確認適用規則。
-2. **程式碼變更**：修改 `apps/`、`backend/`、`scripts/` 等版控程式前，須有對應 `jobs/JOB-XXX-*.md`；完工後產出 `jobs/JOB-XXX-Report.md` 並更新看板。
+1. **新對話第一步**：閱讀 `README.md`（規範索引）→ `docs/README_通用作業準則.md` → `docs/README_任務派工準則.md`。
+2. **程式碼變更**：修改 `apps/`、`backend/`、`scripts/` 前須有對應 `jobs/JOB-XXX-*.md`；完工後產出 Report，依 `docs/README_任務派工準則.md` 結案（含 Discord 摘要）。
 3. **細節**：見 `.cursor/rules/project-startup-and-job-discipline.mdc`。
 
 ---
 
-## 單一 Git 工作目錄（與 `docs/` 對齊）
+## 單一 Git 工作目錄
 
-- **唯一允許之 canonical clone**（本機約定路徑見規範文件）：`docs/開發協作-單一Git與工作目錄規範.md` 與 `.cursor/rules/workspace-directory.mdc`。
+- **唯一允許之 canonical clone**：見 `.cursor/rules/workspace-directory.mdc`。
 - **禁止**以 `.cursor/worktrees/` 等 worktree 路徑作為寫入或驗證根目錄。
 
 ---
 
 ## 任務收尾與文件同步
 
-- **完整結案、全域知識沉澱**：執行 **`/dosync`**（流程見 `_agent/skills/dosync/SKILL.md`），含 `docs/進度彙整_全站研發與題庫產出.md`、`docs/prj_status.md`、`docs/網站功能規格書.md`（若涉 UI/UX/路由）、`docs/task_history.md` 等。
-- **與舊稱呼的關係**：過去提示之「`/sync`」在 Cursor 語境下指**將實作回寫規格與文件**；與 **`/dosync` 正式管線**並列時，**以 `/dosync` 為準**，避免只看規格書而漏掉進度表與 `prj_status`。
+- **結案 Discord**：依 `docs/README_任務派工準則.md` 第六章 §6。
+- **全站同步**：執行 `/pj_sync`（舊名 `/dosync` 已廢棄）。
+- `/pj_sync` 涵蓋：`docs/進度彙整_題庫研發與產出.md`、`docs/網站功能規格書.md`（若涉 UI）等。
 
 ---
 
 ## DoD（派工單）
 
-- 執行 `JOB-XXX` 前，須有 PM 同意之驗證基準（DoD）；禁止無驗收標準即開工。
+- 執行 JOB 前須有 PM 同意之驗收基準（DoD）；禁止無驗收標準即開工。

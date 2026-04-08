@@ -9,13 +9,13 @@ const GOLDEN_DIR = path.join(PROJECT_ROOT, 'tests', 'golden_cases');
 const testCases = [
     {
         file: 'social_l4.json',
-        expectedQuality: 'L4', // 由於有 scenario 與長度控制，預期社會科可以過 L4（假設研究文件檢核通過，此處我們在 evaluateFile 會一併把檔案送進去跑邏輯）
-        description: '社會科完整包裝 L4 題目'
+        expectedQuality: 'QL4', // 有 scenario + blind_evaluation + 研究文件完整 → QL4
+        description: '社會科完整包裝 QL4 題目'
     },
     {
         file: 'math_l2.json',
-        expectedQuality: 'L3', // 目前 evaluateFile 會因研究支撐/門檻計算落點至 L3
-        description: '數學科短題幹與單純運算 L2 題目'
+        expectedQuality: 'QL2', // 發展綱要缺少 Evidence 關鍵字，ceiling 為 QL2
+        description: '數學科短題幹題目（研究支撐度 ceiling QL2）'
     }
 ];
 
