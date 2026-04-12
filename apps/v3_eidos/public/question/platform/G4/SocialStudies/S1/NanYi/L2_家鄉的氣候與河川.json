@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "SocialStudies",
+    "publisher": "NanYi",
+    "lesson": "L2",
+    "order": 2,
+    "title": "家鄉的氣候與河川"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "測量氣溫時，「25℃」的「℃」代表什麼單位？",
+      "options": [
+        "公里",
+        "攝氏度",
+        "華氏度",
+        "公分"
+      ],
+      "answer_index": "攝氏度",
+      "explanation": "攝氏（Celsius）是台灣常用的氣溫測量標準。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "台灣的河川通常長度較短、坡度較陡，且夏季雨量充沛。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這造成水源保持不易，需要興建水庫。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "家鄉中為了灌溉農田、蓄積雨水而人工挖掘的水池，桃園地區稱之為______。",
+      "options": [],
+      "answer_index": "埤塘",
+      "explanation": "埤塘是桃園台地重要的地理文化景觀。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "面對氣候變遷帶來的極端天氣（如豪雨），家鄉應加強什麼設施？",
+      "options": [
+        "百貨公司",
+        "電影院",
+        "遊樂園",
+        "排水系統與防洪工程"
+      ],
+      "answer_index": "排水系統與防洪工程",
+      "explanation": "防災是現代社區安全的首要課題。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一種活動受「降雨」影響最大？",
+      "options": [
+        "戶外賞花或球類比賽",
+        "農作物的生長",
+        "水庫的蓄水量",
+        "以上皆是"
+      ],
+      "answer_index": "以上皆是",
+      "explanation": "雨水是萬物生長的命脈，也深刻影響人類活動。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
+    }
+  ],
+  "publisher": "NanYi"
+}

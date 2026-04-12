@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L7",
+    "order": 7,
+    "title": "L7"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "房間空間規劃與收納 (情境 9)",
+      "question": "房間裡有一個正方體形狀的小型矮木凳，我們想為它貼上木紋貼皮。如果木凳邊長為 15 公分，請問要貼滿它的 6 個面需要多少平方公分的貼皮？",
+      "options": [
+        "1350 平方公分",
+        "3375 平方公分",
+        "90 平方公分",
+        "225 平方公分"
+      ],
+      "answer_index": 0,
+      "explanation": "表面積 = (15×15) × 6 = 225 × 6 = 1350 平方公分。",
+      "commonMisconception": "將表面積算成體積 15×15×15=3375，或是誤用周長算法 15×6=90。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "NanYi"
+}

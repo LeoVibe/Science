@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "L1",
+    "order": 1,
+    "title": "力與運動"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "生活現象的本質解釋",
+      "question": "拔河比賽時，甲隊和乙隊僵持不下，繩子正中央的紅心標記停在原地不動。關於這個現象，下列哪一個科學解釋最正確？",
+      "options": [
+        "甲隊和乙隊都沒有施力",
+        "甲隊和乙隊施力方向相同",
+        "甲隊和乙隊施力大小相同且方向相反，達成力的平衡",
+        "繩子因為摩擦力太小所以不會移動"
+      ],
+      "answer_index": 2,
+      "explanation": "當物體同時受到不同方向的力作用，如果力的大小剛好相等且方向相反，物體就會保持靜止不動，這稱為「力的平衡」。",
+      "commonMisconception": "學生可能誤以為靜止不動就代表「沒有受到任何力」(忽略了雙方其實都在大量施力)，或是將施力方向與大小搞混。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在進行「力的測量」實驗時，通常使用彈簧秤。這主要是利用彈簧的什麼特性？",
+      "options": [
+        "彈簧會生鏽",
+        "彈簧受力後會產生規律的伸長長度變化",
+        "彈簧的顏色會改變",
+        "彈簧可以導電"
+      ],
+      "answer_index": null,
+      "explanation": "在彈性限度內，彈簧伸長的長度與所受的力成正比。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "兩個人在拔河時，如果雙方互拉的力大小相等、方向相反，這在科學上稱為什麼？",
+      "options": [
+        "力消失了",
+        "力的平衡",
+        "力變大了",
+        "重心不穩"
+      ],
+      "answer_index": null,
+      "explanation": "當合力為零時，物體會保持靜止或做等速度運動，此狀態稱為力平衡。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "KangHsuan"
+}

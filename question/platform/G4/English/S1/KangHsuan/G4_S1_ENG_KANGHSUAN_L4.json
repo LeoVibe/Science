@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "KANGHSUAN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "L4",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Are you OK? B: No, I'm ______. (生病的)",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "sick 的意思是生病的。",
+      "answer_index": "sick",
+      "options": [
+        "fine",
+        "great",
+        "sick",
+        "happy"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "If you are 'thirsty', you want to drink water.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "thirsty 的意思是口渴的。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Are you ______ (餓了)? B: Yes, I am.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "hungry 的意思是餓了。",
+      "answer_index": "hungry",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Are you OK? B: Yes, I ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "針對 Are you...? 的問句，回答用 I am。",
+      "answer_index": "am",
+      "options": [
+        "do",
+        "is",
+        "am",
+        "are"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Is she OK? B: No, she is ______ (累了).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "tired 的意思是累了。",
+      "answer_index": "tired",
+      "options": [
+        "cold",
+        "tired",
+        "great",
+        "hot"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

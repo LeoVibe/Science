@@ -1,0 +1,54 @@
+{
+  "id": "G3_S2_SCI_KANGHSUAN",
+  "publisher": "KANGHSUAN",
+  "grade": "G3",
+  "semester": "S2",
+  "subject": "SCI",
+  "items": [
+    {
+      "id": "L1",
+      "title": "L1",
+      "theme": "",
+      "file": "G3_S2_SCI_KANGHSUAN_L1.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.62,
+      "quality": "QL1"
+    },
+    {
+      "id": "L2",
+      "title": "L2",
+      "theme": "",
+      "file": "G3_S2_SCI_KANGHSUAN_L2.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.18,
+      "quality": "QL1"
+    },
+    {
+      "id": "L3",
+      "title": "L3",
+      "theme": "",
+      "file": "G3_S2_SCI_KANGHSUAN_L3.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.88,
+      "quality": "QL1"
+    },
+    {
+      "id": "L4",
+      "title": "L4",
+      "theme": "",
+      "file": "G3_S2_SCI_KANGHSUAN_L4.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.91,
+      "quality": "QL1"
+    }
+  ],
+  "moduleMetaData": {
+    "total_questions": 120,
+    "blind_tested": 0,
+    "last_updated": "2026-03-26T07:46:19.691Z"
+  }
+}

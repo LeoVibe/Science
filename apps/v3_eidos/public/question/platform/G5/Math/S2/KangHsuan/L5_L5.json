@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L5",
+    "order": 5,
+    "title": "L5"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "遊戲設定與經驗值增長 (情境 8)",
+      "question": "線上遊戲的伺服器 A 全伺服器總金幣量有 5兆 4000億，伺服器 B 有 3兆 8000億。請問兩個伺服器合併後，總金幣量是多少？",
+      "options": [
+        "8兆 2000億",
+        "9兆 2000億",
+        "9兆 12000億",
+        "8兆 12000億"
+      ],
+      "answer_index": 1,
+      "explanation": "直式計算：兆位 5+3=8，億位 4000+8000=12000。因為 1萬億 = 1兆，所以 12000億等於 1兆 2000億。進位後兆位變成 8+1=9，合併結果為 9兆 2000億。",
+      "commonMisconception": "學生可能直接將 4000 與 8000 相加得到 12000，卻不知道滿一萬億要進位成兆，而選了滿是錯誤單位的 8兆 12000億。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

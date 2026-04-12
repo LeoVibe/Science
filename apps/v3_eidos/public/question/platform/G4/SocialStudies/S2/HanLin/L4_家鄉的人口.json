@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "SocialStudies",
+    "publisher": "HanLin",
+    "lesson": "L4",
+    "order": 4,
+    "title": "家鄉的人口"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "家鄉如果出現「人口外流」，最主要的原因通常是？",
+      "options": [
+        "空氣太好",
+        "學校太多",
+        "房子太多",
+        "工作機會太少"
+      ],
+      "answer_index": "工作機會太少",
+      "explanation": "追求更好的經濟生活是人口流動主因。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "人口結構老化是指家鄉中老年人的比例持續上升。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這是全球多數已開發國家面臨的社會問題。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "新住民移入家鄉，帶來了多元的______，豐富了原本的生活。",
+      "options": [],
+      "answer_index": "文化、飲食",
+      "explanation": "族群融合能創造豐富的文化樣貌。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "家鄉人口過度密集的缺點不包括？",
+      "options": [
+        "生活機能完善",
+        "污染嚴重",
+        "交通擁擠",
+        "空間狹窄"
+      ],
+      "answer_index": "生活機能完善",
+      "explanation": "生活機能完善屬於優點而非缺點。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "人口密度代表單位面積內平均居住的人數。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "計算方式為總人口除以總面積。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "家鄉產業轉型",
+      "question": "原本以農業為主的『綠水村』，近年來因為人口老化及年輕人外流，許多農田荒廢。村長計畫將荒廢農田改造成『觀光農場』，吸引遊客。請問這種做法主要解決了哪種人口問題？",
+      "options": [
+        "自然增加變多",
+        "自然減少變少",
+        "社會增加變多（吸引人口回流或外地客）",
+        "社會減少變少（防止人口遷出），內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "轉型觀光能創造就業機會，吸引觀光客（暫時性社會增加）或甚至吸引年輕人回鄉創業（長期社會增加），主要是在調整人口的『移入/移出』邏輯，而非直接改變出生率。",
+      "commonMisconception": "學童容易將產業振興誤認為是『鼓勵生育（自然增加）』。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "新開高速公路的討論",
+      "question": "政府要在小美的家鄉附近增設高速公路交流道。支持者說：『這樣可以帶動經濟。』反對者說：『這樣會破壞寧靜。』請問下列哪一個分析是最全面的？",
+      "options": [
+        "支持者一定正確，因為交通發達只有好處。",
+        "反對者不應該反對，因為賺錢比環境重要。",
+        "交通建設會帶來便利，但同時也可能伴隨噪音與環境開發的壓力。",
+        "只要蓋了交流道，年輕人就不會想去台北工作了。，呈現出課綱所要求之探索精神"
+      ],
+      "answer_index": 2,
+      "explanation": "本題測驗公民意識與正反辯證。交通建設具備雙面性，這是 L3 研究中提到的重要認知守衛點。",
+      "commonMisconception": "交通建設絕對利益迷思。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "HanLin"
+}

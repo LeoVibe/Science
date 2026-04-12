@@ -5,36 +5,36 @@
   "subject": "English",
   "items": [
     {
-      "id": "U1",
-      "title": "Hello",
-      "file": "U1_Hello.json",
-      "count": 5
+      "id": "L1",
+      "title": "Hello!",
+      "file": "L1_Hello!.json",
+      "count": 1
     },
     {
-      "id": "U2",
-      "title": "What_is_Your_Name",
-      "file": "U2_What_is_Your_Name.json",
-      "count": 5
+      "id": "L2",
+      "title": "What's Your Name_",
+      "file": "L2_What's Your Name_.json",
+      "count": 1
     },
     {
-      "id": "U3",
-      "title": "How_Are_You",
-      "file": "U3_How_Are_You.json",
-      "count": 5
+      "id": "L3",
+      "title": "How Are You_",
+      "file": "L3_How Are You_.json",
+      "count": 1
     },
     {
-      "id": "U4",
-      "title": "This_Is_My_Father",
-      "file": "U4_This_Is_My_Father.json",
-      "count": 5
+      "id": "L4",
+      "title": "This Is My Father",
+      "file": "L4_This Is My Father.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 0,
-      "accuracyScore": 0,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

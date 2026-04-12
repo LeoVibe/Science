@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L3",
+    "order": 3,
+    "title": "Where's My Key?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where is the key? B: It's ______ the bag.",
+      "options": [
+        "a",
+        "in",
+        "is",
+        "am"
+      ],
+      "answer_index": "in",
+      "explanation": "in 表示物品在容器內。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'Where is' can be shortened to 'Where's'.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "Where is 的縮寫是 Where's。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where's the ball? B: It's ______ (在...下面) the chair.",
+      "options": [],
+      "answer_index": "under",
+      "explanation": "under 的意思是「在...下面」。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: ______ are my socks? B: They are on the bed.",
+      "options": [
+        "Where",
+        "What",
+        "How",
+        "Who"
+      ],
+      "answer_index": "Where",
+      "explanation": "詢問位置使用 Where。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The book is ______ (在...上面) the desk.",
+      "options": [
+        "under",
+        "next to",
+        "on",
+        "in"
+      ],
+      "answer_index": "on",
+      "explanation": "on 的意思是「在...上面」。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

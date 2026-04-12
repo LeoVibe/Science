@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「美味的一堂課」中，學生們之所以覺得這堂課「美味」，是因為他們做了什麼？",
       "options": [
         "看美食電視節目",
@@ -19,32 +19,37 @@
         "老師請全班吃牛排",
         "親自動手製作料理（如：三明治或沙拉）並分享"
       ],
-      "answer": "親自動手製作料理（如：三明治或沙拉）並分享",
+      "answer_index": "親自動手製作料理（如：三明治或沙拉）並分享",
       "explanation": "實作課程能增強學生的參與感與成就感。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述，在準備食材與烹飪的過程中，學生們體會到了與同學分工合作的重要性。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "團隊合作是本課情感教育的核心點之一。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "料理之所以美味，不僅是因食材新鮮，更因為加入了大家滿滿的______。",
-      "answer": "心意、汗水、努力或熱情",
+      "options": [],
+      "answer_index": "心意、汗水、努力或熱情",
       "explanation": "強調情感價值對物質體驗的提升。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "課堂最後，學生們分享自己做的食物，這代表了什麼意義？",
       "options": [
         "因為做太多了吃不完",
@@ -52,14 +57,15 @@
         "分享能讓快樂加倍，並學會欣賞別人的優點",
         "看誰做的好吃可以打分數"
       ],
-      "answer": "分享能讓快樂加倍，並學會欣賞別人的優點",
+      "answer_index": "分享能讓快樂加倍，並學會欣賞別人的優點",
       "explanation": "分享與社交素養的建立。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想引導讀者建立什麼樣的生活態度？",
       "options": [
         "長大要當名廚",
@@ -67,10 +73,12 @@
         "動手做的實踐精神與惜食、分享的美德",
         "便利商店的食物最方便"
       ],
-      "answer": "動手做的實踐精神與惜食、分享的美德",
+      "answer_index": "動手做的實踐精神與惜食、分享的美德",
       "explanation": "食育教育與生活實踐素養。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

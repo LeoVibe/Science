@@ -202,6 +202,39 @@ node scripts/job_manager.js create "任務名稱" [USER|AG|DEV] [job_type]
 
 ## 五、階段二：執行（Execution）
 
+### §5.0 委派 Cursor 執行（多 Agent 機制）
+
+**Claude Code 主動呼叫 Cursor CLI**，而非「告知使用者去開 Cursor」。以下為標準指令：
+
+| 場景 | 指令 |
+|:--|:--|
+| **單一 JOB**（最常用） | `cursor agent --print --yolo --workspace . "請讀取並執行派工單：jobs/JOB-XXX-*.md" > scripts/orchestrator-logs/JOB-XXX-cursor-output.log 2>&1 &` |
+| **批量任務**（跨科目/年級） | `node scripts/orchestrator.js` |
+| **批量 dry-run**（先預覽） | `node scripts/orchestrator.js --dry-run` |
+| **批量從指定任務繼續** | `node scripts/orchestrator.js --from G4-SocialStudies-HanLin` |
+
+**選擇依據**：
+- 單一 JOB → 直接 `cursor agent` 呼叫，傳入派工單路徑
+- 跨科目/年級批量 → `scripts/orchestrator.js`（自動掃描、分配 JOB 號、記錄 state）
+
+**Log 與監控**：
+```bash
+# 背景執行（推薦，避免 terminal 阻塞）
+cursor agent --print --yolo --workspace . "..." \
+  > scripts/orchestrator-logs/JOB-XXX-cursor-output.log 2>&1 &
+echo "PID: $!"
+
+# 監控進度
+tail -f scripts/orchestrator-logs/JOB-XXX-cursor-output.log
+
+# 確認 Report 是否產出
+ls -la jobs/JOB-XXX-Report.md
+```
+
+**完成判定**：Cursor 執行完畢後**必須產出** `jobs/JOB-XXX-Report.md`，否則視為失敗。
+
+---
+
 1. **讀取派工單**  
    鎖定 `jobs/JOB-XXX-....md`，確認 **`job_type` 已填**，並依第二章表載入對應準則全文或指定章節。
 

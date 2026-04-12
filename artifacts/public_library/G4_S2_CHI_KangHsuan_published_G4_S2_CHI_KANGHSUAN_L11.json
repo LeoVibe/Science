@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L11",
+    "order": 11,
+    "title": "窗前的月光",
+    "theme": "自然美感描述。"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這是一篇什麼文體？",
+      "options": [
+        "議論文",
+        "新詩",
+        "應用文",
+        "說明文"
+      ],
+      "answer_index": "新詩",
+      "explanation": "通常描寫月光的課文多為詩歌或散文。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-25",
+      "blind_eval_mismatch": {
+        "ai_selected": null,
+        "correct_answer": "新詩",
+        "ai_reasoning": "題目選項未包含「抒情散文」，且題幹過於簡略，無法評量學生對文本結構的理解，建議修正為更具鑑別度的情境分析題。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ]
+}

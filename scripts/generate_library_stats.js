@@ -27,11 +27,11 @@ const PUBLISHER_MAP = {
     'HanLin': '翰林'
 };
 
-/** 檔案級成熟度是否達「可上架」：至少 L2，且非 L1 (BIAS)。盲測通過由派工／metadata 人工核可，未寫入 JSON 前不由此欄判斷。 */
+/** 檔案級成熟度是否達「可上架」：至少 QL2，且非 QL1 (BIAS)。 */
 function isPublishedFileQuality(quality) {
     if (!quality || quality === 'BROKEN') return false;
-    if (quality === 'L1' || quality === 'L1 (BIAS)') return false;
-    return ['L2', 'L3', 'L4', 'L5'].some((l) => quality.startsWith(l));
+    if (quality === 'QL1' || quality === 'QL1 (BIAS)') return false;
+    return ['QL2', 'QL3', 'QL4', 'QL5'].some((l) => quality.startsWith(l));
 }
 
 function scanPlatform() {
@@ -57,7 +57,14 @@ function scanPlatform() {
 
             for (const semester of semesters) {
                 const semesterDir = path.join(subjectDir, semester);
-                const publishers = fs.readdirSync(semesterDir).filter(d => fs.statSync(path.join(semesterDir, d)).isDirectory());
+                const publishers = fs.readdirSync(semesterDir).filter(d => {
+                    if (d === '.DS_Store') return false;
+                    try {
+                        return fs.statSync(path.join(semesterDir, d)).isDirectory();
+                    } catch (e) {
+                        return false;
+                    }
+                });
 
                 for (const publisherKey of publishers) {
                     const publisher = PUBLISHER_MAP[publisherKey] || publisherKey;
@@ -72,7 +79,7 @@ function scanPlatform() {
                             let totalPublishedQuestions = 0;
                             let totalScore = 0;
                             let unitList = manifest.items || [];
-                            let highestQuality = 'L1';
+                            let highestQuality = 'QL1';
 
                             if (unitList.length > 0) {
                                 unitCount = unitList.length;
@@ -96,7 +103,7 @@ function scanPlatform() {
                                                     // QG 採用最嚴格木桶原則或以最高等為代表？
                                                     // 前台展示單一年級版本的最優/最新綜合品質（此為 aggregator）
                                                     // 改為讀取 evalResult 本身的 quality
-                                                    const qLevels = ['L1', 'L1 (BIAS)', 'L2', 'L3', 'L4', 'L5'];
+                                                    const qLevels = ['QL1', 'QL1 (BIAS)', 'QL2', 'QL3', 'QL4', 'QL5'];
                                                     if (qLevels.indexOf(evalResult.quality) > qLevels.indexOf(highestQuality)) {
                                                         highestQuality = evalResult.quality;
                                                     }
@@ -116,7 +123,7 @@ function scanPlatform() {
 
                             /** 整包可上架題數：整包成熟度已達 L2+（非 L1／BIAS）時，與題庫數一致；否則僅計入逐檔達 L2+ 之題（草稿／偏差檔不計入上架） */
                             const packageEligible =
-                                highestQuality !== 'L1' && highestQuality !== 'L1 (BIAS)';
+                                highestQuality !== 'QL1' && highestQuality !== 'QL1 (BIAS)';
                             const shelfQuestions = packageEligible
                                 ? totalBankQuestions
                                 : totalPublishedQuestions;
@@ -134,7 +141,7 @@ function scanPlatform() {
                             stats[statKey].count += unitCount;
 
                             // 更新整個年級的最高品質 (Aggregation)
-                            const qLevels = ['L1', 'L2', 'L3', 'L4', 'L5'];
+                            const qLevels = ['QL1', 'QL2', 'QL3', 'QL4', 'QL5'];
                             if (qLevels.indexOf(highestQuality) > qLevels.indexOf(stats[statKey].depth)) {
                                 stats[statKey].depth = highestQuality;
                             }

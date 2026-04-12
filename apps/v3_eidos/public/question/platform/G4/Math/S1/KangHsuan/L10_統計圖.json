@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L10",
+    "order": 10,
+    "title": "統計圖"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "用來表示各項數據的大小、數量，且形狀像一根根柱子的統計圖稱為什麼？",
+      "options": [
+        "折線圖",
+        "點圖",
+        "長條圖",
+        "圓形圖"
+      ],
+      "answer_index": "長條圖",
+      "explanation": "長條圖適合用來比較各個類別之間數值的高低。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "折線圖主要用來觀察數據隨時間變化的趨勢（升降情況）。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "透過線段的傾斜程度可以快速看出成長或衰退的趨勢。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在長條圖中，長條愈長，代表代表的數值愈______。",
+      "options": [],
+      "answer_index": "大或多",
+      "explanation": "長條的高度或長度與數值成正比。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "如果要記錄一整天之內氣溫的變化，使用哪種統計圖最合適？",
+      "options": [
+        "折線圖",
+        "圓形圖",
+        "長條圖",
+        "表格就好"
+      ],
+      "answer_index": "折線圖",
+      "explanation": "氣溫是連續變化的數據，折線圖能清楚展現起伏。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "讀取統計圖時，首先應該看哪裡來確認這張圖在表達什麼？",
+      "options": [
+        "圖例",
+        "座標軸的單位",
+        "以上皆是",
+        "圖表標題"
+      ],
+      "answer_index": "以上皆是",
+      "explanation": "標題與座標軸是圖表的靈魂。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "KangHsuan"
+}

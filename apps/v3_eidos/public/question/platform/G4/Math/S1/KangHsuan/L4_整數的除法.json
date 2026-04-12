@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L4",
+    "order": 4,
+    "title": "整數的除法"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 240 ÷ 30 = ？",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer_index": "8",
+      "explanation": "240 除以 30 等於 8，也可以看成 24 除以 3。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在除法算式中，「餘數」必須比「除數」大。",
+      "options": [],
+      "answer_index": "False",
+      "explanation": "餘數必須小於除數，否則表示商還可以再增加。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 850 ÷ 25 = ______。",
+      "options": [],
+      "answer_index": "34",
+      "explanation": "850 除以 25 的商是 34。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一本筆記本 15 元，200 元最多可以買幾本？",
+      "options": [
+        "15 本",
+        "13 本",
+        "12 本",
+        "14 本"
+      ],
+      "answer_index": "13 本",
+      "explanation": "200 ÷ 15 = 13 ... 5，所以最多能買 13 本。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一個除法算式是「整除」（餘數為 0）的？",
+      "options": [
+        "15 ÷ 2",
+        "121 ÷ 11",
+        "50 ÷ 4",
+        "100 ÷ 3"
+      ],
+      "answer_index": "121 ÷ 11",
+      "explanation": "121 = 11 × 11，所以餘數為 0。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "KangHsuan"
+}

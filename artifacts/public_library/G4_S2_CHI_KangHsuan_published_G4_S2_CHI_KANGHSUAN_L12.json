@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L12",
+    "order": 12,
+    "title": "如來佛的手掌心",
+    "theme": "古典文學：西遊記情節。"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這是關於誰的故事？",
+      "options": [
+        "孫悟空",
+        "豬八戒",
+        "沙悟淨",
+        "唐三藏"
+      ],
+      "answer_index": "孫悟空",
+      "explanation": "西遊記著名橋段。",
+      "commonMisconception": "",
+      "quality_level": "QL2",
+      "cqi_score": 5.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-25",
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": "孫悟空",
+        "ai_reasoning": "題目過於瑣碎，僅考查記憶層次，未觸及課綱要求的哲理分析與批判性思考，不符合教學目標。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ]
+}

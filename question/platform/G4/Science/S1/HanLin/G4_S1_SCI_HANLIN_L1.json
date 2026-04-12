@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "SCI",
+    "publisher": "HANLIN",
+    "lesson": "L1",
+    "order": 1,
+    "title": "閃亮的天空",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "月亮在天空中位置的移動，主要是由哪一個方向往哪一個方向？",
+      "options": [
+        "東升西落",
+        "南往北移",
+        "北往南移",
+        "西升東落"
+      ],
+      "answer_index": "東升西落",
+      "explanation": "由於地球自轉的關係，日月星辰在天空中看起來都是東升西落。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "月相的變化規律（從眉月、滿月到眉月週期）約為一個月。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這是農曆（陰曆）制定的科學依據。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "農曆十五、十六日，月亮呈現圓盤狀，我們稱之為______月。",
+      "options": [],
+      "answer_index": "望月或滿",
+      "explanation": "此時太陽、地球、月亮幾乎排成一直線，月亮反射面正對地球。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "觀測月亮仰角（高度）時，我們常使用自己的身體部位來當作簡易工具，下列何者正確？",
+      "options": [
+        "腳尖",
+        "耳朵",
+        "拳頭（拳頭數法）",
+        "眼睛"
+      ],
+      "answer_index": "拳頭（拳頭數法）",
+      "explanation": "將手伸直平舉，一個拳頭夾角約為 10 度。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「月亮」的敘述，下列何者「不正確」？",
+      "options": [
+        "月亮會自己發光，像太陽一樣",
+        "月亮表面有許多隕石坑坑洞（環形山）",
+        "月亮是地球的衛星",
+        "月亮的引力與潮汐現象有關"
+      ],
+      "answer_index": "月亮會自己發光，像太陽一樣",
+      "explanation": "月亮本身不發光，是反射太陽光。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

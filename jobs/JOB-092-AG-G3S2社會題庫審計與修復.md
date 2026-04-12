@@ -36,5 +36,5 @@
 ## 🎯 預期結果清單 (Expected Outcomes)
 - [ ] 修正後的 `HanLin/Soc_U1.json`～`Soc_U6.json`（答案正確且無冗餘）。
 - [ ] 修正後的 `KangHsuan/Soc_U1.json`（已去重且邏輯正確）。
-- [ ] 最終品質評分報告（CQI ≥ 6.5, L1=0）。
+- [ ] 最終品質評分報告（CQI ≥ 6.5, QL1=0）。
 

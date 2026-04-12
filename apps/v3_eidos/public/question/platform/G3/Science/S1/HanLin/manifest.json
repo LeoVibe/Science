@@ -5,36 +5,36 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1",
+      "id": "L1",
       "title": "植物的身體",
-      "file": "Sci1_植物的身體.json",
+      "file": "L1_植物的身體.json",
       "count": 1
     },
     {
-      "id": "Sci2",
+      "id": "L2",
       "title": "神奇的磁鐵",
-      "file": "Sci2_神奇的磁鐵.json",
+      "file": "L2_神奇的磁鐵.json",
       "count": 1
     },
     {
-      "id": "Sci3",
+      "id": "L3",
       "title": "空氣和風",
-      "file": "Sci3_空氣和風.json",
+      "file": "L3_空氣和風.json",
       "count": 1
     },
     {
-      "id": "Sci4",
+      "id": "L4",
       "title": "溶解",
-      "file": "Sci4_溶解.json",
+      "file": "L4_溶解.json",
       "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 6.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

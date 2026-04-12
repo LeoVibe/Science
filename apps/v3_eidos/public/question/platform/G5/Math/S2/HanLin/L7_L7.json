@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "HanLin",
+    "lesson": "L7",
+    "order": 7,
+    "title": "L7"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "飲料容量與平分 (情境 5)",
+      "question": "一個內部底面積為 100 平方公分、高為 20 公分的圓柱形水壺，裡面裝滿水。請問這壺水有多少毫升？",
+      "options": [
+        "2000 毫升",
+        "120 毫升",
+        "200 毫升",
+        "20 毫升"
+      ],
+      "answer_index": 0,
+      "explanation": "不管是圓柱還是長方體，容積 = 底面積 × 高 = 100 × 20 = 2000 立方公分。1 立方公分水 = 1 毫升，所以是 2000 毫升。",
+      "commonMisconception": "學生遇到非長方體的柱體就不知道如何計算容積，忽略提供底面積可直接乘高的方式。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "HanLin"
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L2",
+    "order": 2,
+    "title": "L2",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Do you like apples? B: ______, I do.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "肯定回答用 Yes, I do。",
+      "answer_index": "Yes",
+      "options": [
+        "Yes",
+        "Not",
+        "No",
+        "Don't"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'She doesn't like watermelons.' means '她不喜歡西瓜'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "doesn't like 表示不喜歡。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Does he like mangoes? B: Yes, he ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "Does he...? 的肯定回答是 Yes, he does。",
+      "answer_index": "does",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "I ______ like pineapples. They are too sour.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "I 的否定用 don't。",
+      "answer_index": "don't",
+      "options": [
+        "can't",
+        "doesn't",
+        "am not",
+        "don't"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What fruits do you like? B: I like ______ and oranges.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "peaches (桃子) 是水果。",
+      "answer_index": "peaches",
+      "options": [
+        "chicken",
+        "milk",
+        "bread",
+        "peaches"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

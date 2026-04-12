@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "比例尺：面積比陷阱",
+      "question": "【南一 U4：縮圖與比例尺】有一個圓形公園，在地圖上的面積是 5 平方公分。已知地圖比例尺是 1 : 1000。請問實際面積是多少「平方公尺」？",
+      "options": [
+        "5000 平方公尺",
+        "50000 平方公尺",
+        "50 平方公尺",
+        "500 平方公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "面積比 = 長度比的平方 = $1 : 1,000,000$。實際面積 = $5 \\times 1,000,000 = 5,000,000$ 平方公分。轉平方公尺（除以 10000）：$5,000,000 \\div 10,000 = 500$。誘答 A 為直接乘 1000 的線性誤植。",
+      "commonMisconception": "面積縮放關係誤讀 (漏算平方關係)",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幾何空間：圓柱容積",
+      "question": "【南一 U2：柱體體積】一個圓柱體容器，底面直徑是 20 公分（半徑 10 公分），高是 15 公分。請問大約可裝多少毫升的水？（圓周率以 3.14 計算）",
+      "options": [
+        "18840 毫升",
+        "4710 毫升",
+        "1500 毫升",
+        "471 毫升"
+      ],
+      "answer_index": 1,
+      "explanation": "體積 = 底面積 $\\times$ 高 = $(10 \\times 10 \\times 3.14) \\times 15 = 314 \\times 15 = 4710$ 立方公分（$4710$ 毫升）。誘答 B 為誤用直徑 20 計算面積；誘答 C 為位數移動誤差。",
+      "commonMisconception": "底面積公式之半徑與直徑混淆",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "怎樣解題：角位移基礎",
+      "question": "【南一 U5：怎樣解題 (時鐘問題)】兩點整時，時針與分針之間的較小夾角是多少度？",
+      "options": [
+        "30 度",
+        "12 度",
+        "60 度",
+        "90 度"
+      ],
+      "answer_index": 2,
+      "explanation": "鐘面每小時度數 = $360 \\div 12 = 30^{\\circ}$。兩點整代表兩格，故 $30 \\times 2 = 60^{\\circ}$。此為角速度計算的地基概念。",
+      "commonMisconception": "鐘面格值度數誤認",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "基準量應用：增量比值",
+      "question": "【南一 U3：基準量與比較量】甲比乙多 20%，如果乙是 400，請問甲是多少？",
+      "options": [
+        "320",
+        "80",
+        "400.2",
+        "480"
+      ],
+      "answer_index": 3,
+      "explanation": "甲 = 乙 $\\times (1 + 20\\%) = 400 \\times 1.2 = 480$。誘答 B 為誤算為「少 20%」；誘答 C 為只算「多的部分（差距）」。強化「母子和」的語意解析（驗證：R3 文獻 07）。",
+      "commonMisconception": "基準量與比較量加減邏輯斷點",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "速率應用：流速合成",
+      "question": "【南一 U5：怎樣解題 (流速問題)】一艘船在靜水中的時速是 12 公里，河流流速是每小時 3 公里。請問這艘船「逆流而上」的實際時速是多少？",
+      "options": [
+        "12 公里/時",
+        "4 公里/時",
+        "9 公里/時",
+        "15 公里/時"
+      ],
+      "answer_index": 2,
+      "explanation": "逆流速率 = 靜水速 $-$ 流速 = $12 - 3 = 9$ 公里/時。誘答 B 為順流速率 ($15$)。測驗學生對自然力（流速）與動力方向合力的直覺（驗證：R4 綱要）。",
+      "commonMisconception": "順流與逆流運算邏輯倒置",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幾何縮放：周長變化",
+      "question": "【最後一題：資深老師對「縮圖」的叮嚀】將原圖縮小成 1/4 倍的縮圖。如果原圖周長是 80 公分，縮圖的周長應是多少？",
+      "options": [
+        "10 公分",
+        "80 公分",
+        "5 公分",
+        "20 公分"
+      ],
+      "answer_index": 3,
+      "explanation": "周長屬於一維長度，隨比例尺線性變化。$80 \\div 4 = 20$ 公分。誘答 B 為誤用了面積比（$1/16$）或二度縮放。強化學生對「長度」與「面積」縮放差異的辨析。",
+      "commonMisconception": "長度與面積縮放性質混淆",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "NanYi"
+}

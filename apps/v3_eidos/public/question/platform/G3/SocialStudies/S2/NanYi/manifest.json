@@ -1,38 +1,46 @@
 {
   "publisher": "NanYi",
-  "subject": "SocialStudies",
   "grade": "G3",
   "semester": "S2",
+  "subject": "SocialStudies",
   "items": [
     {
-      "id": "U1",
-      "file": "Soc_U1.json",
-      "title": "居住環境與自然",
-      "count": 30
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
     },
     {
-      "id": "U2",
-      "file": "Soc_U2.json",
-      "title": "商店、消費與生活理財",
-      "count": 30
+      "id": "L2",
+      "title": "L2",
+      "file": "L2_L2.json",
+      "count": 1
     },
     {
-      "id": "U3",
-      "file": "Soc_U3.json",
-      "title": "群體參與及權益服務",
-      "count": 30
+      "id": "L3",
+      "title": "L3",
+      "file": "L3_L3.json",
+      "count": 1
     },
     {
-      "id": "U4",
-      "file": "Soc_U4.json",
-      "title": "居住環境與地名探索",
-      "count": 30
+      "id": "L4",
+      "title": "L4",
+      "file": "L4_L4.json",
+      "count": 1
     },
     {
-      "id": "U5",
-      "file": "Soc_U5.json",
-      "title": "家鄉故事與古蹟保存",
-      "count": 30
+      "id": "L5",
+      "title": "L5",
+      "file": "L5_L5.json",
+      "count": 1
     }
-  ]
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
 }

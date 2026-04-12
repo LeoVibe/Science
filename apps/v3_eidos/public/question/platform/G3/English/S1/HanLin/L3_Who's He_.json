@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L3",
+    "order": 3,
+    "title": "Who's He?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who's he? B: He ______ my teacher.",
+      "options": [
+        "are",
+        "be",
+        "is",
+        "am"
+      ],
+      "answer_index": null,
+      "explanation": "He 是第三人稱單數，使用 be 動詞 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'Who is' can be shortened to 'Who's'.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "Who is 的縮寫形式是 Who's。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who's ______? B: She is my mother.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "因為回答是 She，所以問句要用 she 詢問女生。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who is he? B: He is ______.",
+      "options": [
+        "my sister",
+        "my father",
+        "my mother",
+        "a girl"
+      ],
+      "answer_index": null,
+      "explanation": "He 指的是男性，故選項中只有 my father（父親）符合。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who's she? B: She is ______.",
+      "options": [
+        "a boy",
+        "my sister",
+        "my brother",
+        "my grandfather"
+      ],
+      "answer_index": null,
+      "explanation": "She 指的是女性，故選項中只有 my sister（姊妹）符合。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

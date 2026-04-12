@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L4",
+    "order": 4,
+    "title": "L4",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Whose socks are these? B: They are ______ socks.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "加上 's 表示「...的」。",
+      "answer_index": "Adam's",
+      "options": [
+        "Adam's",
+        "he",
+        "I",
+        "she"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "We use 'these are' for plural objects that are near us.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "these 用於複數且近處的物品。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Whose ______ (帽子) is this? B: It's my hat.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "hat 的意思是帽子。",
+      "answer_index": "hat",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Whose shoes are these? B: They are ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "yours 是所有格代名詞，代表 your shoes。",
+      "answer_index": "yours",
+      "options": [
+        "your",
+        "you",
+        "me",
+        "yours"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Whose glasses are ______? B: They are Sam's.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "複數物品詢問使用 these 或 those。",
+      "answer_index": "these",
+      "options": [
+        "this",
+        "these",
+        "that",
+        "it"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

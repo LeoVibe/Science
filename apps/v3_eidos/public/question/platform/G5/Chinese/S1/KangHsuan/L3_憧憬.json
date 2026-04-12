@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課涉及對未來或某種意境的「憧憬」，「憧憬」一詞最接近的意思是？",
       "options": [
         "害怕與恐懼",
@@ -19,32 +19,37 @@
         "討厭與排斥",
         "嚮往與美好的想像"
       ],
-      "answer": "嚮往與美好的想像",
+      "answer_index": null,
       "explanation": "憧憬通常用於形容對美好前途或理想環境的渴望。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中透過優美的文字描繪山林或田園景象，讓讀者產生對自然生活的嚮往。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "抒情散文常以此導引讀者進入藝術想像空間。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者在夕陽西下時，看著遠方的雲霞，心中激盪起對未知世界的無限______。",
-      "answer": "憧憬或嚮往",
+      "options": [],
+      "answer_index": null,
       "explanation": "情景交融的寫作手法。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課展現了哪一種寫作風格？",
       "options": [
         "充滿科幻與動作感",
@@ -52,14 +57,15 @@
         "充滿抱怨的對話",
         "清新、靜謐且富有詩意"
       ],
-      "answer": "清新、靜謐且富有詩意",
+      "answer_index": null,
       "explanation": "欣賞散文的美育特質。",
-      "cqi_score": 4.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼我們要對未來保持憧憬？",
       "options": [
         "比較好睡覺",
@@ -67,10 +73,12 @@
         "能作為推動我們在現實中努力向前的正向力量",
         "為了炫耀自己的夢想"
       ],
-      "answer": "能作為推動我們在現實中努力向前的正向力量",
+      "answer_index": null,
       "explanation": "理想是行動的明燈。",
-      "cqi_score": 4.5,
-      "quality_level": "L2"
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 4.25
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

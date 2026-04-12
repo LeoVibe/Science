@@ -2,6 +2,8 @@
 
 `source`: docs/README_通用作業準則.md
 `purpose`: SessionStart Hook 自動注入，Agent 無需主動 Read
+`last_updated`: 2026-04-11
+`updated_by`: Claude Code (claude-opus-4-6)
 
 ---
 
@@ -9,10 +11,29 @@
 
 | 角色 | 擔當者 | 職責 | 禁止 |
 |:--|:--|:--|:--|
-| PM / 總架構師 | Claude Code | 規劃、派工、驗收 | 禁止直接執行出題/盲測/腳本跑批 |
+| PM / 總架構師 | Claude Code | 規劃、派工、驗收；**透過 `cursor agent CLI` 委派 Cursor 執行** | 禁止直接執行出題/盲測/腳本跑批 |
 | 執行工程師 | Cursor / Gemini | 讀派工單、按 DoD 執行、撰寫 Report | 禁止自行開派工單或修改規範 |
 | QA / 稽核 | Codex / Antigravity | 跨檔一致性檢查、驗證數據 | — |
 | 使用者 | 人類 | 最終決策、核准、驗收 | — |
+
+## 多 Agent 派工機制（摘要，詳見派工準則 §5.0）
+
+Claude Code **主動呼叫** Cursor CLI，而非「告知使用者去開 Cursor」：
+
+```bash
+# 單一 JOB（最常用）
+cursor agent --print --yolo --workspace . \
+  "請讀取並執行派工單：jobs/JOB-XXX-*.md" \
+  > scripts/orchestrator-logs/JOB-XXX-cursor-output.log 2>&1 &
+
+# 批量任務（跨多科目/年級）
+node scripts/orchestrator.js --dry-run   # 先預覽
+node scripts/orchestrator.js             # 正式執行
+```
+
+**何時用哪種**：單一 JOB → 直接呼叫；跨科目/年級批量 → orchestrator.js。  
+**Log 位置**：`scripts/orchestrator-logs/JOB-XXX-cursor-output.log`  
+**監控**：`tail -f scripts/orchestrator-logs/JOB-XXX-cursor-output.log`
 
 ## 任務三段式 Checklist（缺一不可）
 
@@ -57,9 +78,20 @@
 `updated_by`: {Agent名} ({模型名})
 ```
 
+## 文件設計原則（精華，詳見正文第九章 §10.1-10.7）
+
+- **單一職責**：一份文件只管一主題，開頭 `文件定位` 宣告邊界
+- **唯一真相**：每個知識點只在一處維護正文，其他地方放指標連結
+- **三層架構**：索引（≤150 字/行）→ 摘要（≤30 行）→ 正文（按需讀取）
+- **靜態/動態分離**：不變的規則寫準則，會變的狀態寫派工單/Report
+- **What/Why/How 分離**：規範講 What+Why，SOP 講 How，Report 講 Done
+- **為 Agent 而寫**：可程式化條件句，附 Why 和 fallback
+- **存活性優先**：表格和一行式規則比散文更能撐過 context 壓縮
+
 ## 本摘要未涵蓋（需查閱正文）
 
 - Git 協作規範（唯一真相目錄、禁止事項）→ 正文第二章
 - UI 文案變更守則（禁止自動修改、強制對照表）→ 正文第五章
 - 執行時間回報格式 → 正文 §5.3
 - 技能檔 vs 知識檔分工 → 正文 §1.1
+- 文件設計原則完整版 → 正文第九章（§10.1-10.7）

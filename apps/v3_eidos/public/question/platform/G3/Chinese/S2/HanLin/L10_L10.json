@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "HanLin",
+    "lesson": "L10",
+    "order": 10,
+    "title": "L10"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "聽覺與心境",
+      "question": "作者強調「沈默」與「專心聽」，對觀察自然有什麼好處？",
+      "options": [
+        "可以玩躲貓貓不被發現，這是一個值得注意的地方",
+        "說明作者天生不愛說話，這在分析文章時非常關鍵",
+        "能細微捕捉被忽略的自然節奏與生命信息",
+        "怕把樹上的小鳥嚇跑，呈現出文中描述的氣氛"
+      ],
+      "answer_index": 2,
+      "explanation": "「靜」是「聽」的前提，也是审美的必要條件。",
+      "commonMisconception": "淺層理解為怕嚇跑鳥。",
+      "quality_level": "L3",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "詞彙辨析",
+      "question": "形容聲音層次分像「盛大」音樂會，「盛大」指？",
+      "options": [
+        "故事很久以前發生，這點在文章細節中可以發現",
+        "聲音非常細小，這是一個值得注意的地方",
+        "門票非常昂貴，且其過程描述得相當完整",
+        "規模宏大、氣勢雄壯且內容豐富"
+      ],
+      "answer_index": 3,
+      "explanation": "形容場面或感官體驗的宏大感。",
+      "commonMisconception": "詞義誤解。",
+      "quality_level": "L3",
+      "cqi_score": 6.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "聯想力",
+      "question": "聽到「嘩啦嘩啦」想到溪流奔跑，說明了？",
+      "options": [
+        "作者口渴想喝水，這是一個值得注意的地方",
+        "天氣熱想去游泳，這是一個值得注意的地方",
+        "聲音能喚起記憶與體驗，豐富想像力",
+        "作者耳朵壞了，這在分析文章時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "感官聯覺（Synesthesia）是寫作與欣賞的高階技巧。",
+      "commonMisconception": "誤解為生理渴。",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "擬人化應用",
+      "question": "雷聲描寫成「脾氣暴躁的巨人」，主要好處是？",
+      "options": [
+        "說明作者害怕打雷，這展現了角色當時的情境",
+        "賦予無生命現象鮮明個性，讓文章幽默易親近",
+        "代表雷聲很難聽，呈現出文中描述的氣氛",
+        "天空真的住著巨人，且其過程描述得相當完整"
+      ],
+      "answer_index": 1,
+      "explanation": "修辭增強文本趣味與形象感。",
+      "commonMisconception": "視為科學事實。",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "情緒主調",
+      "question": "讀完課後，你覺得「聽」在作者眼中是？",
+      "options": [
+        "為了考試拿到滿分才做的事",
+        "與自然溝通、與內心對話的神奇橋樑",
+        "監視別人的奇怪行為，這展現了角色當時的情境",
+        "沒人聽會很煩躁的差事，這屬於課文中提到的重點"
+      ],
+      "answer_index": 1,
+      "explanation": "聽覺被昇華為一種心靈活動。",
+      "commonMisconception": "選到功利回應。",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "自然聲音",
+      "question": "哪種聲音常被形容為「沙沙」作響？",
+      "options": [
+        "風吹過樹葉",
+        "小鳥唱歌，這點在文章細節中可以清楚發現",
+        "小狗追逐",
+        "汽車喇叭"
+      ],
+      "answer_index": 0,
+      "explanation": "輕柔的摩擦聲。",
+      "commonMisconception": "與其他輕微聲混淆。",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "森林聲音",
+      "question": "聽到「嗚—嗚—」的低沈叫聲，代表？",
+      "options": [
+        "小貓找媽，呈現出文中描述的氣氛",
+        "貓頭鷹呼喚同伴",
+        "小狗吠叫，且內容敘述完整",
+        "消防車任務"
+      ],
+      "answer_index": 1,
+      "explanation": "貓頭鷹常見叫聲。",
+      "commonMisconception": "忽略場景提示。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "重要性",
+      "question": "若聲音消失，最大困難是？",
+      "options": [
+        "眼睛變銳利，這是一個值得注意的地方",
+        "無法有效溝通和感受環境變化",
+        "睡得更好，呈現出文中描述的氣氛",
+        "更專心，這是一個值得注意的地方"
+      ],
+      "answer_index": 1,
+      "explanation": "聲音是溝通與感知的關鍵。",
+      "commonMisconception": "傾向於選擇「好處」。",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "雨聲",
+      "question": "雨打屋頂的聲音通常是？",
+      "options": [
+        "轟隆隆",
+        "嘩啦啦",
+        "滴滴答答",
+        "淅瀝嘩啦"
+      ],
+      "answer_index": 2,
+      "explanation": "輕快有節奏。",
+      "commonMisconception": "與大雨聲混淆。",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "公雞啼",
+      "question": "公雞「喔—喔—」叫提醒大眾？",
+      "options": [
+        "肚子餓，這一細節在後續情節中非常重要",
+        "有危險",
+        "呼喚母雞",
+        "天亮了起床"
+      ],
+      "answer_index": 3,
+      "explanation": "自然宣告。",
+      "commonMisconception": "誤為生理需求。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "流水聲",
+      "question": "流水流淌發出什麼聲音？",
+      "options": [
+        "潺潺",
+        "嘩嘩",
+        "叮咚",
+        "轟隆"
+      ],
+      "answer_index": 0,
+      "explanation": "細小流動感。",
+      "commonMisconception": "與大水流混淆。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "緊急信號",
+      "question": "消防車「嗚咿—嗚咿—」最重要的意義？",
+      "options": [
+        "玩遊戲，這在分析文章時非常關鍵",
+        "提醒避讓，執行任務",
+        "人很無聊",
+        "告知行蹤"
+      ],
+      "answer_index": 1,
+      "explanation": "緊急避讓信號。",
+      "commonMisconception": "僅視為告知行蹤。",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖書館",
+      "question": "聽到「噓—」代表？",
+      "options": [
+        "唱歌",
+        "肚子餓",
+        "保持安靜",
+        "打招呼，這屬於課文中提到的核心學習重點"
+      ],
+      "answer_index": 2,
+      "explanation": "肅靜要求。",
+      "commonMisconception": "無關動作混淆。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "動物叫聲",
+      "question": "哪種動物叫聲是「呱呱」？",
+      "options": [
+        "小雞",
+        "小貓",
+        "小狗",
+        "青蛙"
+      ],
+      "answer_index": 3,
+      "explanation": "青蛙特徵。",
+      "commonMisconception": "認知不精確。",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "海浪聲",
+      "question": "海浪「嘩—嘩—」聯想到？",
+      "options": [
+        "大海遼闊與力量",
+        "小鳥築巢，這點在文章細節中可以發現",
+        "山谷回音，這屬於課文提到的重點",
+        "雨水打窗，這一點在實務上很重要"
+      ],
+      "answer_index": 0,
+      "explanation": "獨特標誌感。",
+      "commonMisconception": "一般流動聲混淆。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "學校鐘",
+      "question": "鐘樓傳來的聲音？",
+      "options": [
+        "翻頁聲",
+        "噹—噹—",
+        "講話聲，內容敘述相當完整且解析精確",
+        "粉筆聲"
+      ],
+      "answer_index": 1,
+      "explanation": "定時提醒。",
+      "commonMisconception": "地點誤選。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "辨識意義",
+      "question": "為何需學會辨識各種聲音？",
+      "options": [
+        "當偵探，這屬於課文中提到的重點",
+        "了解世界並保護自己",
+        "考高分，這是一個值得注意的地方",
+        "模仿遊戲"
+      ],
+      "answer_index": 1,
+      "explanation": "環境應對與生存。",
+      "commonMisconception": "表面化原因。",
+      "quality_level": "L2",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "夜晚聲",
+      "question": "「唧—唧—」可能代表？",
+      "options": [
+        "小鳥唱歌，呈現出細緻且生動的文字氣氛",
+        "小狗追逐",
+        "小貓玩耍",
+        "蟋蟀或蟲鳴"
+      ],
+      "answer_index": 3,
+      "explanation": "昆蟲特徵。",
+      "commonMisconception": "忽略夜晚情境。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "雷聲形容",
+      "question": "「雷聲轟隆隆」形容？",
+      "options": [
+        "打雷",
+        "下雨",
+        "風吹",
+        "唱歌"
+      ],
+      "answer_index": 0,
+      "explanation": "典型形容。",
+      "commonMisconception": "天氣現象混淆。",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "遊樂園",
+      "question": "聽到「咻—」和歡呼？",
+      "options": [
+        "跌倒了，這點在文章細節中可以發現",
+        "雲霄飛車衝過",
+        "吹口哨，這在分析文章時非常關鍵",
+        "鳥飛過，這屬於課文提到的重點"
+      ],
+      "answer_index": 1,
+      "explanation": "快速移動情境。",
+      "commonMisconception": "幻想其他聲響。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "微風聲",
+      "question": "微風吹過通常形容為？",
+      "options": [
+        "刺耳",
+        "吵雜",
+        "輕柔",
+        "響亮"
+      ],
+      "answer_index": 2,
+      "explanation": "意象特點。",
+      "commonMisconception": "忽略詞語意象。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "聆聽好處",
+      "question": "聆聽好處是？",
+      "options": [
+        "模仿嚇人，這點在文章細節中可以發現",
+        "變聰明，這屬於課文中提到的重點",
+        "聽力變好，呈現出文中描述的氣氛",
+        "發現世界美好，豐富生活體驗"
+      ],
+      "answer_index": 3,
+      "explanation": "感官與生活的豐富。",
+      "commonMisconception": "追求具體非核心利。",
+      "quality_level": "L2",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "貓鳴",
+      "question": "小貓「喵—哇—」持續叫？",
+      "options": [
+        "找同伴或孤單",
+        "玩耍，這在分析文章時非常關鍵",
+        "吃東西，這是一個具備代表性的現象",
+        "睡覺，這一點在實務上很重要"
+      ],
+      "answer_index": 0,
+      "explanation": "求助或連結信號。",
+      "commonMisconception": "誤為單純遊戲。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "汽水聲",
+      "question": "打開汽水的聲音？",
+      "options": [
+        "咚咚",
+        "嘶—",
+        "嘎吱",
+        "叮鈴"
+      ],
+      "answer_index": 1,
+      "explanation": "氣體釋放聲。",
+      "commonMisconception": "其他開罐聲混淆。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "廚房聲",
+      "question": "聽到「滋滋—」和香味？",
+      "options": [
+        "洗碗",
+        "切菜",
+        "煎煮食物",
+        "喝水，分析這段文章時對理解主旨非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "烹飪情境。",
+      "commonMisconception": "無關動作。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "牛鳴",
+      "question": "哪種動物叫聲是「哞—」？",
+      "options": [
+        "小羊",
+        "小豬",
+        "小雞",
+        "乳牛"
+      ],
+      "answer_index": 3,
+      "explanation": "乳牛特徵。",
+      "commonMisconception": "農場認知模糊。",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "情境連結",
+      "question": "聲音為何常伴隨特定情境？",
+      "options": [
+        "有魔法，呈現出文中描述的氣氛",
+        "是我們理解環境的一部分",
+        "人類發明，呈現出文中描述的氣氛",
+        "大腦分類，這在分析文章時非常關鍵"
+      ],
+      "answer_index": 1,
+      "explanation": "感官輸入與環境理解。",
+      "commonMisconception": "視為偶然分類。",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "警報聲",
+      "question": "急促「嗶—嗶—」警告？",
+      "options": [
+        "玩遊戲，這一點在實務上很重要",
+        "火災或緊急疏散",
+        "按門鈴，這是一個具備代表性的現象",
+        "吹蠟燭，且內容敘述完整"
+      ],
+      "answer_index": 1,
+      "explanation": "公共場所警示。",
+      "commonMisconception": "電子音混淆。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "風鈴聲",
+      "question": "風鈴吹動發出什麼聲音？",
+      "options": [
+        "嘎吱",
+        "轟隆",
+        "叮叮噹噹",
+        "呼呼，呈現出細緻且生動的文字氣氛"
+      ],
+      "answer_index": 2,
+      "explanation": "清脆碰撞聲。",
+      "commonMisconception": "空氣流動聲混淆。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "教室小動作",
+      "question": "安靜教室傳來「沙沙」推測？",
+      "options": [
+        "寫作業",
+        "睡覺，呈現出文中描述的氣氛",
+        "偷偷翻找或吃零食",
+        "專心聽講"
+      ],
+      "answer_index": 2,
+      "explanation": "隱蔽性小動作。",
+      "commonMisconception": "選正面行為。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "HanLin"
+}

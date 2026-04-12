@@ -5,36 +5,36 @@
   "subject": "English",
   "items": [
     {
-      "id": "U1_How_Do_You_Go_to_School",
-      "title": "U1_How_Do_You_Go_to_School",
-      "file": "U1_How_Do_You_Go_to_School.json",
-      "count": 5
+      "id": "L1",
+      "title": "Unit 1 How Do You Go to School_",
+      "file": "L1_Unit 1 How Do You Go to School_.json",
+      "count": 1
     },
     {
-      "id": "U2_Where_Are_You_Going",
-      "title": "U2_Where_Are_You_Going",
-      "file": "U2_Where_Are_You_Going.json",
-      "count": 5
+      "id": "L2",
+      "title": "Unit 2 Where Are You Going_",
+      "file": "L2_Unit 2 Where Are You Going_.json",
+      "count": 1
     },
     {
-      "id": "U3_What_Do_You_Want_to_Eat",
-      "title": "U3_What_Do_You_Want_to_Eat",
-      "file": "U3_What_Do_You_Want_to_Eat.json",
-      "count": 5
+      "id": "L3",
+      "title": "Unit 3 What Do You Want to Eat_",
+      "file": "L3_Unit 3 What Do You Want to Eat_.json",
+      "count": 1
     },
     {
-      "id": "U4_How_Much_Is_It",
-      "title": "U4_How_Much_Is_It",
-      "file": "U4_How_Much_Is_It.json",
-      "count": 5
+      "id": "L4",
+      "title": "Unit 4 How Much Is It_",
+      "file": "L4_Unit 4 How Much Is It_.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 0,
-      "accuracyScore": 0,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

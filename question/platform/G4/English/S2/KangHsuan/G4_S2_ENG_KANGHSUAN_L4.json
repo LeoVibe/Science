@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "ENG",
+    "publisher": "KANGHSUAN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "L4",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What's the weather like? B: It's ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "描述天氣用形容詞 sunny (晴朗的)。",
+      "answer_index": "sunny",
+      "options": [
+        "sun",
+        "the sun",
+        "sunny",
+        "a sun"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'It's rainy today.' means '今天下雨'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "rainy 表示下雨的天氣。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: How's the weather? B: It's ______ (多雲的).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "cloudy 是多雲的意思。",
+      "answer_index": "cloudy",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "It's very cold and ______ outside.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "描述天氣狀態用形容詞 snowy (下雪的)。",
+      "answer_index": "snowy",
+      "options": [
+        "snow",
+        "snowy",
+        "snows",
+        "snowing"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Is it windy? B: ______, it is.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "Is it...? 的肯定回答是 Yes, it is。",
+      "answer_index": "Yes",
+      "options": [
+        "No",
+        "Don't",
+        "Not",
+        "Yes"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What Are You Doing?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What are you doing? B: I ______ drawing a picture.",
+      "options": [
+        "am",
+        "are",
+        "do",
+        "is"
+      ],
+      "answer_index": "am",
+      "explanation": "主詞 I 配合 be 動詞 am。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "To form the present continuous, we add '-ing' to the action word.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "現在進行式的動詞變化是在原形動詞後加 ing。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is Sam doing? B: He is ______ (大聲喊叫/唱歌).",
+      "options": [],
+      "answer_index": "singing",
+      "explanation": "配合常見的課文情境，singing（唱歌）是常見動作。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is she doing? B: She is ______ milk.",
+      "options": [
+        "to drink",
+        "drinks",
+        "drink",
+        "drinking"
+      ],
+      "answer_index": "drinking",
+      "explanation": "正在喝牛奶的情境。",
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What ______ you doing? B: I'm sleeping.",
+      "options": [
+        "is",
+        "be",
+        "am",
+        "are"
+      ],
+      "answer_index": "are",
+      "explanation": "主詞 you 配合 be 動詞 are。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

@@ -1,137 +1,141 @@
-`last_updated`: 2026-04-03 16:35
+`last_updated`: 2026-04-03 22:00
 `updated_by`: Claude Code (claude-haiku-4-5)
-`status`: 暫停中
+`status`: 診斷完成，需要重新規劃
 
 # JOB-139-TASK-自動化排程驗證與追蹤
 
-## 派工背景
+## 問題診斷
 
-`orchestrator.js` 已於 2026-04-03 15:05 透過 macOS crontab 排程啟動。
-本派工單供 Claude Code **在新 session 中讀取**，了解背景並執行驗收。
+**當前執行狀況：**
+- ✅ Orchestrator 進程正常運行
+- ✅ Crontab 已正確觸發 (21:26)
+- ❌ **所有任務失敗：Report 檔案全未產出**
+
+**根本原因：**
+設計缺陷。原始流程假設：
+```
+orchestrator → claude --print → Report 檔案產出
+```
+
+但實際上 `claude --print` 只會打印到 stdout，不會生成文件。
 
 ---
 
-## 排程設定記錄
+## 原始設計的誤解
 
-| 項目 | 內容 |
-|---|---|
-| 觸發方式 | macOS crontab（系統層，不依賴 Claude Code session） |
-| 排程時間 | 2026-04-03 15:05 台灣時間 |
-| 執行指令 | `node scripts/orchestrator.js` |
-| 工作目錄 | `/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject` |
-| Log 輸出 | `scripts/orchestrator-logs/run.log` |
-| State 檔 | `scripts/orchestrator-logs/state.json` |
-| 最終報告 | `jobs/JOB-138-REPORT-總結.md`（orchestrator 完成後自動產出） |
+| 項目 | 原始假設 | 實際情況 |
+|---|---|---|
+| **Report 生成者** | `claude --print` | ❌ 不會生成文件 |
+| **預期流程** | 直接調用 claude CLI | ❌ 不支持文件輸出 |
+| **正確流程應該是** | - | ✅ Cursor CLI / Gemini CLI 執行任務 |
 
 ---
 
-## 任務範圍
+## 應正確的架構
 
-| 項目 | 內容 |
-|---|---|
-| 主計畫 | `jobs/JOB-138-PLAN-G3G4-S2-自動化盲測補題計畫.md` |
-| 總任務數 | 213 個（G3+G4 S2 全科課次，manifest 雜項已過濾） |
-| 預估耗時 | 12–36 小時（依任務類型，每任務 30–90 分鐘） |
-| 執行工具 | `claude --print`（每任務獨立 session） |
+根據你的概念：
+> "Claude Code 當作總指揮來呼叫 Cursor 或 Gemini 的 CLI"
 
----
-
-## Claude Code 驗收步驟
-
-**當你（Claude Code）在新 session 被呼叫驗收時，依序執行：**
-
-### Step 1：確認 orchestrator 狀態
-
-```bash
-# 確認 crontab 是否已自動清除（15:05 後應已觸發）
-crontab -l
-
-# 確認 orchestrator 是否還在執行中
-ps aux | grep orchestrator
-
-# 查看最新 log
-tail -50 scripts/orchestrator-logs/run.log
-```
-
-### Step 2：讀取 state.json
+**正確流程應為：**
 
 ```
-scripts/orchestrator-logs/state.json
-```
-
-確認欄位：
-- `lastUpdated`：最後更新時間
-- 各任務 `status`：done / failed / needs_rework / in_progress
-- 已完成數量 vs 總數
-
-### Step 3：讀取 PLAN 進度摘要
-
-```
-jobs/JOB-138-PLAN-G3G4-S2-自動化盲測補題計畫.md
-```
-
-確認「進度摘要」區塊是否有更新（orchestrator 每完成 10 個任務更新一次）。
-
-### Step 4：若已完成，讀取總結報告
-
-```
-jobs/JOB-138-REPORT-總結.md
-```
-
-確認：
-- 各科達標率
-- failed 清單與原因
-- needs_rework 清單
-
-### Step 5：驗收判斷
-
-| 條件 | 結論 |
-|---|---|
-| 報告存在 + done ≥ 180 | 正常完成，可關閉 JOB-139 |
-| orchestrator 仍在執行 | 尚未結束，回報進度，繼續等待 |
-| run.log 有 Error / 停在某任務 | 記錄問題，回報使用者 |
-| state.json 不存在 | orchestrator 未啟動，確認 crontab 是否觸發 |
-
----
-
-## 常見問題排查
-
-### crontab 沒有觸發？
-
-```bash
-# 確認 cron 服務是否啟用（macOS）
-sudo launchctl list | grep cron
-
-# 查看系統 cron log
-grep CRON /var/log/system.log | tail -20
-```
-
-### orchestrator 中途停了？
-
-```bash
-# 從上次中斷點繼續（orchestrator 支援 --from 旗標）
-node scripts/orchestrator.js --from T045
+Claude Code（總指揮）
+    ↓
+  調用 Cursor CLI --print (執行 T001 任務)
+    ↓
+  Cursor 執行任務，生成 Report 到 jobs/JOB-140-REPORT.md
+    ↓
+  Orchestrator 檢查 Report 存在性和內容
+    ↓
+  更新 state.json，標記 done/failed/needs_rework
+    ↓
+  回報進度給 Claude Code
 ```
 
 ---
 
-## 結案條件
+## JOB-139 的正確用途
 
-- [ ] 所有任務已處理（done + skip + needs_rework + failed = 213）
-- [ ] `JOB-138-REPORT-總結.md` 已產出
-- [ ] 失敗任務已記錄並回報使用者
-- [ ] crontab 條目已清除（`crontab -e` 移除那行）
+JOB-139 不應該是「驗證 cron 的自動排程」，而應該是：
+
+### **驗收項目**
+
+- [ ] **流程設計確認**
+  - 是否應該由 Cursor CLI / Gemini CLI 來執行任務？
+  - Report 應由誰生成？路徑是否正確？
+
+- [ ] **執行方式確認**
+  - orchestrator.js 應該改為調用 `cursor --print` 還是 `gemini --print`？
+  - 還是改為 Claude Code 直接調用 CLI？
+
+- [ ] **Report 格式確認**
+  - Report 應包含的內容（Match Rate、CQI-V、是否達標等）
+  - 放置路徑確認
+
+---
+
+## 建議方案
+
+### **方案 A：改進 Orchestrator（推薦）**
+
+修改 orchestrator.js，使其調用 Cursor CLI 而不是 claude CLI：
+
+```javascript
+// 改為
+const spawnResult = spawnSync(
+  'cursor',
+  ['--print', prompt],
+  { cwd: ROOT, timeout: TASK_TIMEOUT_MS }
+);
+```
+
+**優點：**
+- Cursor 會真正執行任務並生成 Report
+- 流程清晰，Report 確實存在
+
+**缺點：**
+- 需要 Cursor CLI 已安裝
+- 需要 Cursor 認證
+
+---
+
+### **方案 B：改為 Claude Code 直接派工（當前推薦）**
+
+不依賴 Cron，改為：
+```
+Claude Code → 讀取 state.json → 提取待執行任務 → 調用 Cursor CLI → 更新狀態
+```
+
+**優點：**
+- Claude Code 可以動態控制流程
+- 更好的錯誤處理和進度回報
+- 符合「Claude Code 當作總指揮」的概念
+
+**缺點：**
+- Session 需要持續運行
+- 或需要 Loop 機制定期檢查
+
+---
+
+## 下一步行動
+
+請決定：
+
+1. **是否要修改 orchestrator.js 調用 Cursor 而非 claude？**
+2. **還是要改為 Claude Code 直接派工的模式？**
+3. **需要我重新規劃 orchestrator.js 的實現方式嗎？**
 
 ---
 
 ## 暫停記錄
 
-**暫停時間**：2026-04-03 16:35
-**暫停者**：Claude Code
-**暫停原因**：使用者要求
+**暫停時間**：2026-04-03 22:00
+**暫停原因**：流程設計需要使用者確認
 **已執行動作**：
-- [x] 移除 crontab 條目（orchestrator 排程已停止）
-- [x] JOB-139 狀態更新為「暫停中」
+- [x] Orchestrator 已停止
+- [x] 定時任務已取消
+- [x] 問題診斷完成
+- [x] 建議方案提出
 
 **恢復步驟**：
-待使用者進一步指示
+待使用者確認後續方案

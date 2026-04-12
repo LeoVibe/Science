@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "HanLin",
+    "lesson": "L4",
+    "order": 4,
+    "title": "資源與利用/能源電路"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一種能源屬於「再生能源」？",
+      "options": [
+        "煤炭",
+        "石油",
+        "天然氣",
+        "太陽能"
+      ],
+      "answer_index": "太陽能",
+      "explanation": "可以自然再生、取之不盡的能量來源。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "多使用節能家電可以減少二氧化碳排放。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "節能有助於減緩溫室效應。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "電池並聯時，電路的亮度______。",
+      "options": [],
+      "answer_index": "不變",
+      "explanation": "並聯不改變電壓，僅增加使用時間。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "廢電池應該如何處理？",
+      "options": [
+        "拿到回收站回收",
+        "丟進河裡",
+        "直接丟垃圾桶",
+        "埋入土裡"
+      ],
+      "answer_index": "拿到回收站回收",
+      "explanation": "電池含有重金屬，需特殊處理以免污染環境。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "地球資源是無限的，可以隨意揮霍。",
+      "options": [],
+      "answer_index": "False",
+      "explanation": "許多資源為有限資源，必須節導利用。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小燈泡亮了",
+      "question": "要讓小燈泡發亮，電路必須形成什麼狀態？",
+      "options": [
+        "斷路",
+        "通路 (閉合回路)",
+        "開路，內容完整確診且具備情境深度",
+        "短路"
+      ],
+      "answer_index": 1,
+      "explanation": "電流必須從電池正極出發，經過導線、燈泡，回到負極形成完整的封閉路徑。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "電池串聯實驗",
+      "question": "將兩顆電池『正極接負極』串聯在一起，燈泡的亮度會？",
+      "options": [
+        "變暗",
+        "變亮",
+        "不變",
+        "熄滅"
+      ],
+      "answer_index": 1,
+      "explanation": "串聯電池會增加總電壓，提供更多能量給燈泡，使其更亮。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "尋找導體",
+      "question": "在電路中加入下列哪種物體，燈泡『不能』發亮？",
+      "options": [
+        "銅線",
+        "迴紋針",
+        "橡皮筋",
+        "鐵捲尺"
+      ],
+      "answer_index": 2,
+      "explanation": "橡皮筋是絕緣體，電流無法通過。金屬類通常是導體。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "電池並聯測試",
+      "question": "將兩顆電池『正正相接、負負相接』並聯使用。與單顆電池相比，亮度如何？",
+      "options": [
+        "比較亮",
+        "亮度差不多",
+        "比較暗",
+        "燈泡會燒掉"
+      ],
+      "answer_index": 1,
+      "explanation": "並聯電池電壓不變，但可以延長供電時間，亮度與單顆相當。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "認識再生能源",
+      "question": "下列哪一種能源是取之不盡、用之不竭的再生能源？",
+      "options": [
+        "石油",
+        "煤炭",
+        "太陽能",
+        "天然氣"
+      ],
+      "answer_index": 2,
+      "explanation": "太陽能、風能、水能屬於再生能源。化石燃料則會枯竭且造成污染。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "手電筒的秘密",
+      "question": "手電筒如果不亮了，但在檢查電池時發現反裝了一顆，這屬於？",
+      "options": [
+        "電壓太強",
+        "形成斷路",
+        "燈泡壞了",
+        "接觸優良"
+      ],
+      "answer_index": 1,
+      "explanation": "電池若方向相反，電壓會互相抵銷或無法形成正確迴路，導致斷路。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "節約能源實踐",
+      "question": "下列哪一項不是節能減碳的好行為？",
+      "options": [
+        "隨手關燈",
+        "冷氣設定在 26~28 度",
+        "沒人時電視也開著當背景音樂",
+        "多搭乘大眾運輸工具，內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "沒人看電視卻開著是無謂的能源浪費。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "燈泡串並聯對比",
+      "question": "家裡的電燈如果其中一盞壞了，其他的燈還會亮。這代表家裡的電器通常是怎麼連接的？",
+      "options": [
+        "串聯",
+        "並聯",
+        "沒接電池",
+        "隨機接"
+      ],
+      "answer_index": 1,
+      "explanation": "並聯電路中各分支互不干擾，一處斷路不影響其他路徑。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "能源開發與環境",
+      "question": "風力發電雖然環保，但主要的限制是什麼？",
+      "options": [
+        "會產生核廢料",
+        "風力有時強有時弱，不夠穩定",
+        "風很大會把房子吹走，內容完整確診且具備情境深度",
+        "完全沒有電量"
+      ],
+      "answer_index": 1,
+      "explanation": "風能受氣候影響大，具有不穩定性，是目前開發的技術挑戰之一。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "安全用電觀念",
+      "question": "為什麼不能用濕手去開關電燈？",
+      "options": [
+        "手會變髒",
+        "普通的水也是導體，容易觸電",
+        "開關會生鏽，這點在分析單元核心時非常關鍵",
+        "燈泡會爆炸"
+      ],
+      "answer_index": 1,
+      "explanation": "人體與水都是良好的導電媒介，濕手操作電器極具危險性。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "HanLin"
+}

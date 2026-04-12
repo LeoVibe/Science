@@ -1,13 +1,17 @@
 {
-  "publisher": "HanLin",
-  "grade": "G3",
-  "semester": "S1",
-  "subject": "Chinese",
-  "lesson_id": "L5",
-  "lesson_title": "便利貼的妙用",
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "Chinese",
+    "publisher": "HanLin",
+    "lesson": "L5",
+    "order": 5,
+    "title": "便利貼的妙用"
+  },
   "questions": [
     {
-      "id": "1",
+      "taxonomy": "literal",
+      "scenario": "內容檢索：分析主角原本的生活狀態。",
       "question": "在課文《便利貼的妙用》中，主角小真原本在生活上面對什麼樣的困擾，讓她常常感到非常有壓力且一團亂？",
       "options": [
         "她每天都有寫不完的作業與補習班考試",
@@ -17,13 +21,13 @@
       ],
       "answer_index": 1,
       "explanation": "課文開頭描述小真忘東忘西且生活缺乏次序，這是引入便利貼工具的背景。",
-      "scenario": "內容檢索：分析主角原本的生活狀態。",
-      "taxonomy": "literal",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 4.5
+      "cqi_score": 4
     },
     {
-      "id": "2",
+      "taxonomy": "literal",
+      "scenario": "情節理解：分析爸爸的具體建議內容。",
       "question": "小真的爸爸看到女兒的困擾後，給予了她一個實用的建議。請問爸爸建議小真如何使用便利貼來改善她的生活品質？",
       "options": [
         "將需要完成的事情寫下來，貼在顯眼的地方提醒自己",
@@ -33,14 +37,13 @@
       ],
       "answer_index": 0,
       "explanation": "爸爸建議利用便利貼作為「外部記憶輔助工具」與「視覺提醒」。",
-      "scenario": "情節理解：分析爸爸的具體建議內容。",
       "commonMisconception": "學生可能以為便利貼只能寫字，忽略了「貼在顯眼處」的核心作用。",
-      "taxonomy": "literal",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 4
     },
     {
-      "id": "3",
+      "taxonomy": "inferential",
+      "scenario": "心理分析：分析打勾動作所帶來的正面心態。",
       "question": "小真開始練習在便利貼上寫下待辦事項。請問在完成一項任務後，小真會做出什麼動作，這能帶給她一種「成就感」？",
       "options": [
         "把那張便利貼撕下來揉成紙球丟掉",
@@ -50,13 +53,13 @@
       ],
       "answer_index": 2,
       "explanation": "打勾是一個明確的確認動作，能讓使用者視覺化自己的進度並獲得滿意度。",
-      "scenario": "心理分析：分析打勾動作所帶來的正面心態。",
-      "taxonomy": "inferential",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75
     },
     {
-      "id": "4",
+      "taxonomy": "inferential",
+      "scenario": "人際互動：分析便利貼在家庭溝通的角色。",
       "question": "課文中提到小真利用便利貼提醒家人一些重要的事情。請問這種「溝通方式」在家庭生活中具備什麼樣的積極意涵？",
       "options": [
         "可以不用再跟家人說話，減少吵架的機會",
@@ -66,13 +69,13 @@
       ],
       "answer_index": 3,
       "explanation": "便利貼留言是一種非侵略性的溫馨溝通，能建立良好的家庭互動。",
-      "scenario": "人際互動：分析便利貼在家庭溝通的角色。",
-      "taxonomy": "inferential",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75
     },
     {
-      "id": "5",
+      "taxonomy": "applied",
+      "scenario": "案例分析：分析小真解決限時任務的方法。",
       "question": "當小真一家人面臨需要在「七點前準時出門」的趕時間任務時。請問小真如何具體結合便利貼與行動，來確保計畫成功？",
       "options": [
         "她寫下準備清單提醒自己，並與鬧鐘配合來掌握時間",
@@ -82,13 +85,13 @@
       ],
       "answer_index": 0,
       "explanation": "小真將便利貼作為時間管理的輔助，並配合鬧鐘等其他工具提升效率。",
-      "scenario": "案例分析：分析小真解決限時任務的方法。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.5
     },
     {
-      "id": "6",
+      "taxonomy": "applied",
+      "scenario": "觀念建立：評價人與工具的關係。",
       "question": "學完本課後，我們知道便利貼是一種「管理工具」。請問下列哪一項才是發揮工具價值的正確態度？",
       "options": [
         "工具買越多、貼越滿就代表越厲害",
@@ -98,13 +101,13 @@
       ],
       "answer_index": 1,
       "explanation": "工具需配合人的決心與行動，本課傳達的是「習慣的建立」而非單純依賴工具。",
-      "scenario": "觀念建立：評價人與工具的關係。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 6
     },
     {
-      "id": "7",
+      "taxonomy": "applied",
+      "scenario": "詞義解析：深入定義「有次序」的內涵。",
       "question": "課文描述小真因為使用了便利貼，做事變得「更有次序」。請問「有次序」這個詞在生活管理中具體代表什麼意思？",
       "options": [
         "代表每件東西都必須按照彩虹的顏色排列",
@@ -114,13 +117,13 @@
       ],
       "answer_index": 2,
       "explanation": "次序源於對事務的規劃與執行力，是效率的基石。",
-      "scenario": "詞義解析：深入定義「有次序」的內涵。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.5
     },
     {
-      "id": "8",
+      "taxonomy": "inferential",
+      "scenario": "科學原理：便利貼如何輔助人類記憶。",
       "question": "小真在便利貼上寫下「明天要帶彩色筆」。這個行為在認知心理上，最主要是為了解決什麼樣的人體大腦侷限？",
       "options": [
         "解決大腦不喜歡畫畫的問題",
@@ -130,13 +133,13 @@
       ],
       "answer_index": 3,
       "explanation": "人類短暫記憶容量有限，利用筆記或便利貼可以有效分擔腦力負擔。",
-      "scenario": "科學原理：便利貼如何輔助人類記憶。",
-      "taxonomy": "inferential",
+      "commonMisconception": "",
       "quality_level": "L4",
       "cqi_score": 5.5
     },
     {
-      "id": "9",
+      "taxonomy": "applied",
+      "scenario": "批判思考：判斷哪些任務不適合使用便利貼。",
       "question": "如果你要在便利貼上練習「時間管理」，下列哪一種內容是最不適合寫上去的？",
       "options": [
         "抄寫一整篇長達五百個字的長篇文章來背誦",
@@ -146,13 +149,13 @@
       ],
       "answer_index": 0,
       "explanation": "便利貼應以「重點、簡潔、即時提醒」為主，不適合處理大容量的文字載體。",
-      "scenario": "批判思考：判斷哪些任務不適合使用便利貼。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 5.5
+      "cqi_score": 5
     },
     {
-      "id": "10",
+      "taxonomy": "applied",
+      "scenario": "個人成長：分析生活優化後的心理收益。",
       "question": "課文結尾提到小真的生活變得不一樣了。這種改變除了讓家裡氣氛更好，對小真「個人」最大的收穫可能是什麼？",
       "options": [
         "她發現自己是全班最強的便利貼藝術家",
@@ -162,13 +165,13 @@
       ],
       "answer_index": 1,
       "explanation": "自我管理能力的提升會直接強化一個人的自信心與掌控感。",
-      "scenario": "個人成長：分析生活優化後的心理收益。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.5
     },
     {
-      "id": "11",
+      "taxonomy": "inferential",
+      "scenario": "創新思維：分析成功輔助工具的共性。",
       "question": "在課文的情境中，便利貼像是一個貼心的「小管家」。這說明了好的「創意發明」往往具備什麼樣的共同特點？",
       "options": [
         "它們通常都非常昂貴且一般人買不起",
@@ -178,13 +181,13 @@
       ],
       "answer_index": 2,
       "explanation": "便利貼是一個典型的「小而美」發明，解決了普世性的健忘問題。",
-      "scenario": "創新思維：分析成功輔助工具的共性。",
-      "taxonomy": "inferential",
+      "commonMisconception": "",
       "quality_level": "L4",
       "cqi_score": 5.5
     },
     {
-      "id": "12",
+      "taxonomy": "applied",
+      "scenario": "哲學思辯：工具與執行力的關係。",
       "question": "當你在便利貼上寫下待辦清單卻「故意不去執行」時。請問這說明了利用便利貼管理時間的哪一個重要前提條件？",
       "options": [
         "說明這張便利貼的顏色不夠漂亮，需要換一張",
@@ -194,10 +197,80 @@
       ],
       "answer_index": 3,
       "explanation": "管理成敗最終回歸到「人的自律」，工具無法替代執行力。",
-      "scenario": "哲學思辯：工具與執行力的關係。",
-      "taxonomy": "applied",
+      "commonMisconception": "",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "本課所謂「神奇的盒子」，主要指的是現代生活中的哪一種設備？",
+      "options": [
+        "鞋盒",
+        "垃圾桶",
+        "微波爐",
+        "電腦、平板或手機"
+      ],
+      "answer_index": null,
+      "explanation": "這些電子設備能連接網路、儲存海量資訊，對孩子來說就像一個神奇的寶盒。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "文中提到，只要在盒子裡點一點，就能查到大自然的秘密、聽音樂或聯絡遠方的朋友。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "展現資訊科技帶來的便利與連結。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "雖然盒子很神奇，但如果過度使用而忽視了現實生活中的交流，反而會讓自己變得很______。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "引導學生思考科技使用的利與弊。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課最想建立小孩哪一種資訊素養？",
+      "options": [
+        "正確並有節制地使用科技產品，發揮它的正面功能",
+        "只要會玩遊戲就好",
+        "知道電腦很貴",
+        "不用再看書了"
+      ],
+      "answer_index": null,
+      "explanation": "數位公民素養的啟蒙教育。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一種行為才是善用「神奇盒子」的表現？",
+      "options": [
+        "用盒子亂罵其他同學",
+        "摔壞盒子",
+        "利用盒子查詢課業資料、擴展知識視野",
+        "整天都在打電動"
+      ],
+      "answer_index": null,
+      "explanation": "教育學生正確的工具使用價值觀。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

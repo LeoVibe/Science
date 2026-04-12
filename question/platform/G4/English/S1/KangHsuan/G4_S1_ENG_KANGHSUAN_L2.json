@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "KANGHSUAN",
+    "lesson": "L2",
+    "order": 2,
+    "title": "L2",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What are you doing? B: I ______ reading a book.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "現在進行式結構為 be 動詞 + V-ing。主詞 I 配合 am。",
+      "answer_index": "am",
+      "options": [
+        "are",
+        "am",
+        "do",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "We use 'V-ing' (like sleeping, eating) to talk about actions happening now.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "現在分詞 V-ing 用來表示動作正在進行中。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What is he doing? B: He is ______ (睡覺).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "sleeping 的意思是睡覺（進行中）。",
+      "answer_index": "sleeping",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What is Dino doing? B: He's ______ milk.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "be 動詞後接 V-ing 表示正在喝牛奶。",
+      "answer_index": "drinking",
+      "options": [
+        "drink",
+        "to drink",
+        "drinks",
+        "drinking"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What are they doing? B: They ______ playing.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "複數主詞 they 配合 be 動詞 are。",
+      "answer_index": "are",
+      "options": [
+        "do",
+        "am",
+        "are",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

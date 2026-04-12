@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課作者透過描寫窗邊的鳥鳴聲，主要想表達什麼樣的心情？",
       "options": [
         "對大自然生命力的讚美與觀察的喜悅",
@@ -19,32 +19,37 @@
         "想把鳥兒關進籠子裡養",
         "擔心鳥兒沒有東西吃"
       ],
-      "answer": "對大自然生命力的讚美與觀察的喜悅",
+      "answer_index": null,
       "explanation": "透過細膩的聽覺與視覺描寫，呈現人與自然的平衡。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中提到，只要靜下心來，即使在城市的一角也能體會到大自然的奧妙。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這是本課觀察美學的核心觀點。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者將鳥兒的鳴叫聲比喻成大自然的______，為清晨注入了活力。",
-      "answer": "樂章、鬧鐘或樂曲",
+      "options": [],
+      "answer_index": null,
       "explanation": "運用譬喻法生動呈現鳥鳴的節奏感。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課強調的「觀察」，需要具備什麼樣的條件？",
       "options": [
         "很多的空閒時間",
@@ -52,14 +57,15 @@
         "專業的生物知識",
         "安靜的環境與敏銳的心靈"
       ],
-      "answer": "安靜的環境與敏銳的心靈",
+      "answer_index": null,
       "explanation": "觀察美學強調的是心境而非工具。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "下列哪一個詞語最適合用來形容這篇文章的氛圍？",
       "options": [
         "恬靜優雅",
@@ -67,10 +73,12 @@
         "悲戚哀傷",
         "驚濤駭浪"
       ],
-      "answer": "恬靜優雅",
+      "answer_index": null,
       "explanation": "全文色調溫暖且充滿對生命的敬意。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

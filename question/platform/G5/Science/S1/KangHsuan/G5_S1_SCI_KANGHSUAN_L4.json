@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "SCI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "神秘的天空",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "北極星位於天空各星座旋轉的軸心附近，其高度角大約等於觀測者所在地的什麼？",
+      "options": [
+        "緯度",
+        "海拔",
+        "氣溫",
+        "精度"
+      ],
+      "answer_index": null,
+      "explanation": "在北半球，北極星的高度角即為當地的北緯緯度。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "四季星座之所以會發生位移，是因為地球「繞太陽公轉」造成的現象。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "公轉導致地球在不同季節面向宇宙的不同方位。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "我們在北部夜空中，通常利用______七星來尋找北極星。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "北斗七星像個大勺子，勺口端天樞與天璇連線延長五倍處即為北極星。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "星座圖（旋轉星圖）的使用中，應將當天的日期對準當天的？",
+      "options": [
+        "氣溫",
+        "時刻",
+        "月相",
+        "風向"
+      ],
+      "answer_index": null,
+      "explanation": "對齊日期與時刻後，旋轉框內顯示的就是當時天空的星座分佈。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列關於星色的敘述，何者可以判斷恆星的「表面溫度」？",
+      "options": [
+        "紅色的星星溫度最高",
+        "所有的星星溫度都一樣",
+        "顏色與溫度無關",
+        "藍白色的星星溫度最高"
+      ],
+      "answer_index": null,
+      "explanation": "星色反映了黑體輻射的峰值頻率，溫度越高，顏色越偏藍白。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

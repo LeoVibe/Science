@@ -1,0 +1,46 @@
+{
+  "publisher": "backup",
+  "grade": "SocialStudies",
+  "semester": "HanLin",
+  "subject": "S2",
+  "items": [
+    {
+      "id": "U1",
+      "title": "U1",
+      "file": "U1.json",
+      "count": 1
+    },
+    {
+      "id": "U2",
+      "title": "U2",
+      "file": "U2.json",
+      "count": 1
+    },
+    {
+      "id": "U3",
+      "title": "U3",
+      "file": "U3.json",
+      "count": 1
+    },
+    {
+      "id": "U4",
+      "title": "U4",
+      "file": "U4.json",
+      "count": 1
+    },
+    {
+      "id": "U5",
+      "title": "U5",
+      "file": "U5.json",
+      "count": 1
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

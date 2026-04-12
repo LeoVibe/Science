@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "grade_4",
+    "semester": "S1",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L12",
+    "order": 12,
+    "title": "澎湖，我來了"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "本課主角去澎湖旅遊，最先感受到的當地自然特色是？",
+      "options": [
+        "高聳的山脈",
+        "茂密的森林",
+        "終年下雨的天氣",
+        "鹹鹹的海風與明亮的陽光"
+      ],
+      "answer": "鹹鹹的海風與明亮的陽光",
+      "explanation": "澎湖作為海島，海風與烈日是鮮明的感官特徵。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "文中提到了澎湖知名的「雙心石滬」，這是古代漁民利用潮汐原理捕魚的智慧結晶。",
+      "answer": "True",
+      "explanation": "石滬是澎湖重要的人文地景與先民智慧。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "澎湖的房子常使用「咾咕石」砌牆，這展現了當地人民______的生存智慧。",
+      "answer": "就地取材或因地制宜",
+      "explanation": "建築反映了地理環境的限制與適應。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "為什麼作者會大聲喊出「澎湖，我來了」？",
+      "options": [
+        "因為他迷路了在求救",
+        "他在練習發聲",
+        "為了測試那裡的迴音",
+        "表達對這片美麗島嶼風景與文化的喜愛與雀躍之情"
+      ],
+      "answer": "表達對這片美麗島嶼風景與文化的喜愛與雀躍之情",
+      "explanation": "標題直抒胸臆，展現旅行的純粹快樂。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "這課內容想引導學生認識澎湖的哪一種價值？",
+      "options": [
+        "去那裡上學很快樂",
+        "那裡有全台灣最好喝的可樂",
+        "那裡沒有人住",
+        "獨特的自然景觀與豐富的人文遺產，值得珍惜與探訪"
+      ],
+      "answer": "獨特的自然景觀與豐富的人文遺產，值得珍惜與探訪",
+      "explanation": "海洋文化的教育與離島情懷的領略。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    }
+  ]
+}

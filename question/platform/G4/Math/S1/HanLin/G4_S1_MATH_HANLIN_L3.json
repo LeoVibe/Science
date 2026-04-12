@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "HANLIN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "除法",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 630 ÷ 70 = ？",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer_index": "9",
+      "explanation": "63 ÷ 7 = 9。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "除法算式中，800 ÷ 16 的商是 50。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "800 ÷ 16 = 50。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 455 ÷ 15 = ______ ... ______。（寫出商和餘數）",
+      "options": [],
+      "answer_index": "30 ... 5",
+      "explanation": "15 × 30 = 450，455 - 450 = 5。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "花店有 500 朵玫瑰，每 24 朵綁成一束，最多可以綁成幾束？",
+      "options": [
+        "23 束",
+        "21 束",
+        "22 束",
+        "20 束"
+      ],
+      "answer_index": "20 束",
+      "explanation": "500 ÷ 24 = 20 ... 20，最多 20 束。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一個數是 36 的倍數（能被 36 整除）？",
+      "options": [
+        "100",
+        "360",
+        "72",
+        "選項 A 和 C 都是"
+      ],
+      "answer_index": "選項 A 和 C 都是",
+      "explanation": "72 ÷ 36 = 2，360 ÷ 36 = 10。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

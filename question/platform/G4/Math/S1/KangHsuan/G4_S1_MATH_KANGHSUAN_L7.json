@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "KANGHSUAN",
+    "lesson": "L7",
+    "order": 7,
+    "title": "小數",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "小數點右邊第一位稱為什麼位？",
+      "options": [
+        "千分位",
+        "十分位",
+        "個位",
+        "百分位"
+      ],
+      "answer_index": "十分位",
+      "explanation": "數位順序為：個位 . 十分位、百分位...",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 4,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "0.5 和 0.50 的大小是相等的。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "小數末尾的 0 不影響數值的大小。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 1.25 + 0.75 = ______。",
+      "options": [],
+      "answer_index": "2",
+      "explanation": "1.25 + 0.75 = 2.00，簡寫為 2。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "數字「3.48」讀作什麼？",
+      "options": [
+        "三十四點八",
+        "三點四八",
+        "三點零四八",
+        "三點四十八"
+      ],
+      "answer_index": "三點四八",
+      "explanation": "小數部位要一個數字一個數字分開讀。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 4,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "比較大小：0.19 與 0.2，哪一個比較大？",
+      "options": [
+        "0.19",
+        "一樣大",
+        "無法比較",
+        "0.2"
+      ],
+      "answer_index": "0.2",
+      "explanation": "比較十分位，2 大於 1，所以 0.2 較大。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What Are You Doing?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What are you doing? B: I ______ reading a book.",
+      "options": [
+        "are",
+        "am",
+        "do",
+        "is"
+      ],
+      "answer_index": "am",
+      "explanation": "現在進行式結構為 be 動詞 + V-ing。主詞 I 配合 am。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "We use 'V-ing' (like sleeping, eating) to talk about actions happening now.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "現在分詞 V-ing 用來表示動作正在進行中。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is he doing? B: He is ______ (睡覺).",
+      "options": [],
+      "answer_index": "sleeping",
+      "explanation": "sleeping 的意思是睡覺（進行中）。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is Dino doing? B: He's ______ milk.",
+      "options": [
+        "drink",
+        "to drink",
+        "drinks",
+        "drinking"
+      ],
+      "answer_index": "drinking",
+      "explanation": "be 動詞後接 V-ing 表示正在喝牛奶。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What are they doing? B: They ______ playing.",
+      "options": [
+        "do",
+        "am",
+        "are",
+        "is"
+      ],
+      "answer_index": "are",
+      "explanation": "複數主詞 they 配合 be 動詞 are。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L5",
+    "order": 5,
+    "title": "角、正方形和長方形"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "找找直角",
+      "question": "一張普通的 A4 影印紙，它總共有幾個直角？",
+      "options": [
+        "2 個",
+        "4 個",
+        "1 個",
+        "沒有直角"
+      ],
+      "answer_index": 1,
+      "explanation": "長方形（影印紙）有四個內角，且四個角都是直角。",
+      "commonMisconception": "學生可能忽略長方形的定義。",
+      "quality_level": "L5",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖形特徵大比拼",
+      "question": "正方形和長方形，哪一個說法是正確的？",
+      "options": [
+        "都有四個直角",
+        "四條邊都一樣長",
+        "正方形沒有直角",
+        "長方形有五個角"
+      ],
+      "answer_index": 0,
+      "explanation": "正方形與長方形的共通點就是都有四個直角。",
+      "commonMisconception": "學生可能誤以為長方形也要四邊等長，或者搞混兩者的定義。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "拼圖遊戲",
+      "question": "小英拿兩個一模一樣的正方形拼在一起（不重疊），拼出的會是什麼圖形？",
+      "options": [
+        "正方形",
+        "長方形",
+        "三角形",
+        "圓形"
+      ],
+      "answer_index": 1,
+      "explanation": "兩個正方形邊靠邊拼在一起，寬度不變但長度變兩倍，四角仍是直角，所以是長方形。",
+      "commonMisconception": "視覺想像力測驗，部分學生可能以為拼出來還是正方形。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "構成要素",
+      "question": "構成一個「角」需要哪些要素？",
+      "options": [
+        "1 個頂點和 2 條邊",
+        "2 個頂點和 1 條邊",
+        "3 條邊",
+        "1 個頂點和 1 條邊"
+      ],
+      "answer_index": 0,
+      "explanation": "角是由一個頂點引出兩條射線（邊）所組成的圖形。",
+      "commonMisconception": "基礎定義題，旨在釐清術語。",
+      "quality_level": "L3",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "比較角的大小",
+      "question": "時鐘上的時針對準 12，分針對準 3，這兩根針形成的角是什麼角？",
+      "options": [
+        "直角",
+        "銳角",
+        "鈍角",
+        "圓角"
+      ],
+      "answer_index": 0,
+      "explanation": "時鐘指在 12 與 3 時，兩針垂直，正好形成一個直角。",
+      "commonMisconception": "學生對於生活中的角度辨識需要實例輔助。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "NanYi"
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What's Your Name?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's your name? B: I ______ Adam.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": null,
+      "explanation": "回答名字可以用 I am... 或 I'm...。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'What's' is short for 'What is'.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "What's 是 What is 的縮寫。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: ______ your name? B: My name is Pam.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "詢問名字使用 What is your name?。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's your name? B: ______ name is Sam.",
+      "options": [
+        "My",
+        "I",
+        "Your",
+        "You"
+      ],
+      "answer_index": null,
+      "explanation": "My name 是「我的名字」。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's your name? B: ______",
+      "options": [
+        "Yes, I am.",
+        "It's a pen.",
+        "I'm eight.",
+        "My name is Adam."
+      ],
+      "answer_index": null,
+      "explanation": "針對詢問姓名做出適當的回應。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

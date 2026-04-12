@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "探索星空的奧祕"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖表報讀與推理解釋",
+      "question": "為了在夜間迷路時找到北方，小華在觀察北半球夜空時先找到了「北斗七星」。他應該要把北斗七星勺口哪兩顆星的連線，向勺口方向延長大約幾倍的距離，才能找到最重要的北極星？",
+      "options": [
+        "2倍",
+        "5倍",
+        "10倍",
+        "3倍"
+      ],
+      "answer_index": 1,
+      "explanation": "在北半球尋找北極星，可利用北斗七星的勺口兩顆星（天璇、天樞）形成的連線向外直線延長大約 5 倍的距離，所對應到的那顆亮星即是北極星。",
+      "commonMisconception": "學生可能記憶混淆，把延伸的距離倍數記錯成 2 或 3，或是根本不知道該朝勺口的方向還是斗柄的方向延伸。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "觀測星星時，我們發現星星在天空中會隨著時間緩慢移動。這主要是因為？",
+      "options": [
+        "星星自己會飛",
+        "地球的自轉",
+        "風太大吹動雲層",
+        "月亮的引力"
+      ],
+      "answer_index": null,
+      "explanation": "星星位置東升西落的日周運動，是由於地球由西向東自轉所產生的相對現象。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在北半球觀測星空時，哪一顆星的位置幾乎固定不動，可以作為辨別方向的指標？",
+      "options": [
+        "天狼星",
+        "北極星",
+        "織女星",
+        "火星"
+      ],
+      "answer_index": null,
+      "explanation": "北極星位於地軸北極的延長線上，因此看起來位置相對固定。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "HanLin"
+}

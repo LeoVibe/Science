@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這是一篇關於什麼的感人故事？",
       "options": [
         "氣候變化",
@@ -19,10 +19,12 @@
         "信念與犧牲",
         "植物生長"
       ],
-      "answer": "信念與犧牲",
+      "answer_index": "信念與犧牲",
       "explanation": "歐亨利的著名短篇小說。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

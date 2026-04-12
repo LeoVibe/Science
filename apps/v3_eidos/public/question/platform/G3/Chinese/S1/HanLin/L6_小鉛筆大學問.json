@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「小鉛筆大學問」中，鉛筆裡面的「筆芯」主要是由什麼成分組成的？",
       "options": [
         "木頭",
@@ -19,32 +19,37 @@
         "石墨與粘土",
         "真的鉛"
       ],
-      "answer": "石墨與粘土",
+      "answer_index": null,
       "explanation": "鉛筆其實沒有鉛，其核心是石墨與粘土的混合物，本課藉此糾正認知誤區。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述了鉛筆外層包裹的木頭，能保護脆弱的筆芯，這兩者就像是好搭檔。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "透過鉛筆的構造，學習事物組合與功能性的觀念。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "鉛筆頂端的標示（如：HB, 2B）代表了筆芯的硬度與______。",
-      "answer": "黑度、深淺或色澤",
+      "options": [],
+      "answer_index": null,
       "explanation": "生活常識的延伸學習。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課標題說「大學問」，主要想表達什麼？",
       "options": [
         "鉛筆很重",
@@ -52,14 +57,15 @@
         "鉛筆很難買",
         "只有愛讀書的人才能用鉛筆"
       ],
-      "answer": "即使是日常生活中不起眼的小東西，背後也包含著許多發明智慧與科學知識",
+      "answer_index": null,
       "explanation": "培養學生的好奇心與科學探究精神。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課以後，我們應該如何看待身邊的事物？",
       "options": [
         "都去拆開來看一看",
@@ -67,10 +73,12 @@
         "保持觀察與思考的熱情，從細微處發掘知識的樂趣",
         "覺得發明家很奇怪"
       ],
-      "answer": "保持觀察與思考的熱情，從細微處發掘知識的樂趣",
+      "answer_index": null,
       "explanation": "科學素養與好奇心的養成。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

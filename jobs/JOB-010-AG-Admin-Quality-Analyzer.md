@@ -7,12 +7,12 @@
     - 將 `scripts/evaluate_question_quality.js` 中的 `evaluateQuestion(q)` 純邏輯移植為前端版本（**不含 Node.js `fs` 模組**）。
     - 初始資料從 `libraryStats.json` 的 `publisherStats` 讀取，顯示品質分佈表。
     - 提供「🔄 重新分析」按鈕：fetch 各 `manifest.json` → fetch 各單元 JSON → 對每題呼叫 `evaluateQuestion` 計分 → 更新畫面。
-*   **表格欄位**：科目、年級、出版社、題數、平均分、PIRLS 比例、品質等級 (L1~L5)。
+*   **表格欄位**：科目、年級、出版社、題數、平均分、PIRLS 比例、品質等級 (QL1~QL5)。
 *   **品質標籤色彩**（參考 `AboutView.tsx` 的 `getQualityColor`）：
-    - L4+ / L5 → 紅色系
-    - L3 → 橘色系
-    - L2 → 藍色系
-    - L1 → 灰色系
+    - QL4+ / QL5 → 紅色系
+    - QL3 → 橘色系
+    - QL2 → 藍色系
+    - QL1 → 灰色系
 
 ### 3. 關鍵參考檔案
 | 檔案 | 用途 |

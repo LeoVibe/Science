@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "L4",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: How much is the pencil? B: It ______ 10 dollars.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "pencil 是單數，用 is。",
+      "answer_index": null,
+      "options": [
+        "do",
+        "are",
+        "does",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "The pants ______ 500 dollars.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "pants (褲子) 是複數，用 are。",
+      "answer_index": null,
+      "options": [
+        "be",
+        "am",
+        "are",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "How ______ are the socks?",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "explanation": "How much 詢問價格。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'Cheap' means '昂貴的'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "explanation": "Cheap 是便宜的，昂貴是 expensive。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "It ______ too expensive.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4.5,
+      "explanation": "It 搭配 is。",
+      "answer_index": null,
+      "options": [
+        "do",
+        "are",
+        "does",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

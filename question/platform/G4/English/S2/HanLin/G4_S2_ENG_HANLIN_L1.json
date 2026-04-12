@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What do you want to eat? B: I want to eat ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "want to eat 後面接食物名稱。",
+      "answer_index": "noodles",
+      "options": [
+        "hungry",
+        "food",
+        "eat",
+        "noodles"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'I want to eat a sandwich.' means '我想吃三明治'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "want to eat 表示想要吃。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What does she want to eat? B: She ______ to eat rice.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "第三人稱單數用 wants。",
+      "answer_index": "wants",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Do you want to eat pizza? B: Yes, ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "Do you want...? 的肯定回答是 Yes, I do。",
+      "answer_index": "I do",
+      "options": [
+        "I do",
+        "I am",
+        "I eat",
+        "I want"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "He wants ______ eat chicken.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "explanation": "want to + 動詞原形。",
+      "answer_index": "to",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "in"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

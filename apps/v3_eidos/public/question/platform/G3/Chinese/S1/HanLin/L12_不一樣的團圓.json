@@ -1,17 +1,17 @@
 {
   "meta": {
     "grade": "G3",
+    "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
     "lesson": "L12",
-    "title": "不一樣的團圓",
-    "semester": "S1",
-    "order": 12
+    "order": 12,
+    "title": "不一樣的團圓"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼說這個團圓是「不一樣」的？",
       "options": [
         "因為大家在吵架",
@@ -19,32 +19,37 @@
         "因為大家在網路上視訊，或是有新成員加入",
         "因為沒吃到肉"
       ],
-      "answer": "因為大家在網路上視訊，或是有新成員加入",
+      "answer_index": null,
       "explanation": "現代科技發達，或是家庭結構改變，「團圓」的形式已不限於實體見面，心意的連結更重要。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「團圓」最核心的意義是全家人的心聚集在一起，相互關懷。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "團圓不只是吃一餐飯，更重要的情感的交流。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "春節時，家人從外地趕回來，這種節慶氣氛稱為______。",
-      "answer": "熱鬧或溫馨",
+      "options": [],
+      "answer_index": null,
       "explanation": "過節最期盼的就是家人的團聚。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "下列哪種做法能讓「團圓」更幸福？",
       "options": [
         "大聲數落小孩的成績",
@@ -52,14 +57,15 @@
         "比較誰賺的錢多",
         "大家一直滑手機不說話"
       ],
-      "answer": "主動幫長輩服務，與家人聊天分享生活",
+      "answer_index": null,
       "explanation": "真誠的互動能讓感情升溫。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "對於因為工作或環境無法回家團圓的人，我們可以怎麼做？",
       "options": [
         "嘲笑他們好可憐",
@@ -67,10 +73,82 @@
         "不理不睬",
         "寄很多垃圾給他們"
       ],
-      "answer": "透過視訊、通話傳達思念與祝福",
+      "answer_index": null,
       "explanation": "形式雖不同，關心不變。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "本課「大團圓」主要描寫在什麼樣的傳統節日中，家人齊聚一堂的熱鬧景象？",
+      "options": [
+        "農曆新年（除夕）",
+        "母親節",
+        "萬聖節",
+        "勞動節"
+      ],
+      "answer_index": null,
+      "explanation": "除夕圍爐是中華文化中象徵全家團圓、共享天倫的最重要時刻。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "文中描述了準備年菜、發紅包以及全家人歡笑聊天的情境，展現了家人的深厚情感。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "透過節慶儀式，強化家庭連結與感性教育。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「團圓」的意義不僅在於吃飯，更在於心的距離變近了，體會家人的______與支持。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "提升學生對家庭功能與心靈支持的理解。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "為什麼在現代社會中，「大團圓」顯得格外珍貴？",
+      "options": [
+        "因為年菜很好吃",
+        "因為電視節目很好看",
+        "因為平時大家都很忙、各自在不同地方生活，能相聚的時間變少了",
+        "因為可以領很多錢"
+      ],
+      "answer_index": null,
+      "explanation": "探討社會變遷下傳統價值的延續與社會價值。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這一課最想要傳達出的核心價值是？",
+      "options": [
+        "學習如何做菜",
+        "多跟親戚要紅包",
+        "重視家庭倫理、感念長輩及珍惜與家人相處的時光",
+        "慶祝活動要越盛大越好"
+      ],
+      "answer_index": null,
+      "explanation": "品格教育與本土文化認同的結合。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

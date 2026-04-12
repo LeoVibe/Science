@@ -1,0 +1,34 @@
+{
+  "id": "G5_S2_ENG_HANLIN",
+  "publisher": "HANLIN",
+  "grade": "G5",
+  "semester": "S2",
+  "subject": "ENG",
+  "items": [
+    {
+      "id": "L1",
+      "title": "L1",
+      "theme": "",
+      "file": "G5_S2_ENG_HANLIN_L1.json",
+      "count": 20,
+      "blind_tested": 0,
+      "avg_cqi": 6.45,
+      "quality": "QL1"
+    },
+    {
+      "id": "L3",
+      "title": "L3",
+      "theme": "",
+      "file": "G5_S2_ENG_HANLIN_L3.json",
+      "count": 80,
+      "blind_tested": 0,
+      "avg_cqi": 6.49,
+      "quality": "QL1"
+    }
+  ],
+  "moduleMetaData": {
+    "total_questions": 100,
+    "blind_tested": 0,
+    "last_updated": "2026-03-26T07:46:20.107Z"
+  }
+}

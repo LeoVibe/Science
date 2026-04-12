@@ -1,12 +1,17 @@
 {
-  "publisher": "康軒",
-  "grade": "G6",
-  "semester": "S2",
-  "subject": "Chinese",
-  "lesson_id": "L3",
-  "lesson_title": "山村車輄寮",
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "山村車輄寮"
+  },
   "questions": [
     {
+      "taxonomy": "literal",
+      "scenario": "辨析散文類別（鄉土散文）的核心特質與情感基調。",
       "question": "【分析散文風格】《山村車輄寮》是一篇充滿「鄉土文學」色彩的作品，關於本文的特色，下列描述何者最適當？",
       "options": [
         "內容充滿了前衛的超現實科幻描寫，挑戰讀者的認知極限。",
@@ -16,18 +21,13 @@
       ],
       "answer_index": 2,
       "explanation": "鄉土文學的核心在於「土地、歷史、人物」。本文透過車輄寮（現今南投鹿谷一帶）的描寫，還原了早期採集者的生命情境。",
-      "scenario": "辨析散文類別（鄉土散文）的核心特質與情感基調。",
       "commonMisconception": "學生常選[D]，過度解讀「反都市」情節，而忽略了本文的主軸是「記錄與懷念」。",
-      "taxonomy": "literal",
-      "cqi_score": 5.25,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 5.25
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "解析地名意象與產業歷史之間的關聯性（PIRLS 層次 3）。",
       "question": "【解讀核心詞彙】文中提到的「車輄」（Wheeling/滾動感），在文學上如何呼應了當地的歷史背景？",
       "options": [
         "形容當地的人都非常愛開車，馬路上隨時都充滿了快速行駛的車輛。",
@@ -37,18 +37,13 @@
       ],
       "answer_index": 1,
       "explanation": "地名往往帶著產業的記憶。車輄寮反映了木材運補時的聲響與動態。理解這一點能幫助學生建立「地名與文化」的連結感。",
-      "scenario": "解析地名意象與產業歷史之間的關聯性（PIRLS 層次 3）。",
       "commonMisconception": "學生易選[A]，用現代生活經驗強加在早期歷史環境中。",
-      "taxonomy": "inferential",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "探討敘事策略（回憶視角）在營造「集體記憶感」上的功能。",
       "question": "【分析敘事視角】作者在文中以「回憶」的方式展開敘述，這種寫法對讀者的閱讀感受產生了什麼樣的影響？",
       "options": [
         "讓讀者感到困惑，因為作者總是記不清楚真正的日期與時間。",
@@ -58,18 +53,13 @@
       ],
       "answer_index": 1,
       "explanation": "回憶視角（懷舊語調）是建立「共同體意識」強大的工具。它引導讀者去思考：我們從哪裡來？這份土地曾經承載過什麼樣的辛勞？",
-      "scenario": "探討敘事策略（回憶視角）在營造「集體記憶感」上的功能。",
       "commonMisconception": "容易選[C]，用生理現象（老化）解讀文學選擇，忽略了藝術上的感染力。",
-      "taxonomy": "analysis",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "從具體的人物描寫中提煉「精神特質」（PIRLS 層次 3）。",
       "question": "【解讀人物群像】文中描述山村裡的勞動者（如鋸木工、挑夫），作者最想讚美的是他們哪一種特質？",
       "options": [
         "他們是一群非常喜歡運動的人，所以每天都在山裡跑來跑去。",
@@ -79,18 +69,13 @@
       ],
       "answer_index": 1,
       "explanation": "鄉土散文的主角往往是底層的勞動者。作者透過對其汗水與堅實步伐的描寫，致敬了台灣早期開發者的辛勞精神。",
-      "scenario": "從具體的人物描寫中提煉「精神特質」（PIRLS 層次 3）。",
       "commonMisconception": "學生若選[A]，則反映出對勞動本質（為生存奮鬥）的認知過於輕淺。 ",
-      "taxonomy": "inferential",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "評估地方文史散文對於現代「認同危機」的對治建議。",
       "question": "【總結全篇主旨】《山村車輄寮》這篇文章最重要的「現代啟示」是什麼？",
       "options": [
         "如果想要賺錢，就應該趕快到南投去買森林、開發木材。",
@@ -100,16 +85,10 @@
       ],
       "answer_index": 1,
       "explanation": "這測驗學生對文本主題的昇華能力。回顧過去是為了更有力量地走入未來。理解土地的故事，能讓人不再是無根的漂流者。",
-      "scenario": "評估地方文史散文對於現代「認同危機」的對治建議。",
       "commonMisconception": "學生可能選[C]，這是一種環保標籤的機械性反應，與本文的歷史記憶主題無關。",
-      "taxonomy": "evaluative",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -23,15 +23,15 @@
   - `apps/v3_eidos/src/components/admin/AdminQualityAnalyzer.tsx`  
     後台品質分析頁：讀取 `libraryStats.json` 的 `publisherStats` 作為初始表格，提供「🔄 重新分析」按鈕，表格欄位含科目、年級、出版社、題數、平均分、PIRLS 比例、品質等級。
   - `apps/v3_eidos/src/utils/qualityEvaluator.ts`  
-    前端版 L1～L5 評分引擎（移植自 `scripts/evaluate_question_quality.js`，無 Node.js 依賴）：
+    前端版 QL1～QL5 評分引擎（移植自 `scripts/evaluate_question_quality.js`，無 Node.js 依賴）：
     - `evaluateQuestion(q)`：單題評分（結構、選項對稱、情境深度、認知層次）。
     - `evaluateQuestions(questions)`：整份題目陣列評分，回傳品質等級、平均分、題數、PIRLS 比例（literal / inferential / applied）。
-- **表格欄位：** 科目、年級、出版社、題數、平均分（初始為 —，重新分析後填入）、PIRLS 比例（事/理/應 %，未分析為 —）、品質等級（L1～L5 / L4+）。
+- **表格欄位：** 科目、年級、出版社、題數、平均分（初始為 —，重新分析後填入）、PIRLS 比例（事/理/應 %，未分析為 —）、品質等級（QL1～QL5 / QL4+）。
 - **品質標籤色彩：** 與前台 `AboutView.tsx` 的 `getQualityColor` 一致：
-  - L4+ / L5 → 紅色系  
-  - L3 → 橘色系  
-  - L2 → 藍色系  
-  - L1 → 灰色系  
+  - QL4+ / QL5 → 紅色系  
+  - QL3 → 橘色系  
+  - QL2 → 藍色系  
+  - QL1 → 灰色系  
 - **重新分析流程：** 依 `publisherStats` 的 key（如 `G3_S2_國語_翰林`）組出題庫路徑 → fetch 對應 `manifest.json` → fetch 各單元 JSON → 彙整題目後對每題呼叫 `evaluateQuestion`，再以 `evaluateQuestions` 彙總該組合的品質、平均分與 PIRLS 比例 → 更新畫面。
 
 ### 3. 關鍵參考對應
@@ -41,7 +41,7 @@
 | 評分引擎移植       | `qualityEvaluator.ts` 對應 `scripts/evaluate_question_quality.js` 的 `evaluateQuestion` 與等級判定邏輯，不含 `fs`。 |
 | 初始資料           | 自 `libraryStats.json` 的 `publisherStats` 讀取並解析 key 為 年級/學期/科目/出版社，顯示於表格。 |
 | 重新分析           | 按鈕觸發後依路徑 fetch manifest → 單元 JSON → 計分並更新表格。 |
-| 品質色彩           | 與 `AboutView` 的 `getQualityColor` 一致（L4/L5 紅、L3 橘、L2 藍、L1 灰）。 |
+| 品質色彩           | 與 `AboutView` 的 `getQualityColor` 一致（QL4/QL5 紅、QL3 橘、QL2 藍、QL1 灰）。 |
 
 ---
 

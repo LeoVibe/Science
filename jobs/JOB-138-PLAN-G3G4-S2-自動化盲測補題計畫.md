@@ -68,34 +68,32 @@ Orchestrator 掃描目錄後，依以下規則決定每個檔案的任務類型�
 ### 總體進度
 
 ```
-進度：0 / 248 完成 | done: 0 | needs_rework: 0 | failed: 0 | 耗時: 0 分鐘
+進度：1 / 30 完成 | done: 1 | needs_rework: 0 | failed: 0 | skip: 0
 ```
 
 ---
 
 ## G3 S2 各科進度
 
-| 科目 | HanLin | KangHsuan | NanYi | 小計 |
-|---|---|---|---|---|
-| Chinese | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| Math | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| Science | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| SocialStudies | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| English | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| **G3 小計** | **0/60** | **0/60** | **0/60** | **0/180** |
+| 科目 | HanLin | KangHsuan | NanYi |
+|---|---|---|---|
+| Chinese | ✅ done | ⏳ pending | ⏳ pending |
+| Math | ⏳ pending | ⏳ pending | ⏳ pending |
+| Science | ⏳ pending | ⏳ pending | ⏳ pending |
+| SocialStudies | ⏳ pending | ⏳ pending | ⏳ pending |
+| English | ⏳ pending | ⏳ pending | ⏳ pending |
 
 ---
 
 ## G4 S2 各科進度
 
-| 科目 | HanLin | KangHsuan | NanYi | 小計 |
-|---|---|---|---|---|
-| Chinese | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| Math | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| Science | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| SocialStudies | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| English | 0/12 done | 0/12 done | 0/12 done | 0/36 |
-| **G4 小計** | **0/60** | **0/60** | **0/60** | **0/180** |
+| 科目 | HanLin | KangHsuan | NanYi |
+|---|---|---|---|
+| Chinese | ⏳ pending | ⏳ pending | ⏳ pending |
+| Math | ⏳ pending | ⏳ pending | ⏳ pending |
+| Science | ⏳ pending | ⏳ pending | ⏳ pending |
+| SocialStudies | ⏳ pending | ⏳ pending | ⏳ pending |
+| English | ⏳ pending | ⏳ pending | ⏳ pending |
 
 ---
 

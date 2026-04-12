@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課作者在阿里山等待日出時，心情的變化主要是？",
       "options": [
         "覺得很睏、想回家",
@@ -19,32 +19,37 @@
         "沒有任何感覺",
         "充滿期待、悸動與對大自然壯闊景象的震撼"
       ],
-      "answer": "充滿期待、悸動與對大自然壯闊景象的震撼",
+      "answer_index": "充滿期待、悸動與對大自然壯闊景象的震撼",
       "explanation": "日出象徵著新生與希望，作者細膩地描寫了等待時的心理轉折。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中透過雲海的變幻與金黃色光輝的灑落，描繪出阿里山特有的「日出雲海」美景。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "雲海是阿里山五奇之一，也是本文描寫的重點。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當第一眼看見火紅的太陽躍出山頭，那一刻展現了無窮的生命______。",
-      "answer": "力、能量、光芒或勇氣",
+      "options": [],
+      "answer_index": "力、能量、光芒或勇氣",
       "explanation": "太陽的升起是生命力最完美的象徵。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼許多人願意在大半夜起床、忍受寒冷去等日出？",
       "options": [
         "因為那是規定的行程",
@@ -52,14 +57,15 @@
         "為了親眼見證那一刻萬丈光芒帶給心靈的感動與洗禮",
         "因為阿里山晚上不能睡覺"
       ],
-      "answer": "為了親眼見證那一刻萬丈光芒帶給心靈的感動與洗禮",
+      "answer_index": "為了親眼見證那一刻萬丈光芒帶給心靈的感動與洗禮",
       "explanation": "對美的追求往往能跨越身體的疲憊。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課後，我們能對家鄉的山河產生什麼樣的情感？",
       "options": [
         "覺得阿里山路很遠",
@@ -67,10 +73,12 @@
         "以此為傲，並萌生守護臺灣珍貴自然環境的使命感",
         "那裡只有很多樹"
       ],
-      "answer": "以此為傲，並萌生守護臺灣珍貴自然環境的使命感",
+      "answer_index": "以此為傲，並萌生守護臺灣珍貴自然環境的使命感",
       "explanation": "建立對國土的愛護與自信。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

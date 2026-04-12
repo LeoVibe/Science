@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "中央政府年度總預算",
+      "question": "預算為「二兆一千八百億元」。請問寫成阿拉伯數字是？",
+      "options": [
+        "2,1800,0000,0000",
+        "2,1080,0000,0000",
+        "2,0180,0000,0000",
+        "21,800,000,000"
+      ],
+      "answer_index": 0,
+      "explanation": "2兆1800億 = 2,1800,0000,0000。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比較科技公司營收",
+      "question": "甲公司營收為 12 兆 4500 萬，乙公司為 12 兆 1 億。誰賺得多？",
+      "options": [
+        "甲公司",
+        "乙公司",
+        "一樣多",
+        "無法比較"
+      ],
+      "answer_index": 1,
+      "explanation": "1 億 = 1,0000 萬。 故 12 兆 1 億 > 12 兆 4500 萬。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析國債鐘變動",
+      "question": "如果國債原本是 5 兆 8400 億，增加了 2000 億。國債會變成多少？",
+      "options": [
+        "6 兆 400 億",
+        "5 兆 8600 億",
+        "6 兆 8400 億",
+        "7 兆 8400 億"
+      ],
+      "answer_index": 0,
+      "explanation": "8400 + 2000 = 10400 億 = 1 兆 400 億。 5 + 1 = 6，故為 6 兆 400 億。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "探討億與萬的關係",
+      "question": "「一億」是幾個「一萬」組成的？",
+      "options": [
+        "100 個",
+        "1000 個",
+        "10000 個",
+        "100000 個"
+      ],
+      "answer_index": 2,
+      "explanation": "1,0000,0000 / 1,0000 = 1,0000。在一萬進法下，一萬個萬就是一億。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數位識別競賽",
+      "question": "在數字 30,0500,7000,0000 中，代表「兆位」的數字是？",
+      "options": [
+        "3",
+        "0",
+        "5",
+        "7"
+      ],
+      "answer_index": 1,
+      "explanation": "3 在「十兆位」，0 在「兆位」。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "讀出含零的大數",
+      "question": "數字 1,0040,0000,0000 讀作？",
+      "options": [
+        "一兆零四十億",
+        "一兆四百億",
+        "一兆四億",
+        "一百兆零四十億"
+      ],
+      "answer_index": 0,
+      "explanation": "兆與億區中間有連續零，通常讀出一個「零」。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "全球網路流量統計",
+      "question": "去年流量是 4500 億 GB，今年預計變成 1 兆 GB。共增加了多少？",
+      "options": [
+        "5500 億 GB",
+        "6500 億 GB",
+        "5000 億 GB",
+        "1000 億 GB"
+      ],
+      "answer_index": 0,
+      "explanation": "1 兆 = 10000 億。 10000 - 4500 = 5500 億。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "認識極限數字感",
+      "question": "100 個一億是多少？",
+      "options": [
+        "100 億",
+        "1 兆，這點在分析單元核心時非常關鍵",
+        "10 億",
+        "1 億"
+      ],
+      "answer_index": 0,
+      "explanation": "直接就是一百億。",
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "土地面積與人口",
+      "question": "某大洲人口 14 億。如果每個人需要 100 平方公尺。總面積需要多少平方公尺？",
+      "options": [
+        "1400 億",
+        "1兆 4000 億",
+        "14 兆",
+        "140 億"
+      ],
+      "answer_index": 0,
+      "explanation": "14 億 * 100 = 1400 億。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析數字變動效應",
+      "question": "將數字 1,2345,0000,0000 中的「2」換成「5」。這個數增加了多少？",
+      "options": [
+        "30,000,000,000",
+        "300,000,000,000",
+        "3,000,000,000,000",
+        "3,000,000,000"
+      ],
+      "answer_index": 1,
+      "explanation": "2 在千億位。換成 5 增加了 3 個千億 = 3000 億 = 300,000,000,000。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    }
+  ],
+  "publisher": "NanYi"
+}

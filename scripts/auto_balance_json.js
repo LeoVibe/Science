@@ -201,8 +201,14 @@ if (targetDirs.length === 0) {
     targetDirs.forEach(dir => {
         const absDir = path.resolve(dir);
         if (fs.existsSync(absDir)) {
-            console.log(`Scanning: ${absDir}`);
-            scanDir(absDir);
+            const st = fs.statSync(absDir);
+            if (st.isFile() && absDir.endsWith('.json')) {
+                console.log(`Processing file: ${absDir}`);
+                processFile(absDir);
+            } else if (st.isDirectory()) {
+                console.log(`Scanning: ${absDir}`);
+                scanDir(absDir);
+            }
         } else {
             console.log(`Not found: ${absDir}`);
         }

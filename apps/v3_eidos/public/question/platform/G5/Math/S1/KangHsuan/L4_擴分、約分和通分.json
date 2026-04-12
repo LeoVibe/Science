@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L4",
+    "order": 4,
+    "title": "擴分、約分和通分"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "將分數 1/2 的分子和分母同時乘以 3，得到 3/6，這個過程稱為什麼？",
+      "options": [
+        "通分",
+        "微分",
+        "約分",
+        "擴分"
+      ],
+      "answer_index": null,
+      "explanation": "分子分母同同乘一個大於 1 的數，數值不變，項數變多。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「約分」是將分子和分母同時除以它們的公因數，直到變成最簡分數為止。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "這能讓分數看起來更簡潔。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "將 8/12 約分到最簡分數是______。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "同時除以最大公因數 4。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「通分」的主要目的是為了進行分數的什麼運算？",
+      "options": [
+        "除法",
+        "乘法",
+        "異分母的加減",
+        "取倒數"
+      ],
+      "answer_index": null,
+      "explanation": "分母相同後，分子才能直接加減。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "比較 2/3 與 3/4 的大小，通分後的結果為？",
+      "options": [
+        "8/12 與 9/12",
+        "1/3 與 1/4",
+        "2/4 與 3/3",
+        "6/9 與 6/8"
+      ],
+      "answer_index": null,
+      "explanation": "找 3 和 4 的最小公倍數 12。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -9,7 +9,7 @@
   - 移除冗長說明文案「僅清除本機顯示的紀錄（三年級），後台統計不受影響。」
   - 各科清除項目改為雙欄 grid 排版，縮短版面高度。
 - 完成 `G3/Chinese/S2/HanLin` manifest 映射修正：
-  - `L3_用膝蓋跳舞的女孩.json` 改為 `Chi_L3.json`
+  - `QL3_用膝蓋跳舞的女孩.json` 改為 `Chi_QL3.json`
   - `L6_月世界.json` 改為 `Chi_L6.json`
 - 已通過前端測試與建置，確認 hotfix 無回歸。
 - 對應派工單：`jobs/JOB-019-ProfileSetup-UI-and-HanLin-Loader-Hotfix.md`
@@ -19,7 +19,7 @@
 | 檔案 | 變更類型 | 說明 |
 |---|---|---|
 | `apps/v3_eidos/src/components/ProfileSetup.tsx` | Update | 移除清除區塊指定文案；改為雙欄清除卡片版面 |
-| `question/platform/G3/Chinese/S2/HanLin/manifest.json` | Update | 修正 L3/L6 檔名映射，避免載入錯誤 |
+| `question/platform/G3/Chinese/S2/HanLin/manifest.json` | Update | 修正 QL3/L6 檔名映射，避免載入錯誤 |
 
 ## 單元測試紀錄
 

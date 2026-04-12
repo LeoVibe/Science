@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「一起來轉吧」主要介紹了台灣哪一種傳統童玩？",
       "options": [
         "風箏",
@@ -19,32 +19,37 @@
         "竹蜻蜓",
         "滾鐵圈"
       ],
-      "answer": "打陀螺",
+      "answer_index": "打陀螺",
       "explanation": "打陀螺是深具文化特色與技巧性的傳統遊戲，也能延伸出物理平衡的觀念。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述了不同大小、材質的陀螺，以及打陀螺時需要精確的手感與力道配搭。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "打陀螺不僅是遊戲，也是一門需要長時間練習的藝術與技藝。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "陀螺在原地飛速旋轉、保持平衡，這需要科學原理中的______力。",
-      "answer": "離心、向心或旋轉",
+      "options": [],
+      "answer_index": "離心、向心或旋轉",
       "explanation": "融入簡單的物理科普常識。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼作者會覺得大家一起打陀螺是一件很快樂的事？",
       "options": [
         "因為可以看誰的陀螺比較貴",
@@ -52,14 +57,15 @@
         "因為能在競技、交流與分享中增進彼此的情誼與自信",
         "因為不用去上學"
       ],
-      "answer": "因為能在競技、交流與分享中增進彼此的情誼與自信",
+      "answer_index": "因為能在競技、交流與分享中增進彼此的情誼與自信",
       "explanation": "傳統遊戲背後的社會化功能與心理收穫。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "透過這課介紹傳統童玩，主要想引導學生？",
       "options": [
         "傳統遊戲都很無聊",
@@ -67,10 +73,82 @@
         "只玩電子遊戲",
         "去買最新的戰鬥陀螺"
       ],
-      "answer": "認識並欣賞本土的童玩文化，體驗動手操作的趣味與成就感",
+      "answer_index": "認識並欣賞本土的童玩文化，體驗動手操作的趣味與成就感",
       "explanation": "文化傳承與休閒素養的結合。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「一起来轉吧」這課主要介紹的傳統童玩是什麼？",
+      "options": [
+        "風箏",
+        "扯鈴",
+        "彈珠",
+        "陀螺"
+      ],
+      "answer_index": "陀螺",
+      "explanation": "陀螺是歷史悠久的傳統玩具，透過繩索拉力使其產生旋轉慣性。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "打陀螺時需要技巧，包含纏繩的鬆緊與甩出的力道。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "動作的協調性是讓陀螺轉得久、轉得穩的關鍵。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "陀螺旋轉時，看起來中心點似乎是不動的，這就是______的力量。",
+      "options": [],
+      "answer_index": "重心或平衡",
+      "explanation": "旋轉產生的離心力與地心引力達成平衡。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課想推廣的是什麼理念？",
+      "options": [
+        "打陀螺很危險，不要學",
+        "珍惜傳統童玩，體會手作與競賽的純粹快樂",
+        "大家都去買塑膠陀螺",
+        "認識高級的遙控玩具"
+      ],
+      "answer_index": "珍惜傳統童玩，體會手作與競賽的純粹快樂",
+      "explanation": "找回古早味的快樂，減少對科技產品的依賴。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "作者描述一群人圍著看陀螺旋轉的場景，展現了什麼？",
+      "options": [
+        "大家都很懶",
+        "比賽競爭非常慘烈",
+        "人與人之間互動的熱鬧與情誼交流",
+        "天氣太熱了"
+      ],
+      "answer_index": "人與人之間互動的熱鬧與情誼交流",
+      "explanation": "童玩是凝聚群體情感的良好媒介。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

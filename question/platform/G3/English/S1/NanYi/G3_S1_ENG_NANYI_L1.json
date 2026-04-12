@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Hello, I'm Pam. B: ______, Pam. I'm Sam.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "Hello 與 Hi 是互相對應的非正式打招呼方式。",
+      "answer_index": null,
+      "options": [
+        "Goodbye",
+        "Hi",
+        "Thank you",
+        "No"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'I am' and 'I'm' mean the same thing.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "I'm 是 I am 的縮寫形式。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Nice to meet you. B: Nice to meet you, ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "回答對方的 Nice to meet you 時，通常會在句尾加上 too（也）。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "When you meet someone for the first time, you say:",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "初次見面最得體的話是 Nice to meet you（很高興見到你）。",
+      "answer_index": null,
+      "options": [
+        "How old are you?",
+        "What's this?",
+        "Good-bye.",
+        "Nice to meet you."
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Hello! B: ______",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "直接回應對方的打招呼。",
+      "answer_index": null,
+      "options": [
+        "I'm a girl.",
+        "It's a cat.",
+        "Hello!",
+        "No, I am Sam."
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

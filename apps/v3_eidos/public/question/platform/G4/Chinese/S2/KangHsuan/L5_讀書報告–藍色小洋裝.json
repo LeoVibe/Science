@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這一課的形式是什麼？",
       "options": [
         "詩歌",
@@ -19,10 +19,12 @@
         "書信",
         "讀書報告"
       ],
-      "answer": "讀書報告",
+      "answer_index": "讀書報告",
       "explanation": "課名已標示為讀書報告。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

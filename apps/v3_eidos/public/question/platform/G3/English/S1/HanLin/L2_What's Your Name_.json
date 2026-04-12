@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What's Your Name?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's your name? B: My ______ Dino.",
+      "options": [
+        "is name",
+        "name is",
+        "name",
+        "names"
+      ],
+      "answer_index": null,
+      "explanation": "回答名字時使用 My name is... 或 I'm...。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'What is' can be shortened to 'What's'.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "What is 的縮寫形式是 What's。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's ______ name? B: My name is Niki.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "your 是「你的」的意思。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is correct?",
+      "options": [
+        "My name is Dino.",
+        "I name is Dino.",
+        "I is Dino.",
+        "My name am Dino."
+      ],
+      "answer_index": null,
+      "explanation": "My name 是單數主詞，配合 be 動詞 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What's your name? B: I ______ Danny.",
+      "options": [
+        "am",
+        "are",
+        "be",
+        "is"
+      ],
+      "answer_index": null,
+      "explanation": "I am... 也是介紹自己名字的一種方式。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

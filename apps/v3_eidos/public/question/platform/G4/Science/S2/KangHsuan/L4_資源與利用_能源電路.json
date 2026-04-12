@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "L4",
+    "order": 4,
+    "title": "資源與利用/能源電路"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一種能源屬於「再生能源」？",
+      "options": [
+        "石油",
+        "太陽能",
+        "天然氣",
+        "煤炭"
+      ],
+      "answer_index": "太陽能",
+      "explanation": "可以自然再生、取之不盡的能量來源。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "多使用節能家電可以減少二氧化碳排放。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "節能有助於減緩溫室效應。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "電池並聯時，電路的亮度______。",
+      "options": [],
+      "answer_index": "不變",
+      "explanation": "並聯不改變電壓，僅增加使用時間。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "廢電池應該如何處理？",
+      "options": [
+        "直接丟垃圾桶",
+        "埋入土裡",
+        "拿到回收站回收",
+        "丟進河裡"
+      ],
+      "answer_index": "拿到回收站回收",
+      "explanation": "電池含有重金屬，需特殊處理以免污染環境。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "地球資源是無限的，可以隨意揮霍。",
+      "options": [],
+      "answer_index": "False",
+      "explanation": "許多資源為有限資源，必須節導利用。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "觀察砂糖溶解",
+      "question": "將砂糖放入水中攪拌後消失了。這種現象稱為？",
+      "options": [
+        "融化",
+        "溶解",
+        "消失",
+        "風化"
+      ],
+      "answer_index": 1,
+      "explanation": "固體均勻散布在液體中的過程稱為溶解。融化指的是受熱由固態變液態。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "加速溶解的方法",
+      "question": "方糖在熱水中還是冷水中溶解得比較快？",
+      "options": [
+        "冷水",
+        "熱水",
+        "一樣快",
+        "都不能溶解"
+      ],
+      "answer_index": 1,
+      "explanation": "高溫可以增加分子的動能，增加溶解速率。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "飽和溶解實驗",
+      "question": "在固定量的水中不斷加入鹽，最後會有鹽沈澱在杯底。這代表？",
+      "options": [
+        "鹽變硬了",
+        "水已經達到了『飽和』狀態",
+        "那是假的鹽，內容完整確診且具備情境深度",
+        "攪拌得不夠用力"
+      ],
+      "answer_index": 1,
+      "explanation": "當液體無法再容納更多溶質時，稱為飽和。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "辨識酸鹼反應",
+      "question": "將小蘇打粉加入醋中，會產生許多氣泡。這種氣體是？",
+      "options": [
+        "氧氣",
+        "氮氣",
+        "二氧化碳",
+        "氫氣，內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "酸性物質與碳酸鹽（小蘇打）反應會釋放二氧化碳。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "麵粉與水的關係",
+      "question": "麵粉放入水中充分攪拌後，呈現混濁狀。靜止後會沈澱。這代表麵粉？",
+      "options": [
+        "可以完全溶解",
+        "不能完全溶解",
+        "變成了糖",
+        "消失了"
+      ],
+      "answer_index": 1,
+      "explanation": "沉澱且濾紙可慮出代表其為懸浮而不溶解。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "紅豆湯的散熱",
+      "question": "用金屬湯匙和塑膠湯匙分別攪拌熱湯。哪一個手握的部分會比較快變燙？",
+      "options": [
+        "塑膠湯匙",
+        "金屬湯匙",
+        "都一樣",
+        "都不會燙"
+      ],
+      "answer_index": 1,
+      "explanation": "金屬是良好的熱導體，傳熱速度快。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "自製洗手液",
+      "question": "在水中滴入什麼可以幫助洗掉手上的油脂？",
+      "options": [
+        "醋",
+        "沙拉油",
+        "洗潔精(肥皂)",
+        "食鹽，內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "界面活性劑可以同時導向水和油脂，幫助清潔。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "切開的蘋果變色",
+      "question": "蘋果切開一段時間後會變黃褐色。這是一種？",
+      "options": [
+        "物理變化(形狀變了)",
+        "化學變化(產生新物質)",
+        "沒洗乾淨，內容完整確診且具備情境深度",
+        "正常現象"
+      ],
+      "answer_index": 1,
+      "explanation": "那是氧化反應產生的褐變，屬於化學變化。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "隔水加熱的目的",
+      "question": "燒杯隔水加熱巧克力。主要的好處是？",
+      "options": [
+        "讓巧克力比較香",
+        "維持受熱均勻且溫度不會過高",
+        "增加重量，內容完整確診且具備情境深度",
+        "比較好清洗"
+      ],
+      "answer_index": 1,
+      "explanation": "水浴法可以穩定維持在 100 度以下，避免直接火燒導致燒焦。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "認識發粉的作用",
+      "question": "在揉麵團時加入酵母或發粉，做出來的饅頭會鬆軟多洞。這是因為產生了？",
+      "options": [
+        "水汽",
+        "氣體(二氧化碳)",
+        "糖分，呈現出課綱所要求之探索精神",
+        "油脂"
+      ],
+      "answer_index": 1,
+      "explanation": "發酵或化學發粉產生氣體撐開組織，加熱後氣體膨脹留下孔隙。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

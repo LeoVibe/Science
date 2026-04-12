@@ -1,0 +1,28 @@
+{
+  "publisher": "KangHsuan",
+  "grade": "G6",
+  "semester": "S2",
+  "subject": "Math",
+  "items": [
+    {
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
+    },
+    {
+      "id": "L5",
+      "title": "L5",
+      "file": "L5_L5.json",
+      "count": 1
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
+}

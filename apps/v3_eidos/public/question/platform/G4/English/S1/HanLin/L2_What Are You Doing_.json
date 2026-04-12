@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What Are You Doing?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What are you doing? B: I ______ drinking water.",
+      "options": [
+        "do",
+        "am",
+        "are",
+        "is"
+      ],
+      "answer_index": "am",
+      "explanation": "配合主詞 I，be 動詞使用 am。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The question 'What are you doing?' asks about things happening right now.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "現在進行式用來詢問或描述當下的行為。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is Dino doing? B: He is ______ (跳舞).",
+      "options": [],
+      "answer_index": "dancing",
+      "explanation": "dancing 的意思是正在跳舞。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is she doing? B: She is ______ TV.",
+      "options": [
+        "watches",
+        "watch",
+        "to watch",
+        "watching"
+      ],
+      "answer_index": "watching",
+      "explanation": "be 動詞後接 V-ing (watching)。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What are Danny and Niki doing? B: They ______ singing.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "do"
+      ],
+      "answer_index": "are",
+      "explanation": "主詞是複數（They），使用 are。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

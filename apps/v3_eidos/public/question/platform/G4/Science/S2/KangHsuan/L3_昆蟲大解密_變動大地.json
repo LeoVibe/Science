@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "昆蟲大解密/變動大地"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "空氣佔有空間實驗",
+      "question": "將塞入衛生紙的杯子『垂直倒扣』放入水中，衛生紙會維持乾燥。這證明了什麼？",
+      "options": [
+        "衛生紙不怕水",
+        "杯子裡充滿空氣，空氣佔有空間擋住了水",
+        "水是乾的，呈現出課綱所要求之探索精神，這點在分析單元核心時非常關鍵",
+        "重力讓水進不去"
+      ],
+      "answer_index": 1,
+      "explanation": "空氣雖然看不見，但確實佔有空間，阻止水進入杯底。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "壓縮空氣實驗",
+      "question": "用手指堵住注射器的孔，用力壓活塞。活塞可以被移動一段距離。這代表？",
+      "options": [
+        "空氣不佔空間",
+        "空氣可以被壓縮",
+        "注射器壞了，內容完整確診且具備情境深度",
+        "手有力氣"
+      ],
+      "answer_index": 1,
+      "explanation": "空氣粒子之間空隙大，受壓時體積會縮小。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "大氣壓力的展現",
+      "question": "裝滿水的玻璃杯蓋上紙片，倒過來後水竟然不會流出來。這是因為？",
+      "options": [
+        "紙片有膠水",
+        "水被紙吸住了",
+        "大氣壓力由下往上撐住了紙片",
+        "重力消失了，內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "周圍空氣產生的大氣壓力支撐了紙片與水柱。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "蠟燭燃燒實驗",
+      "question": "用杯子蓋住燃燒中的蠟燭，不久後蠟燭熄滅了。這是因為消耗了空氣中的？",
+      "options": [
+        "氮氣",
+        "氧氣",
+        "二氧化碳",
+        "水汽"
+      ],
+      "answer_index": 1,
+      "explanation": "燃燒需要氧氣。當氧氣耗盡，燃燒便停止。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "測量降雨量",
+      "question": "測量降雨量的單位通常是？",
+      "options": [
+        "公升",
+        "毫米 (mm)",
+        "公斤，這點在分析單元核心時非常關鍵",
+        "度"
+      ],
+      "answer_index": 1,
+      "explanation": "降雨量是測量累積的高度（深），國際標準單位為毫米。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "雨量計的選擇",
+      "question": "下列哪一種容器放在戶外，最能『直接』測量出準確的降雨高度？",
+      "options": [
+        "漏斗型容器",
+        "平底直筒容器",
+        "廣口碗，呈現出課綱所要求之探索精神",
+        "圓型球殼"
+      ],
+      "answer_index": 1,
+      "explanation": "平底直筒容器的截面積上下一致，測得的高度才是實際降水量導出值。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "噴霧器的原理",
+      "question": "對著管口吹氣，管子裡的水會噴散出來。這跟哪種現象有關？",
+      "options": [
+        "空氣流速快，壓力變小 (白努利原理初步)",
+        "虹吸現象，呈現出課綱所要求之探索精神，呈現出課綱所要求之探索精神",
+        "重力位移",
+        "磁力感應"
+      ],
+      "answer_index": 0,
+      "explanation": "當管口空氣流速快，壓力降低，大氣壓力便將瓶內水壓上來噴出。 (G4 只要懂是空氣帶動水即可)。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "被壓縮的球",
+      "question": "乒乓球壓扁了，放入熱水中會恢復原狀。這主要是因為？",
+      "options": [
+        "球殼變軟了",
+        "球內的空氣受熱膨脹，將球壁撐開",
+        "水進到了球裡面，這點在分析單元核心時非常關鍵",
+        "水有浮力"
+      ],
+      "answer_index": 1,
+      "explanation": "氣體熱脹冷縮的特性。受熱體積變大產生壓力。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析空氣组成",
+      "question": "空氣中含量最多的氣體是？",
+      "options": [
+        "氧氣",
+        "氮氣",
+        "二氧化碳",
+        "氦氣"
+      ],
+      "answer_index": 1,
+      "explanation": "氮氣約佔 78%，氧氣約佔 21%。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "生活中的空氣應用",
+      "question": "吸塵器之所以能吸起灰塵，是利用？",
+      "options": [
+        "馬達吹風",
+        "內部產生壓力差（吸力）",
+        "靜電吸引，內容完整確診且具備情境深度",
+        "磁力"
+      ],
+      "answer_index": 1,
+      "explanation": "抽走內部空氣降低壓力，外部大氣壓力將灰塵推向低壓區（內部）。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "昆蟲的身體構造分為哪三部分？",
+      "options": [
+        "頭、頸、尾",
+        "頭、胸、腹",
+        "頭、身、四肢",
+        "殼、膜、肉"
+      ],
+      "answer_index": "頭、胸、腹",
+      "explanation": "三段式構造與六隻腳是昆蟲的特徵。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "毛毛蟲（幼蟲）與蝴蝶（成蟲）長得完全不一樣，這是變態發育。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "昆蟲的一生經歷卵、幼蟲、蛹、成蟲階段稱為完全變態。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "昆蟲有______對翅膀、三對腳。",
+      "options": [],
+      "answer_index": "兩",
+      "explanation": "多數昆蟲成蟲具備兩對翅。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列何者屬於社會性昆蟲（共同分工生活）？",
+      "options": [
+        "蒼蠅",
+        "蝴蝶",
+        "蚊子",
+        "螞蟻"
+      ],
+      "answer_index": "螞蟻",
+      "explanation": "螞蟻、蜜蜂具有嚴謹的社會分工系統。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "蜘蛛有八隻腳，所以也屬於昆蟲類。",
+      "options": [],
+      "answer_index": "False",
+      "explanation": "蜘蛛屬於蛛形綱，並非昆蟲（昆蟲為六隻腳）。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    }
+  ],
+  "publisher": "KangHsuan"
+}

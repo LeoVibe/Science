@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L1",
+    "order": 1,
+    "title": "Hello!"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Hello, I'm Pam. B: ______, Pam. I'm Sam.",
+      "options": [
+        "Goodbye",
+        "Hi",
+        "Thank you",
+        "No"
+      ],
+      "answer_index": null,
+      "explanation": "Hello 與 Hi 是互相對應的非正式打招呼方式。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'I am' and 'I'm' mean the same thing.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "I'm 是 I am 的縮寫形式。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Nice to meet you. B: Nice to meet you, ______.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "回答對方的 Nice to meet you 時，通常會在句尾加上 too（也）。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "When you meet someone for the first time, you say:",
+      "options": [
+        "How old are you?",
+        "What's this?",
+        "Good-bye.",
+        "Nice to meet you."
+      ],
+      "answer_index": null,
+      "explanation": "初次見面最得體的話是 Nice to meet you（很高興見到你）。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Hello! B: ______",
+      "options": [
+        "I'm a girl.",
+        "It's a cat.",
+        "Hello!",
+        "No, I am Sam."
+      ],
+      "answer_index": null,
+      "explanation": "直接回應對方的打招呼。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "NanYi"
+}

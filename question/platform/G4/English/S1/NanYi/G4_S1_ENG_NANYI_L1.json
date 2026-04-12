@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What time is it? B: It ______ four o'clock.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "回答時間使用單數 be 動詞 is。",
+      "answer_index": "is",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "do"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "The sentence 'It's time for bed' means you should go to sleep now.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "It's time for... 用於提醒該做某事的時間到了。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What time is it? B: It's 10:______. (10:15)",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "15 的英文是 fifteen。",
+      "answer_index": "fifteen",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: It's 12:30. Let's have ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "12:30 通常是午餐時間。",
+      "answer_index": "lunch",
+      "options": [
+        "a shower",
+        "dinner",
+        "lunch",
+        "breakfast"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Excuse me. ______ is it? B: It's nine o'clock.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "詢問時間的固定句型為 What time is it?。",
+      "answer_index": "What time",
+      "options": [
+        "Who",
+        "What time",
+        "What name",
+        "How old"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

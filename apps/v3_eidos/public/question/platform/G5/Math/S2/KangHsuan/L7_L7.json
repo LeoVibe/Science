@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L7",
+    "order": 7,
+    "title": "L7"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "房間空間規劃與收納 (情境 9)",
+      "question": "小光用木板釘了一個長方體的收納箱（有蓋子），長 50 公分、寬 40 公分、高 30 公分。請問這個收納箱的外部表面積是多少平方公分？",
+      "options": [
+        "60000 平方公分",
+        "4700 平方公分",
+        "9400 平方公分",
+        "120 平方公分"
+      ],
+      "answer_index": 2,
+      "explanation": "表面積 = (長×寬 + 寬×高 + 高×長) × 2。50×40 = 2000，40×30 = 1200，30×50 = 1500。2000+1200+1500 = 4700。4700 × 2 = 9400 平方公分。",
+      "commonMisconception": "可能會忘記長方體每個面都有兩個，只把長寬、寬高、長高相加一次得到 4700。或是把表面積與體積公式完全搞混，算成連乘 (60000)。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

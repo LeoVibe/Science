@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L2",
+    "order": 2,
+    "title": "Unit 2 Where Are You Going?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where are you going? B: I'm going to the ______.",
+      "options": [
+        "eating",
+        "play",
+        "sleep",
+        "hospital"
+      ],
+      "answer_index": null,
+      "explanation": "go to the + 地點，hospital (醫院) 是地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "______ is she going?",
+      "options": [
+        "When",
+        "What",
+        "Where",
+        "How"
+      ],
+      "answer_index": null,
+      "explanation": "Where 用來問地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "They are ______ to the bakery.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "be + V-ing 現在進行式。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'Supermarket' means '超級市場'。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "Supermarket 是超級市場。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "We are going to the ______.",
+      "options": [
+        "running",
+        "apple",
+        "park",
+        "fast"
+      ],
+      "answer_index": null,
+      "explanation": "只有 park (公園) 是地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

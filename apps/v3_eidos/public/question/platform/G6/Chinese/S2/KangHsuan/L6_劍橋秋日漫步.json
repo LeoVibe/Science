@@ -1,12 +1,17 @@
 {
-  "publisher": "康軒",
-  "grade": "G6",
-  "semester": "S2",
-  "subject": "Chinese",
-  "lesson_id": "L6",
-  "lesson_title": "劍橋秋日漫步",
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "KangHsuan",
+    "lesson": "L6",
+    "order": 6,
+    "title": "劍橋秋日漫步"
+  },
   "questions": [
     {
+      "taxonomy": "literal",
+      "scenario": "分析遊記散文中的空間布局手法（移步換景）。",
       "question": "【分析散文風格】這篇文章主要運用了哪一種敘事技巧，帶領讀者遊歷劍橋的康河風光？",
       "options": [
         "大量的數據列表與地理座標，讓讀者精確掌握地圖。",
@@ -16,18 +21,13 @@
       ],
       "answer_index": 1,
       "explanation": "「漫步」決定了結構。透過作者的行走，康河、垂柳、草地與建築逐一展開。這是遊記散文最常用的空間布局策略。",
-      "scenario": "分析遊記散文中的空間布局手法（移步換景）。",
       "commonMisconception": "學生可能選[A]，誤將質感細膩的抒情遊記當成功能導向的導覽手冊。",
-      "taxonomy": "literal",
-      "cqi_score": 4.75,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 4.75
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "解析特定修辭（擬人/比喻）對營造「地方精神」的作用。",
       "question": "【解讀修辭意象】文中描述康河的柳樹「如一位沈思的長輩」，這句話主要想營造出什麼樣的校園氛圍？",
       "options": [
         "營造出劍橋校園裡的人都非常老舊、缺乏活力的負面感覺。",
@@ -37,18 +37,13 @@
       ],
       "answer_index": 1,
       "explanation": "「柳」與「長輩/沈思」的連結，是典型的人文想像。它將自然景觀與劍橋數百年的知識傳承進行了美學對位（PIRLS 層次 3）。",
-      "scenario": "解析特定修辭（擬人/比喻）對營造「地方精神」的作用。",
       "commonMisconception": "學生易選[C]，停留於字面擬人化功能的誤讀。",
-      "taxonomy": "inferential",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "辨析散文中「外在環境」與「內在心境」的細微張力。",
       "question": "【分析情感抒發】雖然文中充滿美麗的風景，但作者在某些段落也透露出「異鄉人的孤獨」，其主要依據是什麼？",
       "options": [
         "他抱怨在英國買不到最愛喝的珍珠奶茶，所以感到肚子很餓。",
@@ -58,18 +53,13 @@
       ],
       "answer_index": 1,
       "explanation": "「熱鬧（外界環境）與孤寂（內心世界）」的對比。高品質散文不只有單純的讚美，往往包含主觀心靈的厚度。",
-      "scenario": "辨析散文中「外在環境」與「內在心境」的細微張力。",
       "commonMisconception": "學生容易選[C]，將文學性的「孤獨感」窄化為現實性的「迷路恐懼」。",
-      "taxonomy": "analysis",
-      "cqi_score": 8,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "探討感官摹寫（視覺色彩）在建立「文學真實感」上的貢獻。",
       "question": "【分析視覺層次】作者在描寫劍橋秋色時，大量運用了「金黃」、「鵝黃」、「深褐」等色彩詞彙，這對讀者的閱讀感受有何提升？",
       "options": [
         "這是在教導讀者如何正確地分辨不同的油漆顏色，以便進行裝修。",
@@ -79,18 +69,13 @@
       ],
       "answer_index": 1,
       "explanation": "色彩層次是散文「畫面感」的來源。透過精微的色調分辨，賦予了場景鮮活度與美學價值。",
-      "scenario": "探討感官摹寫（視覺色彩）在建立「文學真實感」上的貢獻。",
       "commonMisconception": "學生可能選[D]，缺乏對「語言精準度」的要求與審美覺察。",
-      "taxonomy": "analysis",
-      "cqi_score": 8,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "跨文本美感聯覺與對位。將現代散文意境與經典古詩詞連結（PIRLS 層次 4）。 ",
       "question": "【跨文本連結】如果要選一首古詩來呼應這篇文章中對於「劍橋秋日」的美學詮釋，哪一句最貼切？",
       "options": [
         "白日依山盡，黃河入海流：展現出波瀾壯闊的氣勢。",
@@ -100,16 +85,10 @@
       ],
       "answer_index": 1,
       "explanation": "「碧雲、黃葉、波」完美對應了康河岸邊林木交映與秋水漣漪的景色。這測驗學生的「美感遷移」能力。",
-      "scenario": "跨文本美感聯覺與對位。將現代散文意境與經典古詩詞連結（PIRLS 層次 4）。 ",
       "commonMisconception": "容易選[A]，只看到「大器」，卻忽略了劍橋那種細膩悠遠的「雅致」。 ",
-      "taxonomy": "evaluative",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

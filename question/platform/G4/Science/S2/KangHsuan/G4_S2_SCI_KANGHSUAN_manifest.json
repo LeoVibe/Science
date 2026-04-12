@@ -1,0 +1,54 @@
+{
+  "id": "G4_S2_SCI_KANGHSUAN",
+  "publisher": "KANGHSUAN",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "SCI",
+  "items": [
+    {
+      "id": "L1",
+      "title": "白天和夜晚的天空",
+      "theme": "",
+      "file": "G4_S2_SCI_KANGHSUAN_L1.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 5.03,
+      "quality": "QL1"
+    },
+    {
+      "id": "L2",
+      "title": "水的移動",
+      "theme": "",
+      "file": "G4_S2_SCI_KANGHSUAN_L2.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 5.13,
+      "quality": "QL1"
+    },
+    {
+      "id": "L3",
+      "title": "昆蟲家族",
+      "theme": "",
+      "file": "G4_S2_SCI_KANGHSUAN_L3.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 5,
+      "quality": "QL1"
+    },
+    {
+      "id": "L4",
+      "title": "自然資源與利用",
+      "theme": "",
+      "file": "G4_S2_SCI_KANGHSUAN_L4.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 4.87,
+      "quality": "QL1"
+    }
+  ],
+  "moduleMetaData": {
+    "total_questions": 60,
+    "blind_tested": 0,
+    "last_updated": "2026-03-26T07:46:19.940Z"
+  }
+}

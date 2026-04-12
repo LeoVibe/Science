@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What's your favorite subject? B: I like ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "English (英文) 是科目。",
+      "answer_index": null,
+      "options": [
+        "cat",
+        "blue",
+        "apple",
+        "English"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "Her favorite ______ is Music.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "Music (音樂) 是科目 subject。",
+      "answer_index": null,
+      "options": [
+        "sport",
+        "subject",
+        "fruit",
+        "animal"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "My favorite subject is ______ (社會).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "社會科是 Social Studies。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'PE' means '體育課'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "explanation": "PE (Physical Education) 是體育。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "Do you like ______?",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "Art (美術) 是科目，符合 favorite subject 的主題。",
+      "answer_index": null,
+      "options": [
+        "Art",
+        "red",
+        "car",
+        "dog"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

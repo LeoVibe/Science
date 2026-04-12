@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「月光下」描寫的氛圍主要給人什麼樣的感受？",
       "options": [
         "太陽很大、非常耀眼",
@@ -19,32 +19,37 @@
         "熱熱鬧鬧、充滿噪音",
         "寧靜、柔和且充滿詩意的情調"
       ],
-      "answer": "寧靜、柔和且充滿詩意的情調",
+      "answer_index": "寧靜、柔和且充滿詩意的情調",
       "explanation": "月光與日光不同，其文學調性通常與安靜、思念或夢幻連結。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中透過月光照在大地上的銀白色澤，比喻大地像是披上了一層薄紗。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "運用譬喻法生動呈現月光的視覺美感。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "在月光下漫步，容易讓人的心靈放鬆，並勾起對家鄉或______的思念。",
-      "answer": "親人、朋友或遠方",
+      "options": [],
+      "answer_index": "親人、朋友或遠方",
       "explanation": "傳統文學中「月」常與思鄉連結。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼作者特別強調「月光下」的萬物都很「安靜」？",
       "options": [
         "因為大家都在睡覺",
@@ -52,14 +57,15 @@
         "這是一個無聲的世界",
         "為了凸顯那種沉靜的、觀察入微的美感與心靈的平和"
       ],
-      "answer": "為了凸顯那種沉靜的、觀察入微的美感與心靈的平和",
+      "answer_index": "為了凸顯那種沉靜的、觀察入微的美感與心靈的平和",
       "explanation": "安靜是一種文學背景，能放大讀者的感官體驗。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想傳達的生活美學是？",
       "options": [
         "晚上要多吃宵夜",
@@ -67,10 +73,12 @@
         "天天都要賞月",
         "細心體察大自然微小的變化，享受慢活與美感生活"
       ],
-      "answer": "細心體察大自然微小的變化，享受慢活與美感生活",
+      "answer_index": "細心體察大自然微小的變化，享受慢活與美感生活",
       "explanation": "建立學生的美感素養與定力。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -1,16 +1,17 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Science",
     "publisher": "NanYi",
     "lesson": "L5",
+    "order": 5,
     "title": "植物的繁殖"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "植物進行「有性生殖（Sexual Reproduction）」時，雄蕊的花粉傳到雌蕊的柱頭。這個「傳粉（Pollination）」過程的建設性本質是？",
       "options": [
         "讓花朵變得很忙碌",
@@ -18,14 +19,15 @@
         "為了要吸引蝴蝶來玩",
         "這是一種物理性的碰撞運動"
       ],
-      "answer": "「基因的多樣化（Genetic Diversity）」：透過遺傳重組，增加後代生存的韌度（Robustness）以因應環境變遷",
+      "answer_index": null,
       "explanation": "遺傳的隨機性提升了生物系統的生存競爭力。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
     },
     {
-      "id": "2",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "有些植物的花朵顏色鮮艷並帶有花蜜，其在進化系統中的「建設性誘因」是？",
       "options": [
         "為了要讓人拍照好看",
@@ -33,14 +35,15 @@
         "為了要展示它的財富",
         "花朵太無聊了所以變漂亮"
       ],
-      "answer": "「跨物種協作（Inter-species Cooperation）」：利用外界媒物（昆蟲、鳥類）的高移動力來完成基因傳遞",
+      "answer_index": null,
       "explanation": "協作是自然界資源獲取最高效的路徑。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "3",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "有些植物利用「營養器官（根、莖、葉）」進行繁殖。這種「無性生殖」在演化上的建設性優勢是？",
       "options": [
         "因位它沒有花",
@@ -48,23 +51,26 @@
         "為了要省去換衣服的時間",
         "這只是備用的方案"
       ],
-      "answer": "「產能效率與精準複製（Efficiency and Consistency）」：在穩定環境中能以最快速度擴張勢力範圍",
+      "answer_index": null,
       "explanation": "複製（Cloning）是快速佔領棲地的有效低成本方案。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "4",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「孢子繁殖（如蕨類）」與「種子繁殖」的根本差異之一，在於後者具備了更先進的「能源儲存（營養（胚乳））」與保護（種皮）結構。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "種子（Seeds）是植物界高度集成的生命建設模組。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "植物種子具備「翅膀、倒鉤、或是厚皮」。這些結構反映出的「物流管理（Logistics）」邏輯是？",
       "options": [
         "隨便亂飛",
@@ -72,14 +78,15 @@
         "為了要裝飾自己",
         "沒什麼意義"
       ],
-      "answer": "「擴散範圍的最大化（Dispersion Strategy）」：降低與親本競爭資源的機率，尋找新的建設棲地",
+      "answer_index": null,
       "explanation": "跨區域分佈（Dispersion）能有效迴避單一棲點的滅絕風險。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "6",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "有些種子需要「經過火燒（如某些松木）」或「經過鳥類消化道」才能發芽。這種設計的建設性防呆機制在於？",
       "options": [
         "這只是運氣不好",
@@ -87,23 +94,26 @@
         "為了要讓種子變強壯",
         "種子在開玩笑"
       ],
-      "answer": "「環境時序的精確觸發（Environmental Trigger）」：確保種子在資源釋放（如火災後養分豐饒）的最優時機甦醒",
+      "answer_index": null,
       "explanation": "休眠（Dormancy）是跨越環境劣境的時間工程建設。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "7",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "植物繁殖技術（如扦插、嫁接）被人類利用，這屬於「仿生建設（Biomimetic Construction）」，將生物的天賦應用於糧食安全。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "科學文明的進程往往始於對生命邏輯的精準模仿。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
     },
     {
-      "id": "8",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "觀察植物繁殖的一生，你覺得它的「資源配置（Resource Allocation）」邏輯最像什麼？",
       "options": [
         "及時行樂",
@@ -111,14 +121,15 @@
         "每天都在混日子",
         "只為了照顧自己"
       ],
-      "answer": "「建設性儲蓄與長期投資」：在春夏季採集能量（光合作用），並投入大量成本在下一代的基因載體（果實）上",
+      "answer_index": null,
       "explanation": "生命延續需要跨代的能量規劃。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "9",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「被子植物（開花植物）」相較於「裸子植物（松柏等）」，具備「果實」的建設性價值是？",
       "options": [
         "為了要更好吃",
@@ -126,23 +137,26 @@
         "顏色更豐富",
         "這是一種多餘的負荷"
       ],
-      "answer": "「雙重保障管理」：一方面保護內部的種子發育，另一方面誘引生物協助搬運配送",
+      "answer_index": null,
       "explanation": "構造的複雜化往往是為了增加功能性的疊加（Redundancy）。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "10",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "每一顆微小的種子內部，都已經預載（Pre-loaded）了一套完整的生命建設說明書（DNA）與初期行動電力（儲存養分）。 ",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "種子是生物工程中最極致的小型化與高集成產物。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
     },
     {
-      "id": "11",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "透過學習植物繁殖，我們對「失敗（如發芽後凋謝）」最具建設性的教育解讀是？",
       "options": [
         "這顆植物太弱了、沒救了",
@@ -150,10 +164,12 @@
         "運氣不好而已",
         "植物不努力"
       ],
-      "answer": "這是一場「機率遊戲下的試錯（Optimization through trial）」：生物會產生大量個體來抵銷死亡風險，確保族群建設不中斷",
+      "answer_index": null,
       "explanation": "微觀的凋零是為了宏觀系統的穩定延續（Sustainability）。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

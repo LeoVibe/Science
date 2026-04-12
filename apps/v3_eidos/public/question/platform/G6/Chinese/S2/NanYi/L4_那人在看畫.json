@@ -1,12 +1,17 @@
 {
-  "publisher": "南一",
-  "grade": "G6",
-  "semester": "S2",
-  "subject": "Chinese",
-  "lesson_id": "L4",
-  "lesson_title": "那人在看畫",
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L4",
+    "order": 4,
+    "title": "那人在看畫"
+  },
   "questions": [
     {
+      "taxonomy": "inferential",
+      "scenario": "解析敘事視角（Observer's observer）對藝術鑑賞深度的提升功能。",
       "question": "【分析文章視角】這篇文章的題目是「那人在看畫」，為什麼作者不直接寫「看畫」，而要強調「那人」？",
       "options": [
         "因為作者不認識那個人，所以只能用「那人」來代稱。",
@@ -16,18 +21,13 @@
       ],
       "answer_index": 1,
       "explanation": "這是一篇關於「看別人怎麼看（觀察的觀察）」的文章。別人的投入（那人）成為了作者理解畫作深度的一面鏡子，展現了共感的過程。",
-      "scenario": "解析敘事視角（Observer's observer）對藝術鑑賞深度的提升功能。",
       "commonMisconception": "學生易選[A]，停留在字面稱呼的層次，忽略了文學性的意圖。",
-      "taxonomy": "inferential",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "解析具象動詞在描述「心理沈浸」狀態時的文學張力。",
       "question": "【解讀人物神態】文中描述那人看畫時「整個人彷彿鑲嵌進畫布裡了」，這句話主要在形容什麼樣的心理狀態？",
       "options": [
         "形容那人的視力非常不好，必須要貼在畫布上才看得清楚內容。",
@@ -37,18 +37,13 @@
       ],
       "answer_index": 1,
       "explanation": "「鑲嵌」是一個強而有力的動詞。它形象化了「沈浸式體驗（Flow）」，強調精神與藝術作品的深度融合。",
-      "scenario": "解析具象動詞在描述「心理沈浸」狀態時的文學張力。",
       "commonMisconception": "學生常依據字面物理意義選[A]，而無法完成「專注力」的象徵推論。",
-      "taxonomy": "inferential",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "評估散文在「知識傳遞」與「美感體驗」之間的寫作選擇及其效果。",
       "question": "【分析段落功能】文中並未詳盡介紹畫作的派別與價格，反而花了大量篇幅寫那人的眼光。這種寫法有什麼優點？",
       "options": [
         "因為作者對藝術一竅不通，所以只好改寫人的外貌來混充字數。",
@@ -58,18 +53,13 @@
       ],
       "answer_index": 1,
       "explanation": "藝術的真諦在於「感悟」。放棄科普式的知識介紹，轉向現象學式的感官描寫，更貼近美感教育的本質。",
-      "scenario": "評估散文在「知識傳遞」與「美感體驗」之間的寫作選擇及其效果。",
       "commonMisconception": "學生易選[D]，反映出對寫作動機的小看，而未看見這種策略背後的「人文關懷」。",
-      "taxonomy": "evaluative",
-      "cqi_score": 6,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "提煉文本中蘊含的「真賞」定義（PIRLS 層次 4）。",
       "question": "【評估藝術的定義】根據全文所述，什麼才能稱得上是「真正的藝術欣賞」？",
       "options": [
         "能背出畫家的生年、死因以及這幅畫在拍賣市場上的最高價格。",
@@ -79,18 +69,13 @@
       ],
       "answer_index": 1,
       "explanation": "本文否定了「工具化/社交化」的欣賞，推選「內省、感應」式的純粹體驗。這能引導學生建立正確的審美觀。",
-      "scenario": "提煉文本中蘊含的「真賞」定義（PIRLS 層次 4）。",
       "commonMisconception": "當今數位世代學生極易選[D]，需透過本文進行「數位疲勞與實體美感」的對位教育。",
-      "taxonomy": "evaluative",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 7.5
     },
     {
+      "taxonomy": "applied",
+      "scenario": "將文學意境轉譯為電影鏡頭語言，測驗對「情感焦點」的掌握能力。",
       "question": "【跨領域連結】如果這篇文章要改編為一支短片，導演最應該強化哪一個部分的畫面？",
       "options": [
         "那人的微表情與畫作色彩光影的交織感。",
@@ -100,16 +85,10 @@
       ],
       "answer_index": 0,
       "explanation": "短片的靈魂應在於「專注的張力」。[A] 選項精確抓住了「觀者與物」的互動核心。",
-      "scenario": "將文學意境轉譯為電影鏡頭語言，測驗對「情感焦點」的掌握能力。",
       "commonMisconception": "容易選[C]，誤以為「製造衝突」就是改編，而忽略了原作「純粹靜謐」的基調。",
-      "taxonomy": "applied",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 7.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

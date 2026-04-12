@@ -5,66 +5,36 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1",
+      "id": "L1",
       "title": "地球的夥伴-日月星辰",
-      "file": "Sci1_地球的夥伴-日月星辰.json",
-      "count": 5
+      "file": "L1_地球的夥伴-日月星辰.json",
+      "count": 1
     },
     {
-      "id": "Sci1",
-      "title": "水生生物",
-      "file": "Sci1_水生生物.json",
-      "count": 5
-    },
-    {
-      "id": "Sci2",
+      "id": "L2",
       "title": "光的現象",
-      "file": "Sci2_光的現象.json",
-      "count": 5
+      "file": "L2_光的現象.json",
+      "count": 1
     },
     {
-      "id": "Sci2",
-      "title": "水中世界",
-      "file": "Sci2_水中世界.json",
-      "count": 5
-    },
-    {
-      "id": "Sci3",
+      "id": "L3",
       "title": "光的特性與應用",
-      "file": "Sci3_光的特性與應用.json",
-      "count": 5
+      "file": "L3_光的特性與應用.json",
+      "count": 1
     },
     {
-      "id": "Sci3",
-      "title": "聲音樂園",
-      "file": "Sci3_聲音樂園.json",
-      "count": 5
-    },
-    {
-      "id": "Sci3",
-      "title": "電路的連接",
-      "file": "Sci3_電路的連接.json",
-      "count": 5
-    },
-    {
-      "id": "Sci4",
+      "id": "L4",
       "title": "神奇的電力",
-      "file": "Sci4_神奇的電力.json",
-      "count": 5
-    },
-    {
-      "id": "Sci4",
-      "title": "電路的連接",
-      "file": "Sci4_電路的連接.json",
-      "count": 5
+      "file": "L4_神奇的電力.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 6.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

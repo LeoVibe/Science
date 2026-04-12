@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "四則混合運算實務",
+      "question": "【翰林 U1：小數與分數計算】計算 $3.6 \\div (\\frac{4}{5} + 0.4)$。請問結果應為何？",
+      "options": [
+        "4",
+        "3.6",
+        "2.5",
+        "3"
+      ],
+      "answer_index": 3,
+      "explanation": "計算順序：括號優先。$\\frac{4}{5} = 0.8$；$0.8 + 0.4 = 1.2$；$3.6 \\div 1.2 = 3$。誘答設計針對括號忽略或小數轉換誤差（驗證：R3 文獻 01）。",
+      "commonMisconception": "括號優先權誤讀、分數小數互換誤差",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "基準量計算：比值應用",
+      "question": "【翰林 U3：基準量與比較量】甲數是 180，乙數是甲數的 $5/6$。請問乙數是多少？",
+      "options": [
+        "150",
+        "180",
+        "216",
+        "30"
+      ],
+      "answer_index": 0,
+      "explanation": "乙數 = $180 \\times 5/6 = 150$。誘答 B 為 $180 \\div 5/6$；誘答 C 為 $180 \\times (1 - 5/6)$。測試學生對「比值」與「基準量乘法」的正確映射。",
+      "commonMisconception": "乘除運算方向誤判",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "速率應用：相遇問題",
+      "question": "【翰林 U7：怎樣解題 (相遇問題)】阿強與小美相距 2400 公尺，阿強速率 70 公尺/分，小美速率 50 公尺/分。兩人同時「相對而行」，幾分鐘後會相遇？",
+      "options": [
+        "24 分鐘",
+        "120 分鐘",
+        "30 分鐘",
+        "20 分鐘"
+      ],
+      "answer_index": 3,
+      "explanation": "相對而行總速率 = $70 + 50 = 120$ 公尺/分。相遇時間 = $2400 \\div 120 = 20$ 分鐘。誘答針對「同向用差」的混淆或除數計算誤差。",
+      "commonMisconception": "相對與同向運動速度運算符號混淆",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幾何專題：三角柱表面積",
+      "question": "【翰林 U4：柱體表面積】一個底面是直角三角形（底 6 公分、高 8 公分、斜邊 10 公分）且柱高 15 公分的三角柱。請問其表面積為何？",
+      "options": [
+        "240 平方公分",
+        "48 平方公分",
+        "408 平方公分",
+        "360 平方公分"
+      ],
+      "answer_index": 2,
+      "explanation": "兩底面積 = $(6 \\times 8 \\div 2) \\times 2 = 48$。側面積 = $(6+8+10) \\times 15 = 24 \\times 15 = 360$。總表面積 = $48 + 360 = 408$。誘答 B 為只算側面積；誘答 C 為柱高誤乘斜邊。",
+      "commonMisconception": "漏算底面面積、側面積展開長計算錯誤",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "應用題：工作率計算",
+      "question": "【翰林 U7：工程問題】一項任務甲做需 20 小時，乙做需 30 小時。兩人合作時，每小時的工作率（工作佔全體的比例）是多少？",
+      "options": [
+        "1/50",
+        "1/10",
+        "1/12",
+        "1/25"
+      ],
+      "answer_index": 2,
+      "explanation": "每小時工作率 = $1/20 + 1/30 = 3/60 + 2/60 = 5/60 = 1/12$。誘答 B 為直接相加分母（典型分數加法迷思）。本題為銜接國中代數的核心能力。",
+      "commonMisconception": "分數加法分母直接相加迷思",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "速率比較：秒速轉時速",
+      "question": "【翰林 U2：速率與生活】獵豹奔跑速率約 30 公尺/秒，瞪羚奔跑速率約 90 公里/時。請問這場追逐中誰的速率較快？",
+      "options": [
+        "無法比較，因為公尺與公里不能放在同一個句子裡",
+        "獵豹 (每小時 108 公里)",
+        "瞪羚 (每小時 90 公里)",
+        "兩者一樣快"
+      ],
+      "answer_index": 1,
+      "explanation": "獵豹時速 = $30 \\times 3600 \\div 1000 = 108$ 公里/時。108 > 90。選項 A 正確判斷單位縮放。此題測驗單位換算的物理直覺（驗證：三方檢索結果）。",
+      "commonMisconception": "單位級距認知缺失",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "HanLin"
+}

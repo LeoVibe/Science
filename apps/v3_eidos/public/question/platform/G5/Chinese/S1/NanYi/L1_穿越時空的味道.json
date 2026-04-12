@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「穿越時空的味道」中，作者主要用什麼來連結過去與現在的情感？",
       "options": [
         "老房子",
@@ -19,32 +19,37 @@
         "某種特定的家常菜（如：紅燒肉或醬油）",
         "舊衣服"
       ],
-      "answer": "某種特定的家常菜（如：紅燒肉或醬油）",
+      "answer_index": null,
       "explanation": "嗅覺與味覺往往是人類情感記憶最強大的觸發點。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者認為，最令人懷念的味道往往不是餐廳的名菜，而是家人親手製作、充滿愛的味道。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這是本課探討親情與文化傳承的核心。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中所提到的味道，如同是一條無形的線，將作者與______跨越時空連結在一起。",
-      "answer": "長輩、祖先、故鄉或過去",
+      "options": [],
+      "answer_index": null,
       "explanation": "運用譬喻法說明傳統味道的傳承意義。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼說這種味道可以「穿越時空」？",
       "options": [
         "這是一個科幻故事",
@@ -52,14 +57,15 @@
         "透過一代傳一代的口味與記憶，那份情感在不同時代間延續著",
         "因為它是古代流傳下來的秘方"
       ],
-      "answer": "透過一代傳一代的口味與記憶，那份情感在不同時代間延續著",
+      "answer_index": null,
       "explanation": "強調代際間的傳承與精神連結。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想傳達的主旨是？",
       "options": [
         "味道越重越好吃",
@@ -67,10 +73,12 @@
         "我們要學會如何開餐廳",
         "多去參加美食比賽"
       ],
-      "answer": "珍惜與家人共同擁有的記憶與那份平凡而珍貴的愛",
+      "answer_index": null,
       "explanation": "從感官經驗昇華至親情與文化的價值觀。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

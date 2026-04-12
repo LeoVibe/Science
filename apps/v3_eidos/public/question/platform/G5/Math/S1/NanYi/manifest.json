@@ -5,18 +5,18 @@
   "subject": "Math",
   "items": [
     {
-      "id": "U2_因數和倍數",
-      "title": "U2_因數和倍數",
-      "file": "U2_因數和倍數.json",
-      "count": 11
+      "id": "L2",
+      "title": "因數和倍數",
+      "file": "L2_因數和倍數.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 3.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

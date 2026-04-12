@@ -10,8 +10,78 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "老榕樹在校園裡扮演了什麼樣的角色？",
+      "options": [
+        "乘涼、遊戲與共同回憶的守護者",
+        "只是一棵普通的木頭",
+        "危險的障礙物",
+        "擋住陽光的牆"
+      ],
+      "answer_index": null,
+      "explanation": "老樹見證了無數學生的成長，是校園文化的一部分。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "榕樹的氣根垂下來，看起來就像長長的鬍鬚。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "這是榕樹最顯著的外型特徵。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "老榕樹不僅是一棵樹，更像是一位慈祥的______，看著大家長大。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "運用擬人化法表達對大樹的情感。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "為什麼我們要保護老榕樹？",
+      "options": [
+        "因為砍掉很花錢",
+        "因為牠有歷史意義、能淨化空氣並提供休憩空間",
+        "因為牠會結很多水果",
+        "怕被老師罵"
+      ],
+      "answer_index": null,
+      "explanation": "保護老樹就是保護環境與文化。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課想傳達的主旨是什麼？",
+      "options": [
+        "如何攀爬大樹",
+        "榕樹的葉子很多",
+        "感懷自然與校園情感，學會愛護樹木",
+        "介紹榕樹的生長習性"
+      ],
+      "answer_index": null,
+      "explanation": "建立人與自然、人與土地的情感連結。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「我該怎麼辦」中，主角遇到了生活中的小難題，這主要是為了引導我們？",
       "options": [
         "坐著大哭一場",
@@ -19,47 +89,53 @@
         "練習思考、判斷並尋找解決問題的最佳方法",
         "假裝沒看到問題"
       ],
-      "answer": "練習思考、判斷並尋找解決問題的最佳方法",
+      "answer_index": null,
       "explanation": "本課旨在培養學生獨立思考與解決問題（Problem-solving）的能力。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中建議，當我們猶豫不決時，可以試著向長輩或有經驗的人求助，聽聽不同的意見。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "尋求社會支持與多元意見也是解決問題的重要策略。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "解決問題之前，首先要冷靜下來，分析問題產生的______才能對症下藥。",
-      "answer": "原因、由來或關鍵",
+      "options": [],
+      "answer_index": null,
       "explanation": "因果邏輯分析是解決問題的第一步。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼主角在做決定時會感到「難為情」或「遲疑」？",
       "options": [
         "這是一種口頭禪",
         "因為他怕被笑",
         "可能面臨誠實與利益的取捨，或擔心後果不如預期",
-        "因為他太累了"
+        "開為他太累了"
       ],
-      "answer": "可能面臨誠實與利益的取捨，或擔心後果不如預期",
+      "answer_index": null,
       "explanation": "心理衝突是成長中必然會遇到的決策壓力。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課最想建立小孩哪一種時代素養？",
       "options": [
         "聽話的乖小孩",
@@ -67,10 +143,12 @@
         "具備批判性思考與自我負責的生活實踐者",
         "會寫很多字的研究員"
       ],
-      "answer": "具備批判性思考與自我負責的生活實踐者",
+      "answer_index": null,
       "explanation": "建立個體自主性與負責任的態度。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

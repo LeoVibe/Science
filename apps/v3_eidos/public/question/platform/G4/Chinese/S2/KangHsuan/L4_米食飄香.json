@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "下列哪一種是米食製品？",
       "options": [
         "蛋糕",
@@ -19,10 +19,12 @@
         "薯條",
         "麵包"
       ],
-      "answer": "湯圓",
+      "answer_index": "湯圓",
       "explanation": "湯圓是由糯米製成。",
-      "cqi_score": 4.5,
-      "quality_level": "L2"
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

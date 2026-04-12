@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L2",
+    "order": 2,
+    "title": "L2",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Do you like grapes? B: Yes, ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "Do you like...? 的肯定回答是 Yes, I do。",
+      "answer_index": "I do",
+      "options": [
+        "I like",
+        "I can",
+        "I am",
+        "I do"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'He doesn't like lemons.' means '他不喜歡檸檬'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "doesn't like 表示不喜歡。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Does she like cherries? B: No, she ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "Does she...? 的否定回答是 No, she doesn't。",
+      "answer_index": "doesn't",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "I ______ like papayas. They are delicious!",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "really like 表示真的很喜歡。",
+      "answer_index": "really",
+      "options": [
+        "really",
+        "much",
+        "too",
+        "very"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What do you like? B: I like ______ very much.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "kiwis (奇異果) 是水果，符合問句語境。",
+      "answer_index": "kiwis",
+      "options": [
+        "beef",
+        "soup",
+        "juice",
+        "kiwis"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

@@ -1,5 +1,5 @@
 *Created by Cursor at 2026-02-26 23:55*  
-*Last Updated at 2026-02-26 23:55 (Cursor: 補寫派工單，對齊 dojob 規範與已完成交付)*
+*Last Updated at 2026-02-26 23:55 (Cursor: 補寫派工單，對齊 `pj_job`／專案任務準則與已完成交付)*
 
 # JOB-023：Science 子路徑一致化與歷史版本路由修復
 

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "SCI",
+    "publisher": "NANYI",
+    "lesson": "L2",
+    "order": 2,
+    "title": "認識燃燒與生鏽",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "鐵生鏽是一個緩慢的反應過程。根據實驗觀察，以下哪一組條件會讓鐵釘生鏽最快？",
+      "options": [
+        "乾燥的棉花中",
+        "煮沸過的溫水（無空氣）中",
+        "一半接觸水面、一半接觸空氣的環境中",
+        "浸泡在滿滿的沙拉油中"
+      ],
+      "answer_index": null,
+      "explanation": "生鏽需要「水」跟「氧氣」同時存在，接觸面積越大反應越明顯。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "燃燒需要三要素：可燃物、助燃物以及達到燃點。森林大火時「開闢防火巷」是運用了哪一種滅火原理？",
+      "options": [
+        "降溫",
+        "移除可燃物",
+        "隔絕氧氣",
+        "增加濕度"
+      ],
+      "answer_index": null,
+      "explanation": "移除易燃的樹木，讓火勢無法繼續延燒。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

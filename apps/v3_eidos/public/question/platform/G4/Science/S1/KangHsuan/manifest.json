@@ -5,36 +5,36 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1_地表的靜與動",
-      "title": "Sci1_地表的靜與動",
-      "file": "Sci1_地表的靜與動.json",
-      "count": 5
+      "id": "L1",
+      "title": "地表的靜與動",
+      "file": "L1_地表的靜與動.json",
+      "count": 1
     },
     {
-      "id": "Sci2_水生生物與環境",
-      "title": "Sci2_水生生物與環境",
-      "file": "Sci2_水生生物與環境.json",
-      "count": 5
+      "id": "L2",
+      "title": "水生生物與環境",
+      "file": "L2_水生生物與環境.json",
+      "count": 1
     },
     {
-      "id": "Sci3_有趣的聲光現象",
-      "title": "Sci3_有趣的聲光現象",
-      "file": "Sci3_有趣的聲光現象.json",
-      "count": 5
+      "id": "L3",
+      "title": "有趣的聲光現象",
+      "file": "L3_有趣的聲光現象.json",
+      "count": 1
     },
     {
-      "id": "Sci4_好玩的電路",
-      "title": "Sci4_好玩的電路",
-      "file": "Sci4_好玩的電路.json",
-      "count": 5
+      "id": "L4",
+      "title": "好玩的電路",
+      "file": "L4_好玩的電路.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 6.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

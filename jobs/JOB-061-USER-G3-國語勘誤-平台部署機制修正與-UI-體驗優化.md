@@ -10,7 +10,7 @@
 2. [具體步驟二]
 
 ## 變更檔案紀錄
-- `question/platform/G3/Chinese/S2/KangHsuan/Chi_L5.json`
+- `question/platform/G3/Chinese/S2/KangHsuan/Chi_QL5.json`
 - `apps/v3_eidos/public/question/...` (實體化)
 - `.github/workflows/deploy.yml`
 - `apps/v3_eidos/src/components/ProfileSetup.tsx`

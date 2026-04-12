@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「山中寄情」這課通常是透過對什麼的描寫，來寄託作者的情感？",
       "options": [
         "深山林木、雲霧與清幽的自然景觀",
@@ -19,32 +19,37 @@
         "繁華的都市街道",
         "超級市場裡的各色商品"
       ],
-      "answer": "深山林木、雲霧與清幽的自然景觀",
+      "answer_index": null,
       "explanation": "寄情於景，透過自然意象表達心靈的寧靜與感悟。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述「山中方一日，世上已千年」，這是在形容山中生活氛圍的超脫與寧靜。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這是一種時空感對比的浪漫化寫法。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "在那寂靜的山谷中，只有______的聲響與偶爾的鳥鳴，更顯出環境的幽靜。",
-      "answer": "流水、風或樹葉颯颯",
+      "options": [],
+      "answer_index": null,
       "explanation": "以動襯靜，描繪聽覺上的空間感。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者在山中感受到的是一種什麼樣的「情」？",
       "options": [
         "憤世嫉俗的怒氣",
@@ -52,14 +57,15 @@
         "對現代科技的渴望",
         "對土地的眷戀、對自然的敬畏以及心靈的平靜"
       ],
-      "answer": "對土地的眷戀、對自然的敬畏以及心靈的平靜",
+      "answer_index": null,
       "explanation": "這是自然散文的核心情感基調。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "下列哪一種讀後感最符合本課大意？",
       "options": [
         "爬山只是為了運動，看風景不重要",
@@ -67,10 +73,12 @@
         "只有老人材喜歡去山裡",
         "我們應該學會與自然對話，在忙碌的生活中為心靈留一扇看山的窗"
       ],
-      "answer": "我們應該學會與自然對話，在忙碌的生活中為心靈留一扇看山的窗",
+      "answer_index": null,
       "explanation": "生活美育與心靈健康的重要啟發。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "KANGHSUAN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Is it a bird? B: Yes, it ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "Yes/No 問句的簡答要與問句的 be 動詞一致。",
+      "answer_index": null,
+      "options": [
+        "am",
+        "is",
+        "do",
+        "are"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "If someone asks 'Is it a cat?', and it is a dog, the answer should be 'No, it isn't.'",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "否定簡答使用 No, it is not (isn't)。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Is it a ______ (大象)? B: Yes, it is.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "elephant 的意思是大象。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Is it a dog? B: ______. It's a cat.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "因為後面提到 It's a cat，所以前面要先否認。",
+      "answer_index": null,
+      "options": [
+        "Yes, it is",
+        "No, it isn't",
+        "Hello",
+        "I don't know"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "Which animal can fly?",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "鳥類通常具備飛行能力。",
+      "answer_index": null,
+      "options": [
+        "cat",
+        "bird",
+        "dog",
+        "fish"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

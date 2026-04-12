@@ -5,36 +5,36 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1_動物世界",
-      "title": "Sci1_動物世界",
-      "file": "Sci1_動物世界.json",
-      "count": 5
+      "id": "L1",
+      "title": "動物世界",
+      "file": "L1_動物世界.json",
+      "count": 1
     },
     {
-      "id": "Sci2_探索聲光世界",
-      "title": "Sci2_探索聲光世界",
-      "file": "Sci2_探索聲光世界.json",
-      "count": 5
+      "id": "L2",
+      "title": "探索聲光世界",
+      "file": "L2_探索聲光世界.json",
+      "count": 1
     },
     {
-      "id": "Sci3_空氣的組成與反應",
-      "title": "Sci3_空氣的組成與反應",
-      "file": "Sci3_空氣的組成與反應.json",
-      "count": 5
+      "id": "L3",
+      "title": "空氣的組成與反應",
+      "file": "L3_空氣的組成與反應.json",
+      "count": 1
     },
     {
-      "id": "Sci4_神秘的天空",
-      "title": "Sci4_神秘的天空",
-      "file": "Sci4_神秘的天空.json",
-      "count": 5
+      "id": "L4",
+      "title": "神秘的天空",
+      "file": "L4_神秘的天空.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 6.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

@@ -5,9 +5,7 @@ const path = require('path');
 let geminiKey = null;
 let openaiKey = null;
 
-const GLOBAL_ENV_PATH = fs.existsSync(path.resolve(__dirname, '../../ApiKeys.cfg')) 
-    ? path.resolve(__dirname, '../../ApiKeys.cfg') 
-    : path.resolve(__dirname, '../../Global_API_Keys.txt');
+const GLOBAL_ENV_PATH = path.resolve(__dirname, '../../ApiKeys.cfg');
 
 if (fs.existsSync(GLOBAL_ENV_PATH)) {
     const envFile = fs.readFileSync(GLOBAL_ENV_PATH, 'utf8');

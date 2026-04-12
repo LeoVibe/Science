@@ -5,53 +5,53 @@
   "subject": "Math",
   "items": [
     {
-      "id": "M1",
+      "id": "L1",
       "title": "10000以內的數",
-      "file": "M1_10000以內的數.json",
-      "count": 5
+      "file": "L1_10000以內的數.json",
+      "count": 1
     },
     {
-      "id": "M2",
+      "id": "L2",
       "title": "角與形狀",
-      "file": "M2_角與形狀.json",
-      "count": 5
+      "file": "L2_角與形狀.json",
+      "count": 1
     },
     {
-      "id": "M3",
+      "id": "L3",
       "title": "10000以內的加減",
-      "file": "M3_10000以內的加減.json",
-      "count": 5
+      "file": "L3_10000以內的加減.json",
+      "count": 1
     },
     {
-      "id": "M4",
+      "id": "L4",
       "title": "乘法",
-      "file": "M4_乘法.json",
-      "count": 5
+      "file": "L4_乘法.json",
+      "count": 1
     },
     {
-      "id": "M5",
+      "id": "L5",
       "title": "毫米與數線",
-      "file": "M5_毫米與數線.json",
-      "count": 5
+      "file": "L5_毫米與數線.json",
+      "count": 1
     },
     {
-      "id": "M6",
+      "id": "L6",
       "title": "除法",
-      "file": "M6_除法.json",
-      "count": 5
+      "file": "L6_除法.json",
+      "count": 1
     },
     {
-      "id": "M7",
+      "id": "L7",
       "title": "M9_綜合單元",
-      "file": "M7_M9_綜合單元.json",
-      "count": 5
+      "file": "L7_M9_綜合單元.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "live",
+    "status": "enabled",
     "quality": {
-      "depthScore": 4.2,
-      "accuracyScore": 9.2,
+      "depthScore": 9,
+      "accuracyScore": 9.5,
       "isVerified": true
     }
   }

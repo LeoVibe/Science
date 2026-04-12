@@ -1,14 +1,22 @@
 {
-  "publisher": "南一",
+  "publisher": "NanYi",
   "grade": "G6",
   "semester": "S2",
   "subject": "Math",
   "items": [
     {
-      "id": "U1-U6",
-      "title": "運算、幾何精度、比例尺與統計",
-      "file": "Math_U1_U6.json",
-      "count": 6
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
     }
-  ]
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
 }

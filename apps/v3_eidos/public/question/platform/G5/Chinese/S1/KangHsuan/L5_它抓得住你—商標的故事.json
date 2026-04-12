@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「商標」除了識別功能，它最重要的隱含價值是什麼？",
       "options": [
         "標籤的黏性",
@@ -19,32 +19,37 @@
         "為了讓產品變貴",
         "信用、品牌精神與企業文化"
       ],
-      "answer": "信用、品牌精神與企業文化",
+      "answer_index": null,
       "explanation": "商標承載著消費者對該品質的信任。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "商標的設計通常會結合具備象徵意義的符號或動物，例如「米其林輪胎人」象徵產品的豐厚與安全。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "商標設計是視覺傳達與商業心理學的結合。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "一個成功的商標要讓人在看到時，能立即聯想到該產品的______。",
-      "answer": "特色、服務或形象",
+      "options": [],
+      "answer_index": null,
       "explanation": "聯想力是商標價值的來源。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課介紹商標的故事，主要是想讓我們了解什麼過程？",
       "options": [
         "如何印製貼紙",
@@ -52,14 +57,15 @@
         "法律法規的背誦",
         "創意從發想到實現的傳奇經歷"
       ],
-      "answer": "創意從發想到實現的傳奇經歷",
+      "answer_index": null,
       "explanation": "激發學生的創意觀察與思考。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "我們在生活中應該如何看待商標？",
       "options": [
         "建立正確的消費觀，重視商標背後的品質承諾，而非虛榮感",
@@ -67,10 +73,12 @@
         "商標完全不重要",
         "自己畫一個假商標"
       ],
-      "answer": "建立正確的消費觀，重視商標背後的品質承諾，而非虛榮感",
+      "answer_index": null,
       "explanation": "品格教育與理性消費。",
-      "cqi_score": 5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

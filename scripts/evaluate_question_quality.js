@@ -2,8 +2,8 @@
  * evaluate_question_quality.js
  * 
  * 依據「雙軌品質指標機制 (Dual Quality Metrics)」自動評估題庫 JSON 品質
- * 更新時間：2026-03-24
- * 更新者：Antigravity (Gemini-2.0-Pro-Exp)
+ * 更新時間：2026-04-08
+ * 更新者：Antigravity (Gemini-2.0-Pro-Exp)；JOB-164：修復 gradeCN、國語研究檔遞迴搜尋與三下 KL4 後備
  */
 
 const fs = require('fs');
@@ -24,6 +24,7 @@ function checkResearchSupport(filePath, meta) {
         'Science': '自然', 'SCI': '自然',
         'SocialStudies': '社會', 'SOC': '社會'
     };
+    // 舊版錯誤曾於錯誤訊息使用未定義的 gradeCN；年級顯示應使用 gradeShort（見 gradeShortMap）
     const subjectCN = subjectMap[subject] || subject;
 
     if (!grade || !semester || !subjectCN) {
@@ -49,20 +50,56 @@ function checkResearchSupport(filePath, meta) {
 
     const searchDir = path.join(projectRoot, '課綱研究', subjectCN);
     let outlinePath = null;
+
+    /** 遞迴列出目錄內所有 .md 檔絕對路徑 */
+    function listAllMdFiles(dir, acc = []) {
+        if (!fs.existsSync(dir)) return acc;
+        let entries;
+        try {
+            entries = fs.readdirSync(dir, { withFileTypes: true });
+        } catch {
+            return acc;
+        }
+        for (const e of entries) {
+            const full = path.join(dir, e.name);
+            if (e.isDirectory()) listAllMdFiles(full, acc);
+            else if (e.name.endsWith('.md')) acc.push(full);
+        }
+        return acc;
+    }
+
     if (fs.existsSync(searchDir)) {
-        const files = fs.readdirSync(searchDir);
-        // 支援簡稱（三下）、全名（三年級下學期）、英文代碼（G3_S2）三種風格
-        const match = files.find(f => {
-            if (!f.includes(subjectCN) || !f.includes('發展綱要')) return false;
-            const hasGrade = f.includes(gradeShort) || f.includes(normalizedGrade);
-            const hasSemester = f.includes(semesterShort) || f.includes(semester);
+        const allMd = listAllMdFiles(searchDir);
+        const basenameOk = (base) => {
+            if (!base.includes(subjectCN)) return false;
+            const hasGrade = base.includes(gradeShort) || base.includes(normalizedGrade);
+            const hasSemester =
+                base.includes(semesterShort) ||
+                base.includes(semester) ||
+                (semester === 'S2' && (base.includes('下') || base.includes('_S2'))) ||
+                (semester === 'S1' && (base.includes('上') || base.includes('_S1')));
             return hasGrade && hasSemester;
-        });
-        if (match) outlinePath = path.join(searchDir, match);
+        };
+        // 優先：檔名含「發展綱要」（多放在 四下/、三上/ 等子資料夾）
+        outlinePath =
+            allMd.find((p) => {
+                const b = path.basename(p);
+                return b.includes('發展綱要') && basenameOk(b);
+            }) || null;
+        // 三下國語目前知識庫無獨立 KL3 發展綱要檔，改用 KL4 原始素材庫支撐研究天花板檢查
+        if (
+            !outlinePath &&
+            normalizedGrade === 'G3' &&
+            semester === 'S2' &&
+            subjectCN === '國語'
+        ) {
+            outlinePath =
+                allMd.find((p) => path.basename(p) === 'KL4_三下_國語_原始研究素材庫.md') || null;
+        }
     }
 
     if (!outlinePath) {
-        return { ceiling: 'QL1', reason: `找不到發展綱要: ${gradeCN}${semesterCN}` };
+        return { ceiling: 'QL1', reason: `找不到發展綱要: ${gradeShort}${semesterShort} ${subjectCN}（已搜尋 ${searchDir}）` };
     }
 
     const content = fs.readFileSync(outlinePath, 'utf8');

@@ -10,8 +10,78 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「擂茶」名稱中的「擂」字代表什麼意思？",
+      "options": [
+        "研磨或打碎",
+        "燙",
+        "洗滌",
+        "倒水"
+      ],
+      "answer_index": null,
+      "explanation": "客家擂茶是利用陶缽將茶葉、花生、芝麻等食材研磨成碎末後沖飲。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "擂茶是客家族群用來招待客人的傳統美食。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "展現了客家人勤儉好客的族群特質。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "製作擂茶需要耐心，要用棍子在______裡不斷旋轉研磨。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "特製的有紋路的陶缽有助於增加研磨效果。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "喝擂茶時，通常還會搭配什麼小點心增加口感？",
+      "options": [
+        "冰淇淋",
+        "巧克力蛋糕",
+        "米香或玄米",
+        "爆米花"
+      ],
+      "answer_index": null,
+      "explanation": "加入米香能增加香氣與飽足感，是傳統喝法。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課想讓學生體驗什麼樣的文化內涵？",
+      "options": [
+        "體現客家文化的樸實、分工合作與待客禮儀",
+        "磨東西很累",
+        "學會如何開茶藝館",
+        "介紹擂茶的價格"
+      ],
+      "answer_index": null,
+      "explanation": "透過飲食文化認識並尊重不同族群。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「昆蟲的保命妙招」主要是在介紹昆蟲如何？",
       "options": [
         "練習飛得更高",
@@ -19,32 +89,37 @@
         "利用天生的保護色、擬態或化學防禦來躲避敵人的獵殺",
         "找好吃的東西吃"
       ],
-      "answer": "利用天生的保護色、擬態或化學防禦來躲避敵人的獵殺",
+      "answer_index": null,
       "explanation": "大自然中昆蟲為了生存演化出各種精巧的防禦機制。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中提到，枯葉蝶長得像枯葉，竹節蟲長得像樹枝，這都是為了「擬態」以保護自己。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "擬態（Mimicry）是昆蟲最著名的保命技術之一。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "有些昆蟲（如：椿象）在遇到危險時會放出難聞的______，讓敵人不敢靠近。",
-      "answer": "氣味、臭氣或液體",
+      "options": [],
+      "answer_index": null,
       "explanation": "化學防禦也是一種有效的生存策略。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者透過這些生動的介紹，主要想讓讀者體會到什麼？",
       "options": [
         "昆蟲很可怕要躲遠一點",
@@ -52,14 +127,15 @@
         "昆蟲都很勇敢",
         "如何在家裡養一隻竹節蟲"
       ],
-      "answer": "大自然的奇妙與生物進化的智慧，培養科學觀察的樂趣",
+      "answer_index": null,
       "explanation": "科學教育與自然觀察的結合。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課以後，我們在校園看見昆蟲時應該採取什麼態度？",
       "options": [
         "把它們踩死",
@@ -67,10 +143,12 @@
         "安靜地觀察，不干擾它們，並尊重所有生命",
         "大聲喊叫讓它們飛走"
       ],
-      "answer": "安靜地觀察，不干擾它們，並尊重所有生命",
+      "answer_index": null,
       "explanation": "建立尊重自然與愛惜生命的正確觀念。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「小女生」主要在描寫主角的心情轉折與什麼？",
       "options": [
         "成長過程中的觀察、體悟與對自我的認同",
@@ -19,32 +19,37 @@
         "她不喜歡上學",
         "她很會做家事"
       ],
-      "answer": "成長過程中的觀察、體悟與對自我的認同",
+      "answer_index": null,
       "explanation": "本課旨在引領學生從自我中心轉向對他人與環境的覺察。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述了小女生平時的生活點滴，展現了孩子純真且豐富的內心世界。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "兒歌或童詩形式的課文常以細膩的生活片段切入。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者透過小女生的視角，發現了生活中許多微小而浪漫的______。",
-      "answer": "驚喜、美好、小事或趣味",
+      "options": [],
+      "answer_index": null,
       "explanation": "培養學生的生活觀察力。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課強調每個人都有獨特的價值，不論男生或女生。這是在傳遞什麼樣的概念？",
       "options": [
         "大家都應該變漂亮",
@@ -52,14 +57,15 @@
         "性別平等與自我價值肯認",
         "男生比較強壯"
       ],
-      "answer": "性別平等與自我價值肯認",
+      "answer_index": null,
       "explanation": "建立正確的性別平等素養教育。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課最想建立讀者哪一種積極的態度？",
       "options": [
         "保持純真、愛護自己，並溫柔地看待這個世界",
@@ -67,10 +73,12 @@
         "要快快長大離開家",
         "只做自己愛做的事"
       ],
-      "answer": "保持純真、愛護自己，並溫柔地看待這個世界",
+      "answer_index": null,
       "explanation": "情感教育與溫柔品格的陶冶。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

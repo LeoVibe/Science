@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L5",
+    "order": 5,
+    "title": "L5"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "規律問題：植樹問題",
+      "question": "【在長 200 公尺的道路一側種樹】每隔 10 公尺種一棵，「兩端都種」。請問一共要種幾棵樹？",
+      "options": [
+        "21 棵",
+        "200 棵",
+        "19 棵",
+        "20 棵"
+      ],
+      "answer_index": 0,
+      "explanation": "規律：兩端都種時，棵數 = 間隔數 + 1。$200 \\div 10 = 20$（間隔數），$20 + 1 = 21$。誘答 B 為漏掉端點，誘答 C 為多減一個。此為經典規律迷思（驗證：R4 綱要/均一教育平台）。",
+      "commonMisconception": "兩端植與一端植公式混淆 (間隔與點的關係)",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圓形圖：百分率轉圓心角",
+      "question": "【關於圓形圖的資料判讀】在一份圓形圖中，「休閒活動」佔了全體的 25%。如果要將其畫成圓形圖，對應的「圓心角」應該是多少度？",
+      "options": [
+        "25 度",
+        "90 度",
+        "360 度",
+        "45 度"
+      ],
+      "answer_index": 1,
+      "explanation": "圓心角計算：$360^{\\circ} \\times 百分率 = 360 \\times 0.25 = 90^{\\circ}$。誘答 B 為直接將百分率當作度數（典型單位混淆迷思）。",
+      "commonMisconception": "百分率與圓心角度數概念混淆",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "怎樣解題：假設法應用",
+      "question": "【探究「雞兔同籠」的解題策略】籠子裡有雞和兔共 10 隻，腳的總數有 32 隻。請問兔子有幾隻？",
+      "options": [
+        "2 隻",
+        "8 隻",
+        "6 隻",
+        "4 隻"
+      ],
+      "answer_index": 2,
+      "explanation": "假設法：若 10 隻都是雞，腳有 $10 \\times 2 = 20$ 隻。少了 $32 - 20 = 12$ 隻。每換一隻兔多 2 隻腳。$12 \\div 2 = 6$ 隻兔。驗算：$6 \\times 4 + 4 \\times 2 = 24 + 8 = 32$。正確。",
+      "commonMisconception": "腳數差對位錯誤、假設對象錯置",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "統計圖表實務：誤差處理",
+      "question": "【關於「圓形圖」的總和檢核】小明在製作圓形圖時，發現各部分的百分率相加等於 99.8%。資深老師應如何引導？",
+      "options": [
+        "可以直接把剩下的 0.2% 塗成黑色，告訴大家那是「幽靈數據」。",
+        "這題錯了，應該重新去街頭訪問一萬個人直到加起來等於 100 為止。",
+        "這代表地球正在縮小，所以百分率也會跟著縮水，不需要處理。",
+        "檢查是否因為四捨五入導致誤差，通常需調整最大項目或尾數，使總和達成 100%。"
+      ],
+      "answer_index": 3,
+      "explanation": "選項 A 是統計繪圖中的正確實務處理原則（驗證：R3 文獻 05）。其餘選項涉及非理性歸因、戲謔假造或無效率的勞動。",
+      "commonMisconception": "統計誤差認知缺失、百分率總和意義不全",
+      "quality_level": "L5",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "規律問題：週邊路徑",
+      "question": "【規律問題：封閉圖形的植樹】在一圈周長 500 公尺的圓形水池旁，每隔 20 公尺種一棵樹。請問一共需要幾棵？",
+      "options": [
+        "25 棵",
+        "26 棵",
+        "50 棵",
+        "24 棵"
+      ],
+      "answer_index": 0,
+      "explanation": "規律：圓形路徑（首尾相接）時，棵數 = 間隔數。$500 \\div 20 = 25$。誘答 B 為套用了直線兩端植公式（+1），誘答 C 為套用了直線兩端不植公式（-1）。",
+      "commonMisconception": "封閉與開放路徑規律混淆",
+      "quality_level": "L5",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖表解讀：度數與比例",
+      "question": "【最後一題：資深老師對「圓形圖」的叮嚀】當一個圓形圖只有兩個項目，且其中一個是 180 度時，這代表？",
+      "options": [
+        "180 度代表項目名稱太長，所以圓形圖被字體壓扁了。",
+        "這證明了圓形圖是可以摺疊起來放在口袋裡的。",
+        "這代表這份圖表是一顆「半熟的蛋」。",
+        "這兩個項目平分了所有數據，各佔 50%。"
+      ],
+      "answer_index": 3,
+      "explanation": "選項 A 提供正確的幾何與數據比例連結（$180/360 = 0.5$）。其餘選項涉及具象化誤解或無理空想。",
+      "commonMisconception": "幾何直覺與比例數據連結失敗",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "KangHsuan"
+}

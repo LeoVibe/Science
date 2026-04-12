@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "學校分組活動",
+      "question": "班上有 36 位學生。如果每 12 人分成一組，共可以分成幾組？",
+      "options": [
+        "3 組",
+        "4 組",
+        "30 組",
+        "12 組"
+      ],
+      "answer_index": 0,
+      "explanation": "36 / 12 = 3。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "超市水果包裝",
+      "question": "工廠有 960 顆柳丁，每 32 顆裝成一籃。共可裝成幾籃？",
+      "options": [
+        "30 籃",
+        "3 籃",
+        "32 籃",
+        "20 籃"
+      ],
+      "answer_index": 0,
+      "explanation": "960 / 32 = 30。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "安排畢業旅行房間",
+      "question": "有 135 位女生參加露營，每頂帳篷限住 12 人。最少需要幾頂帳篷才夠住？",
+      "options": [
+        "11 頂",
+        "12 頂",
+        "13 頂",
+        "10 頂"
+      ],
+      "answer_index": 1,
+      "explanation": "135 / 12 = 11 ... 3。 剩下的 3 人也需要一頂帳篷，所以 11 + 1 = 12 頂。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "平均分配獎學金",
+      "question": "獎學金 800 元平分給 16 位優良學生，每人得幾元？",
+      "options": [
+        "50 元",
+        "40 元",
+        "60 元",
+        "45 元"
+      ],
+      "answer_index": 0,
+      "explanation": "800 / 16 = 50。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "計算每公里耗油",
+      "question": "一輛公車跑 364 公里，共用了 28 公升汽油。這輛公車平均每公升跑多少公里？",
+      "options": [
+        "12 公里",
+        "13 公里",
+        "14 公里",
+        "15 公里"
+      ],
+      "answer_index": 1,
+      "explanation": "364 / 28 = 13。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "練習估商技巧",
+      "question": "計算 741 / 29 時，商的最高位是在哪一位？",
+      "options": [
+        "十位",
+        "個位",
+        "百位",
+        "不一定"
+      ],
+      "answer_index": 0,
+      "explanation": "因為 74 > 29，所以 29 在 74 中可以倍除，商的起始位在十位。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "繩子剩餘長度",
+      "question": "一根 500 公分長的線，剪去每段 45 公分的小段。共可剪幾段？剩幾公分？",
+      "options": [
+        "11 段，剩 5 公分",
+        "10 段，剩 50 公分",
+        "11 段，剩 3 公分",
+        "12 段，不剩"
+      ],
+      "answer_index": 0,
+      "explanation": "500 / 45 = 11 ... 5。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析除法性質",
+      "question": "商是 35，餘數是 8，除數是 14。請問被除數是多少？",
+      "options": [
+        "498",
+        "490",
+        "500",
+        "508"
+      ],
+      "answer_index": 0,
+      "explanation": "14 * 35 + 8 = 490 + 8 = 498。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "影印店收費計算份數",
+      "question": "印一份簡報要 15 元。小強付了 600 元，他印了幾份？",
+      "options": [
+        "40 份",
+        "30 份",
+        "45 份",
+        "50 份"
+      ],
+      "answer_index": 0,
+      "explanation": "600 / 15 = 40。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "體育器材分裝",
+      "question": "有 1,000 個桌球，每 36 個裝一盒。需要裝滿幾盒？最後剩下幾個？",
+      "options": [
+        "27 盒，剩 28 個",
+        "28 盒，剩 27 個",
+        "27 盒，剩 20 個",
+        "26 盒，剩 50 個"
+      ],
+      "answer_index": 0,
+      "explanation": "1000 / 36 = 27 ... 28。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

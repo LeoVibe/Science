@@ -1,4 +1,9 @@
 {
+  "enabledMcpjsonServers": ["makeitdown", "playwright", "github", "task-master", "git"],
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline-test.sh"
+  },
   "hooks": {
     "SessionStart": [
       {

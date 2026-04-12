@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這是一篇改寫自哪本世界著名文學的作品？",
       "options": [
         "《小王子》",
@@ -19,32 +19,37 @@
         "《魯賓遜漂流記》",
         "《哈利波特》"
       ],
-      "answer": "《魯賓遜漂流記》",
+      "answer_index": null,
       "explanation": "描述主角魯賓遜如何在荒島利用智慧與毅力生存並建立秩序的故事。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當一個人在荒島生活，除了獲取食物，最重要的挑戰其實是克服孤獨與恐懼。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "心靈的堅韌比體力的強健有時更為關鍵。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "魯賓遜在島上不僅學會了打獵、畜牧，還能計算時間、寫日記，他自嘲為荒島上的「______」。",
-      "answer": "國王或主宰者",
+      "options": [],
+      "answer_index": null,
       "explanation": "這反映了人類透過勞動改造處境、建立文明的渴望。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中使用「絕處逢生」來形容主角的際遇，這代表？",
       "options": [
         "每天都有人送補給",
@@ -52,14 +57,15 @@
         "在漂亮的風景裡生活",
         "在絕望的情況下找到了生存的機會"
       ],
-      "answer": "在絕望的情況下找到了生存的機會",
+      "answer_index": null,
       "explanation": "人生智慧與強大的生命意志。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「荒島上的國王」這個故事帶給我們最深刻的教育意義是？",
       "options": [
         "只有運氣好的人才能在荒島活下來",
@@ -67,10 +73,12 @@
         "大家都應該去島上住看看",
         "有錢就能解決島上的一切問題"
       ],
-      "answer": "要學會冷靜、勤奮與動腦筋解決問題，人類有無限的適應能力",
+      "answer_index": null,
       "explanation": "培養學生的生活實踐能力與正向解決問題的態度。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "What Time Is It?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What time is it? B: It is ______ o'clock.",
+      "options": [
+        "sad",
+        "two",
+        "big",
+        "red"
+      ],
+      "answer_index": "two",
+      "explanation": "時間問答中使用數字。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "In English, we say 'It's one o'clock' when the time is 1:00.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "o'clock 用於整點的說法。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What time is it? B: It's ______ (三點三十分).",
+      "options": [],
+      "answer_index": "three thirty",
+      "explanation": "直接讀出時與分來表示時間。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What time is it? B: It's 12:00. It's time for ______.",
+      "options": [
+        "sleeping",
+        "dinner",
+        "breakfast",
+        "lunch"
+      ],
+      "answer_index": "lunch",
+      "explanation": "12:00 通常是吃午餐（lunch）的時間。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is correct?",
+      "options": [
+        "It's five o'clock.",
+        "It's o'clock five.",
+        "It is five time.",
+        "Is it five it is."
+      ],
+      "answer_index": "It's five o'clock.",
+      "explanation": "正確的時間陳述語法。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "HanLin"
+}

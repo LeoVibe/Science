@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「敏銳觀察」主要告訴我們，科學發現或藝術創作往往源自於？",
       "options": [
         "對生活細節的用心觀察與思考",
@@ -19,32 +19,37 @@
         "天生的運氣",
         "書本上的死知識"
       ],
-      "answer": "對生活細節的用心觀察與思考",
+      "answer_index": null,
       "explanation": "敏銳的觀察力是進步與創新的基礎。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中舉出許多名人的例子，證明了「細心觀察」能讓人發現別人看不見的關鍵。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "例如牛頓觀察蘋果落下或拉瓦錫的實驗等。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "觀察不僅是用眼睛看，更要結合______，才能找出事物的因果關係。",
-      "answer": "大腦、思考或分析",
+      "options": [],
+      "answer_index": null,
       "explanation": "看（Look）與觀察（Observe）的層次差別在於大腦的參與。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課建議我們如何培養敏銳的觀察力？",
       "options": [
         "多看電視",
@@ -52,14 +57,15 @@
         "盡量不要想太多",
         "養成隨時記錄、多問為什麼的習慣"
       ],
-      "answer": "養成隨時記錄、多問為什麼的習慣",
+      "answer_index": null,
       "explanation": "好奇心與紀錄習慣是觀察力的養分。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「處處留心皆學問」這句話最符合本課的哪一個主旨？",
       "options": [
         "出國才能增廣見聞",
@@ -67,10 +73,12 @@
         "只要用心觀察，生活周遭隨處都有可以學習的東西",
         "學習是一件辛苦的事"
       ],
-      "answer": "只要用心觀察，生活周遭隨處都有可以學習的東西",
+      "answer_index": null,
       "explanation": "學問並不侷限於課本，而在於對世界的體現。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L7",
+    "order": 7,
+    "title": "L7"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課想透過鹽田美景引導學習？",
+      "options": [
+        "沙漠尋水",
+        "土地愛與美學觀察",
+        "炸藥原料",
+        "開餐廳賺錢"
+      ],
+      "answer_index": 1,
+      "explanation": "土地情懷與產業文化認知。",
+      "commonMisconception": "窄化為純商業或無關科學應用。",
+      "quality_level": "L3",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "松鼠儲食",
+      "question": "為何努力？",
+      "options": [
+        "畏冬乏食",
+        "送禮",
+        "練跑",
+        "玩"
+      ],
+      "answer_index": 0,
+      "explanation": "生存備糧概念。",
+      "commonMisconception": "擬人化娛樂（玩）。",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "池塘蓮色",
+      "question": "何色？",
+      "options": [
+        "黃白",
+        "粉紅白",
+        "紅紫",
+        "藍綠"
+      ],
+      "answer_index": 1,
+      "explanation": "景物細節記憶。",
+      "commonMisconception": "色彩混淆。",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "風箏不起",
+      "question": "下次成功之法？",
+      "options": [
+        "觀察思考",
+        "放棄",
+        "怨天",
+        "哭助"
+      ],
+      "answer_index": 0,
+      "explanation": "問題解決能力教育。",
+      "commonMisconception": "被動依賴或歸因外在。",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分蘋果",
+      "question": "展現？",
+      "options": [
+        "不喜吃",
+        "樂分享",
+        "盼報",
+        "飢餓"
+      ],
+      "answer_index": 1,
+      "explanation": "品格動機分析。",
+      "commonMisconception": "否定喜好。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "木頂材",
+      "question": "材為？",
+      "options": [
+        "鐵皮",
+        "石板",
+        "茅草",
+        "磚瓦"
+      ],
+      "answer_index": 2,
+      "explanation": "建築細節識記。",
+      "commonMisconception": "物理材質混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "熊飽食",
+      "question": "因？",
+      "options": [
+        "備能冬眠",
+        "貪吃",
+        "炫耀",
+        "想夢"
+      ],
+      "answer_index": 0,
+      "explanation": "生物生理邏輯推理。",
+      "commonMisconception": "單純貪吃誤讀。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "兔助龜",
+      "question": "道理？",
+      "options": [
+        "互助不計差",
+        "龜弱",
+        "兔息",
+        "強者厲"
+      ],
+      "answer_index": 0,
+      "explanation": "弱勢關懷價值觀。",
+      "commonMisconception": "崇尚優位論。 ",
+      "quality_level": "L2",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "農夫清晨",
+      "question": "首事？",
+      "options": [
+        "報",
+        "餵禽",
+        "早食",
+        "巡作"
+      ],
+      "answer_index": 1,
+      "explanation": "作息順序定位。",
+      "commonMisconception": "通用早起習慣（早餐）。",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "打破瓶",
+      "question": "應？",
+      "options": [
+        "逃",
+        "怨位",
+        "誠實負擔",
+        "藏"
+      ],
+      "answer_index": 2,
+      "explanation": "責任擔當決斷。",
+      "commonMisconception": "人性恐懼驅動（隱瞞）。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "校服色",
+      "question": "色？",
+      "options": [
+        "綠",
+        "紅",
+        "藍",
+        "白"
+      ],
+      "answer_index": 2,
+      "explanation": "特定信息認證。",
+      "commonMisconception": "視效混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "流星願",
+      "question": "顯示？",
+      "options": [
+        "玩",
+        "信流星盼望",
+        "再見",
+        "怕砸"
+      ],
+      "answer_index": 1,
+      "explanation": "民俗心理對未來之信心。",
+      "commonMisconception": "安全焦慮化。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "狗聲",
+      "question": "聲？",
+      "options": [
+        "嘶",
+        "汪",
+        "喵",
+        "吱"
+      ],
+      "answer_index": 1,
+      "explanation": "生物聲音匹配。",
+      "commonMisconception": "跨物種誤選。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "知識寶庫",
+      "question": "用意？",
+      "options": [
+        "藏",
+        "強調廣博",
+        "值錢",
+        "隨口"
+      ],
+      "answer_index": 1,
+      "explanation": "比喻修辭解析。",
+      "commonMisconception": "字面經濟化。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "淨灘法",
+      "question": "最助？",
+      "options": [
+        "僅撿己",
+        "堆牆",
+        "分類且思減塑",
+        "拍打"
+      ],
+      "answer_index": 2,
+      "explanation": "深層環保策路辨析。",
+      "commonMisconception": "表象環保行為。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "菜園蔬",
+      "question": "兩蔬？",
+      "options": [
+        "椒瓜",
+        "茄",
+        "高麗菜與白蘿蔔",
+        "玉米地"
+      ],
+      "answer_index": 2,
+      "explanation": "名詞具體識記。",
+      "commonMisconception": "同類混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "夜亮蟲",
+      "question": "蟲？",
+      "options": [
+        "蚊",
+        "蝶",
+        "蟬",
+        "螢火蟲"
+      ],
+      "answer_index": 3,
+      "explanation": "生物發光常識識認。",
+      "commonMisconception": "夜間害蟲干擾。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "貓搖尾",
+      "question": "情？",
+      "options": [
+        "無聊",
+        "怕",
+        "怒",
+        "喜興"
+      ],
+      "answer_index": 3,
+      "explanation": "情緒表徵詮釋。",
+      "commonMisconception": "負面情緒投射。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "分任務長",
+      "question": "如何令成員有參感？",
+      "options": [
+        "獨攬",
+        "知情分工",
+        "隨指",
+        "限言"
+      ],
+      "answer_index": 1,
+      "explanation": "團隊管理之公平與民主精神。",
+      "commonMisconception": "組長英雄主義。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "虹色",
+      "question": "數？",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer_index": 3,
+      "explanation": "自然定論識記。",
+      "commonMisconception": "近似數錯誤。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幫母提重",
+      "question": "想？",
+      "options": [
+        "分擔",
+        "獎",
+        "玩",
+        "趁機出"
+      ],
+      "answer_index": 0,
+      "explanation": "家庭情感的回饋與體貼。",
+      "commonMisconception": "物質回報論。 ",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "春日首綻",
+      "question": "花？",
+      "options": [
+        "郁",
+        "櫻",
+        "玟",
+        "向"
+      ],
+      "answer_index": 1,
+      "explanation": "時序植候觀察。",
+      "commonMisconception": "四季名花混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "打掃共任",
+      "question": "深含？",
+      "options": [
+        "提役",
+        "利全體合環",
+        "待直",
+        "媚師"
+      ],
+      "answer_index": 1,
+      "explanation": "群體公共倫理認知。",
+      "commonMisconception": "被動勞動作為任務。 ",
+      "quality_level": "L2",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "遊樂首推",
+      "question": "設？",
+      "options": [
+        "霄",
+        "海",
+        "摩",
+        "旋"
+      ],
+      "answer_index": 0,
+      "explanation": "人氣偏好識標。",
+      "commonMisconception": "定勢思維偏見。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "別祖淚頻回",
+      "question": "示？",
+      "options": [
+        "忘物",
+        "怕歸",
+        "不捨愛",
+        "眼不適"
+      ],
+      "answer_index": 2,
+      "explanation": "深層眷戀表徵。",
+      "commonMisconception": "純生理或事件性解釋。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "溪石態",
+      "question": "態？",
+      "options": [
+        "斑",
+        "苔",
+        "銳",
+        "滑圓"
+      ],
+      "answer_index": 1,
+      "explanation": "流水沖磨自然力结果識記。",
+      "commonMisconception": "環境異質化推斷。 ",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    }
+  ],
+  "publisher": "NanYi"
+}

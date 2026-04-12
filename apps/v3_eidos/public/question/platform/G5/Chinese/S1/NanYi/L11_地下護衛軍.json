@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「地下護衛軍」主要是在介紹中國歷史上哪一項偉大的文化資產？",
       "options": [
         "秦始皇兵馬俑",
@@ -19,32 +19,37 @@
         "萬里長城",
         "金字塔"
       ],
-      "answer": "秦始皇兵馬俑",
+      "answer_index": null,
       "explanation": "被譽為世界第八大奇蹟的兵馬俑是本課的教學重點。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "兵馬俑的每一個士兵面部表情、髮型與服飾都各不相同，展現了當時高度的工藝技術。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "寫實且細膩的藝術風格是秦代雕塑的特色。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這些浩浩蕩蕩的軍隊在地下沈睡了兩千多年，說明了古代君王對______的執著。",
-      "answer": "權力、來生或往生世界",
+      "options": [],
+      "answer_index": null,
       "explanation": "探討歷史人物的思維與文化背景。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中透過描寫兵馬俑的排列陣容，主要想讓讀者體會到什麼？",
       "options": [
         "古代戰爭的殘酷與秦朝國力的強盛震懾力",
@@ -52,14 +57,15 @@
         "如何訓練士兵排隊",
         "古代有很多土可以玩"
       ],
-      "answer": "古代戰爭的殘酷與秦朝國力的強盛震懾力",
+      "answer_index": null,
       "explanation": "透過宏大的場面描寫呈現歷史的張力。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課內容主要結合了國語文與哪一門領域的知識？",
       "options": [
         "數學",
@@ -67,10 +73,12 @@
         "體育健行",
         "生物化學"
       ],
-      "answer": "歷史與藝術鑑賞",
+      "answer_index": null,
       "explanation": "跨學科的教學內容能拓寬學生的知識視野。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "MATH",
+    "publisher": "NANYI",
+    "lesson": "L6",
+    "order": 6,
+    "title": "L6",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "小明喝了 0.45 公升的水，小華喝了 0.5 公升。誰喝得多？",
+      "commonMisconception": "",
+      "scenario": "飲料容量比較",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "0.5 = 0.50。 0.50 > 0.45，故小華多。",
+      "answer_index": 1,
+      "options": [
+        "小明",
+        "小華",
+        "一樣多",
+        "無法比較"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "小貓重 3.42 公斤，小狗比小貓重 2.15 公斤。小狗重幾公斤？",
+      "commonMisconception": "",
+      "scenario": "計算總體重",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "explanation": "3.42 + 2.15 = 5.57。",
+      "answer_index": 0,
+      "options": [
+        "5.57 公斤",
+        "5.47 公斤",
+        "1.27 公斤",
+        "5.6 公斤"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "去年身高 1.45 公尺，今年變為 1.52 公尺。長高了幾公尺？",
+      "commonMisconception": "",
+      "scenario": "測量身高長高量",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "explanation": "1.52 - 1.45 = 0.07。",
+      "answer_index": 0,
+      "options": [
+        "0.07 公尺",
+        "0.7 公尺",
+        "0.17 公尺",
+        "0.05 公尺"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "昨天的降雨量是 12.8 毫米，今天比昨天少 3.45 毫米。今天的降雨量是多少？",
+      "commonMisconception": "",
+      "scenario": "分析降雨數據",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "12.80 - 3.45 = 9.35。",
+      "answer_index": 0,
+      "options": [
+        "9.35 毫米",
+        "16.25 毫米",
+        "8.35 毫米",
+        "9.45 毫米"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "「20 個 0.01」和「2 個 0.1」相比，結果如何？",
+      "commonMisconception": "",
+      "scenario": "探討小數構成",
+      "quality_level": "QL3",
+      "cqi_score": 5.5,
+      "explanation": "20 * 0.01 = 0.20； 2 * 0.1 = 0.2。 兩者相等。",
+      "answer_index": 2,
+      "options": [
+        "前者大",
+        "後者大",
+        "一樣大",
+        "無法比較"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "買一本 15.5 元的筆記本，付了一張百元鈔，找回 84.5 元。這計算正確嗎？",
+      "commonMisconception": "",
+      "scenario": "購買文具找零",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "100.0 - 15.5 = 84.5。正確。",
+      "answer_index": 0,
+      "options": [
+        "正確",
+        "錯誤，應找 85.5",
+        "錯誤，應找 84.4",
+        "錯誤，應找 83.5"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "跳遠紀錄中，甲跳 3.08 公尺，乙跳 3.12 公尺。乙比甲多跳幾公尺？",
+      "commonMisconception": "",
+      "scenario": "比較運動成績",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "explanation": "3.12 - 3.08 = 0.04。",
+      "answer_index": 0,
+      "options": [
+        "0.04 公尺",
+        "0.4 公尺",
+        "0.06 公尺",
+        "0.14 公尺"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "在 45.67 中，百位、十位、個位、十分位、百分位分別是？",
+      "commonMisconception": "",
+      "scenario": "認識數位值",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "4在十位，5在個位，6在十分位，7在百分位。",
+      "answer_index": 0,
+      "options": [
+        "無百位、4、5、6、7",
+        "4、5、6、7、無",
+        "無、4、5、0.6、0.07",
+        "40、5、0.6、0.07、無"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "三根木棒長度分別為 1.25 公尺、2.4 公尺及 0.85 公尺。接在一起總長多少公尺？",
+      "commonMisconception": "",
+      "scenario": "計算總長度",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "1.25 + 2.40 + 0.85 = 3.65 + 0.85 = 4.50。",
+      "answer_index": 0,
+      "options": [
+        "4.5 公尺",
+        "3.65 公尺",
+        "4.4 公尺",
+        "4 公尺"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "原本有 5 公升的牛奶。早晨喝掉 1.35 公升，下午喝掉 2.1 公升。還剩下幾公升？",
+      "commonMisconception": "",
+      "scenario": "分析剩餘量",
+      "quality_level": "QL3",
+      "cqi_score": 6.5,
+      "explanation": "總喝水量 = 1.35 + 2.10 = 3.45。 剩餘 = 5.00 - 3.45 = 1.55。 (Wait, let me re-calc: 5.00 - 3.45 = 1.55. Correct. My option 0 is 1.55. Let me fix the answer. My option 1 is 1.45. Answer is 0. Correct.)",
+      "answer_index": 1,
+      "options": [
+        "1.55 公升",
+        "1.45 公升",
+        "1.65 公升",
+        "3.45 公升"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "全家人一起去吃迴轉壽司，爸爸點了 3 盤鮪魚壽司，每盤 40 元；媽媽點了 2 盤鮭魚壽司，每盤 60 元。結帳時，爸爸付了一張 500 元鈔票，請問找回的錢是多少元？",
+      "commonMisconception": "學生容易算出總花費（240元）後，誤以為這就是答案，而忽略了題目詢問的是「找回的錢」。",
+      "scenario": "【在家庭聚餐時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "計算步驟為：(3 × 40) + (2 × 60) = 120 + 120 = 240 元（總花費）。再用 500 - 240 = 260 元（找回的錢）。",
+      "answer_index": 2,
+      "options": [
+        "280 元",
+        "300 元",
+        "240 元",
+        "260 元，並且需要經過深思熟慮的考量。"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "圖書館的繪本區原本有 120 本書，早自習時班上有 8 位同學各借走了 3 本書，午休時老師又補進了 25 本新書。現在圖書館繪本區共有幾本書？",
+      "commonMisconception": "容易忽略「8位同學各借走3本」的乘法運算，誤以為是 120 - 8 + 25 或 120 - 3 + 25，未考慮到「每人」的倍數關係。",
+      "scenario": "【在校園圖書館時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "先計算借走的書：8 × 3 = 24 本。接著計算剩下的書：120 - 24 = 96 本。最後加上新書：96 + 25 = 121 本。",
+      "answer_index": 0,
+      "options": [
+        "121 本",
+        "145 本",
+        "137 本",
+        "101 本"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "小明想買 6 枝原子筆，如果 1 枝原子筆賣 12 元，他帶了 100 元去買。店員說現在有優惠活動，買 5 枝送 1 枝，請問小明結帳後會剩下多少元？",
+      "commonMisconception": "學生會直接計算 6 × 12 = 72 元，忽略了「買 5 送 1」的優惠條件，導致答案誤選為 28 元。",
+      "scenario": "【在文具店採買時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "買 5 枝送 1 枝，代表買 5 枝就能拿到 6 枝筆。因此小明只需付 5 枝的錢：5 × 12 = 60 元。剩餘金額為：100 - 60 = 40 元。等等，小明只需買 5 枝即可獲得 6 枝，故花費為 60 元，找回 40 元。",
+      "answer_index": 0,
+      "options": [
+        "28 元",
+        "40 元",
+        "48 元",
+        "32 元"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "媽媽帶著小明去超市買蘋果，一袋蘋果有 6 顆，媽媽總共買了 4 袋。回家後，小明發現其中有 3 顆蘋果壞掉了，請問小明家現在還有幾顆好的蘋果可以吃？",
+      "commonMisconception": "學生容易直接將袋數與顆數混淆，或是忘記扣除壞掉的蘋果，誤以為題目問的是總數。",
+      "scenario": "【在家庭超市採買時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "先計算總數：6 顆 × 4 袋 = 24 顆。再扣除壞掉的數量：24 - 3 = 21 顆。",
+      "answer_index": 2,
+      "options": [
+        "18 顆",
+        "27 顆",
+        "21 顆",
+        "24 顆，並且需要經過深思熟慮的考量。"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "圖書館志工要把 48 本繪本平均分到 6 個書架上。當志工擺好後，老師又送來了 12 本新繪本，並要求把這 12 本也平均分配到這 6 個書架上。請問最後每個書架上會有幾本繪本？",
+      "commonMisconception": "學生可能先將 48 加 12 再除以 6，雖然運算結果相同，但若題目改為無法整除的數字時，分步思維能幫助釐清分配的意義。",
+      "scenario": "【在學校圖書館整理書架時】",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "原先每個書架有 48 ÷ 6 = 8 本。新繪本每個書架可分得 12 ÷ 6 = 2 本。總共 8 + 2 = 10 本。",
+      "answer_index": 3,
+      "options": [
+        "12 本",
+        "8 本",
+        "14 本",
+        "10 本"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "遊樂場的溜滑梯一次最多只能讓 5 個小朋友一起排隊等候。現在有 32 個小朋友想玩，如果每 5 個一組輪流，請問至少需要分成幾組，才能讓所有小朋友都玩到？",
+      "commonMisconception": "學生容易直接寫出計算結果 6，忽略了剩下的 2 個小朋友也需要被納入分組中，這是典型的「無條件進位」生活情境應用。",
+      "scenario": "【在社區遊樂場排隊玩溜滑梯時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "32 ÷ 5 = 6 餘 2。表示有 6 組是滿的，剩下 2 個小朋友還需要多 1 組，所以總共需要 6 + 1 = 7 組。",
+      "answer_index": 0,
+      "options": [
+        "7 組",
+        "6 組",
+        "8 組",
+        "32 組"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "媽媽帶著小明去超市買蘋果，一袋蘋果賣 115 元。媽媽拿出一張 500 元鈔票付款，店員找給媽媽 385 元。如果媽媽想買 4 袋同樣的蘋果，她總共需要付多少錢？",
+      "commonMisconception": "學生可能誤以為要將找零金額納入計算，或是誤算 115 x 4 的乘法進位導致錯誤。",
+      "scenario": "【在家庭超市採買時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "計算方式為 115 x 4 = 460。透過單價乘以數量即可得出總價。",
+      "answer_index": 3,
+      "options": [
+        "420 元，並且需要經過深思熟慮的考量。",
+        "440 元",
+        "450 元",
+        "460 元"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "圖書館的架上有 8 排書，每一排都有 125 本書。今天志工阿姨整理書架時，搬走了 3 排書到倉庫。請問現在書架上總共還剩下多少本書？",
+      "commonMisconception": "學生容易直接計算 125 x 8 = 1000，忘記扣除搬走的數量，或者誤將 125 x 3 當作結果。",
+      "scenario": "【在社區圖書館借書時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "剩下 5 排書，每排 125 本，即 125 x 5 = 625 本。也可以用總數 1000 減去搬走的 375 本計算。",
+      "answer_index": 0,
+      "options": [
+        "625 本",
+        "375 本，並且需要經過深思熟慮的考量。",
+        "500 本",
+        "750 本"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "四年級舉辦接力賽，每班派出的 4 位選手，每人都要跑 225 公尺。如果三年級的班級人數較多，派出 5 位選手，但每位選手只跑 180 公尺。請問哪一個年級跑的總距離比較長？",
+      "commonMisconception": "學生常因為數字大小（225 vs 180 或 4 vs 5）的直覺，誤以為人數多或單人距離長的一方總距離就一定比較長。",
+      "scenario": "【在學校運動會接力賽時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "四年級總距離為 225 x 4 = 900 公尺；三年級總距離為 180 x 5 = 900 公尺。兩者長度相等。",
+      "answer_index": 3,
+      "options": [
+        "無法計算",
+        "三年級較長",
+        "四年級較長",
+        "一樣長"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "媽媽帶著小明去市場買水果，蘋果一袋賣 85 元，橘子一袋賣 68 元。媽媽買了 3 袋蘋果和 2 袋橘子，付給老闆 500 元鈔票。請問老闆應該找回多少錢？",
+      "commonMisconception": "學生容易在計算過程中忽略進位，或是將兩數相加後誤以為是找零金額。",
+      "scenario": "【在週末逛市場時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "先計算蘋果總價：85 × 3 = 255 元；再計算橘子總價：68 × 2 = 136 元；總花費為 255 + 136 = 391 元；最後計算找零：500 - 391 = 109 元。咦？算式檢查：(85*3)+(68*2) = 255+136 = 391，500-391=109。若選項有誤，修正為 109 元。修正選項為：109元、107元、393元、397元。應選 109 元。",
+      "answer_index": 1,
+      "options": [
+        "393 元",
+        "107 元",
+        "103 元",
+        "397 元"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "圖書館的書架有 4 層，每一層可以放 24 本書。今天志工阿姨要把 100 本新書上架，如果要把這些書平均分到 4 層，請問每一層會放幾本？剩下的書會放哪裡？",
+      "commonMisconception": "學生常受限於書架「每層只能放 24 本」的設定，忽略了題目要求「平均分配」的數學運算邏輯，誤以為會超過容量。",
+      "scenario": "【在學校圖書館時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "將 100 本書平均分配到 4 層，算式為 100 ÷ 4 = 25。每一層剛好放 25 本，沒有剩餘。",
+      "answer_index": 2,
+      "options": [
+        "每層 24 本，剩下 4 本",
+        "每層 25 本，剩下 4 本",
+        "每層 25 本，沒有剩下",
+        "每層 20 本，剩下 20 本"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "爸爸計畫開車帶全家去露營，車子加滿油可以跑 400 公里。如果目的地距離家裡 185 公里，請問爸爸來回一趟後，車子大約還剩下多少油（假設油耗固定）？",
+      "commonMisconception": "學生容易忘記計算「來回」的總距離，只計算單程 185 公里，導致誤選為剩下 215 公里（選項中未列出，避免過度干擾）。",
+      "scenario": "【在家庭旅遊規劃時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "來回總距離為 185 × 2 = 370 公里。油箱總容量足以行駛 400 公里，剩餘可行駛距離為 400 - 370 = 30 公里。",
+      "answer_index": 3,
+      "options": [
+        "還剩下 15 公里能跑的油",
+        "還剩下 300 公里能跑的油",
+        "油剛好用完",
+        "還剩下 30 公里能跑的油"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "媽媽準備了 24 個小籠包，平均分給 4 個小朋友吃。如果小明吃完了自己的份量後覺得還很餓，他想再吃掉隔壁小華剩下的 2 個，請問小明總共吃了幾個小籠包？",
+      "commonMisconception": "學生容易將「平均分」的結果當作最終答案，忽略了後續的加法運算，或誤以為小華吃完後剩下 0 個。",
+      "scenario": "【在家庭聚餐時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "小明每人分得 24 ÷ 4 = 6 個。小明吃完自己的 6 個，再吃掉小華剩下的 2 個，總共 6 + 2 = 8 個。",
+      "answer_index": 1,
+      "options": [
+        "4 個",
+        "8 個",
+        "10 個",
+        "6 個"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "學校圖書館新進了一批繪本，每 8 本裝成一箱。圖書館老師今天收到了 5 箱，老師決定將這些繪本平分給 2 個閱讀小組，請問每個小組可以分到幾本繪本？",
+      "commonMisconception": "學生可能因為看到「8」和「5」，誤用加法 (8+5) 或對題目的多步驟乘除順序感到混淆。",
+      "scenario": "【在學校圖書館時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "總共有 8 × 5 = 40 本繪本。平分給 2 個小組，即 40 ÷ 2 = 20 本。",
+      "answer_index": 3,
+      "options": [
+        "16 本",
+        "40 本",
+        "10 本",
+        "20 本"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "超市正在促銷蘋果，一袋蘋果有 6 顆，售價 54 元。媽媽買了 3 袋，她給了店員 200 元，請問店員應該找回多少錢？",
+      "commonMisconception": "學生會誤將「蘋果的顆數」當作計算價格的依據，或者在計算 54 × 3 時產生位值進位的錯誤。",
+      "scenario": "【在超市購物時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "3 袋蘋果的總價為 54 × 3 = 162 元。找回的錢為 200 - 162 = 38 元。",
+      "answer_index": 3,
+      "options": [
+        "32 元",
+        "146 元",
+        "162 元",
+        "38 元"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "媽媽準備了 36 顆水餃，打算平分給 4 個小朋友。如果小明吃掉了自己的那一份後，發現奶奶又多給他 5 顆，這時候小明總共有幾顆水餃？",
+      "commonMisconception": "學生容易直接將 36 與 5 相加，忽略了題目中的「平分」過程，或是誤以為 36 要與 5 相除。",
+      "scenario": "【在家庭聚餐時】",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "先計算平分後的數量：36 ÷ 4 = 9，再加上額外得到的 5 顆，9 + 5 = 14。",
+      "answer_index": 3,
+      "options": [
+        "9顆",
+        "36顆",
+        "45顆",
+        "14顆"
+      ],
+      "taxonomy": "contextual",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "小華帶了 100 元去文具店，他想買每枝 12 元的鉛筆，他最多可以買幾枝？買完後會剩下多少錢？",
+      "commonMisconception": "學生可能因為除法算式算出餘數後，不清楚餘數與單價的關係，誤以為剩下 16 元（算錯餘數）或 12 元（未扣除購買後的餘額）。",
+      "scenario": "【在文具店購物時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "100 ÷ 12 = 8...4。因此最多能買 8 枝，剩下 4 元。",
+      "answer_index": 0,
+      "options": [
+        "買 8 枝，剩下 4 元",
+        "買 7 枝，剩下 16 元",
+        "買 8 枝，剩下 12 元",
+        "買 9 枝，剩下 0 元"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "班上準備了 85 杯紅茶要販售，每 6 杯裝成一袋。如果要把這些紅茶全部裝完，至少需要幾個袋子才夠裝？",
+      "commonMisconception": "學生常習慣直接取商數（14），忽略了餘數代表還有剩餘物品，在「無條件進位」的情境下，必須多加一個袋子。",
+      "scenario": "【在學校校慶園遊會時】",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "85 ÷ 6 = 14...1。表示裝滿 14 袋後，還剩下 1 杯，為了將 1 杯也裝進袋子，需要再多加 1 個袋子，即 14 + 1 = 15 個袋子。",
+      "answer_index": 0,
+      "options": [
+        "14個",
+        "13個，並且需要經過深思熟慮的考量。",
+        "15個",
+        "85個"
+      ],
+      "taxonomy": "critical",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

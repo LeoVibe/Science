@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "HANLIN",
+    "lesson": "L7",
+    "order": 7,
+    "title": "小數加減計算",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "做小數加減直式時，最重要的一步是什麼？",
+      "options": [
+        "小數點對齊",
+        "數字靠左對齊",
+        "數字靠右對齊",
+        "不需要對齊"
+      ],
+      "answer_index": "小數點對齊",
+      "explanation": "對齊小數點可以確保相同位數的數值進行運算。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 0.5 + 0.6 的結果是 1.1。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "5 + 6 = 11，進位後為 1.1。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 3.45 - 1.25 = ______。",
+      "options": [],
+      "answer_index": "2.2",
+      "explanation": "3.45 - 1.25 = 2.20，末尾 0 可省略。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一條繩子長 10.5 公尺，剪掉 4.75 公尺後，還剩下多少公尺？",
+      "options": [
+        "5.25 公尺",
+        "6.25 公尺",
+        "5.75 公尺",
+        "6.75 公尺"
+      ],
+      "answer_index": "5.75 公尺",
+      "explanation": "10.50 - 4.75 = 5.75。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 1 - 0.99 = ？",
+      "options": [
+        "0.001",
+        "0.1",
+        "0.11",
+        "0.01"
+      ],
+      "answer_index": "0.01",
+      "explanation": "1.00 - 0.99 = 0.01。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

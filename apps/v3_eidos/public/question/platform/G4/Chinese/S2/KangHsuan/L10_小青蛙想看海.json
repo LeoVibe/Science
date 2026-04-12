@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,18 +10,20 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "小青蛙最後有看到海嗎？",
       "options": [
         "有",
         "沒有",
         "不知道"
       ],
-      "answer": "有",
+      "answer_index": "有",
       "explanation": "經過努力，牠終於看到了海。",
-      "cqi_score": 2.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 3
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

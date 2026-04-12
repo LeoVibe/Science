@@ -1,17 +1,17 @@
 {
   "meta": {
     "grade": "G3",
+    "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
     "lesson": "L2",
-    "title": "神奇的畫家",
-    "semester": "S1",
-    "order": 2
+    "order": 2,
+    "title": "神奇的畫家"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課中的「神奇畫家」指的是誰？",
       "options": [
         "很有名的藝術家",
@@ -19,32 +19,37 @@
         "愛畫畫的小朋友",
         "我的爸爸"
       ],
-      "answer": "大自然",
+      "answer_index": null,
       "explanation": "大自然四季的變化與絕美的景色，猶如一位神奇的畫家。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "畫家在春天畫下嫩綠的草與紅紅的花。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "春天是萬物復甦、色彩繽紛的季節。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這位畫家不需要用筆，只要有______，就能變出美麗的顏色。",
-      "answer": "時間或陽光",
+      "options": [],
+      "answer_index": null,
       "explanation": "大自然的畫筆是光、影與季節的遞嬗。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當冬天來到時，神奇畫家通常會選用什麼顏色？",
       "options": [
         "金燦燦的黃色",
@@ -52,14 +57,15 @@
         "鮮艷的紅色",
         "翠綠色"
       ],
-      "answer": "純淨的白色或灰色",
+      "answer_index": null,
       "explanation": "代表冬天的冰雪與枯木景象。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課主要是想讓我們學習什麼？",
       "options": [
         "每個人都要成為畫家",
@@ -67,10 +73,82 @@
         "學習如何買水彩",
         "夏天很熱"
       ],
-      "answer": "細心體會大自然之美，並懂得珍惜環境",
+      "answer_index": null,
       "explanation": "培養學生的美感經驗與環保意識。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "本課「我們的約定」中，約定的主要目的是為了什麼？",
+      "options": [
+        "限制大家的自由",
+        "為了建立共識，讓班級生活更有秩序且每個人都能受到尊重",
+        "為了贏得比賽",
+        "讓老師比較好管學生"
+      ],
+      "answer_index": null,
+      "explanation": "共同遵守的規則是建立團體生活的基礎。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "文中提到，約定不只是白紙黑字，更需要大家發自內心地去實踐與維護。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "守信與實踐是誠信教育的核心。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "當大家都能遵守約定時，班級就像一艘航行平穩的______應充滿歡樂。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "運用譬喻法感悟集體和諧的美好。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "為什麼「約定」中通常會包含「守時」或「禮貌」？",
+      "options": [
+        "這些是尊重他人與自我負責的最基本表現",
+        "因為那是規定的台詞",
+        "為了讓班級變得很安靜",
+        "這沒有任何意義"
+      ],
+      "answer_index": null,
+      "explanation": "分析具體規則背後的素養導向。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課最想帶給小孩哪一種心理建設？",
+      "options": [
+        "絕對不能犯錯",
+        "建立集體歸屬感、責任心與守信的美德",
+        "只要管好自己不被發現就好",
+        "約定是可以隨便打破的"
+      ],
+      "answer_index": null,
+      "explanation": "自尊尊人與團隊精神的養成。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

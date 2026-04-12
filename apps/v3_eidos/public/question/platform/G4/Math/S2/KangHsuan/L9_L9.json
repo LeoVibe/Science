@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L9",
+    "order": 9,
+    "title": "L9"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "計算教室面積",
+      "question": "一間教室的長是 10 公尺，寬是 8 公尺。面積是多少？",
+      "options": [
+        "18 平方公尺",
+        "80 平方公尺",
+        "36 平方公尺",
+        "108 平方公尺"
+      ],
+      "answer_index": 1,
+      "explanation": "10 * 8 = 80 平方公尺。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鋪設地毯",
+      "question": "房間是一個邊長 6 公尺的正方形。如果地毯每平方公尺要 500 元，鋪滿要多少錢？",
+      "options": [
+        "3,000 元",
+        "12,000 元",
+        "18,000 元",
+        "36,000 元"
+      ],
+      "answer_index": 2,
+      "explanation": "面積 = 6 * 6 = 36。 總價 = 36 * 500 = 18000。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比較操場與教室",
+      "question": "甲區域是 100 平方公尺，乙區域是 10,000 平方公分。哪一個比較大？",
+      "options": [
+        "甲區域",
+        "乙區域",
+        "一樣大",
+        "無法比較"
+      ],
+      "answer_index": 0,
+      "explanation": "1 平方公尺 = 10,000 平方公分。 所以甲區域 (100 平方公尺) 遠大於乙區域 (1 平方公尺)。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "牆面油漆扣除計畫",
+      "question": "一面長 5 公尺、寬 4 公尺的牆壁。中間要挖掉一個長 2 公尺、寬 1 公尺的窗戶。剩下的牆面要漆油漆，面積是多少？",
+      "options": [
+        "20 平方公尺",
+        "18 平方公尺",
+        "2 平方公尺",
+        "22 平方公尺"
+      ],
+      "answer_index": 1,
+      "explanation": "總面積 = 20。 扣除窗戶 = 2。 剩餘 = 18。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "反推正方形邊長",
+      "question": "一塊正方形土地的面積是 100 平方公尺。請問這塊地的邊長是多少？",
+      "options": [
+        "10 公尺",
+        "50 公尺",
+        "25 公尺",
+        "400 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "邊長 * 邊長 = 100。 故邊長為 10。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "周長與面積的迷思",
+      "question": "兩個圖形的「周長」一樣長。請問它們的「面積」也一定一樣嗎？",
+      "options": [
+        "一定一樣",
+        "不一定，形狀不同面積就可能不同",
+        "正方形一定比較小，這點在分析單元核心時非常關鍵",
+        "無法判斷"
+      ],
+      "answer_index": 1,
+      "explanation": "周長相同時，面積會隨形狀改變。例如周長 20。正方形 (5*5) 面積 25。長方形 (9*1) 面積 9。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "拼接大地磚",
+      "question": "用 4 個邊長 2 公尺的正方形磁磚拼成一個更大的正方形。大正方形的面積是多少？",
+      "options": [
+        "8 平方公尺",
+        "16 平方公尺",
+        "4 平方公尺",
+        "64 平方公尺"
+      ],
+      "answer_index": 1,
+      "explanation": "一個面積 = 4。 4 個總面積 = 16。 或者看邊長變為 4。 4 * 4 = 16。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "客廳家具佈置",
+      "question": "一張桌子長 120 公分，寬 80 公分。其面積是多少「平方公分」？",
+      "options": [
+        "9,600",
+        "200",
+        "96",
+        "1,200"
+      ],
+      "answer_index": 0,
+      "explanation": "120 * 80 = 9600。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 8
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "步道面積計算",
+      "question": "花園長 10 公尺、寬 10 公尺。中間預留十字型的步道（寬度均為 1 公尺）。請問扣除步道後，種花區域的面積總和是多少？",
+      "options": [
+        "100 平方公尺",
+        "81 平方公尺",
+        "90 平方公尺",
+        "19 平方公尺"
+      ],
+      "answer_index": 1,
+      "explanation": "可以想成四塊 4.5 * 4.5 的區。 或者平移步道，剩下的區域是長 (10-1) 寬 (10-1) 的正方形。 9 * 9 = 81。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "適當單位的選擇",
+      "question": "測量「台灣面積」時，最適合哪種單位？",
+      "options": [
+        "平方公尺",
+        "平方公里",
+        "公畝",
+        "平方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "國家面積採用平方公里最合適。雖然這可能超出 U9 範圍，但能測驗單位感。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

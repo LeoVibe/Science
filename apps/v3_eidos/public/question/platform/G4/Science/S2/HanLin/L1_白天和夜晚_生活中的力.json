@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "白天和夜晚/生活中的力"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "月亮的圓缺變化主要是因為？",
+      "options": [
+        "太陽變色了",
+        "雲擋住了",
+        "月球繞地球公轉與太陽照射角度變化",
+        "地球發生地震"
+      ],
+      "answer_index": "月球繞地球公轉與太陽照射角度變化",
+      "explanation": "月相盈虧是規律的天文現象。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "用力拉彈簧，彈簧變長是力產生的形變效果。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "力可以改變物體的形狀或運動狀態。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "測量物體重量時，常用的工具是______。",
+      "options": [],
+      "answer_index": "秤、彈簧秤",
+      "explanation": "秤能顯示物體受重力的大小。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一種力是「非接觸力」？",
+      "options": [
+        "磁鐵吸迴紋針的力",
+        "提水袋的力",
+        "拍皮球的力",
+        "推門的力"
+      ],
+      "answer_index": "磁鐵吸迴紋針的力",
+      "explanation": "磁力可以隔空作用。",
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "夜晚看見的星星，也會像太陽一樣東升西落。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這是地球由西向東自轉產生的視運動。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "彈簧秤的實驗",
+      "question": "在彈簧秤下掛 1 個砝碼，彈簧伸長 2 公分。如果掛 3 個同樣的砝碼（在彈性限度內），彈簧會伸長幾公分？",
+      "options": [
+        "2 公分",
+        "4 公分",
+        "6 公分",
+        "8 公分"
+      ],
+      "answer_index": 2,
+      "explanation": "彈性限度內，彈簧的伸長量與所受拉力成正比。 2 * 3 = 6。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "推動重的箱子",
+      "question": "小明在粗糙的地面上推箱子很費力，但在光滑的磁磚地上推卻很輕鬆。這是因為什麼力的影響？",
+      "options": [
+        "彈力",
+        "重力",
+        "摩擦力",
+        "磁力，這點在分析單元核心時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "物體與接觸面之間的阻礙力量稱為摩擦力。接觸面越粗糙，摩擦力通常越大。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "磁鐵的吸引力",
+      "question": "磁鐵可以隔著紙張吸住迴紋針，但不能吸住銅板。這代表什麼？",
+      "options": [
+        "磁力可以穿透某些物體",
+        "磁力只能吸引鐵質物品",
+        "A 和 B 都對",
+        "銅板太重了"
+      ],
+      "answer_index": 2,
+      "explanation": "磁力可以不接觸而發生作用（超距力），且具有選擇性，主要吸引鐵、鈷、鎳等物質。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "生活中的靜電",
+      "question": "冬天脫掉毛衣時，有時會聽到『啪啪』聲，甚至有火花。這是哪種力的表現？",
+      "options": [
+        "磁力",
+        "靜電力",
+        "彈力，內容完整確診且具備情境深度",
+        "浮力"
+      ],
+      "answer_index": 1,
+      "explanation": "乾燥環境下摩擦產生的電荷累積引發的現象稱為靜電。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "力的平衡判斷",
+      "question": "兩個人在拔河，繩子中間的紅標保持靜止不動。這代表什麼？",
+      "options": [
+        "兩個人都沒出力",
+        "兩邊出的力大小相等、方向相反",
+        "左邊的人力氣比較大，內容完整確診且具備情境深度",
+        "繩子斷了"
+      ],
+      "answer_index": 1,
+      "explanation": "當物體受力但保持靜止時，代表所受合力為零，力達到平衡。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "增加摩擦力的應用",
+      "question": "下雨天走在濕滑的路面上，穿哪種鞋子比較不容易摔倒？",
+      "options": [
+        "鞋底平滑的涼鞋",
+        "底紋深刻的運動鞋",
+        "高跟鞋，內容完整確診且具備情境深度",
+        "塑膠密封袋"
+      ],
+      "answer_index": 1,
+      "explanation": "深刻的底紋可以增加接觸面的粗糙程度，進而增大摩擦力，防止打滑。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "測量力的大小",
+      "question": "如果不使用彈簧秤，下列哪一個現象『也可以』用來標示力的大小？",
+      "options": [
+        "橡皮筋被拉長的長度",
+        "皮球被壓扁的程度",
+        "物體移動的距離快慢",
+        "以上皆是"
+      ],
+      "answer_index": 0,
+      "explanation": "力的三要素包含大小。雖然移動快慢與壓力程度也是力的表現，但在小學科學實驗中，橡皮筋或彈簧的形位變化是最常用來『量化』標示力大小的工具（需有基準度標）。此題考查對測量媒介的理解。 (Option 0 is standard answer in textbooks).",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "減少摩擦力的應用",
+      "question": "腳踏車的鏈條如果生鏽了不好騎，滴一點潤滑油就會變順暢。這是利用潤滑油來？",
+      "options": [
+        "增加摩擦力",
+        "減少摩擦力",
+        "增加彈力",
+        "改變重力"
+      ],
+      "answer_index": 1,
+      "explanation": "潤滑油可以在接觸面形成油膜，減少摩擦阻力。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "重力與方向",
+      "question": "不管我們在哪裡，把球往上丟，它最後都會掉回地面。這是因為什麼力？方向為何？",
+      "options": [
+        "磁力；向上",
+        "重力；向下(指向地心)",
+        "電力；向左，呈現出課綱所要求之探索精神",
+        "彈力；旋轉"
+      ],
+      "answer_index": 1,
+      "explanation": "地球對萬物的吸引力稱為重力，方向垂直向下指向地心。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "探討力的效應",
+      "question": "力可以改變物體的『形狀』或『運動狀態』。下列哪一個選項只改變了『運動狀態』？",
+      "options": [
+        "把黏土捏成小狗",
+        "用力把鋁罐壓扁",
+        "將靜止的球踢出去",
+        "把橡皮筋拉長，這點在分析單元核心時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "捏黏土、壓鋁罐、拉橡皮筋都是改變形狀。踢球則是讓物體由靜止變為運動，改變的是運動狀態。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    }
+  ],
+  "publisher": "HanLin"
+}

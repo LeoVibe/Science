@@ -1,12 +1,17 @@
 {
-  "publisher": "南一",
-  "grade": "G6",
-  "semester": "S2",
-  "subject": "Chinese",
-  "lesson_id": "L11",
-  "lesson_title": "努力愛春華",
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L11",
+    "order": 11,
+    "title": "努力愛春華"
+  },
   "questions": [
     {
+      "taxonomy": "inferential",
+      "scenario": "解析核心意象（春華）的抽象轉化：從「季節花朵」到「青春價值」。",
       "question": "【解析文章題目】「努力愛春華」這句話在文中主要是在勉勵畢業生具備什麼樣的人生態度？",
       "options": [
         "應該趁年輕時多種植一些美麗的花卉，以便能賣到好的價錢。",
@@ -16,18 +21,13 @@
       ],
       "answer_index": 1,
       "explanation": "「春華」象徵青春、希望與最美好的時光。「愛」則是珍惜與實踐。這是對畢業生最誠摯的生命囑託。",
-      "scenario": "解析核心意象（春華）的抽象轉化：從「季節花朵」到「青春價值」。",
       "commonMisconception": "學生易選[D]，將一切勉勵都窄化為「考試讀書」，忽略了生命的廣度。",
-      "taxonomy": "inferential",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "探討敘事細節（敘舊）與情緒昇華（祝願）在北京學建構中的整合功能。",
       "question": "【分析文章結構】作者在文中先細數六年來的小事，再談到對未來的期許，這種寫法對情感的渲染有什麼幫助？",
       "options": [
         "這是一種沈溺於過去的表現，證明作者無法接受長大成人的現實。",
@@ -37,18 +37,13 @@
       ],
       "answer_index": 1,
       "explanation": "「情感的厚度源於細節」。沒有前面的點滴共鳴，後面的大道理就會顯得空洞空靈。這是一種紮實的情感勾勒法。",
-      "scenario": "探討敘事細節（敘舊）與情緒昇華（祝願）在北京學建構中的整合功能。",
       "commonMisconception": "學生容易選[D]，對長文章有排斥，忽略了細節在文學上的承載功能。",
-      "taxonomy": "analysis",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 6
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "解析高度抽象的文學比喻（扉頁）及其心理導引功能（PIRLS 層次 3）。",
       "question": "【解讀核心警句】文中提到「分離不是句點，而是更壯闊詩篇的扉頁」，這句話中的「扉頁」象徵什麼？",
       "options": [
         "象徵一段關係的永久終結，從此之後大家再也不會互相聯絡。",
@@ -58,18 +53,13 @@
       ],
       "answer_index": 1,
       "explanation": "扉頁是書開啟後的第一頁。作者將「畢業」重新定義為「開啟」而非「結束」。這是給予離別者最強大的心理補償。",
-      "scenario": "解析高度抽象的文學比喻（扉頁）及其心理導引功能（PIRLS 層次 3）。",
       "commonMisconception": "學生若陷入離別的悲傷可能選[A]，需引導其看見文學中的轉化力量。",
-      "taxonomy": "inferential",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "探討修辭節奏（重複與排比）與「情緒共鳴感」的深層連結。",
       "question": "【分析作者的修辭策略】文中運用了大量的「疊言」與「排比」來羅列校園景物，這種節奏感最能呼應哪一種畢業時的心境？",
       "options": [
         "急促且焦慮的性格，顯示畢業生很想趕快離開這座可怕的小學校。",
@@ -79,18 +69,13 @@
       ],
       "answer_index": 1,
       "explanation": "重複是為了「留戀」。排比呈現了記憶的排山倒海而來。這在畢業主題的散文中，最能引發讀者的共鳴。",
-      "scenario": "探討修辭節奏（重複與排比）與「情緒共鳴感」的深層連結。",
       "commonMisconception": "學生易選[A] 或 [D]，缺乏對修辭背後「美學動機」的察覺力。",
-      "taxonomy": "analysis",
-      "cqi_score": 8,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "將文本的整體意境轉化為感官聯覺（視聽覺總結），進行高層次的情感評估。",
       "question": "【總結全篇主題】《努力愛春華》這篇文章最後留給讀者的是一種什麼樣的色彩感與聲音？",
       "options": [
         "灰暗且寂靜的：因為離別總是沈重得讓人無法喘息、無法說話。",
@@ -100,16 +85,10 @@
       ],
       "answer_index": 1,
       "explanation": "「明亮」源於希望，「交響」源於多元的未來。這是一篇充滿正向心理暗示的畢業佳作。",
-      "scenario": "將文本的整體意境轉化為感官聯覺（視聽覺總結），進行高層次的情感評估。",
       "commonMisconception": "容易選[A]，受限於傳統對離別的負面刻板印象。",
-      "taxonomy": "evaluative",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

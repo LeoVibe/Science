@@ -1,0 +1,2526 @@
+{
+  "summary": {
+    "totalFiles": 72,
+    "totalQuestions": 1518,
+    "qualityDist": {
+      "QL5": 0,
+      "QL4": 0,
+      "QL3": 0,
+      "QL2": 0,
+      "QL1": 65,
+      "BROKEN": 0,
+      "QL1 (BIAS)": 7
+    }
+  },
+  "details": [
+    {
+      "quality": "QL1",
+      "avgCqi": "5.27",
+      "count": 11,
+      "levelCount": {
+        "QL1": 11,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L1",
+        "order": 1,
+        "title": "時間是什麼",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L10",
+        "order": 10,
+        "title": "秋千上的婚禮",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L10.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.60",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L11",
+        "order": 11,
+        "title": "一路平安",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L11.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.50",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L12",
+        "order": 12,
+        "title": "不一樣的團圓",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L12.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L2",
+        "order": 2,
+        "title": "明天再寫",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L2.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L3",
+        "order": 3,
+        "title": "提早五分鐘",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.60",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L4",
+        "order": 4,
+        "title": "猴子的數學",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.85",
+      "count": 17,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 12,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 2,
+        "inferential": 9,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L5",
+        "order": 5,
+        "title": "便利貼的妙用",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L5.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.70",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L6",
+        "order": 6,
+        "title": "小鉛筆大學問",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.60",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L7",
+        "order": 7,
+        "title": "風的味道",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L7.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "4.96",
+      "count": 12,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 12,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 2,
+        "inferential": 4,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 4,
+        "2": 4,
+        "3": 1
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L8",
+        "order": 8,
+        "title": "寄居蟹找新家",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L8.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L9",
+        "order": 9,
+        "title": "阿塱壹古道",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/HanLin/G3_S1_CHI_HANLIN_L9.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.00",
+      "count": 11,
+      "levelCount": {
+        "QL1": 11,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L1",
+        "order": 1,
+        "title": "心的悄悄話",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L10",
+        "order": 10,
+        "title": "狐狸的故事",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L10.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.19",
+      "count": 12,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 12,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 3,
+        "inferential": 3,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L11",
+        "order": 11,
+        "title": "巨人的花園",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L11.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L12",
+        "order": 12,
+        "title": "奇特的朋友",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L12.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.60",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L2",
+        "order": 2,
+        "title": "妙故事點點名",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L2.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.50",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L3",
+        "order": 3,
+        "title": "繞口令村",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.09",
+      "count": 11,
+      "levelCount": {
+        "QL1": 11,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L4",
+        "order": 4,
+        "title": "小丑魚和海葵",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.60",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L5",
+        "order": 5,
+        "title": "飛舞的絲帶",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L5.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L6",
+        "order": 6,
+        "title": "小女生",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.20",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L7",
+        "order": 7,
+        "title": "淡水小鎮",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L7.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.80",
+      "count": 5,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 5
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L8",
+        "order": 8,
+        "title": "安平古堡參觀記",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L8.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "5.33",
+      "count": 12,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 12,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 2,
+        "inferential": 4,
+        "applied": 6
+      },
+      "answerDist": {
+        "0": 1,
+        "1": 8,
+        "2": 3
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L9",
+        "order": 9,
+        "title": "馬太鞍的巴拉告",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/KangHsuan/G3_S1_CHI_KANGHSUAN_L9.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.30",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L1",
+        "order": 1,
+        "title": "你好，新朋友",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.35",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L10",
+        "order": 10,
+        "title": "哎呀！誤會大了",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L10.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.69",
+      "count": 17,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 12,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 7,
+        "literal": 3,
+        "applied": 7
+      },
+      "answerDist": {
+        "0": 2,
+        "1": 8,
+        "2": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L11",
+        "order": 11,
+        "title": "看海豚跳舞",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L11.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.40",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L12",
+        "order": 12,
+        "title": "昆蟲的保命妙招",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L12.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.40",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L2",
+        "order": 2,
+        "title": "神奇的畫家",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L2.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.30",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L3",
+        "order": 3,
+        "title": "誰的功勞大",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.40",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L4",
+        "order": 4,
+        "title": "留住今天的太陽",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.45",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L5",
+        "order": 5,
+        "title": "找不到國小",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L5.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.40",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L6",
+        "order": 6,
+        "title": "我該怎麼辦",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.65",
+      "count": 10,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 5,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 2,
+        "inferential": 7,
+        "applied": 1
+      },
+      "answerDist": {
+        "1": 4,
+        "2": 1
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L7",
+        "order": 7,
+        "title": "最年輕的奶奶",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L7.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.45",
+      "count": 10,
+      "levelCount": {
+        "QL1": 5,
+        "QL2": 0,
+        "QL3": 5,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 2,
+        "inferential": 7,
+        "applied": 1
+      },
+      "answerDist": {
+        "1": 3,
+        "2": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L8",
+        "order": 8,
+        "title": "大自然的雕刻家",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L8.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.40",
+      "count": 10,
+      "levelCount": {
+        "QL1": 10,
+        "QL2": 0,
+        "QL3": 0,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10
+      },
+      "answerDist": {},
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級上學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S1",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L9",
+        "order": 9,
+        "title": "穿白袍的醫生伯伯",
+        "theme": ""
+      },
+      "filePath": "question/platform/G3/Chinese/S1/NanYi/G3_S1_CHI_NANYI_L9.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.22",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 5,
+        "literal": 9,
+        "inferential": 13,
+        "contextual": 3
+      },
+      "answerDist": {
+        "0": 4,
+        "1": 10,
+        "2": 10,
+        "3": 6
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L1",
+        "order": 1,
+        "title": "拔不起來的筆",
+        "theme": "創意轉換：平凡事物的非典型用途說明。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.63",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11,
+        "applied": 2,
+        "literal": 8,
+        "contextual": 8,
+        "critical": 1
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 12,
+        "2": 4,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L10",
+        "order": 10,
+        "title": "飛行員和小王子",
+        "theme": "經典改寫：理想與現實的衝突對白。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L10.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.81",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 4,
+        "QL3": 26,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 1,
+        "contextual": 9,
+        "critical": 2,
+        "literal": 9,
+        "inferential": 9
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 6,
+        "2": 9,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L11",
+        "order": 11,
+        "title": "畫龍點睛",
+        "theme": "成語溯源：傳說故事與成語本義的連結。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L11.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.90",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 15,
+        "QL3": 15,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 3,
+        "inferential": 12,
+        "contextual": 7,
+        "critical": 4,
+        "literal": 4
+      },
+      "answerDist": {
+        "0": 4,
+        "1": 12,
+        "2": 7,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L12",
+        "order": 12,
+        "title": "掉進一個兔子洞",
+        "theme": "想像策略：引導式閱讀的層次（預測未來劇情）。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L12.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.88",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 3,
+        "QL3": 27,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 14,
+        "applied": 5,
+        "literal": 5,
+        "contextual": 4,
+        "critical": 2
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 8,
+        "2": 15,
+        "3": 4
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L2",
+        "order": 2,
+        "title": "還差一點",
+        "theme": "細節管理：追求品質的詞彙精準度（如：精益求精）。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L2.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.91",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 5,
+        "QL3": 25,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 7,
+        "inferential": 14,
+        "contextual": 3,
+        "critical": 2,
+        "applied": 4
+      },
+      "answerDist": {
+        "0": 5,
+        "1": 13,
+        "2": 7,
+        "3": 5
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L3",
+        "order": 3,
+        "title": "用膝蓋跳舞的女孩",
+        "theme": "傳記：身體缺陷與生命意志的對比分析（映襯）。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.00",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 1,
+        "QL3": 29,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 5,
+        "inferential": 13,
+        "literal": 8,
+        "contextual": 3,
+        "critical": 1
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 16,
+        "2": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L4",
+        "order": 4,
+        "title": "靜靜的淡水河",
+        "theme": "人文觀點：河流歷史變遷的敘事結構。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.08",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 4,
+        "QL3": 26,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 16,
+        "applied": 1,
+        "literal": 7,
+        "contextual": 5,
+        "critical": 1
+      },
+      "answerDist": {
+        "0": 13,
+        "1": 4,
+        "2": 4,
+        "3": 9
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L5",
+        "order": 5,
+        "title": "茶香鹿谷",
+        "theme": "產業工法：序列性說明（採茶、烘焙工序）。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L5.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.17",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 11,
+        "QL3": 19,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 8,
+        "applied": 2,
+        "inferential": 9,
+        "contextual": 6,
+        "critical": 5
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 7,
+        "2": 10,
+        "3": 6
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L6",
+        "order": 6,
+        "title": "月世界",
+        "theme": "科學描述：惡地地形的成因與地景術語。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.43",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 4,
+        "QL3": 26,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 12,
+        "inferential": 10,
+        "applied": 1,
+        "critical": 4,
+        "contextual": 3
+      },
+      "answerDist": {
+        "0": 6,
+        "1": 9,
+        "2": 11,
+        "3": 4
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L7",
+        "order": 7,
+        "title": "做泡菜",
+        "theme": "程序說明：精確動詞的使用（搓、揉、壓、醃）。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L7.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.17",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 8,
+        "QL3": 22,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 12,
+        "inferential": 9,
+        "applied": 1,
+        "contextual": 4,
+        "critical": 4
+      },
+      "answerDist": {
+        "0": 5,
+        "1": 21,
+        "2": 3,
+        "3": 1
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L8",
+        "order": 8,
+        "title": "行人的守護者",
+        "theme": "交通發明：標誌系統的演進與觀察點。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L8.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.74",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 16,
+        "QL3": 14,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 5,
+        "inferential": 12,
+        "contextual": 7,
+        "critical": 6
+      },
+      "answerDist": {
+        "0": 3,
+        "1": 14,
+        "2": 10,
+        "3": 3
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "HANLIN",
+        "lesson": "L9",
+        "order": 9,
+        "title": "就愛倆倆在一起",
+        "theme": "並列結構：對偶或並列事物的二元邏輯。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L9.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.10",
+      "count": 61,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 61,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 1,
+        "literal": 21,
+        "inferential": 21,
+        "contextual": 11,
+        "critical": 7
+      },
+      "answerDist": {
+        "0": 21,
+        "1": 16,
+        "2": 16,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L1",
+        "order": 1,
+        "title": "許願",
+        "theme": "詩歌"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.67",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 1,
+        "inferential": 9,
+        "literal": 8,
+        "critical": 6,
+        "contextual": 6
+      },
+      "answerDist": {
+        "0": 2,
+        "1": 13,
+        "2": 14,
+        "3": 1
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L10",
+        "order": 10,
+        "title": "漁夫和金魚",
+        "theme": "寓言"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L10.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.31",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 13,
+        "applied": 1,
+        "inferential": 11,
+        "contextual": 5
+      },
+      "answerDist": {
+        "0": 8,
+        "1": 4,
+        "2": 11,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L11",
+        "order": 11,
+        "title": "聰明的鼠鹿",
+        "theme": "寓言"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L11.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.52",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 10,
+        "literal": 8,
+        "contextual": 6,
+        "critical": 6
+      },
+      "answerDist": {
+        "0": 5,
+        "1": 8,
+        "2": 6,
+        "3": 11
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L12",
+        "order": 12,
+        "title": "還要跌幾次",
+        "theme": "記敘/哲理"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L12.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.74",
+      "count": 62,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 62,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 19,
+        "inferential": 21,
+        "contextual": 12,
+        "critical": 10
+      },
+      "answerDist": {
+        "0": 14,
+        "1": 21,
+        "2": 17,
+        "3": 10
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L2",
+        "order": 2,
+        "title": "下雨的時候",
+        "theme": "記敘/觀察"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L2.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.30",
+      "count": 60,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 60,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 2,
+        "literal": 19,
+        "inferential": 17,
+        "critical": 10,
+        "contextual": 12
+      },
+      "answerDist": {
+        "0": 12,
+        "1": 20,
+        "2": 18,
+        "3": 10
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L3",
+        "order": 3,
+        "title": "遇見美如奶奶",
+        "theme": "記敘/人物"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.62",
+      "count": 60,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 60,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 23,
+        "inferential": 21,
+        "contextual": 7,
+        "critical": 9
+      },
+      "answerDist": {
+        "0": 6,
+        "1": 23,
+        "2": 18,
+        "3": 13
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L4",
+        "order": 4,
+        "title": "工匠之祖",
+        "theme": "記敘/發明"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.31",
+      "count": 27,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 27,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 7,
+        "inferential": 10,
+        "critical": 4,
+        "contextual": 6
+      },
+      "answerDist": {
+        "0": 9,
+        "1": 12,
+        "2": 4,
+        "3": 2
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L5",
+        "order": 5,
+        "title": "學田鼠開路",
+        "theme": "記敘/解決"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L5.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "4.97",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 12,
+        "applied": 1,
+        "inferential": 12,
+        "contextual": 3,
+        "critical": 2
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 10,
+        "2": 5,
+        "3": 8
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L6",
+        "order": 6,
+        "title": "神奇密碼",
+        "theme": "說明文"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.78",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 12,
+        "inferential": 12,
+        "critical": 4,
+        "contextual": 2
+      },
+      "answerDist": {
+        "0": 9,
+        "1": 7,
+        "2": 6,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L7",
+        "order": 7,
+        "title": "油桐花‧五月雪",
+        "theme": "寫景"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L7.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.95",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 12,
+        "inferential": 12,
+        "applied": 1,
+        "contextual": 2,
+        "critical": 3
+      },
+      "answerDist": {
+        "0": 9,
+        "1": 6,
+        "2": 8,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L8",
+        "order": 8,
+        "title": "大自然的美術館",
+        "theme": "寫景/科普"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L8.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "5.67",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11,
+        "applied": 4,
+        "literal": 9,
+        "contextual": 3,
+        "critical": 3
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 10,
+        "2": 6,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "KANGHSUAN",
+        "lesson": "L9",
+        "order": 9,
+        "title": "臺灣的山椒魚",
+        "theme": "說明/科普"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L9.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "6.59",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 1,
+        "QL3": 29,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 11,
+        "applied": 1,
+        "literal": 7,
+        "contextual": 5,
+        "critical": 6
+      },
+      "answerDist": {
+        "0": 6,
+        "1": 7,
+        "2": 8,
+        "3": 9
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L1",
+        "order": 1,
+        "title": "最美的模樣",
+        "theme": "選項對照：內在美與外在美的定義界定。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L1.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "3.64",
+      "count": 22,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 17,
+        "QL3": 5,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 8,
+        "inferential": 7,
+        "contextual": 3,
+        "critical": 4
+      },
+      "answerDist": {
+        "0": 4,
+        "1": 5,
+        "2": 6,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L10",
+        "order": 10,
+        "title": "地球的眼淚",
+        "theme": "環境汙染與海洋悲歌。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L10.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "3.58",
+      "count": 26,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 6,
+        "QL3": 20,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 10,
+        "inferential": 10,
+        "contextual": 3,
+        "critical": 3
+      },
+      "answerDist": {
+        "0": 10,
+        "1": 5,
+        "2": 6,
+        "3": 5
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L11",
+        "order": 11,
+        "title": "枯木是大飯店",
+        "theme": "森林生態循環：枯立木的生物多樣性。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L11.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "8.07",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 1,
+        "QL4": 29,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 12,
+        "literal": 9,
+        "contextual": 5,
+        "critical": 4
+      },
+      "answerDist": {
+        "0": 8,
+        "1": 7,
+        "2": 8,
+        "3": 7
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L12",
+        "order": 12,
+        "title": "騎樓",
+        "theme": "都市建築風景：台灣特色的亭仔腳歷史。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L12.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "4.67",
+      "count": 50,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 4,
+        "QL3": 46,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "applied": 1,
+        "literal": 19,
+        "inferential": 16,
+        "contextual": 4,
+        "critical": 10
+      },
+      "answerDist": {
+        "0": 11,
+        "1": 9,
+        "2": 16,
+        "3": 14
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L2",
+        "order": 2,
+        "title": "玩玩具",
+        "theme": "科學原理：動能與位能的初階口語化描述。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L2.json"
+    },
+    {
+      "quality": "QL1 (BIAS)",
+      "avgCqi": "4.24",
+      "count": 38,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 17,
+        "QL3": 21,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 13,
+        "inferential": 14,
+        "applied": 2,
+        "contextual": 5,
+        "critical": 4
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 8,
+        "2": 13,
+        "3": 10
+      },
+      "biasWarning": "選項長度偏差過大",
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L3",
+        "order": 3,
+        "title": "愛玉的變身術",
+        "theme": "生物化學：膠質轉化的過程觀察與歸納。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L3.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "7.21",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 9,
+        "inferential": 10,
+        "critical": 7,
+        "contextual": 4
+      },
+      "answerDist": {
+        "0": 4,
+        "1": 9,
+        "2": 9,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L4",
+        "order": 4,
+        "title": "楊修猜字",
+        "theme": "拆解分析：字謎中的部件邏輯與多音字。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L4.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "7.08",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 10,
+        "inferential": 10,
+        "critical": 8,
+        "contextual": 2
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 8,
+        "2": 7,
+        "3": 8
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L5",
+        "order": 5,
+        "title": "唱反調",
+        "theme": "反向思考與獨立評論能力。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L5.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "4.27",
+      "count": 36,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 18,
+        "QL3": 18,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 14,
+        "contextual": 5,
+        "critical": 6,
+        "literal": 11
+      },
+      "answerDist": {
+        "0": 9,
+        "1": 8,
+        "2": 13,
+        "3": 6
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L6",
+        "order": 6,
+        "title": "一飛沖天",
+        "theme": "夢想與火箭/飛行的科學起源。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L6.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "3.74",
+      "count": 26,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 21,
+        "QL3": 5,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "inferential": 9,
+        "literal": 11,
+        "critical": 4,
+        "contextual": 2
+      },
+      "answerDist": {
+        "0": 6,
+        "1": 11,
+        "2": 6,
+        "3": 3
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L7",
+        "order": 7,
+        "title": "井仔腳鹽田",
+        "theme": "舊時產業：曬鹽技術與地景美學。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L7.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "7.10",
+      "count": 27,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 27,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 9,
+        "inferential": 9,
+        "contextual": 2,
+        "critical": 7
+      },
+      "answerDist": {
+        "0": 7,
+        "1": 5,
+        "2": 6,
+        "3": 9
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L8",
+        "order": 8,
+        "title": "和魚一起游泳",
+        "theme": "海洋休閒（浮潛）與生態觀察。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L8.json"
+    },
+    {
+      "quality": "QL1",
+      "avgCqi": "7.01",
+      "count": 30,
+      "levelCount": {
+        "QL1": 0,
+        "QL2": 0,
+        "QL3": 30,
+        "QL4": 0,
+        "QL5": 0
+      },
+      "taxCount": {
+        "literal": 9,
+        "inferential": 10,
+        "contextual": 3,
+        "critical": 8
+      },
+      "answerDist": {
+        "0": 6,
+        "1": 6,
+        "2": 11,
+        "3": 7
+      },
+      "biasWarning": null,
+      "researchCeiling": "QL1",
+      "researchReason": "找不到發展綱要: 三年級下學期",
+      "meta": {
+        "grade": "G3",
+        "semester": "S2",
+        "subject": "CHI",
+        "publisher": "NANYI",
+        "lesson": "L9",
+        "order": 9,
+        "title": "三峽老街樂藍染",
+        "theme": "傳統工藝：染布工法分析。"
+      },
+      "filePath": "question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L9.json"
+    }
+  ]
+}

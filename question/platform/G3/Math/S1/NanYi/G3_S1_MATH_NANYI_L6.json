@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "NANYI",
+    "lesson": "L6",
+    "order": 6,
+    "title": "除法",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "分派文具",
+      "question": "老師有 42 枝鉛筆，平均分給 7 個小朋友，每人分到幾枝？",
+      "options": [
+        "5 枝",
+        "6 枝",
+        "7 枝",
+        "8 枝"
+      ],
+      "answer_index": 1,
+      "explanation": "42 ÷ 7 = 6。基礎除法應用。",
+      "commonMisconception": "乘法口訣不熟會導致除法計算緩慢或出錯。",
+      "quality_level": "QL3",
+      "cqi_score": 6.75,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "裝箱高手",
+      "question": "一打（12個）雞蛋裝一盒。農場現有 50 個雞蛋，最多能裝滿幾盒？剩幾個？",
+      "options": [
+        "4 盒，剩 2 個",
+        "4 盒，剩 12 個",
+        "5 盒，剩 0 個",
+        "3 盒，剩 14 個"
+      ],
+      "answer_index": 0,
+      "explanation": "50 ÷ 12 = 4 ... 2。12x4=48, 50-48=2。餘數 2 小於除數 12，正確。",
+      "commonMisconception": "學生常在找尋最大商數時出錯，導致餘數比除數大。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "露營搭帳篷",
+      "question": "一頂帳篷可以睡 6 個人。全班有 33 個同學，最少需要幾頂帳篷才夠睡？",
+      "options": [
+        "5 頂",
+        "6 頂",
+        "7 頂",
+        "5.5 頂"
+      ],
+      "answer_index": 1,
+      "explanation": "33 ÷ 6 = 5 ... 3。雖然算出 5 頂，但剩餘 3 人也需要一頂帳篷，故 5 + 1 = 6 頂。",
+      "commonMisconception": "這是典型「無條件進位」的除法應用題。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "神秘的除式驗算",
+      "question": "一個除法算式中，除數是 9，商是 8，餘數是 5。請問被除數是多少？",
+      "options": [
+        "77",
+        "81",
+        "86",
+        "22"
+      ],
+      "answer_index": 0,
+      "explanation": "被除數 = 除數 × 商 + 餘數 = 9 × 8 + 5 = 72 + 5 = 77。",
+      "commonMisconception": "公式代入錯誤或乘加運算順序混淆。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "排隊遊戲",
+      "question": "體育課排隊，每 8 人排成一列。小智排在第 25 個，請問他在第幾列？",
+      "options": [
+        "第 3 列",
+        "第 4 列",
+        "第 2 列",
+        "第 1 列"
+      ],
+      "answer_index": 1,
+      "explanation": "25 ÷ 8 = 3 ... 1。前 3 列已排滿，他在第 4 列的第一個。",
+      "commonMisconception": "排序問題中，只要有餘數，所在的列/組別就要加 1。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

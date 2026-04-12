@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "HANLIN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "10000以內的加減",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "一支手機特價 8500 元，如果用 9 張一千元支付，可以找回多少錢？",
+      "commonMisconception": "簡單減法，考驗學生對幣值換算與減法的連結。",
+      "scenario": "購買新手機",
+      "quality_level": "QL3",
+      "cqi_score": 6.75,
+      "explanation": "9 張一千元是 9000 元。9000 - 8500 = 500 元。",
+      "answer_index": 0,
+      "options": [
+        "500 元",
+        "1500 元",
+        "1000 元",
+        "850 元"
+      ],
+      "taxonomy": "literal",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "小明存了 4560 元，小華比小明多存了 1440 元，請問兩人總共存了多少錢？",
+      "commonMisconception": "這是一道需要兩步驟的題目。學生常算出 6000 就以為是答案，漏算「總共」的部分。",
+      "scenario": "存錢比賽",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "先算小華：4560 + 1440 = 6000 元。再算兩人總和：4560 + 6000 = 10560 元。",
+      "answer_index": 1,
+      "options": [
+        "6000 元",
+        "10560 元",
+        "9120 元",
+        "7440 元"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "在直式加法中『2□45 + 1386 = 3631』，請算出框框中代表的數字？",
+      "commonMisconception": "學生可能試圖從加法直接推演，但容易在進位處出錯。逆運算是較保險的做法。",
+      "scenario": "神秘的加法迷宮",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "利用逆運算：3631 - 1386 = 2245。所以框框中應為 2。",
+      "answer_index": 0,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "taxonomy": "applied",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "某晚會現場聚集了 7000 人，到了半夜 12 點，有 1234 人提早離開，請問現場還剩下多少人？",
+      "commonMisconception": "連續退位是學生的最大罩門，常會算出 6876 等錯誤結果。",
+      "scenario": "跨年倒數人數",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "7000 - 1234 = 5766。這考驗「連續借位（多個 0）」的技巧。",
+      "answer_index": 0,
+      "options": [
+        "5766 人",
+        "5866 人",
+        "6766 人",
+        "5776 人"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "小力集了 2800 點，換禮物用掉了一部分，還剩下 1250 點。請問他用掉了多少點？",
+      "commonMisconception": "學生可能誤將 2800 + 1250 相加，混淆了題目情境的運算關係。",
+      "scenario": "便利商店換點數",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "explanation": "2800 - 1250 = 1550。此題旨在練習找出「減數」。",
+      "answer_index": 1,
+      "options": [
+        "4050 點",
+        "1550 點",
+        "1650 點",
+        "1450 點"
+      ],
+      "taxonomy": "applied",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

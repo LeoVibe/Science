@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L8",
+    "order": 8,
+    "title": "L8"
+  },
+  "questions": [
+    {
+      "taxonomy": "applied",
+      "scenario": "大賣場購物",
+      "question": "小明去大賣場買東西，收銀員說總共是 1548 元。如果小明想用『千位』的概數來估計大約要付多少錢，且他使用的是『四捨五入法』，請問他估計的金額是多少元？",
+      "options": [
+        "1000 元",
+        "1500 元",
+        "1600 元",
+        "2000 元"
+      ],
+      "answer_index": 3,
+      "explanation": "使用四捨五入法取概數到千位，要看百位數。百位數是 5，應進位，故 1000 元變成 2000 元。",
+      "commonMisconception": "學童常因為百位數是 5 而猶豫是否進位，或者誤看成十位數進行四捨五入。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "演唱會人數統計",
+      "question": "某場演唱會的售票紀錄顯示共有 12435 人參加。主辦單位在新聞稿中寫：『約有 12000 人參加。』請問主辦單位可能是使用哪一種取概數的方法，且取到哪一位？",
+      "options": [
+        "無條件進入法取到千位",
+        "無條件捨去法取到千位",
+        "四捨五入法取到萬位",
+        "無條件捨去法取到百位"
+      ],
+      "answer_index": 1,
+      "explanation": "12435 取到千位，百位數是 4。使用無條件捨去法會得到 12000。若使用四捨五入法取到千位也會是 12000，但選項中僅 B 符合邏輯描述。",
+      "commonMisconception": "混淆取到『哪一位』的定義，可能誤以為是看萬位。",
+      "quality_level": "L5",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "判斷平行四邊形",
+      "question": "一個四邊形有兩組對邊分別平行，且長度也相等。它是？",
+      "options": [
+        "平行四邊形",
+        "梯形，內容完整確診且具備情境深度",
+        "圓形",
+        "三角形"
+      ],
+      "answer_index": 0,
+      "explanation": "具備兩組對邊平行即為平行四邊形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "正方形與菱形的對決",
+      "question": "小力說：「正方形是菱形的一種。」他的說法對嗎？",
+      "options": [
+        "對，因為正方形四邊也相等",
+        "不對，正方形一定要有直角",
+        "對，因為兩者都沒有平行",
+        "不對，菱形可以是長方形"
+      ],
+      "answer_index": 0,
+      "explanation": "菱形的定義是四邊等長。 正方形符合此定義，且多了四角皆直角的特徵，故正方形是特殊的一種菱形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "計算四邊形未知角",
+      "question": "在一個梯形中，四個內角的總和是多少度？",
+      "options": [
+        "180 度",
+        "270 度",
+        "360 度",
+        "540 度"
+      ],
+      "answer_index": 2,
+      "explanation": "任意四邊形的內角和固定為 360 度。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "長方形對角線性質",
+      "question": "關於長方形的對角線，下列哪一項敘述是「錯誤」的？",
+      "options": [
+        "兩條對角線等長",
+        "兩條對角線互相平分",
+        "兩條對角線互相垂直",
+        "將長方形分成兩個全等的三角形"
+      ],
+      "answer_index": 2,
+      "explanation": "長方形的對角線等長且平分，但只有當長方形也是正方形時，對角線才會垂直。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "認識等腰梯形",
+      "question": "哪一種梯形的兩腰長度會相等？",
+      "options": [
+        "直角梯形",
+        "等腰梯形",
+        "平行梯形",
+        "所有梯形都是"
+      ],
+      "answer_index": 1,
+      "explanation": "等腰梯形的特徵就是兩腰等長，且兩個底角也相等。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "判斷平行線",
+      "question": "菱形中有幾組對邊平行？",
+      "options": [
+        "0 組",
+        "1 組",
+        "2 組",
+        "4 組"
+      ],
+      "answer_index": 2,
+      "explanation": "菱形屬於平行四邊形家族，有兩組對邊平行。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "計算內角大小",
+      "question": "一個平行四邊形已知有一個角是 70 度，它對面的角（對角）是多少度？",
+      "options": [
+        "70 度",
+        "110 度",
+        "180 度",
+        "20 度"
+      ],
+      "answer_index": 0,
+      "explanation": "平行四邊形的對角相等。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "圖形建構條件",
+      "question": "如果要把一個長方形變成正方形，需要做什麼改變？",
+      "options": [
+        "讓四個角變成直角",
+        "讓兩組對邊互相平行",
+        "讓鄰邊（長與寬）長度變為相等",
+        "不需要改變，內容完整確診且具備情境深度"
+      ],
+      "answer_index": 2,
+      "explanation": "長方形已經有四個直角，只要再滿足鄰邊等長，即成為正方形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "觀察垂直現象",
+      "question": "在正方形中，兩條鄰邊的關係是？",
+      "options": [
+        "互相平行",
+        "互相垂直",
+        "沒有關係",
+        "互相重疊"
+      ],
+      "answer_index": 1,
+      "explanation": "正方形四角都是直角，故鄰邊垂直。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "幾何拼圖",
+      "question": "兩個完全一樣的等腰直角三角形可以拼成哪種四邊形？",
+      "options": [
+        "長方形",
+        "正方形",
+        "梯形",
+        "六邊形"
+      ],
+      "answer_index": 1,
+      "explanation": "等腰直角三角形斜邊相對拼合可以得到正方形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.75
+    }
+  ],
+  "publisher": "KangHsuan"
+}

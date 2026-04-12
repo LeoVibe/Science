@@ -14,9 +14,9 @@
 | 檔案路徑 | 用途說明 |
 | --- | --- |
 | `knowledge/README_課程研究方法與準則.md` | Eidos 高階四層研究守則 |
-| `knowledge/課綱研究/社會/00_社會科共同發展總綱.md` | 社會科特有之情境同理心、邏輯遞進、全學齡層次配比標準 |
+| `knowledge/課綱研究/社會/KL2_社會科共同發展總綱.md` | 社會科特有之情境同理心、邏輯遞進、全學齡層次配比標準 |
 | `_agent/skills/curri_research/SKILL.md` | 課綱研究與交付前自我查核清單 (CK-01~06) |
-| `_agent/skills/dojob/SKILL.md` | 派工流程規範 |
+| `docs/README_任務派工準則.md`、`_agent/skills/pj_job/SKILL.md` | 派工流程規範 |
 
 ## 🧬 推薦指令/提示詞
 > 啟動開發時，請依照：

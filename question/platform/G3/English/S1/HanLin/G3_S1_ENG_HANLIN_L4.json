@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "L4",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Is she a student? B: Yes, she ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "Yes/No 問句的簡答要與問句開頭的 be 動詞一致。",
+      "answer_index": null,
+      "options": [
+        "are",
+        "do",
+        "am",
+        "is"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "If someone asks 'Is he a cook?', and he is a doctor, the answer should be 'No, he isn't.'",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "否定簡答使用 No, he isn't。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: ______ he a nurse? B: No, he isn't. He is a doctor.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "問句開頭使用 be 動詞 Is 形成 Yes/No 選項。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Is she a doctor? B: ______. She is a teacher.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "因為後面提到她是老師，所以前面要否認她是醫生。",
+      "answer_index": null,
+      "options": [
+        "Yes, she is",
+        "I'm Dino",
+        "Hello",
+        "No, she isn't"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "She 是單數，配合 be 動詞 Is。",
+      "answer_index": null,
+      "options": [
+        "Am you a student?",
+        "Is she a student?",
+        "Are he a student?",
+        "Is they students?"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

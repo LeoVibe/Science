@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Who's he? B: He ______ my teacher.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "He 是第三人稱單數，使用 be 動詞 is。",
+      "answer_index": null,
+      "options": [
+        "are",
+        "be",
+        "is",
+        "am"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'Who is' can be shortened to 'Who's'.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "Who is 的縮寫形式是 Who's。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Who's ______? B: She is my mother.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "因為回答是 She，所以問句要用 she 詢問女生。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Who is he? B: He is ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "He 指的是男性，故選項中只有 my father（父親）符合。",
+      "answer_index": null,
+      "options": [
+        "my sister",
+        "my father",
+        "my mother",
+        "a girl"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Who's she? B: She is ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "She 指的是女性，故選項中只有 my sister（姊妹）符合。",
+      "answer_index": null,
+      "options": [
+        "a boy",
+        "my sister",
+        "my brother",
+        "my grandfather"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

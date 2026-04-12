@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「你一定會聽見的」主要想要導引讀者去聽什麼樣的聲音？",
       "options": [
         "電視廣播的聲音",
@@ -19,32 +19,37 @@
         "很大聲的噪音",
         "別人在背後說的話"
       ],
-      "answer": "生活細微處的聲音與大自然的脈動",
+      "answer_index": null,
       "explanation": "觀察美學的延伸，從視覺轉向聽覺的覺察。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中認為，「聽不見」往往是因為我們的心太過浮躁，而不是耳朵出了問題。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "傾聽需要內心的安靜與專注。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者描述花開的聲音、露珠滴下的聲音，這些細節說明了萬物皆有其______。",
-      "answer": "生命、律動或頻率",
+      "options": [],
+      "answer_index": null,
       "explanation": "透過文學的手法讓讀者感受靜態事物的生命力。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "學會「聽」之後，我們的生活會發生什麼改變？",
       "options": [
         "會變得很累",
@@ -52,14 +57,15 @@
         "會變得很吵",
         "聽覺會受損"
       ],
-      "answer": "會變得更豐富、更有樂趣與美感",
+      "answer_index": null,
       "explanation": "感官的開啟能豐富一個人的美感經驗。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想傳達的情感教育是？",
       "options": [
         "大聲說話讓別人聽見",
@@ -67,10 +73,12 @@
         "每個人都要買最好的助聽器",
         "對生活與大自然的溫柔與關懷"
       ],
-      "answer": "對生活與大自然的溫柔與關懷",
+      "answer_index": null,
       "explanation": "溫柔的覺察是愛之始。",
-      "cqi_score": 4.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.25
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

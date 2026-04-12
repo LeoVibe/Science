@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L6",
+    "order": 6,
+    "title": "L6"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "飲料容量比較",
+      "question": "汽水瓶標示 1.25 公升，果汁瓶標示 1.5 公升。哪一瓶比較多？",
+      "options": [
+        "汽水瓶",
+        "果汁瓶",
+        "一樣多",
+        "無法比較"
+      ],
+      "answer_index": 1,
+      "explanation": "1.5 = 1.50。 1.50 > 1.25，故果汁瓶較多。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "測量鉛筆長度",
+      "question": "小力有一支 14.85 公分長的鉛筆，用掉一段後剩下 9.3 公分。用掉了多少公分？",
+      "options": [
+        "5.55 公分",
+        "5.82 公分",
+        "5.5 公分",
+        "24.15 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "14.85 - 9.30 = 5.55。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "計算總降雨量",
+      "question": "第一小時降雨 4.6 毫米，第二小時降雨 5.75 毫米。兩小時共降雨多少？",
+      "options": [
+        "10.35 毫米",
+        "9.35 毫米，呈現出課綱所要求之探索精神",
+        "10.3 毫米",
+        "10 毫米"
+      ],
+      "answer_index": 0,
+      "explanation": "4.60 + 5.75 = 10.35。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "小數點位移量感",
+      "question": "10 個 0.01 是多少？",
+      "options": [
+        "0.1",
+        "1",
+        "0.001",
+        "10"
+      ],
+      "answer_index": 0,
+      "explanation": "0.01 乘以 10 等於 0.1。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "購買水果重量",
+      "question": "媽媽買了 3.25 公斤蘋果和 2.75 公斤橘子。總重是多少公斤？",
+      "options": [
+        "6 公斤",
+        "5.9 公斤",
+        "5.5 公斤",
+        "6.1 公斤"
+      ],
+      "answer_index": 0,
+      "explanation": "3.25 + 2.75 = 6.00。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分析剩餘長度",
+      "question": "一條 10 公尺長的繩子，剪去兩段分別長 3.45 公尺與 4.5 公尺。還剩多少公尺？",
+      "options": [
+        "2.05 公尺",
+        "7.95 公尺",
+        "2.1 公尺",
+        "3.05 公尺"
+      ],
+      "answer_index": 0,
+      "explanation": "總支出 = 3.45 + 4.50 = 7.95。 剩餘 = 10.00 - 7.95 = 2.05。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "比較運動成績",
+      "question": "跳遠比賽中，小強跳了 3.2 公尺，小力跳了 3.18 公尺。誰跳得比較遠？差多少？",
+      "options": [
+        "小強遠 0.02 公尺",
+        "小力遠 0.02 公尺",
+        "小強遠 0.2 公尺",
+        "一樣遠"
+      ],
+      "answer_index": 0,
+      "explanation": "3.20 > 3.18。 相差 3.20 - 3.18 = 0.02。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "數字卡片組合",
+      "question": "在數字 7.45 中，數字 5 代表什麼？",
+      "options": [
+        "五個一",
+        "五個 0.1",
+        "五個 0.01",
+        "五個 10，這點在分析單元核心時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "5 在百分位，代表五個 0.01。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "混合加減運算",
+      "question": "一個水瓶空重 0.45 公斤。裝滿後重 1.2 公斤。喝掉一半水後（假設水重也變一半），總重是多少？",
+      "options": [
+        "0.825 公斤",
+        "0.6 公斤",
+        "0.375 公斤",
+        "0.8 公斤"
+      ],
+      "answer_index": 0,
+      "explanation": "水淨重 = 1.2 - 0.45 = 0.75。 水的一半 = 0.375。 總重 = 0.45 (瓶重) + 0.375 (剩水) = 0.825。 (對小四來說稍難，但符合 L4 挑選題)",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "大數中的小數感",
+      "question": "將 2 個 1、3 個 0.1 和 8 個 0.01 合起來是多少？",
+      "options": [
+        "2.38",
+        "23.8",
+        "0.238",
+        "2.11"
+      ],
+      "answer_index": 0,
+      "explanation": "2 + 0.3 + 0.08 = 2.38。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

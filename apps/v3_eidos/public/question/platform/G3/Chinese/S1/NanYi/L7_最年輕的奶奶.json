@@ -10,67 +10,155 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
-      "question": "本課「最年輕的奶奶」中，奶奶之所以被稱為「年輕」，主要是因為？",
+      "taxonomy": "literal",
+      "scenario": "閱讀理解：分析課文標題的深意。",
+      "question": "本課題目「最年輕的奶奶」中，請問「最年輕」的核心意涵是指什麼？",
       "options": [
-        "她穿著小孩的衣服",
-        "她今年只有二十歲",
-        "她長得很矮小",
-        "她保持著對生活的好奇心、活潑的性格與樂於學習的心"
+        "這是一位剛剛才當上奶奶的年輕女性",
+        "一位心態年輕、充滿活力的長輩",
+        "這是一位很愛漂亮、每天打扮得像小孩的奶奶",
+        "這是一位記性很好，還記得小時候所有事情的奶奶"
       ],
-      "answer": "她保持著對生活的好奇心、活潑的性格與樂於學習的心",
-      "explanation": "本課傳達「心理年齡」的概念，強調心靈的朝氣勝過生理的歲月。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "answer_index": 1,
+      "explanation": "本課旨在引導學生觀察並欣賞長輩積極、充滿好奇心的生活態度。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
     },
     {
-      "id": "2",
-      "type": "true_false",
-      "question": "文中描述了奶奶嘗試新事物（如：學習新科技或運動）的故事，打破了大家對老人的板刻印象。",
-      "answer": "True",
-      "explanation": "這是在推廣「活到老，學到老」的正向高齡化觀念。",
-      "cqi_score": 4,
-      "quality_level": "L1"
-    },
-    {
-      "id": "3",
-      "type": "fill_in_the_blank",
-      "question": "奶奶的笑聲很有感染力，就像______一樣陽光，讓身邊的人也跟著開心起來。",
-      "answer": "小孩、天使、春風或太陽",
-      "explanation": "運用譬喻法呈現主角的正向影響力。",
-      "cqi_score": 4,
-      "quality_level": "L1"
-    },
-    {
-      "id": "4",
-      "type": "multiple_choice",
-      "question": "主角從奶奶身上學到了什麼人生道理？",
+      "taxonomy": "inferential",
+      "scenario": "角色特質分析：奶奶的性格亮點。",
+      "question": "文中主角觀察到奶奶具備哪一種不尋常的特質，讓她感到與其他刻板印象中的老人不同？",
       "options": [
-        "奶奶不喜歡煮飯",
-        "保持一顆年輕、愛學習的心，生活就能天天精彩",
-        "人一定要長大",
-        "老了就不能玩遊戲"
+        "奶奶每天都要睡很長的時間",
+        "雖然年紀大，但生活充滿熱情且樂於學習新事物",
+        "奶奶很喜歡買很多昂貴的玩具送給孫子",
+        "奶奶不喜歡出門，只想待在家裡看電視"
       ],
-      "answer": "保持一顆年輕、愛學習的心，生活就能天天精彩",
-      "explanation": "代際互動（Intergenerational interaction）中的生命傳承與學習。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer_index": 1,
+      "explanation": "透過奶奶對生活的熱愛，打破年齡的刻板印象。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 4.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
-      "question": "這課最想引導小孩建立哪一種價值觀？",
+      "taxonomy": "literal",
+      "scenario": "細節檢核：奶奶具體的行為表現。",
+      "question": "奶奶最讓主角佩服的一項行為是什麼，展現了她與時代接軌的決心？",
       "options": [
-        "尊重長輩，並看見長輩生命中的活力與價值",
-        "想辦法讓自己不長大",
-        "覺得老人很囉唆",
-        "只要管好自己就好了"
+        "奶奶會使用智慧型手機與家人視訊、分享生活",
+        "奶奶能跨越世代隔閡，與孫輩像朋友般相處",
+        "奶奶每天都練習走路超過一萬步",
+        "奶奶能背出所有便利商店的地址"
       ],
-      "answer": "尊重長輩，並看見長輩生命中的活力與價值",
-      "explanation": "建立對老齡化社會的正向態度與多元價值觀。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "answer_index": 1,
+      "explanation": "跨世代的連結與共同學習是本課的情感核心。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "價值推論：故事傳達的核心理念。",
+      "question": "作者透過奶奶的故事，傳遞出什麼樣的人生觀觀點？",
+      "options": [
+        "隨著年紀變大，人應該要越來越嚴肅",
+        "賺很多錢才能過上快樂的退休生活",
+        "心靈的年輕不受歲數限制，保持好奇心才是關鍵",
+        "奶奶應該要待在醫院才比較安全"
+      ],
+      "answer_index": 2,
+      "explanation": "強調心態對生活的決定性影響。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "素養導向：讀完課文後的自我反省。",
+      "question": "閱讀完這課後，最想引導小學生建立哪方面的素養？",
+      "options": [
+        "如何賺到更多的零用錢",
+        "學會欣賞長輩的生命智慧，並建立正向的代際關係",
+        "學習如何修理手機",
+        "每天都要出門跑步"
+      ],
+      "answer_index": 1,
+      "explanation": "生命教育中的代際尊重與情感培養。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "本課「鹿港早市」中，作者主要描寫了什麼樣的地方風景？",
+      "options": [
+        "鹿港的現代百貨公司",
+        "鹿港的傳統早市",
+        "鹿港的深夜食堂",
+        "鹿港的學校操場"
+      ],
+      "answer_index": null,
+      "explanation": "透過早市的觀察，體驗在地的人文氣息與生活質感。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "文中提到，早市裡充滿了熱鬧的人情味、古樸的建築與道地的美食香氣。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "早市是鄉土文化與五感經驗的最佳體現場域。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "早上的市場人聲鼎沸，作者將其熱鬧景象比喻成一場精彩的______。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "運用譬喻法描述市場的活力。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "為什麼作者要特別觀察早市？",
+      "options": [
+        "因為那是家鄉最有活力的地方",
+        "透過常民生活觀察家鄉的文化特色與生命力",
+        "因為作者很餓",
+        "要幫忙叫賣"
+      ],
+      "answer_index": null,
+      "explanation": "從微觀的生活場景連結到宏觀的家鄉文化意識。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這一課引導讀者具備什麼樣的鄉土情懷？",
+      "options": [
+        "趕快離開家鄉去城市",
+        "珍惜傳統文化，觀察生活中的土地情感",
+        "如何當一個成功的攤販",
+        "去市場買便宜的東西"
+      ],
+      "answer_index": null,
+      "explanation": "鄉土教育與社會觀察能力的培養。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

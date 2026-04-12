@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "HANLIN",
+    "lesson": "L7",
+    "order": 7,
+    "title": "棒球英雄夢",
+    "theme": "追求夢想與團隊運動。"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "台灣的國球是？",
+      "options": [
+        "網球",
+        "棒球",
+        "籃球",
+        "足球"
+      ],
+      "answer_index": "棒球",
+      "explanation": "棒球在台灣有重要地位。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-25",
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": "棒球",
+        "ai_reasoning": "此題僅為字面知識問答，缺乏對課文核心（挫折忍受、團隊合作）的推論與評鑑，不符合素養導向命題要求，建議刪除或重寫。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ]
+}

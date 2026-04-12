@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,18 +10,19 @@
   },
   "questions": [
     {
-      "id": "Chi_L12_HL_001",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "閱讀可以增加知識。",
       "options": [
         "是",
         "否"
       ],
-      "answer": "True",
+      "answer_index": "True",
       "explanation": "閱讀是學習的重要途徑。",
-      "is_active": true,
-      "cqi_score": 2.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 3
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

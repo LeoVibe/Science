@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "在「我的籃球夢」中，主角遇到最大的挫折是什麼？",
       "options": [
         "身高不足或遭受球技上的瓶頸",
@@ -19,32 +19,37 @@
         "買不起球鞋",
         "學校沒有籃球場"
       ],
-      "answer": "身高不足或遭受球技上的瓶頸",
+      "answer_index": "身高不足或遭受球技上的瓶頸",
       "explanation": "運動勵志故事通常以克服先天條件或技術困難為起點。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "主角認為，只要永不放棄並持續苦練，就一定能克服身材上的劣勢，發揮自己的價值。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "這種「勤能補拙」的精神是本課的正向積極價值觀。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "球場上的成功並非偶然，而是無數次練習產生的______成果。",
-      "answer": "汗水、努力、苦練或堅持",
+      "options": [],
+      "answer_index": "汗水、努力、苦練或堅持",
       "explanation": "強調過程的重要性勝於結果。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課中，主角在球隊中學到了什麼最重要的道理？",
       "options": [
         "個人英雄主義萬歲",
@@ -52,14 +57,15 @@
         "不要跟比自己高的人打球",
         "團隊合作與不畏艱辛的毅力"
       ],
-      "answer": "團隊合作與不畏艱辛的毅力",
+      "answer_index": "團隊合作與不畏艱辛的毅力",
       "explanation": "籃球是團體運動，本課兼顧了個人夢想與團隊意識。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課最想建立小孩哪一種性格特質？",
       "options": [
         "自傲自大",
@@ -67,10 +73,12 @@
         "堅忍不拔、勇於追夢",
         "只做自己拿手的事"
       ],
-      "answer": "堅忍不拔、勇於追夢",
+      "answer_index": "堅忍不拔、勇於追夢",
       "explanation": "培養學生的抗壓性與成長思維（Growth Mindset）。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L2",
+    "order": 2,
+    "title": "What Is It?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is it? B: It ______ a book.",
+      "options": [
+        "are",
+        "be",
+        "am",
+        "is"
+      ],
+      "answer_index": null,
+      "explanation": "配合第三人稱單數 It，使用 be 動詞 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "We use 'What is it?' to ask about an object.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "'What is it?' 用來詢問某個物品是什麼。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "It is a ______ (鉛筆).",
+      "options": [],
+      "answer_index": null,
+      "explanation": "pencil 的意思是鉛筆。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What is it? B: It's ______ apple.",
+      "options": [
+        "some",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer_index": null,
+      "explanation": "apple 是母音開頭，單數時使用 an。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is NOT a school object?",
+      "options": [
+        "pen",
+        "ruler",
+        "eraser",
+        "apple"
+      ],
+      "answer_index": null,
+      "explanation": "apple 是食物，不是常見的文具物品。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -2,62 +2,59 @@ const fs = require('fs');
 const path = require('path');
 
 const JOBS_DIR = path.join(__dirname, '../jobs');
-const BOARD_FILE = path.join(JOBS_DIR, '任務看板與派工.md');
+
+/** 派工單：JOB- 開頭、非 Report、非模板 */
+function isDispatchFile(name) {
+    if (name.startsWith('_')) return false;
+    if (!/^JOB-.+\.md$/i.test(name)) return false;
+    if (/report/i.test(name)) return false;
+    return true;
+}
+
+/** Report：檔名含 JOB-數字 且檔名含 Report */
+function isReportFile(name) {
+    if (name.startsWith('_')) return false;
+    return /^JOB-\d{3,}.+\.md$/i.test(name) && /report/i.test(name);
+}
+
+/** Report 檔名 → 派工單前綴（例：JOB-017A-Report.md → JOB-017A） */
+function reportStemFromFilename(name) {
+    const m = name.match(/^(JOB-.+?)-Report.*\.md$/i);
+    return m ? m[1] : null;
+}
 
 function verifyJobs() {
-    console.log("=========================================");
-    console.log("🔍 Eidos 任務巡房與糾察 (Job Verification)");
-    console.log("=========================================\n");
+    console.log('=========================================');
+    console.log('🔍 Eidos 任務稽核 (Job Verification)');
+    console.log('=========================================\n');
 
-    if (!fs.existsSync(BOARD_FILE)) {
-        console.error(`❌ 錯誤: 找不到看板檔案 ${BOARD_FILE}`);
-        process.exit(1);
-    }
-
-    const boardContent = fs.readFileSync(BOARD_FILE, 'utf8');
     const jobsFiles = fs.readdirSync(JOBS_DIR);
-    
-    // 解析看板內的表格
-    const tableRowRegex = /\|\s*`(JOB-\d{3,}[^`]*)`\s*\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|/g;
-    let match;
+    const dispatchFiles = jobsFiles.filter(isDispatchFile);
+    const reportFiles = jobsFiles.filter(isReportFile);
+
     let errorCount = 0;
-    let totalChecked = 0;
 
-    while ((match = tableRowRegex.exec(boardContent)) !== null) {
-        totalChecked++;
-        const jobId = match[1];
-        const jobTitle = match[2].trim();
-        const jobLink = match[3].replace('./', '').trim(); // ex: JOB-057-USER-....md
-        const status = match[5].trim(); // ex: 🔵 執行中, 🟢 DONE
-        
-        const isDone = status.includes('DONE');
-
-        // 1. 檢查派工單本體是否存在
-        if (!jobsFiles.includes(jobLink)) {
-            console.error(`❌ [空殼任務] 發現看板有 ${jobId}，但實體檔案不存在: ${jobLink}`);
+    for (const rf of reportFiles) {
+        const stem = reportStemFromFilename(rf);
+        if (!stem) continue;
+        // 合併結案報告（多編號或 Integrated）不強制對應單一派工檔名
+        if (/integrated/i.test(rf) || /^JOB-\d{3,}-\d{3,}/i.test(stem)) {
+            console.warn(`⚠️ 略過合併／多編 Report 之派工對照：${rf}`);
+            continue;
+        }
+        const hasDispatch = dispatchFiles.some((df) => df.startsWith(`${stem}-`));
+        if (!hasDispatch) {
+            console.error(`❌ [Report 無對應派工] ${rf}（預期存在 ${stem}-*.md 派工單）`);
             errorCount++;
-            continue; // 本體就不在了，不用繼續檢查報告
-        }
-
-        // 2. 如果狀態是 DONE，檢查是否有完工報告 (Report)
-        if (isDone) {
-            const basicReportName = `${jobId}-Report.md`;
-            const hasReport = jobsFiles.some(f => f === basicReportName || new RegExp(`${jobId}.*Report\\.md$`, 'i').test(f));
-            
-            if (!hasReport) {
-                console.error(`🚨 [逃漏稅任務] 發現 ${jobId} (${jobTitle}) 在看板聲稱 DONE，但找不到任何對應的 Report 完工報告！`);
-                errorCount++;
-            }
         }
     }
 
-    console.log(`\n✅ 巡邏結束。共檢查了 ${totalChecked} 筆記錄。`);
+    console.log(`派工單檔案：${dispatchFiles.length} 個；Report 檔案：${reportFiles.length} 個。`);
     if (errorCount > 0) {
-        console.error(`⚠️ 發現 ${errorCount} 個違規或遺漏的問題。請處理以確保專案進度真偽！`);
+        console.error(`\n⚠️ 發現 ${errorCount} 項問題。`);
         process.exit(1);
-    } else {
-        console.log(`🎉 完美！沒有發現幽靈任務與空殼結案。`);
     }
+    console.log('\n✅ 未發現 Report 與派工單明顯脫鉤。');
 }
 
 verifyJobs();

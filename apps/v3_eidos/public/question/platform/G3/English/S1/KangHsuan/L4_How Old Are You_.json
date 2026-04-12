@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L4",
+    "order": 4,
+    "title": "How Old Are You?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How old are you? B: I am ______ years old.",
+      "options": [
+        "pen",
+        "small",
+        "nine",
+        "red"
+      ],
+      "answer_index": null,
+      "explanation": "回答年齡時應使用數字（基數詞）。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The question 'How old are you?' is used to ask about someone's age.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "'How old are you?' 用來詢問對方的年齡。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "One, two, three, ______, five.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "依序數數，三之後是四。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How old is he? B: He ______ eight years old.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": null,
+      "explanation": "配合第三人稱單數 he，使用 be 動詞 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "What number comes after 'nine'?",
+      "options": [
+        "six",
+        "seven",
+        "ten",
+        "eight"
+      ],
+      "answer_index": null,
+      "explanation": "九（nine）之後的下一個數字是十（ten）。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

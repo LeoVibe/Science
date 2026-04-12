@@ -24,7 +24,7 @@
 2. 修正 G3 國語 S2 翰林 manifest 映射
    - 檢查並修正 `question/platform/G3/Chinese/S2/HanLin/manifest.json` 中錯誤檔名。
    - 目前已知錯誤映射：
-     - `L3_用膝蓋跳舞的女孩.json` 應改為 `Chi_L3.json`
+     - `QL3_用膝蓋跳舞的女孩.json` 應改為 `Chi_QL3.json`
      - `L6_月世界.json` 應改為 `Chi_L6.json`
    - 確保前台路徑 `/g3/chi/s2/hlm` 可成功載入。
 

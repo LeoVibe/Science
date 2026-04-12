@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "NANYI",
+    "lesson": "L1",
+    "order": 1,
+    "title": "一億以內的數",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "數字「80500200」讀作什麼？",
+      "options": [
+        "八千零五十萬二百",
+        "八千萬五萬兩百",
+        "八千五百萬二百",
+        "八千零五十萬零二百"
+      ],
+      "answer_index": "八千零五十萬零二百",
+      "explanation": "80,50,0,200。千萬位 8，百萬位 0，十萬位 5，萬位 0，千位 0，百位 2。讀作：八千零五十萬零二百。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「千萬位」左邊一位是「億位」。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "個、十、百、千、萬、十萬、百萬、千萬、億。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「二千七百萬」記作______。",
+      "options": [],
+      "answer_index": "27000000",
+      "explanation": "千萬位 2，百萬位 7，其餘補 0。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "數字「12345678」中，數字「1」代表的值是多少？",
+      "options": [
+        "一千萬",
+        "一億",
+        "一百萬",
+        "一萬"
+      ],
+      "answer_index": "一千萬",
+      "explanation": "1 位在千萬位上。",
+      "commonMisconception": "",
+      "quality_level": "QL2",
+      "cqi_score": 4.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "比 999 萬多 1 萬的數是多少？",
+      "options": [
+        "1 億",
+        "1000 萬",
+        "9991 萬",
+        "100 萬"
+      ],
+      "answer_index": "1000 萬",
+      "explanation": "999 + 1 = 1000，即一千萬。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

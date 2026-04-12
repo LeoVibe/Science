@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "ENG",
+    "publisher": "KANGHSUAN",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What do you want? B: I want ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "What do you want? 詢問想要什麼，回答用 I want + 物品。",
+      "answer_index": "a hamburger",
+      "options": [
+        "am hungry",
+        "a hamburger",
+        "can eat",
+        "like it"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'I want some juice.' means '我想要一些果汁'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "want 表示想要，some juice 是一些果汁。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What ______ you want? B: I want a sandwich.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "疑問句用 do 作為助動詞。",
+      "answer_index": "do",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Do you want pizza? B: Yes, ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "Do you...? 的肯定回答是 Yes, I do。",
+      "answer_index": "I do",
+      "options": [
+        "I am",
+        "I do",
+        "I can",
+        "I want"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What does he want? B: He ______ a hot dog.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "第三人稱單數 he 後面動詞要加 s。",
+      "answer_index": "wants",
+      "options": [
+        "want",
+        "to want",
+        "wanting",
+        "wants"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "KANGHSUAN",
+    "lesson": "L8",
+    "order": 8,
+    "title": "線對稱圖形",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "將一個圖形對摺後，左右兩邊能完全重疊，這條摺線稱之為什麼？",
+      "options": [
+        "對角線",
+        "中心線",
+        "對稱軸",
+        "垂直線"
+      ],
+      "answer_index": null,
+      "explanation": "對稱軸是線對稱圖形的核心特徵。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「正方形」總共有 4 條對稱軸。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "包含兩條對邊中點連線與兩條對角線。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「長方形」總共有______條對稱軸。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "只有兩條對邊中點連線（不含對角線）。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪一個英文字母（大寫）是線對稱圖形？",
+      "options": [
+        "A",
+        "G",
+        "F",
+        "L"
+      ],
+      "answer_index": null,
+      "explanation": "A 有一條垂直對稱軸。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「對稱點」的性質，下列何者正確？",
+      "options": [
+        "對稱點到對稱軸的距離相等",
+        "對稱點連線的中點在對稱軸上",
+        "以上皆是",
+        "對稱點連線會垂直對稱軸"
+      ],
+      "answer_index": null,
+      "explanation": "這是線對稱圖形幾何關係的重要定義。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

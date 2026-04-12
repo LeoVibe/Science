@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "SocialStudies",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "家鄉的地圖與運用"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在地圖上，用來表示實際距離與地圖長度比例的工具稱為什麼？",
+      "options": [
+        "方向標",
+        "圖名",
+        "圖例",
+        "比例尺"
+      ],
+      "answer_index": "比例尺",
+      "explanation": "比例尺能幫助我們計算兩地間的實際距離。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "地圖上的「圖例」作用是解釋地圖中各種符號所代表的意義。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "例如醫院可能用紅十字符號表示。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "地圖中指向北方（通常用 N 表示）的符號稱為______。",
+      "options": [],
+      "answer_index": "方向標",
+      "explanation": "方向標能指引我們在地圖上的空間方位。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "如果要尋找家鄉所在的正確經緯度或經緯線，應查看哪一種地圖？",
+      "options": [
+        "景點導覽圖",
+        "捷運路線圖",
+        "世界地圖或台灣全圖",
+        "大樓平面圖"
+      ],
+      "answer_index": "世界地圖或台灣全圖",
+      "explanation": "經緯線是全球性的座標系統。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「電子地圖」（地圖 APP）的優點，下列何者正確？",
+      "options": [
+        "能查詢周邊生活資訊",
+        "可以即時導航",
+        "隨時更新最新路徑",
+        "以上皆是"
+      ],
+      "answer_index": "以上皆是",
+      "explanation": "科技發展讓地圖運用更便利。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
+    }
+  ],
+  "publisher": "HanLin"
+}

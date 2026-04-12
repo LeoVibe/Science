@@ -10,7 +10,7 @@ updated_by: Antigravity
 ## 📖 任務詳情
 1. 盤點 G3 S2 社會 (翰林版) 現有題數與缺口。
 2. 針對 U1~U6 執行 `auto_generate_questions.js` 補充題庫。
-3. 執行品質閘門 (`evaluate_question_quality.js`) 確保無 L1，且 CQI 達標。
+3. 執行品質閘門 (`evaluate_question_quality.js`) 確保無 QL1，且 CQI 達標。
 4. 執行盲測模組 (`run_blind_eval.js`) 驗證。
 5. 產出任務完工報告 `JOB-091-Report.md`。
 
@@ -24,7 +24,7 @@ updated_by: Antigravity
 
 ## 預期結果清單 (Expected Outcomes Checklist)
 - [ ] G3 S2 SocialStudies HanLin U1~U6 皆擁有 30 題的題庫。
-- [ ] 所有產出題目的 CQI 平均分數 ≥ 6.5，且 L1 (BIAS) 為 0。
+- [ ] 所有產出題目的 CQI 平均分數 ≥ 6.5，且 QL1 (BIAS) 為 0。
 - [ ] 盲審驗證 (Blind Eval) 執行完畢並處理 mismatch。
 - [ ] `docs/進度彙整_全站研發與題庫產出.md` 進度已更新。
 - [ ] 執行 `/dosync` 並沉澱完工報告。

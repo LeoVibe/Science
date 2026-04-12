@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課作者將爸爸比喻為「魔術師」，是因為爸爸具備什麼樣的能力？",
       "options": [
         "他會變出很多錢",
@@ -19,32 +19,37 @@
         "他總能用雙手修好故障的家電或打造生活中的驚喜",
         "他真的在馬戲團工作"
       ],
-      "answer": "他總能用雙手修好故障的家電或打造生活中的驚喜",
+      "answer_index": null,
       "explanation": "爸爸的「魔術」其實是精湛的木工或修繕技能，以及對家人付出的溫柔。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中的爸爸透過「惜物」與「再造」的精神，讓原本要丟棄的廢木材變成了實用的傢俱。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這是本課隱喻的人生哲理：凡事若能用心，廢石也能成玉。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這份「魔術」背後，最核心的動力是爸爸對家中成員那份深沉而安靜的______。",
-      "answer": "愛、關懷或心意",
+      "options": [],
+      "answer_index": null,
       "explanation": "父愛往往以實踐而非言語來展現。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者在看著爸爸工作時，心裡產生了什麼樣的情感？",
       "options": [
         "覺得爸爸很無聊",
@@ -52,14 +57,15 @@
         "無限的崇拜、感激與對生活的新體察",
         "想跟爸爸要錢買玩具"
       ],
-      "answer": "無限的崇拜、感激與對生活的新體察",
+      "answer_index": null,
       "explanation": "這反映了孩子對父母付出的覺察與感恩。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課想導引讀者關注的主題是？",
       "options": [
         "職業不分貴賤與親情的可貴",
@@ -67,10 +73,12 @@
         "如何考取魔術師證照",
         "爸爸應該多休息"
       ],
-      "answer": "職業不分貴賤與親情的可貴",
+      "answer_index": null,
       "explanation": "從具象的工作描寫引發至親情價值的肯認。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.25
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

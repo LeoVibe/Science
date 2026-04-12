@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L8",
+    "order": 8,
+    "title": "小黑的新發現",
+    "theme": "觀察力與好奇心。"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "故事中的主角是誰？",
+      "options": [
+        "小白",
+        "小花",
+        "小黑",
+        "小黃"
+      ],
+      "answer_index": "小黑",
+      "explanation": "題目提到小黑。",
+      "commonMisconception": "",
+      "quality_level": "QL2",
+      "cqi_score": 5.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-25",
+      "blind_eval_mismatch": {
+        "ai_selected": 2,
+        "correct_answer": "小黑",
+        "ai_reasoning": "此題僅為基礎事實記憶，未符合課綱要求的「高層次閱讀理解」與「因果鏈解析」，屬於瑣碎記憶題，建議刪除或改寫。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ]
+}

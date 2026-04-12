@@ -1,0 +1,1902 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "Mom is looking for her keys before going to work.",
+      "question": "Mom: I can't find my keys. Where are they?\nSon: Look! ___________________",
+      "options": [
+        "it is on the big table",
+        "They is on the table.",
+        "They are in the table.",
+        "They are on the table."
+      ],
+      "answer_index": 3,
+      "explanation": "問句為 Where are they?，代名詞為 they，對應 are。鑰匙在桌面上方使用 on。",
+      "commonMisconception": "將 keys 視為單數 (it) 或搞混 on 與 in 的差異。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Two brothers are playing a treasure hunt game.",
+      "question": "Older brother: Where is the missing toy car?\nYounger brother: ___________________",
+      "options": [
+        "It is under bed.",
+        "It is under the bed.",
+        "It are under the bed.",
+        "They are under bed."
+      ],
+      "answer_index": 1,
+      "explanation": "toy car 是單數，使用 It is。表示在床底下的空間使用 under 且需定冠詞 the。",
+      "commonMisconception": "漏掉定冠詞 the。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Alice sees her pet sleeping inside a cozy box.",
+      "question": "Alice: Where's the cat?\nDad: Shh. ___________________",
+      "options": [
+        "It's on the box.",
+        "It am in the box.",
+        "They're in the box.",
+        "It's in the box."
+      ],
+      "answer_index": 3,
+      "explanation": "單隻貓。睡在箱子『裡面』使用 in。",
+      "commonMisconception": "空間介係詞 in 與 on 混淆。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A teacher is asking about a picture of birds.",
+      "question": "Teacher: Where are the birds?\nStudent: ___________________",
+      "options": [
+        "It is on the big tree.",
+        "They are in the tree.",
+        "It is in the big tree.",
+        "They are on the tree."
+      ],
+      "answer_index": 1,
+      "explanation": "birds 為複數，需用 They are 回答。外來的鳥停在樹枝中習慣用 in the tree。",
+      "commonMisconception": "被中文『在樹上』干擾而選 on。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Mike is helping his grandmother find her glasses.",
+      "question": "Grandma: I can't find my reading glasses.\nMike: Let me help you. ___________________",
+      "options": [
+        "What are they?",
+        "Where are they?",
+        "Where is it now?",
+        "Who are these people?"
+      ],
+      "answer_index": 1,
+      "explanation": "glasses (眼鏡) 是恆複數名詞，應使用 Where are they?。",
+      "commonMisconception": "將 glasses 理解為單數 it。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Two students looking for a lost basketball.",
+      "question": "Student A: ___________________\nStudent B: It's under the teacher's desk.",
+      "options": [
+        "How is the basketball?",
+        "What is the basketball?",
+        "Who is the basketball?",
+        "Where's the basketball?"
+      ],
+      "answer_index": 3,
+      "explanation": "根據回答 under (在...下面)，應問 Where (哪裡)。",
+      "commonMisconception": "Wh- 疑問詞義掌握不清。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Dad is packing his briefcase.",
+      "question": "Dad: Where is the red pen?\nMom: ___________________",
+      "options": [
+        "It's on the pencil case.",
+        "It isn't in pencil case.",
+        "They are in pencil case.",
+        "It's in the pencil case."
+      ],
+      "answer_index": 3,
+      "explanation": "筆放在筆袋裡面用 in。且 pencil case 前需加 the。",
+      "commonMisconception": "漏掉定冠詞 the。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Searching for a treasure box.",
+      "question": "Sister: Where is the treasure box?\nBrother: ___________________",
+      "options": [
+        "It's on the small boxes.",
+        "It's under the big rock.",
+        "They are in a big rocks.",
+        "This is under big rocks."
+      ],
+      "answer_index": 1,
+      "explanation": "treasure box 是單數用 It's。強調位置在石頭下。",
+      "commonMisconception": "冠詞與名詞不一致 (a big rocks)。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Tom wants to play a game.",
+      "question": "Tom: Mom, where's my toy?\nMom: ___________________\nTom: Oh, I see it! It's next to the books.",
+      "options": [
+        "They are on the sofa",
+        "They is on the sofa.",
+        "Is it on the sofa?",
+        "It are on the sofa."
+      ],
+      "answer_index": 2,
+      "explanation": "Mom 提供猜測用問句 Is it...。",
+      "commonMisconception": "誤用 Be 動詞搭配 (It are)。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "The tiger is looking for the monkey.",
+      "question": "Tiger: Where is the monkey hiding?\nMonkey: Haha! I am __________________ the box.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "under"
+      ],
+      "answer_index": 0,
+      "explanation": "躲在盒子裡面用 in。選項 B 會被看到。",
+      "commonMisconception": "無法結合『躲藏』的情境選擇正確介係詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'u' short sound.",
+      "question": "Which word has the /ʌ/ sound like in 'bus'?",
+      "options": [
+        "uniform",
+        "under",
+        "use",
+        "unit"
+      ],
+      "answer_index": 1,
+      "explanation": "bus 與 under 開頭均發短音 /ʌ/。其餘選項發 /ju/。",
+      "commonMisconception": "無法區別 u 的短音與半母音前綴。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "A hat is on a desk.",
+      "question": "A: Where is the hat?\nB: __________________ the desk. Next to the book.",
+      "options": [
+        "It is on",
+        "They're on",
+        "They're in",
+        "It's in"
+      ],
+      "answer_index": 0,
+      "explanation": "單數 hat 配 It is。在桌面使用 on。",
+      "commonMisconception": "代名詞單複數對應失敗。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Two markers are missing.",
+      "question": "A: __________________ my markers?\nB: They are in your bag.",
+      "options": [
+        "Who are",
+        "Where are",
+        "Where is",
+        "What are"
+      ],
+      "answer_index": 1,
+      "explanation": "由回答 they are (複數) 與袋子位置反推問句。",
+      "commonMisconception": "忽略複數代名詞的指示功能。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Rhyming with 'rug'.",
+      "question": "Which word rhymes with 'rug'?",
+      "options": [
+        "run",
+        "rag",
+        "bug",
+        "big"
+      ],
+      "answer_index": 2,
+      "explanation": "-ug 結尾具有相同押韻。選項 B 母音不同。",
+      "commonMisconception": "沒注意母音對押韻的決定作用。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A cat is under a chair.",
+      "question": "A: Look! Where is the cat?\nB: It is __________________ the chair. You can't see its face.",
+      "options": [
+        "next to",
+        "under",
+        "on",
+        "in"
+      ],
+      "answer_index": 1,
+      "explanation": "看不見臉代表躲在下面下。選項 B 會看得到臉。",
+      "commonMisconception": "忽略後半句視覺提示。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking about many pencils.",
+      "question": "A: Are the pencils __________________ the box?\nB: No, they are next to the box.",
+      "options": [
+        "on",
+        "under",
+        "in",
+        "at"
+      ],
+      "answer_index": 2,
+      "explanation": "通常先問是否在裡面使用 in。回答否定後指出確切位置。",
+      "commonMisconception": "無法結合對話邏輯選配介係詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'u' at the end of sound.",
+      "question": "Which word rhyme with 'sun'?",
+      "options": [
+        "sat",
+        "sad",
+        "sing",
+        "run"
+      ],
+      "answer_index": 3,
+      "explanation": "sun 與 run 具有韻腳 -un。其餘各項韻腳不同。",
+      "commonMisconception": "混淆短母音 /ʌ/ 與 /æ/。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing at a doll on the sofa.",
+      "question": "A: Where is the doll?\nB: __________________ the sofa. Look there!",
+      "options": [
+        "It's in",
+        "They are in",
+        "These are",
+        "It is on"
+      ],
+      "answer_index": 3,
+      "explanation": "玩偶在沙發面上用 on。單數對應 It is。",
+      "commonMisconception": "錯用介係詞 in 於平面家具。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Negative location check.",
+      "question": "A: Is the book under the chair?\nB: __________________. It's in my bag.",
+      "options": [
+        "No, it isn't.",
+        "No, they aren't.",
+        "Yes, it is.",
+        "Yes, they are."
+      ],
+      "answer_index": 0,
+      "explanation": "在袋子裡代表不在椅子下。單數主詞對應 isn't。",
+      "commonMisconception": "沒看見後文位置導正。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Short 'u' vs Long 'u'.",
+      "question": "Which word has a DIFFERENT vowel sound?",
+      "options": [
+        "duck",
+        "rug",
+        "cute",
+        "bus"
+      ],
+      "answer_index": 2,
+      "explanation": "cute 是長母音 /u/。其餘均為短母音 /ʌ/。",
+      "commonMisconception": "無法辨識字尾 e 對母音產生的影響。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Identifying two kittens.",
+      "question": "A: Where are the kittens?\nB: They are __________________ the big box.",
+      "options": [
+        "at",
+        "in",
+        "of",
+        "next to"
+      ],
+      "answer_index": 3,
+      "explanation": "在箱子旁邊正確用法 next to。選項 B (at) 太籠統。",
+      "commonMisconception": "漏掉 next to 的固定搭配。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "A bird next to a house.",
+      "question": "A: Is the bird in the house?\nB: No, __________________ the house.",
+      "options": [
+        "it is next to",
+        "she is of",
+        "it is in",
+        "it is at"
+      ],
+      "answer_index": 0,
+      "explanation": "否定後給予正確位置。選項 A 邏輯正確且文法通順。",
+      "commonMisconception": "無法結合否定句型導向正確位置描述。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'u' sound check.",
+      "question": "In the word 'under', the sound of 'u' is ___________.",
+      "options": [
+        "Long u sound",
+        "Short u sound",
+        "Soft u sound",
+        "Silent u"
+      ],
+      "answer_index": 1,
+      "explanation": "under 的 u 發短母音 /ʌ/。",
+      "commonMisconception": "無法將發音術語與具體單字對應。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for three balls.",
+      "question": "A: __________________ the balls?\nB: They're on the chair.",
+      "options": [
+        "What are",
+        "Who is",
+        "Where are",
+        "Where's"
+      ],
+      "answer_index": 2,
+      "explanation": "balls 複數。選項 B 為單數縮寫。",
+      "commonMisconception": "在問句中忘記使用 are 對應複數主詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing at a star on a Christmas tree.",
+      "question": "A: Look! The star is __________________ the tree.\nB: It is yellow and bright.",
+      "options": [
+        "on",
+        "in",
+        "next to",
+        "under"
+      ],
+      "answer_index": 0,
+      "explanation": "裝飾星在樹冠層表面用 on。",
+      "commonMisconception": "無法分辨物品與樹木的空間表裡關係。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Double vowel check.",
+      "question": "Which word has the /ʌ/ sound?",
+      "options": [
+        "too",
+        "ten",
+        "tub",
+        "tube"
+      ],
+      "answer_index": 2,
+      "explanation": "tub 是短音 /ʌ/。選項 B 是長音 /u/。",
+      "commonMisconception": "無法預測短母音管位。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for a missing shoe.",
+      "question": "A: __________________ my shoe?\nB: It's under the bed.",
+      "options": [
+        "Where is",
+        "Who is",
+        "Where are",
+        "What is"
+      ],
+      "answer_index": 0,
+      "explanation": "shoe 單數對應 is。選項 B 為複數用法。",
+      "commonMisconception": "忽略單數鞋子與複數鞋組的代名詞差異。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Recap location: Where is Tom?",
+      "question": "A: Where's Tom?\nB: He is __________________ his room. Sleeping.",
+      "options": [
+        "next to",
+        "on",
+        "in",
+        "under"
+      ],
+      "answer_index": 2,
+      "explanation": "在房間裡面用 in。",
+      "commonMisconception": "對大空間內的使用直覺不穩。",
+      "quality_level": "L5",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Final recap.",
+      "question": "Choose the word with same sound as 'bus'.",
+      "options": [
+        "book",
+        "blue",
+        "back",
+        "duck"
+      ],
+      "answer_index": 3,
+      "explanation": "bus 與 duck 均包含 /ʌ/ 音位。",
+      "commonMisconception": "混淆英文短母音的高低位聽感。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Final location: Birds in the sky.",
+      "question": "Look! The birds are __________________ the sky.",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "next to"
+      ],
+      "answer_index": 0,
+      "explanation": "在天空中慣用 in the sky。",
+      "commonMisconception": "習慣性在天空這種平面直覺中選 on。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Two students are drawing an alien on the blackboard.",
+      "question": "Mia: Look at the alien's face! What are these?\nLeo: ___________________",
+      "options": [
+        "They are its big eyes.",
+        "They is its big eyes.",
+        "It is its big two eyes.",
+        "This are its big eyes."
+      ],
+      "answer_index": 0,
+      "explanation": "What are these? 詢問複數物品，必須以 They are... 回答。選項 B 誤用單數代名詞 It is。",
+      "commonMisconception": "對指示代名詞單複數不敏感，將複數 They 搭配 is。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A doctor is checking a robot's body parts in the lab.",
+      "question": "Doctor: Let's check the arms. Are these your arms?\nRobot: ___________________",
+      "options": [
+        "Yes, they are. They are my arms.",
+        "No, these isn't. These are arms.",
+        "No, they aren't. They is arms.",
+        "Yes, it is. It is my long arm."
+      ],
+      "answer_index": 0,
+      "explanation": "問句 Are these...? 詢問複數物品，簡答須為 Yes, they are.。",
+      "commonMisconception": "在簡化回答時忘記將 these 轉換為代名詞 they。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Mom and Tim are packing a bag for a picnic.",
+      "question": "Mom: What is this?\nTim: ___________________",
+      "options": [
+        "This are sweet apples.",
+        "It is a sweet apple.",
+        "They is a sweet apple.",
+        "They are sweet apples."
+      ],
+      "answer_index": 1,
+      "explanation": "問句 What is this? 是詢問單數物品，必須以 It is... 回答單數名詞。",
+      "commonMisconception": "無法正確反射相對應的單複數回答句型。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "A boy finds some weird things under his bed.",
+      "question": "Boy: Mom! Look! What are these?\nMom: Don't touch them! ___________________",
+      "options": [
+        "These is old dirty socks.",
+        "They are old dirty socks.",
+        "It is an old dirty sock.",
+        "That are old dirty socks."
+      ],
+      "answer_index": 1,
+      "explanation": "針對 What are these? 的複數提問，回答需使用 They are。",
+      "commonMisconception": "忘記指示代名詞後方要跟著正確的單複數 Be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "In art class, the teacher is pointing at a student's painting.",
+      "question": "Teacher: Are those your ears, monster?\nStudent: ___________________",
+      "options": [
+        "No, they aren't. They is my eyes",
+        "Yes, they are. They are my ears.",
+        "No, it isn't. It is my big eyes.",
+        "Yes, those is. Those is my ears."
+      ],
+      "answer_index": 1,
+      "explanation": "Are those...? 的肯定回答為 Yes, they are.。",
+      "commonMisconception": "在複數否定回答中錯配 Be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Andy and his sister are playing a guessing game with their hands.",
+      "question": "Sister: Close your eyes. What are these in my hands?\nAndy: ___________________",
+      "options": [
+        "They are two small markers.",
+        "These is two small markers.",
+        "It is a small red markers.",
+        "They am two small markers."
+      ],
+      "answer_index": 0,
+      "explanation": "What are these...? 回答必須是 They are 加上複數名詞。",
+      "commonMisconception": "冠詞 a/an 與字尾 s 複數同時出現。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "The pet shop owner is showing Lily some animals.",
+      "question": "Lily: They are so cute! Are they dogs?\nOwner: ___________________",
+      "options": [
+        "No, they isn't. They are cat.",
+        "Yes, it is. It is small dogs.",
+        "No, they aren't. They are cats.",
+        "Yes, they are. They are cat."
+      ],
+      "answer_index": 2,
+      "explanation": "Are they...? 的回答必須對稱。選項 A 前後一致。",
+      "commonMisconception": "名詞複數忘記加上 s，或是代名詞 they 搭配 isn't。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "At the zoo, a little boy is pointing at something tall.",
+      "question": "Boy: Look at the long legs! _______________\nDad: Yes, they are giraffes.",
+      "options": [
+        "Are these tall giraffes?",
+        "Is this a tall giraffe?",
+        "Is these tall giraffes?",
+        "Are this tall giraffes?"
+      ],
+      "answer_index": 0,
+      "explanation": "從回答 Yes, they are giraffes. 可知問句必須是複數型態。",
+      "commonMisconception": "無法從回答的主詞和 Be 動詞反推問句的正確型態。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Mary's brother takes something from her pencil case.",
+      "question": "Mary: Hey! What is that?\nBrother: ___________________\nMary: Give it back!",
+      "options": [
+        "It is your red eraser.",
+        "They are red erasers.",
+        "That are red erasers.",
+        "It are your red eraser."
+      ],
+      "answer_index": 0,
+      "explanation": "What is that? 提問單數，必須以 It is... 回答。",
+      "commonMisconception": "未能區分 that (單數) 與 those (複數)。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "During a magic show, the magician pulls things from a hat.",
+      "question": "Magician: What are these? Are they rabbits?\nBoy: ___________________",
+      "options": [
+        "Yes, they are. They is white rabbits.",
+        "No, it isn't. It is a white bird.",
+        "No, they aren't. They are white birds.",
+        "Yes, these is. These are white rabbits."
+      ],
+      "answer_index": 2,
+      "explanation": "因有 these 和 they 提示複數，回答必須是 No, they aren't.",
+      "commonMisconception": "未注意英文句型對應的 They are 複數規則。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing at distant mountains.",
+      "question": "A: Look! What are those?\nB: __________________. They are high.",
+      "options": [
+        "It is a mountain.",
+        "These are mountain.",
+        "Those is mountain.",
+        "They are mountains."
+      ],
+      "answer_index": 3,
+      "explanation": "遠處複數 what are those 應以 They are 回答且名詞加 s。",
+      "commonMisconception": "忘記複數名詞後綴 s。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Touching objects on a table.",
+      "question": "A: Are these your markers?\nB: __________________. They're my sister's markers.",
+      "options": [
+        "Yes, I am.",
+        "No, they aren't.",
+        "No, it isn't.",
+        "Yes, they are."
+      ],
+      "answer_index": 1,
+      "explanation": "描述是別人的東西，代表否定。對應 Are these 的正確簡答。",
+      "commonMisconception": "忽略說明句 (sister's) 的否定提示功能。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Hard c and k sounds.",
+      "question": "Which word has the same beginning /k/ sound as 'cap'?",
+      "options": [
+        "ice",
+        "city",
+        "nice",
+        "king"
+      ],
+      "answer_index": 3,
+      "explanation": "cap 的 c 與 king 的 k 均發硬音 /k/。其餘選項發軟音 /s/。",
+      "commonMisconception": "無法結合不同字母發出相同音位的情形。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking about something on a friend's head.",
+      "question": "A: Is that a new hat?\nB: __________________. It is a red cap.",
+      "options": [
+        "Yes, they are.",
+        "No, it isn't.",
+        "Yes, it is.",
+        "No, I am not."
+      ],
+      "answer_index": 2,
+      "explanation": "帽子的認同回答。選項 B 為否定與後面敘述矛盾。",
+      "commonMisconception": "對 hat 與 cap 的類別認同出現邏輯跳躍。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Identifying body parts of a doll.",
+      "question": "Child: Look! These are hands. Are these feet?\nMom: No, __________________. They are arms.",
+      "options": [
+        "they are.",
+        "they aren't.",
+        "these is not.",
+        "it isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "否定複數回答。選項 B 錯用單數；選項 C 動詞錯位。",
+      "commonMisconception": "在具體部位辨識中錯選代名詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing at many stars.",
+      "question": "A: What are __________________ in the sky?\nB: They are stars.",
+      "options": [
+        "these",
+        "that",
+        "this",
+        "those"
+      ],
+      "answer_index": 3,
+      "explanation": "天空遠且複數 stars，選 those。",
+      "commonMisconception": "無法結合空間距離選用 correctly 指示詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'c' sound.",
+      "question": "Which word rhyme with 'rock'?",
+      "options": [
+        "clock",
+        "back",
+        "nice",
+        "cake"
+      ],
+      "answer_index": 0,
+      "explanation": "rock 與 clock 均發短母音 /ɑk/。其餘選項母音不同。",
+      "commonMisconception": "無法區別字母 c 在不同位置的組合發音。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Identifying a distant bird.",
+      "question": "A: What is that?\nB: __________________. It is very pretty.",
+      "options": [
+        "this is bird.",
+        "It is a bird.",
+        "That are bird.",
+        "They are birds."
+      ],
+      "answer_index": 1,
+      "explanation": "對單數 that 的正確回答。選項 B 錯用複數；選項 D 漏冠詞。",
+      "commonMisconception": "遺漏單數可數名詞前的冠詞 a。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Asking about many objects in a box.",
+      "question": "A: Are __________________ in the box apples?\nB: Yes, they are. They are red.",
+      "options": [
+        "this",
+        "that",
+        "those",
+        "these"
+      ],
+      "answer_index": 2,
+      "explanation": "由回答 they correspond 推論問句應為複數。選 those 表示稍遠距離。",
+      "commonMisconception": "無法從空間關係推導出遠近指示詞的差異。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Soft c sound.",
+      "question": "In which word does 'c' sound like /s/?",
+      "options": [
+        "cat",
+        "can",
+        "cup",
+        "nice"
+      ],
+      "answer_index": 3,
+      "explanation": "nice 字尾的 c 發軟音 /s/。選項 B, C, D 均發硬音 /k/。",
+      "commonMisconception": "不知道字尾 e 會促使 c 改發軟音。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Recap: What is this?",
+      "question": "A: What is this?\nB: __________________",
+      "options": [
+        "It's a blue marker.",
+        "Yes, it is.",
+        "They're blue markers.",
+        "I am a blue marker."
+      ],
+      "answer_index": 0,
+      "explanation": "問什麼東西 (What) 應回答該物名。",
+      "commonMisconception": "聽到疑問句就想回答 Yes/No。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Are they pencils?",
+      "question": "A: Are those pencils under the book?\nB: __________________. They are erasers.",
+      "options": [
+        "Yes, it is.",
+        "Yes, they are.",
+        "No, they aren't.",
+        "No, it isn't."
+      ],
+      "answer_index": 2,
+      "explanation": "後敘 erasers 證明前面為否定。複數主詞對應 aren't。",
+      "commonMisconception": "被複數名詞混淆而選成肯定的 Yes。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Hard c vs s.",
+      "question": "Which word has the hard /k/ sound?",
+      "options": [
+        "city",
+        "cake",
+        "ice",
+        "nice"
+      ],
+      "answer_index": 1,
+      "explanation": "cake 的 c 發硬音 /k/。其餘選項均發軟音 /s/。",
+      "commonMisconception": "無法區別 c 在不同母音前的發音規律。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing to airplanes far in the sky.",
+      "question": "A: Look! __________________ are airplanes.",
+      "options": [
+        "That",
+        "Those",
+        "This",
+        "These"
+      ],
+      "answer_index": 1,
+      "explanation": "遠處且複數，選 Those。",
+      "commonMisconception": "在遠距離複數情境中錯選 These。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for name of a strange fruit.",
+      "question": "A: __________________?\nB: It's a papaya.",
+      "options": [
+        "Who is this",
+        "Is this papaya",
+        "What is this",
+        "What are these"
+      ],
+      "answer_index": 2,
+      "explanation": "根據回答 It's (單數) 反推問句。",
+      "commonMisconception": "由代名詞 It 反推問句結構。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Two things in a small box.",
+      "question": "A: What are these in the box?\nB: __________________. They are sweet.",
+      "options": [
+        "They are two apples.",
+        "Those is apples.",
+        "It is two apples.",
+        "These are apple."
+      ],
+      "answer_index": 0,
+      "explanation": "針對 what are these 的正確複數回覆。",
+      "commonMisconception": "複數 Be 動詞後的名詞忘了加 s。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Hard c recap.",
+      "question": "Choose the word with the /k/ sound.",
+      "options": [
+        "nice",
+        "ice",
+        "face",
+        "candy"
+      ],
+      "answer_index": 3,
+      "explanation": "candy 發硬音 /k/。",
+      "commonMisconception": "無法結合字母組合預測發音。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Identifying things on the desk.",
+      "question": "Student: Are those markers, Teacher?\nTeacher: No, __________________. They are pens.",
+      "options": [
+        "they aren't.",
+        "it isn't.",
+        "they is not.",
+        "those isn't."
+      ],
+      "answer_index": 0,
+      "explanation": "否定複數對稱回答。選項 B 語法錯誤。",
+      "commonMisconception": "人稱與縮寫搭配混亂。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "What are these?",
+      "question": "Look at my hands. __________________ are my fingers.",
+      "options": [
+        "This",
+        "That",
+        "Those",
+        "These"
+      ],
+      "answer_index": 3,
+      "explanation": "手上近距離且 fingers 為複數，選 These。",
+      "commonMisconception": "無法正確判斷對應的近距離指示詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Two friends are having a snack after school.",
+      "question": "Tom: Do you like apples?\nMary: ___________________\nTom: Okay, here's a banana for you.",
+      "options": [
+        "No, I don't. I like sweet bananas.",
+        "Yes, I am. I like red sweet apple.",
+        "Yes, I do. I like red sweet apple.",
+        "No, I am not. I like sweet banana."
+      ],
+      "answer_index": 0,
+      "explanation": "依據 Tom 給香蕉的動作可知 Mary 不愛蘋果。問句為 Do you...?，否定回答為 No, I don't.。選項 B 與 D 錯用 Be 動詞。",
+      "commonMisconception": "將 Do you...? 的回答誤用為 I am / I am not。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "A mother is asking her son about fruit.",
+      "question": "Mother: Do you like oranges, Jimmy?\nJimmy: ___________________",
+      "options": [
+        "Yes, I do. I like oranges.",
+        "No, I don't. I like a orange",
+        "No, I am not. I like orange.",
+        "Yes, I am. I like an orange."
+      ],
+      "answer_index": 0,
+      "explanation": "Do you 提問，肯定簡答需為 Yes, I do.。表示喜好事物用複數型 (oranges)。選項 B, D 錯用 Be 動詞。",
+      "commonMisconception": "被中文直接理解干擾而漏掉複數 s。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Picking up fruits at the supermarket.",
+      "question": "Dad: Look at these fruits. ___________________\nDaughter: No, I don't. I like grapes.",
+      "options": [
+        "Does you like sweet papayas?",
+        "Is you like sweet papayas?",
+        "Are you like sweet papayas?",
+        "Do you like sweet papayas?"
+      ],
+      "answer_index": 3,
+      "explanation": "從 I don't 反推問句由 Do 開頭。主詞為 you 搭配 Do。其餘文法錯誤。",
+      "commonMisconception": "無法從回答的助動詞逆推問句系統。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Talking about lunch food.",
+      "question": "Kevin: I like hamburgers. How about you?\nLisa: ___________________",
+      "options": [
+        "I am like hamburgers, too.",
+        "I like hamburgers, too.",
+        "I am like hamburger, too.",
+        "I like hamburger, too."
+      ],
+      "answer_index": 1,
+      "explanation": "表達喜好使用 Subject + like + Noun(s)。種類名稱需用複數。選項 B, D 贅加 am。",
+      "commonMisconception": "將 am 與 like 疊加使用 (I am like...)。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Checking the fridge for a snack.",
+      "question": "Brother: Do you want a banana?\nSister: __________________",
+      "options": [
+        "No, I don't. I am bananas.",
+        "Yes, I am. I like banana.",
+        "Yes, please. I like bananas.",
+        "No, thanks. I like bananas."
+      ],
+      "answer_index": 2,
+      "explanation": "正面接受提議且敘述愛好。選項 B 語意矛盾；選項 D 語法破碎。",
+      "commonMisconception": "無法結合對話上下文因果關係。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'a' and 'p' check.",
+      "question": "Which word rhyme with 'cap'?",
+      "options": [
+        "apple",
+        "map",
+        "cat",
+        "cup"
+      ],
+      "answer_index": 1,
+      "explanation": "cap 與 map 均具相同尾音組合 -ap。選項 A 為對話單字但韻腳不同。",
+      "commonMisconception": "混淆英文韻腳的範圍判斷。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking Betty about fruit together.",
+      "question": "Amy: ___________________\nBetty: Yes, I do. Let's eat them together.",
+      "options": [
+        "Does you like sweet apple?",
+        "Are you like sweet apples?",
+        "Do you like sweet apples?",
+        "Is you like sweet apples?"
+      ],
+      "answer_index": 2,
+      "explanation": "回答 Yes, I do 代表問句為 Do you like...? 且名詞複數。選項 B, D 錯用 Be 動詞。",
+      "commonMisconception": "主詞與助動詞搭配錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "A monkey and its snack.",
+      "question": "A: Does the monkey like bananas?\nB: Yes, __________________. Look at it!",
+      "options": [
+        "it is.",
+        "it do.",
+        "they do.",
+        "it does."
+      ],
+      "answer_index": 3,
+      "explanation": "Does it 提問對應 it does。選項 B 助動詞錯配；選項 D 數值不符。",
+      "commonMisconception": "忘記第三人稱單數對應 does。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Dad offering alternatives.",
+      "question": "Dad: Do you like papayas?\nJane: ___________________\nDad: Okay, how about an apple then?",
+      "options": [
+        "No, I am not.",
+        "Yes, I do. I like papayas.",
+        "No, I don't. I like apples.",
+        "Yes, please."
+      ],
+      "answer_index": 2,
+      "explanation": "父親改供蘋果暗示先前回答為否定。選項 C 語法錯誤。",
+      "commonMisconception": "忽略對話上下文的轉折邏輯。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'o' and 'p' sound.",
+      "question": "Which word has the same beginning sound as 'papaya'?",
+      "options": [
+        "apple",
+        "bag",
+        "pig",
+        "dog"
+      ],
+      "answer_index": 2,
+      "explanation": "papaya 與 pig 均以 /p/ 開頭。選項 B 為 /b/。",
+      "commonMisconception": "混淆清濁音 /p/ 與 /b/ 的聽感。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Talking about many red apples.",
+      "question": "A: Do you like these red apples?\nB: __________________. They are very sweet.",
+      "options": [
+        "Yes, I am.",
+        "No, I don't.",
+        "No, I am not.",
+        "Yes, I do."
+      ],
+      "answer_index": 3,
+      "explanation": "很甜 (very sweet) 暗示愛。對應 Do you 的正確答語。",
+      "commonMisconception": "見到 sweet 卻在否定項糾結。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for three oranges.",
+      "question": "Boy: I want some __________________.",
+      "options": [
+        "orange",
+        "a orange",
+        "oranges",
+        "an oranges"
+      ],
+      "answer_index": 2,
+      "explanation": "some 之後接複數名詞。選項 B 為單數；選項 D 冠詞與複數衝突。",
+      "commonMisconception": "忽略 some 的量化要求。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'l' sound in 'like'.",
+      "question": "Which word has the same 'L' sound as 'like'?",
+      "options": [
+        "red",
+        "name",
+        "lemon",
+        "nice"
+      ],
+      "answer_index": 2,
+      "explanation": "like 與 lemon 均以流音 /l/ 開頭。選項 B 為 /r/。",
+      "commonMisconception": "分辨流音 /l/ 與捲舌音 /r/ 的發音障礙。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking a sister about watermelon.",
+      "question": "A: __________________?\nB: No, I don't. I like oranges.",
+      "options": [
+        "Does you like watermelon",
+        "Are you like watermelon",
+        "Do you like watermelon",
+        "Do you want water"
+      ],
+      "answer_index": 2,
+      "explanation": "根據回答 No, I don't 反推問句由 Do 開頭。",
+      "commonMisconception": "助動詞錯誤配對 (Are you like)。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Identifying fruit by color.",
+      "question": "A: I'm purple. I'm small. Do you like me?\nB: You are __________________! Yes, I like you.",
+      "options": [
+        "papayas",
+        "bananas",
+        "grapes",
+        "apples"
+      ],
+      "answer_index": 2,
+      "explanation": "紫色且小粒 (purple and small) 是葡萄特徵。其餘選項顏色不符。",
+      "commonMisconception": "無法結合外觀描述識別正確單字。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'g' in 'grape'.",
+      "question": "The G in 'grape' sounds like in __________.",
+      "options": [
+        "age",
+        "girl",
+        "gym",
+        "giant"
+      ],
+      "answer_index": 1,
+      "explanation": "grape 的 g 發硬音 /g/。其餘選項發軟音 /dʒ/。",
+      "commonMisconception": "無法辨識 g 在不同母音前的硬軟轉換。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Recap: What time? (Wait, U4 Theme is Like).",
+      "question": "A: __________________ like bananas?\nB: Yes, she does.",
+      "options": [
+        "Does she",
+        "Does you",
+        "Do she",
+        "Is she"
+      ],
+      "answer_index": 0,
+      "explanation": "回答 she does 證明問句主詞為 she 且搭配 Does。",
+      "commonMisconception": "三單主詞搭配語法模糊。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Comparing fruit likes.",
+      "question": "A: He likes pears. Do you __________________ pears, too?",
+      "options": [
+        "liker",
+        "like",
+        "likes",
+        "liking"
+      ],
+      "answer_index": 1,
+      "explanation": "助動詞 Do 之後接原形動詞 like。選項 B 為誤配第三人稱動詞。",
+      "commonMisconception": "在助動詞句型中仍進行動詞變化。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'm' in 'monkey'.",
+      "question": "Which fruit starts with the same sound as 'monkey'?",
+      "options": [
+        "grape",
+        "pear",
+        "apple",
+        "mango"
+      ],
+      "answer_index": 3,
+      "explanation": "monkey 與 mango 均以鼻音 /m/ 開頭。",
+      "commonMisconception": "首音聽覺辨識不對位。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Identifying favorite snack.",
+      "question": "A: I'm yellow and long. Monkeys like me. What am I?\nB: You are a __________________.",
+      "options": [
+        "banana",
+        "apple",
+        "orange",
+        "grape"
+      ],
+      "answer_index": 0,
+      "explanation": "黃、長、猴子愛是香蕉的標籤特徵。",
+      "commonMisconception": "語意連結失敗。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for preferences between two things.",
+      "question": "A: __________________ like milk?\nB: No, I don't. I like juice.",
+      "options": [
+        "Are you",
+        "Do you",
+        "Am you",
+        "Is you"
+      ],
+      "answer_index": 1,
+      "explanation": "回答 I don't 鎖定 Do you 開頭。選項 B 為最常見文法迷思。",
+      "commonMisconception": "在詢問愛好情境中錯用 Be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Recap: Do you like pigs?",
+      "question": "A: Do you like sweet oranges?\nB: Yes, I do. __________________",
+      "options": [
+        "It is my favorite.",
+        "They is my favorite.",
+        "I am my favorite.",
+        "They are my favorite."
+      ],
+      "answer_index": 3,
+      "explanation": "複數 oranges 對應 They are。選項 B 單數不符。",
+      "commonMisconception": "代名詞轉換失據。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Medial 'a' in 'apple'.",
+      "question": "Which word has the /æ/ sound?",
+      "options": [
+        "cup",
+        "car",
+        "cat",
+        "cut"
+      ],
+      "answer_index": 2,
+      "explanation": "apple 與 cat 均含有短母音 /æ/。選項 B 為 /ɑ/ 音。",
+      "commonMisconception": "母音發音微小細節混淆。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Describing someone else's likes.",
+      "question": "My sister __________________ sweet grapes.",
+      "options": [
+        "am liker",
+        "likes",
+        "is like",
+        "like"
+      ],
+      "answer_index": 1,
+      "explanation": "三單主詞 sister 需使用動詞 likes。選項 B 缺少 s。",
+      "commonMisconception": "沒注意到主詞是單數人稱。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for fruit names.",
+      "question": "A: What fruit do you like?\nB: __________________",
+      "options": [
+        "Yes, I do.",
+        "I like papayas.",
+        "It is red.",
+        "No, I don't."
+      ],
+      "answer_index": 1,
+      "explanation": "問 What 開頭需回答具體物。選項 B, C 格式不對。",
+      "commonMisconception": "將 Wh- 疑問句與 Yes/No 判斷句答法混淆。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Final recap.",
+      "question": "Choose the DIFFERENT beginning sound.",
+      "options": [
+        "bear",
+        "pear",
+        "pen",
+        "pig"
+      ],
+      "answer_index": 0,
+      "explanation": "bear 為濁音 /b/，其餘均為清音 /p/。",
+      "commonMisconception": "分辨不清清濁對偶音位。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking to share oranges.",
+      "question": "A: Do you like these big oranges?\nB: Yes, I do. __________________ together!",
+      "options": [
+        "Am eating",
+        "Is eat",
+        "Are eat",
+        "Let's eat"
+      ],
+      "answer_index": 3,
+      "explanation": "提議一起做某事用 Let's + 原形動詞。選項 B, C 語法全錯。",
+      "commonMisconception": "祈使句型基礎薄弱。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Negative recaps: Dogs and apples.",
+      "question": "A: Do dogs like apples?\nB: No, __________________.",
+      "options": [
+        "it is not.",
+        "they don't.",
+        "they are not.",
+        "it doesn't."
+      ],
+      "answer_index": 1,
+      "explanation": "複數 dogs 對應 they don't。選項 B 人稱不對；選項 C 語法非標準答法。",
+      "commonMisconception": "在提問物種群體時錯用單數代名詞 it。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Medial sound of 'book'.",
+      "question": "Wait, which word rhyme with 'like'?",
+      "options": [
+        "look",
+        "lake",
+        "back",
+        "bike"
+      ],
+      "answer_index": 3,
+      "explanation": "like 與 bike 均發長母音及尾音組合 /aɪk/。",
+      "commonMisconception": "無法偵測相同的長母音韻腳。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Final recap: Fruits are good.",
+      "question": "A: Apples are red. Bananas are yellow.\nB: I __________________ all of them!",
+      "options": [
+        "does",
+        "am",
+        "like",
+        "is"
+      ],
+      "answer_index": 2,
+      "explanation": "表達主觀情緒使用 like。其餘選項導致身份錯認 (我是所有水果)。",
+      "commonMisconception": "語意邏輯遺失。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "At the park, Peter and Ben are talking about sports.",
+      "question": "Peter: Can you swim, Ben?\nBen: ___________________",
+      "options": [
+        "Yes, I am. I can swim.",
+        "No, I don't. I can swim.",
+        "No, I can't. I can't swim.",
+        "Yes, you are. You can swim."
+      ],
+      "answer_index": 2,
+      "explanation": "問句以 Can you...? 結尾，簡答時必須對應使用 can 或 can't，並且主詞要轉換為 I。選項 A 和 B 使用了錯誤的 Be 動詞或 do 助動詞。",
+      "commonMisconception": "被『Yes, I am.』的口語習慣干擾，忘記助動詞 Can 必須與 can / can't 對應。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Emma is asking about Leo's talents for the school talent show.",
+      "question": "Emma: Look at the piano. Can you play the piano?\nLeo: ___________________",
+      "options": [
+        "No, I don't. I can't play the piano.",
+        "Yes, I can. I can play the piano.",
+        "Yes, I am. I can play the piano.",
+        "No, you can't. You can play the piano."
+      ],
+      "answer_index": 1,
+      "explanation": "問句是 Can you...?，正面回答需為 Yes, I can.。選項 B 誤用了 Be 動詞 am，選項 C 誤用了助動詞 don't。",
+      "commonMisconception": "在簡答中誤將 can 替換為 am 或 don't。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Two friends are watching a bird in the sky.",
+      "question": "Anna: The bird is fast. Can it fly?\nSam: ___________________",
+      "options": [
+        "No, it isn't. It can't fly up high.",
+        "Yes, it can. It can fly up high.",
+        "Yes, it is. It can fly up high.",
+        "No, it doesn't. It can fly up high."
+      ],
+      "answer_index": 1,
+      "explanation": "主詞是 it (the bird)，助動詞為 can，所以肯定回答必須是 Yes, it can.。",
+      "commonMisconception": "將 Be 動詞 (is) 與助動詞 (can) 混用。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "During P.E. class, the teacher is asking the students about their skills.",
+      "question": "Teacher: Can you and Tim jump rope?\nStudent: ___________________",
+      "options": [
+        "Yes, we can. We can jump rope well.",
+        "No, we aren't. We can't jump rope well.",
+        "Yes, they are. They can jump rope well.",
+        "No, you don't. You can't jump rope well."
+      ],
+      "answer_index": 0,
+      "explanation": "問句中的主詞是 you and Tim (你們)，回答時必須切換為第一人稱複數 we (我們)，並且搭配助動詞 can。",
+      "commonMisconception": "忽略了『you and Tim』是複數『你們』。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Amy's dog is running super fast in the yard.",
+      "question": "Jack: Your dog is very cute. Can he catch a ball?\nAmy: ___________________",
+      "options": [
+        "Yes, he is. He can catch a ball.",
+        "No, he can't. He can't catch a ball.",
+        "Yes, he does. He can catch a ball.",
+        "No, it doesn't. It can catch a ball."
+      ],
+      "answer_index": 1,
+      "explanation": "問句主詞是 he，助動詞 Can。選項 A 誤用 is，選項 B 誤用 does。選項 C 是正確的否定簡答。",
+      "commonMisconception": "未對齊問答中的助動詞 Can。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "The children are talking about their grandfather's secret talent.",
+      "question": "Lily: My grandpa is eighty years old.\nTom: Wow! ___________________\nLily: No, he can't.",
+      "options": [
+        "Are you a good dancer?",
+        "Is he a good dancer?",
+        "Can he dance very well?",
+        "Does he dance very well?"
+      ],
+      "answer_index": 2,
+      "explanation": "根據助理回答的 No, he can't. 反推問句必須以 Can 開頭。",
+      "commonMisconception": "忽略回答中的 can't 提示而錯選 Is he 或 Does he。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A brother and sister are playing by the swimming pool.",
+      "question": "Brother: Let's run by the pool!\nSister: No! You ___________________",
+      "options": [
+        "aren't run by the clear pool.",
+        "doesn't run by the clear pool.",
+        "can't run by the clear pool.",
+        "isn't run by the clear pool."
+      ],
+      "answer_index": 2,
+      "explanation": "表達『不能』時應使用 can't。選項 B、D 使用 Be 動詞搭配原形動詞屬於嚴重文法錯誤。",
+      "commonMisconception": "將 Be 動詞否定與一般動詞直接堆疊。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'c' and 'k' sound.",
+      "question": "Which word has the /k/ sound like in 'can'?",
+      "options": [
+        "city",
+        "ice",
+        "nice",
+        "kite"
+      ],
+      "answer_index": 3,
+      "explanation": "can 的 c 發 /k/。kite 的 k 亦發 /k/。選項 B, C, D 的 c 發 /s/。",
+      "commonMisconception": "混淆字母 c 的 Hard /k/ 與 Soft /s/ 發音。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Sally is drawing a picture of a cute monkey on the whiteboard.",
+      "question": "Mark: It's a nice monkey. Can it climb trees?\nSally: ___________________",
+      "options": [
+        "No, it doesn't. it climb trees.",
+        "Yes, it is. It can climb trees.",
+        "Yes, it can. It can climb trees.",
+        "No, it isn't. It can't climb trees."
+      ],
+      "answer_index": 2,
+      "explanation": "問句主詞 it，助動詞 Can，肯定回答為 Yes, it can.。",
+      "commonMisconception": "對助動詞 Can 提問回答 it is 或 it doesn't。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "The mother is asking her daughter about her new friends from school.",
+      "question": "Mother: Can your friends ride a bike?\nDaughter: ___________________",
+      "options": [
+        "No, they aren't. They can't ride a bike.",
+        "Yes, we do. We can ride a bike.",
+        "Yes, they are. They can ride a bike.",
+        "No, they can't. They can't ride a bike."
+      ],
+      "answer_index": 3,
+      "explanation": "your friends 是複數，代名詞為 they。由 Can 提問，否定回答必須是 No, they can't.。",
+      "commonMisconception": "將 your friends 誤認為 we，或是回答時錯用 Be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Talking about talents: Swimming.",
+      "question": "A: Can you swim like a fish?\nB: __________________. I am a good swimmer.",
+      "options": [
+        "No, I can't.",
+        "Yes, I can.",
+        "Yes, I am.",
+        "No, I don't."
+      ],
+      "answer_index": 1,
+      "explanation": "良好泳者暗示肯定回答。選項 C 助動詞不符。",
+      "commonMisconception": "反射性使用 I am 卻忽略問句是 Can。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Seeing a frog in the pond.",
+      "question": "A: Look! A frog. Can it jump?\nB: __________________. It can jump high.",
+      "options": [
+        "Yes, it can.",
+        "Yes, it is.",
+        "No, it doesn't.",
+        "No, it can't."
+      ],
+      "answer_index": 0,
+      "explanation": "青蛙會跳是常識。對應 Can it 的正確簡答為 Yes, it can.。",
+      "commonMisconception": "混淆 Be 動詞與助動詞的簡答對應。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'k' sound.",
+      "question": "Which word has the same beginning sound as 'kite'?",
+      "options": [
+        "king",
+        "know",
+        "cat",
+        "knit"
+      ],
+      "answer_index": 0,
+      "explanation": "king 的 k 發 /k/，與 kite 相同。選項 C, D 的 k 在 n 前不發音。",
+      "commonMisconception": "不知道 k 在 n 前不發音 (Silent k)。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "A brother asking his sister for help.",
+      "question": "Brother: __________________?\nSister: Yes, I can. Let's sing together.",
+      "options": [
+        "Are you sing",
+        "Do you sing",
+        "Can you sing",
+        "Is you sing"
+      ],
+      "answer_index": 2,
+      "explanation": "根據回答『Yes, I can...』反推問句。選項 B 是雙動詞錯誤。",
+      "commonMisconception": "無法由簡答還原正確問句結構。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'c' soft sound.",
+      "question": "Which word has the /s/ sound (Soft c)?",
+      "options": [
+        "cup",
+        "cook",
+        "city",
+        "car"
+      ],
+      "answer_index": 2,
+      "explanation": "city 的 c 在 i 前發 /s/。其餘選項發 /k/。",
+      "commonMisconception": "不知道 c 在 e, i, y 前通常發軟音 /s/。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Talking about a small kitten.",
+      "question": "A: Can the kitten climb the chair?\nB: __________________. It is too small.",
+      "options": [
+        "Yes, it is.",
+        "No, it can't.",
+        "No, it isn't.",
+        "Yes, it can."
+      ],
+      "answer_index": 1,
+      "explanation": "太小了 (too small) 導致無法爬上去。選項 C 助動詞不符。",
+      "commonMisconception": "忽略後半句的生理限制條件。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Pointing at a plane in the sky.",
+      "question": "A: Look! Can it fly fast?\nB: __________________. It is a jet.",
+      "options": [
+        "Yes, it can.",
+        "Yes, it is.",
+        "No, it can't.",
+        "No, it isn't."
+      ],
+      "answer_index": 0,
+      "explanation": "噴射機 (jet) 飛很快。選項 C 助動詞錯誤。",
+      "commonMisconception": "見到 it is 就想選 Yes, it is 回答 Can it。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'k' at the end.",
+      "question": "Which word has the /k/ sound at the END?",
+      "options": [
+        "dog",
+        "do",
+        "down",
+        "duck"
+      ],
+      "answer_index": 3,
+      "explanation": "duck 的 ck 發 /k/ 尾音。其餘選項無此發音。",
+      "commonMisconception": "無法辨識 ck 組合發出的單一 /k/ 音。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking about a group of students.",
+      "question": "A: __________________?\nB: No, they can't. They can't dance well.",
+      "options": [
+        "Do they dance",
+        "Can they dance",
+        "Can he dance",
+        "Are they dance"
+      ],
+      "answer_index": 1,
+      "explanation": "由回答『No, they can't』反推問句。選項 B 人稱單數不符。",
+      "commonMisconception": "忽略複數代名詞 they 的對應需求。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Identifying sounds of animals.",
+      "question": "A: Can a pig fly?\nB: __________________. It has no wings.",
+      "options": [
+        "Yes, it can.",
+        "No, it can't.",
+        "No, it isn't.",
+        "Yes, it is."
+      ],
+      "answer_index": 1,
+      "explanation": "豬沒翅膀不會飛。選項 B 邏輯錯誤。",
+      "commonMisconception": "常識判斷正確但代名詞與助動詞組合選錯。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A girl is helping her baby brother.",
+      "question": "A: Can he jump?\nB: __________________. He can't even walk.",
+      "options": [
+        "No, he can't.",
+        "Yes, he is.",
+        "No, he isn't.",
+        "Yes, he can."
+      ],
+      "answer_index": 0,
+      "explanation": "連走路都不會，當然不會跳。選項 C 助動詞語法不符。",
+      "commonMisconception": "無法從『不會走』推論『不會跳』的能力階層。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'c' mid-word.",
+      "question": "In which word does 'c' sound like /k/?",
+      "options": [
+        "nice",
+        "pencil",
+        "face",
+        "picnic"
+      ],
+      "answer_index": 3,
+      "explanation": "picnic 中的 c 全發 /k/。其餘選項均發軟音 /s/。",
+      "commonMisconception": "忽略 c 位於字尾或字中時的發音規律。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Talking about things in a storybook.",
+      "question": "A: Can the big bear run?\nB: __________________. It is very fast.",
+      "options": [
+        "Yes, it can.",
+        "Yes, I can.",
+        "No, it can't.",
+        "No, they can't."
+      ],
+      "answer_index": 0,
+      "explanation": "很跑很快，故選肯定。選項 C 人稱錯誤。",
+      "commonMisconception": "主詞是 bear (it)，卻習慣性回答 Yes, I can。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Asking for permission.",
+      "question": "Child: Can I have a cookie?\nMom: No, you __________________. It's dinner time.",
+      "options": [
+        "am not",
+        "can't",
+        "aren't",
+        "don't"
+      ],
+      "answer_index": 1,
+      "explanation": "拒絕許可用 can't。其餘選項語法不符許可情境。",
+      "commonMisconception": "在許可權限語境中錯用狀態否定語 (am not)。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Two students discussing a robotic dog.",
+      "question": "A: Can it sing like a person?\nB: __________________",
+      "options": [
+        "Yes, do it.",
+        "No, I am not.",
+        "Yes, it is.",
+        "No, it can't."
+      ],
+      "answer_index": 3,
+      "explanation": "機器狗會唱歌的可能性通常被否定。對應 Can it 的正確簡答。選項 B 助動詞錯配。",
+      "commonMisconception": "在科幻情境中迷失基本的助動詞對稱規則。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Looking at a sleeping hamster.",
+      "question": "A: Can it jump now?\nB: __________________. It is sleeping.",
+      "options": [
+        "No, it isn't.",
+        "Yes, it is.",
+        "Yes, it can.",
+        "No, it can't."
+      ],
+      "answer_index": 3,
+      "explanation": "睡覺時不能跳。選項 C 助動詞錯誤。",
+      "commonMisconception": "無法結合睡覺狀態推論活動能力的暫時缺失。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Phonics: Letter 'c' before 'o'.",
+      "question": "The sound of 'c' in 'cool' is the same as in __________.",
+      "options": [
+        "candy",
+        "center",
+        "cinema",
+        "circle"
+      ],
+      "answer_index": 0,
+      "explanation": "cool 的 c 發 /k/。candy 亦同。其餘選項為軟音 /s/。",
+      "commonMisconception": "不知道 c 在 a, o, u 前發硬音 /k/。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A coach encouraging a student.",
+      "question": "Coach: You are strong. Can you jump over the box?\nStudent: __________________. Watch me!",
+      "options": [
+        "No, I can't.",
+        "No, I don't.",
+        "Yes, I can.",
+        "Yes, I am."
+      ],
+      "answer_index": 2,
+      "explanation": "『看我的』(Watch me) 暗示肯定回答。選項 C 助動詞錯誤。",
+      "commonMisconception": "被 Watch me 的自信語氣震懾而忘了檢查文法一致性。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "remembering",
+      "scenario": "Identifying traits: Can elephants fly?",
+      "question": "Elephants __________________ fly. They are too heavy.",
+      "options": [
+        "don't",
+        "can",
+        "doesn't",
+        "can't"
+      ],
+      "answer_index": 3,
+      "explanation": "大象太重了不能飛。填入表示『不能』的助動詞。選項 C 描述慣常行為不合情境。",
+      "commonMisconception": "語意了解但錯選描述習慣的助動詞 don't。",
+      "quality_level": "L5",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

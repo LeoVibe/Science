@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "HANLIN",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What time is it? B: It is ______ o'clock.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 5.5,
+      "explanation": "時間問答中使用數字。",
+      "answer_index": "two",
+      "options": [
+        "sad",
+        "two",
+        "big",
+        "red"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "In English, we say 'It's one o'clock' when the time is 1:00.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "o'clock 用於整點的說法。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What time is it? B: It's ______ (三點三十分).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "直接讀出時與分來表示時間。",
+      "answer_index": "three thirty",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What time is it? B: It's 12:00. It's time for ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "12:00 通常是吃午餐（lunch）的時間。",
+      "answer_index": "lunch",
+      "options": [
+        "sleeping",
+        "dinner",
+        "breakfast",
+        "lunch"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "Which of the following is correct?",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 5.5,
+      "explanation": "正確的時間陳述語法。",
+      "answer_index": "It's five o'clock.",
+      "options": [
+        "It's five o'clock.",
+        "It's o'clock five.",
+        "It is five time.",
+        "Is it five it is."
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

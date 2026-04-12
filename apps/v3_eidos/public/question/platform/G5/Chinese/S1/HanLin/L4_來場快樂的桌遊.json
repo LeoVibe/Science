@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "玩桌遊除了好玩，最大的功能之一是？",
       "options": [
         "買很多漂亮卡片",
@@ -19,32 +19,37 @@
         "為了變得很富有",
         "可以不用寫作業"
       ],
-      "answer": "促進人際互動、思考策略與遵守規則",
+      "answer_index": null,
       "explanation": "桌遊是縮小版的社會互動練習。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "在遊戲過程中，如果不認真思考策略，只靠運氣，通常很難體會桌遊的深度樂趣。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "思考與決策是遊戲性的核心。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "桌遊的類型很多，有考驗反應的動手類，也有需要縝密思考的______類。",
-      "answer": "策略、推理或邏輯",
+      "options": [],
+      "answer_index": null,
       "explanation": "多樣化的遊戲機制能訓練不同大腦區塊。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當輸掉一場遊戲時，正確的「玩家素養」是？",
       "options": [
         "檢討策略並祝賀對手，體會「願賭服輸」與運動家精神",
@@ -52,14 +57,15 @@
         "生氣翻桌",
         "賴帳說自己沒輸"
       ],
-      "answer": "檢討策略並祝賀對手，體會「願賭服輸」與運動家精神",
+      "answer_index": null,
       "explanation": "情商教育的重要實踐場合。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想導引學生的休閒生活方式是？",
       "options": [
         "買最貴的桌遊",
@@ -67,10 +73,12 @@
         "遠離電子產品的過度沉迷，尋求更具溝通溫度的互動方式",
         "每天都要玩到半夜"
       ],
-      "answer": "遠離電子產品的過度沉迷，尋求更具溝通溫度的互動方式",
+      "answer_index": null,
       "explanation": "建立健康的生活型態與社交習慣。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

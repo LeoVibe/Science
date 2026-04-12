@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L10",
+    "order": 10,
+    "title": "L10"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "",
+      "question": "文中海洋「白色殺手」指？",
+      "options": [
+        "熊屍",
+        "鷗羽",
+        "沙",
+        "塑膠袋"
+      ],
+      "answer_index": 3,
+      "explanation": "環境科普知識識認。",
+      "commonMisconception": "字面顏色誤選。 ",
+      "quality_level": "L2",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "奇奇願",
+      "question": "始願？",
+      "options": [
+        "飛",
+        "採果",
+        "派對",
+        "探林深"
+      ],
+      "answer_index": 3,
+      "explanation": "故事起點提取。",
+      "commonMisconception": "行為混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "母憂",
+      "question": "因？",
+      "options": [
+        "無趣",
+        "小且危",
+        "礙學",
+        "礙友"
+      ],
+      "answer_index": 1,
+      "explanation": "保護動機分析。",
+      "commonMisconception": "管教權利化誤讀。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "偷偷溜意",
+      "question": "詞表心態？",
+      "options": [
+        "怒",
+        "虛險",
+        "期待",
+        "光"
+      ],
+      "answer_index": 1,
+      "explanation": "行狀心態剖析。",
+      "commonMisconception": "正面情緒化。 ",
+      "quality_level": "L2",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "林深見",
+      "question": "見？",
+      "options": [
+        "象",
+        "漠",
+        "山",
+        "瀑"
+      ],
+      "answer_index": 3,
+      "explanation": "場景细节事實。",
+      "commonMisconception": "地理常識干擾。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "助鳥特",
+      "question": "特？",
+      "options": [
+        "奇",
+        "惡",
+        "膽",
+        "同"
+      ],
+      "answer_index": 3,
+      "explanation": "品格屬性判定。",
+      "commonMisconception": "行為動機誤植。 ",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "避迷決",
+      "question": "應在哪換決？",
+      "options": [
+        "不看瀑",
+        "不求助",
+        "不偷溜",
+        "不助鳥"
+      ],
+      "answer_index": 2,
+      "explanation": "根本原因回溯。",
+      "commonMisconception": "過程因素混淆。 ",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "歸助者",
+      "question": "誰助？",
+      "options": [
+        "兔",
+        "母",
+        "貓頭鷹",
+        "鳥"
+      ],
+      "answer_index": 2,
+      "explanation": "回程情節檢索。",
+      "commonMisconception": "角色期待偏誤（母）。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "老標頭鷹角",
+      "question": "角？",
+      "options": [
+        "惡友",
+        "智導",
+        "嚴批",
+        "冷旁"
+      ],
+      "answer_index": 1,
+      "explanation": "文學形象定位。",
+      "commonMisconception": "生理特徵誤讀形象。 ",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "聽教意",
+      "question": "指？",
+      "options": [
+        "盲從",
+        "避危善判",
+        "不力",
+        "限度"
+      ],
+      "answer_index": 1,
+      "explanation": "教育意義之實質權釋。",
+      "commonMisconception": "管教負面化思維。 ",
+      "quality_level": "L3",
+      "cqi_score": 1.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "終學",
+      "question": "學？",
+      "options": [
+        "勇助教",
+        "採果",
+        "避獸",
+        "巢技"
+      ],
+      "answer_index": 0,
+      "explanation": "結尾主旨總結。",
+      "commonMisconception": "生存技能化。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "探險觀變",
+      "question": "觀？",
+      "options": [
+        "廢",
+        "邀眾",
+        "衝",
+        "備且安"
+      ],
+      "answer_index": 3,
+      "explanation": "認知升級推斷。",
+      "commonMisconception": "挫折退縮預期（廢）。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "對母感變",
+      "question": "感？",
+      "options": [
+        "囉",
+        "餘",
+        "解愛感",
+        "叛"
+      ],
+      "answer_index": 2,
+      "explanation": "關係修復與深層體認。",
+      "commonMisconception": "情緒叛逆延續。 ",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "奇奇性",
+      "question": "性？",
+      "options": [
+        "好奇",
+        "膽",
+        "懶",
+        "私"
+      ],
+      "answer_index": 0,
+      "explanation": "性格特徵提取。",
+      "commonMisconception": "屬性全盤否定。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "發地",
+      "question": "處？",
+      "options": [
+        "公",
+        "農",
+        "林",
+        "海"
+      ],
+      "answer_index": 2,
+      "explanation": "背景空間確認。",
+      "commonMisconception": "日常環境遷移。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "鳥迷因",
+      "question": "因可能？",
+      "options": [
+        "捉",
+        "奇嚇",
+        "詭計",
+        "幼或疏環境"
+      ],
+      "answer_index": 3,
+      "explanation": "合理化推論基礎。",
+      "commonMisconception": "劇情陰謀化。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "母教策",
+      "question": "若知後應？",
+      "options": [
+        "誘解危約",
+        "獎",
+        "禁罰",
+        "放"
+      ],
+      "answer_index": 0,
+      "explanation": "教養模範判斷。",
+      "commonMisconception": "威權主義導向預設（罰）。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "主角物種",
+      "question": "種？",
+      "options": [
+        "鳥",
+        "松鼠",
+        "貓",
+        "兔"
+      ],
+      "answer_index": 1,
+      "explanation": "物種主體識記。",
+      "commonMisconception": "配角替代。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "勇氣體現",
+      "question": "主要體現在？",
+      "options": [
+        "溜",
+        "拒母",
+        "面困求助",
+        "挑戰獸"
+      ],
+      "answer_index": 2,
+      "explanation": "勇氣的健康定義。",
+      "commonMisconception": "冒失行為視為勇氣。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "引導者詞",
+      "question": "詞？",
+      "options": [
+        "冒",
+        "搗",
+        "旁",
+        "師"
+      ],
+      "answer_index": 3,
+      "explanation": "智慧形象之精煉標籤。",
+      "commonMisconception": "一般社交角色。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "向朋提",
+      "question": "歸後如何對朋提？",
+      "options": [
+        "分教醒安",
+        "誘偷",
+        "吹打獸",
+        "不提嫌"
+      ],
+      "answer_index": 0,
+      "explanation": "健康社交與知識輻散。",
+      "commonMisconception": "同儕炫耀化預設（吹）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "深意",
+      "question": "除了聽教還想傳？",
+      "options": [
+        "林危",
+        "哭能解",
+        "勇面挑戰善求助",
+        "僅大能探"
+      ],
+      "answer_index": 2,
+      "explanation": "後設認知的行為應用。",
+      "commonMisconception": "恐嚇教育預設（危）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3
+    }
+  ],
+  "publisher": "NanYi"
+}

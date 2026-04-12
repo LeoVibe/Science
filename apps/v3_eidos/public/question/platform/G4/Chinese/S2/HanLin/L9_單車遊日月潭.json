@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "日月潭位於？",
       "options": [
         "台北",
@@ -19,10 +19,12 @@
         "花蓮",
         "高雄"
       ],
-      "answer": "南投",
+      "answer_index": "南投",
       "explanation": "台灣最大的高山湖泊。",
-      "cqi_score": 4.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

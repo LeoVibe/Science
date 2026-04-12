@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "故事中的主角是誰？",
       "options": [
         "小白",
@@ -19,10 +19,12 @@
         "小黑",
         "小黃"
       ],
-      "answer": "小黑",
+      "answer_index": "小黑",
       "explanation": "題目提到小黑。",
-      "cqi_score": 4.5,
-      "quality_level": "L2"
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

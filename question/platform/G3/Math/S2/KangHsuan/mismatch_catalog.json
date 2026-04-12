@@ -1,0 +1,1002 @@
+[
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L1.json",
+    "idx": 10,
+    "question": "尺長 1 公尺。一隻毛毛蟲爬了 4/10 公尺。還差多少公尺就到終點？",
+    "options": [
+      "1 公尺",
+      "0.6 公尺",
+      "6/10 公尺",
+      "14/10 公尺"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 2,
+      "ai_reasoning": "題目考查分數與小數互換，1-0.4=0.6，選項(1)正確，選項(2)亦正確，題目設計有瑕疵，應避免重複答案。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L1.json",
+    "idx": 20,
+    "question": "小玉參加了暑期閱讀計畫。她計畫在一個月內讀完一本故事書。第一週她讀了全書的六分之一(1/6)，第二週她讀了全書的六分之三(3/6)。請問，如果她想在第三週讀完剩下的部分，她還需要讀全書的幾分之幾？",
+    "options": [
+      "六分之二",
+      "六分之一",
+      "六分之三",
+      "六分之四"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 0,
+      "ai_reasoning": "1 - (1/6 + 3/6) = 2/6。選項(0)六分之二正確，但題目選項標示混亂，且(1)的註解干擾作答。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L2.json",
+    "idx": 3,
+    "question": "小明有 53 顆糖果，每 7 顆分給一個人。最多可以分給多少人？還剩幾顆？",
+    "options": [
+      "8 人，剩 1 顆",
+      "6 人，剩 11 顆",
+      "7 人，剩 6 顆",
+      "7 人，剩 4 顆"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 3,
+      "ai_reasoning": "題目為除法應用，與本單元「重量單位」主題不符，偏離課綱核心。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L2.json",
+    "idx": 7,
+    "question": "大瓶果汁 500 毫升。要平分給 6 個小朋友。每人最多分到幾毫升？還剩幾毫升？",
+    "options": [
+      "84 毫升，剩 0 毫升",
+      "80 毫升，剩 20 毫升",
+      "83 毫升，剩 0 毫升",
+      "83 毫升，剩 2 毫升"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 4,
+      "correct_answer": 3,
+      "ai_reasoning": "題目為容量除法，與本單元「重量單位」主題不符，偏離課綱核心。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L2.json",
+    "idx": 13,
+    "question": "小華是學校圖書館的小幫手，今天他要整理85本兒童繪本。如果每個書架可以放5本繪本，請問小華需要準備幾個書架才能把所有的繪本都放好呢？",
+    "options": [
+      "18個",
+      "15個",
+      "17個",
+      "16個，並且需要經過深思熟慮的考量。"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 2,
+      "ai_reasoning": "題目與本單元「重量」主題完全無關，且選項敘述冗餘，不符合審核範圍。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L2.json",
+    "idx": 14,
+    "question": "三年級的同學要去動物園校外教學，總共有45位同學。如果每輛遊覽車最多可以載8位同學，請問學校至少需要租幾輛遊覽車才夠載所有的同學呢？",
+    "options": [
+      "8輛，並且需要經過深思熟慮的考量。",
+      "5輛",
+      "7輛",
+      "6輛"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "題目與本單元「重量」主題完全無關，且選項敘述冗餘，不符合審核範圍。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L2.json",
+    "idx": 29,
+    "question": "請問，每個人可以分到多少錢？",
+    "options": [
+      "30元",
+      "150元",
+      "20元",
+      "40元"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "120除以4等於30，計算正確，情境符合生活應用。",
+      "review_status": "pending"
+    },
+    "cqi_score": 2.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 3,
+    "question": "在一段 20 公尺長的道路一旁種樹，每隔 5 公尺種一棵（兩端都種）。請問總共要種幾棵樹？",
+    "options": [
+      "4 棵",
+      "5 棵",
+      "6 棵",
+      "3 棵"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 1,
+      "ai_reasoning": "間隔數為20除以5等於4，兩端都種需加1，共5棵，選項設計具備陷阱辨識度。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 11,
+    "question": "圖書館的書櫃共有 6 層，每一層可以擺放 12 本故事書。志工老師要把 80 本新書上架，請問全部上架後，書櫃還剩下幾個空位可以放書？",
+    "options": [
+      "68 個",
+      "4 個",
+      "72 個",
+      "8 個"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 3,
+      "ai_reasoning": "總容量72本，書本80本，題目邏輯有誤，書櫃無法容納80本，題目情境不合理。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 13,
+    "question": "小明家準備了 48 個水餃，全家人總共 6 個人，每個人平均分到一樣多的水餃。如果小明吃完自己的份量後，覺得太飽了，把剩下的水餃分給爸爸，請問這時候爸爸盤子裡的水餃總數會是多少？",
+    "options": [
+      "16 個",
+      "無法確定，並且需要經過深思熟慮的考量。",
+      "8 個",
+      "42 個"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 0,
+      "ai_reasoning": "題目敘述模糊，無法得知小明原本分到的份量是否已包含在爸爸的盤子中，邏輯不清。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 15,
+    "question": "小華要把 72 本繪本平分成 9 疊放在書架上。當他分好之後，發現其中一疊有 2 本書掉到地上了。請問現在書架上剩下的繪本總共有幾本？",
+    "options": [
+      "72 本，並且需要經過深思熟慮的考量。",
+      "8 本",
+      "64 本",
+      "70 本"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 3,
+      "ai_reasoning": "72-2=70，但題目問書架上剩下的繪本，應為70，選項設計有誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 19,
+    "question": "媽媽帶著小明去超市買蘋果，一袋蘋果賣 125 元，小明想買 3 袋送給鄰居。結帳時，小明拿出 500 元給收銀員，請問小明應該找回多少錢？",
+    "options": [
+      "125 元",
+      "375 元，這點在實務上很重要。",
+      "175 元",
+      "25 元"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 0,
+      "ai_reasoning": "500-(125*3)=125，計算正確，符合生活情境應用。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L3.json",
+    "idx": 21,
+    "question": "小華在園遊會負責賣爆米花，一杯賣 45 元。他準備了 6 桶爆米花，每一桶剛好可以裝滿 8 杯。如果全部賣完，小華總共可以收到多少錢？",
+    "options": [
+      "360 元，這點在實務上很重要。",
+      "270 元",
+      "180 元",
+      "2160 元"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "計算為 6*8*45=360。選項(0)敘述不必要，應保持選項簡潔以符合測驗規範。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 10,
+    "question": "一袋 3 公斤的米。裝滿 4 個 600 公克的盒子後。袋子裡還剩下多少米？",
+    "options": [
+      "300 公克",
+      "1 公斤",
+      "600 公克",
+      "2 公斤 400 公克"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "題目屬於重量單位換算，與本單元「一位小數」教學目標不符，且選項設計混亂。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 13,
+    "question": "【在廚房準備材料時】，媽媽需要250公克的麵粉和1公斤的糖。如果她把麵粉和糖都倒進一個大碗裡，這個大碗裡總共有多重的材料呢？",
+    "options": [
+      "A. 350公克",
+      "B. 1公斤250公克",
+      "C. 1250公克",
+      "D. 251公斤"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 2,
+      "ai_reasoning": "題目為整數加法，未運用到小數點對齊或小數運算，不符合單元目標。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 14,
+    "question": "【在魚市場賣魚時】，爸爸今天釣到一條大魚重3公斤500公克，賣掉一條重1公斤800公克的魚後，還剩下多重的魚呢？",
+    "options": [
+      "B. 1公斤300公克",
+      "C. 1公斤700公克",
+      "A. 2公斤300公克",
+      "D. 2公斤700公克"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 1,
+      "ai_reasoning": "題目為重量減法，未涉及小數運算，且選項包含干擾性文字，不適合作為數學題。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 18,
+    "question": "【在貨車準備出發時】，爸爸的貨車最多可以載重10公斤。他已經載了3公斤500公克的箱子和4公斤800公克的箱子。請問爸爸的貨車還可以再載多重的東西，才不會超載呢？",
+    "options": [
+      "D. 2公斤700公克",
+      "B. 1公斤300公克",
+      "C. 1公斤700公克",
+      "A. 2公斤300公克，並且需要經過深思熟慮的考量。"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 2,
+      "ai_reasoning": "題目涉及連續減法，若能改為小數形式（如10.0-3.5-4.8）則符合單元目標，現狀僅為整數換算。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 24,
+    "question": "貨架上有一包餅乾重1公斤200公克，另一盒巧克力重1500公克。請問，哪一種零食比較重？",
+    "options": [
+      "巧克力比較重",
+      "無法比較",
+      "餅乾比較重",
+      "兩種零食一樣重"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 0,
+      "ai_reasoning": "題目為重量單位比較，未涉及小數點對齊或位值概念，與單元目標不符。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L4.json",
+    "idx": 26,
+    "question": "小寶剛出生時的體重是3公斤200公克。滿月時，他的體重增加了1公斤50公克。請問，小寶滿月時的體重是多少？",
+    "options": [
+      "4公斤70公克",
+      "4公斤700公克",
+      "4公斤250公克",
+      "4公斤2050公克"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "題目為重量加法，未涉及小數運算，無法達成檢測「一位小數」直式計算的目標。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L5.json",
+    "idx": 10,
+    "question": "王老師請大家計算 15 減去 3.8 的正確結果。請問哪一個答案才是正確的？",
+    "options": [
+      "12.2",
+      "11.8",
+      "11.2",
+      "12.8"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "此題為小數減法，與本單元「時間」主題完全無關，屬於命題範圍錯誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L5.json",
+    "idx": 15,
+    "question": "媽媽準備做果汁，她先倒了 0.8 公升的蘋果汁到果汁機裡，然後又倒了 1.2 公升的柳橙汁。最後，她覺得顏色不夠，又加了 0.5 公升的葡萄汁。請問，果汁機裡現在一共有多少公升的果汁？",
+    "options": [
+      "2.3 公升",
+      "2.4 公升",
+      "2.5 公升",
+      "2.6 公升，這點在實務上很重要。"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "此題為小數加法，與本單元「時間」主題完全無關，屬於命題範圍錯誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L5.json",
+    "idx": 29,
+    "question": "小華在寫數學作業時，遇到一題計算題：0.8 + 0.5 = ? 他寫的答案是0.13。小麗幫他檢查後說：「你算錯了！」。請問，小華最可能是犯了什麼錯誤呢？",
+    "options": [
+      "他把題目看成是0.8減0.5了。",
+      "他把十分位數字直接相加，忘記進位了。",
+      "他把0.8和0.5看成8和5相加了。，並且需要經過深思熟慮的考量。",
+      "他把兩個數字的整數部分相加了。"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 1,
+      "ai_reasoning": "題目與單元主題「時間」無關，屬於小數運算迷思，且選項包含無關敘述，不符合命題規範。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L6.json",
+    "idx": 26,
+    "question": "請問哪一個籃球比較小呢？",
+    "options": [
+      "B. 直徑 22 公分的籃球。",
+      "A. 半徑 12 公分的籃球。",
+      "C. 這兩個籃球一樣大。",
+      "D. 無法比較，因為一個是半徑，一個是直徑。"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 0,
+      "ai_reasoning": "半徑12公分等於直徑24公分，與22公分比較，22公分較小。",
+      "review_status": "pending"
+    },
+    "cqi_score": 2.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 1,
+    "question": "80 顆糖。平分給 4 組。每組再平分給 5 人。每人拿幾顆？",
+    "options": [
+      "10 顆",
+      "4 顆",
+      "5 顆",
+      "20 顆"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 1,
+      "ai_reasoning": "連除應用，80÷4÷5=4，計算正確，邏輯清晰。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 2,
+    "question": "每瓶果汁 25 元。小明買 4 瓶又買了一盒 120 元的點心。共花幾元？",
+    "options": [
+      "100 元",
+      "145 元",
+      "220 元",
+      "200 元"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 2,
+      "ai_reasoning": "乘加混合運算，25×4+120=220，選項(1)為145，正確答案應為220，選項設計有誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 8,
+    "question": "一包糖果有 40 顆。買 2 包平分給 5 人。剩下的 3 顆是小明自己吃。請問每人分到幾顆？",
+    "options": [
+      "16 顆",
+      "3 顆",
+      "15 顆",
+      "8 顆"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 0,
+      "ai_reasoning": "題目敘述有誤，40×2=80，80-3=77，77無法整除5，題目設計不嚴謹。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 11,
+    "question": "小力原應將某數除以 4。卻看錯成乘以 4。得到 144。正確答案應是多少？",
+    "options": [
+      "36",
+      "576",
+      "12",
+      "9"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "考驗逆向推理能力，先求出某數(144÷4=36)，再除以4得9，選項設計具誘答性。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 15,
+    "question": "媽媽帶小芳去文具店買開學用品。一枝鉛筆12元，一個橡皮擦15元。小芳買了3枝鉛筆和1個橡皮擦，她付了100元給老闆，請問老闆應該找回小芳多少錢？",
+    "options": [
+      "59元",
+      "49元",
+      "61元",
+      "73元"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 0,
+      "ai_reasoning": "包含乘法與減法，符合兩步驟運算，選項設計具備干擾性。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 17,
+    "question": "花店裡有48朵玫瑰花，每束花固定綁6朵。如果老闆想綁12束玫瑰花，請問他還需要多少朵玫瑰花才夠呢？",
+    "options": [
+      "6朵，這點在實務上很重要。",
+      "72朵",
+      "48朵",
+      "24朵"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 4,
+      "correct_answer": 3,
+      "ai_reasoning": "題目邏輯正確，需先計算需求量再減去現有量，符合兩步驟應用。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 18,
+    "question": "農夫伯伯採收了70顆甜美的草莓，他想把這些草莓每8顆裝成一盒。裝完後，剩下的草莓不夠裝滿一盒，請問他還需要幾顆草莓才能再裝滿一盒呢？",
+    "options": [
+      "70顆",
+      "2顆",
+      "8顆",
+      "6顆"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 4,
+      "correct_answer": 3,
+      "ai_reasoning": "考驗對餘數現實意義的理解，需進行補數運算，具備鑑別度。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 19,
+    "question": "小雅和同學一起佈置教室。他們有50張色紙。如果每5張色紙可以做一串紙鍊，可以做幾串？如果每8張色紙可以做一個紙燈籠，可以做幾個？哪一種方式做完後，剩下的色紙比較少呢？",
+    "options": [
+      "做紙鍊剩下0張，做紙燈籠剩下2張，做紙燈籠剩下的比較少。，這點在實務上很重要。",
+      "做紙鍊剩下0張，做紙燈籠剩下0張，兩者一樣多。",
+      "做紙鍊剩下0張，做紙燈籠剩下2張，做紙鍊剩下的比較少。",
+      "做紙鍊剩下5張，做紙燈籠剩下2張，做紙燈籠剩下的比較少。"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 3,
+      "ai_reasoning": "題目設計良好，比較餘數大小，但選項文字冗長且包含無關敘述，需修正。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 20,
+    "question": "媽媽準備了25個蘋果派，要分給參加郊遊的8位小朋友。她希望每個小朋友都能分到一樣多的蘋果派，而且不能有剩下。請問媽媽最少還需要準備幾個蘋果派才能達成這個目標呢？",
+    "options": [
+      "25個",
+      "7個",
+      "8個",
+      "3個"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 1,
+      "ai_reasoning": "25除以8商3餘1，需補足至8個才能整除，故需補7個。原題選項設計有誤，正確答案應為7。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 21,
+    "question": "爸爸說：「我們家有48片餅乾，如果每天吃5片，大概可以吃9天，還會剩下3片。小明，你覺得我們如果想把這些餅乾剛好吃完，不多不少，應該怎麼調整每天吃的數量呢？」小明想了想說：「那我們每天吃6片，這樣就剛好吃完了！」你覺得小明說的對不對呢？",
+    "options": [
+      "不對，因為每天吃6片，餅乾很快就會吃完了，這樣不划算。",
+      "不對，因為原本剩下3片，不應該改變每天吃的數量。",
+      "對，因為48 ÷ 6 = 8，所以小明算對了。",
+      "對，因為48 ÷ 6 = 8，所以每天吃6片可以吃8天，剛好吃完。"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 2,
+      "ai_reasoning": "邏輯正確，符合乘除互逆概念，選項敘述清晰。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 25,
+    "question": "小明買了 5 枝原子筆，每枝原子筆 9 元。他付了 100 元，請問店員應該找他多少錢？",
+    "options": [
+      "91 元",
+      "55 元",
+      "45 元",
+      "95 元"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 1,
+      "ai_reasoning": "計算為100-(5*9)=55，選項(0)錯誤，選項(1)才是正確答案。題目與選項對應錯誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L7.json",
+    "idx": 28,
+    "question": "三年級有 28 個小朋友和 4 位老師一起去動物園，門票每人 50 元。如果每 6 個人可以合買一張團體票，團體票一張 250 元，請問買團體票會比買個人票省下多少錢？",
+    "options": [
+      "150 元",
+      "200 元",
+      "100 元",
+      "50 元，這點在實務上很重要。"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 2,
+      "ai_reasoning": "計算複雜度符合三下程度，但選項(3)包含無意義贅述，應刪除。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 2,
+    "question": "一部卡通下午 5 時 40 分開始。播了 40 分鐘。結束時是幾時幾分？",
+    "options": [
+      "18 時 0 分",
+      "17 時 80 分",
+      "18 時 20 分",
+      "17 時 20 分"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 2,
+      "ai_reasoning": "考查跨時段計算，選項(1)能診斷學生是否忽略60進位規則。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 9,
+    "question": "計算 2 小時 40 分 + 30 分的結果。哪一個是錯誤的進位方法？",
+    "options": [
+      "進一小時變 3 時 10 分",
+      "直接寫 2 時 70 分",
+      "算出 3.1",
+      "換成 190 分鐘"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 1,
+      "ai_reasoning": "題目要求選出「錯誤」方法，選項(2)明顯不符合時間計算邏輯，具診斷價值。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 16,
+    "question": "請問媽媽總共花了多少時間準備午餐？",
+    "options": [
+      "1小時35分鐘",
+      "2小時15分鐘，並且需要經過深思熟慮的考量。",
+      "2小時35分鐘",
+      "1小時55分鐘"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 0,
+      "ai_reasoning": "計算結果為1小時35分，選項皆錯誤。題目與統計單元無關。",
+      "review_status": "pending"
+    },
+    "cqi_score": 3.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 17,
+    "question": "請問爸爸最晚應該在幾點幾分把蛋糕放進烤箱？",
+    "options": [
+      "下午1點55分",
+      "下午1點45分",
+      "下午2點45分，並且需要經過深思熟慮的考量。",
+      "下午1點35分"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 1,
+      "ai_reasoning": "逆向推算題，符合考古題方向，但選項包含無意義贅述，且非統計單元範疇。",
+      "review_status": "pending"
+    },
+    "cqi_score": 3.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 18,
+    "question": "請問小胖和小美誰運動的時間比較長？長了幾分鐘？",
+    "options": [
+      "小美，多了10分鐘",
+      "小胖，多了5分鐘",
+      "小胖，多了10分鐘",
+      "小美，多了5分鐘"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 4,
+      "correct_answer": 3,
+      "ai_reasoning": "小胖35分，小美40分，小美長5分。選項無正確答案，且非統計單元範疇。",
+      "review_status": "pending"
+    },
+    "cqi_score": 3.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 20,
+    "question": "請問小華一家人最快會在幾點幾分逛完動物園，準備回家？",
+    "options": [
+      "上午12點15分",
+      "下午1點05分",
+      "下午12點35分",
+      "下午12點55分"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 1,
+      "ai_reasoning": "計算總時長為45+10+30+50+20=155分鐘（2小時35分），10:30加2小時35分等於13:05，選項無此答案，題目設計有誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 3.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 21,
+    "question": "請問小明看完這部卡通電影時，是星期幾的幾點幾分？",
+    "options": [
+      "星期日 凌晨2點35分",
+      "星期日 凌晨0點35分",
+      "星期六 晚上11點35分",
+      "星期日 凌晨1點35分"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "9:30加上4小時5分，跨過午夜12點，正確時間為凌晨1點35分，選項(0)與(3)重複且(0)計算錯誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 3.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L8.json",
+    "idx": 28,
+    "question": "媽媽計畫帶小芬去野餐。他們從早上10點15分開始準備。準備食物花了20分鐘，整理野餐墊和餐具花了15分鐘，再從家裡走到公園花了10分鐘。請問他們到達公園時是幾點幾分？",
+    "options": [
+      "早上10點55分",
+      "早上11點00分",
+      "早上11點10分",
+      "早上11點05分"
+    ],
+    "correct_answer": 1,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 1,
+      "ai_reasoning": "10:15加45分鐘等於11:00，選項(0)計算錯誤，選項(2)包含無意義贅述，題目品質不佳。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 5,
+    "question": "小華紀錄慢跑路程：週一到週五每天跑 2 公里。週六加碼跑 5 公里。請問這六天中小華一共跑了幾公里？",
+    "options": [
+      "14 公里",
+      "10 公里",
+      "7 公里",
+      "15 公里"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "考查兩步驟運算（乘法加加法），選項(1)為常見錯誤（漏算週六），設計合理。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 13,
+    "question": "根據公園運動人數統計表，上週哪兩天的運動人數相差最多？\n\n| 星期 | 運動人數 (人) |\n|---|---|\n| 星期一 | 65 |\n| 星期二 | 58 |\n| 星期三 | 70 |\n| 星期四 | 62 |\n| 星期五 | 75 |\n| 星期六 | 90 |\n| 星期日 | 88 |",
+    "options": [
+      "星期六和星期日",
+      "星期三和星期四",
+      "星期一和星期二",
+      "星期五和星期六"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "星期六90人與星期日88人相差2人，此選項錯誤，應為星期五75與星期六90相差15人。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 14,
+    "question": "根據家庭用電量統計表，從二月到四月，哪兩個月的用電量增加得最多？\n\n| 月份 | 用電量 (度) |\n|---|---|\n| 一月 | 180 |\n| 二月 | 175 |\n| 三月 | 210 |\n| 四月 | 245 |\n| 五月 | 280 |",
+    "options": [
+      "四月到五月",
+      "一月到二月",
+      "二月到三月",
+      "三月到四月"
+    ],
+    "correct_answer": 0,
+    "mismatch": {
+      "ai_selected": 2,
+      "correct_answer": 0,
+      "ai_reasoning": "二月到三月增加35度，三月到四月增加35度，選項設計有誤，應明確區分。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 20,
+    "question": "圖書館新進了 3 套百科全書，每套有 8 本。管理員想把這些書平分放在 4 個書架上，請問每個書架可以放幾本書？",
+    "options": [
+      "8本",
+      "2本",
+      "4本",
+      "6本"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 3,
+      "ai_reasoning": "題目應為(3*8)/4=6，選項(1)2本計算錯誤，正確答案應為6。原題選項設計有誤。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 23,
+    "question": "小華和 6 位好朋友一起去公園野餐，每個人都準備了 3 個三明治。原本大家打算平分這些三明治，但最後有 2 個人臨時沒來。請問總共準備了多少個三明治？",
+    "options": [
+      "18 個",
+      "24 個",
+      "15 個",
+      "21 個"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 0,
+      "correct_answer": 3,
+      "ai_reasoning": "題目資訊干擾多，計算為(6+1)*3=21，原題選項(0)標註錯誤且答案不符。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 26,
+    "question": "小華帶了 200 元去買文具，他買了 4 枝單價 25 元的自動鉛筆，剩下的錢想買單價 8 元的橡皮擦。請問小華最多可以買幾個橡皮擦？",
+    "options": [
+      "20 個，並且需要經過深思熟慮的考量。",
+      "12 個",
+      "25 個",
+      "10 個"
+    ],
+    "correct_answer": 3,
+    "mismatch": {
+      "ai_selected": 1,
+      "correct_answer": 3,
+      "ai_reasoning": "(200-4*25)/8=12。原題選項(0)標註錯誤，正確答案應為12。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  },
+  {
+    "file": "G3_S2_MATH_KANGHSUAN_L9.json",
+    "idx": 27,
+    "question": "媽媽準備了 36 顆水餃，打算平分給 4 個小朋友。如果小明吃完了自己的那一份，卻覺得還餓，想再從原本的總數中拿走 2 顆，請問剩下的水餃還夠分給另外 3 個小朋友嗎？",
+    "options": [
+      "不夠，因為每個人只能分到 7 顆",
+      "夠，因為每個人還可以分到 8 顆",
+      "夠，因為剩下的水餃總數剛好可以平分",
+      "不夠，因為剩下的水餃總數無法被 3 整除"
+    ],
+    "correct_answer": 2,
+    "mismatch": {
+      "ai_selected": 3,
+      "correct_answer": 2,
+      "ai_reasoning": "36-9(小明份)-2=25，25/3=8餘1，無法整除。選項設計符合邏輯，但題目敘述稍顯複雜。",
+      "review_status": "pending"
+    },
+    "cqi_score": 4.75,
+    "quality_level": "QL1"
+  }
+]

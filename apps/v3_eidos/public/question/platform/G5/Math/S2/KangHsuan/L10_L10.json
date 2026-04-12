@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L10",
+    "order": 10,
+    "title": "L10"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "花圃面積與圍欄設計 (情境 6)",
+      "question": "學校要開墾一個長 200 公尺、寬 150 公尺的長方形生態農園。請問這個農作區的面積是多少「公頃」？",
+      "options": [
+        "30000 公頃",
+        "300 公頃",
+        "30 公頃",
+        "3 公頃"
+      ],
+      "answer_index": 3,
+      "explanation": "先算出面積 = 200 × 150 = 30000 平方公尺。1 公頃 = 10000 平方公尺。所以 30000 ÷ 10000 = 3 公頃。",
+      "commonMisconception": "學生可能會漏記或混淆 平方公尺、公畝、公頃 的進位關係，忘記除以一萬大關，而選了 30000 公頃 或 300 公頃。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "KangHsuan"
+}

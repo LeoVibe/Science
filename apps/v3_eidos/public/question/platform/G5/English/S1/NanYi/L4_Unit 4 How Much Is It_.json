@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L4",
+    "order": 4,
+    "title": "Unit 4 How Much Is It?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How much is the T-shirt? B: It ______ 300 dollars.",
+      "options": [
+        "do",
+        "is",
+        "are",
+        "does"
+      ],
+      "answer_index": null,
+      "explanation": "T-shirt 是單數，be 動詞用 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Those shoes ______ 800 dollars.",
+      "options": [
+        "am",
+        "be",
+        "is",
+        "are"
+      ],
+      "answer_index": null,
+      "explanation": "shoes (鞋子) 是複數，be 動詞用 are。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The ______ (洋裝) is 500 dollars.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "洋裝是 dress。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'Dollars' means '元'。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "dollar 是貨幣單位元。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "How ______ are the jeans?",
+      "options": [
+        "long",
+        "many",
+        "much",
+        "old"
+      ],
+      "answer_index": null,
+      "explanation": "How much 詢問價格。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

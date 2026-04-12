@@ -1,0 +1,1827 @@
+{
+  "meta": {
+    "last_updated": "2026-03-28 23:00",
+    "updated_by": "Cursor Agent",
+    "scope": "question/platform/G{3,4,5,6}/Chinese/**/*.json（不含 manifest）",
+    "fileCount": 247,
+    "questionCount": 4668,
+    "totalCommaSegments": 38981,
+    "totalStemSegments": 12174,
+    "totalOptionSegments": 26807
+  },
+  "substringScanWholeText": [],
+  "topByTotal": [
+    {
+      "segment": "與課文敘述明顯不符（選項待人工重寫）",
+      "stem": 0,
+      "option": 215,
+      "total": 215,
+      "fileCount": 48,
+      "ratioOfAllSegments": 0.005515507554962674,
+      "ratioOfOptionSegments": 0.008020293206998172
+    },
+    {
+      "segment": "根據課文內容",
+      "stem": 92,
+      "option": 0,
+      "total": 92,
+      "fileCount": 51,
+      "ratioOfAllSegments": 0.0023601241630537956,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "根據課文",
+      "stem": 55,
+      "option": 0,
+      "total": 55,
+      "fileCount": 28,
+      "ratioOfAllSegments": 0.0014109437931299864,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "課文中",
+      "stem": 39,
+      "option": 0,
+      "total": 39,
+      "fileCount": 19,
+      "ratioOfAllSegments": 0.0010004874169467176,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "故事中",
+      "stem": 31,
+      "option": 0,
+      "total": 31,
+      "fileCount": 18,
+      "ratioOfAllSegments": 0.0007952592288550832,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "課文中提到",
+      "stem": 31,
+      "option": 0,
+      "total": 31,
+      "fileCount": 21,
+      "ratioOfAllSegments": 0.0007952592288550832,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "媽媽",
+      "stem": 0,
+      "option": 23,
+      "total": 23,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0005900310407634489,
+      "ratioOfOptionSegments": 0.00085798485470213
+    },
+    {
+      "segment": "在故事的情境中",
+      "stem": 0,
+      "option": 19,
+      "total": 19,
+      "fileCount": 15,
+      "ratioOfAllSegments": 0.00048741694671763165,
+      "ratioOfOptionSegments": 0.0007087700973626292
+    },
+    {
+      "segment": "假裝沒看到",
+      "stem": 0,
+      "option": 19,
+      "total": 19,
+      "fileCount": 17,
+      "ratioOfAllSegments": 0.00048741694671763165,
+      "ratioOfOptionSegments": 0.0007087700973626292
+    },
+    {
+      "segment": "作者最想傳達的核心精神是什麼？",
+      "stem": 19,
+      "option": 0,
+      "total": 19,
+      "fileCount": 19,
+      "ratioOfAllSegments": 0.00048741694671763165,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "對所有傳統文化都保持否定與排斥",
+      "stem": 0,
+      "option": 19,
+      "total": 19,
+      "fileCount": 19,
+      "ratioOfAllSegments": 0.00048741694671763165,
+      "ratioOfOptionSegments": 0.0007087700973626292
+    },
+    {
+      "segment": "如何利用小聰明來躲避應盡的責任",
+      "stem": 0,
+      "option": 19,
+      "total": 19,
+      "fileCount": 19,
+      "ratioOfAllSegments": 0.00048741694671763165,
+      "ratioOfOptionSegments": 0.0007087700973626292
+    },
+    {
+      "segment": "讀完這課後",
+      "stem": 18,
+      "option": 0,
+      "total": 18,
+      "fileCount": 17,
+      "ratioOfAllSegments": 0.00046176342320617737,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這是一個具備代表性的現象",
+      "stem": 0,
+      "option": 18,
+      "total": 18,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00046176342320617737,
+      "ratioOfOptionSegments": 0.000671466408027754
+    },
+    {
+      "segment": "他想起課文中提到的「感恩」精神",
+      "stem": 18,
+      "option": 0,
+      "total": 18,
+      "fileCount": 17,
+      "ratioOfAllSegments": 0.00046176342320617737,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "呈現出課綱所要求之探索精神",
+      "stem": 0,
+      "option": 18,
+      "total": 18,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00046176342320617737,
+      "ratioOfOptionSegments": 0.000671466408027754
+    },
+    {
+      "segment": "追求個人名利與權位的提升之道",
+      "stem": 0,
+      "option": 18,
+      "total": 18,
+      "fileCount": 18,
+      "ratioOfAllSegments": 0.00046176342320617737,
+      "ratioOfOptionSegments": 0.000671466408027754
+    },
+    {
+      "segment": "作者之所以這樣寫",
+      "stem": 0,
+      "option": 17,
+      "total": 17,
+      "fileCount": 14,
+      "ratioOfAllSegments": 0.0004361098996947231,
+      "ratioOfOptionSegments": 0.0006341627186928787
+    },
+    {
+      "segment": "文中提到",
+      "stem": 16,
+      "option": 0,
+      "total": 16,
+      "fileCount": 16,
+      "ratioOfAllSegments": 0.0004104563761832688,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "根據課文描述",
+      "stem": 16,
+      "option": 0,
+      "total": 16,
+      "fileCount": 14,
+      "ratioOfAllSegments": 0.0004104563761832688,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "但在這裡可能並不適用",
+      "stem": 0,
+      "option": 16,
+      "total": 16,
+      "fileCount": 13,
+      "ratioOfAllSegments": 0.0004104563761832688,
+      "ratioOfOptionSegments": 0.0005968590293580035
+    },
+    {
+      "segment": "這一點在實務上很重要",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "假裝沒看見",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 13,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "不過課文中並沒有提到這個",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 13,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "讓人覺得非常有意思",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 11,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "不過這並不是文中的重點",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 10,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "這是一個非常有趣的觀點",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 11,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "但其實這只是作者的想像",
+      "stem": 0,
+      "option": 15,
+      "total": 15,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.00038480285267181446,
+      "ratioOfOptionSegments": 0.0005595553400231282
+    },
+    {
+      "segment": "這屬於課文提到的重點",
+      "stem": 0,
+      "option": 14,
+      "total": 14,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00035914932916036017,
+      "ratioOfOptionSegments": 0.0005222516506882531
+    },
+    {
+      "segment": "值得我們繼續去深入探討",
+      "stem": 0,
+      "option": 14,
+      "total": 14,
+      "fileCount": 9,
+      "ratioOfAllSegments": 0.00035914932916036017,
+      "ratioOfOptionSegments": 0.0005222516506882531
+    },
+    {
+      "segment": "這其實是一種非常特別的現象",
+      "stem": 0,
+      "option": 14,
+      "total": 14,
+      "fileCount": 10,
+      "ratioOfAllSegments": 0.00035914932916036017,
+      "ratioOfOptionSegments": 0.0005222516506882531
+    },
+    {
+      "segment": "遇到困難時",
+      "stem": 0,
+      "option": 13,
+      "total": 13,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003334958056489059,
+      "ratioOfOptionSegments": 0.0004849479613533779
+    },
+    {
+      "segment": "課文提到",
+      "stem": 13,
+      "option": 0,
+      "total": 13,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0003334958056489059,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "如果你是課文中的主角",
+      "stem": 13,
+      "option": 0,
+      "total": 13,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003334958056489059,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這點在分析單元核心時非常關鍵",
+      "stem": 0,
+      "option": 13,
+      "total": 13,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0003334958056489059,
+      "ratioOfOptionSegments": 0.0004849479613533779
+    },
+    {
+      "segment": "內容完整確診且具備情境深度",
+      "stem": 0,
+      "option": 13,
+      "total": 13,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0003334958056489059,
+      "ratioOfOptionSegments": 0.0004849479613533779
+    },
+    {
+      "segment": "這是一個值得注意的地方",
+      "stem": 0,
+      "option": 12,
+      "total": 12,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0.00044764427201850264
+    },
+    {
+      "segment": "根據文章內容描述",
+      "stem": 0,
+      "option": 12,
+      "total": 12,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0.00044764427201850264
+    },
+    {
+      "segment": "在翰林版課文中",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "作者如何透過修辭手法表達對大地的關懷？ 跨單元通用引導",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "在康軒版課文中",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "主角面對困難時展現了什麼樣的生命韌性？ 跨單元通用引導",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這是一種常見的自然現象",
+      "stem": 0,
+      "option": 12,
+      "total": 12,
+      "fileCount": 9,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0.00044764427201850264
+    },
+    {
+      "segment": "從科學或自然的角度來看",
+      "stem": 0,
+      "option": 12,
+      "total": 12,
+      "fileCount": 9,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0.00044764427201850264
+    },
+    {
+      "segment": "在南一版課文中",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "作者強調了哪一種核心價值觀來引導讀者反思？ 跨單元通用引導",
+      "stem": 12,
+      "option": 0,
+      "total": 12,
+      "fileCount": 12,
+      "ratioOfAllSegments": 0.0003078422821374516,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "且其過程描述得相當完整",
+      "stem": 0,
+      "option": 11,
+      "total": 11,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00028218875862599726,
+      "ratioOfOptionSegments": 0.0004103405826836274
+    },
+    {
+      "segment": "小明在讀完課文後",
+      "stem": 11,
+      "option": 0,
+      "total": 11,
+      "fileCount": 11,
+      "ratioOfAllSegments": 0.00028218875862599726,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "如果你是故事中的主角",
+      "stem": 10,
+      "option": 0,
+      "total": 10,
+      "fileCount": 9,
+      "ratioOfAllSegments": 0.00025653523511454297,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "媽媽笑著聽完後",
+      "stem": 10,
+      "option": 0,
+      "total": 10,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.00025653523511454297,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這也是作者在這裡特別想要傳達給我們的另外一個小觀念",
+      "stem": 0,
+      "option": 9,
+      "total": 9,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00023088171160308868,
+      "ratioOfOptionSegments": 0.000335733204013877
+    },
+    {
+      "segment": "「媽媽",
+      "stem": 0,
+      "option": 9,
+      "total": 9,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.00023088171160308868,
+      "ratioOfOptionSegments": 0.000335733204013877
+    },
+    {
+      "segment": "面對困難時",
+      "stem": 1,
+      "option": 8,
+      "total": 9,
+      "fileCount": 9,
+      "ratioOfAllSegments": 0.00023088171160308868,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "覺得很無聊",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 7,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "這展現了角色當時的情境",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "感到無聊",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "感到害怕",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 7,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "小明在餐桌上大聲說話",
+      "stem": 8,
+      "option": 0,
+      "total": 8,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小華在閱讀文章後",
+      "stem": 8,
+      "option": 0,
+      "total": 8,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "擬人法",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "誇飾法",
+      "stem": 0,
+      "option": 8,
+      "total": 8,
+      "fileCount": 8,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0.00029842951467900174
+    },
+    {
+      "segment": "發現主角在面對困難時",
+      "stem": 8,
+      "option": 0,
+      "total": 8,
+      "fileCount": 7,
+      "ratioOfAllSegments": 0.0002052281880916344,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這屬於課文中提到的重點",
+      "stem": 0,
+      "option": 7,
+      "total": 7,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0.00026112582534412656
+    },
+    {
+      "segment": "不過這點很容易讓許多小朋友在閱讀的時候產生誤解",
+      "stem": 0,
+      "option": 7,
+      "total": 7,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0.00026112582534412656
+    },
+    {
+      "segment": "堅持自己的想法",
+      "stem": 0,
+      "option": 7,
+      "total": 7,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0.00026112582534412656
+    },
+    {
+      "segment": "媽媽聽完後微笑著點點頭",
+      "stem": 7,
+      "option": 0,
+      "total": 7,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小明讀完課文後",
+      "stem": 7,
+      "option": 0,
+      "total": 7,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "覺得無聊",
+      "stem": 0,
+      "option": 7,
+      "total": 7,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0.00026112582534412656
+    },
+    {
+      "segment": "小華在閱讀課文後",
+      "stem": 7,
+      "option": 0,
+      "total": 7,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.00017957466458018008,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "老師",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "你卻能用『心』來看畫」",
+      "stem": 6,
+      "option": 0,
+      "total": 6,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "這也是為了要提醒大家",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "在面對大自然的時候要保持一份尊重",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "根據課文的啟示",
+      "stem": 6,
+      "option": 0,
+      "total": 6,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "只要努力",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "會",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "感到好奇",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "譬喻法",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "排比法",
+      "stem": 0,
+      "option": 6,
+      "total": 6,
+      "fileCount": 6,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0.00022382213600925132
+    },
+    {
+      "segment": "根據文中的描述",
+      "stem": 6,
+      "option": 0,
+      "total": 6,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.0001539211410687258,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "只要管好自己就好",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "翠綠色",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "心不在焉",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "一條吞了大象的蛇",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "有",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "半途而廢",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "不會",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "立刻放棄",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "感到疲憊",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "紅色",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "黃色",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "夏天",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "冬天",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "秋天",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "春天",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "小明正在讀這篇課文",
+      "stem": 5,
+      "option": 0,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "如果換作是你",
+      "stem": 5,
+      "option": 0,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小組討論時",
+      "stem": 5,
+      "option": 0,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "默默吃完飯",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "他想起課文中主角面對困難時的態度",
+      "stem": 5,
+      "option": 0,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "根據課文傳達的價值觀",
+      "stem": 5,
+      "option": 0,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "主角在面對困難時",
+      "stem": 4,
+      "option": 1,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.00003730368933487522
+    },
+    {
+      "segment": "堅持到底",
+      "stem": 1,
+      "option": 4,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "排比",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "誇飾",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 5,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "主角會變得更受歡迎",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "沒關係",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "感到沮喪",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "爺爺",
+      "stem": 0,
+      "option": 5,
+      "total": 5,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.00012826761755727149,
+      "ratioOfOptionSegments": 0.0001865184466743761
+    },
+    {
+      "segment": "只要用心觀察",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "害怕",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "綠色",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "呈現出細緻且生動的文字氣氛",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "讀完這篇課文",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小華",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "小明",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "小鳥",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "「你說得對",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "沒有",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "勇敢",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "漠不關心",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "非常生氣",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "課文指出",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "直接放棄",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "趕快跑去告訴老師",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "繼續做自己的事",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "小明正在閱讀課文",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小明在閱讀課文時",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "映襯法",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "在同樣的情境下",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "根據爺爺的話",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "學完本課",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "文中認為",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "讀完這課",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "晚餐時",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "並對媽媽說聲謝謝",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "趕快吃完飯",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "不知所措",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "小明在餐桌上看到媽媽準備了豐盛的菜餚",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "先冷靜下來",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "吃完飯後",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "在遇到困難時",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "根據課文脈絡",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "因為學習和植物一樣",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "小明在閱讀課文後",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "小華看完課文後",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "媽媽聽完後微笑著點頭",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "譬喻",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "沒錯",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "雨停了",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "故事會變得更有趣",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "面對挑戰時",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "因為害怕失敗",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 4,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "學習就像溪水一樣",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "大地像母親一樣",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "從文中的描述",
+      "stem": 4,
+      "option": 0,
+      "total": 4,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "感到驚訝",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "主角會更快樂",
+      "stem": 0,
+      "option": 4,
+      "total": 4,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0001026140940458172,
+      "ratioOfOptionSegments": 0.00014921475733950087
+    },
+    {
+      "segment": "學完本課後",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "非常興奮",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "故事裡",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "一條剛吞下大鯨魚的蛇",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "這一細節在後續情節中非常重要",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "身體就會變大",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "下午三點",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "非常美麗",
+      "stem": 1,
+      "option": 2,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00007460737866975044
+    },
+    {
+      "segment": "但是這並不是這一小段文字最主要的重點核心所在",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "寒冷的冬天",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "課文裡",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "轉移話題",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "不得不做",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "只要努力讀書",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "想睡覺",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "故事一開始",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 2,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "一片寂靜",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "感到無所謂",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "覺得很有趣",
+      "stem": 1,
+      "option": 2,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00007460737866975044
+    },
+    {
+      "segment": "在課文中",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "力大無窮",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "所以感到緊張",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "假裝沒發生過",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "讓老師處理",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "課文將油桐花比喻成「雪」",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "為了保護環境",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "大聲說話",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "以上皆是",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "有點生氣",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "媽媽說：「這些菜雖然簡單",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "讓老師來處理這件事",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "不予理會",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "幫媽媽洗碗",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "只要堅持不懈",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "《第二單元 統整活動》中",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 1,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "憤怒",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "爸爸",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "好奇",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "聰明",
+      "stem": 0,
+      "option": 3,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0.00011191106800462566
+    },
+    {
+      "segment": "如果你是作者",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "根據故事內容",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    },
+    {
+      "segment": "課文中主角在面對困難時",
+      "stem": 3,
+      "option": 0,
+      "total": 3,
+      "fileCount": 3,
+      "ratioOfAllSegments": 0.0000769605705343629,
+      "ratioOfOptionSegments": 0
+    }
+  ],
+  "suspicious": [
+    {
+      "segment": "與課文敘述明顯不符（選項待人工重寫）",
+      "stem": 0,
+      "option": 215,
+      "total": 215,
+      "fileCount": 48,
+      "ratioOfAllSegments": 0.005515507554962674,
+      "ratioOfOptionSegments": 0.008020293206998172
+    }
+  ],
+  "templateHintMatches": []
+}

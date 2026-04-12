@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "HanLin",
+    "lesson": "L8",
+    "order": 8,
+    "title": "L8"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "判斷兩線關係",
+      "question": "兩條直線相交成 90 度，這兩條線的關係稱為？",
+      "options": [
+        "平行",
+        "垂直",
+        "重疊",
+        "相交但無關係"
+      ],
+      "answer_index": 1,
+      "explanation": "相交成直角（90度）即為垂直。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "探索平行的特性",
+      "question": "在同一個平面上，兩條永不相交的直線關係為？",
+      "options": [
+        "垂直",
+        "平行",
+        "反向",
+        "垂直且平行"
+      ],
+      "answer_index": 1,
+      "explanation": "平行線在同一平面上延伸至無限遠也不會相交，且兩線間的距離處處相等。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "判斷垂直線條",
+      "question": "直線 A 同時垂直於直線 B 與直線 C。請問 B 與 C 的關係是？",
+      "options": [
+        "互相垂直",
+        "互相平行",
+        "互相相交",
+        "沒有關係"
+      ],
+      "answer_index": 1,
+      "explanation": "在同一平面上，若兩條直線同時垂直於第三條直線，則這兩條直線互相平行。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "多邊形的定義",
+      "question": "一個封閉圖形，由四條直線段圍成。它被稱為什麼？",
+      "options": [
+        "三邊形",
+        "四邊形",
+        "圓形",
+        "多面體"
+      ],
+      "answer_index": 1,
+      "explanation": "由四條線段封閉圍成的圖形稱為四邊形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "正多邊形的性質",
+      "question": "「正六邊形」必須具備哪些條件？",
+      "options": [
+        "六條邊都一樣長",
+        "六個角都一樣大",
+        "六條邊都一樣長且六個角都一樣大",
+        "只要有六條邊即可，這點在分析單元核心時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "正多邊形的定義是邊長皆等且內角皆等。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "測量平行線間距",
+      "question": "兩條平行線之間，垂直距離的變化為何？",
+      "options": [
+        "越來越遠",
+        "越來越近",
+        "處處相等",
+        "不一定"
+      ],
+      "answer_index": 2,
+      "explanation": "平行線最重要的幾何性質就是其間的垂直距離永遠保持相等。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "繪製垂直線",
+      "question": "使用三角板畫垂直線時，應對齊三角板的哪個位置？",
+      "options": [
+        "斜邊",
+        "45 度角",
+        "直角邊",
+        "隨便一邊"
+      ],
+      "answer_index": 2,
+      "explanation": "利用三角板的直角構造可以精確畫出垂直線。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "多邊形頂點與邊",
+      "question": "一個八邊形有幾個頂點？幾條邊？",
+      "options": [
+        "4 頂點 8 邊",
+        "8 頂點 4 邊",
+        "8 頂點 8 邊",
+        "16 頂點 8 邊"
+      ],
+      "answer_index": 2,
+      "explanation": "多邊形的頂點數目等於邊的數目。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "判斷內角和",
+      "question": "五邊形可以切割成幾個三角形？內角和是多少度？",
+      "options": [
+        "3 個；540 度",
+        "2 個；360 度",
+        "4 個；720 度",
+        "5 個；900 度"
+      ],
+      "answer_index": 0,
+      "explanation": "從一個頂點出發，五邊形可分出 3 個三角形。 180 * 3 = 540。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "地圖上的平行線",
+      "question": "地圖上的經緯線（小範圍內看作直線）交會成直角。緯線與緯線之間的關係是？",
+      "options": [
+        "互相垂直",
+        "互相平行",
+        "互相重合",
+        "隨機交會"
+      ],
+      "answer_index": 1,
+      "explanation": "緯線彼此不相交且保持間距，故為平行關係。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "HanLin"
+}

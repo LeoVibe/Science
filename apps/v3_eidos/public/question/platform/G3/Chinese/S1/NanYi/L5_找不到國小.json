@@ -1,17 +1,17 @@
 {
   "meta": {
     "grade": "G3",
+    "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
     "lesson": "L5",
-    "title": "找不到國小",
-    "semester": "S1",
-    "order": 5
+    "order": 5,
+    "title": "找不到國小"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼會有學校叫做「找不到國小」？",
       "options": [
         "這是作者亂編的",
@@ -19,32 +19,37 @@
         "因為大家都找不到校門口",
         "因為地名就叫「找不到」"
       ],
-      "answer": "因為地名就叫「找不到」",
+      "answer_index": null,
       "explanation": "本課介紹了因地理位置偏僻或特殊傳說而產生的趣味地名故事。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "每個地名的背後通常都有它的由來與故事。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "地名反映了當地的歷史、地理位置或產業特色。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "想要介紹自己的家鄉，可以從探訪______的由來開始。",
-      "answer": "地名",
+      "options": [],
+      "answer_index": null,
       "explanation": "地名是家鄉的小傳記。",
-      "cqi_score": 2,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 2.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課提到的「找不到」給人什麼樣的一種幽默感？",
       "options": [
         "覺得很生氣",
@@ -52,14 +57,15 @@
         "覺得很普通",
         "讓人想去一探究竟的好奇與趣味"
       ],
-      "answer": "讓人想去一探究竟的好奇與趣味",
+      "answer_index": null,
       "explanation": "趣味地名常能引發人們的興趣。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "除了「找不到國小」，台灣還有許多有趣的國小名稱，這代表了什麼？",
       "options": [
         "學校太多了",
@@ -67,10 +73,82 @@
         "隨便取名字",
         "以前人書讀得少"
       ],
-      "answer": "台灣各地的文化多樣性與在地認同",
+      "answer_index": null,
       "explanation": "這些名稱往往乘載著在地的記憶與情感。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "本課題目「火大了」主要是用火來比喻哪一種情緒？",
+      "options": [
+        "肚子餓的感覺",
+        "憤怒、生氣的情緒",
+        "害怕的感覺",
+        "開心的心情"
+      ],
+      "answer_index": null,
+      "explanation": "「火」常被用來形象化描述強烈的負面情緒（生氣）。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "文中提到，每個人都會有生氣的時候，關鍵不在於「不能生氣」，而是要學習如何「滅火」（調適情緒）。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "情緒教育的核心在於正視情緒並學習適當的表達與代謝方式。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "當你感覺「大火快燒起來」時，可以試著先深呼吸或在心中數到______再說話。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "延遲反應是控制情緒衝動的有效策略。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "不加控制的憤怒就像失控的野火，可能會造成什麼後果？",
+      "options": [
+        "傷害到身邊親近的人，並破壞彼此的友誼與信任",
+        "火會熄滅得很快",
+        "讓別人都聽你的話",
+        "讓自己變得很有威嚴"
+      ],
+      "answer_index": null,
+      "explanation": "探討情緒爆發對人際關係的負面影響。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課內容最適合引導小孩建立哪一種能力？",
+      "options": [
+        "情緒覺察與自我冷靜、調節的能力",
+        "吵架的技巧",
+        "很有力氣大聲喊叫",
+        "不需要理會別人的感受"
+      ],
+      "answer_index": null,
+      "explanation": "情緒管理（Emotional Regulation）是成長的重要課題。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

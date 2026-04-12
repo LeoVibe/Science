@@ -9,7 +9,7 @@
 ## 📖 任務詳情
 1. 針對 G5S2 (五下) 國語科 康軒、南一 版本，產出缺失的題目至每課次 30 題以上。（翰林版已滿 360 題滿編）。
 2. **執行自動化指令**：執行 `node scripts/auto_generate_questions.js question/platform/G5/Chinese/S2`。
-3. **品質評核**：執行 `node scripts/evaluate_question_quality.js question/platform/G5/Chinese/S2` 確保平均 CQI > 6.0 且達到 L3/L4。
+3. **品質評核**：執行 `node scripts/evaluate_question_quality.js question/platform/G5/Chinese/S2` 確保平均 CQI > 6.0 且達到 QL3/QL4。
 
 ## 📜 關鍵參考檔案
 | 檔案路徑 | 用途說明 |
@@ -24,6 +24,6 @@
 
 ## ✅ 驗證基準 (DoD)
 - [ ] G5S2 國語科所有版本 課次題數均達到 30+ 題。
-- [ ] 平均品質 CQI > 6.0，達到 L3 或 L4 級別。
+- [ ] 平均品質 CQI > 6.0，達到 QL3 或 QL4 級別。
 - [ ] 更新 `libraryStats.json` 統計報表。
 - [ ] 產出完工報告 `JOB-033-Report.md`。

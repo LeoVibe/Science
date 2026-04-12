@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這篇讀書報告中提到，佐賀阿嬤在貧窮的生活中，展現了什麼樣的人生觀？",
       "options": [
         "樂觀豁達、充滿生存智慧且知足長樂",
@@ -19,32 +19,37 @@
         "悲觀且怨天尤人",
         "一心想發大財"
       ],
-      "answer": "樂觀豁達、充滿生存智慧且知足長樂",
+      "answer_index": null,
       "explanation": "阿嬤的正向金句與生活巧思是本書的核心點。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中提到的佐賀阿嬤認為，貧窮並不可怕，可怕的是失去面對生活的笑容與尊嚴。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這種從逆境中生出的生命力是本課的重點教學。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "阿嬤在河邊攔截上游流下來的蔬菜、順著水流帶來的資源生活，這說明了她的______。",
-      "answer": "生活智慧、創意或節儉",
+      "options": [],
+      "answer_index": null,
       "explanation": "順應自然、惜物的生活模式。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者透過寫這篇讀書報告，最想跟讀者分享什麼？",
       "options": [
         "日本佐賀的名產",
@@ -52,14 +57,15 @@
         "生活中的幸福與物質多寡無關，而在於我們如何看待困境",
         "阿嬤有很多奇妙的愛好"
       ],
-      "answer": "生活中的幸福與物質多寡無關，而在於我們如何看待困境",
+      "answer_index": null,
       "explanation": "這是心理素養與價值觀的導向。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀書報告這種文體，在本課中主要包含了哪些元素？",
       "options": [
         "作者的秘密生活",
@@ -67,10 +73,12 @@
         "大量的插畫",
         "只有書名和作者"
       ],
-      "answer": "內容摘要、個人心得與佳句摘錄",
+      "answer_index": null,
       "explanation": "讓學生熟悉讀書報告的基本架構與寫作實務。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

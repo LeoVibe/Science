@@ -13,7 +13,7 @@
 - **嚴重度**：🟧 High  
 - **觀察**：
   - 透過深連結進入，例如 `/g3/chi/s2/nani/about/library` 時，`Index.tsx` 會先依 URL 解析 `grade/subject/semester/publisher/view` 並設 state。
-  - 之後 `fetchSiteSettings` 完成、`fetchAndMergeUserProfile` 被觸發後，會用後端 profile 的 `grade/semester/publisher` 覆寫現有 state（L148–L159 左右）。
+  - 之後 `fetchSiteSettings` 完成、`fetchAndMergeUserProfile` 被觸發後，會用後端 profile 的 `grade/semester/publisher` 覆寫現有 state（QL148–QL159 左右）。
   - `State → URL` 的 effect 為了避免覆寫合法的題庫 URL，有 `if (VALID_APP_PATH.test(currentPath)) return;`，導致畫面 state 已被 profile 改掉，但網址列仍停留在原本的深連結組合。
 - **風險**：
   - 使用者實際在「profile 對應的組合」答題，卻以為自己還在深連結指定的科目/出版社；回上一頁或重新整理時，容易迷失。

@@ -23,21 +23,21 @@
 
 目標目錄：`question/platform/G6/Chinese/KangHsuan/`
 包含檔案：
-- L1_過故人莊.json (需先修復格式)
-- L2_把愛傳下去.json (已完成)
-- L3_山村車輄寮.json
-- L4_迷途.json
-- L5_馬達加斯加，出發！.json
+- QL1_過故人莊.json (需先修復格式)
+- QL2_把愛傳下去.json (已完成)
+- QL3_山村車輄寮.json
+- QL4_迷途.json
+- QL5_馬達加斯加，出發！.json
 - L6_劍橋秋日漫步.json
 - L8_雕刻一座小島.json
-- L10_追夢的翅膀.json
-- L11_祝賀你，孩子.json
+- QL10_追夢的翅膀.json
+- QL11_祝賀你，孩子.json
 
 ---
 
 ## 三、預期結果清單 (Expected Outcomes Checklist)
 
-- [x] L1 檔案 JSON 格式格式修復完成
+- [x] QL1 檔案 JSON 格式格式修復完成
 - [x] 所有檔案 (9 份) 盲測推理與驗證完成 (含 Match/Mismatch 判定)
 - [x] 所有題目 JSON 欄位更新完畢 (`blind_evaluation_note`, `authoring_model`, `verifying_model`, `verification`, `cqi_score` 變量更新)
 - [x] 執行 `evaluate_question_quality.js` 確認總目錄跑分正常

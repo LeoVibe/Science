@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "花圃面積與圍欄設計 (情境 6)",
+      "question": "設計師想要設計一個完全對稱的校園花園。他在草圖上畫了一個「正六邊形」的花圃。請問正六邊形總共有幾條對稱軸？",
+      "options": [
+        "6 條",
+        "3 條",
+        "12 條",
+        "0 條"
+      ],
+      "answer_index": 0,
+      "explanation": "正多邊形的對稱軸數量等於它的邊數。所以正六邊形有 6 條對稱軸（3 條過對角頂點、3 條過對邊中點）。",
+      "commonMisconception": "學生可能只計算過對角線的對稱軸 (3條) 而忘記過邊中點的對稱軸。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "NanYi"
+}

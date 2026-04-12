@@ -1,17 +1,17 @@
 {
   "meta": {
     "grade": "G3",
+    "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
     "lesson": "L11",
-    "title": "看海豚跳舞",
-    "semester": "S1",
-    "order": 11
+    "order": 11,
+    "title": "看海豚跳舞"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "海豚在海面跳躍，通常被形容成像在做什麼？",
       "options": [
         "求救",
@@ -19,32 +19,37 @@
         "跳舞",
         "迷路"
       ],
-      "answer": "跳舞",
+      "answer_index": null,
       "explanation": "海豚輕盈優美的躍升姿勢，常被人類賦予藝術性的想像。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "海豚是用肺呼吸的哺乳動物，需要浮上海面換氣。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "海豚並非魚類，而是適應水中生活的哺乳類。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為了看海豚，小朋友搭乘______來到湛藍的大海上。",
-      "answer": "賞鯨船",
+      "options": [],
+      "answer_index": null,
       "explanation": "賞鯨豚是台灣東部（如花蓮、宜蘭）著名的觀光活動。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當船靠近海豚時，我們應該如何遵守賞鯨規範？",
       "options": [
         "大聲尖叫以吸引海豚注意",
@@ -52,14 +57,15 @@
         "保持安靜觀察，不干擾牠們的原本生活",
         "把魚網撒下去"
       ],
-      "answer": "保持安靜觀察，不干擾牠們的原本生活",
+      "answer_index": null,
       "explanation": "尊重野生動物，維護生態倫理。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "海豚透過什麼方式與同伴溝通？",
       "options": [
         "跳舞時的手勢",
@@ -67,10 +73,204 @@
         "用尾巴敲擊船殼",
         "發出特殊的超音波訊號"
       ],
-      "answer": "發出特殊的超音波訊號",
+      "answer_index": null,
       "explanation": "海豚擁有極高度的社會性與複雜的聲納系統進行溝通。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "特徵辨識：觀察石虎的外部特徵。",
+      "question": "在課文《石虎的告白》中，石虎向人類介紹了自己的長相。雖然牠長得很像貓，但耳後與眼下的特徵卻與一般家貓不同。請問石虎耳後的主要特徵是什麼？",
+      "options": [
+        "呈現純白色，完全沒有任何斑點",
+        "黑色底色上各有一個明顯的大白斑",
+        "與身上一樣佈滿了點狀的虎紋",
+        "呈現暗紅色，且形狀像三角形"
+      ],
+      "answer_index": 1,
+      "explanation": "耳後白斑是辨識石虎最重要的特徵之一，這是區分石虎與家貓的關鍵點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "生態環境：定義「淺山」的生存空間。",
+      "question": "石虎提到自己是「淺山之王」，並且介紹了牠們最喜愛生活的區域。根據課文推論，所謂的「淺山」地區主要具備什麼樣的地理環境特徵？",
+      "options": [
+        "氣候寒冷且終年積雪的高山地带",
+        "低海拔且氣候溫暖潮濕的森林和田野",
+        "寸草不生且佈滿黃沙的沙漠邊緣",
+        "深不見底且陽光照不到的海底溝渠"
+      ],
+      "answer_index": 1,
+      "explanation": "淺山是指低海拔山區，環境適中，具備豐富的動植物多樣性，也是石虎的主戰場。",
+      "commonMisconception": "學生可能以為石虎住在深山人跡罕至處，事實上牠與人的生活圈有部分重疊。",
+      "quality_level": "L5",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "危機分析：探討石虎滅絕的背後原因。",
+      "question": "石虎在「告白」中描述了牠們面臨的種種生存危機。下列哪一項行為最可能是導致石虎數量急劇減少，甚至瀕臨滅絕的主因之一？",
+      "options": [
+        "與老鼠玩耍時不小心受傷了",
+        "人類開發山林導致棲地破壞以及路殺風險增加",
+        "石虎太受歡迎而被人類當成寵物帶回家寵愛",
+        "山林裡的樹木長得太茂盛，讓石虎找不到食物"
+      ],
+      "answer_index": 1,
+      "explanation": "開發導致棲地破碎與路殺問題，是石虎當前最嚴峻的生存威脅。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "生態系平衡：模擬石虎消失後的連鎖反應。",
+      "question": "課文後半部提到石虎如果消失了，可不是「減少一種動物」這麼簡單。石虎以老鼠為主食，請推論如果石虎滅絕了，會對淺山生態系造成什麼直接的連鎖反應？",
+      "options": [
+        "老鼠變多導致穀物減少，破壞原有的生物平衡",
+        "淺山的樹木會因為沒人爬而長得更高",
+        "其他的貓科動物會因此搬到海邊去住",
+        "穀物會突然變多，讓農夫感到非常開心地慶收"
+      ],
+      "answer_index": 0,
+      "explanation": "高級掠食者的消失會導致食物鏈底層生物过量繁殖，進而瓦解整個生態鏈的穩定性。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "生存本能：分析石虎的夜間競爭力。",
+      "question": "石虎說自己「獨來獨往」，喜歡在夜晚外出打獵。根據這個習性，下列哪一種描述最符合石虎在夜間環境中展現出的生存能力？",
+      "options": [
+        "因為視力不好，需要隨時大聲尖叫來確認方向",
+        "能利用腳底軟軟的肉墊安靜靠近獵物，且爬樹、游泳樣樣精通",
+        "必須在夜晚點燃火把，才能找到藏在樹洞裡的食物",
+        "夜晚時體力會變得很差，只能躲在草叢裡哭泣"
+      ],
+      "answer_index": 1,
+      "explanation": "肉墊與多樣的運動能力（爬樹、游泳）是石虎作為夜間刺客的生存利器。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "行動實踐：從法律保護到自發性的生態守護。",
+      "question": "讀完《石虎的告白》後，我們學到「規定人類不能傷害保育類動物是不夠的」。請問石虎最希望人類採取的「核心行動」應該是什麼？",
+      "options": [
+        "建造更多的籠子把石虎全部關起來保護",
+        "深入認識石虎並共同維護淺山生態系的健康",
+        "教導石虎如何使用現代科技來避開汽車",
+        "把所有的平地都種滿茂密的森林"
+      ],
+      "answer_index": 1,
+      "explanation": "唯有透過認知提升與棲地保護，石虎才能真正獲得長久的生存保障。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "衝突反思：分析人與野生動物的接觸點。",
+      "question": "石虎提到牠的朋友曾因為想要享用「雞肉沙西米」而被毒死。請問這反映了石虎在哪一個環境中，最容易與人類產生致命的利益衝突？",
+      "options": [
+        "在深山裡與採集草藥的人類爭奪地盤時",
+        "在城市的公園裡與散步的人類相遇時",
+        "在淺山的農家附近捕食家禽時引發農夫的反擊",
+        "在深海底與漁夫爭奪鮮美的魚群時"
+      ],
+      "answer_index": 2,
+      "explanation": "石虎捕食家禽（如雞）常導致與農人的衝突，這是保育工作中亟需處理的農損問題。",
+      "commonMisconception": "學生可能以為石虎被毒死是意外，需解釋為人為防備（或誤解）所致。",
+      "quality_level": "L5",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "修辭分析：探討擬人化的教育功能。",
+      "question": "課文中使用了「淺山之王」與「今日竟然如此落魄」這種對比。請問作者採用這種擬人化的口氣進行告白，主要的寫作目的可能是什麼？",
+      "options": [
+        "為了展現作者自己很會模仿小動物的聲音",
+        "為了增加文章的幽默感，讓讀者讀起來很好笑",
+        "透過石虎的委屈感與自尊心的落差，喚起讀者的同情與責任感",
+        "為了證明石虎其實是一種非常驕傲且不合群的動物"
+      ],
+      "answer_index": 2,
+      "explanation": "擬人化手法能有效引發共鳴，將科學知識轉化為具備情感張力的環境教育。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "科學觀察：將課本知識應用於野外鑑定。",
+      "question": "假如在野外看見一隻帶著斑點的小貓，而你想要確認牠到底是不是石虎。根據課文中的描述，下列哪一個行為最能幫你做出正確的判斷？",
+      "options": [
+        "看牠會不會像老虎一樣發出巨大的吼叫聲",
+        "檢查牠耳後是否有大白斑，以及眼內側是否有延伸至額頭的白線",
+        "觀察牠是否喜歡吃貓罐頭或喝牛奶",
+        "測試牠會不會主動靠近人類並對人類喵喵叫"
+      ],
+      "answer_index": 1,
+      "explanation": "耳後白斑與額頭白線是分辨石虎與家貓最科學且直觀的視覺特徵。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "跨學科思考：從石虎親戚看生物演化。",
+      "question": "石虎提到牠在日本、菲律賓、印度等地都有「親戚」，但長相不完全相同。請問這在生物學上反映了什麼樣的自然規律？",
+      "options": [
+        "動物會因為住在不同地方，而演化出適應當地環境的不同特徵",
+        "動物會因為心情不好，而隨意改變自己的眼睛顏色",
+        "動物會互相寫信，約定好要長得不一樣來區分彼此",
+        "所有的動物都是從同一個工廠生產出來的，只是外殼不同"
+      ],
+      "answer_index": 0,
+      "explanation": "地理隔離與環境適應會導致亞種間出現細微差異，這是生物多樣性的展現。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "公民參與：評估還給石虎家園的具體做法。",
+      "question": "在課文的結尾，石虎問道：「你們可以把原來的家園還給我嗎？」如果從社會發展的角度思考，真正「還給家園」的可行做法最接近下列哪一個？",
+      "options": [
+        "拆掉所有的馬路與電線桿，讓人回到山洞生活",
+        "在開路時留下生物廊道，並有計畫地復育淺山林地",
+        "發給每一隻石虎一個全新的五星級鐵籠子居住",
+        "建議石虎全部搬到無人島度假"
+      ],
+      "answer_index": 1,
+      "explanation": "友善環境的公共建設（如生物通廓）是兼顧人類需求與動物棲地的理性方案。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "價值總結：定位石虎在生態系的身分。",
+      "question": "學完本課後，對於石虎在自然界中的地位，最合適的描述應該是什麼？它不僅僅是那一小部分山林裡的王者，更是：",
+      "options": [
+        "一個不需要任何幫助就能獨自生存的神靈",
+        "一個與我們共享土地，且維持著環境平衡的脆弱守護者",
+        "一個專門在晚上嚇壞路人的危險肉食動物",
+        "一個能幫人類抓光所有穀物害蟲的工作機具"
+      ],
+      "answer_index": 1,
+      "explanation": "石虎象徵著淺山生態系的健康，它是脆弱的，也是維繫平衡的關鍵成員。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

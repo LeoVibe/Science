@@ -5,40 +5,34 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1_昆蟲的一生",
-      "title": "Sci1_昆蟲的一生",
-      "file": "Sci1_昆蟲的一生.json",
-      "count": 5
+      "id": "L1",
+      "title": "昆蟲的一生",
+      "file": "L1_昆蟲的一生.json",
+      "count": 1
     },
     {
-      "id": "Sci2_生活中的力",
-      "title": "Sci2_生活中的力",
-      "file": "Sci2_生活中的力.json",
-      "count": 5
+      "id": "L2",
+      "title": "神奇的電力",
+      "file": "L2_神奇的電力.json",
+      "count": 1
     },
     {
-      "id": "Sci2_神奇的電力",
-      "title": "Sci2_神奇的電力",
-      "file": "Sci2_神奇的電力.json",
-      "count": 5
+      "id": "L3",
+      "title": "水的移動",
+      "file": "L3_水的移動.json",
+      "count": 1
     },
     {
-      "id": "Sci3_水的移動",
-      "title": "Sci3_水的移動",
-      "file": "Sci3_水的移動.json",
-      "count": 5
-    },
-    {
-      "id": "Sci4_星空",
-      "title": "Sci4_星空",
-      "file": "Sci4_星空.json",
-      "count": 5
+      "id": "L4",
+      "title": "星空",
+      "file": "L4_星空.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
     "status": "enabled",
     "quality": {
-      "depthScore": 8.5,
+      "depthScore": 9,
       "accuracyScore": 9.5,
       "isVerified": true
     }

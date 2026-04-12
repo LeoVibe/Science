@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L5",
+    "order": 5,
+    "title": "三角形"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "兩條邊一樣長的三角形稱為什麼？",
+      "options": [
+        "鈍角三角形",
+        "正三角形",
+        "直角三角形",
+        "等腰三角形"
+      ],
+      "answer_index": "等腰三角形",
+      "explanation": "等腰三角形的兩個底角也會相等。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "三角形的內角和始終等於 180 度。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這是歐幾里得幾何中的基本平面幾何定律。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一個三角形的三個角分別是 60 度、60 度、60 度，這是一個______三角形。",
+      "options": [],
+      "answer_index": "正或等邊",
+      "explanation": "正三角形的三邊等長，三角皆為 60 度。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "含有一個鈍角的三角形稱之為？",
+      "options": [
+        "銳角三角形",
+        "直角三角形",
+        "平角三角形",
+        "鈍角三角形"
+      ],
+      "answer_index": "鈍角三角形",
+      "explanation": "依據角的大小進行分類。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "已知三角形的兩個角是 50 度與 60 度，第三個角是多少度？",
+      "options": [
+        "100 度",
+        "80 度",
+        "70 度",
+        "90 度"
+      ],
+      "answer_index": "70 度",
+      "explanation": "180 - (50 + 60) = 180 - 110 = 70。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 450 ÷ 90 = ？",
+      "options": [
+        "6",
+        "7",
+        "4",
+        "5"
+      ],
+      "answer_index": "5",
+      "explanation": "45 ÷ 9 = 5。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "除法算式中，餘數絕對不可以等於或大於除數。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "如果餘數大於除數，表示商還可以再進一位。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 728 ÷ 24 = ______ ... ______。（寫出商和餘數）",
+      "options": [],
+      "answer_index": "30 ... 8",
+      "explanation": "24 × 30 = 720，728 - 720 = 8。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有一箱 300 顆巧克力，平分給 15 位小朋友，每人可以分到幾顆？",
+      "options": [
+        "15 顆",
+        "25 顆",
+        "30 顆",
+        "20 顆"
+      ],
+      "answer_index": "20 顆",
+      "explanation": "300 ÷ 15 = 20。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「整除」的敘述，下列何者正確？",
+      "options": [
+        "餘數是 0 的算式",
+        "餘數是 1 的算式",
+        "沒有商的算式",
+        "商是 0 的算式"
+      ],
+      "answer_index": "餘數是 0 的算式",
+      "explanation": "整除意味著除數能完全分裝被乘數而不剩餘。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    }
+  ],
+  "publisher": "NanYi"
+}

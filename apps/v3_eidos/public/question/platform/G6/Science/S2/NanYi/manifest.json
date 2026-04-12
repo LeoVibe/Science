@@ -1,11 +1,34 @@
 {
-  "publisher": "NanI",
+  "publisher": "NanYi",
   "grade": "G6",
   "semester": "S2",
   "subject": "Science",
   "items": [
-    { "id": "U1", "title": "活力的地球", "file": "Sci_U1.json" },
-    { "id": "U2", "title": "電磁作用與生活", "file": "Sci_U2.json" },
-    { "id": "U3", "title": "永續的環境與資源", "file": "Sci_U3.json" }
-  ]
+    {
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
+    },
+    {
+      "id": "L2",
+      "title": "L2",
+      "file": "L2_L2.json",
+      "count": 1
+    },
+    {
+      "id": "L3",
+      "title": "L3",
+      "file": "L3_L3.json",
+      "count": 1
+    }
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
 }

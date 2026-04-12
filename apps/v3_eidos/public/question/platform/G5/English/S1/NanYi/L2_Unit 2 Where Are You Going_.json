@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L2",
+    "order": 2,
+    "title": "Unit 2 Where Are You Going?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where are you going? B: I am ______ to the bookstore.",
+      "options": [
+        "to go",
+        "going",
+        "goes",
+        "go"
+      ],
+      "answer_index": null,
+      "explanation": "現在進行式 be + V-ing。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "______ is he going?",
+      "options": [
+        "What",
+        "When",
+        "Who",
+        "Where"
+      ],
+      "answer_index": null,
+      "explanation": "Where 詢問地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "They are going to the ______ (郵局).",
+      "options": [],
+      "answer_index": null,
+      "explanation": "郵局是 post office。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'Museum' means '圖書館'。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "Museum 是博物館，圖書館是 Library。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "I'm going to the ______.",
+      "options": [
+        "hungry",
+        "dance",
+        "eating",
+        "restaurant"
+      ],
+      "answer_index": null,
+      "explanation": "restaurant (餐廳) 是地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "NanYi"
+}

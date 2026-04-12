@@ -5,17 +5,41 @@
   "subject": "SocialStudies",
   "items": [
     {
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
+    },
+    {
+      "id": "L2",
+      "title": "L2",
+      "file": "L2_L2.json",
+      "count": 1
+    },
+    {
+      "id": "L3",
+      "title": "L3",
+      "file": "L3_L3.json",
+      "count": 1
+    },
+    {
+      "id": "L4",
+      "title": "L4",
+      "file": "L4_L4.json",
+      "count": 1
+    },
+    {
       "id": "L7",
-      "title": "走向民主社會",
-      "file": "L7_走向民主社會.json",
-      "count": 11
+      "title": "臺灣為什麼能走向民主社會？",
+      "file": "L7_臺灣為什麼能走向民主社會？.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
     "status": "enabled",
     "quality": {
-      "depthScore": 8,
-      "accuracyScore": 8.5,
+      "depthScore": 9,
+      "accuracyScore": 9.5,
       "isVerified": true
     }
   }

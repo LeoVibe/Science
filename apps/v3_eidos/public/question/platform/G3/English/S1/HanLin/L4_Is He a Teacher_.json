@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L4",
+    "order": 4,
+    "title": "Is He a Teacher?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Is she a student? B: Yes, she ______.",
+      "options": [
+        "are",
+        "do",
+        "am",
+        "is"
+      ],
+      "answer_index": null,
+      "explanation": "Yes/No 問句的簡答要與問句開頭的 be 動詞一致。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "If someone asks 'Is he a cook?', and he is a doctor, the answer should be 'No, he isn't.'",
+      "options": [],
+      "answer_index": null,
+      "explanation": "否定簡答使用 No, he isn't。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: ______ he a nurse? B: No, he isn't. He is a doctor.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "問句開頭使用 be 動詞 Is 形成 Yes/No 選項。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Is she a doctor? B: ______. She is a teacher.",
+      "options": [
+        "Yes, she is",
+        "I'm Dino",
+        "Hello",
+        "No, she isn't"
+      ],
+      "answer_index": null,
+      "explanation": "因為後面提到她是老師，所以前面要否認她是醫生。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "Am you a student?",
+        "Is she a student?",
+        "Are he a student?",
+        "Is they students?"
+      ],
+      "answer_index": null,
+      "explanation": "She 是單數，配合 be 動詞 Is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

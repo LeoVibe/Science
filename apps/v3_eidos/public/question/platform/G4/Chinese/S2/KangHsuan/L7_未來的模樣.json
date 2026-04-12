@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,13 +10,19 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課在探討對未來的想像。",
-      "answer": "True",
+      "options": [
+        "是",
+        "否"
+      ],
+      "answer_index": "True",
       "explanation": "主題是未來的模樣。",
-      "cqi_score": 1.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 2.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

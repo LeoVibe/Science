@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L8",
+    "order": 8,
+    "title": "整數四則與兩步驟"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 15 + 5 × 2 = ？",
+      "options": [
+        "30",
+        "20",
+        "40",
+        "25"
+      ],
+      "answer_index": "25",
+      "explanation": "先乘除後加減。5 × 2 = 10，15 + 10 = 25。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在有括號的算式中，不一定要先算括號裡的。",
+      "options": [],
+      "answer_index": "False",
+      "explanation": "括號的優先權最高，必須先計算。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 (100 - 40) ÷ 3 = ______。",
+      "options": [],
+      "answer_index": "20",
+      "explanation": "100 - 40 = 60，60 ÷ 3 = 20。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "小華有 50 元，買了 2 瓶 15 元的飲料，還剩下多少元？下列算式正確的是？",
+      "options": [
+        "50 - 2 × 15",
+        "50 + 2 × 15",
+        "50 - 2 + 15",
+        "(50 - 2) × 15"
+      ],
+      "answer_index": "50 - 2 × 15",
+      "explanation": "總錢數減去消費總額。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 120 ÷ 4 ÷ 2 = ？",
+      "options": [
+        "60",
+        "20",
+        "15",
+        "30"
+      ],
+      "answer_index": "15",
+      "explanation": "由左至右計算：120 ÷ 4 = 30，30 ÷ 2 = 15。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

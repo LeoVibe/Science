@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「兔子先生等等我」內容中，主角跟著兔子先生展開了一場什麼樣的冒險？",
       "options": [
         "充滿想像與未知驚喜的幻想旅程",
@@ -19,32 +19,37 @@
         "參加接力比賽",
         "平凡的登山課"
       ],
-      "answer": "充滿想像與未知驚喜的幻想旅程",
+      "answer_index": "充滿想像與未知驚喜的幻想旅程",
       "explanation": "本課運用愛麗絲夢遊仙境般的意象，啟發學生的創意與想像力。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中的兔子先生總是很匆忙，這象徵著在忙碌的生活中，我們有時會忽略周遭神奇的事物。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "透過文學角色反映生活步調與觀察力的關係。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "追尋兔子的過程，其實是在尋找生活中失落的______。",
-      "answer": "童心、創意、樂趣或想像力",
+      "options": [],
+      "answer_index": "童心、創意、樂趣或想像力",
       "explanation": "挖掘平凡生活中的非凡之處。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼作者要用「等等我」作為標題的一部分？",
       "options": [
         "這是一句口頭禪",
@@ -52,14 +57,15 @@
         "表達一種對純真、美麗事物的好奇與追尋的情感",
         "因為主角跑得很慢"
       ],
-      "answer": "表達一種對純真、美麗事物的好奇與追尋的情感",
+      "answer_index": "表達一種對純真、美麗事物的好奇與追尋的情感",
       "explanation": "標題隱含了渴望與積極參與冒險的決心。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課後，最大的啟發應該是？",
       "options": [
         "保持一顆好奇的心，就能在平凡的生活中發現不平凡的風景",
@@ -67,10 +73,12 @@
         "養兔子很麻煩",
         "不要跟陌生人講話"
       ],
-      "answer": "保持一顆好奇的心，就能在平凡的生活中發現不平凡的風景",
+      "answer_index": "保持一顆好奇的心，就能在平凡的生活中發現不平凡的風景",
       "explanation": "創意發想與生活美學的結合。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

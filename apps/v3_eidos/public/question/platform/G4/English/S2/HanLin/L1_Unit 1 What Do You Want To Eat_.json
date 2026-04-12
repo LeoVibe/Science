@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "Unit 1 What Do You Want To Eat?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What do you want to eat? B: I want to eat ______.",
+      "options": [
+        "hungry",
+        "food",
+        "eat",
+        "noodles"
+      ],
+      "answer_index": "noodles",
+      "explanation": "want to eat 後面接食物名稱。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'I want to eat a sandwich.' means '我想吃三明治'。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "want to eat 表示想要吃。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What does she want to eat? B: She ______ to eat rice.",
+      "options": [],
+      "answer_index": "wants",
+      "explanation": "第三人稱單數用 wants。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Do you want to eat pizza? B: Yes, ______.",
+      "options": [
+        "I do",
+        "I am",
+        "I eat",
+        "I want"
+      ],
+      "answer_index": "I do",
+      "explanation": "Do you want...? 的肯定回答是 Yes, I do。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "He wants ______ eat chicken.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "in"
+      ],
+      "answer_index": "to",
+      "explanation": "want to + 動詞原形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "HanLin"
+}

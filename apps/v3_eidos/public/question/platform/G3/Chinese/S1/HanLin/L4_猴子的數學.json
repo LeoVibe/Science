@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「猴子的數學」是取自於哪一個著名的成語故事？",
       "options": [
         "守株待兔",
@@ -19,32 +19,37 @@
         "亡羊補牢",
         "畫蛇添足"
       ],
-      "answer": "朝三暮四",
+      "answer_index": null,
       "explanation": "這個寓言故事講述老農夫餵猴子橡實的有趣過程，本課以此切入點探討數學與認知的關係。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "猴子們因為聽到「早上三個、晚上四個」感到生氣，但聽到「早上四個、晚上三個」就很開心，其實總數並沒有改變。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "這是本課探討數的概念與「守恆原理」的基礎。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這個故事諷刺了那些只看表面形式、不看事物實質內容的______行為。",
-      "answer": "愚笨、淺薄或盲目",
+      "options": [],
+      "answer_index": null,
       "explanation": "引申至對事情應具備整體的、實質的觀察眼光。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "老農夫最後是用什麼方法解決猴子們的情緒？",
       "options": [
         "不給猴子吃東西",
@@ -52,14 +57,15 @@
         "把猴子都趕走",
         "真的多給牠們橡實"
       ],
-      "answer": "變換給予的順序（朝四暮三），巧妙地利用心理作用讓猴子滿意",
+      "answer_index": null,
       "explanation": "智慧往往能解決棘手的情緒問題。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課內容最適合引導小孩練習什麼？",
       "options": [
         "數數的能力",
@@ -67,10 +73,12 @@
         "看穿事物表象的邏輯思考與統整能力",
         "練習畫猴子"
       ],
-      "answer": "看穿事物表象的邏輯思考與統整能力",
+      "answer_index": null,
       "explanation": "邏輯思維與批判性認知的基礎。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

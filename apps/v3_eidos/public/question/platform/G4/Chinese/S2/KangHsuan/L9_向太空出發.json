@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "人類探索太空的交通工具是？",
       "options": [
         "火車",
@@ -19,10 +19,12 @@
         "飛機",
         "輪船"
       ],
-      "answer": "太空船",
+      "answer_index": "太空船",
       "explanation": "太空船用於太空航行。",
-      "cqi_score": 4.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

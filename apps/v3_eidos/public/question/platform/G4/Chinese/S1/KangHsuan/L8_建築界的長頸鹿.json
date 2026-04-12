@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課將「台北101」比喻為「建築界的長頸鹿」，主要是因為它具備什麼特點？",
       "options": [
         "外牆是咖啡色斑點",
@@ -19,32 +19,37 @@
         "它是動物園的一部分",
         "裡面有很多長頸鹿"
       ],
-      "answer": "樓層極高，像長頸鹿一樣伸長脖子俯視城市",
+      "answer_index": "樓層極高，像長頸鹿一樣伸長脖子俯視城市",
       "explanation": "運用生動的比喻讓生硬的建築知識變得活潑有趣。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中提到台北101的設計融入了竹節的意象，象徵著「節節高升」與堅韌不拔的精神。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "傳統文化意象與現代科技建築的結合。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.75
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "台北101內部有一顆巨大的防震______（調質阻尼器），能幫助大樓在強風與地震中保持穩定。",
-      "answer": "阻尼球、平衡球或阻尼器",
+      "options": [],
+      "answer_index": "阻尼球、平衡球或阻尼器",
       "explanation": "科普知識的連結，說明建築技術的奧秘。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.25
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼台北101是台灣人的驕傲？",
       "options": [
         "它曾是世界第一高樓，展現了台灣卓越的工程實力與在地文化美感",
@@ -52,14 +57,15 @@
         "因為它可以換顏色",
         "因為上面可以放煙火"
       ],
-      "answer": "它曾是世界第一高樓，展現了台灣卓越的工程實力與在地文化美感",
+      "answer_index": "它曾是世界第一高樓，展現了台灣卓越的工程實力與在地文化美感",
       "explanation": "對國家重大建設的認同與自信教育。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課，最大的收穫應該是？",
       "options": [
         "認識現代建築之美，並體會科技與藝術結合產生的魅力",
@@ -67,10 +73,12 @@
         "想要去101買名牌",
         "大家都來蓋高樓"
       ],
-      "answer": "認識現代建築之美，並體會科技與藝術結合產生的魅力",
+      "answer_index": "認識現代建築之美，並體會科技與藝術結合產生的魅力",
       "explanation": "美感教育與工程素養的結合。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

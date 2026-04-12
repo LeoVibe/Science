@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "HanLin",
+    "lesson": "L12",
+    "order": 12,
+    "title": "L12"
+  },
+  "questions": [
+    {
+      "taxonomy": "applied",
+      "scenario": "寫作策略",
+      "question": "作者描寫水珠在陽光下閃爍，這能讓文章？",
+      "options": [
+        "抱怨陽光刺眼，且其過程描述得相當完整",
+        "營造夢幻與希望的視覺美感",
+        "說明作者怕光，這點在文章細節中可以發現",
+        "這是電力公司的發電課文"
+      ],
+      "answer_index": 1,
+      "explanation": "視覺描寫增強感染力。",
+      "commonMisconception": "視為生理不適。",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "全篇主調",
+      "question": "「神奇」的噴水池最像生活中的什麼？",
+      "options": [
+        "昂貴的裝飾品，呈現出文中描述的氣氛",
+        "巨大的洗車機，這屬於課文提到的重點",
+        "堅固的積木，這一點在實務上很重要",
+        "播種美好與快樂的人"
+      ],
+      "answer_index": 3,
+      "explanation": "昇華主旨為分享精神。",
+      "commonMisconception": "物化解讀。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "彩虹象徵",
+      "question": "噴水池上方出現「彩虹」代表？",
+      "options": [
+        "希望與美麗的未來",
+        "預告可怕雷雨",
+        "天空裂開了，呈現出文中描述的氣氛",
+        "有人倒了油漆"
+      ],
+      "answer_index": 0,
+      "explanation": "希望的文學象徵。",
+      "commonMisconception": "現實毀滅化解讀。",
+      "quality_level": "L2",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "人與自然",
+      "question": "噴水池與心跳重疊展現了？",
+      "options": [
+        "有外星人住裡面，且內容敘述完整",
+        "人與環境的共鳴與和諧",
+        "心臟醫學主題，這是一個具備代表性的現象",
+        "怕被巨大的聲音嚇到"
+      ],
+      "answer_index": 1,
+      "explanation": "物我合一的和諧。",
+      "commonMisconception": "科學或驚嚇化解讀。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "作者寄語",
+      "question": "噴水池最想對枯坐的人說什麼？",
+      "options": [
+        "你擋到我曬太陽了，這在分析文章時非常關鍵",
+        "這裡的水很髒別喝，這是一個具備代表性的現象",
+        "我噴得很累想關掉，這點在文章細節中可以發現",
+        "起來帶著夢想為世界噴灑光芒"
+      ],
+      "answer_index": 3,
+      "explanation": "鼓勵行動與夢想。",
+      "commonMisconception": "消極或冷漠解讀。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "發現地點",
+      "question": "小明是在哪裡發現噴水池的？",
+      "options": [
+        "森林深處，這展現了角色當時的情境",
+        "後山坡，這在分析文章時非常關鍵",
+        "操場角落，呈現出文中描述的氣氛",
+        "公園被雜草掩蓋的石堆"
+      ],
+      "answer_index": 3,
+      "explanation": "故事地點設定。",
+      "commonMisconception": "既有傳說印象誤導。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "初見感受",
+      "question": "初見七彩光芒時的心情？",
+      "options": [
+        "害怕跑開，這點在文章細節中可以發現",
+        "好奇興奮想探究竟",
+        "壞掉需修理，這是一個具備代表性的現象",
+        "感到生氣，這是一個具備代表性的現象"
+      ],
+      "answer_index": 1,
+      "explanation": "正常的好奇反應。",
+      "commonMisconception": "將神奇視為危險。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "第一個願望",
+      "question": "小明許下的第一個願望是？",
+      "options": [
+        "遙控汽車",
+        "吃不完糖果",
+        "變成超人",
+        "全家平安"
+      ],
+      "answer_index": 0,
+      "explanation": "初期的物質需求。",
+      "commonMisconception": "誤以為起點即高品質願望。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "不快樂原因",
+      "question": "不斷許願後為何反而不快樂？",
+      "options": [
+        "噴水池來不及做",
+        "獨享卻沒人分享喜悅",
+        "朋友嫉妒排擠，且內容敘述完整",
+        "魔力減弱，這一點在實務上很重要"
+      ],
+      "answer_index": 1,
+      "explanation": "分享缺失導致空虛。",
+      "commonMisconception": "外因化歸因。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "表情理解",
+      "question": "「眉頭深鎖」代表？",
+      "options": [
+        "思考好玩的事",
+        "疑惑思考，且內容敘述完整",
+        "煩躁憂慮有心事",
+        "陽光刺眼，這點在文章細節中可以發現"
+      ],
+      "answer_index": 2,
+      "explanation": "典型憂慮神情。",
+      "commonMisconception": "忽略情緒語境。",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "指引者",
+      "question": "誰主動關心並給予建議？",
+      "options": [
+        "媽媽，且內容敘述完整",
+        "小華，這屬於課文提到的重點",
+        "路過的老婆婆",
+        "老師，這點在文章細節中可以發現"
+      ],
+      "answer_index": 2,
+      "explanation": "智慧長者的引導。",
+      "commonMisconception": "投射為親近或權威人。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分享哲理",
+      "question": "「真正的快樂是與人分享」其意為？",
+      "options": [
+        "擁有越多越好",
+        "分享會讓東西變少",
+        "分享帶來更多滿足",
+        "獨享沒錯"
+      ],
+      "answer_index": 2,
+      "explanation": "揭示分享的正向回饋。",
+      "commonMisconception": "字面經濟損失誤導。",
+      "quality_level": "L3",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "重獲快樂",
+      "question": "聽建議後決定許下什麼願望？",
+      "options": [
+        "噴水池消失，且內容敘述完整",
+        "擁有更多朋友",
+        "村人都能得到幫助",
+        "忘記煩惱，這是一個具備代表性的現象"
+      ],
+      "answer_index": 2,
+      "explanation": "轉向大眾利他。",
+      "commonMisconception": "停留在個人需求回報。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "水池回應",
+      "question": "許下助人願望後發生什麼變化？",
+      "options": [
+        "水變金子，且內容敘述完整",
+        "光更耀眼水柱更高",
+        "水乾涸了，這一點在實務上很重要",
+        "長滿鮮花，這屬於課文提到的重點"
+      ],
+      "answer_index": 1,
+      "explanation": "魔力與喜悅的共鳴。",
+      "commonMisconception": "其他美好意象混淆。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "助人感觸",
+      "question": "看著村人笑容，小明感受到？",
+      "options": [
+        "後悔沒好處",
+        "感到驕傲",
+        "溫暖與滿足",
+        "覺得疲憊"
+      ],
+      "answer_index": 2,
+      "explanation": "利他帶來的深沉快樂。",
+      "commonMisconception": "膚淺情緒投射。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "狀態描述",
+      "question": "「日漸黯淡」形容？",
+      "options": [
+        "光芒不亮",
+        "髒舊",
+        "水量少",
+        "景色荒涼"
+      ],
+      "answer_index": 0,
+      "explanation": "光彩消失。",
+      "commonMisconception": "物理衰敗混淆。",
+      "quality_level": "L2",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "核心道理",
+      "question": "故事告訴我們？",
+      "options": [
+        "魔法很棒，這是一個值得注意的地方",
+        "別信陌生人",
+        "分享與助人才是真幸福",
+        "努力賺錢，這在分析文章時非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "中心思想概括。",
+      "commonMisconception": "表面情節誤導。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "發現時間",
+      "question": "一天的什麼時候發現的？",
+      "options": [
+        "清晨",
+        "中午",
+        "傍晚",
+        "夜晚"
+      ],
+      "answer_index": 2,
+      "explanation": "情境設定細節。",
+      "commonMisconception": "隨意猜測時間點。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "願望動機",
+      "question": "一開始為何狂許願？",
+      "options": [
+        "不知魔力有限，這點在文章細節中可以發現",
+        "誤以為多得就多快樂",
+        "測試極限，這是一個具備代表性的現象",
+        "比別人幸運，這是一個具備代表性的現象"
+      ],
+      "answer_index": 1,
+      "explanation": "童心對物質的直覺解讀。",
+      "commonMisconception": "技術層面歸因。",
+      "quality_level": "L3",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "修辭表達",
+      "question": "「像呼吸般忽明忽滅」感受？",
+      "options": [
+        "水池有生命",
+        "燈壞了，分析這段文章時對理解主旨非常關鍵",
+        "消失中",
+        "水量減"
+      ],
+      "answer_index": 0,
+      "explanation": "擬人化靈動力。",
+      "commonMisconception": "物理故障解讀。",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "自省轉變",
+      "question": "擁有玩具不快樂後，反思？",
+      "options": [
+        "願望不夠多，這屬於課文提到的重點",
+        "魔力不夠強，且內容敘述完整",
+        "追求快樂的方式有誤",
+        "沒珍惜玩具，這點在文章細節中可以發現"
+      ],
+      "answer_index": 2,
+      "explanation": "價值觀的內在轉向。",
+      "commonMisconception": "外部歸因。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "首個利他成果",
+      "question": "願望後村人最先得到的幫助？",
+      "options": [
+        "人人有禮物",
+        "生病恢復",
+        "解決乾旱",
+        "新衣服"
+      ],
+      "answer_index": 2,
+      "explanation": "集體公共利益。",
+      "commonMisconception": "個人福利優先誤導。",
+      "quality_level": "L2",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "公開秘密",
+      "question": "決定告訴同伴時的期待？",
+      "options": [
+        "一起想願望",
+        "慶祝神奇與喜悅",
+        "被羨慕，這屬於課文提到的重點",
+        "幫忙保密，這在分析文章時非常關鍵"
+      ],
+      "answer_index": 1,
+      "explanation": "真誠分享的好友互動。",
+      "commonMisconception": "自利動機猜測。",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "光彩詞語",
+      "question": "「熠熠生輝」形容？",
+      "options": [
+        "聲音大，這在分析文章時非常關鍵",
+        "光芒閃爍明亮",
+        "形狀妙，這屬於課文提到的重點",
+        "水流急，這屬於課文提到的重點"
+      ],
+      "answer_index": 1,
+      "explanation": "光彩奪目之意。",
+      "commonMisconception": "其它感官混淆。",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "如果沒長者",
+      "question": "沒老婆婆可能會？",
+      "options": [
+        "更富有，呈現出文中描述的氣氛",
+        "孤單不快樂最終放棄",
+        "賣掉秘密",
+        "魔力剩憤怒"
+      ],
+      "answer_index": 1,
+      "explanation": "缺乏覺醒與救贖。",
+      "commonMisconception": "物質化結局預測。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "初期狀態",
+      "question": "初期如何保密？",
+      "options": [
+        "告訴媽媽",
+        "貼警告單",
+        "每天偷偷去",
+        "分給好友，分析這段文章時對理解主旨非常關鍵"
+      ],
+      "answer_index": 2,
+      "explanation": "獨佔心態描述。",
+      "commonMisconception": "投射為分享狀態。",
+      "quality_level": "L2",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "分享後關係",
+      "question": "分享後孩子們的態度？",
+      "options": [
+        "覺得自私，這是一個具備代表性的現象",
+        "好奇不敢近，這點在文章細節中可以發現",
+        "更喜歡且覺得慷慨",
+        "不相信，這屬於課文提到的重點"
+      ],
+      "answer_index": 2,
+      "explanation": "良性互動的開端。",
+      "commonMisconception": "負面或排斥解讀。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "心境寫詞",
+      "question": "「心滿意足」指？",
+      "options": [
+        "肚子飽",
+        "高興且滿足",
+        "情緒複雜，這一細節在後續情節中非常重要",
+        "沒感覺"
+      ],
+      "answer_index": 1,
+      "explanation": "情緒穩定且正面。",
+      "commonMisconception": "理解層次低下。",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "資源分配",
+      "question": "魔力有限時如何最大化價值？",
+      "options": [
+        "當國王，這一點在實務上很重要",
+        "分享所有人小願望",
+        "永遠不枯竭願望",
+        "藏起來，呈現出文中描述的氣氛"
+      ],
+      "answer_index": 1,
+      "explanation": "公平與普惠分享。",
+      "commonMisconception": "追求無限或獨佔權利。",
+      "quality_level": "L2",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "水的意象",
+      "question": "噴水池的「水」象徵？",
+      "options": [
+        "時間流去",
+        "希望與機會",
+        "錢財，這屬於課文提到的重點",
+        "脆弱，且內容敘述完整"
+      ],
+      "answer_index": 1,
+      "explanation": "流動的夢想實現力。",
+      "commonMisconception": "過於抽象或功利的解讀。",
+      "quality_level": "L2",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "HanLin"
+}

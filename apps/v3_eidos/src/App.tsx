@@ -8,6 +8,7 @@ import Maintenance from "./pages/Maintenance";
 import NotFound from "./pages/NotFound";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
+import AdminQuestionReview from "./components/admin/AdminQuestionReview";
 import RequireAdminAuth from "./components/admin/RequireAdminAuth";
 import ErrorBoundary from "./components/ErrorBoundary";
 
@@ -30,6 +31,7 @@ const App = () => (
         <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/review/question/:questionId" element={<RequireAdminAuth><AdminQuestionReview /></RequireAdminAuth>} />
             <Route path="/admin/:tab/*" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />
             <Route path="/admin/:tab" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />
             <Route path="/admin" element={<RequireAdminAuth><AdminDashboard /></RequireAdminAuth>} />

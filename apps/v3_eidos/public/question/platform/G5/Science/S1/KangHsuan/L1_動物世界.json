@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "Science",
+    "publisher": "KangHsuan",
+    "lesson": "L1",
+    "order": 1,
+    "title": "動物世界"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "科學家根據動物是否有「脊椎骨」作為分類的主要標準，下列哪一種動物屬於「無脊椎動物」？",
+      "options": [
+        "蝴蝶",
+        "麻雀",
+        "海豚",
+        "青蛙"
+      ],
+      "answer_index": null,
+      "explanation": "昆蟲類屬於無脊椎動物，身體被外骨骼保護。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "恆溫動物（如鳥類與哺乳類）即便在寒冷的環境下，其體溫通常能維持在恆定的範圍內。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "恆溫動物具備調節溫度的生理機制。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "魚類利用______呼吸，並透過鰭與身體的擺動在水中移動。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "鰓是水生脊椎動物適應水中環境的呼吸器官。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「卵生動物」與「胎生動物」的區別，下列何者正確？",
+      "options": [
+        "卵生動物是從母體直接產出幼小個體",
+        "胎生動物是由卵孵化出來的",
+        "鳥類是胎生動物",
+        "胎生動物的幼體在發育期間依賴母體透過胎盤供給養分"
+      ],
+      "answer_index": null,
+      "explanation": "這是哺乳類多數物種（單孔目除外）的繁殖特徵。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪種動物具備「育幼行為」？",
+      "options": [
+        "企鵝（輪流孵蛋並餵食幼鳥）",
+        "蚊子（產卵在水中後離開）",
+        "海龜（在沙灘產卵後隨即離開）",
+        "鮭魚（產卵後死亡）"
+      ],
+      "answer_index": null,
+      "explanation": "育幼行為可以提高幼體的存活機率。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
+    }
+  ],
+  "publisher": "KangHsuan"
+}

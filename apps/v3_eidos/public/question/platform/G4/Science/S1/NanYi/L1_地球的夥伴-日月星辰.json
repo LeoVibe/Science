@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Science",
+    "publisher": "NanYi",
+    "lesson": "L1",
+    "order": 1,
+    "title": "地球的夥伴-日月星辰"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "我們觀察月亮在天空中的移動方向，通常是？",
+      "options": [
+        "南往北移",
+        "西升東落",
+        "東升西落",
+        "北往南移"
+      ],
+      "answer_index": "東升西落",
+      "explanation": "由於地球自轉的關係，日月星辰在天空中看起來都是東升西落。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "農曆初一通常看不見月亮，稱為「朔」。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "此時月亮位於太陽與地球之間，受光面背對地球。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "月亮形狀的盈虧變化具有規律性，這個週期大約是______天。",
+      "options": [],
+      "answer_index": "29.5 或 30",
+      "explanation": "月相變化的週期即為一個「朔望月」。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "使用量角器或高度角觀測器測量月亮時，我們測量的是月亮的？",
+      "options": [
+        "亮度",
+        "顏色",
+        "高度角（仰角）",
+        "大小"
+      ],
+      "answer_index": "高度角（仰角）",
+      "explanation": "高度角是指從觀測者視線與地平線之間的夾角。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列關於太陽的敘述，何者正確？",
+      "options": [
+        "太陽比月亮小",
+        "太陽是圍繞地球轉動的衛星",
+        "太陽晚上會休息不發光",
+        "太陽是一顆恆星，會自行發光發熱"
+      ],
+      "answer_index": "太陽是一顆恆星，會自行發光發熱",
+      "explanation": "太陽是太陽系的中心，提供地球光與熱。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "我們將水生植物主要分為四類，下列哪一個是錯誤的？",
+      "options": [
+        "沉水類",
+        "噴水類",
+        "挺水類",
+        "漂浮類"
+      ],
+      "answer_index": "噴水類",
+      "explanation": "基本分類為：漂浮、沉水、浮葉、挺水四類。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "水生動物如魚類、蝦類，通常擁有特殊的呼吸構造（如鰓），以適應水中生活。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "構造隨環境而演化。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "大肚魚、水黽等是在______水域（相對於海洋）中常見的小生物。",
+      "options": [],
+      "answer_index": "淡水",
+      "explanation": "池塘、河流多屬淡水環境。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「浮萍」的敘述，下列何者正確？",
+      "options": [
+        "整株漂浮在水面上，根垂在水中而不固定在泥土裡",
+        "全株沉在水底",
+        "根長在土裡，葉子像荷花一樣挺出水面",
+        "它是沙漠植物"
+      ],
+      "answer_index": "整株漂浮在水面上，根垂在水中而不固定在泥土裡",
+      "explanation": "這是典型漂浮類植物的特徵。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "水生環境遭到破壞（如乾涸、汙染）對生物的主要威脅是？",
+      "options": [
+        "長得更快",
+        "會變帥",
+        "換個地方住就好",
+        "失去棲息地與生存必需的養分"
+      ],
+      "answer_index": "失去棲息地與生存必需的養分",
+      "explanation": "生態棲位的變更往往會導致物種滅絕。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "NanYi"
+}

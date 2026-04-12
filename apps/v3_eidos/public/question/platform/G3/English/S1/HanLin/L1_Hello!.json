@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "HanLin",
+    "lesson": "L1",
+    "order": 1,
+    "title": "Hello!"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Hello, I'm Dino. B: ______, I'm Danny.",
+      "options": [
+        "Hi",
+        "Thank you",
+        "Sorry",
+        "Good-bye"
+      ],
+      "answer_index": null,
+      "explanation": "打招呼時可以用 Hello 或 Hi 互相回應。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'I am' can be shortened to 'I'm'.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "I am 的縮寫形式是 I'm。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Hi, I am Niki. B: Nice to ______ you.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "Nice to meet you 是「很高興見到你」的意思。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is used to say goodbye?",
+      "options": [
+        "Hello!",
+        "I'm Dino.",
+        "Good-bye!",
+        "How are you?"
+      ],
+      "answer_index": null,
+      "explanation": "Good-bye! 用來表達再見。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Hi, Dino! B: ______",
+      "options": [
+        "It's a book.",
+        "I'm ten.",
+        "Hi, Niki!",
+        "No, I am not."
+      ],
+      "answer_index": null,
+      "explanation": "當別人跟你 Hi 時，最適當的回應是也跟對方打招呼。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "HanLin"
+}

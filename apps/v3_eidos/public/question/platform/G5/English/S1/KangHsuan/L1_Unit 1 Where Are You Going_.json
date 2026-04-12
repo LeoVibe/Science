@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L1",
+    "order": 1,
+    "title": "Unit 1 Where Are You Going?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where you going? B: I'm going to the ______.",
+      "options": [
+        "swimming",
+        "go",
+        "park",
+        "playing"
+      ],
+      "answer_index": null,
+      "explanation": "go to the + 地點，park (公園) 是地點。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: ______ are you going? B: To the library.",
+      "options": [
+        "Where",
+        "How",
+        "Who",
+        "What"
+      ],
+      "answer_index": null,
+      "explanation": "詢問地點使用 Where。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Where is he going? B: He is ______ to the zoo.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "現在進行式 beV + V-ing，故填 going。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'I am going to the hospital.' means '我要去醫院'。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "hospital 是醫院。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "They ______ going to the supermarket.",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "answer_index": null,
+      "explanation": "主詞 They 搭配的 be 動詞是 are。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

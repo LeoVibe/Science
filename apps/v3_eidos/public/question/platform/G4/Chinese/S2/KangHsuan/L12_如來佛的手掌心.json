@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這是關於誰的故事？",
       "options": [
         "孫悟空",
@@ -19,10 +19,12 @@
         "沙悟淨",
         "唐三藏"
       ],
-      "answer": "孫悟空",
+      "answer_index": "孫悟空",
       "explanation": "西遊記著名橋段。",
-      "cqi_score": 4.5,
-      "quality_level": "L2"
+      "commonMisconception": "",
+      "quality_level": "L2",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,0 +1,1294 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "Dreaming Big",
+      "question": "A: What do you want to be in the future?\nB: I want to be a ______. I like to help sick animals.",
+      "options": [
+        "vet",
+        "doctor",
+        "teacher",
+        "dentist"
+      ],
+      "answer_index": 0,
+      "explanation": "幫助生病的動物，對應職業為獸醫 (vet)。",
+      "commonMisconception": "學生可能分不清人醫 (doctor) 與獸醫 (vet)。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Summer Is Coming",
+      "question": "I am going to ______ Taiwan this summer. I want to see the mountains.",
+      "options": [
+        "visit",
+        "visiting",
+        "tours",
+        "going"
+      ],
+      "answer_index": 0,
+      "explanation": "be going to 之後接原形動詞，參訪地點用 visit。",
+      "commonMisconception": "動詞形式錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Future Job",
+      "question": "My sister likes to cook. She wants to be a ______.",
+      "options": [
+        "nurse",
+        "chef",
+        "pilot",
+        "singer"
+      ],
+      "answer_index": 1,
+      "explanation": "喜歡煮飯，理想職業為廚師 (chef)。",
+      "commonMisconception": "不認識 chef 這個較進階的職業單字（相對於 cook）。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Planning for Tomorrow",
+      "question": "A: What ______ you going to do tomorrow?\nB: I'm going to go to the park.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "answer_index": 2,
+      "explanation": "be going to 結構中，主詞 you 對應的 B 動詞是 are。",
+      "commonMisconception": "受 tomorrow 影響誤以為要用未來式助動詞或誤選 do。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Weekend Trip",
+      "question": "Leo ______ going to visit his grandparents next weekend.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "will"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 Leo 是單數，對應 B 動詞為 is。若選 will 則後方不應有 going to。",
+      "commonMisconception": "混淆 will 與 be going to 的結構。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Career Day",
+      "question": "A: Is she going to be a singer?\nB: No, she ______. She is going to be a dancer.",
+      "options": [
+        "is",
+        "isn't",
+        "doesn't",
+        "won't"
+      ],
+      "answer_index": 1,
+      "explanation": "對 'Is she...?' 的否定簡答為 'No, she isn't'。",
+      "commonMisconception": "在未來計畫的情境中誤用 won't，雖然 will 也是未來式，但結構需對應問句。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "After Graduation",
+      "question": "They ______ going to move to a new house next month.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 They 為複數，選用 are。",
+      "commonMisconception": "主謂不一致。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Grammar Choice",
+      "question": "What ______ Sam want to be when he grows up?",
+      "options": [
+        "do",
+        "does",
+        "is",
+        "doing"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問意願 'want to be' 的助動詞，配合單數 Sam 需用 does。",
+      "commonMisconception": "混淆 'What is he going to be' 與 'What does he want to be'。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Infinitive After Want",
+      "question": "I want to ______ a pilot and fly planes.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "being"
+      ],
+      "answer_index": 2,
+      "explanation": "want to 之後接原形動詞，B 動詞的原形為 be。",
+      "commonMisconception": "學生習慣用 am/is/are，不熟悉 be 原形的用法。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Dream Jobs Class",
+      "question": "Toby likes stars, so he wants to be an astronaut. Ken likes planes, so he wants to be a pilot.\nQuestion: What does Ken want to do?",
+      "options": [
+        "Fly planes",
+        "See stars",
+        "Help animals",
+        "Teach students"
+      ],
+      "answer_index": 0,
+      "explanation": "Ken 想當飛行員 (pilot)，對應動作是開飛機 (fly planes)。",
+      "commonMisconception": "資訊提取錯誤，將 Toby 與 Ken 的夢想搞混。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Sunday Plan",
+      "question": "It will be sunny this Sunday. I am going to have a picnic with my family.\nQuestion: Will it rain this Sunday?",
+      "options": [
+        "Yes, it will.",
+        "No, it won't.",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "answer_index": 1,
+      "explanation": "文中預測是晴天 (sunny)，故不會下雨。未來式否定簡答為 won't。",
+      "commonMisconception": "不懂 won't 是 will not 的縮寫。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Next Year Plan",
+      "question": "Next year, Lily is going to move to Tainan. She wants to learn how to cook from her grandma.\nQuestion: What is Lily's primary (主要) goal?",
+      "options": [
+        "Visit Tainan",
+        "Sell food",
+        "Learn cooking",
+        "See her grandma"
+      ],
+      "answer_index": 2,
+      "explanation": "文本強調她想跟奶奶「學煮飯」(learn how to cook)。",
+      "commonMisconception": "語意權重判斷錯誤（如誤以為重點是搬家或看奶奶）。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "The Future Robot",
+      "question": "In the future, robots will help us in the kitchen. They will cook and clean.\nQuestion: What will robots NOT do?",
+      "options": [
+        "Help people",
+        "Cook food",
+        "Clean the house",
+        "Do homework"
+      ],
+      "answer_index": 3,
+      "explanation": "文中提到煮飯和清潔，並未提到寫功課 (do homework)。",
+      "commonMisconception": "受生活經驗干擾而過度推論。選項中只有 homework 未提及。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Holiday Decision",
+      "question": "A: Are you going to go to Kenting?\nB: No. It's too expensive (太貴). I'm going to Hualien instead.\nQuestion: Where is B going?",
+      "options": [
+        "Kenting",
+        "Hualien",
+        "Nowhere",
+        "Home"
+      ],
+      "answer_index": 1,
+      "explanation": "B 否定了墾丁，並選擇去花蓮 (Hualien)。",
+      "commonMisconception": "沒看清楚 B 的轉折句 instead。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Subject Choice",
+      "question": "______ is going to be a scientist. He loves science experiments.",
+      "options": [
+        "I",
+        "You",
+        "Leo",
+        "They"
+      ],
+      "answer_index": 2,
+      "explanation": "B 動詞是 is，且後方代名詞用 He，故主詞需為第三人稱單數男性名字 Leo。",
+      "commonMisconception": "忽略 B 動詞與代名詞 He 的多重線索。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Space Exploration",
+      "question": "If you want to go to Mars, you should be an ______.",
+      "options": [
+        "artist",
+        "astronaut",
+        "actor",
+        "author"
+      ],
+      "answer_index": 1,
+      "explanation": "去火星 (Mars) 需要的身分是太空人 (astronaut)。",
+      "commonMisconception": "不認識 Mars 或 astronaut。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Weather Forecast",
+      "question": "The sky is very dark. I think it ______ to rain soon.",
+      "options": [
+        "is going",
+        "are going",
+        "will going",
+        "goes"
+      ],
+      "answer_index": 0,
+      "explanation": "根據現有跡象對未來的強烈預測，使用 be going to 結構。主詞 it 配 is。",
+      "commonMisconception": "結構不完整（漏掉 to 或 B 動詞錯誤）。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "International Future",
+      "question": "A: What are you going to do this summer?\nB: I'm going to America to ______ English.",
+      "options": [
+        "learn",
+        "learning",
+        "speaks",
+        "wrote"
+      ],
+      "answer_index": 0,
+      "explanation": "去美國的目的（to 為標誌的不定詞）後加原形動詞 learn。",
+      "commonMisconception": "目的狀語動詞形式混淆。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Career Dreams",
+      "question": "To be a good ______ , you should be kind to patients (病人).",
+      "options": [
+        "pilot",
+        "nurse",
+        "teacher",
+        "chef"
+      ],
+      "answer_index": 1,
+      "explanation": "照顧病人是護理師 (nurse) 的職責。",
+      "commonMisconception": "不認識詞彙 patients。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Movie Night",
+      "question": "The movie starts at 7:00 PM. It's 6:30 PM now. We ______ late if we don't hurry.\nQuestion: Choose the best words.",
+      "options": [
+        "are going to be",
+        "is going to be",
+        "will",
+        "was"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 We 配 are，加上未來預測 be going to be late。",
+      "commonMisconception": "忽略主謂一致或漏掉 be 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Talking about Last Weekend",
+      "question": "A: What did you do last Sunday?\nB: I ______ to the beach with my parents.",
+      "options": [
+        "go",
+        "goes",
+        "went",
+        "going"
+      ],
+      "answer_index": 2,
+      "explanation": "句子中出現 last Sunday（上週日），表示過去發生的動作，需使用 go 的過去式 went。",
+      "commonMisconception": "學生可能未注意到時間副詞，或不熟悉不規則動詞變化。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Summer Vacation",
+      "question": "We went to Taitung and ______ some delicious food there.",
+      "options": [
+        "eat",
+        "ate",
+        "eating",
+        "eats"
+      ],
+      "answer_index": 1,
+      "explanation": "前半句 went 使用過去式，後半句為完成相同假期的描述，應維持過去式 ate。",
+      "commonMisconception": "時態一致性（Tense Consistency）的概念薄弱。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Outdoor Activity",
+      "question": "The weather was great, so we ______ hiking in the mountains.",
+      "options": [
+        "went",
+        "go",
+        "are",
+        "do"
+      ],
+      "answer_index": 0,
+      "explanation": "從 was 可知情境為過去式，go hiking 的過去式為 went hiking。",
+      "commonMisconception": "不認識 go hiking 固定用法或遺漏過去式轉化。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Asking about Past Events",
+      "question": "A: ______ you go camping last month?\nB: No, I didn't. I stayed home.",
+      "options": [
+        "Do",
+        "Are",
+        "Did",
+        "Were"
+      ],
+      "answer_index": 2,
+      "explanation": "詢問過去發生的動作，疑問句應使用助動詞 Did 開頭。",
+      "commonMisconception": "受現在式習慣影響選用 Do，或受 stays home 的動詞屬性誤導選用 B 動詞 Were。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Finding a Friend",
+      "question": "A: Where ______ Leo yesterday afternoon?\nB: He was in the library.",
+      "options": [
+        "is",
+        "was",
+        "did",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "詢問「地點/狀態」且對象是單數 Leo，時間是 yesterday，需選用 B 動詞過去式 was。",
+      "commonMisconception": "混淆助動詞 Did 與 B 動詞 Was。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Busy Holiday",
+      "question": "A: What ______ Toby and Ken do during the winter break?\nB: They visited their grandma in Tainan.",
+      "options": [
+        "do",
+        "did",
+        "are",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "描述已結束的寒假活動，助動詞使用 did。主詞為複數但 did 不分單複數。",
+      "commonMisconception": "學生可能在複數主詞下猶豫是否要變換助動詞形式。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Missing the Party",
+      "question": "I ______ at the party last night because I had a headache.",
+      "options": [
+        "wasn't",
+        "weren't",
+        "didn't",
+        "don't"
+      ],
+      "answer_index": 0,
+      "explanation": "表達「不在場（狀態）」，主詞 I 對應 was，否定式為 wasn't。",
+      "commonMisconception": "習慣性選 didn't，忽略了後方並無原形動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Past Tense Rule",
+      "question": "We ______ many beautiful photos in the park yesterday.",
+      "options": [
+        "take",
+        "taked",
+        "took",
+        "taking"
+      ],
+      "answer_index": 2,
+      "explanation": "動詞 take 的不規則過去式是 took。",
+      "commonMisconception": "誤以為所有過去式皆加 ed (taked)。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Negative Sentence",
+      "question": "She didn't ______ any milk this morning.",
+      "options": [
+        "drink",
+        "drank",
+        "drinks",
+        "drinking"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 didn't 之後應還原為「原形動詞」。",
+      "commonMisconception": "受 this morning 過去時間強烈誘導而使用 drank。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "A Trip to Taipei",
+      "question": "Last week, Amy went to Taipei. She visited Taipei 101 and ate beef noodles. \nQuestion: What DIDN'T Amy do in Taipei?",
+      "options": [
+        "Eat beef noodles",
+        "Visit Taipei 101",
+        "Go to the beach",
+        "Go on a trip"
+      ],
+      "answer_index": 2,
+      "explanation": "文中只提到 101 與牛肉麵，並未提及去海邊 (go to the beach)。",
+      "commonMisconception": "沒看清楚題目中的否定詞 DIDN'T。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "The Missing Cat",
+      "question": "Where was the cat? It wasn't in the kitchen. It was under the bed! \nQuestion: Was the cat in the kitchen?",
+      "options": [
+        "Yes, it was.",
+        "No, it wasn't.",
+        "Yes, it is.",
+        "No, it isn't."
+      ],
+      "answer_index": 1,
+      "explanation": "文中表明 wasn't in the kitchen，且時態為過去式。",
+      "commonMisconception": "混淆現在式與過去式的簡答。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Postcard from Japan",
+      "question": "Dear Dad, I am having fun in Japan. I saw many deer yesterday. Tomorrow I will go to Tokyo. \nQuestion: When did the writer see the deer?",
+      "options": [
+        "Today",
+        "Yesterday",
+        "Tomorrow",
+        "Next week"
+      ],
+      "answer_index": 1,
+      "explanation": "文中明確指出 'I saw many deer yesterday'。",
+      "commonMisconception": "受時態雜揉影響（am having, saw, will go），無法精確提取特定事件的時間點。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Sharing Memories",
+      "question": "Leo: 'I went to a museum last Friday.' \nSam: 'Was it interesting?' \nLeo: 'No, it was boring.' \nQuestion: How did Leo feel about the museum?",
+      "options": [
+        "Happy",
+        "Excited",
+        "Not interested",
+        "Thirsty"
+      ],
+      "answer_index": 2,
+      "explanation": "boring（無聊）對應的感受是「不感興趣」。",
+      "commonMisconception": "不熟悉有趣 (interesting) 與無聊 (boring) 的反義對應。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Holiday Weather",
+      "question": "It rained every day during our trip to Kenting. We stayed in the hotel and played cards. \nQuestion: Why didn't they go swimming?",
+      "options": [
+        "They were tired.",
+        "They liked cards.",
+        "The weather was bad.",
+        "They had no money."
+      ],
+      "answer_index": 2,
+      "explanation": "文中提到下雨（rained every day），推論因天氣不好故待在室內玩牌。",
+      "commonMisconception": "缺乏因果推論能力，直接選了文本中有出現的 activity (liked cards) 作為原因。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Irregular Plurals & Tense",
+      "question": "Two years ago, many ______ lived in this small forest.",
+      "options": [
+        "wolf",
+        "wolfs",
+        "wolves",
+        "to wolf"
+      ],
+      "answer_index": 2,
+      "explanation": "wolf 的複數不規則變化為 wolves。",
+      "commonMisconception": "不規則複數變化規則混淆。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "The Science Museum",
+      "question": "You should ______ many questions when you visit the Science Museum.",
+      "options": [
+        "ask",
+        "asked",
+        "asking",
+        "to ask"
+      ],
+      "answer_index": 0,
+      "explanation": "助動詞 should 之後應接原形動詞。",
+      "commonMisconception": "受 visit 影響或誤以為描述狀況而變更動詞形式。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Grandma's House",
+      "question": "Last Chinese New Year, we ______ red envelopes from our grandparents.",
+      "options": [
+        "get",
+        "gets",
+        "got",
+        "getting"
+      ],
+      "answer_index": 2,
+      "explanation": "描述去年的春節活動，使用 get 的過去式 got。",
+      "commonMisconception": "不知道 red envelopes 的文化脈絡，或是時態抓取錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Dragon Boat Festival",
+      "question": "The ______ was in June last year. We saw a race on the river.",
+      "options": [
+        "Moon Festival",
+        "Dragon Boat Festival",
+        "Easter",
+        "Christmas"
+      ],
+      "answer_index": 1,
+      "explanation": "六月份且有河上競賽（race on the river），對應端午節（Dragon Boat Festival）。",
+      "commonMisconception": "不具備節慶日期與習俗的英文化對應能力。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Halloween Memories",
+      "question": "On Halloween, the kids ______ 'Trick or treat!' and got many candies.",
+      "options": [
+        "say",
+        "said",
+        "saying",
+        "speaking"
+      ],
+      "answer_index": 1,
+      "explanation": "描述萬聖節當時的動作且後方 got 為過去式，故使用 said。",
+      "commonMisconception": "習慣性選 say，忽視敘事時態一致性。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Summer vs Winter",
+      "question": "In summer, I went to the beach. In winter, I went to the mountains. \nQuestion: How many seasons are mentioned (提及)?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer_index": 1,
+      "explanation": "文中提及 summer（夏季）與 winter（冬季），共兩個季節。",
+      "commonMisconception": "讀數目錯誤或不認識 season 這個單字。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "World Landmarks",
+      "question": "The ______ is a famous tower in Paris, France.",
+      "options": [
+        "Eiffel Tower",
+        "Big Ben",
+        "Statue of Liberty",
+        "Taipei 101"
+      ],
+      "answer_index": 0,
+      "explanation": "艾非爾鐵塔 (Eiffel Tower) 位於巴黎。",
+      "commonMisconception": "學生可能不清楚世界各大地標的對應城市。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Cultural Food",
+      "question": "People in Japan often eat ______. It's made of rice and fish.",
+      "options": [
+        "pizza",
+        "sushi",
+        "hamburgers",
+        "tacos"
+      ],
+      "answer_index": 1,
+      "explanation": "由米和魚組成的日本代表性食物是壽司 (sushi)。",
+      "commonMisconception": "不熟悉各國飲食文化單字。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Reviewing Actions",
+      "question": "My friends and I ______ to music every day. We love pop songs.",
+      "options": [
+        "listen",
+        "listens",
+        "listening",
+        "to listen"
+      ],
+      "answer_index": 0,
+      "explanation": "主詞 My friends and I 為複數，接原形動詞 listen。",
+      "commonMisconception": "習慣口語忽略 listen 之後通常要加 to，但在這題選項中只需選動詞形態。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Review Question",
+      "question": "A: What ______ you doing last night?\nB: I was doing my English homework.",
+      "options": [
+        "do",
+        "did",
+        "were",
+        "was"
+      ],
+      "answer_index": 2,
+      "explanation": "過去進行式疑問句，主詞 you 配 were。",
+      "commonMisconception": "混淆助動詞 Did 與 B 動詞 Were。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Planning Check",
+      "question": "A: Is your father going to watch the game tonight?\nB: Yes, ______.",
+      "options": [
+        "I am",
+        "he is",
+        "she is",
+        "they are"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 your father 是男性，代名詞用 he，B 動詞對應為 is。",
+      "commonMisconception": "代名詞選錯 gender。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Mixed Review",
+      "question": "A: Do you like to go shopping?\nB: No. I ______ it's boring.",
+      "options": [
+        "think",
+        "thinks",
+        "thinking",
+        "thought"
+      ],
+      "answer_index": 0,
+      "explanation": "一般現在式的意見表達，主詞 I 配 think。",
+      "commonMisconception": "受 B 的不喜歡影響誤以為要用過去式 thought。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Culture Swap",
+      "question": "In America, students ______ a yellow bus to school.",
+      "options": [
+        "taked",
+        "take",
+        "taking",
+        "is take"
+      ],
+      "answer_index": 1,
+      "explanation": "描述一般的習慣或事實，使用現在簡單式，主詞 students 為複數故用 take。",
+      "commonMisconception": "受 yellow bus 吸引而忘記動詞與主詞 students 的對應。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Grammar Challenge",
+      "question": "Lily's uncle ______ to be a pilot when he was young.",
+      "options": [
+        "want",
+        "wants",
+        "wanted",
+        "wanting"
+      ],
+      "answer_index": 2,
+      "explanation": "後半句 when he was young 指出是過去的事，故動詞使用 wanted。",
+      "commonMisconception": "習慣性選現在式單三 wants，未讀完後半句線索。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Adverbs of Time",
+      "question": "We went to a Japanese restaurant ______.",
+      "options": [
+        "now",
+        "tomorrow",
+        "last night",
+        "every day"
+      ],
+      "answer_index": 2,
+      "explanation": "went 為過去式，時間副詞應選 last night。",
+      "commonMisconception": "動詞時態與時間副詞未對應。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "World Travelers",
+      "question": "Max: 'I am going to New York.' \nEva: 'I am going to London.' \nQuestion: Where is Max going?",
+      "options": [
+        "France",
+        "UK",
+        "USA",
+        "Japan"
+      ],
+      "answer_index": 2,
+      "explanation": "New York 位於 USA（美國）。",
+      "commonMisconception": "地名與國家名的地理連結力弱。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "After School Fun",
+      "question": "I play games with my friends on Fridays. I play piano on Saturdays. Today is the first day of the weekend.\nQuestion: What am I doing today?",
+      "options": [
+        "Play games",
+        "Play piano",
+        "Go to school",
+        "Nothing"
+      ],
+      "answer_index": 1,
+      "explanation": "週末的第一天通常指週六 (Saturday)，對應活動為 play piano。",
+      "commonMisconception": "文化差異認知（週末首日是週六還是週日），在此語境中指週六。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Restaurant Menu",
+      "question": "Menu: Beef Noodles $120, Pizza $150, Sushi $200. \nI have $130. What can I NOT buy?",
+      "options": [
+        "Beef Noodles",
+        "Pizza",
+        "Sushi",
+        "Water ($20)"
+      ],
+      "answer_index": 2,
+      "explanation": "持有 130 元，買不起 200 元的壽司和 150 元的披薩，選項中 Sushi 符合題目。注意問的是 NOT。",
+      "commonMisconception": "忽略 NOT 或是數學計算錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Birthday Card Review",
+      "question": "Happy 11th Birthday, Ken! I hope you like the robot I bought for you yesterday. \nQuestion: How old is Ken today?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "I don't know"
+      ],
+      "answer_index": 1,
+      "explanation": "Happy 11th Birthday 指的是 11 歲生日。",
+      "commonMisconception": "受 11th 序數詞干擾或受 yesterday 影響。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Cultural Manners",
+      "question": "In some countries, you should not ______ with your fingers. You should use a fork or chopsticks. \nQuestion: Choose the best words.",
+      "options": [
+        "eat",
+        "speak",
+        "draw",
+        "dance"
+      ],
+      "answer_index": 0,
+      "explanation": "配餐具（叉子、筷子）的動作是吃 (eat)。",
+      "commonMisconception": "不具備詞義關聯推論能力。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Comparison Review",
+      "question": "My cake is big, but your cake is ______ than mine.",
+      "options": [
+        "big",
+        "biger",
+        "bigger",
+        "the biggest"
+      ],
+      "answer_index": 2,
+      "explanation": "有 than 出現需用比較級，big 的比較級為 bigger。",
+      "commonMisconception": "比較級重複字尾規則不熟。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Global Holidays",
+      "question": "When it is Christmas in Taiwan, the weather is cold. Because it is ______.",
+      "options": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "answer_index": 3,
+      "explanation": "聖誕節在十二月，季節為冬季 (winter)。",
+      "commonMisconception": "月份與季節對應發生錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Future Predictions",
+      "question": "Next year, I ______ study harder to get good grades.",
+      "options": [
+        "was",
+        "will",
+        "did",
+        "am"
+      ],
+      "answer_index": 1,
+      "explanation": "Next year 表示未來，助動詞用 will。若選 am 後面需有 going to。",
+      "commonMisconception": "未來式結構混淆。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Lucky Colors",
+      "question": "In Chinese culture, ______ is a lucky color for Lunar New Year.",
+      "options": [
+        "blue",
+        "black",
+        "red",
+        "green"
+      ],
+      "answer_index": 2,
+      "explanation": "中國文化中，紅包與新年裝飾常以紅色 (red) 代表幸運。",
+      "commonMisconception": "不具備跨文化基礎常識。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "English Speakers",
+      "question": "People in ______ speak English as their first language.",
+      "options": [
+        "Taiwan",
+        "Canada",
+        "Japan",
+        "Korea"
+      ],
+      "answer_index": 1,
+      "explanation": "加拿大 (Canada) 的主要官方語言之一是英語。",
+      "commonMisconception": "國家與官方語言對應知識不足。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "The Winner's Medal",
+      "question": "A: Look! I got the gold medal in the race.\nB: Wow! You are so fast.\nQuestion: What color is the medal?",
+      "options": [
+        "Yellow (gold)",
+        "Silver",
+        "Red",
+        "Blue"
+      ],
+      "answer_index": 0,
+      "explanation": "金牌 (gold medal) 是金黃色的 (yellow/gold)。",
+      "commonMisconception": "不認識 gold 或是顏色連結錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Classroom Chat",
+      "question": "A: What do you like to do in your free time?\nB: I like to ______ sports with my friends. It's fun!",
+      "options": [
+        "play",
+        "reading",
+        "watch",
+        "go"
+      ],
+      "answer_index": 0,
+      "explanation": "動詞搭配詞習慣（Collocation），進行球類運動或團隊競技運動時使用 play。",
+      "commonMisconception": "學生可能受中文影響選用 go 或 watch，或是選用 V-ing 形式 reading。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "In the Library",
+      "question": "Leo is very quiet. He likes to ______ comic books in the library.",
+      "options": [
+        "write",
+        "draw",
+        "read",
+        "speak"
+      ],
+      "answer_index": 2,
+      "explanation": "閱讀漫畫書的動作為 read。",
+      "commonMisconception": "學生可能受圖書館安靜氛圍影響誤選其他靜態動詞。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Weekend Plans",
+      "question": "Amy loves music. She can ______ the piano very well.",
+      "options": [
+        "play",
+        "do",
+        "make",
+        "listen"
+      ],
+      "answer_index": 0,
+      "explanation": "彈奏樂器（鋼琴）固定搭配動詞 play。",
+      "commonMisconception": "可能與 listen to 混淆（聽音樂 vs 彈樂器）。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Talking about Hobbies",
+      "question": "A: What ______ your brother like to do?\nB: He likes to go swimming.",
+      "options": [
+        "do",
+        "is",
+        "does",
+        "can"
+      ],
+      "answer_index": 2,
+      "explanation": "第三人稱單數主詞 your brother 的助動詞應使用 does。",
+      "commonMisconception": "學生常受 A 問句影響習慣性選 do，或誤用 B 動詞 is。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "After School",
+      "question": "My sisters ______ to watch TV after they finish their homework.",
+      "options": [
+        "likes",
+        "like",
+        "is like",
+        "are like"
+      ],
+      "answer_index": 1,
+      "explanation": "主詞 My sisters 為複數，動詞 like 不需加 s。",
+      "commonMisconception": "受「第三人稱單數加 s」規則干擾，未注意主詞為複數。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Favorite Subject",
+      "question": "A: Does Lily like to paint pictures?\nB: Yes, she ______. She wants to be an artist.",
+      "options": [
+        "is",
+        "do",
+        "can",
+        "does"
+      ],
+      "answer_index": 3,
+      "explanation": "用 Does 開頭的疑問句，簡答時需對應使用 does。",
+      "commonMisconception": "簡答時混淆助動詞與 B 動詞。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "At the Park",
+      "question": "I don't like to play basketball, ______ I like to go jogging in the park.",
+      "options": [
+        "and",
+        "but",
+        "so",
+        "or"
+      ],
+      "answer_index": 1,
+      "explanation": "前後兩句為語意轉折關係（不喜歡 A 但喜歡 B），連接詞使用 but。",
+      "commonMisconception": "語意連接邏輯不清。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Action Consistency",
+      "question": "Sam likes to ______ stamps. He has a big box of them.",
+      "options": [
+        "collecting",
+        "collect",
+        "collects",
+        "is collect"
+      ],
+      "answer_index": 1,
+      "explanation": "like to 之後接原形動詞。",
+      "commonMisconception": "與 like + V-ing 混淆，在此結構中 to 為不定詞符號。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Subject-Verb Agreement",
+      "question": "Neither Toby nor his friends ______ to play computer games today.",
+      "options": [
+        "want",
+        "wants",
+        "wanting",
+        "is want"
+      ],
+      "answer_index": 0,
+      "explanation": "Neither...nor... 結構動詞需依靠近的主詞（his friends 複數）決定，故選 want。",
+      "commonMisconception": "受 Toby 影響誤選單數動詞。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "The Hobby Club",
+      "question": "Ben likes to play soccer. Cindy likes to play the violin. Danny likes to go hiking. \nQuestion: Who likes a musical hobby?",
+      "options": [
+        "Ben",
+        "Cindy",
+        "Danny",
+        "Nobody"
+      ],
+      "answer_index": 1,
+      "explanation": "Cindy 彈小提琴（violin），屬於音樂類嗜好。",
+      "commonMisconception": "學生可能不認識 violin 或不知道其分類。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Rainy Day Activities",
+      "question": "It is raining outside. We can't play basketball. Tina likes to read. Sam likes to watch movies.\nQuestion: Where are they most likely?",
+      "options": [
+        "At the park",
+        "In the mountains",
+        "At home",
+        "In a swimming pool"
+      ],
+      "answer_index": 2,
+      "explanation": "下雨且看板上的活動（看電影、閱讀）推論是在室內/家裡。",
+      "commonMisconception": "受第一句下雨影響而分心，未能與後續活動連結地點。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Weekly Routine",
+      "question": "I like to go swimming on Mondays. I like to play chess on Wednesdays. Today is Tuesday. What will I probably do tomorrow?",
+      "options": [
+        "Go swimming",
+        "Play chess",
+        "Nothing",
+        "Go hiking"
+      ],
+      "answer_index": 1,
+      "explanation": "今天週二，明天（tomorrow）是週三，對應活動是 play chess。",
+      "commonMisconception": "日期推算錯誤（明天 vs 後天）或活動對應錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Sibling Interests",
+      "question": "My brother likes to play sports, but I like to stay home and read. \nQuestion: What is different between them?",
+      "options": [
+        "Their age",
+        "Their gender",
+        "Their hobbies",
+        "Their names"
+      ],
+      "answer_index": 2,
+      "explanation": "句子描述的是「運動」與「待在家閱讀」的差異，屬於嗜好（hobbies）。",
+      "commonMisconception": "學生可能不懂 hobbies 的意思。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Joining a Club",
+      "question": "A: Do you want to join the Art Club?\nB: I like to draw, but I don't have free time on Fridays. \nQuestion: Why might B NOT join?",
+      "options": [
+        "She doesn't like to draw.",
+        "She is busy on Fridays.",
+        "She likes sports more.",
+        "She doesn't have money."
+      ],
+      "answer_index": 1,
+      "explanation": "B 提到週五沒有空（don't have free time），語意對應忙碌（busy）。",
+      "commonMisconception": "受前半句「喜歡畫畫」影響而忽略後半句的轉折條件。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "Present Simple vs Progress",
+      "question": "My father usually likes to read the news, but now he ______ a movie.",
+      "options": [
+        "watch",
+        "watches",
+        "is watching",
+        "to watch"
+      ],
+      "answer_index": 2,
+      "explanation": "前面是習慣用現在簡單式，後面提到 but now 應改用現在進行式描述當前動作。",
+      "commonMisconception": "受 habit 語意干擾持續使用現在式。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Healthy Life",
+      "question": "Mark wants to be healthy. He should ______ more often.",
+      "options": [
+        "eat chocolate",
+        "go jogging",
+        "sleep all day",
+        "watch TV"
+      ],
+      "answer_index": 1,
+      "explanation": "追求健康，慢跑（go jogging）是最合理的嗜好建議。",
+      "commonMisconception": "邏輯常識判斷錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Talent Recruitment",
+      "question": "Our school band needs a drummer. Who should join?",
+      "options": [
+        "Someone who likes to sing",
+        "Someone who likes to play the drums",
+        "Someone who likes to paint",
+        "Someone who likes to run"
+      ],
+      "answer_index": 1,
+      "explanation": "校園樂團需要鼓手（drummer），應找喜歡打鼓（play the drums）的人。",
+      "commonMisconception": "關鍵字 drummer 與 play the drums 的詞類轉化對應能力不足。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Afternoon Tea Culture",
+      "question": "In the UK, people often like to ______ tea and eat cakes in the afternoon.",
+      "options": [
+        "drink",
+        "eat",
+        "make",
+        "cook"
+      ],
+      "answer_index": 0,
+      "explanation": "搭配詞習慣：喝茶使用 drink。",
+      "commonMisconception": "中文習慣說「吃」下午茶，可能誤選 eat。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "Weekend Markets",
+      "question": "A: Where does she like to go on weekends?\nB: She likes to go to the night market to ______ street food.",
+      "options": [
+        "buy",
+        "tasting",
+        "eat",
+        "eats"
+      ],
+      "answer_index": 2,
+      "explanation": "go to... to [動詞原形] 表示目的，故選 eat。",
+      "commonMisconception": "動詞形式錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "Best Friends",
+      "question": "Sam and Leo both like to play soccer. They are on the same team. \nQuestion: What can we know about them?",
+      "options": [
+        "They don't like soccer.",
+        "They go to the same school.",
+        "They have the same hobby.",
+        "They are brothers."
+      ],
+      "answer_index": 2,
+      "explanation": "兩人都喜歡踢足球，表示擁有相同的愛好。",
+      "commonMisconception": "推理過度（如：一定在同校或是兄弟）。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

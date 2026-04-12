@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L2",
+    "order": 2,
+    "title": "L2",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Where are you going? B: I am ______ to the bookstore.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "現在進行式 be + V-ing。",
+      "answer_index": null,
+      "options": [
+        "to go",
+        "going",
+        "goes",
+        "go"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "______ is he going?",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "Where 詢問地點。",
+      "answer_index": null,
+      "options": [
+        "What",
+        "When",
+        "Who",
+        "Where"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "They are going to the ______ (郵局).",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "郵局是 post office。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'Museum' means '圖書館'。",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "explanation": "Museum 是博物館，圖書館是 Library。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "I'm going to the ______.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "explanation": "restaurant (餐廳) 是地點。",
+      "answer_index": null,
+      "options": [
+        "hungry",
+        "dance",
+        "eating",
+        "restaurant"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

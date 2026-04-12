@@ -8,7 +8,7 @@
 ## 🔍 前期研究與架構設計結論
 
 ### 1. 關於 `libraryStats.json` 呈現全 0 單元的問題
-您提到的「全部是空的，`libraryStats.json` 好像沒有作用」，是因為先前的解析器與統計產出腳本，並未完全掃描最新的目錄格式與 `manifest.json`。導致畫面上讀到的都是 `0單元0題 [L1]`。這需要透過 Cursor 執行全局腳本檢測，並重新編譯統計檔案，讓 JSON 與實際存在的題庫能一致。
+您提到的「全部是空的，`libraryStats.json` 好像沒有作用」，是因為先前的解析器與統計產出腳本，並未完全掃描最新的目錄格式與 `manifest.json`。導致畫面上讀到的都是 `0單元0題 [QL1]`。這需要透過 Cursor 執行全局腳本檢測，並重新編譯統計檔案，讓 JSON 與實際存在的題庫能一致。
 
 ### 2. 後台路由與 Tab 排序優化
 目前的 `AdminDashboard.tsx` 是使用前端的 React State `[tab, setTab]` 來切換畫面，所以在 URL 永遠只有 `/admin`。
@@ -24,7 +24,7 @@
     "deviceId": "a1b2c3...",
     "timestamp": "2026-02-24T12:00:00Z",
     "action": "view_lesson",
-    "details": { "grade": "G5", "subject": "Chinese", "publisher": "HanLin", "lesson": "L1" }
+    "details": { "grade": "G5", "subject": "Chinese", "publisher": "HanLin", "lesson": "QL1" }
   }
   ```
 - **儲存與同步**：

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課將「台北101」暱稱為「建築界的長頸鹿」，這是一種什麼樣的修辭法？",
       "options": [
         "譬喻法",
@@ -19,32 +19,37 @@
         "排比法",
         "擬人法"
       ],
-      "answer": "譬喻法",
+      "answer_index": "譬喻法",
       "explanation": "將高聳入雲的建築物比喻成長頸鹿，既生動又易於小孩理解。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "台北101的防震阻尼球（Damper）被設計成金色的大球，不僅有平衡作用，也具有觀賞價值。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "這是台北101知名的科學與藝術建築特點。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "101大樓外牆的每八層為一節，像極了生機勃勃的______，寓意著節節高升。",
-      "answer": "竹子或竹節",
+      "options": [],
+      "answer_index": "竹子或竹節",
       "explanation": "探討台灣在地特色與建築設計的連結。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼台北101能成為台灣最重要的地標之一？",
       "options": [
         "它融合了東方文化美感與頂尖建築科技，曾奪下世界最高樓頭銜",
@@ -52,14 +57,15 @@
         "因為它可以當作燈塔",
         "因為它是粉紅色的"
       ],
-      "answer": "它融合了東方文化美感與頂尖建築科技，曾奪下世界最高樓頭銜",
+      "answer_index": "它融合了東方文化美感與頂尖建築科技，曾奪下世界最高樓頭銜",
       "explanation": "理解建築在國家形象與文化認同中的地位。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀完這課，最大的教學重點是引導學生？",
       "options": [
         "學習觀察身邊建築的設計創意與背後的工程學問",
@@ -67,10 +73,12 @@
         "買門票去參觀",
         "每天練習爬樓梯"
       ],
-      "answer": "學習觀察身邊建築的設計創意與背後的工程學問",
+      "answer_index": "學習觀察身邊建築的設計創意與背後的工程學問",
       "explanation": "建立美感意識與科學觀察素養。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.75
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

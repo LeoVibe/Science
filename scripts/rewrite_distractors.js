@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const GLOBAL_ENV_PATH = path.resolve(__dirname, '../../Global_API_Keys.txt');
+const GLOBAL_ENV_PATH = path.resolve(__dirname, '../../ApiKeys.cfg');
 if (fs.existsSync(GLOBAL_ENV_PATH)) {
     const envFile = fs.readFileSync(GLOBAL_ENV_PATH, 'utf8');
     envFile.split('\n').forEach(line => {

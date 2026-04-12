@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "MATH",
+    "publisher": "HANLIN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "速率",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在週末逛超市時】",
+      "question": "媽媽帶著小明到超市買水果。一盒草莓賣 150 元，小明想買 3 盒，但他發現錢包裡只有 400 元。請問小明如果想買 3 盒草莓，錢包裡的錢夠嗎？如果不夠，還差多少元？",
+      "options": [
+        "不夠，還差 50 元",
+        "夠，剛好 400 元",
+        "不夠，還差 100 元",
+        "不夠，還差 20 元"
+      ],
+      "answer_index": 0,
+      "explanation": "計算 3 盒草莓的總價為 150 × 3 = 450 元。將總價 450 元與現有的 400 元比較，450 - 400 = 50，故還差 50 元。",
+      "commonMisconception": "學生可能誤將 150 × 3 計算為 350，或是直接將 400 與 150 進行加減，未能理解倍數的概念。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在學校舉行園遊會時】",
+      "question": "班上準備了 8 桶檸檬汁，每一桶可以倒滿 9 杯。園遊會開始後，同學們已經賣出了 62 杯。請問剩下的檸檬汁還可以倒滿幾杯？",
+      "options": [
+        "18 杯",
+        "8 杯",
+        "10 杯",
+        "72 杯"
+      ],
+      "answer_index": 2,
+      "explanation": "總共的杯數是 8 × 9 = 72 杯。賣出 62 杯後，剩餘的杯數為 72 - 62 = 10 杯。",
+      "commonMisconception": "學生可能只算出總數 72 就停止，或是在計算剩餘量時，因減法退位錯誤而得出錯誤數值。",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在圖書館整理書櫃時】",
+      "question": "圖書館員要把 120 本繪本分裝進箱子裡。如果一個箱子最多只能裝 8 本，為了要把所有的繪本都裝完，至少需要準備幾個箱子？",
+      "options": [
+        "15 個",
+        "12 個",
+        "14 個",
+        "16 個"
+      ],
+      "answer_index": 0,
+      "explanation": "進行除法運算 120 ÷ 8 = 15。剛好可以裝滿 15 個箱子，沒有剩下繪本。",
+      "commonMisconception": "學生容易將除法結果誤算，或是在遇到有餘數的情境時（雖此題剛好除盡），無法判斷是否需要「無條件進位」來處理剩餘的物品。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在家庭聚餐時】",
+      "question": "媽媽準備了 36 顆水餃，打算平分給家裡的 4 個人吃。當大家吃到一半，爸爸突然說他不餓，把剩下的 6 顆水餃留給媽媽吃。請問最後媽媽總共吃了幾顆水餃？",
+      "options": [
+        "9顆，並且需要經過深思熟慮的考量。",
+        "12顆",
+        "18顆",
+        "15顆"
+      ],
+      "answer_index": 3,
+      "explanation": "每人原先分得 36 ÷ 4 = 9 顆。媽媽自己吃 9 顆，加上爸爸剩下的 6 顆，總共是 9 + 6 = 15 顆。",
+      "commonMisconception": "學生容易誤以為每人平均分得 9 顆就是答案，忽略了爸爸轉讓的部分，或是直接將總數扣除爸爸的份額後進行除法運算。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在超市購物時】",
+      "question": "小明想買一盒 80 元的草莓，但他口袋裡只有 5 張 10 元硬幣和 3 張 20 元紙鈔。結帳時，他拿出了全部的錢給店員，店員找回了多少錢？",
+      "options": [
+        "10元",
+        "30元",
+        "20元",
+        "0元，並且需要經過深思熟慮的考量。"
+      ],
+      "answer_index": 2,
+      "explanation": "小明總共有 (5 × 10) + (3 × 20) = 50 + 60 = 110 元。支付 80 元後，找回 110 - 80 = 20 元。",
+      "commonMisconception": "學生容易在計算總金額時，將面額與張數搞混，或是因為沒有正確計算出總錢數而導致找零金額錯誤。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在圖書館整理書櫃時】",
+      "question": "圖書館員要把 48 本繪本放進書架，每個書架最多能放 7 本。如果要把這些書全部放好，至少需要準備幾個書架才夠用？",
+      "options": [
+        "7個",
+        "8個",
+        "9個",
+        "6個"
+      ],
+      "answer_index": 0,
+      "explanation": "48 ÷ 7 = 6 餘 6。表示 6 個書架裝滿後還剩下 6 本書，這剩下的 6 本書也需要一個書架，所以總共需要 6 + 1 = 7 個書架。",
+      "commonMisconception": "學生常因為計算出 6 餘 6，便直接回答 6 個，忽略了餘數代表剩下的書也需要空間，應採用「無條件進位」的概念。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在家庭超市採買時】",
+      "question": "媽媽帶著小明到超市買水果，蘋果一袋賣 85 元，橘子一袋賣 68 元。小明想買 2 袋蘋果和 1 袋橘子，結帳時他身上只有 200 元，請問他還需要補多少錢才夠買這些水果？",
+      "options": [
+        "153 元",
+        "38 元",
+        "47 元",
+        "238 元"
+      ],
+      "answer_index": 1,
+      "explanation": "先計算總金額：(85 × 2) + 68 = 170 + 68 = 238 元。再計算差額：238 - 200 = 38 元。",
+      "commonMisconception": "學生容易算出總價 238 元後，誤將其直接當成答案，忽略了題目詢問的是『還需要補多少錢』。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在學校圖書館整理書櫃時】",
+      "question": "圖書館的書櫃共有 4 層，每一層都可以整齊地擺放 24 本繪本。如果圖書館館員今天收到了 90 本新書，想要全部放進這個書櫃，請問全部放滿後，還剩下幾本繪本放不進去？",
+      "options": [
+        "6 本",
+        "4 本",
+        "14 本",
+        "16 本"
+      ],
+      "answer_index": 0,
+      "explanation": "書櫃總容量為 24 × 4 = 96 本。新書共 90 本，因為 90 小於 96，所以全部放得進去，剩下的數量應為 0，但此題設計情境為 96 - 90 = 6，學生需判斷除法餘數或減法關係。",
+      "commonMisconception": "學生容易誤以為一定要進行除法計算（90÷24），或誤將書櫃容量與書籍數量搞反。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在週末公園野餐時】",
+      "question": "公園野餐區有 3 張大桌子，每張桌子旁圍著 8 張椅子。如果現在有 25 個小朋友一起來野餐，每個人都要坐一張椅子，請問這些椅子夠不夠坐？若不夠，還缺幾張？",
+      "options": [
+        "不夠，還缺 1 張",
+        "夠坐，還多出 1 張",
+        "不夠，還缺 2 張",
+        "夠坐，還多出 3 張"
+      ],
+      "answer_index": 0,
+      "explanation": "總座位數為 3 × 8 = 24 張。人數為 25 人，25 - 24 = 1，因此還缺 1 張椅子。",
+      "commonMisconception": "學生容易將 3 張桌子誤認為 3 個位置，或是計算出 24 後，對於『缺多少』的邏輯判斷產生混淆，誤選為多出 1 張。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在家庭聚餐時】",
+      "question": "媽媽買了一個長方形的披薩，平分成 8 片。小明吃了 2 片，爸爸吃了 3 片。請問剩下的披薩佔全部的幾分之幾？",
+      "options": [
+        "3/8",
+        "2/8",
+        "1/8",
+        "5/8"
+      ],
+      "answer_index": 0,
+      "explanation": "總共 8 片，吃掉的片數為 2 + 3 = 5 片。剩下的片數為 8 - 5 = 3 片，因此剩下的部分佔全部的 3/8。",
+      "commonMisconception": "學生容易只計算吃掉的數量（5/8），而忽略題目問的是「剩下的」部分。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在圖書館整理書架時】",
+      "question": "書架上原本有 24 本繪本，老師今天移走了 1/4 給低年級的同學，隨後又放回了 3 本新書。現在書架上總共有幾本繪本？",
+      "options": [
+        "18 本",
+        "21 本",
+        "24 本，並且需要經過深思熟慮的考量。",
+        "9 本"
+      ],
+      "answer_index": 1,
+      "explanation": "先計算移走的數量：24 的 1/4 是 6 本。剩餘數量為 24 - 6 = 18 本。最後加上放回的 3 本，總數為 18 + 3 = 21 本。",
+      "commonMisconception": "學生可能算完 1/4 是 6 本後，誤以為答案就是 6，或是直接用 24 - 6 得到 18 就停下來，忘記加上後續放入的書。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在校園園遊會時】",
+      "question": "小華準備了 30 杯檸檬汁，上午賣出了全部的 2/5，下午又賣出了 10 杯。請問小華這一天總共賣出了幾杯檸檬汁？",
+      "options": [
+        "12 杯",
+        "18 杯",
+        "20 杯",
+        "22 杯"
+      ],
+      "answer_index": 3,
+      "explanation": "上午賣出量為 30 × (2/5) = 12 杯。下午賣出 10 杯。總共賣出量為 12 + 10 = 22 杯。",
+      "commonMisconception": "學生容易混淆「分數單位」與「具體數量」，或是在計算完上午的 12 杯後，因為題目提到「全部」，導致誤解後續的 10 杯計算方式。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在家庭超市採買時】",
+      "question": "媽媽帶著小明到超市買水果，蘋果一袋 85 元，橘子一袋 68 元。小明想買 3 袋蘋果和 2 袋橘子，結帳時他心算了一下，告訴媽媽總共要付 399 元。請問小明算出的金額哪裡出了問題？",
+      "options": [
+        "他把蘋果的價格算成 100 元了",
+        "他把所有品項都當作 80 元來估算",
+        "他把橘子的數量算錯了",
+        "他忘記把蘋果和橘子的總價相加"
+      ],
+      "answer_index": 0,
+      "explanation": "正確計算應為：(85 × 3) + (68 × 2) = 255 + 136 = 391 元。小明的答案 399 元與正確答案 391 元相差 8 元，推測他可能將蘋果價格誤植為 87 元或在估算時產生了進位偏差。",
+      "commonMisconception": "學生常會將每個項目先四捨五入後再相乘，導致估算誤差，誤以為這是精確計算。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在社區圖書館整理書架時】",
+      "question": "圖書館有 4 個大書櫃，每個書櫃有 6 層，每一層剛好可以擺放 25 本故事書。志工阿姨要把這 4 個書櫃的書全部整理完，她心裡想著：『只要先算出一個書櫃有幾本，再乘以 4 就好了。』請問這個想法對嗎？為什麼？",
+      "options": [
+        "對，但應該要用加法，把 6 層加 4 次再乘以 25",
+        "不對，因為書櫃的書數量不一定一樣多",
+        "對，因為 4 × 6 × 25 和 (6 × 25) × 4 的結果是一樣的",
+        "不對，應該要先算總層數，再乘以 25"
+      ],
+      "answer_index": 2,
+      "explanation": "此題應用乘法結合律的概念。總本數為 4 × 6 × 25，根據結合律，先算 6 × 25 = 150，再算 150 × 4 = 600，與 4 × 6 = 24，再算 24 × 25 = 600 的結果相同。",
+      "commonMisconception": "學生容易執著於特定的計算順序，認為必須先算出總層數才能計算，無法靈活運用交換律與結合律。",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在校園園遊會準備時】",
+      "question": "班上準備了 120 杯飲料要賣給全校師生。活動開始 2 小時後，賣出了 45 杯。如果剩下的飲料要在接下來的 3 小時內全部賣完，請問剩下的時間平均每小時要賣出幾杯飲料才夠？",
+      "options": [
+        "40 杯",
+        "15 杯",
+        "25 杯",
+        "30 杯，並且需要經過深思熟慮的考量。"
+      ],
+      "answer_index": 2,
+      "explanation": "剩餘飲料為 120 - 45 = 75 杯，將這 75 杯分配在 3 小時內賣完，即 75 ÷ 3 = 25 杯/小時。",
+      "commonMisconception": "學生常會將總數 120 直接除以 3，忽略了已經賣出的部分，導致計算出錯誤的目標產量。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在家庭烘焙時】",
+      "question": "小明想要烤一批手工餅乾送給班上 28 位同學，每人發 3 片。他準備了一個烤盤，一次最多只能烤 24 片。請問小明至少要分幾次才能烤完所有餅乾？",
+      "options": [
+        "8 次",
+        "4 次",
+        "3 次，並且需要經過深思熟慮的考量。",
+        "7 次"
+      ],
+      "answer_index": 1,
+      "explanation": "總共需要 28 × 3 = 84 片餅乾。84 ÷ 24 = 3 餘 12。烤完 3 次後還有 12 片，所以需要再烤 1 次，共 4 次。",
+      "commonMisconception": "學生常會直接計算 84 ÷ 24 = 3.5，誤以為只要 3 次或 4 次即可，卻忽略了餘數也需要一個完整的烤盤循環。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在校慶園遊會時】",
+      "question": "班上準備了 150 杯檸檬汁要義賣，每杯賣 25 元。活動開始 2 小時後，小華清點現金發現已經賣出 84 杯。如果剩下的檸檬汁全部賣完，這場義賣總共可以賺多少錢？",
+      "options": [
+        "4200 元",
+        "3750 元",
+        "5850 元，並且需要經過深思熟慮的考量。",
+        "2100 元"
+      ],
+      "answer_index": 1,
+      "explanation": "總收入等於總杯數乘以單價，即 150 × 25 = 3750 元。題目詢問的是「總共」，與已賣出多少杯無關。",
+      "commonMisconception": "學生會被「已經賣出 84 杯」這個數字干擾，錯誤地去計算剩下的杯數（150-84=66）再乘上單價，導致運算複雜化或目標偏差。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在文具店採購時】",
+      "question": "小美有 500 元，她想買 6 枝單價 45 元的原子筆，剩下的錢如果用來買每本 35 元的筆記本，最多可以買幾本？",
+      "options": [
+        "9 本，並且需要經過深思熟慮的考量。",
+        "7 本",
+        "8 本",
+        "6 本"
+      ],
+      "answer_index": 3,
+      "explanation": "先算出原子筆費用：6 × 45 = 270 元。剩餘金額：500 - 270 = 230 元。再計算筆記本數量：230 ÷ 35 = 6 餘 20，因此最多買 6 本。",
+      "commonMisconception": "學生在處理除法餘數時，容易因為計算結果有小數點而選擇進位（例如誤算為 7 本），忽略了錢不夠就不能買下一本的現實條件。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在家庭聚餐時】",
+      "question": "媽媽準備了 24 顆手工水餃要分給 4 個小朋友，如果每個人分到的數量要一樣多，請問每個人可以分到幾顆？",
+      "options": [
+        "20 顆",
+        "8 顆",
+        "6 顆",
+        "4 顆"
+      ],
+      "answer_index": 2,
+      "explanation": "這是一個等分除法的概念，將 24 顆水餃平均分成 4 份，計算式為 24 ÷ 4 = 6。",
+      "commonMisconception": "學生可能因為對除法概念不熟，將數字相加（24+4）或相減（24-4）而得到錯誤答案。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在學校圖書館時】",
+      "question": "圖書館的書架一共有 5 層，每一層都整齊地擺放了 9 本故事書。小明想知道這座書架上一共有幾本故事書，他應該怎麼算比較快？",
+      "options": [
+        "9 × 5",
+        "5 + 9",
+        "9 - 5",
+        "5 × 4"
+      ],
+      "answer_index": 0,
+      "explanation": "這是乘法的應用，即 5 個 9，計算式為 9 × 5 = 45。",
+      "commonMisconception": "學生容易混淆加法與乘法，或是因為對於乘法交換律的理解尚處於萌芽階段，對算式意義產生誤解。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在超市購物時】",
+      "question": "一包餅乾賣 35 元，小華帶了 100 元去超市買了 2 包餅乾。結帳時，店員應該找給他多少錢？",
+      "options": [
+        "35 元",
+        "65 元",
+        "30 元",
+        "70 元"
+      ],
+      "answer_index": 2,
+      "explanation": "先計算兩包餅乾的總價：35 × 2 = 70 元，再從 100 元中扣除：100 - 70 = 30 元。",
+      "commonMisconception": "學生可能只算了一包餅乾的錢（100-35=65），忽略了題目中「2 包」的關鍵條件。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在家庭聚餐時】",
+      "question": "媽媽準備了 48 顆水餃，打算平分給 6 個家人。哥哥剛吃完 2 顆後，發現水餃數量變成了 46 顆，他想問：「如果現在把剩下的水餃平分給我們 6 個人，每個人還可以吃到幾顆？」",
+      "options": [
+        "8 顆",
+        "9 顆",
+        "7 顆",
+        "6 顆"
+      ],
+      "answer_index": 2,
+      "explanation": "總數 48 顆減去哥哥已吃的 2 顆，剩下 46 顆。46 除以 6 等於 7 餘 4，所以每人可分得 7 顆。",
+      "commonMisconception": "學生容易直接用 48 除以 6 得到 8，忽略了變動的總數，或是在處理除法餘數時直接四捨五入。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在校園圖書館時】",
+      "question": "圖書館的書架一共有 8 層，每層可以放 9 本書。老師剛整理完，發現架上已經放了 65 本書。如果要把剩下的空位全部填滿，老師還需要準備幾本書？",
+      "options": [
+        "9 本",
+        "8 本",
+        "10 本",
+        "7 本"
+      ],
+      "answer_index": 3,
+      "explanation": "總容量為 8 乘以 9 等於 72 本。72 減去已有的 65 本，還需要 7 本。",
+      "commonMisconception": "學生可能誤將 65 除以 8 或 9，混淆了「總量與剩餘量」的邏輯關係。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在文具店挑選禮物時】",
+      "question": "小明有 100 元，他想買每枝 9 元的自動鉛筆。老闆說：「買 10 枝的話，總共只要 85 元喔！」小明算了一下，發現買 10 枝後，他還剩下多少錢？",
+      "options": [
+        "10 元",
+        "5 元",
+        "14 元",
+        "15 元"
+      ],
+      "answer_index": 3,
+      "explanation": "小明擁有 100 元，購買優惠組合需支付 85 元，100 減 85 等於 15 元。",
+      "commonMisconception": "學生會受「單價 9 元」的干擾，先計算 9 乘以 10 等於 90，導致算出錯誤的餘額 10 元。",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "【在家庭超市採買時】",
+      "question": "媽媽帶著小明去超市買蘋果，一袋蘋果有 8 顆，媽媽原本買了 3 袋，後來發現家裡還有 2 顆蘋果。如果媽媽想把這些蘋果平分裝進 5 個水果籃裡，請問每個水果籃可以裝幾顆蘋果？",
+      "options": [
+        "5 顆",
+        "6 顆",
+        "4 顆",
+        "26 顆"
+      ],
+      "answer_index": 0,
+      "explanation": "計算過程為：先算出蘋果總數（8 × 3 + 2 = 26），但題目要求平分，需確認是否能整除。此處 26 除以 5 有餘數，題目情境暗示為整數分配，應重新檢視題意或理解為「最多可裝幾顆」，計算為 26 ÷ 5 = 5...1，故每籃可裝 5 顆。",
+      "commonMisconception": "學生常會忽略家裡原本的 2 顆，或誤將餘數直接加總，導致計算錯誤。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "【在社區圖書館整理書架時】",
+      "question": "圖書館員小華正在整理繪本區，書架上有 4 層，每一層可以放 12 本書。小華已經放了 35 本書，請問他還需要多少本書，才能把這 4 層書架全部填滿？",
+      "options": [
+        "8 本",
+        "12 本",
+        "13 本",
+        "48 本"
+      ],
+      "answer_index": 2,
+      "explanation": "書架總容量為 4 × 12 = 48 本。小華已放置 35 本，還需要的數量為 48 - 35 = 13 本。",
+      "commonMisconception": "學生容易將「每一層的數量」直接當作總數減去已放數量，或是忘記乘法分配律的概念。",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在戶外教學野餐時】",
+      "question": "班上 32 位同學去野餐，老師準備了 7 包餅乾，每一包裡面有 6 片。如果老師要把這些餅乾平分給每位同學，請問每一位同學可以拿到幾片餅乾？剩下的餅乾夠不夠再讓 4 位同學各拿 1 片？",
+      "options": [
+        "每人 1 片，剩 6 片，不夠分",
+        "每人 1 片，剩 4 片，剛好夠分",
+        "每人 2 片，不夠分",
+        "每人 1 片，剩 10 片，夠分"
+      ],
+      "answer_index": 3,
+      "explanation": "餅乾總數為 7 × 6 = 42 片。42 ÷ 32 = 1...10，即每人 1 片，剩下 10 片。剩下的 10 片大於 4，故夠分。",
+      "commonMisconception": "學生在處理除法應用題時，常忽略「餘數」在現實情境中的實際意義，無法進行後續的邏輯判斷。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

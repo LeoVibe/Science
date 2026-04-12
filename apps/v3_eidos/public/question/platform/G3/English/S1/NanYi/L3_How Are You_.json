@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L3",
+    "order": 3,
+    "title": "How Are You?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How are you? B: I ______ fine. Thank you.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer_index": null,
+      "explanation": "回答心情時配合 I 使用 be 動詞 am。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "We say 'How are you?' to ask about someone's feelings or health.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "'How are you?' 用來問候對方的近況或當下的心情。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How are you? B: I'm ______ (開心的).",
+      "options": [],
+      "answer_index": null,
+      "explanation": "happy 的意思是開心的。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is NOT a feeling?",
+      "options": [
+        "great",
+        "sad",
+        "happy",
+        "pen"
+      ],
+      "answer_index": null,
+      "explanation": "pen 是物品，其餘選項皆為心情形容詞。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: How are you? B: I'm ______ (難過的).",
+      "options": [
+        "sad",
+        "happy",
+        "fine",
+        "great"
+      ],
+      "answer_index": null,
+      "explanation": "sad 的意思是難過的。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

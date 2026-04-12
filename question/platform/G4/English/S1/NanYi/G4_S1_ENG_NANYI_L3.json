@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L3",
+    "order": 3,
+    "title": "L3",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: Where is my umbrella? B: It is ______ the door.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "behind 指的是在某物後面。",
+      "answer_index": "behind",
+      "options": [
+        "is",
+        "behind",
+        "am",
+        "are"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'Next to' means the same as 'beside'.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "next to 與 beside 都有「在...旁邊」的意思。",
+      "answer_index": "True",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: Where is your bag? B: It's ______ (在...下面) the desk.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "under 的意思是「在...下面」。",
+      "answer_index": "under",
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: ______ is the cat? B: It's in the box.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL2",
+      "cqi_score": 5.5,
+      "explanation": "詢問地點位置。",
+      "answer_index": "Where",
+      "options": [
+        "How",
+        "Who",
+        "What",
+        "Where"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "The umbrella is ______ (在...上面) the chair.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "explanation": "on 指的是在上方接觸。",
+      "answer_index": "on",
+      "options": [
+        "under",
+        "at",
+        "on",
+        "in"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

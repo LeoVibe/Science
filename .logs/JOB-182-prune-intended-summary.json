@@ -1,0 +1,16 @@
+{
+  "note": "首次成功套用 scripts/job182_prune_g5s2_chinese_by_kl4.js --apply 時之統計（刪題後尚未發生後續檔案損毀前之目標狀態），供還原備份後重跑對照。",
+  "last_updated": "2026-04-12",
+  "before_total": 1616,
+  "after_total": 985,
+  "deleted_total": 631,
+  "reasons": {
+    "blind_eval_irrelevance_signal": 589,
+    "cited_text_not_in_kl4": 42
+  },
+  "byPublisher_deleted": {
+    "HanLin": 240,
+    "KangHsuan": 202,
+    "NanYi": 189
+  }
+}

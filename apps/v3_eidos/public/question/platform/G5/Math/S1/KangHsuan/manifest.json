@@ -5,66 +5,66 @@
   "subject": "Math",
   "items": [
     {
-      "id": "M10",
+      "id": "L10",
       "title": "統計圖",
-      "file": "M10_統計圖.json",
-      "count": 5
+      "file": "L10_統計圖.json",
+      "count": 1
     },
     {
-      "id": "M1",
+      "id": "L1",
       "title": "多位小數與加減",
-      "file": "M1_多位小數與加減.json",
-      "count": 5
+      "file": "L1_多位小數與加減.json",
+      "count": 1
     },
     {
-      "id": "M2",
+      "id": "L2",
       "title": "因數與公因數",
-      "file": "M2_因數與公因數.json",
-      "count": 5
+      "file": "L2_因數與公因數.json",
+      "count": 1
     },
     {
-      "id": "M3",
+      "id": "L3",
       "title": "倍數與公倍數",
-      "file": "M3_倍數與公倍數.json",
-      "count": 5
+      "file": "L3_倍數與公倍數.json",
+      "count": 1
     },
     {
-      "id": "M4",
+      "id": "L4",
       "title": "擴分、約分和通分",
-      "file": "M4_擴分、約分和通分.json",
-      "count": 5
+      "file": "L4_擴分、約分和通分.json",
+      "count": 1
     },
     {
-      "id": "M5",
+      "id": "L5",
       "title": "多邊形",
-      "file": "M5_多邊形.json",
-      "count": 5
+      "file": "L5_多邊形.json",
+      "count": 1
     },
     {
-      "id": "M6",
+      "id": "L6",
       "title": "異分母分數的加減",
-      "file": "M6_異分母分數的加減.json",
-      "count": 5
+      "file": "L6_異分母分數的加減.json",
+      "count": 1
     },
     {
-      "id": "M7",
+      "id": "L7",
       "title": "三角形、四邊形和梯形的面積",
-      "file": "M7_三角形、四邊形和梯形的面積.json",
-      "count": 5
+      "file": "L7_三角形、四邊形和梯形的面積.json",
+      "count": 1
     },
     {
-      "id": "M8",
+      "id": "L8",
       "title": "線對稱圖形",
-      "file": "M8_線對稱圖形.json",
-      "count": 5
+      "file": "L8_線對稱圖形.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 3.5,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

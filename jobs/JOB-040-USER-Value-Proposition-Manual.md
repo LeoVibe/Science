@@ -16,7 +16,7 @@
 | --- | --- |
 | [00_國語科共同發展總綱.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/00_國語科共同發展總綱.md) | 核心教育哲學源頭 |
 | [report_cognitive_development.md](file:///Users/s389080/.gemini/antigravity/brain/cec93c0d-8fa9-494d-9ace-2c16abe0f0a5/report_cognitive_development.md) | 認知發展深度分析數據 |
-| [preview_L4_results.md](file:///Users/s389080/.gemini/antigravity/brain/cec93c0d-8fa9-494d-9ace-2c16abe0f0a5/preview_L4_results.md) | 實際成果範例 |
+| [preview_QL4_results.md](file:///Users/s389080/.gemini/antigravity/brain/cec93c0d-8fa9-494d-9ace-2c16abe0f0a5/preview_QL4_results.md) | 實際成果範例 |
 
 ## 🧬 推薦指令/提示詞
 > 你是一位溫暖的小學教育專家，請將「皮亞傑認知發展階段」與「大腦友善三原則」編織成一段感性獨白。重點在於：我們比任何人都更在乎如何讓三年級的孩子「學會思考」而非「學會考試」。

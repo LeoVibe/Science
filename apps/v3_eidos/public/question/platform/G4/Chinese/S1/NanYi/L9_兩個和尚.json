@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "在「兩個和尚」的故事中，窮和尚與富和尚都想去哪裡朝聖？",
       "options": [
         "北極",
@@ -19,32 +19,37 @@
         "喜馬拉雅山",
         "南海"
       ],
-      "answer": "南海",
+      "answer_index": "南海",
       "explanation": "南海普陀山是傳統故事中著名的朝聖地。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "富和尚一直在準備充足的錢財與船隻，而窮和尚只憑著一只水瓶、一個飯缽就出發並成功回國了。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "故事的核心在於「知難而進、立刻行動」與「空口白話、停滯不前」的對比。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這個故事給我們的啟示是：達成目標的關鍵不在於條件的好壞，而在於是否具有堅定的______與實踐力。",
-      "answer": "決心、意志或勇氣",
+      "options": [],
+      "answer_index": "決心、意志或勇氣",
       "explanation": "實踐勝於理論。",
-      "cqi_score": 3,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼富和尚最後感到很慚愧？",
       "options": [
         "因為他沒買到心儀的船",
@@ -52,14 +57,15 @@
         "因為他肚子餓",
         "因為窮和尚帶了禮物送他"
       ],
-      "answer": "因為他發現原本條件比她差的人已經憑藉著信念完成了他不敢做的事",
+      "answer_index": "因為他發現原本條件比她差的人已經憑藉著信念完成了他不敢做的事",
       "explanation": "慚愧是源於對自我缺失與行動力匱乏的自省。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「天下無難事，只怕有心人」這句話最符合本課的哪一個主旨？",
       "options": [
         "只有窮人才能完成夢想",
@@ -67,10 +73,12 @@
         "世界上沒有什麼好吃的東西",
         "只要肯努力、有決心去實踐，任何困難都能克服"
       ],
-      "answer": "只要肯努力、有決心去實踐，任何困難都能克服",
+      "answer_index": "只要肯努力、有決心去實踐，任何困難都能克服",
       "explanation": "培養學生的志向與行動力（Action-oriented mindset）。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

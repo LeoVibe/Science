@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L8",
+    "order": 8,
+    "title": "L8"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "浮潛感受",
+      "question": "浮潛前心情？",
+      "options": [
+        "恐鯊",
+        "被逼",
+        "興奮期待探世界",
+        "憂試"
+      ],
+      "answer_index": 2,
+      "explanation": "探險的正向基調設定。",
+      "commonMisconception": "選到緊張負面因素。",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "魚群特點",
+      "question": "最深特點？",
+      "options": [
+        "無色玻",
+        "凍結",
+        "車大",
+        "色彩繽紛衣裳"
+      ],
+      "answer_index": 3,
+      "explanation": "視覺色彩意象識記。",
+      "commonMisconception": "物理極端化（巨大型）。",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "入水反應",
+      "question": "首見海底反應？",
+      "options": [
+        "驚奇哇出",
+        "嚇拔頭",
+        "無聊沙",
+        "筆記研究"
+      ],
+      "answer_index": 0,
+      "explanation": "即時情感直覺。",
+      "commonMisconception": "偏重操作式行為（筆記）。",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "標題含義",
+      "question": "標題主訊？",
+      "options": [
+        "共處融為一體",
+        "誇張比喻無魚",
+        "表演魚訓練",
+        "抓回洗澡"
+      ],
+      "answer_index": 0,
+      "explanation": "人與自然關係的定位。",
+      "commonMisconception": "戲謔或實體佔有論。",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "珊瑚喻",
+      "question": "珊瑚礁像？",
+      "options": [
+        "停車場",
+        "黑板",
+        "海底花園森林",
+        "火鍋料"
+      ],
+      "answer_index": 2,
+      "explanation": "生態美學比喻識記。",
+      "commonMisconception": "非生物化類比。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "岸上感想",
+      "question": "最直接感想？",
+      "options": [
+        "酸痛睡",
+        "意猶未盡感動喜愛",
+        "住海裡",
+        "嫌鹹再不來"
+      ],
+      "answer_index": 1,
+      "explanation": "情感高峰與結尾昇華。",
+      "commonMisconception": "選到生理疲勞現實感。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "魚群在做什麼",
+      "question": "魚群像是在？",
+      "options": [
+        "冬眠",
+        "逛市集漫步悠游",
+        "舞演",
+        "運動會"
+      ],
+      "answer_index": 1,
+      "explanation": "生態環境的自由描述。",
+      "commonMisconception": "體制化集體行為想像。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "浮潛裝備",
+      "question": "利用何幫觀？",
+      "options": [
+        "艇",
+        "球鞋帽",
+        "面鏡呼吸管",
+        "甲人"
+      ],
+      "answer_index": 2,
+      "explanation": "活動工具常識識標。 ",
+      "commonMisconception": "重型深潛概念。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "魚對我態度",
+      "question": "魚的態度？",
+      "options": [
+        "咬人",
+        "不怕人續游身邊",
+        "轉圈星",
+        "逃洞穴"
+      ],
+      "answer_index": 1,
+      "explanation": "互不干擾的自然狀態。",
+      "commonMisconception": "敵對或崇拜色彩（轉圈）。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "海水特色",
+      "question": "水特色？",
+      "options": [
+        "極冷冰",
+        "黑醬油混",
+        "清澈透明可見底",
+        "垃圾漂"
+      ],
+      "answer_index": 2,
+      "explanation": "環境品質細節。 ",
+      "commonMisconception": "環境汙染悲觀論。 ",
+      "quality_level": "L2",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "感官運用",
+      "question": "用何感官最多？",
+      "options": [
+        "視：色彩風光",
+        "聽：泡",
+        "觸：溫涼",
+        "嗅：鹹"
+      ],
+      "answer_index": 0,
+      "explanation": "文學描寫侧重點分析。",
+      "commonMisconception": "多元感官均分論。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "水深描述",
+      "question": "有無深探？",
+      "options": [
+        "綁鐵沉底",
+        "無知深淺",
+        "潛海溝",
+        "淺海區域面朝下"
+      ],
+      "answer_index": 3,
+      "explanation": "浮潛定義之文本體現。",
+      "commonMisconception": "選到深海探奇想像。 ",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "變成了魚",
+      "question": "此喻指？",
+      "options": [
+        "完全融入自在感",
+        "前世",
+        "生物突變蹼",
+        "長鱗曬乾"
+      ],
+      "answer_index": 0,
+      "explanation": "情感投入之深度表達。",
+      "commonMisconception": "具象奇幻化。 ",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "魚不怕人思考",
+      "question": "暗示？",
+      "options": [
+        "建立和平互信關係",
+        "商業訓練",
+        "太笨易捕",
+        "眼瞎"
+      ],
+      "answer_index": 0,
+      "explanation": "保育倫理之潛在意涵。",
+      "commonMisconception": "對自然生物智力的輕視（太笨）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "色繪目地",
+      "question": "主要寫作目的？",
+      "options": [
+        "補字",
+        "炫詞",
+        "令讀者在腦海看見海底美",
+        "編輯迫"
+      ],
+      "answer_index": 2,
+      "explanation": "讀者參與感之構建。",
+      "commonMisconception": "功利任務化。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "珊瑚魚穿梭生態意義",
+      "question": "意義在？",
+      "options": [
+        "字美無關",
+        "珊瑚礁是依存共家園",
+        "魚無聊",
+        "珊瑚貴"
+      ],
+      "answer_index": 1,
+      "explanation": "生態多樣性認知。",
+      "commonMisconception": "忽視自然依存之交互。 ",
+      "quality_level": "L2",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "驚嘆詞效果",
+      "question": "效果為？",
+      "options": [
+        "貼文感",
+        "加詞",
+        "深層體會感動",
+        "程度差重覆"
+      ],
+      "answer_index": 2,
+      "explanation": "情感層遞之修辭。 ",
+      "commonMisconception": "文學技巧誤讀為貧乏。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "心理影響",
+      "question": "此共遊經歷應會產生？",
+      "options": [
+        "不信教書",
+        "對自然深厚敬意保意",
+        "不再戶活耗體",
+        "不想上學"
+      ],
+      "answer_index": 1,
+      "explanation": "體驗教育對價值的重塑。",
+      "commonMisconception": "選到消極生活避世觀。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "紀錄片主題",
+      "question": "合用？",
+      "options": [
+        "外星科",
+        "廚理",
+        "自然探索保洋集",
+        "冬瑜"
+      ],
+      "answer_index": 2,
+      "explanation": "內容分類與跨媒體適配。 ",
+      "commonMisconception": "被視覺特效化干擾（科幻）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "安靜作用",
+      "question": "水底安靜作用？",
+      "options": [
+        "聽損",
+        "造祥和寧靜脫離喧囂感",
+        "汙死",
+        "海流停"
+      ],
+      "answer_index": 1,
+      "explanation": "環境體驗與心理沈浸。",
+      "commonMisconception": "生理化缺陷解釋（損、死）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "再游願功",
+      "question": "功用？",
+      "options": [
+        "廣告",
+        "呼應首尾留回味",
+        "治病",
+        "草草收"
+      ],
+      "answer_index": 1,
+      "explanation": "文章結構之完整美。",
+      "commonMisconception": "選到結尾敷衍論。 ",
+      "quality_level": "L2",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "「我」視角觀",
+      "question": "「我」帶來？",
+      "options": [
+        "自我中",
+        "虛構不判",
+        "易代入親身感",
+        "枯燥無層"
+      ],
+      "answer_index": 2,
+      "explanation": "敘事代入感分析。",
+      "commonMisconception": "視角受限論（自私、單調）。 ",
+      "quality_level": "L2",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "與百科比較",
+      "question": "異在？",
+      "options": [
+        "無圖差",
+        "融入情與感體驗美",
+        "百科價大數據",
+        "無異"
+      ],
+      "answer_index": 1,
+      "explanation": "文學與學術文本差異辨。 ",
+      "commonMisconception": "數據中心價值觀。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "另一個世界定義",
+      "question": "此世指？",
+      "options": [
+        "夢幻超人",
+        "商水區",
+        "水下祥和生命美異於陸",
+        "火星"
+      ],
+      "answer_index": 2,
+      "explanation": "環境邊界認知。",
+      "commonMisconception": "科幻或人造物標籤。 ",
+      "quality_level": "L2",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "暑畫遊回應",
+      "question": "如何回小華諷？",
+      "options": [
+        "同笑鹹冷",
+        "罵無知",
+        "默走",
+        "分美景生命博聞"
+      ],
+      "answer_index": 3,
+      "explanation": "社交素養與知識分享應用。",
+      "commonMisconception": "選到情緒化對抗（罵）。 ",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "自課問破壞果",
+      "question": "崩塌後果？",
+      "options": [
+        "替石",
+        "塑補",
+        "無礙人",
+        "失家園生態塌失美"
+      ],
+      "answer_index": 3,
+      "explanation": "生態倫理與連鎖效應思考。",
+      "commonMisconception": "選到物質替代假說。 ",
+      "quality_level": "L3",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "圖書館選書選知友",
+      "question": "本在教？",
+      "options": [
+        "趕獸度假",
+        "觀感悟尊珍惜",
+        "商開",
+        "抓養炫"
+      ],
+      "answer_index": 1,
+      "explanation": "生命教育主題遷移。 ",
+      "commonMisconception": "選到掠奪式或佔有式觀念。 ",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "報白化消息",
+      "question": "見此報會有何感？",
+      "options": [
+        "換色",
+        "痛惜曾是家之美",
+        "無關人",
+        "棄水避世"
+      ],
+      "answer_index": 1,
+      "explanation": "情感連結轉化為責任感。",
+      "commonMisconception": "選到無關痛癢之冷漠感。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "週記題材模",
+      "question": "最合手法？",
+      "options": [
+        "感官詞身歷其境",
+        "流表",
+        "百科段",
+        "驚嘆號聚"
+      ],
+      "answer_index": 0,
+      "explanation": "寫作風格遷移能力評價。",
+      "commonMisconception": "流水帳或單純堆砌標點符號。 ",
+      "quality_level": "L3",
+      "cqi_score": 2
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "討養魚家",
+      "question": "比養魚看更重？",
+      "options": [
+        "怕換水",
+        "走入自然訪魚自由家",
+        "買貴缸",
+        "菜市買來家浴"
+      ],
+      "answer_index": 1,
+      "explanation": "尊重生命的更高境界。 ",
+      "commonMisconception": "物質化解讀（買貴缸）。 ",
+      "quality_level": "L3",
+      "cqi_score": 3.5
+    }
+  ],
+  "publisher": "NanYi"
+}

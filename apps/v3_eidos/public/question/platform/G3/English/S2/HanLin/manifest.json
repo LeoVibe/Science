@@ -1,32 +1,22 @@
 {
   "publisher": "HanLin",
-  "subject": "English",
   "grade": "G3",
   "semester": "S2",
+  "subject": "English",
   "items": [
     {
-      "id": "U1",
-      "file": "Eng_U1.json",
-      "title": "Can you jump?",
-      "count": 30
-    },
-    {
-      "id": "U2",
-      "file": "Eng_U2.json",
-      "title": "Where is my cap?",
-      "count": 30
-    },
-    {
-      "id": "U3",
-      "file": "Eng_U3.json",
-      "title": "Are you happy?",
-      "count": 30
-    },
-    {
-      "id": "U4",
-      "file": "Eng_U4.json",
-      "title": "What time is it?",
-      "count": 30
+      "id": "L3",
+      "title": "L3",
+      "file": "L3_L3.json",
+      "count": 1
     }
-  ]
+  ],
+  "moduleMetaData": {
+    "status": "enabled",
+    "quality": {
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
+    }
+  }
 }

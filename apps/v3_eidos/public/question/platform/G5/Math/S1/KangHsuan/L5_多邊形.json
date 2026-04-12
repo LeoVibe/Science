@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L5",
+    "order": 5,
+    "title": "多邊形"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一個「正五邊形」的內角和是多少度？",
+      "options": [
+        "720 度",
+        "180 度",
+        "360 度",
+        "540 度"
+      ],
+      "answer_index": null,
+      "explanation": "公式為 (n-2) × 180，(5-2) × 180 = 540。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「正多邊形」是指所有邊都一樣長，且所有內角也都一樣大的多邊形。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "這是正多邊形的嚴格定義。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "正六邊形的每一個內角是______度。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "內角和 720 除以 6 = 120。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有關「三角形」的敘述，下列何者「錯誤」？",
+      "options": [
+        "可能會有兩個直角",
+        "任意兩邊之和大於第三邊",
+        "內角和是 180 度",
+        "最少有兩個銳角"
+      ],
+      "answer_index": null,
+      "explanation": "若有兩個直角，角度和已達 180，無法形成三角形。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一個多邊形如果可以切割成 4 個三角形，它應該是幾邊形？",
+      "options": [
+        "四邊形",
+        "五邊形",
+        "七邊形",
+        "六邊形"
+      ],
+      "answer_index": null,
+      "explanation": "三角形個數 = n-2，4 = n-2，所以 n = 6。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "KangHsuan"
+}

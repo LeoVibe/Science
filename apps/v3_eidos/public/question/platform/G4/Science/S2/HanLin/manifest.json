@@ -5,34 +5,34 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci1_白天和夜晚",
-      "title": "Sci1_白天和夜晚",
-      "file": "Sci1_白天和夜晚.json",
-      "count": 5
+      "id": "L1",
+      "title": "白天和夜晚_生活中的力",
+      "file": "L1_白天和夜晚_生活中的力.json",
+      "count": 1
     },
     {
-      "id": "Sci2_水的移動",
-      "title": "Sci2_水的移動",
-      "file": "Sci2_水的移動.json",
-      "count": 5
+      "id": "L2",
+      "title": "水的移動_有趣現象",
+      "file": "L2_水的移動_有趣現象.json",
+      "count": 1
     },
     {
-      "id": "Sci3_昆蟲大解密",
-      "title": "Sci3_昆蟲大解密",
-      "file": "Sci3_昆蟲大解密.json",
-      "count": 5
+      "id": "L3",
+      "title": "昆蟲大解密_變動大地",
+      "file": "L3_昆蟲大解密_變動大地.json",
+      "count": 1
     },
     {
-      "id": "Sci4_資源與利用",
-      "title": "Sci4_資源與利用",
-      "file": "Sci4_資源與利用.json",
-      "count": 5
+      "id": "L4",
+      "title": "資源與利用_能源電路",
+      "file": "L4_資源與利用_能源電路.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
     "status": "enabled",
     "quality": {
-      "depthScore": 8.5,
+      "depthScore": 9,
       "accuracyScore": 9.5,
       "isVerified": true
     }

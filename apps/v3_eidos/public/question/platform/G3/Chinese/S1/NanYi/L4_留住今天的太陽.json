@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「留住今天的太陽」中，主角為什麼想要「留住」太陽？",
       "options": [
         "因為他怕黑",
@@ -19,32 +19,37 @@
         "因為他想曬衣服",
         "為了延長快樂的時光，或是對美好的一天感到依依不捨"
       ],
-      "answer": "為了延長快樂的時光，或是對美好的一天感到依依不捨",
+      "answer_index": null,
       "explanation": "太陽象徵著光明、希望與快樂的時光。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "雖然實體上的太陽會下山，但文中傳達出：我們可以透過美好的記憶或充實的生活，把那份溫暖留在心裡。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "從自然現象轉化為內在的心靈哲學。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「與時間賽跑」的人，雖然抓不住太陽，卻能贏得更多的______。",
-      "answer": "成功、機會、收穫或勇氣",
+      "options": [],
+      "answer_index": null,
       "explanation": "這課可能融入了「和時間賽跑」的相關寓意（林清玄作品）。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "作者透過「留住太陽」的主題，最想要告訴讀者什麼？",
       "options": [
         "多曬太陽會變黑",
@@ -52,14 +57,15 @@
         "太陽每天都會出來",
         "晚上不要出門"
       ],
-      "answer": "要珍惜光陰，在有限的時間內把握當下，活出精彩的每一天",
+      "answer_index": null,
       "explanation": "時間價值觀的引導與生命教育。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課最想建立小孩哪一種積極的態度？",
       "options": [
         "想辦法讓天黑慢一點",
@@ -67,10 +73,82 @@
         "每天都要看日落",
         "練習跑步的速度"
       ],
-      "answer": "努力奮鬥、永不言敗的精神",
+      "answer_index": null,
       "explanation": "建立對生命的熱情與進取心。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「提早五分鐘」是一種什麼樣的好習慣？",
+      "options": [
+        "愛現",
+        "懶惰",
+        "貪小便宜",
+        "守時與負責"
+      ],
+      "answer_index": null,
+      "explanation": "提早準備展現了對事件的重視與對他人的尊重。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "提早五分鐘到校的人，通常能更有精神準備上課。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "不疾不徐的步調能緩解壓力。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "如果每件事都提早五分鐘，我們的心情會變得比較______。",
+      "options": [],
+      "answer_index": null,
+      "explanation": "相較於趕時間的慌亂，提早能讓心情定下來。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "下列哪種做法雖然沒有「提早五分鐘」，但概念類似？",
+      "options": [
+        "等時鐘響了才起床",
+        "睡前先檢查明天的功課表與書包",
+        "上課鐘響才去找課本",
+        "老師催了才去交作業"
+      ],
+      "answer_index": null,
+      "explanation": "事前的準備工作能減少臨時的混亂。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "這課告訴我們「管理時間」是誰的責任？",
+      "options": [
+        "父母",
+        "小隊長",
+        "老師",
+        "自己"
+      ],
+      "answer_index": null,
+      "explanation": "學習獨立與自主，從管理自己的時間開始。",
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

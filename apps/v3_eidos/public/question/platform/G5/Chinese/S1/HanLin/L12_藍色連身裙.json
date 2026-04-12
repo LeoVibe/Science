@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課故事中，一條「藍色連身裙」最後竟然改變了一個社區，起點是什麼？",
       "options": [
         "政府的補助",
@@ -19,32 +19,37 @@
         "連身裙有魔法",
         "連身裙很貴"
       ],
-      "answer": "老師送給貧窮小女孩一件乾淨漂亮的連身裙",
+      "answer_index": null,
       "explanation": "老師的小小善意引發了後續的連鎖反應（破窗效應的正向應用）。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中的父母是因為看到女兒穿上新裙子後變得如此漂亮，才發現家裡環境過於骯髒而動手整理。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "從一個乾淨的小點帶動整體的環境清潔心態。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這個故事告訴我們：一個小小的______，可以像投石入水產生的漣漪，擴散到整個社區。",
-      "answer": "改變、善行、善意或美感",
+      "options": [],
+      "answer_index": null,
       "explanation": "漣漪效應是本課的核心隱喻。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "社區最後發生了什麼樣的巨大轉變？",
       "options": [
         "連身裙變得很流行",
@@ -52,14 +57,15 @@
         "附近的鄰居也紛紛打掃庭院、街道，整個社區煥然一新",
         "大家都搬家了"
       ],
-      "answer": "附近的鄰居也紛紛打掃庭院、街道，整個社區煥然一新",
+      "answer_index": null,
       "explanation": "美感與整潔具有強大的感染力。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "「藍色連身裙」給我們的人生啟示是？",
       "options": [
         "老師應該送每個學生禮物",
@@ -67,10 +73,12 @@
         "不要小看自己的力量，從改變自己開始，可以進而影響環境與他人",
         "人一定要穿名牌衣服"
       ],
-      "answer": "不要小看自己的力量，從改變自己開始，可以進而影響環境與他人",
+      "answer_index": null,
       "explanation": "個體主動性與社會影響力的教學導引。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課標題中的「高峰」除了實體的高山外，更象徵著什麼？",
       "options": [
         "很高的樹",
@@ -19,32 +19,37 @@
         "成績單上的滿分",
         "人生中的夢想、目標與各種艱難的挑戰"
       ],
-      "answer": "人生中的夢想、目標與各種艱難的挑戰",
+      "answer_index": "人生中的夢想、目標與各種艱難的挑戰",
       "explanation": "運用「高峰」作為文學象徵，導引學生思考人生目標。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中認為，只要有堅強的意志力，克服一次次想放棄的念頭，就能攀上生命的高峰。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "這是本課勵志教育的核心概念。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "攀登的過程雖然辛苦，但唯有親自走過，才能看見山頂那片最美麗的______。",
-      "answer": "風景、視野或藍天",
+      "options": [],
+      "answer_index": "風景、視野或藍天",
       "explanation": "強調付出代價後獲得的收穫與高度。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "如果攀登時遇到挫折或體力不支，本課建議應該如何應對？",
       "options": [
         "罵隊友為什麼走那麼快",
@@ -52,14 +57,15 @@
         "立刻轉身跑下山",
         "直接躺下大哭"
       ],
-      "answer": "調整呼吸步調，懷抱信心與同伴相互扶持前進",
+      "answer_index": "調整呼吸步調，懷抱信心與同伴相互扶持前進",
       "explanation": "情緒調節與團隊支持是成功的關鍵。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課內容主要想建立讀者什麼樣的心理韌性？",
       "options": [
         "山上空氣很好",
@@ -67,10 +73,12 @@
         "凡事都要爭第一",
         "逃避困難比較快樂"
       ],
-      "answer": "不畏艱困、勇於挑戰自我極限",
+      "answer_index": "不畏艱困、勇於挑戰自我極限",
       "explanation": "自我超越與勇氣的培養。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

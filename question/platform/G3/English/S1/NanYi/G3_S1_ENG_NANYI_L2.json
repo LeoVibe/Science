@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "ENG",
+    "publisher": "NANYI",
+    "lesson": "L2",
+    "order": 2,
+    "title": "L2",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "question": "A: What's your name? B: I ______ Adam.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "回答名字可以用 I am... 或 I'm...。",
+      "answer_index": null,
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "'What's' is short for 'What is'.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "What's 是 What is 的縮寫。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: ______ your name? B: My name is Pam.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 4,
+      "explanation": "詢問名字使用 What is your name?。",
+      "answer_index": null,
+      "options": [],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What's your name? B: ______ name is Sam.",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "My name 是「我的名字」。",
+      "answer_index": null,
+      "options": [
+        "My",
+        "I",
+        "Your",
+        "You"
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "question": "A: What's your name? B: ______",
+      "commonMisconception": "",
+      "scenario": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "explanation": "針對詢問姓名做出適當的回應。",
+      "answer_index": null,
+      "options": [
+        "Yes, I am.",
+        "It's a pen.",
+        "I'm eight.",
+        "My name is Adam."
+      ],
+      "taxonomy": "inferential",
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

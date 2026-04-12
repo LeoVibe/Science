@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「妙故事點點名」中，作者如何介紹故事的樂趣？",
       "options": [
         "故事都很無聊",
@@ -19,32 +19,37 @@
         "只有在睡覺前才能聽故事",
         "看故事會讓人眼睛痠"
       ],
-      "answer": "故事像是一扇扇窗戶，帶領讀者進入不同的奇幻世界",
+      "answer_index": null,
       "explanation": "運用比喻展現閱讀能擴展視野的功能。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.25
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中提到，不同類型的故事（如：寓言、童話）都有各自奇妙的魅力。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "讓學生初步認識不同的文學類型。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "當我們在「點點名」時，其實是在尋找那本能與我們產生______的好故事。",
-      "answer": "共鳴、連結或興趣",
+      "options": [],
+      "answer_index": null,
       "explanation": "強調主動選擇與深度閱讀的關聯。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "讀故事除了好玩之外，作者認為還有什麼好處？",
       "options": [
         "可以換到獎品",
@@ -52,14 +57,15 @@
         "可以讓作業寫得比較快",
         "學習其中的智慧與面對挑戰的勇氣"
       ],
-      "answer": "學習其中的智慧與面對挑戰的勇氣",
+      "answer_index": null,
       "explanation": "文學閱讀的教育與陶冶功能。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課最想培養讀者的哪一種能力？",
       "options": [
         "閱讀的熱情與選擇好書的能力",
@@ -67,10 +73,12 @@
         "短跑的能力",
         "寫毛筆字的能力"
       ],
-      "answer": "閱讀的熱情與選擇好書的能力",
+      "answer_index": null,
       "explanation": "建立終身學習的基礎——閱讀素養。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

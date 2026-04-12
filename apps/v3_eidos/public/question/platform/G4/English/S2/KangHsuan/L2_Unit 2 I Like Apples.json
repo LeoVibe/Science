@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L2",
+    "order": 2,
+    "title": "Unit 2 I Like Apples"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Do you like apples? B: Yes, I ______.",
+      "options": [
+        "like",
+        "do",
+        "am",
+        "can"
+      ],
+      "answer_index": "do",
+      "explanation": "Do you like...? 的肯定回答是 Yes, I do。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "'I don't like bananas.' means '我不喜歡香蕉'。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "don't like 表示不喜歡。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Do you like oranges? B: No, I ______.",
+      "options": [],
+      "answer_index": "don't",
+      "explanation": "Do you...? 的否定回答是 No, I don't。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What fruit do you like? B: I like ______.",
+      "options": [
+        "chicken",
+        "milk",
+        "grapes",
+        "rice"
+      ],
+      "answer_index": "grapes",
+      "explanation": "grapes (葡萄) 是水果，其他選項不是。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "She ______ strawberries very much.",
+      "options": [
+        "likes",
+        "liking",
+        "to like",
+        "like"
+      ],
+      "answer_index": "likes",
+      "explanation": "第三人稱單數 she 後面動詞要加 s。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

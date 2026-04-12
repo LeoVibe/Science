@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "石虎是台灣的？",
       "options": [
         "常見寵物",
@@ -19,10 +19,12 @@
         "家禽",
         "保育類動物"
       ],
-      "answer": "保育類動物",
+      "answer_index": "保育類動物",
       "explanation": "濒臨絕種的保育類野生動物。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

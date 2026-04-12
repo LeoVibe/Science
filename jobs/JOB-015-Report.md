@@ -1,6 +1,6 @@
 # JOB-015 完工報告 (Report)
 
-> **後置補齊聲明**：本專案任務因早期開發未定案此流程，故在此後置（Backfilling）補齊本報告文件，以合乎 `_agent/skills/dojob/SKILL.md` 檔案規則一致性與程式防呆相容性，並順利通過 `scripts/verify_jobs.js` 的檢核。
+> **後置補齊聲明**：本專案任務因早期開發未定案此流程，故在此後置（Backfilling）補齊本報告文件，以合乎現行派工規範（`docs/README_任務派工準則.md`／`pj_job`）與程式防呆相容性，並順利通過 `scripts/verify_jobs.js` 的檢核。
 
 ## 開發成果摘要
 已完成任務看板所述之相關需求與實作。

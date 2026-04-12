@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_5",
+    "grade": "G5",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "KangHsuan",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課提到的「視角」轉換，主要是從地面轉為？",
       "options": [
         "顯微鏡下",
@@ -19,32 +19,37 @@
         "水下",
         "地底"
       ],
-      "answer": "空中（高空鳥瞰）",
+      "answer_index": null,
       "explanation": "空拍視角能呈現大規模的地形變化與宏觀景觀。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "齊柏林導演拍攝紀錄片的初衷，只是為了展現台灣風景非常漂亮，不涉及環保問題。",
-      "answer": "False",
+      "options": [],
+      "answer_index": null,
       "explanation": "他更想透過鏡頭揭開台灣土地遭受破壞的真相，喚醒國人的環保意識。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "片中出現「受傷的土地」，通常是指因為山坡地過度開發、砂石濫採導致的______。",
-      "answer": "土石流、崩塌或生態浩劫",
+      "options": [],
+      "answer_index": null,
       "explanation": "視覺衝擊能讓人直接體會環境危機的嚴峻。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.5
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中使用什麼樣的修辭來形容台灣的美麗與殘破共存？",
       "options": [
         "反詰",
@@ -52,14 +57,15 @@
         "誇飾",
         "排比"
       ],
-      "answer": "對比",
+      "answer_index": null,
       "explanation": "美與醜、守護與破壞的強烈對比。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "下列哪一種態度最能呼應本課的精神？",
       "options": [
         "賺錢第一，環保以後再說",
@@ -67,10 +73,12 @@
         "覺得反正不關我的事",
         "珍惜每一寸土地，與自然和諧共生"
       ],
-      "answer": "珍惜每一寸土地，與自然和諧共生",
+      "answer_index": null,
       "explanation": "土地教育與環境永續的核心價值。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

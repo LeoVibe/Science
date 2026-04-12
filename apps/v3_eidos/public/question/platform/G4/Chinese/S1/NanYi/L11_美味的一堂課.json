@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S1",
     "subject": "Chinese",
     "publisher": "NanYi",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課「美味的一堂課」中，這堂課之所以「美味」，主要是因為學生們？",
       "options": [
         "在課堂上睡覺做美夢",
@@ -19,32 +19,37 @@
         "老師請每個人喝珍珠奶茶",
         "去餐廳吃飯"
       ],
-      "answer": "親自動手準備、製作並分享了美味的食物（如：水果拼盤或小點心）",
+      "answer_index": "親自動手準備、製作並分享了美味的食物（如：水果拼盤或小點心）",
       "explanation": "透過實作學習（Learning by doing），強化學生的感知與社交連結。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     },
     {
-      "id": "2",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "文中描述了在切水果或裝盤的過程，同學們學會了互助合作與分工。",
-      "answer": "True",
+      "options": [],
+      "answer_index": "True",
       "explanation": "情誼素養是本課的重要教學目標。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "3",
-      "type": "fill_in_the_blank",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "食物的美味不但來自食材，更來自於大家一起完成後的______感。",
-      "answer": "成就、喜悅、滿足或幸福",
+      "options": [],
+      "answer_index": "成就、喜悅、滿足或幸福",
       "explanation": "探討情緒價值如何提升味覺體驗。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
     },
     {
-      "id": "4",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "課程結束後，學生們最深刻的體會是？",
       "options": [
         "以後都叫家長做就好",
@@ -52,14 +57,15 @@
         "廚師的工作很輕鬆",
         "分享能讓食物變得更有滋味，並體會勞動的樂趣"
       ],
-      "answer": "分享能讓食物變得更有滋味，並體會勞動的樂趣",
+      "answer_index": "分享能讓食物變得更有滋味，並體會勞動的樂趣",
       "explanation": "建立對勞動的尊重與分享的美德。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "這課想引導小孩建立哪一種正確的生活態度？",
       "options": [
         "只吃自己愛吃的東西",
@@ -67,10 +73,12 @@
         "長大要當吃貨",
         "惜食及感恩，並願意為群體付出心力"
       ],
-      "answer": "惜食及感恩，並願意為群體付出心力",
+      "answer_index": "惜食及感恩，並願意為群體付出心力",
       "explanation": "社會責任意識與食育素養。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

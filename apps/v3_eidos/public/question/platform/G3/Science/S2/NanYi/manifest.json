@@ -5,34 +5,34 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci_U1",
-      "title": "種菜好好玩",
-      "file": "Sci_U1.json",
-      "count": 30
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
     },
     {
-      "id": "Sci_U2",
-      "title": "溫度影響物質的變化",
-      "file": "Sci_U2.json",
-      "count": 30
+      "id": "L2",
+      "title": "L2",
+      "file": "L2_L2.json",
+      "count": 1
     },
     {
-      "id": "Sci_U3",
-      "title": "天氣特派員",
-      "file": "Sci_U3.json",
-      "count": 30
+      "id": "L3",
+      "title": "U3_backup",
+      "file": "L3_U3_backup.json",
+      "count": 1
     },
     {
-      "id": "Sci_U4",
-      "title": "廚房中的科學",
-      "file": "Sci_U4.json",
-      "count": 4
+      "id": "L4",
+      "title": "L4",
+      "file": "L4_L4.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
     "status": "enabled",
     "quality": {
-      "depthScore": 8.5,
+      "depthScore": 9,
       "accuracyScore": 9.5,
       "isVerified": true
     }

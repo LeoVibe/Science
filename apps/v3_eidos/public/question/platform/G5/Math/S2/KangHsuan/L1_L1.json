@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L1",
+    "order": 1,
+    "title": "L1"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "樂高或積木堆疊 (情境 2)",
+      "question": "小明有一組正方體積木，每個積木的邊長是 5 公分。他用這些積木堆疊出一個長方體，長邊用了 4 個積木，寬邊用了 3 個積木，高疊了 2 層。請問這個堆疊完成的長方體體積是多少立方公分？",
+      "options": [
+        "120 立方公分",
+        "3000 立方公分",
+        "600 立方公分",
+        "1500 立方公分"
+      ],
+      "answer_index": 1,
+      "explanation": "單一積木體積 = 5 × 5 × 5 = 125 立方公分。總共有 4 × 3 × 2 = 24 個積木。總體積 = 125 × 24 = 3000 立方公分。或者思考為：總長=20，總寬=15，總高=10，20 × 15 × 10 = 3000。",
+      "commonMisconception": "學生可能只算出積木的總數量為 24，卻忘記乘上單一積木的體積，或直接將 24 當作答案的基數。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

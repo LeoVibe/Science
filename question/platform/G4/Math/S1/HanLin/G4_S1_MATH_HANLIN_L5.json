@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "MATH",
+    "publisher": "HANLIN",
+    "lesson": "L5",
+    "order": 5,
+    "title": "分數教學",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "分數 11/4 是一個什麼分數？",
+      "options": [
+        "整數",
+        "帶分數",
+        "真分數",
+        "假分數"
+      ],
+      "answer_index": "假分數",
+      "explanation": "分子（11）大於分母（4），所以是假分數。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "假分數 9/3 的值等於 3。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "9 ÷ 3 = 3。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 2.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "將帶分數 2 又 3/5 化為假分數是______。",
+      "options": [],
+      "answer_index": "13/5",
+      "explanation": "2 × 5 + 3 = 13。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 3,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 1/8 + 5/8 = ？",
+      "options": [
+        "選項 B 和 C 都是",
+        "6/16",
+        "6/8",
+        "3/4"
+      ],
+      "answer_index": "選項 B 和 C 都是",
+      "explanation": "6/8 約分後等於 3/4。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "媽媽買了 3 塊披薩，全家人吃了 1 又 2/3 塊，還剩下多少塊？",
+      "options": [
+        "1/3",
+        "2 又 1/3",
+        "1 又 2/3",
+        "1 又 1/3"
+      ],
+      "answer_index": "1 又 1/3",
+      "explanation": "3 - 1 - 2/3 = 2 - 2/3 = 1 又 1/3。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "HanLin"
+}

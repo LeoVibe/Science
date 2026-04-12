@@ -65,8 +65,12 @@
 ### 3.3 派工流程
 
 11. **只能用腳本建單**：`node scripts/job_manager.js create "名稱" AG|USER|DEV [job_type]`。建單前先跑 `node scripts/job_manager.js next` 確認流水號。
-12. **結案五步走**：Report 定稿 → `job_manager.js close` → 適用時更新 `docs/README_專案發展紀錄.md` → `/pj_sync` → Discord 摘要。
-13. **三段式 Checklist**：所有 JOB 必須包含啟動、驗收、成果三張 Checklist，缺一不可。每項打勾須附佐證。
+12. **委派 Cursor 執行**：Claude Code **主動呼叫** `cursor agent CLI`，不是「請使用者去開 Cursor」。
+    - 單一 JOB：`cursor agent --print --yolo --workspace . "請讀取並執行派工單：jobs/JOB-XXX-*.md" > scripts/orchestrator-logs/JOB-XXX-cursor-output.log 2>&1 &`
+    - 批量任務：`node scripts/orchestrator.js`
+    - 完整說明 → `docs/README_任務派工準則.md §5.0`
+13. **結案五步走**：Report 定稿 → `job_manager.js close` → 適用時更新 `docs/README_專案發展紀錄.md` → `/pj_sync` → Discord 摘要。
+14. **三段式 Checklist**：所有 JOB 必須包含啟動、驗收、成果三張 Checklist，缺一不可。每項打勾須附佐證。
 
 ### 3.4 溝通
 
@@ -76,6 +80,12 @@
 ---
 
 ## 四、題庫完成度判定
+
+> **⚠️ 素材強制讀取規則**：任何時候碰到 `question/platform/` 下的 JSON 檔，或執行、解讀任何品質腳本輸出（不論角色是 PM、執行者或驗收者），**必須先讀**：
+> - `question/README_出題與品管準則.md`（CQI-P 計分規則）
+> - `question/README_驗證與盲測準則.md`（CQI-V、上架門檻）
+>
+> 不因「只是查進度」「只是監控」而豁免。
 
 看到 `blind_evaluation=true` 不代表題庫完成。以下四項**同時**滿足才算完成：
 

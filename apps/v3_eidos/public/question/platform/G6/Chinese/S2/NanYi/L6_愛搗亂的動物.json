@@ -1,12 +1,17 @@
 {
-  "publisher": "南一",
-  "grade": "G6",
-  "semester": "S2",
-  "subject": "Chinese",
-  "lesson_id": "L6",
-  "lesson_title": "愛搗亂的動物",
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L6",
+    "order": 6,
+    "title": "愛搗亂的動物"
+  },
   "questions": [
     {
+      "taxonomy": "analysis",
+      "scenario": "探討科普文章中「擬人化語氣」對讀者心理預期與趣味性的提升作用。",
       "question": "【分析說明文的趣味性】作者在文中將某些動物的行為稱為「搗亂」，這種寫法在科學說明文中有什麼樣的作用？",
       "options": [
         "這是一種擬人化幽默，能拉近讀者與動物間的距離，增加閱讀趣味性。",
@@ -16,18 +21,13 @@
       ],
       "answer_index": 0,
       "explanation": "「搗亂」是人類的感性視角。在科學上這可能是求偶、標記領地或嬉戲。作者用此詞是為了讓科普文章不再冷冰冰，而是具備文學溫度。",
-      "scenario": "探討科普文章中「擬人化語氣」對讀者心理預期與趣味性的提升作用。",
       "commonMisconception": "學生可能選[D]，過度強調「絕對正確性」而忽略了科普文學中的修辭功能。",
-      "taxonomy": "analysis",
-      "cqi_score": 8,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "inferential",
+      "scenario": "解析「表象行為（搗亂）」與「底層動機（生存）」之間的邏輯連結。",
       "question": "【分析動物行為邏輯】文中提到某種動物「搗亂（如搬走人類物品）」的真正生物學原因最可能是什麼？",
       "options": [
         "牠們想要練習偷竊技巧，以便長大後能更順利地進入人類社會。",
@@ -37,18 +37,13 @@
       ],
       "answer_index": 1,
       "explanation": "動物的「惡作劇」往往具備生存意義。搬走色彩鮮艷的物品可能是為了吸引異性或布置巢穴。這引導讀者從工具理性的角度看自然。",
-      "scenario": "解析「表象行為（搗亂）」與「底層動機（生存）」之間的邏輯連結。",
       "commonMisconception": "學生常選[C]，將人類的「鬥智」心理強加在動物身上。",
-      "taxonomy": "inferential",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "提煉文本中關於「人與自然互動」的生命倫理。",
       "question": "【解讀人與自然的共生】作者在文中建議，當我們遇到這些「愛搗亂」的動物時，應具備什麼樣的態度？",
       "options": [
         "立即撥打報警電話，要求專業團隊將這些危險的動物消滅。",
@@ -58,18 +53,13 @@
       ],
       "answer_index": 1,
       "explanation": "本文主張一種對等的「觀察」。搗亂是動物的生命展現，理解規則比憤怒更有價值。這是一種高層次的生態平權觀念。",
-      "scenario": "提煉文本中關於「人與自然互動」的生命倫理。",
       "commonMisconception": "學生容易選[C]，分不清楚「包容/觀察」與「不當干預（餵食）」的界線。",
-      "taxonomy": "evaluative",
-      "cqi_score": 7.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "analysis",
+      "scenario": "分析散文結構佈置對提升「知識傳遞效率」的作用。",
       "question": "【分析段落結構】文中在介紹每一種「搗亂行為」後，都會接上一段科學解釋。這種「先敘事、後說明」的結構有什麼優點？",
       "options": [
         "能先引發讀者的懸念與好奇心，隨後再給予理性的解答以滿足求知欲。",
@@ -79,18 +69,13 @@
       ],
       "answer_index": 0,
       "explanation": "由感性的「故事」切入理性的「知訓」。這符合讀者的認知心理路徑：好奇 -> 觀察 -> 獲取知識（PIRLS 層次 3）。",
-      "scenario": "分析散文結構佈置對提升「知識傳遞效率」的作用。",
       "commonMisconception": "學生可能選[D]，受限於「探險」的熱情而忽略了其科普的本質。",
-      "taxonomy": "analysis",
-      "cqi_score": 8,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 8
     },
     {
+      "taxonomy": "evaluative",
+      "scenario": "提煉文本的中心哲學意識（PIRLS 層次 4）。",
       "question": "【總結全篇主旨】這篇文章主要想傳達給我們哪一個關於自然的觀點？",
       "options": [
         "大自然是一個充滿敵意的地方，人類應該隨時保持高度警覺。",
@@ -100,16 +85,10 @@
       ],
       "answer_index": 1,
       "explanation": "本文不只是寫动物，更是寫「觀察的方法」。主旨在於謙卑地面對自然的多樣性與規則。",
-      "scenario": "提煉文本的中心哲學意識（PIRLS 層次 4）。",
       "commonMisconception": "學生若選[C]，反應出對自然的「征服欲」尚未被本文轉化。",
-      "taxonomy": "evaluative",
-      "cqi_score": 5.5,
       "quality_level": "L5",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-03-22",
-      "blind_evaluation": true,
-      "authoring_date": null
+      "cqi_score": 5.5
     }
-  ]
+  ],
+  "publisher": "NanYi"
 }

@@ -5,34 +5,34 @@
   "subject": "Science",
   "items": [
     {
-      "id": "Sci_U1",
-      "title": "蔬菜園地",
-      "file": "Sci_U1.json",
-      "count": 30
+      "id": "L1",
+      "title": "L1",
+      "file": "L1_L1.json",
+      "count": 1
     },
     {
-      "id": "Sci_U2",
-      "title": "水和冰",
-      "file": "Sci_U2.json",
-      "count": 30
+      "id": "L2",
+      "title": "L2",
+      "file": "L2_L2.json",
+      "count": 1
     },
     {
-      "id": "Sci_U3",
-      "title": "動物身體與運動",
-      "file": "Sci_U3.json",
-      "count": 30
+      "id": "L3",
+      "title": "L3",
+      "file": "L3_L3.json",
+      "count": 1
     },
     {
-      "id": "Sci_U4",
-      "title": "觀測天氣",
-      "file": "Sci_U4.json",
-      "count": 30
+      "id": "L4",
+      "title": "L4",
+      "file": "L4_L4.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
     "status": "enabled",
     "quality": {
-      "depthScore": 8.5,
+      "depthScore": 9,
       "accuracyScore": 9.5,
       "isVerified": true
     }

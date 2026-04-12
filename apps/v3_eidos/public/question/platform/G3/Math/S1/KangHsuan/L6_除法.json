@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "KangHsuan",
+    "lesson": "L6",
+    "order": 6,
+    "title": "除法"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "分享糖果",
+      "question": "小英有 48 顆糖果，平均分給 6 個好朋友，每個朋友可以分到幾顆？",
+      "options": [
+        "7 顆",
+        "8 顆",
+        "6 顆",
+        "9 顆"
+      ],
+      "answer_index": 1,
+      "explanation": "48 ÷ 6 = 8。利用乘法口訣「六八四十八」來連結除法概念。",
+      "commonMisconception": "初學除法時，學生可能對乘除逆運算不熟練。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "裝箱問題",
+      "question": "工廠生產了 95 個麵包，每 8 個裝成一盒，最多可以裝滿幾盒？還剩下幾個？",
+      "options": [
+        "11 盒，剩 7 個",
+        "12 盒，剩 1 個",
+        "11 盒，剩 15 個",
+        "10 盒，剩 15 個"
+      ],
+      "answer_index": 0,
+      "explanation": "95 ÷ 8 = 11 ... 7。最多可裝滿 11 盒，剩下 7 個。",
+      "commonMisconception": "學生可能算出的餘數比除數大（如選項3、4），這是不符合除法原理的。",
+      "quality_level": "L5",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "排隊搭船",
+      "question": "遊樂園的小船一艘可以搭乘 4 人，現在有 35 個小朋友要搭船，請問最少需要幾艘船才能讓大家「都」搭到船？",
+      "options": [
+        "8 艘",
+        "9 艘",
+        "10 艘",
+        "7 艘"
+      ],
+      "answer_index": 1,
+      "explanation": "35 ÷ 4 = 8 ... 3。雖然算出 8 艘，但剩下的 3 個人也需要一艘船，所以 8 + 1 = 9 艘。",
+      "commonMisconception": "這是進一法的典型應用題。學生常會忘記處理餘數需要額外「加一」。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "神祕的除式",
+      "question": "在除法算式中「□ ÷ 7 = 6 ... 4」，方框中的被除數應該是多少？",
+      "options": [
+        "42",
+        "46",
+        "10",
+        "2路"
+      ],
+      "answer_index": 1,
+      "explanation": "被除數 = 除數 × 商 + 餘數。所以 7 × 6 + 4 = 42 + 4 = 46。",
+      "commonMisconception": "學生可能只做乘法忽略加法，或者公式記憶錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "生日派對布置",
+      "question": "一條彩帶長 60 公分，小美每 9 公分剪成一段，可以剪成多少段？剩下多少公分？",
+      "options": [
+        "6 段，剩 6 公分",
+        "7 段，剩 3 公分",
+        "5 段，剩 15 公分",
+        "6 段，剩 4 公分"
+      ],
+      "answer_index": 0,
+      "explanation": "60 ÷ 9 = 6 ... 6。可以剪成 6 段，剩下 6 公分。",
+      "commonMisconception": "計算 9 的乘法表時可能在 9×6=54 與 9×7=63 之間判斷錯誤。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    }
+  ],
+  "publisher": "KangHsuan"
+}

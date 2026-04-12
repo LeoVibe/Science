@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "Math",
+    "publisher": "HanLin",
+    "lesson": "L2",
+    "order": 2,
+    "title": "乘法"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 250 × 40 = ？",
+      "options": [
+        "2540",
+        "100000",
+        "1000",
+        "10000"
+      ],
+      "answer_index": "10000",
+      "explanation": "25 × 4 = 100，後面補兩個 0，等於 10000。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在乘法結算中，乘數和被乘數位置交換，積（答案）會維持不變。",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "這是乘法的交換律（Commutative Property）。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "一打鉛筆 12 枝，35 打共有______枝。",
+      "options": [],
+      "answer_index": "420",
+      "explanation": "12 × 35 = 420。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "計算 101 × 15 = ？",
+      "options": [
+        "1515",
+        "1015",
+        "1615",
+        "1500"
+      ],
+      "answer_index": "1515",
+      "explanation": "100 × 15 + 1 × 15 = 1500 + 15 = 1515。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "水果行一箱蘋果賣 888 元，老闆今天賣出 12 箱，總收入大約是多少元？（用四捨五入法到百位來估算）",
+      "options": [
+        "8000 元",
+        "12000 元",
+        "9000 元",
+        "10800 元"
+      ],
+      "answer_index": "10800 元",
+      "explanation": "888 估算為 900，900 × 12 = 10800。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.75
+    }
+  ],
+  "publisher": "HanLin"
+}

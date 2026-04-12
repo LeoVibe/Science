@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "grade": "G3",
+    "subject": "Chinese",
+    "publisher": "NanYi",
+    "lesson": "L2",
+    "title": "神奇的畫家",
+    "semester": "S1",
+    "order": 2
+  },
+  "questions": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "question": "本課中的「神奇畫家」指的是誰？",
+      "options": [
+        "很有名的藝術家",
+        "大自然",
+        "愛畫畫的小朋友",
+        "我的爸爸"
+      ],
+      "answer": "大自然",
+      "explanation": "大自然四季的變化與絕美的景色，猶如一位神奇的畫家。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "2",
+      "type": "true_false",
+      "question": "畫家在春天畫下嫩綠的草與紅紅的花。",
+      "answer": "True",
+      "explanation": "春天是萬物復甦、色彩繽紛的季節。",
+      "cqi_score": 3,
+      "quality_level": "L1"
+    },
+    {
+      "id": "3",
+      "type": "fill_in_the_blank",
+      "question": "這位畫家不需要用筆，只要有______，就能變出美麗的顏色。",
+      "answer": "時間或陽光",
+      "explanation": "大自然的畫筆是光、影與季節的遞嬗。",
+      "cqi_score": 4,
+      "quality_level": "L1"
+    },
+    {
+      "id": "4",
+      "type": "multiple_choice",
+      "question": "當冬天來到時，神奇畫家通常會選用什麼顏色？",
+      "options": [
+        "金燦燦的黃色",
+        "純淨的白色或灰色",
+        "鮮艷的紅色",
+        "翠綠色"
+      ],
+      "answer": "純淨的白色或灰色",
+      "explanation": "代表冬天的冰雪與枯木景象。",
+      "cqi_score": 6,
+      "quality_level": "L3"
+    },
+    {
+      "id": "5",
+      "type": "multiple_choice",
+      "question": "這課主要是想讓我們學習什麼？",
+      "options": [
+        "每個人都要成為畫家",
+        "細心體會大自然之美，並懂得珍惜環境",
+        "學習如何買水彩",
+        "夏天很熱"
+      ],
+      "answer": "細心體會大自然之美，並懂得珍惜環境",
+      "explanation": "培養學生的美感經驗與環保意識。",
+      "cqi_score": 5.5,
+      "quality_level": "L3"
+    }
+  ]
+}

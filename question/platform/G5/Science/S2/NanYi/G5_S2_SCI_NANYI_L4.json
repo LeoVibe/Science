@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "SCI",
+    "publisher": "NANYI",
+    "lesson": "L4",
+    "order": 4,
+    "title": "聲音與樂器",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "我們能聽到聲音，是因為物體在產生什麼運動？",
+      "options": [
+        "發光",
+        "震動",
+        "旋轉",
+        "加熱"
+      ],
+      "answer_index": null,
+      "explanation": "聲音是由物體震動產生，並透過介質（如空氣）傳播到耳中。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "如果要改變烏克麗麗（弦樂器）發出的「音調」高低，調整哪一個部分最有效？",
+      "options": [
+        "彈奏的力量大小",
+        "弦的鬆緊或長短",
+        "音箱的顏色",
+        "琴身的長度"
+      ],
+      "answer_index": null,
+      "explanation": "弦越緊、越短、越細，震動越快，音調越高。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "實驗變因操控預測",
+      "question": "音樂課時，老師拿出幾個裝水容量不同的相同玻璃瓶。當老師用相同力氣「敲擊」水裝得『最滿』的玻璃瓶時，會發出什麼樣的聲音變化？",
+      "options": [
+        "聲音特別洪亮（響度大）",
+        "聲音特別微弱（響度小）",
+        "聲音比較低沉（音調低）",
+        "聲音比較清脆高亢（音調高）"
+      ],
+      "answer_index": 2,
+      "explanation": "敲擊裝水的玻璃瓶時，震動發聲的主體是「水和玻璃」。水裝得越滿，整體質量越大，震動頻率就越慢，發出來的聲音（音調）就會越低沉。相對地，水越少則震動越快，音調越高。",
+      "commonMisconception": "這是自然科經典的陷阱題。學生容易將「敲擊發聲（水震動）」與「向瓶口吹氣發聲（空氣柱震動）」搞混。如果是向瓶口吹氣，水滿會讓空氣柱短，音調反而會變高。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "NanYi"
+}

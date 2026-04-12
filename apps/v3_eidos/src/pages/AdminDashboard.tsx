@@ -11,6 +11,8 @@ import AdminSiteFeedback from '@/components/admin/AdminSiteFeedback';
 import AdminFeedbackInsights from '@/components/admin/AdminFeedbackInsights';
 import AdminUserStats from '@/components/admin/AdminUserStats';
 import AdminUserAnalysis from '@/components/admin/AdminUserAnalysis';
+import AdminReviewDashboard from '@/components/admin/AdminReviewDashboard';
+import AdminQuestionReview from '@/components/admin/AdminQuestionReview';
 import libraryStats from '@/data/libraryStats.json';
 
 
@@ -68,6 +70,7 @@ const TAB_GROUPS: TabGroup[] = [
     label: '題庫中心',
     icon: '📚',
     subTabs: [
+      { key: 'review', label: '品質審核', icon: '✅', component: AdminReviewDashboard },
       { key: 'manage', label: '上架管理', icon: '📦', component: AdminLibraryManager },
       { key: 'quality', label: '品質重評', icon: '📊', component: AdminQualityAnalyzer },
     ],

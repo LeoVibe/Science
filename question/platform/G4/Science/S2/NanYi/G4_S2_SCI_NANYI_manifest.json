@@ -1,0 +1,55 @@
+{
+  "id": "G4_S2_SCI_NANYI",
+  "publisher": "NANYI",
+  "grade": "G4",
+  "semester": "S2",
+  "subject": "SCI",
+  "items": [
+    {
+      "id": "L1",
+      "title": "昆蟲的一生",
+      "theme": "",
+      "file": "G4_S2_SCI_NANYI_L1.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.72,
+      "quality": "QL3"
+    },
+    {
+      "id": "L2",
+      "title": "神奇的電力",
+      "theme": "",
+      "file": "G4_S2_SCI_NANYI_L2.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.63,
+      "quality": "QL3"
+    },
+    {
+      "id": "L3",
+      "title": "水的移動",
+      "theme": "",
+      "file": "G4_S2_SCI_NANYI_L3.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.65,
+      "quality": "QL3"
+    },
+    {
+      "id": "L4",
+      "title": "星空",
+      "theme": "",
+      "file": "G4_S2_SCI_NANYI_L4.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.39,
+      "quality": "QL3"
+    }
+  ],
+  "moduleMetaData": {
+    "total_questions": 120,
+    "blind_tested": 0,
+    "last_updated": "2026-04-10T12:00:00.000Z",
+    "rebuild_note": "JOB-169：南一四課依 KL4 重產，pending_review，未盲測。"
+  }
+}

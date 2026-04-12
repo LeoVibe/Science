@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Science",
+    "publisher": "NanYi",
+    "lesson": "L1",
+    "order": 1,
+    "title": "星星的世界"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "現象解釋與推理",
+      "question": "小明在晚上 8 點看到獵戶座在東方天空，到了晚上 10 點時，獵戶座已經移動到南方天空較高的位置。請問星星在夜空中看起來會東升西落，最主要的原因是什麼？",
+      "options": [
+        "星星本身繞著地球旋轉",
+        "地球由西向東自轉",
+        "地球由西向東公轉",
+        "星星受到大氣中風的吹拂而移動"
+      ],
+      "answer_index": 1,
+      "explanation": "星空之所以會有東升西落的現象（天體周日運動），是因為我們所在的地球不停地「由西向東自轉」所造成的視覺相對現象。",
+      "commonMisconception": "學生直觀視覺可能認定「星星本身就在繞著地球跑」，或者將地球自轉（決定日夜星空）與公轉（決定四季更迭）的定義搞混。",
+      "quality_level": "L5",
+      "cqi_score": 7
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在觀測星空時，我們通常使用什麼來描述星星在天空中的垂直位置？",
+      "options": [
+        "方位角",
+        "高度角",
+        "長度",
+        "重量"
+      ],
+      "answer_index": null,
+      "explanation": "高度角是指視線與水平面之間的夾角，範圍在 0 到 90 度之間。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "小明在晚上 8 點看到北斗七星出現在天空中。過了 3 小時後，北斗七星的位置有什麼變化？",
+      "options": [
+        "變低了",
+        "位置完全不變",
+        "繞著北極星逆時針旋轉了一定角度",
+        "消失在西邊"
+      ],
+      "answer_index": null,
+      "explanation": "北半球的星星看起來會圍繞北極星做逆時針的規律運行。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6
+    }
+  ],
+  "publisher": "NanYi"
+}

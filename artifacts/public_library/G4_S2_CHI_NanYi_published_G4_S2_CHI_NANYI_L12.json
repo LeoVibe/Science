@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "NANYI",
+    "lesson": "L12",
+    "order": 12,
+    "title": "九蛙傳奇",
+    "theme": "地標故事與乾旱/氣候警示。"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "在《L12 九蛙傳奇》中，作者最想傳達的核心精神是什麼？",
+      "options": [
+        "對水情指標的深刻體會與生命反思",
+        "如何利用小聰明來躲避應盡的責任",
+        "對所有傳統文化都保持否定與排斥",
+        "追求個人名利與權位的提升之道"
+      ],
+      "answer_index": "對水情指標的深刻體會與生命反思",
+      "explanation": "高品質命題解析：根據課文主旨與細節設計。",
+      "commonMisconception": "",
+      "quality_level": "QL3",
+      "cqi_score": 7,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": "對水情指標的深刻體會與生命反思",
+        "ai_reasoning": "題目選項設計過於單一，缺乏區辨度。選項(1)(2)(3)皆與課文核心無關，建議增加與環境保育或水資源管理相關的干擾項，以提升評量效度。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ]
+}

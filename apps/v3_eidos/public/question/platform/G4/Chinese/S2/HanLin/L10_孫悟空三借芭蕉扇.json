@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "孫悟空為什麼要借芭蕉扇？",
       "options": [
         "烤肉",
@@ -19,10 +19,12 @@
         "滅火",
         "搧風"
       ],
-      "answer": "過火焰山",
+      "answer_index": "過火焰山",
       "explanation": "為了通過火焰山去取經。",
-      "cqi_score": 5.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }

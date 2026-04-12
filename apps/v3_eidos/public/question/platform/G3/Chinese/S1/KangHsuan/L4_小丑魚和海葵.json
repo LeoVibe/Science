@@ -5,12 +5,13 @@
     "subject": "Chinese",
     "publisher": "KangHsuan",
     "lesson": "L4",
+    "order": 4,
     "title": "小丑魚和海葵"
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "小丑魚能在有毒的海葵觸手中進出，主要是因為牠身體表面有一層特別的「黏液」。這在生物適應上的建設性啟發是？",
       "options": [
         "牠比較愛乾淨",
@@ -18,14 +19,15 @@
         "因為牠游得很快",
         "海葵不喜歡吃魚"
       ],
-      "answer": "「防禦性演化」：開發出與環境威脅共處 the 生理機制，將「死地」轉化為「保護區」",
+      "answer_index": null,
       "explanation": "生物透過特化功能與環境深度綁定，達成生存優勢。",
-      "cqi_score": 8.5,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 7
     },
     {
-      "id": "2",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "海葵提供小丑魚安全的家，而小丑魚幫海葵清理寄生蟲。這種關係在生態學上稱為？",
       "options": [
         "主人與客人關係",
@@ -33,14 +35,15 @@
         "好朋友一起玩",
         "貓和老鼠的關係"
       ],
-      "answer": "互利共生（Mutualism）：雙方皆在互動中獲得生存利益，達成動態平衡",
+      "answer_index": null,
       "explanation": "大自然中「合作」往往比「競爭」更能創造永續。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
     },
     {
-      "id": "3",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "如果海葵消失了，小丑魚會面臨什麼樣的建設性威脅？",
       "options": [
         "牠會變得很孤單",
@@ -48,23 +51,26 @@
         "牠會去找章魚玩",
         "牠會變成珊瑚礁"
       ],
-      "answer": "失去天然的「生物防護網（Biological Net）」，導致被大型掠食者捕食的機率大幅提升",
+      "answer_index": null,
       "explanation": "系統中的成員互相依賴，一環缺失則全盤受損。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "4",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "小丑魚會排泄尿液來提供海葵生長所需的氮磷營養，這說明了「廢棄物」在健康的生態系統中其實是重要的資源。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "生態循環中沒有真正的垃圾，只有錯位的資源。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4
     },
     {
-      "id": "5",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "為什麼小丑魚要不斷在海葵觸手中摩擦身體？這在「關係建立」上的行為學意義是？",
       "options": [
         "因為皮膚很癢",
@@ -72,14 +78,15 @@
         "為了讓海葵變美",
         "這是牠們的舞蹈行為"
       ],
-      "answer": "「認證與偽裝」：讓自己混合海葵的味道，使海葵不將其識別為入侵者或獵物",
+      "answer_index": null,
       "explanation": "建立互信（Trust building）需要持續的行為訓練與信號確認。",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.25
     },
     {
-      "id": "6",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "如果把小丑魚隨意換到不熟悉的「海葵家」，會發生什麼事？",
       "options": [
         "牠會很開心有新家",
@@ -87,23 +94,26 @@
         "牠會在那裡睡覺",
         "牠會帶海葵去旅遊"
       ],
-      "answer": "可能會被海葵叮咬甚至捕捉，因為每種海葵與小丑魚之間存在精準的匹配性（Specificity）",
+      "answer_index": null,
       "explanation": "關係的深淺建立在長期的生理與行為適應之上。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
-      "id": "7",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "小丑魚與海葵的故事告訴我們，即使雙方外貌與性格迥異（魚vs.觸手植物感生物），依然能發展出深刻的合作模式。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "差異性是互補的基礎，合作能超越族群邊界。",
-      "cqi_score": 5.5,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3.5
     },
     {
-      "id": "8",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "本課科普知識對於我們處理「跨部門合作」的建設性啟發是？",
       "options": [
         "要多種花草",
@@ -111,14 +121,15 @@
         "看到有毒的對象要躲遠一點",
         "要把好朋友帶在身邊"
       ],
-      "answer": "尋找對方的需求（痛點），並提供自己特有的技術（亮點）來達成共贏格局",
+      "answer_index": null,
       "explanation": "價值的交換（Value Exchange）是共生關係長久的關鍵。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 6
     },
     {
-      "id": "9",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "科學家研究小丑魚黏液來開發防叮咬藥劑。這類研究方向屬於？",
       "options": [
         "化學實驗",
@@ -126,23 +137,26 @@
         "捕魚技術",
         "深海探險"
       ],
-      "answer": "仿生學（Biomimicry）：學習自然的解決方案來優化人類生活品質",
+      "answer_index": null,
       "explanation": "大自然是人類最好的工程與設計導師。",
-      "cqi_score": 6,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 5.25
     },
     {
-      "id": "10",
-      "type": "true_false",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "如果海洋環境遭到汙染或暖化（白化現象），這個「魚葵共生體」會因為海葵的死亡而同步崩潰。",
-      "answer": "True",
+      "options": [],
+      "answer_index": null,
       "explanation": "保護單一物種是不夠的，必須保護整個生態鏈。",
-      "cqi_score": 4,
-      "quality_level": "L1"
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 4.25
     },
     {
-      "id": "11",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "片中強調「家」不一定要很大很豪華。對小丑魚而言，一個「家」的最核心建設性定義是？",
       "options": [
         "有很多好吃的",
@@ -150,10 +164,12 @@
         "離水面很近",
         "有很多海葵觸手可以玩"
       ],
-      "answer": "具備「排他性的安全感（Exclusive Safety）」與能與他者產生深刻連結的歸屬空間",
-      "explanation": "安全感與連結感，是所有生物對「家」的共同期盼。 ",
-      "cqi_score": 7,
-      "quality_level": "L4"
+      "answer_index": null,
+      "explanation": "安全感與連結感，是所有生物對「家」的共同期盼。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 6.5
     }
-  ]
+  ],
+  "publisher": "KangHsuan"
 }

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L1",
+    "order": 1,
+    "title": "Who Are You?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who are you? B: I ______ a student.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "are"
+      ],
+      "answer_index": null,
+      "explanation": "配合第一人稱單數 I，使用 be 動詞 am。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The question 'Who are you?' is used to ask about someone's identity.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "'Who are you?' 用來詢問對方的身份。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who are you? B: I am ______ (大明).",
+      "options": [],
+      "answer_index": null,
+      "explanation": "填入人名完成自我介紹。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which of the following is a greeting?",
+      "options": [
+        "I am a boy.",
+        "Hello!",
+        "Who are you?",
+        "This is a pen."
+      ],
+      "answer_index": null,
+      "explanation": "Hello! 是最常見的打招呼用語。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Who are you? B: I am your ______. (老師)",
+      "options": [
+        "father",
+        "friend",
+        "student",
+        "teacher"
+      ],
+      "answer_index": null,
+      "explanation": "teacher 的意思是老師。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

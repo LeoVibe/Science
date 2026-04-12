@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S2",
+    "subject": "Chinese",
+    "publisher": "KangHsuan",
+    "lesson": "L10",
+    "order": 10,
+    "title": "L10"
+  },
+  "questions": [
+    {
+      "taxonomy": "applied",
+      "scenario": "結局的因果推論與道德反思",
+      "question": "故事結尾，老太婆回到破木盆旁。如果有人說「金魚太小氣了」，你覺得正確嗎？",
+      "options": [
+        "正確，如果金魚大方一點就不會產生這場悲劇了",
+        "不正確，是老太婆自己貪心無度才招來這個結果",
+        "正確，因為金魚明明有很多法力卻不肯分享出來",
+        "不正確，因為漁夫早就應該跟老太婆離婚分居了"
+      ],
+      "answer_index": 1,
+      "explanation": "金魚已經滿足了多次願望，是老太婆的「貪婪超越底線」才導致一切回歸原點。責任在於貪婪者本身。",
+      "commonMisconception": "將責任歸咎於金魚或漁夫，忽略真正的因果：貪婪是自食惡果的根源。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "漁夫的內心掙扎推論",
+      "question": "漁夫一次次去海邊求金魚時，他心裡最可能有什麼感受？",
+      "options": [
+        "覺得很丟臉為難卻不敢違抗老太婆命令",
+        "非常得意因為自己擁有一條會說話又神奇的寶貝魚",
+        "每次去海邊都覺得很開心就好像去度假旅行一樣",
+        "覺得無所謂反正金魚的法力用不完怎樣都可以的吧"
+      ],
+      "answer_index": 0,
+      "explanation": "漁夫內心的羞愧與無奈正是角色的複雜之處——善良的人被迫去做自己知道不對的事。",
+      "commonMisconception": "誤以為漁夫也享受從金魚那裡得來的好處，忽略他每次前往時的內心煎熬。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "故事開頭的情境",
+      "question": "故事一開始，老漁夫和老婆婆住在哪裡？",
+      "options": [
+        "寬敞的石屋裡",
+        "破舊的小茅屋裡",
+        "豪華的宮殿裡",
+        "美麗的海邊別墅"
+      ],
+      "answer_index": 1,
+      "explanation": "課文開頭明確描述老漁夫和老婆婆住在「破舊的小茅屋裡」，反映了他們生活貧困的狀況。",
+      "commonMisconception": "學生可能因為後續情節中老婆婆的願望，而誤選到較好的居住環境。",
+      "quality_level": "L3",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "漁夫第一次遇到金魚時",
+      "question": "【在漁夫第一次捕到金魚時】，他立刻放生金魚，這行為最能說明漁夫的哪種特質？",
+      "options": [
+        "他很害怕金魚會報復",
+        "他對金魚的願望感到好奇",
+        "他心地善良，不忍傷害生命",
+        "他覺得金魚沒有利用價值"
+      ],
+      "answer_index": 2,
+      "explanation": "漁夫在沒有任何要求的情況下就放生金魚，顯示他心地善良，不忍心傷害生命。",
+      "commonMisconception": "將漁夫的行為解讀為單純的害怕或好奇。",
+      "quality_level": "L5",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "老婆婆的第一個要求",
+      "question": "老婆婆聽到漁夫放生金魚後，第一個要求金魚幫他們變出什麼？",
+      "options": [
+        "一棟新房子",
+        "一個新的木盆",
+        "許多金銀財寶",
+        "一套華麗的衣服"
+      ],
+      "answer_index": 1,
+      "explanation": "課文中清楚提到，老婆婆得知漁夫放生金魚後，第一個要求就是一個「新的木盆」。",
+      "commonMisconception": "學生可能被後續老婆婆更大的願望所干擾。",
+      "quality_level": "L3",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "漁夫傳達老婆婆的要求時",
+      "question": "【在漁夫每次去海邊向金魚傳達老婆婆的要求時】，他的心情通常是怎麼樣的？",
+      "options": [
+        "充滿期待與喜悅",
+        "感到興奮與驕傲",
+        "帶著忐忑不安與為難",
+        "覺得理所當然，毫不猶豫"
+      ],
+      "answer_index": 2,
+      "explanation": "漁夫每次都「不情願地」或「滿懷憂愁地」去向金魚轉達要求，顯示他內心為難且不安。",
+      "commonMisconception": "將漁夫的順從誤解為認同或期待。",
+      "quality_level": "L5",
+      "cqi_score": 7.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "金魚最後的反應",
+      "question": "金魚對於老婆婆最後一個要求（要金魚做她的奴隸）沒有做出任何回應，直接讓一切恢復原狀。你認為金魚這樣做的原因最可能是什麼？",
+      "options": [
+        "金魚的法力用完了",
+        "金魚覺得老婆婆的要求太過分，決定不再滿足她",
+        "金魚想考驗老婆婆的耐心",
+        "金魚對漁夫感到非常失望"
+      ],
+      "answer_index": 1,
+      "explanation": "金魚之前的忍耐到了界線，老婆婆極致的貪婪與傲慢導致金魚停止回報。",
+      "commonMisconception": "從魔法故事角度思考（法力耗盡）。",
+      "quality_level": "L5",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "老婆婆成為貴婦後",
+      "question": "【在老婆婆成為貴婦之後】，她對待漁夫的態度有了什麼明顯的轉變？",
+      "options": [
+        "變得更加溫柔體貼",
+        "開始感謝漁夫的辛勞",
+        "對漁夫頤指氣使，更加輕視",
+        "鼓勵漁夫繼續捕魚賺錢"
+      ],
+      "answer_index": 2,
+      "explanation": "老婆婆在地位提升後變得更加傲慢，對漁夫頤指氣使。",
+      "commonMisconception": "誤以為地位提升會帶來更好的脾氣。",
+      "quality_level": "L5",
+      "cqi_score": 4
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "故事的結局",
+      "question": "故事的結局是什麼？",
+      "options": [
+        "老婆婆成為了海上的統治者",
+        "漁夫和老婆婆得到了所有財寶",
+        "一切都變回了最初的破茅屋和破木盆",
+        "金魚和漁夫成為了朋友"
+      ],
+      "answer_index": 2,
+      "explanation": "故事結尾一切恢復原狀，老婆婆又坐在破舊的茅屋前。",
+      "commonMisconception": "學生可能被中途的高峰願望帶走。",
+      "quality_level": "L3",
+      "cqi_score": 2.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "老婆婆的行為模式",
+      "question": "從老婆婆不斷提出新要求來看，她是一個怎樣的人？",
+      "options": [
+        "知足常樂的人",
+        "充滿好奇心的人",
+        "貪得無厭的人",
+        "對生活充滿熱情的人"
+      ],
+      "answer_index": 2,
+      "explanation": "無止境的要求展現了老婆婆「貪得無厭」的性格。",
+      "commonMisconception": "誤將貪婪解讀為對生活的熱情。",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "故事的寓意",
+      "question": "《漁夫和金魚》這個故事最想告訴我們什麼道理？",
+      "options": [
+        "只要努力，夢想就能實現",
+        "善良的人終會得到好報",
+        "過度貪婪會導致一無所有",
+        "海洋生物擁有神奇的力量"
+      ],
+      "answer_index": 2,
+      "explanation": "老婆婆因為貪婪失去一切，寓意明確。",
+      "commonMisconception": "誤以為是好人有好報的故事。",
+      "quality_level": "L3",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "漁夫在不同情境下的感受",
+      "question": "【在老婆婆從貴婦變成女皇的過程中】，漁夫的心情變化最可能是？",
+      "options": [
+        "從開心到滿足",
+        "從好奇到驚訝",
+        "從無奈到恐懼",
+        "從興奮到期待"
+      ],
+      "answer_index": 2,
+      "explanation": "漁夫從嘆氣無奈轉為嚇得發抖，預感不祥。",
+      "commonMisconception": "忽略其內心掙扎，以為他會因為富貴而開心。",
+      "quality_level": "L5",
+      "cqi_score": 5.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "金魚的報恩方式",
+      "question": "金魚在故事中，如何報答漁夫的放生之恩？",
+      "options": [
+        "送給漁夫許多金幣",
+        "讓漁夫擁有捕不完的魚",
+        "滿足老婆婆提出的所有願望",
+        "每天陪漁夫聊天解悶"
+      ],
+      "answer_index": 2,
+      "explanation": "金魚透過滿足老婆婆的要求來對漁夫報恩。",
+      "commonMisconception": "誤以為直接報答漁夫本人。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "漁夫和老婆婆的對比",
+      "question": "故事中，漁夫和老婆婆的性格有什麼最主要的對比？",
+      "options": [
+        "一個勤勞，一個懶惰",
+        "一個勇敢，一個膽小",
+        "一個知足，一個貪婪",
+        "一個聰明，一個糊塗"
+      ],
+      "answer_index": 2,
+      "explanation": "知足善良與貪得無厭是兩人的核心性格對比。",
+      "commonMisconception": "迷感於其他表面特徵。",
+      "quality_level": "L3",
+      "cqi_score": 6.5
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "漁夫的職業",
+      "question": "故事中的老漁夫是做什麼工作的？",
+      "options": [
+        "農夫",
+        "漁夫",
+        "樵夫",
+        "獵人"
+      ],
+      "answer_index": 1,
+      "explanation": "故事明確指出靠捕魚維生。",
+      "commonMisconception": "基礎訊息，但可能因粗心錯選。",
+      "quality_level": "L3",
+      "cqi_score": 4.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "金魚的回應",
+      "question": "金魚每次聽到老婆婆的要求後，雖然會實現願望，但牠的反應通常是如何？",
+      "options": [
+        "歡喜地立刻答應",
+        "帶著微笑地祝福",
+        "不發一語地實現",
+        "先提出條件再答應"
+      ],
+      "answer_index": 2,
+      "explanation": "金魚通常「沒有說什麼」就實現了，反映了某種無言或沉默。",
+      "commonMisconception": "想像金魚像神仙一樣有活潑回應。",
+      "quality_level": "L5",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "如果漁夫拒絕老婆婆",
+      "question": "如果故事中，漁夫一開始就拒絕老婆婆，不向金魚提任何要求，你認為結局可能會如何？",
+      "options": [
+        "老婆婆會自己去海邊找金魚",
+        "漁夫和老婆婆會一直住在破茅屋，但心境平和",
+        "金魚會生氣，不再理會漁夫",
+        "漁夫會因此失去金魚的友誼"
+      ],
+      "answer_index": 1,
+      "explanation": "維持原狀能避免後續的災難與懲罰。",
+      "commonMisconception": "誤以為金魚會報復。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "老婆婆的最後一個願望",
+      "question": "【在老婆婆成為海上的統治者後】，她又提出了什麼讓金魚不再回應的要求？",
+      "options": [
+        "要金魚把她變成仙女",
+        "要金魚把大海變成陸地",
+        "要金魚做她的奴隸，聽她使喚",
+        "要金魚為她建造一座海底宮殿"
+      ],
+      "answer_index": 2,
+      "explanation": "最後的要求是讓金魚當奴隸，這造成了斷絕。",
+      "commonMisconception": "混淆願望順序。",
+      "quality_level": "L5",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "金魚的點",
+      "question": "這條金魚最特別的能力是什麼？",
+      "options": [
+        "能變成各種動物",
+        "能說人類的語言",
+        "能讓東西隱形",
+        "能預知未來"
+      ],
+      "answer_index": 1,
+      "explanation": "「會說話」是故事一切奇妙情節的起點。",
+      "commonMisconception": "忽略語音溝通是實現願望的前提。",
+      "quality_level": "L3",
+      "cqi_score": 2.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "故事中海的顏色變化",
+      "question": "故事中，金魚每次實現願望後大海的顏色變化象徵什麼？",
+      "options": [
+        "金魚心情的好壞",
+        "天氣的變化",
+        "老婆婆貪婪程度的加深",
+        "漁夫捕魚的收穫"
+      ],
+      "answer_index": 2,
+      "explanation": "海洋混濁的變化象徵貪婪帶來的危機與不祥。",
+      "commonMisconception": "與天氣或心情直接挂鉤。",
+      "quality_level": "L3",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "對老婆婆行為的看法",
+      "question": "你認為老婆婆不斷提出要求，最主要的原因是什麼？",
+      "options": [
+        "她只是想讓生活變好一點",
+        "她無法控制自己的慾望，導致貪得無厭",
+        "她覺得漁夫應該為她爭取更多",
+        "她想證明金魚的法力有多強大"
+      ],
+      "answer_index": 1,
+      "explanation": "無止境的升級顯示其已喪失對慾望的控制。",
+      "commonMisconception": "過度同情其「追求好生活」的想法。",
+      "quality_level": "L3",
+      "cqi_score": 4.25
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "漁夫在海邊的景象",
+      "question": "【在漁夫最後一次去海邊找金魚時】，大海呈現出什麼景象？",
+      "options": [
+        "風平浪靜，陽光普照",
+        "波濤洶湧，烏雲密布",
+        "清澈見底，魚群圍繞",
+        "海面結冰，一片寂靜"
+      ],
+      "answer_index": 1,
+      "explanation": "在極端無理的要求下大海變成了「波濤洶湧，烏雲密布」。",
+      "commonMisconception": "對災難預兆描述印象模糊。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "漁夫和老婆婆最初的生活用品",
+      "question": "故事一開始，漁夫和老婆婆用什麼來捕魚？",
+      "options": [
+        "破舊的漁網",
+        "一個新的木盆",
+        "一個破木盆",
+        "高級的釣竿"
+      ],
+      "answer_index": 2,
+      "explanation": "最初是破木盆，這是故事對貧困生活的具體切入點。",
+      "commonMisconception": "學生可能只記住「新的木盆」。",
+      "quality_level": "L3",
+      "cqi_score": 5.25
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "故事結局的感受",
+      "question": "故事結局回到原點。對老婆婆來說，這可能是什麼感受？",
+      "options": [
+        "感到輕鬆自在",
+        "感到後悔和失落",
+        "感到解脫與自由",
+        "感到無所謂"
+      ],
+      "answer_index": 1,
+      "explanation": "巨大落差下必然是深刻的失落與悔恨。",
+      "commonMisconception": "過度正面化結局(以為她解脫了)。",
+      "quality_level": "L3",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "故事中金魚的角色",
+      "question": "金魚在故事中扮演的角色，除了實現願望之外，還有什麼更深層意義？",
+      "options": [
+        "牠是漁夫的朋友",
+        "牠是自然力量的象徵，對人類的貪婪做出反應",
+        "牠是老婆婆的魔法僕人",
+        "牠是故事中唯一的受害者"
+      ],
+      "answer_index": 1,
+      "explanation": "象徵著對過度索取的反噬，警示知足。",
+      "commonMisconception": "僅視其為提供願望的工具。",
+      "quality_level": "L5",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "老婆婆要求成為女皇時",
+      "question": "【在老婆婆要求成為女皇時】，她讓漁夫怎麼稱呼她？",
+      "options": [
+        "我的女王",
+        "我的愛人",
+        "我的夫人",
+        "我的僕人"
+      ],
+      "answer_index": 0,
+      "explanation": "「我的女王」展現其對地位尊榮的病態追求。",
+      "commonMisconception": "混淆不同階段的稱呼。",
+      "quality_level": "L3",
+      "cqi_score": 6
+    },
+    {
+      "taxonomy": "literal",
+      "scenario": "漁夫和老婆婆最初的居所",
+      "question": "故事開頭，漁夫和老婆婆的家是什麼樣子？",
+      "options": [
+        "很豪華的宮殿",
+        "很寬敞的別墅",
+        "很舒適的木屋",
+        "很破舊的茅草屋"
+      ],
+      "answer_index": 3,
+      "explanation": "最初是破舊的茅草屋，對比最後的結局恢復。",
+      "commonMisconception": "受後續宮殿場景影響。",
+      "quality_level": "L3",
+      "cqi_score": 2.75
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "漁夫的掙扎",
+      "question": "漁夫在每次提出新要求時猶豫不決，說明了他什麼？",
+      "options": [
+        "他很享受每次的旅程",
+        "他對金魚的法力感到厭煩",
+        "他內心明白老婆婆的要求是不對的，但又無法違抗",
+        "他希望老婆婆能提出更多要求"
+      ],
+      "answer_index": 2,
+      "explanation": "他在道德良知與現實控制(老婆婆命令)之間的掙扎。",
+      "commonMisconception": "誤解為對魔法的麻木。",
+      "quality_level": "L3",
+      "cqi_score": 3.75
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "老婆婆的命運",
+      "question": "你認為老婆婆最終回到破茅屋的結局，是她應得的嗎？",
+      "options": [
+        "不是，因為她只是想過更好的生活",
+        "是，因為她不知足且貪得無厭，最終自食惡果",
+        "不是，因為金魚不應該收回所有的東西",
+        "是，因為她對漁夫太兇了"
+      ],
+      "answer_index": 1,
+      "explanation": "貪愛無厭者最終失去一切是經典道義結果。",
+      "commonMisconception": "過度同情或將原因歸咎於外部環境。",
+      "quality_level": "L3",
+      "cqi_score": 4.5
+    },
+    {
+      "taxonomy": "contextual",
+      "scenario": "故事中的人物關係",
+      "question": "故事中，金魚和漁夫之間的關係，從頭到尾最能如何形容？",
+      "options": [
+        "主人與寵物",
+        "恩人與被報恩者",
+        "朋友與玩伴",
+        "敵人與對手"
+      ],
+      "answer_index": 1,
+      "explanation": "放生之情與報恩之責是兩者核心連結。",
+      "commonMisconception": "忽略「報恩」這個核心推動力。",
+      "quality_level": "L3",
+      "cqi_score": 3
+    }
+  ],
+  "publisher": "KangHsuan"
+}

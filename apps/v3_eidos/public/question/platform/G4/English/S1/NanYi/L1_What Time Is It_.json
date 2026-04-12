@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G4",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "NanYi",
+    "lesson": "L1",
+    "order": 1,
+    "title": "What Time Is It?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What time is it? B: It ______ four o'clock.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "do"
+      ],
+      "answer_index": "is",
+      "explanation": "回答時間使用單數 be 動詞 is。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "The sentence 'It's time for bed' means you should go to sleep now.",
+      "options": [],
+      "answer_index": "True",
+      "explanation": "It's time for... 用於提醒該做某事的時間到了。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: What time is it? B: It's 10:______. (10:15)",
+      "options": [],
+      "answer_index": "fifteen",
+      "explanation": "15 的英文是 fifteen。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: It's 12:30. Let's have ______.",
+      "options": [
+        "a shower",
+        "dinner",
+        "lunch",
+        "breakfast"
+      ],
+      "answer_index": "lunch",
+      "explanation": "12:30 通常是午餐時間。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Excuse me. ______ is it? B: It's nine o'clock.",
+      "options": [
+        "Who",
+        "What time",
+        "What name",
+        "How old"
+      ],
+      "answer_index": "What time",
+      "explanation": "詢問時間的固定句型為 What time is it?。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    }
+  ],
+  "publisher": "NanYi"
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "grade": "G3",
+    "semester": "S1",
+    "subject": "English",
+    "publisher": "KangHsuan",
+    "lesson": "L3",
+    "order": 3,
+    "title": "Is It a Bird?"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Is it a bird? B: Yes, it ______.",
+      "options": [
+        "am",
+        "is",
+        "do",
+        "are"
+      ],
+      "answer_index": null,
+      "explanation": "Yes/No 問句的簡答要與問句的 be 動詞一致。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "If someone asks 'Is it a cat?', and it is a dog, the answer should be 'No, it isn't.'",
+      "options": [],
+      "answer_index": null,
+      "explanation": "否定簡答使用 No, it is not (isn't)。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Is it a ______ (大象)? B: Yes, it is.",
+      "options": [],
+      "answer_index": null,
+      "explanation": "elephant 的意思是大象。",
+      "commonMisconception": "",
+      "quality_level": "L1",
+      "cqi_score": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "A: Is it a dog? B: ______. It's a cat.",
+      "options": [
+        "Yes, it is",
+        "No, it isn't",
+        "Hello",
+        "I don't know"
+      ],
+      "answer_index": null,
+      "explanation": "因為後面提到 It's a cat，所以前面要先否認。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5.5
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "Which animal can fly?",
+      "options": [
+        "cat",
+        "bird",
+        "dog",
+        "fish"
+      ],
+      "answer_index": null,
+      "explanation": "鳥類通常具備飛行能力。",
+      "commonMisconception": "",
+      "quality_level": "L4",
+      "cqi_score": 5
+    }
+  ],
+  "publisher": "KangHsuan"
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "Math",
+    "publisher": "NanYi",
+    "lesson": "L9",
+    "order": 9,
+    "title": "L9"
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "飲料容量與平分 (情境 5)",
+      "question": "哥哥在一個裝有 2 公升水的長方體水缸裡面丟入一塊大石頭（石頭完全沉入水中且水沒溢出），此時水缸的水位上升。如果這塊石頭的體積是 500 立方公分，請問現在水缸裡「水和石頭」的總體積相當於多少公升？",
+      "options": [
+        "2.5 公升",
+        "2500 公升",
+        "502 公升",
+        "3 公升"
+      ],
+      "answer_index": 0,
+      "explanation": "原本的水是 2 公升 = 2000 立方公分。石頭 500 立方公分 = 0.5 公升。總容積（體積）等同於水加石頭的體積：2 + 0.5 = 2.5 公升。",
+      "commonMisconception": "將 500 誤認成 5 公升，或者對沉體與排水體積轉換公式概念不清。",
+      "quality_level": "L5",
+      "cqi_score": 8
+    }
+  ],
+  "publisher": "NanYi"
+}

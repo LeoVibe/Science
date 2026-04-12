@@ -5,54 +5,48 @@
   "subject": "SocialStudies",
   "items": [
     {
-      "id": "S1",
+      "id": "L1",
       "title": "家鄉的自然環境",
-      "file": "S1_家鄉的自然環境.json",
-      "count": 5
+      "file": "L1_家鄉的自然環境.json",
+      "count": 1
     },
     {
-      "id": "S2",
+      "id": "L2",
       "title": "家鄉的傳統住屋與器物",
-      "file": "S2_家鄉的傳統住屋與器物.json",
-      "count": 5
+      "file": "L2_家鄉的傳統住屋與器物.json",
+      "count": 1
     },
     {
-      "id": "S3",
+      "id": "L3",
       "title": "家鄉的傳統信仰與老街",
-      "file": "S3_家鄉的傳統信仰與老街.json",
-      "count": 5
+      "file": "L3_家鄉的傳統信仰與老街.json",
+      "count": 1
     },
     {
-      "id": "S4",
+      "id": "L4",
       "title": "家鄉的作息、節慶與節日",
-      "file": "S4_家鄉的作息、節慶與節日.json",
-      "count": 5
+      "file": "L4_家鄉的作息、節慶與節日.json",
+      "count": 1
     },
     {
-      "id": "Soc4",
-      "title": "家鄉的傳統住屋與器物",
-      "file": "Soc4_家鄉的傳統住屋與器物.json",
-      "count": 5
-    },
-    {
-      "id": "Soc6",
+      "id": "L6",
       "title": "家鄉的傳統信仰與老街",
-      "file": "Soc6_家鄉的傳統信仰與老街.json",
-      "count": 5
+      "file": "L6_家鄉的傳統信仰與老街.json",
+      "count": 1
     },
     {
-      "id": "Soc8",
+      "id": "L8",
       "title": "家鄉的作息、節慶與節日",
-      "file": "Soc8_家鄉的作息、節慶與節日.json",
-      "count": 5
+      "file": "L8_家鄉的作息、節慶與節日.json",
+      "count": 1
     }
   ],
   "moduleMetaData": {
-    "status": "disabled",
+    "status": "enabled",
     "quality": {
-      "depthScore": 6,
-      "accuracyScore": 8,
-      "isVerified": false
+      "depthScore": 9,
+      "accuracyScore": 9.5,
+      "isVerified": true
     }
   }
 }

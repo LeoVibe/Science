@@ -1,6 +1,6 @@
 {
   "meta": {
-    "grade": "grade_4",
+    "grade": "G4",
     "semester": "S2",
     "subject": "Chinese",
     "publisher": "HanLin",
@@ -10,8 +10,8 @@
   },
   "questions": [
     {
-      "id": "1",
-      "type": "multiple_choice",
+      "taxonomy": "inferential",
+      "scenario": "",
       "question": "阿里棒棒是指？",
       "options": [
         "飛魚",
@@ -19,10 +19,12 @@
         "原住民勇士",
         "山脈"
       ],
-      "answer": "飛魚",
+      "answer_index": "飛魚",
       "explanation": "達悟族語言中的飛魚。",
-      "cqi_score": 4.5,
-      "quality_level": "L3"
+      "commonMisconception": "",
+      "quality_level": "L3",
+      "cqi_score": 4.5
     }
-  ]
+  ],
+  "publisher": "HanLin"
 }
