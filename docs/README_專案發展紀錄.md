@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-12
-`updated_by`: Cursor（JOB-182 /pj_sync）
+`last_updated`: 2026-04-13
+`updated_by`: Claude Code（JOB-184 HanLin 出題完成 & /pj_sync）
 
 ---
 
@@ -35,7 +35,7 @@
 | JOB-178 | G5S2 國語三版本盲測（`question/platform/G5/Chinese/S2`）：全量 `--force` 完成；`run_blind_eval.js` 修正五下國語 R4 路徑、KL4 依 `meta.title` 與課次對齊；康軒曾誤配 KL4 已重跑；`j178_g5s2_chinese_apply.js` 回寫 `is_publishable`；多課未達每課 25 題可上版、大量 Mismatch 待人工 triage。見 `jobs/JOB-178-Report.md` | 🟡 未達 DoD（待 triage／補題） |
 | JOB-182 | G5S2 國語 KL4 相關性刪題：KL4 研究比對確認 14 課脫節，刪除 455 題，保留 22 課 559 題。見 `jobs/JOB-182-Report.md` | 🟢 DONE |
 | JOB-183 | G5S2 國語 14 課重出題補強：翰林 L1/L8/L10/L11、康軒 L4/L7/L9/L10/L12、南一 L1/L5/L6/L7/L12；共 625 題，全課 QL3（avgCqi 5.80–8.94）；manifest 未完全同步（遺留）。見 `jobs/JOB-183-Report.md` | 🟢 DONE |
-| JOB-184 | G5S2 社會三版本出題：翰林 L1-L6、康軒 L1-L5、南一 L1-L5，共 16 課 ~640 題，進行中。 | 🟡 進行中 |
+| JOB-184 | **G5S2 社會三版本出題 第一階段完成**：HanLin L1-L5 共 147 題（L1:7 L2:23 L3:45 L4:36 L5:36），QL3 均達標（CQI 6.11–7.25）；L4/L5 各因 API 503 失敗各失 9 題（API 限制）；品管：欄位完整性通過（0 errors）；待康軒、南一補齊出題。見 `jobs/JOB-184-Report.md` | 🟢 第一階段 DONE |
 
 ### 2026-04-11
 | JOB | 簡述 | 狀態 |
