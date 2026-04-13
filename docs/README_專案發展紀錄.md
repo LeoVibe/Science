@@ -1,4 +1,4 @@
-# 📋 Eidos 專案發展紀錄
+| JOB-184 | **G5S2 社會三版本出題 補題&品管完成**：HanLin L1-L5 全課 165 題達標；L2 BIAS 修正（答案分布重平衡），L4/L5 補充至 45 題各；CQI-P 全課 ≥5.5（平均 6.84–7.27）；欄位驗收 0 errors；下一步：G5S2 社會盲測啟動待確認。見 `jobs/JOB-184-Report.md` | 🟢 補題階段 DONE |# 📋 Eidos 專案發展紀錄
 
 `last_updated`: 2026-04-13
 `updated_by`: Claude Code（JOB-184 HanLin 出題完成 & /pj_sync）
