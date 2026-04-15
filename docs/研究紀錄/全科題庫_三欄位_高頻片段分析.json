@@ -1,0 +1,4916 @@
+{
+  "meta": {
+    "last_updated": "2026-04-15",
+    "updated_by": "Claude Code (claude-sonnet-4-6, JOB-190)",
+    "scope": "question/platform/**/*.json（全科 G3-G6，排除 manifest/mismatch/catalog/backup）",
+    "fileCount": 653,
+    "questionCount": 12930,
+    "minFreq": 5,
+    "topN": 100,
+    "fieldTotals": {
+      "question": 36442,
+      "scenario": 12690,
+      "explanation": 38980
+    }
+  },
+  "rankings": {
+    "question": [
+      {
+        "segment": "根據課文內容",
+        "total": 215,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            81
+          ],
+          [
+            "G3/Chinese",
+            76
+          ],
+          [
+            "G6/Chinese",
+            33
+          ],
+          [
+            "G5/Chinese",
+            18
+          ],
+          [
+            "G5/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明去超市買蘋果",
+        "total": 126,
+        "topSubjects": [
+          [
+            "G5/Math",
+            59
+          ],
+          [
+            "G4/Math",
+            43
+          ],
+          [
+            "G6/Math",
+            21
+          ],
+          [
+            "G3/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "根據課文",
+        "total": 111,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            52
+          ],
+          [
+            "G3/Chinese",
+            28
+          ],
+          [
+            "G4/Chinese",
+            27
+          ],
+          [
+            "G6/Chinese",
+            3
+          ],
+          [
+            "G4/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "一袋蘋果有 8 顆",
+        "total": 78,
+        "topSubjects": [
+          [
+            "G5/Math",
+            43
+          ],
+          [
+            "G4/Math",
+            21
+          ],
+          [
+            "G6/Math",
+            12
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "下列敘述何者正確",
+        "total": 75,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            23
+          ],
+          [
+            "G4/SocialStudies",
+            16
+          ],
+          [
+            "G4/Science",
+            7
+          ],
+          [
+            "G6/SocialStudies",
+            7
+          ],
+          [
+            "G4/Chinese",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "請依四年級自然課所學仔細判斷：以下敘述與選項中",
+        "total": 74,
+        "topSubjects": [
+          [
+            "G4/Science",
+            74
+          ]
+        ]
+      },
+      {
+        "segment": "一袋蘋果賣 85 元",
+        "total": 57,
+        "topSubjects": [
+          [
+            "G5/Math",
+            23
+          ],
+          [
+            "G4/Math",
+            21
+          ],
+          [
+            "G6/Math",
+            12
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "你會怎麼做",
+        "total": 51,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            39
+          ],
+          [
+            "G3/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G5/Chinese",
+            3
+          ],
+          [
+            "G6/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽準備了 36 顆水餃",
+        "total": 47,
+        "topSubjects": [
+          [
+            "G5/Math",
+            22
+          ],
+          [
+            "G4/Math",
+            16
+          ],
+          [
+            "G6/Math",
+            8
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明到超市買蘋果",
+        "total": 40,
+        "topSubjects": [
+          [
+            "G5/Math",
+            18
+          ],
+          [
+            "G4/Math",
+            14
+          ],
+          [
+            "G6/Math",
+            8
+          ]
+        ]
+      },
+      {
+        "segment": "下列何者正確",
+        "total": 39,
+        "topSubjects": [
+          [
+            "G6/Science",
+            8
+          ],
+          [
+            "G4/Science",
+            7
+          ],
+          [
+            "G4/SocialStudies",
+            6
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G5/SocialStudies",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽總共買了 5 袋",
+        "total": 39,
+        "topSubjects": [
+          [
+            "G5/Math",
+            21
+          ],
+          [
+            "G4/Math",
+            11
+          ],
+          [
+            "G6/Math",
+            6
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "蘋果一袋賣 85 元",
+        "total": 35,
+        "topSubjects": [
+          [
+            "G4/Math",
+            19
+          ],
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "活動開始後",
+        "total": 35,
+        "topSubjects": [
+          [
+            "G4/Math",
+            15
+          ],
+          [
+            "G5/Math",
+            15
+          ],
+          [
+            "G6/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽買了 3 袋",
+        "total": 35,
+        "topSubjects": [
+          [
+            "G4/Math",
+            15
+          ],
+          [
+            "G5/Math",
+            14
+          ],
+          [
+            "G6/Math",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "橘子一袋賣 68 元",
+        "total": 31,
+        "topSubjects": [
+          [
+            "G4/Math",
+            17
+          ],
+          [
+            "G5/Math",
+            10
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "根據課文描述",
+        "total": 29,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            13
+          ],
+          [
+            "G4/Chinese",
+            10
+          ],
+          [
+            "G3/Chinese",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "結帳時媽媽拿出一張 500 元鈔票",
+        "total": 28,
+        "topSubjects": [
+          [
+            "G4/Math",
+            15
+          ],
+          [
+            "G5/Math",
+            9
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "課文中提到",
+        "total": 27,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            17
+          ],
+          [
+            "G5/Chinese",
+            8
+          ],
+          [
+            "G6/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明去超市買水果",
+        "total": 26,
+        "topSubjects": [
+          [
+            "G5/Math",
+            12
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            6
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明到超市買水果",
+        "total": 26,
+        "topSubjects": [
+          [
+            "G5/Math",
+            13
+          ],
+          [
+            "G4/Math",
+            9
+          ],
+          [
+            "G6/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明去超市採買",
+        "total": 23,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G4/Math",
+            8
+          ],
+          [
+            "G6/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "最主要的原因是什麼",
+        "total": 22,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            7
+          ],
+          [
+            "G3/Chinese",
+            6
+          ],
+          [
+            "G5/Chinese",
+            4
+          ],
+          [
+            "G3/Science",
+            1
+          ],
+          [
+            "G4/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "每杯賣 25 元",
+        "total": 21,
+        "topSubjects": [
+          [
+            "G5/Math",
+            10
+          ],
+          [
+            "G4/Math",
+            8
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書架一共有 5 層",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G5/Math",
+            12
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書架共有 5 層",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G5/Math",
+            12
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "每一層可以放 24 本書",
+        "total": 19,
+        "topSubjects": [
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "讀完這課後",
+        "total": 18,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            10
+          ],
+          [
+            "G4/Chinese",
+            5
+          ],
+          [
+            "G5/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明去市場買水果",
+        "total": 18,
+        "topSubjects": [
+          [
+            "G5/Math",
+            10
+          ],
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "請問店員應該找回多少錢",
+        "total": 18,
+        "topSubjects": [
+          [
+            "G5/Math",
+            8
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "文中提到",
+        "total": 17,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            11
+          ],
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G5/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "他想起課文中提到的「感恩」精神",
+        "total": 17,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            10
+          ],
+          [
+            "G6/Chinese",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "一袋蘋果賣 115 元",
+        "total": 17,
+        "topSubjects": [
+          [
+            "G4/Math",
+            8
+          ],
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "一瓶果汁原價 45 元",
+        "total": 16,
+        "topSubjects": [
+          [
+            "G4/Math",
+            9
+          ],
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "如果你是主角",
+        "total": 16,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            9
+          ],
+          [
+            "G4/Chinese",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽帶著小明到超市買牛奶",
+        "total": 16,
+        "topSubjects": [
+          [
+            "G5/Math",
+            10
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "全家人一起去吃迴轉壽司",
+        "total": 16,
+        "topSubjects": [
+          [
+            "G5/Math",
+            9
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "這說明了什麼",
+        "total": 14,
+        "topSubjects": [
+          [
+            "G3/Science",
+            4
+          ],
+          [
+            "G5/Chinese",
+            4
+          ],
+          [
+            "G3/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            2
+          ],
+          [
+            "G5/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "一袋蘋果有 6 顆",
+        "total": 14,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "一袋蘋果賣 125 元",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽買了 3 袋蘋果和 2 袋橘子",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小明發現其中有 4 顆蘋果壞掉了",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "請問老闆應該找回多少錢",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽拿出一張 500 元鈔票付款",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書架有 5 層",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            9
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "請問小明家現在還有幾顆可以吃的蘋果",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "課文提到",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            9
+          ],
+          [
+            "G5/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "下列哪一項敘述是正確的",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            6
+          ],
+          [
+            "G3/Chinese",
+            4
+          ],
+          [
+            "G4/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "每個書櫃有 5 層",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G4/Math",
+            9
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書架一共有 6 層",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "上午賣出了 45 杯",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書櫃共有 6 層",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "下午賣出的數量比上午少 12 杯",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "在我們的日常生活中與居住的環境裡",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "常常會發生許多值得探討的相關現象",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "小明在讀完課文後",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            6
+          ],
+          [
+            "G4/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "每層可以放 24 本書",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽拿出一張 500 元鈔票付錢",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "柳丁一袋賣 85 元",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽準備了 24 顆水餃",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽總共買了 4 袋",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽準備了 24 顆手工水餃",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "打算平分給 4 個小朋友",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "如果你是課文中的主角",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ],
+          [
+            "G6/Chinese",
+            4
+          ],
+          [
+            "G5/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小明想買一套彩色筆",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "爸爸點了 3 盤鮪魚壽司",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的架上有 4 排書",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書架一共有 8 層",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽準備了 48 顆水餃",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "上午賣出了 48 杯",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽笑著聽完後",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            6
+          ],
+          [
+            "G6/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "何者正確",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Science",
+            3
+          ],
+          [
+            "G4/SocialStudies",
+            2
+          ],
+          [
+            "G5/SocialStudies",
+            2
+          ],
+          [
+            "G4/Chinese",
+            1
+          ],
+          [
+            "G5/Science",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "哪一個比較大",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Math",
+            8
+          ],
+          [
+            "G5/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "請問一本筆記本賣多少錢",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "蘋果一顆賣 28 元",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "請問店員應該找給媽媽多少錢",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小明心算了一下",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "蘋果一顆賣 25 元",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書櫃共有 5 層",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "原本預算有 500 元",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "每個人可以分到幾顆",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽買了 3 袋蘋果",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "下午賣出的數量是上午的 2 倍",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "每箱有 12 瓶",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽買了 4 袋",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "這句話暗示了什麼",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            3
+          ],
+          [
+            "G5/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "it is.",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G3/English",
+            5
+          ],
+          [
+            "G5/English",
+            2
+          ],
+          [
+            "G4/English",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "你會怎麼做呢",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            8
+          ]
+        ]
+      },
+      {
+        "segment": "一瓶牛奶原價 85 元",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "每個披薩都切成 8 片",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "小明想買 3 袋蘋果和 2 袋橘子",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "圖書館的書櫃共有 4 層",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "如果小明吃完了自己的份量後",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "四年級舉辦大隊接力",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "蘋果一袋 85 元",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "平均分給 4 個小朋友吃",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G5/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "園遊會開始後",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "這是因為",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Science",
+            4
+          ],
+          [
+            "G3/Chinese",
+            1
+          ],
+          [
+            "G4/SocialStudies",
+            1
+          ],
+          [
+            "G5/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "媽媽聽完後微笑著點點頭",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G6/Chinese",
+            2
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小明讀完課文後",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            6
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      }
+    ],
+    "scenario": [
+      {
+        "segment": "【在家庭聚餐時】",
+        "total": 324,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            87
+          ],
+          [
+            "G5/Math",
+            80
+          ],
+          [
+            "G6/Chinese",
+            60
+          ],
+          [
+            "G4/Math",
+            56
+          ],
+          [
+            "G6/Math",
+            29
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭超市購物時】",
+        "total": 137,
+        "topSubjects": [
+          [
+            "G5/Math",
+            66
+          ],
+          [
+            "G4/Math",
+            45
+          ],
+          [
+            "G6/Math",
+            23
+          ],
+          [
+            "G3/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在校園圖書館時】",
+        "total": 108,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            31
+          ],
+          [
+            "G5/Math",
+            27
+          ],
+          [
+            "G6/Chinese",
+            22
+          ],
+          [
+            "G4/Math",
+            19
+          ],
+          [
+            "G6/Math",
+            8
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭超市採買時】",
+        "total": 102,
+        "topSubjects": [
+          [
+            "G5/Math",
+            50
+          ],
+          [
+            "G4/Math",
+            34
+          ],
+          [
+            "G6/Math",
+            16
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校舉辦園遊會時】",
+        "total": 95,
+        "topSubjects": [
+          [
+            "G5/Math",
+            44
+          ],
+          [
+            "G4/Math",
+            34
+          ],
+          [
+            "G6/Math",
+            15
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【課堂探究時】",
+        "total": 65,
+        "topSubjects": [
+          [
+            "G4/Science",
+            65
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館閱讀時】",
+        "total": 61,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            38
+          ],
+          [
+            "G6/Chinese",
+            22
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校圖書館時】",
+        "total": 59,
+        "topSubjects": [
+          [
+            "G4/Math",
+            16
+          ],
+          [
+            "G5/Math",
+            15
+          ],
+          [
+            "G4/Chinese",
+            12
+          ],
+          [
+            "G6/Chinese",
+            8
+          ],
+          [
+            "G6/Math",
+            8
+          ]
+        ]
+      },
+      {
+        "segment": "【在超市購物時】",
+        "total": 54,
+        "topSubjects": [
+          [
+            "G5/Math",
+            26
+          ],
+          [
+            "G4/Math",
+            22
+          ],
+          [
+            "G6/Math",
+            5
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校圖書館整理書櫃時】",
+        "total": 51,
+        "topSubjects": [
+          [
+            "G5/Math",
+            28
+          ],
+          [
+            "G4/Math",
+            16
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末逛超市時】",
+        "total": 51,
+        "topSubjects": [
+          [
+            "G5/Math",
+            28
+          ],
+          [
+            "G4/Math",
+            16
+          ],
+          [
+            "G6/Math",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末逛市場時】",
+        "total": 48,
+        "topSubjects": [
+          [
+            "G5/Math",
+            20
+          ],
+          [
+            "G4/Math",
+            17
+          ],
+          [
+            "G6/Math",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館整理書架時】",
+        "total": 45,
+        "topSubjects": [
+          [
+            "G4/Math",
+            19
+          ],
+          [
+            "G5/Math",
+            16
+          ],
+          [
+            "G6/Math",
+            6
+          ],
+          [
+            "G3/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末公園野餐時】",
+        "total": 45,
+        "topSubjects": [
+          [
+            "G5/Math",
+            26
+          ],
+          [
+            "G4/Math",
+            10
+          ],
+          [
+            "G6/Math",
+            7
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校校慶園遊會時】",
+        "total": 38,
+        "topSubjects": [
+          [
+            "G5/Math",
+            16
+          ],
+          [
+            "G4/Math",
+            13
+          ],
+          [
+            "G6/Math",
+            9
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭超市採購時】",
+        "total": 30,
+        "topSubjects": [
+          [
+            "G5/Math",
+            13
+          ],
+          [
+            "G4/Math",
+            11
+          ],
+          [
+            "G6/Math",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館整理書櫃時】",
+        "total": 30,
+        "topSubjects": [
+          [
+            "G5/Math",
+            14
+          ],
+          [
+            "G6/Math",
+            9
+          ],
+          [
+            "G4/Math",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "【在公園散步時】",
+        "total": 28,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            14
+          ],
+          [
+            "G4/Chinese",
+            13
+          ],
+          [
+            "G3/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在校園圖書館整理書籍時】",
+        "total": 26,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G4/Math",
+            10
+          ],
+          [
+            "G6/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末逛傳統市場時】",
+        "total": 26,
+        "topSubjects": [
+          [
+            "G4/Math",
+            13
+          ],
+          [
+            "G5/Math",
+            12
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館時】",
+        "total": 25,
+        "topSubjects": [
+          [
+            "G5/Math",
+            12
+          ],
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G4/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在校慶園遊會時】",
+        "total": 25,
+        "topSubjects": [
+          [
+            "G5/Math",
+            13
+          ],
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校圖書館整理書架時】",
+        "total": 25,
+        "topSubjects": [
+          [
+            "G5/Math",
+            13
+          ],
+          [
+            "G4/Math",
+            8
+          ],
+          [
+            "G6/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店採購時】",
+        "total": 24,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G6/Math",
+            8
+          ],
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末的家庭超市採購時】",
+        "total": 22,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在課堂討論時】",
+        "total": 22,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            12
+          ],
+          [
+            "G5/Chinese",
+            7
+          ],
+          [
+            "G6/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校圖書館借書時】",
+        "total": 22,
+        "topSubjects": [
+          [
+            "G5/Math",
+            13
+          ],
+          [
+            "G4/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校運動會接力賽時】",
+        "total": 22,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店購物時】",
+        "total": 21,
+        "topSubjects": [
+          [
+            "G5/Math",
+            11
+          ],
+          [
+            "G6/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "閱讀理解",
+        "total": 21,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            21
+          ]
+        ]
+      },
+      {
+        "segment": "課文《真正的「聰明」》",
+        "total": 21,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            21
+          ]
+        ]
+      },
+      {
+        "segment": "課文《愛與成長的腳印》",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭旅遊規劃時】",
+        "total": 15,
+        "topSubjects": [
+          [
+            "G4/Math",
+            9
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館閱讀課時】",
+        "total": 15,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            8
+          ],
+          [
+            "G6/Chinese",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "【在整理圖書館書架時】",
+        "total": 14,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末逛文具店時】",
+        "total": 14,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "課文內容理解",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            8
+          ],
+          [
+            "G5/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "【在校園走廊時】",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            7
+          ],
+          [
+            "G6/Chinese",
+            5
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館整理書籍時】",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "情境與測驗標籤",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            12
+          ]
+        ]
+      },
+      {
+        "segment": "【在閱讀課文時】",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            7
+          ],
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校運動會時】",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G3/Math",
+            2
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "老師請大家觀察自己的家鄉環境與生活周遭的各種現象",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "面對這個現象",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "企圖找出最合理的解釋",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "【在放學回家的路上時】",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            6
+          ],
+          [
+            "G6/Chinese",
+            3
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "生活中的各行各業",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            10
+          ]
+        ]
+      },
+      {
+        "segment": "【在小組討論時】",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            8
+          ],
+          [
+            "G6/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭晚餐時】",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            6
+          ],
+          [
+            "G6/Chinese",
+            2
+          ],
+          [
+            "G4/SocialStudies",
+            1
+          ],
+          [
+            "G5/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館整理書架時】",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在校慶園遊會籌備時】",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Math",
+            7
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小溪的旅程與大地的禮物",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            10
+          ]
+        ]
+      },
+      {
+        "segment": "【在故事結尾時】",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ],
+          [
+            "G5/Chinese",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區公園野餐時】",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店結帳時】",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區遊樂場時】",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在社會課討論環境問題時】",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            9
+          ]
+        ]
+      },
+      {
+        "segment": "【在公園野餐時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭晚餐討論時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            4
+          ],
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G5/SocialStudies",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在課堂小組討論時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            7
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在課後小組討論時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            5
+          ],
+          [
+            "G4/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校園遊會時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館整理書籍時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館借書時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭週末大掃除時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店採買時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店挑選開學用品時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在校園運動會接力賽時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Math",
+            4
+          ],
+          [
+            "G5/Math",
+            4
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館整理圖書時】",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G5/Math",
+            7
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末的家庭聚會時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G6/Chinese",
+            3
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末的家庭閱讀時光時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G6/Chinese",
+            2
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在班級討論會時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G6/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末的家庭聚餐時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            6
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末自製手工餅乾時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末的家庭野餐時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在文具店挑選筆記本時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G4/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校舉辦的園遊會時】",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G6/Math",
+            2
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在歷史課堂上",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "小明和同學開始討論這背後的歷史淵源與地理脈絡",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館閱讀角時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G6/Chinese",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校校慶運動會時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在整理書櫃時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            2
+          ],
+          [
+            "G5/Chinese",
+            1
+          ],
+          [
+            "G5/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在班級園遊會準備時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館閱讀時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            2
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在整理圖書角時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "【在班級圖書角整理時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在學校運動會報名時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            5
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區圖書館整理書櫃時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "【在地理課介紹台灣離島特色時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "【在歷史課堂上時】",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "【在放學回家的路上】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            3
+          ],
+          [
+            "G3/Chinese",
+            1
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在準備班級同樂會時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            2
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在圖書館借書時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            2
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在社區舉辦園遊會時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G5/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在週末圖書館借書時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G3/Math",
+            1
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭聚會時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            2
+          ],
+          [
+            "G3/SocialStudies",
+            1
+          ],
+          [
+            "G5/SocialStudies",
+            1
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "小明發現他的家鄉有一個很特別的現象",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "小明和同學開始討論這背後的歷史淵源與脈絡",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "【在班級討論課時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G5/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "【在家庭晚餐時間時】",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G5/Math",
+            1
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      }
+    ],
+    "explanation": [
+      {
+        "segment": "可回到課文關鍵段落與描寫語氣",
+        "total": 78,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            78
+          ]
+        ]
+      },
+      {
+        "segment": "將四個選項逐一對照文本線索",
+        "total": 78,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            78
+          ]
+        ]
+      },
+      {
+        "segment": "正解與課文敘述一致",
+        "total": 78,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            78
+          ]
+        ]
+      },
+      {
+        "segment": "其餘選項多為字面誤讀、過度推論或細節錯置",
+        "total": 78,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            78
+          ]
+        ]
+      },
+      {
+        "segment": "依課文敘述",
+        "total": 53,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            53
+          ]
+        ]
+      },
+      {
+        "segment": "其餘選項與課文重點或因果不符",
+        "total": 53,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            53
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B",
+        "total": 45,
+        "topSubjects": [
+          [
+            "G3/English",
+            45
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 為正解",
+        "total": 42,
+        "topSubjects": [
+          [
+            "G6/SocialStudies",
+            42
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 正確",
+        "total": 40,
+        "topSubjects": [
+          [
+            "G6/SocialStudies",
+            24
+          ],
+          [
+            "G5/Chinese",
+            15
+          ],
+          [
+            "G5/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "課文明確指出",
+        "total": 34,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            16
+          ],
+          [
+            "G5/Chinese",
+            11
+          ],
+          [
+            "G3/Chinese",
+            5
+          ],
+          [
+            "G6/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "正確選項陳述符合課本對昆蟲與變態的定義",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "其餘選項混淆構造、生活史或觀察目的",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "題目對應課本簡單電路、串並聯、導體絕緣體與短路等核心概念",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "錯誤選項為常見迷思或操作誤解",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "題目聚焦毛細、連通管、虹吸的定義、條件與生活例子",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "錯誤選項對應典型混淆或錯誤機制",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "錯誤選項為常見迷思",
+        "total": 20,
+        "topSubjects": [
+          [
+            "G4/Science",
+            20
+          ]
+        ]
+      },
+      {
+        "segment": "課文中明確指出",
+        "total": 15,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            9
+          ],
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G6/Chinese",
+            2
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "第一個選項與文意一致",
+        "total": 14,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            14
+          ]
+        ]
+      },
+      {
+        "segment": "每層 24 本",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Math",
+            9
+          ],
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "第二個選項與文意一致",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            13
+          ]
+        ]
+      },
+      {
+        "segment": "第三個選項與文意一致",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            13
+          ]
+        ]
+      },
+      {
+        "segment": "第四個選項與文意一致",
+        "total": 13,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            13
+          ]
+        ]
+      },
+      {
+        "segment": "選項 A 正確",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            10
+          ],
+          [
+            "G6/Science",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "[選項 B] 為正解",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G6/SocialStudies",
+            12
+          ]
+        ]
+      },
+      {
+        "segment": "[選項 B] 正確",
+        "total": 12,
+        "topSubjects": [
+          [
+            "G6/SocialStudies",
+            12
+          ]
+        ]
+      },
+      {
+        "segment": "選項 C",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/English",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "而在選項設計中",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "例如單純依靠直覺或忽略了客觀條件的限制",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 正確分析",
+        "total": 11,
+        "topSubjects": [
+          [
+            "G6/SocialStudies",
+            11
+          ]
+        ]
+      },
+      {
+        "segment": "根據課文內容",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            9
+          ],
+          [
+            "G5/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "先計算 3 袋蘋果的總價：85 × 3 = 255 元",
+        "total": 10,
+        "topSubjects": [
+          [
+            "G5/Math",
+            6
+          ],
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "根據課文描述",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G6/Chinese",
+            6
+          ],
+          [
+            "G4/Chinese",
+            2
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "此題旨在引導學生進行批判性思考",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            7
+          ],
+          [
+            "G6/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 是擬人化迷思",
+        "total": 9,
+        "topSubjects": [
+          [
+            "G6/Science",
+            9
+          ]
+        ]
+      },
+      {
+        "segment": "此題引導學生進行批判性思考",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ],
+          [
+            "G6/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "高品質命題解析：根據課文主旨與細節設計",
+        "total": 8,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            5
+          ],
+          [
+            "G4/Chinese",
+            3
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 語法錯誤",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G3/English",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "這是帶餘數的除法應用題",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G3/Math",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "兩者相等",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G4/Math",
+            6
+          ],
+          [
+            "G5/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "二二八事件發生於1947年",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "縱貫鐵路於1908年全線通車",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "選項 A 錯誤",
+        "total": 7,
+        "topSubjects": [
+          [
+            "G6/Science",
+            7
+          ]
+        ]
+      },
+      {
+        "segment": "化為彩色的水珠",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "課文開頭明確指出",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            2
+          ],
+          [
+            "G3/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "I can't.",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "I can.",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "選項 B 是雙動詞錯誤",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "選項 C 單複數不符",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "it can.",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "選項 C 助動詞錯誤",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/English",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "所以不夠",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G3/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "選項C是最佳做法",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "東部因中央山脈阻隔",
+        "total": 6,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            6
+          ]
+        ]
+      },
+      {
+        "segment": "變成一隻『黑色恐龍』」",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "陪伴人們遮風擋雨",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "根據課文",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            1
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "選項 C 助動詞不符",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/English",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "選項 C 人稱錯誤",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/English",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "這是平均分配的問題",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "這是分組的問題",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "『小君負責塗壁報的3/7",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "小文負責塗壁報的2/7",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "既能解決問題",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            4
+          ],
+          [
+            "G5/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "正確答案為(A)",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "在團隊合作中",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G3/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "此題屬於批判性思考",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            4
+          ],
+          [
+            "G6/Chinese",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "不能跟我的寶貝兒子紅孩兒相見",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "造成滿壘」",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "也能感受人文之美",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "此題為批判性思考題",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            3
+          ],
+          [
+            "G6/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "想像讓人們不斷思考、發明",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Chinese",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "文中明確提到",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Chinese",
+            3
+          ],
+          [
+            "G4/Chinese",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "比較十分位",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Math",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "書架總容量為 5 乘以 8 等於 40 本",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "每袋 8 顆",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "上午賣出 45 杯",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Math",
+            2
+          ],
+          [
+            "G5/Math",
+            2
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "書架總容量為 5 × 8 = 40 本",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Math",
+            3
+          ],
+          [
+            "G4/Math",
+            1
+          ],
+          [
+            "G6/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "所以夠分",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/Math",
+            4
+          ],
+          [
+            "G4/Math",
+            1
+          ]
+        ]
+      },
+      {
+        "segment": "先計算蘋果總價：85 × 3 = 255 元",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/Math",
+            3
+          ],
+          [
+            "G5/Math",
+            2
+          ]
+        ]
+      },
+      {
+        "segment": "公民參與不分年齡",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G4/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "並非單一文化體",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "綠色消費不僅看成分",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "中法戰爭（1884-1885）後",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            5
+          ]
+        ]
+      },
+      {
+        "segment": "路線為基隆至新竹",
+        "total": 5,
+        "topSubjects": [
+          [
+            "G5/SocialStudies",
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  "legacyComparison": [
+    {
+      "phrase": "如果你有仔細閱讀課文的話，應該可以發現這個微小的細節",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者透過深刻的細節描寫與情感連結，引發讀者對於自然或生命的共鳴，進而傳達出守護與珍惜的核心價值感",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者認為這些問題都太過複雜，所以選擇用一種避重就輕的方式來描述，讓讀者自己去猜測其中的含義",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者純粹是為了滿足出版商的要求，所以才刻意挑選了這個主題",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者僅僅是為了增加文章的篇幅，所以在文中加入了大量無關緊要的修辭",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這種想法在日常生活中其實也是非常常見的一種自然現象",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "。，並且需要經過深思熟慮的考量。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "，並且需要經過深思熟慮的考量。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "並且需要經過深思熟慮的考量。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "並且需要經過深思熟慮的考量",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "請你仔細回想並且針對這篇文章的內容細節進行思考，",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "請你仔細回想並且針對這篇文章的內容細節進行思考",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "不過這點很容易讓許多小朋友在閱讀時產生誤解",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這點在文章細節中可以發現",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "呈現出文中描述的氣氛",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這在分析文章時非常關鍵",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "如果你有仔細閱讀課文的話",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "如果你有仔細閱讀課文",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這種想法在日常生活中其實也是非常常見",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "文中並沒有任何真實的情感流露在內",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "所以才刻意挑選了這個主題",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者純粹是為了滿足出版商的要求",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "讓讀者自己去猜測其中的含義",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "所以選擇用一種避重就輕的方式來描述",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者認為這些問題都太過複雜",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "實際上並沒有什麼特別的思想",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "所以在文中加入了大量無關緊要的修辭",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "作者僅僅是為了增加文章的篇幅",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "小明在餐桌上分享學校發生的趣事",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "小明在餐桌上看到媽媽辛苦煮了一桌菜",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "，且內容敘述完整",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "且內容敘述完整",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "，這也是作者想強調的重點之一。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這也是作者想強調的重點之一。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "，這點在實務上很重要。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    },
+    {
+      "phrase": "這點在實務上很重要。",
+      "byField": {
+        "question": 0,
+        "scenario": 0,
+        "explanation": 0
+      },
+      "total": 0,
+      "status": "✅ 已清除"
+    }
+  ]
+}
