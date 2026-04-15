@@ -1,7 +1,7 @@
 | JOB-184 | **G5S2 社會三版本出題 補題&品管完成**：HanLin L1-L5 全課 165 題達標；L2 BIAS 修正（答案分布重平衡），L4/L5 補充至 45 題各；CQI-P 全課 ≥5.5（平均 6.84–7.27）；欄位驗收 0 errors；下一步：G5S2 社會盲測啟動待確認。見 `jobs/JOB-184-Report.md` | 🟢 補題階段 DONE |# 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-13 16:57
-`updated_by`: Claude Code（JOB-184 全量出題完成 & /pj_sync）
+`last_updated`: 2026-04-15
+`updated_by`: Claude Code（JOB-190 全科三欄位高頻片段分析完成 & /pj_sync）
 
 ---
 
@@ -25,6 +25,17 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-15
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-190 | **全科三欄位高頻片段分析**：掃描 653 個題庫 JSON / 12,930 題，對 `question`/`scenario`/`explanation` 三欄位進行句號+逗號雙重分割頻次分析；輸出各欄位 Top 100 榜（含分科子榜）及 JOB-128 舊案 36 個模式對照（殘留 0 個）。**關鍵發現**：explanation 欄位含高密度 AI 元評論模板（G3 國語 4 句模板各 78 次、「高品質命題解析」prefix、G4 自然 7 個重複解析模板），需開立 JOB-191 清除。腳本 `scripts/analyze_field_segments.mjs` 已產出。見 `jobs/JOB-190-Report.md` | 🟢 DONE |
+| JOB-189 | **全庫 AI 評註殘留清除**：掃描 653 個題庫 JSON，修改 243 檔（兩輪執行）、7,621+ 個選項；AI 評註殘留從 2,124 個降至 **0 個**；清除模式涵蓋尾綴型（4 種）、嵌入型、括號型重複評註（4 種）、前綴垃圾、尾部全形空白共 10+ 種規則；腳本 `scripts/clean_option_artifacts.js` 已產出（含 dry-run 模式）；另重建兩個 `libraryStats.json`（src/data: 98 組合；public/data: 658 檔 12,980 題）。遺留：G5 翰林 L4 Q28「標記」「物件」後綴待後續 JOB 處理。見 `jobs/JOB-189-Report.md` | 🟢 DONE |
+
+### 2026-04-13（JOB-188 補充）
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-188 §A | **上版前題庫抽樣驗證**：29 個開放組合 × 3 題 = 87 題全部抽驗。D1 格式 100%、D2 欄位 100%、D3 答案可信 100%、D4 文字品質 72.4%（63/87）。發現系統性問題：24 題含 AI 出題評註殘留（「這點在分析單元核心時非常關鍵」等），涉及 13 個組合，社會科（G3/G4 三版本）最嚴重。另發現 `libraryStats.json` 資料不完整（totalIndexed=15，實際 12,930 題）。§B 瀏覽器驗證因擴充套件未連線待後續執行。見 `jobs/JOB-188-Report.md`、`docs/reports/JOB-188-題庫抽樣驗證報告.md` | 🟡 §A DONE，§B 待補 |
 
 ### 2026-04-12
 | JOB | 簡述 | 狀態 |
