@@ -117,7 +117,7 @@
 - [x] `docs/研究紀錄/explanation_元評論_關鍵字掃描.md`
 - [x] `docs/研究紀錄/explanation_元評論_關鍵字掃描.json`
 - [x] `jobs/JOB-190-Report.md` 已更新
-- [ ] 已執行 `/pj_sync`
+- [x] 已執行 `/pj_sync`
 
 ---
 

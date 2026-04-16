@@ -1,7 +1,7 @@
 | JOB-184 | **G5S2 社會三版本出題 補題&品管完成**：HanLin L1-L5 全課 165 題達標；L2 BIAS 修正（答案分布重平衡），L4/L5 補充至 45 題各；CQI-P 全課 ≥5.5（平均 6.84–7.27）；欄位驗收 0 errors；下一步：G5S2 社會盲測啟動待確認。見 `jobs/JOB-184-Report.md` | 🟢 補題階段 DONE |# 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-15
-`updated_by`: Claude Code（JOB-190 全科三欄位高頻片段分析完成 & /pj_sync）
+`last_updated`: 2026-04-16
+`updated_by`: Claude Code（JOB-190 Phase 2 explanation 關鍵字掃描完成 & /pj_sync）
 
 ---
 
@@ -26,10 +26,15 @@
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
 
+### 2026-04-16
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-190 Phase 2 | **explanation 元評論關鍵字深度掃描**：補強 Phase 1 頻率分析的盲區（盲測機制從不驗收 explanation，低頻分散模板在 ≥5 門檻下不可見）。新增 `scripts/scan_explanation_artifacts.mjs`，以 12 類正規表達式掃描 654 個 JSON / 12,980 題；命中不重複題數 **350 題** / 743 筆紀錄。重災科目：G3/Chinese/S2（390 筆）、G4/Chinese/S2（125 筆）。輸出 `explanation_元評論_關鍵字掃描.md/.json`，作為 JOB-191 清除腳本精確輸入。見 `jobs/JOB-190-Report.md` | 🟢 DONE |
+
 ### 2026-04-15
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
-| JOB-190 | **全科三欄位高頻片段分析**：掃描 653 個題庫 JSON / 12,930 題，對 `question`/`scenario`/`explanation` 三欄位進行句號+逗號雙重分割頻次分析；輸出各欄位 Top 100 榜（含分科子榜）及 JOB-128 舊案 36 個模式對照（殘留 0 個）。**關鍵發現**：explanation 欄位含高密度 AI 元評論模板（G3 國語 4 句模板各 78 次、「高品質命題解析」prefix、G4 自然 7 個重複解析模板），需開立 JOB-191 清除。腳本 `scripts/analyze_field_segments.mjs` 已產出。見 `jobs/JOB-190-Report.md` | 🟢 DONE |
+| JOB-190 Phase 1 | **全科三欄位高頻片段分析**：掃描 653 個題庫 JSON / 12,930 題，對 `question`/`scenario`/`explanation` 三欄位進行句號+逗號雙重分割頻次分析；輸出各欄位 Top 100 榜（含分科子榜）及 JOB-128 舊案 36 個模式對照（殘留 0 個）；285 片段全數加入 🔴/🟡/🟢 判斷欄（🔴20/🟡18/🟢247）。腳本 `scripts/analyze_field_segments.mjs` 已產出。見 `jobs/JOB-190-Report.md` | 🟢 DONE |
 | JOB-189 | **全庫 AI 評註殘留清除**：掃描 653 個題庫 JSON，修改 243 檔（兩輪執行）、7,621+ 個選項；AI 評註殘留從 2,124 個降至 **0 個**；清除模式涵蓋尾綴型（4 種）、嵌入型、括號型重複評註（4 種）、前綴垃圾、尾部全形空白共 10+ 種規則；腳本 `scripts/clean_option_artifacts.js` 已產出（含 dry-run 模式）；另重建兩個 `libraryStats.json`（src/data: 98 組合；public/data: 658 檔 12,980 題）。遺留：G5 翰林 L4 Q28「標記」「物件」後綴待後續 JOB 處理。見 `jobs/JOB-189-Report.md` | 🟢 DONE |
 
 ### 2026-04-13（JOB-188 補充）
