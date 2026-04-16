@@ -12,7 +12,9 @@
 
 ## 📊 成果摘要
 
-全庫掃描 `question/platform/` 下 653 個題庫 JSON，對 `question`、`scenario`、`explanation` 三個欄位進行句號+逗號雙重分割頻次分析。輸出各欄位 Top 100 高頻片段排行榜（含分科子榜）及 JOB-128 舊案 36 個模式對照表。三欄位中舊案殘留 **0 個**。**新發現 explanation 欄位含高密度 AI 元評論模板**，需開立 JOB-191 清除。
+### Phase 1：三欄位高頻片段頻率分析
+
+全庫掃描 `question/platform/` 下 653 個題庫 JSON，對 `question`、`scenario`、`explanation` 三個欄位進行句號+逗號雙重分割頻次分析。輸出各欄位 Top 100 高頻片段排行榜（含分科子榜）及 JOB-128 舊案 36 個模式對照表，並對 285 個片段逐一加入 🔴/🟡/🟢 判斷欄。三欄位中舊案殘留 **0 個**。
 
 | 指標 | 數值 |
 |:--|:--|
@@ -25,6 +27,30 @@
 | scenario 榜達門檻片段數 | 115 個（≥5次） |
 | explanation 榜達門檻片段數 | 85 個（≥5次） |
 | JOB-128 舊案殘留（三欄位） | **0 個** |
+| 判斷欄統計（三欄位合計） | 🔴 20 / 🟡 18 / 🟢 247 |
+
+### Phase 2：explanation 關鍵字深度掃描
+
+**補強原因**：盲測機制嚴禁讀取 `explanation`（準則 §2.2），Phase 1 頻率分析（≥5 次門檻）無法捕捉低頻分散的元評論模板。以 12 類正規表達式 pattern 主動偵測，發現 Phase 1 未能涵蓋的元評論規模遠大於預期。
+
+| 指標 | 數值 |
+|:--|:--|
+| 掃描 JSON 檔數 | 654 個 |
+| 掃描題目總數 | 12,980 題 |
+| 命中紀錄總數 | 743 筆（含同一題多 pattern 命中） |
+| 命中不重複題數 | **350 題** |
+| 最重災科目 | G3/Chinese/S2（390 筆）、G4/Chinese/S2（125 筆） |
+
+**各類型命中分布**：
+
+| 類型 | 命中筆數 |
+|:--|--:|
+| 元評論—閱讀策略 | 312 |
+| 元評論—選項設計 | 171 |
+| 元評論—出題意圖 | 109 |
+| 批判性思考標籤 | 99 |
+| 截斷殘留 | 44 |
+| AI自我評分 | 8 |
 
 ---
 
@@ -57,27 +83,41 @@
 
 | 檔案路徑 | 異動類型 | 說明 |
 |:--|:--|:--|
-| `scripts/analyze_field_segments.mjs` | 新增 | 全科三欄位高頻片段分析腳本（含 JOB-128 舊案對照） |
-| `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.md` | 新增 | 人工審視用報告（三欄位各 Top 100 榜 + 舊案對照） |
-| `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.json` | 新增 | 機讀完整計數（供 JOB-191 規則撰寫依據） |
+| `scripts/analyze_field_segments.mjs` | 新增 | Phase 1：全科三欄位高頻片段分析腳本（含 JOB-128 舊案對照） |
+| `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.md` | 新增→更新 | Phase 1：三欄位 Top 100 榜 + 🔴/🟡/🟢 判斷欄 |
+| `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.json` | 新增 | Phase 1：機讀完整計數 |
+| `scripts/scan_explanation_artifacts.mjs` | 新增 | Phase 2：explanation 元評論關鍵字深度掃描腳本 |
+| `docs/研究紀錄/explanation_元評論_關鍵字掃描.md` | 新增 | Phase 2：逐題命中清單（人工審視用） |
+| `docs/研究紀錄/explanation_元評論_關鍵字掃描.json` | 新增 | Phase 2：機讀命中清單（供 JOB-191 清除腳本直接引用） |
 
 ---
 
 ## ✅ Checklist 對照結果
 
-### 驗收 Checklist (Acceptance)
+### Phase 1 驗收 Checklist
 - [x] 掃描檔案數 ≥ 600 — 佐證：653 個
-- [x] 三欄位均有獨立榜 — 佐證：`grep -c "欄位 Top" .md` = 3
-- [x] 舊案對照 36 列完整 — 佐證：`grep -c "已清除\|仍有殘留" .md` = 36
+- [x] 三欄位均有獨立榜 — 佐證：三欄位 Top 100 均存在
+- [x] 舊案對照 36 列完整 — 佐證：36 列均標記「已清除」
 - [x] JSON 格式合法 — 佐證：`node -e "JSON.parse(...)"` 輸出 `JSON OK`
-- [x] 零寫入驗證 — 佐證：`question/platform` diff 均為 JOB-189 既有未 commit 變更，本腳本無新增行
+- [x] 零寫入驗證 — 佐證：question/platform diff 均為 JOB-189 既有未 commit 變更
+- [x] 285 片段全數加入判斷欄 — 佐證：🔴20/🟡18/🟢247
+
+### Phase 2 驗收 Checklist
+- [x] 掃描覆蓋 ≥ 600 檔 — 佐證：654 個
+- [x] 12 類 pattern 全數掃描 — 佐證：各類型均有命中數
+- [x] 輸出含完整欄位 — 佐證：file/subject/question_index/matched_label/full_explanation 均存在
+- [x] JSON 格式合法 — 佐證：`node -e "JSON.parse(...)"` 無錯誤
+- [x] 零寫入驗證 — 佐證：`git diff question/` 無新增行（59344 行均為 JOB-189 既有）
 
 ### 成果 Checklist (Deliverables)
-- [x] `scripts/analyze_field_segments.mjs` 腳本已產出
-- [x] `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.md` 已產出
-- [x] `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.json` 已產出
-- [x] `jobs/JOB-190-Report.md` 已產出
-- [x] 已執行 `/pj_sync`
+- [x] `scripts/analyze_field_segments.mjs` 腳本
+- [x] `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.md`（含判斷欄）
+- [x] `docs/研究紀錄/全科題庫_三欄位_高頻片段分析.json`
+- [x] `scripts/scan_explanation_artifacts.mjs` 腳本
+- [x] `docs/研究紀錄/explanation_元評論_關鍵字掃描.md`
+- [x] `docs/研究紀錄/explanation_元評論_關鍵字掃描.json`
+- [x] `jobs/JOB-190-Report.md` 已更新
+- [ ] 已執行 `/pj_sync`
 
 ---
 
