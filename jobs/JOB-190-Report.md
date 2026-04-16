@@ -1,6 +1,6 @@
 *Created by Claude Code (JOB-190) at 2026-04-15*
 
-`last_updated`: 2026-04-15
+`last_updated`: 2026-04-16
 `updated_by`: Claude Code (claude-sonnet-4-6)
 
 # JOB-190 結案報告
@@ -82,6 +82,17 @@
 ---
 
 ## ⚠️ 遺留問題
+
+### Phase 2 補強掃描（已納入本 JOB，待執行）
+
+**觸發原因**：
+- Phase 1 頻率分析採 ≥5 次門檻；但盲測機制從不驗收 `explanation`（準則 §2.2 明定嚴禁讀取），導致元評論可能長期以低頻（每課 1 次）形式分散存在而未被捕捉
+- G4/Science/NanYi L1 實地抽驗確認：20 題 explanation 使用同一套模板，只因每課 5 次剛好壓在門檻邊緣
+- 結論：頻率統計不足以完整揭露 explanation 欄位問題，需補關鍵字掃描
+
+**Phase 2 任務**：建立 `scripts/scan_explanation_artifacts.mjs`，以正規表達式掃描 12+ 類已知元評論句型，輸出逐題命中清單，作為 JOB-191 清除腳本的精確輸入。
+
+---
 
 ### JOB-191 建議範圍（explanation 欄位清除）
 
