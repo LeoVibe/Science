@@ -27,7 +27,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 2.75,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -47,7 +48,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -67,7 +69,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -87,7 +90,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -113,7 +117,8 @@
         "correct_answer": 0,
         "ai_reasoning": "題目敘述模糊，缺乏具體課文背景，無法判斷邏輯正確性。",
         "review_status": "pending"
-      }
+      },
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -133,7 +138,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -159,7 +165,8 @@
         "correct_answer": 2,
         "ai_reasoning": "屬於事實提取題，但選項設計過於隨意，缺乏干擾項的邏輯性。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -179,7 +186,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -199,7 +207,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -219,7 +228,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -239,7 +249,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -265,7 +276,8 @@
         "correct_answer": 3,
         "ai_reasoning": "題幹不完整，無法判斷語意，題目品質極差。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -291,7 +303,8 @@
         "correct_answer": 2,
         "ai_reasoning": "屬於經典文學改寫的推論題，符合課綱要求。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -311,7 +324,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -331,7 +345,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -351,7 +366,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -377,7 +393,8 @@
         "correct_answer": 0,
         "ai_reasoning": "引導學生理解多元觀點與同理心，符合視角切換目標。",
         "review_status": "pending"
-      }
+      },
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -403,7 +420,8 @@
         "correct_answer": 1,
         "ai_reasoning": "缺乏課文依據，無法判斷正確答案。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -423,7 +441,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -443,7 +462,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -463,7 +483,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -483,7 +504,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -503,7 +525,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -523,7 +546,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -543,7 +567,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.75
+      "cqi_score": 2.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -563,7 +588,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -583,7 +609,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -609,7 +636,8 @@
         "correct_answer": 3,
         "ai_reasoning": "題目語意不明，缺乏主詞，無法評估。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -635,7 +663,8 @@
         "correct_answer": 0,
         "ai_reasoning": "能引導學生體會美感與成就感，符合感官與情感描寫。",
         "review_status": "pending"
-      }
+      },
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -655,7 +684,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 3
     }
   ]
 }

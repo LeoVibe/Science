@@ -22,7 +22,8 @@
       "scenario": "解讀一天的氣溫密碼",
       "commonMisconception": "將氣候現象聯結至天文運動規律（跨學科統整）。",
       "cqi_score": 7.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "小英將一個直筒杯放在空曠處，下雨後測得水深 3 公分。她換成一個一模一樣但「深度更深」的長試管去接。請問在同一場雨中，它的水位高度會是多少？",
@@ -37,7 +38,8 @@
       "scenario": "不同深度容器的雨量實驗",
       "commonMisconception": "學生常會混淆「容器體積」與「降雨深度」的概念。",
       "cqi_score": 5.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "在紀錄風向時，小明看到風向標的「箭頭」指向「東方」。這代表現在正吹著什麼風？如果他想順風前行，他應該往哪個方向走？",
@@ -52,7 +54,8 @@
       "scenario": "風向標的導向邏輯",
       "commonMisconception": "極高難度的複合性思考：需正確辨識風向名，並反推風吹去的運動方向（順風）。",
       "cqi_score": 7.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "如果某天的氣溫是 15 度，且伴隨著強風與大雨。比起同樣是 15 度的晴天，我們的皮膚感覺會如何？為什麼？",
@@ -67,7 +70,8 @@
       "scenario": "科學測量與感官體驗的差異",
       "commonMisconception": "區分「客觀物理量（氣溫）」與「生物主觀感受（體感）」的差別。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "小英觀測天空，發現雲大概遮住了天空約 2 成左右。請問這時的天氣紀錄應標記為何？",
@@ -82,7 +86,8 @@
       "scenario": "量化雲朵的比例",
       "commonMisconception": "掌握天氣分類的數據區隔標籤。",
       "cqi_score": 6.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "下列哪一種觀察方式「不屬於」科學的天氣紀錄項目？",
@@ -97,7 +102,8 @@
       "scenario": "科學觀察的邊界與標準",
       "commonMisconception": "釐清「個人感受/藝術聯想」與「科學數據/觀察描述」的區域。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "在紀錄一週天氣後，小明發現雲量增多且氣溫突然下降，通常接著就會開始下雨。這說明了他發現了什麼氣象規律？",
@@ -112,7 +118,8 @@
       "scenario": "從數據中尋找預測規律",
       "commonMisconception": "訓練從零散的數據點中「建模」或「尋找規律」的高層次思維。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "小華看到電視預報說：「明天午後雷陣雨的降雨機率是 30%」。這代表什麼意義？",
@@ -127,7 +134,8 @@
       "scenario": "三成機率的決策難題",
       "commonMisconception": "再次糾正對於機率論點的單純化理解（如誤以為 30% 就是不會下）。",
       "cqi_score": 5.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "我們在讀取溫度計時，如果用手摸著最底下的紅色液囊（儲液瓶），讀出的刻度會準嗎？為什麼？",
@@ -142,7 +150,8 @@
       "scenario": "錯誤的測量姿勢糾察隊",
       "commonMisconception": "建立「測量者不應干擾測量對象」的科學操作底線。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "如果在冬季早晨，觀測到氣溫極低且地表草地結霜，天空無雲且風力微弱。這種天氣組合最適合用哪一個詞彙來進行「總結描述」？",
@@ -157,7 +166,8 @@
       "scenario": "綜合氣象情報分開讀、合起來看",
       "commonMisconception": "結合成熟的定性描述能力，展現數據統整後的科學素養。",
       "cqi_score": 7.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -173,7 +183,8 @@
       "explanation": "又大又白、形狀像棉花糖、高高掛在天上的雲朵通常是積雲，這種雲通常預示著天氣晴朗，頂多午後有局部陣雨的可能性，但不會很快下大雨或有颱風。",
       "commonMisconception": "孩子可能認為所有大朵的雲都代表要下雨，而忽略了雲的高度和形狀對天氣預測的影響。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -189,7 +200,8 @@
       "explanation": "空氣涼涼的、太陽被雲遮住、需要加外套，這些都指向氣溫較低且是陰天的天氣狀況，需要注意保暖。",
       "commonMisconception": "小朋友可能會將『涼涼的』誤解為『刮風』或『下雨』，而忽略了氣溫的直接感受和穿著的提示。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -205,7 +217,8 @@
       "explanation": "描述中『有數字，紅色液體會隨著溫度高低而上升或下降』的工具是溫度計，是用來測量氣溫的。",
       "commonMisconception": "學生可能對各種天氣工具的功能混淆，尤其是對風向儀、雨量筒和溫度計的區別。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -221,7 +234,8 @@
       "explanation": "下雨是水蒸氣在空中凝結成小水滴，當這些小水滴累積到一定程度後，就會以雨的形式降落。",
       "commonMisconception": "孩子可能將雲朵本身誤認為是直接掉下來的雨水，而不是由雲朵中的小水滴集合而成。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -237,7 +251,8 @@
       "explanation": "風向指的是風吹來的方向。如果國旗往東邊飄，表示風是從西邊吹過來的。",
       "commonMisconception": "學生常常會將風吹去的方向誤認為是風向，這是判斷風向時常見的迷思。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -253,7 +268,8 @@
       "explanation": "陽光普照、萬里無雲的天氣非常適合戶外活動。去海邊玩沙戲水是很好的選擇，而其他選項都是室內活動。",
       "commonMisconception": "部分孩子可能對天氣與活動的搭配不夠敏感，或者習慣於室內活動，需要引導他們思考天氣對生活選擇的影響。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -269,7 +285,8 @@
       "explanation": "薄薄的、像紗一樣的雲，讓陽光模糊，通常是高層的卷層雲，它們常呈現羽毛狀或纖維狀。",
       "commonMisconception": "孩子可能對不同雲的形態和它們對陽光的影響缺乏具體認識，容易混淆。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -285,7 +302,8 @@
       "explanation": "雨量筒是用來測量降雨量的工具。如果雨量筒裡的水位上升，就表示有下雨了。",
       "commonMisconception": "學生可能不清楚雨量筒的用途，將其與其他天氣現象混淆，例如以為水位上升與氣溫或風有關。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -301,7 +319,8 @@
       "explanation": "天空灰濛濛的，有雨滴飄下，表示正在下雨或即將下雨。此時應該趕快把衣服收進來，避免衣服被淋濕。",
       "commonMisconception": "孩子可能缺乏即時判斷天氣變化的能力，或認為『幾滴雨』不構成威脅，導致衣服被淋濕。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -317,7 +336,8 @@
       "explanation": "植物在冬天掉葉子是一種適應寒冷環境的策略。這樣可以減少葉片的水分蒸發，幫助植物在水分較少且氣溫較低的冬季生存下來。",
       "commonMisconception": "孩子可能將植物掉葉子歸因於擬人化的情感（生氣）或外部物理力量（風大），而不是生物適應的原理。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -333,7 +353,8 @@
       "explanation": "樹葉搖晃和旗子飄揚都是風存在的明顯標誌。",
       "commonMisconception": "這是比較基礎的觀察，但仍可能被其他天氣現象干擾，例如誤以為是太陽光造成的晃動。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -349,7 +370,8 @@
       "explanation": "厚厚的雲層遮住太陽，導致天色灰暗且暗得快，通常是陰天或即將下雨的徵兆，表示天氣可能不穩定。",
       "commonMisconception": "孩子可能只關注到『暗』，而忽略了『厚厚的雲層』這一關鍵線索，導致對天氣預測的錯誤判斷。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -365,7 +387,8 @@
       "explanation": "颱風來襲前，應該儲備食物和飲水，並檢查門窗是否緊閉，以確保安全。打開窗戶或外出都是非常危險的行為。",
       "commonMisconception": "孩子可能對颱風的危險性認識不足，或者受到好奇心驅使，做出錯誤的判斷。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -381,7 +404,8 @@
       "explanation": "太陽是地球主要的光和熱來源。太陽發出的能量以光和熱的形式到達地球，被地球表面吸收後，會使地表和空氣的溫度升高。",
       "commonMisconception": "孩子可能對太陽發光發熱的原理有錯誤理解，或認為太陽只是提供光線，而不是直接提供熱能。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -397,7 +421,8 @@
       "explanation": "早上涼、中午熱，說明了一天之中氣溫會隨著時間而變化，也就是有所謂的『日夜溫差』。",
       "commonMisconception": "孩子可能沒有意識到氣溫在一天之內是動態變化的，或者將溫差與風力、降雨等其他天氣現象混淆。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -413,7 +438,8 @@
       "explanation": "在晴朗的清晨，地面溫度較低，空氣中的水蒸氣遇到冷的物體表面（如草葉）就會凝結成小水珠，這就是露水。太陽出來後，溫度升高，露水就會蒸發消失。",
       "commonMisconception": "孩子可能對露水的形成原因缺乏科學理解，容易有擬人化或不科學的解釋。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -429,7 +455,8 @@
       "explanation": "風很大的天氣會讓飛盤的飛行路徑難以控制，很容易被風吹歪或吹走，因此很難順利玩飛盤。",
       "commonMisconception": "孩子可能誤認為風力越大，物體就能飛得更遠，而忽略了風力對方向控制的負面影響。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -445,7 +472,8 @@
       "explanation": "看天氣預報主要是為了提前了解未來的天氣狀況，以便安排當天的活動、決定穿著和是否攜帶雨具等，更好地應對天氣變化。",
       "commonMisconception": "孩子可能對天氣預報的實用性認識不足，或將其誤認為是娛樂性節目，或與過去發生的事情混淆。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -461,7 +489,8 @@
       "explanation": "雷雨天氣中，轟隆隆的巨大聲響是打雷，天空閃過的亮光是閃電。",
       "commonMisconception": "孩子可能對雷電的區別不夠清楚，或者將雷聲誤認為是下雨的聲音。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -477,7 +506,8 @@
       "explanation": "連續下雨容易讓人感到悶熱或不便，當天氣放晴、陽光普照時，通常會讓人心情愉悅，想要進行戶外活動。",
       "commonMisconception": "孩子可能無法將天氣變化與人的情緒產生連結，或者有逆向思考，認為放晴反而不好。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     }
   ]
 }

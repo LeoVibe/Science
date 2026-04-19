@@ -6,8 +6,8 @@
       "description": "文檔轉換為 Markdown 的工具"
     },
     "playwright": {
-      "command": "node",
-      "args": ["-m", "@playwright/mcp"],
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
       "description": "Playwright 自動化瀏覽器工具"
     },
     "github": {

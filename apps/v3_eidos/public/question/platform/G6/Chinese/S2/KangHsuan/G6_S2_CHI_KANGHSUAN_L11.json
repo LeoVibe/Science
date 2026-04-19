@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "grade": "G6",
+    "semester": "S2",
+    "subject": "CHI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L11",
+    "order": 11,
+    "title": "祝賀你，孩子",
+    "theme": "應用文/書信"
+  },
+  "questions": [
+    {
+      "taxonomy": "literal",
+      "scenario": "辨識應用文體（書信/演講稿）的特性與其情境社交目的",
+      "question": "【分析應用文體裁】《祝賀你，孩子》這篇文章主要具備哪一種體裁的特徵，其目的為何？",
+      "options": [
+        "一篇在畢業典禮上，師長向學生發表的公開演說，旨在表揚成就並激勵未來",
+        "一份學校發布的畢業賀詞或公告，目的在於向全體畢業生表達祝賀與期許",
+        "是一篇師長或父母對晚輩的溫情書信，用意在於傳遞祝福與處世的叮嚀",
+        "一份為畢業生制定的行為準則，強調品德修養與未來發展應遵守的規範"
+      ],
+      "answer_index": 2,
+      "explanation": "本文帶有強烈的「家書/公開信」色彩。它在畢業這個特定場合，整合了長輩的生命經驗，並對下一代進行精神上的交付（PIRLS 層次 3）。",
+      "commonMisconception": "學生可能選[D]，誤將「祝賀」狹隘化為純粹的慶祝商務行為。",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "解析文章中關於「成長臨界點（畢業）」帶來的身份認同位移",
+      "question": "【解讀叮嚀的核心】文中多次提到「孩子，你要開始為自己負責了」，這句話主要想強調哪一種身份的轉變？",
+      "options": [
+        "從一個只享受父母照顧的孩子，轉變為必須承擔自己過錯與選擇後果的人",
+        "從一個對未來懵懂無知的兒童，轉變為開始規劃人生方向並努力實踐的個體",
+        "從一個凡事依賴父母的受助者，轉變為能主導生活決策的獨立個體",
+        "從一個只被動接受安排的學童，轉變為被社會期待能獨立完成任務的青少年"
+      ],
+      "answer_index": 2,
+      "explanation": "畢業即「成年（精神意義上）」的預演。責任與獨立是成年禮最核心的概念。這測驗學生對「責任感」含義的解讀。",
+      "commonMisconception": "學生容易選[D]，將「責任」這種精神性詞彙窄化為「金錢/懲罰」的威脅。",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    },
+    {
+      "taxonomy": "evaluative",
+      "scenario": "評估在「賀辭」中加入「反面情境（負面情緒）」對增強文本真實性的功能",
+      "question": "【分析論述方式】作者在文中除了祝福，也提到了「挫折」與「眼淚」。這種寫法有什麼樣的教育用意？",
+      "options": [
+        "提醒孩子人生路上會有許多考驗，應隨時保持警覺，努力避免不必要的挫折與傷害",
+        "預先給予心理建設，讓孩子知道成長並非只有甜蜜，但也具備其獨特的韌性意義",
+        "鼓勵孩子勇敢面對挑戰，從失敗中學習並累積經驗，以展現堅強的意志力",
+        "藉由提及人生的苦難與淚水，讓孩子更懂得珍惜當下的幸福，並學會感恩"
+      ],
+      "answer_index": 1,
+      "explanation": "「真實的祝福」。如果只有快樂，那叫「童話」；包含苦難在內的祝福，才叫「真實的生活指南」。這引導學生建立全面的人生觀（PIRLS 層次 4）。",
+      "commonMisconception": "學生可能選[A]，分不清「警覺」與「恐嚇」的差異。",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    },
+    {
+      "taxonomy": "analysis",
+      "scenario": "辨析「語氣」與「社交應用情境」的匹配程度",
+      "question": "【解析寫作語氣】全篇文字顯得「語重心長」且「情感飽滿」，這與哪一種應用文的格式要求最相符合？",
+      "options": [
+        "家長在孩子成人禮上的勉勵詞，既有期許也有關愛",
+        "校長在校慶典禮上的致詞，回顧歷史並展望未來，語氣莊重",
+        "師長對畢業生致詞的講稿，必須兼具專業性、長輩的厚愛與前瞻性",
+        "畢業生代表向學弟妹分享經驗，鼓勵他們努力向上，充滿熱情與期許"
+      ],
+      "answer_index": 2,
+      "explanation": "語氣（Tone）決定了應用的情境。畢業典禮上的致詞必須具備傳薪（傳承）的力量，透過情感的飽滿來達成精神的傳接。",
+      "commonMisconception": "易選[A]，忽略了師長與學生間的親緣/契學關係所產生的特殊語感。",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 2,
+        "ai_reasoning": "題目與選項設定略顯模糊，建議修正為更明確的書信體特徵對比，目前選項(0)較貼近書信的親密感。",
+        "review_status": "pending"
+      },
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    },
+    {
+      "taxonomy": "applied",
+      "scenario": "將文本理念轉化為「個人生命承諾」及其相關行為意向評估（PIRLS 層次 4）",
+      "question": "【跨情境連結】如果你是一位「即將畢業的學生」，讀完這篇文章後最重要的自我承諾應該是什麼？",
+      "options": [
+        "珍惜與師長同學情誼，未來遇到困難時能互相幫助",
+        "願意接受未來的挑戰，並承擔起自己選擇所帶來的後果",
+        "仔細規劃未來每一步，盡量避免錯誤與困難，確保人生順遂",
+        "勇敢追逐自己的夢想，自由探索廣闊世界，不設限任何可能"
+      ],
+      "answer_index": 1,
+      "explanation": "這測驗學生對文本內容的「內化」。[B] 選項對應了責任與獨立的核心價值感。",
+      "commonMisconception": "容易選[D]，這是一種退縮行為，顯示未能理解本文強調的「勇往直前」的精神。",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-03-24",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-04-05"
+    }
+  ],
+  "publisher": "KangHsuan"
+}

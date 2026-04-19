@@ -29,7 +29,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 0
     },
     {
       "id": "G3-NanYi-L9-4",
@@ -51,7 +52,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 2
     },
     {
       "id": "G3-NanYi-L9-5",
@@ -73,7 +75,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 3
     },
     {
       "id": "G3-NanYi-L9-6",
@@ -95,7 +98,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -115,7 +119,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -135,7 +140,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -161,7 +167,8 @@
         "correct_answer": 1,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -187,7 +194,8 @@
         "correct_answer": 3,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -207,7 +215,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 2.25
+      "cqi_score": 2.25,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -227,7 +236,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -253,7 +263,8 @@
         "correct_answer": 3,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -273,7 +284,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -299,7 +311,8 @@
         "correct_answer": 2,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -319,7 +332,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -345,7 +359,8 @@
         "correct_answer": 3,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -371,7 +386,8 @@
         "correct_answer": 1,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -397,7 +413,8 @@
         "correct_answer": 3,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -423,7 +440,8 @@
         "correct_answer": 1,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -443,7 +461,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3
+      "cqi_score": 3,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -469,7 +488,8 @@
         "correct_answer": 1,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -495,7 +515,8 @@
         "correct_answer": 2,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -521,7 +542,8 @@
         "correct_answer": 2,
         "ai_reasoning": "此題與L9課文內容無關，屬於離題題目，應刪除。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     }
   ]
 }

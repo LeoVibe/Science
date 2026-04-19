@@ -210,6 +210,7 @@ export async function loadQuestions(
       }
 
       const publisherCode = PUBLISHER_META_MAP[publisher];
+      const publisherCodeUpper = publisherCode?.toUpperCase();
       const fetchPromises = fileList.map(async (fileName, uIdx) => {
         if (!fileName) return [];
         const unitMeta = unitList[uIdx];
@@ -226,7 +227,7 @@ export async function loadQuestions(
 
         if (data.meta && Array.isArray(data.questions)) {
           const m = data.meta as { publisher?: string; title?: string; lesson?: string; order?: number };
-          if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisher) return [];
+          if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisherCodeUpper && m.publisher !== publisher) return [];
           unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
             const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
             const type = (q.type || 'multiple_choice') as 'multiple_choice' | 'true_false' | 'fill_in_the_blank';

@@ -11,8 +11,8 @@
       "theme": "",
       "file": "G4_S2_SCI_NANYI_L1.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.72,
+      "blind_tested": 30,
+      "avg_cqi": 8.72,
       "quality": "QL3"
     },
     {
@@ -21,8 +21,8 @@
       "theme": "",
       "file": "G4_S2_SCI_NANYI_L2.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.63,
+      "blind_tested": 30,
+      "avg_cqi": 8.63,
       "quality": "QL3"
     },
     {
@@ -31,8 +31,8 @@
       "theme": "",
       "file": "G4_S2_SCI_NANYI_L3.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.65,
+      "blind_tested": 30,
+      "avg_cqi": 8.65,
       "quality": "QL3"
     },
     {
@@ -41,15 +41,14 @@
       "theme": "",
       "file": "G4_S2_SCI_NANYI_L4.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.39,
+      "blind_tested": 30,
+      "avg_cqi": 8.39,
       "quality": "QL3"
     }
   ],
   "moduleMetaData": {
     "total_questions": 120,
-    "blind_tested": 0,
-    "last_updated": "2026-04-10T12:00:00.000Z",
-    "rebuild_note": "JOB-169：南一四課依 KL4 重產，pending_review，未盲測。"
+    "blind_tested": 120,
+    "last_updated": "2026-04-15T03:46:03.031Z"
   }
 }

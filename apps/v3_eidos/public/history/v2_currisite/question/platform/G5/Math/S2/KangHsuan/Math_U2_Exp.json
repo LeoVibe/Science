@@ -23,7 +23,8 @@
       "explanation": "本題測試五下核心迷思：『乘法一定變大』。在國小中低年級學習整數乘法時，積確實大於被乘數；但進入五下分數/小數乘法，當乘數小於 1，積會變小。這是具體運思過渡到形式運思的關鍵判定點。",
       "commonMisconception": "乘法必變大迷思 (L3 研究重點)。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -39,7 +40,8 @@
       "explanation": "分數乘法計算：(2/3) * (4/5) = (2*4) / (3*5) = 8/15。測試對面積模型幾何意義的掌握。",
       "commonMisconception": "分母相加迷思 (誤算為 6/8 或其他)。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     }
   ]
 }

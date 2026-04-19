@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "直徑 = 半徑 × 2 = 5 × 2 = 10 公分。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "圓規針尖固定點即為圓的中心點，稱為圓心。",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "通過圓心且連接圓周兩點的直徑，是圓內最長的線段。",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "一個硬幣直徑 = 2 × 2 = 4。4 個硬幣 = 4 × 4 = 16 公分。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "圓規張開的距離就是「半徑」。半徑 = 12 ÷ 2 = 6。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "圓規可以張開固定距離，用來在不同線段間轉移長度進行對比。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "圓的直徑剛好等於正方形邊長 (10)。故半徑為 5。",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "從圓心到圓周任何一點都是半徑，有無數個點，故有無數條。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "圓的定義就是到圓心距離（半徑）處處相等。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "20 是兩個直徑。一個直徑 = 10。半徑 = 5。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "圓必須半徑固定。半徑改變則畫不出封閉完美的圓。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "中心點到四邊等距，最適合當圓心以獲取最大對稱體。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -203,7 +215,8 @@
       "explanation": "圓規兩腳打開的寬度就是圓的半徑。如果餅乾的直徑是10公分，那麼半徑就是直徑的一半，也就是10 ÷ 2 = 5公分。",
       "commonMisconception": "學生可能誤以為圓規兩腳打開的寬度就是直徑，或是將半徑與直徑搞混，選擇10公分。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -219,7 +232,8 @@
       "explanation": "摩天輪的車廂是繞著一個固定的中心點轉動，這個中心點就是圓的圓心。",
       "commonMisconception": "學生可能對圓心、圓周、半徑等基本概念不夠清晰，將中心點與其他部位混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -235,7 +249,8 @@
       "explanation": "繩子從中心點拉到邊緣的長度就是圓的半徑。披薩的直徑是30公分，所以半徑是直徑的一半，即 30 ÷ 2 = 15公分。",
       "commonMisconception": "學生可能誤將直徑當作半徑，選擇30公分，或者將半徑與直徑的關係弄錯，選擇60公分。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -251,7 +266,8 @@
       "explanation": "圓的半徑越長，圓就越大。小華的呼拉圈半徑是35公分，比小美的30公分長，所以小華的呼拉圈比較大。",
       "commonMisconception": "學生可能只看數字大小，而沒有連結到半徑長度與圓形大小的關係，或者誤以為半徑越小圓越大。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -267,7 +283,8 @@
       "explanation": "圓的定義是所有點到圓心的距離都相等。時鐘的數字都在圓周上，所以它們到圓心的距離都一樣長，這正是圓的特性。",
       "commonMisconception": "學生可能被數字大小或時間流逝的概念干擾，沒有理解圓的幾何特性。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -283,7 +300,8 @@
       "explanation": "要壓出圓形餅乾，最直接也最有效的方法就是使用圓形的模具。",
       "commonMisconception": "學生可能沒有將生活中的物品與其形狀功能連結，或誤以為其他形狀的工具也能做出圓形。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -299,7 +317,8 @@
       "explanation": "連接圓周上兩點，並且經過圓心的線段，就是圓的直徑。",
       "commonMisconception": "學生可能將直徑與半徑混淆，或誤以為是圓周的長度。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -315,7 +334,8 @@
       "explanation": "從圓心到圓周的距離是半徑，半徑是直徑的一半。所以，40 ÷ 2 = 20公分。",
       "commonMisconception": "學生可能誤將直徑當作剪裁長度，選擇40公分，或將半徑與直徑關係弄錯。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -331,7 +351,8 @@
       "explanation": "從圓心到圓周的距離就是半徑。繩子的一端固定在圓心，另一端畫出圓周，所以繩子的長度就是半徑。",
       "commonMisconception": "學生可能誤認為繩子的長度是直徑或周長，沒有理解用繩子畫圓的原理。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -347,7 +368,8 @@
       "explanation": "圓形積木是圓形，正方形積木和橢圓形積木都不是圓形。題目要求挑出「不是圓形」的物品，所以要挑出正方形和橢圓形積木。",
       "commonMisconception": "學生可能只辨識出正方形不是圓形，而忽略橢圓形也不是圓形，或者誤解了「不是圓形」的意義。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -363,7 +385,8 @@
       "explanation": "陀螺要轉得穩，重心必須在轉動的中心點。如果尖端不在正中心，陀螺會因為重心不穩而搖晃，無法平穩轉動。",
       "commonMisconception": "學生可能沒有將圓心與平衡、穩定性連結，或者對陀螺轉動的原理有錯誤理解。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -379,7 +402,8 @@
       "explanation": "圓的直徑越長，圓的面積就越大，看起來也就越大。30公分直徑的時鐘比20公分直徑的時鐘大。",
       "commonMisconception": "學生可能只看數字大小，沒有連結到直徑長度與圓形大小的關係，或誤以為直徑越小圓越大。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -395,7 +419,8 @@
       "explanation": "連接圓周上任意兩點，並通過圓心的線段稱為直徑。",
       "commonMisconception": "學生可能將直徑與半徑混淆，或誤以為是圓心或圓周。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -411,7 +436,8 @@
       "explanation": "要畫出完美的圓形，需要確保所有點到圓心的距離都相等。圓規或用繩子固定中心點的方法，都能確保這個條件，從而畫出真正的圓形。",
       "commonMisconception": "學生可能認為只要多練習就能徒手畫好，或者誤以為圓規只是畫大圓的工具，沒有理解其原理。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -427,7 +453,8 @@
       "explanation": "從圓心到圓周上任意一點的距離就是半徑。靶心是圓心，圓圈邊緣是圓周，所以這個距離是半徑。",
       "commonMisconception": "學生可能將半徑與直徑混淆，或者被「飛鏢」的元素干擾，選擇了不相關的選項。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -443,7 +470,8 @@
       "explanation": "圓形餐桌最寬的地方就是它的直徑。直徑是半徑的兩倍，所以是 50 × 2 = 100公分。",
       "commonMisconception": "學生可能誤以為最寬的地方就是半徑，選擇50公分，或將半徑與直徑的關係弄錯。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -459,7 +487,8 @@
       "explanation": "圓形在滾動時，圓心到地面的距離始終保持不變，這樣車子就能平穩行駛。如果輪子是其他形狀，車子就會上下顛簸，非常不舒服。",
       "commonMisconception": "學生可能從美觀、製造或成本等非數學角度思考，沒有理解圓形在滾動時的獨特幾何特性。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -475,7 +504,8 @@
       "explanation": "小徑距離水池中心點最遠的地方就是水池的半徑，即8公尺。水池的直徑是半徑的兩倍，所以是 8 × 2 = 16公尺。",
       "commonMisconception": "學生可能誤將半徑當作直徑，選擇8公尺，或將半徑與直徑的關係弄錯。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     }
   ]
 }

@@ -22,7 +22,8 @@
       "scenario": "透明杯裡的奇蹟",
       "commonMisconception": "學生可能只知道向下長，未將其行為與「生存資源（水、固持）」進行邏輯連結。",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "南一版的科學實作中，我們剪下不同植物的葉子來觀察。小華發現大多數葉子都是「扁平狀」的。這種形狀對植物生存有什麼好處？",
@@ -37,7 +38,8 @@
       "scenario": "大自然的太陽能板",
       "commonMisconception": "對於「形狀」與「能量攝取」的演化因果關係缺乏覺察。",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "在紀錄白菜成長的紀錄表中，小華寫下：『今天白菜開花了，我想再過不久就可以收成種子了。』請問他的推論是建立在什麼科學觀念上？",
@@ -52,7 +54,8 @@
       "scenario": "小農夫的採種計畫",
       "commonMisconception": "對於「花與種子的轉換過程」缺乏具體認識，本題建立器官功能的正確認知。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "如果有一天森林裡連續下了一個月的暴雨，土壤一直處於積水狀態。這對於原本住在平地的植物會有什麼嚴重的影響？",
@@ -67,7 +70,8 @@
       "scenario": "森林裡的洪水危機",
       "commonMisconception": "再次強化「適度水分」與「根部呼吸」的因果關係。",
       "cqi_score": 3.75,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "小明想要研究「陽光」是否為種子發芽的必要條件。他設計了兩組豆子，請問下列哪種做法才是「正確的實驗組與對照組」設計？",
@@ -82,7 +86,8 @@
       "scenario": "陽光是發芽的鑰匙嗎？",
       "commonMisconception": "實驗設計時常出現「共變」錯誤（一次動兩個變因），導致結論無效。",
       "cqi_score": 5.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "小英觀察到苦瓜的莖上面有細長的「捲鬚」，這讓牠可以攀附在架子上。請問這種構造有助於苦瓜達成什麼目的？",
@@ -97,7 +102,8 @@
       "scenario": "菜棚下的攀岩高手",
       "commonMisconception": "不理解特化構造（捲鬚）的適應性意義。",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "我們在紀錄觀測植物時，為什麼要每天紀錄「天氣狀況」和「加水量」？",
@@ -112,7 +118,8 @@
       "scenario": "氣象農夫的筆記本",
       "commonMisconception": "將「過程紀錄」視為繁瑣行政，本題旨在建立「變因紀錄與數據關聯」的思維。",
       "cqi_score": 4.75,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "有些植物在開花後會長出帶有「倒鉤」的果實（如大花咸豐草/鬼針草）。請問這種構造對傳播後代有什麼幫助？",
@@ -127,7 +134,8 @@
       "scenario": "搭便車的種子旅行家",
       "commonMisconception": "誤以為倒鉤只是為了防衛，而未看見其背後的「主動移動」策略。",
       "cqi_score": 5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "在一棵植物的生長過程中，什麼時候才是最適合施加額外養分（如肥料）的時機？",
@@ -142,7 +150,8 @@
       "scenario": "菜園的營養大補帖",
       "commonMisconception": "以為肥料是「救命丹」（枯萎才噴）或「生長加速器」（剛種就噴）。",
       "cqi_score": 4,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "如果我們把一株植物的葉子全部塗上一層厚厚的漿糊，堵住葉子表面的孔洞。請問這對植物會有什麼直接的威脅？",
@@ -157,7 +166,8 @@
       "scenario": "植物的呼吸阻礙實驗",
       "commonMisconception": "學生常意識不到葉片有「孔洞」與環境互動的呼吸本質。",
       "cqi_score": 4,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -173,7 +183,8 @@
       "explanation": "根是植物吸收水分和養分的主要部位，同時也負責將植物牢固地固定在土壤中，使其得以穩定生長。",
       "commonMisconception": "學生可能誤以為莖是吸收水分的部位，或認為葉子是吸收水分的，因為雨水會落在葉子上。但根的獨特構造使其最適合此功能。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -189,7 +200,8 @@
       "explanation": "植物需要陽光才能進行光合作用製造養分。在沒有陽光的環境下，植物會因為無法製造足夠的養分而生長不良，葉子變黃變軟。",
       "commonMisconception": "學生可能認為是水不夠或土壤不夠肥沃，因為這是他們日常生活中容易聯想到的植物問題，而忽略了陽光對植物的重要性。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -205,7 +217,8 @@
       "explanation": "樹幹是植物莖的一部分，它主要負責支撐植物的地上部分，使其能夠挺立，並將根部吸收的水分和養分向上輸送到葉子和其他部位。",
       "commonMisconception": "學生可能將樹幹與根混淆，因為兩者都給人堅固的感覺，或認為它是一個獨立的部分。但樹幹是莖的特化形式。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -221,7 +234,8 @@
       "explanation": "葉綠素是植物葉子中含有的一種綠色色素，它能夠吸收陽光，幫助植物進行光合作用，將水和二氧化碳轉化為植物所需的養分。",
       "commonMisconception": "學生可能認為是水分或養分讓葉子變綠，因為這些是植物生長所需的基本要素，但忽略了葉綠素的特殊作用。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -237,7 +251,8 @@
       "explanation": "仙人掌的刺狀葉子可以大大減少水分蒸發，而肥厚的莖部則能儲存大量水分，這些都是它適應沙漠乾旱環境的重要方式。",
       "commonMisconception": "學生可能認為刺是為了防禦，或認為植物的特徵只是為了美觀，而忽略了植物為了生存而演化出的適應性。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -253,7 +268,8 @@
       "explanation": "玉米粒其實是玉米的果實和種子。每顆玉米粒都包含著一個胚芽，在適當的環境下，它能夠發芽生長成一棵新的玉米植株，這是植物繁殖後代的重要方式。",
       "commonMisconception": "學生可能只將玉米粒視為食物，而忽略了其作為種子的生物學功能。他們可能認為果實和種子是分開的，或是認為果實只是提供養分。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -269,7 +285,8 @@
       "explanation": "木本植物的莖通常具有木質化結構，又粗又硬，可以長得很高大，例如樹木和灌木。草本植物的莖則相對柔軟。",
       "commonMisconception": "學生可能對植物的分類概念不熟悉，或者會將植物的生長環境（如水生）與其莖的特性混淆。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -285,7 +302,8 @@
       "explanation": "花朵分泌花蜜是為了吸引昆蟲（如蝴蝶）前來，當昆蟲吸食花蜜時，花粉會附著在牠們身上，然後被帶到另一朵花上，完成授粉，幫助植物繁殖。",
       "commonMisconception": "學生可能認為花蜜只是食物來源，或花朵只是為了吸引人欣賞，而忽略了花朵與昆蟲之間互利共生的生物學意義。",
       "quality_level": "L5",
-      "cqi_score": 7.75
+      "cqi_score": 7.75,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -301,7 +319,8 @@
       "explanation": "向日葵的花朵追隨太陽轉動，是為了最大限度地接收陽光，以進行更有效的光合作用，製造更多的養分來支持其生長和種子成熟。",
       "commonMisconception": "學生可能將植物擬人化，認為植物只是喜歡太陽，或是為了美觀，而忽略了背後更深層的生理需求。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -317,7 +336,8 @@
       "explanation": "綠色植物透過光合作用產生氧氣，是地球上大部分生物的氧氣來源；同時，植物也是許多動物的食物來源。如果沒有植物，動物將面臨氧氣和食物的雙重危機。",
       "commonMisconception": "學生可能只想到植物的美觀價值，或認為只是動物的棲息地減少，而沒有意識到植物在氧氣供應和食物鏈基礎中的關鍵作用。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -333,7 +353,8 @@
       "explanation": "果實的主要功能之一就是保護和散播種子。種子是植物繁殖的單位，包含著胚芽，在適當條件下可以發育成新的植物。",
       "commonMisconception": "學生可能對果實和種子的關係不清晰，可能會誤以為花瓣或其他部分與繁殖有關，因為它們是植物顯眼的部分。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -349,7 +370,8 @@
       "explanation": "植物為了適應不同的環境和功能，演化出多種多樣的葉子形狀、大小和結構，例如楓葉的掌狀葉和松樹的針狀葉。",
       "commonMisconception": "學生可能因為常見的植物葉子多為平坦寬大而產生刻板印象，或忽略了植物多樣性中葉子的差異。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -365,7 +387,8 @@
       "explanation": "植物除了水、陽光和空氣，還需要土壤中的礦物質養分。定期施肥或提供肥沃的土壤，能補充這些養分，幫助植物健康生長。",
       "commonMisconception": "學生可能將植物擬人化，認為情感上的關懷有助於生長，或忽略了植物對土壤養分的實際需求。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -381,7 +404,8 @@
       "explanation": "植物的莖除了支撐葉子、花朵和果實外，其內部還有管道組織，負責將根部吸收的水分和礦物質向上運輸到葉子，並將葉子製造的養分運送到其他部位。",
       "commonMisconception": "學生可能只記住莖的支撐功能，而忽略了其在物質運輸中的關鍵作用。他們可能會將吸收陽光與葉子混淆。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -397,7 +421,8 @@
       "explanation": "進行科學實驗時，為了找出單一變因的影響，需要控制其他所有條件相同。因此，保持水量、土壤等條件一致，只改變陽光的有無，才能準確觀察陽光對植物生長的影響。",
       "commonMisconception": "學生可能不理解「控制變因」的重要性，會同時改變多個條件，導致無法判斷是哪個因素造成了結果的差異。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -413,7 +438,8 @@
       "explanation": "葉子是植物進行光合作用、製造養分的主要場所。如果葉子被吃光，植物就無法有效地製造生存所需的食物，最終可能導致枯萎死亡。",
       "commonMisconception": "學生可能低估葉子在植物生存中的關鍵作用，或認為植物會通過其他方式彌補葉子的損失，而忽略了光合作用的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -429,7 +455,8 @@
       "explanation": "草本植物的莖通常是柔軟的、不木質化的，且生命週期相對較短，通常在一年或兩年內完成生長並死亡。",
       "commonMisconception": "學生可能對草本植物和木本植物的區分不清楚，或將藤蔓植物誤認為是草本植物，因為它們的莖也相對柔軟。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -445,7 +472,8 @@
       "explanation": "水生植物為了適應水域環境，其根部通常會生長在水底的泥土中以固定和吸收養分，或者直接漂浮在水面上，利用水中的養分。",
       "commonMisconception": "學生可能對水生植物的生長方式不熟悉，誤認為它們的根部會像陸生植物一樣深埋土中，或完全不需要根。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -461,7 +489,8 @@
       "explanation": "蘋果的籽就是它的種子。每一顆種子都含有發育成新蘋果樹所需的遺傳物質，在適當的條件下，可以萌發長成一棵新的蘋果樹。",
       "commonMisconception": "學生可能將「籽」視為不重要的部分，或與果實的其他部分混淆，沒有認識到它是植物繁殖的關鍵。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -477,7 +506,8 @@
       "explanation": "讓野花留在原地，可以讓它繼續完成生命週期，結出種子，繁衍後代，維持生態平衡。同時，它也可能是昆蟲的食物來源或棲息地，對整個生態系統都有重要作用。",
       "commonMisconception": "學生可能只從個人喜好或衛生角度思考，而忽略了植物在自然生態系統中的整體價值和保護的重要性。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 2
     }
   ]
 }

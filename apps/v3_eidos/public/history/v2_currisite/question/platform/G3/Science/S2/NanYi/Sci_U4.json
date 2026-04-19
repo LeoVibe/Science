@@ -23,7 +23,8 @@
       "explanation": "食鹽（氯化鈉）是常見的白色結晶，具有高溶解度且呈現鹹味。砂糖是甜的，麵粉不溶於水，胡椒粉也不完全溶解。",
       "commonMisconception": "學生可能混淆白色粉末狀物質，需透過味道與溶解特性區分。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +40,8 @@
       "explanation": "紫色高麗菜汁含有花青素，是天然的酸鹼指示劑。遇到酸性物質（如檸檬汁、醋）時會轉變為紅色系；遇到鹼性物質會轉向藍綠或黃色。",
       "commonMisconception": "學生可能記不住顏色對應，需要建立「酸紅鹼綠/藍」的概念。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -55,7 +57,8 @@
       "explanation": "質量守恆定律。溶解只是物質分子分散到溶劑中，整體的質量（物質量）守恆，因此總重 = 溶質重 + 溶劑重。",
       "commonMisconception": "學生常有「溶解後重量變輕」或「消失」的迷思。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -71,7 +74,8 @@
       "explanation": "定溫定量的水中，溶質的溶解量是有上限的，當達到上限時稱為飽和溶液。此時無論如何攪拌，剩餘的溶質都不會再溶解。",
       "commonMisconception": "以為只要拼命攪拌，多少糖都能溶掉。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -87,7 +91,8 @@
       "explanation": "實驗安全第一原則。許多化學物質（如清潔劑、明礬）外觀與調味品相似，未經確認絕不可食用或直接湊近聞嗅，以免中毒或灼傷呼吸道。",
       "commonMisconception": "學生可能以為廚房裡的東西都是安全的，或習慣用「嚐味道」來辨識所有白色粉末。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -103,7 +108,8 @@
       "explanation": "砂糖與食鹽外觀相似，但砂糖通常顆粒較大（以此題情境而言），且最明顯的特徵是「甜味」。在安全且確定的廚房環境下，微量品嚐是辨識方式之一。",
       "commonMisconception": "學生可能認為所有白色粉末都一樣，需建立「特徵辨識」的概念。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -119,7 +125,8 @@
       "explanation": "白醋具有強烈的酸味，而水沒有味道。利用「搧聞」的方式可以安全且快速地透過嗅覺分辨兩者。",
       "commonMisconception": "學生可能不知道白醋有強烈氣味，或不知道正確的「搧聞」實驗技巧。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -135,7 +142,8 @@
       "explanation": "麵粉屬於不溶或難溶於水的固體粉末，加入水中攪拌後會懸浮在水中使水變混濁，不會像鹽或糖那樣完全溶解消失。",
       "commonMisconception": "學生常認為所有粉狀物加水都會「溶解」，需區分「溶解」與「混濁」的差別。",
       "quality_level": "L5",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -151,7 +159,8 @@
       "explanation": "食鹽具備高溶解性，攪拌後會完全消失在水中；麵粉則不具備此特性，會產生沉澱或使水質不透明。",
       "commonMisconception": "區分「溶解」的關鍵在於「是否均勻分散且透明（若溶質無色）」。",
       "quality_level": "L5",
-      "cqi_score": 7.75
+      "cqi_score": 7.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -167,7 +176,8 @@
       "explanation": "胡椒粉是由胡椒果實磨製而成，顏色偏深，且具有獨特的辛放香味，易於辨識。",
       "commonMisconception": "學生可能未曾仔細觀察胡椒粉，或對其氣味描述不精確。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -183,7 +193,8 @@
       "explanation": "許多調味品（鹽、糖、味精、小蘇打）外觀都是白色粉末或晶體，單靠眼睛看很難區分，需要配合嗅覺或味覺（在安全前提下）。",
       "commonMisconception": "過度依賴視覺，忽略了性質描述的必要性。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -199,7 +210,8 @@
       "explanation": "科學安全性原則。許多看起來像水的液體可能是強酸或強鹼，看起來像糖的粉末可能是工業鹽，誤食會造成嚴重後果。",
       "commonMisconception": "學生可能以為實驗室的東西跟家裡的一樣安全。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -215,7 +227,8 @@
       "explanation": "透過剪碎增加表面積，並利用熱水（或揉捻）萃取出葉片中的花青素，才能得到紫色的指示劑液體。",
       "commonMisconception": "學生可能不知道色素萃取需要破壞細胞壁或利用溶劑提取。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -231,7 +244,8 @@
       "explanation": "紫色高麗菜汁遇到酸性物質（如醋、檸檬汁）會呈現紅色系。這是花青素在不同酸鹼值下的化學物理反應。",
       "commonMisconception": "學生易混淆酸鹼對應的顏色，需建立「酸性偏紅、鹼性偏藍綠」的圖像記憶。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -247,7 +261,8 @@
       "explanation": "利用指示劑變色是科學檢驗酸鹼的標準做法。變紅代表酸性，變藍/綠代表鹼性。",
       "commonMisconception": "不清楚指示劑的功能，或將顏色結果對應反了。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -263,7 +278,8 @@
       "explanation": "在紫色高麗菜汁的檢驗中，液體轉向青綠色或藍色，代表該物質屬於鹼性（Basic）。",
       "commonMisconception": "對「鹼性」名詞陌生，或無法將顏色轉換為科學性質判斷。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -279,7 +295,8 @@
       "explanation": "中性物質（如純水、食鹽水）不會改變指示劑的酸鹼色彩，因此會維持指示劑原有的紫色。",
       "commonMisconception": "學生可能以為只要是水加進去都會變色。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -295,7 +312,8 @@
       "explanation": "本題測驗「預測」能力。基於酸性物質使紫色高麗菜汁變紅的規律，檸檬汁作為酸性物質，應會產生紅色反應。",
       "commonMisconception": "學生可能無法將「生活經驗（酸味）」與「科學模型（變紅）」進行邏輯聯結。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -311,7 +329,8 @@
       "explanation": "溶解是指溶質（固體、液體或氣體）均勻分布在溶劑（如水）中的過程，肉眼看來通常是透明且穩定的。",
       "commonMisconception": "將「融化（受熱變液體）」與「溶解（與水混合分散）」混淆。",
       "quality_level": "L5",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -327,7 +346,8 @@
       "explanation": "根據質量守恆定律，雖然砂糖溶解後看不見了，但它的原子依然存在於水中，重量必須加總。 5 + 50 = 55。",
       "commonMisconception": "「看不見 = 消失」的直覺謬誤，是小學階段最核心的溶解迷思。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -343,7 +363,8 @@
       "explanation": "加熱、增加接觸面積（敲碎）、震動（攪拌）都能加速分子運動與碰撞，有利溶解。冷凍降溫通常會降低溶解速率甚至導致析出。",
       "commonMisconception": "學生可能不清楚溫度與溶解速率的正相關性。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -359,7 +380,8 @@
       "explanation": "溫度升高會增加溶質分子的亂度與能量，使其更容易脫離固體狀態進入溶劑，因此熱水溶解砂糖的速度較快。",
       "commonMisconception": "對熱運動觀念缺乏基礎理解，以為溶解只跟水的量有關。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -375,7 +397,8 @@
       "explanation": "在特定溫度下，一定量的溶劑能溶解的溶質是有極限的，達到此極限且仍有未溶溶質存在時，稱為「飽和溶液（Saturated Solution）」。",
       "commonMisconception": "以為只要拼命攪拌，多少東西都能丟進去溶解。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -391,7 +414,8 @@
       "explanation": "增加溶劑（水）的量可以提供更多溶解空間。對已飽和的系統，單純攪拌是無效的。",
       "commonMisconception": "迷信「勞力工作（攪拌）」可以解決所有物理限制，忽略了「量」的限制。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -407,7 +431,8 @@
       "explanation": "利用水分蒸發（物理性質差異），鹽不會隨水蒸氣散失，因此可以透過蒸乾的方式回收溶質。",
       "commonMisconception": "以為物質溶解後就徹底化為烏有。此實驗可加強物質永恆的概念。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -423,7 +448,8 @@
       "explanation": "並非所有物質都能溶解在水中。油與水互不相溶，且油的重量比同體積的水輕（密度小），所以會浮在上方。",
       "commonMisconception": "以為所有廚房液體加水都會混合溶解。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -439,7 +465,8 @@
       "explanation": "在溶解現象中，被溶解的物質體稱為「溶質」，負責去溶解別人的物質體稱為「溶劑」。",
       "commonMisconception": "容易將溶質與溶劑的正反關係搞混。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -455,7 +482,8 @@
       "explanation": "細碎的粉末比整塊的晶體有更大的表面積與溶劑接觸，進而加快化學物理反應的速率。",
       "commonMisconception": "低估「接觸面積」在動態過程中的重要性。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -471,7 +499,8 @@
       "explanation": "物質守恆。溶解後的隱形不代表物理量的失蹤，以此建立基礎物理觀念。",
       "commonMisconception": "直覺認為「消失（視覺）」等於「沒有（重量）」。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -487,7 +516,8 @@
       "explanation": "綜合測驗：判斷酸性顏色反應（偏紅）與質量守恆（各成分加總）。",
       "commonMisconception": "無法同時考慮多個性質，單項判斷正確但整合失敗。",
       "quality_level": "L5",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 1
     }
   ]
 }

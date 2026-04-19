@@ -24,7 +24,8 @@
       "answer_index": 0,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 2.5
+      "cqi_score": 2.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "課文開頭通常會描寫溪水的樣貌，『清澈見底，能看到水底的石頭』是常見且符合中年級觀察力度的描述。",
       "commonMisconception": "學生可能被『流動快速』或『冰冷』等常見的溪水特徵吸引，但課文強調的是視覺上的清澈，這是最直接的描述。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "獨自靜靜觀察溪水，通常會帶給人一種沉靜與放鬆的感受，這符合自然環境對人的心理影響。",
       "commonMisconception": "學生可能會選擇『好奇與疑惑』，因為觀察常伴隨提問，但『靜靜地看著』更強調當下的心境而非探索欲。無聊或害怕則與課文積極的觀察氛圍不符。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "溪水長期的沖刷作用會使石頭的稜角磨平，變得圓潤光滑，這是自然界普遍的現象，也常在課文中被用來比喻時間的影響。",
       "commonMisconception": "學生可能誤以為沖刷會讓石頭變形或破碎，但課文強調的是『圓潤光滑』，這是水流塑形作用的典型結果。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -88,7 +92,8 @@
       "explanation": "「歌唱者」主要強調聲音與生命力。溪水潺潺的流動聲，就像大自然在輕聲歌唱，充滿了生機與活力。",
       "commonMisconception": "學生可能會被『受歡迎』或『豐收』等正面詞語吸引，但『歌唱者』的核心意象是聲音與其所承載的生命氣息。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -104,7 +109,8 @@
       "explanation": "課文通常會描寫主角透過多種感官來體驗自然，『用手輕輕觸摸』能直接感受溪水的溫度和流動，符合細膩觀察的描寫。",
       "commonMisconception": "學生可能聯想到玩水或撿石頭，但課文著重的是『感受』溪水本身的特質，觸摸是最直接的方式。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -120,7 +126,8 @@
       "explanation": "課文透過溪水沖刷石頭、小魚逆流而上、植物依水而生等描寫，最終會歸結到自然萬物面對環境挑戰時所展現的『堅持與韌性』，這是更深層次的體悟。",
       "commonMisconception": "『觀察帶來樂趣』是一個表層的感受，但『核心主旨』往往指向更深刻的哲理。生態多樣或和諧共處也是主題，但『堅持與韌性』更貼合溪水不斷流動、不斷塑造的意象。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -136,7 +143,8 @@
       "explanation": "看到弱小的生命在困境中展現出頑強的生命力，通常會讓人產生敬佩之情，進而啟發思考。",
       "commonMisconception": "學生可能認為『擔憂』是正常的反應，但課文更傾向於從中領悟道理，『佩服』更能體現這種積極的學習態度。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -152,7 +160,8 @@
       "explanation": "「潺潺」通常用來形容水流動時發出的輕微而連續的聲音，尤其指水流急促或不斷流動的聲音。",
       "commonMisconception": "學生可能對『潺潺』的具體程度有誤解，容易與『緩慢』或『清澈』混淆，但其核心是流動的聲音。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -168,7 +177,8 @@
       "explanation": "溪水是許多植物生長的重要水源，野花野草能依附溪邊生長，最直接的原因是溪水為其提供了賴以生存的水分和養分。",
       "commonMisconception": "學生可能從美學角度選擇『顏色映照』，或從負面角度選擇『枯萎污染』，但最核心的關聯是溪水作為生命之源的滋養作用。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +194,8 @@
       "explanation": "「雕刻師」意指透過持續的作用力來塑造或改變事物。溪水長年累月的流動，會慢慢改變河床、沖刷石頭，這正是它『改變環境地形』的力量，如同雕刻一般。",
       "commonMisconception": "學生可能誤解為時間的流逝速度或歷史記錄，但關鍵詞『雕刻師』強調的是其對物理環境的塑造作用。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -200,7 +211,8 @@
       "explanation": "自然環境的描寫常會包含嗅覺，『泥土和青草的清新氣味』是溪邊常見且令人感到舒適的氣味，符合課文營造的氛圍。",
       "commonMisconception": "學生可能會想像到花香，但泥土和青草的味道更具普遍性和原生性，更能代表溪邊的整體氣味。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -216,7 +228,8 @@
       "explanation": "溪水不斷流動、沖刷石頭、小魚逆流等意象，都指向『堅持不懈』和『克服困難』的道理，這是課文透過自然現象啟發學生的核心價值。",
       "commonMisconception": "其他選項也可能是觀察自然的體悟，但『堅持不懈』與溪水『持續流動』、『塑造環境』的特點最為緊密，是課文最可能傳達的深層訊息。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -232,7 +245,8 @@
       "explanation": "溪水作為水源，最直接且正面的影響就是『滋養兩岸的植物』，讓生命得以繁衍，這是環境描寫中常見的要素。",
       "commonMisconception": "學生可能會聯想到負面影響如土壤流失，但課文通常會強調自然的正向作用。吸引人類居住則是更廣泛的社會影響，而非溪水本身的直接環境影響。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -248,7 +262,8 @@
       "explanation": "「脈搏」是生命跳動的象徵，將溪水比喻為「大自然的脈搏」，是強調溪水流動不息，充滿生機，是自然界生命力的具體展現。",
       "commonMisconception": "學生可能從實際功能角度思考，如飲水來源，但『脈搏』這個比喻更深層次地指向生命與活力。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -264,7 +279,8 @@
       "explanation": "『悄悄話』的標題暗示了溪水的聲音是輕柔的，『低語』與『潺潺』相輔相成，共同描繪出溪水輕柔而持續的聲音特點。",
       "commonMisconception": "學生可能被『怒吼』、『咆哮』等強烈詞語吸引，但這些與『悄悄話』的整體氛圍不符。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -280,7 +296,8 @@
       "explanation": "課文不僅描寫了自然，更重要的是透過觀察自然現象，讓讀者從中領悟道理、獲得啟發，這是小學國語課文常見的寫作目的。",
       "commonMisconception": "保護環境是重要議題，但課文主要是透過『觀察』來達到『啟發』的目的。地理知識或寫作技巧則是次要或間接的目的。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -296,7 +313,8 @@
       "explanation": "課文的目的是啟發，因此最寶貴的『收穫』不是實質物品，而是內心的體悟和感動，這符合教育心理學中對學習成果的重視。",
       "commonMisconception": "學生可能會被實體物品如石頭或野花吸引，因為這是他們在戶外常做的事，但課文的深層意義在於精神層面的收穫。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +330,8 @@
       "explanation": "『悄悄話』強調的是聲音的輕柔、私密和富有情感，暗示溪水以一種不張揚卻深刻的方式與觀察者交流。",
       "commonMisconception": "學生可能誤解為『聽不見』或『秘密』，但『悄悄話』更多是形容其溫柔而持續的特性，以及與觀察者之間建立的親密連結。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -328,7 +347,8 @@
       "explanation": "課文通常著重於觀察的內容和體悟，而非精確的時間。若無明確提及，則應判斷為『沒有明確說明具體時間長度』。",
       "commonMisconception": "學生可能憑感覺或經驗猜測時間，但若課文未直接說明，則不應自行推斷具體時間。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -344,7 +364,8 @@
       "explanation": "標題是課文的靈魂，『悄悄話』不僅指聲音輕柔，更深層次地暗示了自然以其獨特的方式，向用心觀察的人傳遞著智慧和啟示。",
       "commonMisconception": "學生可能停留在字面意思，認為是『聲音微小』或『私密場所』，但作為課文標題，其用意應更具啟發性。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -360,7 +381,8 @@
       "explanation": "溪水會帶來涼意，加上樹蔭和水氣，溪邊通常是夏天避暑的好去處，會讓人感到『涼爽』和『清新』。",
       "commonMisconception": "學生可能會直覺聯想到夏天的『炙熱陽光』，但溪邊由於有水，往往能提供相對涼爽的環境。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -376,7 +398,8 @@
       "explanation": "從好奇到體悟是一個學習和成長的過程，透過觀察引發思考，最終從中獲得深刻的理解和感悟，這正是成長的表現。",
       "commonMisconception": "其他選項可能部分正確，但『觀察帶來思考，思考帶來成長』最能概括這種由淺入深的學習轉變。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -392,7 +415,8 @@
       "explanation": "課文強調的是『悄悄話』和『靜靜觀察』，大聲唱歌與課文營造的寧靜氛圍和主題不符。",
       "commonMisconception": "學生可能會誤以為在溪邊可以唱歌，但課文的重點在於沉靜的觀察和內心體悟，而非喧嘩的活動。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -408,7 +432,8 @@
       "explanation": "課文透過小作者在溪邊的觀察而獲得體悟，因此它最重要的建議是『用心觀察』，這是獲取知識和啟發的第一步。",
       "commonMisconception": "其他選項都是學習的方法，但課文的核心是透過『觀察』自然來學習，因此『用心觀察』是最直接且最重要的建議。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -424,7 +449,8 @@
       "explanation": "溪水日夜不停的流動，是自然界恆常變化的象徵，容易讓人聯想到『時間的流逝』和『生命的持續』，從而產生更深層的哲學思考。",
       "commonMisconception": "學生可能被負面想法如『乾涸』或『麻煩』吸引，或被『改造自然』等人類中心觀點影響，但課文更傾向於從自然中領悟積極的生命哲理。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -440,7 +466,8 @@
       "explanation": "課文標題『溪邊的悄悄話』直接點明了故事發生的地點是『一條小溪的旁邊』。",
       "commonMisconception": "學生可能聯想到其他自然環境，但標題已經給出了明確的提示。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -456,7 +483,8 @@
       "explanation": "「淙淙」與「潺潺」都是形容水流聲的疊字詞，語義和語氣最為接近，能保持原文輕柔而持續的意境。",
       "commonMisconception": "『嘩啦』和『轟隆』聲音過大，『寂靜』則完全相反，學生可能因缺乏精確的詞語辨析而選錯。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -472,7 +500,8 @@
       "explanation": "多感官描寫能讓讀者產生身臨其境的感覺，使描述的對象更具象、生動，從而更深刻地感受其魅力。",
       "commonMisconception": "學生可能被『科學研究』或『字數更多』等表面原因吸引，但寫作技巧的核心目的是提升讀者的閱讀體驗和理解深度。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -488,7 +517,8 @@
       "explanation": "溪水『持之以恆』的流動，不斷沖刷塑造，最能比喻學習中『積少成多』和『堅持不懈』的重要性。",
       "commonMisconception": "學生可能被『最快捷徑』或『改變方向』等詞語吸引，但這些與溪水『持續』和『累積』的本質精神不符。『保持安靜』是學習環境，而非學習精神。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     }
   ]
 }

@@ -1,76 +1,114 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G4_S2_MATH_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G4",
   "semester": "S2",
-  "subject": "Math",
+  "subject": "MATH",
   "items": [
-    {
-      "id": "L10",
-      "title": "L10",
-      "file": "L10_L10.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L1.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.95,
+      "quality": "QL3"
     },
     {
       "id": "L2",
       "title": "L2",
-      "file": "L2_L2.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L2.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.88,
+      "quality": "QL3"
     },
     {
       "id": "L3",
       "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L3.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.93,
+      "quality": "QL3"
     },
     {
       "id": "L4",
       "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L4.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.93,
+      "quality": "QL3"
     },
     {
       "id": "L5",
       "title": "L5",
-      "file": "L5_L5.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L5.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.72,
+      "quality": "QL3"
     },
     {
       "id": "L6",
       "title": "L6",
-      "file": "L6_L6.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L6.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.82,
+      "quality": "QL3"
     },
     {
       "id": "L7",
       "title": "L7",
-      "file": "L7_L7.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L7.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 7.07,
+      "quality": "QL3"
     },
     {
       "id": "L8",
       "title": "L8",
-      "file": "L8_L8.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L8.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.78,
+      "quality": "QL3"
     },
     {
       "id": "L9",
       "title": "L9",
-      "file": "L9_L9.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L9.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.78,
+      "quality": "QL3"
+    },
+    {
+      "id": "L10",
+      "title": "L10",
+      "theme": "",
+      "file": "G4_S2_MATH_KANGHSUAN_L10.json",
+      "count": 30,
+      "blind_tested": 0,
+      "avg_cqi": 6.72,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 300,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:03.000Z"
   }
 }

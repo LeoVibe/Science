@@ -24,7 +24,8 @@
       "answer_index": 3,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "課文開頭描述小明在花園中發現了一顆小小的種子，這開啟了他觀察植物成長的旅程。",
       "commonMisconception": "學生可能因為對花園的刻板印象，認為一開始就看到花朵，或被其他不相關的自然元素干擾。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -56,7 +58,8 @@
       "explanation": "課文中明確提到小明每天都會檢查植物是否得到充足的陽光，並為它澆水，這兩者是植物生長最基本且重要的需求。",
       "commonMisconception": "學生可能會混淆植物所需的元素，例如認為肥料是每天都必須提供的，或是選擇了不實際的選項。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "課文具體指出，小明耐心等待了「一個星期」，才驚喜地發現植物冒出了第一片嫩芽。",
       "commonMisconception": "學生可能因為對時間概念不敏感，或受到其他選項的干擾，而誤選了較短或較長的時間。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -88,7 +92,8 @@
       "explanation": "課文中清楚描述了植物開出的花朵是「火紅」的，顏色非常鮮豔奪目。",
       "commonMisconception": "學生可能憑藉個人喜好或常見花朵顏色來猜測，而沒有仔細回憶課文中的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -104,7 +109,8 @@
       "explanation": "小明對植物的照護是長期且充滿期待的，當他看到嫩芽時，是證明他長時間的付出與耐心得到了成果，自然會感到興奮與成就感。",
       "commonMisconception": "學生可能誤以為小明興奮是為了得到物質上的回報（如果實）或是第一次經驗，而忽略了背後努力與期待成真的情感連結。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -120,7 +126,8 @@
       "explanation": "小明每天觀察、澆水、確保陽光，這些行為都顯示他對植物充滿好奇，並且具有持之以恆的耐心和對生命的責任感。",
       "commonMisconception": "學生可能誤解小明的行為，或只看到單一面向，沒有全面歸納出他的品格特質。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -136,7 +143,8 @@
       "explanation": "課文強調了水分對植物成長的重要性。長期缺水會使植物無法進行正常生理活動，最終導致枯萎死亡。",
       "commonMisconception": "學生可能誤認為植物有很強的自癒能力，或者認為偶爾忘記澆水不會有太大影響，忽略了植物對基本環境條件的依賴。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -152,7 +160,8 @@
       "explanation": "「默默地」表示不顯眼、不張揚，暗示植物的生長是一個緩慢、持續且不間斷的過程，需要時間和耐心才能看到成果。",
       "commonMisconception": "學生可能將「默默地」與其他不相關的概念連結，例如速度快慢或時間限制，而未能理解其強調的持續性與不張揚的特點。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -168,7 +177,8 @@
       "explanation": "根據小明自己照顧植物的成功經驗，他會將這些實用的照護方法分享給鄰居，因為這是讓植物健康成長的關鍵。",
       "commonMisconception": "學生可能誤以為裝飾品或玩樂能讓花園美麗，沒有將學習到的植物照護知識應用到實際情境中。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -184,7 +194,8 @@
       "explanation": "小明從一顆種子到一朵花，經歷了耐心等待和細心照護的過程，最終收穫了成功的喜悅，這正是故事想傳達的核心價值。",
       "commonMisconception": "學生可能只看到種植植物的表面樂趣，或產生不切實際的期待，忽略了故事中關於耐心與付出的深刻啟示。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -200,7 +211,8 @@
       "explanation": "根據課文描述，小明是在「放學回家的路上」發現小鳥的，這是直接從文本中獲取的資訊。",
       "commonMisconception": "有些同學可能會誤以為是在常見的活動地點（如公園、操場）發現，但課文明確指出是回家的路上。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -216,7 +228,8 @@
       "explanation": "課文中描述小明「感到難過」，這是對情感的直接描述。從他後續的幫助行為，可以推斷他希望能幫助小鳥，這是一種同理心的表現。",
       "commonMisconception": "學生可能會誤以為好奇或興奮，但對於受傷的生命，同理心和關懷是更合理的推斷。害怕則與他後來的行動不符。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -232,7 +245,8 @@
       "explanation": "課文明確指出，媽媽「幫他做了一個小巢」，這是直接的文本訊息。",
       "commonMisconception": "學生可能將媽媽提供的幫助與小明自己照顧小鳥的行為混淆，誤以為媽媽直接參與了餵食或治療，但課文只提到做了巢。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -248,7 +262,8 @@
       "explanation": "課文提到小明「甚至閱讀關於鳥類的書籍來學習更多」，這顯示了他主動學習、深入了解，並為照顧小鳥付出額外努力的負責任態度。",
       "commonMisconception": "學生可能會誤以為請媽媽幫忙是負責任，但真正展現他個人努力的是主動學習。帶出門散步或邀請同學則與照顧的本質關係不大。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -264,7 +279,8 @@
       "explanation": "「難過」通常是因為分離或失去。小明長時間照顧小鳥，與之產生情感連結，所以將小鳥放回大自然意味著必須與之分開，這是難過的主要原因。高興則是因為小鳥恢復健康。",
       "commonMisconception": "學生可能會將自己的情感投射，認為是擔心小鳥再次受傷，但「難過」更多是針對「分離」本身，而非對未來不確定的擔憂。無法玩耍是其中一個面向，但「必須分開」是更全面的原因。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -280,7 +296,8 @@
       "explanation": "課文清楚寫道「經過幾個星期後，小鳥的翅膀痊癒了」，這是直接的文本訊息。",
       "commonMisconception": "學生可能會憑感覺猜測時間，但課文提供了明確的時間範圍，需要仔細閱讀才能找出。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +313,8 @@
       "explanation": "小明每天餵食、換水，甚至閱讀書籍學習，這些行為都顯示了他對生命的「耐心」和「愛心」。這不是單一事件，而是持續的行為模式。",
       "commonMisconception": "學生可能會被其他正面特質混淆，但與「照顧受傷小動物」最直接相關並被行為證實的是耐心與愛心。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -312,7 +330,8 @@
       "explanation": "課文說明小鳥翅膀痊癒後，「牠又可以飛翔了」，這是直接的事實描述。",
       "commonMisconception": "其他選項雖然是鳥類可能做的事，但課文明確指出翅膀康復後恢復的是「飛翔」的能力。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -328,7 +347,8 @@
       "explanation": "從照顧受傷小鳥的經歷，小明學會了對生命的尊重、關懷以及負起照顧弱小生命的責任，這遠比單純的知識（如品種名稱、製作鳥籠）更為深刻。",
       "commonMisconception": "學生可能會誤以為是學到具體知識，但課文強調的是「學到了很多」，這通常指更深層次的體悟和品格養成。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -344,7 +364,8 @@
       "explanation": "受傷的小鳥在大自然中缺乏自保能力，很難找到食物和水源，也容易成為其他捕食者的目標。如果沒有人幫助，牠很可能會因為傷勢惡化或無法生存而死亡。",
       "commonMisconception": "學生可能會抱持樂觀的想法，認為小鳥會自愈或被其他動物幫助。但現實情況中，受傷的野生動物生存機率很低，這題旨在引導學生思考幫助的重要性。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -360,7 +381,8 @@
       "explanation": "根據課文內容，小麻雀媽媽在樹枝上發出溫柔的叫聲，鼓勵小麻雀勇敢地嘗試飛翔，並沒有在巢裡或地上。",
       "commonMisconception": "學生可能基於同理心投射，認為媽媽應該在巢裡保護或在地上等待，而忽略了具體描寫的鼓勵行為。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -376,7 +398,8 @@
       "explanation": "課文明確指出，當小明和小華推開鐵門時，映入眼簾的是一棵高大、開滿了鮮豔紅花的大樹，讓他們驚呼連連。",
       "commonMisconception": "學生可能合理化迷思，認為花園裡常見鞦韆、小徑或蜜蜂，而沒有仔細回憶課文的具體描寫。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -392,7 +415,8 @@
       "explanation": "課文暗示阿寶透過觀察海浪的規律，從中獲得了新的啟發，開始思考如何蓋出更堅固的沙堡，展現了成長和解決問題的態度。",
       "commonMisconception": "學生可能基於同理心投射，認為孩子遇到挫折會放棄（D）或認為這是理所當然（A），忽略了角色內心轉變的線索。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -408,7 +432,8 @@
       "explanation": "課文清楚描述了松鼠會辛勤地將一顆顆堅果搬運到安全的樹洞裡，作為過冬的糧食。",
       "commonMisconception": "學生可能將松鼠埋藏食物在土裡的普遍知識（A）與課文的具體描述混淆，造成合理化迷思。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -424,7 +449,8 @@
       "explanation": "小雅雖然拒絕了小傑的建議，但課文並未描寫她生氣或不滿，而是強調她對自己設計的壁報有明確的藍圖和堅持，因此推斷她對自己的想法充滿信心。",
       "commonMisconception": "學生可能基於同理心投射，將拒絕等同於不滿或不喜歡（A、C、D），而沒有考慮到角色可能只是單純對自己的計畫有強烈自信。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -440,7 +466,8 @@
       "explanation": "這個譬喻強調時間的流動性與不可逆轉性，如同河流不斷向前，無法倒流，比喻時間的珍貴與稍縱即逝。",
       "commonMisconception": "學生可能被其他富有詩意的選項（C、D）所吸引，或對河流的物理特性（B）產生合理化迷思，而忽略了比喻的核心意義。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -456,7 +483,8 @@
       "explanation": "課文描寫小華在跌倒後會拍拍灰塵，重新嘗試，這顯示他內心深處對「熟能生巧」的信念，認為只要不斷努力就能掌握技能。",
       "commonMisconception": "學生可能將外部鼓勵（A）或社交動機（B）視為主要原因，或認為是天性使然（C），而沒有深入理解角色內在的成長信念。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -472,7 +500,8 @@
       "explanation": "這句話旨在強調即使是微小的個人貢獻，當許多人共同參與時，也能匯聚成巨大的力量，對整體產生顯著的正面影響，鼓勵集體行動與合作。",
       "commonMisconception": "學生可能被「珍惜環境」（B）這個正確但較籠統的選項吸引，或從字面理解清潔的辛苦（D），而沒有抓住這句話強調「集體力量」的核心啟示。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -488,7 +517,8 @@
       "explanation": "課文中明確指出，小音每天放學回家後，都會額外花費至少半小時的時間練習鋼琴。",
       "commonMisconception": "學生可能基於對勤奮的想像，選擇了更長時間的選項（B、C），或選擇了模糊但聽起來合理的選項（D），而沒有準確回憶課文的具體數字。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     }
   ]
 }

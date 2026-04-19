@@ -23,7 +23,8 @@
       "explanation": "規律是每 3 個一循環（圓、三、正）。10 除以 3 餘 1，所以第 10 個圖形與第 1 個相同，是圓形。",
       "commonMisconception": "學生可能直接數下去但數錯，或者不理解餘數與位置的關係。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +40,8 @@
       "explanation": "這是一個等差數列，每個數字都比前一個多 5。20 + 5 = 25。",
       "commonMisconception": "學生可能看錯間隔或是計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -55,7 +57,8 @@
       "explanation": "3 月 1 日出發，間隔 4 天，所以是 1 + 4 = 5 日。",
       "commonMisconception": "學生可能以為包含當天，導致計算為 4 日。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -71,7 +74,8 @@
       "explanation": "間隔數 = 20 / 5 = 4 個。因為兩端都種，所以樹的數量 = 間隔數 + 1 = 5 棵。",
       "commonMisconception": "經典的植樹問題陷阱，學生常忽略「兩端都種」需要加 1。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     }
   ]
 }

@@ -1,70 +1,104 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G6_S2_CHI_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G6",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
-    {
-      "id": "L10",
-      "title": "追夢的翅膀",
-      "file": "L10_追夢的翅膀.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "祝賀你，孩子",
-      "file": "L11_祝賀你，孩子.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "過故人莊",
-      "file": "L1_過故人莊.json",
-      "count": 1
+      "theme": "田園詩/律詩",
+      "file": "G6_S2_CHI_KANGHSUAN_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.09,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L2",
       "title": "把愛傳下去",
-      "file": "L2_把愛傳下去.json",
-      "count": 1
+      "theme": "記敘文",
+      "file": "G6_S2_CHI_KANGHSUAN_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.23,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L3",
       "title": "山村車輄寮",
-      "file": "L3_山村車輄寮.json",
-      "count": 1
+      "theme": "散文(鄉土)",
+      "file": "G6_S2_CHI_KANGHSUAN_L3.json",
+      "count": 24,
+      "blind_tested": 24,
+      "avg_cqi": 7.91,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
       "title": "迷途",
-      "file": "L4_迷途.json",
-      "count": 1
+      "theme": "冒險與心理",
+      "file": "G6_S2_CHI_KANGHSUAN_L4.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.98,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L5",
       "title": "馬達加斯加，出發！",
-      "file": "L5_馬達加斯加，出發！.json",
-      "count": 1
+      "theme": "遊記/說明",
+      "file": "G6_S2_CHI_KANGHSUAN_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.27,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L6",
       "title": "劍橋秋日漫步",
-      "file": "L6_劍橋秋日漫步.json",
-      "count": 1
+      "theme": "遊記/抒情",
+      "file": "G6_S2_CHI_KANGHSUAN_L6.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.44,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "雕刻一座小島",
-      "file": "L8_雕刻一座小島.json",
-      "count": 1
+      "theme": "散文",
+      "file": "G6_S2_CHI_KANGHSUAN_L8.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.3,
+      "quality": "QL4"
+    },
+    {
+      "id": "L10",
+      "title": "追夢的翅膀",
+      "theme": "記敘文",
+      "file": "G6_S2_CHI_KANGHSUAN_L10.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 9.2,
+      "quality": "QL4"
+    },
+    {
+      "id": "L11",
+      "title": "祝賀你，孩子",
+      "theme": "應用文/書信",
+      "file": "G6_S2_CHI_KANGHSUAN_L11.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 9.35,
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 189,
+    "blind_tested": 189,
+    "last_updated": "2026-04-15T03:46:03.409Z"
   }
 }

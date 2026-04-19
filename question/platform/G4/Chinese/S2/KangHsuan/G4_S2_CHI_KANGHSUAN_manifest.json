@@ -13,7 +13,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.26,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L2",
@@ -23,7 +23,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.07,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L3",
@@ -33,7 +33,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.14,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L4",
@@ -43,7 +43,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.37,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L5",
@@ -53,7 +53,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.04,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L6",
@@ -63,72 +63,72 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 7.85,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
       "title": "未來的模樣",
       "theme": "職業想像與未來展望。",
       "file": "G4_S2_CHI_KANGHSUAN_L7.json",
-      "count": 0,
-      "blind_tested": 1,
-      "avg_cqi": 0,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.26,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "小黑的新發現",
       "theme": "觀察力與好奇心。",
       "file": "G4_S2_CHI_KANGHSUAN_L8.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 5.5,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.79,
+      "quality": "QL3"
     },
     {
       "id": "L9",
       "title": "向太空出發",
       "theme": "火箭/太空科學與夢想。",
       "file": "G4_S2_CHI_KANGHSUAN_L9.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 5.5,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.92,
+      "quality": "QL3"
     },
     {
       "id": "L10",
       "title": "小青蛙想看海",
       "theme": "克服困難與冒險精神。",
       "file": "G4_S2_CHI_KANGHSUAN_L10.json",
-      "count": 0,
-      "blind_tested": 1,
-      "avg_cqi": 0,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.69,
+      "quality": "QL3"
     },
     {
       "id": "L11",
       "title": "窗前的月光",
       "theme": "自然美感描述。",
       "file": "G4_S2_CHI_KANGHSUAN_L11.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 6,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.7,
+      "quality": "QL3"
     },
     {
       "id": "L12",
       "title": "如來佛的手掌心",
       "theme": "古典文學：西遊記情節。",
       "file": "G4_S2_CHI_KANGHSUAN_L12.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 5.5,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.76,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "total_questions": 184,
-    "blind_tested": 186,
-    "last_updated": "2026-03-29T14:12:41.055Z"
+    "total_questions": 360,
+    "blind_tested": 360,
+    "last_updated": "2026-04-15T03:46:02.913Z"
   }
 }

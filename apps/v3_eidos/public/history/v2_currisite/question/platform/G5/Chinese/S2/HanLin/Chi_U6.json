@@ -24,7 +24,8 @@
       "answer_index": 0,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 2.5
+      "cqi_score": 2.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "情境中明確提到「牠的翅膀垂了下來，看起來非常虛弱」，因此小明是因為小鳥受傷而決定幫助牠。",
       "commonMisconception": "學生可能會誤以為小明是想養小鳥，或被其他看似合理的選項吸引，但課文直接提供了原因。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "小華「興奮地跳了起來」並「立刻開始和同學討論」，這些動作都強烈暗示他對同樂會感到非常期待和開心。",
       "commonMisconception": "學生可能會基於自己的經驗，認為同樂會可能會有壓力，而選擇其他負面或中性的選項，忽略文本中明確的興奮表現。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -72,7 +75,8 @@
       "explanation": "木椅的目的是提供舒適的休憩場所。即使沒有椅子，人們仍然可能因為樹蔭而聚集，只是舒適度會降低，所以大家仍可能在樹下，只是方式不同。其他選項過於極端或不合理。",
       "commonMisconception": "學生可能過度解讀木椅的重要性，認為沒有椅子就完全改變了人們的行為，或將擬人化的情緒投射到樹上。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -88,7 +92,8 @@
       "explanation": "課文明確指出：「他總是先找尋關於動物的百科全書」。",
       "commonMisconception": "學生可能會記得他閱讀了兩種類型的書，但忽略了「先」這個時間順序的詞。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -104,7 +109,8 @@
       "explanation": "下雨通常會阻礙戶外活動，而「嘆氣」常表達輕微的失望或無奈。隨後拿起畫筆畫畫，暗示她在尋找室內活動來排解心情。",
       "commonMisconception": "學生可能會將嘆氣與其他負面情緒連結，但未能將其與下雨的情境以及後續的行為聯繫起來。",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -120,7 +126,8 @@
       "explanation": "不分享食物的行為在群體中通常會導致不滿和疏遠，因為這違背了合作和互助的原則。",
       "commonMisconception": "學生可能認為擁有豐富資源會帶來尊敬，或誤以為小動物會從中學習，而忽略了自私行為對社交關係的負面影響。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -136,7 +143,8 @@
       "explanation": "課文明確指出：「最後，她灑上一些鹽巴和胡椒粉調味。」",
       "commonMisconception": "學生可能會混淆步驟的順序，尤其是當所有選項都是文章中提到的步驟時。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -152,7 +160,8 @@
       "explanation": "雖然跑了最後一名，但沒有負面情緒，反而能真誠地恭喜對方，顯示出他的運動家精神和欣賞他人的品質。",
       "commonMisconception": "學生可能會基於「輸了應該難過」的刻板印象，選擇小胖是假裝開心的選項，忽略了文本中展現的積極態度。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -168,7 +177,8 @@
       "explanation": "文章強調了農夫的「辛勤」和「汗水」，最終看到「結實纍纍的稻穗」後露出「滿足的笑容」，這都指向了付出與收穫的關係。",
       "commonMisconception": "學生可能會被細節吸引，如種植步驟，而忽略了文章想傳達的核心主旨。",
       "quality_level": "L3",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -184,7 +194,8 @@
       "explanation": "課文直接描述：「畫中有一片金色的麥田，和幾隻在天空中飛翔的白色小鳥。」",
       "commonMisconception": "學生可能記錯細節，或被其他看似美麗的景色選項所迷惑。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -200,7 +211,8 @@
       "explanation": "「微微嘆了口氣，什麼也沒說」暗示了奶奶對小華行為的輕微不滿或無奈，但選擇了不直接表達。",
       "commonMisconception": "學生可能將嘆氣解讀為更強烈的情緒（如生氣），或錯誤地認為奶奶是開心，未能理解「嘆氣」在這種情境下表達的細微情緒。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -216,7 +228,8 @@
       "explanation": "媽媽明確提醒小徑「可能很危險」，小猴子聽從建議則直接避免了這些潛在危險，保護了自己的安全。",
       "commonMisconception": "學生可能認為聽話的行為主要為了讓大人開心，或產生了錯誤的學習結果，而忽略了直接的保護作用。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -232,7 +245,8 @@
       "explanation": "課文明確指出：「小莉最喜歡的是撿拾各種形狀的貝殼。」",
       "commonMisconception": "學生可能會混淆小莉喜歡做的事情和其他人正在做的事情。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -248,7 +262,8 @@
       "explanation": "「嘴角微微上揚，眼神中充滿了溫柔」以及「立刻起身走過去關心」都顯示出老爺爺的慈祥與愛心。",
       "commonMisconception": "學生可能將「靜靜地看著」誤解為無聊，或將關心行為誤解為想聊天，忽略了表情和行為的整體傳達。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -264,7 +279,8 @@
       "explanation": "文章提到鐘聲「像是在訴說著小鎮悠久的歷史故事，是小鎮居民心中不可或缺的一部分」，這表示它具有文化和歷史的象徵意義。",
       "commonMisconception": "學生可能會只停留在鐘樓的實用功能（報時），而忽略了文章中提到的更深層次的文化和情感連結。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -280,7 +296,8 @@
       "explanation": "課文明確指出：「幸好，一隻好心的老貓頭鷹指引牠方向」。",
       "commonMisconception": "學生可能會誤以為是媽媽或自己找到路，忽略了關鍵的幫助者。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +313,8 @@
       "explanation": "「小心翼翼」、「額頭滲出細微的汗珠」、「眼睛緊盯著刻度」以及完成後「鬆了一口氣」都顯示了他在實驗過程中的專注與謹慎。",
       "commonMisconception": "學生可能將「汗珠」解讀為害怕，或將專注與無趣混淆，未能全面理解這些細節所傳達的謹慎態度。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -312,7 +330,8 @@
       "explanation": "在父母爭論的緊張情境下，孩子選擇沉默通常是出於害怕衝突加劇或覺得自己無力改變現狀。雖然他想去，但選擇不說，暗示了對父母情緒的顧慮或自我保護。",
       "commonMisconception": "學生可能會將沉默解讀為不感興趣，或過於理想化地認為孩子相信父母的決定，而忽略了孩子在家庭衝突中的心理壓力。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -328,7 +347,8 @@
       "explanation": "課文明確指出：「她最想玩的是旋轉木馬」。",
       "commonMisconception": "學生可能會被其他刺激的遊樂設施吸引，而忽略了小芳選擇的理由「最溫和」。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -344,7 +364,8 @@
       "explanation": "面對困難，小林沒有放棄，而是「努力地計算和思考」，這顯示了他堅持不懈和解決問題的毅力。",
       "commonMisconception": "學生可能將努力歸因於天賦或為了表現，而忽略了這種行為背後所展現的個人特質。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -360,7 +381,8 @@
       "explanation": "文章從多個角度（圓潤光滑的石頭、清澈見底的溪水、悠游的小魚、搖曳的野花、淡淡的清香）描繪了小溪的美麗與活力，並以「大自然的畫布，美得讓人心曠神怡」總結，強調其優美和生機。",
       "commonMisconception": "學生可能只看到部分細節，如石頭或野花，而未能綜合理解文章想表達的整體美感和生機。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -376,7 +398,8 @@
       "explanation": "課文明確指出：「爺爺每天早上都會到公園打太極拳。」",
       "commonMisconception": "學生可能會將公園裡的常見運動與爺爺的活動混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -392,7 +415,8 @@
       "explanation": "看到小妹妹哭泣而停下並輕聲詢問，顯示小文對他人的困境有同情心，並願意提供幫助。",
       "commonMisconception": "學生可能會將行為歸因於好奇或無聊，而忽略了行為背後更深層次的善良動機。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -408,7 +432,8 @@
       "explanation": "即使老師已經盡力用多種方式輔助說明，小華仍「一頭霧水」。如果少了這些輔助，他只會更難理解，進而可能打擊他的學習信心。",
       "commonMisconception": "學生可能認為輔助方法是多餘的，或誤以為沒有輔助反而能促使學生自主思考，忽略了學習難度對學生信心的影響。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -424,7 +449,8 @@
       "explanation": "課文明確指出：「每天清晨，小鳥的歌聲總是喚醒整個森林。」",
       "commonMisconception": "學生可能會將其他動物或自然聲音與喚醒森林混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -440,7 +466,8 @@
       "explanation": "課文明確提到：「裡面是他一直很想要的機器人模型」，這是他開心的主要原因。",
       "commonMisconception": "學生可能泛化為「喜歡收到禮物」，而忽略了「一直很想要」這個更具體且強烈的開心理由。",
       "quality_level": "L3",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -456,7 +483,8 @@
       "explanation": "老奶奶即使賣得便宜也「從不抱怨」，並明確表示「只要大家能吃到新鮮的菜，我就很滿足了」，這顯示她將顧客的利益和分享的快樂置於金錢之上。",
       "commonMisconception": "學生可能將重點放在價格便宜和生意好，或猜測她的經濟狀況，而忽略了她話語中表達的無私和滿足感。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -472,7 +500,8 @@
       "explanation": "課文明確指出：「小華跳了最遠」。",
       "commonMisconception": "學生可能會混淆第一名和第二名，或被小莉的努力所吸引而誤選。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -488,7 +517,8 @@
       "explanation": "在夜晚寧靜的氛圍中，小光「翻閱著一本厚厚的書」且「臉上帶著一絲微笑」，這都暗示他享受閱讀的過程和書中的內容。",
       "commonMisconception": "學生可能將讀厚書解讀為壓力或作業，忽略了微笑所表達的積極情緒。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -504,7 +534,8 @@
       "explanation": "課文明確指出：「她最喜歡企鵝」。",
       "commonMisconception": "學生可能會記錯或被其他動物吸引。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     }
   ]
 }

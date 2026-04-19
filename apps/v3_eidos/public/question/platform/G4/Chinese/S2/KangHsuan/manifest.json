@@ -1,88 +1,134 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G4_S2_CHI_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G4",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
-    {
-      "id": "L10",
-      "title": "小青蛙想看海",
-      "file": "L10_小青蛙想看海.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "窗前的月光",
-      "file": "L11_窗前的月光.json",
-      "count": 1
-    },
-    {
-      "id": "L12",
-      "title": "如來佛的手掌心",
-      "file": "L12_如來佛的手掌心.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "選拔動物之星",
-      "file": "L1_選拔動物之星.json",
-      "count": 1
+      "theme": "觀察動物特徵與敘事。",
+      "file": "G4_S2_CHI_KANGHSUAN_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.26,
+      "quality": "QL4"
     },
     {
       "id": "L2",
       "title": "心動不如行動",
-      "file": "L2_心動不如行動.json",
-      "count": 1
+      "theme": "行動力與目標達成。",
+      "file": "G4_S2_CHI_KANGHSUAN_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.07,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L3",
       "title": "一束鮮花",
-      "file": "L3_一束鮮花.json",
-      "count": 1
+      "theme": "生活環境美化與心理變化。",
+      "file": "G4_S2_CHI_KANGHSUAN_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.14,
+      "quality": "QL4"
     },
     {
       "id": "L4",
       "title": "米食飄香",
-      "file": "L4_米食飄香.json",
-      "count": 1
+      "theme": "傳統文化：米食產業。",
+      "file": "G4_S2_CHI_KANGHSUAN_L4.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.37,
+      "quality": "QL4"
     },
     {
       "id": "L5",
-      "title": "讀書報告–藍色小洋裝",
-      "file": "L5_讀書報告–藍色小洋裝.json",
-      "count": 1
+      "title": "藍色小洋裝",
+      "theme": "資源回收與創意。",
+      "file": "G4_S2_CHI_KANGHSUAN_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.04,
+      "quality": "QL4"
     },
     {
       "id": "L6",
       "title": "我愛鹿港",
-      "file": "L6_我愛鹿港.json",
-      "count": 1
+      "theme": "地方人文歷史與景點。",
+      "file": "G4_S2_CHI_KANGHSUAN_L6.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.85,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
       "title": "未來的模樣",
-      "file": "L7_未來的模樣.json",
-      "count": 1
+      "theme": "職業想像與未來展望。",
+      "file": "G4_S2_CHI_KANGHSUAN_L7.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.26,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "小黑的新發現",
-      "file": "L8_小黑的新發現.json",
-      "count": 1
+      "theme": "觀察力與好奇心。",
+      "file": "G4_S2_CHI_KANGHSUAN_L8.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.79,
+      "quality": "QL3"
     },
     {
       "id": "L9",
       "title": "向太空出發",
-      "file": "L9_向太空出發.json",
-      "count": 1
+      "theme": "火箭/太空科學與夢想。",
+      "file": "G4_S2_CHI_KANGHSUAN_L9.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.92,
+      "quality": "QL3"
+    },
+    {
+      "id": "L10",
+      "title": "小青蛙想看海",
+      "theme": "克服困難與冒險精神。",
+      "file": "G4_S2_CHI_KANGHSUAN_L10.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.69,
+      "quality": "QL3"
+    },
+    {
+      "id": "L11",
+      "title": "窗前的月光",
+      "theme": "自然美感描述。",
+      "file": "G4_S2_CHI_KANGHSUAN_L11.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.7,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "如來佛的手掌心",
+      "theme": "古典文學：西遊記情節。",
+      "file": "G4_S2_CHI_KANGHSUAN_L12.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.76,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 360,
+    "blind_tested": 360,
+    "last_updated": "2026-04-15T03:46:02.913Z"
   }
 }

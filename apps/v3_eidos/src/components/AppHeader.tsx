@@ -32,6 +32,7 @@ export default function AppHeader({
   isSubjectNavEnabled,
 }: AppHeaderProps) {
   const subjects = getSubjectsByGrade(grade);
+  const shieldColor = 'hsl(38 80% 52%)';
 
   return (
     <header className="sticky top-0 z-50 bg-card/90 backdrop-blur-md border-b">
@@ -43,10 +44,10 @@ export default function AppHeader({
             className="shrink-0 active:scale-95 transition-all hover:drop-shadow-md"
             title="個人設定"
           >
-            <svg width="42" height="46" viewBox="0 0 36 40" fill="none">
+            <svg width="38" height="42" viewBox="0 0 36 40" fill="none">
               <path
                 d="M18 1L2 8V20C2 29 9 36 18 39C27 36 34 29 34 20V8L18 1Z"
-                fill="hsl(38 80% 52%)"
+                fill={shieldColor}
               />
               <text x="13" y="16" textAnchor="middle" fill="white" fontSize="16" fontWeight="900" fontFamily="Nunito, sans-serif" dominantBaseline="middle">{GRADE_CN[grade]}</text>
               <text x="24" y="28" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="Nunito, sans-serif" dominantBaseline="middle" opacity="0.85">{SEM_CN[semester]}</text>
@@ -55,7 +56,8 @@ export default function AppHeader({
 
           <div className="w-px h-6 bg-border/60 shrink-0" />
 
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide flex-1">
+          {/* Subject tabs */}
+          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-hide flex-1">
             {subjects.map(s => {
               const navEnabled = isSubjectNavEnabled ? isSubjectNavEnabled(s) : true;
               const isActive = subject === s;
@@ -84,6 +86,7 @@ export default function AppHeader({
             })}
           </div>
 
+          {/* Utility buttons */}
           <div className="flex gap-0.5 shrink-0">
             <button onClick={onLearningReport} className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:bg-secondary transition-all flex items-center gap-0.5" title="學習統計">
               📊<span className="hidden sm:inline ml-0.5">統計</span>
@@ -93,20 +96,20 @@ export default function AppHeader({
             </button>
             <button
               onClick={onOpenSettings}
-              className="p-1.5 rounded-xl transition-all active:scale-95 group"
+              className="p-1.5 rounded-xl transition-all active:scale-95"
               title="設定"
             >
               <svg
                 viewBox="0 0 24 24"
                 className="w-5 h-5 sm:w-6 sm:h-6"
                 fill="none"
-                stroke="hsl(38 80% 52%)"
+                stroke={shieldColor}
                 strokeWidth="3.5"
                 strokeLinecap="round"
               >
                 <path d="M4 8h16M4 16h16" />
-                <circle cx="8" cy="8" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />
-                <circle cx="16" cy="16" r="1.5" fill="hsl(38 80% 52%)" stroke="none" />
+                <circle cx="8" cy="8" r="1.5" fill={shieldColor} stroke="none" />
+                <circle cx="16" cy="16" r="1.5" fill={shieldColor} stroke="none" />
               </svg>
             </button>
           </div>

@@ -1,88 +1,134 @@
 {
-  "publisher": "NanYi",
+  "id": "G3_S2_CHI_NANYI",
+  "publisher": "NANYI",
   "grade": "G3",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
     {
-      "id": "L10",
-      "title": "L10",
-      "file": "L10_L10.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "L11",
-      "file": "L11_L11.json",
-      "count": 1
-    },
-    {
-      "id": "L12",
-      "title": "L12",
-      "file": "L12_L12.json",
-      "count": 1
-    },
-    {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "title": "最美的模樣",
+      "theme": "選項對照：內在美與外在美的定義界定。",
+      "file": "G3_S2_CHI_NANYI_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.64,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 1
+      "title": "玩玩具",
+      "theme": "科學原理：動能與位能的初階口語化描述。",
+      "file": "G3_S2_CHI_NANYI_L2.json",
+      "count": 28,
+      "blind_tested": 28,
+      "avg_cqi": 8.59,
+      "quality": "QL3"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "title": "愛玉的變身術",
+      "theme": "生物化學：膠質轉化的過程觀察與歸納。",
+      "file": "G3_S2_CHI_NANYI_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.18,
+      "quality": "QL4"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "title": "楊修猜字",
+      "theme": "拆解分析：字謎中的部件邏輯與多音字。",
+      "file": "G3_S2_CHI_NANYI_L4.json",
+      "count": 28,
+      "blind_tested": 28,
+      "avg_cqi": 9.35,
+      "quality": "QL4"
     },
     {
       "id": "L5",
-      "title": "L5",
-      "file": "L5_L5.json",
-      "count": 1
+      "title": "唱反調",
+      "theme": "反向思考與獨立評論能力。",
+      "file": "G3_S2_CHI_NANYI_L5.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.35,
+      "quality": "QL4"
     },
     {
       "id": "L6",
-      "title": "L6",
-      "file": "L6_L6.json",
-      "count": 1
+      "title": "一飛沖天",
+      "theme": "夢想與火箭/飛行的科學起源。",
+      "file": "G3_S2_CHI_NANYI_L6.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.29,
+      "quality": "QL4"
     },
     {
       "id": "L7",
-      "title": "L7",
-      "file": "L7_L7.json",
-      "count": 1
+      "title": "井仔腳鹽田",
+      "theme": "舊時產業：曬鹽技術與地景美學。",
+      "file": "G3_S2_CHI_NANYI_L7.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.19,
+      "quality": "QL4"
     },
     {
       "id": "L8",
-      "title": "L8",
-      "file": "L8_L8.json",
-      "count": 1
+      "title": "和魚一起游泳",
+      "theme": "海洋休閒（浮潛）與生態觀察。",
+      "file": "G3_S2_CHI_NANYI_L8.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.26,
+      "quality": "QL4"
     },
     {
       "id": "L9",
-      "title": "L9",
-      "file": "L9_L9.json",
-      "count": 1
+      "title": "三峽老街樂藍染",
+      "theme": "傳統工藝：染布工法分析。",
+      "file": "G3_S2_CHI_NANYI_L9.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.32,
+      "quality": "QL4"
+    },
+    {
+      "id": "L10",
+      "title": "地球的眼淚",
+      "theme": "環境汙染與海洋悲歌。",
+      "file": "G3_S2_CHI_NANYI_L10.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.8,
+      "quality": "QL3"
+    },
+    {
+      "id": "L11",
+      "title": "枯木是大飯店",
+      "theme": "森林生態循環：枯立木的生物多樣性。",
+      "file": "G3_S2_CHI_NANYI_L11.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.65,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "騎樓",
+      "theme": "都市建築風景：台灣特色的亭仔腳歷史。",
+      "file": "G3_S2_CHI_NANYI_L12.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.59,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 331,
+    "blind_tested": 331,
+    "last_updated": "2026-04-15T03:46:02.674Z"
   }
 }

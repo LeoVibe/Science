@@ -23,7 +23,8 @@
       "explanation": "1 公升 = 1000 毫升。1000 - 350 = 650 毫升。",
       "commonMisconception": "學生可能不知道 1 公升 = 1000 毫升，直接用 1 - 350 而無法計算。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +40,8 @@
       "explanation": "2 杯共 400 × 2 = 800 毫升。水壺容量 1000 毫升。1000 - 800 = 200 毫升。",
       "commonMisconception": "學生可能忘了乘以 2，直接用 1000 - 400 = 600。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -55,7 +57,8 @@
       "explanation": "4 瓶 = 4000 毫升。需要 3 公升 500 毫升 = 3500 毫升。4000 - 3500 = 500 毫升。",
       "commonMisconception": "公升與毫升的混合運算需要先統一單位。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -71,7 +74,8 @@
       "explanation": "甲杯 = 2300 毫升。乙杯 = 2400 毫升。2400 > 2300，乙杯多 100 毫升。",
       "commonMisconception": "看到甲杯有公升單位就以為比較大，忽略了實際數值轉換。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -87,7 +91,8 @@
       "explanation": "800 × 5 = 4000 毫升 = 4 公升 0 毫升。",
       "commonMisconception": "學生可能不確定 4000 毫升要怎麼換算成公升。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -103,7 +108,8 @@
       "explanation": "毫升（mL）是測量液體容量的單位，用來表示藥水有多少。",
       "commonMisconception": "學生可能將容量與長度、重量或高度等其他物理量混淆。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -119,7 +125,8 @@
       "explanation": "公升（L）是測量液體體積或容量的單位，用於較大的液體量。",
       "commonMisconception": "學生可能不清楚公升是容量單位，而誤選其他物理量。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -135,7 +142,8 @@
       "explanation": "公升和毫升之間的換算關係是 1 公升 = 1000 毫升。",
       "commonMisconception": "學生可能忘記或混淆公升與毫升的換算關係，例如誤記為 10 或 100 倍。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -151,7 +159,8 @@
       "explanation": "毫升（mL）是用來測量少量液體的單位，指甲油瓶的容量通常很小，所以用毫升表示最合適。",
       "commonMisconception": "學生可能對毫升的實際大小沒有概念，誤選大容量的容器。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -167,7 +176,8 @@
       "explanation": "公升（L）是用來測量較大量液體的單位，一大桶飲用水的容量通常以公升計算。",
       "commonMisconception": "學生可能對公升的實際大小沒有概念，誤選小容量的容器。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -183,7 +193,8 @@
       "explanation": "量杯是用來測量液體容量的工具，所以會使用公升和毫升這兩種容量單位。",
       "commonMisconception": "學生可能將容量單位與長度、重量或時間單位混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -199,7 +210,8 @@
       "explanation": "因為 1 公升 = 1000 毫升，所以 500 毫升就是 1000 毫升的一半，也就是 0.5 公升。",
       "commonMisconception": "學生可能在毫升換算公升時，將小數點位置搞錯，例如誤認為 5 公升或 0.05 公升。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -215,7 +227,8 @@
       "explanation": "一般市售飲料瓶的容量多為 500 毫升左右，5 毫升太少，50 毫升也不夠解渴，5000 毫升（5 公升）則太多了。",
       "commonMisconception": "學生可能對毫升的實際容量沒有概念，誤選過小或過大的數字。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -231,7 +244,8 @@
       "explanation": "玩具裝水是測量其容量，所以應該使用容量單位「毫升」。",
       "commonMisconception": "學生可能將容量單位與重量或長度單位混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -247,7 +261,8 @@
       "explanation": "公升的英文是 liter，其縮寫為 L；毫升的縮寫是 mL。",
       "commonMisconception": "學生可能將公升和毫升的縮寫搞混，或與其他物理量的縮寫混淆。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -263,7 +278,8 @@
       "explanation": "首先將 1 公升換算成 1000 毫升。然後用總容量減去喝掉的量：1000 - 250 = 750 毫升。",
       "commonMisconception": "學生可能忘記將公升換算成毫升，或誤將喝掉的量加上去。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -279,7 +295,8 @@
       "explanation": "要比較兩者，需要將單位統一。0.5 公升等於 500 毫升。所以 750 毫升比 500 毫升多。",
       "commonMisconception": "學生可能直接比較數字 750 和 0.5，而忽略單位換算，或認為單位不同就無法比較。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -295,7 +312,8 @@
       "explanation": "首先將 2 公升換算成 2000 毫升。然後用總容量除以人數：2000 ÷ 8 = 250 毫升。",
       "commonMisconception": "學生可能忘記單位換算，或計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7.75
+      "cqi_score": 7.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -311,7 +329,8 @@
       "explanation": "將所有容量換算成毫升再相加：300 毫升 + 400 毫升 + (0.5 公升 × 1000 毫升/公升) = 300 + 400 + 500 = 1200 毫升。",
       "commonMisconception": "學生可能忘記將 0.5 公升換算成毫升，或計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -327,7 +346,8 @@
       "explanation": "首先將 5 公升換算成 5000 毫升。然後用總容量減去已有的水量：5000 - 3000 = 2000 毫升。",
       "commonMisconception": "學生可能忘記單位換算，或誤將已有的水量加到總容量上。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -343,7 +363,8 @@
       "explanation": "首先將 1 公升換算成 1000 毫升。然後從總水量中依序減去喝掉的量：1000 - 450 - 300 = 250 毫升。",
       "commonMisconception": "學生可能計算錯誤，或誤將喝掉的量加到總水量上。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -359,7 +380,8 @@
       "explanation": "1 公升又 800 毫升等於 1800 毫升。用 1800 毫升除以 500 毫升，大約是 3.6 次。因為量杯不能只量一部分，所以需要量 4 次才能確保水足夠。",
       "commonMisconception": "學生可能只計算出商數 3，而忽略需要足夠水量，所以要進位到 4 次。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -375,7 +397,8 @@
       "explanation": "首先將 2.5 公升換算成 2500 毫升。然後用總容量除以每天喝的量：2500 ÷ 500 = 5 天。",
       "commonMisconception": "學生可能忘記單位換算，或計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -391,7 +414,8 @@
       "explanation": "首先將 1 公升換算成 1000 毫升。然後用目標容量減去已有的顏料量：1000 - 600 = 400 毫升。",
       "commonMisconception": "學生可能忘記單位換算，或誤將已有的顏料量加到目標容量上。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -407,7 +431,8 @@
       "explanation": "將所有容量換算成毫升再相加：350 毫升 + 400 毫升 + (0.5 公升 × 1000 毫升/公升) = 350 + 400 + 500 = 1250 毫升。",
       "commonMisconception": "學生可能忘記將 0.5 公升換算成毫升，或計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -423,7 +448,8 @@
       "explanation": "首先將 2 公升換算成 2000 毫升。然後用洗衣精的總容量除以每次使用的量：2000 ÷ 40 = 50 次。",
       "commonMisconception": "學生可能忘記單位換算，或計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -439,7 +465,8 @@
       "explanation": "首先計算總果汁量：1.5 公升 = 1500 毫升。總量 = 1500 毫升 + 800 毫升 = 2300 毫升。裝滿 3 個 500 毫升的杯子需要 3 × 500 = 1500 毫升。剩下 2300 - 1500 = 800 毫升。",
       "commonMisconception": "學生可能計算錯誤，或在單位換算時出錯。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -455,7 +482,8 @@
       "explanation": "首先將 3 公升換算成 3000 毫升。然後用總容量除以量杯的容量：3000 ÷ 700 ≈ 4.28 次。因為不能量不足，所以至少需要量 5 次才能裝滿。",
       "commonMisconception": "學生可能只計算出商數 4，而忽略需要足夠水量，所以要進位到 5 次。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -471,7 +499,8 @@
       "explanation": "首先將 2 公升換算成 2000 毫升。然後用飲水器的總容量除以小狗每天喝的量：2000 ÷ 600 ≈ 3.33 天。因為只能喝整天，所以大約可以喝 3 天。",
       "commonMisconception": "學生可能計算錯誤，或在取近似值時出錯。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -487,7 +516,8 @@
       "explanation": "首先計算三盆花總共需要的水量：500 + 350 + 200 = 1050 毫升。澆水壺的容量是 1.2 公升，換算成毫升是 1200 毫升。因為 1200 毫升 > 1050 毫升，所以夠澆。剩下 1200 - 1050 = 150 毫升。",
       "commonMisconception": "學生可能忘記單位換算，或計算錯誤，導致判斷錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     }
   ]
 }

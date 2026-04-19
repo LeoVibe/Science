@@ -1,52 +1,74 @@
 {
-  "publisher": "NanYi",
+  "id": "G4_S2_SOC_NANYI",
+  "publisher": "NANYI",
   "grade": "G4",
   "semester": "S2",
-  "subject": "SocialStudies",
+  "subject": "SOC",
   "items": [
     {
       "id": "L1",
-      "title": "家鄉的產業探索",
-      "file": "L1_家鄉的產業探索.json",
-      "count": 1
+      "title": "家鄉的地形與生活",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.72,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "家鄉的產業轉變",
-      "file": "L2_家鄉的產業轉變.json",
-      "count": 1
+      "title": "家鄉的氣候與生活",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.55,
+      "quality": "QL4"
     },
     {
       "id": "L3",
-      "title": "家鄉的人口與生活",
-      "file": "L3_家鄉的人口與生活.json",
-      "count": 1
+      "title": "家鄉的產業與創新",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.71,
+      "quality": "QL4"
     },
     {
       "id": "L4",
-      "title": "家鄉的人口",
-      "file": "L4_家鄉的人口.json",
-      "count": 1
+      "title": "家鄉的人口與交通",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L4.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.87,
+      "quality": "QL4"
     },
     {
       "id": "L5",
-      "title": "家鄉的變遷與在地文化",
-      "file": "L5_家鄉的變遷與在地文化.json",
-      "count": 1
+      "title": "家鄉的多元文化",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.82,
+      "quality": "QL4"
     },
     {
       "id": "L6",
-      "title": "展望家鄉",
-      "file": "L6_展望家鄉.json",
-      "count": 1
+      "title": "想像家鄉的樣子",
+      "theme": "",
+      "file": "G4_S2_SOC_NANYI_L6.json",
+      "count": 28,
+      "blind_tested": 0,
+      "avg_cqi": 7.5,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 178,
+    "blind_tested": 150,
+    "last_updated": "2026-04-15T03:46:03.071Z"
   }
 }

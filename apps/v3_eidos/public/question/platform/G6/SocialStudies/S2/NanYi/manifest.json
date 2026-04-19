@@ -1,34 +1,44 @@
 {
-  "publisher": "NanYi",
+  "id": "G6_S2_SOC_NANYI",
+  "publisher": "NANYI",
   "grade": "G6",
   "semester": "S2",
-  "subject": "SocialStudies",
+  "subject": "SOC",
   "items": [
     {
       "id": "L1",
       "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "theme": "",
+      "file": "G6_S2_SOC_NANYI_L1.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 7.5,
+      "quality": "QL3"
     },
     {
       "id": "L3",
       "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "theme": "",
+      "file": "G6_S2_SOC_NANYI_L3.json",
+      "count": 15,
+      "blind_tested": 0,
+      "avg_cqi": 7.5,
+      "quality": "QL3"
     },
     {
       "id": "L4",
       "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "theme": "",
+      "file": "G6_S2_SOC_NANYI_L4.json",
+      "count": 10,
+      "blind_tested": 0,
+      "avg_cqi": 7.5,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 40,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:03.461Z"
   }
 }

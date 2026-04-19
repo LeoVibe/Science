@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "2kg = 2000g. 2000 + 500 = 2500g.",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "大格中間是 500g。 1kg + 500g = 1kg 500g。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "200 + 800 = 1000g = 1kg. 3 + 1 = 4kg.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "2400 - 1800 = 600g.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "砂糖是固體重量，使用重量單位。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "4 × 500 = 2000g = 2kg. 12 - 2 = 10kg.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "500 × 2 = 1000g = 1kg.",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "超載後指針會越過零點進入下一圈。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "450 + 200 + 250 = 900g. 未滿 1000g (1kg)。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "32kg 500g + 600g = 32kg 1100g = 33kg 100g.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "600 × 4 = 2400. 3000 - 2400 = 600g.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "1200g = 1.2kg. 最重。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     }
   ]
 }

@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "平分成 6 份，每份 1/6。 5 份為 5/6。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "2/12 + 5/12 = 7/12。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "1 - 3/8 = 8/8 - 3/8 = 5/8。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "分子與分母相等時，代表取得了全部分數，即等於 1。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "10 顆的 4/10 即為 4 顆。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "同分母時，分子 3 > 1。故 3/4 多。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "分數的前提是『等分（平分）』。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "2/10 + 3/10 = 5/10. 1 - 5/10 = 5/10.",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "基準為 12，3 顆佔 3/12。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "分母代表切割份量，不因相加而改變大小。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "1 - 4/10 = 6/10。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "7/7 - 3/7 = 4/7。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     }
   ]
 }

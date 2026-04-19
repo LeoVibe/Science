@@ -1,40 +1,64 @@
 {
-  "publisher": "NanYi",
+  "id": "G5_S2_SOC_NANYI",
+  "publisher": "NANYI",
   "grade": "G5",
   "semester": "S2",
-  "subject": "SocialStudies",
+  "subject": "SOC",
   "items": [
     {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "title": "落地生根家鄉情",
+      "theme": "",
+      "file": "G5_S2_SOC_NANYI_L1.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.25,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 1
+      "title": "勢力競逐新天地",
+      "theme": "",
+      "file": "G5_S2_SOC_NANYI_L2.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.18,
+      "quality": "QL3"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "title": "建設家鄉新家園",
+      "theme": "",
+      "file": "G5_S2_SOC_NANYI_L3.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.23,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "title": "工作與生活",
+      "theme": "",
+      "file": "G5_S2_SOC_NANYI_L4.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.13,
+      "quality": "QL3"
+    },
+    {
+      "id": "L5",
+      "title": "永續家園",
+      "theme": "",
+      "file": "G5_S2_SOC_NANYI_L5.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.18,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 225,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:03.370Z"
   }
 }

@@ -14,8 +14,8 @@ const testCases = [
     },
     {
         file: 'math_l2.json',
-        expectedQuality: 'QL2', // 發展綱要缺少 Evidence 關鍵字，ceiling 為 QL2
-        description: '數學科短題幹題目（研究支撐度 ceiling QL2）'
+        expectedQuality: 'QL3', // 有 KL4 研究紀錄+考古題，但無 blind_evaluation → QL3
+        description: '數學科短題幹題目（有研究支撐 + 考古題，無盲測）'
     }
 ];
 

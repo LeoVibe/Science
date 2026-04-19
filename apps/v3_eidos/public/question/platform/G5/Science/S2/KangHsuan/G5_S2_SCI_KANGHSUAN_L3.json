@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "SCI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L3",
+    "order": 3,
+    "title": "植物世界面面觀",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "植物會利用葉子進行「光合作用」。這個過程除了需要陽光外，還需要吸收什麼氣體？",
+      "options": [
+        "氧氣",
+        "氮氣",
+        "二氧化碳",
+        "氦氣"
+      ],
+      "answer_index": null,
+      "explanation": "光合作用是植物吸收二氧化碳與水，利用光能轉化為養分並釋放氧氣的過程。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "有些植物可以用「營養器官」來繁殖，不一定要靠種子。下列哪一種植物常用「根」來進行繁殖？",
+      "options": [
+        "地瓜（番薯）",
+        "馬鈴薯",
+        "落地生根",
+        "萬年青"
+      ],
+      "answer_index": null,
+      "explanation": "甘薯（地瓜）是利用塊根進行營養繁殖；馬鈴薯則是利用塊莖。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "實驗變因控制",
+      "question": "為了知道「水分」是否會影響綠豆種子的發芽，小明準備了兩個培養皿。下列哪一種實驗設計是正確的科學探究方法？",
+      "options": [
+        "甲組有水有光，乙組無水無光",
+        "甲、乙兩組都在室內，甲組有水、乙組無水",
+        "甲組在室內有水，乙組在室外無水",
+        "甲組和乙組都有水，但甲組放泥土，乙組放衛生紙"
+      ],
+      "answer_index": 1,
+      "explanation": "實驗設計必須遵守「唯一操作變因」。要探討「水分」，就只能讓水分不同（一組有水、一組無水），其他條件（如底層材質、光線、溫度）都必須相同以作為「控制變因」。",
+      "commonMisconception": "學生在設計實驗時沒有建立控制變因的概念，隨作改變多個條件（如同時改變水與陽光），導致最後無法釐清到底是誰造成了發芽與否差異。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

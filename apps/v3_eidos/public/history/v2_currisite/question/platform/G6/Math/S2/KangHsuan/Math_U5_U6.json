@@ -22,7 +22,8 @@
       "scenario": "規律問題：植樹問題",
       "commonMisconception": "兩端植與一端植公式混淆 (間隔與點的關係)",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【關於圓形圖的資料判讀】在一份圓形圖中，「休閒活動」佔了全體的 25%。如果要將其畫成圓形圖，對應的「圓心角」應該是多少度？",
@@ -37,7 +38,8 @@
       "scenario": "圓形圖：百分率轉圓心角",
       "commonMisconception": "百分率與圓心角度數概念混淆",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【探究「雞兔同籠」的解題策略】籠子裡有雞和兔共 10 隻，腳的總數有 32 隻。請問兔子有幾隻？",
@@ -52,7 +54,8 @@
       "scenario": "怎樣解題：假設法應用",
       "commonMisconception": "腳數差對位錯誤、假設對象錯置",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【關於「圓形圖」的總和檢核】小明在製作圓形圖時，發現各部分的百分率相加等於 99.8%。資深老師應如何引導？",
@@ -67,7 +70,8 @@
       "scenario": "統計圖表實務：誤差處理",
       "commonMisconception": "統計誤差認知缺失、百分率總和意義不全",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【規律問題：封閉圖形的植樹】在一圈周長 500 公尺的圓形水池旁，每隔 20 公尺種一棵樹。請問一共需要幾棵？",
@@ -82,7 +86,8 @@
       "scenario": "規律問題：週邊路徑",
       "commonMisconception": "封閉與開放路徑規律混淆",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【最後一題：資深老師對「圓形圖」的叮嚀】當一個圓形圖只有兩個項目，且其中一個是 180 度時，這代表？",
@@ -97,7 +102,8 @@
       "scenario": "圖表解讀：度數與比例",
       "commonMisconception": "幾何直覺與比例數據連結失敗",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     }
   ]
 }

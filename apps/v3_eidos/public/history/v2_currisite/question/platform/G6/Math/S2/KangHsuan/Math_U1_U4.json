@@ -22,7 +22,8 @@
       "scenario": "分數小數混合計算",
       "commonMisconception": "計算順序錯誤、小數點位移迷思",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【關於平均速率的判斷】阿強全家開車旅遊。去程 60 公里花了 1.5 小時，回程走原路花了 1 小時。請問這趟「來回」的平均速率是多少公里/時？",
@@ -37,7 +38,8 @@
       "scenario": "平均速率計算實務",
       "commonMisconception": "速率直接相加除以二 (算術平均迷思)",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【探究柱體表面積：圓柱體】一個底面半徑 5 公分、高 10 公分的圓柱（圓周率以 3.14 計算）。關於其「側面積」的計算，下列何者正確？",
@@ -52,7 +54,8 @@
       "scenario": "圓柱表面積計算：側面積路徑",
       "commonMisconception": "側面積公式誤用體積公式、展開圖邊長對位錯誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【關於基準量與比較量的指認】「小華的身高是弟弟的 1.2 倍」。在這句話中，誰是被設定為「基準量（也就是 1）」的人？",
@@ -67,7 +70,8 @@
       "scenario": "基準量指認判斷",
       "commonMisconception": "基準量與比較量角色混淆",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【計算柱體的表面積：有蓋 vs 無蓋】製作一個「無蓋」的正方體紙盒，邊長為 10 公分。請問需要多少平方公分的紙板？",
@@ -82,7 +86,8 @@
       "scenario": "幾何應用：表面積扣減",
       "commonMisconception": "漏讀「無蓋」條件之粗心偏差",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於母子和的應用】已知基準量是 120，比較量是基準量的 1.2 倍。請問「基準量與比較量的和（母子和）」是多少？",
@@ -97,7 +102,8 @@
       "scenario": "基準量應用：母子和",
       "commonMisconception": "求值對象錯誤 (比較量與母子和混淆)",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【探究圓柱體的展開圖】將一個圓柱沿著高剪開後得到的長方形側面積，其「長」與底圓的哪一個性質相等？",
@@ -112,7 +118,8 @@
       "scenario": "空間視覺化：圓柱展開",
       "commonMisconception": "展開圖邊界對應錯誤 (誤用直徑)",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於基準量與百分率的兩難：購物決策】一件原價 2000 元的衣服，方案甲是「打八折」，方案乙是「折價 200 元」。哪一個方案比較省錢？",
@@ -127,7 +134,8 @@
       "scenario": "生活數學：折扣與基準",
       "commonMisconception": "折扣比值與絕對差額概念混淆",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【柱體體積的進階判斷】一個三角柱的底面積是 30 平方公分，體積是 150 立方公分。請問這個三角柱的高是多少公分？",
@@ -142,7 +150,8 @@
       "scenario": "體積公式逆運算",
       "commonMisconception": "公式變項理解缺失、乘除逆運算錯誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【最後一題：資深教師對「基準量」的提醒】處理「比較量 = 基準量 $\\times$ 比值」這類題目時，最保險的線索是什麼？",
@@ -157,7 +166,8 @@
       "scenario": "數學思維養成：線段圖",
       "commonMisconception": "解題策略缺乏系統化、基準量判定盲點",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     }
   ]
 }

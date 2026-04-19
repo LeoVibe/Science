@@ -24,7 +24,8 @@
       "answer_index": 3,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "根據課文描述，春天時小明經常觀察到松鼠在樹洞裡儲藏食物並忙碌穿梭，展現了生命力。",
       "commonMisconception": "學生可能因為其他選項也是常見的樹洞生物而混淆，例如麻雀也可能築巢，但課文特指了松鼠的『忙碌穿梭』行為。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -56,7 +58,8 @@
       "explanation": "課文明確指出，秋天的楓葉變得『火紅色』，像燃燒的火焰，為大地增添了熱情。",
       "commonMisconception": "學生可能將秋天的其他葉色（如金黃色）與楓葉的特定描述混淆，因為多數樹葉在秋天都會變黃或變紅，但課文強調了楓葉的鮮豔紅色。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "課文描述小明在下雨的午後，最喜歡坐在窗邊，拿起畫筆，將窗外的雨景畫下來。",
       "commonMisconception": "學生可能會將自己或一般小孩在雨天會做的室內活動（如看卡通、玩積木）投射到小明身上，而忽略了課文中特別提到的『畫雨景』這一細節。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -88,7 +92,8 @@
       "explanation": "課文中提到，小明看到被啃食的向日葵時，感到『一陣心酸』，這最貼近『沮喪』的情緒，代表著失望和難過。",
       "commonMisplection": "學生可能會誤選『憤怒』，因為花被破壞確實可能讓人不悅，但對於自己悉心照料的植物受損，『沮喪』更能表達那種努力付諸東流的失落感，比單純的憤怒更深一層。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -104,7 +109,8 @@
       "explanation": "這個比喻強調了冬日陽光出現的『不確定性』和『短暫性』，就像害羞的孩子不常露面，所以主要表達陽光微弱且不常出現的特點。",
       "commonMisconception": "學生可能從『害羞』聯想到『可愛』或『溫暖』，而誤以為是表達陽光的溫暖，但比喻的重點在於『躲在雲層後探頭探腦』，暗示其不易見到。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -120,7 +126,8 @@
       "explanation": "『每天花時間觀察』、『連小昆蟲也不放過』，這些行為都強烈暗示小明對環境有著高度的『好奇心』和『耐心』去發現細節。",
       "commonMisconception": "學生可能會將『獨自觀察』誤解為『孤僻』或『不愛與人互動』，但課文的重點在於他對自然的投入與探索精神，而非社交行為。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -136,7 +143,8 @@
       "explanation": "『催眠曲』的功用是幫助人入睡，因此蛙鳴和蟲聲被形容為催眠曲，是想表達這些聲音『有規律』且『令人感到放鬆』，有助於睡眠。",
       "commonMisconception": "學生可能會將『吵雜』與『蛙鳴蟲聲』聯想，但『催眠曲』一詞明確表達了其正面且助眠的意涵，與吵雜相反。其他選項雖然可能與自然有關，但與『催眠曲』的本意不符。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -152,7 +160,8 @@
       "explanation": "『一陣暖意』通常用來形容感受到溫暖、希望或安慰。枯枝冒新芽象徵著生命的復甦和希望，因此最能表達『喜悅』的心情。",
       "commonMisconception": "學生可能將『暖意』誤解為單純的身體感受，或與其他負面情緒（如害怕）混淆。但在此情境下，『暖意』是心理層面的感受，與生命的展現相關。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -168,7 +177,8 @@
       "explanation": "文章細膩描寫了小明對自然細節的觀察，從中發現不同季節的變化與美。這強調了『用心觀察』的重要性，並告訴讀者即使是平凡的生活環境，也能從中學習和發現驚喜。",
       "commonMisconception": "學生可能選擇『保護環境』或『多花時間在戶外』等看似正確的教育意義，但這些是廣泛的環保或健康觀念，而非文章特別強調的『透過觀察發現學問』這一核心主旨。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -184,7 +194,8 @@
       "explanation": "小明從小對『花草樹木、小昆蟲、蛙鳴蟲聲』等自然生物的細微變化充滿興趣，這種習慣最符合生物學研究動植物生命週期的範疇。",
       "commonMisconception": "學生可能會選擇其他科學領域，因為科學家都帶有好奇心。但根據小明具體的觀察對象（生物），『生物學』是與其特質最直接相關的選擇，其他選項則偏離了其觀察內容。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -200,7 +211,8 @@
       "explanation": "根據課文描述，小光第一次看到的小芽非常細小，通常植物剛發芽時都只有一兩片子葉，因此「小芽很小，只有一片葉子」是符合實際情況的描述。",
       "commonMisconception": "學生可能被「對他笑」的擬人化說法吸引，誤以為植物有表情，或是過度想像小芽的顏色和生長速度，而忽略了對細節的觀察。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -216,7 +228,8 @@
       "explanation": "「每天觀察」和「輕輕澆水」這些動作，都顯示小光投入了時間和溫柔的照顧，代表他對小芽的生命充滿了期待與關愛，希望它能好好生長。",
       "commonMisconception": "部分學生可能將好奇心誤認為是唯一動機，或認為孩子做這些事只是為了打發時間，未能理解行為背後深層的情感連結。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -232,7 +245,8 @@
       "explanation": "面對問題時，積極的態度是「仔細觀察原因，並嘗試尋找解決方法」。這不僅能幫助植物，也是培養解決問題能力的重要一環，符合課文傳達的學習精神。",
       "commonMisconception": "學生可能因挫折感而選擇放棄，或將責任推給他人，這反映了在面對困難時缺乏堅持和主動解決問題的意識。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -248,7 +262,8 @@
       "explanation": "從小芽到開花是一個漫長而需要付出的過程。當努力得到回報時，小光會體驗到「滿足與成就感」，這是一種對自己付出得到成果的肯定。",
       "commonMisconception": "學生可能會將「驕傲」與成就感混淆，但成就感更強調個人努力後的內在愉悅，而非單純的自我炫耀。也有可能誤以為植物變色是主要驚訝點。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -264,7 +279,8 @@
       "explanation": "對著植物說話和撫摸葉子，是一種擬人化的關懷行為，表達了小光內心對植物的「愛與連結」，將其視為有生命的夥伴，這超越了單純的好奇或模仿。",
       "commonMisconception": "學生可能誤以為小光真的相信植物聽得懂人話，或只是一種模仿行為，而忽略了這種行為背後的情感投射和建立關係的心理需求。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -280,7 +296,8 @@
       "explanation": "小光從小芽到開花，經歷了觀察、澆水、等待和面對困難，這些都需要「耐心、細心和堅持」。這是課文透過植物生長故事，想傳達給學生的核心價值。",
       "commonMisconception": "學生可能只看到物質條件（水、陽光）的重要性，或是誤以為照顧植物很容易，而忽略了個人在其中付出的精神和毅力。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +313,8 @@
       "explanation": "植物結出果實代表生命的延續和循環。對於一個細心觀察植物生長的孩子來說，他最可能會聯想到「新的生命將會從這些果實中誕生」，這是一種對生命傳承的理解和期待。",
       "commonMisconception": "學生可能會從實用或社交層面去思考果實的用途（賣錢、送人），而忽略了更深層次的自然規律和生命意義的啟示。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -312,7 +330,8 @@
       "explanation": "綜合前述問題和一般植物生長過程，課文應是描寫植物健康的生長歷程：「小芽 → 茁壯成長 → 開花 → 結果」。這是一個完整的生命週期。",
       "commonMisconception": "學生可能將植物生長過程中的挫折（如葉子變黃、被蟲吃）或人為干預（被拔掉）誤認為是必經階段，而忽略了課文可能側重於順利成長的描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -328,7 +347,8 @@
       "explanation": "將「堅持」應用到學習上，代表當遇到難題時，不輕易放棄，而是「多花時間思考，嘗試不同的方法去解決」，這才是真正理解並實踐堅持的態度。",
       "commonMisconception": "學生可能誤以為堅持就是不斷重複同一種錯誤的方法，或者將尋求幫助視為放棄。正確的堅持是積極思考並嘗試多種解決方案。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     }
   ]
 }

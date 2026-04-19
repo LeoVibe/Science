@@ -42,15 +42,15 @@
       "question": "請依四年級自然課所學仔細判斷：關於『挺水性』植物的特徵，下列敘述何者正確？",
       "options": [
         "根固定在泥土，一部分莖和葉長出水面",
-        "葉柄膨大有氣室，讓葉片浮在水面　　",
-        "整株漂浮在水上隨風漂流　　　　　　",
-        "全身都在水面下　　　　　　　　　　"
+        "葉柄膨大有氣室，讓葉片浮在水面",
+        "整株漂浮在水上隨風漂流",
+        "全身都在水面下"
       ],
       "answer_index": 0,
       "explanation": "挺水性植物根長在泥土中，植物體挺出水面生長，如蓮花、香蒲。",
       "commonMisconception": "將『蓮花（挺水）』與『睡蓮（浮水）』混為一談，兩者雖然根都在土裡，但在水面上的高度姿勢不同。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "JOB-169：補標準答案索引（盲測後漏標）",
@@ -67,10 +67,10 @@
       "scenario": "小華家裡的魚缸裡種了許多綠色的長條植物。",
       "question": "請依四年級自然課所學仔細判斷：『金魚藻』在水中的生長方式為何？",
       "options": [
-        "漂浮在水面上　　　　　　",
+        "漂浮在水面上",
         "根長在土裡，葉子浮在水面",
-        "葉子挺出水面　　　　　　",
-        "全株沉在水面下生長　　　"
+        "葉子挺出水面",
+        "全株沉在水面下生長"
       ],
       "answer_index": 3,
       "explanation": "金魚藻屬於沉水性植物，整株植物都位在水面下生長。",
@@ -94,15 +94,15 @@
       "question": "『布袋蓮』能漂浮在水面上不動，主要是因為它的構造中哪一個部分具有許多氣室（儲存空氣）？",
       "options": [
         "膨大的葉柄",
-        "花瓣　　　",
+        "花瓣",
         "圓形的葉片",
-        "長長的根　"
+        "長長的根"
       ],
       "answer_index": 0,
       "explanation": "布袋蓮的葉柄基部膨大，內部充滿氣室，提供了極佳的浮力使其漂浮在水面。",
       "commonMisconception": "認為空氣是存在葉子裡面，而非負責支撐的葉柄中。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "JOB-169：補標準答案索引（盲測後漏標）",
@@ -119,16 +119,16 @@
       "scenario": "小朋友在水族館觀察魚如何游動。",
       "question": "請依四年級自然課所學仔細判斷：魚類在水中生活，可以用來平衡身體、改變運動方向的構造是？",
       "options": [
-        "腹部的魚鱗　　",
+        "腹部的魚鱗",
         "身體各處的魚鰭",
-        "頭部的鰓　　　",
+        "頭部的鰓",
         "身體側邊的側線"
       ],
       "answer_index": 1,
       "explanation": "魚鰭包括背鰭、胸鰭、腹鰭、臀鰭和尾鰭，分別具有推進、轉向與平衡的功能。",
       "commonMisconception": "以為魚只有尾巴有用，忽略了胸鰭和腹鰭像船槳一樣的微調功能。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "JOB-169：補標準答案索引（盲測後漏標）",
@@ -145,16 +145,16 @@
       "scenario": "自然課中，老師展示魚鰓構造的圖解。",
       "question": "請依四年級自然課所學仔細判斷：魚類如何獲取水中的氧氣來進行呼吸？",
       "options": [
-        "用肺部呼吸　　　　　　　　　　",
-        "定期游到水面吸氣　　　　　　　",
+        "用肺部呼吸",
+        "定期游到水面吸氣",
         "利用鰓蓋內鰓絲的微血管交換氣體",
-        "透過皮膚直接吸水　　　　　　　"
+        "透過皮膚直接吸水"
       ],
       "answer_index": 2,
       "explanation": "魚類利用鰓進行呼吸，當水流經過鰓絲時，能吸收水中的溶解氧並排出二氧化碳。",
       "commonMisconception": "容易與水生哺乳類（如鯨魚、海豚）混淆，後者才需要到水面換氣。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "魚類以鰓交換氣體。",
@@ -181,10 +181,10 @@
       "scenario": "自然觀察中心正在播放水鳥生活的影片。",
       "question": "有些水生動物（例如鴨子）腳趾間長有『蹼』，這對牠們在水中的生活有什麼幫助？",
       "options": [
-        "防止雙腳受傷　　　",
+        "防止雙腳受傷",
         "可以抓到泥土裡的魚",
-        "能跑得更快　　　　",
-        "有助於撥水前進　　"
+        "能跑得更快",
+        "有助於撥水前進"
       ],
       "answer_index": 3,
       "explanation": "蹼可以增加腳掌與水的接觸面積，提供更大的推動力，有利於游泳。",
@@ -208,15 +208,15 @@
       "question": "如果發現原本清澈的水池中，因為大量垃圾傾倒變得優養化（水質變差），對水生生物有什麼直接影響？",
       "options": [
         "水中含氧量下降，生物缺氧死亡",
-        "生物長得更大更快　　　　　　",
-        "沒有影響　　　　　　　　　　",
-        "水溫會變得太涼爽　　　　　　"
+        "生物長得更大更快",
+        "沒有影響",
+        "水溫會變得太涼爽"
       ],
       "answer_index": 0,
       "explanation": "水質惡化或優養化會導致藻類暴增隨後大量死亡分解，進而耗盡水中的氧氣，導致魚蝦死亡。",
       "commonMisconception": "學生可能以為水太多養分是好事，忽略了生態系平衡崩潰的連鎖反應。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "優養化致缺氧。",
@@ -243,16 +243,16 @@
       "scenario": "自然課觀察撈到的小溪蝦。",
       "question": "請依四年級自然課所學仔細判斷：關於蝦子的生活習性，下列描述何者正確？",
       "options": [
-        "蝦子是哺乳動物　　　　　　　　　　　",
-        "蝦子不需要水也能活很久　　　　　　　",
+        "蝦子是哺乳動物",
+        "蝦子不需要水也能活很久",
         "牠們利用腹部的泳足和尾扇來移動或後退",
-        "蝦子的眼睛退化看不到　　　　　　　　"
+        "蝦子的眼睛退化看不到"
       ],
       "answer_index": 2,
       "explanation": "蝦子具有分節的身體，透過泳足划動，並在危險時利用尾扇彈跳後退。",
       "commonMisconception": "學生常以為蝦子只會向前游，其實『彈跳後退』是其最具特色的動作。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "JOB-169：補標準答案索引（盲測後漏標）",
@@ -269,16 +269,16 @@
       "scenario": "生態保育宣導：為什麼隨意放生是害了環境？",
       "question": "請依四年級自然課所學仔細判斷：為了維護水生環境的永續，我們不應該在水池中做什麼？",
       "options": [
-        "清理水池中的人造垃圾　　　　",
+        "清理水池中的人造垃圾",
         "隨意放生外來物種（如巴西龜）",
-        "觀察並做筆記　　　　　　　　",
-        "種植本土水生植物　　　　　　"
+        "觀察並做筆記",
+        "種植本土水生植物"
       ],
       "answer_index": 1,
       "explanation": "隨意放生外來種會破壞原本的生態平衡，競爭本地生物的生存資源。",
       "commonMisconception": "認為『放生』是慈悲的行為，卻沒意識到引入強勢外來種會屠殺在地物種。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "JOB-169：補標準答案索引（盲測後漏標）",
@@ -295,9 +295,9 @@
       "scenario": "【課堂探究時】",
       "question": "請依四年級自然課所學仔細判斷：要讓燈泡發亮，電線必須連接電池的哪兩個部分？",
       "options": [
-        "正極與負極　　",
-        "兩個正極　　　",
-        "兩個負極　　　",
+        "正極與負極",
+        "兩個正極",
+        "兩個負極",
         "隨便一邊都可以"
       ],
       "answer_index": 0,
@@ -401,16 +401,16 @@
       "scenario": "【課堂探究時】",
       "question": "請依四年級自然課所學仔細判斷：在電路中安裝「開關」的主要作用是什麼？",
       "options": [
-        "保護電池不被偷　　　　　　　　　　　",
-        "裝飾漂亮　　　　　　　　　　　　　　",
-        "增加電力　　　　　　　　　　　　　　",
+        "保護電池不被偷",
+        "裝飾漂亮",
+        "增加電力",
         "控制電路的接通（通路）或切斷（斷路）"
       ],
       "answer_index": 3,
       "explanation": "開關提供便利的電力控制。",
       "commonMisconception": "學生常把表面現象與科學解釋混淆，宜對照課本插圖與實驗紀錄釐清。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "開關控制通路／斷路。",
@@ -437,16 +437,16 @@
       "scenario": "【課堂探究時】",
       "question": "請依四年級自然課所學仔細判斷：下雨天或手溼時，絕對不可以碰觸插座或開關，這是因為？",
       "options": [
-        "沒什麼原因　　　　　　　　",
-        "會把插座弄溼　　　　　　　",
-        "會浪費電　　　　　　　　　",
+        "沒什麼原因",
+        "會把插座弄溼",
+        "會浪費電",
         "水是導體，容易造成觸電危險"
       ],
       "answer_index": 3,
       "explanation": "自來水並非純水，因含有雜質而具有導電性。",
       "commonMisconception": "學生常把表面現象與科學解釋混淆，宜對照課本插圖與實驗紀錄釐清。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "水濕導電易觸電。",
@@ -476,7 +476,7 @@
         "沙子",
         "油脂",
         "空氣",
-        "水　"
+        "水"
       ],
       "answer_index": 3,
       "explanation": "虹吸必須先建立連綿的水柱才能啟動。",
@@ -579,16 +579,16 @@
       "scenario": "【課堂探究時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，連通管原理常應用在生活中的？",
       "options": [
-        "溫度計　　　",
-        "手電筒　　　",
+        "溫度計",
+        "手電筒",
         "飲水機水位計",
-        "吸塵器　　　"
+        "吸塵器"
       ],
       "answer_index": 2,
       "explanation": "水位計能顯示與內部等高的水面。",
       "commonMisconception": "學生常把表面現象與科學解釋混淆，宜對照課本插圖與實驗紀錄釐清。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "is_publishable": true,
       "review_status": "corrected",
       "review_notes": "連通管原理：飲水機水位計。",
@@ -649,15 +649,15 @@
       "scenario": "【接燈泡時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，小燈泡要亮，電路通常需要？",
       "options": [
-        "封閉迴路　",
+        "封閉迴路",
         "只用絕緣體",
-        "不接導線　",
-        "只接一極　"
+        "不接導線",
+        "只接一極"
       ],
       "answer_index": 0,
       "explanation": "電流需完整路徑。",
       "commonMisconception": "誤以為碰電池就亮。",
-      "quality_level": "QL2",
+      "quality_level": "QL1",
       "cqi_score": 8.25,
       "blind_evaluation": true,
       "is_publishable": true,
@@ -675,9 +675,9 @@
       "scenario": "【串聯思考時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，兩燈串聯，亮度通常比單燈？",
       "options": [
-        "較暗　　　",
-        "更亮　　　",
-        "不變　　　",
+        "較暗",
+        "更亮",
+        "不變",
         "變成兩倍亮"
       ],
       "answer_index": 0,
@@ -709,7 +709,7 @@
       "answer_index": 2,
       "explanation": "並聯有多路徑。",
       "commonMisconception": "與串聯混淆。",
-      "quality_level": "QL2",
+      "quality_level": "QL1",
       "cqi_score": 8.25,
       "blind_evaluation": true,
       "is_publishable": true,
@@ -727,7 +727,7 @@
       "scenario": "【安全操作時】",
       "question": "請依四年級自然課所學仔細判斷：導線直接接電池兩極不經燈泡，最可能？",
       "options": [
-        "燈更亮　",
+        "燈更亮",
         "自動充電",
         "短路危險",
         "完全沒事"
@@ -735,8 +735,8 @@
       "answer_index": 2,
       "explanation": "短路電流大易過熱。",
       "commonMisconception": "不知短路危險。",
-      "quality_level": "QL2",
-      "cqi_score": 9,
+      "quality_level": "QL1",
+      "cqi_score": 7.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -753,7 +753,7 @@
       "scenario": "【導體測試時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，下列何者較易導電？",
       "options": [
-        "銅板　",
+        "銅板",
         "橡皮擦",
         "塑膠袋",
         "乾木片"
@@ -761,7 +761,7 @@
       "answer_index": 0,
       "explanation": "金屬多為導體。",
       "commonMisconception": "誤以為所有固體都導電。",
-      "quality_level": "QL2",
+      "quality_level": "QL1",
       "cqi_score": 9,
       "blind_evaluation": true,
       "is_publishable": true,
@@ -779,16 +779,16 @@
       "scenario": "【絕緣體時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，電線外層包塑膠，主要為了？",
       "options": [
-        "讓電變快　　　",
+        "讓電變快",
         "防止觸電與漏電",
-        "讓金屬氧化　　",
-        "增加美感而已　"
+        "讓金屬氧化",
+        "增加美感而已"
       ],
       "answer_index": 1,
       "explanation": "絕緣保護。",
       "commonMisconception": "不知外皮功能。",
-      "quality_level": "QL2",
-      "cqi_score": 8.25,
+      "quality_level": "QL1",
+      "cqi_score": 6.75,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -805,16 +805,16 @@
       "scenario": "【開關功能時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，開關打開時，電路？",
       "options": [
-        "電池膨脹　　",
-        "自動變並聯　",
-        "一定更通　　",
+        "電池膨脹",
+        "自動變並聯",
+        "一定更通",
         "形成斷路不通"
       ],
       "answer_index": 3,
       "explanation": "開關切斷迴路。",
       "commonMisconception": "誤以為開關只裝飾。",
-      "quality_level": "QL2",
-      "cqi_score": 9,
+      "quality_level": "QL1",
+      "cqi_score": 7.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -831,10 +831,10 @@
       "scenario": "【電池極性時】",
       "question": "請依四年級自然課所學仔細判斷：電流敘述（課堂模型）常說從電池哪一極流出？",
       "options": [
-        "正極　",
+        "正極",
         "沒有極",
-        "側面　",
-        "負極　"
+        "側面",
+        "負極"
       ],
       "answer_index": 0,
       "explanation": "教學上由正極經外電路回到負極。",
@@ -857,16 +857,16 @@
       "scenario": "【故障排除時】",
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，燈不亮，優先檢查？",
       "options": [
-        "用水沖洗　　　　　　",
+        "用水沖洗",
         "接點是否形成閉合迴路",
-        "把電壓任意加倍　　　",
-        "拆掉燈泡座　　　　　"
+        "把電壓任意加倍",
+        "拆掉燈泡座"
       ],
       "answer_index": 1,
       "explanation": "先查鬆脫、斷路、電量。",
       "commonMisconception": "不安全操作。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -884,7 +884,7 @@
       "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，濕手為何不宜碰插頭？",
       "options": [
         "水會讓燈泡變大",
-        "水溶液易導電　",
+        "水溶液易導電",
         "水會讓頭髮變長",
         "水會停止所有電"
       ],

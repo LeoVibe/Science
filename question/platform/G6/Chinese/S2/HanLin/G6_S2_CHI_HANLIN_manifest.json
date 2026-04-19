@@ -12,8 +12,8 @@
       "file": "G6_S2_CHI_HANLIN_L1.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 9.02,
-      "quality": "QL1"
+      "avg_cqi": 8.22,
+      "quality": "QL3"
     },
     {
       "id": "L2",
@@ -22,8 +22,8 @@
       "file": "G6_S2_CHI_HANLIN_L2.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 8.63,
-      "quality": "QL1"
+      "avg_cqi": 7.92,
+      "quality": "QL3"
     },
     {
       "id": "L3",
@@ -32,8 +32,8 @@
       "file": "G6_S2_CHI_HANLIN_L3.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 8.91,
-      "quality": "QL1"
+      "avg_cqi": 7.96,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
@@ -42,8 +42,8 @@
       "file": "G6_S2_CHI_HANLIN_L4.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 9.08,
-      "quality": "QL1"
+      "avg_cqi": 8.38,
+      "quality": "QL4"
     },
     {
       "id": "L5",
@@ -52,8 +52,8 @@
       "file": "G6_S2_CHI_HANLIN_L5.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 8.84,
-      "quality": "QL1"
+      "avg_cqi": 8.14,
+      "quality": "QL3"
     },
     {
       "id": "L6",
@@ -62,8 +62,8 @@
       "file": "G6_S2_CHI_HANLIN_L6.json",
       "count": 27,
       "blind_tested": 27,
-      "avg_cqi": 9.01,
-      "quality": "QL1"
+      "avg_cqi": 8.12,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
@@ -73,7 +73,7 @@
       "count": 5,
       "blind_tested": 5,
       "avg_cqi": 8.3,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L8",
@@ -83,7 +83,7 @@
       "count": 2,
       "blind_tested": 2,
       "avg_cqi": 8.75,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L9",
@@ -93,7 +93,7 @@
       "count": 5,
       "blind_tested": 5,
       "avg_cqi": 8.6,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L10",
@@ -103,7 +103,7 @@
       "count": 5,
       "blind_tested": 5,
       "avg_cqi": 9.2,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L11",
@@ -113,12 +113,12 @@
       "count": 5,
       "blind_tested": 5,
       "avg_cqi": 8.9,
-      "quality": "QL1"
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
     "total_questions": 199,
     "blind_tested": 199,
-    "last_updated": "2026-03-29T08:32:36.638Z"
+    "last_updated": "2026-04-15T03:46:03.391Z"
   }
 }

@@ -25,7 +25,8 @@
       "explanation": "艾非爾鐵塔 (Eiffel Tower) 位於巴黎。",
       "commonMisconception": "學生可能不清楚世界各大地標的對應城市。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -43,7 +44,8 @@
       "explanation": "由米和魚組成的日本代表性食物是壽司 (sushi)。",
       "commonMisconception": "不熟悉各國飲食文化單字。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -61,7 +63,8 @@
       "explanation": "主詞 My friends and I 為複數，接原形動詞 listen。",
       "commonMisconception": "習慣口語忽略 listen 之後通常要加 to，但在這題選項中只需選動詞形態。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -79,7 +82,8 @@
       "explanation": "過去進行式疑問句，主詞 you 配 were。",
       "commonMisconception": "混淆助動詞 Did 與 B 動詞 Were。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -97,7 +101,8 @@
       "explanation": "主詞 your father 是男性，代名詞用 he，B 動詞對應為 is。",
       "commonMisconception": "代名詞選錯 gender。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -115,7 +120,8 @@
       "explanation": "一般現在式的意見表達，主詞 I 配 think。",
       "commonMisconception": "受 B 的不喜歡影響誤以為要用過去式 thought。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -133,7 +139,8 @@
       "explanation": "描述一般的習慣或事實，使用現在簡單式，主詞 students 為複數故用 take。",
       "commonMisconception": "受 yellow bus 吸引而忘記動詞與主詞 students 的對應。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -151,7 +158,8 @@
       "explanation": "後半句 when he was young 指出是過去的事，故動詞使用 wanted。",
       "commonMisconception": "習慣性選現在式單三 wants，未讀完後半句線索。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -169,7 +177,8 @@
       "explanation": "went 為過去式，時間副詞應選 last night。",
       "commonMisconception": "動詞時態與時間副詞未對應。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -187,7 +196,8 @@
       "explanation": "New York 位於 USA（美國）。",
       "commonMisconception": "地名與國家名的地理連結力弱。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -205,7 +215,8 @@
       "explanation": "週末的第一天通常指週六 (Saturday)，對應活動為 play piano。",
       "commonMisconception": "文化差異認知（週末首日是週六還是週日），在此語境中指週六。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -223,7 +234,8 @@
       "explanation": "持有 130 元，買不起 200 元的壽司和 150 元的披薩，選項中 Sushi 符合題目。注意問的是 NOT。",
       "commonMisconception": "忽略 NOT 或是數學計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -241,7 +253,8 @@
       "explanation": "Happy 11th Birthday 指的是 11 歲生日。",
       "commonMisconception": "受 11th 序數詞干擾或受 yesterday 影響。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -259,7 +272,8 @@
       "explanation": "配餐具（叉子、筷子）的動作是吃 (eat)。",
       "commonMisconception": "不具備詞義關聯推論能力。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -277,7 +291,8 @@
       "explanation": "有 than 出現需用比較級，big 的比較級為 bigger。",
       "commonMisconception": "比較級重複字尾規則不熟。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -295,7 +310,8 @@
       "explanation": "聖誕節在十二月，季節為冬季 (winter)。",
       "commonMisconception": "月份與季節對應發生錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -313,7 +329,8 @@
       "explanation": "Next year 表示未來，助動詞用 will。若選 am 後面需有 going to。",
       "commonMisconception": "未來式結構混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -331,7 +348,8 @@
       "explanation": "中國文化中，紅包與新年裝飾常以紅色 (red) 代表幸運。",
       "commonMisconception": "不具備跨文化基礎常識。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -349,7 +367,8 @@
       "explanation": "加拿大 (Canada) 的主要官方語言之一是英語。",
       "commonMisconception": "國家與官方語言對應知識不足。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -367,7 +386,8 @@
       "explanation": "金牌 (gold medal) 是金黃色的 (yellow/gold)。",
       "commonMisconception": "不認識 gold 或是顏色連結錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     }
   ]
 }

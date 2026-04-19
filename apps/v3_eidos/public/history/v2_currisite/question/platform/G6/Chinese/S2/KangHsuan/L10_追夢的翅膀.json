@@ -28,7 +28,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 2
     },
     {
       "question": "【解讀核心隱喻】課文標題中提到的「翅膀」，在生活中通常象徵著哪一種精神？",
@@ -55,7 +56,8 @@
         "correct_answer": 2,
         "ai_reasoning": "題目要求解析隱喻，選項(3)強調意志力與努力，最貼合課綱中「翅膀」需後天努力支撐的定義。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "question": "【評估人物性格】當主角說「我最在意的不是結果，而是我奮鬥過的每一個瞬間」，這反映出他是一個具備什麼特質的人？",
@@ -76,7 +78,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 2
     },
     {
       "question": "【分析文章結構】文中多次描寫「跌倒」與「重新站起來」的循環，這種結構安排有什麼意圖？",
@@ -97,7 +100,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 1
     },
     {
       "question": "【總結全篇主題的生命遷移】這篇文章最適合用來回答哪一個關於人生的終極問題？",
@@ -118,7 +122,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 2
     }
   ]
 }

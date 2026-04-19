@@ -1,88 +1,134 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G5_S2_CHI_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G5",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
     {
-      "id": "L10",
-      "title": "L10",
-      "file": "L10_L10.json",
-      "count": 61
-    },
-    {
-      "id": "L11",
-      "title": "L11",
-      "file": "L11_L11.json",
-      "count": 61
-    },
-    {
-      "id": "L12",
-      "title": "L12",
-      "file": "L12_L12.json",
-      "count": 61
-    },
-    {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 49
+      "title": "你會怎麼回答？",
+      "theme": "議論文/說話藝術",
+      "file": "G5_S2_CHI_KANGHSUAN_L1.json",
+      "count": 38,
+      "blind_tested": 38,
+      "avg_cqi": 7.63,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 61
+      "title": "智救養馬人",
+      "theme": "說明文/認知",
+      "file": "G5_S2_CHI_KANGHSUAN_L2.json",
+      "count": 41,
+      "blind_tested": 41,
+      "avg_cqi": 8.19,
+      "quality": "QL3"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 61
+      "title": "真正的「聰明」",
+      "theme": "記敘文/職業體驗",
+      "file": "G5_S2_CHI_KANGHSUAN_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.45,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 39
+      "title": "小記者，出動！",
+      "theme": "科普說明文",
+      "file": "G5_S2_CHI_KANGHSUAN_L4.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.88,
+      "quality": "QL3"
     },
     {
       "id": "L5",
-      "title": "L5",
-      "file": "L5_L5.json",
-      "count": 30
+      "title": "奇幻光芒的祕密",
+      "theme": "藝術/傳統文化",
+      "file": "G5_S2_CHI_KANGHSUAN_L5.json",
+      "count": 9,
+      "blind_tested": 9,
+      "avg_cqi": 9.17,
+      "quality": "QL4"
     },
     {
       "id": "L6",
-      "title": "L6",
-      "file": "L6_L6.json",
-      "count": 10
+      "title": "人「聲」就是戲",
+      "theme": "古詩/哲學",
+      "file": "G5_S2_CHI_KANGHSUAN_L6.json",
+      "count": 9,
+      "blind_tested": 9,
+      "avg_cqi": 8.5,
+      "quality": "QL4"
     },
     {
       "id": "L7",
-      "title": "L7",
-      "file": "L7_L7.json",
-      "count": 10
+      "title": "真相？真相！",
+      "theme": "科學偵測",
+      "file": "G5_S2_CHI_KANGHSUAN_L7.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.86,
+      "quality": "QL3"
     },
     {
       "id": "L8",
-      "title": "L8",
-      "file": "L8_L8.json",
-      "count": 29
+      "title": "你想做人魚嗎？",
+      "theme": "",
+      "file": "G5_S2_CHI_KANGHSUAN_L8.json",
+      "count": 16,
+      "blind_tested": 16,
+      "avg_cqi": 8.14,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L9",
-      "title": "L9",
-      "file": "L9_L9.json",
-      "count": 51
+      "title": "海洋的殺手",
+      "theme": "",
+      "file": "G5_S2_CHI_KANGHSUAN_L9.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.74,
+      "quality": "QL3"
+    },
+    {
+      "id": "L10",
+      "title": "玉米人的奇蹟",
+      "theme": "馬雅神話",
+      "file": "G5_S2_CHI_KANGHSUAN_L10.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.07,
+      "quality": "QL3"
+    },
+    {
+      "id": "L11",
+      "title": "幸福的火苗",
+      "theme": "",
+      "file": "G5_S2_CHI_KANGHSUAN_L11.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.33,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "神農嘗百草",
+      "theme": "",
+      "file": "G5_S2_CHI_KANGHSUAN_L12.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 5.8,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 397,
+    "blind_tested": 172,
+    "last_updated": "2026-04-15T03:46:03.176Z"
   }
 }

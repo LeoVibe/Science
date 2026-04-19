@@ -24,7 +24,8 @@
       "answer_index": 0,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "課文明確指出小松鼠在秋天會忙著儲存食物，特別是松果和堅果，這是牠們為過冬做的重要準備。",
       "commonMisconception": "學生可能被「玩耍」或「睡覺」等看似輕鬆的活動吸引，忽略了動物為生存而努力的本能行為。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "小松鼠在秋天儲備糧食，是為了確保冬天有足夠的食物來源，這是牠能安心度過冬天的關鍵。",
       "commonMisconception": "學生可能認為動物的生理特徵（厚皮毛）或社交行為（朋友分享）是主要原因，而忽略了主動規劃和努力的重要性。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "課文明確描述了神奇圖書館的書本可以讓讀者「進入書中的世界，體驗故事」，這是其最獨特的特點。",
       "commonMisconception": "學生可能被其他誇張但非事實的描述（如黃金製成、自動翻頁）所吸引，未能辨識出課文中的核心描述。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -88,7 +92,8 @@
       "explanation": "小明驚訝的原因是書本能帶他進入書中世界，這種身臨其境的體驗是前所未有的，因此感到驚訝。",
       "commonMisconception": "學生可能選擇其他新奇但非故事核心的選項，例如透明牆壁或機器人管理員，而忽略了神奇圖書館最核心的「沉浸式閱讀」體驗。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -104,7 +109,8 @@
       "explanation": "神奇圖書館能讓閱讀體驗更生動，這通常會激發孩子們對閱讀的興趣，並加深他們對知識的理解。",
       "commonMisconception": "學生可能認為過於真實的體驗會導致想像力減弱或學習被動，忽略了這種沉浸式體驗對學習動機和理解深度可能帶來的正面影響。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -120,7 +126,8 @@
       "explanation": "課文明確指出，石頭經過溪水沖刷後，會變得「光滑圓潤」，體積也會漸漸變小。",
       "commonMisconception": "學生可能只記住「變化」這個詞，但對具體變化方向有誤解，例如誤認為會變大或變得粗糙。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -136,7 +143,8 @@
       "explanation": "石頭從棱角分明到圓潤光滑的變化，是時間流逝和自然作用的結果，這暗示了時間對萬事萬物的影響。",
       "commonMisconception": "學生可能只關注現象本身（水的侵蝕力），而未能進一步推斷出作者想要表達的關於「時間」的哲理。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -152,7 +160,8 @@
       "explanation": "「歲月如梭，光陰似箭」強調時間的快速流逝和變化。石頭從棱角分明到圓潤光滑，正是時間作用下顯著變化的最佳例證。",
       "commonMisconception": "學生可能將這句成語與任何時間相關的描述連結，而未能精準找出最能體現「變化」的句子。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -168,7 +177,8 @@
       "explanation": "課文明確指出小雨滴是從「雲朵」中降落，開始牠的旅程的。",
       "commonMisconception": "學生可能將雨滴最終會到達的地方（溪流、海洋）誤認為是起點，混淆了水循環的不同階段。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +194,8 @@
       "explanation": "小雨滴滋潤大地是其生命循環中的重要環節，從擬人化的角度看，這會讓它感到實現價值和滿足。",
       "commonMisconception": "學生可能將人類的潔癖投射到雨滴身上，認為變髒會不開心，或單純想回到舒適的起點，而忽略了雨滴對自然的貢獻。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -200,7 +211,8 @@
       "explanation": "小雨滴從雲朵到地面、滋潤生命、再蒸發的過程，象徵著生命循環中每個環節都有其獨特的貢獻和意義。",
       "commonMisconception": "學生可能將焦點放在具體的物理現象（水的力量）或人類的行為（旅行），未能從更深層次理解故事所傳達的生命哲理。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -216,7 +228,8 @@
       "explanation": "課文明確描述了小動物們「互相合作，集思廣益」來克服困難，強調了團隊合作的重要性。",
       "commonMisconception": "學生可能聯想到其他解決問題的方式，如向權威求助或依賴超自然力量，而忽略了課文強調的「合作」精神。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -232,7 +245,8 @@
       "explanation": "在朋友遇到困難時立即伸出援手，是深厚友誼和互助精神的體現，而非基於競爭或害怕懲罰。",
       "commonMisconception": "學生可能選擇較為表面或負面的動機，未能體會到故事中朋友間真摯的情感。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -248,7 +262,8 @@
       "explanation": "故事強調合作的重要性。如果缺乏合作，每個個體的力量有限，問題往往會變得更難解決，甚至導致失敗。",
       "commonMisconception": "學生可能誤認為獨立解決問題更有效率，或相信總會有其他方法，忽略了集體智慧和力量的優勢。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -264,7 +279,8 @@
       "explanation": "課文直接描述小風箏渴望被放飛，在空中自由自在地飛翔，這是牠最直接的夢想。",
       "commonMisconception": "學生可能將風箏的夢想與更深層次的變身（變成小鳥）或競賽心態混淆，未能抓準課文直接表達的願望。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -280,7 +296,8 @@
       "explanation": "雖然線是束縛，但對於風箏而言，線也是連接地面與天空的橋樑，是它能飛起來的條件，同時也象徵著被呵護和支持，所以它感到快樂。",
       "commonMisconception": "學生可能將「束縛」與「不快樂」直接劃上等號，未能理解這種束縛其實是實現夢想的必要條件，且帶來陪伴和安全感。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -296,7 +313,8 @@
       "explanation": "課文中明確提到奶奶的菜園裡除了蔬菜，還種植了香草植物，這些植物有驅蚊的功效。",
       "commonMisconception": "學生可能混淆菜園中可能出現的其他植物類型，如果樹或花卉，未能準確回憶課文中的具體細節。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +330,8 @@
       "explanation": "菜園不只是種菜的地方，更是小孫子與奶奶互動、感受自然、尋找心靈寄託的場所，代表著溫暖和歸屬感。",
       "commonMisconception": "學生可能只看到表面原因（幫忙、找食物），而未能體會到菜園對小孫子情感上的意義和連結。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -328,7 +347,8 @@
       "explanation": "奶奶的菜園是她愛心和耐心的結晶，這份用心不僅體現在植物的生長上，也體現在對待生活的態度上。",
       "commonMisconception": "學生可能只從經濟或效率的角度思考，而忽略了奶奶行為背後所蘊含的對生命和付出的深層價值。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -344,7 +364,8 @@
       "explanation": "課文明確指出彩虹是在「雨後初霽，陽光出現時」才會現身，這是形成彩虹的必要條件。",
       "commonMisconception": "學生可能對彩虹出現的條件有模糊概念，將其與其他天氣現象混淆。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -360,7 +381,8 @@
       "explanation": "小朋友的驚呼表達了對彩虹美麗的讚嘆，同時彩虹的短暫性也讓其顯得更加珍貴和令人難忘。",
       "commonMisconception": "學生可能將彩虹與迷信（帶來好運）或錯誤的預兆（暴風雨）聯想，而忽略了它作為一種自然美景的本質。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -376,7 +398,8 @@
       "explanation": "彩虹的形成原理是陽光透過空氣中的水滴折射和反射，將白光分解成七種顏色，這與光線透過三稜鏡分解成七色光的原理是相似的。",
       "commonMisconception": "學生可能將彩虹的顏色與其他視覺上的顏色組合（紅綠燈、畫家調色盤、花朵）混淆，未能理解其背後的物理原理。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -392,7 +415,8 @@
       "explanation": "課文強調老樹見證了「孩子們的成長」和「季節的更迭」，這是其作為時間見證者的核心描述。",
       "commonMisconception": "學生可能過度聯想村莊的其他變化，而未能精準找出課文所強調的重點。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -408,7 +432,8 @@
       "explanation": "老樹作為見證者，看著一代又一代的孩子在樹下成長，會有一種生命的延續感和守護的溫馨與滿足。",
       "commonMisconception": "學生可能以人類的視角投射孤單或厭煩的情緒，忽略了老樹作為自然生命對傳承的感受。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -424,7 +449,8 @@
       "explanation": "長期觀察變化能讓人體會到時間的流逝、生命的循環，從而學會珍惜和理解變化的深層意義。",
       "commonMisconception": "學生可能選擇負面情緒（沮喪、無聊）或誇張的能力（預知未來），未能理解長期觀察對心靈成長和智慧積累的正面影響。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -440,7 +466,8 @@
       "explanation": "課文將小溪的聲音擬人化為「輕快活潑的歌聲」，強調其生動和愉悅的特點。",
       "commonMisconception": "學生可能選擇其他與水流聲相關但語氣不符的描述，如「轟鳴聲」或「摩擦聲」。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -456,7 +483,8 @@
       "explanation": "小溪繞道而行，象徵著在面對阻礙時不輕易放棄，而是靈活變通，尋找新的出路，這是一種解決問題的智慧。",
       "commonMisconception": "學生可能將繞道理解為害怕或缺乏耐心，未能從中體會到靈活應變、不屈不撓的精神。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -472,7 +500,8 @@
       "explanation": "課文擬人化地描述太陽公公「帶著溫暖的笑容，慢慢地爬上天空」，強調其溫和與規律。",
       "commonMisconception": "學生可能選擇帶有戲劇性或負面情緒的選項，而忽略了課文中對太陽溫暖、友善的描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -488,7 +517,8 @@
       "explanation": "陰雨過後的陽光，不僅帶來溫暖，更象徵著陰霾的散去，給人們帶來心情上的光明和希望。",
       "commonMisconception": "學生可能只看到表面的活動（出去玩），而未能理解陽光對人們情緒和心理的深層影響。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -504,7 +534,8 @@
       "explanation": "太陽公公的恆久照耀和溫暖，象徵著無私奉獻的精神，啟發我們也要為他人帶來正向的影響。",
       "commonMisconception": "學生可能將啟發聯想到具體行為（早起、節電、健康），而未能從擬人化的角色中提煉出更高層次的精神品格。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 3
     }
   ]
 }

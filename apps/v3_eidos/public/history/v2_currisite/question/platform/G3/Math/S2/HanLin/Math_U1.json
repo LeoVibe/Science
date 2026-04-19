@@ -23,7 +23,8 @@
       "explanation": "84 ÷ 7 = 12。利用乘法口訣「七十二 84」進行逆運算。",
       "commonMisconception": "學生可能在做直式時，誤將十位的商寫成 1 而非正確的 1（8÷7=1...1），再將餘數 1 與個位 4 合併為 14÷7=2。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -39,7 +40,8 @@
       "explanation": "253 ÷ 6 = 42 ... 1。42 個書架放滿後，剩下 1 本仍需要 1 個書架。42 + 1 = 43 個。",
       "commonMisconception": "學生只回答商（42），忽略了餘數 1 也需要一個書架（無條件進入法）。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -55,7 +57,8 @@
       "explanation": "500 ÷ 3 = 166 ... 2。每人分 166 元後，媽媽手上剩 2 元。",
       "commonMisconception": "三位數除以一位數的直式計算中，連續的位值處理容易出錯。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -71,7 +74,8 @@
       "explanation": "3 ÷ 3 = 1（百位），0 ÷ 3 = 0（十位補 0），6 ÷ 3 = 2（個位）。商為 102。",
       "commonMisconception": "學生常常漏掉中間的 0，直接將答案寫成 12。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -87,7 +91,8 @@
       "explanation": "被除數 = 除數 × 商 + 餘數 = 8 × 23 + 5 = 184 + 5 = 189。",
       "commonMisconception": "忘記加上餘數，或者乘法計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -103,7 +108,8 @@
       "explanation": "475 ÷ 9 = 52 ... 7。剩 7 個，只差 2 個就能再裝一盒（9-7=2），幾乎滿了。",
       "commonMisconception": "學生需要理解餘數與除數的比較關係，判斷「差多少才滿」。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -119,7 +125,8 @@
       "explanation": "這是平均分配的問題，將總數20顆糖果平均分給5個小朋友，使用除法計算：20 ÷ 5 = 4。所以每個小朋友可以拿到4顆糖果。",
       "commonMisconception": "學生可能將除數與商混淆，或誤用加減法來處理分配問題。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -135,7 +142,8 @@
       "explanation": "這是分組的問題，將36枝鉛筆每4枝分成一組，使用除法計算：36 ÷ 4 = 9。所以總共可以綁成9束鉛筆。",
       "commonMisconception": "學生可能在計算除法時出錯，或不理解「每...綁成一束」是分組的意義。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -151,7 +159,8 @@
       "explanation": "這是帶餘數的除法問題。將25塊餅乾每3塊裝一盒：25 ÷ 3 = 8 餘 1。商數8表示可以裝滿8盒，餘數1表示剩下1塊餅乾沒有裝進盒子。",
       "commonMisconception": "學生容易將商數誤認為餘數，或是在計算餘數時出錯。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -167,7 +176,8 @@
       "explanation": "這是分組的問題，將24顆蘋果每6顆分裝成一袋，使用除法計算：24 ÷ 6 = 4。所以媽媽總共買了4袋蘋果。",
       "commonMisconception": "學生可能混淆除數和商數，或進行錯誤的計算。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -183,7 +193,8 @@
       "explanation": "這是帶餘數的除法應用題，且需要解釋餘數的意義。30位同學每4人一組：30 ÷ 4 = 7 餘 2。商數7表示有7組同學玩遊戲，餘數2表示剩下2位同學幫忙計分。",
       "commonMisconception": "學生可能無法正確解釋餘數在情境中的意義，或誤將餘數視為一組的人數。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -199,7 +210,8 @@
       "explanation": "這是帶餘數的除法應用題，需要將餘數與情境結合。17包餅乾分給3位朋友：17 ÷ 3 = 5 餘 2。每位朋友拿到5包，小華自己則剩下餘數的2包。",
       "commonMisconception": "學生可能將商數（每位朋友拿到的數量）誤認為是小華剩下的，或不理解餘數在這裡代表什麼。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -215,7 +227,8 @@
       "explanation": "這是分組的問題，將28朵玫瑰花每7朵分成一束，使用除法計算：28 ÷ 7 = 4。所以阿姨一共可以綁成4束玫瑰花。",
       "commonMisconception": "學生可能在基本的除法計算上出錯，或將除數誤認為答案。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -231,7 +244,8 @@
       "explanation": "這是分組的問題，計算240元能買多少張80元的電影票：240 ÷ 80 = 3。所以爸爸最多可以買3張電影票。",
       "commonMisconception": "學生可能在處理較大數字的除法（尤其是倍數為10的）時感到困難，或進行錯誤的估算。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -247,7 +261,8 @@
       "explanation": "這是帶餘數的除法應用題，需要對餘數進行「無條件進位」。35位同學每3人住一個帳篷：35 ÷ 3 = 11 餘 2。雖然可以住滿11個帳篷，但剩下的2位同學仍然需要一個額外的帳篷，所以總共需要11 + 1 = 12個帳篷。",
       "commonMisconception": "學生可能只算出商數（11個），而忘記考慮餘數也需要空間，導致帳篷數量不足。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -263,7 +278,8 @@
       "explanation": "這是平均分配的問題，將42枝彩色鉛筆平均分給6個小組：42 ÷ 6 = 7。所以每個小組可以拿到7枝彩色鉛筆。",
       "commonMisconception": "學生可能在基本的除法乘法口訣上出錯。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -279,7 +295,8 @@
       "explanation": "這是帶餘數的除法應用題。300元能買多少個70元的機器人：300 ÷ 70 = 4 餘 20。所以小君買了4個機器人玩具，還剩下20元。",
       "commonMisconception": "學生可能在計算餘數時出錯，或誤以為餘數可以等於或大於除數。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -295,7 +312,8 @@
       "explanation": "這是一個多步驟問題，需要先加法再除法，並對餘數進行「無條件進位」。總人數是3 + 4 = 7人。每台車坐5人：7 ÷ 5 = 1 餘 2。表示1台車不夠，剩下的2人也需要一台車，所以總共需要1 + 1 = 2台車。",
       "commonMisconception": "學生可能只算出一台車坐滿後還剩多少人，而沒有意識到剩下的人仍需要一台車，或者在人數總和時出錯。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -311,7 +329,8 @@
       "explanation": "這是平均分配的問題，將48張貼紙平均分給8位同學：48 ÷ 8 = 6。所以每位同學可以分到6張貼紙。",
       "commonMisconception": "學生可能在基本的除法乘法口訣上出錯。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -327,7 +346,8 @@
       "explanation": "這是一個包含兩個除法計算的問題。家裡有4個人：32 ÷ 4 = 8顆。家裡有8個人：32 ÷ 8 = 4顆。",
       "commonMisconception": "學生可能只計算其中一個情境，或在計算兩個除法時混淆，或不理解除數越大，商數越小的關係。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -343,7 +363,8 @@
       "explanation": "這是一個比較單價的問題。A牌餅乾每片價格：50 ÷ 15 ≈ 3.33元。B牌餅乾每片價格：70 ÷ 20 = 3.5元。比較後發現A牌餅乾平均每一片比較便宜。",
       "commonMisconception": "學生可能只看總價或總數量，而沒有計算並比較單價，或者在處理除法結果的比較時感到困難（即使是近似值）。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -359,7 +380,8 @@
       "explanation": "這是帶餘數的除法問題。27張椅子每排擺5張：27 ÷ 5 = 5 餘 2。所以可以擺成5排，還剩下2張椅子。",
       "commonMisconception": "學生可能在計算餘數時出錯，或誤以為餘數可以大於除數。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -375,7 +397,8 @@
       "explanation": "這是帶餘數的除法應用題，需要同時回答商數和餘數。50張郵票每6張貼一本：50 ÷ 6 = 8 餘 2。所以可以貼滿8本小冊子，剩下2張郵票送給妹妹。",
       "commonMisconception": "學生可能混淆商數和餘數，或在計算餘數時出錯。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -391,7 +414,8 @@
       "explanation": "這是平均分配的問題，將120頁書在6天內讀完：120 ÷ 6 = 20。所以她平均每天要讀20頁。",
       "commonMisconception": "學生可能在處理較大數字的除法時出錯，或將乘法與除法混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -407,7 +431,8 @@
       "explanation": "這是分組的問題，將56顆雞蛋每8顆裝成一盒：56 ÷ 8 = 7。所以他總共可以裝成7盒雞蛋。",
       "commonMisconception": "學生可能在基本的除法乘法口訣上出錯。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -423,7 +448,8 @@
       "explanation": "這是帶餘數的除法應用題，需要將商數解釋為完整的串數，餘數解釋為不完整串的數量。38個氣球每5個綁一串：38 ÷ 5 = 7 餘 3。所以可以綁成7串完整的氣球，還有一串不完整的氣球有3個。",
       "commonMisconception": "學生可能混淆商數和餘數，或在計算餘數時出錯。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -439,7 +465,8 @@
       "explanation": "這是一個逆向思考的除法問題，需要用乘法和加法來計算總數。6組每組4個人，共 6 × 4 = 24人。再加上沒有分到組的3位同學，總共有 24 + 3 = 27位同學。",
       "commonMisconception": "學生可能只計算分組的總人數（24位），而忘記加上餘數，或者在乘法計算上出錯。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -455,7 +482,8 @@
       "explanation": "這是平均分配的問題，將35片餅乾平均分給5位同學：35 ÷ 5 = 7。所以每位同學可以拿到7片餅乾。",
       "commonMisconception": "學生可能在基本的除法乘法口訣上出錯。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -471,7 +499,8 @@
       "explanation": "這是帶餘數的除法應用題，需要對餘數進行「無條件捨去」。50元能買多少罐9元的果汁：50 ÷ 9 = 5 餘 5。表示小玉最多只能買5罐果汁，剩下的5元不夠再買一罐。",
       "commonMisconception": "學生可能將除法的結果四捨五入（5.55約為6），而沒有意識到剩下的錢不足以購買一整罐果汁。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -487,7 +516,8 @@
       "explanation": "這是一個帶餘數的除法應用題，並需要判斷如何「公平」處理餘數。40枝鉛筆分給25個小朋友：40 ÷ 25 = 1 餘 15。每個小朋友分到1枝。為了公平起見，剩下的15枝鉛筆不能只分給部分小朋友，因此老師收起來或捐贈是比較公平的處理方式。",
       "commonMisconception": "學生可能誤以為餘數可以繼續分給部分學生，這會導致不公平；或者在計算除法時出錯。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     }
   ]
 }

@@ -12,8 +12,8 @@
       "file": "G4_S2_CHI_HANLIN_L1.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 7.98,
-      "quality": "QL1"
+      "avg_cqi": 7.97,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L2",
@@ -23,7 +23,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.05,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L3",
@@ -33,7 +33,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 7.93,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
@@ -43,7 +43,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.02,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L5",
@@ -53,7 +53,7 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.23,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L6",
@@ -63,72 +63,72 @@
       "count": 30,
       "blind_tested": 30,
       "avg_cqi": 8.14,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L7",
       "title": "棒球英雄夢",
       "theme": "追求夢想與團隊運動。",
       "file": "G4_S2_CHI_HANLIN_L7.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 6,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.18,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "夢幻全壘打",
       "theme": "棒球比賽中的精彩瞬間。",
       "file": "G4_S2_CHI_HANLIN_L8.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 5.5,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9,
+      "quality": "QL3"
     },
     {
       "id": "L9",
       "title": "單車遊日月潭",
       "theme": "旅遊記敘與自然景觀。",
       "file": "G4_S2_CHI_HANLIN_L9.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 5.5,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.18,
+      "quality": "QL4"
     },
     {
       "id": "L10",
       "title": "孫悟空三借芭蕉扇",
       "theme": "西遊記經典情節：火焰山。",
       "file": "G4_S2_CHI_HANLIN_L10.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 6,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.02,
+      "quality": "QL3"
     },
     {
       "id": "L11",
       "title": "最後一片葉子",
       "theme": "經典翻譯文學：希望的力量。",
       "file": "G4_S2_CHI_HANLIN_L11.json",
-      "count": 1,
-      "blind_tested": 1,
-      "avg_cqi": 6,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.86,
+      "quality": "QL3"
     },
     {
       "id": "L12",
       "title": "閱讀課",
       "theme": "對於閱讀經驗的省思。",
       "file": "G4_S2_CHI_HANLIN_L12.json",
-      "count": 0,
-      "blind_tested": 1,
-      "avg_cqi": 0,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.22,
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
-    "total_questions": 185,
-    "blind_tested": 186,
-    "last_updated": "2026-03-29T14:12:41.054Z"
+    "total_questions": 360,
+    "blind_tested": 360,
+    "last_updated": "2026-04-15T03:46:02.890Z"
   }
 }
