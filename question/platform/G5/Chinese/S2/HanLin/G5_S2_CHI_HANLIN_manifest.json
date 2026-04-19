@@ -12,8 +12,8 @@
       "file": "G5_S2_CHI_HANLIN_L1.json",
       "count": 45,
       "blind_tested": 0,
-      "avg_cqi": 9.42,
-      "quality": "QL1"
+      "avg_cqi": 6.83,
+      "quality": "QL3"
     },
     {
       "id": "L2",
@@ -21,9 +21,9 @@
       "theme": "散文/大自然",
       "file": "G5_S2_CHI_HANLIN_L2.json",
       "count": 59,
-      "blind_tested": 0,
+      "blind_tested": 59,
       "avg_cqi": 7.87,
-      "quality": "QL1"
+      "quality": "QL3"
     },
     {
       "id": "L3",
@@ -31,9 +31,9 @@
       "theme": "傳記/利他",
       "file": "G5_S2_CHI_HANLIN_L3.json",
       "count": 47,
-      "blind_tested": 0,
+      "blind_tested": 47,
       "avg_cqi": 8.15,
-      "quality": "QL1"
+      "quality": "QL3"
     },
     {
       "id": "L4",
@@ -41,9 +41,9 @@
       "theme": "說明文/媒體",
       "file": "G5_S2_CHI_HANLIN_L4.json",
       "count": 54,
-      "blind_tested": 0,
+      "blind_tested": 54,
       "avg_cqi": 7.9,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L5",
@@ -51,9 +51,9 @@
       "theme": "利他精神/散文",
       "file": "G5_S2_CHI_HANLIN_L5.json",
       "count": 9,
-      "blind_tested": 0,
+      "blind_tested": 9,
       "avg_cqi": 8.56,
-      "quality": "QL1"
+      "quality": "QL4"
     },
     {
       "id": "L6",
@@ -61,9 +61,9 @@
       "theme": "議論文/夢夢想",
       "file": "G5_S2_CHI_HANLIN_L6.json",
       "count": 51,
-      "blind_tested": 0,
+      "blind_tested": 51,
       "avg_cqi": 7.33,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
@@ -71,9 +71,9 @@
       "theme": "",
       "file": "G5_S2_CHI_HANLIN_L7.json",
       "count": 17,
-      "blind_tested": 0,
+      "blind_tested": 17,
       "avg_cqi": 8,
-      "quality": "QL1"
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L8",
@@ -81,9 +81,9 @@
       "theme": "媒體識讀",
       "file": "G5_S2_CHI_HANLIN_L8.json",
       "count": 45,
-      "blind_tested": 0,
-      "avg_cqi": 9.36,
-      "quality": "QL1"
+      "blind_tested": 45,
+      "avg_cqi": 8.94,
+      "quality": "QL3"
     },
     {
       "id": "L9",
@@ -91,9 +91,9 @@
       "theme": "",
       "file": "G5_S2_CHI_HANLIN_L9.json",
       "count": 9,
-      "blind_tested": 0,
+      "blind_tested": 9,
       "avg_cqi": 8.36,
-      "quality": "QL1"
+      "quality": "QL3"
     },
     {
       "id": "L10",
@@ -102,8 +102,8 @@
       "file": "G5_S2_CHI_HANLIN_L10.json",
       "count": 45,
       "blind_tested": 0,
-      "avg_cqi": 9.32,
-      "quality": "QL1"
+      "avg_cqi": 6.91,
+      "quality": "QL3"
     },
     {
       "id": "L11",
@@ -112,12 +112,12 @@
       "file": "G5_S2_CHI_HANLIN_L11.json",
       "count": 45,
       "blind_tested": 0,
-      "avg_cqi": 9.26,
-      "quality": "QL1"
+      "avg_cqi": 7.04,
+      "quality": "QL3"
     },
     {
-      "id": "L12",
-      "title": "三個問題",
+      "id": "G5_S2_CHI_HANLIN_L12",
+      "title": "G5_S2_CHI_HANLIN_L12.json",
       "theme": "",
       "file": "G5_S2_CHI_HANLIN_L12.json",
       "count": 0,
@@ -128,7 +128,7 @@
   ],
   "moduleMetaData": {
     "total_questions": 426,
-    "blind_tested": 0,
-    "last_updated": "2026-04-12T04:03:37.035Z"
+    "blind_tested": 291,
+    "last_updated": "2026-04-15T03:46:03.153Z"
   }
 }

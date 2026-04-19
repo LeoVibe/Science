@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "30 × 6 = 180。 250 - 180 = 70。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "A=50, B=50, C=110。故 C 最大。",
       "quality_level": "L3",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "10 × 2 = 20。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "(12 + 8) × 5 = 20 × 5 = 100。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "72 ÷ 8 = 9。 9 × 3 = 27。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "反推原數：55 - 5 = 50。正確計算：50 × 5 = 250。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "括號代表「先執行的動作（扣款）」，再整體進行倍數運算。",
       "quality_level": "L4",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "200 - (40 × 3) = 200 - 120 = 80。 80 ÷ 20 = 4。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "標準運算順序應先算 10×2。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "12 × 3 - 25 = 36 - 25 = 11。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "A 選項的意思是每一盒都吃 10 片，不符題意。",
       "quality_level": "L4",
-      "cqi_score": 7.75
+      "cqi_score": 7.75,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "7 × 2 = 14 點。 14 ÷ 10 = 1 ... 4。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -203,7 +215,8 @@
       "explanation": "首先，計算小明總共賣出了多少瓶汽水：38 + 45 = 83（瓶）。然後，用他原本準備的汽水總量減去賣出的數量：100 - 83 = 17（瓶）。",
       "commonMisconception": "學生可能只算出賣出的總數83瓶，而忘記進行第二步驟的減法。或是將100減去其中一個銷售量，再減去另一個銷售量，但步驟錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -219,7 +232,8 @@
       "explanation": "這個題目實際上是問牧草的部分。大象每天吃20公斤牧草，所以100公斤牧草可以吃：100 ÷ 20 = 5天。但題目問還會剩下多少公斤，如果大象吃了4天，就是20 x 4 = 80公斤，剩下100 - 80 = 20公斤。題目敘述有些誤導，水果的資訊是干擾項。如果題目是問『這些食物總共夠吃幾天』則需要將牧草和水果的量都考慮進去。但題目明確問『這些牧草夠大象吃幾天，還會剩下多少公斤』，所以只看牧草部分。如果吃滿5天，則剩下0公斤。但選項中沒有這個組合。這表示題目可能隱含『不夠吃完整的天數』或『需要計算餘數』。如果吃4天，用了80公斤，剩下20公斤。這是一個合理的兩步驟問題，第一步是估計天數，第二步是計算剩餘。學生可能會被水果的資訊混淆。",
       "commonMisconception": "學生可能會將牧草和水果的重量加起來，誤以為大象每天吃35公斤的食物，導致計算錯誤。或是直接算出100/20=5，但沒有考慮到選項的設計。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -235,7 +249,8 @@
       "explanation": "首先，計算總共損失了多少顆氣球：12 + 8 = 20（顆）。然後，從原本的氣球總數中減去損失的數量：50 - 20 = 30（顆）。",
       "commonMisconception": "學生可能會只減去一次，例如50-12=38，然後忘記再減去破掉的8顆；或是將50-8=42，忘記減去飛走的12顆。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -251,7 +266,8 @@
       "explanation": "首先，計算圖書館原本有多少本書：3 × 25 = 75（本）。然後，減去被借走的書本數量：75 - 15 = 60（本）。",
       "commonMisconception": "學生可能只計算出書架上的總數75本，而忘記減去被借走的書；或是將25-15=10，再乘以3得到30，錯誤理解題意。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -267,7 +283,8 @@
       "explanation": "首先，計算農夫叔叔已經收成了多少顆玉米：5（籃）× 5（顆/籃）= 25（顆）。然後，從玉米總數中減去已收成的數量：40 - 25 = 15（顆）。",
       "commonMisconception": "學生可能會將40除以5，得到8籃，然後再用8減去5得到3籃，但題目問的是『顆』數。或是將40減去5，再除以5。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -283,7 +300,8 @@
       "explanation": "首先，計算小力做了多少個餅乾：28 - 5 = 23（個）。然後，計算兩人總共做了多少個餅乾：28 + 23 = 51（個）。最後，將總數分裝成每3個一包：51 ÷ 3 = 17（包）。",
       "commonMisconception": "學生可能只計算出小力的數量就停止，或是將28和5相加，然後再除以3。也可能只加總28+23=51，忘記最後一步除法。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -299,7 +317,8 @@
       "explanation": "首先，計算3枝彩色筆的價錢：3 × 12 = 36（元）。然後，加上橡皮擦的價錢：36 + 8 = 44（元）。",
       "commonMisconception": "學生可能會將12和8直接相加得到20元，而忘記彩色筆買了3枝；或是將3乘以8，然後再加上12。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -315,7 +334,8 @@
       "explanation": "首先，計算櫻花樹上原本大約有多少朵花：15 × 20 = 300（朵）。然後，減去被風吹落的花朵數量：300 - 50 = 250（朵）。",
       "commonMisconception": "學生可能只計算出總數300朵，而忘記減去被吹落的50朵；或是將20-50，導致錯誤的結果。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -331,7 +351,8 @@
       "explanation": "首先，計算音樂社有多少位同學：24 - 6 = 18（位）。然後，計算兩個社團總共有多少位同學：24 + 18 = 42（位）。最後，將總人數分組：42 ÷ 5 = 8（組），還剩下2位同學，所以是8個小組。",
       "commonMisconception": "學生可能只計算出音樂社的人數就停止，或是將24和6相加，然後再除以5。也可能將總人數42直接除以5，忽略餘數，選擇了錯誤的選項。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -347,7 +368,8 @@
       "explanation": "首先，計算3包餅乾的價錢：3 × 15 = 45（元）。然後，計算總共花費的錢：45 + 20 = 65（元）。最後，計算店員應該找回的錢：100 - 65 = 35（元）。",
       "commonMisconception": "學生可能只計算出餅乾的錢，或只計算出總花費，而忘記最後的找錢步驟。也可能將100減去20，再減去15，沒有考慮到餅乾的數量。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -363,7 +385,8 @@
       "explanation": "首先，計算小雅已經洗了多少個盤子：2 × 12 = 24（個）。然後，將已洗的數量加上還沒洗的數量：24 + 5 = 29（個）。",
       "commonMisconception": "學生可能只算出洗了多少個盤子24個，而忘記加上還沒洗的5個；或是將12和5相加，再乘以2。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -379,7 +402,8 @@
       "explanation": "首先，計算兩個班級總共有多少位同學：28 + 32 = 60（位）。然後，計算需要多少位老師：60 ÷ 10 = 6（位）。",
       "commonMisconception": "學生可能只算出其中一個班級需要多少老師，或是將兩個班級的人數相加後，沒有進行除法。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -395,7 +419,8 @@
       "explanation": "首先，計算成人票的價錢：80 + 20 = 100（元）。然後，計算3張兒童票的價錢：3 × 80 = 240（元）。最後，將兒童票和成人票的價錢相加：240 + 100 = 340（元）。",
       "commonMisconception": "學生可能只計算兒童票的總價，或忘記計算成人票的實際價格，直接加20元。也可能將80+20=100，然後乘以3，變成300，錯誤理解題意。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -411,7 +436,8 @@
       "explanation": "首先，計算小君總共綁成了多少束玫瑰花：40 ÷ 8 = 5（束）。然後，計算她還剩下幾束沒有賣出：5 - 3 = 2（束）。最後，將剩下的束數轉換回花朵數：2 × 8 = 16（朵）。",
       "commonMisconception": "學生可能只計算出總束數，或只計算出賣出的花朵數3x8=24，然後用40-24=16，但題目問的是剩下的花朵數。正確的兩步驟是計算總共綁成幾束，減去賣出的束數，再換算回朵數。另一個常見迷思是直接用40-3=37，沒有考慮到『每8朵綁一束』的資訊。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -427,7 +453,8 @@
       "explanation": "首先，計算爺爺已經裝了多少顆蘋果：3 × 10 = 30（顆）。然後，從總蘋果數中減去已裝箱的數量：60 - 30 = 30（顆）。",
       "commonMisconception": "學生可能只算出總共有多少箱（60/10=6箱），然後用6-3=3箱，但忘記轉換回顆數，或是直接用60-3=57，沒有考慮到每箱的數量。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -443,7 +470,8 @@
       "explanation": "首先，計算兩輛小汽車玩具的價錢：2 × 90 = 180（元）。然後，將機器人玩具的價錢與小汽車玩具的價錢相加：150 + 180 = 330（元）。",
       "commonMisconception": "學生可能只將150和90相加，而忘記小汽車買了兩輛；或是將150和2相乘，錯誤理解題意。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -459,7 +487,8 @@
       "explanation": "首先，計算三年級總共有多少位同學：5 × 30 = 150（位）。然後，減去請假沒去的同學人數：150 - 25 = 125（位）。",
       "commonMisconception": "學生可能只計算出總人數150位，而忘記減去請假的同學；或是將30減去25，然後乘以5，錯誤理解題意。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -475,7 +504,8 @@
       "explanation": "首先，計算媽媽還剩下多少顆水餃餡料沒有包：70 - 30 = 40（顆）。然後，將剩下的水餃分裝成每10顆一盤：40 ÷ 10 = 4（盤）。",
       "commonMisconception": "學生可能只算出剩下的水餃數量，而忘記最後的除法步驟；或是將70除以10，然後再減去30，錯誤理解題意。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     }
   ]
 }

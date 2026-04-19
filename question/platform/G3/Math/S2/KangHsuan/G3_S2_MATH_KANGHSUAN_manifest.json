@@ -11,9 +11,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L1.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.22,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.13,
+      "quality": "QL3"
     },
     {
       "id": "L2",
@@ -21,19 +21,19 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L2.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.14,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.04,
+      "quality": "QL3"
     },
     {
       "id": "L3",
       "title": "L3",
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L3.json",
-      "count": 24,
-      "blind_tested": 0,
-      "avg_cqi": 7.47,
-      "quality": "QL1"
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.9,
+      "quality": "QL4"
     },
     {
       "id": "L4",
@@ -41,9 +41,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L4.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.45,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.35,
+      "quality": "QL4"
     },
     {
       "id": "L5",
@@ -51,9 +51,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L5.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.72,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.57,
+      "quality": "QL4"
     },
     {
       "id": "L6",
@@ -61,9 +61,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L6.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.05,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 7.9,
+      "quality": "QL3"
     },
     {
       "id": "L7",
@@ -71,9 +71,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L7.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.62,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.22,
+      "quality": "QL4"
     },
     {
       "id": "L8",
@@ -81,9 +81,9 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L8.json",
       "count": 30,
-      "blind_tested": 0,
-      "avg_cqi": 6.05,
-      "quality": "QL1"
+      "blind_tested": 30,
+      "avg_cqi": 8.05,
+      "quality": "QL3"
     },
     {
       "id": "L9",
@@ -91,14 +91,24 @@
       "theme": "",
       "file": "G3_S2_MATH_KANGHSUAN_L9.json",
       "count": 32,
+      "blind_tested": 32,
+      "avg_cqi": 8.48,
+      "quality": "QL4"
+    },
+    {
+      "id": "mismatch_catalog",
+      "title": "mismatch_catalog.json",
+      "theme": "",
+      "file": "mismatch_catalog.json",
+      "count": 50,
       "blind_tested": 0,
-      "avg_cqi": 6.72,
-      "quality": "QL1"
+      "avg_cqi": 4.57,
+      "quality": "QL2"
     }
   ],
   "moduleMetaData": {
-    "total_questions": 266,
-    "blind_tested": 0,
-    "last_updated": "2026-03-26T07:46:19.655Z"
+    "total_questions": 322,
+    "blind_tested": 272,
+    "last_updated": "2026-04-15T03:46:02.721Z"
   }
 }

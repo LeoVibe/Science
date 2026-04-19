@@ -11,7 +11,7 @@
       "theme": "選項對照：內在美與外在美的定義界定。",
       "file": "G3_S2_CHI_NANYI_L1.json",
       "count": 30,
-      "blind_tested": 0,
+      "blind_tested": 30,
       "avg_cqi": 8.64,
       "quality": "QL3"
     },
@@ -21,7 +21,7 @@
       "theme": "科學原理：動能與位能的初階口語化描述。",
       "file": "G3_S2_CHI_NANYI_L2.json",
       "count": 28,
-      "blind_tested": 0,
+      "blind_tested": 28,
       "avg_cqi": 8.59,
       "quality": "QL3"
     },
@@ -31,7 +31,7 @@
       "theme": "生物化學：膠質轉化的過程觀察與歸納。",
       "file": "G3_S2_CHI_NANYI_L3.json",
       "count": 30,
-      "blind_tested": 0,
+      "blind_tested": 30,
       "avg_cqi": 9.18,
       "quality": "QL4"
     },
@@ -41,7 +41,7 @@
       "theme": "拆解分析：字謎中的部件邏輯與多音字。",
       "file": "G3_S2_CHI_NANYI_L4.json",
       "count": 28,
-      "blind_tested": 0,
+      "blind_tested": 28,
       "avg_cqi": 9.35,
       "quality": "QL4"
     },
@@ -50,9 +50,9 @@
       "title": "唱反調",
       "theme": "反向思考與獨立評論能力。",
       "file": "G3_S2_CHI_NANYI_L5.json",
-      "count": 16,
-      "blind_tested": 0,
-      "avg_cqi": 9.36,
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.35,
       "quality": "QL4"
     },
     {
@@ -60,9 +60,9 @@
       "title": "一飛沖天",
       "theme": "夢想與火箭/飛行的科學起源。",
       "file": "G3_S2_CHI_NANYI_L6.json",
-      "count": 4,
-      "blind_tested": 0,
-      "avg_cqi": 9.13,
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.29,
       "quality": "QL4"
     },
     {
@@ -70,9 +70,9 @@
       "title": "井仔腳鹽田",
       "theme": "舊時產業：曬鹽技術與地景美學。",
       "file": "G3_S2_CHI_NANYI_L7.json",
-      "count": 8,
-      "blind_tested": 0,
-      "avg_cqi": 9.41,
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.19,
       "quality": "QL4"
     },
     {
@@ -80,9 +80,9 @@
       "title": "和魚一起游泳",
       "theme": "海洋休閒（浮潛）與生態觀察。",
       "file": "G3_S2_CHI_NANYI_L8.json",
-      "count": 24,
-      "blind_tested": 0,
-      "avg_cqi": 9.25,
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.26,
       "quality": "QL4"
     },
     {
@@ -90,9 +90,9 @@
       "title": "三峽老街樂藍染",
       "theme": "傳統工藝：染布工法分析。",
       "file": "G3_S2_CHI_NANYI_L9.json",
-      "count": 14,
-      "blind_tested": 0,
-      "avg_cqi": 9.27,
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 9.32,
       "quality": "QL4"
     },
     {
@@ -101,7 +101,7 @@
       "theme": "環境汙染與海洋悲歌。",
       "file": "G3_S2_CHI_NANYI_L10.json",
       "count": 30,
-      "blind_tested": 0,
+      "blind_tested": 30,
       "avg_cqi": 8.8,
       "quality": "QL3"
     },
@@ -111,7 +111,7 @@
       "theme": "森林生態循環：枯立木的生物多樣性。",
       "file": "G3_S2_CHI_NANYI_L11.json",
       "count": 30,
-      "blind_tested": 0,
+      "blind_tested": 30,
       "avg_cqi": 8.65,
       "quality": "QL3"
     },
@@ -121,16 +121,14 @@
       "theme": "都市建築風景：台灣特色的亭仔腳歷史。",
       "file": "G3_S2_CHI_NANYI_L12.json",
       "count": 30,
-      "blind_tested": 0,
+      "blind_tested": 30,
       "avg_cqi": 8.59,
       "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "total_questions": 272,
-    "blind_tested": 0,
-    "last_updated": "2026-04-08T08:59:17.246Z",
-    "shelf_blocked": true,
-    "rebuild_note": "JOB-129 進行中：L3–L9 尚未重產完成前維持封架；已完課 L1、L2、L10–L12 各 30 題。"
+    "total_questions": 331,
+    "blind_tested": 331,
+    "last_updated": "2026-04-15T03:46:02.674Z"
   }
 }

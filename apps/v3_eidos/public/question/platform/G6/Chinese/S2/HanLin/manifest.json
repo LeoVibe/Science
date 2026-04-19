@@ -1,82 +1,124 @@
 {
-  "publisher": "HanLin",
+  "id": "G6_S2_CHI_HANLIN",
+  "publisher": "HANLIN",
   "grade": "G6",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
-    {
-      "id": "L10",
-      "title": "撐開你的傘",
-      "file": "L10_撐開你的傘.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "紀念簿題歌",
-      "file": "L11_紀念簿題歌.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "不可以翻魚",
-      "file": "L1_不可以翻魚.json",
-      "count": 1
+      "theme": "記敘文",
+      "file": "G6_S2_CHI_HANLIN_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.22,
+      "quality": "QL3"
     },
     {
       "id": "L2",
       "title": "橘化為枳",
-      "file": "L2_橘化為枳.json",
-      "count": 1
+      "theme": "古文/寓言",
+      "file": "G6_S2_CHI_HANLIN_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.92,
+      "quality": "QL3"
     },
     {
       "id": "L3",
       "title": "自嘲是幽默的最高境界",
-      "file": "L3_自嘲是幽默的最高境界.json",
-      "count": 1
+      "theme": "議論文/智慧",
+      "file": "G6_S2_CHI_HANLIN_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.96,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
       "title": "我不和你談論",
-      "file": "L4_我不和你談論.json",
-      "count": 1
+      "theme": "現代詩",
+      "file": "G6_S2_CHI_HANLIN_L4.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.38,
+      "quality": "QL4"
     },
     {
       "id": "L5",
       "title": "留得枇杷聽鳥鳴",
-      "file": "L5_留得枇杷聽鳥鳴.json",
-      "count": 1
+      "theme": "散文",
+      "file": "G6_S2_CHI_HANLIN_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.14,
+      "quality": "QL3"
     },
     {
       "id": "L6",
       "title": "樹的語言",
-      "file": "L6_樹的語言.json",
-      "count": 1
+      "theme": "說明文/科普",
+      "file": "G6_S2_CHI_HANLIN_L6.json",
+      "count": 27,
+      "blind_tested": 27,
+      "avg_cqi": 8.12,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
       "title": "收集喜悅",
-      "file": "L7_收集喜悅.json",
-      "count": 1
+      "theme": "散文",
+      "file": "G6_S2_CHI_HANLIN_L7.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.3,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "落花生",
-      "file": "L8_落花生.json",
-      "count": 1
+      "theme": "托物言志/散文",
+      "file": "G6_S2_CHI_HANLIN_L8.json",
+      "count": 2,
+      "blind_tested": 2,
+      "avg_cqi": 8.75,
+      "quality": "QL4"
     },
     {
       "id": "L9",
       "title": "用愛心說實話",
-      "file": "L9_用愛心說實話.json",
-      "count": 1
+      "theme": "道德衝突",
+      "file": "G6_S2_CHI_HANLIN_L9.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.6,
+      "quality": "QL4"
+    },
+    {
+      "id": "L10",
+      "title": "撐開你的傘",
+      "theme": "散文/抒情",
+      "file": "G6_S2_CHI_HANLIN_L10.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 9.2,
+      "quality": "QL4"
+    },
+    {
+      "id": "L11",
+      "title": "紀念簿題歌",
+      "theme": "現代詩/應用文",
+      "file": "G6_S2_CHI_HANLIN_L11.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.9,
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 199,
+    "blind_tested": 199,
+    "last_updated": "2026-04-15T03:46:03.391Z"
   }
 }

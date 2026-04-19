@@ -33,7 +33,8 @@
         "correct_answer": 3,
         "ai_reasoning": "題目過於瑣碎，屬於事實提取，缺乏對課文核心素養的深度考察。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -53,7 +54,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -73,7 +75,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -99,7 +102,8 @@
         "correct_answer": 2,
         "ai_reasoning": "過於細節的事實提取，對學生高階思維訓練無實質幫助。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -119,7 +123,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -139,7 +144,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -165,7 +171,8 @@
         "correct_answer": 2,
         "ai_reasoning": "瑣碎的事實記憶題，缺乏素養導向的設計。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -185,7 +192,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -205,7 +213,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -231,7 +240,8 @@
         "correct_answer": 3,
         "ai_reasoning": "過於瑣碎的細節提取，缺乏教學價值。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -251,7 +261,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -271,7 +282,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -297,7 +309,8 @@
         "correct_answer": 1,
         "ai_reasoning": "單純的事實記憶，缺乏對文本深層意義的探討。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -317,7 +330,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -337,7 +351,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -357,7 +372,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -377,7 +393,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -397,7 +414,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -417,7 +435,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -437,7 +456,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -457,7 +477,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -483,7 +504,8 @@
         "correct_answer": 3,
         "ai_reasoning": "瑣碎的事實提取，缺乏對文本結構的分析。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -503,7 +525,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -523,7 +546,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -549,7 +573,8 @@
         "correct_answer": 2,
         "ai_reasoning": "過於瑣碎的事實記憶，缺乏教學意義。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -569,7 +594,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -589,7 +615,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -615,7 +642,8 @@
         "correct_answer": 1,
         "ai_reasoning": "瑣碎的事實記憶，缺乏素養導向。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -635,7 +663,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -655,7 +684,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     }
   ]
 }

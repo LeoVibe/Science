@@ -28,7 +28,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 0
     },
     {
       "question": "【閱讀課文內容後】文中提到的「葉徒相似，其實味不同」這句話，在晏子的論證邏輯中具有什麼樣的深層含義？",
@@ -55,7 +56,8 @@
         "correct_answer": 1,
         "ai_reasoning": "選項(0)能引導學生思考晏子話語背後的邏輯意圖，而非僅停留在生物學表象，符合高階評鑑要求。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "question": "【在分析人物說話技巧時】當楚王問：「齊人固善盜乎？」晏子的回應語氣可以被解讀為下列何者？",
@@ -76,7 +78,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 2
     },
     {
       "question": "【如果將《橘化為枳》的道理應用在現代生活中】下列哪一個情境最符合晏子所提出的「環境影響行為」觀點？",
@@ -97,7 +100,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 3
     },
     {
       "question": "【在解讀文章結構時】晏子先說橘與枳的故事，再說齊國人偷東西的事情。這種「類比推理」的方法在文中有什麼優點？",
@@ -118,7 +122,8 @@
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
       "blind_evaluation": true,
-      "authoring_date": null
+      "authoring_date": null,
+      "answer": 2
     }
   ]
 }

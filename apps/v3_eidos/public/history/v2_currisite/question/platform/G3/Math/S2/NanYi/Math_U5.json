@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "6 × 4 = 24。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -37,7 +38,8 @@
       "answer_index": 2,
       "explanation": "甲：4×4=16。乙：8×2=16。故一樣大。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -52,7 +54,8 @@
       "answer_index": 3,
       "explanation": "4 個半格 = 2 個全格。6 + 2 = 8 平方公分。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "測量二維平面的大小應用「面積單位」，平方公分為三下常用標竿。",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -82,7 +86,8 @@
       "answer_index": 2,
       "explanation": "15 × 10 = 150。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -97,7 +102,8 @@
       "answer_index": 2,
       "explanation": "切割與重新拼湊過程，紙張的總量沒變，所以「面積不變」。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -113,7 +119,8 @@
       "explanation": "繩長是周長。邊長 = 12 ÷ 4 = 3 公分。面積 = 3 × 3 = 9。",
       "commonMisconception": "學生誤拿周長 12 當邊長去算，或與周長混淆。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -128,7 +135,8 @@
       "answer_index": 1,
       "explanation": "甲=15。乙=10+8/2=14。故甲大。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -143,7 +151,8 @@
       "answer_index": 1,
       "explanation": "面積就是填滿該平面的單位方格總數。5 個方格即為 5 平方公分。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -158,7 +167,8 @@
       "answer_index": 0,
       "explanation": "總面積 6×5=30。挖空面積 2×2=4。30-4=26。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -174,7 +184,8 @@
       "explanation": "原面積 1×1=1。新面積 2×2=4。故為 4 倍。",
       "commonMisconception": "學生直覺認為長寬各 2 倍，面積就 2 倍。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -189,7 +200,8 @@
       "answer_index": 2,
       "explanation": "長邊可裁 20÷5=4格。寬邊可裁 15÷5=3格。4×3=12個。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -205,7 +217,8 @@
       "explanation": "這個星星圖案可以視覺化為：\n  ■\n■■■\n  ■\n總共有1 + 3 + 1 + 2 = 7個方格（中間3個，上下各1個，左右各1個，共7個）。因此，需要7張貼紙。",
       "commonMisconception": "學生可能誤數方格數，例如只數邊緣的方格，或者在計算時重複計算，導致得出錯誤的數量。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -221,7 +234,8 @@
       "explanation": "面積的大小由佔據的方格數量決定。小華畫的小狗佔了12個方格，比小文的10個和小玲的8個都多，所以小華畫的動物面積最大。",
       "commonMisconception": "學生可能只記住數字，但沒有真正理解數字代表的是面積的大小，或者受到選項中其他動物名稱的干擾。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -237,7 +251,8 @@
       "explanation": "第一塊地的面積是長×寬 = 5 × 3 = 15個小方格。第二塊地的面積是長×寬 = 6 × 4 = 24個小方格。第二塊地比第一塊地多出的面積是24 - 15 = 9個小方格。",
       "commonMisconception": "學生可能誤將長和寬相加而不是相乘來計算面積，或者在計算出兩塊地的面積後，忘記計算它們之間的差異，直接選了其中一個面積的選項。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -253,7 +268,8 @@
       "explanation": "面積是指物體表面所佔的大小。店員詢問防水墊的面積，目的是要知道防水墊需要覆蓋木桌表面的大小。",
       "commonMisconception": "學生可能混淆面積與長度（選項A）、周長（選項B）或高度（選項D）等概念，因為這些都是描述物體尺寸的詞語。",
       "quality_level": "L3",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -269,7 +285,8 @@
       "explanation": "第一張海報的照片數量是4排 × 5張/排 = 20張。第二張海報的照片數量是3排 × 7張/排 = 21張。因此，第二張海報用的小照片數量比較多，面積比較大。",
       "commonMisconception": "學生可能在計算乘法時出錯，或者只看其中一個維度（例如只看排數或每排張數）來判斷大小，而不是計算總數。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -285,7 +302,8 @@
       "explanation": "長方形地毯的面積是長×寬 = 6 × 4 = 24個單位。正方形地毯的面積是邊長×邊長 = 5 × 5 = 25個單位。正方形地毯的面積比長方形地毯大，所以能鋪滿更多地板。",
       "commonMisconception": "學生可能只根據視覺印象或單一維度（如長度或寬度）來判斷大小，而沒有正確計算並比較兩塊地毯的實際面積。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -301,7 +319,8 @@
       "explanation": "面積的大小是由所佔的方格數量決定的。既然兩本書的封面都佔了18個方格，即使形狀不同，它們的面積也是一樣大的。",
       "commonMisconception": "學生可能誤認為形狀不同就表示面積也不同，或者受到視覺差異的影響，認為其中一種形狀看起來更大。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -317,7 +336,8 @@
       "explanation": "當從一張完整的長方形色紙上剪下一個愛心圖案時，愛心圖案只是原色紙的一部分。因此，愛心圖案的面積會比原本整張長方形色紙的面積小。",
       "commonMisconception": "學生可能誤以為剪下來的圖案和原色紙面積無關，或者混淆了『剪下』與『重組』的概念，以為面積會保持不變，或因形狀改變而無法比較。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -333,7 +353,8 @@
       "explanation": "第一塊田地的面積是長×寬 = 10 × 5 = 50平方公尺。第二塊田地的面積是長×寬 = 8 × 7 = 56平方公尺。因為56平方公尺 > 50平方公尺，所以第二塊田地面積比較大，能種更多玉米。",
       "commonMisconception": "學生可能只比較其中一個維度（例如只看長度），或者在計算面積時出錯，導致選擇面積較小的那塊地。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -349,7 +370,8 @@
       "explanation": "樹葉覆蓋了12個完整的方格，面積是12平方公分。另外有4個方格只覆蓋了大約一半，我們可以將每兩個半格估計為1個完整方格，所以4個半格大約是4 ÷ 2 = 2平方公分。因此，樹葉的總面積大約是12 + 2 = 14平方公分。",
       "commonMisconception": "學生可能只數完整方格而忽略半格，或者將半格也當作完整格計算，導致估計過高或過低。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -365,7 +387,8 @@
       "explanation": "這個問題情境的核心是比較「小明貼滿邊框」和「小華貼滿整張圖畫紙表面」所使用的貼紙大小。雖然題目提及數量，但最終目的是透過比較貼紙覆蓋的範圍來理解面積的概念，因此是比較貼紙所佔的面積大小。",
       "commonMisconception": "學生可能被「數量」這個詞干擾，誤以為是比較貼紙的張數。然而，即使小明用了20張，小華如果貼滿了整張紙，通常會比只貼邊框的面積大很多，所以重點在於覆蓋的範圍，而非單純的數量。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -381,7 +404,8 @@
       "explanation": "面積是指物體表面或平面圖形的大小。小芳和弟弟都使用了12塊邊長1公分的正方形積木，這些積木的總面積是固定的。無論他們如何排列成長方形，只要使用的積木數量相同且積木大小一樣，那麼它們所佔的總面積就會相同。",
       "commonMisconception": "學生可能認為不同的形狀，面積就一定不同，或者受到視覺上的錯覺影響，覺得較長或較寬的形狀面積比較大。這忽略了面積是『覆蓋的總量』這一核心概念。",
       "quality_level": "L5",
-      "cqi_score": 6.75
+      "cqi_score": 6.75,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -397,7 +421,8 @@
       "explanation": "老師問『跑跳的範圍比較大』，這句話指的是場地所能提供的平面空間大小，也就是在比較籃球場和排球場的面積。面積是用來衡量平面圖形或物體表面大小的物理量。",
       "commonMisconception": "學生可能會混淆周長和面積。周長是圍繞圖形一圈的長度，而面積是圖形所佔的平面大小。此情境中『跑跳的範圍』明顯指向面積。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -413,7 +438,8 @@
       "explanation": "題目說要『鋪滿整個餐桌』，這代表需要考慮餐桌墊所能覆蓋的平面大小，也就是面積。因此，小華應該比較兩種餐桌墊的面積，選擇面積最大的，才能判斷哪一個可能更適合鋪滿餐桌。",
       "commonMisconception": "學生可能只關注單一維度（如邊長），而忽略了覆蓋整個表面需要考慮的是面積。也可能受『好看』或『形狀』等非數學因素干擾。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -429,7 +455,8 @@
       "explanation": "小君剪的正方形面積是 6 公分 × 6 公分 = 36 平方公分。小豪剪的長方形面積是 8 公分 × 4 公分 = 32 平方公分。比較後發現，小君剪的正方形面積（36平方公分）比小豪剪的長方形面積（32平方公分）大。",
       "commonMisconception": "學生可能只看單一邊長（如小豪的長8公分比小君的6公分長），或被長方形的視覺效果誤導，認為它看起來更大。這考驗學生是否能正確計算並比較不同形狀的面積。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -445,7 +472,8 @@
       "explanation": "面積的單位是平方單位。題目明確指出圖案由15個小方格組成，且每個小方格的面積是1平方公分。因此，總面積就是15乘以1平方公分，等於15平方公分。",
       "commonMisconception": "學生可能混淆長度單位（公分）和面積單位（平方公分），或者只寫數字而忽略單位。這題旨在確認學生對面積單位的基本理解。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -461,7 +489,8 @@
       "explanation": "爸爸問的是哪塊地磚『能覆蓋的地面範圍比較大』，這句話明確指向面積的比較。因此，小明需要計算每塊地磚的面積，然後進行比較。正方形地磚面積：30x30=900平方公分；長方形地磚面積：40x20=800平方公分。所以正方形地磚能覆蓋的範圍較大。",
       "commonMisconception": "學生可能會誤以為比較周長就能判斷面積大小，或者依賴直觀判斷。這題考驗學生在實際情境中選擇正確的數學方法來解決問題。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -477,7 +506,8 @@
       "explanation": "面積是指物體表面或平面圖形的大小。小雅和小強都使用了36張邊長1公分的小正方形色紙。無論他們如何排列這些色紙，只要使用的色紙數量相同且色紙大小一樣，那麼它們所佔的總面積就會相同，都是36平方公分。",
       "commonMisconception": "學生可能因為形狀不同而產生面積不同的迷思，或者因為小雅的作品是『長方形』，小強的是『正方形』，就認為它們的面積會不一樣。這忽略了面積是『覆蓋的總量』這一核心概念，無論形狀如何變化，只要構成的單元數量和大小不變，總面積就保持不變。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     }
   ]
 }

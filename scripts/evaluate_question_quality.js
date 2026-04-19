@@ -103,6 +103,13 @@ function checkResearchSupport(filePath, meta) {
     }
 
     const content = fs.readFileSync(outlinePath, 'utf8');
+
+    // 檢查 RM 等級 (研究成熟度)：如無課文，最高 QL3
+    const hasRM0Warning = content.includes('RM0') || content.includes('課文缺失') || content.includes('無課文全文');
+    if (hasRM0Warning) {
+        return { ceiling: 'QL3', reason: 'RM0 等級（無課文全文）：最高支撐 QL3' };
+    }
+
     const hasMatrix = content.includes('Matrix') || content.includes('矩陣') || content.includes('核心命題') || content.includes('配比');
     const hasEvidence = content.includes('實證') || content.includes('考古題') || content.includes('Evidence') || content.includes('R3');
     const hasStrategy = content.includes('轉化') || content.includes('L2 → L4') || content.includes('迷思') || content.includes('Strategy') || content.includes('守衛');
@@ -115,9 +122,67 @@ function checkResearchSupport(filePath, meta) {
 }
 
 /**
- * 評核單一題目 (CQI & QL)
+ * 檢查該課的 KL4 雙檔是否存在（Canonical QL 判定依據）
+ *
+ * 依據 `question/README_驗證與盲測準則.md` 第四章：
+ *   QL2 = 該課 KL4 單課研究紀錄 存在（有課文）
+ *   QL3 = QL2 + 該課 KL4 考古題與討論 存在
+ *
+ * @returns {{hasResearch: boolean, hasExam: boolean, searchDir: string}}
  */
-function evaluateQuestion(q, subject) {
+function checkLessonKL4Files(meta) {
+    // 長碼與短碼皆支援（題庫 meta 實際會是 "CHI"/"HANLIN" 等短碼）
+    const SUBJECT_CN = {
+        Chinese: '國語', CHI: '國語',
+        Math: '數學', MATH: '數學',
+        Science: '自然', SCI: '自然',
+        SocialStudies: '社會', SOC: '社會',
+        English: '英語', ENG: '英語',
+        Life: '生活', LIF: '生活'
+    };
+    const PUB_CN = {
+        HanLin: '翰林', HANLIN: '翰林',
+        KangHsuan: '康軒', KANGHSUAN: '康軒',
+        NanYi: '南一', NANYI: '南一'
+    };
+    const SEM_CN = { S1: '上', S2: '下' };
+    const GRADE_CN = { G1: '一', G2: '二', G3: '三', G4: '四', G5: '五', G6: '六' };
+
+    const subjectCN = SUBJECT_CN[meta.subject] || meta.subject;
+    const pubCN = PUB_CN[meta.publisher] || meta.publisher;
+    const semCN = SEM_CN[meta.semester] || meta.semester;
+    const gradeCN = GRADE_CN[meta.grade] || meta.grade;
+    const lesson = meta.lesson || '';
+
+    const searchDir = path.join(__dirname, '..', 'knowledge', '課綱研究', subjectCN, `${gradeCN}${semCN}`, pubCN);
+
+    const result = { hasResearch: false, hasExam: false, searchDir };
+    if (!fs.existsSync(searchDir)) return result;
+
+    let files;
+    try { files = fs.readdirSync(searchDir); } catch { return result; }
+
+    const lessonTag = `_${lesson}_`;
+    for (const f of files) {
+        if (!f.startsWith('KL4_') || !f.includes(lessonTag)) continue;
+        if (f.endsWith('_單課研究紀錄.md')) result.hasResearch = true;
+        if (f.endsWith('_考古題與討論.md')) result.hasExam = true;
+    }
+
+    return result;
+}
+
+/**
+ * 評核單一題目 (CQI & QL)
+ *
+ * QL 判定（Canonical）：
+ *   QL1 = 結構不完整 或 該課無 KL4 單課研究紀錄
+ *   QL2 = 結構完整 + 該課有 KL4 單課研究紀錄（有課文）
+ *   QL3 = QL2 + 該課有 KL4 考古題與討論
+ *   QL4 = QL3 + blind_evaluation === true
+ *   QL5 = QL4 + verifying_model 含 Expert（未來）
+ */
+function evaluateQuestion(q, subject, kl4Status) {
     const questionText = q.question || '';
     const explanationText = q.explanation || '';
     const options = q.options || [];
@@ -160,19 +225,21 @@ function evaluateQuestion(q, subject) {
 
     cqi_score = Math.min(Math.max(cqi_score, 0), 10);
 
-    // QG Level 判定
+    // QL 判定（Canonical：見 question/README_驗證與盲測準則.md §4.2）
     let qg_level = 'QL1';
-    if (questionText && options.length >= 2 && (ansIndex !== undefined && ansIndex !== null)) {
-        qg_level = 'QL2';
-        if (explanationText && explanationText.length >= 10) {
+    const structOk = questionText && options.length >= 2 && (ansIndex !== undefined && ansIndex !== null) && explanationText && explanationText.length >= 10;
+
+    if (structOk && kl4Status && kl4Status.hasResearch) {
+        if (kl4Status.hasExam) {
             qg_level = 'QL3';
-            let qLenThreshold = (['Math', 'Science'].includes(subject)) ? 15 : 30;
-            if (qLen >= qLenThreshold && q.blind_evaluation === true) {
+            if (q.blind_evaluation === true) {
                 qg_level = 'QL4';
                 if (q.commonMisconception && q.verifying_model && q.verifying_model.includes('Expert')) {
                     qg_level = 'QL5';
                 }
             }
+        } else {
+            qg_level = 'QL2';
         }
     }
 
@@ -199,6 +266,9 @@ function evaluateFile(filePath) {
 
         if (questions.length === 0) return { quality: 'QL1', avgCqi: 0, count: 0 };
 
+        // Canonical QL 判定所需：檢查該課的 KL4 雙檔是否存在
+        const kl4Status = checkLessonKL4Files(meta);
+
         let totalCqiScore = 0;
         let longestAnswerCount = 0;
         const levelCount = { 'QL1': 0, 'QL2': 0, 'QL3': 0, 'QL4': 0, 'QL5': 0 };
@@ -206,7 +276,7 @@ function evaluateFile(filePath) {
         const taxCount = {};
 
         questions.forEach(q => {
-            const result = evaluateQuestion(q, meta.subject);
+            const result = evaluateQuestion(q, meta.subject, kl4Status);
             totalCqiScore += result.cqi_score;
             levelCount[result.qg_level]++;
             if (result.isLongestAnswer) longestAnswerCount++;
@@ -229,7 +299,7 @@ function evaluateFile(filePath) {
                     break;
                 }
             }
-            if (!biasWarning && !['Math', 'Science'].includes(meta.subject)) {
+            if (!biasWarning && !['Math', 'Science', 'MATH', 'SCI'].includes(meta.subject)) {
                 const lenThreshold = (meta.grade === 'G3' || meta.grade === 'G4') ? 0.75 : 0.65;
                 if ((longestAnswerCount / total) > lenThreshold) {
                     biasWarning = '選項長度偏差過大';
@@ -237,25 +307,18 @@ function evaluateFile(filePath) {
             }
         }
 
+        // 檔級 QL：以 canonical 每科 90% 門檻為準（對齊 generate_library_stats.js 的每科公式）
         let qg_quality = 'QL1';
         if (biasWarning) {
             qg_quality = 'QL1 (BIAS)';
         } else {
-            const ql4_ql5_ratio = (levelCount['QL4'] + levelCount['QL5']) / total;
-            const ql3_plus_ratio = (levelCount['QL3'] + levelCount['QL4'] + levelCount['QL5']) / total;
-            if (ql4_ql5_ratio >= 0.8) qg_quality = 'QL4';
-            else if (ql3_plus_ratio >= 0.8) qg_quality = 'QL3';
-            else qg_quality = 'QL2';
-        }
-
-        const researchCheck = checkResearchSupport(filePath, meta);
-        const levelOrder = ['QL1', 'QL1 (BIAS)', 'QL2', 'QL3', 'QL4', 'QL5'];
-        if (qg_quality !== 'QL5' && !qg_quality.includes('BIAS')) {
-            const ceilingIdx = levelOrder.indexOf(researchCheck.ceiling);
-            const realIdx = levelOrder.indexOf(qg_quality);
-            if (realIdx > ceilingIdx && ceilingIdx !== -1) {
-                qg_quality = researchCheck.ceiling;
-            }
+            const ql4up = (levelCount['QL4'] + levelCount['QL5']) / total;
+            const ql3up = (levelCount['QL3'] + levelCount['QL4'] + levelCount['QL5']) / total;
+            const ql2up = (levelCount['QL2'] + levelCount['QL3'] + levelCount['QL4'] + levelCount['QL5']) / total;
+            if (ql4up >= 0.9) qg_quality = 'QL4';
+            else if (ql3up >= 0.9) qg_quality = 'QL3';
+            else if (ql2up >= 0.9) qg_quality = 'QL2';
+            else qg_quality = 'QL1';
         }
 
         fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf8');
@@ -268,8 +331,7 @@ function evaluateFile(filePath) {
             taxCount,
             answerDist,
             biasWarning,
-            researchCeiling: researchCheck.ceiling,
-            researchReason: researchCheck.reason,
+            kl4Status,
             meta,
             filePath: path.relative(process.cwd(), filePath)
         };

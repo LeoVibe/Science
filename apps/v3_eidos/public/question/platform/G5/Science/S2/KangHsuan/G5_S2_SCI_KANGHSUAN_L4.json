@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "grade": "G5",
+    "semester": "S2",
+    "subject": "SCI",
+    "publisher": "KANGHSUAN",
+    "lesson": "L4",
+    "order": 4,
+    "title": "熱的作用與傳播",
+    "theme": ""
+  },
+  "questions": [
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "夏天時，鐵軌之間會刻意留下一小段縫隙。這主要是為了預防什麼現象？",
+      "options": [
+        "鐵軌太重",
+        "熱漲冷縮導致鐵軌在炎熱時擠壓變形",
+        "節省鋼鐵材料",
+        "讓排水比較順暢"
+      ],
+      "answer_index": null,
+      "explanation": "固體受熱會膨脹，留下縫隙可供體積擴張，避免軌道彎曲。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "",
+      "question": "「對流」是流體（液體與氣體）特有的傳熱方式。在北半球冬天使用電暖器時，應該放在哪裡效果最好？",
+      "options": [
+        "天花板附近",
+        "靠近窗戶的地板上",
+        "牆壁中間",
+        "埋在地底下"
+      ],
+      "answer_index": null,
+      "explanation": "熱氣較輕會向上升，由下方開始加熱可以形成良好的空氣對流循環。",
+      "commonMisconception": "",
+      "quality_level": "QL1",
+      "cqi_score": 6,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "生活現象解釋",
+      "question": "媽媽在煮貢丸湯，她發現當湯裡的水沸騰時，貢丸會在湯裡不停地上升與下降翻滾。請問這主要是哪一種熱的傳播方式所造成的現象？",
+      "options": [
+        "熱傳導",
+        "熱輻射",
+        "熱對流",
+        "熱脹冷縮"
+      ],
+      "answer_index": 2,
+      "explanation": "液體和氣體受熱時，溫度高的流體體積變大變輕上升，溫度低的流體相對較重下降，於是形成循環流動，我們稱為「對流」。貢丸跟著熱湯的對流而翻滾。",
+      "commonMisconception": "經常混淆傳導和對流的概念，看到爐火接觸鍋底加熱，就誤認熱湯的翻滾同樣是物體的直接熱傳導造成的。",
+      "quality_level": "QL3",
+      "cqi_score": 7.5,
+      "is_publishable": false,
+      "review_status": "pending_review",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ],
+  "publisher": "KangHsuan"
+}

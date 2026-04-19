@@ -1,82 +1,124 @@
 {
-  "publisher": "NanYi",
+  "id": "G6_S2_CHI_NANYI",
+  "publisher": "NANYI",
   "grade": "G6",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
-    {
-      "id": "L10",
-      "title": "打開心中的窗",
-      "file": "L10_打開心中的窗.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "努力愛春華",
-      "file": "L11_努力愛春華.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "清平樂村居",
-      "file": "L1_清平樂村居.json",
-      "count": 1
+      "theme": "宋詞/田園",
+      "file": "G6_S2_CHI_NANYI_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.01,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L2",
       "title": "春",
-      "file": "L2_春.json",
-      "count": 1
+      "theme": "散文/抒情",
+      "file": "G6_S2_CHI_NANYI_L2.json",
+      "count": 27,
+      "blind_tested": 27,
+      "avg_cqi": 8.03,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L3",
       "title": "大自然的規則",
-      "file": "L3_大自然的規則.json",
-      "count": 1
+      "theme": "說明/議論",
+      "file": "G6_S2_CHI_NANYI_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.21,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
       "title": "那人在看畫",
-      "file": "L4_那人在看畫.json",
-      "count": 1
+      "theme": "記敘文",
+      "file": "G6_S2_CHI_NANYI_L4.json",
+      "count": 27,
+      "blind_tested": 27,
+      "avg_cqi": 8.31,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L5",
       "title": "小時了了",
-      "file": "L5_小時了了.json",
-      "count": 1
+      "theme": "古文/世說新語",
+      "file": "G6_S2_CHI_NANYI_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.64,
+      "quality": "QL4"
     },
     {
       "id": "L6",
       "title": "愛搗亂的動物",
-      "file": "L6_愛搗亂的動物.json",
-      "count": 1
+      "theme": "說明/科普",
+      "file": "G6_S2_CHI_NANYI_L6.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.18,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L7",
       "title": "科學怪人",
-      "file": "L7_科學怪人.json",
-      "count": 1
+      "theme": "西方經典/倫理",
+      "file": "G6_S2_CHI_NANYI_L7.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "火燒連環船",
-      "file": "L8_火燒連環船.json",
-      "count": 1
+      "theme": "古典小說",
+      "file": "G6_S2_CHI_NANYI_L8.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.9,
+      "quality": "QL4"
     },
     {
       "id": "L9",
       "title": "未走之路",
-      "file": "L9_未走之路.json",
-      "count": 1
+      "theme": "現代詩/隱喻",
+      "file": "G6_S2_CHI_NANYI_L9.json",
+      "count": 1,
+      "blind_tested": 1,
+      "avg_cqi": 8,
+      "quality": "QL4"
+    },
+    {
+      "id": "L10",
+      "title": "打開心中的窗",
+      "theme": "議論文",
+      "file": "G6_S2_CHI_NANYI_L10.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 8.9,
+      "quality": "QL4"
+    },
+    {
+      "id": "L11",
+      "title": "努力愛春華",
+      "theme": "散文/抒情",
+      "file": "G6_S2_CHI_NANYI_L11.json",
+      "count": 5,
+      "blind_tested": 5,
+      "avg_cqi": 9.2,
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 195,
+    "blind_tested": 195,
+    "last_updated": "2026-04-15T03:46:03.427Z"
   }
 }

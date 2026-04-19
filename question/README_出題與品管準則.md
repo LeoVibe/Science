@@ -81,8 +81,11 @@ AI 產題後立即執行 `evaluate_question_quality.js`，依以下維度計分�
 
 ### P-J 研究支撐度（天花板制）
 
-- 無 KL4 支撐 → 最高只能 QL3
-- 有 KL4 支撐 → 解鎖 QL4/QL5
+- 無 KL4 單課研究紀錄 → 該題最高 QL1（不得上架）
+- 僅有 KL4 單課研究紀錄（含課文）→ 最高 QL2
+- KL4 單課研究紀錄 + 考古題與討論 → 最高 QL3
+- 通過盲測（`blind_evaluation === true`）→ 升 QL4
+- 完整 QL 定義與條件對照請見 **`question/README_驗證與盲測準則.md` 第四章（Single Source of Truth）**
 
 ### P-K 課次題數目標與上架警示（預設 30、門檻 25）
 

@@ -22,7 +22,8 @@
       "scenario": "實驗效能提升",
       "commonMisconception": "串並聯功能混淆、能量守恆誤讀",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【關於電磁鐵的「極性」測試】如果我們將電池正負極反接，導致電流方向改變，電磁鐵會發生什麼變化？",
@@ -37,7 +38,8 @@
       "scenario": "極性控制原理",
       "commonMisconception": "電流方向與磁場極性關係誤讀、非科學現象連結",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【在製作簡易馬達（電動機）模型時】馬達內部的「線圈」通電後會開始轉動。請問導動線圈旋轉的核心力量來源為何？",
@@ -52,7 +54,8 @@
       "scenario": "馬達運作機制探究",
       "commonMisconception": "馬達驅動力量誤判、現象與原理強行關聯",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【觀察生活中的電器用品】下列哪一個裝置的工作原理中，「不屬於」電磁鐵的應用範例？",
@@ -67,7 +70,8 @@
       "scenario": "生活應用辨析",
       "commonMisconception": "電流磁效應與熱效應區分不清",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【在進行「漆包線」實驗準備時】為什麼在連接電池與導線前，必須先用砂紙將漆包線兩端的漆磨掉？",
@@ -82,7 +86,8 @@
       "scenario": "實驗操作除錯",
       "commonMisconception": "絕緣體功能認知損害、現象歸因偏誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【當你將指北針靠近「未通電」的電磁鐵時】發現在沒有通電的情況下，鐵芯（鐵釘）竟然能吸引指北針的指針。這最可能是什麼原因？",
@@ -97,7 +102,8 @@
       "scenario": "現象觀測與診斷",
       "commonMisconception": "殘磁概念缺失、物理現象意志化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於電磁鐵的「實務優點」】相較於天然磁石，電磁鐵在工業應用上（如回收場）最顯著的優勢是什麼？",
@@ -112,7 +118,8 @@
       "scenario": "科技對比評估",
       "commonMisconception": "磁力可控性優勢認知不足、非科學功能類比",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【在進行「多電池串聯」實驗時】小華發現電路接通才 30 秒，導線就開始冒煙且電池發燙。關於這個危險狀況，下列處置何者最正確？",
@@ -127,7 +134,8 @@
       "scenario": "實驗安全與應變",
       "commonMisconception": "短路危險意識不足、科學應變能力缺失",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【觀察馬達（電動機）的構造設計】換向器與電刷的作用，主要是為了解決什麼問題？",
@@ -142,7 +150,8 @@
       "scenario": "結構功能析論",
       "commonMisconception": "換向器原理認知缺失、視覺類比偏誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【關於電磁鐵與電池消耗的關連】為什麼在實驗室玩電磁鐵時，比起玩小燈泡，電池會「沒電」得更快？",
@@ -157,7 +166,8 @@
       "scenario": "能量利用率分析",
       "commonMisconception": "功率與能量關係誤讀、擬人化迷思",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【在進行「自製單極馬達」實驗時】如果你發現導線轉一轉就掉下來了。這提醒我們在設計電磁動力系統時，除了磁力，還必須考慮什麼？",
@@ -172,7 +182,8 @@
       "scenario": "系統工程反思",
       "commonMisconception": "機械平衡概念缺失、物理现象情緒化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於電磁鐵內部「鐵芯材質」的科學選配】為什麼實驗中通常是用鐵釘而不是用不鏽鋼筷或木筷來做電磁鐵？",
@@ -187,7 +198,8 @@
       "scenario": "材料與磁性實驗",
       "commonMisconception": "導磁材料功能認知缺失、材料性質理化誤讀",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【在討論「電磁起重機」救災時】當重物已經被吊到正確位置後，操作員應該做什麼才能讓重物「安全脫離」？",
@@ -202,7 +214,8 @@
       "scenario": "科技操作逻辑",
       "commonMisconception": "磁力可控性理解不足、非功能性操作空想",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【觀察市售電風扇馬達】為什麼電風扇關掉後，扇葉還會轉動一陣子才停止？這與電磁鐵的磁性有關嗎？",
@@ -217,7 +230,8 @@
       "scenario": "現象歸因分析",
       "commonMisconception": "物理現象歸因偏差、慣性概念理解不全",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【關於電磁鐵對「環境保護」的具體貢獻】下列哪一項敘述最符合科學事實？",
@@ -232,7 +246,8 @@
       "scenario": "科技與社會責任",
       "commonMisconception": "科技效能過度神祕化、環境與磁力機制誤讀",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【在進行「多線圈繞法」研究時】小華把兩根鐵釘平行靠在一起，用同一根電線繞在一起。這對磁力強度的影響為何？",
@@ -247,7 +262,8 @@
       "scenario": "實驗結構設計變體",
       "commonMisconception": "磁場分佈規律認知缺失、現象擬人化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【關於電磁鐵與「指北針」的正確使用安全】為什麼我們不應該隨便將強力的電磁鐵靠近精密電子產品或指南針？",
@@ -262,7 +278,8 @@
       "scenario": "科技生活素養教育",
       "commonMisconception": "電磁干擾原理缺失、現象科幻化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【探究馬達轉速與負載的關係】如果在玩具小車馬達上疊放很多塊石頭，發現小車跑不動且馬達聲音變得很沈重。這在科學上如何解釋？",
@@ -277,7 +294,8 @@
       "scenario": "動力系統之觀察",
       "commonMisconception": "物理載重機制意志化、能量均衡認知損害",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【關於「電與磁的歷史」】誰是第一個發現「通電導線會使指針偏轉」的關鍵科學家？",
@@ -292,7 +310,8 @@
       "scenario": "科學史觀與知識正確性",
       "commonMisconception": "科學發展脈絡認知空白、跨域連結謬誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【如果你在一根吸管上面繞了 100 圈線圈，並通入電流】為什麼你發現它幾乎吸不起任何迴紋針？",
@@ -307,7 +326,8 @@
       "scenario": "材料對比分析",
       "commonMisconception": "鐵芯導磁功能理解不足、現象意志化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【觀察電磁起重機吊起一堆廢鐵後，突然斷開一條導線】廢鐵掉得滿地都是。這揭示了電磁鐵的什麼風險？",
@@ -322,7 +342,8 @@
       "scenario": "科技風險觀測",
       "commonMisconception": "系統依賴性認知缺失、現象擬人化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【在進行「自製發電機」演示時】如果我們旋轉磁鐵的速度越快，產生的電力（燈泡亮度）會發生什麼變化？",
@@ -337,7 +358,8 @@
       "scenario": "動能轉電能之相關性",
       "commonMisconception": "法拉第定律認知缺失、現象具象化誤讀",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於電磁鐵與電池串聯時的發熱問題】為什麼電池接久了會感覺燙手？",
@@ -352,7 +374,8 @@
       "scenario": "熱效應之科學診斷",
       "commonMisconception": "電流熱效應與機能損耗混淆、現象意志化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【在討論「超強馬達」技術時】為什麼現在的高科技馬達（如電動車）不使用一般的電線，而使用超導材料？",
@@ -367,7 +390,8 @@
       "scenario": "前瞻技術與能源效率",
       "commonMisconception": "材料與效率關係缺失、技術科幻化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【最後，關於電與磁單元的終極反思】學習電磁作用最大的收穫應該是什麼？",
@@ -382,7 +406,8 @@
       "scenario": "課程宗旨之整合",
       "commonMisconception": "科學學習價值偏差、技術濫用偏誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【在進行馬達「轉動方向」的綜合測試時】如果我們同時將電池正負極反接，「且」將馬達內部的永久磁鐵也反向安裝。馬達會如何轉動？",
@@ -397,7 +422,8 @@
       "scenario": "邏輯推理與多變因整合",
       "commonMisconception": "多變因相互抵銷邏輯缺失、現象奇幻化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【在進行「漆包線刮漆」的實驗總結時】如果我們故意不刮漆直接接電，卻發現指北針竟然動了一下（但電磁鐵不能工作）。這代表了什麼？",
@@ -412,7 +438,8 @@
       "scenario": "異常訊號捕捉與偽發現辨析",
       "commonMisconception": "干擾現象意志化、科學連結荒謬化",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【觀察電子設備中帶有磁鐵的「皮套開窗」功能】為什麼皮套蓋上後手機螢幕會熄滅，掀開後又會亮起？",
@@ -427,7 +454,8 @@
       "scenario": "生活隱藏科技解析",
       "commonMisconception": "傳感器原理認知缺失、現象擬人化誤讀",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "【關於電磁鐵與電池的長時間耗電分析】如果我們做了一個超大號電磁鐵，卻發現它接上電池後，鐵釘變得很燙手卻只能吸起一兩枚針。這最可能是：",
@@ -442,7 +470,8 @@
       "scenario": "效能不佳之科學診斷",
       "commonMisconception": "電熱效應與磁效應權衡認知不足、擬人化迷思",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【最後，關於電與磁單元的終極反思】如果地球失去了磁場，對我們現有的電子通訊設備最直接的衝擊可能是：",
@@ -457,7 +486,8 @@
       "scenario": "宏觀環境與科技交互思辨",
       "commonMisconception": "地磁屏蔽功能認知空白、電磁受力基本概念缺失",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     }
   ]
 }

@@ -2,7 +2,7 @@
   "enabledMcpjsonServers": ["makeitdown", "playwright", "github", "task-master", "git"],
   "statusLine": {
     "type": "command",
-    "command": "~/.claude/statusline-test.sh"
+    "command": "~/.claude/claude-hud-run.sh"
   },
   "hooks": {
     "SessionStart": [

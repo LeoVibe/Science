@@ -1,28 +1,1110 @@
 {
-  "totalFiles": 641,
-  "totalQuestions": 11495,
-  "totalBlindTested": 1135,
-  "qualityDist": {
-    "QL5": 0,
-    "QL4": 0,
-    "QL3": 4,
-    "QL2": 66,
-    "QL1": 571,
-    "BROKEN": 0
-  },
-  "publishers": {
-    "HANLIN": {
-      "total": 3881,
-      "blind_tested": 385
+  "lastUpdated": "2026/04/18",
+  "stats": {
+    "G3_S2_國語": {
+      "count": 36,
+      "depth": "QL4",
+      "gradesStr": "G3",
+      "semesterStr": "S2",
+      "subjectStr": "國語"
     },
-    "KANGHSUAN": {
-      "total": 3904,
-      "blind_tested": 375
+    "G3_S2_英語": {
+      "count": 12,
+      "depth": "QL4",
+      "gradesStr": "G3",
+      "semesterStr": "S2",
+      "subjectStr": "英語"
     },
-    "NANYI": {
-      "total": 3710,
-      "blind_tested": 375
+    "G3_S2_數學": {
+      "count": 29,
+      "depth": "QL4",
+      "gradesStr": "G3",
+      "semesterStr": "S2",
+      "subjectStr": "數學"
+    },
+    "G3_S2_自然": {
+      "count": 12,
+      "depth": "QL4",
+      "gradesStr": "G3",
+      "semesterStr": "S2",
+      "subjectStr": "自然"
+    },
+    "G3_S2_社會": {
+      "count": 17,
+      "depth": "QL4",
+      "gradesStr": "G3",
+      "semesterStr": "S2",
+      "subjectStr": "社會"
+    },
+    "G4_S2_國語": {
+      "count": 36,
+      "depth": "QL4",
+      "gradesStr": "G4",
+      "semesterStr": "S2",
+      "subjectStr": "國語"
+    },
+    "G4_S2_英語": {
+      "count": 12,
+      "depth": "QL1",
+      "gradesStr": "G4",
+      "semesterStr": "S2",
+      "subjectStr": "英語"
+    },
+    "G4_S2_數學": {
+      "count": 30,
+      "depth": "QL1",
+      "gradesStr": "G4",
+      "semesterStr": "S2",
+      "subjectStr": "數學"
+    },
+    "G4_S2_自然": {
+      "count": 12,
+      "depth": "QL4",
+      "gradesStr": "G4",
+      "semesterStr": "S2",
+      "subjectStr": "自然"
+    },
+    "G4_S2_社會": {
+      "count": 18,
+      "depth": "QL4",
+      "gradesStr": "G4",
+      "semesterStr": "S2",
+      "subjectStr": "社會"
+    },
+    "G5_S2_國語": {
+      "count": 36,
+      "depth": "QL3",
+      "gradesStr": "G5",
+      "semesterStr": "S2",
+      "subjectStr": "國語"
+    },
+    "G5_S2_英語": {
+      "count": 6,
+      "depth": "QL1",
+      "gradesStr": "G5",
+      "semesterStr": "S2",
+      "subjectStr": "英語"
+    },
+    "G5_S2_數學": {
+      "count": 30,
+      "depth": "QL3",
+      "gradesStr": "G5",
+      "semesterStr": "S2",
+      "subjectStr": "數學"
+    },
+    "G5_S2_自然": {
+      "count": 13,
+      "depth": "QL1",
+      "gradesStr": "G5",
+      "semesterStr": "S2",
+      "subjectStr": "自然"
+    },
+    "G5_S2_社會": {
+      "count": 16,
+      "depth": "QL3",
+      "gradesStr": "G5",
+      "semesterStr": "S2",
+      "subjectStr": "社會"
+    },
+    "G6_S2_國語": {
+      "count": 31,
+      "depth": "QL4",
+      "gradesStr": "G6",
+      "semesterStr": "S2",
+      "subjectStr": "國語"
+    },
+    "G6_S2_數學": {
+      "count": 14,
+      "depth": "QL1",
+      "gradesStr": "G6",
+      "semesterStr": "S2",
+      "subjectStr": "數學"
+    },
+    "G6_S2_自然": {
+      "count": 9,
+      "depth": "QL1",
+      "gradesStr": "G6",
+      "semesterStr": "S2",
+      "subjectStr": "自然"
+    },
+    "G6_S2_社會": {
+      "count": 11,
+      "depth": "QL1",
+      "gradesStr": "G6",
+      "semesterStr": "S2",
+      "subjectStr": "社會"
     }
   },
-  "last_updated": "2026-03-26T07:46:20.311Z"
+  "publisherStats": {
+    "G3_S2_國語_翰林": {
+      "units": 12,
+      "bankQuestions": 350,
+      "publishedQuestions": 350,
+      "questions": 350,
+      "quality": "QL4",
+      "cqi": "7.62",
+      "qlCounts": {
+        "ql4": 350,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 350,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_國語_康軒": {
+      "units": 12,
+      "bankQuestions": 442,
+      "publishedQuestions": 442,
+      "questions": 442,
+      "quality": "QL4",
+      "cqi": "7.89",
+      "qlCounts": {
+        "ql4": 442,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 442,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_國語_南一": {
+      "units": 12,
+      "bankQuestions": 331,
+      "publishedQuestions": 331,
+      "questions": 331,
+      "quality": "QL4",
+      "cqi": "8.01",
+      "qlCounts": {
+        "ql4": 331,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 331,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_英語_翰林": {
+      "units": 4,
+      "bankQuestions": 206,
+      "publishedQuestions": 206,
+      "questions": 206,
+      "quality": "QL4",
+      "cqi": "8.87",
+      "qlCounts": {
+        "ql4": 206,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 206,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_英語_康軒": {
+      "units": 4,
+      "bankQuestions": 207,
+      "publishedQuestions": 207,
+      "questions": 207,
+      "quality": "QL4",
+      "cqi": "8.72",
+      "qlCounts": {
+        "ql4": 207,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 207,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_英語_南一": {
+      "units": 4,
+      "bankQuestions": 206,
+      "publishedQuestions": 206,
+      "questions": 206,
+      "quality": "QL4",
+      "cqi": "8.54",
+      "qlCounts": {
+        "ql4": 206,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 206,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_數學_翰林": {
+      "units": 9,
+      "bankQuestions": 270,
+      "publishedQuestions": 270,
+      "questions": 270,
+      "quality": "QL4",
+      "cqi": "8.40",
+      "qlCounts": {
+        "ql4": 270,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 270,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_數學_康軒": {
+      "units": 10,
+      "bankQuestions": 272,
+      "publishedQuestions": 272,
+      "questions": 272,
+      "quality": "QL4",
+      "cqi": "8.29",
+      "qlCounts": {
+        "ql4": 272,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 272,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_數學_南一": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 300,
+      "questions": 300,
+      "quality": "QL4",
+      "cqi": "8.22",
+      "qlCounts": {
+        "ql4": 300,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 300,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_自然_翰林": {
+      "units": 4,
+      "bankQuestions": 120,
+      "publishedQuestions": 120,
+      "questions": 120,
+      "quality": "QL4",
+      "cqi": "8.14",
+      "qlCounts": {
+        "ql4": 120,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 120,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_自然_康軒": {
+      "units": 4,
+      "bankQuestions": 120,
+      "publishedQuestions": 120,
+      "questions": 120,
+      "quality": "QL4",
+      "cqi": "8.10",
+      "qlCounts": {
+        "ql4": 120,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 120,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_自然_南一": {
+      "units": 4,
+      "bankQuestions": 150,
+      "publishedQuestions": 150,
+      "questions": 150,
+      "quality": "QL4",
+      "cqi": "8.27",
+      "qlCounts": {
+        "ql4": 150,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 150,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_社會_翰林": {
+      "units": 6,
+      "bankQuestions": 180,
+      "publishedQuestions": 180,
+      "questions": 180,
+      "quality": "QL4",
+      "cqi": "8.24",
+      "qlCounts": {
+        "ql4": 180,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 180,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_社會_康軒": {
+      "units": 6,
+      "bankQuestions": 199,
+      "publishedQuestions": 199,
+      "questions": 199,
+      "quality": "QL4",
+      "cqi": "8.27",
+      "qlCounts": {
+        "ql4": 199,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 199,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G3_S2_社會_南一": {
+      "units": 5,
+      "bankQuestions": 150,
+      "publishedQuestions": 150,
+      "questions": 150,
+      "quality": "QL4",
+      "cqi": "8.11",
+      "qlCounts": {
+        "ql4": 150,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 150,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_國語_翰林": {
+      "units": 12,
+      "bankQuestions": 360,
+      "publishedQuestions": 360,
+      "questions": 360,
+      "quality": "QL4",
+      "cqi": "8.24",
+      "qlCounts": {
+        "ql4": 360,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 360,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_國語_康軒": {
+      "units": 12,
+      "bankQuestions": 360,
+      "publishedQuestions": 360,
+      "questions": 360,
+      "quality": "QL4",
+      "cqi": "8.15",
+      "qlCounts": {
+        "ql4": 360,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 360,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_國語_南一": {
+      "units": 12,
+      "bankQuestions": 360,
+      "publishedQuestions": 360,
+      "questions": 360,
+      "quality": "QL4",
+      "cqi": "8.14",
+      "qlCounts": {
+        "ql4": 360,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 360,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_英語_翰林": {
+      "units": 4,
+      "bankQuestions": 92,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.23",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 92
+      },
+      "qlTotal": 92,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_英語_康軒": {
+      "units": 4,
+      "bankQuestions": 92,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.24",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 92
+      },
+      "qlTotal": 92,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_英語_南一": {
+      "units": 4,
+      "bankQuestions": 92,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.29",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 92
+      },
+      "qlTotal": 92,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_數學_翰林": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.78",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 300
+      },
+      "qlTotal": 300,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_數學_康軒": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.73",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 300
+      },
+      "qlTotal": 300,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_數學_南一": {
+      "units": 10,
+      "bankQuestions": 298,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.81",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 298
+      },
+      "qlTotal": 298,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G4_S2_自然_翰林": {
+      "units": 4,
+      "bankQuestions": 120,
+      "publishedQuestions": 120,
+      "questions": 120,
+      "quality": "QL4",
+      "cqi": "8.37",
+      "qlCounts": {
+        "ql4": 120,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 120,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_自然_康軒": {
+      "units": 4,
+      "bankQuestions": 120,
+      "publishedQuestions": 120,
+      "questions": 120,
+      "quality": "QL4",
+      "cqi": "8.36",
+      "qlCounts": {
+        "ql4": 120,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 120,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_自然_南一": {
+      "units": 4,
+      "bankQuestions": 120,
+      "publishedQuestions": 120,
+      "questions": 120,
+      "quality": "QL4",
+      "cqi": "7.30",
+      "qlCounts": {
+        "ql4": 120,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 120,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_社會_翰林": {
+      "units": 6,
+      "bankQuestions": 180,
+      "publishedQuestions": 180,
+      "questions": 180,
+      "quality": "QL4",
+      "cqi": "8.10",
+      "qlCounts": {
+        "ql4": 180,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 180,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_社會_康軒": {
+      "units": 6,
+      "bankQuestions": 180,
+      "publishedQuestions": 180,
+      "questions": 180,
+      "quality": "QL4",
+      "cqi": "8.26",
+      "qlCounts": {
+        "ql4": 180,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 180,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G4_S2_社會_南一": {
+      "units": 6,
+      "bankQuestions": 178,
+      "publishedQuestions": 178,
+      "questions": 178,
+      "quality": "QL4",
+      "cqi": "8.45",
+      "qlCounts": {
+        "ql4": 178,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 178,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G5_S2_國語_翰林": {
+      "units": 12,
+      "bankQuestions": 426,
+      "publishedQuestions": 426,
+      "questions": 426,
+      "quality": "QL3",
+      "cqi": "7.38",
+      "qlCounts": {
+        "ql4": 291,
+        "ql3": 135,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 426,
+      "ql4pct": 68,
+      "ql3pct": 100
+    },
+    "G5_S2_國語_康軒": {
+      "units": 12,
+      "bankQuestions": 397,
+      "publishedQuestions": 397,
+      "questions": 397,
+      "quality": "QL3",
+      "cqi": "7.07",
+      "qlCounts": {
+        "ql4": 172,
+        "ql3": 225,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 397,
+      "ql4pct": 43,
+      "ql3pct": 100
+    },
+    "G5_S2_國語_南一": {
+      "units": 12,
+      "bankQuestions": 332,
+      "publishedQuestions": 332,
+      "questions": 332,
+      "quality": "QL3",
+      "cqi": "6.62",
+      "qlCounts": {
+        "ql4": 112,
+        "ql3": 220,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 332,
+      "ql4pct": 34,
+      "ql3pct": 100
+    },
+    "G5_S2_英語_翰林": {
+      "units": 2,
+      "bankQuestions": 100,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.48",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 100
+      },
+      "qlTotal": 100,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G5_S2_英語_康軒": {
+      "units": 3,
+      "bankQuestions": 120,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.72",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 120
+      },
+      "qlTotal": 120,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G5_S2_英語_南一": {
+      "units": 1,
+      "bankQuestions": 80,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.62",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 80
+      },
+      "qlTotal": 80,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G5_S2_數學_翰林": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 300,
+      "questions": 300,
+      "quality": "QL3",
+      "cqi": "7.18",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 300,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 300,
+      "ql4pct": 0,
+      "ql3pct": 100
+    },
+    "G5_S2_數學_康軒": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 300,
+      "questions": 300,
+      "quality": "QL3",
+      "cqi": "7.13",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 300,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 300,
+      "ql4pct": 0,
+      "ql3pct": 100
+    },
+    "G5_S2_數學_南一": {
+      "units": 10,
+      "bankQuestions": 300,
+      "publishedQuestions": 300,
+      "questions": 300,
+      "quality": "QL3",
+      "cqi": "7.18",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 300,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 300,
+      "ql4pct": 0,
+      "ql3pct": 100
+    },
+    "G5_S2_自然_翰林": {
+      "units": 4,
+      "bankQuestions": 12,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.17",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 4,
+        "ql2": 0,
+        "ql1": 8
+      },
+      "qlTotal": 12,
+      "ql4pct": 0,
+      "ql3pct": 33
+    },
+    "G5_S2_自然_康軒": {
+      "units": 5,
+      "bankQuestions": 23,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "5.85",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 4,
+        "ql2": 0,
+        "ql1": 19
+      },
+      "qlTotal": 23,
+      "ql4pct": 0,
+      "ql3pct": 17
+    },
+    "G5_S2_自然_南一": {
+      "units": 4,
+      "bankQuestions": 10,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.20",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 2,
+        "ql2": 0,
+        "ql1": 8
+      },
+      "qlTotal": 10,
+      "ql4pct": 0,
+      "ql3pct": 20
+    },
+    "G5_S2_社會_翰林": {
+      "units": 6,
+      "bankQuestions": 165,
+      "publishedQuestions": 165,
+      "questions": 165,
+      "quality": "QL3",
+      "cqi": "6.39",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 165,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 165,
+      "ql4pct": 0,
+      "ql3pct": 100
+    },
+    "G5_S2_社會_康軒": {
+      "units": 5,
+      "bankQuestions": 225,
+      "publishedQuestions": 225,
+      "questions": 225,
+      "quality": "QL3",
+      "cqi": "6.58",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 223,
+        "ql2": 0,
+        "ql1": 2
+      },
+      "qlTotal": 225,
+      "ql4pct": 0,
+      "ql3pct": 99
+    },
+    "G5_S2_社會_南一": {
+      "units": 5,
+      "bankQuestions": 225,
+      "publishedQuestions": 225,
+      "questions": 225,
+      "quality": "QL3",
+      "cqi": "6.57",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 223,
+        "ql2": 0,
+        "ql1": 2
+      },
+      "qlTotal": 225,
+      "ql4pct": 0,
+      "ql3pct": 99
+    },
+    "G6_S2_國語_翰林": {
+      "units": 11,
+      "bankQuestions": 199,
+      "publishedQuestions": 199,
+      "questions": 199,
+      "quality": "QL4",
+      "cqi": "8.19",
+      "qlCounts": {
+        "ql4": 199,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 199,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G6_S2_國語_康軒": {
+      "units": 9,
+      "bankQuestions": 189,
+      "publishedQuestions": 189,
+      "questions": 189,
+      "quality": "QL4",
+      "cqi": "8.22",
+      "qlCounts": {
+        "ql4": 189,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 189,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G6_S2_國語_南一": {
+      "units": 11,
+      "bankQuestions": 195,
+      "publishedQuestions": 195,
+      "questions": 195,
+      "quality": "QL4",
+      "cqi": "8.28",
+      "qlCounts": {
+        "ql4": 195,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 0
+      },
+      "qlTotal": 195,
+      "ql4pct": 100,
+      "ql3pct": 100
+    },
+    "G6_S2_數學_翰林": {
+      "units": 5,
+      "bankQuestions": 123,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.09",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 123
+      },
+      "qlTotal": 123,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_數學_康軒": {
+      "units": 5,
+      "bankQuestions": 132,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.17",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 132
+      },
+      "qlTotal": 132,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_數學_南一": {
+      "units": 4,
+      "bankQuestions": 96,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.25",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 96
+      },
+      "qlTotal": 96,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_自然_翰林": {
+      "units": 3,
+      "bankQuestions": 89,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.84",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 89
+      },
+      "qlTotal": 89,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_自然_康軒": {
+      "units": 3,
+      "bankQuestions": 90,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.80",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 90
+      },
+      "qlTotal": 90,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_自然_南一": {
+      "units": 3,
+      "bankQuestions": 80,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.31",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 80
+      },
+      "qlTotal": 80,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_社會_翰林": {
+      "units": 4,
+      "bankQuestions": 160,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.12",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 160
+      },
+      "qlTotal": 160,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_社會_康軒": {
+      "units": 4,
+      "bankQuestions": 93,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "6.98",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 93
+      },
+      "qlTotal": 93,
+      "ql4pct": 0,
+      "ql3pct": 0
+    },
+    "G6_S2_社會_南一": {
+      "units": 3,
+      "bankQuestions": 40,
+      "publishedQuestions": 0,
+      "questions": 0,
+      "quality": "QL1",
+      "cqi": "7.50",
+      "qlCounts": {
+        "ql4": 0,
+        "ql3": 0,
+        "ql2": 0,
+        "ql1": 40
+      },
+      "qlTotal": 40,
+      "ql4pct": 0,
+      "ql3pct": 0
+    }
+  },
+  "totalIndexed": 380
 }

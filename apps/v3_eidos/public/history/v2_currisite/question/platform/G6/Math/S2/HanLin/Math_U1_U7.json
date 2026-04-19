@@ -22,7 +22,8 @@
       "scenario": "四則混合運算實務",
       "commonMisconception": "括號優先權誤讀、分數小數互換誤差",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【翰林 U3：基準量與比較量】甲數是 180，乙數是甲數的 $5/6$。請問乙數是多少？",
@@ -37,7 +38,8 @@
       "scenario": "基準量計算：比值應用",
       "commonMisconception": "乘除運算方向誤判",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "【翰林 U7：怎樣解題 (相遇問題)】阿強與小美相距 2400 公尺，阿強速率 70 公尺/分，小美速率 50 公尺/分。兩人同時「相對而行」，幾分鐘後會相遇？",
@@ -52,7 +54,8 @@
       "scenario": "速率應用：相遇問題",
       "commonMisconception": "相對與同向運動速度運算符號混淆",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "【翰林 U4：柱體表面積】一個底面是直角三角形（底 6 公分、高 8 公分、斜邊 10 公分）且柱高 15 公分的三角柱。請問其表面積為何？",
@@ -67,7 +70,8 @@
       "scenario": "幾何專題：三角柱表面積",
       "commonMisconception": "漏算底面面積、側面積展開長計算錯誤",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【翰林 U7：工程問題】一項任務甲做需 20 小時，乙做需 30 小時。兩人合作時，每小時的工作率（工作佔全體的比例）是多少？",
@@ -82,7 +86,8 @@
       "scenario": "應用題：工作率計算",
       "commonMisconception": "分數加法分母直接相加迷思",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "【翰林 U2：速率與生活】獵豹奔跑速率約 30 公尺/秒，瞪羚奔跑速率約 90 公里/時。請問這場追逐中誰的速率較快？",
@@ -97,7 +102,8 @@
       "scenario": "速率比較：秒速轉時速",
       "commonMisconception": "單位級距認知缺失",
       "cqi_score": 8.5,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     }
   ]
 }

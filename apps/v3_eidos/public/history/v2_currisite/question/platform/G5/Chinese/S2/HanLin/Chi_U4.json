@@ -24,7 +24,8 @@
       "answer_index": 0,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 2.5
+      "cqi_score": 2.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "課文開頭明確指出小明和小華選擇了家附近的森林公園進行探險。",
       "commonMisconception": "學生可能因為「探險」一詞而聯想到更遙遠或不尋常的地點，忽略了課文直接提供的資訊。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "翅膀低垂且一動不動通常是動物身體不適或受傷的表現，而非單純的休息或疲倦。",
       "commonMisconception": "學生可能只從表面理解為休息或睡覺，未能進一步推斷其潛在的健康問題。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -72,7 +75,8 @@
       "explanation": "小華的語氣展現了積極面對問題的態度，並鼓勵同伴，這代表她樂觀且有自己的想法。",
       "commonMisconception": "學生可能誤以為是喜歡表現，但其核心是積極解決問題的態度。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -88,7 +92,8 @@
       "explanation": "故事強調了兩位朋友共同努力、分工合作的重要性，最終達成了目標，因此主題是關於友誼與合作。",
       "commonMisconception": "學生可能被其他選項的表面合理性吸引，如照顧動物、危險性等，但未能抓住故事的核心主旨。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -104,7 +109,8 @@
       "explanation": "課文提到他們為了探險帶了水壺解渴和點心補充體力。",
       "commonMisconception": "學生可能自行聯想其他探險用品，而忽略課文明確列出的項目。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -120,7 +126,8 @@
       "explanation": "從期待到沉默的情緒轉變，是因看到小鳥受傷而產生同情心與擔憂。",
       "commonMisconception": "學生可能誤解為對探險失去興趣，未能深入理解其情緒背後的原因。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -136,7 +143,8 @@
       "explanation": "他們沒有逃避，而是積極地思考並採取行動，展現了責任感和執行力。",
       "commonMisconception": "學生可能被「探險」的勇敢吸引，但故事重點在於他們對生命的態度和解決問題的行動。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -152,7 +160,8 @@
       "explanation": "根據他們對受傷小鳥的同情心和責任感，他們很可能會對環境污染感到難過，並採取積極行動。",
       "commonMisconception": "學生可能偏向抱怨或認為是他人責任，未能展現積極解決問題的態度。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -168,7 +177,8 @@
       "explanation": "課文明確描述小鳥的羽毛是樸素的棕色，讓牠在樹叢中不容易被發現。",
       "commonMisconception": "學生可能憑空想像或誤記，需要回溯課文細節。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +194,8 @@
       "explanation": "小華的回答包含「先…再…」的步驟，顯示她在緊急情況下能夠冷靜思考並規劃行動。",
       "commonMisconception": "學生可能覺得打電話給大人是推卸責任，但在此情境下是理性的求助行為。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -200,7 +211,8 @@
       "explanation": "綠意和鳥鳴強調了自然環境的特徵，營造出寧靜且貼近自然的氛圍。",
       "commonMisconception": "學生可能因「探險」而聯想到刺激感，忽略了場景描述所帶來的整體氛圍。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -216,7 +228,8 @@
       "explanation": "自己飼養野生動物可能缺乏專業知識和設備，導致小鳥無法得到適當的照顧而死亡。",
       "commonMisconception": "學生可能基於對小動物的喜愛而認為自己養會更好，忽略了專業照顧的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -232,7 +245,8 @@
       "explanation": "課文提到他們找到一個舊鞋盒，並鋪上軟布，輕輕放入小鳥。",
       "commonMisconception": "學生可能猜測其他常見的攜帶方式，但課文有明確說明。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -248,7 +262,8 @@
       "explanation": "顫抖通常是動物感到恐懼或不安的表現。",
       "commonMisconception": "學生可能誤解為疼痛或憤怒，但害怕是更直接的推論。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -264,7 +279,8 @@
       "explanation": "他們從玩樂到關懷，顯示了他們在情感和道德上的成熟，學會了設身處地為他人著想並承擔責任。",
       "commonMisconception": "其他選項可能是故事中的次要收穫，但核心是情感和道德的成長。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -280,7 +296,8 @@
       "explanation": "保持距離是為了自身安全，同時也避免驚嚇動物；尋求專業協助是確保動物能得到正確治療。",
       "commonMisconception": "學生可能基於好心而嘗試自行幫助，但這可能對自身和動物都造成危險。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -296,7 +313,8 @@
       "explanation": "課文中明確提到小華主動拿出手機撥打了動物醫院的電話。",
       "commonMisconception": "學生可能模糊記憶，或認為是小明先發現所以他會打電話。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +330,8 @@
       "explanation": "受傷的動物可能消化系統脆弱，不適當的餵食會加重病情；保持溫暖則是基本的照護。",
       "commonMisconception": "學生可能誤解為讓小鳥保持安靜或獨立，未能理解其醫療上的考量。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -328,7 +347,8 @@
       "explanation": "儘管探險沒有「玩」得很盡興，但幫助小鳥的經歷讓他們感到滿足，這強調了助人為樂的價值。",
       "commonMisconception": "學生可能仍聚焦於探險本身的樂趣，而忽略了故事透過「滿足感」傳達的深層意義。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -344,7 +364,8 @@
       "explanation": "課文提到他們一開始看到「活潑的松鼠在樹上跳來跳去」。",
       "commonMisconception": "學生可能記憶模糊，或將其他常見的森林動物誤認為是課文內容。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -360,7 +381,8 @@
       "explanation": "疲憊卻帶笑，說明他們為自己成功幫助了小鳥而感到驕傲與內心的滿足。",
       "commonMisconception": "學生可能誤以為是單純的解脫感，未能體會到內心的成就感。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -376,7 +398,8 @@
       "explanation": "故事透過小明和小華幫助小鳥的過程，全面展現了友誼的力量、對生命的同情以及承擔責任的態度。",
       "commonMisconception": "其他選項可能只是故事的某個面向，未能涵蓋其核心價值。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -392,7 +415,8 @@
       "explanation": "課文描述小鳥發出「微弱的哀鳴」，顯示牠的虛弱和痛苦。",
       "commonMisconception": "學生可能因為對鳥類的刻板印象而選擇歌聲或啁啾聲。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -408,7 +432,8 @@
       "explanation": "成功解決問題的經驗會增強他們的自信心和合作意識。",
       "commonMisconception": "學生可能認為他們會變得更依賴大人，但故事強調的是他們的成長與自主解決問題的能力。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -424,7 +449,8 @@
       "explanation": "故事的核心是透過具體事件傳達人文關懷和社會合作的價值觀。",
       "commonMisconception": "其他選項是故事可能附帶的知識，但不是作者寫作的主要目的。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -440,7 +466,8 @@
       "explanation": "根據他們之前展現的同情心和責任感，若放棄幫助，最可能產生後悔和內疚的情緒。",
       "commonMisconception": "學生可能選擇表面上的輕鬆，但忽略了角色內心的道德掙扎。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -456,7 +483,8 @@
       "explanation": "根據能夠自主行動、合作解決問題並使用電話的能力，中年級（3-4年級）最為符合。",
       "commonMisconception": "學生可能因為「探險」而聯想到高年級，或因為「幫助小鳥」而聯想到低年級，但綜合能力判斷應為中年級。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -472,7 +500,8 @@
       "explanation": "「翅膀低垂」是後天受傷的表現，而非天生構造。其他選項都可能導致翅膀受傷。",
       "commonMisconception": "學生可能只思考受傷的可能性，而忽略了「天生」這個關鍵詞。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -488,7 +517,8 @@
       "explanation": "送往專業機構正是為了提高其康復的機會，這是符合邏輯的推斷。",
       "commonMisconception": "學生可能過於悲觀或認為結果不確定，但專業介入通常意味著更好的前景。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     }
   ]
 }

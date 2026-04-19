@@ -1,40 +1,54 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G4_S2_ENG_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G4",
   "semester": "S2",
-  "subject": "English",
+  "subject": "ENG",
   "items": [
     {
       "id": "L1",
-      "title": "Unit 1 What Do You Want_",
-      "file": "L1_Unit 1 What Do You Want_.json",
-      "count": 1
+      "title": "L1",
+      "theme": "",
+      "file": "G4_S2_ENG_KANGHSUAN_L1.json",
+      "count": 5,
+      "blind_tested": 0,
+      "avg_cqi": 5.2,
+      "quality": "QL2"
     },
     {
       "id": "L2",
-      "title": "Unit 2 I Like Apples",
-      "file": "L2_Unit 2 I Like Apples.json",
-      "count": 1
+      "title": "L2",
+      "theme": "",
+      "file": "G4_S2_ENG_KANGHSUAN_L2.json",
+      "count": 5,
+      "blind_tested": 0,
+      "avg_cqi": 5.2,
+      "quality": "QL2"
     },
     {
       "id": "L3",
       "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "theme": "",
+      "file": "G4_S2_ENG_KANGHSUAN_L3.json",
+      "count": 77,
+      "blind_tested": 0,
+      "avg_cqi": 6.93,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "Unit 4 What's the Weather Like_",
-      "file": "L4_Unit 4 What's the Weather Like_.json",
-      "count": 1
+      "title": "L4",
+      "theme": "",
+      "file": "G4_S2_ENG_KANGHSUAN_L4.json",
+      "count": 5,
+      "blind_tested": 0,
+      "avg_cqi": 5.2,
+      "quality": "QL2"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 92,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:02.963Z"
   }
 }

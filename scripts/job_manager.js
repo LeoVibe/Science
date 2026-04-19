@@ -275,7 +275,7 @@ function createJob(title, prefix = 'USER', jobType = '') {
             console.warn(`⚠️ 警告: 找不到看板的 Pending Jobs 區段，無法自動寫入表格。請手動添加:\n${newRow}`);
         }
     } else {
-        console.warn(`⚠️ 警告: 找不到看板檔案 ${BOARD_FILE}，無法更新列表。`);
+        console.log(`   未偵測 ${BOARD_FILE}，已略過看板更新（看板已廢止，進度以派工單與 Report 為準）。`);
     }
 }
 

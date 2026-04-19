@@ -103,6 +103,16 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
     }
   }, []);
 
+  const [filterGrade, setFilterGrade] = useState<Grade | 'all'>(userGrade);
+  const [filterSem, setFilterSem] = useState<Semester | 'all'>(userSemester);
+
+  const gradeStyle: Record<number, { badge: string; header: string; border: string }> = {
+    3: { badge: 'bg-pink-100 text-pink-700 dark:bg-pink-500/20 dark:text-pink-400', header: 'bg-pink-50/80 dark:bg-pink-900/15', border: 'border-pink-200/60 dark:border-pink-500/20' },
+    4: { badge: 'bg-lime-100 text-lime-800 dark:bg-lime-500/20 dark:text-lime-400', header: 'bg-lime-50/80 dark:bg-lime-900/15', border: 'border-lime-200/60 dark:border-lime-500/20' },
+    5: { badge: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-400', header: 'bg-indigo-50/80 dark:bg-indigo-900/15', border: 'border-indigo-200/60 dark:border-indigo-500/20' },
+    6: { badge: 'bg-amber-100 text-amber-700 dark:bg-amber-500/20 dark:text-amber-400', header: 'bg-amber-50/80 dark:bg-amber-900/15', border: 'border-amber-200/60 dark:border-amber-500/20' },
+  };
+
   return (
     <div className="max-w-lg mx-auto px-3 sm:px-4 py-4 space-y-4">
       {/* Header */}
@@ -140,15 +150,49 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               <span className="text-[10px] text-muted-foreground bg-secondary px-2 py-0.5 rounded-full">最後更新: {libraryData.lastUpdated}</span>
             </div>
 
+            {/* Grade + Semester filter */}
+            <div className="flex flex-wrap items-center gap-2 pb-1 border-b border-border/20">
+              <div className="flex gap-1">
+                {([3, 4, 5, 6] as Grade[]).map(g => {
+                  const gs = gradeStyle[g];
+                  const isActive = filterGrade === g;
+                  return (
+                    <button
+                      key={g}
+                      onClick={() => setFilterGrade(isActive ? 'all' : g)}
+                      className={`text-[10px] font-bold px-2.5 py-1 rounded-full transition-all ${
+                        isActive ? gs.badge : 'bg-secondary/60 text-muted-foreground hover:bg-secondary'
+                      }`}
+                    >
+                      {g}年
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="flex gap-1 ml-auto">
+                {([1, 2] as Semester[]).map(s => (
+                  <button
+                    key={s}
+                    onClick={() => setFilterSem(filterSem === s ? 'all' : s)}
+                    className={`text-[10px] font-bold px-2.5 py-1 rounded-full transition-all ${
+                      filterSem === s ? 'bg-foreground/10 text-foreground' : 'bg-secondary/60 text-muted-foreground hover:bg-secondary'
+                    }`}
+                  >
+                    {s === 1 ? '上學期' : '下學期'}
+                  </button>
+                ))}
+              </div>
+            </div>
+
             <div className="space-y-6">
-              {APP_CONFIG.grades.map(grade => {
+              {APP_CONFIG.grades.filter(g => filterGrade === 'all' || g === filterGrade).map(grade => {
                 const subjects = getSubjectsByGrade(grade);
                 const gConfig = libraryConfig?.grades[grade as Grade];
                 if (libraryConfig && gConfig?.enabled === false) return null;
 
                 const semesterBlocks: JSX.Element[] = [];
 
-                APP_CONFIG.semesters.forEach(sem => {
+                APP_CONFIG.semesters.filter(s => filterSem === 'all' || s === filterSem).forEach(sem => {
                   const sConfig = gConfig?.semesters[sem];
                   if (libraryConfig && sConfig?.enabled === false) return;
 
@@ -178,15 +222,16 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
 
                   if (rows.length === 0) return;
 
+                  const gs = gradeStyle[grade as number] ?? { badge: 'bg-primary/10 text-primary', header: 'bg-secondary/40', border: 'border-border/30' };
+
                   semesterBlocks.push(
                     <div
                       key={`${grade}-S${sem}`}
-                      className="bg-secondary/20 rounded-xl overflow-hidden border border-border/30 shadow-sm"
+                      className={`rounded-xl overflow-hidden border shadow-sm ${gs.border}`}
                     >
-                      <h4 className="text-xs font-bold text-foreground bg-secondary/40 px-3 py-2 border-b flex items-center gap-1.5">
-                        <span className="bg-primary/10 text-primary px-1.5 py-0.5 rounded text-[10px]">G{grade}</span>
+                      <h4 className={`text-xs font-bold text-foreground px-3 py-2 border-b border-inherit flex items-center gap-1.5 ${gs.header}`}>
                         {grade}年級
-                        <span className="ml-2 text-[10px] text-muted-foreground">
+                        <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${gs.badge}`}>
                           {sem === 1 ? '上學期' : '下學期'}
                         </span>
                       </h4>
@@ -212,11 +257,13 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                                     return <td key={pub} className="px-2 py-2 text-center text-muted-foreground/30 font-medium align-middle">-</td>;
                                   }
 
-                                  const getQualityColor = (q: string) => {
-                                    if (q.includes('QL4') || q.includes('QL5')) return 'bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-400';
-                                    if (q.includes('QL3')) return 'bg-orange-100 text-orange-700 dark:bg-orange-500/20 dark:text-orange-400';
-                                    if (q.includes('QL2')) return 'bg-blue-100 text-blue-700 dark:bg-blue-500/20 dark:text-blue-400';
-                                    return 'bg-secondary text-muted-foreground';
+                                  const getQualityColor = (q: string | undefined) => {
+                                    if (!q) return 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-500';
+                                    if (q.includes('QL5')) return 'bg-amber-100 text-amber-700 dark:bg-amber-500/20 dark:text-amber-400';
+                                    if (q.includes('QL4')) return 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-400';
+                                    if (q.includes('QL3')) return 'bg-violet-100 text-violet-700 dark:bg-violet-500/20 dark:text-violet-400';
+                                    if (q.includes('QL2')) return 'bg-sky-100 text-sky-700 dark:bg-sky-500/20 dark:text-sky-400';
+                                    return 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-500';
                                   };
 
                                   const shelfCount = stat.publishedQuestions ?? stat.questions ?? 0;
@@ -264,50 +311,35 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
 
             {/* Depth Legend */}
             <div className="mt-4 bg-secondary/30 rounded-2xl p-4 border border-border/30 space-y-3">
-              <p className="text-[11px] text-muted-foreground leading-relaxed">
-                上表數字：<span className="font-bold text-foreground">上架</span>為對使用者可推出之題數（整包成熟度 ≥ QL2 且非 BIAS 時與題庫數一致；否則僅計入逐檔達標題數）。若另有「題庫」列，表示該版仍有未達上架門檻之題。盲測通過由派工單／單元審核另行核可。
-              </p>
-              <div>
-                <span className="font-bold text-sm text-foreground">如何評估題庫品質！</span>
-                <div className="overflow-x-auto mt-2">
-                  <table className="w-full text-left border-collapse text-[10px] text-muted-foreground">
-                    <thead>
-                      <tr className="border-b border-border/40 text-foreground">
-                        <th className="py-1 pr-2 font-bold whitespace-nowrap">等級</th>
-                        <th className="py-1 px-2 font-bold whitespace-nowrap">評估依據</th>
-                        <th className="py-1 px-2 font-bold w-full whitespace-normal">品質層次（我想讓孩子學到的重點）</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-border/20">
-                      <tr>
-                        <td className="py-1.5 pr-2 font-bold text-foreground">QL1</td>
-                        <td className="py-1.5 px-2 whitespace-normal">課綱與關鍵字</td>
-                        <td className="py-1.5 px-2 whitespace-normal break-words">僅依據課綱與關鍵字產出題庫，學習目標不夠精準。</td>
-                      </tr>
-                      <tr>
-                        <td className="py-1.5 pr-2 font-bold text-foreground">QL2</td>
-                        <td className="py-1.5 px-2 whitespace-normal">實質課文歸納</td>
-                        <td className="py-1.5 px-2 whitespace-normal break-words">能具體歸納課程內容與精髓，建構快速複習基礎。</td>
-                      </tr>
-                      <tr>
-                        <td className="py-1.5 pr-2 font-bold text-foreground">QL3</td>
-                        <td className="py-1.5 px-2 whitespace-normal">考古題庫參考</td>
-                        <td className="py-1.5 px-2 whitespace-normal break-words">收納外部經驗，凸顯學習目標與題數配重，並把關選項文字清晰度。</td>
-                      </tr>
-                      <tr>
-                        <td className="py-1.5 pr-2 font-bold text-foreground">QL4</td>
-                        <td className="py-1.5 px-2 whitespace-normal">深思與盲測</td>
-                        <td className="py-1.5 px-2 whitespace-normal break-words">用不同的Agent進行盲測，每一題都模擬真實孩童作答(很花Token)，以精修題幹、選項文字，確保能引發思考，啟發與記憶並重</td>
-                      </tr>
-                      <tr>
-                        <td className="py-1.5 pr-2 font-bold text-foreground">QL5</td>
-                        <td className="py-1.5 px-2 whitespace-normal">有專家認證</td>
-                        <td className="py-1.5 px-2 whitespace-normal break-words">經過多層次邏輯檢查，教師審閱與使用者回饋，確保教學與思考的嚴密。(未來期待)</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="font-bold text-sm text-foreground">如何定義題庫品質</span>
+                <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <span className="bg-emerald-100 text-emerald-700 font-bold px-1.5 py-0.5 rounded text-[10px] dark:bg-emerald-500/20 dark:text-emerald-400">QL4</span>
+                  <span>代表 該題庫有 90% 的題目達到</span>
+                  <span className="bg-emerald-100 text-emerald-700 font-bold px-1.5 py-0.5 rounded text-[10px] dark:bg-emerald-500/20 dark:text-emerald-400">QL4</span>
+                  <span>以上的標準</span>
+                </span>
               </div>
+                <table className="w-full text-[10px] mt-2 border-collapse">
+                  <tbody>
+                    {([
+                      { level: 'QL1', badge: 'bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-400', label: '課綱基礎', desc: '僅依課綱與關鍵字產出，學習目標不夠精準。' },
+                      { level: 'QL2', badge: 'bg-sky-100 text-sky-700 dark:bg-sky-500/20 dark:text-sky-400', label: '課文歸納', desc: '該課已完成 KL4 單課研究（有課文）；題目能具體歸納課程內容與精髓。' },
+                      { level: 'QL3', badge: 'bg-violet-100 text-violet-700 dark:bg-violet-500/20 dark:text-violet-400', label: '考古參考', desc: '該課額外完成 KL4 考古題與討論；誘答設計有實證基礎。' },
+                      { level: 'QL4', badge: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-400', label: '深思與盲測', desc: '用不同 Agent 進行盲測且通過；題幹與選項經實測精修。' },
+                      { level: 'QL5', badge: 'bg-amber-100 text-amber-700 dark:bg-amber-500/20 dark:text-amber-400', label: '專家認證', desc: '經多層次邏輯檢查、教師審閱與使用者回饋驗證。（未來期待）' },
+                    ] as { level: string; badge: string; label: string; desc: string }[]).map(({ level, badge, label, desc }) => (
+                      <tr key={level} className="border-b border-border/20 last:border-0">
+                        <td className="py-2 pr-3 align-top w-10 whitespace-nowrap">
+                          <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${badge}`}>{level}</span>
+                        </td>
+                        <td className="py-2 text-muted-foreground leading-relaxed break-words">
+                          <span className="font-semibold text-foreground/80 mr-1.5">{label}</span>{desc}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
             </div>
           </div>
         </div>
@@ -324,21 +356,9 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
             <div className="px-5 pt-2 pb-5 space-y-4">
               <div className="space-y-3 text-sm text-muted-foreground leading-relaxed">
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
-                  <h3 className="font-bold text-foreground text-sm">為什麼做這個網站</h3>
                   <p className="text-xs leading-relaxed">
-                    觀察到孩子在練習傳統題庫時，常因內容機械化而感到無厭。開發團隊設計了這套結合 AI 技術的系統，旨在為每一道題目注入邏輯與思考價值，讓每一次答題都能轉化為有效的思考訓練。
+                    傳統題庫往往讓孩子陷入機械式刷題，缺乏真正的思考空間。這個網站用 AI 重新設計每一道題，讓每天 15 分鐘的複習，都能幫孩子真正內化課程，而不只是對答案。
                   </p>
-                </div>
-                <div className="bg-secondary rounded-2xl p-4 space-y-3">
-                  <h3 className="font-bold text-foreground text-sm">本站的目標</h3>
-                  <div className="space-y-3">
-                    <div className="space-y-1">
-                      <p className="text-xs leading-relaxed text-muted-foreground">
-                        讓小朋友更容易複習功課，每天 15 分鐘刷個題。<br />
-                        我希望透過這裡的複習，讓孩子真的內化課程本質，而不是機械式的答題。
-                      </p>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="bg-secondary rounded-2xl p-4 space-y-2">
@@ -410,7 +430,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
             <div className="bg-secondary/20 rounded-2xl border-2 border-primary/10 p-5 space-y-5">
               <div className="space-y-1.5">
                 <h4 className="font-black text-foreground text-[15px] flex items-center gap-2 text-primary">
-                  <span>📐</span> 我的初衷：為什麼這裡的題目寫起來「不太一樣」？
+                  <span>📐</span> 本站題目有什麼不同？
                 </h4>
                 <p className="text-[12px] text-muted-foreground leading-relaxed">
                   讓孩子寫題庫，不是為了機械化的反覆刷題。我們的每一道題目產出，都需要經過四層嚴謹的「AI 專家思考」，確保題目真的能幫助孩子成長。以下是我們對學習的堅持：
@@ -447,13 +467,10 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 </div>
 
                 {/* 📚 第三層 */}
-                <div className="rounded-xl border-2 border-primary/40 p-4 space-y-2.5 bg-primary/5 shadow-sm relative overflow-hidden">
-                  <div className="absolute top-0 right-0 px-3 py-1 bg-primary text-primary-foreground text-[10px] font-black rounded-bl-lg shadow-sm">
-                    核心靈魂
-                  </div>
+                <div className="rounded-xl border border-border/50 p-4 space-y-2.5 bg-background shadow-sm hover:border-emerald-300 transition-colors">
                   <div className="flex items-start gap-3">
                     <span className="w-9 h-9 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-[17px] shrink-0 border border-emerald-200 dark:border-emerald-800">📚</span>
-                    <div className="space-y-1 pr-12">
+                    <div className="space-y-1">
                       <p className="font-black text-sm text-foreground">第三層：探索這學期孩子的痛點與需求</p>
                       <p className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">最貼心的學習指引 ──「AI 專家學習引導」</p>
                       <p className="text-[11px] text-muted-foreground leading-relaxed">
@@ -490,9 +507,6 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               <SiteFeedbackForm />
             </div>
 
-            <p className="text-[10px] text-muted-foreground/60 text-center py-4">
-              學術研究與命題方法持續更新中... 🚀
-            </p>
           </div>
         </div>
       )}
@@ -503,57 +517,89 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
           <div className="bg-card rounded-2xl border p-5 space-y-0">
             {[
               {
+                ver: '1.4',
+                date: '2026/4/18',
+                items: [
+                  '小三下 國語、自然、社會題庫更新，用 500 題以上考古題，重新校正題幹與選項之適配度，確認題意與學習意涵',
+                  '新增小四下 自然、社會題庫，重塑前期學習路徑定義，完成 900 題以上全新題庫，並完成雙盲測試',
+                  '題庫品質說明更直白、題目總覽介面更簡潔，新增年級與學期過濾器',
+                ],
+                highlight: true,
+              },
+              {
                 ver: '1.3',
                 date: '2026/3/20',
-                desc: '將題目產出的架構化繁為簡，利用AI 的迭代能力，強化出題深度與意涵，「AI 專家學習引導」，讓每位使用者都能清楚題目意涵與設計邏輯，孩子做題，家長一同陪伴理解，每一題都有溫暖提示說明。',
-                highlight: true,
+                items: [
+                  '將題目產出架構化繁為簡，利用 AI 的迭代能力強化出題深度與意涵',
+                  '新增「AI 專家學習引導」，讓每位使用者都能清楚題目意涵與設計邏輯',
+                  '每一題都有溫暖提示說明，孩子做題、家長一同陪伴理解',
+                ],
+                highlight: false,
               },
               {
                 ver: '1.2',
                 date: '2026/3/1',
-                desc: '讓 AI 扮演各科專家，對題目進行深度研究與翻新，每課都有 30 題以上。也針對中年級的程度與耐性調整了題型比例，讓練習節奏能與智力成長接軌。',
+                items: [
+                  '讓 AI 扮演各科專家，對題目進行深度研究與翻新，每課 30 題以上',
+                  '針對中年級的程度與耐性調整題型比例，讓練習節奏與智力成長接軌',
+                ],
                 highlight: false,
               },
               {
                 ver: '1.1',
                 date: '2026/2/27',
-                desc: '為了留住的專注力，優化了介面佈局，讓操作更直覺順手。同時也改進了選題功能、將錯題補強、新題挑戰、與熟題複習、作整體進行比例配置，確保每次能啟發新鮮的思考挑戰。',
+                items: [
+                  '優化介面佈局，讓操作更直覺順手',
+                  '改進選題功能：錯題補強、新題挑戰、熟題複習三種模式比例配置',
+                ],
                 highlight: false,
               },
               {
                 ver: '1.0',
                 date: '2026/2/21',
-                desc: '正式版上線：登入機制、錯題統計、題目審核機制、續答機制、連結防呆全面完成。',
+                items: [
+                  '正式版上線：登入機制、錯題統計、題目審核機制、續答機制、連結防呆全面完成',
+                ],
                 highlight: false,
               },
               {
                 ver: '0.9',
                 date: '2026/2/19',
-                desc: '設定與管理升級：入站設定年級、各科目設定出版社，題庫管理與維護設定整合。',
+                items: [
+                  '設定與管理升級：入站設定年級、各科目設定出版社，題庫管理與維護設定整合',
+                ],
                 highlight: false,
               },
               {
                 ver: '0.8',
                 date: '2026/2/18',
-                desc: '規劃題庫評分機制，嚴格處理真實課文、設計意涵與文字細膩度、與選項合理性。',
+                items: [
+                  '規劃題庫評分機制，嚴格處理真實課文、設計意涵與文字細膩度、與選項合理性',
+                ],
                 highlight: false,
               },
               {
                 ver: '0.7',
                 date: '2026/2/17',
-                desc: '產出新版介面設計：主選單、導覽分頁與學習流程互動體驗更新。',
+                items: [
+                  '產出新版介面設計：主選單、導覽分頁與學習流程互動體驗更新',
+                ],
                 highlight: false,
               },
               {
                 ver: '0.6',
                 date: '2026/2/15',
-                desc: '擴大題庫廣度與研究深度，擴充為三個出版社，設定出題深度與流程，AI不會自由發揮的出題。',
+                items: [
+                  '擴大題庫廣度與研究深度，擴充為三個出版社',
+                  '設定出題深度與流程，AI 不自由發揮出題',
+                ],
                 highlight: false,
               },
               {
                 ver: '0.5',
                 date: '2026/2/14',
-                desc: '多科目嘗試版（現為相容模式入口）',
+                items: ['多科目擴充版'],
+                note: '仍可測試使用，但停止維護',
                 highlight: false,
                 link: withBase('history/v2_currisite/index.html'),
                 linkLabel: '🏛️ 體驗舊版系統：v2 舊版(多科) →',
@@ -561,19 +607,46 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               {
                 ver: '0.1',
                 date: '2026/1/3',
-                desc: '初始版本，基本架構（現為相容模式入口）',
+                items: ['初始版本，基本架構'],
+                note: '仍可測試使用，但停止維護',
                 highlight: false,
                 link: withBase('history/v1_science/index.html'),
                 linkLabel: '🏛️ 體驗舊版系統：v1 初版(自然) →',
               },
-            ].map((v: { ver: string; date: string; desc: string; highlight: boolean; link?: string; legacy?: boolean; linkLabel?: string }, i, arr) => (
+            ].map((v: { ver: string; date: string; items: string[]; note?: string; highlight: boolean; link?: string; legacy?: boolean; linkLabel?: string }, i, arr) => (
               <div key={v.ver} className={`flex items-start gap-3 py-3 ${i < arr.length - 1 ? 'border-b border-border' : ''}`}>
                 <div className="shrink-0 w-16 text-center space-y-0.5">
+                  {v.highlight && (
+                    <span className="block text-[8px] font-black bg-primary text-primary-foreground px-1.5 py-0.5 rounded-full mb-1">NEW</span>
+                  )}
                   <span className={`block text-sm font-black ${v.highlight ? 'text-primary' : 'text-foreground'}`}>v{v.ver}</span>
                   <span className="block text-[9px] text-muted-foreground">{v.date}</span>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className={`text-sm ${v.highlight ? 'font-bold text-foreground' : 'font-medium'}`}>{v.desc}</p>
+                  {v.items.length === 1 ? (
+                    <p className="text-sm font-medium text-muted-foreground flex flex-wrap items-center gap-1.5">
+                      <span>{v.items[0]}</span>
+                      {v.note && (
+                        <span className="text-[9px] font-semibold bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 px-2 py-0.5 rounded-full border border-red-200/60 dark:border-red-700/40">
+                          {v.note}
+                        </span>
+                      )}
+                    </p>
+                  ) : (
+                    <ol className="space-y-1">
+                      {v.items.map((item, idx) => (
+                        <li key={idx} className="text-sm flex gap-1.5 font-medium text-muted-foreground">
+                          <span className="shrink-0 text-[10px] font-black mt-0.5 text-muted-foreground/50">{idx + 1}.</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                  {v.items.length > 1 && v.note && (
+                    <span className="inline-flex mt-1.5 text-[9px] font-medium bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 px-2 py-0.5 rounded-full border border-red-200/60 dark:border-red-700/40">
+                      {v.note}
+                    </span>
+                  )}
                   {v.link && (
                     <a
                       href={v.link}
@@ -585,16 +658,12 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                     </a>
                   )}
                 </div>
-                {v.highlight && <span className="text-xs bg-accent/12 text-accent font-bold px-2 py-0.5 rounded-full shrink-0">NEW</span>}
               </div>
             ))}
           </div>
         </div>
       )}
 
-      <p className="text-center text-xs text-muted-foreground pb-4">
-        後續將依課程研究產出更多題庫，持續優化使用體驗 🚀
-      </p>
     </div>
   );
 }

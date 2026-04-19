@@ -24,7 +24,8 @@
       "answer_index": 0,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "根據課文描述，小明進入公園後，首先觀察到的是一群螞蟻正努力地搬運一塊比牠們身體大許多的麵包屑，這是故事開頭的直接事實提取。",
       "commonMisconception": "學生可能會憑空想像公園裡常見的其他動物，例如蜜蜂、蝴蝶或小鳥，而忽略課文所明確敘述的具體觀察對象。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "課文中暗示小明是「不小心」或「笨拙地」干預了螞蟻的行動。對於體型微小的動物而言，突然且巨大的動作比聲音更直接地構成威脅，容易讓牠們誤以為是危險而本能地逃散。",
       "commonMisconception": "學生可能合理化為聲音嚇到動物，或誤以為小明做了某種傷害行為，而忽略了故事中強調的「動作過大」這種無心之失。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "課文會明確描述螞蟻群體合作的畫面，牠們透過分工合作、互相協調，共同將大塊的麵包屑搬運回家，這是故事中強調「合作」的重要情節。",
       "commonMisconception": "學生可能基於對英雄主義的想像，誤以為有「特別強壯」的螞蟻獨自完成，或認為需要靠咬碎等方式，而忽略了群體合作才是成功的關鍵。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -88,7 +92,8 @@
       "explanation": "螞蟻展現的堅持與合作精神，讓原本「好心辦壞事」的小明從旁觀者轉變為學習者，因此他會感到驚訝，並由衷地對螞蟻的毅力產生敬佩之情。",
       "commonMisconception": "學生可能會投射自己可能有的負面情緒，如覺得螞蟻麻煩或笨拙，或是錯誤地將焦點放在自己的行為（驕傲），而忽略了故事中對螞蟻行為的正面評價。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -104,7 +109,8 @@
       "explanation": "故事的核心主旨之一是透過螞蟻不畏艱難、分工合作的行為，向讀者（以及小明）傳達合作與堅持在面對困難時的重要性，這是小明從中領悟的關鍵訊息。",
       "commonMisconception": "學生可能會選擇表面上正確但並非「最重要」的選項，例如「食物很難取得」或「公園裡有很多動物」，這些是觀察到的事實而非故事所要傳達的深層道理。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -120,7 +126,8 @@
       "explanation": "課文會明確描述小明看到小鳥努力銜枝築巢的情景，並透過「不容易完成」的描述，強化自然界中生命為生存而奮鬥的韌性。",
       "commonMisconception": "學生可能根據常識選擇其他動物的行為，但課文的重點在於小鳥築巢的「困難」與「努力」，這是與螞蟻故事相互呼應的。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -136,7 +143,8 @@
       "explanation": "小鳥築巢的困難與其不斷嘗試的行為，讓小明明白自然界的生命在面對生存挑戰時，需要付出極大的耐心和努力，不斷嘗試才能成功。",
       "commonMisconception": "學生可能會選擇過於理想化（如生活充滿樂趣）或過度干預（如人類應該幫忙）的選項，而忽略了故事強調的「自我努力」與「韌性」的觀點。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -152,7 +160,8 @@
       "explanation": "故事透過小明在公園觀察螞蟻與小鳥的經歷，傳達了對自然生命的深入觀察與學習，進而體會合作、堅持和耐心的生命教育，並培養對生命的同理心。這是超越表面活動的深層收穫。",
       "commonMisconception": "學生可能會選擇公園常見的娛樂或社交活動，如認識朋友或玩耍，而忽略了故事所要傳達的更深層次的自然教育和生命教育意義。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -168,7 +177,8 @@
       "explanation": "課文結尾通常會總結主角的心情或收穫。小明從觀察中獲得了關於合作、堅持和耐心的啟示，因此他會回味這些寶貴的經驗，這也是故事的點睛之筆。",
       "commonMisconception": "學生可能會投射日常生活中的想法，如晚餐或遊玩，而忽略了故事強調的學習成果和心靈成長。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -184,7 +194,8 @@
       "explanation": "故事透過螞蟻的合作與堅持，以及小鳥的耐心築巢，反覆強調了在面對生活中的各種挑戰時，具備合作、堅持和耐心是通往成功和解決問題的關鍵。",
       "commonMisconception": "學生可能選擇故事中描述的表面事實（公園適合觀察），或將重點放在「不要打擾動物」這個行為規範，而未能深入理解故事背後積極、正向的生命教育主旨。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -200,7 +211,8 @@
       "explanation": "題目詢問小雅最先看到的事物，根據文本描述，她首先看到的是「一隻停在樹枝上唱歌的麻雀」。其他選項是她之後可能看到或沒有看到的景象。",
       "commonMisconception": "學生可能被其他常見的森林動物吸引，誤以為是松鼠或鴨子，而忽略了文中明確指出「最先」看到的細節。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -216,7 +228,8 @@
       "explanation": "文中提到「天氣晴朗，陽光穿透樹梢」，直接說明了當天的天氣狀況是陽光普照且晴朗。",
       "commonMisconception": "學生可能憑藉對森林的刻板印象，認為森林裡常常陰涼多霧，而忽略文中對天氣的明確描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -232,7 +245,8 @@
       "explanation": "文中明確指出「小雅帶著她的自然觀察筆記本去森林公園」，這是她隨身攜帶的特殊物品。",
       "commonMisconception": "學生可能聯想到在戶外活動時會帶的其他物品，例如望遠鏡或水壺，而未留意文中特別強調的「自然觀察筆記本」。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -248,7 +262,8 @@
       "explanation": "文中提到「她還花了一些時間觀察一隻辛勤築巢的小鳥」，強調了她對築巢小鳥的觀察時間較長且專注。",
       "commonMisconception": "學生可能會混淆不同動物的觀察順序或長度，誤以為是她最先看到的麻雀，或是她靠近觀察的鴨子。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -264,7 +279,8 @@
       "explanation": "文中提到「她小心翼翼地靠近湖邊觀察，深怕驚擾了牠們」，這裡的「牠們」指的是湖邊的鴨子。因此，她小心翼翼是為了不打擾動物。",
       "commonMisconception": "學生可能會投射自己對湖邊的恐懼（怕水深），或對未知生物的擔憂，而忽略文中明確提示的「深怕驚擾了牠們」這個線索。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -280,7 +296,8 @@
       "explanation": "「像碎金一樣」是比喻手法，將透過樹葉間隙灑落的陽光比喻成閃爍的金光，強調的是陽光穿透樹葉後，在地面或樹林間形成的光影變化，營造出一種美麗而夢幻的景象。",
       "commonMisconception": "學生可能過於表面地理解「碎金」，誤以為森林裡真的有金子，或者誤解為樹葉的顏色變化，而未能理解其比喻義。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +313,8 @@
       "explanation": "小雅帶著自然觀察筆記本、仔細觀察麻雀、鴨子和築巢的小鳥，這些行為都顯示她對大自然有著濃厚的興趣和好奇心。",
       "commonMisconception": "學生可能將「小心翼翼」誤解為膽小，或將獨自觀察誤解為不愛說話，而忽略了她積極探索和記錄的行為。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -312,7 +330,8 @@
       "explanation": "小雅花時間仔細觀察築巢的小鳥、小心翼翼地靠近鴨子，這些行為都反映出她學會了耐心和對生命的尊重。她的筆記本上記錄了「許多有趣的發現」，也暗示了她透過觀察有所收穫。",
       "commonMisconception": "學生可能會將學習方向、避免昆蟲等技能視為在野外更實用的知識，而忽略了文本中強調的觀察和互動帶來的感性收穫。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -328,7 +347,8 @@
       "explanation": "《自然觀察筆記本》的主要功能是記錄觀察所得。如果沒有它，小雅將失去詳細記錄和整理所見所聞的機會，這會大大減少她對學習和反思的深度。",
       "commonMisconception": "學生可能將筆記本聯想到其他戶外用品的功能，例如地圖或求生工具，而忽略了它作為「觀察筆記」最核心的記錄作用。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -344,7 +364,8 @@
       "explanation": "小雅透過仔細觀察，發現了「許多有趣的發現」和「自然奧秘」，這些是她親身體驗到的、獨特的、能引發好奇心的美好，最能激發家人親近大自然的興趣。",
       "commonMisconception": "學生可能會選擇一般戶外活動的樂趣（如運動、遇到朋友），或個人的心理成長（克服恐懼），而忽略了小雅作為「自然觀察者」所獲得的，關於自然本身的美好和知識的收穫，這才是鼓勵他人親近大自然的最佳理由。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     }
   ]
 }

@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "平分成 8 份，每一份是 1/8 盒。吃了 3 份即為 3/8 盒。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "1 - 3/10 = 10/10 - 3/10 = 7/10 公尺。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "12/12 箱就是 1 箱。整箱即為 12 瓶。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "2/9 + 4/9 = 6/9 包。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "分母相同，分子 5 大於 3。故 5/7 比較長。",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "4/6 + 1/6 = 5/6 個。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "6個為一基準，2個代表 2/6 盒。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "單位概念辨析。7/10 應對應『盒/袋』而非『顆』。7 顆是數量。",
       "quality_level": "L4",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "9/10 - 4/10 = 5/10。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "2/5 + 3/5 = 5/5 = 1 塊。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "8 - 3 = 5。故填入 5/11。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "1 - 4/12 = 8/12。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -203,7 +215,8 @@
       "explanation": "小明吃了2份，妹妹吃了1份，他們一共吃了2 + 1 = 3份。因為蛋糕被分成8等份，所以他們一共吃了蛋糕的3/8。",
       "commonMisconception": "學生可能將分子與分母同時相加，誤以為是3/16。或是只計算其中一人吃的份數。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -219,7 +232,8 @@
       "explanation": "一條完整的彩帶是10/10公尺。小華用去了4/10公尺，所以剩下的彩帶是10/10 - 4/10 = 6/10公尺。",
       "commonMisconception": "學生可能誤以為是將數字相加，或是忘記將「一條」彩帶視為10/10，進而無法正確進行減法運算。",
       "quality_level": "L5",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -235,7 +249,8 @@
       "explanation": "爸爸吃了3份，媽媽吃了2份，他們一共吃了3 + 2 = 5份。這鍋咖哩原本有9/9份，所以剩下9/9 - 5/9 = 4/9份。",
       "commonMisconception": "學生可能只計算吃掉的份數，誤選5/9；或者在計算完吃掉的份數後，忘記從總份數中減去。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -251,7 +266,8 @@
       "explanation": "小芬裝了2/7，哥哥裝了3/7，所以水桶裡一共有2/7 + 3/7 = 5/7滿。水桶裝滿是7/7，所以距離裝滿還差7/7 - 5/7 = 2/7。",
       "commonMisconception": "學生可能只計算加總後的份數，誤選5/7；或者在計算完加總後，忘記從總份數中減去，甚至誤以為是問剩下的水。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -267,7 +283,8 @@
       "explanation": "第一小隊記號在3/10公尺處，第二小隊記號在7/10公尺處。要找出遠了多少，需要用減法：7/10 - 3/10 = 4/10公尺。",
       "commonMisconception": "學生可能將兩個分數相加，誤以為是問總長度，或是混淆了「遠了幾分之幾」的意思。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -283,7 +300,8 @@
       "explanation": "胖胖吃了5份，萌萌吃了3份，他們一共吃了5 + 3 = 8份。竹子被分成12等份，所以他們一共吃了竹子的8/12。",
       "commonMisconception": "學生可能將分子相減，或是只計算其中一位動物吃的份數。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -299,7 +317,8 @@
       "explanation": "小玉吃了2份，阿姨吃了3份，他們一共吃了2 + 3 = 5份。餅乾原本有10/10份，所以剩下10/10 - 5/10 = 5/10份。",
       "commonMisconception": "學生可能會將吃掉的份數相加後，誤以為是答案；或是忘記從總份數中減去。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -315,7 +334,8 @@
       "explanation": "爸爸第一天收成3個區域，第二天收成2個區域，一共收成了3 + 2 = 5個區域。這排玉米有8個區域，所以還剩下8/8 - 5/8 = 3/8沒有收成。",
       "commonMisconception": "學生可能只計算已收成的份數，誤選5/8；或者在計算完收成的份數後，忘記從總份數中減去。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -331,7 +351,8 @@
       "explanation": "冒險故事書和童話故事書加起來是4/9 + 3/9 = 7/9。所有書的總數是9/9。所以，兩類書加起來比總數少了9/9 - 7/9 = 2/9。",
       "commonMisconception": "學生可能會將兩個分數相加後，誤以為是答案7/9；或者混淆了「少了幾分之幾」的含義，錯誤地進行減法。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -347,7 +368,8 @@
       "explanation": "小華喝了4份，弟弟喝了3份，爸爸喝了5份，他們一共喝了4 + 3 + 5 = 12份。這鍋湯被分成15等份，所以他們一共喝了12/15。",
       "commonMisconception": "學生可能只加總其中兩人的份數，或是將分母也一併相加。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -363,7 +385,8 @@
       "explanation": "這個問題考驗孩子對分數加法的理解。當分母相同時，我們只需要將分子相加，分母保持不變。維尼吃了3/8，豬小弟吃了2/8，所以一共是3/8 + 2/8 = 5/8。",
       "commonMisconception": "學生可能會將分母也相加，誤以為是5/16。這是對分數加法規則不熟悉的常見迷思。另一個迷思是誤以為是相減，或是將分子相乘。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -379,7 +402,8 @@
       "explanation": "首先，蘋果派總共有7塊，可以表示為7/7。小美吃了2塊（2/7），爸爸吃了3塊（3/7），所以他們一共吃了2/7 + 3/7 = 5/7。接著，用總量減去吃掉的部分：7/7 - 5/7 = 2/7。因此，還剩下2/7的蘋果派。",
       "commonMisconception": "學生可能會直接將吃掉的部分（5/7）當作答案，忽略了問題是問『還剩下』多少。也可能誤將分母相減，或是將總量誤設為10/10等錯誤的基準。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -395,7 +419,8 @@
       "explanation": "當兩個分數的分母相同時，分子越大，表示其所佔的份數越多，因此分數就越大。小華吃了1/5，小明吃了3/5，因為3比1大，所以小明吃掉的巧克力棒比較多。",
       "commonMisconception": "有些學生可能會誤認為分子越小表示吃得越少，但對於初學者來說，在分母相同時，比較分子的大小是直觀的。主要的迷思可能來自於對「比較」概念的不熟悉，或是沒有仔細讀題。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -411,7 +436,8 @@
       "explanation": "這排香草植物的總量可以看作是6/6。薄荷和迷迭香一共佔了2/6 + 1/6 = 3/6。剩下的部分就是薰衣草，所以用總量減去已知部分：6/6 - 3/6 = 3/6。題目選項中沒有3/6，但3/6可以化簡為1/2，而4/6是錯誤的，2/6是薄荷，1/6是迷迭香。哦，我需要重新檢查我的選項和解釋。 '剩下的都是薰衣草'，所以薰衣草是 6/6 - (2/6 + 1/6) = 6/6 - 3/6 = 3/6。選項中沒有3/6。這表示選項設計有誤或我的計算有誤。Let me re-evaluate the options given the expected answer. Ah, the options are 3/6, 4/6, 1/6, 2/6. If 3/6 is the correct answer, then 'A' is correct. The prompt asks me to pick one. Let's assume the option 'A' is 3/6. My explanation should reflect this.",
       "commonMisconception": "學生可能會忘記將總量視為一個完整的1（即6/6），或者在加減過程中出現計算錯誤。也可能誤將分母相加減。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -427,7 +453,8 @@
       "explanation": "這條紙帶的總長度可以看作是9/9。紅色圖案用了1/9，藍色圖案用了4/9，所以一共用了1/9 + 4/9 = 5/9。剩下可以畫其他顏色的長度就是總長度減去已用部分：9/9 - 5/9 = 4/9。",
       "commonMisconception": "學生可能會直接將已用部分5/9當作答案，忽略了問題是問『還剩下』多少。或是計算錯誤，例如將分母也相減。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -443,7 +470,8 @@
       "explanation": "第一條披薩總共有8/8，小杰吃了3份，所以剩下8/8 - 3/8 = 5/8。第二條披薩總共有8/8，弄掉了2份，所以剩下8/8 - 2/8 = 6/8。將兩條披薩剩下的部分加起來：5/8 + 6/8 = 11/8。",
       "commonMisconception": "學生可能會誤以為兩個披薩是同一份，將分母相加，或是在計算過程中混淆了『吃掉』和『弄掉』的數量。也可能忘記將兩個披薩的剩下部分再相加，只計算其中一份。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -459,7 +487,8 @@
       "explanation": "這個問題是分數的加法應用。松鼠先生第一次吃了2/9，第二次吃了3/9。將兩次吃的份數相加：2/9 + 3/9 = 5/9。因此，他總共吃了這個堅果派的5/9。",
       "commonMisconception": "學生可能會將分母也相加，導致答案是5/18。這是對分數加法基本規則的混淆。也可能只看到其中一次吃的份數。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -475,7 +504,8 @@
       "explanation": "一壺檸檬水總量是10/10。首先喝掉了6杯，所以剩下10/10 - 6/10 = 4/10。接著媽媽又倒了2杯進去，所以是4/10 + 2/10 = 6/10。因此，壺裡還有6/10的檸檬水。",
       "commonMisconception": "學生可能會將加減順序搞錯，或是將分母也進行加減。另一個迷思是只計算其中一步，例如只算出喝掉後的剩下量，或只算出倒進去後的增加量，而忽略了整個過程。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     }
   ]
 }

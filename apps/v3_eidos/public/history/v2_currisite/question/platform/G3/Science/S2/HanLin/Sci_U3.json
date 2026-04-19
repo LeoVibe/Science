@@ -22,7 +22,8 @@
       "scenario": "捉迷藏大師：動物的外衣",
       "commonMisconception": "學生易將保護色視為受主動控制的魔術（如誤以為所有動物都能像變色龍一樣快變），需釐清這是適應環境的穩定特徵。",
       "cqi_score": 7.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "小華發現魚缸裡的魚，背部顏色通常比較深，而腹部顏色通常比較白。這種顏色偏差對魚在水中的生存有什麼好處？",
@@ -37,7 +38,8 @@
       "scenario": "魚兒的神奇防護衣",
       "commonMisconception": "學生通常不會注意背部與腹部的顏色差異及其空間幾何意義。",
       "cqi_score": 4.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "長頸鹿擁有極長的脖子。如果我們從「生存兢爭」的角度來推論，這種構造最可能是為了解決哪一個問題？",
@@ -52,7 +54,8 @@
       "scenario": "高處的美味晚餐",
       "commonMisconception": "學生可能只覺得脖子長很特別，需引導至「食物資源爭奪」的因果分析。",
       "cqi_score": 6.75,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "小明觀察到袋鼠的後腿非常壯大，而前肢則相對細小。這種前、後肢比例的巨大差異，決定了袋鼠哪一種主要的移動方式？",
@@ -67,7 +70,8 @@
       "scenario": "原野上的彈跳巨星",
       "commonMisconception": "規避直接考「袋鼠會跳」，轉而考「身體比例（構造）」如何「決定移動方式（功能）」。",
       "cqi_score": 6.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "人類模仿潛水艇的下沉與上升原理（調整壓載水艙），這與魚類身體裡的哪一個構造功能高度相似？",
@@ -82,7 +86,8 @@
       "scenario": "深海裡的仿生靈感",
       "commonMisconception": "學生可能以為魚純粹靠划水上下移動，忽略內部器官（魚鰾）的物理調節作用。",
       "cqi_score": 5.75,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 0
     },
     {
       "question": "老鷹擁有鉤狀的尖嘴與強有力的利爪。看到這種「配備」，我們可以推測老鷹主要屬於哪一種食性的動物？",
@@ -97,7 +102,8 @@
       "scenario": "天空王的狩獵配備",
       "commonMisconception": "學生已知老鷹吃肉，本題旨在訓練「從身體細節推論生活型態」的證據觀察能力。",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "蜜蜂和螞蟻一樣，都有嚴密的階級制度（如蜂王、工蜂、雄蜂）。這種群體生活的行為模式在生物學上稱為什麼？",
@@ -112,7 +118,8 @@
       "scenario": "忙碌的甜蜜王國",
       "commonMisconception": "引導學生將「勤勞」的擬人描述轉化為「社會性」的科學術語。",
       "cqi_score": 6.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "question": "如果有一天環境變得極度寒冷（進入冰河期），下列哪一種特徵的動物最可能有更高的機會生存下來？",
@@ -127,7 +134,8 @@
       "scenario": "假如冰河期來臨",
       "commonMisconception": "練習環境變遷下的「天擇」推論。",
       "cqi_score": 5.75,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 3
     },
     {
       "question": "小英發現，在相同的時間內，馬奔跑的距離比蝸牛爬行的距離長很多。這說明了不同動物移動的哪一個物理特徵差異？",
@@ -142,7 +150,8 @@
       "scenario": "動物界的短跑大賽",
       "commonMisconception": "從現象（距離）導向物理量（速度）的正確對齊。",
       "cqi_score": 6.25,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 1
     },
     {
       "question": "如果我們觀察一隻正在游泳的青蛙，牠主要是靠哪一個部位來「撥動水流」前進的？",
@@ -157,7 +166,8 @@
       "scenario": "蛙泳的小老師",
       "commonMisconception": "再次強化「蹼」這一特化構造在流體力學中的功能意義。",
       "cqi_score": 7,
-      "quality_level": "L5"
+      "quality_level": "L5",
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -173,7 +183,8 @@
       "explanation": "麻雀、蝴蝶和蜜蜂都擁有翅膀，主要透過飛行來移動。魚在水中游，蛇在地面爬行；狗、馬、貓在陸地行走；烏龜、蝸牛、蚯蚓則以爬行或蠕動為主。",
       "commonMisconception": "學生可能因為看到魚在水中快速移動，誤以為那也是一種飛行；或是將所有會動的動物混淆其移動方式。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -189,7 +200,8 @@
       "explanation": "羽軸和羽片是鳥類羽毛的獨特構造，幫助鳥類飛行和保暖。蜥蜴有鱗片，兔子有毛髮，魚有魚鰭，這些外觀和功能都與羽毛不同。",
       "commonMisconception": "學生可能對不同動物的身體覆蓋物缺乏具體認識，或將所有輕薄的物件都視為類似的物質。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -205,7 +217,8 @@
       "explanation": "青蛙既能在水中游泳，也能在陸地上跳躍，這表示牠是兩棲動物，能適應水陸兩種環境。牠們的生命週期也需要在水中完成。",
       "commonMisconception": "學生可能對兩棲動物的概念不熟悉，或將青蛙與魚類混淆，誤以為牠們只能在水裡生存。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -221,7 +234,8 @@
       "explanation": "松鼠主要以果實、堅果、種子等植物性食物為食，因此牠是草食性動物。肉食性動物吃肉，雜食性動物葷素都吃，腐食性動物則以腐爛的動植物為食。",
       "commonMisconception": "學生可能誤以為松鼠偶爾也吃昆蟲，就將其歸類為雜食性動物，忽略了其主要食物來源。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -237,7 +251,8 @@
       "explanation": "鳥媽媽在繁殖季節會捕捉昆蟲等食物，帶回巢中餵食幼鳥，這是鳥類照顧後代的常見行為。",
       "commonMisconception": "學生可能會將鳥媽媽的行為誤解為牠在為自己準備食物，或者單純在玩耍。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -253,7 +268,8 @@
       "explanation": "毛毛蟲是蝴蝶的幼蟲階段，牠們主要的任務就是進食和成長，為化蛹做準備。卵是生命週期的開始，蛹是變態的過程，成蟲則是能飛行和繁殖的階段。",
       "commonMisconception": "學生可能對蝴蝶的生命週期階段不熟悉，容易混淆幼蟲和蛹的階段。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -269,7 +285,8 @@
       "explanation": "遇到受傷的野生動物，我們不應該擅自處理，因為可能會對牠造成二次傷害，或是自己被感染。正確的做法是尋求成年人的幫助，或聯繫動物保護機構。",
       "commonMisconception": "學生可能出於好心，直接接觸或帶走受傷動物，卻不知道這可能對動物或自己造成風險。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -285,7 +302,8 @@
       "explanation": "真正的動物具有生命現象，包括會生長、繁殖、代謝和對環境產生反應。機器狗雖然能移動，但無法自行長大、繁殖，也無法進行新陳代謝，因此不是生物。",
       "commonMisconception": "學生可能只從外觀或簡單的動作來判斷是否為動物，忽略了生物的根本特徵。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -301,7 +319,8 @@
       "explanation": "海豚生活在水中，但牠們是用肺呼吸，胎生並用乳汁哺育幼兒，因此是哺乳類動物。麻雀是鳥類，烏龜是爬行類，青蛙是兩棲類。",
       "commonMisconception": "學生可能因為海豚生活在水中，而誤以為牠是魚類，忽略了哺乳類動物的共同特徵。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -317,7 +336,8 @@
       "explanation": "北極熊的白色皮毛是一種保護色，能讓牠們在冰天雪地的環境中與周圍融為一體，不易被獵物發現，也能躲避潛在的威脅。",
       "commonMisconception": "學生可能將皮毛顏色與保暖混淆，或認為顏色只是隨機的，沒有實際作用。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -333,7 +353,8 @@
       "explanation": "蝸牛是草食性動物，需要新鮮的植物作為食物，並且喜歡潮濕的環境。提供食物和保持濕潤是飼養蝸牛的關鍵。",
       "commonMisconception": "學生可能將對寵物的理解投射到蝸牛身上，誤以為牠們需要玩具，或是對其生存環境的需求不了解。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -349,7 +370,8 @@
       "explanation": "水母是一種無脊椎動物，完全生活在海洋中。老鼠主要生活在陸地，貓頭鷹是生活在樹上的鳥類，蜻蜓則生活在靠近水域的空中。",
       "commonMisconception": "學生可能會將所有生活在水裡的生物都混淆，或者對不同水域（淡水、海水）的動物區分不清。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -365,7 +387,8 @@
       "explanation": "捕食者是指捕食其他動物的動物，獵物是指被其他動物捕食的動物。在這個例子中，老鷹捕捉田鼠，所以老鷹是捕食者，田鼠是獵物。",
       "commonMisconception": "學生可能對捕食者和獵物的定義混淆，或者誤以為體型較大的動物才是捕食者。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -381,7 +404,8 @@
       "explanation": "鳥類的翅膀是牠們飛行的主要器官，而覆蓋在翅膀上的輕盈羽毛則提供了升力並減少空氣阻力，共同幫助鳥類在空中翱翔。",
       "commonMisconception": "學生可能認為鳥喙或腳是飛行工具，因為這些部位在鳥類活動中也很顯眼。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -397,7 +421,8 @@
       "explanation": "垃圾會污染水質，使河水變得不適合動物生存，甚至會被動物誤食而生病或死亡，嚴重破壞生態環境。",
       "commonMisconception": "學生可能對環境污染的後果缺乏具體認識，或者認為少量的垃圾不會造成大影響。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -413,7 +438,8 @@
       "explanation": "「呱呱」是青蛙常見的叫聲，尤其在夏天的夜晚，牠們會為了求偶而鳴叫。貓咪發出「喵喵」聲，小狗發出「汪汪」聲，小鳥則有各種不同的鳴叫聲。",
       "commonMisconception": "學生可能將所有夜晚的動物叫聲混淆，或者對不同動物的典型叫聲辨識不清。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -429,7 +455,8 @@
       "explanation": "螞蟻是社會性昆蟲，牠們生活在群體中，並且有明確的分工，例如工蟻負責覓食、築巢、照顧幼蟻，兵蟻負責防禦等，展現出高度的合作行為。",
       "commonMisconception": "學生可能對昆蟲的社會性行為不了解，誤以為牠們只是各自行動。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -445,7 +472,8 @@
       "explanation": "熱帶魚已經適應了溫暖的水域環境，牠們的生理機能無法承受寒冷的水溫。突然改變棲息環境的溫度，會對牠們造成巨大的壓力，導致生病甚至死亡。",
       "commonMisconception": "學生可能認為動物具有很強的適應能力，可以快速適應任何環境變化，忽略了物種對特定環境的依賴性。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -461,7 +489,8 @@
       "explanation": "放大鏡可以幫助我們在不靠近或不觸碰昆蟲的情況下，清楚觀察到牠們的身體構造和細節，是戶外觀察小動物的常用工具。",
       "commonMisconception": "學生可能對各種觀察工具的功能不熟悉，或者認為只要靠近就能看清楚。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -477,7 +506,8 @@
       "explanation": "動物從出生到發育成熟，身體大小、形態和功能逐漸變化的過程，我們稱之為「成長」。這是所有生物的共同特徵。",
       "commonMisconception": "學生可能對「成長」這個詞的科學定義不夠明確，或者用日常口語的「變身」來形容。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 1
     }
   ]
 }

@@ -27,7 +27,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -47,7 +48,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -67,7 +69,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -87,7 +90,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -107,7 +111,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -127,7 +132,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -147,7 +153,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -173,7 +180,8 @@
         "correct_answer": 0,
         "ai_reasoning": "課文中杜鵑花許願開花，但題目問的是誰，應確認課文細節，此題設計稍有混淆。",
         "review_status": "pending"
-      }
+      },
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -193,7 +201,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -213,7 +222,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -233,7 +243,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -253,7 +264,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -273,7 +285,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -293,7 +306,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -313,7 +327,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -333,7 +348,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -353,7 +369,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -373,7 +390,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -393,7 +411,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4
+      "cqi_score": 4,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -413,7 +432,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -433,7 +453,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -453,7 +474,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -473,7 +495,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -493,7 +516,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -513,7 +537,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -533,7 +558,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -553,7 +579,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -573,7 +600,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -593,7 +621,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -613,7 +642,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.25
+      "cqi_score": 4.25,
+      "answer": 1
     }
   ]
 }

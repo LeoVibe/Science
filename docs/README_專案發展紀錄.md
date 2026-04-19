@@ -1,13 +1,17 @@
-| JOB-184 | **G5S2 社會三版本出題 補題&品管完成**：HanLin L1-L5 全課 165 題達標；L2 BIAS 修正（答案分布重平衡），L4/L5 補充至 45 題各；CQI-P 全課 ≥5.5（平均 6.84–7.27）；欄位驗收 0 errors；下一步：G5S2 社會盲測啟動待確認。見 `jobs/JOB-184-Report.md` | 🟢 補題階段 DONE |# 📋 Eidos 專案發展紀錄
+# 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-16
-`updated_by`: Claude Code（JOB-190 Phase 2 explanation 關鍵字掃描完成 & /pj_sync）
+`last_updated`: 2026-04-18 23:00
+`updated_by`: Claude Code（JOB-199：G3 國語康軒 L4/L6 + G4 社會南一 L6 盲測，兩科升 QL4）
 
 ---
 
 ## 一、更版說明 (Release Notes)
 
 > ⚠️ 此區由人工進行最終文字修飾，Agent 不主動修改。
+
+### v1.5 (2026-04-18)
+- 小三下 國語、自然、社會題庫更新，用500題以上考古題，重新校正題幹與選項之適配度，確認題意與學習意涵
+- 新增小四下 自然、社會題庫，重塑進行前期學習路徑定義，完成900題以上，全新題庫，並完成雙盲測試
 
 ### v1.4 (2026-03-24)
 - 全站規範文件重構 v6：建立 KL/RM/QL/CQI-P/CQI-V 新體系
@@ -25,6 +29,19 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-18
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-199 | **補盲測：G3 國語康軒 L4/L6 + G4 社會南一 L6**：對三檔執行 `run_blind_eval.js`（Gemini-3.1-Flash-Lite，免費額度）；L4 20題 100%、L6 29題 100%、SOC L6 28題 100%，全部 Match Rate 100%。G3 下國語康軒升 QL4（442/442）、G4 下社會南一升 QL4（178/178）。重新生成 `libraryStats.json`。見 `jobs/JOB-199-Report.md` | 🟢 DONE |
+| JOB-198 | **全量重評 + backup 排除 + 限已開放科目統計**：對 380 檔已開放科目（G3-G6 × S2）執行 canonical QL 重評，更新所有題目的 `quality_level` 欄位；`generate_library_stats.js` 新增 `OPEN_GRADE_SEMESTERS` 與 `isBackupDir()` 過濾；新增 `scripts/batch_reevaluate_all.js` 批次腳本。最終 57 個 publisherStats：QL4 × 16、QL3 × 8、QL1 × 33。英語、G4/G5 數學、G5 自然/G6 自然社會數學因無 KL4 per-lesson 雙檔結構判為 QL1（實際狀況誠實反映）。見 `jobs/JOB-198-Report.md` | 🟢 DONE |
+| JOB-197 | **QL 定義 canonical 整合**：建立 QL Single Source of Truth 於 `question/README_驗證與盲測準則.md` §4，整合五系統（KL/RM/CQI-P/CQI-V/QL）關係；統一 7 份文件與 UI 用語；重構 `evaluate_question_quality.js` 每題 QL 判定（改為檢查 KL4 單課研究紀錄+考古題與討論是否存在 + `blind_evaluation===true`），檔級 QL 門檻由 80% 升至 90%；UI 文案改為「{QL4} 代表 該題庫有 90% 的題目達到 {QL4} 以上的標準」。遺留：題目 JSON 的 `quality_level` 欄位未全量重評，英語因無 KL4 per-lesson 結構若重跑會降級。見 `jobs/JOB-197-Report.md` | 🟢 DONE |
+| JOB-196 | **QL 定義重構 + 全科統計更新**：重新定義題庫品質等級計算邏輯——每題以 `blind_evaluation===true` 判定 QL4、`quality_level≥QL3` 判定 QL3、`≥QL2` 判定 QL2；科目等級改為「全科累積比例 ≥ 90%」取代舊版「單課最高值 ≥ 80%」。更新 `scripts/generate_library_stats.js`（新增 `getQuestionQLevel()`、`computeSubjectQL()`）並重新生成 src/public 兩份 `libraryStats.json`。產出升級分析表：G3 S2 國語康軒（差 15 題）、G4 S2 社會南一（差 11 題）最接近 QL4。見 `jobs/JOB-196-Report.md` | 🟢 DONE |
+| JOB-195 | **G3 國語 S2 重寫三檔 Cursor 獨立驗證**：對翰林 L8《行人的守護者》、康軒 L4《工匠之祖》、康軒 L6《神奇密碼》執行 `evaluate_question_quality.js`（三檔 `biasWarning: null`；檔級 L8=QL4 avgCqi 9.30、L4/L6=QL3 avgCqi 6.69／5.75）；依 KL4 對讀並每檔抽查 ≥10 題，確認課文對應與 `answer_index`／`explanation` 一致；**未修改**題庫 JSON；盲測未於本 JOB 執行。見 `jobs/JOB-195-Report.md` | DONE |
+| JOB-194 | **G3 康軒國語 S2 L4《工匠之祖》30 題、L6《神奇密碼》29 題全數重寫**：發現原題根本性內容錯誤（L4 含 22 題《愛與成長的腳印》，L6 全為禮貌用語），由 Claude Code 依 KL4 研究文件全數重寫；主動設計三種等長選項策略確保 `biasWarning: null`；L4 正解最長比 13.3%，L6 亦通過；兩檔均 QL3、`biasWarning: null`；已跑 `generate_library_stats.js`。見 `jobs/JOB-194-Report.md` | 🟢 DONE |
+| JOB-193 | **G3 翰林國語 S2 L8《行人的守護者》重出 30 題**：依 KL4 單課與考古討論重寫 `G3_S2_CHI_HANLIN_L8.json`；`evaluate_question_quality.js` 檔級 **QL4**、**biasWarning: null**、單題 QL4×30；`review_status=pending_review` 待另開盲測；已跑 `generate_library_stats.js` 並同步 `public/data/libraryStats.json`。見 `jobs/JOB-193-Report.md` | 🟢 DONE |
+| JOB-191 | **explanation 元評論句型清除**：以 JOB-190 Phase 2 產出（743 筆命中、350 題）為輸入，建立 `scripts/clean_explanation_artifacts.js`（11 條 sentence-level 正規表達式 + 二次標點清理）；實際執行清除 80 個 JSON 檔，成功清除 **165 題**、標記 review_needed **83 題**（explanation 全為元評論、需人工補寫）、102 題未命中。三道安全機制：dry-run 預覽、review_needed 保護、執行紀錄 `logs/clean_explanation_2026-04-17T18-04-59.json`。開發過程修正 3 個 bug（批判性思考過廣、孤立句點殘留、review 門檻過高）。見 `jobs/JOB-191-Report.md` | 🟢 DONE |
+| JOB-192 | **review_needed explanation 補寫（83 題）**：依 `logs/clean_explanation_2026-04-17T18-04-59.json` 清單，補寫 34 個 JSON 檔內 83 題之 `explanation`（學科向解析、對齊 `answer_index`）；附 `jobs/JOB-192-explanations.json` + `scripts/apply_job192_explanations.mjs` 供重現；逐檔執行 `evaluate_question_quality.js` 通過。見 `jobs/JOB-192-Report.md` | 🟢 DONE |
 
 ### 2026-04-16
 | JOB | 簡述 | 狀態 |

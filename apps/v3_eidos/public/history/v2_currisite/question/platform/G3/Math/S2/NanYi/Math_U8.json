@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "84 ÷ 7 = 12。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -37,7 +38,8 @@
       "answer_index": 1,
       "explanation": "12 × 8 + 3 = 96 + 3 = 99 顆。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "6 × 4 × 25 = 24 × 25 = 600 元。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "60 ÷ 5 = 12 組。12 ÷ 3 = 4 個裁判。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -82,7 +86,8 @@
       "answer_index": 0,
       "explanation": "15 × 4 + 2 = 60 + 2 = 62。",
       "quality_level": "L4",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 1,
       "explanation": "50 × 5 + 30 × 3 = 250 + 90 = 340 元。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -112,7 +118,8 @@
       "answer_index": 2,
       "explanation": "200 - 40 = 160（總花費）。160 ÷ 4 = 40 元。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -127,7 +134,8 @@
       "answer_index": 3,
       "explanation": "本題測量與乘法整合。5公尺 = 500公分。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -142,7 +150,8 @@
       "answer_index": 0,
       "explanation": "50 × 4 = 200。200 ÷ 30 = 6 ... 20。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -157,7 +166,8 @@
       "answer_index": 1,
       "explanation": "24 ÷ 8 × 2 = 3 × 2 = 6。24 × 2 ÷ 8 = 48 ÷ 8 = 6。雖然順序不同，但邏輯等價。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -172,7 +182,8 @@
       "answer_index": 2,
       "explanation": "總共可貼 12 × 5 = 60 張。還差 60 - 45 = 15 張。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -187,7 +198,8 @@
       "answer_index": 3,
       "explanation": "15 × 7 + 4 = 105 + 4 = 109 個。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -203,7 +215,8 @@
       "explanation": "這個問題是關於重複加法的概念，也就是乘法。每份滷味有5片豆干，總共有8份，所以是5 × 8 = 40片。正確答案是40片。",
       "commonMisconception": "學生可能會誤以為是加法（5+8=13），或是將數字顛倒計算（8-5=3），沒有理解「每份」和「總共」的關係，導致選擇錯誤的選項。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -219,7 +232,8 @@
       "explanation": "這個問題需要分兩步思考。首先，要找出如果每個書架放8本書，36本書能放幾架。36 ÷ 8 = 4 餘 4。這表示可以放滿4個書架，還剩下4本書。為了把剩下的4本書也放好，需要再多一個書架。所以總共需要 4 + 1 = 5個書架。正確答案是5個書架。",
       "commonMisconception": "學生可能會只計算到商數（4個書架），而忽略了餘數（4本書）也需要一個書架來放置，導致選擇4個書架。或者誤以為餘數就不需要處理。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -235,7 +249,8 @@
       "explanation": "這個問題是關於平均分配的概念，也就是除法。總共有24顆水煮蛋，每人分到3顆，所以是24 ÷ 3 = 8位家庭成員。正確答案是8位。",
       "commonMisconception": "學生可能會誤用減法（24-3=21）或加法（24+3=27），沒有正確理解「平均分給」的意義，導致計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -251,7 +266,8 @@
       "explanation": "這個問題需要先計算玉米的總數，再減去已收成的數量。總共有3排玉米，每排7棵，所以總數是3 × 7 = 21棵。爺爺收成了12棵，所以還剩下21 - 12 = 9棵。正確答案是9棵。",
       "commonMisconception": "學生可能會忘記先計算總數，直接用12去減3或7，或是將乘法和減法順序搞錯，導致計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -267,7 +283,8 @@
       "explanation": "首先，計算小華總共需要多少小格貼紙：5位朋友 × 14小格/朋友 = 70小格。接著，計算一包貼紙總共有多少小格：3張/包 × 8小格/張 = 24小格/包。最後，計算需要買幾包貼紙才能滿足70小格的需求：70 ÷ 24 = 2 餘 22。這表示買2包有48小格，還不夠，需要再多買一包才能把剩下的22小格補齊。所以總共需要 2 + 1 = 3包貼紙。正確答案是3包。",
       "commonMisconception": "學生可能會忘記考慮餘數，只取商數（2包），或是誤以為只要接近數量就好而沒有進位，導致朋友沒有分到足夠的貼紙。也可能在多步驟計算中混淆乘除。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -283,7 +300,8 @@
       "explanation": "這個問題需要先計算彩色筆的總數，再進行平均分配。總共有3盒彩色筆，每盒12枝，所以總數是3 × 12 = 36枝。將36枝彩色筆平均分給6位同學，所以是36 ÷ 6 = 6枝。正確答案是6枝。",
       "commonMisconception": "學生可能會在計算總數時出錯（如3+12=15），或是將總數與人數相加減，沒有正確理解乘除法的應用情境。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -299,7 +317,8 @@
       "explanation": "這個問題需要先計算賣出了多少個小汽車，再從總數中減去。小明賣出了5盒小汽車，每盒有4個，所以他賣出了5 × 4 = 20個小汽車。他原來有28個小汽車，賣出20個後，還剩下28 - 20 = 8個。正確答案是8個。",
       "commonMisconception": "學生可能會先用28除以4得到7盒，然後用7減5得到2盒，再乘以4得到8個。這也是正確的思路。但如果學生誤用28-5=23，或是忘記將盒數轉化為個數，就會選錯。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -315,7 +334,8 @@
       "explanation": "首先計算蛋糕的總片數：2個蛋糕 × 10片/蛋糕 = 20片。布丁總數是35個。派對上有25位小朋友，每人需要1片蛋糕和1個布丁。比較蛋糕：20片蛋糕 < 25位小朋友所需，所以蛋糕不夠。比較布丁：35個布丁 > 25位小朋友所需，所以布丁夠。因此，正確答案是「蛋糕不夠，布丁夠」。",
       "commonMisconception": "學生可能會混淆數量，例如將布丁的數量與蛋糕的數量混淆，或是計算錯誤導致判斷失準。也可能只判斷其中一種甜點是否足夠。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -331,7 +351,8 @@
       "explanation": "這個問題需要先計算阿姨已經綁好的花束用了多少朵玫瑰花，再從總數中減去。阿姨已經綁好了3束，每束有8朵，所以她用了3 × 8 = 24朵玫瑰花。她原來有40朵玫瑰花，用掉24朵後，還剩下40 - 24 = 16朵。正確答案是16朵。",
       "commonMisconception": "學生可能會誤算成40-3=37，再除以8。或者將「還剩下多少朵」誤解為「還能綁幾束」，導致計算錯誤。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -347,7 +368,8 @@
       "explanation": "這個問題是關於來回距離的計算。單趟是45公里，來回就是兩趟，所以是45 × 2 = 90公里。正確答案是90公里。",
       "commonMisconception": "學生可能會誤以為只算單趟距離，或是用加法（45+1=46）或除法（45/2）來計算，沒有理解「來回」的意義。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -363,7 +385,8 @@
       "explanation": "首先，要算出總共有幾位小朋友會吃到點心：小明自己1位，加上5位朋友，所以總共有1 + 5 = 6位小朋友。接著，每位小朋友要3片餅乾，所以總共需要 6 × 3 = 18片餅乾。",
       "commonMisconception": "學生可能會忘記把小明自己算進去，只計算朋友的人數（5 × 3 = 15），或是誤以為是加法（1 + 5 + 3 = 9或5 + 3 = 8），也可能錯算成5 × 4 = 20。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -379,7 +402,8 @@
       "explanation": "要算出小華需要跑幾圈，我們需要將總距離除以每圈的距離。所以是 3200 公尺 ÷ 400 公尺/圈 = 8圈。",
       "commonMisconception": "學生可能會在除法計算中出現錯誤，例如在位數上混淆，或者誤算成320 ÷ 40 = 8，但如果數字更大可能會錯。也可能誤解題意，把400和3200相加或相乘。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -395,7 +419,8 @@
       "explanation": "這是一個多步驟的乘法問題。首先計算3大盒有多少小包：3大盒 × 8小包/大盒 = 24小包。接著計算總共有多少片餅乾：24小包 × 4片/小包 = 96片餅乾。",
       "commonMisconception": "學生可能會只做一步計算，例如只算大盒和小包（3 × 8 = 24），或是只算小包和片數（8 × 4 = 32），忽略了所有層次的乘法關係。也可能誤用加法，例如3+8+4=15。",
       "quality_level": "L3",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -411,7 +436,8 @@
       "explanation": "每位同學15公分，有24位同學，所以總共發出的彩帶長度是 15 × 24 = 360公分。",
       "commonMisconception": "學生可能會誤用加法（15 + 24 = 39），或是在乘法計算中出現位數錯誤，例如把15 × 24 算成 15 × 10 = 150 或 15 × 20 = 300，忽略了個位數的乘法。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -427,7 +453,8 @@
       "explanation": "首先，計算奶奶總共種了多少棵玉米：12棵/排 × 7排 = 84棵。接著，將這些玉米平均分給8個家庭：84棵 ÷ 8個家庭 = 10，餘4。這表示每個家庭可以分到10棵玉米，還剩下4棵玉米。",
       "commonMisconception": "學生可能會忘記計算總玉米數，直接用部分數字進行除法。或者在除法中遇到餘數時，不知道如何處理，例如誤將餘數算進去，或嘗試將餘數作為答案的一部分。也可能只進行了乘法，而忘記了除法步驟（84棵）。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -443,7 +470,8 @@
       "explanation": "一盒彩色筆96元，小玲想買3盒，所以總共需要付 96 × 3 = 288元。",
       "commonMisconception": "學生可能會被題目中『12枝』這個多餘的資訊干擾，試圖用12進行不必要的計算，例如用96 ÷ 12 算出每枝的價錢，然後再乘以3。或者誤用加法（96 + 3 = 99）。",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -459,7 +487,8 @@
       "explanation": "要算出需要多少個書架，我們需要將總書本數除以每個書架能放的書本數。所以是 150 本 ÷ 30 本/書架 = 5個書架。",
       "commonMisconception": "學生可能會在除法計算中出現錯誤，例如在位數上混淆，或者嘗試用加法或乘法來解決問題（150 + 30 = 180）。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -475,7 +504,8 @@
       "explanation": "這是一個多步驟的單位換算與除法問題。首先，計算高麗菜總重量：5大包 × 4公斤/大包 = 20公斤。接著，將公斤轉換成公克：20公斤 × 1000公克/公斤 = 20000公克。最後，計算可以提供給多少位同學：20000公克 ÷ 200公克/位 = 100位同學。",
       "commonMisconception": "學生可能會忘記單位換算（公斤轉換為公克），直接用公斤數進行除法。或者在除法計算中出現位數錯誤。也可能只進行了部分計算，例如只算出總公斤數而沒有換算和除法。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     }
   ]
 }

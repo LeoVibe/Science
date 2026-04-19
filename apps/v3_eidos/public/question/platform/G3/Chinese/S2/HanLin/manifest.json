@@ -1,88 +1,134 @@
 {
-  "publisher": "HanLin",
+  "id": "G3_S2_CHI_HANLIN",
+  "publisher": "HANLIN",
   "grade": "G3",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
     {
-      "id": "L10",
-      "title": "L10",
-      "file": "L10_L10.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "L11",
-      "file": "L11_L11.json",
-      "count": 1
-    },
-    {
-      "id": "L12",
-      "title": "L12",
-      "file": "L12_L12.json",
-      "count": 1
-    },
-    {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "title": "拔不起來的筆",
+      "theme": "創意轉換：平凡事物的非典型用途說明。",
+      "file": "G3_S2_CHI_HANLIN_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.7,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 1
+      "title": "還差一點",
+      "theme": "細節管理：追求品質的詞彙精準度（如：精益求精）。",
+      "file": "G3_S2_CHI_HANLIN_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.97,
+      "quality": "QL3"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "title": "用膝蓋跳舞的女孩",
+      "theme": "傳記：身體缺陷與生命意志的對比分析（映襯）。",
+      "file": "G3_S2_CHI_HANLIN_L3.json",
+      "count": 27,
+      "blind_tested": 27,
+      "avg_cqi": 8.23,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "title": "靜靜的淡水河",
+      "theme": "人文觀點：河流歷史變遷的敘事結構。",
+      "file": "G3_S2_CHI_HANLIN_L4.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.71,
+      "quality": "QL3"
     },
     {
       "id": "L5",
-      "title": "L5",
-      "file": "L5_L5.json",
-      "count": 1
+      "title": "茶鄉鹿谷",
+      "theme": "地方書寫：鹿谷茶鄉景觀與凍頂烏龍製程（晒青→發酵→揉捻→成球→高溫留香）。",
+      "file": "G3_S2_CHI_HANLIN_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.28,
+      "quality": "QL3"
     },
     {
       "id": "L6",
-      "title": "L6",
-      "file": "L6_L6.json",
-      "count": 1
+      "title": "月世界",
+      "theme": "科學描述：惡地地形的成因與地景術語。",
+      "file": "G3_S2_CHI_HANLIN_L6.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.33,
+      "quality": "QL3"
     },
     {
       "id": "L7",
-      "title": "L7",
-      "file": "L7_L7.json",
-      "count": 1
+      "title": "做泡菜",
+      "theme": "程序說明：精確動詞的使用（搓、揉、壓、醃）。",
+      "file": "G3_S2_CHI_HANLIN_L7.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.7,
+      "quality": "QL3"
     },
     {
       "id": "L8",
-      "title": "L8",
-      "file": "L8_L8.json",
-      "count": 1
+      "title": "行人的守護者",
+      "theme": "交通號誌擬人：小綠人引導行人穿越道、倒數與安全意識（對齊 KL4 課文）。",
+      "file": "G3_S2_CHI_HANLIN_L8.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.1,
+      "quality": "QL3"
     },
     {
       "id": "L9",
-      "title": "L9",
-      "file": "L9_L9.json",
-      "count": 1
+      "title": "就愛倆倆在一起",
+      "theme": "並列結構：對偶或並列事物的二元邏輯。",
+      "file": "G3_S2_CHI_HANLIN_L9.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.05,
+      "quality": "QL3"
+    },
+    {
+      "id": "L10",
+      "title": "飛行員和小王子",
+      "theme": "經典改寫：理想與現實的衝突對白。",
+      "file": "G3_S2_CHI_HANLIN_L10.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.87,
+      "quality": "QL3"
+    },
+    {
+      "id": "L11",
+      "title": "畫龍點睛",
+      "theme": "成語溯源：傳說故事與成語本義的連結。",
+      "file": "G3_S2_CHI_HANLIN_L11.json",
+      "count": 29,
+      "blind_tested": 29,
+      "avg_cqi": 8.91,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "掉進一個兔子洞",
+      "theme": "想像策略：引導式閱讀的層次（預測未來劇情）。",
+      "file": "G3_S2_CHI_HANLIN_L12.json",
+      "count": 28,
+      "blind_tested": 28,
+      "avg_cqi": 8.25,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 350,
+    "blind_tested": 350,
+    "last_updated": "2026-04-15T03:46:02.627Z"
   }
 }

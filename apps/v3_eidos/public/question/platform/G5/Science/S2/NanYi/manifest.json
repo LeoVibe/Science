@@ -1,40 +1,54 @@
 {
-  "publisher": "NanYi",
+  "id": "G5_S2_SCI_NANYI",
+  "publisher": "NANYI",
   "grade": "G5",
   "semester": "S2",
-  "subject": "Science",
+  "subject": "SCI",
   "items": [
     {
       "id": "L1",
       "title": "星星的世界",
-      "file": "L1_星星的世界.json",
-      "count": 1
+      "theme": "",
+      "file": "G5_S2_SCI_NANYI_L1.json",
+      "count": 3,
+      "blind_tested": 0,
+      "avg_cqi": 6.5,
+      "quality": "QL2"
     },
     {
       "id": "L2",
       "title": "認識燃燒與生鏽",
-      "file": "L2_認識燃燒與生鏽.json",
-      "count": 1
+      "theme": "",
+      "file": "G5_S2_SCI_NANYI_L2.json",
+      "count": 2,
+      "blind_tested": 0,
+      "avg_cqi": 6,
+      "quality": "QL2"
     },
     {
       "id": "L3",
       "title": "動物的生活",
-      "file": "L3_動物的生活.json",
-      "count": 1
+      "theme": "",
+      "file": "G5_S2_SCI_NANYI_L3.json",
+      "count": 2,
+      "blind_tested": 0,
+      "avg_cqi": 6,
+      "quality": "QL2"
     },
     {
       "id": "L4",
       "title": "聲音與樂器",
-      "file": "L4_聲音與樂器.json",
-      "count": 1
+      "theme": "",
+      "file": "G5_S2_SCI_NANYI_L4.json",
+      "count": 3,
+      "blind_tested": 0,
+      "avg_cqi": 6.17,
+      "quality": "QL2"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 10,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:03.265Z"
   }
 }

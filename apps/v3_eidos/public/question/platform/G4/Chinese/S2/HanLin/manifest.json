@@ -1,88 +1,134 @@
 {
-  "publisher": "HanLin",
+  "id": "G4_S2_CHI_HANLIN",
+  "publisher": "HANLIN",
   "grade": "G4",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
-    {
-      "id": "L10",
-      "title": "孫悟空三借芭蕉扇",
-      "file": "L10_孫悟空三借芭蕉扇.json",
-      "count": 1
-    },
-    {
-      "id": "L11",
-      "title": "最後一片葉子",
-      "file": "L11_最後一片葉子.json",
-      "count": 1
-    },
-    {
-      "id": "L12",
-      "title": "閱讀課",
-      "file": "L12_閱讀課.json",
-      "count": 1
-    },
     {
       "id": "L1",
       "title": "稻間鴨",
-      "file": "L1_稻間鴨.json",
-      "count": 1
+      "theme": "自然耕作與生態共榮。",
+      "file": "G4_S2_CHI_HANLIN_L1.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.97,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L2",
       "title": "會呼吸的房子",
-      "file": "L2_會呼吸的房子.json",
-      "count": 1
+      "theme": "綠建築與環境永續。",
+      "file": "G4_S2_CHI_HANLIN_L2.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.05,
+      "quality": "QL4"
     },
     {
       "id": "L3",
       "title": "石虎兄妹",
-      "file": "L3_石虎兄妹.json",
-      "count": 1
+      "theme": "生物保育：石虎特徵。",
+      "file": "G4_S2_CHI_HANLIN_L3.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 7.93,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L4",
       "title": "阿里棒棒",
-      "file": "L4_阿里棒棒.json",
-      "count": 1
+      "theme": "蘭嶼原民文化與產業。",
+      "file": "G4_S2_CHI_HANLIN_L4.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.02,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L5",
       "title": "快樂兒童日",
-      "file": "L5_快樂兒童日.json",
-      "count": 1
+      "theme": "兒童權利與過節意義。",
+      "file": "G4_S2_CHI_HANLIN_L5.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.23,
+      "quality": "QL4"
     },
     {
       "id": "L6",
       "title": "阿公的秘密",
-      "file": "L6_阿公的秘密.json",
-      "count": 1
+      "theme": "親情故事與代際互動。",
+      "file": "G4_S2_CHI_HANLIN_L6.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.14,
+      "quality": "QL4"
     },
     {
       "id": "L7",
       "title": "棒球英雄夢",
-      "file": "L7_棒球英雄夢.json",
-      "count": 1
+      "theme": "追求夢想與團隊運動。",
+      "file": "G4_S2_CHI_HANLIN_L7.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.18,
+      "quality": "QL4"
     },
     {
       "id": "L8",
       "title": "夢幻全壘打",
-      "file": "L8_夢幻全壘打.json",
-      "count": 1
+      "theme": "棒球比賽中的精彩瞬間。",
+      "file": "G4_S2_CHI_HANLIN_L8.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9,
+      "quality": "QL3"
     },
     {
       "id": "L9",
       "title": "單車遊日月潭",
-      "file": "L9_單車遊日月潭.json",
-      "count": 1
+      "theme": "旅遊記敘與自然景觀。",
+      "file": "G4_S2_CHI_HANLIN_L9.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.18,
+      "quality": "QL4"
+    },
+    {
+      "id": "L10",
+      "title": "孫悟空三借芭蕉扇",
+      "theme": "西遊記經典情節：火焰山。",
+      "file": "G4_S2_CHI_HANLIN_L10.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.02,
+      "quality": "QL3"
+    },
+    {
+      "id": "L11",
+      "title": "最後一片葉子",
+      "theme": "經典翻譯文學：希望的力量。",
+      "file": "G4_S2_CHI_HANLIN_L11.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 8.86,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "閱讀課",
+      "theme": "對於閱讀經驗的省思。",
+      "file": "G4_S2_CHI_HANLIN_L12.json",
+      "count": 30,
+      "blind_tested": 30,
+      "avg_cqi": 9.22,
+      "quality": "QL4"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 360,
+    "blind_tested": 360,
+    "last_updated": "2026-04-15T03:46:02.890Z"
   }
 }

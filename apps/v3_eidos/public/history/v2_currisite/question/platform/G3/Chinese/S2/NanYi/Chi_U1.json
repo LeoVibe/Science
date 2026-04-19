@@ -27,7 +27,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -47,7 +48,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -67,7 +69,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -93,7 +96,8 @@
         "correct_answer": 3,
         "ai_reasoning": "題目與課文內容脫節，未見於指定課文範圍，屬無效命題。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -113,7 +117,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -133,7 +138,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.25
+      "cqi_score": 3.25,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -153,7 +159,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -173,7 +180,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -193,7 +201,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 0
     },
     {
       "taxonomy": "critical",
@@ -213,7 +222,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -233,7 +243,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -259,7 +270,8 @@
         "correct_answer": 3,
         "ai_reasoning": "純粹的事實提取題，缺乏深度，且與指定課文內容不符。",
         "review_status": "pending"
-      }
+      },
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -279,7 +291,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.5
+      "cqi_score": 3.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -299,7 +312,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -325,7 +339,8 @@
         "correct_answer": 2,
         "ai_reasoning": "題目與指定課文內容無關，且選項缺乏情境脈絡。",
         "review_status": "pending"
-      }
+      },
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -345,7 +360,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 4.5
+      "cqi_score": 4.5,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -365,7 +381,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -391,7 +408,8 @@
         "correct_answer": 1,
         "ai_reasoning": "題目與指定課文內容無關，屬無效命題。",
         "review_status": "pending"
-      }
+      },
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -411,7 +429,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 3.75
+      "cqi_score": 3.75,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -431,7 +450,8 @@
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
       "verifying_date": "2026-03-22",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 3
     }
   ]
 }

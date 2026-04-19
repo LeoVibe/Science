@@ -1,88 +1,134 @@
 {
-  "publisher": "NanYi",
+  "id": "G5_S2_CHI_NANYI",
+  "publisher": "NANYI",
   "grade": "G5",
   "semester": "S2",
-  "subject": "Chinese",
+  "subject": "CHI",
   "items": [
     {
-      "id": "L10",
-      "title": "L10",
-      "file": "L10_L10.json",
-      "count": 13
-    },
-    {
-      "id": "L11",
-      "title": "L11",
-      "file": "L11_L11.json",
-      "count": 32
-    },
-    {
-      "id": "L12",
-      "title": "L12",
-      "file": "L12_L12.json",
-      "count": 32
-    },
-    {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 43
+      "title": "穿越時空的味道",
+      "theme": "散文/閱讀",
+      "file": "G5_S2_CHI_NANYI_L1.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.77,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 37
+      "title": "在黑暗中乘著音樂飛翔",
+      "theme": "記敘文/逆境",
+      "file": "G5_S2_CHI_NANYI_L2.json",
+      "count": 25,
+      "blind_tested": 25,
+      "avg_cqi": 7.64,
+      "quality": "QL1 (BIAS)"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 33
+      "title": "色香味的陽光",
+      "theme": "說明文/創作",
+      "file": "G5_S2_CHI_NANYI_L3.json",
+      "count": 31,
+      "blind_tested": 31,
+      "avg_cqi": 7.41,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 33
+      "title": "縣官審石頭",
+      "theme": "傳記/繪本創作",
+      "file": "G5_S2_CHI_NANYI_L4.json",
+      "count": 12,
+      "blind_tested": 12,
+      "avg_cqi": 8.15,
+      "quality": "QL3"
     },
     {
       "id": "L5",
-      "title": "L5",
-      "file": "L5_L5.json",
-      "count": 52
+      "title": "高明說話術",
+      "theme": "記敘文/成長",
+      "file": "G5_S2_CHI_NANYI_L5.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.89,
+      "quality": "QL3"
     },
     {
       "id": "L6",
-      "title": "L6",
-      "file": "L6_L6.json",
-      "count": 52
+      "title": "讀書報告佐賀的超級阿嬤",
+      "theme": "利他/志工",
+      "file": "G5_S2_CHI_NANYI_L6.json",
+      "count": 40,
+      "blind_tested": 0,
+      "avg_cqi": 6.73,
+      "quality": "QL3"
     },
     {
       "id": "L7",
-      "title": "L7",
-      "file": "L7_L7.json",
-      "count": 53
+      "title": "魔術師爸爸",
+      "theme": "",
+      "file": "G5_S2_CHI_NANYI_L7.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.86,
+      "quality": "QL3"
     },
     {
       "id": "L8",
-      "title": "L8",
-      "file": "L8_L8.json",
-      "count": 52
+      "title": "八歲一個人去旅行",
+      "theme": "",
+      "file": "G5_S2_CHI_NANYI_L8.json",
+      "count": 32,
+      "blind_tested": 32,
+      "avg_cqi": 7.27,
+      "quality": "QL3"
     },
     {
       "id": "L9",
-      "title": "L9",
-      "file": "L9_L9.json",
-      "count": 52
+      "title": "紅鼻子醫生",
+      "theme": "",
+      "file": "G5_S2_CHI_NANYI_L9.json",
+      "count": 12,
+      "blind_tested": 12,
+      "avg_cqi": 8.1,
+      "quality": "QL3"
+    },
+    {
+      "id": "L12",
+      "title": "金字塔之謎",
+      "theme": "永續文化",
+      "file": "G5_S2_CHI_NANYI_L12.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 6.59,
+      "quality": "QL3"
+    },
+    {
+      "id": "G5_S2_CHI_NANYI_L10",
+      "title": "G5_S2_CHI_NANYI_L10.json",
+      "theme": "",
+      "file": "G5_S2_CHI_NANYI_L10.json",
+      "count": 0,
+      "blind_tested": 0,
+      "avg_cqi": 0,
+      "quality": "QL1"
+    },
+    {
+      "id": "G5_S2_CHI_NANYI_L11",
+      "title": "G5_S2_CHI_NANYI_L11.json",
+      "theme": "",
+      "file": "G5_S2_CHI_NANYI_L11.json",
+      "count": 0,
+      "blind_tested": 0,
+      "avg_cqi": 0,
+      "quality": "QL1"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 332,
+    "blind_tested": 112,
+    "last_updated": "2026-04-15T03:46:03.195Z"
   }
 }

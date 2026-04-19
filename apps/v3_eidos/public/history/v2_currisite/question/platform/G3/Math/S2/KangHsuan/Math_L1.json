@@ -22,7 +22,8 @@
       "answer_index": 0,
       "explanation": "84 ÷ 4 = 21。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -38,7 +39,8 @@
       "explanation": "6÷6=1，1÷6=0（補0），15÷6=2...3。故為 102...3。",
       "commonMisconception": "學生常忘記在商的十位補 0。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -53,7 +55,8 @@
       "answer_index": 2,
       "explanation": "475 ÷ 9 = 52 ... 7。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -68,7 +71,8 @@
       "answer_index": 3,
       "explanation": "53 ÷ 7 = 7 ... 4。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -83,7 +87,8 @@
       "answer_index": 0,
       "explanation": "9 × 52 + 7 = 468 + 7 = 475。",
       "quality_level": "L4",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -98,7 +103,8 @@
       "answer_index": 1,
       "explanation": "34 ÷ 4 = 8 ... 2。剩 2 人仍需 1 輛。 8 + 1 = 9。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -113,7 +119,8 @@
       "answer_index": 2,
       "explanation": "百位 3 等於除數 3。所以商是三位數。",
       "quality_level": "L4",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -128,7 +135,8 @@
       "answer_index": 3,
       "explanation": "500 ÷ 6 = 83 ... 2。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -143,7 +151,8 @@
       "answer_index": 0,
       "explanation": "408 ÷ 4 = 102。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -158,7 +167,8 @@
       "answer_index": 1,
       "explanation": "餘數 < 除數是除法基本法則。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -173,7 +183,8 @@
       "answer_index": 2,
       "explanation": "12 × 7 = 84。 84 ÷ 4 = 21。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -188,7 +199,8 @@
       "answer_index": 3,
       "explanation": "23 × 8 + 5 = 184 + 5 = 189。",
       "quality_level": "L4",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     }
   ]
 }

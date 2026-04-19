@@ -25,7 +25,8 @@
       "explanation": "根據提到 'new ball' (新球)，對應的活動是 'play soccer' (踢足球)。",
       "commonMisconception": "詞彙對應不當。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -43,7 +44,8 @@
       "explanation": "在比賽中很快且拿到第一名，最合理的動作是 'run' (跑)。",
       "commonMisconception": "語意辨識錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -61,7 +63,8 @@
       "explanation": "像青蛙一樣且跳得高，動作是 'jump' (跳)。",
       "commonMisconception": "動作與動物特徵聯想錯誤。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -79,7 +82,8 @@
       "explanation": "助動詞 'can' 後接原形動詞。根據回答可知問的是 'dance'。",
       "commonMisconception": "受複數主詞影響而誤用動詞形式。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -97,7 +101,8 @@
       "explanation": "表示「能力」(會游泳)，使用 'can'。",
       "commonMisconception": "分不清 can 與 B 動詞用法。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -115,7 +120,8 @@
       "explanation": "尋求幫忙或詢問意願能力，使用 'Can you...?' 開頭。回答也對應了 I can。",
       "commonMisconception": "助動詞誤用。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -133,7 +139,8 @@
       "explanation": "給予鼓勵「你『可以』做到的！」，使用肯定能力助動詞 'can'。",
       "commonMisconception": "語氣邏輯不合。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -151,7 +158,8 @@
       "explanation": "詢問「喜歡與否」使用助動詞 'Do'。非問能力。",
       "commonMisconception": "Do 與 Can 語意界線混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -169,7 +177,8 @@
       "explanation": "在「星期幾」，使用介係詞 'on'。",
       "commonMisconception": "介係詞混淆。",
       "quality_level": "L5",
-      "cqi_score": 8.5
+      "cqi_score": 8.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -187,7 +196,8 @@
       "explanation": "文中敘述 'Toby can't run'。",
       "commonMisconception": "資訊提取錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -205,7 +215,8 @@
       "explanation": "Class 4A 正在踢足球，而非唱歌。回答用 'No, it isn't'。",
       "commonMisconception": "情境與對象配對錯誤。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -223,7 +234,8 @@
       "explanation": "Sam 在操場/球場 (field) 上，最可能是在進行體育活動。",
       "commonMisconception": "場所與活動的關聯推理不足。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -241,7 +253,8 @@
       "explanation": "B 說「我會放風箏」(I can fly a kite)。",
       "commonMisconception": "忽略轉折後內容。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -259,7 +272,8 @@
       "explanation": "文中說當天沒有課 (no classes)，只有體育活動。故沒有英文課。",
       "commonMisconception": "無法結合排除邏輯。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -277,7 +291,8 @@
       "explanation": "正確的能力表達是 'can sing' (助動詞+原形)。",
       "commonMisconception": "助動詞後變換動詞形式。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -295,7 +310,8 @@
       "explanation": "表示「想要」學習，主詞 I 接原形 want。",
       "commonMisconception": "want 與 can 的語意轉換。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 0
     },
     {
       "taxonomy": "applied",
@@ -313,7 +329,8 @@
       "explanation": "這是一個條件句：「『如果』你跑得快，你就能贏」。",
       "commonMisconception": "連接詞語意判斷。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -331,7 +348,8 @@
       "explanation": "在比賽中對朋友說 'Good luck' (祝好運) 是有禮貌的表現。",
       "commonMisconception": "情境社交辭令字彙。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 1
     }
   ]
 }

@@ -22,7 +22,8 @@
       "answer_index": 1,
       "explanation": "個位是 4，代表 4 個 1；十分位是 5，代表 5 個 0.1。",
       "quality_level": "L4",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -37,7 +38,8 @@
       "answer_index": 0,
       "explanation": "10 毫米 = 1 公分。5 毫米 = 0.5 公分。故為 18.5 公分。",
       "quality_level": "L4",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -52,7 +54,8 @@
       "answer_index": 2,
       "explanation": "3.8 + 4.2 = 8.0 = 8。",
       "quality_level": "L4",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 2
     },
     {
       "taxonomy": "applied",
@@ -67,7 +70,8 @@
       "answer_index": 3,
       "explanation": "135.4 - 128.9 = 6.5 公分。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -82,7 +86,8 @@
       "answer_index": 3,
       "explanation": "1.1 的個位是 1，大於 0.9 的 0。",
       "quality_level": "L3",
-      "cqi_score": 4.75
+      "cqi_score": 4.75,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -97,7 +102,8 @@
       "answer_index": 0,
       "explanation": "1.5 - 0.7 = 0.8。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -113,7 +119,8 @@
       "explanation": "10 個 0.1 是 1。所以 15 個是 1.5。",
       "commonMisconception": "學生直覺寫出 0.15（百分位錯誤）或 15。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -129,7 +136,8 @@
       "explanation": "5 = 5.0。 5.0 - 2.4 = 2.6。",
       "commonMisconception": "學生忘記對位，寫成 3.4 (5-2=3, 餘4)。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -144,7 +152,8 @@
       "answer_index": 3,
       "explanation": "2.8 + 0.5 = 3.3。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "applied",
@@ -159,7 +168,8 @@
       "answer_index": 1,
       "explanation": "0.5 × 10 = 5 毫米 = 0.5 公分。注意單位轉換。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "applied",
@@ -174,7 +184,8 @@
       "answer_index": 0,
       "explanation": "比大小：3.2 > 3.1 > 2.8。故小明第一。",
       "quality_level": "L4",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -189,7 +200,8 @@
       "answer_index": 0,
       "explanation": "正確。B 是錯的 (1.1 < 1.2)；C 是錯的 (等於 1)；D 是錯的 (等於 3)。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -205,7 +217,8 @@
       "explanation": "尺上的刻度，每一大格代表 1 公分，而每兩大格之間有 10 小格，每一小格就代表 0.1 公分。鉛筆尖端對齊刻度「7」後面兩小格，表示長度是 7 公分又 2 個 0.1 公分，也就是 7.2 公分。",
       "commonMisconception": "學生可能將小數點後的數字誤讀為整數，導致將 7.2 誤認為 72；或是對小數點後的位值概念不清楚，誤以為 2 是百分位，而寫成 7.02；也可能因為粗心而誤讀刻度為 7.12。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -221,7 +234,8 @@
       "explanation": "比較小數的大小時，先看整數部分，若整數部分相同，則比較十分位。小華喝 0.8 公升，小芳喝 0.9 公升。兩者的整數部分都是 0，十分位分別是 8 和 9。因為 9 比 8 大，所以 0.9 公升比 0.8 公升多，因此小芳喝的水比較多。",
       "commonMisconception": "學生可能因為對小數比較不熟悉，誤以為 0.8 的 '8' 比 0.9 的 '9' 小，或是將小數點後的數字視為不重要，誤認為兩者一樣多。有些學生也可能因為缺乏比較經驗而認為無法比較。",
       "quality_level": "L3",
-      "cqi_score": 5.25
+      "cqi_score": 5.25,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -237,7 +251,8 @@
       "explanation": "要計算兩條緞帶的總長度，我們需要將它們的長度相加。0.6 公尺 + 0.3 公尺 = 0.9 公尺。這就像 6 個 0.1 加上 3 個 0.1 會得到 9 個 0.1 一樣。",
       "commonMisconception": "學生在進行小數加法時，可能直接將小數點後的數字當成整數相加，而忽略了小數點的存在，導致答案是 9 公尺。或是對小數點的位值不清楚，將答案寫成 0.09 公尺。部分學生也可能在計算時粗心導致 0.8 公尺的錯誤答案。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -253,7 +268,8 @@
       "explanation": "要計算剩下的彩繩長度，我們需要用原來的長度減去剪掉的長度。1.0 公尺 - 0.4 公尺 = 0.6 公尺。這就像 10 個 0.1 減去 4 個 0.1 會剩下 6 個 0.1 一樣。",
       "commonMisconception": "學生可能誤將減法算成加法，得到 1.4 公尺。或者對小數點的處理不熟悉，導致小數點位值錯誤，如 0.06 公尺。也有學生可能因為對 '1.0 公尺' 的概念理解不透徹，誤以為剪掉一部分後仍是 1.0 公尺。",
       "quality_level": "L5",
-      "cqi_score": 5.75
+      "cqi_score": 5.75,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -269,7 +285,8 @@
       "explanation": "首先，小傑總共有 0.7 公升 + 0.2 公升 = 0.9 公升的果汁。然後，他喝掉了 0.3 公升，所以剩下 0.9 公升 - 0.3 公升 = 0.6 公升的果汁。",
       "commonMisconception": "學生可能只進行了加法運算，忘記了減去喝掉的部分，得到 0.9 公升。或是只從其中一種果汁中扣除喝掉的部分，例如 0.7 - 0.3 = 0.4 公升。也有學生可能將所有數字都加起來，誤以為是 1.2 公升。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -285,7 +302,8 @@
       "explanation": "澆花器要裝滿是 1 公升，現在已經有 0.3 公升。所以需要再加的水量是 1 公升 - 0.3 公升 = 0.7 公升。",
       "commonMisconception": "學生可能將 1 公升與 0.3 公升相加，誤以為需要 1.3 公升。或者誤以為 '1 公升' 就是指 1.0 公升，不需要再做計算。也有學生可能直接選取題目中的數字 0.3 公升，而沒有進行任何運算。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -301,7 +319,8 @@
       "explanation": "一條巧克力棒分成 10 小格，表示每一小格是 1/10。小華吃了 3 小格，就是吃了 3/10。所以剩下的部分是 10/10 - 3/10 = 7/10。而 7/10 用小數表示就是 0.7。",
       "commonMisconception": "學生可能誤將吃掉的部分（0.3）當作剩下的部分。也可能將剩下的部分以分數（7/10）表示，而忽略題目要求的小數形式。部分學生可能認為剩下的一樣是完整的一條，而選 1.0。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -317,7 +336,8 @@
       "explanation": "比較三位同學的跳遠成績：小美 1.5 公尺，小力 1.2 公尺，小華 1.8 公尺。我們比較整數部分都是 1，再比較十分位。5、2、8 中，8 是最大的，所以 1.8 公尺最長。因此小華跳得最遠。",
       "commonMisconception": "學生在比較小數時，可能誤以為小數點後的數字越小，數值越大（例如認為 1.2 比 1.5 大），或是只看小數點後的數字而忽略整數部分。部分學生也可能對小數比較大小感到困惑，誤認為三人跳得一樣遠。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -333,7 +353,8 @@
       "explanation": "麵粉：食譜需要 0.8 公斤，家裡有 0.3 公斤。所以需要買 0.8 - 0.3 = 0.5 公斤的麵粉。糖：食譜需要 0.5 公斤，家裡有 0.4 公斤。所以需要買 0.5 - 0.4 = 0.1 公斤的糖。因此，媽媽兩種材料都需要買。",
       "commonMisconception": "學生可能只計算其中一種材料的需求，忽略了另一種。或是因為計算錯誤，誤以為某種材料足夠，甚至兩種都足夠。這考驗學生在複雜情境下，分步思考和應用小數加減的能力。",
       "quality_level": "L5",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -349,7 +370,8 @@
       "explanation": "比較兩週的生長高度：第一週長高 0.4 公分，第二週長高 0.3 公分。因為 0.4 比 0.3 大，所以第一週長高得比較多。長高多的部分是 0.4 - 0.3 = 0.1 公分。",
       "commonMisconception": "學生可能在比較大小時混淆，誤以為第二週長得比較多。或者在計算多多少時，誤將兩週的生長高度相加，得到 0.7 公分。也有學生可能因為對小數比較大小的理解不夠深入，而誤認為兩週長高一樣多。",
       "quality_level": "L5",
-      "cqi_score": 6.5
+      "cqi_score": 6.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -365,7 +387,8 @@
       "explanation": "0.8公升代表的是將1公升分成10等份，取其中的8份。因此，它是8個0.1公升，也就是8個1/10公升。",
       "commonMisconception": "學生可能將小數點後的數字當作獨立的整數來看待，或是誤以為0.8比8大，甚至誤解為是80公升。選項A是將小數點忽略，誤以為是8公升的特殊寫法；選項C是誤解了小數的大小概念；選項D是將小數點誤解為加號。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -381,7 +404,8 @@
       "explanation": "0.5公尺代表將1公尺分成10等份，取其中的5份，也就是1公尺的一半，所以會比1公尺短。選項A是將小數點忽略，誤以為是5公尺；選項C是將0.5誤解為50；選項D是將小數誤解為整數相加。",
       "commonMisconception": "學生可能將小數點後面的數字獨立視為整數，誤以為0.5就是5，或是對0.5的相對大小沒有概念，無法聯想到它代表「一半」。",
       "quality_level": "L5",
-      "cqi_score": 7.25
+      "cqi_score": 7.25,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -397,7 +421,8 @@
       "explanation": "比較小數時，先比較整數部分，若整數部分相同，則比較小數點後第一位數字。1.3公分和1.5公分，整數部分都是1，但小數點後第一位，5比3大，所以1.5比1.3大，第二盆長得比較高。",
       "commonMisconception": "學生可能只看整數部分就判斷大小，或認為小數點後面的數字無法直接比較。選項A是誤讀了數字大小的視覺印象；選項C是只比較整數部分而忽略小數部分；選項D是對小數比較規則不熟悉。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 1
     },
     {
       "taxonomy": "inferential",
@@ -413,7 +438,8 @@
       "explanation": "將溫開水和蜂蜜的容量相加：0.4 公升 + 0.3 公升 = 0.7 公升。這表示總共有7個0.1公升。",
       "commonMisconception": "學生可能將小數加法誤認為整數加法，直接將4+3=7，然後忘記小數點，選出7公升。或是錯誤地將小數點後的數字相減。選項B是將小數加法誤認為整數加法；選項C是誤將加法看成減法；選項D是錯誤估計總量。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "inferential",
@@ -429,7 +455,8 @@
       "explanation": "原來有1公尺的繩子，剪掉了0.6公尺，所以剩下的長度是1 - 0.6 = 0.4 公尺。1公尺可以看作10個0.1公尺，剪掉6個0.1公尺，就剩下4個0.1公尺。",
       "commonMisconception": "學生可能在進行整數與小數的減法時遇到困難，特別是從整數中減去小數。他們可能誤將1減0.6看成16，或直接將整數部分相減，忽略小數點。選項A是誤將減法看成加法；選項C是誤以為剪掉的就是剩下的；選項D是將0.4誤寫為4。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -445,7 +472,8 @@
       "explanation": "魚缸的水量變化是先減少0.7公升，再增加0.5公升。所以總變化量是 -0.7 + 0.5 = -0.2 公升。負號表示水量減少了，所以是少了0.2公升。",
       "commonMisconception": "學生在處理連續的加減操作時，可能混淆正負意義，或將減法誤作加法。選項B是將減0.7加0.5誤算為加0.2；選項C和D是將兩者相加，且混淆了增減的意義。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -461,7 +489,8 @@
       "explanation": "這三樣東西排成一列時，它們的長度會相加。所以總長度是 2.3 + 1.8 + 0.9 = 5.0 公分。",
       "commonMisconception": "學生在進行多個小數的連加時，容易出現進位錯誤，或將小數點後的數字當作整數相加。選項A、C、D都是可能的計算錯誤，特別是進位時的失誤。",
       "quality_level": "L5",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": -1
     },
     {
       "taxonomy": "literal",
@@ -477,7 +506,8 @@
       "explanation": "蝸牛每次爬0.1公尺，爬了三次，所以總共爬了 0.1 + 0.1 + 0.1 = 0.3 公尺。這表示總共是3個0.1公尺。",
       "commonMisconception": "學生可能將多個0.1相加時，錯誤地將小數點後的數字當作整數相加，然後忘記小數點，選出3公尺。或是錯誤地將0.1誤認為1。選項A是將0.1誤認為1，然後再加0.3；選項C是將小數點忽略，誤認為是3公尺；選項D是將0.1的位值理解錯誤。",
       "quality_level": "L5",
-      "cqi_score": 6.25
+      "cqi_score": 6.25,
+      "answer": 1
     }
   ]
 }

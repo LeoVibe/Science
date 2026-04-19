@@ -1,40 +1,64 @@
 {
-  "publisher": "KangHsuan",
+  "id": "G5_S2_SOC_KANGHSUAN",
+  "publisher": "KANGHSUAN",
   "grade": "G5",
   "semester": "S2",
-  "subject": "SocialStudies",
+  "subject": "SOC",
   "items": [
     {
       "id": "L1",
-      "title": "L1",
-      "file": "L1_L1.json",
-      "count": 1
+      "title": "臺灣近代化的過程",
+      "theme": "",
+      "file": "G5_S2_SOC_KANGHSUAN_L1.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.25,
+      "quality": "QL3"
     },
     {
       "id": "L2",
-      "title": "L2",
-      "file": "L2_L2.json",
-      "count": 1
+      "title": "日治時期的臺灣",
+      "theme": "",
+      "file": "G5_S2_SOC_KANGHSUAN_L2.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.25,
+      "quality": "QL3"
     },
     {
       "id": "L3",
-      "title": "L3",
-      "file": "L3_L3.json",
-      "count": 1
+      "title": "追求自由與民主",
+      "theme": "",
+      "file": "G5_S2_SOC_KANGHSUAN_L3.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.21,
+      "quality": "QL3"
     },
     {
       "id": "L4",
-      "title": "L4",
-      "file": "L4_L4.json",
-      "count": 1
+      "title": "多元社會與文化",
+      "theme": "",
+      "file": "G5_S2_SOC_KANGHSUAN_L4.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.18,
+      "quality": "QL3"
+    },
+    {
+      "id": "L5",
+      "title": "守護家園與傳承",
+      "theme": "",
+      "file": "G5_S2_SOC_KANGHSUAN_L5.json",
+      "count": 45,
+      "blind_tested": 0,
+      "avg_cqi": 7.23,
+      "quality": "QL3"
     }
   ],
   "moduleMetaData": {
-    "status": "enabled",
-    "quality": {
-      "depthScore": 9,
-      "accuracyScore": 9.5,
-      "isVerified": true
-    }
+    "total_questions": 225,
+    "blind_tested": 0,
+    "last_updated": "2026-04-15T03:46:03.363Z"
   }
 }

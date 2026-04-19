@@ -23,7 +23,8 @@
       "explanation": "使用四捨五入法取概數到千位，要看百位數。百位數是 5，應進位，故 1000 元變成 2000 元。",
       "commonMisconception": "學童常因為百位數是 5 而猶豫是否進位，或者誤看成十位數進行四捨五入。",
       "quality_level": "L5",
-      "cqi_score": 9.5
+      "cqi_score": 9.5,
+      "answer": 3
     },
     {
       "taxonomy": "critical",
@@ -39,7 +40,8 @@
       "explanation": "12435 取到千位，百位數是 4。使用無條件捨去法會得到 12000。若使用四捨五入法取到千位也會是 12000，但選項中僅 B 符合邏輯描述。",
       "commonMisconception": "混淆取到『哪一位』的定義，可能誤以為是看萬位。",
       "quality_level": "L5",
-      "cqi_score": 7.5
+      "cqi_score": 7.5,
+      "answer": 1
     }
   ]
 }

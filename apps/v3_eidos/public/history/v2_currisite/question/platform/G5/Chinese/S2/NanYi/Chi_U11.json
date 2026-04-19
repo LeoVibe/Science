@@ -24,7 +24,8 @@
       "answer_index": 3,
       "explanation": "本題作為引導種子，旨在確保後續產出的題目皆能具備 L4 等級的思考深度與正確的防盲猜選項長度分佈。",
       "quality_level": "L3",
-      "cqi_score": 5.5
+      "cqi_score": 5.5,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -40,7 +41,8 @@
       "explanation": "課文中明確提到，小華是在「放學的路上」撿到種子的。",
       "commonMisconception": "學生可能因為對情境不夠注意，誤以為是其他日常活動時間。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -56,7 +58,8 @@
       "explanation": "課文提到小華「每天澆水、觀察，但過了很久，種子都沒有發芽」，這是他感到沮喪和想放棄的原因。",
       "commonMisconception": "學生可能誤以為是缺乏耐心或受到他人負面影響，而忽略了具體的原因是付出努力卻沒有看到成果。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -72,7 +75,8 @@
       "explanation": "課文清楚寫道：「這時，他的好朋友小芳鼓勵他」。",
       "commonMisconception": "學生可能憑常理推斷是家人或老師，而未仔細閱讀課文鎖定正確人物。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -88,7 +92,8 @@
       "explanation": "小芳的話將植物生長與學習做類比，強調的是過程需要時間，不能急躁，意在鼓勵小華保持耐心和堅持。",
       "commonMisconception": "學生可能只看到字面上的「植物生長需要時間」，而忽略了「就像我們學習一樣」所帶出的更深層次的比喻意義。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -104,7 +109,8 @@
       "explanation": "課文提到：「他把盆栽移到窗邊，並每天溫柔地跟種子說話」。",
       "commonMisconception": "學生可能混淆了小華「研究植物生長知識」後發現的解決方法，誤以為是其他常見的植物養護方式。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "contextual",
@@ -120,7 +126,8 @@
       "explanation": "課文解釋：「他開始研究植物的生長知識，發現原來這顆種子需要更多的陽光。他把盆栽移到窗邊」。這表明他發現種子需要陽光。",
       "commonMisconception": "學生可能誤以為是溫度或室內外問題，沒有連結到「研究知識」後得出的「需要更多陽光」的結論。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -136,7 +143,8 @@
       "explanation": "課文中明確寫道：「他把盆栽移到窗邊，並每天溫柔地跟種子說話」。",
       "commonMisconception": "學生可能因為常識或情感投射，選擇了其他看似溫馨的行為，而忽略了課文的具體描述。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -152,7 +160,8 @@
       "explanation": "小華的喜悅不只是因為種子發芽，更是因為他知道「這不僅是植物的成長，也是他自己學會堅持的證明」，這代表他的努力和堅持得到了成果。",
       "commonMisconception": "學生可能只停留在表面的開心，而沒有深入理解這種喜悅背後所代表的成就感和自我肯定。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -168,7 +177,8 @@
       "explanation": "故事中小華從沮喪到堅持，最終看到成果，明確點出他學會了「堅持的證明」以及「充滿了信心和毅力」，這顯示耐心和毅力是核心主旨。",
       "commonMisconception": "學生可能過度強調朋友的重要性，或只看到種植本身，而忽略了故事透過種植過程想傳達的更普遍的人生道理。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -184,7 +194,8 @@
       "explanation": "課文開頭第一句就點明：「小華是個好奇心很重的孩子」。",
       "commonMisconception": "學生可能因課文未直接描述其他性格，而憑空想像或選擇與故事主題無關的選項。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -200,7 +211,8 @@
       "explanation": "雖然小華一度沮喪，但媽媽的話是初期就給予的指導，在小芳鼓勵後，小華才真正領會並實踐了耐心和細心，這句話成為他堅持的潛在動力。",
       "commonMisconception": "學生可能誤以為這句話是直接阻止小華沮喪，而忽略了它是一個初期引導，在適當時機才被小華內化。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 0
     },
     {
       "taxonomy": "contextual",
@@ -216,7 +228,8 @@
       "explanation": "課文明確指出：「他開始研究植物的生長知識，發現原來這顆種子需要更多的陽光。」",
       "commonMisconception": "學生可能將研究後得到的資訊與其他常見的植物養護知識混淆，例如施肥或換土。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -232,7 +245,8 @@
       "explanation": "課文描述他先是「感到有些沮喪，甚至想放棄」，後來聽了小芳鼓勵後「決定再堅持一下」，並「充滿了信心和毅力」，這是一個從沮喪到堅持的轉變過程。",
       "commonMisconception": "學生可能只記得小華沮喪的部分，而忽略了他後來重新振作並堅持的過程。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 3
     },
     {
       "taxonomy": "literal",
@@ -248,7 +262,8 @@
       "explanation": "課文明確指出：「他知道這不僅是植物的成長，也是他自己學會堅持的證明」。",
       "commonMisconception": "學生可能誤以為是與朋友的友誼，雖然友誼很重要，但課文直接點出了他個人成長的證明。",
       "quality_level": "L5",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -264,7 +279,8 @@
       "explanation": "「從此以後」表示這次成功經歷對小華的性格和態度產生了持久的正面影響，讓他對未來充滿信心和毅力。",
       "commonMisconception": "學生可能誤解為只對特定事情有信心，或忽略了這次經驗對他整體態度的深遠改變。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 0
     },
     {
       "taxonomy": "literal",
@@ -280,7 +296,8 @@
       "explanation": "課文描述：「這顆種子看起來毫不起眼，但他決定把它帶回家種植。」",
       "commonMisconception": "學生可能因為好奇心而誤以為種子外觀很特別，與課文描述不符。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -296,7 +313,8 @@
       "explanation": "小芳用學習來比喻，強調的是過程的自然性和不能急躁，意在說明無論是學習還是種植，都需要時間和耐心，循序漸進。",
       "commonMisconception": "學生可能只關注「學習」的字面意思，而忽略了它作為一個比喻，強調的是過程的耐心和循序漸進。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 2
     },
     {
       "taxonomy": "contextual",
@@ -312,7 +330,8 @@
       "explanation": "課文中小芳在小華沮喪想放棄時，用比喻的方式鼓勵了他，這份支持對於小華的成功至關重要，因此他更珍惜這份友誼。",
       "commonMisconception": "學生可能想像朋友會提供實際的勞動幫助，而忽略了精神支持和言語鼓勵在友誼中的價值。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -328,7 +347,8 @@
       "explanation": "故事透過種植種子的具體經歷，展現了小華從遇到困難到克服困難的過程，最終讓他學會了堅持並充滿信心，說明一次成功的經歷對個人成長有深遠影響。",
       "commonMisconception": "學生可能認為成長是自然發生的，或完全歸因於朋友的幫助，而忽視了個人經歷在其中扮演的關鍵角色。",
       "quality_level": "L5",
-      "cqi_score": 8
+      "cqi_score": 8,
+      "answer": 2
     },
     {
       "taxonomy": "literal",
@@ -344,7 +364,8 @@
       "explanation": "課文提到：「小華每天澆水、觀察，但過了很久，種子都沒有發芽。」",
       "commonMisconception": "學生可能將初期行為與後期研究知識後的行為混淆，或選擇了其他常見的植物養護行為。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -360,7 +381,8 @@
       "explanation": "故事的核心在於小華透過堅持獲得了成長和喜悅。如果他放棄，就無法經歷這個過程，也無法獲得這些寶貴的學習經驗。",
       "commonMisconception": "學生可能想像出其他情節發展，而忽略了這個故事的主旨是關於堅持與成長，放棄則會失去這些關鍵的收穫。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -376,7 +398,8 @@
       "explanation": "課文結尾明確寫道：「從此以後，小華對任何事情都充滿了信心和毅力」。",
       "commonMisconception": "學生可能誤以為這種信心只適用於特定領域，而忽略了經驗帶來的普遍性影響。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 3
     },
     {
       "taxonomy": "inferential",
@@ -392,7 +415,8 @@
       "explanation": "媽媽的話是提前給小華的忠告，雖然他一度沮喪，但這句話指明了成功種植的關鍵要素，成為他後來堅持的內在動力。",
       "commonMisconception": "學生可能將這句話看作是單純的警告或考驗，而沒有意識到它是具有指導意義的建議。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -408,7 +432,8 @@
       "explanation": "小華不再只是等待，而是主動去「研究知識」，並根據知識調整做法，這顯示他從被動等待變為主動尋找解決方法。",
       "commonMisconception": "學生可能將重點放在人際關係或情緒轉變，而忽略了小華在問題解決策略上的態度轉變。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "critical",
@@ -424,7 +449,8 @@
       "explanation": "故事中小華的經歷就是從沮喪到主動學習、堅持，最終獲得成功和成長，這正是故事想傳達的核心價值。",
       "commonMisconception": "學生可能選擇過度依賴他人或過早放棄，這都是與故事主旨相反的行為。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     },
     {
       "taxonomy": "literal",
@@ -440,7 +466,8 @@
       "explanation": "課文寫道：「終於有一天，他看到了一抹綠色從土壤中冒出來！」",
       "commonMisconception": "學生可能期待看到花朵，而忽略了發芽初期通常是綠色的嫩芽。",
       "quality_level": "L3",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 2
     },
     {
       "taxonomy": "inferential",
@@ -456,7 +483,8 @@
       "explanation": "雖然植物不會聽懂人話，但這種行為是小華對種子投入情感、表達關心和期待的一種方式，顯示他的細心和投入。",
       "commonMisconception": "學生可能從字面理解為種子會聽懂話，而忽略了情感投射的深層意義。",
       "quality_level": "L3",
-      "cqi_score": 7
+      "cqi_score": 7,
+      "answer": 3
     },
     {
       "taxonomy": "contextual",
@@ -472,7 +500,8 @@
       "explanation": "「堅持」的意義在於克服困難不放棄。小華在沮喪想放棄時，因朋友鼓勵而選擇繼續努力並尋找方法，這最能體現「堅持」的精神。",
       "commonMisconception": "學生可能將日常的重複性行為（如澆水）誤認為是堅持，而忽略了堅持是在遇到困難後的選擇。",
       "quality_level": "L3",
-      "cqi_score": 5
+      "cqi_score": 5,
+      "answer": 1
     },
     {
       "taxonomy": "critical",
@@ -488,7 +517,8 @@
       "explanation": "課文明確指出小華在小芳鼓勵前「感到有些沮喪，甚至想放棄」，小芳的鼓勵是讓他重新振作的關鍵。沒有這份鼓勵，他很可能就會放棄。",
       "commonMisconception": "學生可能過度自信小華的自學能力，或忽略了人際支持在困難時刻的重要性。",
       "quality_level": "L5",
-      "cqi_score": 6
+      "cqi_score": 6,
+      "answer": 1
     }
   ]
 }
