@@ -51,3 +51,15 @@ description: 專案 UI/UX 與色彩設計規範 — 指導 AI 如何讀取規格
    - 測試用的 `fetch` 到不明路徑、或 `console.log("here")`，回報前自己清乾淨。
    - 臨時草稿或腳本只能放在 `/tmp/`，放在根目錄視為違規。
    - 所有路徑呼叫，禁止使用本機 OS 的 `Users/xxx/...` 絕對路徑，全數改為相對專案根目錄的 `apps/v3_eidos/src/...`。
+
+## 測試硬性要求（2026-04-19 起）
+
+因應 `questionLoader.ts` 誤讀 `answer_index` 導致全站正解錯位的事故（見 `docs/上版前驗證標準.md`），任何前端資料層或 UI 顯示層的改動，**必須**同時通過以下三層驗證才能 commit：
+
+| 層級 | 驗證 | 觸發 |
+|:--|:--|:--|
+| L1 | `scripts/verify_ui_data_integrity.mjs --gate` | pre-commit hook 節點 3（碰到 `questionLoader.ts` 或 `question/platform/` 自動跑） |
+| L2 | `questionLoader.test.ts` 單元測試 | 每次改 loader 須新增或更新對應測試 |
+| L3 | `answer-integrity.spec.ts` Playwright e2e | 改 `QuizView` / `ReviewView` / `ResultView` 的顯示邏輯時必跑 |
+
+**禁止**弱化任何一層；若新增 loader branch 或 UI 顯示邏輯，必須補上對應測試。詳細清單見 [`../上版前驗證標準.md`](../上版前驗證標準.md)。

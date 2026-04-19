@@ -231,15 +231,19 @@ export async function loadQuestions(
           unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
             const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
             const type = (q.type || 'multiple_choice') as 'multiple_choice' | 'true_false' | 'fill_in_the_blank';
+            const rawAnswer = q.answer_index ?? q.correctAnswer ?? q.answer ?? 0;
             return {
               ...q,
               type,
               options,
+              answer: rawAnswer,
               category: category || m.title || m.lesson,
               lesson: m.lesson,
               lessonTitle: category || m.title,
               lessonOrder: m.order ?? 0,
-              normalizedAnswer: normalizeAnswer({ type, answer: q.answer || 0, options }),
+              normalizedAnswer: typeof rawAnswer === 'number'
+                ? rawAnswer
+                : normalizeAnswer({ type, answer: rawAnswer, options }),
               _sourceFile: `${basePath}/${fileName}`,
               cqi_score: q.cqi_score,
               quality_level: q.quality_level

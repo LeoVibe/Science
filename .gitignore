@@ -47,3 +47,20 @@ docs/reports/
 
 # 考古題原檔（來自外部學校段考，尊重原作者著作權，僅供本機研究用途）
 knowledge/考古題原檔/
+
+# iCloud / macOS 同步時產生的重複檔（檔名末尾 " 2"/" 3" 等帶空格+數字）
+* 2.json
+* 3.json
+* 4.json
+* 5.json
+* 6.json
+* 2.md
+* 3.md
+* 2.log
+* 3.log
+*manifest 2.json
+*manifest 3.json
+*manifest 4.json
+
+# Antigravity 偶發臨時環境目錄
+apps/v3_eidos/temp_node/

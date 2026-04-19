@@ -186,6 +186,70 @@ describe('questionLoader', () => {
     );
   });
 
+  it('應正確解析 production 格式 (data.meta + answer_index) — regression for 2026-04-19 hotfix', async () => {
+    // 回歸測試：2026-04-19 發現 questionLoader.ts:242 只讀 q.answer，
+    // 但全站 12,911 題只有 answer_index 欄位 → 前端把所有題目顯示為 A 正解。
+    // 本測試鎖死 production 格式（data.meta + data.questions[*].answer_index）的正確解析。
+    const fetchMock = vi.fn();
+    const manifest = {
+      id: 'G3_S2_SOC_HANLIN',
+      publisher: 'HANLIN',
+      grade: 'G3',
+      semester: 'S2',
+      subject: 'SOC',
+      items: [{ id: 'L2', title: '生活空間', file: 'G3_S2_SOC_HANLIN_L2.json', count: 3 }],
+    };
+    // 此 JSON 形狀必須與 question/platform/ 下真實檔案一致
+    const productionFormatJson = {
+      version: '1.0',
+      meta: {
+        grade: 'G3',
+        semester: 'S2',
+        subject: 'SOC',
+        publisher: 'HANLIN',
+        lesson: 'L2',
+        title: '生活空間',
+        order: 2,
+      },
+      publisher: 'HANLIN',
+      questions: [
+        {
+          question: 'Q1 正解在 C',
+          options: ['A 選項', 'B 選項', 'C 選項（正解）', 'D 選項'],
+          answer_index: 2,
+          explanation: '正解是 C',
+          scenario: '情境',
+        },
+        {
+          question: 'Q2 正解在 D',
+          options: ['A', 'B', 'C', 'D 正解'],
+          answer_index: 3,
+          explanation: '正解是 D',
+        },
+        {
+          question: 'Q3 正解在 B',
+          options: ['A', 'B 正解', 'C', 'D'],
+          answer_index: 1,
+          explanation: '正解是 B',
+        },
+      ],
+    };
+    fetchMock
+      .mockResolvedValueOnce({ ok: true, json: async () => manifest })
+      .mockResolvedValueOnce({ ok: true, json: async () => productionFormatJson });
+    globalThis.fetch = fetchMock;
+
+    const result = await loadQuestions(3, '社會', 2, '翰林');
+
+    expect(result.questions.length).toBe(3);
+    // 關鍵斷言：normalizedAnswer 必須等於 answer_index（而非 0）
+    expect(result.questions[0].normalizedAnswer).toBe(2);
+    expect(result.questions[1].normalizedAnswer).toBe(3);
+    expect(result.questions[2].normalizedAnswer).toBe(1);
+    // 輔助斷言：確認沒有因為 q.answer undefined 而 fallback 到 0
+    expect(result.questions.every(q => q.normalizedAnswer !== 0 || (q as { answer_index?: number }).answer_index === 0)).toBe(true);
+  });
+
   it('應正確過濾被標記為 is_active: false 的題目', async () => {
     const fetchMock = vi.fn();
     const manifest = {

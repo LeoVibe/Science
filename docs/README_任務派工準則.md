@@ -40,6 +40,7 @@
 | **`question_verify`** | 盲測、CQI-V、Match Rate、驗證日誌；**不改題除非流程明定** | `question/README_驗證與盲測準則.md` |
 | **`engineering`** | `apps/`、`backend/`、`scripts/` 程式與工具鏈；**不順便重寫題庫規格** | 依任務：`README.md`、`docs/技術設定/` 等 |
 | **`docs_ops`** | 規格書、進度表、`/pj_sync` 類同步；**預設不動題庫 JSON** | `docs/README_通用作業準則.md` 與任務指名之 `docs/*.md` |
+| **`release_validation`** | 上版前 L1/L2/L3 全層驗證；走抽測清單；失敗必退件 | `docs/上版前驗證標準.md` |
 | **`mixed`** | 跨兩類以上 | **分段**標註子 `job_type` 與各段 DoD |
 
 ### 2.1 `job_type` 與領域 Skill（執行時）
