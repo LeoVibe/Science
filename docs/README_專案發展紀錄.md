@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-18 23:00
-`updated_by`: Claude Code（JOB-199：G3 國語康軒 L4/L6 + G4 社會南一 L6 盲測，兩科升 QL4）
+`last_updated`: 2026-04-19 19:15
+`updated_by`: Claude Code（JOB-201：AboutView 題庫設定連動修正）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-19
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-201 | **AboutView 題庫設定連動修正**：修復 admin 後台 `library_config` 對前台「題庫總覽」tab 完全無效的問題。`AboutView` 改接受 `libraryConfig` prop（來源：`Index.tsx` 從 `/api/settings` 取得），移除獨立 localStorage 讀取；`Index.tsx` 傳入 prop；subjects 過濾邏輯改為 allowlist（subjects dict 有設定時，只顯示 `enabled === true`）。本機瀏覽器驗證：G5 S2 僅顯示國語、G4 S2 僅顯示國語＋數學，與 admin 設定一致。見 `jobs/JOB-201-Report.md` | 🟢 DONE |
 
 ### 2026-04-18
 | JOB | 簡述 | 狀態 |

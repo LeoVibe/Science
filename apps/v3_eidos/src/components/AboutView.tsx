@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Grade, APP_CONFIG, getSubjectsByGrade, Semester, Subject, SUBJECT_THEME_MAP, buildPath, Publisher, PUBLISHER_THEME_COLORS } from '@/data/config';
 import libraryData from '@/data/libraryStats.json';
@@ -95,10 +95,11 @@ interface AboutViewProps {
   grade: Grade;
   /** 當前使用者設定的學期 */
   semester: Semester;
+  /** 後台題庫開放設定（由 Index.tsx 從 API 取得後傳入） */
+  libraryConfig?: LibraryConfig | null;
 }
 
-export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, semester: userSemester }: AboutViewProps) {
-  const [libraryConfig, setLibraryConfig] = useState<LibraryConfig | null>(null);
+export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, semester: userSemester, libraryConfig = null }: AboutViewProps) {
   const publisherStats = (libraryData as {
     publisherStats?: Record<string, {
       units: number;
@@ -109,13 +110,6 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
       cqi?: number | string;
     }>;
   }).publisherStats ?? {};
-
-  useEffect(() => {
-    const configData = localStorage.getItem('EIDOS_LIBRARY_CONFIG');
-    if (configData) {
-      try { setLibraryConfig(JSON.parse(configData)); } catch (e) { }
-    }
-  }, []);
 
   const [filterGrade, setFilterGrade] = useState<Grade | 'all'>(userGrade);
   const [filterSem, setFilterSem] = useState<Semester | 'all'>(userSemester);
@@ -214,7 +208,8 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
 
                   subjects.forEach(subj => {
                     const subConfig = sConfig?.subjects[subj as Subject];
-                    if (libraryConfig && subConfig?.enabled === false) return;
+                    const hasSubjectConfig = sConfig?.subjects && Object.keys(sConfig.subjects).length > 0;
+                    if (libraryConfig && hasSubjectConfig && subConfig?.enabled !== true) return;
 
                     const pubData: Record<string, any> = {};
                     APP_CONFIG.publishers.forEach(pub => {

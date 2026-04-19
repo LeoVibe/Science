@@ -781,6 +781,7 @@ const Index = () => {
                 onBack={() => setView('menu')}
                 grade={grade}
                 semester={semester}
+                libraryConfig={libraryConfig}
               />
             )}
           </>
