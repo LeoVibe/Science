@@ -1,10 +1,10 @@
-# 🔬 驗證與盲測準則 (Verification & Blind Evaluation)
+# 驗證與盲測準則 (Verification & Blind Evaluation)
 
-`last_updated`: 2026-04-08 15:30:00
-`updated_by`: Claude Code (claude-sonnet-4-6)（JOB-163：驗收門檻重定義 — 題級 CQI 取代課級 Match Rate）
-`version`: 4.2
+`last_updated`: 2026-04-19
+`updated_by`: Claude Code (claude-opus-4-7)
+`version`: 4.3
 
-**文件定位**：本文件為 Eidos 題庫**盲測驗證流程、CQI-V 計分與品質標籤 (QL)** 的**單一真相 (Single Source of Truth)**。
+**文件定位**：本文件規範 Eidos 題庫的盲測驗證流程、CQI-V 計分與品質標籤（QL）。
 
 > [!IMPORTANT]
 > - 出題階段品質（CQI-P）請見 `question/README_出題與品管準則.md`
@@ -13,9 +13,9 @@
 
 ---
 
-## 第一章：驗證規則 (Verification Immutable Laws)
+## 第一章：驗證規則
 
-本章定義的原則為**硬性約束**，Agent 執行驗證時必須全部遵守。
+本章為驗證流程的必要規則，Agent 執行驗證時必須全部遵守。
 
 ### 規則一：100% 全測覆蓋
 
@@ -119,11 +119,10 @@
 
 ---
 
-## 第四章：QL 品質等級（Quality Level）— 全專案 Single Source of Truth
+## 第四章：QL 品質等級（Quality Level）
 
 > [!IMPORTANT]
-> **本章為 Eidos 專案所有 QL 定義的唯一真相來源。**
-> 其他文件（出題準則、研究總綱、網站功能規格書、專案發展紀錄、UI 文案）均應指向此處，不得自行定義 QL。
+> 本章定義 QL；其他文件（出題準則、研究總綱、網站功能規格書、專案發展紀錄、UI 文案）均應指向此處，不得自行定義 QL。
 
 ### 4.1 專案五系統品質分級關係
 
@@ -135,7 +134,7 @@ Eidos 專案採用五個互補的分級系統：
 | **RM** 研究成熟度 | 單課研究狀態 | RM0-RM3 | `knowledge/README_研究架構總綱.md` |
 | **CQI-P** 出題分 | 單題結構分 | 0–10，門檻 ≥ 5.5 進盲測 | `question/README_出題與品管準則.md` |
 | **CQI-V** 盲測分 | 盲測結果 | 滿分 4.0，併入最終 CQI | 本文件第三章 |
-| **QL** 品質等級 | 題目 + 題庫 | QL1-QL5 | **本章（Canonical）** |
+| **QL** 品質等級 | 題目 + 題庫 | QL1-QL5 | 本章 |
 
 **五系統關係**：
 
@@ -239,10 +238,10 @@ QL2% = (QL2 + QL3 + QL4 + QL5) / 總題數
 > [!IMPORTANT]
 > 所有驗收項目皆須 100% 通過，方可結案。
 
-1. 每課 `is_publishable: true` 題數 ≥ 25（課級唯一硬限制）
-2. 全線 CQI 平均 ≥ 6.5（QL4 門檻）
+1. 每課 `is_publishable: true` 題數 ≥ 25（課級上線門檻）
+2. 每題最終 CQI ≥ 6.5 且該課 CQI 平均 ≥ 6.5（QL4 門檻，單題門檻見 §4.6）
 3. 零 QL1（BIAS）題目殘留
-4. 所有題目 JSON 包含 `verifying_model` 與 `blind_evaluation` 欄位
+4. 所有題目 JSON 包含 `verifying_model`、`verifying_date` 與 `blind_evaluation` 欄位
 5. 100% 全測覆蓋（禁止抽樣）；ai=-1 題目記錄但不計入 Match Rate 分母
 6. Mismatch 題目完成人工審核（`review_status: confirmed` 或 `corrected`）
 7. 進度總表即時同步
@@ -281,8 +280,8 @@ QL2% = (QL2 + QL3 + QL4 + QL5) / 總題數
 #### G{X} 南一版（{K} 單元）
 - **規則一：100% 全測** (NO Sampling)
   所有產出的題目必須全數通過驗證，不得使用抽測。
-- **規則二：CQI-V ≥ 6.5**
-  每一題的最終驗證得分必須達到 QL4 (Deep Thinking) 的門檻。
+- **規則二：最終 CQI ≥ 6.5**
+  每一題的最終 CQI（CQI-P + CQI-V）必須達到 QL4 的門檻；CQI-V 本身滿分為 4.0，不單獨判定上架。
  
 ### 驗證操作禁令
 - **不得抽測**：每單元 1 課 25 題，全測。
@@ -304,7 +303,7 @@ QL2% = (QL2 + QL3 + QL4 + QL5) / 總題數
 ### 結案 Checklist
 - [ ] 全線 CQI 平均 ≥ 6.5 確認
 - [ ] 零 QL1 (BIAS) 殘留確認
-- [ ] 所有 JSON 已回寫 `verifying_model` 與 `verification` 欄位
+- [ ] 所有 JSON 已回寫 `verifying_model`、`verifying_date`、`blind_evaluation` 欄位
 - [ ] `docs/進度彙整_題庫研發與產出.md` 最終同步
 - [ ] 撰寫 JOB 結案報告
 - [ ] 花費匯總（真實 Token 數 / 金額 / 模型名稱）
@@ -425,10 +424,8 @@ node scripts/auto_balance_json.js <檔案或目錄路徑>
 
 ---
 
-## 附錄：CQI v2 設計理由追溯
-
-> 📦 原始設計理由詳見歷史文件 `docs/reports/CQI-v2-設計理由追溯.md`
+## 附錄：CQI v2 設計理由
 
 主要演化動機：CQI v1 是「工程品質指標」（格式防呆），CQI v2 將其融合為「教學品質指標」，
-新增易讀性、課綱對齊、認知配比、誘答鑑別度、文化公平性與研究支撐度六大維度，
+新增課綱對齊、認知配比、誘答鑑別度與研究支撐度等維度，
 並拆分為 CQI-P（出題即跑分）與 CQI-V（盲測後計算）兩階段。

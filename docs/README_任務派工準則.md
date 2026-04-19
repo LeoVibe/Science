@@ -1,16 +1,16 @@
 # Eidos 任務派工準則（派工生命週期）
 
-`last_updated`: 2026-03-30 16:45  
-`updated_by`: Cursor Agent  
+`last_updated`: 2026-04-19  
+`updated_by`: Claude Code (claude-opus-4-7)  
 
-**文件定位（第 3 層｜本專 Eidos）**：`jobs/` 派工生命週期（開案→執行→結案）、`job_type`、檔名／流水號、`job_manager.js`、**結案後 Discord 回報方法**；**單一權威**。  
+**文件定位（第 3 層｜本專 Eidos）**：`jobs/` 派工生命週期（開案→執行→結案）、`job_type`、檔名／流水號、`job_manager.js`、結案後 Discord 回報方法。  
 通則（三段式 Checklist、Git、花費格式、語氣與 UI）→ **`docs/README_通用作業準則.md`**。
 
 **與其他文件分工**：
 
 | 主題 | 權威檔案 |
 |:--|:--|
-| 三段式 Checklist 鐵則、Git、花費格式、語氣與 UI 通則 | `docs/README_通用作業準則.md` |
+| 三段式 Checklist、Git、花費格式、語氣與 UI 通則 | `docs/README_通用作業準則.md` |
 | 派工／結案**欄位範本** | `jobs/_JOB-TEMPLATE.md`、`jobs/_JOB-REPORT-TEMPLATE.md` |
 | 研究管線、KL3→KL4、CK／RC | `knowledge/README_研究架構總綱.md` |
 | 出題／驗證 | `question/README_出題與品管準則.md`、`question/README_驗證與盲測準則.md` |
@@ -33,7 +33,7 @@
 
 派工單頂部必填：**`job_type`**：`___________`（須為下表左欄之一）。
 
-| `job_type` | 邊界（本 JOB 只做這類事） | 規則正文（Single Source of Truth） |
+| `job_type` | 邊界（本 JOB 只做這類事） | 規則正文 |
 |:--|:--|:--|
 | **`research`** | `knowledge/` 課綱研究、KL3/KL4、盤點；**不產題庫 JSON、不跑盲測** | `knowledge/README_研究架構總綱.md` |
 | **`question_prod`** | 產出／修改題庫 JSON、CQI-P、產題腳本；**不代替驗證結案** | `question/README_出題與品管準則.md` |
@@ -81,12 +81,12 @@ JOB-{3位數}-{發起者}-{動詞}-{對象}-{範圍}.md
 - 派工範本：`jobs/_JOB-TEMPLATE.md`
 - 結案範本：`jobs/_JOB-REPORT-TEMPLATE.md`
 
-### 3.3 進度真相來源（防呆）
-- **唯一真相**：**本檔（任務派工準則）所述管線**＋**派工單本體**＋**`jobs/JOB-XXX-Report.md`**；舊有 `jobs/任務看板與派工.md` 已廢止，若檔案不存在不得視為阻擋條件。
+### 3.3 進度來源（防呆）
+- **主來源**：本檔（任務派工準則）所述管線＋派工單本體＋`jobs/JOB-XXX-Report.md`；舊有 `jobs/任務看板與派工.md` 已廢止，若檔案不存在不得視為阻擋條件。
 - **先模後動**：生成任何派工單前，強制讀取模板
 - **無模板不產出**
 
-### 3.5 幽靈 Report 防止（禁止事項）
+### 3.4 幽靈 Report 防止（禁止事項）
 
 **定義**：「幽靈 Report」= 有 `JOB-NNN-Report.md` 但無對應正式派工單（條件 A：`JOB-NNN-USER|AG|DEV-*.md`）的 Report 檔案。
 
@@ -110,7 +110,7 @@ Claude Code
 
 **稽核指令**：`node scripts/verify_jobs.js`（列出所有幽靈 Report）
 
-### 3.4 單號正則、流水號聯集與腳本多重驗證（與 `job_manager.js` 雙向對齊）
+### 3.5 單號正則、流水號聯集與腳本多重驗證（與 `job_manager.js` 雙向對齊）
 
 以下正則為 **`scripts/job_manager.js`** 內常數之**文字化權威**；若修改腳本分類規則，**必須**同步更新本節。
 
@@ -160,7 +160,7 @@ PM（Claude Code）**於對話中**產出完整草稿，涵蓋以下欄位（缺
 ### §4.1 流水號稽核（強制，草稿確認後）
 
 執行：`node scripts/job_manager.js next`  
-確認輸出之**建議下一號**與分類 A～E 無異常（同號多份合規派工時腳本 exit 1）。細則見 **第三章 §3.4**。
+確認輸出之**建議下一號**與分類 A～E 無異常（同號多份合規派工時腳本 exit 1）。細則見 **第三章 §3.5**。
 
 ### §4.2 腳本建單（強制）
 
@@ -269,7 +269,7 @@ ls -la jobs/JOB-XXX-Report.md
 
 ## 七、稽核與幽靈任務
 
-- **派工流水號／下一號**：`node scripts/job_manager.js next`（見 **第三章 §3.4**）。  
+- **派工流水號／下一號**：`node scripts/job_manager.js next`（見 **第三章 §3.5**）。  
 - **Report 與派工對齊**：`node scripts/verify_jobs.js`。
 
 ---

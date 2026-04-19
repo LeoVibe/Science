@@ -1,14 +1,14 @@
 # Eidos 通用作業準則
 
-`last_updated`: 2026-04-11
-`updated_by`: Claude Code (claude-sonnet-4-6)
+`last_updated`: 2026-04-19
+`updated_by`: Claude Code (claude-opus-4-7)
 
 **文件定位（第 2 層｜可攜通則）**：**不含** Eidos 派工開結案管線正文；派工、`job_type`、`jobs/` 範本、**結案 Discord 方法** → 一律見 **`docs/README_任務派工準則.md`**。  
 **他專複製**：可將本檔複製到新 repo 後，替換連結與「專案專屬」句（如 Git 目錄約定改指該專之 workspace 規則）。
 
 ---
 
-## 第零章：任務三段式 Checklist 鐵則 (Triple Checklist Law)
+## 第零章：任務三段式 Checklist
 
 所有 JOB 派工單或 Agent 啟動之任務，**必須同時包含以下三張 Checklist**，缺一不可：
 
@@ -30,7 +30,7 @@
 - [ ] 產出 `jobs/JOB-XXX-Report.md`
 - [ ] 結案後已依 **`docs/README_任務派工準則.md` 第六章（階段三：結案）** Discord 項完成摘要同步（`user-discord-relay`／`send_message` 或可貼上摘要）
 
-> ⛔ **Agent 有權且有義務拒絕執行缺少這三張 Checklist 的任務。**
+> 缺此三張 Checklist 的派工單不得進入執行階段。
 
 ### Checklist 使用規則
 
@@ -85,20 +85,20 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 ## 第二章：Git 協作規範
 
-### 3.1 唯一真相目錄
+### 2.1 主工作目錄約定
 
 | 項目 | 約定 |
 |:--|:--|
-| 本機主 clone | **依本專** `.cursor/rules/workspace-directory.mdc` 或 `docs/開發協作-單一Git與工作目錄規範.md`（若存在） |
-| 日常開發 | 僅在該 canonical 目錄開啟 IDE、執行 dev/commit |
+| 本機主 clone | 依 `.cursor/rules/workspace-directory.mdc` |
+| 日常開發 | 僅在該主目錄開啟 IDE、執行 dev/commit |
 
-### 3.2 禁止事項
+### 2.2 禁止事項
 1. 禁止在 `.cursor/worktrees/` 下長期改程式
 2. 禁止維護兩套「都以為自己是主線」的目錄
 3. 禁止在 Markdown 中寫死他人的絕對路徑
 
-### 3.3 多 Agent 協作
-1. 一律 Open Folder → **該專**主目錄
+### 2.3 多 Agent 協作
+1. 一律 Open Folder → 該專主目錄
 2. 各任務使用 `feature/xxx` 或 `JOB-xxx-簡述` 分支
 3. 提交前 `git status` + `git pull --rebase`
 
@@ -129,7 +129,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 ＄作業匯總 ：Token數:{真實Meta中數字} | 花費: ${換算台幣} | 使用模型: {真實Meta中的模型代碼} | 執行者: {AG|Cursor|Claude}
 ```
 
-### 6.1 落實與回補機制
+### 5.1 落實與回補機制
 為解決「產出當下無法預知最終花費」之技術限制，回報流程應嚴格依循以下兩大情境：
 
 **情境 A：單一 / 一次性任務**
@@ -140,11 +140,11 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 - 在執行單一子任務途中，**不需要**每次都寫出總花費，可暫以 `-` 佔位。
 - 等到該 JOB 所有的子任務皆完成並產出結案報告（Report.md）時，若系統有提供彙總或使用者主動提供，再於結案時進行一次性的統計寫回。
 
-### 6.2 計價基準
+### 5.2 計價基準
 - 花費換算依據相對應的**資料查詢時間**：**`../Model_Price.json`**（與本倉庫同層之 `0_AI_Project` 目錄；未納入本 repo 版控）之單價表；若該檔為 `.md` 舊版，以實際存在之檔為準。
 - 若 Meta 真的無法取得，欄位顯示 `-`，**嚴禁推估與亂造數字**。
 
-### 6.3 執行時間回報（例行統計）
+### 5.3 執行時間回報（例行統計）
 
 **格式**（Report.md 強制填寫，派工單選填）：
 
@@ -189,7 +189,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 本章是從過去任務失誤中歸納出的具體行為規範。不是建議，是必須遵守的規則。
 
-### 9.1 報告品質規則
+### 8.1 報告品質規則
 
 | 禁止行為 | 正確做法 |
 |:--|:--|
@@ -199,7 +199,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 | 「待確認」作為遺留問題 | 說明具體問題是什麼、建議如何處理 |
 | Checklist 全部打勾但無佐證 | 每個驗收項旁邊填入實際數值或操作結果 |
 
-### 9.2 範圍控制規則
+### 8.2 範圍控制規則
 
 執行任務時，遇到以下情況必須停止並回報，不得自行決定：
 
@@ -208,14 +208,14 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 - 任務步驟中有一步無法完成 → 說明原因，等待指示，不跳過或假裝完成
 - 發現派工單的範圍比預期大 → 回報後等確認，不擅自縮減或擴大
 
-### 9.3 溝通規則
+### 8.3 溝通規則
 
 - 不確定要怎麼做：問，不要猜
 - 發現矛盾的規範：回報矛盾，等待裁定，不自行選擇一個版本
 - 任務完成但沒把握：在 Report 的「技術筆記」說明不確定的部分
 - 任何「我覺得」「應該」的判斷：先問，再做
 
-### 9.4 花費誠實規則
+### 8.4 花費誠實規則
 
 - 若無法取得 Token 數與花費，欄位填 `-`
 - 禁止填入估算值、猜測值
@@ -227,19 +227,19 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 > **設計背景**：本章原則參考 Claude Code 源碼的 prompt 分層架構（Static/Dynamic Boundary）、GitHub Spec Kit 的階段式文件方法論（Specify → Plan → Tasks → Implement）、Andrew Ng 的 Agentic Design Patterns（Reflection / Planning），以及多篇 Claude Code prompts.ts 逆向分析文章的 Mechanism vs Policy 概念。目的是讓 Agent 與人類協作時，文件系統不會因為重複、模糊、膨脹而崩塌。
 
-### 10.1 核心心法：每份文件只做一件事
+### 9.1 核心心法：每份文件只做一件事
 
 | 原則 | 說明 | 違反徵兆 |
 |:--|:--|:--|
 | **單一職責** | 一份文件負責一個主題，寫清楚自己「管什麼」和「不管什麼」 | 同一份檔案同時講出題規則和研究方法 |
-| **唯一真相** | 每個知識點只在一處維護正文，其他地方只放指標連結 | 兩份文件都列了考古題來源清單，改了一份忘了另一份 |
+| **單點維護** | 每個知識點只在一處維護正文，其他地方只放指標連結 | 兩份文件都列了考古題來源清單，改了一份忘了另一份 |
 | **文件定位宣告** | 每份文件開頭必須有一行 `文件定位`，聲明邊界與排除範圍 | 讀者不確定「這個規則到底寫在哪裡」 |
 
 **實作方式**：
 - 開頭寫：「本文件負責 ___，不負責 ___（見 `{另一份檔案}`）」
 - 已有專屬文件的內容，本文只寫一行指標，例：`> 考古題來源與 SOP → knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md`
 
-### 10.2 三層資訊架構（Index → Summary → Detail）
+### 9.2 三層資訊架構（Index → Summary → Detail）
 
 受 Claude Code 記憶系統啟發——context 是稀缺資源，不該把所有規則一次倒進來。
 
@@ -254,7 +254,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 - 摘要層只放「Agent 不讀就會犯錯」的規則，其餘留在正文
 - 正文層可以很長，但讀者應能透過索引找到入口，不需要通讀全文
 
-### 10.3 靜態規則 vs 動態內容（Boundary Separation）
+### 9.3 靜態規則 vs 動態內容（Boundary Separation）
 
 Claude Code 的 `SYSTEM_PROMPT_DYNAMIC_BOUNDARY` 告訴我們：**不變的東西和會變的東西必須分開放。**
 
@@ -266,10 +266,10 @@ Claude Code 的 `SYSTEM_PROMPT_DYNAMIC_BOUNDARY` 告訴我們：**不變的東�
 
 **禁止行為**：
 - 在準則文件中寫入會過期的狀態（如「目前 L2 有 7 題」）
-- 在派工單中重複準則正文（應寫「依 §10.1 原則」而非複製貼上）
+- 在派工單中重複準則正文（應寫「依 §9.1 原則」而非複製貼上）
 - 在文件中記錄可用 `git log` 或 `ls` 取得的資訊
 
-### 10.4 What / Why / How 分離（Phase-Appropriate Detail）
+### 9.4 What / Why / How 分離（Phase-Appropriate Detail）
 
 參考 GitHub Spec Kit 的四階段方法論，不同文件回答不同問題：
 
@@ -282,7 +282,7 @@ Claude Code 的 `SYSTEM_PROMPT_DYNAMIC_BOUNDARY` 告訴我們：**不變的東�
 
 **檢驗方法**：如果一段文字同時在解釋「為什麼」和「怎麼做」，它應該被拆成兩份文件。
 
-### 10.5 為 Agent 而寫（Agent-Readable Writing）
+### 9.5 為 Agent 而寫（Agent-Readable Writing）
 
 Agent 與人類閱讀方式不同。Agent 需要的是結構化的判斷依據，不是散文。
 
@@ -298,7 +298,7 @@ Agent 與人類閱讀方式不同。Agent 需要的是結構化的判斷依據�
 - 包含 **Why**：Agent 遇到邊界案例時，理解原因比背誦規則更有用
 - 禁止項明確列為表格或清單，不藏在段落敘述中
 
-### 10.6 文件存活性（Compaction Survival）
+### 9.6 文件存活性（Compaction Survival）
 
 Claude Code 的 context 壓縮機制會丟棄冗長內容，只保留結構化摘要。文件設計必須確保關鍵規則能在壓縮後存活。
 
@@ -312,11 +312,11 @@ Claude Code 的 context 壓縮機制會丟棄冗長內容，只保留結構化�
 - 隱含在敘述中的規則（「一般來說最好能有多一點來源」）
 - 沒有數值的軟性建議
 
-### 10.7 文件修改紀律
+### 9.7 文件修改紀律
 
 | 情境 | 處理方式 |
 |:--|:--|
 | 發現文件 A 和文件 B 內容重複 | 保留一處正文，另一處改為指標連結 |
 | 想在文件中加入新段落 | 先確認是否已有專屬文件負責該主題 |
 | 規則已過時或被新決策取代 | 刪除舊規則，不加 `// deprecated` 或 `~~刪除線~~` 保留屍體 |
-| 不確定該寫在哪份文件 | 問：「這段話回答的是 What/Why 還是 How？」→ 對照 §10.4 歸位 |
+| 不確定該寫在哪份文件 | 問：「這段話回答的是 What/Why 還是 How？」→ 對照 §9.4 歸位 |

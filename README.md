@@ -1,10 +1,9 @@
 # Eidos 專案 — 國小生課後複習平台
 
-`last_updated`: 2026-04-08 13:01:26
-`updated_by`: Claude Code (claude-opus-4-6)
+`last_updated`: 2026-04-19
+`updated_by`: Claude Code (claude-opus-4-7)
 
-Eidos 是為國小學生設計的高互動性題庫演練系統，以108 課綱為核心、涵蓋一到六年級各科的各科題目
-，並以三大出版社（康軒／翰林／南一）課文為基礎，設計考題，英文科因各校選擇較為分歧，僅部分試題。
+Eidos 是為國小學生設計的高互動性題庫演練系統，以 108 課綱為核心，涵蓋三到六年級各科，以三大出版社（康軒／翰林／南一）課文為基礎設計考題。英語科因各校選書分歧，僅提供部分試題。
 若要了解更多介紹可參考 [`docs/README_產品介紹.md`](docs/README_產品介紹.md)。
 
 ---
@@ -15,7 +14,7 @@ Eidos 是為國小學生設計的高互動性題庫演練系統，以108 課綱�
 
 | 層級 | 內容 | 機制 | 保證程度 |
 |:--|:--|:--|:--|
-| **L0 硬注入** | 角色定義、關鍵規則、文件索引 |README.md CLAUDE.md / .cursorrules（工具保證載入） | 100% 在 context |
+| **L0 硬注入** | 角色定義、關鍵規則、文件索引 | `README.md` / `CLAUDE.md` / `.cursorrules`（工具保證載入） | 100% 在 context |
 | **L1 軟注入** | 通用準則 + 派工準則精華摘要 | SessionStart Hook 自動讀檔注入 context | 100% 在 context |
 | **L2 按需查閱** | 完整準則正文（出題、盲測、研究等） | Agent 執行特定任務時依下方索引 Read | 靠 L0/L1 引導 |
 
@@ -74,7 +73,6 @@ Eidos 是為國小學生設計的高互動性題庫演練系統，以108 課綱�
 | 據實回報 | Token 數與花費從真實 Meta 讀取。無法取得填 `-`，**禁止推估或捏造** |
 | 禁止擅自選模型 | 不得建議「某模型適合某情境」，除非引用官方文檔且僅作為選項供使用者決定 |
 
-
 ---
 
 ## 四、題庫品管流水線
@@ -90,7 +88,57 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 
 ---
 
-## 五、規範文件索引
+## 五、題目品質的新定義
+
+每道題目都有一個品質等級（QL），標示這道題目的研究深度與驗證程度。
+
+**QL1 課綱基礎**
+僅依課綱與關鍵字產出，學習目標不夠精準。
+
+**QL2 課文歸納**
+該課已完成 KL4 單課研究（有課文）；題目能具體歸納課程內容與精髓。
+
+**QL3 考古參考**
+該課額外完成 KL4 考古題與討論；誘答設計有實證基礎。
+
+**QL4 深思與盲測**
+用不同 Agent 進行盲測且通過；題幹與選項經實測精修。
+
+**QL5 專家認證**
+經多層次邏輯檢查、教師審閱與使用者回饋驗證。（未來期待）
+
+---
+
+## 六、目前的研究與題庫涵蓋範圍
+
+### 研究項目與流程
+
+| 研究層次 | 做什麼 | 目前涵蓋科目 |
+|:--|:--|:--|
+| **KL1** 學習框架 | 確認年段學習目標、認知發展特性 | 所有科目（共通基礎） |
+| **KL2** 科目總綱 | 建立各科跨年段的出題核心架構 | 國語、數學、社會、自然、英語、生活 |
+| **KL3** 發展綱要 | 各年段各出版社的教學重點矩陣 | 國語（三∼六下全）；其他科目部分 |
+| **KL4** 單課素材 | 單課研究紀錄 + 考古題分析（出題直接素材） | 國語（三∼六下，三大出版社 L1∼L12）數學（五下翰林 L1∼L10）|
+
+研究素材庫（原始文本、考古題原檔）目前已蒐集：國語／數學／社會／自然／英語 G3∼G6 下學期。
+
+### 各科各學期題庫涵蓋（下學期，三大出版社合計）
+
+> 資料來源：`libraryStats.json`，最後更新 2026/04/18
+
+| 科目 | 三年級 下 | 四年級 下 | 五年級 下 | 六年級 下 |
+|:--|:--|:--|:--|:--|
+| 國語 | QL4 ／ 1,123 題 | QL4 ／ 1,080 題 | QL3 ／ 1,155 題 | QL4 ／ 583 題 |
+| 數學 | QL4 ／ 842 題 | QL1 ／ 898 題 | QL3 ／ 900 題 | QL1 ／ 351 題 |
+| 社會 | QL4 ／ 529 題 | QL4 ／ 538 題 | QL3 ／ 615 題 | QL1 ／ 293 題 |
+| 自然 | QL4 ／ 390 題 | QL4 ／ 360 題 | QL1 ／ 45 題 | QL1 ／ 259 題 |
+| 英語 | QL4 ／ 619 題 | QL1 ／ 276 題 | QL1 ／ 300 題 | — |
+
+QL 標示為該科目最常見等級；QL1 代表題目已存在但尚未完成完整研究或盲測流程。
+
+---
+
+## 七、規範文件索引
 
 | 用途 | 文件 |
 |:--|:--|
@@ -103,33 +151,45 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 | 專案發展紀錄 | [`docs/README_專案發展紀錄.md`](docs/README_專案發展紀錄.md) |
 | 前端 UI/UX 規格 | [`docs/網站功能規格書.md`](docs/網站功能規格書.md) |
 | 前端開發守則 | [`docs/技術設定/前端開發與AI實作守則.md`](docs/技術設定/前端開發與AI實作守則.md) |
-| 模型價格速查 | `../Model_Price.json`（上層 `0_AI_Project/`，未版控） |
 | 產品介紹（家長/教師） | [`docs/README_產品介紹.md`](docs/README_產品介紹.md) |
+| 驗證與盲測準則 | [`question/README_驗證與盲測準則.md`](question/README_驗證與盲測準則.md) |
 
 ---
 
-## 六、技術環境
+## 八、技術環境
 
 ### 系統架構
 
 | 層 | 技術 |
 |:--|:--|
 | 前端 | Vite + React + TailwindCSS (`apps/v3_eidos`) |
-| 資料交付 | Cloudflare CDN，題庫預編譯為靜態 JSON |
-| 後端 | Cloudflare Worker API (`backend/`) |
+| 資料交付 | Cloudflare Pages，題庫預編譯為靜態 JSON |
+| 後端 | Cloudflare Worker API (`backend/api`) |
 
 ### 目錄結構
 
 ```
 /eidosProject
-├── apps/                  # 前端原始碼
-├── backend/               # Cloudflare Worker
-├── docs/                  # 規格、準則、日誌
-├── jobs/                  # 派工單與 Report
-├── knowledge/             # KL1-KL4 研究知識庫
-├── question/              # 題庫（platform/ 上架 JSON、source/ 素材）
-├── scripts/               # 自動化腳本
-└── _agent/                # AI Agent 技能（skills/）
+├── apps/
+│   ├── v3_eidos/          # 現行前端（Vite + React）
+│   ├── v2_currisite/      # 舊版前端（已封存）
+│   └── v1_science/        # 初版前端（已封存）
+├── backend/
+│   └── api/               # Cloudflare Worker API
+├── docs/                  # 規格書、準則、部署說明、進度彙整
+├── jobs/                  # 派工單（JOB-NNN.md）與 Report
+├── knowledge/
+│   ├── 課綱研究/           # KL2∼KL4 各科研究檔（發展綱要、單課研究、考古題）
+│   ├── 考古題原檔/         # 考古題來源文件
+│   └── 學習議題研究/       # 跨科橫向議題研究
+├── question/
+│   ├── platform/          # 正式題庫 JSON（G3∼G6，各科各出版社）
+│   └── source/            # 出題素材與草稿
+├── scripts/               # 自動化腳本（同步、評分、盲測、進度）
+├── tests/
+│   └── golden_cases/      # 品質評分回歸測試黃金測資
+├── artifacts/             # 暫存產出物（不版控）
+└── _agent/                # AI Agent 技能定義（skills/）
 ```
 
 ### Agent 技能索引
@@ -153,17 +213,17 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 | S1 / S2 | Semester 1 / 2 | 上學期 / 下學期 |
 | KL1-KL4 | Knowledge Layer | 研究素材層次（地基→藍圖→規劃→材料） |
 | RM0-RM3 | Research Maturity | 研究成熟度（骨架→素材→考古→透析） |
-| QL1-QL5 | Quality Label | 品質標籤（課綱基礎→專家認證） |
-| CQI-P | Production Quality | 出題品質分（滿分 6.0） |
-| CQI-V | Verification Quality | 驗證品質分（滿分 4.0） |
-| CK-01~06 | Checklist Items | KL3 素材庫交付驗收條件 |
+| QL1-QL5 | Quality Label | 品質標籤（課綱基礎→通過盲測→專家認證） |
+| CQI-P | Production Quality Index | 出題品質分 |
+| CQI-V | Verification Quality Index | 盲測品質分 |
 
 ---
 
-## 七、版控與 GitHub
+## 九、版控與 GitHub
 
 | 項目 | 內容 |
 |:--|:--|
-| GitHub 組織 | [LeoVibe](https://github.com/LeoVibe) |
+| GitHub | [LeoVibe/Science](https://github.com/LeoVibe/Science) |
 | canonical origin | `https://github.com/LeoVibe/Science.git` |
+| License | MIT |
 | 部署環境 | 見 [`docs/Cloudflare-Pages-與正式站環境變數.md`](docs/Cloudflare-Pages-與正式站環境變數.md) |
