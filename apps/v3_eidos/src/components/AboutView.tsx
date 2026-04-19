@@ -61,8 +61,8 @@ function SiteFeedbackForm() {
         className="w-full px-3 py-2.5 rounded-xl border border-border/60 bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 resize-none transition-shadow"
       />
       <div className="flex justify-end">
-        <button 
-          type="submit" 
+        <button
+          type="submit"
           disabled={isSubmitting || !text.trim()}
           className="px-5 py-2 rounded-xl bg-primary text-primary-foreground font-bold text-xs hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
@@ -70,6 +70,20 @@ function SiteFeedbackForm() {
         </button>
       </div>
     </form>
+  );
+}
+
+function SiteFeedbackBlock() {
+  return (
+    <div className="bg-secondary/20 rounded-2xl border border-border/50 p-5 space-y-3">
+      <h4 className="font-black text-foreground text-[14px] flex items-center gap-2">
+        <span>💬</span> 有什麼想告訴我們的嗎？
+      </h4>
+      <p className="text-[11px] text-muted-foreground leading-relaxed">
+        不論是對題目的建議、希望追加的新功能，或是給開發者的鼓勵，都歡迎在這邊留言喔！（您的留言信將會被妥善收藏在管理後台）
+      </p>
+      <SiteFeedbackForm />
+    </div>
   );
 }
 
@@ -124,9 +138,9 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
       <div className="flex rounded-2xl bg-secondary p-1 gap-1">
         {([
           { key: 'about' as AboutTab, label: '🏠 關於本站' },
-          { key: 'library' as AboutTab, label: '📚 題庫總覽' },
           { key: 'deepdive' as AboutTab, label: '📖 出題研究' },
           { key: 'changelog' as AboutTab, label: '📋 更版資訊' },
+          { key: 'library' as AboutTab, label: '📚 題庫總覽' },
         ]).map(t => (
           <button
             key={t.key}
@@ -203,21 +217,16 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                     if (libraryConfig && subConfig?.enabled === false) return;
 
                     const pubData: Record<string, any> = {};
-                    let hasAnyData = false;
                     APP_CONFIG.publishers.forEach(pub => {
                       if (libraryConfig && subConfig?.publishers && !subConfig.publishers.includes(pub)) return;
 
                       const stat = publisherStats[`G${grade}_S${sem}_${subj}_${pub}`];
-                      const shelf = stat?.publishedQuestions ?? stat?.questions ?? 0;
-                      const bank = stat?.bankQuestions ?? shelf;
-                      if (stat && (stat.units > 0 || bank > 0 || shelf > 0)) {
+                      if (stat) {
                         pubData[pub] = stat;
-                        hasAnyData = true;
                       }
                     });
-                    if (hasAnyData) {
-                      rows.push({ subj: subj as Subject, pubData });
-                    }
+                    // 無論是否有已上架題目，都顯示此科目一列（未上架的格子會呈現「尚未建構題庫」）
+                    rows.push({ subj: subj as Subject, pubData });
                   });
 
                   if (rows.length === 0) return;
@@ -253,8 +262,16 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                                 </td>
                                 {APP_CONFIG.publishers.map(pub => {
                                   const stat = row.pubData[pub];
-                                  if (!stat) {
-                                    return <td key={pub} className="px-2 py-2 text-center text-muted-foreground/30 font-medium align-middle">-</td>;
+                                  const shelfCount = stat?.publishedQuestions ?? stat?.questions ?? 0;
+
+                                  if (!stat || shelfCount === 0) {
+                                    return (
+                                      <td key={pub} className="px-2 py-2 text-center align-middle">
+                                        <span className="inline-block text-[10px] text-muted-foreground/50 font-medium leading-tight">
+                                          尚未建構題庫
+                                        </span>
+                                      </td>
+                                    );
                                   }
 
                                   const getQualityColor = (q: string | undefined) => {
@@ -266,7 +283,6 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                                     return 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-500';
                                   };
 
-                                  const shelfCount = stat.publishedQuestions ?? stat.questions ?? 0;
                                   const bankCount = stat.bankQuestions ?? shelfCount;
                                   const showBankHint = typeof stat.bankQuestions === 'number' && bankCount > shelfCount;
 
@@ -342,6 +358,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                 </table>
             </div>
           </div>
+          <SiteFeedbackBlock />
         </div>
       )}
 
@@ -411,6 +428,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               </div>
             </div>
           </div>
+          <SiteFeedbackBlock />
         </div>
       )}
 
@@ -496,15 +514,83 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               </div>
             </div>
 
-            {/* 🆕 給我回饋留言區塊 */}
-            <div className="bg-secondary/20 rounded-2xl border border-border/50 p-5 mt-6 space-y-3">
-              <h4 className="font-black text-foreground text-[14px] flex items-center gap-2">
-                <span>💬</span> 有什麼想告訴我們的嗎？
-              </h4>
-              <p className="text-[11px] text-muted-foreground leading-relaxed">
-                不論是對題目的建議、希望追加的新功能，或是給開發者的鼓勵，都歡迎在這邊留言喔！（您的留言信將會被妥善收藏在管理後台）
+            {/* 🛠️ 我們如何出題 */}
+            <div className="bg-secondary/20 rounded-2xl border-2 border-primary/10 p-5 space-y-5 mt-6">
+              <div className="space-y-1.5">
+                <h4 className="font-black text-foreground text-[15px] flex items-center gap-2 text-primary">
+                  <span>🛠️</span> 我們如何出題
+                </h4>
+                <p className="text-[12px] text-muted-foreground leading-relaxed">
+                  研究完成之後，每一道題進入題庫之前還要闖過這四道關卡。這些關卡不是走流程，而是要擋下那些「看起來沒問題、孩子卻會卡住」的題目：
+                </p>
+              </div>
+
+              <div className="space-y-3">
+                {/* 關卡一：完整題目保證 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2 bg-background shadow-sm">
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[16px] shrink-0 border border-slate-200 dark:border-slate-700">📋</span>
+                    <div className="space-y-0.5 min-w-0">
+                      <p className="font-black text-sm text-foreground">關卡一：完整題目保證</p>
+                      <p className="text-[11px] font-bold text-slate-600 dark:text-slate-400">不做半套的題目</p>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
+                    每道題必須同時有題幹、四個選項、正確答案、與完整詳解——<strong className="text-foreground/80">解析不能只寫「答案是 B」</strong>，而要說清楚「為什麼其他三個選項不對」。對完答案後，孩子還能從解析學到思考方法，而不是只記住一個字母。
+                  </p>
+                </div>
+
+                {/* 關卡二：AI 品質評分 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2 bg-background shadow-sm">
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-9 h-9 rounded-full bg-sky-100 dark:bg-sky-900/40 flex items-center justify-center text-[16px] shrink-0 border border-sky-200 dark:border-sky-800">📊</span>
+                    <div className="space-y-0.5 min-w-0">
+                      <p className="font-black text-sm text-foreground">關卡二：AI 品質評分</p>
+                      <p className="text-[11px] font-bold text-sky-600 dark:text-sky-400">十多個維度逐題審查</p>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
+                    一份由大腦發展研究搭配學科教學經驗建立的評分表，從「題幹有沒有模糊字眼」「選項之間是否互相包含」「解析是否切中迷思點」等十多個維度逐題打分。<strong className="text-foreground/80">分數不及格的題目當場退回重出</strong>，孩子不會遇到「好像寫對了、但自己也不清楚為什麼對」的題。
+                  </p>
+                </div>
+
+                {/* 關卡三：反投機機制 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2 bg-background shadow-sm">
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-9 h-9 rounded-full bg-violet-100 dark:bg-violet-900/40 flex items-center justify-center text-[16px] shrink-0 border border-violet-200 dark:border-violet-800">⚖️</span>
+                    <div className="space-y-0.5 min-w-0">
+                      <p className="font-black text-sm text-foreground">關卡三：反投機機制</p>
+                      <p className="text-[11px] font-bold text-violet-600 dark:text-violet-400">切斷「不讀題也能猜對」的路徑</p>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
+                    國小孩子很快會學到「第三題大概是 C」或「選最長的那個通常沒錯」這類小聰明。我們<strong className="text-foreground/80">強制每份題庫的正解均勻分布在 A/B/C/D</strong>、且四個選項字數差異不超過一個字，切斷靠規律答題的捷徑，逼孩子回到「讀題、理解、推理」的正途。
+                  </p>
+                </div>
+
+                {/* 關卡四：AI 匿名盲測 */}
+                <div className="rounded-xl border border-border/50 p-4 space-y-2 bg-background shadow-sm">
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-9 h-9 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-[16px] shrink-0 border border-emerald-200 dark:border-emerald-800">🔬</span>
+                    <div className="space-y-0.5 min-w-0">
+                      <p className="font-black text-sm text-foreground">關卡四：AI 匿名盲測</p>
+                      <p className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">連 AI 都答得出來，孩子才不會被誤解題意困住</p>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
+                    找另一個<strong className="text-foreground/80">完全沒看過答案的 AI 當「匿名學生」</strong>來作答，它只能靠課綱知識與題幹邏輯推理。若連 AI 都答錯超過 10%，代表題幹寫得不清楚或誘答設計有瑕疵，這些題會被退回重寫。通過這一關的題目才能拿到網站最高品質標籤（<strong className="text-emerald-600 dark:text-emerald-400">QL4</strong>）。
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-[11px] text-muted-foreground/80 leading-relaxed border-t border-border/30 pt-3">
+                每道題通過的關卡越多、品質等級（QL）就越高；各題庫的 QL 分佈可在「📚 題庫總覽」頁底的「如何定義題庫品質」查看。
               </p>
-              <SiteFeedbackForm />
+            </div>
+
+            {/* 給我回饋留言區塊 */}
+            <div className="mt-6">
+              <SiteFeedbackBlock />
             </div>
 
           </div>
@@ -627,8 +713,8 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                     <p className="text-sm font-medium text-muted-foreground flex flex-wrap items-center gap-1.5">
                       <span>{v.items[0]}</span>
                       {v.note && (
-                        <span className="text-[9px] font-semibold bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 px-2 py-0.5 rounded-full border border-red-200/60 dark:border-red-700/40">
-                          {v.note}
+                        <span className="text-[9px] font-normal text-muted-foreground/70 leading-none">
+                          · {v.note}
                         </span>
                       )}
                     </p>
@@ -643,8 +729,8 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
                     </ol>
                   )}
                   {v.items.length > 1 && v.note && (
-                    <span className="inline-flex mt-1.5 text-[9px] font-medium bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 px-2 py-0.5 rounded-full border border-red-200/60 dark:border-red-700/40">
-                      {v.note}
+                    <span className="inline-flex mt-1 text-[9px] font-normal text-muted-foreground/70 leading-none">
+                      · {v.note}
                     </span>
                   )}
                   {v.link && (
@@ -661,6 +747,7 @@ export default function AboutView({ tab, onTabChange, onBack, grade: userGrade, 
               </div>
             ))}
           </div>
+          <SiteFeedbackBlock />
         </div>
       )}
 
