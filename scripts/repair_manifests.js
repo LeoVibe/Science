@@ -58,9 +58,18 @@ function repairManifest(dirPath) {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         const id = file.replace('Chi_', '').replace('.json', '');
 
+        // JOB-205 防破窗：禁止用 id 當 title fallback，避免產生 L1/L2 佔位符
+        const realTitle = content.lesson_title || content.category || content?.meta?.title;
+        if (!realTitle) {
+            throw new Error(
+                `[repair_manifests.js] 課名缺失：${filePath}\n` +
+                `  需先補 KL4 研究或於 lesson JSON 填入 meta.title / lesson_title / category。\n` +
+                `  禁止以 id (${id}) 作為 title 佔位符（JOB-184 事故根因，見 docs/技術設定/JOB-184-批次建檔事故分析.md）。`
+            );
+        }
         return {
             id: id,
-            title: content.lesson_title || content.category || id,
+            title: realTitle,
             path: file
         };
     });

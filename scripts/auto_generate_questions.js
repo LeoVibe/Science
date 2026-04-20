@@ -72,12 +72,22 @@ function getJsonFiles(dir, pattern = null) {
 /** 題庫 JSON 的 meta（兼容根節點扁平舊欄位） */
 function getBankMeta(jsonObj) {
     const m = jsonObj.meta || {};
+    const title = m.title || jsonObj.lesson_title;
+    // JOB-205 防破窗：title 缺失或為 LN 佔位符時拋錯，避免產生 AI 幻覺題目
+    if (!title || /^L\d+$/.test(title)) {
+        const lessonId = m.lesson || jsonObj.lesson_id || '(unknown)';
+        throw new Error(
+            `[auto_generate_questions.js] 課名缺失或為佔位符：lesson=${lessonId}，title=${title || '(empty)'}\n` +
+            `  需先補 KL4 研究並於 meta.title 填入真實課名。\n` +
+            `  JOB-184 事故根因：無真實 title 時產題容易題目錯放（見 docs/技術設定/JOB-184-批次建檔事故分析.md）。`
+        );
+    }
     return {
         grade: m.grade || jsonObj.grade,
         semester: m.semester || jsonObj.semester,
         publisher: m.publisher || jsonObj.publisher,
         lesson: m.lesson || jsonObj.lesson_id,
-        title: m.title || jsonObj.lesson_title,
+        title,
         subject: m.subject || jsonObj.subject,
     };
 }
