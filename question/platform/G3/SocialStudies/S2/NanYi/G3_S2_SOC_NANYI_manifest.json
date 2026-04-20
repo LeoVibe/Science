@@ -47,18 +47,19 @@
     },
     {
       "id": "L5",
-      "title": "L5",
+      "title": "打造幸福的家園",
       "theme": "",
       "file": "G3_S2_SOC_NANYI_L5.json",
-      "count": 30,
-      "blind_tested": 30,
-      "avg_cqi": 8.44,
-      "quality": "QL4"
+      "count": 0,
+      "blind_tested": 0,
+      "avg_cqi": 0,
+      "quality": "pending",
+      "_job206_note": "2026-04-20: 30 題全數降活（is_active: false）。題目 70% 為跨情境品德題、30% 為探究方法論，與正確課名『打造幸福的家園（自主探究與行動計畫）』主題不符，待 JOB-206 階段 3 重出。"
     }
   ],
   "moduleMetaData": {
-    "total_questions": 150,
-    "blind_tested": 150,
-    "last_updated": "2026-04-15T03:46:02.804Z"
+    "total_questions": 120,
+    "blind_tested": 120,
+    "last_updated": "2026-04-20T00:00:00.000Z"
   }
 }
