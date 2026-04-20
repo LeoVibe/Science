@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026/04/18",
+  "lastUpdated": "2026/04/20",
   "stats": {
     "G3_S2_國語": {
       "count": 36,
@@ -16,7 +16,7 @@
       "subjectStr": "英語"
     },
     "G3_S2_數學": {
-      "count": 29,
+      "count": 28,
       "depth": "QL4",
       "gradesStr": "G3",
       "semesterStr": "S2",
@@ -30,7 +30,7 @@
       "subjectStr": "自然"
     },
     "G3_S2_社會": {
-      "count": 16,
+      "count": 17,
       "depth": "QL4",
       "gradesStr": "G3",
       "semesterStr": "S2",
@@ -256,7 +256,7 @@
       "ql3pct": 100
     },
     "G3_S2_數學_康軒": {
-      "units": 10,
+      "units": 9,
       "bankQuestions": 272,
       "publishedQuestions": 272,
       "questions": 272,
@@ -375,19 +375,19 @@
       "ql3pct": 100
     },
     "G3_S2_社會_南一": {
-      "units": 4,
-      "bankQuestions": 120,
-      "publishedQuestions": 120,
-      "questions": 120,
+      "units": 5,
+      "bankQuestions": 150,
+      "publishedQuestions": 150,
+      "questions": 150,
       "quality": "QL4",
-      "cqi": "8.11",
+      "cqi": "8.32",
       "qlCounts": {
-        "ql4": 120,
+        "ql4": 150,
         "ql3": 0,
         "ql2": 0,
         "ql1": 0
       },
-      "qlTotal": 120,
+      "qlTotal": 150,
       "ql4pct": 100,
       "ql3pct": 100
     },
@@ -1106,5 +1106,5 @@
       "ql3pct": 0
     }
   },
-  "totalIndexed": 380
+  "totalIndexed": 379
 }

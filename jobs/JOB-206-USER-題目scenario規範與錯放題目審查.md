@@ -74,22 +74,40 @@ JOB-204 Report §4 + JOB-205 事故分析延伸發現：題目 `scenario` 欄位
 | `G3_S2_SOC_NANYI_L5.json` 30 題全數 `is_active: false` + `_job206_review_note` | ✅ |
 | `libraryStats.json` stats.G3_S2_社會.count 17→16；publisherStats.G3_S2_社會_南一 units 5→4、questions 150→120、qlTotal 150→120 | ✅ |
 
-### 階段 2-4 待做（本 JOB 內完成）
+### 階段 2-5 已完成（Claude Code, 2026-04-20 ~ 21）
 
-| 階段 | 動作 | 前置 |
+| 階段 | 動作 | 結果 |
 |:--:|:--|:--|
-| **2A 研究** | 建 `knowledge/課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_考古題與討論.md` | ⚠️ G3 目前無 per-lesson KL4；需補前置研究 |
-| **2B 素材** | 登錄米蘭老師 G3 Drive 連結（JOB-172 只登錄到 grade4） | `melances.com/grade3/` |
-| **3 出題** | 30 題（QL4, CQI-P ≥ 5.5，scenario 符合規範） | 階段 2A 完成 |
-| **4 盲測** | 30 題（CQI-V Match ≥ 85%，最終 CQI ≥ 6.5） | 階段 3 完成 |
-| **5 上架** | 取代 L5.json 內容（保留審計軌跡在 git log）、回復 manifest count/quality、更新 libraryStats | 階段 4 通過 |
+| **2A 研究** | 建 KL4 雙檔（單課研究紀錄 + 考古題與討論） | ✅ `knowledge/課綱研究/社會/三下/南一/` 下兩檔完成 |
+| **2B 素材** | 米蘭老師 G3 南一 Drive × 5 登錄（期中/期末/三段考） | ✅ 登錄於 `knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` |
+| **3 出題** | 30 題（inferential 11 + applied 10 + critical 6 + literal 3），全 QL3 | ✅ CQI-P 通過；biasWarning null；答案分佈 8/8/7/7 均衡 |
+| **4 盲測** | Gemini-3.1-Flash-Lite 10-in-1 batch × 3 | ✅ **30/30 Match（100%）**，遠超 85% 門檻 |
+| **5 上架** | manifest 回復 count 30、quality QL4、avgCqi 9.19；libraryStats 重算 | ✅ G3 社會 南一 units 5、questions 150、cqi 8.11→8.32 |
+
+### 關鍵品質數據（L5 驗收）
+
+| 指標 | 值 |
+|:--|:--:|
+| 題數 | 30（3 + 11 + 10 + 6 = literal/inferential/applied/critical）|
+| CQI-P（avgCqi）| **9.19** |
+| CQI-V Match Rate | **100%**（30/30）|
+| quality | **QL4** 全部 |
+| 出題模型 | Claude-Opus-4.7 |
+| 盲測模型 | Gemini-3.1-Flash-Lite（免費 key）|
+
+### β 方案保留條款
+
+本 JOB 階段 2A 採 β 方案（以三下社會發展綱要實證情境為主要研究素材，真實段考題待補）。上架後應規劃：
+- 2 週內由人工下載米蘭老師 G3 南一 Drive PDF（5 個連結已登錄）
+- 用 tcool.cc 20 份考卷索引補充第二批研究題（需 Chrome 工具）
+- 完成後可升 RM3 研究成熟度
 
 ### 米蘭老師 G3 素材補登
 
-已確認 `melances.com/grade3/` 涵蓋 G3 社會科三版本（翰林/康軒/南一）上下學期考古題（Google Drive）。JOB-172 僅登錄 grade4，grade3 尚未盤點。
+已確認 `melances.com/grade3/` 涵蓋 G3 社會科三版本（翰林/康軒/南一）上下學期考古題（Google Drive）。JOB-172 僅登錄 grade4，本 JOB 補登 grade3 南一 5 個 Drive 連結。
 
-- 列入階段 2B 前置動作
 - 參照：`jobs/JOB-172-AG-考古題蒐集方法探索與來源擴充.md:189` 的 grade4 模式
+- 登錄位置：`knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` §二 來源 B
 
 ---
 
@@ -172,17 +190,19 @@ JOB-204 Report §4 + JOB-205 事故分析延伸發現：題目 `scenario` 欄位
 
 ---
 
-## ⚠️ 狀態說明（2026-04-20 更新）
+## ⚠️ 狀態說明（2026-04-21 更新）
 
 此派工單目前狀態：
 - ✅ 背景與根因已記錄
 - ✅ 高階目標已列（含 G3 L5 重出範圍擴充）
 - ✅ 任務邊界已定
-- ✅ **G3 SOC NanYi L5 spot fix 已完成**（manifest title 修 + 30 題降活 + libraryStats 同步）
-- 🟡 階段 2A 前置研究（KL4 三下 南一 L5）：**待執行**
-- 🟡 階段 2B 米蘭老師 G3 素材補登：**待執行**
-- ⚪ 階段 3-5 重出/盲測/上架：依 2A/2B 完成後推進
-- ⚪ 117 檔 scenario 審查：原計畫維持，與 L5 重出並行
+- ✅ **G3 SOC NanYi L5 全流程完成**（spot fix + KL4 雙檔研究 + 30 題重出 + 盲測 100% + 重上架 QL4）
+- ✅ 階段 2A 前置研究（KL4 三下 南一 L5）：已建單課研究紀錄 + 考古題與討論雙檔
+- ✅ 階段 2B 米蘭老師 G3 素材補登：5 個 Drive 連結登錄完成
+- ✅ 階段 3 出題：30 題全 QL3，Claude-Opus-4.7 出題
+- ✅ 階段 4 盲測：Match Rate 30/30 (100%)，Gemini-3.1-Flash-Lite
+- ✅ 階段 5 上架：manifest QL4、avgCqi 9.19；libraryStats cqi 8.32
+- ⚪ 117 檔 scenario 審查：原計畫維持，另起階段與 L5 切分
 
 ---
 
