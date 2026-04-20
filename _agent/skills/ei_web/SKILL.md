@@ -14,6 +14,6 @@ description: 前端工程守則（Web Engineering）— 觸發器，正文在 do
 
 ## 硬閘
 
-- [ ] 禁止 TailwindCSS 類名、禁止硬編碼色碼（使用 `var(--*)` CSS 變數）
+- [ ] 禁止在 JSX 硬編碼色碼（用 Tailwind semantic class 或 CSS 變數）
 - [ ] 禁止絕對路徑（如 `/Users/...`）
-- [ ] HTML 語意化（h1~h4, ul, section）
+- [ ] HTML 語意化（h1~h4, ul, section, aria-label）
