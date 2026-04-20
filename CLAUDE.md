@@ -161,3 +161,26 @@ JOB: JOB-XXX
 `.git/hooks/commit-msg` 會自動驗證格式，不符則阻擋 commit。
 
 **Agent 行為**：每次 commit 前，先草擬訊息並輸出給使用者確認，再執行 `git commit`。
+
+---
+
+## 八、防亂推斷紀律（2026-04-20 起）
+
+2026-04-20 session 使用者明確點出 PM 多次亂推斷（6 類錯誤案例）。此紀律為防再犯的強制規則。
+
+**完整規則與 Why**：`~/.claude/projects/-Users-s389080-Documents-doc-work-0-AI-Project-eidosProject/memory/feedback_anti_hallucination.md`
+**完整計畫與 D-驗證**：`docs/superpowers/specs/2026-04-20-antihallucination-plan.md`
+
+### 核心條款（給結論前必走）
+
+1. **事實 / 推論 / 假說三分**：斷言前內心分類。回覆時標記「✅事實 / 🟡推論 / ❓假說」，不可混為一談。
+2. **武斷用詞黑名單**：「同源、所有、全部、大部分、一定、絕對、不可能、從未、都是」— 使用前必須具體化（「42 個 manifest 中 41 個」而非「大部分」）。
+3. **數字必須實算**：禁直覺估。grep/python count/git log 等實跑輸出；外推數字標「推估」並附信心區間。
+4. **局部不能推全部**：看 ≤3 筆樣本不能下整體結論。抽樣 ≥3 才推小群；推更大範圍要加 confidence 註記。
+5. **因果 vs 時間共現嚴格區分**：「檔案在 commit X 首次出現」≠「commit X 造成問題」。因果需實證鏈：根因腳本、流程環節、可重現場景。
+6. **Logic-heavy 任務啟動 sequential-thinking**：數字估計、跨檔比對、因果斷言、重大結論前，先叫 `mcp__sequential-thinking__sequentialthinking` 走完再下結論。
+
+### 違反後的處置
+
+- 使用者指出「亂推斷」時，立即停止、回讀規則、重走對應條款（不辯解、不補推）。
+- D-驗證期（本 spec #4）：以 6 類案例反覆自測，通不過則補 B（`/challenge`）+ C（自檢 checklist）。
