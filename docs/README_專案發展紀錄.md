@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-20 12:30
-`updated_by`: Claude Code（JOB-202：前端守則與 ei_web SKILL 硬閘同步）
+`last_updated`: 2026-04-20 20:00
+`updated_by`: Claude Code（JOB-205 補登階段：素材庫 parser + 110 課 title 補齊）
 
 ---
 
@@ -38,6 +38,9 @@
 ### 2026-04-20
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-206 | **題目 scenario 規範與錯放題目審查**：JOB-204 §4 + JOB-205 延伸。Subagent 抽樣 5 檔 183 題揭露錯放率達 66%（C2 52% + C3 14%），G5 HanLin L4 滿修女採訪記 >90% 錯放（童話內容佔滿）、G3 HanLin L2 還差一點 0 題正確。外推 117 檔可能影響 2,600-4,900 題。前期研究 `docs/question-audit/JOB-206-前期研究.md` 已產出，後續階段 1-3 待使用者核准付費 LLM 審核預算。| 🟡 OPEN（前期研究完成） |
+| JOB-205 | **JOB-184 批次建檔事故修復（防破窗 + placeholder 清理）+ 補登階段**：追查 `eccb974` mega-commit（標記 JOB-184 但實際涵蓋 5-6 個 JOB 的 4422 檔變更），定位三層防線崩壞。階段 2 防破窗：`repair_manifests.js:63`、`auto_generate_questions.js:80`、`job184_g5s2_social_orchestrator.js:147` 三處 fallback 改 throw；`verify_ui_data_integrity.mjs` 加 D-INT-5 規則；新增 `verify_no_placeholder_title.mjs`。階段 1 事故文件：`docs/技術設定/JOB-184-批次建檔事故分析.md` 含盤點疏漏修正章節。階段 3 補 title：G5 Math × 3 publisher（KL4）+ G3 ENG × 3（發展綱要）= 42 課。**補登階段**（使用者質疑後）：brainstorming skill 產出設計文件，新 `scripts/job205_sync_title_from_materials.mjs` 通用 parser 支援 5 種素材庫 pattern，補 G3 數/自/社/G4 Math/G6 數/自/社 **110 課**；衝突 19 筆寫入 `docs/question-audit/title-conflicts.md`；vision 驗證 3 張 G3 jpg 與素材庫 **100% 一致**。Placeholder 最終 27→10 manifest（剩英語 + G6 Math 衝突 + G3 社會 NanYi 邊界）。見 `jobs/JOB-205-Report.md` | 🟢 DONE |
+| JOB-204 | **視覺清晰化 A+B+C 與字型試行**：JOB-203 Phase 0 三輪雛形後鎖定「不換色系、不動結構」方針；本 JOB 交付 14 項元素級改動——A1/A2 `--foreground`/`--muted-foreground` 對比度升至 AAA/AA、A3 題目字重 semibold；B1 選項 A/B/C/D badge 從純文字升級 28×28 方形底、B2 hover 邊框 /50 → /70、B3 答對/錯選加 ✓/✕ 色盲友善圖示；C1 `--wrong` 粉 → 正紅、C2-C4 分課卡題數 pill 放大與前綴微調；D1-D4 字型試行（標題 Iansui + 數字 Baloo 2，body 仍 Nunito）；E1-E3 `docs/網站功能規格書.md §1.1 §1.4` 同步。L1-3 0 違規 + L2-1 8/8 + Build 通過；L2-2 既有測試 sample 問題列遺留。發現 G5 南一 L4「縣官審石頭」10/12 題 scenario 不符，全站掃描 117 檔可疑，列 JOB-206 獨立處理；42 manifest title 佔位符列 JOB-205。見 `jobs/JOB-204-Report.md` | 🟢 DONE |
 | JOB-203 | **視覺重構-全站 Claymorphism 導入-Phase0 規劃與獨立雛形站**：使用者透過 `ui-ux-pro-max` skill（v2.5.0，全域安裝）確定採用 Claymorphism 風格 + Learning Blue 調色盤。本 Phase 0 將產出三份規劃文件（方向決策閘 / token 映射 / Phase 計畫）+ 在 `prototypes/ui-v2/` 建立獨立 Vite 雛形站（4 個代表頁面），**絕對不碰 `apps/v3_eidos/`**。執行者：Claude Opus（claude-opus-4-7）。 | 🟡 OPEN |
 | JOB-202 | **前端守則與 ei_web SKILL 硬閘同步**：`docs/技術設定/前端開發與AI實作守則.md` 從 66 行精簡至 45 行（刪除 SOP 5 具體 class 名、SOP 7 通用清潔程式碼等與 CLAUDE.md 重複項）；測試層級表由錯誤的 L1/L2/L3 改為精確對應 L1-3/L2-1/L2-2；同步修正 `_agent/skills/ei_web/SKILL.md` 第一條硬閘「禁止 TailwindCSS 類名」（與專案實際技術棧 Tailwind + shadcn/ui 矛盾）。`/pj_audit` 稽核 5/5 PASS。**本單為事後補單登記**，已留下紀律痕跡供未來引以為鑑。見 `jobs/JOB-202-Report.md` | 🟢 DONE |
 

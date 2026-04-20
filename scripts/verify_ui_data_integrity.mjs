@@ -10,6 +10,7 @@
  *   D-INT-2  `answer_index` 必須是整數、在 `options.length` 範圍內
  *   D-INT-3  `options` 必須恰為 4 個字串
  *   D-INT-4  模擬 loader 計算 normalizedAnswer，斷言等於 `answer_index`
+ *   D-INT-5  manifest items[].title 不得為 /^L\d+$/ 佔位符（JOB-205 防破窗新增；warning 模式）
  *
  * 使用：
  *   node scripts/verify_ui_data_integrity.mjs
@@ -88,7 +89,8 @@ function walkQuestionJsonFiles(dir, acc = []) {
 }
 
 const failures = [];
-const stats = { files: 0, questions: 0, int1: 0, int2: 0, int3: 0, int4: 0 };
+const warnings = []; // D-INT-5 警告（不擋 gate，僅列出）
+const stats = { files: 0, questions: 0, int1: 0, int2: 0, int3: 0, int4: 0, int5: 0 };
 
 const allFiles = walkQuestionJsonFiles(QUESTION_ROOT);
 const files = includeAll ? allFiles : allFiles.filter(isInOpenRange);
@@ -164,14 +166,56 @@ for (const file of files) {
     });
 }
 
+// D-INT-5：掃 manifest.json 檢查 items[].title 是否為 LN 佔位符（warning 模式）
+function walkManifestFiles(dir, acc = []) {
+    if (!fs.existsSync(dir)) return acc;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        if (entry.isDirectory() && isBackupDir(entry.name)) continue;
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) walkManifestFiles(full, acc);
+        else if (entry.isFile() && entry.name.endsWith('manifest.json')) acc.push(full);
+    }
+    return acc;
+}
+const manifestFiles = walkManifestFiles(QUESTION_ROOT);
+for (const mFile of manifestFiles) {
+    // 僅掃開放範圍 manifest（避免 S1 歷史快照雜訊）
+    if (!includeAll && !isInOpenRange(mFile)) continue;
+    try {
+        const m = JSON.parse(fs.readFileSync(mFile, 'utf8'));
+        if (!Array.isArray(m.items)) continue;
+        for (const [i, it] of m.items.entries()) {
+            if (typeof it.title === 'string' && /^L\d+$/.test(it.title)) {
+                stats.int5++;
+                warnings.push({
+                    ctx: `${path.relative(PROJECT_ROOT, mFile)} items[${i}]`,
+                    rule: 'D-INT-5',
+                    detail: `title="${it.title}" 為 LN 佔位符（見 JOB-205）`,
+                });
+            }
+        }
+    } catch {
+        // manifest 讀取失敗不擋（交由其他工具處理）
+    }
+}
+
 console.log('=== UI ↔ 資料一致性驗證 ===');
-console.log(`掃描檔案：${stats.files}`);
+console.log(`掃描檔案：${stats.files}（題庫 JSON）+ ${manifestFiles.length}（manifest）`);
 console.log(`檢查題數：${stats.questions}`);
 console.log(`D-INT-1 缺 answer 欄位：${stats.int1}`);
 console.log(`D-INT-2 answer_index 越界：${stats.int2}`);
 console.log(`D-INT-3 options 非 4 選項：${stats.int3}`);
 console.log(`D-INT-4 loader normalizedAnswer 錯位：${stats.int4}`);
+console.log(`D-INT-5 manifest title LN 佔位符（warning）：${stats.int5}`);
 console.log('---');
+
+if (warnings.length > 0) {
+    console.log(`⚠️  ${warnings.length} 處 D-INT-5 警告（不擋 gate，修復見 JOB-205）：`);
+    const w = warnings.slice(0, 5);
+    for (const x of w) console.log(`  [${x.rule}] ${x.ctx}：${x.detail}`);
+    if (warnings.length > w.length) console.log(`  ...（省略 ${warnings.length - w.length} 筆，完整清單用 scripts/verify_no_placeholder_title.mjs）`);
+    console.log('---');
+}
 
 if (failures.length === 0) {
     console.log('✅ 全站通過 UI ↔ 資料一致性檢查');

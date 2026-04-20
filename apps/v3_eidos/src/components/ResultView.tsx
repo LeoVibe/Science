@@ -44,11 +44,12 @@ export default function ResultView({
       {/* Score */}
       <div className="text-center space-y-3">
         <h1 className="text-2xl font-black">🎉 答題完成！</h1>
-        <div className={`text-6xl font-black subject-text-${theme}`}>
+        {/* JOB-204 D4: 分數加 .num 使用 Baloo 2 tabular-nums */}
+        <div className={`num text-6xl font-black subject-text-${theme}`}>
           {score}<span className="text-2xl text-muted-foreground">/{total}</span>
         </div>
         <div className={`inline-block px-4 py-1 rounded-full text-sm font-bold subject-bg-${theme}-light subject-text-${theme}`}>
-          正確率 {accuracy}%
+          正確率 <span className="num">{accuracy}</span>%
         </div>
         <p className="text-lg font-medium">{getEncouragement(accuracy)}</p>
       </div>
@@ -58,11 +59,12 @@ export default function ResultView({
         <h3 className="font-bold">📊 總體統計</h3>
         <div className="grid grid-cols-2 gap-2 text-sm">
           <div className="bg-muted rounded-xl p-2 text-center">
-            <div className="text-lg font-bold">{stats.totalAnswered}</div>
+            {/* JOB-204 D4: 總答題數加 .num */}
+            <div className="num text-lg font-bold">{stats.totalAnswered}</div>
             <div className="text-muted-foreground text-xs">總答題數</div>
           </div>
           <div className="bg-muted rounded-xl p-2 text-center">
-            <div className="text-lg font-bold">{stats.accuracy}%</div>
+            <div className="num text-lg font-bold">{stats.accuracy}%</div>
             <div className="text-muted-foreground text-xs">總正確率</div>
           </div>
         </div>
@@ -92,7 +94,8 @@ export default function ResultView({
                 <div key={r.questionId} className="rounded-xl border bg-muted/30 p-3 space-y-2">
                   <div className="flex justify-between items-center flex-wrap gap-1">
                     {q?.category && <span className="text-xs bg-muted px-2 py-0.5 rounded-full">{q.category}</span>}
-                    <span className="text-xs text-destructive">錯 {r.wrong} 次 / 共 {r.total} 次</span>
+                    {/* JOB-204 D4: 錯題次數加 .num */}
+                    <span className="num text-xs text-destructive">錯 {r.wrong} 次 / 共 {r.total} 次</span>
                   </div>
                   {q ? (
                     <>
@@ -103,7 +106,8 @@ export default function ResultView({
                             }`}>
                             <span className="font-bold text-muted-foreground">{optionLabels[j]}</span>
                             <span>{stripOptionPrefix(opt)}</span>
-                            {j === q.normalizedAnswer && <span className="ml-auto text-green-600">✓ 正確答案</span>}
+                            {/* JOB-204 B3: 硬編碼 text-green-600 改為 token text-correct */}
+                            {j === q.normalizedAnswer && <span className="ml-auto text-correct">✓ 正確答案</span>}
                           </div>
                         ))}
                       </div>
@@ -140,7 +144,8 @@ export default function ResultView({
             {history.map(h => (
               <div key={h.id} className="flex justify-between py-1 border-b last:border-0">
                 <span>{h.type}</span>
-                <span>{h.accuracy}% ({h.score}/{h.count})</span>
+                {/* JOB-204 D4: 正確率與題數加 .num */}
+                <span className="num">{h.accuracy}% ({h.score}/{h.count})</span>
               </div>
             ))}
           </div>

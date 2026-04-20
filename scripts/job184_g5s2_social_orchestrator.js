@@ -142,9 +142,16 @@ function rebuildPublisherManifest(pubDir, manifestName) {
         const meta = content.meta || {};
         const ev = evaluateFile(abs);
         const lessonId = meta.lesson || file.match(/L\d+/)[0];
+        // JOB-205 防破窗：禁止 lessonId 作 title fallback
+        if (!meta.title || /^L\d+$/.test(meta.title)) {
+            throw new Error(
+                `[job184_g5s2_social_orchestrator.js] 課名缺失：${abs}\n` +
+                `  需於 meta.title 填真實課名（見 docs/技術設定/JOB-184-批次建檔事故分析.md）。`
+            );
+        }
         manifest.items.push({
             id: lessonId.replace(/^L/i, 'L').replace(/^l/, 'L'),
-            title: meta.title || lessonId,
+            title: meta.title,
             theme: meta.theme || '',
             file,
             count: ev.count || 0,

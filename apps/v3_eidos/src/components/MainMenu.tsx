@@ -152,10 +152,12 @@ export default function MainMenu({
                     <div className="absolute left-0 top-0 bottom-0 w-1.5 rounded-l-2xl" style={{ backgroundColor: accentColor }} />
                     <div className="pl-2 flex items-center justify-between">
                       <span className="text-sm text-foreground font-bold leading-snug">
-                        <span className="text-muted-foreground font-semibold">第{i + 1}課　</span>{cat}
+                        {/* JOB-204 C4：前綴顏色 muted-foreground → foreground/60，font-semibold → font-medium */}
+                        <span className="text-foreground/60 font-medium">第{i + 1}課　</span>{cat}
                       </span>
-                      <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-muted-foreground/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
-                        {categoryCounts[cat] ?? 0} 題
+                      {/* JOB-204 C2+C3：題數 pill 10px→12px、padding 放大、透明度 70% → 100%；D4：數字包 .num */}
+                      <span className="text-xs font-bold px-2 py-1 rounded-md bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        <span className="num">{categoryCounts[cat] ?? 0}</span> 題
                       </span>
                     </div>
                   </button>
