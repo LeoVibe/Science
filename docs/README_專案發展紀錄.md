@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-20 12:30
-`updated_by`: Claude Code（JOB-202：前端守則與 ei_web SKILL 硬閘同步）
+`last_updated`: 2026-04-20 17:55
+`updated_by`: Claude Code（JOB-204：視覺清晰化 A+B+C 與字型試行）
 
 ---
 
@@ -33,6 +33,7 @@
 ### 2026-04-20
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-204 | **視覺清晰化 A+B+C 與字型試行**：JOB-203 Phase 0 三輪雛形後鎖定「不換色系、不動結構」方針；本 JOB 交付 14 項元素級改動——A1/A2 `--foreground`/`--muted-foreground` 對比度升至 AAA/AA、A3 題目字重 semibold；B1 選項 A/B/C/D badge 從純文字升級 28×28 方形底、B2 hover 邊框 /50 → /70、B3 答對/錯選加 ✓/✕ 色盲友善圖示；C1 `--wrong` 粉 → 正紅、C2-C4 分課卡題數 pill 放大與前綴微調；D1-D4 字型試行（標題 Iansui + 數字 Baloo 2，body 仍 Nunito）；E1-E3 `docs/網站功能規格書.md §1.1 §1.4` 同步。L1-3 0 違規 + L2-1 8/8 + Build 通過；L2-2 既有測試 sample 問題列遺留。發現 G5 南一 L4「縣官審石頭」10/12 題 scenario 不符，全站掃描 117 檔可疑，列 JOB-206 獨立處理；42 manifest title 佔位符列 JOB-205。見 `jobs/JOB-204-Report.md` | 🟢 DONE |
 | JOB-203 | **視覺重構-全站 Claymorphism 導入-Phase0 規劃與獨立雛形站**：使用者透過 `ui-ux-pro-max` skill（v2.5.0，全域安裝）確定採用 Claymorphism 風格 + Learning Blue 調色盤。本 Phase 0 將產出三份規劃文件（方向決策閘 / token 映射 / Phase 計畫）+ 在 `prototypes/ui-v2/` 建立獨立 Vite 雛形站（4 個代表頁面），**絕對不碰 `apps/v3_eidos/`**。執行者：Claude Opus（claude-opus-4-7）。 | 🟡 OPEN |
 | JOB-202 | **前端守則與 ei_web SKILL 硬閘同步**：`docs/技術設定/前端開發與AI實作守則.md` 從 66 行精簡至 45 行（刪除 SOP 5 具體 class 名、SOP 7 通用清潔程式碼等與 CLAUDE.md 重複項）；測試層級表由錯誤的 L1/L2/L3 改為精確對應 L1-3/L2-1/L2-2；同步修正 `_agent/skills/ei_web/SKILL.md` 第一條硬閘「禁止 TailwindCSS 類名」（與專案實際技術棧 Tailwind + shadcn/ui 矛盾）。`/pj_audit` 稽核 5/5 PASS。**本單為事後補單登記**，已留下紀律痕跡供未來引以為鑑。見 `jobs/JOB-202-Report.md` | 🟢 DONE |
 

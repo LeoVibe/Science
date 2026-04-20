@@ -8,13 +8,13 @@
   :root {
     /* Warm Amber theme — 琥珀金 × 象牙暖白 × 溫潤書卷 */
     --background: 40 30% 97%;
-    --foreground: 30 12% 20%;
+    --foreground: 30 12% 12%;           /* JOB-204 A2: 20% → 12% 提升對比（AAA 門檻） */
 
     --card: 40 20% 99%;
-    --card-foreground: 30 12% 20%;
+    --card-foreground: 30 12% 12%;       /* 同步 foreground */
 
     --popover: 40 20% 99%;
-    --popover-foreground: 30 12% 20%;
+    --popover-foreground: 30 12% 12%;
 
     --primary: 38 65% 50%;
     --primary-foreground: 0 0% 100%;
@@ -23,7 +23,7 @@
     --secondary-foreground: 30 12% 30%;
 
     --muted: 35 10% 92%;
-    --muted-foreground: 30 8% 50%;
+    --muted-foreground: 30 8% 40%;       /* JOB-204 A1: 50% → 40% 達 WCAG AA */
 
     --accent: 22 60% 56%;
     --accent-foreground: 0 0% 100%;
@@ -54,7 +54,7 @@
     /* Quiz feedback */
     --correct: 150 45% 44%;
     --correct-light: 150 40% 94%;
-    --wrong: 0 55% 62%;
+    --wrong: 0 60% 52%;                  /* JOB-204 C1: 55% 62% → 60% 52%（粉 → 正紅）*/
     --wrong-light: 0 50% 96%;
 
     --sidebar-background: 40 30% 97%;
@@ -69,17 +69,17 @@
 
   .dark {
     --background: 30 15% 10%;
-    --foreground: 35 12% 90%;
+    --foreground: 35 12% 94%;             /* JOB-204 A2 Dark 同步 */
     --card: 30 15% 14%;
-    --card-foreground: 35 12% 90%;
+    --card-foreground: 35 12% 94%;
     --popover: 30 15% 14%;
-    --popover-foreground: 35 12% 90%;
+    --popover-foreground: 35 12% 94%;
     --primary: 38 55% 55%;
     --primary-foreground: 0 0% 100%;
     --secondary: 30 12% 18%;
-    --secondary-foreground: 35 12% 90%;
+    --secondary-foreground: 35 12% 94%;
     --muted: 30 10% 18%;
-    --muted-foreground: 35 8% 55%;
+    --muted-foreground: 35 8% 68%;         /* JOB-204 A1 Dark 同步 */
     --accent: 22 50% 52%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 50% 38%;
@@ -106,6 +106,17 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Nunito", "Noto Sans TC", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* JOB-204 D2：標題改 Iansui 手寫正體中文；數字 (.num) 改 Baloo 2 tabular-nums。body 保留原 Nunito。 */
+  h1, h2, .font-zh {
+    font-family: 'Iansui', 'Noto Sans TC', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .num {
+    font-family: 'Baloo 2', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
   }
 }
 

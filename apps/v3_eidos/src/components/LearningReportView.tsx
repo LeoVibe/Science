@@ -185,14 +185,16 @@ export default function LearningReportView({
                       <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke={`hsl(var(--subject-${theme}))`} strokeWidth="3" strokeDasharray={`${avgAccuracy}, 100`} strokeLinecap="round" />
                     </svg>
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-lg font-black">{avgAccuracy}%</span>
+                      {/* JOB-204 D4: 環形圖中央百分比加 .num */}
+                      <span className="num text-lg font-black">{avgAccuracy}%</span>
                     </div>
                   </div>
                   <div className="flex-1 space-y-1">
                     <p className="font-bold text-sm">整體正確率（{selectedPub}版）</p>
                     <div className="flex gap-3 text-xs text-muted-foreground">
-                      <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-correct inline-block" />正確 {totalCorrect}</span>
-                      <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-destructive inline-block" />錯誤 {totalAnswered - totalCorrect}</span>
+                      {/* JOB-204 D4: 正確/錯誤計數加 .num */}
+                      <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-correct inline-block" /><span className="num">正確 {totalCorrect}</span></span>
+                      <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-destructive inline-block" /><span className="num">錯誤 {totalAnswered - totalCorrect}</span></span>
                     </div>
                     <p className="text-xs text-muted-foreground">
                       {avgAccuracy >= 80 ? '表現優異！繼續保持 🎉' : avgAccuracy >= 60 ? '穩定進步中，加油！💪' : '多多練習，一定會進步的！📚'}
@@ -208,7 +210,8 @@ export default function LearningReportView({
                     <div key={c.category} className="space-y-1">
                       <div className="flex justify-between text-xs">
                         <span className="font-medium truncate flex-1">{c.category}</span>
-                        <span className="text-muted-foreground shrink-0 ml-2">{c.accuracy}% <span className="text-[10px]">({c.correct}/{c.total})</span></span>
+                        {/* JOB-204 D4: 各課正確率百分比與題數加 .num */}
+                        <span className="num text-muted-foreground shrink-0 ml-2">{c.accuracy}% <span className="text-[10px]">({c.correct}/{c.total})</span></span>
                       </div>
                       <div className="h-2 bg-secondary rounded-full overflow-hidden">
                         <div className="h-full rounded-full transition-all duration-500" style={{
@@ -231,8 +234,9 @@ export default function LearningReportView({
                         <div className="text-[10px] text-muted-foreground">{new Date(h.timestamp).toLocaleDateString('zh-TW', { month: 'short', day: 'numeric' })}</div>
                       </div>
                       <div className="flex items-center gap-2 shrink-0">
-                        <span className="text-xs text-muted-foreground">{h.score}/{h.count}</span>
-                        <span className={`text-sm font-bold ${h.accuracy >= 80 ? 'text-correct' : h.accuracy >= 60 ? 'text-foreground' : 'text-wrong'}`}>{h.accuracy}%</span>
+                        {/* JOB-204 D4: 練習歷史題數與正確率加 .num */}
+                        <span className="num text-xs text-muted-foreground">{h.score}/{h.count}</span>
+                        <span className={`num text-sm font-bold ${h.accuracy >= 80 ? 'text-correct' : h.accuracy >= 60 ? 'text-foreground' : 'text-wrong'}`}>{h.accuracy}%</span>
                       </div>
                     </div>
                   ))}
@@ -302,7 +306,8 @@ function SummaryCard({ label, value, icon }: { label: string; value: string | nu
   return (
     <div className="bg-card rounded-2xl border p-3 text-center space-y-1">
       <span className="text-lg">{icon}</span>
-      <div className="text-xl font-black text-foreground">{value}</div>
+      {/* JOB-204 D4: SummaryCard 數字加 .num */}
+      <div className="num text-xl font-black text-foreground">{value}</div>
       <div className="text-[10px] text-muted-foreground font-medium">{label}</div>
     </div>
   );

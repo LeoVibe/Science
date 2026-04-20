@@ -188,8 +188,9 @@ export default function QuizView({
           />
         </div>
         <div className="flex justify-between text-xs text-muted-foreground">
-          <span>第 {currentIndex + 1} 題 / 共 {questions.length} 題</span>
-          <span>✓ {sessionCorrect} ✗ {sessionWrong}</span>
+          {/* JOB-204 D4: 進度與計數加 .num 使用 Baloo 2 tabular-nums 對齊 */}
+          <span className="num">第 {currentIndex + 1} 題 / 共 {questions.length} 題</span>
+          <span className="num">✓ {sessionCorrect} ✗ {sessionWrong}</span>
         </div>
       </div>
 
@@ -209,11 +210,13 @@ export default function QuizView({
           </span>
         </div>
 
-        <p className="text-lg font-medium leading-relaxed">{current.question}</p>
+        {/* JOB-204 A3: font-medium → font-semibold 強化題目層級 */}
+        <p className="text-lg font-semibold leading-relaxed">{current.question}</p>
 
         <div className="space-y-2">
           {current.options.map((opt, i) => {
-            let optClass = 'bg-background border hover:border-primary/50';
+            // JOB-204 B2: hover 邊框透明度 50 → 70，hover 回饋更明顯
+            let optClass = 'bg-background border hover:border-primary/70';
             if (confirmed) {
               if (i === current.normalizedAnswer) {
                 optClass = 'bg-correct-light border-2 border-correct';
@@ -225,16 +228,35 @@ export default function QuizView({
             } else if (i === selectedOption) {
               optClass = `subject-bg-${theme}-light border-2 subject-border-${theme}`;
             }
+
+            // JOB-204 B1: A/B/C/D badge 從純文字升級為 28×28 方形 bg-muted + text-primary
+            // 確認後若為正解：綠底白字；若為錯選：紅底白字
+            let badgeClass = 'bg-muted text-primary';
+            if (confirmed && i === current.normalizedAnswer) {
+              badgeClass = 'bg-correct text-white';
+            } else if (confirmed && i === selectedOption && i !== current.normalizedAnswer) {
+              badgeClass = 'bg-wrong text-white';
+            }
+
             const isKeyFeedback = keyFeedbackIndex === i;
             return (
               <button
                 key={i}
                 onClick={() => !confirmed && setSelectedOption(i)}
                 disabled={confirmed}
-                className={`w-full text-left px-4 py-3 rounded-xl transition-all duration-150 flex items-start gap-3 ${optClass} ${isKeyFeedback ? 'scale-[0.98] ring-2 ring-primary/50' : 'scale-100'}`}
+                className={`w-full text-left px-4 py-3 rounded-xl transition-all duration-150 flex items-center gap-3 ${optClass} ${isKeyFeedback ? 'scale-[0.98] ring-2 ring-primary/50' : 'scale-100'}`}
               >
-                <span className="font-bold text-muted-foreground shrink-0">{optionLabels[i]}</span>
-                <span>{stripOptionPrefix(opt)}</span>
+                <span className={`shrink-0 w-7 h-7 rounded-lg font-bold grid place-items-center text-sm transition-colors ${badgeClass}`} aria-hidden="true">
+                  {optionLabels[i]}
+                </span>
+                <span className="flex-1">{stripOptionPrefix(opt)}</span>
+                {/* JOB-204 B3: 正解 ✓ / 錯選 ✕ 圖示（色盲友善，不只靠顏色） */}
+                {confirmed && i === current.normalizedAnswer && (
+                  <span className="ml-auto text-correct text-xl font-black shrink-0" aria-hidden="true">✓</span>
+                )}
+                {confirmed && i === selectedOption && i !== current.normalizedAnswer && (
+                  <span className="ml-auto text-wrong text-xl font-black shrink-0" aria-hidden="true">✕</span>
+                )}
               </button>
             );
           })}
