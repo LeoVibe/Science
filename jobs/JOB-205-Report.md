@@ -206,6 +206,87 @@ Claude Code 環境限制；使用者若切到 `/g5/mat/s2/hlm` 等應看到真�
 
 ---
 
+---
+
+## 📌 補登階段（2026-04-20 20:00，使用者質疑後追加）
+
+### 觸發
+
+使用者於 JOB-205 結案後質疑「G3/G4 有做過 KL4 研究」。PM（Claude Code）重新查閱 `docs/進度彙整_題庫研發與產出.md` 與 `knowledge/課綱研究/` 所有檔案，**承認原盤點疏漏**：
+
+- 原錯用嚴格格式 `KL4_.*_L\d+_.*_單課研究紀錄.md` 搜尋，漏抓「原始研究素材庫」與「發展綱要」
+- 實際 G3/G4/G6 非國語科目都有 KL3 發展綱要 + KL4 素材庫，進度表顯示**全 S2 組合都有 KL3+KL4 研究**
+- 詳見 `docs/技術設定/JOB-184-批次建檔事故分析.md` §八「盤點疏漏修正」
+
+### 補登工作
+
+在 `job-205-placeholder-fix` branch 追加，不另開 JOB（遵守使用者 2026-04-20 19:00「不浮濫派工」原則）。
+
+**設計文件**：`docs/superpowers/specs/2026-04-20-placeholder-title-sync-design.md`（經 brainstorming skill 產出）
+
+**產出**：
+
+| 項目 | 內容 |
+|:--|:--|
+| `scripts/job205_sync_title_from_materials.mjs` | 新通用 parser，支援 5 種素材庫 pattern（A/B/C/D/E） |
+| 110 課 title 補齊 | G3 數/自/社 S2 × 3 pub + G4 Math × 3 + G6 數/自/社 × 3 = **21 manifest** |
+| 110 lesson JSON `meta.title` 同步 | 與 manifest 一致 |
+| `docs/question-audit/title-conflicts.md` | 19 筆衝突列備查（G6 Math × 7 + G5 Math 回溯 × 12） |
+| Vision 驗證 3 張 G3 jpg | 素材庫與實體教科書目錄 **100% 一致**（G3 康軒數/自、G3 翰林社） |
+
+### Placeholder 最終統計
+
+| 階段 | 開放範圍 S2 placeholder manifest |
+|:--:|:--:|
+| JOB-205 原階段 3 前 | 33 |
+| 原階段 3 後（僅補 G5 Math + G3 ENG）| 27 |
+| **補登階段後** | **10** |
+
+剩 10 manifest 分布：
+- G4 英語 S2 × 3（使用者明示不處理）
+- G5 英語 S2 × 3（同上）
+- G6 Math × 3：各剩 1-2 課衝突保留現值
+- G3 社會 NanYi × 1：素材庫僅 4 課，manifest 第 5 課超出
+
+### 衝突分類（19 筆）
+
+| 類型 | 數量 | 範例 |
+|:--|:--:|:--|
+| 簡寫差異 | ~11 | G5 HanLin L3 「長方體與正方體的體積」vs 素材庫「長/正方體體積」（語意同，格式差）|
+| 順序位移 | ~5 | G6 HanLin L2「圓面積與扇形面積」vs 素材庫 U2「速率」（manifest 順序與素材庫整體錯位）|
+| 真歧異 | ~3 | G5 HanLin L5「整數小數除以整數」vs 素材庫 U5「多邊形與扇形」（完全不同主題，需人工裁決）|
+
+**策略** `keep_current`：保留現值、寫入清單備查，未來獨立 audit JOB 人工裁決。
+
+### Vision 驗證細節
+
+| 來源 jpg | 對象 | Parser 結果 | 一致性 |
+|:--|:--|:--:|:--:|
+| 三下數學_康軒.jpg | G3 Math KANGHSUAN L1-L9 | 9 課 | **100%** |
+| 三下自然_康軒.jpg | G3 SCI KANGHSUAN L1-L4 | 4 課 | **100%** |
+| 三下社會_翰林.jpg | G3 SOC HANLIN L1-L5 可見（L6 頁面未顯示） | 5 課 | **100% 可見部分** |
+
+**結論**：素材庫為可信資料源，經 parser 寫入 manifest 無誤。
+
+### 測試結果
+
+- ✅ L1-3 `verify_ui_data_integrity.mjs --gate` 通過（0 違規，D-INT-5 warning 從 174 → 22 筆）
+- ✅ Build：`npm run build` 通過 4.68s
+- ✅ Sync public：`node scripts/sync_v3_public_questions.mjs` 完成（381 題庫 + 57 manifest）
+
+### 補登異動清單
+
+- `scripts/job205_sync_title_from_materials.mjs`（新）
+- `docs/superpowers/specs/2026-04-20-placeholder-title-sync-design.md`（新）
+- `docs/question-audit/title-conflicts.md`（新）
+- G3 Math/Sci/Soc × 3 publisher 共 9 manifest + ~56 lesson JSON
+- G4 Math × 3 manifest + 30 lesson JSON
+- G6 Math/Sci/Soc × 3 publisher 共 9 manifest + ~30 lesson JSON
+- `apps/v3_eidos/public/question/platform/` 同步複製（sync 腳本）
+- `docs/README_專案發展紀錄.md`（追加條目）
+
+---
+
 ## 真實回報本次對話的模型與花費
 
 ＄作業匯總：Token數:- | 花費: $- | 使用模型: claude-opus-4-7 + subagent(general-purpose) | 執行者: Claude Code
