@@ -33,6 +33,7 @@
 ### 2026-04-21
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-207 | **考古題全站存檔與淬煉 MD 目錄建立**：延伸 JOB-206 β+ 補償實踐，重構考古題資產（舊 `knowledge/考古題原檔/` → 新 `knowledge/考古/` 三軌：原始/淬煉/_manifest）。新建 10 章 README（含新 Rule 7「原始檔永久保存」取代舊「解析即刪」）、2 個 pipeline 腳本（`job207_download_batch.py` + `job207_distill_to_md.py`）、G3 社會南一 Pilot 完成（25 PDF → 14 MD + `_index.json`；另 3 資料夾共 49 MD + 4 index）。51 份 _test_10 PDF 重命名遷移；JOB-172 聚合 JSON 拆 9 MD。全站 11,704 PDF 清單已備（等後續每週批次下載）。7 個現役規範路徑更新。遺留：G3 社會南一 2 Drive 被 rate-limit 待重試、舊目錄待清理、其他科目 `SUBJECT_KEYWORDS` 待補。執行者：Claude Code（授權一條龍）。見 `jobs/JOB-207-Report.md` | 🟢 DONE |
 | JOB-206 | **G3 SOC NanYi L5「打造幸福的家園」全課重出上架**：anti-hallucination D-驗證發現原 30 題錯放（70% 跨情境品德題、30% 探究方法論），與正確課名「打造幸福的家園（自主探究與行動計畫）」主題不符。使用者裁決整課刪除重出。一次做完 spot fix（manifest title 補正 + 30 題降活 + libraryStats 同步）+ KL4 雙檔研究（單課研究紀錄 + 考古題與討論，β 方案以三下發展綱要實證情境為主）+ Claude-Opus-4.7 出題 30 題（taxonomy 3-11-10-6、答案分佈 8-8-7-7 均衡）+ Gemini-3.1-Flash-Lite 盲測 30/30 Match（100%）+ QL4 上架（avgCqi **9.19**）。libraryStats 重算：G3 社會 南一 units 4→5、題數 120→150、cqi 8.11→8.32。米蘭老師 G3 南一 Drive × 5 登錄於 KL4 考古題討論檔。JOB-206 原 117 檔 scenario 審查改列遺留，建議另開 JOB。執行者：Claude Code（使用者授權例外）。見 `jobs/JOB-206-Report.md` | 🟢 DONE |
 
 ### 2026-04-20
