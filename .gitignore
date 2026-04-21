@@ -56,6 +56,7 @@ knowledge/3_考古題/淬煉/**/*.md
 !knowledge/3_考古題/淬煉/**/_index.json
 
 # iCloud / macOS 同步時產生的重複檔（檔名末尾 " 2"/" 3" 等帶空格+數字）
+# 2026-04-21 擴充 **/ 遞迴 glob，防止深層目錄未被擋
 * 2.json
 * 3.json
 * 4.json
@@ -65,8 +66,22 @@ knowledge/3_考古題/淬煉/**/*.md
 * 3.md
 * 2.log
 * 3.log
+* 2.js
+* 3.js
+**/* 2.js
+**/* 3.js
+**/* 2.mjs
+**/* 2.py
+**/* 2.ts
+**/* 2.tsx
 *manifest 2.json
 *manifest 3.json
+
+# Session 執行日誌（本機單次產生，不進版控）
+logs/
+
+# 題庫 backup 目錄（歷史 JOB 產物，不進開發庫）
+question/platform/**/*backup*/
 *manifest 4.json
 
 # Antigravity 偶發臨時環境目錄
