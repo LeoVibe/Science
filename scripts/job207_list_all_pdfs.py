@@ -14,7 +14,7 @@ import sys
 import os
 from pathlib import Path
 
-MANIFEST_DIR = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/考古題原檔/_manifest')
+MANIFEST_DIR = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/考古/_manifest')
 DRIVE_MANIFEST = MANIFEST_DIR / 'drive_manifest_G1_G6.json'
 PDF_MANIFEST = MANIFEST_DIR / 'pdf_manifest_G1_G6.json'
 PROGRESS_LOG = MANIFEST_DIR / 'list_progress.log'
