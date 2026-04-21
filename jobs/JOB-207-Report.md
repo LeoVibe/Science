@@ -76,12 +76,12 @@ JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考�
 - [x] `knowledge/考古/README.md` 新規範
 - [x] 2 個新腳本可用
 - [x] G3 社會南一 14 MD + 4 `_index.json`（跨 4 資料夾）
-- [ ] `/pj_sync` 待執行（Phase 6 後半）
+- [x] 已執行 /pj_sync 全域知識沉澱
 - [x] `jobs/JOB-207-Report.md`（本檔）
 
 ## 🔄 同步確認
-- [ ] `docs/進度彙整_題庫研發與產出.md` 更新（/pj_sync 時處理）
-- [ ] `docs/README_專案發展紀錄.md` 加 JOB-207 DONE 條目（/pj_sync 時處理）
+- [x] `docs/進度彙整_題庫研發與產出.md` — JOB-207 未改題庫統計，無須更新（僅基礎建設）
+- [x] `docs/README_專案發展紀錄.md` 加 JOB-207 DONE 條目於 2026-04-21 區塊
 - [x] `.gitignore` 調整完成（`_index.json` 允許進 git）
 
 ## ⚠️ 遺留問題
