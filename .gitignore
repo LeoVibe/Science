@@ -20,13 +20,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# 個人開發環境設定（本機保留，不推 GitHub）
+.mcp.json
+.nosync
+.cursorrules
+.cursor/
+.vscode/
+.claude/
+.logs/
+logs/
+
 # Editor directories and files
 .idea/
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.suo
 *.ntvs*
 *.njsproj
