@@ -19,7 +19,7 @@ export default function AdminUnitCuration({ grade, semester, subject, publisher,
     useEffect(() => {
         async function fetchQuestions() {
             setLoading(true);
-            const res = await loadQuestions(grade, subject, semester, publisher, false);
+            const res = await loadQuestions(grade, subject, semester, publisher, false, true);
             setQuestions(res.questions);
             setLoading(false);
         }
@@ -27,6 +27,12 @@ export default function AdminUnitCuration({ grade, semester, subject, publisher,
     }, [grade, semester, subject, publisher]);
 
     const handleToggleActive = async (q: Question, newActive: boolean) => {
+        // 品質未通過（is_publishable !== true）禁止啟用上線
+        if (newActive && q.is_publishable !== true) {
+            alert('此題品質未通過驗證（is_publishable ≠ true），無法啟用上線。\n請先完成盲測並確認 CQI ≥ 6.5。');
+            return;
+        }
+
         // 預先在畫面端更新
         setQuestions(prev => prev.map(item => item.id === q.id ? { ...item, is_active: newActive } : item));
 
@@ -96,16 +102,26 @@ export default function AdminUnitCuration({ grade, semester, subject, publisher,
 
                                 <div className="space-y-4">
                                     {unitQuestions.map(q => {
-                                        const isActive = q.is_active !== false; // undefined or true is active
+                                        const qualityPassed = q.is_publishable === true;
+                                        // 品質未通過的題目不計入啟用狀態（不論 is_active 為何，都視為不可上線）
+                                        const isActive = qualityPassed && q.is_active !== false;
 
                                         return (
                                             <div key={q.id} className={`p-4 rounded-xl border transition-colors ${isActive ? 'bg-background border-border' : 'bg-muted/30 border-dashed opacity-80'}`}>
                                                 <div className="flex gap-4">
                                                     <div className="flex-1 space-y-3">
                                                         {/* Header */}
-                                                        <div className="flex items-center gap-2 text-xs">
+                                                        <div className="flex items-center gap-2 text-xs flex-wrap">
                                                             <span className="font-mono text-muted-foreground">{q.id}</span>
-                                                            <span className="px-2 py-0.5 rounded-full bg-muted text-muted-foreground font-medium">品質評級待串接</span>
+                                                            {/* 品質狀態徽章 */}
+                                                            {qualityPassed ? (
+                                                                <span className="px-2 py-0.5 rounded-full bg-green-100 text-green-700 dark:bg-green-900/30 font-medium">✓ 品質通過</span>
+                                                            ) : (
+                                                                <span className="px-2 py-0.5 rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 font-medium">✗ 品質未通過</span>
+                                                            )}
+                                                            {q.cqi_score != null && (
+                                                                <span className="px-2 py-0.5 rounded-full bg-muted text-muted-foreground font-medium">CQI {q.cqi_score.toFixed(1)}</span>
+                                                            )}
                                                         </div>
 
                                                         {/* 題幹 */}
@@ -136,15 +152,25 @@ export default function AdminUnitCuration({ grade, semester, subject, publisher,
 
                                                     {/* 右側 - 控制區 */}
                                                     <div className="flex flex-col items-end gap-3 shrink-0 ml-4 border-l pl-4">
-                                                        <label className="text-xs font-bold text-muted-foreground">狀態</label>
-                                                        <button
-                                                            onClick={() => handleToggleActive(q, !isActive)}
-                                                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${isActive ? 'bg-primary' : 'bg-muted'}`}
-                                                        >
-                                                            <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${isActive ? 'translate-x-6' : 'translate-x-1'}`} />
-                                                        </button>
-                                                        <span className={`text-[10px] font-bold px-2 py-1 rounded ${isActive ? 'bg-green-100 text-green-700 dark:bg-green-900/30' : 'bg-muted text-muted-foreground'}`}>
-                                                            {isActive ? '啟用中' : '已下架'}
+                                                        <label className="text-xs font-bold text-muted-foreground">上線狀態</label>
+                                                        {/* Toggle：品質未通過時一律 disabled */}
+                                                        <div className={`relative ${!qualityPassed ? 'opacity-40 cursor-not-allowed' : ''}`} title={!qualityPassed ? '品質未通過，無法啟用上線' : ''}>
+                                                            <button
+                                                                onClick={() => handleToggleActive(q, !isActive)}
+                                                                disabled={!qualityPassed}
+                                                                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors
+                                                                    ${isActive ? 'bg-primary' : 'bg-muted'}
+                                                                    ${!qualityPassed ? 'cursor-not-allowed' : 'cursor-pointer'}`}
+                                                            >
+                                                                <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${isActive ? 'translate-x-6' : 'translate-x-1'}`} />
+                                                            </button>
+                                                        </div>
+                                                        <span className={`text-[10px] font-bold px-2 py-1 rounded ${
+                                                            !qualityPassed ? 'bg-red-100 text-red-700 dark:bg-red-900/30'
+                                                            : isActive ? 'bg-green-100 text-green-700 dark:bg-green-900/30'
+                                                            : 'bg-muted text-muted-foreground'
+                                                        }`}>
+                                                            {!qualityPassed ? '禁止上線' : isActive ? '啟用中' : '已下架'}
                                                         </span>
                                                     </div>
                                                 </div>

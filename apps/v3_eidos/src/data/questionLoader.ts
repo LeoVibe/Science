@@ -24,6 +24,7 @@ interface RawQuestionLike {
   type?: string;
   concept?: string;
   is_active?: boolean;
+  is_publishable?: boolean;
   cqi_score?: number;
   quality_level?: string;
 }
@@ -136,7 +137,8 @@ export interface LoadedQuestions {
 
 export async function loadQuestions(
   grade: Grade, subject: Subject, semester: Semester, publisher: Publisher,
-  manifestOnly: boolean = false
+  manifestOnly: boolean = false,
+  adminMode: boolean = false
 ): Promise<LoadedQuestions> {
   const makeResult = (status: QuestionLoadStatus, overrides: Partial<LoadedQuestions> = {}): LoadedQuestions => ({
     status,
@@ -248,7 +250,7 @@ export async function loadQuestions(
               cqi_score: q.cqi_score,
               quality_level: q.quality_level
             } as Question;
-          }).filter(q => q.is_active !== false); // Default to true if undefined
+          }).filter(q => adminMode || (q.is_active !== false && q.is_publishable === true));
         } else if (typeof data === 'object' && Array.isArray(data.questions)) {
           const lessonId = (data as { lesson_id?: string }).lesson_id ?? lesson;
           const lessonTitle = (data as { lesson_title?: string }).lesson_title ?? category;
@@ -271,11 +273,12 @@ export async function loadQuestions(
               lessonOrder: lessonOrder,
               normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options }),
               is_active: q.is_active,
+              is_publishable: q.is_publishable,
               _sourceFile: `${basePath}/${fileName}`,
               cqi_score: q.cqi_score,
               quality_level: q.quality_level
             } as Question;
-          }).filter((q): q is Question => q !== null && q.is_active !== false);
+          }).filter((q): q is Question => q !== null && (adminMode || (q.is_active !== false && q.is_publishable === true)));
         } else if (typeof data === 'object' && data.question && Array.isArray(data.options)) {
           const rawAnswer = data.correctAnswer ?? data.answer;
           unitQuestions = [{
@@ -293,10 +296,11 @@ export async function loadQuestions(
             lessonOrder,
             normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: data.options }),
             is_active: data.is_active,
+            is_publishable: (data as RawQuestionLike).is_publishable,
             _sourceFile: `${basePath}/${fileName}`,
             cqi_score: data.cqi_score,
             quality_level: data.quality_level
-          } as Question].filter((q): q is Question => q.is_active !== false);
+          } as Question].filter((q): q is Question => adminMode || (q.is_active !== false && q.is_publishable === true));
         } else if (Array.isArray(data)) {
           unitQuestions = (data as RawQuestionLike[]).map((q) => {
             if (!q || typeof q.question !== 'string' || !Array.isArray(q.options)) return null;
@@ -316,11 +320,12 @@ export async function loadQuestions(
               lessonOrder,
               normalizedAnswer: typeof rawAnswer === 'number' ? rawAnswer : normalizeAnswer({ type: 'multiple_choice', answer: rawAnswer, options: q.options }),
               is_active: q.is_active,
+              is_publishable: q.is_publishable,
               _sourceFile: `${basePath}/${fileName}`,
               cqi_score: q.cqi_score,
               quality_level: q.quality_level
             } as Question;
-          }).filter((q): q is Question => q !== null && q.is_active !== false);
+          }).filter((q): q is Question => q !== null && (adminMode || (q.is_active !== false && q.is_publishable === true)));
         }
         return unitQuestions;
       });

@@ -117,6 +117,8 @@ export interface RawQuestion {
   commonMisconception?: string;
   /** 控制題目前台可見度（false = 下架） */
   is_active?: boolean;
+  /** 品質門檻：盲測 Match + CQI ≥ 6.5 才為 true；false = 品質未通過，禁止上線 */
+  is_publishable?: boolean;
   cqi_score?: number;
   quality_level?: string;
 }
