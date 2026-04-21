@@ -15,7 +15,7 @@
 
 ## 目標
 
-1. **修復**：`scripts/auto_generate_questions.js` 中國語 KL4 根路徑改為 **`path.resolve(__dirname, '../knowledge/課綱研究/國語')`**（`ApiKeys.cfg` 仍維持 `../../`，與同層 `0_AI_Project` 慣例一致）。
+1. **修復**：`scripts/auto_generate_questions.js` 中國語 KL4 根路徑改為 **`path.resolve(__dirname, '../knowledge/1_課綱研究/國語')`**（`ApiKeys.cfg` 仍維持 `../../`，與同層 `0_AI_Project` 慣例一致）。
 2. **執行**：依 **JOB-102 Batch 1** 跑 **G4 S2** 補題（建議先單版本驗證再全跑）：
    ```bash
    node scripts/batch_chinese_s2_generate.js --grades G4 -- \\

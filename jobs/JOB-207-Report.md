@@ -10,7 +10,7 @@
 
 ## 📊 成果摘要
 
-JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考古」目錄結構**取代原 `knowledge/考古題原檔/`，導入**三軌設計**（原始 / 淬煉 / 索引），並完成**重要規則修訂**：原檔永久保存（取代舊「解析完成即刪」）。以 G3 社會南一為完整 pilot 跑通 PDF → MD + `_index.json` pipeline，同步遷移既有 JOB-172 + 本 session 早期的所有資產，並更新 7 個現役規範與腳本的引用路徑。
+JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考古」目錄結構**取代原 `knowledge/3_考古題/`，導入**三軌設計**（原始 / 淬煉 / 索引），並完成**重要規則修訂**：原檔永久保存（取代舊「解析完成即刪」）。以 G3 社會南一為完整 pilot 跑通 PDF → MD + `_index.json` pipeline，同步遷移既有 JOB-172 + 本 session 早期的所有資產，並更新 7 個現役規範與腳本的引用路徑。
 
 | 指標 | 數值 |
 |:--|:--|
@@ -25,7 +25,7 @@ JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考�
 
 | Phase | 動作 | 結果 |
 |:--:|:--|:--|
-| 0 | 目錄規範定案、建 README、更新 .gitignore | ✅ `knowledge/考古/` 三軌結構 + 10 章 README |
+| 0 | 目錄規範定案、建 README、更新 .gitignore | ✅ `knowledge/3_考古題/` 三軌結構 + 10 章 README |
 | 1 | 遷移 _test_10 51 PDF + 拆 JOB-172 的 2 份聚合 JSON + 搬索引 | ✅ 51 PDF rename + 9 MD |
 | 1.5 | 重下載 G3 社會南一 5 個 Drive 的 PDF | ⚠️ 3 成功 25 PDF；2 被 rate-limit（第二+第三次段考） |
 | 2 | `scripts/job207_download_batch.py` | ✅ 含限速 + retry 骨架，dry-run 驗證通過 |
@@ -38,42 +38,42 @@ JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考�
 
 | 檔案路徑 | 異動類型 | 說明 |
 |:--|:--|:--|
-| `.gitignore` | 修改 | 新增 `knowledge/考古/原始/` + `淬煉/**/*.md` ignore，例外保留 `_index.json` |
-| `knowledge/考古/README.md` | 新增 | 10 章全新規範（三軌結構、新 Rule 7 永久保存、α/β+ 對齊、遷移紀錄） |
-| `knowledge/考古/_manifest/` | 新增 | 6 份索引檔（Drive + PDF + tcool + JOB-172 download report + 米蘭清單 + 遷移對照） |
-| `knowledge/考古/原始/G{3,4}/{三下_國語,三下_數學,三下_社會,四下_國語}/` | 新增 | 76 份 PDF（51 遷移 + 25 新下載，含重命名） |
-| `knowledge/考古/淬煉/G{3,4}/{4 個子目錄}/` | 新增 | 49 份 MD + 4 份 `_index.json`（只有 `_index.json` 進 git） |
+| `.gitignore` | 修改 | 新增 `knowledge/3_考古題/原始/` + `淬煉/**/*.md` ignore，例外保留 `_index.json` |
+| `knowledge/3_考古題/README.md` | 新增 | 10 章全新規範（三軌結構、新 Rule 7 永久保存、α/β+ 對齊、遷移紀錄） |
+| `knowledge/3_考古題/_manifest/` | 新增 | 6 份索引檔（Drive + PDF + tcool + JOB-172 download report + 米蘭清單 + 遷移對照） |
+| `knowledge/3_考古題/原始/G{3,4}/{三下_國語,三下_數學,三下_社會,四下_國語}/` | 新增 | 76 份 PDF（51 遷移 + 25 新下載，含重命名） |
+| `knowledge/3_考古題/淬煉/G{3,4}/{4 個子目錄}/` | 新增 | 49 份 MD + 4 份 `_index.json`（只有 `_index.json` 進 git） |
 | `scripts/job207_download_batch.py` | 新增 | 批次下載工具（限速、retry、--dry-run） |
 | `scripts/job207_distill_to_md.py` | 新增 | 淬煉 pipeline（PDF → MD + 主題分析 + 索引聚合） |
 | `scripts/job207_list_all_pdfs.py` | 修改 | 路徑 `考古題原檔` → `考古` |
 | `knowledge/README_研究架構總綱.md` | 修改 | 附錄引用新路徑 + 新 README 檔名 |
-| `knowledge/學習議題研究/無課文情境的考古題補償研究法.md` | 修改 | 5 處路徑更新 + 3 處規則修正（保留原 PDF 取代刪除） |
-| `knowledge/課綱研究/國語/README_KL4單課建置與複製準則.md` | 修改 | 路徑更新 |
+| `knowledge/5_學習議題研究/無課文情境的考古題補償研究法.md` | 修改 | 5 處路徑更新 + 3 處規則修正（保留原 PDF 取代刪除） |
+| `knowledge/1_課綱研究/國語/README_KL4單課建置與複製準則.md` | 修改 | 路徑更新 |
 | `docs/README_通用作業準則.md` | 修改 | 路徑更新 |
 | `question/README_出題與品管準則.md` | 修改 | 路徑更新 |
-| `knowledge/課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_考古題與討論.md` | 修改 | 路徑更新 + 歷史事實註記（PDF 已於 JOB-207 補回） |
+| `knowledge/1_課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_考古題與討論.md` | 修改 | 路徑更新 + 歷史事實註記（PDF 已於 JOB-207 補回） |
 | `jobs/JOB-207-USER-*.md` | 新增 | 派工單 |
 
 ## ✅ Checklist 對照
 
 ### 啟動 Checklist
 - [x] 已讀 `knowledge/README_研究架構總綱.md`
-- [x] 已讀 `knowledge/學習議題研究/無課文情境的考古題補償研究法.md`
+- [x] 已讀 `knowledge/5_學習議題研究/無課文情境的考古題補償研究法.md`
 - [x] 米蘭老師 G1-G6 全站 Drive 清單（704 × 11,704 PDF）
 - [x] 使用者 Q1-Q3 決策確認
 
 ### 驗收 Checklist
-- [x] `knowledge/考古/` 三軌結構完整建立
+- [x] `knowledge/3_考古題/` 三軌結構完整建立
 - [x] Phase 1 遷移：51 PDF + 2 JSON 拆 9 MD + 索引搬完
 - [x] Phase 1.5 重下載 25 PDF（⚠️ 42 目標中成功 25；17 被 rate-limit 待重試）
 - [x] Phase 2 `scripts/job207_download_batch.py` 可執行（dry-run 驗證）
 - [x] Phase 3 `scripts/job207_distill_to_md.py` 可執行
 - [x] Phase 4 Pilot：G3 社會南一 14 MD + `_index.json`
-- [x] Phase 5：grep `knowledge/考古題原檔` 現役檔全改完；歷史 JOB md 保留引用
+- [x] Phase 5：grep `knowledge/3_考古題` 現役檔全改完；歷史 JOB md 保留引用
 - [x] `.gitignore` 更新
 
 ### 成果 Checklist
-- [x] `knowledge/考古/README.md` 新規範
+- [x] `knowledge/3_考古題/README.md` 新規範
 - [x] 2 個新腳本可用
 - [x] G3 社會南一 14 MD + 4 `_index.json`（跨 4 資料夾）
 - [x] 已執行 /pj_sync 全域知識沉澱
@@ -91,9 +91,9 @@ JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考�
    - 建議處理：等 1-2 小時 Google 限流解除後，用 `scripts/job207_download_batch.py --grade G3 --subject 社會 --semester 下學期 --publisher 南一 --exam_types 第二次段考 第三次段考` 補下
    - 優先度：中
 
-2. **舊目錄 `knowledge/考古題原檔/` 尚未清理**
+2. **舊目錄 `knowledge/3_考古題/` 尚未清理**
    - 現狀：內容已全部複製到新結構；舊目錄保留於 .gitignore 內不影響版控
-   - 建議處理：確認新結構穩定（可能執行 1-2 週）後，人工執行 `rm -rf knowledge/考古題原檔/` 清除
+   - 建議處理：確認新結構穩定（可能執行 1-2 週）後，人工執行 `rm -rf knowledge/3_考古題/` 清除
    - 優先度：低
 
 3. **國語/數學/英語等科目 `SUBJECT_KEYWORDS` 尚未填寫**
@@ -107,7 +107,7 @@ JOB-207 延伸自 JOB-206 的 β+ 補償路徑實踐，建立**標準化「考�
    - 優先度：低（長期背景工作）
 
 5. **JOB-172 拆出 8 份 MD 的檔名部分含「未知國小」**
-   - 現狀：`knowledge/考古/淬煉/G4/四下_社會/` 有 8 份因 raw text 片段學校名推不出，以 `未知國小{idx}` 保留
+   - 現狀：`knowledge/3_考古題/淬煉/G4/四下_社會/` 有 8 份因 raw text 片段學校名推不出，以 `未知國小{idx}` 保留
    - 建議處理：若日後有需要，可從 JOB-172 原始腳本 log 回溯學校名
    - 優先度：低
 

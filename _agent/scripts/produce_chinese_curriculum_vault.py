@@ -88,7 +88,7 @@ def extract_content(lesson_html):
     return title, ""
 
 def main():
-    final_vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/KL3_國語科_課名_課文彙整.md"
+    final_vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/KL3_國語科_課名_課文彙整.md"
     
     print(f"--- CURRICULUM VAULT BUILDER START ---", flush=True)
     print(f"Target: {final_vault_path}", flush=True)

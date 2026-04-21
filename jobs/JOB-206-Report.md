@@ -38,8 +38,8 @@
 
 | 檔案路徑 | 異動類型 | 說明 |
 |:--|:--|:--|
-| `knowledge/課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_單課研究紀錄.md` | 新增 | KL4 研究：課綱連結、核心知識點地圖、迷思與跨版本對照 |
-| `knowledge/課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_考古題與討論.md` | 新增 | KL4 研究：12 道研究素材題 + 迷思討論 + 米蘭老師 G3 Drive × 5 登錄 + tcool.cc 20 份索引 |
+| `knowledge/1_課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_單課研究紀錄.md` | 新增 | KL4 研究：課綱連結、核心知識點地圖、迷思與跨版本對照 |
+| `knowledge/1_課綱研究/社會/三下/南一/KL4_三下_南一_L5_打造幸福的家園_考古題與討論.md` | 新增 | KL4 研究：12 道研究素材題 + 迷思討論 + 米蘭老師 G3 Drive × 5 登錄 + tcool.cc 20 份索引 |
 | `question/platform/G3/SocialStudies/S2/NanYi/G3_S2_SOC_NANYI_L5.json` | 修改 | 舊 30 題錯放下架→替換為 30 題新內容，全 QL4、blind_evaluation true |
 | `question/platform/G3/SocialStudies/S2/NanYi/G3_S2_SOC_NANYI_manifest.json` | 修改 | L5 title L5→打造幸福的家園、count 30→0→30、avg_cqi 8.44→9.19、quality QL4→pending→QL4 |
 | `apps/v3_eidos/src/data/libraryStats.json` | 修改 | G3 社會 南一 units 5→4→5、題數 150→120→150、cqi 8.11→8.32、stats.G3_S2_社會 count 17→16→17 |
@@ -118,7 +118,7 @@
 ### 給下個接手者的建議
 
 - 若要對其他 117 檔做類似重出，本 JOB 的 β 方案 + KL4 雙檔 + 出題 + 盲測流程可作 SOP。
-- 若 G3 其他課（L1-L4）未來也要重出，請先建 per-lesson KL4 研究目錄 `knowledge/課綱研究/社會/三下/南一/`（本 JOB 已建）。
+- 若 G3 其他課（L1-L4）未來也要重出，請先建 per-lesson KL4 研究目錄 `knowledge/1_課綱研究/社會/三下/南一/`（本 JOB 已建）。
 - scenario 規範（JOB-206 原議題，現列遺留）建議依本 L5 的【情境前綴】格式作為方案 A 的實作案例。
 
 ## 🔍 驗收確認

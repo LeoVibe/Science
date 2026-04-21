@@ -19,7 +19,7 @@
 
 | 納入 | 排除 |
 |:---|:---|
-| `question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L*.json`（L1–L12） | `knowledge/課綱研究/國語/三下/南一/**`（保留） |
+| `question/platform/G3/Chinese/S2/NanYi/G3_S2_CHI_NANYI_L*.json`（L1–L12） | `knowledge/1_課綱研究/國語/三下/南一/**`（保留） |
 | `G3_S2_CHI_NANYI_manifest.json` | 翰林、康軒三下題庫 |
 
 ---
@@ -34,7 +34,7 @@
 
 ## 四、待辦（重產與上架）
 
-1. 依 **`knowledge/課綱研究/國語/三下/南一/`** 各課 KL4「課文全文錄製」與「考古題與討論」**逐課重產**（預設目標題數見 `README_出題與品管準則.md` **P-K**）。  
+1. 依 **`knowledge/1_課綱研究/國語/三下/南一/`** 各課 KL4「課文全文錄製」與「考古題與討論」**逐課重產**（預設目標題數見 `README_出題與品管準則.md` **P-K**）。  
    - **實務備註（2026-03-30）**：產題建議 **`gemini-2.5-flash`**；`gemini-2.0-flash` 易 **429**。續跑指令與進度見 **`jobs/JOB-129-Report.md`**。
 2. 跑 `evaluate_question_quality.js`、盲測；遵守 `README_驗證與盲測準則.md` **§2.5**（整課上架管制）。
 3. 更新 manifest、`shelf_blocked` 解除條件於結案報告註記（**全冊 12 課齊備後**再解除封架）。

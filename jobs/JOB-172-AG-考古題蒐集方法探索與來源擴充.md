@@ -27,12 +27,12 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 
 | # | 目標 | 可驗證標準 | 驗證方式 |
 |:--|:--|:--|:--|
-| G1 | 突破 tcool.cc 期中考 PDF 403 封鎖 | ≥1 份期中考考卷存為 JSON | `cat knowledge/考古題原檔/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json \| python3 -c "import sys,json; print(len(json.load(sys.stdin)['questions']))"` → 預期 ≥15 |
-| G2 | 擴充考古題來源至 ≥3 個管道 | 來源索引檔列出 ≥3 管道含具體連結 | `grep -c '### 來源' knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` → 預期 ≥4 |
+| G1 | 突破 tcool.cc 期中考 PDF 403 封鎖 | ≥1 份期中考考卷存為 JSON | `cat knowledge/3_考古題/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json \| python3 -c "import sys,json; print(len(json.load(sys.stdin)['questions']))"` → 預期 ≥15 |
+| G2 | 擴充考古題來源至 ≥3 個管道 | 來源索引檔列出 ≥3 管道含具體連結 | `grep -c '### 來源' knowledge/3_考古題/README_考古題蒐集規範與來源索引.md` → 預期 ≥4 |
 | G3 | 建立 mock quiz 逐題作答 SOP | SOP 含技術細節、已知 error、修正方式 | 規範檔「步驟二」段落含 `next-btn`、`1500ms`、`正確答案是` 三個關鍵字 |
 | G4 | 升級 Production Gate | 研究架構總綱門檻為 ≥10 道 + ≥2 來源 | `grep '10 道' knowledge/README_研究架構總綱.md` → 有匹配 |
 | G5 | 建立課次歸屬分類準則 | 規範檔含分類決策表 | 規範檔「課次分類準則」段落（約 line 175-195）含 `ambiguous`、`L2_or_L3`、三行判定規則 |
-| G6 | 智財保護方案 | `.gitignore` 排除 + 蒐集規範載明使用邊界 | `.gitignore` 含 `knowledge/考古題原檔/` + 規範檔§一含「僅供內部研究」條文 |
+| G6 | 智財保護方案 | `.gitignore` 排除 + 蒐集規範載明使用邊界 | `.gitignore` 含 `knowledge/3_考古題/` + 規範檔§一含「僅供內部研究」條文 |
 
 ---
 
@@ -58,7 +58,7 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 
 ### 階段一：驗證 mock quiz 抓題法（G1）
 
-1. 從 `knowledge/考古題原檔/tcool_exam_index.json` 取得目標考卷的 mock ID
+1. 從 `knowledge/3_考古題/tcool_exam_index.json` 取得目標考卷的 mock ID
 2. 用 Chrome 工具導航至 `https://www.tcool.cc/mock/{ID}/`
    - 若遇 Cloudflare "請稍候..." 頁面，等 3-5 秒後重新 `read_page`
 3. 點擊「開始測驗」按鈕
@@ -82,7 +82,7 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 9. 編輯 `knowledge/README_研究架構總綱.md`：
    - 將 Production Gate 從「≥8 道」改為「≥10 道 + ≥2 來源」
    - 在同段落加入課次歸屬分類原則（Classification Rule）
-10. 編輯 `knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md`：
+10. 編輯 `knowledge/3_考古題/README_考古題蒐集規範與來源索引.md`：
     - §一 門檻同步更新為 ≥10 / ≥2
     - §二 加入來源 D（hlmath.tw）
     - §五 步驟二改寫為 mock quiz 逐題作答法（含技術要點與已知 error）
@@ -90,7 +90,7 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 
 ### 階段四：智財保護措施（G6）
 
-11. 確認 `.gitignore` 已含 `knowledge/考古題原檔/`
+11. 確認 `.gitignore` 已含 `knowledge/3_考古題/`
 12. 在考古題蒐集規範§一加入智財使用邊界條文：
     - 考古題原檔僅供內部研究參考，嚴禁原文上架或公開散佈
     - 引用至 KL4 檔案時須改寫題幹或僅摘錄核心概念，不得全文複製
@@ -108,8 +108,8 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 | 檔案路徑 | 用途 |
 |:--|:--|
 | `knowledge/README_研究架構總綱.md` | Production Gate 所在（本次修改對象） |
-| `knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` | SOP + 來源索引（本次修改對象） |
-| `knowledge/考古題原檔/tcool_exam_index.json` | 708 份考卷 ID 索引 |
+| `knowledge/3_考古題/README_考古題蒐集規範與來源索引.md` | SOP + 來源索引（本次修改對象） |
+| `knowledge/3_考古題/tcool_exam_index.json` | 708 份考卷 ID 索引 |
 | `.gitignore` | 確認排除考古題原檔 |
 
 ---
@@ -118,17 +118,17 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 
 | # | 產出物 | 路徑 | 說明 |
 |:--|:--|:--|:--|
-| 1 | 大華國小期中考 JSON | `knowledge/考古題原檔/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` | 20 題，含 lesson 分類標記 |
+| 1 | 大華國小期中考 JSON | `knowledge/3_考古題/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` | 20 題，含 lesson 分類標記 |
 | 2 | 研究架構總綱 v4.2 | `knowledge/README_研究架構總綱.md` | Production Gate ≥10/≥2 + 分類原則 |
-| 3 | 考古題蒐集規範（更新） | `knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` | 來源D + mock SOP + 分類準則 + 智財條文 |
+| 3 | 考古題蒐集規範（更新） | `knowledge/3_考古題/README_考古題蒐集規範與來源索引.md` | 來源D + mock SOP + 分類準則 + 智財條文 |
 
 ---
 
 ## ✅ 啟動 Checklist (Pre-Flight)
 
 - [x] 已讀取：`knowledge/README_研究架構總綱.md`
-- [x] 已讀取：`knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md`
-- [x] 已確認 `.gitignore` 排除 `knowledge/考古題原檔/`
+- [x] 已讀取：`knowledge/3_考古題/README_考古題蒐集規範與來源索引.md`
+- [x] 已確認 `.gitignore` 排除 `knowledge/3_考古題/`
 - [x] **已確認執行模型**：claude-opus-4-6（Claude Code 本體）
 - [x] **已確認使用金鑰**：Claude Code 內建（Anthropic）
 - [x] **已確認操作頻次**：手動操作，無自動化批次（mock quiz 逐題由人機協作完成）
@@ -140,7 +140,7 @@ JOB-170（G4S2 社會 KL4 建置）執行過程中發現：
 
 > 本任務為 research + docs_ops，CQI 系列指標不適用。每項附具體驗證方式。
 
-- [x] G1 達成：`knowledge/考古題原檔/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` 存在，questions 陣列長度 = 20
+- [x] G1 達成：`knowledge/3_考古題/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` 存在，questions 陣列長度 = 20
 - [x] G2 達成：規範檔含來源 A/B/C/D 共 4 個管道（`grep '### 來源' README_考古題蒐集規範與來源索引.md` → 4 筆）
 - [x] G3 達成：規範檔§五步驟二含 `next-btn`、`1500ms`、`正確答案是` 三關鍵字 + error 修正表
 - [x] G4 達成：`grep '10 道' knowledge/README_研究架構總綱.md` → 匹配 line 104 `至少 **10 道**`

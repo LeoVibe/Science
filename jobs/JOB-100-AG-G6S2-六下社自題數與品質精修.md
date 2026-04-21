@@ -16,7 +16,7 @@
 | 檔案路徑 | 用途說明 |
 | --- | --- |
 | [generate_library_stats.js](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/scripts/generate_library_stats.js) | 題數與品質統計引擎 |
-| [G6_S2_自然_發展綱要.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/自然/G6_S2_自然_發展綱要.md) | 自然科研發支持 |
+| [G6_S2_自然_發展綱要.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/自然/G6_S2_自然_發展綱要.md) | 自然科研發支持 |
 
 ## ✅ 驗證基準 (DoD)
 - [ ] 六下自然科每版本顯示上架題數回補至 **80~90** 題。

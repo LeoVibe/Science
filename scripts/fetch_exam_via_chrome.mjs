@@ -23,7 +23,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const BASE_DIR = path.resolve(__dirname, '../knowledge/考古題原檔');
+const BASE_DIR = path.resolve(__dirname, '../knowledge/3_考古題');
 const TCOOL_URL = 'https://www.tcool.cc/';
 const DELAY_BETWEEN_PDF = 20000;
 

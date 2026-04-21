@@ -2,7 +2,7 @@
 /**
  * job205_sync_title_from_kl4.mjs
  *
- * 從 knowledge/課綱研究/{科目}/{學期}/ 下的 KL4 檔名解析真實課名，
+ * 從 knowledge/1_課綱研究/{科目}/{學期}/ 下的 KL4 檔名解析真實課名，
  * 同步到 question/platform/ 對應 manifest.items[].title 與 lesson JSON 的 meta.title。
  *
  * 使用：
@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const KL4_DIR = path.join(ROOT, 'knowledge', '課綱研究');
+const KL4_DIR = path.join(ROOT, 'knowledge', '1_課綱研究');
 const PLATFORM_DIR = path.join(ROOT, 'question', 'platform');
 
 const args = new Set(process.argv.slice(2));

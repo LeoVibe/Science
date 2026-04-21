@@ -172,7 +172,7 @@ Claude Code 環境限制；使用者若切到 `/g5/mat/s2/hlm` 等應看到真�
 ### 為何只做 G5 Math 與 G3 ENG？
 
 **資料可得性**決定：
-- G5 Math S2：KL4 研究完整（`knowledge/課綱研究/數學/五下/` 三家 publisher 全有 KL4 檔），直接 parse 檔名即得真實課名
+- G5 Math S2：KL4 研究完整（`knowledge/1_課綱研究/數學/五下/` 三家 publisher 全有 KL4 檔），直接 parse 檔名即得真實課名
 - G3 ENG S2：`三下_英語_發展綱要.md §三.1` 列出三家 publisher 的 Unit 1-4 課名
 - 其他組合：缺對應 KL4 或發展綱要中缺結構化課名清單，若用 AI 幻覺補會比佔位符更糟
 
@@ -212,7 +212,7 @@ Claude Code 環境限制；使用者若切到 `/g5/mat/s2/hlm` 等應看到真�
 
 ### 觸發
 
-使用者於 JOB-205 結案後質疑「G3/G4 有做過 KL4 研究」。PM（Claude Code）重新查閱 `docs/進度彙整_題庫研發與產出.md` 與 `knowledge/課綱研究/` 所有檔案，**承認原盤點疏漏**：
+使用者於 JOB-205 結案後質疑「G3/G4 有做過 KL4 研究」。PM（Claude Code）重新查閱 `docs/進度彙整_題庫研發與產出.md` 與 `knowledge/1_課綱研究/` 所有檔案，**承認原盤點疏漏**：
 
 - 原錯用嚴格格式 `KL4_.*_L\d+_.*_單課研究紀錄.md` 搜尋，漏抓「原始研究素材庫」與「發展綱要」
 - 實際 G3/G4/G6 非國語科目都有 KL3 發展綱要 + KL4 素材庫，進度表顯示**全 S2 組合都有 KL3+KL4 研究**

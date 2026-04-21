@@ -8,7 +8,7 @@
 
 ## 1. 摘要
 
-- **Phase 1**：修正 `evaluate_question_quality.js` 之研究檔定位——題庫 `meta.subject` 為 `CHI` 時已能對應「國語」目錄；改為**遞迴**搜尋 `knowledge/課綱研究/國語/` 下之 `*發展綱要*.md`；**三下國語**無獨立 KL3 發展綱要時，改採 `KL4_三下_國語_原始研究素材庫.md` 作為研究支撐檢查依據。派工單所述舊版 **`gradeCN is not defined`**：目前程式第 65 行已使用 `gradeShort`，本次於 `subjectMap` 區段加註說明以免回歸。
+- **Phase 1**：修正 `evaluate_question_quality.js` 之研究檔定位——題庫 `meta.subject` 為 `CHI` 時已能對應「國語」目錄；改為**遞迴**搜尋 `knowledge/1_課綱研究/國語/` 下之 `*發展綱要*.md`；**三下國語**無獨立 KL3 發展綱要時，改採 `KL4_三下_國語_原始研究素材庫.md` 作為研究支撐檢查依據。派工單所述舊版 **`gradeCN is not defined`**：目前程式第 65 行已使用 `gradeShort`，本次於 `subjectMap` 區段加註說明以免回歸。
 - **Phase 2～3**：三版本全課重新跑分；清除 **BIAS**（選項長度偏差）；康軒補強過短解析；翰林 **78** 題 `explanation` 長度 ≤10 字之欄位，統一擴寫為符合結構完整度之敘述。
 - **Phase 4**：執行 `node scripts/normalize_manifest.js question/platform/G3/Chinese/S2`，同步三版本 `G3_S2_CHI_*_manifest.json` 之統計（題數未變，**康軒 461、翰林 350、南一 272** 題；與派工單預估題數不同處以本 repo 實際檔案為準）。
 - **盲測**：未執行（依派工單範圍排除）。**規範文件**：未修改。

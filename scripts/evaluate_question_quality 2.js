@@ -56,12 +56,12 @@ function checkResearchSupport(filePath, meta) {
     const outlineFileNameEN = `${grade}_${semester}_${subjectCN}發展綱要.md`;
     const outlineFileNameEN2 = `${grade}_${semester}_${subjectCN}_發展綱要.md`;
 
-    let outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameCN);
+    let outlinePath = path.join(projectRoot, '1_課綱研究', subjectCN, outlineFileNameCN);
     if (!fs.existsSync(outlinePath)) {
-        outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameEN);
+        outlinePath = path.join(projectRoot, '1_課綱研究', subjectCN, outlineFileNameEN);
     }
     if (!fs.existsSync(outlinePath)) {
-        outlinePath = path.join(projectRoot, '課綱研究', subjectCN, outlineFileNameEN2);
+        outlinePath = path.join(projectRoot, '1_課綱研究', subjectCN, outlineFileNameEN2);
     }
 
     if (!fs.existsSync(outlinePath)) {

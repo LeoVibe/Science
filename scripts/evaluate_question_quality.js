@@ -48,7 +48,7 @@ function checkResearchSupport(filePath, meta) {
     const gradeShort = gradeShortMap[normalizedGrade] || grade;
     const semesterShort = semesterShortMap[semester] || semester;
 
-    const searchDir = path.join(projectRoot, '課綱研究', subjectCN);
+    const searchDir = path.join(projectRoot, '1_課綱研究', subjectCN);
     let outlinePath = null;
 
     /** 遞迴列出目錄內所有 .md 檔絕對路徑 */
@@ -154,7 +154,7 @@ function checkLessonKL4Files(meta) {
     const gradeCN = GRADE_CN[meta.grade] || meta.grade;
     const lesson = meta.lesson || '';
 
-    const searchDir = path.join(__dirname, '..', 'knowledge', '課綱研究', subjectCN, `${gradeCN}${semCN}`, pubCN);
+    const searchDir = path.join(__dirname, '..', 'knowledge', '1_課綱研究', subjectCN, `${gradeCN}${semCN}`, pubCN);
 
     const result = { hasResearch: false, hasExam: false, searchDir };
     if (!fs.existsSync(searchDir)) return result;

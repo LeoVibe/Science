@@ -14,7 +14,7 @@
 ## 📜 關鍵參考檔案
 | 檔案路徑 | 用途說明 |
 | --- | --- |
-| [00_國語科共同發展總綱.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/00_國語科共同發展總綱.md) | 核心教育哲學源頭 |
+| [00_國語科共同發展總綱.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/00_國語科共同發展總綱.md) | 核心教育哲學源頭 |
 | [report_cognitive_development.md](file:///Users/s389080/.gemini/antigravity/brain/cec93c0d-8fa9-494d-9ace-2c16abe0f0a5/report_cognitive_development.md) | 認知發展深度分析數據 |
 | [preview_QL4_results.md](file:///Users/s389080/.gemini/antigravity/brain/cec93c0d-8fa9-494d-9ace-2c16abe0f0a5/preview_QL4_results.md) | 實際成果範例 |
 

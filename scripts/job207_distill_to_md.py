@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """JOB-207 Phase 3: PDF → 淬煉 MD + _index.json
 
-遍歷 knowledge/考古/原始/{grade}/{semester_subject}/*.pdf
+遍歷 knowledge/3_考古題/原始/{grade}/{semester_subject}/*.pdf
 對每份 PDF：
   1. pdfplumber 萃取文字
   2. 解析檔名（版本/學年度/學校/考試類型/試卷|答案）
@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict, Counter
 
-BASE = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/考古')
+BASE = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題')
 
 # 科目主題關鍵字（用於分類與矩陣）
 SUBJECT_KEYWORDS = {
@@ -173,7 +173,7 @@ def generate_md(exam_info, text_list):
     lines.append('## 原文追溯')
     lines.append('')
     for t in text_list:
-        lines.append(f'- `knowledge/考古/原始/{grade}/{sem_subj}/{t["filename"]}`')
+        lines.append(f'- `knowledge/3_考古題/原始/{grade}/{sem_subj}/{t["filename"]}`')
 
     return '\n'.join(lines), topic_counts
 
@@ -234,7 +234,7 @@ def process_folder(grade, sem_subj):
 
     # 寫 _index.json
     index_data = {
-        'path': f'knowledge/考古/淬煉/{grade}/{sem_subj}/',
+        'path': f'knowledge/3_考古題/淬煉/{grade}/{sem_subj}/',
         'last_updated': datetime.now().isoformat() + 'Z',
         'total_md': md_count,
         'schools': sorted({e['school'] for e in index_entries}),

@@ -16,7 +16,7 @@ const path = require('path');
 
 // === 實驗配置 ===
 const TARGET_DIR = 'question/platform/G3/Chinese/S2/KangHsuan';
-const R4_FILE = 'knowledge/課綱研究/國語/三年級下學期_國語_發展綱要.md';
+const R4_FILE = 'knowledge/1_課綱研究/國語/三年級下學期_國語_發展綱要.md';
 
 const EXPERIMENT_GROUPS = {
   A: { model: 'gemini', batchSize: 10, files: ['Chi_L1.json', 'Chi_L2.json', 'Chi_L3.json'], label: 'Gemini 10-in-1' },

@@ -19,7 +19,7 @@
 1. **[Script]**：擴展 POC 腳本為 `produce_chinese_curriculum_vault.py`。
 2. **[Batch]**：循環遍歷 Grade 3-6 的所有國語學期播放清單 URL。
 3. **[Collect]**：批量下載單課文章並進行初階正則清洗 (Regex Cleaning)。
-4. **[Consolidate]**：整合至 `knowledge/課綱研究/國語/KL3_國語科_課名_課文彙整.md`。
+4. **[Consolidate]**：整合至 `knowledge/1_課綱研究/國語/KL3_國語科_課名_課文彙整.md`。
 
 ## 📖 B. 階段二：深度清洗、比對與規格優化 (進行中)
 1. **[Clean]**：執行 `clean_curriculum_vault.py`，徹底移除測驗連結、字義解析與廣告雜訊。

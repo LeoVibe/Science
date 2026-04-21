@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const KNOWLEDGE_CHI = path.join(ROOT, 'knowledge/課綱研究/國語');
+const KNOWLEDGE_CHI = path.join(ROOT, 'knowledge/1_課綱研究/國語');
 
 function nowStamp() {
   const d = new Date();

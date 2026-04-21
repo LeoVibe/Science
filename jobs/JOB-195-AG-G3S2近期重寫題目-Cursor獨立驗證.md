@@ -42,9 +42,9 @@ JOB-193（翰林 L8）與 JOB-194（康軒 L4/L6）完成後，題目由 Claude 
 
 1. 讀取 `question/README_出題與品管準則.md`
 2. 讀取三份 KL4 研究文件：
-   - `knowledge/課綱研究/國語/三下/翰林/KL4_三下_翰林_L8_行人的守護者_單課研究紀錄.md`
-   - `knowledge/課綱研究/國語/三下/康軒/KL4_三下_康軒_L4_工匠之祖_單課研究紀錄.md`
-   - `knowledge/課綱研究/國語/三下/康軒/KL4_三下_康軒_L6_神奇密碼_單課研究紀錄.md`
+   - `knowledge/1_課綱研究/國語/三下/翰林/KL4_三下_翰林_L8_行人的守護者_單課研究紀錄.md`
+   - `knowledge/1_課綱研究/國語/三下/康軒/KL4_三下_康軒_L4_工匠之祖_單課研究紀錄.md`
+   - `knowledge/1_課綱研究/國語/三下/康軒/KL4_三下_康軒_L6_神奇密碼_單課研究紀錄.md`
 3. 對三個 JSON 檔各執行：
    ```bash
    node scripts/evaluate_question_quality.js question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L8.json
@@ -63,9 +63,9 @@ JOB-193（翰林 L8）與 JOB-194（康軒 L4/L6）完成後，題目由 Claude 
 | 檔案 | 用途 |
 |:--|:--|
 | `question/README_出題與品管準則.md` | 出題品質標準 |
-| `knowledge/課綱研究/國語/三下/翰林/KL4_三下_翰林_L8_行人的守護者_單課研究紀錄.md` | L8 課文 |
-| `knowledge/課綱研究/國語/三下/康軒/KL4_三下_康軒_L4_工匠之祖_單課研究紀錄.md` | L4 課文 |
-| `knowledge/課綱研究/國語/三下/康軒/KL4_三下_康軒_L6_神奇密碼_單課研究紀錄.md` | L6 課文 |
+| `knowledge/1_課綱研究/國語/三下/翰林/KL4_三下_翰林_L8_行人的守護者_單課研究紀錄.md` | L8 課文 |
+| `knowledge/1_課綱研究/國語/三下/康軒/KL4_三下_康軒_L4_工匠之祖_單課研究紀錄.md` | L4 課文 |
+| `knowledge/1_課綱研究/國語/三下/康軒/KL4_三下_康軒_L6_神奇密碼_單課研究紀錄.md` | L6 課文 |
 
 ## ✅ 啟動 Checklist (Pre-Flight)
 

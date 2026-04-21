@@ -47,13 +47,13 @@
 
 | 角色 | 擔當者 | 職責 | 禁止事項 |
 |:--|:--|:--|:--|
-| **PM / 總架構師** | Claude Code | 規劃、派工、驗收、`/pj_sync` | 禁止直接執行出題/盲測/腳本跑批 |
-| **執行工程師** | Cursor / Gemini | 讀取派工單、按 DoD 執行、撰寫 Report | 禁止自行開派工單或修改規範 |
-| **QA / 稽核** | Codex / Antigravity | 跨檔一致性檢查、驗證數據 | — |
+| **PM / 總架構師** | Claude Code | 規劃、派工、驗收、`/pj_sync` | 禁止直接執行任務，需討論確認派工人選 |
+| **執行工程師** | Codex、Cursor  | 讀取派工單、按 DoD 執行、撰寫 Report | 禁止自行開派工單或修改規範 |
+| **QA / 稽核** | Codex / Gemini / Antigravity | 跨檔一致性檢查、驗證數據 | — |
 | **使用者** | 人類 | 最終決策、核准草稿、驗收 Report | — |
 
-Claude Code **規劃任務但不動手執行**，就像建築師畫藍圖但不搬磚。
-使用者明確授權例外時，須在派工單標注 `executor: Claude Code（使用者授權例外）`。
+Claude Code **規劃任務，並建議執行人選**，不會什麼事都自己做搬磚。
+經使用者明確授權後、在派工單標注 `executor: Claude Code`。
 
 ### 1.1 技能檔 vs 知識檔
 
@@ -89,13 +89,11 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 | 項目 | 約定 |
 |:--|:--|
-| 本機主 clone | 依 `.cursor/rules/workspace-directory.mdc` |
 | 日常開發 | 僅在該主目錄開啟 IDE、執行 dev/commit |
 
 ### 2.2 禁止事項
-1. 禁止在 `.cursor/worktrees/` 下長期改程式
+1. 禁止在 自行建構worktrees，不能在 `.cursor/worktrees/` 下長期改程式
 2. 禁止維護兩套「都以為自己是主線」的目錄
-3. 禁止在 Markdown 中寫死他人的絕對路徑
 
 ### 2.3 多 Agent 協作
 1. 一律 Open Folder → 該專主目錄
@@ -126,7 +124,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 ```
 ## 真實回報本次對話的模型與花費
-＄作業匯總 ：Token數:{真實Meta中數字} | 花費: ${換算台幣} | 使用模型: {真實Meta中的模型代碼} | 執行者: {AG|Cursor|Claude}
+＄作業匯總 ：Token數:{真實Meta中數字} | 花費: ${換算台幣} | 使用模型: {真實Meta中的模型代碼} | 執行者: {Codex|Cursor|AG|Gemini|Claude}
 ```
 
 ### 5.1 落實與回補機制
@@ -185,7 +183,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 ---
 
-## 第八章：AG 執行守則（Antigravity 適用，其他 Agent 同樣適用）
+## 第八章：Agents 執行守則（Antigravity 適用，其他 Agents也同樣必須遵守）
 
 本章是從過去任務失誤中歸納出的具體行為規範。不是建議，是必須遵守的規則。
 
@@ -237,7 +235,7 @@ Skill 的設計原則：Controller 層（CLAUDE.md + docs/）管安全與角色�
 
 **實作方式**：
 - 開頭寫：「本文件負責 ___，不負責 ___（見 `{另一份檔案}`）」
-- 已有專屬文件的內容，本文只寫一行指標，例：`> 考古題來源與 SOP → knowledge/考古/README_考古題蒐集規範與來源索引.md`
+- 已有專屬文件的內容，本文只寫一行指標，例：`> 考古題來源與 SOP → knowledge/3_考古題/README_考古題蒐集規範與來源索引.md`
 
 ### 9.2 三層資訊架構（Index → Summary → Detail）
 
@@ -282,9 +280,9 @@ Claude Code 的 `SYSTEM_PROMPT_DYNAMIC_BOUNDARY` 告訴我們：**不變的東�
 
 **檢驗方法**：如果一段文字同時在解釋「為什麼」和「怎麼做」，它應該被拆成兩份文件。
 
-### 9.5 為 Agent 而寫（Agent-Readable Writing）
+### 9.5 為 Agent 而寫
 
-Agent 與人類閱讀方式不同。Agent 需要的是結構化的判斷依據，不是散文。
+Agent 與人類閱讀方式不同。Agent 需要的是結構化的判斷依據。
 
 | 人類習慣 | Agent 需要 |
 |:--|:--|

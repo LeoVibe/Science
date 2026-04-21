@@ -40,7 +40,7 @@ const R4_MAPPING = {
         'G5/S2': '五下_數學_發展綱要.md',
         'G6/S2': '六下_數學_發展綱要.md'
     },
-    // G3 英語：倉庫單一發展綱要檔（見 knowledge/課綱研究/英語/）
+    // G3 英語：倉庫單一發展綱要檔（見 knowledge/1_課綱研究/英語/）
     'English': {
         'G3/S2': 'G3_S2_英語發展綱要.md'
     },
@@ -73,7 +73,7 @@ function getR4Path(targetDir) {
                 : subject === 'English'
                   ? '英語'
                   : '數學';
-    const baseDir = path.resolve(__dirname, '../knowledge/課綱研究/', subjectZh);
+    const baseDir = path.resolve(__dirname, '../knowledge/1_課綱研究/', subjectZh);
 
     const mapping = R4_MAPPING[subject];
     if (!mapping) return null;
@@ -88,7 +88,7 @@ function getR4Path(targetDir) {
 }
 
 /** KL4 單課研究檔根目錄 */
-const KNOWLEDGE_BASE = path.resolve(__dirname, '../knowledge/課綱研究');
+const KNOWLEDGE_BASE = path.resolve(__dirname, '../knowledge/1_課綱研究');
 
 /** 科目英文→中文對照 */
 const SUBJECT_EN_TO_ZH = { Chinese: '國語', Math: '數學', Science: '自然', SocialStudies: '社會', English: '英語' };

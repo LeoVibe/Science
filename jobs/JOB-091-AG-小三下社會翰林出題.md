@@ -18,8 +18,8 @@ updated_by: Antigravity
 | 檔案路徑 | 用途說明 |
 | --- | --- |
 | `task.md` | 本次出題作戰計畫 |
-| `knowledge/課綱研究/社會/G3_S2_社會_原始研究素材庫.md` | R3 原始素材 |
-| `knowledge/課綱研究/社會/G3_S2_社會發展綱要.md` | R4 發展綱要 |
+| `knowledge/1_課綱研究/社會/G3_S2_社會_原始研究素材庫.md` | R3 原始素材 |
+| `knowledge/1_課綱研究/社會/G3_S2_社會發展綱要.md` | R4 發展綱要 |
 | `question/platform/G3/SocialStudies/S2/HanLin/*` | 產出目標目錄 |
 
 ## 預期結果清單 (Expected Outcomes Checklist)

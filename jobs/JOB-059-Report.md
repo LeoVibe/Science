@@ -8,9 +8,9 @@
 3. **實驗題生成驗證**：產出數學（概數）與社會（家鄉商機）單元的 QL5 品質題目，驗證誘答機制之有效性。
 
 ## 🛠️ 變更檔案清單
-- `knowledge/課綱研究/社會/G4_S2_社會_原始研究素材庫.md` (Modified)
-- `knowledge/課綱研究/數學/G4_S2_數學_原始研究素材庫.md` (Modified)
-- `knowledge/課綱研究/自然/G4_S2_自然_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/社會/G4_S2_社會_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/數學/G4_S2_數學_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/自然/G4_S2_自然_原始研究素材庫.md` (Modified)
 - `question/platform/G4/Math/S2/KangHsuan/Math_U8_Exp.json` (NEW)
 - `question/platform/G4/SocialStudies/S2/HanLin/Soc_U4_Exp.json` (NEW)
 

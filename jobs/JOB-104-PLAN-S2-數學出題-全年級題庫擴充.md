@@ -39,10 +39,10 @@ S2 數學科題庫盤點（2026-03-28）：
 
 ### 🔒 前置研究閘門
 
-- [ ] `knowledge/課綱研究/數學/G5_S2_數學發展綱要.md` 存在且完備
-- [ ] `knowledge/課綱研究/數學/G5_S2_數學_原始研究素材庫.md` 存在
-- [ ] `knowledge/課綱研究/數學/G6_S2_數學_發展綱要.md` 存在且完備
-- [ ] `knowledge/課綱研究/數學/G6_S2_數學_原始研究素材庫.md` 存在
+- [ ] `knowledge/1_課綱研究/數學/G5_S2_數學發展綱要.md` 存在且完備
+- [ ] `knowledge/1_課綱研究/數學/G5_S2_數學_原始研究素材庫.md` 存在
+- [ ] `knowledge/1_課綱研究/數學/G6_S2_數學_發展綱要.md` 存在且完備
+- [ ] `knowledge/1_課綱研究/數學/G6_S2_數學_原始研究素材庫.md` 存在
 - [ ] 各素材庫中 `commonMisconception` 欄位已實質填寫
 
 **數學科特規**：若 KL4 素材庫中未羅列該單元迷思概念，**阻擋出題**。
@@ -114,8 +114,8 @@ S2 數學科題庫盤點（2026-03-28）：
 |:--|:--|
 | `question/README_出題與品管準則.md` | CQI-P 計分、數學防猜機制 |
 | `knowledge/README_研究架構總綱.md` | KL1~KL4 研究架構 |
-| `knowledge/課綱研究/數學/G5_S2_數學發展綱要.md` | G5 發展綱要 |
-| `knowledge/課綱研究/數學/G6_S2_數學_發展綱要.md` | G6 發展綱要 |
+| `knowledge/1_課綱研究/數學/G5_S2_數學發展綱要.md` | G5 發展綱要 |
+| `knowledge/1_課綱研究/數學/G6_S2_數學_發展綱要.md` | G6 發展綱要 |
 | `_agent/skills/ei_qst/SKILL.md` | 出題流水線 SOP |
 
 ## ✅ 啟動 Checklist (Pre-Flight)

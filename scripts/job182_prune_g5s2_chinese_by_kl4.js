@@ -18,7 +18,7 @@ const path = require('path');
 
 const REPO = path.resolve(__dirname, '..');
 const QUESTION_ROOT = path.join(REPO, 'question/platform/G5/Chinese/S2');
-const KNOWLEDGE = path.join(REPO, 'knowledge/課綱研究/國語/五下');
+const KNOWLEDGE = path.join(REPO, 'knowledge/1_課綱研究/國語/五下');
 const LOG_DETAIL = path.join(REPO, '.logs/JOB-182-prune-detail.jsonl');
 
 const PUB = { HanLin: '翰林', KangHsuan: '康軒', NanYi: '南一' };

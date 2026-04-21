@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JOB-207 Phase 2: 批次下載米蘭老師 Drive PDF 到 knowledge/考古/原始/
+"""JOB-207 Phase 2: 批次下載米蘭老師 Drive PDF 到 knowledge/3_考古題/原始/
 
 從 `_manifest/drive_manifest_G1_G6.json` 讀取 Drive metadata，依條件篩選後
 用 gdown --folder 下載 + rename 到新結構。
@@ -21,7 +21,7 @@
 import os, re, sys, json, shutil, time, argparse, subprocess
 from pathlib import Path
 
-BASE = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/考古')
+BASE = Path('/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題')
 MANIFEST = BASE / '_manifest' / 'drive_manifest_G1_G6.json'
 GDOWN = '/Users/s389080/Library/Python/3.11/bin/gdown'
 

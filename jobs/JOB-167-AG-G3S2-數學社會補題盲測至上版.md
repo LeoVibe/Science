@@ -67,8 +67,8 @@ G3S2 剩餘兩科未達課級上版門檻（每課 `is_publishable: true` ≥ 25
 **南一 L1-L5**：各補 9 題至 30 題（共 45 題）
 
 研究素材：
-- `knowledge/課綱研究/社會/三下_社會_發展綱要.md`
-- `knowledge/課綱研究/社會/G3_S2_社會_原始研究素材庫.md`
+- `knowledge/1_課綱研究/社會/三下_社會_發展綱要.md`
+- `knowledge/1_課綱研究/社會/G3_S2_社會_原始研究素材庫.md`
 
 出題要求：
 - 依 `question/README_出題與品管準則.md` 規範
@@ -134,8 +134,8 @@ node scripts/normalize_manifest.js question/platform/G3/SocialStudies/S2
 |:--|:--|
 | `question/README_出題與品管準則.md` | 出題原則、JSON 格式 |
 | `question/README_驗證與盲測準則.md`（v4.2） | 盲測流程、上版門檻 |
-| `knowledge/課綱研究/社會/三下_社會_發展綱要.md` | 社會三下課綱 |
-| `knowledge/課綱研究/社會/G3_S2_社會_原始研究素材庫.md` | 社會三下原始素材 |
+| `knowledge/1_課綱研究/社會/三下_社會_發展綱要.md` | 社會三下課綱 |
+| `knowledge/1_課綱研究/社會/G3_S2_社會_原始研究素材庫.md` | 社會三下原始素材 |
 
 ---
 
@@ -143,7 +143,7 @@ node scripts/normalize_manifest.js question/platform/G3/SocialStudies/S2
 
 - [ ] 已讀取 `question/README_出題與品管準則.md`
 - [ ] 已讀取 `question/README_驗證與盲測準則.md`（v4.2）
-- [ ] 已讀取 `knowledge/課綱研究/社會/三下_社會_發展綱要.md`
+- [ ] 已讀取 `knowledge/1_課綱研究/社會/三下_社會_發展綱要.md`
 - [ ] **Cursor 作業模型**：`composer-2`（已核准）
 - [ ] **盲測 API 模型**：`gemini-3-flash-lite`（已核准）
 - [ ] 確認題庫路徑與現有題數：

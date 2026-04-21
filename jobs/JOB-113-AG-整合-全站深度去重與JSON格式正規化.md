@@ -32,7 +32,7 @@
 4. **階段三：同課合併去重**：針對所有判斷屬於同一 `L{N}` 的陣列進行 `question` 的字串比對去重，並競選出最長的「具中文語意」標題（蓋掉 `U1` 或 `Exp` 等無意義標題）。
 5. **階段四：統計更新 (`/tmp/update_stats.py`, `scripts/rebuild_manifest.py`)**：重建網頁目錄並更新到所有追蹤文件。
 6. **階段五：全域大重構與 Meta 擴充 (2026-03-26 重啟)**：
-   - 撰寫 `extract_r3_metadata.py` 讀取 `knowledge/課綱研究/國語/` 取出真實 `title` 與 `theme`。
+   - 撰寫 `extract_r3_metadata.py` 讀取 `knowledge/1_課綱研究/國語/` 取出真實 `title` 與 `theme`。
    - 撰寫 `rename_and_inject.py` 將全站 652 份 JSON 更名為 `G{N}_S{N}_{SUB}_{PUB}_L{N}.json` 絕對扁平化命名，並注射 Meta 屬性。
    - 更新重組指令，於 `manifest.json` 中加入課文基本資訊。
 7. **階段六：Manifest 絕對化與一鍵上架檢核 (Phase 6)**：

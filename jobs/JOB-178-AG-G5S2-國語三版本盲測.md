@@ -66,9 +66,9 @@ G5S2 國語三版本題庫已完成出題（翰林 635 題 / 康軒 510 題 / �
 | 檔案路徑 | 用途 |
 |:--|:--|
 | `question/README_驗證與盲測準則.md` | 盲測流程、§2.5 Mismatch 判斷規則 |
-| `knowledge/課綱研究/國語/五下/翰林/` | 翰林 KL4 單課研究（L1-L12 雙檔） |
-| `knowledge/課綱研究/國語/五下/康軒/` | 康軒 KL4 單課研究（L1-L12 雙檔） |
-| `knowledge/課綱研究/國語/五下/南一/` | 南一 KL4 單課研究（L1-L12 雙檔） |
+| `knowledge/1_課綱研究/國語/五下/翰林/` | 翰林 KL4 單課研究（L1-L12 雙檔） |
+| `knowledge/1_課綱研究/國語/五下/康軒/` | 康軒 KL4 單課研究（L1-L12 雙檔） |
+| `knowledge/1_課綱研究/國語/五下/南一/` | 南一 KL4 單課研究（L1-L12 雙檔） |
 | `question/platform/G5/Chinese/S2/` | 目標題庫 JSON（三版本） |
 | `_agent/API_RULES.md` | API 成本控制 |
 
@@ -89,7 +89,7 @@ G5S2 國語三版本題庫已完成出題（翰林 635 題 / 康軒 510 題 / �
 - [ ] 已讀取 `question/README_驗證與盲測準則.md`
 - [ ] 已確認 Gemini 金鑰有效（`GEMINI_API_KEY` 或 `GOOGLE_API_KEY`）
 - [ ] 已確認 QPM 限制：[QPM：___________]
-- [ ] 已確認三版本 KL4 研究素材存在（`knowledge/課綱研究/國語/五下/`）
+- [ ] 已確認三版本 KL4 研究素材存在（`knowledge/1_課綱研究/國語/五下/`）
 - [ ] 已執行 `evaluate_question_quality.js` 確認目前題數基線
 
 ## ✅ 驗收 Checklist (Acceptance)

@@ -2,7 +2,7 @@
 /**
  * job205_sync_title_from_materials.mjs
  *
- * 從 knowledge/課綱研究/ 下的「原始研究素材庫」與「發展綱要」parse 出三版逐課 title，
+ * 從 knowledge/1_課綱研究/ 下的「原始研究素材庫」與「發展綱要」parse 出三版逐課 title，
  * 同步到 question/platform/.../manifest.items[].title 與對應 lesson.json:meta.title。
  *
  * 支援 5 種 pattern（詳見 docs/superpowers/specs/2026-04-20-placeholder-title-sync-design.md §素材庫 5 種 Pattern）：
@@ -25,7 +25,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const KL4_ROOT = path.join(ROOT, 'knowledge', '課綱研究');
+const KL4_ROOT = path.join(ROOT, 'knowledge', '1_課綱研究');
 const PLATFORM = path.join(ROOT, 'question', 'platform');
 
 const args = new Set(process.argv.slice(2));

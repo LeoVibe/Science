@@ -23,15 +23,15 @@
 
 | 檔案路徑 | 異動類型 | 說明 |
 |:--|:--|:--|
-| `knowledge/考古題原檔/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` | 新增 | 20 題 JSON，含 lesson 分類標記 |
+| `knowledge/3_考古題/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json` | 新增 | 20 題 JSON，含 lesson 分類標記 |
 | `knowledge/README_研究架構總綱.md` | 修改 | v4.2：Production Gate ≥10/≥2 + 課次分類原則 + 附錄改指標 |
-| `knowledge/考古題原檔/README_考古題蒐集規範與來源索引.md` | 修改 | 門檻更新 + 來源D(hlmath) + mock SOP + 分類準則 + 智財條文 + 留存政策 |
+| `knowledge/3_考古題/README_考古題蒐集規範與來源索引.md` | 修改 | 門檻更新 + 來源D(hlmath) + mock SOP + 分類準則 + 智財條文 + 留存政策 |
 | `question/README_出題與品管準則.md` | 修改 | 第一章前新增考古題引用原則（禁止照抄） |
 
 ## ✅ Checklist 對照結果
 
 ### 驗收 Checklist
-- [x] G1：JSON 產出 → `knowledge/考古題原檔/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json`（20 題）
+- [x] G1：JSON 產出 → `knowledge/3_考古題/四下/社會/G4_S2_社會_翰林_期中1_大華國小.json`（20 題）
 - [x] G2：規範檔含來源 A/B/C/D（4 管道）
 - [x] G3：mock quiz SOP 含技術細節 + error 修正表
 - [x] G4：研究架構總綱 v4.2，Production Gate = ≥10 + ≥2

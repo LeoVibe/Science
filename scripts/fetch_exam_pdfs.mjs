@@ -6,7 +6,7 @@
  *   node scripts/fetch_exam_pdfs.mjs --grade 3,4,5,6 --subject 國語,數學,社會,自然 --semester 1,2
  *   node scripts/fetch_exam_pdfs.mjs --all   # 抓 G3-G6 全科目
  *
- * 輸出：knowledge/考古題原檔/{學期}/{科目}/{出版社 or 學校}/
+ * 輸出：knowledge/3_考古題/{學期}/{科目}/{出版社 or 學校}/
  *
  * 依賴：puppeteer（npm install puppeteer）
  */
@@ -17,7 +17,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const BASE_DIR = path.resolve(__dirname, '../knowledge/考古題原檔');
+const BASE_DIR = path.resolve(__dirname, '../knowledge/3_考古題');
 const TCOOL_URL = 'https://www.tcool.cc/';
 const DELAY_BETWEEN_PDF = 15000; // 15 秒間隔，避免被擋
 const DELAY_BETWEEN_SEARCH = 3000;

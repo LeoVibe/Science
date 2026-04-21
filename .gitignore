@@ -45,18 +45,15 @@ Thumbs.db
 # Logs
 docs/reports/
 
-# 考古題原檔（2026-04-21 起改名 knowledge/考古/；舊路徑於 JOB-207 遷移完成後清空）
-knowledge/考古題原檔/
-
-# 考古/（新架構）：
+# 3_考古題/（2026-04-21 JOB-207 定案結構）：
 # - 原始 PDF/Word 永久保存本機、不進 git（智財保護）
 # - 淬煉 MD 不進 git（含原題改寫內容）
 # - _index.json 允許追蹤（索引 metadata，不含原題）
 # - _manifest/ 允許追蹤（全站 Drive/PDF 清單）
 # - README.md 允許追蹤（規範）
-knowledge/考古/原始/
-knowledge/考古/淬煉/**/*.md
-!knowledge/考古/淬煉/**/_index.json
+knowledge/3_考古題/原始/
+knowledge/3_考古題/淬煉/**/*.md
+!knowledge/3_考古題/淬煉/**/_index.json
 
 # iCloud / macOS 同步時產生的重複檔（檔名末尾 " 2"/" 3" 等帶空格+數字）
 * 2.json

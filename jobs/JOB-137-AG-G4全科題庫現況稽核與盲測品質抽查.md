@@ -97,7 +97,7 @@
 | 檔案路徑 | 用途 |
 |:--|:--|
 | `question/platform/` | G4 題庫 JSON 存放位置（依實際目錄結構為準） |
-| `knowledge/課綱研究/` | G4 研究素材與課次索引 |
+| `knowledge/1_課綱研究/` | G4 研究素材與課次索引 |
 | `docs/README_任務派工準則.md` | 派工規範 |
 | `question/README_出題與品管準則.md` | 出題品質標準 |
 | `question/README_驗證與盲測準則.md` | 盲測標準（CQI-V、Match Rate 定義） |

@@ -18,7 +18,7 @@
 ## 已完成項目
 
 1. **`scripts/auto_generate_questions.js`**
-   - 新增 `KNOWLEDGE_SOCIAL_G5S2`（`knowledge/課綱研究/社會/五下`）。
+   - 新增 `KNOWLEDGE_SOCIAL_G5S2`（`knowledge/1_課綱研究/社會/五下`）。
    - `loadSocialKl4StudyText`：依 `meta.grade` 區分四下／五下，前綴 `KL4_五下_*`／`KL4_四下_*`；併入同課「考古題與討論」摘要（截斷上限，禁止抄題之提示仍於使用者提示維持）。
    - `isElementaryS2SocialStudiesMcq`：G4／G5 下學期社會皆走四選一清洗、`normalizeScienceGeneratedQuestion`、社會強制提示詞。
    - **G5 社會 S2**：`callLLM` system 改為高年級認知配比文字；使用者提示加註 G5 配題比例。

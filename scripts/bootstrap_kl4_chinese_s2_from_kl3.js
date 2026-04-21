@@ -10,8 +10,8 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const KL3_PATH = path.join(ROOT, 'knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md');
-const KNOWLEDGE_CHI = path.join(ROOT, 'knowledge/課綱研究/國語');
+const KL3_PATH = path.join(ROOT, 'knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md');
+const KNOWLEDGE_CHI = path.join(ROOT, 'knowledge/1_課綱研究/國語');
 
 const PUB_DIR = { '1': '翰林', '2': '康軒', '3': '南一' };
 /** 課碼：0 + 版本(1翰2康3南) + 年級(3-6) + 學期(01上02下) + 課次兩碼 */

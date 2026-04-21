@@ -88,5 +88,5 @@ def clean_file(file_path):
     print(f"Successfully cleaned: {file_path}")
 
 if __name__ == "__main__":
-    vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/KL3_國語科_課名_課文彙整.md"
+    vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/KL3_國語科_課名_課文彙整.md"
     clean_file(vault_path)

@@ -23,8 +23,8 @@
 ## 📜 關鍵參考檔案
 | 檔案路徑 | 用途說明 |
 | --- | --- |
-| [G6_S2_國語_原始研究素材庫.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/G6_S2_國語_原始研究素材庫.md) | R3 原始素材與大意 |
-| [六年級下學期_國語_發展綱要.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/六年級下學期_國語_發展綱要.md) | R4 命題矩陣與高階考點 |
+| [G6_S2_國語_原始研究素材庫.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/G6_S2_國語_原始研究素材庫.md) | R3 原始素材與大意 |
+| [六年級下學期_國語_發展綱要.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/六年級下學期_國語_發展綱要.md) | R4 命題矩陣與高階考點 |
 | [出題設計準則.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/question/README_出題與品管準則.md) | CQI 分數與 QG (QQL1-QQL5) 定義 |
 | [API_RULES.md](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/_agent/API_RULES.md) | 金鑰額度與自動化調速規範 |
 

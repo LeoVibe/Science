@@ -26,7 +26,7 @@ node scripts/auto_generate_questions.js question/platform/G4/SocialStudies/S2/Na
 
 - `--threshold 10` 會將所有現有題目（CQI < 10 = 全部）清除
 - `--pattern "L6"` 只處理 G4_S2_SOC_NANYI_L6.json
-- KL4 研究素材：`knowledge/課綱研究/社會/四下/南一/KL4_四下_南一_L6_想像家鄉的樣子_單課研究紀錄.md`
+- KL4 研究素材：`knowledge/1_課綱研究/社會/四下/南一/KL4_四下_南一_L6_想像家鄉的樣子_單課研究紀錄.md`
 - 使用免費 key（ApiKeys.cfg 中 GEMINI_API_KEY_YOTTA_EIDOS_FREE 或 MIAW_EIDOS_FREE）
 
 ### Step 2: 評估品質（確認 CQI-P 分布）

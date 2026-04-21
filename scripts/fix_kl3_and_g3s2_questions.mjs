@@ -17,7 +17,7 @@ const repoRoot = path.resolve(__dirname, '..');
 
 const KL3 = path.join(
   repoRoot,
-  'knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md'
+  'knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md'
 );
 
 const G3S2_CHI = path.join(repoRoot, 'question/platform/G3/Chinese/S2');

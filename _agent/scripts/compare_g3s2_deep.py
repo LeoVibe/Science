@@ -2,7 +2,7 @@ import re
 import os
 
 def extract_old_names():
-    path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/三下/KL4_三下_國語_原始研究素材庫.md"
+    path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/三下/KL4_三下_國語_原始研究素材庫.md"
     with open(path, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -13,7 +13,7 @@ def extract_old_names():
     return names
 
 def extract_new_names():
-    path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/KL3_國語科_課名_課文彙整.md"
+    path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/KL3_國語科_課名_課文彙整.md"
     if not os.path.exists(path):
         return []
     with open(path, 'r', encoding='utf-8', errors='ignore') as f:
@@ -31,10 +31,10 @@ def compare_content(lesson_name):
     # Search for lesson in KL4 files
     # Note: KL4 files are in subdirs 康軒, 翰林, 南一
     old_text = ""
-    new_vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/KL3_國語科_課名_課文彙整.md"
+    new_vault_path = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/KL3_國語科_課名_課文彙整.md"
     
     # Find old text in any KL4 file
-    base_dir = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/國語/三下/"
+    base_dir = "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/國語/三下/"
     for root, dirs, files in os.walk(base_dir):
         for file in files:
             if file.endswith("單課研究紀錄.md") and lesson_name in file:

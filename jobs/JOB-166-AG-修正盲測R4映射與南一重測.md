@@ -26,8 +26,8 @@ JOB-165 盲測發現南一 ai=-1 集中異常：
 
 但 KL4 單課研究檔已完整存在：
 ```
-knowledge/課綱研究/國語/三下/南一/KL4_三下_南一_L1_最美的模樣_單課研究紀錄.md
-knowledge/課綱研究/國語/三下/南一/KL4_三下_南一_L2_玩玩具_單課研究紀錄.md
+knowledge/1_課綱研究/國語/三下/南一/KL4_三下_南一_L1_最美的模樣_單課研究紀錄.md
+knowledge/1_課綱研究/國語/三下/南一/KL4_三下_南一_L2_玩玩具_單課研究紀錄.md
 ...（每課皆有）
 ```
 
@@ -65,7 +65,7 @@ knowledge/課綱研究/國語/三下/南一/KL4_三下_南一_L2_玩玩具_單�
 **查找規則**：
 1. 從題庫 JSON 路徑解析出版社名稱（KangHsuan→康軒、HanLin→翰林、NanYi→南一）
 2. 從 JSON 的 `meta.title` 或檔名解析課次（L1, L2...）
-3. 查找 `knowledge/課綱研究/國語/三下/{出版社}/KL4_三下_{出版社}_{課次}_{課名}_單課研究紀錄.md`
+3. 查找 `knowledge/1_課綱研究/國語/三下/{出版社}/KL4_三下_{出版社}_{課次}_{課名}_單課研究紀錄.md`
 4. **找到** → 直接用 KL4 內容作為 R4 context（跳過 LLM 萃取，省 API 呼叫）
 5. **找不到** → fallback 到現有 KL3 總綱 + LLM 萃取（不改動原有邏輯）
 
@@ -109,7 +109,7 @@ node scripts/run_blind_eval.js \
 
 - [ ] 已讀取 `question/README_驗證與盲測準則.md`（v4.2）
 - [ ] 已讀取 `scripts/run_blind_eval.js`，定位 R4 映射邏輯
-- [ ] 已確認 KL4 單課研究檔存在（`knowledge/課綱研究/國語/三下/南一/` 下 L1-L8）
+- [ ] 已確認 KL4 單課研究檔存在（`knowledge/1_課綱研究/國語/三下/南一/` 下 L1-L8）
 - [ ] **Cursor 作業模型**：`composer-2`（已核准）
 - [ ] **盲測 API 模型**：`gemini-3-flash-lite`（已核准）
 

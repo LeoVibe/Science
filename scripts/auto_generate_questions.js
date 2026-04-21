@@ -108,13 +108,13 @@ const PUBLISHER_TO_DIR = {
 };
 
 /** 四下自然：KL4 單課研究紀錄（與 JOB-168 / G4S2 派工路徑一致） */
-const KNOWLEDGE_SCIENCE_G4S2 = path.resolve(__dirname, '../knowledge/課綱研究/自然/四下');
+const KNOWLEDGE_SCIENCE_G4S2 = path.resolve(__dirname, '../knowledge/1_課綱研究/自然/四下');
 
 /** 四下社會：KL4 單課研究紀錄（JOB-170 / JOB-171） */
-const KNOWLEDGE_SOCIAL_G4S2 = path.resolve(__dirname, '../knowledge/課綱研究/社會/四下');
+const KNOWLEDGE_SOCIAL_G4S2 = path.resolve(__dirname, '../knowledge/1_課綱研究/社會/四下');
 
 /** 五下社會：KL4 單課研究紀錄（JOB-184 / G5S2） */
-const KNOWLEDGE_SOCIAL_G5S2 = path.resolve(__dirname, '../knowledge/課綱研究/社會/五下');
+const KNOWLEDGE_SOCIAL_G5S2 = path.resolve(__dirname, '../knowledge/1_課綱研究/社會/五下');
 
 /** G4／G5 下學期社會題庫路徑（用於 KL4 載入與四選一 MCQ 清洗） */
 function isG4S2SocialStudies(filePath) {
@@ -268,7 +268,7 @@ function normalizeScienceGeneratedQuestion(q) {
 }
 
 // 知識庫在 repo 根（scripts 上一層），勿用 ../../ 誤指到 0_AI_Project 同層
-const KNOWLEDGE_CHINESE_ROOT = path.resolve(__dirname, '../knowledge/課綱研究/國語');
+const KNOWLEDGE_CHINESE_ROOT = path.resolve(__dirname, '../knowledge/1_課綱研究/國語');
 
 /**
  * 自 KL4 單課研究紀錄.md 截取「課文全文錄製」區塊（RC-01）
@@ -320,7 +320,7 @@ function findKl4ChinesePair(grade, semester, publisher, lesson) {
     };
 }
 
-const KL3_CHINESE_INDEX = 'knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md';
+const KL3_CHINESE_INDEX = 'knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md';
 
 /** 讀取國語課文：僅自 KL4 單課研究紀錄「課文全文錄製」；不齊備則略過並註記 */
 function loadChineseLessonText(jsonObj, filePath) {

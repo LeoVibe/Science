@@ -10,7 +10,7 @@ description: 課綱與單課研究（KL3/KL4）— 觸發器，正文在 knowled
 ## 唯一權威
 
 `knowledge/README_研究架構總綱.md` — 執行前必讀全文。
-國語索引：`knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md`。
+國語索引：`knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md`。
 
 ## 硬閘
 

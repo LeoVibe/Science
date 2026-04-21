@@ -24,7 +24,7 @@
 | `question/platform/G3/SocialStudies/S2/` | 目標題庫目錄 |
 
 ## 🧬 推薦指令/提示詞
-> 呼叫 `run_blind_eval.js` 時應對照 `knowledge/課綱研究/Social/G3_S2_社會發展綱要.md`。
+> 呼叫 `run_blind_eval.js` 時應對照 `knowledge/1_課綱研究/Social/G3_S2_社會發展綱要.md`。
 
 ## ✅ 驗證基準 (DoD)
 - [ ] 所有 JSON 檔案內不再包含「這點在實務上很重要」或類似幻覺字串。

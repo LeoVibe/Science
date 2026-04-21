@@ -11,7 +11,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const PLATFORM = path.join(ROOT, 'question/platform');
-const KNOWLEDGE_CHINESE_ROOT = path.join(ROOT, 'knowledge/課綱研究/國語');
+const KNOWLEDGE_CHINESE_ROOT = path.join(ROOT, 'knowledge/1_課綱研究/國語');
 
 const GRADE_SEM_TO_DIR = {
   G1: { S1: '一上', S2: '一下' },

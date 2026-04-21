@@ -7,7 +7,7 @@
 
 ## 1. 執行摘要
 
-- 已於 `scripts/run_blind_eval.js` 新增 **G3 國語 S2（三下）** 之 **KL4 單課研究檔優先** 邏輯：路徑含 `Chinese`＋`G3`＋`S2` 且出版社資料夾為 `KangHsuan`／`HanLin`／`NanYi` 時，若存在對應 `knowledge/課綱研究/國語/三下/{康軒|翰林|南一}/KL4_三下_*_{L?}_*_單課研究紀錄.md`，則 **直接讀檔全文作為 R4 context**，**不呼叫** `extractR4Context`（省 LLM 萃取）。
+- 已於 `scripts/run_blind_eval.js` 新增 **G3 國語 S2（三下）** 之 **KL4 單課研究檔優先** 邏輯：路徑含 `Chinese`＋`G3`＋`S2` 且出版社資料夾為 `KangHsuan`／`HanLin`／`NanYi` 時，若存在對應 `knowledge/1_課綱研究/國語/三下/{康軒|翰林|南一}/KL4_三下_*_{L?}_*_單課研究紀錄.md`，則 **直接讀檔全文作為 R4 context**，**不呼叫** `extractR4Context`（省 LLM 萃取）。
 - 已依派工單對南一 **L1、L2、L3、L8** 四課執行 **`run_blind_eval.js --force`**；執行 log：`.logs/JOB-166-blind-eval_20260409_073638.log`。
 - 重跑後 **四課 `ai_selected: -1` 皆為 0**（L1 由 10 → 0，達派工「≤3」目標）。
 - 四課合計 **1 題 Mismatch**（L2 第 3 題，0-based index 2）：AI 選 (2)、題庫 (1)，屬 **TYPE-C**（想像／投射兩解部分合理），已以 `job165_apply_triage.js` 回寫 `mismatch_triage`、`review_status: confirmed`；**TYPE-B 0 題**（本四課範圍內比例 0%）。

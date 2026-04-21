@@ -68,7 +68,7 @@ node scripts/evaluate_question_quality.js question/platform/G3/Chinese/S2/NanYi
 
 ### Phase 3：補強低分題目
 
-- 依 `knowledge/課綱研究/國語/G3_S2_國語_發展綱要.md` 與各課 KL4 素材補強
+- 依 `knowledge/1_課綱研究/國語/G3_S2_國語_發展綱要.md` 與各課 KL4 素材補強
 - 重點修改方向：
   - `scenario` 欄位空白或不具體 → 補充真實情境
   - `explanation` 過於簡短 → 說明完整推理步驟
@@ -88,8 +88,8 @@ node scripts/evaluate_question_quality.js question/platform/G3/Chinese/S2/NanYi
 |:--|:--|
 | `question/README_出題與品管準則.md` | 出題原則、JSON 格式規範、CQI-P 各項配分說明 |
 | `question/README_驗證與盲測準則.md` | 上版門檻定義（v4.2，2026-04-08 更新） |
-| `knowledge/課綱研究/國語/G3_S2_國語_發展綱要.md` | 三下國語課綱與命題規格 |
-| `knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md` | 各課課文素材索引 |
+| `knowledge/1_課綱研究/國語/G3_S2_國語_發展綱要.md` | 三下國語課綱與命題規格 |
+| `knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md` | 各課課文素材索引 |
 
 ---
 

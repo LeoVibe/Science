@@ -82,14 +82,14 @@ node scripts/auto_generate_questions.js question/platform/G3/Chinese/S2/NanYi \
 | 項目 | 說明 |
 |:---|:---|
 | 清空範圍 | `G3_S2_CHI_NANYI_L1.json`～`L12.json` 曾清空為 `[]` |
-| 研究檔 | **未**變更 `knowledge/課綱研究/國語/三下/南一/`（派工要求保留） |
+| 研究檔 | **未**變更 `knowledge/1_課綱研究/國語/三下/南一/`（派工要求保留） |
 
 ---
 
 ## 關聯路徑
 
 - 題庫：`question/platform/G3/Chinese/S2/NanYi/`
-- 研究：`knowledge/課綱研究/國語/三下/南一/`
+- 研究：`knowledge/1_課綱研究/國語/三下/南一/`
 
 ---
 

@@ -15,7 +15,7 @@ const path = require('path');
 // 目標題庫
 const QUESTION_FILE = 'question/platform/G3/Chinese/S2/KangHsuan/Chi_L4.json';
 // R4 發展綱要
-const R4_FILE = 'knowledge/課綱研究/國語/三年級下學期_國語_發展綱要.md';
+const R4_FILE = 'knowledge/1_課綱研究/國語/三年級下學期_國語_發展綱要.md';
 // 課次識別標記
 const LESSON_KEY = '#### L4 工匠之祖';
 // 批次大小

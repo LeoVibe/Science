@@ -54,7 +54,7 @@
 社會科題目需有明確的課綱依據，補題前先確認：
 ```bash
 # 確認各課 KL4 副檔存在
-find knowledge/課綱研究/社會/四下/ -name "KL4*.md" | sort
+find knowledge/1_課綱研究/社會/四下/ -name "KL4*.md" | sort
 ```
 
 - 若 KL4 副檔缺漏 → 先回報 Claude Code，不得直接補題

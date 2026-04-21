@@ -10,8 +10,8 @@
 ## 核心執行規範 (Mandatory)
 > [!IMPORTANT]
 > 執行本任務的 Agent **必須強制、深刻地參考** 以下兩份研究文件，嚴禁脫離文件進行「通用型」命題：
-> 1. [G6_S2_自然_原始研究素材庫 (v2.0)](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/自然/G6_S2_自然_原始研究素材庫.md)
-> 2. [G6_S2_自然_發展綱要 (v2.0)](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/課綱研究/自然/G6_S2_自然_發展綱要.md)
+> 1. [G6_S2_自然_原始研究素材庫 (v2.0)](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/自然/G6_S2_自然_原始研究素材庫.md)
+> 2. [G6_S2_自然_發展綱要 (v2.0)](file:///Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/1_課綱研究/自然/G6_S2_自然_發展綱要.md)
 
 ---
 

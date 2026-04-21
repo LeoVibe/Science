@@ -23,7 +23,7 @@
 
 ### 其餘已知缺口（延續前版盤點）
 
-- **`README.md` 目錄樹範例**與現行 `knowledge/課綱研究/` 實際檔名／層級不一致。
+- **`README.md` 目錄樹範例**與現行 `knowledge/1_課綱研究/` 實際檔名／層級不一致。
 - **`KL3_國語_研究進度_課文與索引.md`**：頁首統計、表格列與磁碟檔案數不一致；索引註明之 **`scripts/clean_kl3_chinese_curriculum_vault.py`** 倉庫內不存在。
 - **國語產題**：`_agent/skills/ei_qst/SKILL.md` 與 **`scripts/auto_generate_questions.js`** 須與 **KL4 雙檔**、**`KL3_國語_研究進度_課文與索引.md`** 之流程一致（已逐步收斂）。
 
@@ -47,7 +47,7 @@
 | 缺失編號 | 描述 |
 |:---:|:---|
 | **ER-01** | **與 ei_qst 交接**：產題端已改為僅讀 KL4「課文全文錄製」；`ei_research` 應明確要求出題前 **RC-01 須含可抽取之全文**（與 **KL3 索引**一致），並與考古副檔成對。（若仍寫舊 `.txt` 敘述則刪除。） |
-| **ER-02** | **路徑範本**：`ei_research` 寫 `knowledge/課綱研究/[科目]/[學期]/`；國語實務常見 **`課綱研究/國語/三下/康軒/`** 等。需在 Skill 或研究總綱加「國語實際目錄範例」避免誤建路徑。 |
+| **ER-02** | **路徑範本**：`ei_research` 寫 `knowledge/1_課綱研究/[科目]/[學期]/`；國語實務常見 **`課綱研究/國語/三下/康軒/`** 等。需在 Skill 或研究總綱加「國語實際目錄範例」避免誤建路徑。 |
 | **ER-03** | **ei_qst 反向引用**：`ei_qst` 写「缺 R3/R4 → 執行 `/ei_research`」；應與 **`/ei_research`／`ei_research` Skill** 及 **`job_type: research`** 開單流程對齊（並改用 KL 用語）。 |
 
 ### 腳本與 `docs/README_任務派工準則.md`（歷史盤點；本 JOB 已結案）
@@ -89,10 +89,10 @@
 ### B. 文件與 Skill（`docs_ops`）
 
 - [x] **B-1** 更新根 **`README.md`**：**`Model_Price.json`** 改為 **`../Model_Price.json`**（或等效說明「父層 `0_AI_Project`、未納入本 repo」），移除錯誤之 `.md`／路徑。
-- [x] **B-2** 更新根 **`README.md`**「目錄結構」：對齊真實 `knowledge/課綱研究/`，移除易誤導之 `KL3_G6_S2_…` 範例或改為註解「僅示意」。
+- [x] **B-2** 更新根 **`README.md`**「目錄結構」：對齊真實 `knowledge/1_課綱研究/`，移除易誤導之 `KL3_G6_S2_…` 範例或改為註解「僅示意」。
 - [x] **B-3** 更新 **`_agent/skills/ei_qst/SKILL.md`**：修正 **EQ-01～EQ-06**（指令名、KL 用語、TRG 路徑、`auto_generate` 正確 CLI、TCG/OED/ACV 性質、花費回報）。
 - [x] **B-4** 更新 **`_agent/skills/ei_research/SKILL.md`**：修正 **ER-01～ER-03**（與 ei_qst／`.txt` 銜接、國語目錄實例、交叉引用 `job_type`）。
-- [x] **B-5** 修正 **`knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md`**：頁首統計、翰林三下 **L05** 列、底部 `updated_by` 腳本路徑或恢復腳本。
+- [x] **B-5** 修正 **`knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md`**：頁首統計、翰林三下 **L05** 列、底部 `updated_by` 腳本路徑或恢復腳本。
 - [x] **B-6** 於 **`question/README_出題與品管準則.md`**（或 README 管線段）增加**一段**「國語：KL4 研究檔 vs TRG `.txt`」之單一真相敘述（與 B-3/B-4 同步）。
 
 ### C. 腳本與規則（`engineering`）
@@ -117,7 +117,7 @@
 | `README.md` | 規範索引、目錄樹、Agent 技能表、`Model_Price` 連結 |
 | `docs/README_任務派工準則.md` | 派工生命週期（**取代舊看板敘事**之權威） |
 | `knowledge/README_研究架構總綱.md` | KL／RM |
-| `knowledge/課綱研究/國語/KL3_國語_研究進度_課文與索引.md` | 課次與 KL4 連結 |
+| `knowledge/1_課綱研究/國語/KL3_國語_研究進度_課文與索引.md` | 課次與 KL4 連結 |
 | `question/README_出題與品管準則.md` | CQI-P、JSON、CI |
 | `question/README_驗證與盲測準則.md` | CQI-V、QL |
 | `_agent/skills/ei_qst/SKILL.md` | 出題流水線（待修 EQ-*） |

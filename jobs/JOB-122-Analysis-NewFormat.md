@@ -101,7 +101,7 @@ G3-G6 S2 國語科研究層因前次（JOB-116）出現大規模網址失效（~
 ### 階段一：研究驗證（Antigravity Agent）
 
 1. 讀取 `knowledge/README_研究架構總綱.md`
-2. 掃描 `knowledge/課綱研究/國語/[G3-G6]/[版本]/KL*` 目錄結構
+2. 掃描 `knowledge/1_課綱研究/國語/[G3-G6]/[版本]/KL*` 目錄結構
 3. 對每課進行檔案存在性 + 連結可達性檢查：
    ```bash
    # 偽代碼
@@ -124,7 +124,7 @@ G3-G6 S2 國語科研究層因前次（JOB-116）出現大規模網址失效（~
 3. 參照 KL4 副檔「誘答機制」部分，進行出題：
    ```bash
    # 對於每課的 12-30 個已有題目，基於 KL4 指導補充 5-10 題
-   node scripts/ai_question_gen.js --kl4_ref knowledge/課綱研究/國語/三下/翰林/KL4_*.md \
+   node scripts/ai_question_gen.js --kl4_ref knowledge/1_課綱研究/國語/三下/翰林/KL4_*.md \
        --output question/platform/G3/Chinese/S2/HanLin/G3_S2_CHI_HANLIN_L1-ext.json \
        --target_count 25
    ```

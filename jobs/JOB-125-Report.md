@@ -17,8 +17,8 @@
 
 ### 1. 管線修復（阻擋級）
 
-- **問題**：`scripts/auto_generate_questions.js` 之 `KNOWLEDGE_CHINESE_ROOT` 使用 `../../knowledge/課綱研究/國語`，在 repo 根為 `eidosProject` 時會解析成 **`0_AI_Project/knowledge/...`**（不存在），國語產題一律報「資料不齊備」。
-- **修正**：改為 `path.resolve(__dirname, '../knowledge/課綱研究/國語')`。
+- **問題**：`scripts/auto_generate_questions.js` 之 `KNOWLEDGE_CHINESE_ROOT` 使用 `../../knowledge/1_課綱研究/國語`，在 repo 根為 `eidosProject` 時會解析成 **`0_AI_Project/knowledge/...`**（不存在），國語產題一律報「資料不齊備」。
+- **修正**：改為 `path.resolve(__dirname, '../knowledge/1_課綱研究/國語')`。
 - **驗證**：`node scripts/auto_generate_questions.js question/platform/G4/Chinese/S2/HanLin --pattern "HANLIN_L1\\.json" --key Yotta --model gemini-3.1-flash` 已出現 **`📖 [國語] 課文來源：KL4…`**；該檔因已滿 30 題而略過補題（預期行為）。
 
 ### 2. 派工單

@@ -10,10 +10,10 @@
 3. **高品質實驗題產出**：針對五下數學「分數乘以分數」與社會「日治時期史觀」生成了 3 題 QL5+ 品質題目，內含深度解析與誘答機制驗證。
 
 ## 🛠️ 變更檔案清單
-- `knowledge/課綱研究/國語/G5_S2_國語_原始研究素材庫.md` (NEW)
-- `knowledge/課綱研究/社會/G5_S2_社會_原始研究素材庫.md` (Modified)
-- `knowledge/課綱研究/數學/G5_S2_數學_原始研究素材庫.md` (Modified)
-- `knowledge/課綱研究/自然/G5_S2_自然_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/國語/G5_S2_國語_原始研究素材庫.md` (NEW)
+- `knowledge/1_課綱研究/社會/G5_S2_社會_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/數學/G5_S2_數學_原始研究素材庫.md` (Modified)
+- `knowledge/1_課綱研究/自然/G5_S2_自然_原始研究素材庫.md` (Modified)
 - `question/platform/G5/Math/S2/KangHsuan/Math_U2_Exp.json` (NEW)
 - `question/platform/G5/SocialStudies/S2/HanLin/Soc_U1_Exp.json` (NEW)
 
