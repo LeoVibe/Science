@@ -20,6 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# 過期產物目錄
+artifacts/
+test/
+
 # 個人開發環境設定（本機保留，不推 GitHub）
 .mcp.json
 .nosync
