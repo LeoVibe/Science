@@ -20,9 +20,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# 過期產物目錄
+# 過期產物與本機實驗目錄
 artifacts/
 test/
+tests/
+!tests/golden_cases/
+!tests/golden_cases/**
 
 # 個人開發環境設定（本機保留，不推 GitHub）
 .mcp.json
