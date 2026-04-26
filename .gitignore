@@ -26,6 +26,9 @@ test/
 tests/
 !tests/golden_cases/
 !tests/golden_cases/**
+!tests/check_dual_blind_consistency.test.js
+!tests/fixtures/
+!tests/fixtures/**
 
 # 個人開發環境設定（本機保留，不推 GitHub）
 .mcp.json
