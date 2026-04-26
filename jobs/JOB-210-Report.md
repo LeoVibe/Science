@@ -45,6 +45,14 @@
 | 7 | `jobs/JOB-210-Report.md` 已產出 | ✅ | 本檔案 |
 | 8 | `node scripts/job_manager.js close JOB-210` 執行成功 | ⏳ | 將於 Task 13.1 執行 |
 
+## 成果 Checklist (Deliverables)
+
+- [x] 成果表格填寫完畢（A 表 11 項變更檔 + commit hash 對應；B 表 3 項補強）
+- [x] 進度總表已評估（`docs/進度彙整_題庫研發與產出.md`）：JOB-210 為基礎建設，無題庫進度變化，本次未動該檔
+- [x] 已執行 `/pj_sync` 全域知識沉澱（`docs/README_專案發展紀錄.md` 加入 2026-04-27 區塊與 JOB-210 條目）
+- [x] 產出 `jobs/JOB-210-Report.md`（本檔）
+- [ ] Discord 結案摘要（Task 14 待完成）
+
 ## 額外驗收（plan Task 11 自動化）
 
 | Step | 結果 | 備註 |

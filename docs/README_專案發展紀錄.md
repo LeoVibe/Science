@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-20 20:00
-`updated_by`: Claude Code（JOB-205 補登階段：素材庫 parser + 110 課 title 補齊）
+`last_updated`: 2026-04-27
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-210 結案）
 
 ---
 
@@ -29,6 +29,20 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-27
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-210 | **G5S2 三 Agent 流水線前置基礎建設**：依 spec v1.0.0 + plan 14 個 task 建立基礎設施。新增 6 項檔案：`.cursor/rules/karpathy-guidelines.mdc`（Karpathy 四原則 IDE 護欄，alwaysApply: true）、`jobs/g5s2_results.tsv`（autoresearch 風格量化軌跡，12 欄 tab 分隔）、`scripts/g5s2_tsv_monitor.sh`（PM 監控腳本）、`scripts/check_dual_blind_consistency.js` + 測試 + fixture（L2 雙盲 MTP 分流，TDD 5/5 綠）。三 SKILL 升級加入「自主迴圈條款」段：`ei_research`（+6 行）、`ei_qst`（+7 行，含 `--qpm 2 --conservative` 預設值避免 JOB-184 API 限流卡住）、`ei_verify`（+6 行，雙盲必跑 Gemini Flash + Claude Haiku 兩 model）。執行中發現補強：`.gitignore` 加白名單放行 `.cursor/rules/*.mdc` 與 `tests/*` 子檔（部分翻案 aae5338 + 0eb622f 個人設定排除，沿用「公開派工紀律進 git，個人 settings/worktrees 維持本機」原則）。Cursor Rules UI 人工驗證待使用者完成。下一步：使用者啟動階段 1 KL4 補強 9 單派工 brainstorming。執行者：Claude Code（claude-opus-4-7）。見 `jobs/JOB-210-Report.md` | 🟢 DONE |
+
+### 2026-04-22
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-134 | **追溯補建派工單**：G3 S2 翰林版國語 L5/L8 盲測補做（Gemini-2.5-Pro，2026-04-03 完成，L5=100%、L8=96.7%）。本次補建 `JOB-134-AG-翰林三下國語-L5-L8-盲測補做.md` 使派工機制完整。見 `jobs/JOB-134-AG-翰林三下國語-L5-L8-盲測補做-Report.md` | 🟢 DONE |
+| JOB-176 | **追溯補建派工單**：南一四下社會 KL4 考古題蒐集（Claude Code，2026-04-11 完成，L1=12/L2=12/L3=17/L6=6 題）。本次補建 `JOB-176-AG-南一四下社會-KL4考古題蒐集.md` 使派工機制完整。見 `jobs/JOB-176-Report.md` | 🟢 DONE |
+| — | **`verify_jobs.js` 比對邏輯修正**：原本以 Report 完整 stem 比對派工單前綴，導致 JOB-105/122/132/152/200 等 11 個假陽性錯誤；改為以 `JOB-NNN[A-Z]*` 號碼前綴比對，修正後 `✅ 未發現 Report 與派工單明顯脫鉤`。 | 🟢 DONE |
+| JOB-208 | **前台 is_publishable 過濾斷鏈修復**：前台過濾邏輯 `!== false` → 嚴格 `=== true`，防止 `is_publishable: false` 或未設定題目出現在題組；後台管理員 AdminUnitCuration 品質未通過題 toggle 一律 disabled + 顯示「禁止上線」；新增 `adminMode` 參數讓後台可載入全題供審閱。3 檔修改：`config.ts`、`questionLoader.ts`、`AdminUnitCuration.tsx`（commit de6c612）。見 `jobs/JOB-208-Report.md` | 🟢 DONE |
+| JOB-187 | **上版前測試基礎建設強化（結案為廢案）**：`release_gate.sh`、`about.spec.ts`、`error-boundary.spec.ts` 均未建立；使用者確認以 JOB-188 直接實測取代本 JOB 工程基礎。見 `jobs/JOB-187-Report.md` | 🟢 DONE（廢案，以 JOB-188 結案） |
 
 ### 2026-04-21
 | JOB | 簡述 | 狀態 |
@@ -77,6 +91,8 @@
 ### 2026-04-13（JOB-188 補充）
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-186 | **G4S2 數學選擇題設計指引建立（KL3 研究）**：三版本課名對照（康/翰/南各 ~10 單元）、各單元適性分類（選擇題 vs 圖形封存）、範例題框架；修正範例答案 2 處錯誤；`G4_S2_數學_選擇題設計指引.md` + `G4_S2_數學_原始研究素材庫.md` 建立。見 `jobs/JOB-186-Report.md` | 🟢 DONE |
+| JOB-185 | **G3S2 數學選擇題設計指引建立（KL3 研究）**：三版本課名對照（11 個核心主題）、各單元適性分類（圓/面積等圖形操作封存）、範例題框架；`G3_S2_數學_選擇題設計指引.md` + `G3_S2_數學_原始研究素材庫.md` 建立。見 `jobs/JOB-185-Report.md` | 🟢 DONE |
 | JOB-188 §A | **上版前題庫抽樣驗證**：29 個開放組合 × 3 題 = 87 題全部抽驗。D1 格式 100%、D2 欄位 100%、D3 答案可信 100%、D4 文字品質 72.4%（63/87）。發現系統性問題：24 題含 AI 出題評註殘留（「這點在分析單元核心時非常關鍵」等），涉及 13 個組合，社會科（G3/G4 三版本）最嚴重。另發現 `libraryStats.json` 資料不完整（totalIndexed=15，實際 12,930 題）。§B 瀏覽器驗證因擴充套件未連線待後續執行。見 `jobs/JOB-188-Report.md`、`docs/reports/JOB-188-題庫抽樣驗證報告.md` | 🟡 §A DONE，§B 待補 |
 
 ### 2026-04-12
@@ -118,6 +134,8 @@
 ### 2026-04-08
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-162 | **發展綱要檔名統一簡稱與腳本修復**：knowledge/ 下 19 個發展綱要檔名從長格式（G3_S2、三年級下學期）統一為簡稱（三下）；`evaluate_question_quality.js` 路徑匹配邏輯重構（458 行）；`test_golden_cases.js` 預期值修正（L4→QL4、L3→QL2）。見 `jobs/JOB-162-Report.md` | 🟢 DONE |
+| JOB-161 | **規範文件三層注入架構重整**：新建 SessionStart Hook（`.claude/settings.json`）自動注入通用/派工精華摘要（L1 軟注入）；建立 `docs/_agent_bootstrap_通用.md` + `docs/_agent_bootstrap_派工.md`；重寫 `README.md` 三層架構置頂；新增 `docs/README_產品介紹.md`；調整 `CLAUDE.md` 寫死 15 條關鍵規則；修正 `.cursorrules` 廢棄引用。見 `jobs/JOB-161-Report.md` | 🟢 DONE |
 | JOB-165 | G3S2 國語三版本全量盲測（`run_blind_eval.js --force`）、MTP 分類 44 題、TYPE-B 1 題修正答案、課級 `is_publishable`≥25 全達標；`run_blind_eval.js` 金鑰解析與避免覆寫 `cqi_score`；見 `jobs/JOB-165-Report.md` | 🟢 DONE |
 | JOB-164 | G3S2 國語三版本：`evaluate_question_quality.js` 研究檔遞迴搜尋＋三下 `KL4_三下_國語_原始研究素材庫.md` fallback；`auto_balance_json.js` 支援單檔、消 BIAS；翰林 78 題擴寫過短解析、康軒 L8 擴寫解析；各課 avgCqi≥5.5；`normalize_manifest`；見 `jobs/JOB-164-Report.md` | 🟢 DONE |
 
