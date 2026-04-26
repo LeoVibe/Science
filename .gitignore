@@ -31,7 +31,9 @@ tests/
 .mcp.json
 .nosync
 .cursorrules
-.cursor/
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/*.mdc
 .vscode/
 .claude/
 .logs/
@@ -64,6 +66,7 @@ docs/reports/
 # - _manifest/ 允許追蹤（全站 Drive/PDF 清單）
 # - README.md 允許追蹤（規範）
 knowledge/3_考古題/原始/
+knowledge/3_考古題/_manifest/download_progress.json
 knowledge/3_考古題/淬煉/**/*.md
 !knowledge/3_考古題/淬煉/**/_index.json
 

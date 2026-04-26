@@ -1,0 +1,33 @@
+---
+description: 新對話先讀 README 並強制派工單流程
+alwaysApply: true
+---
+
+# 專案啟動與派工紀律
+
+## 每次新對話的第一步（強制）
+
+1. 先讀本專案根目錄 `README.md`（例如：`eidosProject/README.md`）。
+2. 依 `README.md` 指向的規範文件確認本次任務適用規則（至少包含 `docs/README_任務派工準則.md`）。
+3. 完成上述讀取前，不可直接進行程式碼修改或部署動作。
+
+## 程式開發必備派工單（強制）
+
+- 只要任務涉及程式碼修改（`apps/`、`backend/`、`scripts/` 等），必須先有對應 `jobs/JOB-XXX-*.md` 派工單。
+- 若尚無派工單，必須先建立派工單，再開始實作。
+- 完工後必須產出對應 `jobs/JOB-XXX-Report.md`，並依 `docs/README_任務派工準則.md` 結案／同步文件。
+
+## 題庫出題（強制讀取 `_agent`）
+
+凡任務屬**出題／補題／修改 `question/platform/` 題庫 JSON**、或派工單 **`job_type: question_prod`**、或使用者明確要求跑產題／品管腳本者，在**動手改檔或執行腳本前**必須：
+
+1. 讀取 **`_agent/skills/ei_qst/SKILL.md`**（正文與其中指向之 `question/README_出題與品管準則.md` 等路徑依 skill 逐項載入）。  
+2. 不得略過 ei_qst 直接產 JSON 或自行發明流程。
+
+（僅做 **`knowledge/`** 研究、且明確不產題者，適用 **`ei_research`** 與研究準則，不必強制讀 ei_qst。）
+
+## 回覆要求
+
+- 若發現使用者要求直接開工但缺少派工單，需先明確提醒並補齊派工流程。
+- 不得跳過上述流程直接進入開發。
+
