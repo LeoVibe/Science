@@ -4,9 +4,18 @@
 
 ## 啟用方式
 
+第一次安裝（或從舊版升級時，務必先移除既有 hook 副本，避免 symlink 失敗）：
+
 ```bash
+rm -f .git/hooks/pre-commit
 ln -sf "$(pwd)/scripts/git-hooks/pre-commit" .git/hooks/pre-commit
 chmod +x scripts/git-hooks/pre-commit
+```
+
+驗證 symlink 啟用後 hook 是否生效：
+
+```bash
+ls -la .git/hooks/pre-commit  # 應顯示 -> scripts/git-hooks/pre-commit
 ```
 
 ## 觸發節點

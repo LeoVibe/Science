@@ -97,5 +97,57 @@ echo "${OUTPUT}" | grep -q "跳過 progress_sync" || { echo "FAIL: 子目錄 tsv
 rm -rf "${TMP}"
 echo "PASS"
 
+echo "=== Test 6: 多 JOB 預檢失敗 → 全部不 sync（避免 partial-applied） ==="
+TMP=$(prepare_repo)
+# 加 JOB-FOO，把它的 progress-summary-end marker 弄壞
+cp "${ROOT_DIR}/tests/fixtures/progress_test_job.md" "${TMP}/jobs/JOB-FOO-AG-bar.md"
+cp "${ROOT_DIR}/tests/fixtures/progress_test_progress.tsv" "${TMP}/jobs/JOB-FOO-progress.tsv"
+sed -i.bak '/<!-- progress-summary-end -->/d' "${TMP}/jobs/JOB-FOO-AG-bar.md"
+rm "${TMP}/jobs/JOB-FOO-AG-bar.md.bak"
+git -C "${TMP}" -c user.email=t@t -c user.name=t add jobs
+git -C "${TMP}" -c user.email=t@t -c user.name=t commit -q -m "add broken JOB-FOO"
+
+# stage JOB-TEST + JOB-FOO 兩個 progress.tsv
+"${TMP}/scripts/progress_append.sh" JOB-TEST --jobs-dir "${TMP}/jobs" --unit-id Sci_HanLin_L3 --agent prod --status done --desc "x" 2>/dev/null
+"${TMP}/scripts/progress_append.sh" JOB-FOO --jobs-dir "${TMP}/jobs" --unit-id Sci_HanLin_L3 --agent prod --status done --desc "y" 2>/dev/null
+git -C "${TMP}" add jobs/JOB-TEST-progress.tsv jobs/JOB-FOO-progress.tsv
+
+# 預期 lib return 1 且 JOB-TEST 派工單未被改（partial 防護）
+JOB_TEST_MD_BEFORE=$(md5 -q "${TMP}/jobs/JOB-TEST-AG-fake.md" 2>/dev/null || md5sum "${TMP}/jobs/JOB-TEST-AG-fake.md" | awk '{print $1}')
+if bash -c "source '${TMP}/scripts/lib/progress_precommit.sh' && progress_precommit_run '${TMP}'" >/dev/null 2>&1; then
+    echo "FAIL: 期望 return 1（預檢失敗）"
+    rm -rf "${TMP}"
+    exit 1
+fi
+JOB_TEST_MD_AFTER=$(md5 -q "${TMP}/jobs/JOB-TEST-AG-fake.md" 2>/dev/null || md5sum "${TMP}/jobs/JOB-TEST-AG-fake.md" | awk '{print $1}')
+if [[ "${JOB_TEST_MD_BEFORE}" != "${JOB_TEST_MD_AFTER}" ]]; then
+    echo "FAIL: JOB-TEST 派工單被改了（partial-applied）"
+    rm -rf "${TMP}"
+    exit 1
+fi
+rm -rf "${TMP}"
+echo "PASS"
+
+echo "=== Test 7: glob 嚴格性 — JOB-1 不誤抓 JOB-100 派工單 ==="
+TMP=$(prepare_repo)
+# 製造 JOB-1 + JOB-100 兩個派工單共存
+cp "${ROOT_DIR}/tests/fixtures/progress_test_job.md" "${TMP}/jobs/JOB-1-AG-short.md"
+cp "${ROOT_DIR}/tests/fixtures/progress_test_job.md" "${TMP}/jobs/JOB-100-AG-long.md"
+cp "${ROOT_DIR}/tests/fixtures/progress_test_progress.tsv" "${TMP}/jobs/JOB-1-progress.tsv"
+git -C "${TMP}" -c user.email=t@t -c user.name=t add jobs
+git -C "${TMP}" -c user.email=t@t -c user.name=t commit -q -m "add JOB-1 and JOB-100"
+"${TMP}/scripts/progress_append.sh" JOB-1 --jobs-dir "${TMP}/jobs" --unit-id Sci_HanLin_L3 --agent prod --status done --desc "x" 2>/dev/null
+git -C "${TMP}" add jobs/JOB-1-progress.tsv
+bash -c "source '${TMP}/scripts/lib/progress_precommit.sh' && progress_precommit_run '${TMP}'" >/dev/null 2>&1
+# 預期：只 JOB-1-AG-short.md 被 stage，JOB-100-AG-long.md 不被 stage
+git -C "${TMP}" diff --cached --name-only | grep -q "JOB-1-AG-short.md" || { echo "FAIL: JOB-1 派工單未 stage"; rm -rf "${TMP}"; exit 1; }
+if git -C "${TMP}" diff --cached --name-only | grep -q "JOB-100-AG-long.md"; then
+    echo "FAIL: JOB-100 派工單被誤 stage（glob 不夠嚴格）"
+    rm -rf "${TMP}"
+    exit 1
+fi
+rm -rf "${TMP}"
+echo "PASS"
+
 echo
-echo "✅ All progress_precommit tests passed (5 cases)."
+echo "✅ All progress_precommit tests passed (7 cases)."
