@@ -1,6 +1,6 @@
 # Eidos 專案 — Claude Code 指令集
-`last_updated`: 2026-04-08 15:11
-`updated_by`: Claude Code (claude-opus-4-6)
+`last_updated`: 2026-04-27
+`updated_by`: Claude Code (claude-opus-4-7)
 
 ---
 
@@ -67,13 +67,28 @@
     - 單一 JOB：`cursor agent --print --yolo --workspace . "請讀取並執行派工單：jobs/JOB-XXX-*.md" > scripts/orchestrator-logs/JOB-XXX-cursor-output.log 2>&1 &`
     - 批量任務：`node scripts/orchestrator.js`
     - 完整說明 → `docs/README_任務派工準則.md §5.0`
-13. **結案五步走**：Report 定稿 → `job_manager.js close` → 適用時更新 `docs/README_專案發展紀錄.md` → `/pj_sync` → Discord 摘要。
+13. **結案五步走**：Report 定稿 → `job_manager.js close` → 適用時更新 `docs/README_專案發展紀錄.md` → `/pj_sync` → Discord 結案回報（依 §3.5）。
 14. **三段式 Checklist**：所有 JOB 必須包含啟動、驗收、成果三張 Checklist，缺一不可。每項打勾須附佐證。
 
 ### 3.4 溝通
 
 14. **不確定就問**：禁止猜測。發現矛盾規範時回報等裁定，不自行選版本。
 15. **禁止浮誇修辭**：繁體中文、冷靜客觀、直述事實與數據。
+
+### 3.5 Discord 互動規範
+
+| 用途 | 頻道 | chat_id |
+|:--|:--|:--|
+| 執行中需取得使用者許可 | claudebot DM（`@me`） | `1487650833775722497` |
+| JOB 結案回報 | `#eidos_派工與回報` | `1487738477608177714` |
+
+16. **何時 DM `1487650833775722497`**（取得許可）：
+    - 派工單範圍外的決策（付費模型核准、JOB 範圍擴增、PM 裁定）
+    - crash／manual_review 數量超門檻、雙盲不一致率超標、自主迴圈卡住
+    - 任何 §3.1 第 5 條「無許可不動手」對應情境
+17. **何時送 `1487738477608177714`**（結案回報）：
+    - 每個 JOB 結案 Report 定稿後（§3.3 第 13 條第 5 步）
+18. **操作**：呼叫 `mcp__plugin_discord_discord__reply`，傳 `chat_id=<上表 ID>` 與 `text=<訊息>`；長訊息（>2000 字）自行截斷或分段。
 
 ---
 
