@@ -88,7 +88,7 @@
 - [x] spec 補強 — **本次無**：試行發現已記於「邊界與遺留」與派工單邊界欄；**未**另開「JOB-211 試行發現」之 spec 結構 commit（無須變更 spec 檔之裁定）
 - [x] JOB-210 Report 末索引行 — 佐證：`git diff jobs/JOB-210-Report.md` 末行
 - [x] 已執行 `/pj_sync` — 佐證：`docs/README_專案發展紀錄.md`、`docs/進度彙整_題庫研發與產出.md` 之 `last_updated` 與內文條目
-- [ ] Discord 結案至 `#eidos_派工與回報`（chat_id `1487738477608177714`）— **本 Cursor 環境未掛載 `mcp__plugin_discord_discord__reply`**；訊息本文見使用者派工「步驟 5」區塊，請 PM 以具 MCP 之工作區代送或手動貼上
+- [x] Discord 結案至 `#eidos_派工與回報`（chat_id `1487738477608177714`）— 佐證：msg_id `1498462011716272239`，由 PM Claude Code 代送（cursor agent CLI 無 Discord MCP）
 
 ## 🔄 同步確認
 
@@ -112,9 +112,9 @@
 
 | 欄位 | 內容 |
 |:--|:--|
-| 驗收者 | （待 PM／Claude Code 填） |
-| 驗收時間 | — |
-| 驗收結果 | — |
+| 驗收者 | PM Claude Code (claude-opus-4-7) |
+| 驗收時間 | 2026-04-28 |
+| 驗收結果 | 通過（路徑 1+5 達標；路徑 2/3/4 列遺留另開 JOB） |
 | 退回原因 | — |
 
 ## ⏱️ 執行時間回報

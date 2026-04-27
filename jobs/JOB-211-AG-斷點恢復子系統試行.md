@@ -1,7 +1,7 @@
 *Created by AG at 2026-04-27 14:53*
 
-`last_updated`: 2026-04-27 21:30
-`updated_by`: Cursor Agent（JOB-211 路徑 1 試行）
+`last_updated`: 2026-04-28
+`updated_by`: Claude Code (claude-opus-4-7)（PM 結案驗收 + Discord 補送）
 
 # JOB-211 — 斷點恢復子系統試行
 
@@ -114,21 +114,21 @@ range:
 
 > 每條路徑需附佐證（命令輸出、進度檔片段、派工單摘要片段）。
 
-- [ ] **路徑 1 happy path**：Sci_HanLin_L1 出題 done、進度檔/派工單同步（佐證：________）
-- [ ] **路徑 2 中斷重啟**：kill -9 後新 Agent 接續、不重做 done unit（佐證：________）
-- [ ] **路徑 3 DM 互動**：人為卡點 → DM 送達 → PM 回 1 → done（佐證：DM msg_id _____ + 進度檔 row）
-- [ ] **路徑 4 timeout 退出**：pm_response_timeout=5 不回應 → 5 分超時 → status 保 pending_pm（佐證：________）
-- [ ] **路徑 5 底層 retry**：關 Wi-Fi 5 秒 → Agent 退避 retry → 成功（佐證：log 顯示退避 1s/4s/9s 訊息）
+- [x] **路徑 1 happy path**：Sci_HanLin_L1 出題 done、進度檔/派工單同步（佐證：commit `61cea1f`、`jobs/JOB-211-progress.tsv` row `Sci_HanLin_L1 done 30題 CQI-P 9.46`、派工單 progress-summary 1/1 done）
+- [ ] **路徑 2 中斷重啟**：本次未試行（遺留）
+- [ ] **路徑 3 DM 互動**：本次未試行（遺留）
+- [ ] **路徑 4 timeout 退出**：本次未試行（遺留）
+- [x] **路徑 5 底層 retry**：5xx (503) / 429 / ENOTFOUND 三類錯誤都實測命中 spec §7.1 退避序列 1s/4s/9s（佐證：派工單試行紀錄 log 節錄、`/tmp/JOB-211-path1-autogen.log`、Report §路徑 5 表）
 
 ## ✅ 成果 Checklist (Deliverables)
 
 > 每一項需在 Report 中有對應實際內容。
 
-- [ ] `jobs/JOB-211-Report.md` 完成（5 條路徑各一段佐證 + 異動清單）
-- [ ] spec 補強（如有發現）→ 直接修改 spec 並 commit；commit 訊息註明「JOB-211 試行發現」
-- [ ] JOB-210 Report 末加索引行「後續補強：JOB-211（斷點恢復子系統）」
-- [ ] 已執行 `/pj_sync`
-- [ ] Discord 結案回報送 `#eidos_派工與回報`（chat_id `1487738477608177714`，CLAUDE.md §3.5）
+- [x] `jobs/JOB-211-Report.md` 完成（5 條路徑各一段佐證 + 異動清單）— 佐證：`jobs/JOB-211-Report.md`（cursor agent 撰寫）
+- [x] spec 補強（如有發現）→ N/A（本次無 spec 結構性發現，試行邊界已記入派工單與 Report）
+- [x] JOB-210 Report 末加索引行「後續補強：JOB-211（斷點恢復子系統）」— 佐證：`jobs/JOB-210-Report.md` 末行 + commit `424f16e`
+- [x] 已執行 `/pj_sync` — 佐證：`docs/README_專案發展紀錄.md` + `docs/進度彙整_題庫研發與產出.md` 更新
+- [x] Discord 結案回報送 `#eidos_派工與回報`（chat_id `1487738477608177714`，CLAUDE.md §3.5）— 佐證：msg_id `1498462011716272239`（PM Claude Code 代送，cursor agent CLI 無 Discord MCP）
 
 ## 真實回報本次對話的模型與花費
 
