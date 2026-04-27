@@ -1,7 +1,7 @@
 *Created by AG at 2026-04-27 14:53*
 
-`last_updated`: 2026-04-27 14:55
-`updated_by`: Claude Code (claude-opus-4-7)
+`last_updated`: 2026-04-27 21:30
+`updated_by`: Cursor Agent（JOB-211 路徑 1 試行）
 
 # JOB-211 — 斷點恢復子系統試行
 
@@ -54,13 +54,14 @@ range:
 
 <!-- progress-summary-start -->
 - 範圍總計：1 個單位
-- 已 done：0（0.0%）
+- 已 done：1（100.0%）
 - pending_pm：0
 - failed：0　paused：0　paused_offline：0
 - manual_review：0
 - partial：0　aborted：0　retry：0
 - 最近 5 筆：
-- 最後更新：2026-04-27T06:57 (sync from JOB-211-progress.tsv)
+  - Sci_HanLin_L1 / prod / done / 30題 CQI-P 9.46
+- 最後更新：2026-04-27T13:30 (sync from JOB-211-progress.tsv)
 <!-- progress-summary-end -->
 
 ## PM 對話紀錄（progress_dm.sh 自動寫入）
@@ -139,3 +140,23 @@ range:
 - 本 JOB 範圍只跑 Sci_HanLin_L1 一單（spec §8.5）
 - 階段 1 剩 8 單試行成功後另開 JOB
 - 試行任一路徑 fail → 暫停、PM 介入決定是否改 spec／改實作／退設計
+- `auto_generate_questions.js` 若以**目錄**為參數會依檔名順序處理該目錄下所有 JSON；L1 達 30 題後須手動中止或改以**單檔**路徑呼叫，以免進入 L2+（本次已於 L1 寫入完成後中止 node，`git status` 僅見 L1 變更）。
+
+## 試行紀錄
+
+### 路徑 1 happy path - 起跑紀錄
+
+- 起跑時間：2026-04-27T17:52（依終端 metadata：`started_at` 2026-04-27T09:52:05Z，換算 UTC+8）
+- 完成時間：2026-04-27T21:28（本機 `date` 輸出）
+- agent loop 模型：Cursor agent CLI（執行緒可見 `cursor-agent` 版本 2026.04.17-479fd04；編排對話所用基礎模型代碼未於本環境暴露）
+- 出題模型：gemini-3.1-flash（執行時別名解析為 API id `gemini-3-flash-preview`）
+- 出題實際題數：30
+- 平均 CQI-P：9.46（`node -e` 讀檔，`cqi_score` 算術平均，顯示兩位小數）
+- 路徑 5 觸發狀況：有。stdout 出現與 `llm_retry` 一致之 1s／4s／9s 退避列（節錄自 `/tmp/JOB-211-path1-autogen.log`）：
+  - `[API] 5xx (503)，等 1s 後重試（第 1/3 次）...`
+  - `[API] 5xx (503)，等 4s 後重試（第 2/3 次）...`
+  - `[API] 5xx (503)，等 9s 後重試（第 3/3 次）...`
+  - `[API] 網路錯誤 ENOTFOUND，等 1s 後重試（第 1/3 次）...`
+  - `[API] 網路錯誤 ENOTFOUND，等 4s 後重試（第 2/3 次）...`
+  - `[API] 網路錯誤 ENOTFOUND，等 9s 後重試（第 3/3 次）...`
+- 異常事件：目錄級出題在 L1 完成後仍繼續跑 L2；依「不得越界」已手動中止 node。另：本次指令加上 `--model gemini-3.1-flash`（腳本預設為 lite，與 PM 核准模型不一致時須顯式指定）。
