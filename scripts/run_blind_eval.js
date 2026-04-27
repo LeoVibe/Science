@@ -1,5 +1,25 @@
 const fs = require('fs');
 const path = require('path');
+const { isNetworkError } = require('./lib/llm_retry.js');
+
+// 5xx + network error 退避重試上限（可由 env 覆寫）；超過印 EXIT_5XX/EXIT_NETWORK 後 process.exit(2)
+function blindHandleRetry({ kind, status, err, retryCount, max }) {
+    if (retryCount >= max) {
+        if (kind === '5xx') {
+            console.error(`\n[blind] 5xx 重試 ${max} 次仍失敗 (status=${status}) EXIT_5XX`);
+            process.stdout.write('EXIT_5XX\n');
+        } else {
+            const code = (err.cause && err.cause.code) || err.code || err.message;
+            console.error(`\n[blind] 網路錯誤重試 ${max} 次仍失敗 (${code}) EXIT_NETWORK`);
+            process.stdout.write('EXIT_NETWORK\n');
+        }
+        process.exit(2);
+    }
+    const wait = Math.pow(3, retryCount) * 1000;
+    const tag = kind === '5xx' ? `5xx (${status})` : `網路錯誤 ${(err.code || err.message)}`;
+    console.warn(`\n[blind] ${tag}，等 ${wait / 1000}s 後重試（第 ${retryCount + 1}/${max} 次）...`);
+    return new Promise(r => setTimeout(r, wait));
+}
 
 /** 原子寫入，降低盲測中斷時寫出半截 JSON 的風險（JOB-182 後記） */
 function writeJsonAtomic(absPath, obj) {
@@ -314,6 +334,10 @@ async function extractR4Context(fullR4, lessonName) {
 ${fullR4}
 ---`;
 
+    let net5xxRetry = 0;
+    let netRetry = 0;
+    const max5xx = global.BLIND_5XX_MAX_RETRIES ?? 3;
+    const maxNet = global.BLIND_NET_MAX_RETRIES ?? 3;
     while (true) {
         const provider = apiKeys[currentKeyIdx];
         try {
@@ -329,6 +353,11 @@ ${fullR4}
                 });
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
+                if (res.status >= 500 && res.status < 600) {
+                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
+                    net5xxRetry++;
+                    continue;
+                }
                 const data = await res.json();
                 text = data.candidates?.[0]?.content?.parts?.[0]?.text;
             } else {
@@ -339,6 +368,11 @@ ${fullR4}
                 });
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
+                if (res.status >= 500 && res.status < 600) {
+                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
+                    net5xxRetry++;
+                    continue;
+                }
                 const data = await res.json();
                 text = data.choices[0].message.content;
             }
@@ -347,6 +381,11 @@ ${fullR4}
             console.log(`    ✅ [${lessonName}] 萃取完成。`);
             return text;
         } catch (e) {
+            if (isNetworkError(e)) {
+                await blindHandleRetry({ kind: 'network', err: e, retryCount: netRetry, max: maxNet });
+                netRetry++;
+                continue;
+            }
             process.stdout.write(` [換Key重試: ${e.message}] `);
             currentKeyIdx = (currentKeyIdx + 1) % apiKeys.length;
             await new Promise(r => setTimeout(r, 5000));
@@ -401,6 +440,10 @@ function parseJSON(text) {
 }
 
 async function evalBatch(prompt, batchCount) {
+    let net5xxRetry = 0;
+    let netRetry = 0;
+    const max5xx = global.BLIND_5XX_MAX_RETRIES ?? 3;
+    const maxNet = global.BLIND_NET_MAX_RETRIES ?? 3;
     while (true) {
         const provider = apiKeys[currentKeyIdx];
         try {
@@ -417,6 +460,11 @@ async function evalBatch(prompt, batchCount) {
                 });
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
+                if (res.status >= 500 && res.status < 600) {
+                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
+                    net5xxRetry++;
+                    continue;
+                }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const data = await res.json();
                 text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
@@ -429,6 +477,11 @@ async function evalBatch(prompt, batchCount) {
                 });
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
+                if (res.status >= 500 && res.status < 600) {
+                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
+                    net5xxRetry++;
+                    continue;
+                }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const data = await res.json();
                 text = data.choices[0].message.content || '';
@@ -437,6 +490,11 @@ async function evalBatch(prompt, batchCount) {
             if (parsed && parsed.length === batchCount) return { parsed, usedModel };
             throw new Error(`解析失敗或題數不符 (${parsed ? parsed.length : 0} vs ${batchCount})`);
         } catch (e) {
+            if (isNetworkError(e)) {
+                await blindHandleRetry({ kind: 'network', err: e, retryCount: netRetry, max: maxNet });
+                netRetry++;
+                continue;
+            }
             process.stdout.write(` [換Key: ${e.message.split('\n')[0].substring(0,30)}] `);
             currentKeyIdx = (currentKeyIdx + 1) % apiKeys.length;
             await new Promise(r => setTimeout(r, 5000));
