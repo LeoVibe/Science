@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-27
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-210 結案）
+`last_updated`: 2026-04-28
+`updated_by`: Cursor Agent（pj_sync：JOB-211 結案）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-28
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-211 | **斷點恢復子系統試行（JOB-210 子任務）**：於 G3 自然三上翰林 **Sci_HanLin_L1** 試行路徑 1（happy path）— 30 題、CQI-P 均 **9.46**，合併 **commit `61cea1f`**；路徑 5 底層 **llm_retry** 實測 **503／429／ENOTFOUND** 三類錯誤皆命中 **spec §7.1** 退避序列 **1s／4s／9s**。遺留：路徑 2／3／4 未試行；`run_blind_eval` 未納入本次 PM 範圍；目錄級 `auto_generate` 與 progress-config `lessons` 範圍不同步，L1 完成後須手動中止或改單檔呼叫。見 `jobs/JOB-211-Report.md` | 🟢 DONE |
 
 ### 2026-04-27
 | JOB | 簡述 | 狀態 |

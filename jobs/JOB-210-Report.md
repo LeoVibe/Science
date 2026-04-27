@@ -1,7 +1,7 @@
 # JOB-210 Report — G5S2 三 Agent 流水線前置基礎建設
 
-`last_updated`: 2026-04-27
-`updated_by`: Claude Code (claude-opus-4-7)
+`last_updated`: 2026-04-28
+`updated_by`: Cursor Agent（JOB-211 索引行補登）
 `job_type`: docs_ops
 `spec_doc`: docs/superpowers/specs/2026-04-26-G5S2-tri-agent-cursor-pipeline-design.md
 `plan_doc`: docs/superpowers/plans/2026-04-26-G5S2-stage0-bootstrap.md
@@ -105,3 +105,5 @@
 | Task 11（Smoke Test） | - | - | - | 同上 |
 | Task 12-14（Report + close + Discord） | - | - | - | 同上 |
 | **總計** | — | — | **-** | — |
+
+後續補強：JOB-211（斷點恢復子系統試行）— commit 61cea1f
