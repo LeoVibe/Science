@@ -79,6 +79,18 @@ STATUS=$(awk -F'\t' 'NR==5 {print $11}' "$TMP/jobs/JOB-TEST-progress.tsv")
 [[ "$STATUS" == "done" ]] || { echo "FAIL status: got '$STATUS' (應 trim)"; exit 1; }
 echo "PASS"
 
+echo "=== Test 7a: desc 含 % 不會被 printf format 解譯 ==="
+"$ROOT_DIR/scripts/progress_append.sh" JOB-TEST \
+    --jobs-dir "$TMP/jobs" \
+    --unit-id Sci_HanLin_L6 \
+    --agent prod \
+    --status done \
+    --desc "100% pass %s test %d" 2>/dev/null
+
+DESC_PCT=$(awk -F'\t' '$1=="Sci_HanLin_L6" {print $12}' "$TMP/jobs/JOB-TEST-progress.tsv")
+[[ "$DESC_PCT" == "100% pass %s test %d" ]] || { echo "FAIL desc with %: got '$DESC_PCT'"; exit 1; }
+echo "PASS"
+
 echo "=== Test 7: 缺必填欄 → exit 1 ==="
 if "$ROOT_DIR/scripts/progress_append.sh" JOB-TEST \
     --jobs-dir "$TMP/jobs" \
@@ -89,4 +101,4 @@ fi
 echo "PASS"
 
 echo
-echo "✅ All progress_append tests passed (7 cases)."
+echo "✅ All progress_append tests passed (8 cases)."

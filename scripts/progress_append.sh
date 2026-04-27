@@ -68,13 +68,20 @@ COMMIT=$(git rev-parse --short HEAD 2>/dev/null || echo "nogit")
 # ts ISO 8601 短格式（到分鐘，UTC）
 TS=$(date -u +"%Y-%m-%dT%H:%M")
 
-ROW="${UNIT_ID}\t${COMMIT}\t${AGENT}\t${SUBJECT}\t${PUBLISHER}\t${LESSON}\t${CQI_P}\t${CQI_V}\t${MATCH}\t${QL}\t${STATUS}\t${SAFE_DESC}\t${TS}"
+# 用實際 tab 字元拼 ROW（避免 printf format string injection — desc 含 % 會被解譯）
+TAB=$'\t'
+ROW="${UNIT_ID}${TAB}${COMMIT}${TAB}${AGENT}${TAB}${SUBJECT}${TAB}${PUBLISHER}${TAB}${LESSON}${TAB}${CQI_P}${TAB}${CQI_V}${TAB}${MATCH}${TAB}${QL}${TAB}${STATUS}${TAB}${SAFE_DESC}${TAB}${TS}"
 
 # 確保 jobs 目錄存在
 mkdir -p "$JOBS_DIR"
 
 # 用 mkdir 原子鎖避免並發 race（macOS/Linux 共通，不依賴 flock）
 LOCKDIR="$TSV.lockdir"
+LOCK_HELD=0
+
+# trap 提前設置 + 用 LOCK_HELD 防止誤刪（避免 trap 與 mkdir 之間的 SIGINT race）
+trap '[[ $LOCK_HELD -eq 1 ]] && rmdir "$LOCKDIR" 2>/dev/null || true' EXIT INT TERM
+
 LOCK_RETRY=0
 while ! mkdir "$LOCKDIR" 2>/dev/null; do
     LOCK_RETRY=$((LOCK_RETRY + 1))
@@ -84,14 +91,15 @@ while ! mkdir "$LOCKDIR" 2>/dev/null; do
     fi
     sleep 0.1
 done
-trap 'rmdir "$LOCKDIR" 2>/dev/null || true' EXIT
+LOCK_HELD=1
 
 if [[ ! -f "$TSV" ]]; then
     printf '%s\n' "$HEADER" > "$TSV"
 fi
-printf "$ROW\n" >> "$TSV"
+printf '%s\n' "$ROW" >> "$TSV"
 
 rmdir "$LOCKDIR" 2>/dev/null || true
-trap - EXIT
+LOCK_HELD=0
+trap - EXIT INT TERM
 
 echo "appended: $UNIT_ID / $STATUS / $TS" >&2
