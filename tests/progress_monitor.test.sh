@@ -43,17 +43,21 @@ echo "=== Test 5: agent 進度（done 計入 prod）==="
 echo "${OUT}" | grep -q "prod: 2 單過閘" || { echo "FAIL: prod done count 錯"; echo "${OUT}"; exit 1; }
 echo "PASS"
 
-echo "=== Test 6: 12 欄 g5s2 schema 也能讀（向下相容）==="
-# 模擬 g5s2_results.tsv，無 unit_id，subject 在 col 2、status 在 col 10、desc 在 col 11
+echo "=== Test 6: 12 欄 g5s2 schema 也能讀（向下相容；真實 schema commit 起始）==="
+# 真實 g5s2_results.tsv schema：commit / agent / subject / publisher / lesson / CQI-P / CQI-V / Match% / QL / status / desc / ts
 cat > "${TMP}/jobs/g5s2_results.tsv" <<'EOF'
-ts	agent	subject	publisher	lesson	cqi_p	cqi_v	match	ql	status	desc	commit
-2026-04-19T10:00	prod	Science	HanLin	L3	6.0	-	-	-	keep	30題	abc
-2026-04-19T11:00	verify	Science	HanLin	L4	-	2.5	60%	-	manual_review	題義不清	def
+commit	agent	subject	publisher	lesson	CQI-P	CQI-V	Match%	QL	status	desc	ts
+abc1234	prod	Science	HanLin	L3	6.0	-	-	-	keep	30題	2026-04-19T10:00
+def5678	verify	Science	HanLin	L4	-	2.5	60%	-	manual_review	題義不清	2026-04-19T11:00
 EOF
 OUT2=$("${ROOT_DIR}/scripts/progress_monitor.sh" JOB-210 --jobs-dir "${TMP}/jobs" 2>&1)
 echo "${OUT2}" | grep -q "schema: 12 欄（status_col=10）" || { echo "FAIL: 12 欄 schema 偵測失敗"; echo "${OUT2}"; exit 1; }
 echo "${OUT2}" | grep -q "1 keep" || { echo "FAIL: keep 應為 1"; exit 1; }
 echo "${OUT2}" | grep -q "1 manual_review" || { echo "FAIL: manual_review 應為 1"; exit 1; }
+# manual_review 詳細應印合成的 unit_id (Science_HanLin_L4)，不是 commit hash
+echo "${OUT2}" | grep -q "Science_HanLin_L4: 題義不清" || { echo "FAIL: 12 欄合成 unit_id 應該是 subject_publisher_lesson"; echo "${OUT2}"; exit 1; }
+# 不應該誤把 commit hash 當 unit_id
+echo "${OUT2}" | grep -q "def5678: 題義不清" && { echo "FAIL: 12 欄不該把 commit hash 當 unit_id"; exit 1; }
 echo "PASS"
 
 echo "=== Test 7: 缺進度檔 → exit 1 ==="
@@ -92,5 +96,29 @@ OUT4=$("${ROOT_DIR}/scripts/progress_monitor.sh" JOB-TRIM --jobs-dir "${TMP}/job
 echo "${OUT4}" | grep -q "2 done" || { echo "FAIL: trim 後應該合併計為 2"; echo "${OUT4}"; exit 1; }
 echo "PASS"
 
+echo "=== Test 11: failed/aborted/retry 詳細列出 ==="
+cat > "${TMP}/jobs/JOB-FA-progress.tsv" <<'EOF'
+unit_id	commit	agent	subject	publisher	lesson	CQI-P	CQI-V	Match%	QL	status	desc	ts
+Sci_HanLin_L1	abc	prod	Science	HanLin	L1	6.2	-	-	-	failed	格式錯	2026-04-27T10:00
+Sci_HanLin_L2	def	prod	Science	HanLin	L2	-	-	-	-	aborted	PM 中止	2026-04-27T10:30
+Sci_HanLin_L3	ghi	verify	Science	HanLin	L3	-	-	-	-	retry	PM 要求重試	2026-04-27T11:00
+EOF
+OUT5=$("${ROOT_DIR}/scripts/progress_monitor.sh" JOB-FA --jobs-dir "${TMP}/jobs")
+echo "${OUT5}" | grep -q "\[failed\] Sci_HanLin_L1: 格式錯" || { echo "FAIL: failed 詳細缺失"; echo "${OUT5}"; exit 1; }
+echo "${OUT5}" | grep -q "\[aborted\] Sci_HanLin_L2: PM 中止" || { echo "FAIL: aborted 詳細缺失"; exit 1; }
+echo "${OUT5}" | grep -q "\[retry\] Sci_HanLin_L3: PM 要求重試" || { echo "FAIL: retry 詳細缺失"; exit 1; }
+echo "PASS"
+
+echo "=== Test 12: 不認識的 arg → exit 2 ==="
+set +e
+"${ROOT_DIR}/scripts/progress_monitor.sh" JOB-TEST --jobs-dir "${TMP}/jobs" --typo-arg foo >/dev/null 2>&1
+RC=$?
+set -e
+if [[ "${RC}" != "2" ]]; then
+    echo "FAIL: 期望 exit 2，實得 ${RC}"
+    exit 1
+fi
+echo "PASS"
+
 echo
-echo "✅ All progress_monitor tests passed (10 cases)."
+echo "✅ All progress_monitor tests passed (12 cases)."
