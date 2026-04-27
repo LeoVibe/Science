@@ -25,6 +25,14 @@ if [[ -z "$JOB_MD" ]]; then
 fi
 TSV="$JOBS_DIR/${JOB}-progress.tsv"
 
+# 確認 marker 成對且唯一（避免不成對時吞派工單尾端、避免重複時雙寫）
+START_COUNT=$(grep -c "<!-- progress-summary-start -->" "$JOB_MD" || true)
+END_COUNT=$(grep -c "<!-- progress-summary-end -->" "$JOB_MD" || true)
+if [[ "$START_COUNT" != "1" || "$END_COUNT" != "1" ]]; then
+    echo "progress_sync: marker 不成對或重複 (start=$START_COUNT, end=$END_COUNT) in $JOB_MD" >&2
+    exit 1
+fi
+
 # 範圍總計
 TOTAL=0
 if RANGE_OUT=$(parse_config_range "$JOB_MD" 2>/dev/null); then
@@ -69,7 +77,7 @@ COUNT_RETRY=$(count_status retry)
 if [[ "$TOTAL" -gt 0 ]]; then
     PCT=$(awk -v d="$COUNT_DONE" -v t="$TOTAL" 'BEGIN { printf "%.1f", d*100/t }')
 else
-    PCT="0.0"
+    PCT="-"
 fi
 
 # pending_pm / manual_review 詳細
@@ -113,7 +121,8 @@ SUMMARY_FILE=$(mktemp)
 } > "$SUMMARY_FILE"
 
 # 用 awk 替換 <!-- progress-summary-start --> 到 <!-- progress-summary-end --> 之間
-TMP_OUT=$(mktemp)
+# TMP_OUT 落在派工單同目錄，避免跨 fs mv 改 mode/group
+TMP_OUT=$(mktemp "${JOB_MD}.XXXXXX")
 awk -v summary_file="$SUMMARY_FILE" '
     BEGIN {
         while ((getline line < summary_file) > 0) {
@@ -132,6 +141,10 @@ awk -v summary_file="$SUMMARY_FILE" '
     }
     !in_block { print }
 ' "$JOB_MD" > "$TMP_OUT"
+
+# 保留原 mode（macOS BSD stat 與 GNU stat 介面不同）
+ORIG_MODE=$(stat -f '%Lp' "$JOB_MD" 2>/dev/null || stat -c '%a' "$JOB_MD" 2>/dev/null || echo "644")
+chmod "$ORIG_MODE" "$TMP_OUT" 2>/dev/null || true
 
 mv "$TMP_OUT" "$JOB_MD"
 rm -f "$SUMMARY_FILE"

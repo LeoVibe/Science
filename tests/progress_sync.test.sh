@@ -51,5 +51,33 @@ if "$ROOT_DIR/scripts/progress_sync.sh" JOB-MISSING --jobs-dir "$TMP/jobs" 2>/de
 fi
 echo "PASS"
 
+echo "=== Test 6: marker 不成對（缺 end）→ exit 1（不吞尾端內容） ==="
+cp "$ROOT_DIR/tests/fixtures/progress_test_job.md" "$TMP/jobs/JOB-BROKEN-AG-fake.md"
+sed -i.bak '/<!-- progress-summary-end -->/d' "$TMP/jobs/JOB-BROKEN-AG-fake.md"
+rm "$TMP/jobs/JOB-BROKEN-AG-fake.md.bak"
+ORIG_LINES=$(wc -l < "$TMP/jobs/JOB-BROKEN-AG-fake.md")
+if "$ROOT_DIR/scripts/progress_sync.sh" JOB-BROKEN --jobs-dir "$TMP/jobs" 2>/dev/null; then
+    echo "FAIL: expected exit 1"
+    exit 1
+fi
+NEW_LINES=$(wc -l < "$TMP/jobs/JOB-BROKEN-AG-fake.md")
+[[ "$ORIG_LINES" == "$NEW_LINES" ]] || { echo "FAIL: 派工單被改動（原 $ORIG_LINES 行 → $NEW_LINES 行）"; exit 1; }
+echo "PASS"
+
+echo "=== Test 7: 重複 marker → exit 1 ==="
+cp "$ROOT_DIR/tests/fixtures/progress_test_job.md" "$TMP/jobs/JOB-DUP-AG-fake.md"
+# 在尾端加另一對 marker（模擬 merge 衝突殘骸）
+cat >> "$TMP/jobs/JOB-DUP-AG-fake.md" <<'EOF'
+
+## 第二對（不該存在）
+<!-- progress-summary-start -->
+<!-- progress-summary-end -->
+EOF
+if "$ROOT_DIR/scripts/progress_sync.sh" JOB-DUP --jobs-dir "$TMP/jobs" 2>/dev/null; then
+    echo "FAIL: expected exit 1"
+    exit 1
+fi
+echo "PASS"
+
 echo
-echo "✅ All progress_sync tests passed (5 cases)."
+echo "✅ All progress_sync tests passed (7 cases)."
