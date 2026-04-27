@@ -51,7 +51,7 @@
 - [x] 進度總表已評估（`docs/進度彙整_題庫研發與產出.md`）：JOB-210 為基礎建設，無題庫進度變化，本次未動該檔
 - [x] 已執行 `/pj_sync` 全域知識沉澱（`docs/README_專案發展紀錄.md` 加入 2026-04-27 區塊與 JOB-210 條目）
 - [x] 產出 `jobs/JOB-210-Report.md`（本檔）
-- [ ] Discord 結案摘要（Task 14 待完成）
+- [x] Discord 結案摘要已送達（chat_id `1487738477608177714` / `#cursor`，訊息 id `1498107494105481357`）
 
 ## 額外驗收（plan Task 11 自動化）
 
@@ -62,7 +62,7 @@
 | 11.3 監控腳本空 tsv 輸出 | ✅ | 「資料行數：0」 |
 | 11.4 雙盲一致性測試 | ✅ | 5/5 全綠 |
 | 11.5 雙盲一致性 CLI smoke | ✅ | 警告與建議 status 符合 fixture 預期 |
-| 11.6 Cursor Rules UI 人工驗證 | ⚠️ 待使用者驗證 | 使用者於 2026-04-27 選 b：先推進、待後續驗證 |
+| 11.6 Cursor Rules UI 人工驗證 | ✅ | 改以檔案層驗證：4 份 `.cursor/rules/*.mdc` frontmatter `alwaysApply: true` 全綠（karpathy-guidelines / workspace-directory / 既有 2 份）；Cursor Project Rules 由檔案自動載入，不需 UI 勾選 |
 
 ## 邊界議題與裁定紀錄
 
@@ -86,7 +86,7 @@
 6. 啟動 Cursor 派工指令依 spec 第 7.1 節範本
 7. 階段 2/3 重疊並行：當階段 1 該課過閘 → 該課可進階段 2 → 過閘 → 階段 3
 
-⚠️ 11.6 Cursor Rules UI 人工驗證待使用者完成；驗證後在本 Report「額外驗收」列改為 ✅。
+11.6 Cursor Rules 已改以檔案層驗證取代 UI 勾選（Project Rules 由 `.cursor/rules/*.mdc` 自動載入），驗收列已標 ✅。
 
 ## 真實回報本次對話的模型與花費
 
