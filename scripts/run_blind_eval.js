@@ -1,24 +1,37 @@
 const fs = require('fs');
 const path = require('path');
-const { isNetworkError } = require('./lib/llm_retry.js');
+const { isNetworkError, backoffMs, exitWithMarker } = require('./lib/llm_retry.js');
 
-// 5xx + network error 退避重試上限（可由 env 覆寫）；超過印 EXIT_5XX/EXIT_NETWORK 後 process.exit(2)
-function blindHandleRetry({ kind, status, err, retryCount, max }) {
-    if (retryCount >= max) {
-        if (kind === '5xx') {
+// per-process retry budget（避免 per-call 計數讓多檔批次累積到數百 retries 才放棄）
+let _blind5xxRetryCount = 0;
+let _blindNetRetryCount = 0;
+
+// 處理 5xx / network error：超過 max 印標記 + exit；未超過 sleep + return（caller continue）
+// 為避免 process.exit(2) 可能丟掉 stdout buffer，用 lib 的 exitWithMarker（含 flush）
+async function blindHandleRetry({ kind, status, err, max }) {
+    if (kind === '5xx') {
+        if (_blind5xxRetryCount >= max) {
             console.error(`\n[blind] 5xx 重試 ${max} 次仍失敗 (status=${status}) EXIT_5XX`);
-            process.stdout.write('EXIT_5XX\n');
-        } else {
+            await exitWithMarker('EXIT_5XX');
+            return; // unreachable
+        }
+        const wait = backoffMs(_blind5xxRetryCount);
+        console.warn(`\n[blind] 5xx (${status})，等 ${wait / 1000}s 後重試（第 ${_blind5xxRetryCount + 1}/${max} 次）...`);
+        _blind5xxRetryCount++;
+        await new Promise(r => setTimeout(r, wait));
+    } else {
+        if (_blindNetRetryCount >= max) {
             const code = (err.cause && err.cause.code) || err.code || err.message;
             console.error(`\n[blind] 網路錯誤重試 ${max} 次仍失敗 (${code}) EXIT_NETWORK`);
-            process.stdout.write('EXIT_NETWORK\n');
+            await exitWithMarker('EXIT_NETWORK');
+            return; // unreachable
         }
-        process.exit(2);
+        const wait = backoffMs(_blindNetRetryCount);
+        const code = (err.cause && err.cause.code) || err.code || err.message;
+        console.warn(`\n[blind] 網路錯誤 ${code}，等 ${wait / 1000}s 後重試（第 ${_blindNetRetryCount + 1}/${max} 次）...`);
+        _blindNetRetryCount++;
+        await new Promise(r => setTimeout(r, wait));
     }
-    const wait = Math.pow(3, retryCount) * 1000;
-    const tag = kind === '5xx' ? `5xx (${status})` : `網路錯誤 ${(err.code || err.message)}`;
-    console.warn(`\n[blind] ${tag}，等 ${wait / 1000}s 後重試（第 ${retryCount + 1}/${max} 次）...`);
-    return new Promise(r => setTimeout(r, wait));
 }
 
 /** 原子寫入，降低盲測中斷時寫出半截 JSON 的風險（JOB-182 後記） */
@@ -334,8 +347,6 @@ async function extractR4Context(fullR4, lessonName) {
 ${fullR4}
 ---`;
 
-    let net5xxRetry = 0;
-    let netRetry = 0;
     const max5xx = global.BLIND_5XX_MAX_RETRIES ?? 3;
     const maxNet = global.BLIND_NET_MAX_RETRIES ?? 3;
     while (true) {
@@ -354,8 +365,7 @@ ${fullR4}
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
                 if (res.status >= 500 && res.status < 600) {
-                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
-                    net5xxRetry++;
+                    await blindHandleRetry({ kind: '5xx', status: res.status, max: max5xx });
                     continue;
                 }
                 const data = await res.json();
@@ -369,8 +379,7 @@ ${fullR4}
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
                 if (res.status >= 500 && res.status < 600) {
-                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
-                    net5xxRetry++;
+                    await blindHandleRetry({ kind: '5xx', status: res.status, max: max5xx });
                     continue;
                 }
                 const data = await res.json();
@@ -382,8 +391,9 @@ ${fullR4}
             return text;
         } catch (e) {
             if (isNetworkError(e)) {
-                await blindHandleRetry({ kind: 'network', err: e, retryCount: netRetry, max: maxNet });
-                netRetry++;
+                // 網路錯誤可能是該 key 對應的網段問題（DNS / route），rotate key 同時退避
+                currentKeyIdx = (currentKeyIdx + 1) % apiKeys.length;
+                await blindHandleRetry({ kind: 'network', err: e, max: maxNet });
                 continue;
             }
             process.stdout.write(` [換Key重試: ${e.message}] `);
@@ -440,8 +450,6 @@ function parseJSON(text) {
 }
 
 async function evalBatch(prompt, batchCount) {
-    let net5xxRetry = 0;
-    let netRetry = 0;
     const max5xx = global.BLIND_5XX_MAX_RETRIES ?? 3;
     const maxNet = global.BLIND_NET_MAX_RETRIES ?? 3;
     while (true) {
@@ -461,8 +469,7 @@ async function evalBatch(prompt, batchCount) {
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
                 if (res.status >= 500 && res.status < 600) {
-                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
-                    net5xxRetry++;
+                    await blindHandleRetry({ kind: '5xx', status: res.status, max: max5xx });
                     continue;
                 }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -478,8 +485,7 @@ async function evalBatch(prompt, batchCount) {
                 clearTimeout(timeoutId);
                 if (res.status === 429) throw new Error('429');
                 if (res.status >= 500 && res.status < 600) {
-                    await blindHandleRetry({ kind: '5xx', status: res.status, retryCount: net5xxRetry, max: max5xx });
-                    net5xxRetry++;
+                    await blindHandleRetry({ kind: '5xx', status: res.status, max: max5xx });
                     continue;
                 }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -491,8 +497,9 @@ async function evalBatch(prompt, batchCount) {
             throw new Error(`解析失敗或題數不符 (${parsed ? parsed.length : 0} vs ${batchCount})`);
         } catch (e) {
             if (isNetworkError(e)) {
-                await blindHandleRetry({ kind: 'network', err: e, retryCount: netRetry, max: maxNet });
-                netRetry++;
+                // 網路錯誤可能是該 key 對應的網段問題；rotate key 同時退避
+                currentKeyIdx = (currentKeyIdx + 1) % apiKeys.length;
+                await blindHandleRetry({ kind: 'network', err: e, max: maxNet });
                 continue;
             }
             process.stdout.write(` [換Key: ${e.message.split('\n')[0].substring(0,30)}] `);

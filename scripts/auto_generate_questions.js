@@ -1,7 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
-const { isNetworkError } = require('./lib/llm_retry.js');
+const { isNetworkError, backoffMs, exitWithMarker } = require('./lib/llm_retry.js');
+
+// per-process retry budget（避免 per-call 計數讓多檔批次累積到 ~450 retries 才放棄）
+let _gen5xxRetryCount = 0;
+let _genNetRetryCount = 0;
 
 // ============================================================================
 // AI 大腦自動化題庫生成腳本 (Auto Question Generator - Gemini Version)
@@ -485,16 +489,17 @@ ${cognitiveInstruction}
             return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
         }
 
-        // 5xx 退避重試（與 429 同精神）：1s/3s/9s 上限 max5xx 次，超過印 EXIT_5XX
+        // 5xx 退避重試（spec §7.1 退避 1s/4s/9s）：per-process budget，超過印 EXIT_5XX 後 exit(2)
         if (response.status >= 500 && response.status < 600) {
             const max5xx = global.GEN_5XX_MAX_RETRIES ?? 3;
-            if (retryCount >= max5xx) {
+            if (_gen5xxRetryCount >= max5xx) {
                 console.error(`[API] 5xx 重試 ${max5xx} 次仍失敗（status=${response.status}）EXIT_5XX`);
-                process.stdout.write('EXIT_5XX\n');
-                return [];
+                await exitWithMarker('EXIT_5XX');
+                return []; // unreachable
             }
-            const wait5xx = Math.pow(3, retryCount) * 1000;
-            console.warn(`[API] 5xx (${response.status})，等 ${wait5xx / 1000}s 後重試（第 ${retryCount + 1}/${max5xx} 次）...`);
+            const wait5xx = backoffMs(_gen5xxRetryCount);
+            console.warn(`[API] 5xx (${response.status})，等 ${wait5xx / 1000}s 後重試（第 ${_gen5xxRetryCount + 1}/${max5xx} 次）...`);
+            _gen5xxRetryCount++;
             await new Promise(r => setTimeout(r, wait5xx));
             return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
         }
@@ -552,17 +557,19 @@ ${cognitiveInstruction}
         return parsed.new_questions || [];
 
     } catch (error) {
-        // network error（DNS/connection/socket 層）值得退避重試；其他（JSON parse、API throw）吞回 []
+        // network error（DNS/connection/socket 層）值得退避重試（per-process budget）；
+        // 其他（JSON parse、API throw、4xx）吞回 []，由 caller 自行 fallback。
         if (isNetworkError(error)) {
             const maxNet = global.GEN_NET_MAX_RETRIES ?? 3;
             const errCode = (error.cause && error.cause.code) || error.code || error.message;
-            if (retryCount >= maxNet) {
+            if (_genNetRetryCount >= maxNet) {
                 console.error(`[API] 網路錯誤重試 ${maxNet} 次仍失敗 (${errCode}) EXIT_NETWORK`);
-                process.stdout.write('EXIT_NETWORK\n');
-                return [];
+                await exitWithMarker('EXIT_NETWORK');
+                return []; // unreachable
             }
-            const waitNet = Math.pow(3, retryCount) * 1000;
-            console.warn(`[API] 網路錯誤 ${errCode}，等 ${waitNet / 1000}s 後重試（第 ${retryCount + 1}/${maxNet} 次）...`);
+            const waitNet = backoffMs(_genNetRetryCount);
+            console.warn(`[API] 網路錯誤 ${errCode}，等 ${waitNet / 1000}s 後重試（第 ${_genNetRetryCount + 1}/${maxNet} 次）...`);
+            _genNetRetryCount++;
             await new Promise(r => setTimeout(r, waitNet));
             return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
         }
