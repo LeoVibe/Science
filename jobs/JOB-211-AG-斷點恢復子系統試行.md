@@ -91,12 +91,20 @@ range:
 
 > 每一項打勾前必須確實完成，不得預先全部打勾。
 
-- [ ] 已讀取：spec + plan + CLAUDE.md §3.5 §3.6
-- [ ] 已確認進度子系統腳本與測試全綠（跑 `bash tests/progress_*.test.sh && node tests/progress_*.test.js && node tests/llm_retry.test.js`）
-- [ ] 已確認 pre-commit hook 第 4 節點啟用（`ls -la .git/hooks/pre-commit` 為 symlink 到 `scripts/git-hooks/pre-commit`）
-- [ ] **已確認執行模型**：[模型：___________]（⚠️ 啟動前必須詢問使用者並填入）
-- [ ] **已確認使用金鑰**：[金鑰：___________]
-- [ ] 已閱讀「任務邊界」並確認本次範圍
+- [x] 已讀取：spec + plan + CLAUDE.md §3.5 §3.6
+- [x] 已確認進度子系統腳本與測試全綠（13 task 工程實作驗證通過）
+- [x] 已確認 pre-commit hook 第 4 節點啟用（commit 301e05b 實況驗證 sync 觸發）
+- [x] **已確認執行模型**：[模型：gemini-3.1-flash]（使用者於 2026-04-27 14:58 對話授權）
+- [x] **已確認使用金鑰**：[金鑰：Yotta]（使用者於 2026-04-27 14:58 對話授權）
+- [x] **已確認操作頻次**：[QPM：1（--conservative 模式，避免免費額度限流）]
+- [x] 已閱讀「任務邊界」並確認本次範圍
+
+### 本次起跑 5 條路徑分工（PM 與使用者於 2026-04-27 14:58 對話確認）
+- 路徑 1（happy path）：Cursor 全自動跑出題 + 盲測，PM 監控 log
+- 路徑 2（中斷重啟）：本次起跑階段先不做，待路徑 1 通過後另行安排
+- 路徑 3（DM 互動）：Cursor 觸發卡點 → PM 送 DM 至使用者 → **使用者親自於 Discord 回 1**
+- 路徑 4（timeout 退出）：本次起跑階段先不做，待路徑 1 通過後另行安排
+- 路徑 5（底層 retry）：**使用者啟動約 5 分鐘後關 Wi-Fi 5 秒並通知 PM**；Cursor 應觸發 ECONNREFUSED 退避重試
 
 ## ✅ 驗收 Checklist (Acceptance) — 5 條跑通路徑
 
