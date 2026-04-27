@@ -41,6 +41,9 @@ JOB-210 試跑時發現缺乏「網路中斷／Job 中斷後的重啟與延續�
 <!-- progress-config-start -->
 schema: question_pipeline_v1
 pm_response_timeout: 30
+grade: G3
+semester: S1
+platform_dir: question/platform/G3/Science/S1/HanLin
 range:
   - subject: Science
     publisher: HanLin
