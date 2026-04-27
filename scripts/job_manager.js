@@ -6,7 +6,6 @@ const fs = require('fs');
 const path = require('path');
 
 const JOBS_DIR = path.join(__dirname, '../jobs');
-const BOARD_FILE = path.join(JOBS_DIR, '任務看板與派工.md');
 const TEMPLATE_FILE = path.join(JOBS_DIR, '_JOB-TEMPLATE.md');
 
 /** job_type → 對應模板檔名（未命中時 fallback 至通用模板） */
@@ -73,6 +72,12 @@ function analyzeSerials(files) {
     for (const f of files) {
         if (RE_LEGACY_AG00.test(f)) continue;
 
+        // Report 優先判斷，避免含 -AG-/-USER-/-DEV- 的 Report 誤歸為派工單
+        if (isReportFilename(f)) {
+            const sm = f.match(/^JOB-(\d{3})/);
+            if (sm) report.push({ file: f, n: parseInt(sm[1], 10) });
+            continue;
+        }
         let m = f.match(RE_STRICT_DISPATCH);
         if (m) {
             strict.push({ file: f, n: parseInt(m[1], 10), prefix: m[2] });
@@ -81,11 +86,6 @@ function analyzeSerials(files) {
         m = f.match(RE_PLAN);
         if (m) {
             plan.push({ file: f, n: parseInt(m[1], 10) });
-            continue;
-        }
-        if (isReportFilename(f)) {
-            const sm = f.match(/^JOB-(\d{3})/);
-            if (sm) report.push({ file: f, n: parseInt(sm[1], 10) });
             continue;
         }
         m = f.match(RE_ANY_SERIAL);
@@ -206,9 +206,6 @@ function createJob(title, prefix = 'USER', jobType = '') {
     }
 
     const now = new Date();
-    const dateString = new Date(now.getTime() - (now.getTimezoneOffset() * 60000))
-        .toISOString()
-        .split('T')[0];
     const timeString = new Date(now.getTime() - (now.getTimezoneOffset() * 60000))
         .toISOString()
         .replace('T', ' ')
@@ -253,30 +250,6 @@ function createJob(title, prefix = 'USER', jobType = '') {
 
     fs.writeFileSync(filepath, templateContent, 'utf8');
     console.log(`\n✅ 成功建立任務單: ${filename}（已通過合規檔名正則）`);
-
-    if (fs.existsSync(BOARD_FILE)) {
-        let boardContent = fs.readFileSync(BOARD_FILE, 'utf8');
-        const newRow = `| \`${jobId}\` | [${title}](./${filename}) | 中 | 🔵 執行中 | ${dateString} |`;
-
-        const pendingSectionRegex = /(### 執行中與待處理任務 *\(Pending Jobs\)[\s\S]*?\|:---\|:---\|:---\|:---\|:---\|\n)([\s\S]*?)(\n---|\n##|$)/;
-
-        const match = boardContent.match(pendingSectionRegex);
-        if (match) {
-            const tableHeader = match[1];
-            const tableRows = match[2];
-            const endPart = match[3];
-
-            const updatedRows = (tableRows.trim() ? tableRows.trimEnd() + '\n' : '') + newRow + '\n';
-            boardContent = boardContent.replace(pendingSectionRegex, tableHeader + updatedRows + endPart);
-
-            fs.writeFileSync(BOARD_FILE, boardContent, 'utf8');
-            console.log(`✅ 成功發布任務至看板: ${jobId}`);
-        } else {
-            console.warn(`⚠️ 警告: 找不到看板的 Pending Jobs 區段，無法自動寫入表格。請手動添加:\n${newRow}`);
-        }
-    } else {
-        console.log(`   未偵測 ${BOARD_FILE}，已略過看板更新（看板已廢止，進度以派工單與 Report 為準）。`);
-    }
 }
 
 function closeJob(jobId) {
@@ -309,33 +282,7 @@ function closeJob(jobId) {
         process.exit(1);
     }
 
-    if (!fs.existsSync(BOARD_FILE)) {
-        console.log(`✅ [Job Manager] ${jobId} 結案條件已滿足（Report + /pj_sync 勾選）。`);
-        console.log(`   未偵測 ${BOARD_FILE}，已略過看板更新（進度以派工單與 Report 為準，見 docs/README_任務派工準則.md）。`);
-        return;
-    }
-
-    let boardContent = fs.readFileSync(BOARD_FILE, 'utf8');
-    const now = new Date();
-    const dateString = new Date(now.getTime() - (now.getTimezoneOffset() * 60000))
-        .toISOString()
-        .split('T')[0];
-
-    const rowRegex = new RegExp(`(\\|\\s*\`${jobId}\`\\s*\\|.*?\\|.*?\\|\\s*)(.*?)(\\s*\\|\\s*)(.*?)(\\s*\\|)`, "g");
-
-    let updated = false;
-    boardContent = boardContent.replace(rowRegex, (match, p1, p2, p3, p4, p5) => {
-        updated = true;
-        return `${p1}🟢 DONE${p3}${dateString}${p5}`;
-    });
-
-    if (updated) {
-        fs.writeFileSync(BOARD_FILE, boardContent, 'utf8');
-        console.log(`✅ [Job Manager] 任務 ${jobId} 已成功結案！`);
-        console.log(`📝 已於看板將狀態更新為 [🟢 DONE]，結算日期: ${dateString}。`);
-    } else {
-        console.warn(`⚠️ 警告: 報告檢查通過，但看板中找不到 ${jobId} 列，未變更看板。`);
-    }
+    console.log(`✅ [Job Manager] ${jobId} 結案條件已滿足（Report 存在 + /pj_sync 已勾選）。`);
 }
 
 const args = process.argv.slice(2);
@@ -363,7 +310,7 @@ if (command === 'next' || command === 'audit') {
      node scripts/job_manager.js create "任務標題" [USER|AG|DEV] [job_type]
      job_type 可選值：question_prod / question_verify / research（未指定則用通用模板）
 
-  2. 任務結案（檢查 Report + /pj_sync 勾選；若有舊看板檔則同步 DONE）:
+  2. 任務結案（檢查 Report 存在 + /pj_sync 已勾選）:
      node scripts/job_manager.js close JOB-XXX
 
 `);
