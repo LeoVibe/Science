@@ -110,6 +110,66 @@ test('PM 回 6 custom → custom action', () => {
     if (result.action !== 'custom') throw new Error('expected custom');
 });
 
+test('keyword 帶標點 1. → accept', () => {
+    const tsv = makeTsv([
+        ['Sci_HanLin_L3','def','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: '1.' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'accept') throw new Error('expected accept got ' + result.action);
+});
+
+test('keyword 帶井號 #1 → accept', () => {
+    const tsv = makeTsv([
+        ['Sci_HanLin_L3','def','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: '#1 QL3 即可' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'accept') throw new Error('expected accept got ' + result.action);
+    if (!result.annotation.includes('QL3')) throw new Error('annotation missing QL3');
+});
+
+test('keyword 帶全形頓號 1、 → accept', () => {
+    const tsv = makeTsv([
+        ['Sci_HanLin_L3','def','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: '1、QL3 即可' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'accept') throw new Error('expected accept got ' + result.action);
+});
+
+test('publisher 含底線 → 用 pendingUnits 比對成功', () => {
+    const tsv = makeTsv([
+        ['Sci_Han_Lin_L2','def','verify','Science','Han_Lin','L2','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+        ['Sci_HanLin_L3','ghi','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: 'Sci_Han_Lin_L2 1' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'accept') throw new Error('expected accept got ' + result.action);
+    if (result.unit_id !== 'Sci_Han_Lin_L2') throw new Error('unit_id wrong: ' + result.unit_id);
+});
+
+test('多 pending + unit_id 拼錯 → wait + 給候選清單', () => {
+    const tsv = makeTsv([
+        ['Sci_HanLin_L2','def','verify','Science','HanLin','L2','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+        ['Sci_HanLin_L3','ghi','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: '1 Sci_HanLin_L9' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'wait') throw new Error('expected wait got ' + result.action);
+    if (!result.reason || !result.reason.includes('Sci_HanLin_L2')) throw new Error('reason should include candidates: ' + result.reason);
+});
+
+test('JOB-id 帶結尾句號 JOB-211. → 仍從 annotation 過濾掉', () => {
+    const tsv = makeTsv([
+        ['Sci_HanLin_L3','def','verify','Science','HanLin','L3','-','-','-','-','pending_pm','測試','2026-04-27T11:00'],
+    ]);
+    const msgs = [{ id: '2', author: { bot: false }, content: 'JOB-211. 1 QL3 即可' }];
+    const result = parsePmReply({ messages: msgs, tsvPath: tsv, jobId: 'JOB-211' });
+    if (result.action !== 'accept') throw new Error('expected accept');
+    if (result.annotation.includes('JOB-211')) throw new Error('annotation should not contain JOB-211: ' + result.annotation);
+});
+
 test('progress 同 unit 多筆，最新狀態為 done 不算 pending', () => {
     const tsv = makeTsv([
         ['Sci_HanLin_L3','def','verify','Science','HanLin','L3','-','-','-','-','pending_pm','卡點','2026-04-27T11:00'],

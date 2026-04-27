@@ -47,13 +47,15 @@ function parsePmReply({ messages, tsvPath, jobId }) {
     }
     const latest = userMsgs[userMsgs.length - 1];
     const firstLine = (latest.content || '').split('\n')[0].trim();
-    const tokens = firstLine.split(/\s+/).filter(Boolean);
+    // 切 token：空白 + 全形頓號/全形逗號/半形逗號（避開句號/減號以保 "1." "JOB-211"）
+    const tokens = firstLine.split(/[\s、,，]+/).filter(Boolean);
 
-    // 找 keyword（任意位置）
+    // 找 keyword（任意位置）；先剝前後標點（PM 在手機上常打 "1." "#1" "1)" "1、"）
+    const stripPunct = s => s.replace(/^[#.)(、。，,]+|[.)、。，,]+$/g, '');
     let keyword = null;
     let keywordIdx = -1;
     for (let i = 0; i < tokens.length; i++) {
-        const t = tokens[i].toLowerCase();
+        const t = stripPunct(tokens[i].toLowerCase());
         if (KEYWORD_MAP[t]) {
             keyword = KEYWORD_MAP[t];
             keywordIdx = i;
@@ -65,21 +67,15 @@ function parsePmReply({ messages, tsvPath, jobId }) {
         return { action: 'wait', reason: 'no keyword found' };
     }
 
-    // 找 unit_id（任意位置；含底線 + 至少兩段 + 最後段為 L<n>）
-    let unitFromMsg = null;
-    for (const t of tokens) {
-        if (/^[A-Za-z一-鿿]+_[A-Za-z]+_L\d+$/.test(t)) {
-            unitFromMsg = t;
-            break;
-        }
-    }
+    // 找 unit_id：直接比對進度檔的 pending 清單（避開 regex 對 publisher 命名的耦合）
+    const unitFromMsg = tokens.find(t => pendingUnits.includes(t)) || null;
 
     let unit_id;
     if (pendingUnits.length === 1) {
         unit_id = pendingUnits[0];
     } else {
-        if (!unitFromMsg || !pendingUnits.includes(unitFromMsg)) {
-            return { action: 'wait', reason: 'multiple pending_pm but unit_id missing or unmatched' };
+        if (!unitFromMsg) {
+            return { action: 'wait', reason: 'multi-pending: unit_id required (candidates: ' + pendingUnits.join(',') + ')' };
         }
         unit_id = unitFromMsg;
     }
@@ -88,7 +84,7 @@ function parsePmReply({ messages, tsvPath, jobId }) {
     const annotationTokens = tokens.filter((t, i) => {
         if (i === keywordIdx) return false;
         if (t === unitFromMsg) return false;
-        if (jobId && t.toUpperCase() === jobId.toUpperCase()) return false;
+        if (jobId && stripPunct(t.toUpperCase()) === jobId.toUpperCase()) return false;
         return true;
     });
     const restLines = (latest.content || '').split('\n').slice(1).join('\n').trim();
