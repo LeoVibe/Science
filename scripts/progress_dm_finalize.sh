@@ -47,6 +47,12 @@ if [[ "${DM_START_COUNT}" != "1" || "${DM_END_COUNT}" != "1" ]]; then
     exit 1
 fi
 
+# Idempotency：若該 msg_id 已 finalize 過（dm-log 已記錄），直接跳過避免重複 Resumed 段 + 重複 status row
+if grep -F "(msg_id: ${MSG_ID})" "${JOB_MD}" >/dev/null 2>&1; then
+    echo "progress_dm_finalize: msg_id ${MSG_ID} 已 finalize 過，跳過（idempotent）" >&2
+    exit 0
+fi
+
 # action → status 對照
 case "${ACTION}" in
     accept) NEW_STATUS="done" ;;
@@ -119,3 +125,9 @@ fi
 "${SCRIPT_DIR}/progress_sync.sh" "${JOB}" --jobs-dir "${JOBS_DIR}" >&2
 
 echo "finalized: ${JOB} / ${UNIT_ID} / ${ACTION} → ${NEW_STATUS:-(custom)}" >&2
+
+# custom 契約提醒：caller 必須結束 Agent loop，由 PM 開新對話下指令
+# 否則 progress_next 會再抓到 pending_pm 的 unit，造成重複 DM 迴圈
+if [[ "${ACTION}" == "custom" ]]; then
+    echo "⚠ custom: Agent loop 必須在此結束，由 PM 開新對話下指令；不要再呼叫 progress_next" >&2
+fi

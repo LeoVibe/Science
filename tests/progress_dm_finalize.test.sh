@@ -162,6 +162,47 @@ fi
 rm -rf "${TMP}"
 echo "PASS"
 
+echo "=== Test 12: 重跑同 msg_id 不會重複（idempotent） ==="
+TMP=$(prepare_case)
+"${ROOT_DIR}/scripts/progress_dm_finalize.sh" JOB-TEST \
+    --jobs-dir "${TMP}/jobs" \
+    --action accept \
+    --unit-id Sci_HanLin_L3 \
+    --msg-id 88888 >/dev/null 2>&1
+ROW_COUNT_BEFORE=$(wc -l < "${TMP}/jobs/JOB-TEST-progress.tsv")
+RESUMED_BEFORE=$(grep -c "Resumed by Agent" "${TMP}/jobs/JOB-TEST-AG-fake.md")
+# 重跑同 msg_id
+"${ROOT_DIR}/scripts/progress_dm_finalize.sh" JOB-TEST \
+    --jobs-dir "${TMP}/jobs" \
+    --action accept \
+    --unit-id Sci_HanLin_L3 \
+    --msg-id 88888 >/dev/null 2>&1
+ROW_COUNT_AFTER=$(wc -l < "${TMP}/jobs/JOB-TEST-progress.tsv")
+RESUMED_AFTER=$(grep -c "Resumed by Agent" "${TMP}/jobs/JOB-TEST-AG-fake.md")
+if [[ "${ROW_COUNT_BEFORE}" != "${ROW_COUNT_AFTER}" ]]; then
+    echo "FAIL: idempotent 失敗，TSV row 重複 (before=${ROW_COUNT_BEFORE}, after=${ROW_COUNT_AFTER})"
+    rm -rf "${TMP}"
+    exit 1
+fi
+if [[ "${RESUMED_BEFORE}" != "${RESUMED_AFTER}" ]]; then
+    echo "FAIL: idempotent 失敗，Resumed 段重複 (before=${RESUMED_BEFORE}, after=${RESUMED_AFTER})"
+    rm -rf "${TMP}"
+    exit 1
+fi
+rm -rf "${TMP}"
+echo "PASS"
+
+echo "=== Test 13: custom 提示 caller 結束 loop（stderr） ==="
+TMP=$(prepare_case)
+STDERR=$("${ROOT_DIR}/scripts/progress_dm_finalize.sh" JOB-TEST \
+    --jobs-dir "${TMP}/jobs" \
+    --action custom \
+    --unit-id Sci_HanLin_L3 \
+    --msg-id 77777 2>&1 1>/dev/null)
+echo "${STDERR}" | grep -q "Agent loop 必須在此結束" || { echo "FAIL: custom 警示訊息缺失"; rm -rf "${TMP}"; exit 1; }
+rm -rf "${TMP}"
+echo "PASS"
+
 echo "=== Test 11: progress-summary 同步顯示 done 計數變化 ==="
 TMP=$(prepare_case)
 # fixture 提供 L1/L2 done，prepare 加 L3 pending_pm，finalize accept 後 L3 done → 共 3 done
@@ -175,4 +216,4 @@ rm -rf "${TMP}"
 echo "PASS"
 
 echo
-echo "✅ All progress_dm_finalize tests passed (11 cases)."
+echo "✅ All progress_dm_finalize tests passed (13 cases)."
