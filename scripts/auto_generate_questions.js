@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
+const { isNetworkError } = require('./lib/llm_retry.js');
 
 // ============================================================================
 // AI 大腦自動化題庫生成腳本 (Auto Question Generator - Gemini Version)
@@ -484,6 +485,20 @@ ${cognitiveInstruction}
             return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
         }
 
+        // 5xx 退避重試（與 429 同精神）：1s/3s/9s 上限 max5xx 次，超過印 EXIT_5XX
+        if (response.status >= 500 && response.status < 600) {
+            const max5xx = global.GEN_5XX_MAX_RETRIES ?? 3;
+            if (retryCount >= max5xx) {
+                console.error(`[API] 5xx 重試 ${max5xx} 次仍失敗（status=${response.status}）EXIT_5XX`);
+                process.stdout.write('EXIT_5XX\n');
+                return [];
+            }
+            const wait5xx = Math.pow(3, retryCount) * 1000;
+            console.warn(`[API] 5xx (${response.status})，等 ${wait5xx / 1000}s 後重試（第 ${retryCount + 1}/${max5xx} 次）...`);
+            await new Promise(r => setTimeout(r, wait5xx));
+            return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
+        }
+
         if (!response.ok) {
             const errorText = await response.text();
             throw new Error(`API 錯誤: ${response.status} - ${errorText}`);
@@ -537,6 +552,21 @@ ${cognitiveInstruction}
         return parsed.new_questions || [];
 
     } catch (error) {
+        // network error（DNS/connection/socket 層）值得退避重試；其他（JSON parse、API throw）吞回 []
+        if (isNetworkError(error)) {
+            const maxNet = global.GEN_NET_MAX_RETRIES ?? 3;
+            const errCode = (error.cause && error.cause.code) || error.code || error.message;
+            if (retryCount >= maxNet) {
+                console.error(`[API] 網路錯誤重試 ${maxNet} 次仍失敗 (${errCode}) EXIT_NETWORK`);
+                process.stdout.write('EXIT_NETWORK\n');
+                return [];
+            }
+            const waitNet = Math.pow(3, retryCount) * 1000;
+            console.warn(`[API] 網路錯誤 ${errCode}，等 ${waitNet / 1000}s 後重試（第 ${retryCount + 1}/${maxNet} 次）...`);
+            await new Promise(r => setTimeout(r, waitNet));
+            return callLLM(prompt, currentQuestionsSize, totalNeeded, filePath, retryCount + 1);
+        }
+
         console.error('❌ Gemini 引擎連線失敗或解析錯誤:', error.message);
         return [];
     }
