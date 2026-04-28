@@ -80,13 +80,13 @@ function checkResearchSupport(filePath, meta) {
                 (semester === 'S1' && (base.includes('上') || base.includes('_S1')));
             return hasGrade && hasSemester;
         };
-        // 優先：檔名含「發展綱要」（多放在 四下/、三上/ 等子資料夾）
+        // 優先：檔名含「研究總綱」或舊式「發展綱要」（JOB-212 後統一為研究總綱）
         outlinePath =
             allMd.find((p) => {
                 const b = path.basename(p);
-                return b.includes('發展綱要') && basenameOk(b);
+                return (b.includes('研究總綱') || b.includes('發展綱要')) && basenameOk(b);
             }) || null;
-        // 三下國語目前知識庫無獨立 KL3 發展綱要檔，改用 KL4 原始素材庫支撐研究天花板檢查
+        // 三下國語若找不到 KL3，改用 KL4 原始素材庫支撐研究天花板檢查
         if (
             !outlinePath &&
             normalizedGrade === 'G3' &&
