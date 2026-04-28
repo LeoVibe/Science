@@ -42,7 +42,12 @@ PY
 batch_n=0
 prev_remaining=-1
 while true; do
-    remaining=$(count_missing)
+    remaining=$(count_missing 2>/dev/null || echo -1)
+    if [ -z "$remaining" ] || ! [[ "$remaining" =~ ^-?[0-9]+$ ]]; then
+        echo "[$(date '+%F %T')] ⚠️ count_missing 失敗（可能網路斷或 python error），等 60 秒後重試"
+        sleep 60
+        continue
+    fi
     if [ "$remaining" -eq 0 ]; then
         echo "[$(date '+%F %T')] ✅ 缺檔 drive=0，retry-missing loop 結束"
         break

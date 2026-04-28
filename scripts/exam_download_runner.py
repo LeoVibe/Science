@@ -67,7 +67,11 @@ def local_path_for(record: dict[str, Any]) -> str:
     subject = record["subject"]
     publisher = record["publisher"]
     semester_label = f"{GRADE_LABEL[grade]}{SEMESTER_SUFFIX[semester]}"
-    return f"knowledge/3_考古題/1_原始檔/{grade}/{semester_label}_{subject}_{publisher}/"
+    # 健體獨立資料夾（用戶 2026-04-28 整理結構）
+    if subject == "健體":
+        return f"knowledge/3_考古題/健體/{semester_label}_{subject}_{publisher}/"
+    # 一般科目：年級層改用「中文+學期」（如 三下/、五上/）
+    return f"knowledge/3_考古題/1_原始檔/{semester_label}/{semester_label}_{subject}_{publisher}/"
 
 
 def sort_key(item: tuple[int, dict[str, Any]]) -> tuple[int, int, int, int, int]:
