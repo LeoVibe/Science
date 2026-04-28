@@ -75,6 +75,12 @@ knowledge/3_考古題/原始/
 knowledge/3_考古題/_manifest/download_progress.json
 knowledge/3_考古題/淬煉/**/*.md
 !knowledge/3_考古題/淬煉/**/_index.json
+# JOB-207 重命名後新規則（並存以防舊路徑回退；2026-04-28 補）
+knowledge/3_考古題/1_原始檔/
+knowledge/3_考古題/2_MD淬鍊文字/**/*.md
+!knowledge/3_考古題/2_MD淬鍊文字/**/_index.json
+# 下載進度備份（本地保留即可，不進 git）
+knowledge/3_考古題/_manifest/download_progress.json.bak-*
 
 # iCloud / macOS 同步時產生的重複檔（檔名末尾 " 2"/" 3" 等帶空格+數字）
 # 2026-04-21 擴充 **/ 遞迴 glob，防止深層目錄未被擋

@@ -42,9 +42,12 @@ function verifyJobs() {
             console.warn(`⚠️ 略過合併／多編 Report 之派工對照：${rf}`);
             continue;
         }
-        const hasDispatch = dispatchFiles.some((df) => df.startsWith(`${stem}-`));
+        // 以 JOB-NNN 前綴比對，允許派工單與 Report 有不同的命名尾綴
+        const jobPrefix = stem.match(/^(JOB-\d{3,}[A-Z]*)/i)?.[1];
+        if (!jobPrefix) continue;
+        const hasDispatch = dispatchFiles.some((df) => df.startsWith(`${jobPrefix}-`));
         if (!hasDispatch) {
-            console.error(`❌ [Report 無對應派工] ${rf}（預期存在 ${stem}-*.md 派工單）`);
+            console.error(`❌ [Report 無對應派工] ${rf}（預期存在 ${jobPrefix}-*.md 派工單）`);
             errorCount++;
         }
     }

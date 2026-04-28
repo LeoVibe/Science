@@ -262,7 +262,12 @@ ls -la jobs/JOB-XXX-Report.md
 5. **全站文件同步**：執行 `/pj_sync`（舊名 `/dosync` 已廢棄，統一使用 `/pj_sync`）。
 6. **Discord 結果同步（強制）**：任務**結案**（Report 已定稿）後，須將本次 **`jobs/JOB-XXX-Report.md` 重點摘要**送到使用者指定之 Discord 頻道。  
    - **概念**：結案＝報告已定稿；Discord＝把摘要送到使用者可收通知的頻道，與對話視窗分離。  
+   - **預設頻道**（2026-04-27 由 Owner 確認）：  
+     - 名稱：**`eidos_派工與回報`**  
+     - 頻道 ID：**`1487738477608177714`**  
+     - 用途：所有 JOB 結案摘要、長時 loop 進度回報的固定收件處  
    - **Cursor／MCP**：啟用 **`user-discord-relay`** 時，以工具 **`send_message`** 送出；參數 **`channelId`**（頻道 ID）、**`message`**（摘要正文，≤2000 字）。呼叫前依 MCP 目錄讀取該工具 **schema**，勿臆測參數。  
+   - **Claude Code MCP**：用 `mcp__plugin_discord_discord__reply` 工具，`chat_id` 帶上述頻道 ID，`text` 為摘要內容。  
    - **環境變數**：可設定 **`DISCORD_CHANNEL_ID`** 供 Agent／腳本讀取預設頻道（實際呼叫仍以 `channelId` 為準）。  
    - **無法呼叫 relay**（未啟用 MCP、缺頻道 ID 等）：於對話中產出**可一鍵複製貼上 Discord** 的摘要，並請使用者補齊頻道資訊後再送。
 
