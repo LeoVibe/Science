@@ -137,6 +137,7 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 | 前端 UI/UX 規格 | [`docs/網站功能規格書.md`](docs/網站功能規格書.md) |
 | 前端開發守則 | [`docs/技術設定/前端開發與AI實作守則.md`](docs/技術設定/前端開發與AI實作守則.md) |
 | 產品介紹（家長/教師） | [`docs/README_產品介紹.md`](docs/README_產品介紹.md) |
+| 長時批次任務範本（>2h、有 progress） | [`docs/長時任務執行範本.md`](docs/長時任務執行範本.md) — 5 元件、30 分鐘套用 SOP、JOB-209 案例 |
 | 驗證與盲測準則 | [`question/README_驗證與盲測準則.md`](question/README_驗證與盲測準則.md) |
 
 ---

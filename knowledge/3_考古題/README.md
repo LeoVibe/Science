@@ -28,14 +28,14 @@
 
 6. **智財保護與使用邊界**：
    - 考古題原檔**僅供內部研究參考**，嚴禁原文上架、公開散佈或提供第三方使用。
-   - 智財目錄（`knowledge/3_考古題/原始/` + `knowledge/3_考古題/淬煉/*.md`）已列入 `.gitignore`，**禁止上傳至 GitHub**。
+   - 智財目錄（`knowledge/3_考古題/1_原始檔/` + `knowledge/3_考古題/2_MD淬鍊文字/**/*.md`）已列入 `.gitignore`，**禁止上傳至 GitHub**。
    - 但 `_manifest/`（Drive/PDF 清單 metadata）與 `_index.json`（目錄索引）**允許追蹤**（不含原題內容）。
 
 7. **留存政策（2026-04-21 修訂）**：
    - ⭐ **所有下載的原始檔永久保存**（PDF、Word、HTML 等）——修訂舊版「解析完成即刪」政策。
    - 理由：原檔具不可重現性（外部來源可能移除）+ 重複萃取需要時可重跑 + 符合學術誠信。
-   - 原檔位置：`knowledge/3_考古題/原始/`
-   - 原檔副本結構：`knowledge/3_考古題/淬煉/`（結構化 MD）+ `_index.json`（索引）
+   - 原檔位置：`knowledge/3_考古題/1_原始檔/`
+   - 原檔副本結構：`knowledge/3_考古題/2_MD淬鍊文字/`（結構化 MD）+ `_index.json`（索引）
    - 三軌共存；不因 MD 生成而刪 PDF。
 
 8. **新三軌結構**（原始 / 淬煉 / 索引）：
@@ -58,25 +58,32 @@ knowledge/3_考古題/
 │   ├── download_report_JOB172.json              ← JOB-172 下載試跑報告
 │   ├── list_progress.log                        ← JOB-207 listing 進度記錄
 │   └── README_米蘭老師_G1_G6_Drive_清單.md       ← 米蘭老師 Drive 完整清單（人類可讀版）
-├── 原始/                                        ← PDF/Word（不進 git）
-│   └── G{1-6}/
-│       └── {學期_科目}/                          (例：三下_社會、四下_國語)
-│           ├── {版本}_{學年度}_{學校}_{考試類型}_試卷.pdf
-│           └── {版本}_{學年度}_{學校}_{考試類型}_答案.pdf
-└── 淬煉/                                        ← MD + _index.json
-    └── G{1-6}/
-        └── {學期_科目}/
-            ├── _index.json                      ← 進 git
-            └── {版本}_{學年度}_{學校}_{考試類型}.md   ← 不進 git
+├── 1_原始檔/                                    ← PDF/Word（不進 git；按出版社分資料夾）
+│   └── {學期}/                                  (例：三上、三下…，共 12 個)
+│       └── {學期_科目}_{版本}/                   (例：三下_社會_翰林、三下_社會_康軒)
+│           ├── (米蘭老師格式，含空格) *.pdf/.doc  ← 從 Google Drive 直接下載的原始檔名
+│           └── (已正規化格式) {版本}_{年度}_{學校}_{考試類型}_{試卷|答案}.pdf
+├── 2_MD淬鍊文字/                                ← MD + _index.json（與 1_原始檔 三層結構一致）
+│   └── {學期}/                                  (例：三上、三下…，共 12 個)
+│       └── {學期_科目}_{版本}/                   (例：三下_社會_翰林；按出版社分目錄，與 1_原始檔 同名)
+│           ├── _index.json                      ← 進 git（單一出版社）
+│           └── {版本}_{年度}_{學校}_{考試類型}.md   ← 不進 git
+└── 健體/                                        ← 健體科目獨立存放（不轉檔、不納入研發）
+    └── {學期_健體}_{版本}/                       (例：三下_健體_南一)
 ```
 
-**檔名規則**（對應原 PDF 命名）：
-- **PDF**：`{版本}_{學年度}_{學校}_{考試類型}_{試卷|答案}.pdf`
-- **MD**：`{版本}_{學年度}_{學校}_{考試類型}.md`（試卷 + 答案合併成一份 MD）
-- **範例**：
-  - `南一_108_永光國小_第三次段考_試卷.pdf`
-  - `南一_108_永光國小_第三次段考_答案.pdf`
-  - `南一_108_永光國小_第三次段考.md`
+**來源檔名格式（三種，腳本均支援）**：
+- **A 米蘭老師格式**（從 Drive 直接下載，含空格）：
+  `{縣市立}{學校名} 三年級 {年度} 下學期 {領域} {科目} {段考描述} {版本} {試卷|答案}.pdf`
+  例：`縣立永光國小 三年級 108 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf`
+- **B 自校壓縮格式**（各校自行上傳，多樣）：
+  例：`112下-勝利國小-社三末卷.pdf`、`111下-新北安和國小-社會3年級期中.pdf`
+- **C 已正規化格式**（JOB-207 重命名後）：
+  `{版本}_{年度}_{學校}_{考試類型}_{試卷|答案}.pdf`
+  例：`南一_108_永光國小_第三次段考_試卷.pdf`
+
+**輸出 MD 統一命名**：`{版本}_{年度}_{學校}_{考試類型}.md`（試卷 + 答案合併成一份 MD）
+例：`翰林_108_永光國小_第三次段考.md`
 
 ---
 
@@ -164,30 +171,35 @@ knowledge/3_考古題/
 
 ```bash
 # 1. 從 _manifest/drive_manifest_G1_G6.json 取目標 Drive URL
-# 2. gdown --folder <URL> 下載整個資料夾
-cd knowledge/3_考古題/原始/G3/三下_社會
+# 2. gdown --folder <URL> 下載整個資料夾（檔名保持米蘭老師原始格式，含空格）
+cd knowledge/3_考古題/1_原始檔/G3/三下_社會_翰林   # 按 {學期_科目}_{版本} 分目錄
 ~/Library/Python/3.11/bin/gdown --folder "<DRIVE_URL>"
 
-# 3. 自動重命名（若 PDF 檔名不規範）
-#    按檔名規則 {版本}_{學年度}_{學校}_{考試類型}_{試卷|答案}.pdf
-#    （腳本 scripts/job207_download_batch.py 會處理）
+# 3. 重命名非必要：腳本可直接辨識米蘭老師格式，不需預先正規化
+#    若需批量重命名，可選用 scripts/job207_download_batch.py
 ```
 
 **限速**：每 Drive 間 sleep 10s，每批 ≤ 3 Drive 休 5 分鐘（避 Google rate-limit）。
 
-### SOP B：PDF → 淬煉 MD + _index.json（JOB-207 pipeline）
+### SOP B：PDF → 淬鍊 MD + _index.json（JOB-207 pipeline）
 
 ```bash
+# 處理特定出版社（翰林）
+~/Library/Python/3.11/bin/python3.11 scripts/job207_distill_to_md.py \
+  --grade G3 --semester_subject 三下_社會 --publisher 翰林
+
+# 處理所有出版社（掃描所有 三下_社會_* 子目錄）
 ~/Library/Python/3.11/bin/python3.11 scripts/job207_distill_to_md.py \
   --grade G3 --semester_subject 三下_社會
 ```
 
 腳本動作：
-1. 讀 `原始/G3/三下_社會/*.pdf`
-2. pdfplumber 萃取文字
-3. 套用該科目主題關鍵字規則 → 分類題目
-4. 生成 `淬煉/G3/三下_社會/{版本}_{學年度}_{學校}_{考試類型}.md`
-5. 聚合更新 `淬煉/G3/三下_社會/_index.json`
+1. 掃描 `1_原始檔/G3/三下_社會_{版本}/` 下的 PDF 和 DOC 檔
+2. pdfplumber（PDF）或 markitdown（DOC）萃取文字
+3. 支援三種檔名格式：米蘭老師格式、自校壓縮格式、已正規化格式
+4. 套用該科目主題關鍵字規則 → 分類題目
+5. 生成 `2_MD淬鍊文字/G3/三下_社會/{版本}_{年度}_{學校}_{考試類型}.md`
+6. 合併更新 `2_MD淬鍊文字/G3/三下_社會/_index.json`（不覆蓋已有出版社條目）
 
 ### SOP C：tcool.cc Mock Quiz 逐題作答法（備援，詳見舊版 README）
 
@@ -214,21 +226,24 @@ cd knowledge/3_考古題/原始/G3/三下_社會
 ```markdown
 ---
 source_school: 彰化縣永光國小
-academic_year: 108 學年度下學期
+academic_year: 108
 exam_type: 第三次段考
 publisher: 南一
-grade: G3
+semester: 三下
+subject: 社會
 semester_subject: 三下_社會
 pdf_files:
-  - 南一_108_永光國小_第三次段考_試卷.pdf
-  - 南一_108_永光國小_第三次段考_答案.pdf
+  - filename: 南一_108_永光國小_第三次段考_試卷.pdf
+    sha256: a3f2c1d8e9b04f6702c5341e87d9f20b3a1c6e4d0f7b8291e5a3c4d6f0b12347
+  - filename: 南一_108_永光國小_第三次段考_答案.pdf
+    sha256: b9d4e2f1a0c83b5702d6241e98c0f31c4b2d7e5a1f8b9302f6a4c5e7d1b23458
 extracted_date: 2026-04-21
-extracted_by: Claude Code (claude-opus-4-7)
+extracted_by: "Claude Code (claude-opus-4-7) via scripts/job207_distill_to_md.py"
 topic_hits:
   社區營造: 12
   公民服務: 8
   探究流程: 3
-lesson_relevance: {L1: 3, L2: 5, L3: 2, L4: 4, L5: 8, ambiguous: 5}
+char_count: 3250
 ---
 
 # 三下 社會 南一｜永光國小 108 學年度 第三次段考
@@ -251,14 +266,14 @@ lesson_relevance: {L1: 3, L2: 5, L3: 2, L4: 4, L5: 8, ambiguous: 5}
 ...
 
 ## 原文追溯
-`knowledge/3_考古題/原始/G3/三下_社會/南一_108_永光國小_第三次段考_試卷.pdf`
+`knowledge/3_考古題/1_原始檔/G3/三下_社會_南一/南一_108_永光國小_第三次段考_試卷.pdf`
 ```
 
 ### `_index.json` 結構範本
 
 ```json
 {
-  "path": "knowledge/3_考古題/淬煉/G3/三下_社會/",
+  "path": "knowledge/3_考古題/2_MD淬鍊文字/G3/三下_社會/",
   "last_updated": "2026-04-21T10:30:00Z",
   "total_md": 21,
   "schools": ["永光國小", "成功國小", ...],
@@ -336,13 +351,11 @@ JOB-207 執行：
 ### .gitignore 調整
 
 ```
-# 舊規則（保留到遷移完成為止）
-knowledge/3_考古題/
-
-# 新規則
-knowledge/3_考古題/原始/
-knowledge/3_考古題/淬煉/**/*.md
-!knowledge/3_考古題/淬煉/**/_index.json
+# 原始 PDF/Word（不進 git）
+knowledge/3_考古題/1_原始檔/
+# 淬鍊 MD（不進 git；_index.json 例外允許追蹤）
+knowledge/3_考古題/2_MD淬鍊文字/**/*.md
+!knowledge/3_考古題/2_MD淬鍊文字/**/_index.json
 ```
 
 ### 引用路徑更新（Q3=A）

@@ -1,0 +1,788 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字/三下/三下_數學_康軒/",
+  "last_updated": "2026-04-28T23:43:05.695961Z",
+  "total_md": 24,
+  "schools": [
+    "112-2-2新北桃子腳國小",
+    "2",
+    "中正國小",
+    "勝利國小",
+    "員東國小",
+    "國姓國小",
+    "大園國小",
+    "安和國小",
+    "成德國小",
+    "新北安和國小",
+    "曉陽國小",
+    "湳雅國小",
+    "田中國小",
+    "草港國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "111",
+    "112"
+  ],
+  "publishers": [
+    "康軒"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第二次段考"
+  ],
+  "topic_matrix": {
+    "分數": {
+      "111": 6,
+      "112": 2,
+      "109": 11,
+      "108": 11
+    },
+    "時間": {
+      "111": 27,
+      "109": 30,
+      "?": 7,
+      "108": 44
+    },
+    "小數": {
+      "111": 15,
+      "109": 7,
+      "108": 17,
+      "?": 2
+    },
+    "圓": {
+      "111": 79,
+      "?": 15
+    },
+    "度量衡": {
+      "111": 28,
+      "112": 68,
+      "108": 82,
+      "109": 16
+    },
+    "統計表": {
+      "111": 9,
+      "112": 2,
+      "109": 4,
+      "108": 5
+    },
+    "除法": {
+      "109": 1
+    },
+    "面積": {
+      "108": 19
+    }
+  },
+  "schools_per_topic": {
+    "分數": [
+      "2",
+      "中正國小",
+      "勝利國小",
+      "員東國小",
+      "國姓國小",
+      "大園國小",
+      "安和國小",
+      "成德國小",
+      "新北安和國小",
+      "曉陽國小",
+      "湳雅國小",
+      "田中國小"
+    ],
+    "時間": [
+      "112-2-2新北桃子腳國小",
+      "勝利國小",
+      "員東國小",
+      "國姓國小",
+      "大園國小",
+      "安和國小",
+      "曉陽國小",
+      "湳雅國小",
+      "田中國小"
+    ],
+    "小數": [
+      "112-2-2新北桃子腳國小",
+      "中正國小",
+      "勝利國小",
+      "員東國小",
+      "國姓國小",
+      "大園國小",
+      "安和國小",
+      "成德國小",
+      "新北安和國小",
+      "曉陽國小",
+      "湳雅國小",
+      "田中國小"
+    ],
+    "圓": [
+      "112-2-2新北桃子腳國小",
+      "中正國小",
+      "勝利國小",
+      "安和國小",
+      "新北安和國小",
+      "田中國小"
+    ],
+    "度量衡": [
+      "2",
+      "中正國小",
+      "勝利國小",
+      "國姓國小",
+      "大園國小",
+      "安和國小",
+      "成德國小",
+      "新北安和國小",
+      "曉陽國小",
+      "田中國小"
+    ],
+    "統計表": [
+      "2",
+      "中正國小",
+      "勝利國小",
+      "員東國小",
+      "國姓國小",
+      "大園國小",
+      "安和國小",
+      "新北安和國小",
+      "湳雅國小",
+      "田中國小"
+    ],
+    "除法": [
+      "安和國小"
+    ],
+    "面積": [
+      "成德國小",
+      "曉陽國小"
+    ]
+  },
+  "files": [
+    {
+      "filename": "康軒_108_員東國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "員東國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 3,
+        "時間": 6,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立員東國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "885fc2d251fe34d762329d919ea684e95aca59bc2b96d9526d3376d8d141f83a"
+        },
+        {
+          "filename": "縣立員東國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "70ed7bdf6b2ed36488b58ee7a2d9c1b18736cc6f5ee39c2ad33bc885d0c2a4e9"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_國姓國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "國姓國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 3,
+        "小數": 5,
+        "度量衡": 5,
+        "時間": 23,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立國姓國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "274d6e5f364dec2c77962e2036c5c8a87e8194c7b037c8b8afe2becbecb457c1"
+        },
+        {
+          "filename": "縣立國姓國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "d92c6b94999665ac14069f10547933b545308e9684bce39b97f76aa1ce00b04b"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_成德國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "成德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "8b993cf3fd626bd5f4b285b2e62b3449f9225e19f5d8779bfd68e9c918c9acf4"
+        },
+        {
+          "filename": "市立成德國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "56877e6b812ded52452638dd9b0771c91c442f6bff2caebb99577a6c2861a8d9"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_成德國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "成德國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 2,
+        "面積": 12,
+        "度量衡": 25
+      },
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "b7b3720c9510fbab6e587051f4d1af11e2d276eeaeba6ecb8224317b45a734aa"
+        },
+        {
+          "filename": "市立成德國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "4908cd634deaad912382b244df69eed0f47e9363cfd77ce8139589e89b12d28d"
+        },
+        {
+          "filename": "康軒_108_成德國小_第二次段考_答案.pdf",
+          "sha256": "b7b3720c9510fbab6e587051f4d1af11e2d276eeaeba6ecb8224317b45a734aa"
+        },
+        {
+          "filename": "康軒_108_成德國小_第二次段考_試卷.pdf",
+          "sha256": "4908cd634deaad912382b244df69eed0f47e9363cfd77ce8139589e89b12d28d"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "曉陽國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "時間": 7
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "bd0a162ff8290bc258d1e1f19412793534c46e5c43cfa45a1701207c90612999"
+        },
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "8ac94aa9c09bc7bfa2a63ac73a3b6853d5eed75031d6ba0d274b2a8686a87cd8"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "曉陽國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "小數": 3,
+        "面積": 7,
+        "度量衡": 52
+      },
+      "pdf_files": [
+        {
+          "filename": "康軒_108_曉陽國小_第二次段考_答案.pdf",
+          "sha256": "06b50e65ac7cc45030df26928aa25ba52828cb5e5a14e2ad6ca957be8472be24"
+        },
+        {
+          "filename": "康軒_108_曉陽國小_第二次段考_試卷.pdf",
+          "sha256": "c3582252326d5fef69b0d51819a0e4cd666c6aa6f8f2304803c85143676efdc2"
+        },
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "06b50e65ac7cc45030df26928aa25ba52828cb5e5a14e2ad6ca957be8472be24"
+        },
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "c3582252326d5fef69b0d51819a0e4cd666c6aa6f8f2304803c85143676efdc2"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_湳雅國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "湳雅國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 5,
+        "小數": 4,
+        "時間": 8,
+        "統計表": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立湳雅國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "4927e63c145cead457a49b1287afad32a15fa2164a9531b8c633acfad0e2bafd"
+        },
+        {
+          "filename": "縣立湳雅國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "8d5724c4ae736a07da294fe110d972140cdc76f9c61038627d69116531b4e72c"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_草港國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "785e319d7f60a49076fa79fa4da6e66300f2648249258a945325e00ffc1c5a71"
+        },
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "b63f090492734393bada40cd8ec613426e538e0097321b16892fd7de01041a96"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_草港國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "草港國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "康軒_108_草港國小_第二次段考_答案.pdf",
+          "sha256": "d132c7ab9ca79e520bf8a8921b72715aabec8ebb8ab5b13479244bea377e9bcd"
+        },
+        {
+          "filename": "康軒_108_草港國小_第二次段考_試卷.pdf",
+          "sha256": "240daf9d31b3f32ffadd819f7ba84a4e4b6c8e7595954285f82044559c49e059"
+        },
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "d132c7ab9ca79e520bf8a8921b72715aabec8ebb8ab5b13479244bea377e9bcd"
+        },
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 數學領域 數學 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "240daf9d31b3f32ffadd819f7ba84a4e4b6c8e7595954285f82044559c49e059"
+        }
+      ],
+      "char_count": 3842
+    },
+    {
+      "filename": "康軒_109_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 5,
+        "時間": 19
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "64c60f24201b86e26d9383f99c3e889c889739635683754c51ab3f771402a8c7"
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "9e8e3597ad415d9d43fed28f9cc06f46ebe3132e14a12a622d943862b7d88288"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 5,
+        "度量衡": 16,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 數學領域 數學 第二次段考 期中考 康軒 答案.pdf",
+          "sha256": "4606cba5a14ed147d5cece4524946e32ae83d423492b927074c34ed6482c6178"
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 數學領域 數學 第二次段考 期中考 康軒 試卷.pdf",
+          "sha256": "9d7c134b941dd4a21d15341a519b7ed5abf15133f430662167c46cb7bbce9645"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_安和國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "安和國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "除法": 1,
+        "分數": 5,
+        "小數": 2,
+        "時間": 11,
+        "統計表": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "市立安和國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "d5fcca8a0abb102da9c2ce91353d263a11a74606cf3f1bc2d14a315f994a49c3"
+        },
+        {
+          "filename": "市立安和國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "399989954cb683a5ea558119793eeef1995bfcdc050aaf60c2666088f89199ef"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_成德國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "成德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "c6cfd7ef8b6ceac5eba9ab27b69e66eee1a6e5f2566e5d45b593a48b8ec74bcb"
+        },
+        {
+          "filename": "市立成德國小 三年級 109 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "98cdda120ffd88753b54703ddb878e24e07dfa9101be0f72b766f680091fc90d"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_中正國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "中正國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 8,
+        "圓": 16,
+        "度量衡": 7,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "康軒_111_中正國小_第二次段考_答案.pdf",
+          "sha256": "142fa16d87804a31967f9436464646c30b5152a03f5d99dc2b2516b16b6d3477"
+        },
+        {
+          "filename": "康軒_111_中正國小_第二次段考_試卷.pdf",
+          "sha256": "142fa16d87804a31967f9436464646c30b5152a03f5d99dc2b2516b16b6d3477"
+        },
+        {
+          "filename": "縣立中正國小 三年級 111 下學期 數學領域 數學 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "142fa16d87804a31967f9436464646c30b5152a03f5d99dc2b2516b16b6d3477"
+        },
+        {
+          "filename": "縣立中正國小 三年級 111 下學期 數學領域 數學 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "142fa16d87804a31967f9436464646c30b5152a03f5d99dc2b2516b16b6d3477"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_勝利國小_期中考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "時間": 8
+      },
+      "pdf_files": [
+        {
+          "filename": "111下-勝利國小-數三中卷.pdf",
+          "sha256": "ef0123f20fd9dbbe1c0fb54c1409f0d08c97e0a619cdace5039a41c05827c089"
+        },
+        {
+          "filename": "111下-勝利國小-數三中卷解答.pdf",
+          "sha256": "0bd1fb9675cc7c4119794467a48001a3e7575379b76ad3d4d21957014fe34bbe"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_勝利國小_期末考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "小數": 2,
+        "圓": 20,
+        "度量衡": 3,
+        "統計表": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "111下-勝利國小-數三末卷.pdf",
+          "sha256": "a07515d288ef1887688fa64b9b57dbac3daf17953b761a5ce985776de6659e9d"
+        },
+        {
+          "filename": "111下-勝利國小-數三末卷解答.pdf",
+          "sha256": "1f9f489e5f87f4ed4bfa21b3c3db859b541ea1fcc8ca9ba8c24af9895fc3ce96"
+        },
+        {
+          "filename": "康軒_111_111下-勝利國小_期末考_答案.pdf",
+          "sha256": "1f9f489e5f87f4ed4bfa21b3c3db859b541ea1fcc8ca9ba8c24af9895fc3ce96"
+        },
+        {
+          "filename": "康軒_111_111下-勝利國小_期末考_試卷.pdf",
+          "sha256": "a07515d288ef1887688fa64b9b57dbac3daf17953b761a5ce985776de6659e9d"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_安和國小_期中考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "安和國小",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "度量衡": 6,
+        "時間": 11
+      },
+      "pdf_files": [
+        {
+          "filename": "111下-新北安和國小-數學3期中考(解答).pdf",
+          "sha256": "6bd3ea3107d34759f1288ab41d45af0d8bf5b726d9db8bd184b4de2b18e29115"
+        },
+        {
+          "filename": "111下-新北安和國小-數學3期中考.pdf",
+          "sha256": "827f4bd8732b7834c4b2f73905fb277d18e5ba17898dbe9edcb86847723a8d4f"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_安和國小_期末考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "安和國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 2,
+        "圓": 17,
+        "度量衡": 5,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "111下-新北安和國小-數學3期末(解答).pdf",
+          "sha256": "67d3c26a7b20e3abca73f02613bade3e81291758a8e1a8ea08a667f73ded483f"
+        },
+        {
+          "filename": "111下-新北安和國小-數學3期末.pdf",
+          "sha256": "b3085763b77c576290e45f79a2b2bcb13b090a06391a9102e17454dc381ae819"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_新北安和國小_期末考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "新北安和國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 2,
+        "圓": 17,
+        "度量衡": 5,
+        "統計表": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "康軒_111_111下-新北安和國小_期末考_答案.pdf",
+          "sha256": "67d3c26a7b20e3abca73f02613bade3e81291758a8e1a8ea08a667f73ded483f"
+        },
+        {
+          "filename": "康軒_111_111下-新北安和國小_期末考_試卷.pdf",
+          "sha256": "b3085763b77c576290e45f79a2b2bcb13b090a06391a9102e17454dc381ae819"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_田中國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "度量衡": 1,
+        "時間": 8
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "27ae161a6f7e76e44bb809763509623c6675bd3c4838dc601e9fdbd188124d7a"
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "3c3cb7dc05f07cb73db11cffe1637326b4511e49ff7f13b82272293ffbaac825"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_田中國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 1,
+        "小數": 1,
+        "圓": 9,
+        "度量衡": 1,
+        "統計表": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "康軒_111_田中國小_第二次段考_答案.pdf",
+          "sha256": "8f6f97c238640da20acebb4c0ba8451da0b773f003b2242e25edf0ec02c5d73d"
+        },
+        {
+          "filename": "康軒_111_田中國小_第二次段考_試卷.pdf",
+          "sha256": "7a9a45b2349d1df12e546d4d4ab7bfa0d75641df923457231f5b9f42e6a78069"
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 數學領域 數學 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "8f6f97c238640da20acebb4c0ba8451da0b773f003b2242e25edf0ec02c5d73d"
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 數學領域 數學 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "7a9a45b2349d1df12e546d4d4ab7bfa0d75641df923457231f5b9f42e6a78069"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_2_期末考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "2",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "分數": 2,
+        "度量衡": 35,
+        "統計表": 2
+      },
+      "pdf_files": [
+        {
+          "filename": "112-2-1新北桃子腳國小-三數解答.pdf",
+          "sha256": "b9d23dda107c99e7e1d0143fd00781aa1701739e4527a510689c065ad8c15cba"
+        },
+        {
+          "filename": "112-2-1新北桃子腳國小-小三數學.pdf",
+          "sha256": "fc3c0345a867694c6d240c7400f441aac353508770f79ee0e09580c90d44e932"
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-三數.pdf",
+          "sha256": "2d4ffcf9da0657d137d484845769f9f7405110da8c65fcc770ca49b96fa51fdf"
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-三數期末試卷解答.pdf",
+          "sha256": "0b3b7255f235b5d8543a68fd574fa99ac3d1dcf5bff041a244c3a64ff873f048"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_中正國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "度量衡": 33
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 112 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "08486a04605e5afe30333fe960bd2c335580e834f823ca7e4008468a152341d7"
+        },
+        {
+          "filename": "縣立中正國小 三年級 112 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "6fba463caec6246a5330b210ecf67e9d75916146df1161687ac8c22876a2ae9a"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_?_112-2-2新北桃子腳國小_期末考.md",
+      "publisher": "康軒",
+      "year": "?",
+      "school": "112-2-2新北桃子腳國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "小數": 2,
+        "圓": 15,
+        "時間": 7
+      },
+      "pdf_files": [
+        {
+          "filename": "康軒_?_112-2-2新北桃子腳國小_期末考_答案.pdf",
+          "sha256": "0b3b7255f235b5d8543a68fd574fa99ac3d1dcf5bff041a244c3a64ff873f048"
+        },
+        {
+          "filename": "康軒_?_112-2-2新北桃子腳國小_期末考_試卷.pdf",
+          "sha256": "2d4ffcf9da0657d137d484845769f9f7405110da8c65fcc770ca49b96fa51fdf"
+        }
+      ]
+    }
+  ]
+}

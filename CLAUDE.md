@@ -34,6 +34,7 @@
 | 盲測 `question_verify` | `question/README_驗證與盲測準則.md` |
 | 前端工程 `engineering` | `docs/技術設定/前端開發與AI實作守則.md` |
 | 大規模 API 呼叫 | `_agent/API_RULES.md` |
+| 長時批次任務（>2h、有 progress）| `docs/長時任務執行範本.md`（5 元件 + 30 分鐘套用 SOP，引用 JOB-209 為案例） |
 
 **不要猜規範內容。每次都讀當前版本，因為規範會更新。**
 

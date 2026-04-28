@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-28
-`updated_by`: Cursor Agent（pj_sync：JOB-211 結案）
+`last_updated`: 2026-04-29
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-213 OCR 補登結案）
 
 ---
 
@@ -30,9 +30,17 @@
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
 
+### 2026-04-29
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-214 | **長時任務進度回報範本制定**：把 JOB-209 跑出來的「五元件回報法」（dashboard + loop wrapper + ScheduleWakeup + Discord + per-task timeout）抽象成可重用範本。產出 `docs/長時任務執行範本.md`（七章節含失敗模式對照表）+ `scripts/templates/`（progress_dashboard.py / continuous_loop.sh / wakeup_prompt.md 三個骨架）+ CLAUDE.md/README.md 索引。設計為 SOP + 拷貝骨架而非框架套件，新任務 30 分鐘內可套上開跑。失敗模式對照表 10 條皆來自 JOB-209 真實遭遇。見 `jobs/JOB-214-Report.md` | 🟢 DONE |
+| JOB-209 | **米蘭考古題分批下載完成**：跨 6 天完成 704 個 Drive 資料夾下載任務。**排除「健體（全學期）」16 個資料夾後達標率 100%（10,506/10,506 PDF）；含健體 99.7%（10,591/10,625）**。1_原始檔/ 內共 10,663 PDF + 1,070 其他格式 = 11,733 檔。建構並驗證的可重用基礎設施：`exam_download_runner.py`（gdown CLI + Playwright 範圍選取備援 + 25min/drive 硬 timeout）、`rescan_manifest.py`（virtual scroll 解 50 截斷）、`retry_missing_drives.py`（manifest 比對 retry，不降級 partial）、`progress_dashboard.py` + `continuous_*_loop.sh`（長時批次任務範本，由 JOB-214 抽象化）。順帶完成：派工準則 §6 寫入 Discord 預設頻道（`eidos_派工與回報`/`1487738477608177714`）、CLAUDE.md §3.5 Discord 互動規範、目錄結構整理（年級層 G→中文學期、健體獨立到 `健體/`）。見 `jobs/JOB-209-Report.md`（214 行正式報告）+ `jobs/JOB-209-Report.md.history-bak`（599 行歷程詳情）| 🟢 DONE |
+
 ### 2026-04-28
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-213 | **考古題目錄重構（G→學期層）+ 三下社會科初轉檔 + 掃描 PDF OCR 補強**：Phase A — `1_原始檔/` 和 `2_MD淬鍊文字/` 頂層從年級目錄（G1~G6）重構為 12 個學期目錄（一上~六下）；15 個健體目錄（103 個實體檔案）搬至 `knowledge/3_考古題/健體/` 獨立存放；~150 個科目資料夾完成搬移。Phase B — `job207_distill_to_md.py` CLI 參數 `--grade`/`--semester_subject` → `--semester`/`--subject`，路徑與 frontmatter 全面更新；`README.md` §一、§二同步；4 個 `_index.json` path 欄位修正。Phase C — 三下社會翰林 30 份 MD + 康軒 51 份 MD 完成轉檔，`_index.json` 共 104 筆。補登 OCR — 28 份掃描 PDF 經 ocrmac（Apple Vision）全數提取成功（avg 3176 字/份），21 份 MD char_count 從 0~88 提升至 3842~9470，`extraction_method: ocrmac` 加入 frontmatter。見 `jobs/JOB-213-Report.md` | 🟢 DONE |
+| JOB-212 | **KL2-KL4 規範治理 + 三下社會研究骨架**：Phase A — `README_研究架構總綱.md` v4.4 新增 KL3 命名規範、課名清單必要產出、KL4 大檔禁止規則；出題準則新增附錄 A 圖片依賴分類。Phase B — 25 個 KL3 從 `*_發展綱要` 重命名為 `KL3_*_研究總綱`；`run_blind_eval.js` R4_MAPPING 全 22 條路徑更新。Phase C — 三下社會 KL3 補課名清單；建立翰林版 12 個 KL4 RM0 空殼（6課×2）。Phase D1 — 自然 01_五下生物 合併、刪 iCloud 副本 × 3。Phase D2（國語年度素材庫 ~180 課）遞延下次。commit `3c9896a`（44 files）。見 `jobs/JOB-212-Report.md` | 🟢 DONE（D2 遞延） |
 | JOB-211 | **斷點恢復子系統試行（JOB-210 子任務）**：於 G3 自然三上翰林 **Sci_HanLin_L1** 試行路徑 1（happy path）— 30 題、CQI-P 均 **9.46**，合併 **commit `61cea1f`**；路徑 5 底層 **llm_retry** 實測 **503／429／ENOTFOUND** 三類錯誤皆命中 **spec §7.1** 退避序列 **1s／4s／9s**。遺留：路徑 2／3／4 未試行；`run_blind_eval` 未納入本次 PM 範圍；目錄級 `auto_generate` 與 progress-config `lessons` 範圍不同步，L1 完成後須手動中止或改單檔呼叫。見 `jobs/JOB-211-Report.md` | 🟢 DONE |
 
 ### 2026-04-27
