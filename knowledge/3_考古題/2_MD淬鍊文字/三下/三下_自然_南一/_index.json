@@ -1,0 +1,1180 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字/三下/三下_自然_南一/",
+  "last_updated": "2026-04-29T14:04:27.944158Z",
+  "total_md": 45,
+  "schools": [
+    "02第一次評量三年級自然科評量答案卷",
+    "02第一次評量三年級自然科評量試卷",
+    "02第二次評量三年級自然科評量答案卷",
+    "02第二次評量三年級自然科評量試卷",
+    "2",
+    "中正國小",
+    "勝利國小",
+    "太平國小",
+    "成功國小",
+    "成德國小",
+    "文德國小",
+    "永光國小",
+    "湳雅國小",
+    "田中國小",
+    "舊館國小",
+    "豐崙國小",
+    "長安國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113"
+  ],
+  "publishers": [
+    "南一"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "未知",
+    "第一次段考",
+    "第三次段考",
+    "第二次段考"
+  ],
+  "topic_matrix": {
+    "植物生長": {
+      "112": 276,
+      "113": 10,
+      "109": 104,
+      "108": 255,
+      "110": 107,
+      "111": 182
+    },
+    "水的三態": {
+      "112": 117,
+      "113": 4,
+      "109": 40,
+      "108": 63,
+      "110": 18,
+      "111": 57
+    },
+    "天氣觀測": {
+      "112": 102,
+      "113": 36,
+      "109": 1,
+      "108": 280,
+      "111": 107
+    },
+    "動物構造": {
+      "112": 3,
+      "108": 201,
+      "109": 3,
+      "111": 2
+    }
+  },
+  "schools_per_topic": {
+    "植物生長": [
+      "02第二次評量三年級自然科評量答案卷",
+      "02第二次評量三年級自然科評量試卷",
+      "2",
+      "中正國小",
+      "勝利國小",
+      "太平國小",
+      "成功國小",
+      "成德國小",
+      "文德國小",
+      "永光國小",
+      "田中國小",
+      "舊館國小",
+      "豐崙國小",
+      "長安國小"
+    ],
+    "水的三態": [
+      "02第二次評量三年級自然科評量答案卷",
+      "02第二次評量三年級自然科評量試卷",
+      "2",
+      "中正國小",
+      "勝利國小",
+      "太平國小",
+      "成功國小",
+      "成德國小",
+      "文德國小",
+      "永光國小",
+      "田中國小",
+      "舊館國小",
+      "豐崙國小",
+      "長安國小"
+    ],
+    "天氣觀測": [
+      "02第二次評量三年級自然科評量答案卷",
+      "02第二次評量三年級自然科評量試卷",
+      "2",
+      "中正國小",
+      "勝利國小",
+      "太平國小",
+      "成功國小",
+      "成德國小",
+      "文德國小",
+      "永光國小",
+      "湳雅國小",
+      "田中國小",
+      "舊館國小",
+      "豐崙國小"
+    ],
+    "動物構造": [
+      "中正國小",
+      "太平國小",
+      "成功國小",
+      "文德國小",
+      "永光國小",
+      "湳雅國小",
+      "田中國小",
+      "舊館國小",
+      "豐崙國小"
+    ]
+  },
+  "files": [
+    {
+      "filename": "南一_108_中正國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 59,
+        "水的三態": 21
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "051e6bcd80510f782f11a2a8aa5c7b281ed05ba1628d6a65fb288fae3867b8d3"
+        },
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "91ea1471f1fb5bd3eb5b972d2317605c1b7bf902a47658a67d44dc1399d62d10"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_中正國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "中正國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 1,
+        "水的三態": 1,
+        "動物構造": 24,
+        "天氣觀測": 30
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "82c3904717a7dad0b48633655a1b1bd0192991b53463407acd312f6b6d441a78"
+        },
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "089c9c4f39af899f68e2fa582cd26a1c570d647c0ad57676e3fb65e57e9cb8e3"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_成功國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 62,
+        "水的三態": 22
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.doc",
+          "sha256": "731e78f0b6767213d8555df8d3e6eb98a3799361a40dd2fd0609a934edbac639"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+          "sha256": "731e78f0b6767213d8555df8d3e6eb98a3799361a40dd2fd0609a934edbac639"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_成功國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 16,
+        "動物構造": 1,
+        "天氣觀測": 40
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "58560bd2790366fcf429d3f0893c9724a3fad886afafe8810e3393f60372372a"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "9a071d35a39b8e1f7c3514b1452c8e0294cadee7f7fa55b7f36d9f0400d730ec"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_成功國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 1,
+        "動物構造": 45
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.doc",
+          "sha256": "acf2895cf61c7c5d1ac01a4973dc60ca1b66755c57cba075e063a901a32f4505"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.doc",
+          "sha256": "acf2895cf61c7c5d1ac01a4973dc60ca1b66755c57cba075e063a901a32f4505"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_成德國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "成德國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "9a67d39fe927c077fcc070621125bc8606e99821b37a74949fde5f2d986b3d80"
+        },
+        {
+          "filename": "市立成德國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "30c8ffa1ea46aa86f971a0f9df71ba2e2fc13c59f22d60dd2a00392e3d4cd466"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_文德國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "文德國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 6,
+        "水的三態": 1,
+        "動物構造": 23,
+        "天氣觀測": 32
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "c437fa3e8fc71419da2a9d95dd666236040ad343a714ca04bab472141357fde2"
+        },
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "17dcd9ea39dfd4bbfadca7366462858d4afb98d841b782e8f9a8a615fff79d5d"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_永光國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "永光國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 88,
+        "水的三態": 10,
+        "天氣觀測": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "245b725046bafd728ef07d51dacf9e22a13d6458cfea3196434308fe136dac39"
+        },
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "4f477323800830c3c66f395d957354ed56ed596c3372d5ddf2b2cf61eae29f6b"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_永光國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "永光國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 6,
+        "水的三態": 1,
+        "天氣觀測": 63
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "3800c2de64988d938c9c5c58cf0f6a54186c4fc22e97c8889a1e8c4e59756ef7"
+        },
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "c301d710c5521f0933d7295b7179476e4ea345d92e0b0eea15f36efe7a139d9e"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_永光國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "永光國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 4,
+        "水的三態": 5,
+        "動物構造": 45
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "d5c56821ab92e2e14f8b101a6d0b14caf008e5d6a795a4b6c786600731220da4"
+        },
+        {
+          "filename": "縣立永光國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "d37c7e276cd554fc585ff1e2f3614f1e2c034b8bb6c7028064e8124cf8bffe20"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_湳雅國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "湳雅國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "動物構造": 27,
+        "天氣觀測": 15
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立湳雅國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "decabf90dc7f421360ef4f1a0a00538af47b9fe96959d36ceaaf2f36633cafd5"
+        },
+        {
+          "filename": "縣立湳雅國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "43d91211ab055037e17aea80ee73e517d686b2c48bc1cb92df0a31fe9bd59cdf"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_舊館國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "舊館國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "466e962db01260f3b3ed27247eb6cc9e27f7f569ff4bf3f01c40e381004199f2"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+          "sha256": "59d7dbe61aad4d1fc33f2d0950214d67f1379ef103fdb65bcb2ab1309dbd2b73"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_舊館國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "舊館國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 7,
+        "動物構造": 1,
+        "天氣觀測": 47
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "5b3897067549010bffa1911dec33167f078a60d349a6d2e558df064fd94b4df6"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "a1361dba21ab01844eeff01b736f858a87efbd37482861c85eca5166824d3212"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_豐崙國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "豐崙國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "8607352ff4946b9ff59804936bcc6269cc30981aaf15a5167200631c679d4ffc"
+        },
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "d1e09bb45d2e81c99a2b8818e4edcdc9595ba827198d0249c4e892add341f078"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_豐崙國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "豐崙國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 3,
+        "水的三態": 1,
+        "天氣觀測": 50
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "98fff111198983f7d46c595fc050284f8eebf05d89ddefc754f5d76a226f3434"
+        },
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "6166d5272bc7a99140dfc5c0f313eb77da80d26db6b6b5e5bb89122a7c9cc6d1"
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_豐崙國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "豐崙國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 2,
+        "水的三態": 1,
+        "動物構造": 35
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "c25852c85ca3b99e226e604529419a3fbe9ecacadc4ecdbd1589f13d9499278e"
+        },
+        {
+          "filename": "縣立豐崙國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "0348530ab2b013d56302e2b4ae896e33643df1c2866c72fafd363794c269452d"
+        }
+      ]
+    },
+    {
+      "filename": "南一_109_成功國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "109",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 33,
+        "水的三態": 19,
+        "動物構造": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "054d2b1912d229040e727414530c647ebadbd93d394286bc624e48f679bfc36b"
+        },
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "72e8e7d5f7d1b67856a8a364f18230fe6bf1dc46188fcd209d715ad7e727821e"
+        }
+      ]
+    },
+    {
+      "filename": "南一_109_成德國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "109",
+      "school": "成德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 29,
+        "水的三態": 11,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "c79a9594e5f908d3376e1a670613601411d841b856c6c51e7ca395a11d5ae0a1"
+        },
+        {
+          "filename": "市立成德國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "4e7d0942efed0a3f8fa9afbfe8ec8987da98c84f787f82cbb18ef873d40a9804"
+        }
+      ]
+    },
+    {
+      "filename": "南一_109_舊館國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "109",
+      "school": "舊館國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 42,
+        "水的三態": 10,
+        "動物構造": 2
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "a609cfe58c7d8fe302d5e3ecbf28057b80f973c5794d71eb3d132c54df4ab742"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "a9e75557c9986086ecd696661dc65c2b377bffee32b4bdaaa40bb9f4f7aca630"
+        }
+      ]
+    },
+    {
+      "filename": "南一_110_中正國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "110",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 37,
+        "水的三態": 17
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 110 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "9b2b515ef6bbebabc6d2480288e2fd53bca992fedae5e08d53a986e320c7bcef"
+        },
+        {
+          "filename": "縣立中正國小 三年級 110 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "9b2b515ef6bbebabc6d2480288e2fd53bca992fedae5e08d53a986e320c7bcef"
+        }
+      ]
+    },
+    {
+      "filename": "南一_110_長安國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "110",
+      "school": "長安國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 70,
+        "水的三態": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立長安國小 三年級 110 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "edef949d6bed2a4fff48f1b3496d70adaf50b8e4f500ee913033ae37eb1095a8"
+        },
+        {
+          "filename": "縣立長安國小 三年級 110 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "4f8b08124bb5e0e9124912dcd40435e1724cb5fde60266b187ebeaa56fae169a"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_成功國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 62,
+        "動物構造": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "ea16329684873fc275b8ce38b3570944119bb35d5ead74bd5239b3682256dc83"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "6dcbdfabc7af93bc360f09d2c64c47e528a184dc1c02922959421819eb2ef261"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_成功國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 7,
+        "水的三態": 8,
+        "天氣觀測": 10
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "ff132c8d0c014af20c55447e69e83ebde4ef72d38fa5de9f5ff693302ea6e022"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "b47fde0a581a08d9fdca36f5562108423be152b7f102678bd7e3ba4caa97470e"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_成功國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 1,
+        "水的三態": 11,
+        "天氣觀測": 16
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "03413669e7e5106c688ae7205920f0e29435d13268c559c141370962a3f7adbe"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "321566cf07a4e82633578cb4b0f5de22fc4e9bd15fc368da3febfccf0748fe3c"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_文德國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "文德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 35,
+        "水的三態": 4,
+        "天氣觀測": 2
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立文德國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "ebb6efe4176175aabcee8ba322f7e8666487c9bb8cf91eb59a8444c7b44a19a7"
+        },
+        {
+          "filename": "縣立文德國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "e3f74eaedd0a8d51c4ca721389cbf052065fd568702e4313e2f2cd8534b6fb1f"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_文德國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "文德國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 3,
+        "水的三態": 5,
+        "天氣觀測": 28
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立文德國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "5402a6cc02de2bc2711013579f8068218c886fb0274f30d7aebacfe27d35eff7"
+        },
+        {
+          "filename": "縣立文德國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "dbcab57a050fa1b3d2aac4afa4e59a1f4a38fb0fc145320ccd0fb588f0b02fd2"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_田中國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 24,
+        "水的三態": 19,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "7636d728554e93d9599f31fb4136d582c3468892b2e7d8cf05949306592aae74"
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "8f73a0c1aa0c3d7bcd2e5a538152875eff059c3cf00c6cad7626b443e867edea"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_田中國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "天氣觀測": 23
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "9585363ddd1be630bfa20e1eb7106786acfecb246cee660f65d4864812720af9"
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "de68532afd0c3179bd36d5c76382d8b08c9b70cbd814041d75073c3b149628be"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_舊館國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "舊館國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 44
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "9a7c917fb97976b6340fc3ce437d24e5d9ca6cf5cb243fe90f87d554f610d36b"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "86482d326ec51aecf5204a5f8bfd2065d22808dfbaca6e5be0cc0463bf1e336d"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_舊館國小_第三次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "舊館國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 4,
+        "水的三態": 4,
+        "天氣觀測": 9
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第三次段考 期末考 南一 答案.pdf",
+          "sha256": "4b04bf4d668ad103855eefd30ff30ba0a5b33330c5362e41712751f20e816995"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第三次段考 期末考 南一 試卷.pdf",
+          "sha256": "ab74abfd5185b3a47a1a858b575484957916f309ba642414cdd631870746746d"
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_舊館國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "舊館國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 2,
+        "水的三態": 6,
+        "動物構造": 1,
+        "天氣觀測": 18
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.pdf",
+          "sha256": "226bccb8d331070c36f1deb618957becef627207618c28ca5e99efd26bd6d5dc"
+        },
+        {
+          "filename": "縣立舊館國小 三年級 111 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.pdf",
+          "sha256": "b85786b6a270bbf1b14daaf869abca601d05234ad4b73c6ef290240a5f534216"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_2_期末考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "2",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 46,
+        "水的三態": 27,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "112-2-1臺南市和順國小112學年度第二學期第一次評量三年級自然科評量答案卷.pdf.pdf",
+          "sha256": "88d9523602bc0c3930c8cb1e5762b817c6f488a3c6a702465fb3988fbd02d444"
+        },
+        {
+          "filename": "112-2-1臺南市和順國小112學年度第二學期第一次評量三年級自然科評量試卷.pdf.pdf",
+          "sha256": "dbadc250d146c670ec482641b579cd29dbd701c74cec9b9fe2cfd73e84a615b2"
+        },
+        {
+          "filename": "112-2-2臺南市和順國小112學年度第二學期第二次評量三年級自然科評量答案卷.pdf.pdf",
+          "sha256": "4f9dcf5e394adf47df50c74f9ef2d38fc23794365ce1834255287e6669fc915b"
+        },
+        {
+          "filename": "112-2-2臺南市和順國小112學年度第二學期第二次評量三年級自然科評量試卷.pdf.pdf",
+          "sha256": "37e63c1782d8dd955ca58c49f7deefeebf5a7021634c6a3b1107f51b1f4bd4d1"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_中正國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 32,
+        "水的三態": 20
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "3411f9ba28f73a57922a6a933d7f4b84141e4536bd09319ba075354bba46a873"
+        },
+        {
+          "filename": "縣立中正國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "3411f9ba28f73a57922a6a933d7f4b84141e4536bd09319ba075354bba46a873"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_勝利國小_期中考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 57,
+        "水的三態": 18,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "112三-勝利國小-下自中卷(答).pdf",
+          "sha256": "89e8debc3f2b6b9c2966614c54ba278a2b2d70a8502b8201608330e911444ad3"
+        },
+        {
+          "filename": "112三-勝利國小-下自中卷.pdf",
+          "sha256": "0dbd1fc4fede94de3d6dfda71d981c21e09737b36b2b27c074e9bca5a30777c0"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_勝利國小_期末考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 18,
+        "水的三態": 3,
+        "天氣觀測": 23
+      },
+      "pdf_files": [
+        {
+          "filename": "112下-勝利國小-自三末卷(答) .pdf",
+          "sha256": "bca37533a290e1a2c85cd37ccf0fc962ef4d9af2170159a4028a349a507bfbe9"
+        },
+        {
+          "filename": "112下-勝利國小-自三末卷.pdf",
+          "sha256": "a83b5d5e1ddd4625a0d26d49b430ec4c5509d136ccd84ea4b65c110597ca886b"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_太平國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 50,
+        "水的三態": 14,
+        "動物構造": 1,
+        "天氣觀測": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "市立太平國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "2f215f293c9b3b18790401d58b8db9c9c0d837b5e99634bed74c36e32f6a32de"
+        },
+        {
+          "filename": "市立太平國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "aa088362f4b04117fc967ae45d194b1a4c0f812647f16ed8d82a116b5a769ca3"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_太平國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 9,
+        "水的三態": 3,
+        "天氣觀測": 24
+      },
+      "pdf_files": [
+        {
+          "filename": "市立太平國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "75b93866665c435065b8ceaade7011c3aa918990ee70528760e3b753cfdff769"
+        },
+        {
+          "filename": "市立太平國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "4288ac856d633f0451a4b408960f1bfeb06d6e0699ea9720310b6b8e72d67d07"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_文德國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "文德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 44,
+        "水的三態": 17
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立文德國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "0c7f2925a94caf628864f93afd6fad61bab14a5e342e416a6ff2e3ed5ae5e872"
+        },
+        {
+          "filename": "縣立文德國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "56800c82d14b4fc82c8938001b318e3b73cc3c7d812ef428ef886dcda9d65226"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_文德國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "文德國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 1,
+        "水的三態": 1,
+        "天氣觀測": 17
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立文德國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "aba564991cd35f17cef461958718096ca3f6cb7db71e9a1c542b5ffcf01944cc"
+        },
+        {
+          "filename": "縣立文德國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "a588ec8743650f15cd6760fc5eddba263b42c84e4b6875793e08f9dd43b10f62"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_田中國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 14,
+        "水的三態": 14,
+        "天氣觀測": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "d59a16ff7081fad42429f7399340e8ec05138ef62c70e149341f25eb91a514da"
+        },
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "1848da85749c1d0afe5986c6f811a3dc73f8f5df8db6835046ed7a67ddd7e337"
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_田中國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "田中國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 5,
+        "動物構造": 2,
+        "天氣觀測": 30
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 答案.pdf",
+          "sha256": "79c19daf64dfbc6d2b5e140e9759ce8db86f417005109f571c1c3853946d7d54"
+        },
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期末考 南一 試卷.pdf",
+          "sha256": "569f09134e3e7de00aac91b802ec400b7ef5826df0185896ad8057c38cb1106a"
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_02第一次評量三年級自然科評量答案卷_未知.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "02第一次評量三年級自然科評量答案卷",
+      "exam_type": "未知",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "113-02第一次評量三年級自然科評量答案卷.pdf",
+          "sha256": "90f38156904c4762ead3d72468ec85c228d501f5000c67c242815a729ecb00c7"
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_02第一次評量三年級自然科評量試卷_未知.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "02第一次評量三年級自然科評量試卷",
+      "exam_type": "未知",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "113-02第一次評量三年級自然科評量試卷.pdf",
+          "sha256": "b2b5ca7d8f6421b978d8bf3a68905a6bf53d5aa381a15fe8a6575e96719f524e"
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_02第二次評量三年級自然科評量答案卷_未知.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "02第二次評量三年級自然科評量答案卷",
+      "exam_type": "未知",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {
+        "植物生長": 5,
+        "水的三態": 2,
+        "天氣觀測": 18
+      },
+      "pdf_files": [
+        {
+          "filename": "113-02第二次評量三年級自然科評量答案卷.pdf",
+          "sha256": "608daf171588eba451dc06f6a235a45120e2ff604eb3d18e357c16fb370d3c0d"
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_02第二次評量三年級自然科評量試卷_未知.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "02第二次評量三年級自然科評量試卷",
+      "exam_type": "未知",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 5,
+        "水的三態": 2,
+        "天氣觀測": 18
+      },
+      "pdf_files": [
+        {
+          "filename": "113-02第二次評量三年級自然科評量試卷.pdf",
+          "sha256": "74e849f06ca6a57549acd867c6b3eabd768bb5711fc4de12c4788540afc5c9c3"
+        }
+      ]
+    }
+  ]
+}

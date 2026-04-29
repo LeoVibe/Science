@@ -1,0 +1,891 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字/三下/三下_國語_康軒/",
+  "last_updated": "2026-04-29T14:42:12.986515Z",
+  "total_md": 39,
+  "schools": [
+    "三條國小",
+    "中正國小",
+    "伸東國小",
+    "內安國小",
+    "四維國小",
+    "大園國小",
+    "太平國小",
+    "安和國小",
+    "成功國小",
+    "成德國小",
+    "新生國小",
+    "未知",
+    "永豐國小",
+    "海佃國小",
+    "湳雅國小",
+    "興南國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "110",
+    "111",
+    "112"
+  ],
+  "publishers": [
+    "康軒"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第三次段考",
+    "第二次段考"
+  ],
+  "topic_matrix": {
+    "字詞辨析": {
+      "108": 16,
+      "?": 2
+    },
+    "語法句型": {
+      "108": 22,
+      "?": 4
+    },
+    "閱讀理解": {
+      "108": 16,
+      "?": 1
+    },
+    "修辭": {
+      "108": 2
+    }
+  },
+  "schools_per_topic": {
+    "字詞辨析": [
+      "伸東國小",
+      "大園國小",
+      "成功國小",
+      "未知",
+      "永豐國小"
+    ],
+    "語法句型": [
+      "伸東國小",
+      "大園國小",
+      "成功國小",
+      "未知",
+      "永豐國小"
+    ],
+    "閱讀理解": [
+      "伸東國小",
+      "大園國小",
+      "成功國小",
+      "未知",
+      "永豐國小"
+    ],
+    "修辭": [
+      "伸東國小",
+      "大園國小"
+    ]
+  },
+  "files": [
+    {
+      "filename": "康軒_108_中正國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "06296877a4b94de1d3a781ed6a4e01a986780deff9b40045197438e0034dadb2"
+        },
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "06296877a4b94de1d3a781ed6a4e01a986780deff9b40045197438e0034dadb2"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_中正國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "中正國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "d41ebc70628638f200a5f45852bb28bde5ee866b578fa6844d6c7d6ddc335356"
+        },
+        {
+          "filename": "縣立中正國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "90c34b9e756ca4d290303d94af5b507bf1fe8589f299cc02b6a984a2dac94a2f"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_伸東國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "伸東國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 2,
+        "語法句型": 3,
+        "閱讀理解": 3
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.doc",
+          "sha256": "f1fb74fb22d09ed7105636ab5898ed4c40a37855d0062fa1b7859ebf0b8291c8"
+        },
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+          "sha256": "49a68a5bf348ef354300b3afa98b2e8deeda117492da87cbcb214964ea806d51"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_伸東國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "伸東國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "語法句型": 6,
+        "閱讀理解": 2,
+        "修辭": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "d1598c9993d53efada26b5c75485e30d7a4719bb65c86bf3a89c609e8931bf75"
+        },
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "3e38a30f0b50776131fa94a08224cad20571609cc95d0af204e934a5b7c77231"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_四維國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "四維國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立四維國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "c97a35d819bf04491f71ae658078ce20a03431e968a792fe002148dc97ec5c32"
+        },
+        {
+          "filename": "市立四維國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "6a43d4ee470df1989b86d995f278b0bbaea5101d32e389d0dbced27ba9edc563"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 1,
+        "語法句型": 1,
+        "閱讀理解": 3,
+        "修辭": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.doc",
+          "sha256": "d8ed2f34f793d0e6d9cba36b32c34fe3ab9d41a0af899603506b95cfe67f98e3"
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+          "sha256": "5a3dd0e9db0cfd74d61b8990033819e89ad0d26eeed615ee337aece1663d8b1b"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_大園國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "大園國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第三次段考 期末考 康軒 答案.pdf",
+          "sha256": "640b30965fe926dda8938f12a5e84d1699e5c93b971f19786c5f66d41b6e08c3"
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第三次段考 期末考 康軒 試卷.pdf",
+          "sha256": "596abda1cc7bffeecb41659aec466f3dba24fc3b30e51807af2c2250fdf5cb35"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 2,
+        "語法句型": 1,
+        "閱讀理解": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.doc",
+          "sha256": "2c93d0bda5d8e29c6698cc1c4e92d473875fab7140d5cd26eeacc4b6ab8e3892"
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.doc",
+          "sha256": "dc47b71d5edbd7efbdee8ddf094f9341b96594fb231ee8852eeb6fd0003f62c3"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_安和國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "安和國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立安和國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "6feed93a9a5f1ee273d3cdf4570d34d76d732d3739016d4b946de6d5ed4cfd07"
+        },
+        {
+          "filename": "市立安和國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "159997b796f706ed7b45833935e09a77106e932936c27c996762a0b5eba1ac33"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_安和國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "安和國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立安和國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "2d536ed26c2b7995bec02ca53a66f2a7bd603a88813596bb102262824a198fcf"
+        },
+        {
+          "filename": "市立安和國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "ae66053f18b237a5ad2559db57d8954b4ec9a11b3453fa914f3f42e5945766f4"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_成功國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 2,
+        "語法句型": 4,
+        "閱讀理解": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.doc",
+          "sha256": "8e4391e2e32cc2650c69bf728fc49dc1ccb7115197534f769725b29721e42383"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+          "sha256": "a5abd8bbff5649e7fc5553d7a0717770a0fb6b05812d64eb882ec66e360f501c"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_成功國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第三次段考 期末考 康軒 答案.pdf",
+          "sha256": "1efd710f0ba7fb4a94fe177cbe2ababe11e30087e45e5301cd1a31e8d7e7daf8"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第三次段考 期末考 康軒 試卷.pdf",
+          "sha256": "f23849586138f0037a238ea26b9bd7a1d19a9055028ef3217cfc00ea1c947fbb"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_成功國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 1,
+        "語法句型": 6,
+        "閱讀理解": 2
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.doc",
+          "sha256": "4673b4179da85fc8a554e1b665382edb9b7154b88312787bef0a57880f009a43"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.doc",
+          "sha256": "e43090afc5857db408b0a8fe7daddd0c9b1a63e1369aaf877c94fd02c2b8194f"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_新生國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "新生國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立新生國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "d5734362363dc4c0b1a376a1bc3104b10f0694d7b73e17d039c3fe141000d0ae"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_永豐國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "永豐國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 8,
+        "語法句型": 1,
+        "閱讀理解": 4
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立永豐國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+          "sha256": "d24dc4d236a889fe941ea444b438f07650627c242dfa2f6438612c154d4f1683"
+        },
+        {
+          "filename": "縣立永豐國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "8f4156bd2de4c923a0a55277363bdd4f6910e34dcf8fb15c40fc070f34719710"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_興南國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "興南國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立興南國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 答案.pdf",
+          "sha256": "efc6637632a916c6d56189c6e17852d588ed5e102ca7f2432598613d52f22493"
+        },
+        {
+          "filename": "市立興南國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 康軒 試卷.pdf",
+          "sha256": "7b68bc35bd4391497a201f37d534f7040c59733b6f0857f1e0d79fd04dcbcd9c"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_三條國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "三條國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立三條國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "e212f00890d6fd73dacb3f431ae8a778b100760840e0310586f66233ce028664"
+        },
+        {
+          "filename": "縣立三條國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "258fc54de34337f859e0c3f0e46ed09df4eb4e49b90c5efa2a5bfea368c413b2"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_中正國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "中正國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立中正國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "e3f016769bc2d4098568cf5c5897b116c591ea123d0e74c9090c0165bb55b602"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_伸東國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "伸東國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立伸東國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "faed9e61fd6655e51c6808877119f76bb8d5cbc313ea50adbe3baad1410d7897"
+        },
+        {
+          "filename": "縣立伸東國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "6fda2d89a1d639ae020976047765fd22d32ca48f817aca5a35ec475fecf4b038"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "5e4e69d5c5f461c50f8cd6fef4e22d4e80ff20497771105cb0a97d6be900fd98"
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "4a0957b2b2bebba96676d91896cc0529e92076627ba956b6704b1fb698234266"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.pdf",
+          "sha256": "06cc3c79aa3c1df2060ba82393a594ba61c178c7adb93f786c394b18710047df"
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.pdf",
+          "sha256": "accc6770e506a0edc495a1935116b11658475fad81fc4dc45d813ac1482eb1a0"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_成功國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "970290afff82c7d695382af733e82d67a81ec1c42ae34624b6730806251ae0b2"
+        },
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "240eee2f17523f4552be4487eb665d3ba060194772d5abe02a3bcdcf6103f471"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_成德國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "成德國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立成德國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "bce3754c34271a0b4d5f345a1389170a2d1229d637885afbc09f6ca37fc032be"
+        },
+        {
+          "filename": "市立成德國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "d0912e0896c74a6b2e4f0e27cc54c85b9e2df8a531ace2e8ab87e956ef9e2cd6"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_新生國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "新生國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立新生國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "8edb1d712a11317067a96f8c24b6db54dae263f60b91963133bd59474ff8174d"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_海佃國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "海佃國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立海佃國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "f7e4d2414f8347fc36bd2f7a287c0db2a3e977537aded0dd5b0154af41551def"
+        },
+        {
+          "filename": "市立海佃國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "bf12936b25c9d04aded7706294b6d88ab45be790263ba19a02bfed5e4f61e86c"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_湳雅國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "湳雅國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立湳雅國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "4f43143ce7ec3c2b2c2e58ba942b230916cb6341a162b52e272e482537bc6129"
+        },
+        {
+          "filename": "縣立湳雅國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "a3a1b6e36a22e1ffdb9bf7d8947719c521e419891551181098296cf463c8f641"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_三條國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "三條國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立三條國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "72426e6163c3b2701e2e297647cadabe93f1d076b67b1097ed048c9649731dec"
+        },
+        {
+          "filename": "縣立三條國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "72426e6163c3b2701e2e297647cadabe93f1d076b67b1097ed048c9649731dec"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_內安國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "內安國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立內安國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "6907545da5dab863b567adf40b9d6fb7e88b9a503af6e8d52a83b1e2c34c8bde"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_新生國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "新生國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立新生國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "2ef85f24e16a21718f597454ec206bdedda46f58019c0771d01679fbfed41c37"
+        },
+        {
+          "filename": "縣立新生國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "3d1aebcc446bcb72d53d32a3a99d3d8d1f6851c4b5b1f6963e1bd68ebe636841"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_安和國小_期中考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "安和國小",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "111下-新北安和國小-國語3期中(解答).pdf",
+          "sha256": "051d6884761bcee351dc03c4ee0865fd4bb7a3a8eb5240228e32bb418ebe0482"
+        },
+        {
+          "filename": "111下-新北安和國小-國語3期中.pdf",
+          "sha256": "3ca7f8b310cea0090b2efefd215dd83866ae4cbe44ef245cf989cdc261bc68d9"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_安和國小_期末考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "安和國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "111下-新北安和國小-國語三年級期末(解答).pdf",
+          "sha256": "5f191ddbacce0c0431a908ae59df231f4cbe623870e26d71ba1e39555827afc2"
+        },
+        {
+          "filename": "111下-新北安和國小-國語三年級期末.pdf",
+          "sha256": "3e83df23fab23c75a96606c4934f4bf43ee2e1b765dfe7e36271972c7ef2f3b2"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_成功國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "a873ac7aa1cd1b571ee734b7c27599f2f36c5dfd6586530b3234f1646feb2f00"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "76fabac1fedde7015e363c277e3c45f030822b5ec23b502627b150a00520ffa6"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_成功國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第三次段考 期末考 康軒 答案.pdf",
+          "sha256": "1381c3160db5a9031c7a8562f4be25eb98c966d18d459b386ca9e79156732726"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第三次段考 期末考 康軒 試卷.pdf",
+          "sha256": "3979969bc353ddea94f08549d6607a8f35a12299b34f3a6292f8b775408ee50b"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_成功國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.pdf",
+          "sha256": "b2e29b8f1cd27336a880718b14b72cb3c7dacf3416be613dc32f1d9cd86e2791"
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.pdf",
+          "sha256": "4ebc6fa230d291cb1861d36bb52373842012838c3fe5b80edd1b38d85afe372c"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_太平國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "f6618fe1ba8d723d244734def61879e0283cdd6fcee6cceee2b34d84a1736660"
+        },
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "a805af2f4bd93eb6c324636c9fdd6b4112389a60f940f94ab61454bbc1bd6582"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_成功國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.pdf",
+          "sha256": "88784c3edac428f0378516619e8b87c46df79f24b45fec98f4546e34101e9e01"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.pdf",
+          "sha256": "b3fbba96445c7740c0e51e2362a042221e2abb4cb42c5c36d0a88109a51dd1fa"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_成功國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第三次段考 期末考 康軒 答案.pdf",
+          "sha256": "113c560b119eccb58aef06e3be3d5c0f5d56c33c4f075e807c3009083f8049fb"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第三次段考 期末考 康軒 試卷.pdf",
+          "sha256": "3f73430d4d8664581910dfbf349122d23fc0d23ae871a5518dce3edb64a9af4f"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_成功國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.pdf",
+          "sha256": "6dfba384a67b7d399c6570ef11e62c23fb640b374258e5fe7fbaadb8e33bd326"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.pdf",
+          "sha256": "fdcf4b34c03742151ebfdb650338a3d6cd0883f88a494d043f9712dce93c62aa"
+        }
+      ]
+    },
+    {
+      "filename": "康軒_?_未知_期中考.md",
+      "publisher": "康軒",
+      "year": "?",
+      "school": "未知",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "字詞辨析": 2,
+        "語法句型": 4,
+        "閱讀理解": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 國語 第一次段考 期中考 康軒 答案 2.pdf",
+          "sha256": "5e4e69d5c5f461c50f8cd6fef4e22d4e80ff20497771105cb0a97d6be900fd98"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷 2.doc",
+          "sha256": "a5abd8bbff5649e7fc5553d7a0717770a0fb6b05812d64eb882ec66e360f501c"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 答案 2.doc",
+          "sha256": "4673b4179da85fc8a554e1b665382edb9b7154b88312787bef0a57880f009a43"
+        },
+        {
+          "filename": "縣立成功國小 三年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷 2.doc",
+          "sha256": "e43090afc5857db408b0a8fe7daddd0c9b1a63e1369aaf877c94fd02c2b8194f"
+        }
+      ]
+    }
+  ]
+}

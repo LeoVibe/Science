@@ -1,0 +1,273 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字/三下/三下_自然_翰林/",
+  "last_updated": "2026-04-29T14:06:26.275989Z",
+  "total_md": 9,
+  "schools": [
+    "2三年級自然期中卷",
+    "2三年級自然期中考卷解答",
+    "四維國小",
+    "成功國小",
+    "草港國小",
+    "青山國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "112",
+    "113"
+  ],
+  "publishers": [
+    "翰林"
+  ],
+  "exam_types": [
+    "期中考",
+    "第一次段考",
+    "第三次段考",
+    "第二次段考"
+  ],
+  "topic_matrix": {
+    "植物生長": {
+      "113": 83,
+      "109": 25,
+      "112": 72
+    },
+    "水的三態": {
+      "113": 72,
+      "109": 15,
+      "112": 33
+    },
+    "動物構造": {
+      "113": 4,
+      "112": 20
+    },
+    "天氣觀測": {
+      "113": 2,
+      "109": 7,
+      "112": 23
+    }
+  },
+  "schools_per_topic": {
+    "植物生長": [
+      "2三年級自然期中卷",
+      "2三年級自然期中考卷解答",
+      "四維國小",
+      "成功國小"
+    ],
+    "水的三態": [
+      "2三年級自然期中卷",
+      "2三年級自然期中考卷解答",
+      "四維國小",
+      "成功國小"
+    ],
+    "動物構造": [
+      "2三年級自然期中卷",
+      "2三年級自然期中考卷解答",
+      "成功國小"
+    ],
+    "天氣觀測": [
+      "2三年級自然期中卷",
+      "2三年級自然期中考卷解答",
+      "四維國小",
+      "成功國小"
+    ]
+  },
+  "files": [
+    {
+      "filename": "翰林_108_草港國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 翰林 答案.pdf",
+          "sha256": "153be9c3c559e9b05f1089cb5514a6b613366a1f502d9b2133cd8636202f5167"
+        },
+        {
+          "filename": "縣立草港國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 翰林 試卷.pdf",
+          "sha256": "537db581f3ef93931727c201019565a2613f6e17384b5dadb098ca873b647eca"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_青山國小_第三次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "青山國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 翰林 答案.pdf",
+          "sha256": "12140ed37fdbff0249e470800eede16db11cb2eb3bd0556a6c2eaa0fdce5adbc"
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 自然科學領域 自然 第三次段考 期末考 翰林 試卷.pdf",
+          "sha256": "4e1080b390a423b794f6a20db7f624dccaf44660c54353eac11cc4c77306e218"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_四維國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "四維國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 25,
+        "水的三態": 15,
+        "天氣觀測": 7
+      },
+      "pdf_files": [
+        {
+          "filename": "市立四維國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 翰林 答案.pdf",
+          "sha256": "0e8736b740878f7162a6714970690c3202060a93a10028555a6f9c60e00b282c"
+        },
+        {
+          "filename": "市立四維國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 翰林 試卷.pdf",
+          "sha256": "21715fb797d09f06e8cf84b6c68399638139d8d86dc10e7b52efc09be1106d02"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_草港國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "縣立草港國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 翰林 答案.pdf",
+          "sha256": "96106be953120b5644801a233112473c648b468486b61c44540b88787ab73959"
+        },
+        {
+          "filename": "縣立草港國小 三年級 109 下學期 自然科學領域 自然 第一次段考 期中考 翰林 試卷.pdf",
+          "sha256": "fc66ec631f1e0e7c5923b2590e65ce23acb5f96e1c22d3de2ca7679fa1b163b7"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 49,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 翰林 答案.pdf",
+          "sha256": "9d5c432e36c1eba48b37de4411e42c55ff1f760af21a45de323cdbc4e69ac661"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第一次段考 期中考 翰林 試卷.pdf",
+          "sha256": "ef2ae50a270c3b99819097775eb73395c3c57f71411180fed964f049b43036ca"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第三次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 18,
+        "動物構造": 20,
+        "天氣觀測": 13
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第三次段考 期末考 翰林 答案.pdf",
+          "sha256": "adc78996d08312b801549d2c98bbd3e63685562bb3995774c94c34f71da0e6c4"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第三次段考 期末考 翰林 試卷.pdf",
+          "sha256": "1a1c8e7d492ce918a4c97bfc3143ad172c5db937b2c9f3e7c03285d9f77d99c2"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 5,
+        "水的三態": 33,
+        "天氣觀測": 9
+      },
+      "pdf_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期中考 翰林 答案.pdf",
+          "sha256": "b9b94ed48e0bed930978e35f33353bc3d173c456fb8d3104906453c482df2b29"
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 自然科學領域 自然 第二次段考 期中考 翰林 試卷.pdf",
+          "sha256": "5635dd81b6fef8fb9aa042c4262d204a8f8819a5a5e6f62a4b9d4f15744a6956"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_2三年級自然期中卷_期中考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "2三年級自然期中卷",
+      "exam_type": "期中考",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {
+        "植物生長": 41,
+        "水的三態": 35,
+        "動物構造": 2,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "113-2三年級自然期中卷.pdf",
+          "sha256": "1b82191073aa5dd4d537bacbccfb6542d1edffb9bd5c71ec9ad078b6b9c828f8"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_2三年級自然期中考卷解答_期中考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "2三年級自然期中考卷解答",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {
+        "植物生長": 42,
+        "水的三態": 37,
+        "動物構造": 2,
+        "天氣觀測": 1
+      },
+      "pdf_files": [
+        {
+          "filename": "113-2三年級自然期中考卷解答.pdf",
+          "sha256": "2f3f504238f877e5a70886567ec830db23dfb949adbdf879b6964a130f3327d0"
+        }
+      ]
+    }
+  ]
+}
