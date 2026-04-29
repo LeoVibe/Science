@@ -1,6 +1,6 @@
 {
   "path": "knowledge/3_考古題/2_MD淬鍊文字/四下/四下_社會_南一/",
-  "last_updated": "2026-04-29T15:32:29.154575Z",
+  "last_updated": "2026-04-29T22:58:57.057066Z",
   "total_md": 9,
   "schools": [
     "2",
@@ -108,10 +108,14 @@
       "year": "112",
       "school": "2",
       "exam_type": "期末考",
-      "has_answer_pdf": false,
+      "has_answer_pdf": true,
       "has_exam_pdf": true,
       "topic_hits": {},
       "pdf_files": [
+        {
+          "filename": "112-2-1新北桃子腳國小-四社解答.pdf",
+          "sha256": "173902e28bd4f800ec1d644a9cf9818c859b8246bcf1a321cf296e5f176718da"
+        },
         {
           "filename": "112-2-1新北桃子腳國小-小四社會.pdf",
           "sha256": "0b44cfb8461ff3a734b79cafb354b516e8934db9bb0acd790f1bdd0039794a68"
@@ -119,6 +123,10 @@
         {
           "filename": "112-2-2新北桃子腳國小-四社.pdf",
           "sha256": "06df65f52c786a1dcdc5c6a03d688295bdeb4f3d6100f0ceedd2f59a3b4de7f7"
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-四社期末試卷解答.pdf",
+          "sha256": "9172dcbfd511f6d57836b783443bff69cd0003f42a438613e8e32340de44e320"
         }
       ]
     },
@@ -221,8 +229,16 @@
           "sha256": "a6a7099cc228799a85b8dff6aff21bd8f8f5b5d2ae5f3b976ae9b2f313e59042"
         },
         {
+          "filename": "縣立廣興國小 四年級 111 下學期 社會領域 社會 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "336c618ed0b6e375226e9872e3a65233600ba3c4c796d6519e78d3370e61fd10"
+        },
+        {
           "filename": "縣立廣興國小 四年級 111 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.pdf",
           "sha256": "c01c0c56a49dea106e247addd43c08706f3b0170ef165b536d6feec37cd207f2"
+        },
+        {
+          "filename": "縣立廣興國小 四年級 112 下學期 社會領域 社會 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "18af50035b27e5c225b08ba0f5b1ba958ce50aac1fb9b1821086998e307c9b62"
         },
         {
           "filename": "縣立廣興國小 四年級 112 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.pdf",
@@ -251,6 +267,14 @@
         {
           "filename": "縣立成功國小 四年級 111 下學期 社會領域 社會 第二次段考 期中考 南一 試卷.pdf",
           "sha256": "92d5b4ed250adb7c039e9e67c0262e21f3e0ee97e3fe910bb06f22ad68f363ea"
+        },
+        {
+          "filename": "縣立新生國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 答案.pdf",
+          "sha256": "7b99d682ebba20b0de7f69aab35e713c834c31bbaf11123170e012d53a858f4a"
+        },
+        {
+          "filename": "縣立新生國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.pdf",
+          "sha256": "3404812941542408f632767dc28228dbb4df31ee439dbcefdf35a4fdae64619a"
         },
         {
           "filename": "縣立新生國小 四年級 110 下學期 社會領域 社會 第一次段考 期中考 南一 答案.pdf",

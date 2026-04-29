@@ -1,12 +1,15 @@
 {
   "path": "knowledge/3_考古題/2_MD淬鍊文字/五下/五下_英語_翰林/",
-  "last_updated": "2026-04-29T19:38:16.908392Z",
-  "total_md": 11,
+  "last_updated": "2026-04-29T22:58:51.636278Z",
+  "total_md": 14,
   "schools": [
+    "02第一次評量五年級英語科評量答案卷",
+    "02第一次評量五年級英語科評量試卷",
     "02第二次評量五年級英語科評量答案卷",
     "02第二次評量五年級英語科評量試卷",
     "2",
     "2五年級英文期中卷",
+    "2五年級英文期中考卷解答",
     "勝利國小",
     "安和國小",
     "未知"
@@ -144,6 +147,38 @@
       ]
     },
     {
+      "filename": "翰林_113_02第一次評量五年級英語科評量答案卷_未知.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "02第一次評量五年級英語科評量答案卷",
+      "exam_type": "未知",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "113-02第一次評量五年級英語科評量答案卷.pdf",
+          "sha256": "818929e0306f3af7eeac7a8ecd385896d8ee84db267a1698baef47dee302bd3b"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_02第一次評量五年級英語科評量試卷_未知.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "02第一次評量五年級英語科評量試卷",
+      "exam_type": "未知",
+      "has_answer_pdf": false,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "113-02第一次評量五年級英語科評量試卷.pdf",
+          "sha256": "052312c7e13a86a953d59add1e1eaeb4cf5fbbacfbfb31006effb48a7dcfa048"
+        }
+      ]
+    },
+    {
       "filename": "翰林_113_02第二次評量五年級英語科評量答案卷_未知.md",
       "publisher": "翰林",
       "year": "113",
@@ -208,6 +243,22 @@
         {
           "filename": "113-2五年級英文期中卷.pdf",
           "sha256": "0f7448e16a987826c3417683f65b5966801c1e42b5ee915354c4dcaec53a037f"
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_2五年級英文期中考卷解答_期中考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "2五年級英文期中考卷解答",
+      "exam_type": "期中考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": false,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "113-2五年級英文期中考卷解答.pdf",
+          "sha256": "702d37e873f6f1b60498362265bd347dab58fb6485988c319c1ed4146b147744"
         }
       ]
     },

@@ -1,12 +1,13 @@
 {
   "path": "knowledge/3_考古題/2_MD淬鍊文字/三下/三下_國語_南一/",
-  "last_updated": "2026-04-29T14:43:35.806740Z",
-  "total_md": 29,
+  "last_updated": "2026-04-29T23:14:40.771153Z",
+  "total_md": 30,
   "schools": [
     "1臺南市和順國小",
     "2",
     "2三年級國語期中卷",
     "2三年級國語期中考卷解答",
+    "2臺南市和順國小",
     "中正國小",
     "內安國小",
     "勝利國小",
@@ -105,6 +106,14 @@
       "topic_hits": {},
       "pdf_files": [
         {
+          "filename": "南一_108_草港國小_第一次段考_答案.pdf",
+          "sha256": "45a3261fd8d6160394a6a39daa8be2127de153a72f2e217b6bbe807dbeb764d3"
+        },
+        {
+          "filename": "南一_108_草港國小_第一次段考_試卷.pdf",
+          "sha256": "16924e2a811151f93d7945073ac20f3a6431a9e5c4ed032b8d47f87a2781f0a2"
+        },
+        {
           "filename": "縣立草港國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
           "sha256": "45a3261fd8d6160394a6a39daa8be2127de153a72f2e217b6bbe807dbeb764d3"
         },
@@ -124,6 +133,14 @@
       "has_exam_pdf": true,
       "topic_hits": {},
       "pdf_files": [
+        {
+          "filename": "南一_108_草港國小_第二次段考_答案.pdf",
+          "sha256": "1bdedd0fcef3bd3dda382f28298f059e5ce1e5954ce4ba49f2a5828a3496a605"
+        },
+        {
+          "filename": "南一_108_草港國小_第二次段考_試卷.pdf",
+          "sha256": "609f13a3494d87cad27176dd8dbedbeab5ba597f6ef6148d6ee99c3182904750"
+        },
         {
           "filename": "縣立草港國小 三年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.pdf",
           "sha256": "1bdedd0fcef3bd3dda382f28298f059e5ce1e5954ce4ba49f2a5828a3496a605"
@@ -257,6 +274,14 @@
       "topic_hits": {},
       "pdf_files": [
         {
+          "filename": "南一_110_草港國小_第一次段考_答案.pdf",
+          "sha256": "31691d66c718bb40184d82b49d2e316d5f154a78975aaef5cd56dafe971d5da3"
+        },
+        {
+          "filename": "南一_110_草港國小_第一次段考_試卷.pdf",
+          "sha256": "2fbb91443c2ef77ba0cf7566b67c67a0638523006c4304ab0f7107d03b835b41"
+        },
+        {
           "filename": "縣立草港國小 三年級 110 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
           "sha256": "31691d66c718bb40184d82b49d2e316d5f154a78975aaef5cd56dafe971d5da3"
         },
@@ -305,6 +330,10 @@
       "topic_hits": {},
       "pdf_files": [
         {
+          "filename": "南一_111_廣興國小_第一次段考_答案.pdf",
+          "sha256": "365e9b25aa743bfa08ef62b6c0691e79a667eace6a1c8b5ab6c917600c495d9a"
+        },
+        {
           "filename": "南一_111_廣興國小_第一次段考_試卷.pdf",
           "sha256": "73213ce12780e89eca4a7a5ea209942d240655d4bb7579cc97bc97f2ee37dc5a"
         },
@@ -328,6 +357,10 @@
       "has_exam_pdf": true,
       "topic_hits": {},
       "pdf_files": [
+        {
+          "filename": "南一_111_廣興國小_第二次段考_答案.pdf",
+          "sha256": "ad7d41578359310bc6d1e7ee00b68c4c68295936b86ef4af21e3ecefa359bb4a"
+        },
         {
           "filename": "南一_111_廣興國小_第二次段考_試卷.pdf",
           "sha256": "c4a38f10a1dfdc301642dfef0506161666e7b432c9cfa9184babaecfaa39e133"
@@ -687,6 +720,26 @@
         {
           "filename": "南一_?_1臺南市和順國小_期中考_試卷.pdf",
           "sha256": "8d627709e57dd41b54b5bdc64f674c91dc0019ea565d7a7e2ac05ef941d2415a"
+        }
+      ]
+    },
+    {
+      "filename": "南一_?_2臺南市和順國小_期末考.md",
+      "publisher": "南一",
+      "year": "?",
+      "school": "2臺南市和順國小",
+      "exam_type": "期末考",
+      "has_answer_pdf": true,
+      "has_exam_pdf": true,
+      "topic_hits": {},
+      "pdf_files": [
+        {
+          "filename": "南一_?_2臺南市和順國小_期末考_答案.pdf",
+          "sha256": "6548ef4f1b33e52a1bc7a5c8475f80ee41294c91505fa8d4e48897af4746d908"
+        },
+        {
+          "filename": "南一_?_2臺南市和順國小_期末考_試卷.pdf",
+          "sha256": "d124ad688b958ccbe8074b1a89db8989f527759dad0b406dd638b106dcbd1638"
         }
       ]
     },
