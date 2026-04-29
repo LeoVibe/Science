@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
 `last_updated`: 2026-04-29
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-213 OCR 補登結案）
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-216 四五六下考古題PDF全批轉MD結案）
 
 ---
 
@@ -34,6 +34,7 @@
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
 | JOB-214 | **長時任務進度回報範本制定**：把 JOB-209 跑出來的「五元件回報法」（dashboard + loop wrapper + ScheduleWakeup + Discord + per-task timeout）抽象成可重用範本。產出 `docs/長時任務執行範本.md`（七章節含失敗模式對照表）+ `scripts/templates/`（progress_dashboard.py / continuous_loop.sh / wakeup_prompt.md 三個骨架）+ CLAUDE.md/README.md 索引。設計為 SOP + 拷貝骨架而非框架套件，新任務 30 分鐘內可套上開跑。失敗模式對照表 10 條皆來自 JOB-209 真實遭遇。見 `jobs/JOB-214-Report.md` | 🟢 DONE |
+| JOB-216 | **四下/五下/六下考古題 PDF 全批轉 MD（45 組合，2,529 份）**：四波次執行 — W1 數學+社會 18 組合（pdfplumber，6 路並行）、W2 國語 9 組合（docling，豎排文字修正，3 路串行批次）、W3 自然 9 組合（pdfplumber+OCR）、W4 英語 9 組合（pdfplumber+OCR，含何嘉仁版）。最終產出：45/45 組合 DONE、351 份 MD。長時任務五元件全套上線（`JOB216_progress.json` + `JOB216_dashboard.py` + `JOB216_resume.sh` + ScheduleWakeup 每 60 分鐘喚醒 + Discord 回報）。關鍵事件：Mac 低電量強制 Safe Sleep → 進程完整保存/恢復；Cursor agent 因睡眠網路斷線離線，備援 shell 腳本接力完成 W3/W4；發現並修正 `--engine v6`→`--engine pdfplumber` CLI flag 錯誤（W3/W4 全部 18 路重跑）。commit `a627f09`。見 `jobs/JOB-216-AG-四五六下考古題PDF全批轉MD-45組合2529份.md` | 🟢 DONE |
 | JOB-209 | **米蘭考古題分批下載完成**：跨 6 天完成 704 個 Drive 資料夾下載任務。**排除「健體（全學期）」16 個資料夾後達標率 100%（10,506/10,506 PDF）；含健體 99.7%（10,591/10,625）**。1_原始檔/ 內共 10,663 PDF + 1,070 其他格式 = 11,733 檔。建構並驗證的可重用基礎設施：`exam_download_runner.py`（gdown CLI + Playwright 範圍選取備援 + 25min/drive 硬 timeout）、`rescan_manifest.py`（virtual scroll 解 50 截斷）、`retry_missing_drives.py`（manifest 比對 retry，不降級 partial）、`progress_dashboard.py` + `continuous_*_loop.sh`（長時批次任務範本，由 JOB-214 抽象化）。順帶完成：派工準則 §6 寫入 Discord 預設頻道（`eidos_派工與回報`/`1487738477608177714`）、CLAUDE.md §3.5 Discord 互動規範、目錄結構整理（年級層 G→中文學期、健體獨立到 `健體/`）。見 `jobs/JOB-209-Report.md`（214 行正式報告）+ `jobs/JOB-209-Report.md.history-bak`（599 行歷程詳情）| 🟢 DONE |
 
 ### 2026-04-28
