@@ -45,6 +45,7 @@ status: closed
   - L4: β+_keep（RM2，來源稀缺警告）
   - 探究L5: keep（RM2）
 - [x] `jobs/JOB-220-Report.md` 本文件
+- [x] `/pj_sync` 已執行：進度彙整 + 專案發展紀錄均已更新（JOB-220 記錄已寫入）
 - [ ] `node scripts/job_manager.js close JOB-220`（待 PM 執行）
 - [ ] Discord chat_id `1487738477608177714` 結案回報（待 PM 確認後發送）
 
