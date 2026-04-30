@@ -173,6 +173,127 @@ JOB-216 的**起始動機**有三層：
 
 ---
 
+## 📖 作業歷程白話回顧
+
+### 起點：盤點才發現坑
+
+這個任務起初的目標很明確：把四下、五下、六下的考古題 PDF 全部轉成 Markdown，共 45 個組合、2,529 份 PDF。聽起來是重複前面 JOB-212/213 的工作，只是規模更大。
+
+但開始執行才發現，事情沒那麼單純。
+
+---
+
+### 第一個坑：引擎名稱寫錯，18 路全軍覆沒
+
+Wave 3（自然科）和 Wave 4（英語科）的備援腳本 `JOB216_resume.sh` 裡，引擎參數寫的是 `--engine v6`。但實際的 CLI 只接受 `pdfplumber` 或 `docling`，`v6` 是內部開發代號，不是合法參數。
+
+結果：18 路並行進程全部靜默失敗，沒有報錯，只是默默跑完什麼都沒產出。
+
+從 log 發現問題後，用 `sed` 批量替換腳本，全部重跑。這個坑沒有造成資料遺失，只是多等了一輪時間。
+
+**學到的事**：腳本裡的旗標要先在單檔做煙霧測試，不要假設「應該這樣寫」。
+
+---
+
+### 電腦沒電，然後睡著了
+
+Wave 2 跑的是國語科（豎排文字，用 docling 引擎，每頁約 37 秒），六個組合要跑好幾小時。執行中途，Mac 電池耗盡，系統觸發 **macOS Safe Sleep**——蓋上螢幕、把所有進程狀態完整寫入硬碟、然後關機。
+
+這是一個可能讓人崩潰的情境。但 Safe Sleep 設計本來就是為了保存狀態，接上電源開機後，Wave 2 的進程從中斷點繼續跑完，**0 資料遺失**。
+
+電腦睡著的同時，Cursor agent 因為網路斷線（agent 需要 LLM API）也無法恢復。這時備援腳本 `JOB216_resume.sh` 發揮了作用，接手 Wave 3/4 的執行。
+
+**學到的事**：長時任務一定要預先準備備援腳本，不能只靠 agent。
+
+---
+
+### Phase 2：盤點之後，發現還有更多沒做完
+
+Phase 1 完成後（45 組合 PDF 全轉完），做了一次系統性盤點，結果發現：
+
+- **三下的數學和英語**從來沒有轉過（JOB-213 當時只做國語/社會/自然）
+- 原始檔資料夾裡有 **253 份 Word 檔**（.doc/.docx），過去的流程一律略過
+- 有 **123 個 iCloud 佔位符**（.icloud），實際 PDF 沒有在本機，只有一個 248 bytes 的假檔案
+- 有 **6 份 JPG 圖片**
+
+這讓任務從「只做 PDF」變成「把所有能轉的格式都轉完」。
+
+---
+
+### iCloud 佔位符：等待是唯一的解法
+
+123 個 .icloud 佔位符，用 `brctl download` 對每一個送出下載請求。這個指令是非同步的——送出後 iCloud daemon 在背景慢慢下載，沒有進度條、沒有 ETA。
+
+唯一能做的就是等。等了約一小時，確認 `find . -name "*.icloud"` 回傳 0，才知道全部下載完畢。
+
+然後比對 `_index.json` 裡記錄的 PDF 數量和實際 PDF 數量，找出 13 個有新增的組合，刪掉舊的索引重新轉換。
+
+---
+
+### Word 轉換腳本的 import 地獄
+
+為了處理 253 份 Word 檔，新寫了 `JOB216_batch_doc_to_md.py`。
+
+第一版的 `docx_to_md()` 用 `sys.path.insert()` 把 markitdown 的目錄加進去再 import。結果全部回傳 `None`——因為 markitdown 並不在那個目錄下，它只存在 `.venv` 裡。
+
+換了一個方向：直接用 `subprocess` 呼叫 `.venv/bin/python3.11`，把轉換邏輯用 `-c` 參數傳進去。這樣完全繞開 import path 問題，233 份成功、0 失敗。
+
+.doc 格式再多一步：先用 LibreOffice headless（`soffice --headless --convert-to docx`）轉成 .docx，再走 markitdown。
+
+---
+
+### 最終成果
+
+| 格式 | 原始檔 | 產出 MD |
+|:--|:--|:--|
+| PDF | 3,545 份 | 815 份 |
+| Word | 253 份 | 250 份 |
+| JPG | 6 份 | 6 份 |
+| 合計 | — | **1,071 份** |
+
+60 個組合全部完成，一個都沒有漏掉。
+
+---
+
+## 🔧 使用工具與技術概念
+
+### 轉換工具
+
+| 工具 | 用途 | 特性 |
+|:--|:--|:--|
+| **pdfplumber** | PDF → MD（文字型 PDF） | 每頁 ~0.15s，速度快，適合大量批次 |
+| **docling** | PDF → MD（豎排文字、掃描件） | 每頁 ~37s，ML 模型，章節結構好但慢 |
+| **LibreOffice soffice headless** | .doc → .docx 格式轉換 | 無 GUI 的批次轉換，穩定可靠 |
+| **markitdown** | .docx → Markdown | 需從 .venv 呼叫，不能直接 import |
+| **ocrmac** | JPG 圖片 → 文字（OCR） | 使用 Apple Vision Framework，繁中識別率高 |
+| **brctl** | 強制下載 iCloud 佔位符 | 非同步，需等待 iCloud daemon 完成 |
+
+### 腳本基礎設施
+
+| 腳本 | 用途 |
+|:--|:--|
+| `scripts/job207_distill_to_md.py` | PDF 批次轉換主程式（依 combo 分組、合併試卷+答案） |
+| `scripts/JOB216_batch_doc_to_md.py` | Word 批次轉換（.doc/.docx → .md） |
+| `scripts/JOB216_dashboard.py` | 即時進度儀表板（讀 _index.json 統計） |
+| `scripts/JOB216_resume.sh` | 備援執行腳本（不依賴 agent，直接本地執行） |
+| `scripts/JOB216_progress.json` | 進度狀態 JSON（45 組合 done/pending 追蹤） |
+
+### 關鍵技術概念
+
+**macOS Safe Sleep**：Mac 電池耗盡蓋上螢幕時，系統把所有進程狀態完整寫入硬碟（hibernatemode 25），接上電源後可從中斷點恢復。對長時任務來說是一種意外的保護機制。
+
+**iCloud 佔位符（.icloud）**：macOS 在磁碟空間不足時，把已同步到 iCloud 的檔案從本機移除，留下一個同名的 `.icloud` 假檔案（約 248 bytes）。`brctl download <path>` 可要求 iCloud daemon 重新下載，但這是非同步操作，需要等待。
+
+**Python subprocess 繞過 venv 問題**：當 markitdown 只裝在特定 .venv 裡，無法直接 import 時，改用 `subprocess.run([".venv/bin/python3.11", "-c", "..."])` 呼叫，完全繞開 sys.path 問題，是處理「工具在某個 venv 裡」的通用模式。
+
+**豎排文字與引擎選擇**：繁中國語科考卷採豎排排版，pdfplumber 按 x-y 座標讀取，豎排文字會亂序。docling 用 ML 模型理解版面結構，能正確處理豎排，代價是速度慢 250 倍以上。
+
+**長時任務五元件架構**：Dashboard（進度可視化）+ Progress JSON（狀態持久化）+ Resume 腳本（不依賴 agent 的備援）+ ScheduleWakeup（定時喚醒監控）+ Discord 回報（非同步通知）。五個元件缺一個，長時任務就容易在意外中斷後無法恢復。
+
+**並行 vs 串行 process 策略**：pdfplumber 佔 CPU 但 RAM 輕，適合多路並行（最多 18 路同時跑）；docling 載入 ML 模型佔大量 RAM（每個 worker 約 3-4GB），必須串行或限制路數，否則系統 OOM。
+
+---
+
 ## 真實回報
 
 ＄作業匯總：Token數: - | 花費: - | 使用模型: claude-sonnet-4-6（PM）/ pdfplumber + docling + markitdown（本地工具） | 執行者: Claude Code + Cursor agent
