@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-29
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-216 四五六下考古題PDF全批轉MD結案）
+`last_updated`: 2026-04-30
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-217 G3S2 社會反推研究基礎建設）
 
 ---
 
@@ -29,6 +29,12 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-04-30
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-217 | **G3S2 社會反推研究基礎建設（JOB-215 Phase 2 五元件外殼）**：建立三件基礎設施 — `jobs/JOB-217-progress.tsv`（12欄 tab 分隔，供 9個JOB 追蹤進度）、`scripts/JOB-217-progress-dashboard.sh`（三類統計：phase/publisher×status/最新5筆）、`scripts/orchestrator-logs/` 確認存在。smoke test 通過（空 tsv 顯示「尚無資料」）。依 JOB-214 五元件範本建立，progress_sync pre-commit hook 自動掛接。Phase 2a（三版本考古題反推）待啟動。見 `jobs/JOB-217-Report.md` | 🟢 DONE |
+| JOB-215 | **研究架構總綱升版（v4.4→v4.5）+ B-path 反推法設計**：Phase 1 — `README_研究架構總綱.md` 增補四章（研究流程程序/歷史卡點 KP-01~06/量化 DoD/執行者分工）；新建 `_JOB-TEMPLATE-research-KL3/KL4.md`；舊模板廢棄加標注。Phase 2 — B-path（無課文，反推法）方法論設計：spec 556行（`2026-04-29-G3S2-social-reverse-lookup-research-design.md`）、plan 1614行 26 Tasks（`2026-04-29-G3S2-social-reverse-lookup-research.md`），涵蓋 Phase 0/2a/2b/2c/2d 嚴格阻塞流水線，目標 34 個 KL4 雙檔 RM3 + KL3 v2 + KL2 新章節。執行方案 3（inline PM + 外部 Cursor agent）。Phase 3（比較分析）待後續開 JOB。見 `jobs/JOB-215-Report.md`（待結案） | 🟡 IN PROGRESS |
 
 ### 2026-04-29
 | JOB | 簡述 | 狀態 |
