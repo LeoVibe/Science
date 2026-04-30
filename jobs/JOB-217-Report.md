@@ -32,6 +32,11 @@
 2. 草擬三份派工單對話確認
 3. 並行派遣三個 Cursor agent（sonnet 4.6）
 
+## ✅ 成果 Checklist
+
+- [x] 已執行 /pj_sync 全域知識沉澱（進度彙整 + 專案發展紀錄，commit 28e1ebd）
+- [x] `jobs/JOB-217-Report.md` 產出
+
 ## 💰 花費回報
 
 ＄作業匯總：Token數:- | 花費: $- | 使用模型: claude-sonnet-4-6 | 執行者: Claude
