@@ -108,3 +108,11 @@ question/platform/**/*backup*/
 
 # Antigravity 偶發臨時環境目錄
 apps/v3_eidos/temp_node/
+
+# 108 課綱研究：原始 PDF/PPTX 太大不進版控（286 MB / 84 筆）
+# manifest JSON 含 SHA256 可追溯，重新下載執行 scripts/jobs/JOB-222/download_curriculum_official.py
+knowledge/1_課綱研究/108課綱研究成果/1_課綱原始檔案/
+
+# JOB-222 中間產物
+scripts/jobs/JOB-222/raw_html/
+scripts/orchestrator-logs/JOB-222-distill.log
