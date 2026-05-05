@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "phase": "Phase 4 - Codex Pilot 5 份試刀",
+    "created_at": "2026-05-06T00:30:00+08:00",
+    "purpose": "驗證 codex 在 schema v1.0 + 35 條合法編碼約束下能產出與黃金樣本一致的結構化 JSON。對照 2 份黃金樣本（翰林文德 dual / 康軒新北安和 codex_only），檢核 schema 一致性、編碼合法率 ≥95%、reason 引用題幹原句不空泛。",
+    "verification_gates": [
+      "schema 必填欄位齊全",
+      "codes_candidate.code 全部在 35 條合法清單內",
+      "confidence 屬於 high/medium/low 列舉",
+      "reason 引用題幹原句（不空泛）",
+      "questions[] 數量與整合 MD 題目數一致"
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "exam_id": "翰林_109_成功國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_社會_翰林/翰林_109_成功國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/_pilot/翰林_109_成功國小_第一次段考.json",
+      "scenario": "翰林 dual_source + paper_full + answer_full（主流情境）",
+      "compare_against": "翰林_108_文德國小_第二次段考.json（A 黃金）"
+    },
+    {
+      "rank": 2,
+      "exam_id": "康軒_108_海佃國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_社會_康軒/康軒_108_海佃國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/_pilot/康軒_108_海佃國小_第二次段考.json",
+      "scenario": "康軒 dual_source + answer_full（康軒主流）",
+      "compare_against": "康軒_111_新北安和（B 黃金）"
+    },
+    {
+      "rank": 3,
+      "exam_id": "康軒_112_新北安和國小_期中考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_社會_康軒/康軒_112_新北安和國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/_pilot/康軒_112_新北安和國小_期中考.json",
+      "scenario": "康軒 codex_only + answer_full + columns_reordered（邊界，與 B 黃金同學校跨年）",
+      "compare_against": "康軒_111_新北安和（B 黃金）"
+    },
+    {
+      "rank": 4,
+      "exam_id": "南一_108_成功國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_社會_南一/南一_108_成功國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/_pilot/南一_108_成功國小_第一次段考.json",
+      "scenario": "南一 dual_source + answer_full（南一主流）",
+      "compare_against": "兩份黃金樣本"
+    },
+    {
+      "rank": 5,
+      "exam_id": "南一_108_永光國小_第三次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_社會_南一/南一_108_永光國小_第三次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/_pilot/南一_108_永光國小_第三次段考.json",
+      "scenario": "南一 dual_source + answer_empty（南一邊界：題幹完整但答案缺）",
+      "compare_against": "兩份黃金樣本，重點檢核答案缺時的 schema 處理"
+    }
+  ],
+  "progress": {
+    "completed": [],
+    "running": null,
+    "pending": [1, 2, 3, 4, 5],
+    "checkpoint_file": "scripts/jobs/JOB-228/_pilot_progress.json"
+  }
+}
