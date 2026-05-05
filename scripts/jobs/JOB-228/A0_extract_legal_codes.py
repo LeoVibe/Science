@@ -41,6 +41,16 @@ def extract_block(text: str, h2_title: str, h3_title: str) -> str:
 CODE_RE = re.compile(r"`([^`]+)`")
 
 
+PIPE_PLACEHOLDER = "\x00ESCPIPE\x00"
+
+
+def split_md_cells(line: str) -> list[str]:
+    """正確處理 escaped \\| 的 markdown 表格 cell 切割。"""
+    safe = line.replace("\\|", PIPE_PLACEHOLDER)
+    cells = [c.strip().replace(PIPE_PLACEHOLDER, "|") for c in safe.split("|")[1:-1]]
+    return cells
+
+
 def parse_table(block: str, expected_stage: str = "Ⅱ") -> list[dict]:
     """從表格區塊抽 code 與同行 hint 文字。"""
     rows = []
@@ -51,7 +61,7 @@ def parse_table(block: str, expected_stage: str = "Ⅱ") -> list[dict]:
             continue
         if line.startswith("|:--") or line.startswith("|---"):
             continue
-        cells = [c.strip() for c in line.split("|")[1:-1]]
+        cells = split_md_cells(line)
         if len(cells) < 2:
             continue
         m = CODE_RE.search(cells[0])
@@ -67,12 +77,11 @@ def parse_table(block: str, expected_stage: str = "Ⅱ") -> list[dict]:
 
 
 def clean_hint(raw: str) -> str:
-    """簡易清洗:移除 docling 表格還原的 \\| 轉義與多餘空白。
+    """簡易清洗:壓縮多餘空白(已先在 split_md_cells 還原 escape pipe)。
 
     完整 hint 仍以 hint_raw 保留,供人工核對。
     """
-    text = raw.replace("\\|", " | ")
-    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\s+", " ", raw)
     return text.strip()
 
 
