@@ -36,6 +36,7 @@ tests/*
 # 個人開發環境設定（本機保留，不推 GitHub）
 .mcp.json
 .nosync
+.archive/
 .cursorrules
 .cursor/*
 !.cursor/rules/
