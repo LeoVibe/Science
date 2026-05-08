@@ -654,6 +654,9 @@ codex exec -m gpt-5.4 --skip-git-repo-check --full-auto \
 - 2026-05-04 — JOB-228 派工單草擬完成,待使用者審閱與其他 agent review
 - 2026-05-04 — 採納 reviewer 9.5/10 條建議完成修訂(數字 120→118、加 codex_only 黃金樣本、schema 加 _inheritance/misconception_evidence、A1 失敗率三級、B 違規 A/B/C、cognitive_level 範例、Pilot dual_run 為 fallback)
 - 2026-05-05 — 採納第二輪 codex review 4 條 H/M 完成 v3 修訂(數字 118→116、A1 改讀 _index.json、schema type 4→7、question_id 三層、目標表第 4 條黃金 1→2 份、目標表第 1 條增 skipped_files 條款、派工指令加分批契約 + token 預估 + checkpoint);Phase 0 清理 iCloud 副本完成 commit 1853f5f
+- 2026-05-05 — Phase 1 完成:派工單修 4 條 H/M + 漏改 + 數字(commit 747f57f);Phase 2 完成:翰林文德 50 題黃金樣本(b64b300) + 康軒新北安和 48 題黃金樣本(0f587fe);兩份共 98 題、171 條編碼全通過合法清單驗證;發現並修正 Ae-Ⅱ-1 OCR 錯位陷阱(OBS-8)
+- 2026-05-06 — Phase 4 框架完成:codex prompt 模板 + dispatch 腳本 + 5 份目標清單(commit 7a8d37e);Phase 4 卡點:codex CLI 0.121 + ChatGPT 帳號擋 gpt-5-codex/gpt-5.5/gpt-5;使用者裁決選 C 路徑由 Claude 親手做;5 份 Pilot 完成(commit 0bed352)、325 題 433 條編碼全 PASS
+- 2026-05-08 — 使用者改選 B 路徑(升級 codex CLI 後派 codex 跑剩下 109 份);本 session 暫停;產出 jobs/JOB-228-RESUME-CHECKLIST.md 與 scripts/jobs/JOB-228/_full_targets.json(109 份目標),供下一個 session 接續
 <!-- progress-summary-end -->
 
 ---
