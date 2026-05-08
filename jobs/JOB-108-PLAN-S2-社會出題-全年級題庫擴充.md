@@ -3,6 +3,7 @@
 `last_updated`: 2026-03-28 20:18
 `updated_by`: Antigravity (Claude Opus 4.6)
 `version`: 2.0（重構版）
+`status`: plan_only
 
 # JOB-108-PLAN-S2-社會出題-全年級題庫擴充
 

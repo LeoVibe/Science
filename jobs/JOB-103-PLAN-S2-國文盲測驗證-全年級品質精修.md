@@ -3,6 +3,7 @@
 `last_updated`: 2026-03-28 20:18
 `updated_by`: Antigravity (Claude Opus 4.6)
 `version`: 2.0（重構版）
+`status`: plan_only
 
 # JOB-103-PLAN-S2-國語盲測驗證-全年級品質精修
 

@@ -2,6 +2,9 @@
 
 *Created by Cursor at 2026-02-27*
 
+`status`: closed
+`closure_note`: 主檔本身為 Report 形式（含「問題」「修正」段落），於 2026-02-27 由 Cursor 完成
+
 ## 問題
 
 - `*.pages.dev` 上「問題回報」POST 失敗：未注入 `VITE_API_URL` 時誤用靜態站 origin。
