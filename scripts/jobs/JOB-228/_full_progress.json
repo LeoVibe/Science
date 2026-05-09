@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-05-09T00:20:45Z",
+  "completed": [
+    1
+  ],
+  "failed": [],
+  "running": null,
+  "rank_1": {
+    "exam_id": "翰林_108_伸東國小_第一次段考",
+    "illegal_codes": "0/71",
+    "log": "scripts/orchestrator-logs/JOB-228-full-rank1.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/三下/三下_社會_翰林/翰林_108_伸東國小_第一次段考.json",
+    "finished_at": "2026-05-09T00:24:38.819Z",
+    "validation_layer1": {
+      "questions_count": 71,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    },
+    "note": "manually injected after dispatch.sh resume bug fix"
+  }
+}
