@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-04-30
-`updated_by`: Cursor (claude-sonnet-4-6)（pj_sync：JOB-220 三下社會南一考古題反推完成）
+`last_updated`: 2026-05-04
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-226 結案——四/五/六下完成，全 60 combo 終態 45 done + 15 partial + 0 pending，累計 2,117 份；canonical template v3.1 升級 + Phase 5c 字眼修補新增）
 
 ---
 
@@ -29,6 +29,28 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-09
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-228 | **三下社會考古題 L2 結構化抽取 109 份完成（codex 全自動序列跑 14h 43min）**：延續 JOB-226 雙源 MD 整合產物，將三下_社會 三版本（翰林 30 / 康軒 57 / 南一 22）整合 MD 由 codex 抽取為 schema v1.0 結構化 JSON，每題含 `codes_candidate[]`（從 35 條 108 課綱第 Ⅱ 階段合法編碼選 1-3 條）。Phase 5 + 黃金 2 + Pilot 5 共 **116 份 / 6530 題 / 10048 codes / 全量驗證零違規**（A_illegal=0 / B_wrong_stage=0 / C_duplicate=0）。技術里程碑：(a) **長時批次五元件骨架運作良好** — progress.json + dispatch.sh（含 25 min watchdog + Layer 1 驗證）+ dashboard.py + continuous_loop.sh + ScheduleWakeup/Discord 60min 自動回報；(b) **codex CLI 訂閱模式 model 限制經驗** — 不能硬指定 `-m gpt-5/gpt-4.1/gpt-5-codex`（API-only model 在 ChatGPT 帳號被擋），需用預設綁定 model（gpt-5.5），已存 memory；(c) **dispatch.sh resume 預設 bug 修復** — 改為自動 resume + `--fresh` 旗標明示重置，避免覆寫既有 progress；(d) **三版本 _L2_summary.md + 全科目整合 MD** — 翰林（編碼覆蓋 29/35）/ 康軒（34/35 最廣）/ 南一（30/35），認知層次三版本皆健康（記憶 21-26%、高層認知 46-47%）；(e) **spot check 13 次中 3 個 false positive** — codex spot check「≥5 字題幹片段」標準偏嚴，與 rank 6 PASS 的「實地觀察」（4 字）邊界值不一致，Claude meta-review 確認非真品質問題（建議下次調整 ≥3 字）。產出：109 份 JSON + `_validation_report.json` + 三份 `_L2_summary.md` + `三下_社會_L2_整合.md` + `_L2_quality_report.json`。見 `jobs/JOB-228-Report.md` | 🟢 DONE |
+
+### 2026-05-08
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-226 | **雙源 MD 整合全量收工（60 combo / 2,117 份 / 4 學期）**：延續 JOB-225 pilot 與 Phase A 三下 15/15 完成，本次以 `JOB226_master_auto.sh` + `JOB226_combo_full_pipeline.sh` 雙層自動骨架完成四/五/六下 45 combo 共 1,572 份整合，全 60 combo 累計 **2,117 份**（覆蓋率 98.65%）。終態 **45 done + 15 partial + 0 pending**。技術里程碑：(a) **canonical template v3 → v3.1** — 執行中發現 F8 失敗模式（單源檔誤用「兩源」字眼，21/23 份命中），緊急升級 §7.1 為 state-aware 表格（dual / codex_only / claude_only 三態各自措辭）+ §7.2 來源追溯主詞規則 + 加單源檔禁用「兩源」鐵則；(b) **Phase 5c 規則式字眼修補** — 寫 `JOB226_fix_single_source_phrasing.py` 將舊版產出批次救回，修補成本從 ~80K token/份 變 0 token/份；(c) **Phase 6 retry 機制** — r1 FAIL 自動跑 Phase 5c + r2，仍 FAIL 標 partial 不無限重試；(d) **40.5 小時 master_auto 自動跑** — 2026-05-05 03:24 啟動 → 2026-05-06 19:53 EXIT，PARALLEL=4 兩 combo 並行 + watchdog 1500s。Partial 失敗模式分類：F-Phase5+6 雙 fail 5 個、F-Phase6 only 5 個、F-Phase5 only 4 個、F-dispatch 漏 1 個。遺留：15 partial 由 JOB-227（後續開單）依本 Report §技術筆記 8 提供的優先序處理。見 `jobs/JOB-226-Report.md` | 🟢 DONE |
+
+### 2026-05-04
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-227 | **Raw MD 學期分類稽核與修補（三下範圍）**：JOB-226 三下_英語_康軒 phase6 抽樣發現「上學期試卷被分到下學期 combo」（codex_only 樣本 frontmatter 標三下、正文寫 110 學年度上）。寫稽核腳本 `JOB227_audit_raw_semester.py` 掃 1054 份三下 raw MD（claude+codex），找出 **42 份 misclassified**（英語_何嘉仁 26、英語_康軒 15、國語_康軒 1）。實際移檔 41 raw + 28 整合版到 `_misclassified/三下_誤分類_上學期/` 備存區（國語_康軒 1 份檔名標下學期但內容引用「第一學期」屬 false positive 排除）。受影響的 done combo 重 finalize + 重抽 phase6 雙 PASS（英語_何嘉仁 48→34 PASS、英語_康軒 39→25 PASS partial→done）。**三下達 15/15 done，partial 歸零**。技術發現：phase6 隨機抽樣對「分類錯誤」偵測能力有限（英語_何嘉仁原 phase6 PASS 但內含 14 份上學期），需獨立稽核機制。遺留：四/五/六下 raw（claude 529 + codex 1334）尚未稽核、ambiguous 25 份 + unknown 89 份待人工抽查、raw 抓取 pipeline 根因待新 JOB 處理。見 `jobs/JOB-227-Report.md` | 🟢 DONE |
+| JOB-226（Phase A） | **三下雙源 MD 整合全跑（15 combo / 571 份）**：延續 JOB-225 pilot，將三下 15 個 combo（社會 3 / 自然 3 / 國語 3 / 數學 3 / 英語 3 含何嘉仁）共 571 份 logical exam 整合完成。技術里程碑：(a) **Strategy B canonical template v3** — `_canonical_prompts/_integration_prompt.md` 內嵌 gold reference + 「題幹一致鐵則」（codex_only 來源不得改寫題幹），對應 `_methodology_record.md` §8.10 補記；(b) **PARALLEL=4 兩 combo 並行模式** — 比 PARALLEL=3 單 combo 快 1.56×（249 份 / 5 hours = 1.21 分/份）；(c) **完整流水線** — pair → dispatcher v2 → finalize（Phase 5 round 1/2 + Phase 5b codex 修補）→ Phase 4 _index.json → Phase 6 codex 抽樣（強制 codex_only 樣本）→ progress 標 done；(d) **17 份 codex_only 重整合修補** — 修 v3 規則前已產生的 5 個 combo 之 codex_only 樣本題幹改寫 bug，全部 rc=0 重寫 + 5/5 樣本 PASS。Phase A 為 JOB-226 的三下範圍，後接 Phase B 完成四/五/六下（見 2026-05-08 條目）| 🟢 三下 PHASE 完成 |
+
+### 2026-05-01
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-224 | **三下社會南一雙來源 MD 整合 pilot（Codex 路徑 + 比較分析 + v1 spec）**：使用 `scripts/JOB224_integrate_pilot.py` 四階段流水線（配對／LLM 整合／機械回填／自動驗收）並行產出兩種風格的整合版（`2_MD淬鍊文字_整合版_claude/` 與 `2_MD淬鍊文字_整合版_Codex/`），透過 6 份高分歧樣本人工判讀 + 4 維度比較分析（完整度／可讀性／機讀一致性／幻覺風險）驗證雙來源整合可行性。整合方法論固化為 v1 spec（`README_雙來源MD轉檔與整合規格.md`），後續被 JOB-225 萃取的 v2 spec（`README_雙來源MD整合作業準則.md`）取代。整合產物與 v1 spec 於 2026-05-01 14:25 由使用者清理（pilot 收斂）。執行者：Codex (GPT-5) 整合腳本與產物，Claude Code (claude-opus-4-7) PM 規劃 + 比較分析 + Report 代撰。比較分析原檔 `JOB-224-整合版Claude_vs_Codex_比較分析.md` 已整併進 Report §五。見 `jobs/JOB-224-Report.md` | 🟢 DONE |
+| JOB-225 | **三下社會南一考古題雙源 MD 整合（pilot）**：將 `2_MD淬鍊文字_Claude/` 與 `2_MD淬鍊文字_Codex/` 兩源的三下社會南一 24 份 logical exam group 整合為單一份高品質 MD，產出於新目錄 `2_MD淬鍊文字_整合版_claude/三下/三下_社會_南一/`。整合策略：**Claude PM 規劃 + 24 個 subagent（claude-opus-4-7）平行 dispatch**，每個 subagent 獨立 context 處理 1 份檔案，主對話僅做編排與驗收。整合方法處理三類兩源缺陷：(a) Claude docling 的 OCR 字符斷裂（「哪 - 個」→「哪一個」、「之-」→「之一」，多份各 30-60 處）、(b) Claude 的 alias 重複輸出（同 sha256 不同檔名各列一次）、(c) Codex pdfplumber 的雙欄交錯題號錯亂。產出統一 6 區段格式（整合摘要/主題命中分析/試卷/答案/來源追溯/整合判斷），24/24 通過自動驗證（6 區段齊、frontmatter 必填欄位齊、OCR 紅旗 0 hits、無重複試卷區塊）。`_index.json` 含 quality_flag 分布統計：paper_full 24/24、ocr_corrected 23/24、dual_source_merged 21/24、answer_full 12/24、answer_empty 12/24、claude_only 3/24。Subagent token 加總 1,274,562（訂閱額度，無台幣計費）。遺留問題：12 份答案 PDF 為影像式待 OCR、quality_flags 命名需標準化、其他 60 個 combo 待後續推進。見 `jobs/JOB-225-Report.md` | 🟢 DONE |
 
 ### 2026-04-30
 | JOB | 簡述 | 狀態 |
