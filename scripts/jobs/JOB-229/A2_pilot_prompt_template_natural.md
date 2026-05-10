@@ -19,8 +19,12 @@
 - `EXAM_ID`：`{EXAM_ID}`
 - `MD 整合檔`：`{MD_PATH}`
 - `合法編碼清單`：`knowledge/3_考古題/3_L2_結構化抽取/_meta/science_codes_legal_II.json`（75 條：20 學習表現 + 55 學習內容）
-- `黃金樣本（schema 範例）`：
-  - `knowledge/3_考古題/3_L2_結構化抽取/_golden_samples/翰林_112_成功國小_第一次段考.json`（自然科 dual_source 主黃金樣本，39 題、17 種編碼覆蓋）
+- `黃金樣本（唯一 schema 範例）`：
+  - **只能讀**：`knowledge/3_考古題/3_L2_結構化抽取/_golden_samples/翰林_112_成功國小_第一次段考.json`（自然科主黃金樣本，39 題、17 種編碼覆蓋）
+  - **❌ 嚴禁參考**：`_golden_samples/_archive_social/` 目錄下所有 JSON（社會科樣本，code prefix 如 Aa/Bb/Cb/Dc 等不適用自然科）
+  - **❌ 嚴禁參考**：`knowledge/3_考古題/3_L2_結構化抽取/_meta/social_codes_legal_II.json`（社會科編碼清單，與本任務無關）
+  - 自然科 code prefix **僅限**：performance（ti/tr/tc/tm/po/pe/pa/pc/ai/ah/an）+ content（INa/INb/INc/INd/INe/INf/INg）
+  - **若你看到 Aa/Ab/Bc/Dc 等 prefix → 立即停止並重讀 science_codes_legal_II.json**
 
 ## 輸出
 
