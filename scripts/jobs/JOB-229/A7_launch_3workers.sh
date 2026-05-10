@@ -1,0 +1,33 @@
+#!/bin/bash
+# JOB-229 Phase 5 啟動三 worker（A/B/C 並行 117 份序列抽取）
+# 每 worker 在背景跑 continuous_loop（會自動續跑直到完成）
+
+set -uo pipefail
+ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+cd "$ROOT"
+
+LOG_DIR="scripts/orchestrator-logs"
+mkdir -p "$LOG_DIR"
+
+echo "[$(date '+%H:%M:%S')] === JOB-229 Phase 5 啟動 3 worker ==="
+
+for W in A B C; do
+  LOG_FILE="$LOG_DIR/JOB-229-loop-${W}.log"
+  echo "[$(date '+%H:%M:%S')] 啟動 Worker $W → $LOG_FILE"
+  nohup bash scripts/jobs/JOB-229/A6_continuous_loop.sh "$W" \
+    > "$LOG_FILE" 2>&1 &
+  echo "  PID=$!"
+  sleep 2  # 錯開啟動避免同時搶 codex socket
+done
+
+echo ""
+echo "[$(date '+%H:%M:%S')] 三 worker 啟動完成。監控指令："
+echo "  python3 scripts/jobs/JOB-229/dashboard.py --since-minutes 60"
+echo "  tail -f $LOG_DIR/JOB-229-loop-A.log"
+echo "  tail -f $LOG_DIR/JOB-229-loop-B.log"
+echo "  tail -f $LOG_DIR/JOB-229-loop-C.log"
+echo ""
+echo "停止指令："
+echo "  pkill -f 'A6_continuous_loop.sh'"
+echo "  pkill -f 'A5_full_dispatch.sh'"
+echo "  pkill -9 -f 'codex exec --skip-git-repo-check --full-auto'"
