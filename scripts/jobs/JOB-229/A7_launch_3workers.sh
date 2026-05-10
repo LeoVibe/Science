@@ -11,6 +11,17 @@ mkdir -p "$LOG_DIR"
 
 echo "[$(date '+%H:%M:%S')] === JOB-229 Phase 5 啟動 3 worker ==="
 
+# 預先建立 progress.json（避免 loop wrapper count_remaining 失敗永遠 sleep）
+for W in A B C; do
+  P="scripts/jobs/JOB-229/_full_progress_${W}.json"
+  if [ ! -f "$P" ]; then
+    echo '{"started_at":"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'","worker":"'$W'","completed":[],"failed":[],"running":null}' > "$P"
+    echo "  init progress: $P"
+  else
+    echo "  resume progress: $P"
+  fi
+done
+
 for W in A B C; do
   LOG_FILE="$LOG_DIR/JOB-229-loop-${W}.log"
   echo "[$(date '+%H:%M:%S')] 啟動 Worker $W → $LOG_FILE"
