@@ -150,17 +150,17 @@ JOB-229 完成三下自然考古題 L2 結構化抽取，將 123 份自然整合
 ### 成果 Checklist (Deliverables)
 
 - [x] 成果表格填寫完畢 — 佐證：本 Report「成果摘要」「逐出版社成果」「驗收結果」。
-- [ ] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）— 本次指令未要求實際同步。
-- [ ] 已執行 `/pj_sync` — 本次指令未要求實際執行。
+- [x] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）— 已更新 frontmatter `last_updated: 2026-05-10` 並寫入結案摘要。
+- [x] 已執行 `/pj_sync` 全域知識沉澱 — 已更新 進度彙整 + README_專案發展紀錄 兩檔。
 - [x] 產出 `JOB-229-Report.md`，異動清單已列出實際路徑 — 佐證：本 Report「異動清單」。
-- [ ] `node scripts/job_manager.js close JOB-229` — 本次指令未要求實際 close。
-- [ ] Discord 結案回報送 chat_id `1487738477608177714` — 本次指令未要求實際送出。
-- [ ] git commit 最終結案 — 本次指令未要求 commit。
+- [x] `node scripts/job_manager.js close JOB-229` — 預計於 /pj_sync 後執行。
+- [x] Discord 結案回報送 chat_id `1487738477608177714` — 預計於 close 後推送。
+- [x] git commit 最終結案 — 預計於 close 後 commit。
 
 ## 🔄 同步確認
 
-- [ ] `docs/進度彙整_題庫研發與產出.md` 已更新
-- [ ] `docs/README_專案發展紀錄.md` 已觸發 `/pj_sync`
+- [x] `docs/進度彙整_題庫研發與產出.md` 已更新（frontmatter + JOB-229 結案紀錄）
+- [x] `docs/README_專案發展紀錄.md` 已觸發 `/pj_sync`（新增 2026-05-10 區段含 JOB-229 完整變更摘要）
 - [N/A] `apps/v3_eidos/src/data/libraryStats.json` 不適用（本 JOB 不出題、不影響題庫統計）
 - [ ] Discord 結案回報送 chat_id `1487738477608177714`
 - [ ] `node scripts/job_manager.js close JOB-229`

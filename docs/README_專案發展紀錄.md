@@ -30,6 +30,11 @@
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
 
+### 2026-05-10
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-229 | **三下_自然 考古題 L2 結構化抽取 117 份完成（codex 三 worker 並行跑 4h53m）**：延續 JOB-228 機制，將三下_自然 三版本（翰林 13 / 康軒 58 / 南一 46）整合 MD 由 codex 抽取為 schema v1.0 結構化 JSON。Phase 5 全量 117 份 + 黃金 1 + Pilot 5 共 **123 份 / 5860 題 / 11124 codes / 編碼合法率 100%**（A_illegal=0 / B_wrong_stage=0 / C_duplicate=1 auto_corrected）、clean=122 / corrected=1 / flagged=0 / manual=0。技術里程碑：(a) **三 worker 並行加速 3x** — 117 份分 A/B/C 各 39 份序列，相比 JOB-228 14.7h 序列跑縮減到 4h53m；(b) **黃金樣本縮 1 份**（JOB-228 是 2 份）— 翰林_112_成功國小_第一次段考 39 題、Claude 親做、0 違規；(c) **6 條 codex 並行候選評估** — 並行性能驗證（209s 完成 6 份），確認 6 條無 rate limit；(d) **隔離社會黃金樣本到 _archive_social/** — Pilot 第一輪 codex 誤抽社會 code（Dc-Ⅱ-1）後修補：移社會樣本到子目錄 + prompt template 加硬性禁引；(e) **codex argument 模式取代 stdin** — 避開 bash heredoc 中文 UTF-8 bug；(f) **launcher fix** — A7_launch_3workers.sh 預先建 progress.json 避 loop wrapper count_remaining 死循環；(g) **三版本 _L2_summary.md（翰林 481 行 / 康軒 399 行 / 南一 725 行）+ 全科目整合 _L2_整合.md（118 行 5860 題 11124 codes）**；(h) **spot check ≥3 字標準**（修 JOB-228 ≥5 字邊界誤判）。產出：117 份 JSON + `_validation_report_natural.json` + 三份 `_L2_summary.md` + `三下_自然_L2_整合.md` + `_L2_quality_report_natural.json` + Report 220 行。見 `jobs/JOB-229-Report.md` | 🟢 DONE |
+
 ### 2026-05-09
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|

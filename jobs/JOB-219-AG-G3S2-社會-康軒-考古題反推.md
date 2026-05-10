@@ -11,6 +11,8 @@
 **`plan_doc`**: docs/superpowers/plans/2026-04-29-G3S2-social-reverse-lookup-research.md
 **`parent_jobs`**: JOB-217（基礎建設）/ JOB-215 Phase 2
 
+> Dispatched at 2026-04-30 13:55, PID=39675, log=scripts/orchestrator-logs/JOB-219-康軒-反推.log
+
 ## 📌 任務背景
 
 JOB-213 已將康軒 51 份考古題轉成 MD（`knowledge/3_考古題/2_MD淬鍊文字/三下/三下_社會_康軒/`）。

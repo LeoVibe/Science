@@ -477,12 +477,27 @@ Expected: 看到 `[Rank 2/109]` 或 `Batch #1 啟動` 字樣
 掛機愉快，每小時自動回報。
 ```
 
-- [ ] **Step 5: 排第一個 ScheduleWakeup**
+- [ ] **Step 5: 給使用者 /loop dynamic mode prompt 草稿**
 
-呼叫 `ScheduleWakeup`：
-- `delaySeconds: 3600`（60 分鐘）
-- `prompt`: 完整 wakeup prompt（見 Task 7）
-- `reason`: "JOB-228 Phase 5 第一個 60min 進度回報"
+`ScheduleWakeup` 限 /loop dynamic mode 用，/schedule 是 remote 不能存取本機。改為：
+1. Claude 印出「請打 `/loop <wakeup-prompt>` 進入 dynamic mode」
+2. 使用者打 `/loop` + 完整 wakeup prompt（Task 7 內容濃縮版）
+3. /loop 啟動後 Claude 跑 wakeup → 跑完 ScheduleWakeup 自選 60 min 餵同樣 prompt → 重複
+
+**草稿 prompt（使用者複製貼到 /loop 後）**：
+
+```
+請執行 JOB-228 Phase 5 wakeup pattern：
+
+(1) 印當下時間（粗體）
+(2) 跑 python3 scripts/jobs/JOB-228/dashboard.py --since-minutes 60
+(3) 從 _full_progress.json 找最近完成 1 份 → 派 codex 用 spot_check_prompt_template.md 做 review → 讀 _spot_check.log 最後一行
+(4) Claude meta-review verdict（PASS/WARN/FAIL）
+(5) 算近 10 次 spot check 違規數，≥3 觸發 brainstorming
+(6) 推 Discord 到 chat_id=1487738477608177714，格式依 plan §Task 7 step 6
+(7) ps -p $(cat /tmp/job228_loop_pid) 確認 loop running，df -h . 看磁碟
+(8) 若 progress.completed.length < 109 → ScheduleWakeup 60 min 後再跑同 prompt；若 109 完成 → 進 Phase B（依 plan Task 8-10）
+```
 
 ---
 
