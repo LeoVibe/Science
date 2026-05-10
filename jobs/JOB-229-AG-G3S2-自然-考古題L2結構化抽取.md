@@ -162,3 +162,30 @@ JOB-226 已完成自然科三版本整合 MD（status=done、PASS），可用素
 - 不補 raw 缺口 12 份（須查 raw pipeline 根因，獨立 JOB 處理）
 - 後續四/五/六下其他科目沿用本機制（另開 JOB-23X）
 - spot check 標準微調：本 JOB 採 ≥3 字（依 JOB-228 遺留問題），跑完看是否仍 false positive 再決定是否進一步調整
+
+---
+
+## 黃金樣本選擇紀錄（Task 4 完成）
+
+`chosen_golden_sample`: **翰林_112_成功國小_第一次段考**
+
+來源 MD: `knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_自然_翰林/翰林_112_成功國小_第一次段考.md`
+
+### 選擇依據（6 候選 codex 並行評估）
+
+- 評估彙整: `scripts/jobs/JOB-229/_golden_evaluation/_summary.md`
+- 6 份候選明細: `scripts/jobs/JOB-229/_golden_evaluation/三下_自然_*.md`
+
+### 選定原因
+1. 唯一同時滿足 dual_source_merged + paper_full + answer_full（claude 2726 + codex 2379 char）
+2. 50 題（最多），題型 4 種完整（是非 12 / 選擇 13 / 回答 20 / 閱讀 5）
+3. codex 評分結構 9 / 題型 8（最高）
+4. 與 JOB-228 翰林_108_文德國小（社會黃金樣本）品質等級對應
+
+### 已知限制
+- topic_hits 集中「植物生長: 49」「天氣觀測: 1」
+- 對策: Pilot 5 份補主題覆蓋（含天氣、動物、水三態、浮力）
+
+### 並行 6 條 codex 性能實測
+- 總耗時 209s，6 條 exit=0 全成功，無 rate limit
+- 結論: 6 條並行可行，但本 JOB Phase 5 仍採並行 3 條（保守）
