@@ -103,20 +103,20 @@ JOB-232 完成五下_社會 L2 抽取（111/111，編碼合法率 100%）。本 
 > 本 JOB 為 question_prod L2 抽取，以結構完整性 + 編碼合法率 + 對齊度驗收。CQI 指標不適用。
 
 ### Phase 0
-- [ ] A1 prompt template 完成（grade=六下_社會、編碼指向 social_codes_legal_III.json）
-- [ ] 1 份黃金樣本（Claude 親做、schema v1.0 完整、編碼 0 違規）
-- [ ] Pilot 5 份對黃金樣本 schema 一致、編碼合法率 100%
+- [x] A1 prompt template 完成（grade=六下_社會、編碼指向 social_codes_legal_III.json）
+- [x] 1 份黃金樣本（Claude 親做、schema v1.0 完整、編碼 0 違規）— 64 題、25 codes、合法率 100%
+- [x] Pilot 5 份對黃金樣本 schema 一致、編碼合法率 100%（5/5 總違規 0）
 
 ### Phase 5（112 份）
-- [ ] 3 worker 啟動成功（A+B+C = 112）
+- [x] 3 worker 啟動成功（A=38 / B=37 / C=37 = 112）
 - [ ] 整體完成度 ≥ 95%（≥107/112）、failed ≤ 5 份
 - [ ] 編碼合法率 ≥ 95%（目標 100%）
 
 ### Phase B/C/D/E
-- [ ] `_validation_report_social_g6.json` 違規率可控（A/B/C 各 ≤ 1%）
-- [ ] 三份 `_L2_summary.md`（翰林/康軒/南一）完成
-- [ ] `六下_社會_L2_整合.md` 完成
-- [ ] `jobs/JOB-235-Report.md` 完成
+- [x] `_validation_report_social_g6.json` 違規率可控（A/B/C 各 ≤ 1%）— A=0/B=0/C=0（0%）
+- [x] 三份 `_L2_summary.md`（翰林/康軒/南一）完成 — 415/365/507 行
+- [x] `六下_社會_L2_整合.md` 完成 — 142 行，9345 題，16232 codes
+- [x] `jobs/JOB-235-Report.md` 完成
 
 ---
 
@@ -138,11 +138,11 @@ JOB-232 完成五下_社會 L2 抽取（111/111，編碼合法率 100%）。本 
 | 子任務 / 階段 | 開始時間 | 結束時間 | 耗時（分鐘） | 備註 |
 |:--|:--|:--|:--|:--|
 | Phase 0.1 腳本更新 | 2026-05-14 | — | ~30 min | Claude（含 fork + 3 檔修正）|
-| Phase 0.2 黃金樣本 | — | — | — | Claude 親做 |
-| Phase 0.3 Pilot 5 | — | — | — | — |
-| Phase 5 全量 112 | — | — | — | 並行 3 worker |
-| Phase B-E 結案 | — | — | — | — |
-| **總計** | — | — | — | — |
+| Phase 0.2 黃金樣本 | 2026-05-14 20:00 | 2026-05-14 21:00 | ~60 min | Claude 親做 64 題 100% |
+| Phase 0.3 Pilot 5 | 2026-05-14 21:36 | 2026-05-14 22:15 | ~47 min | 5/5 PASS，總違規 0 |
+| Phase 5 全量 112 | 2026-05-14 22:16 | — | — | 並行 3 worker，PID A=90360/B=90779/C=91196 |
+| Phase B-E 結案 | 2026-05-15 05:15 | 2026-05-15 05:25 | ~70 min | B<1min / C並行 / D重跑 / E親寫 |
+| **總計** | 2026-05-14 20:00 | 2026-05-15 05:25 | **~565 min** | ~9.4 hr |
 
 ---
 

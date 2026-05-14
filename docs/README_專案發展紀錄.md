@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-04
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-226 結案——四/五/六下完成，全 60 combo 終態 45 done + 15 partial + 0 pending，累計 2,117 份；canonical template v3.1 升級 + Phase 5c 字眼修補新增）
+`last_updated`: 2026-05-14 21:10
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-235 結案——六下_社會 118 份 L2 抽取完成，9345 題/16232 codes，編碼合法率 100%，Phase C/D 完成）
 
 ---
 
@@ -30,9 +30,22 @@
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
 
+### 2026-05-15
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-235 | **六下_社會 考古題 L2 結構化抽取 112/112 份完成（codex 三 worker 並行，~7hr）**：沿用 JOB-232 骨架與 `social_codes_legal_III.json`（46 codes 第Ⅲ階段），將六下_社會三版本（翰林 41 / 康軒 48 / 南一 29）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 112 份 + 黃金 1（Claude 親做 64 題）+ Pilot 5（100% 合法）共 **118 份 / 9345 題 / 16232 codes / 編碼合法率 100%**（A=0/B=0/C=0，clean=118）。2 份 timeout/output_not_found 自動 Batch #2 補跑成功。Phase C 三版本 _L2_summary.md（翰林 415 / 康軒 365 / 南一 507 行）+ 整合 MD（142 行）完成。遺留：Phase D 首次 codex exec `$PROMPT` argument 模式卡 stdin，改 stdin pipe 模式後成功（建議後續 Phase D 統一用 pipe）。見 `jobs/JOB-235-Report.md` | 🟢 DONE |
+
+### 2026-05-14
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-233 | **五下_自然 考古題 L2 結構化抽取 112/112 份完成（codex 三 worker 並行）**：沿用 JOB-231 的 `science_codes_legal_II.json`（75 條第Ⅱ階段編碼），將五下_自然三版本（翰林 33 / 康軒 47 / 南一 32）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 112 份 + 黃金 1 + Pilot 5 共 **118 份 / 9524 題 / 12255 codes / 編碼合法率 100%**（A=0/B=0/C=0）。Phase C 三版本 _L2_summary.md（翰林 528 / 康軒 435 / 南一 385 行）+ 整合 MD（130 行）完成。遺留：13 份 0 題空抽取（對應 extract_failed 原始 MD，JOB-234 修復後可重抽）。見 `jobs/JOB-233-Report.md` | 🟢 DONE |
+| JOB-232 | **五下_社會 考古題 L2 結構化抽取 111/111 份完成（codex 三 worker 並行）**：首次使用第Ⅲ學習階段編碼 `social_codes_legal_III.json`（46 codes），將五下_社會三版本（翰林 38 / 康軒 45 / 南一 28）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 111 份 + 黃金 1 + Pilot 5 共 **117 份 / 9569 題 / 15553 codes / 編碼合法率 100%**（A=0/B=0/C=0）。Phase C 三版本 _L2_summary.md（翰林 455 / 康軒 371 / 南一 382 行）+ 整合 MD（135 行）完成。見 `jobs/JOB-232-Report.md` | 🟢 DONE |
+| JOB-234 | **三下/四下全科目 118 份 extract_failed 整合版 MD 修復（117/118 pass）**：針對 `knowledge/3_考古題/2_MD淬鍊文字_整合版/` 三下/四下全科目因 DOC 格式或掃描 PDF 導致的 extract_failed 進行系統性修復。A0 manifest 建立（scanned_pdf=95 / doc_format=22 / no_original_found=1）；B1 DOC 重抽（textutil → python-docx → olefile+ocrmac 三路徑，22/22 成功，含 2 份影像嵌入型 .doc 用 OLE JPEG 提取 + ocrmac）；B2 掃描 PDF OCR（PyMuPDF DPI=150 + macOS Vision ocrmac，PARALLEL=4，95/95 成功，avg 16s/份，CJK 比例 64-74%）；Phase 3 驗證 117 pass / 0 fail / 1 skipped（無原始檔）。關鍵技術決策：Pilot 10 比較後放棄 Codex Vision（首份 timeout 600s），改採本地 ocrmac；rotation=270 掃描頁面用 PIL rotate(+90) 修正後 OCR 品質大幅提升。平均 char_count 4,690（範圍 500~11,719）。見 `jobs/JOB-234-Report.md` | 🟢 DONE |
+
 ### 2026-05-12
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-231 | **四下_自然 考古題 L2 結構化抽取 118/118 份完成（codex 三 worker 並行跑 6h06m）**：延續 JOB-230 三 worker 並行骨架 + 新建 science_codes_legal_II.json（75 條第Ⅱ階段編碼：performance ti/tr/tc/tm/po/pe/pa/pc/ai/ah/an + content INa-INg），將四下_自然三版本（翰林 20 / 康軒 55 / 南一 43，Phase 5 全量）整合 MD 由 codex 抽取為 schema v1.0 結構化 JSON。Phase 5 全量 118 份 + 黃金 1 + Pilot 5 共 **124 份 / 9392 題 / 12759 codes / 編碼合法率 100%**（A_illegal=0 / B_wrong_stage=0 / C_duplicate=0、clean=124、failed=0）。黃金樣本（翰林_108_四維國小_第二次段考）50 題 / 57 codes Claude 親做；Pilot 5/5 PASS（432 題 / 582 codes、編碼合法率 100%）；三版本 _L2_summary.md（翰林 472 / 康軒 372 / 南一 457 行）+ 整合 MD（132 行）完成。見 `jobs/JOB-231-Report.md` | 🟢 DONE |
 | JOB-230 | **四下_社會 考古題 L2 結構化抽取 127/128 份完成（codex 三 worker 並行跑 5h31m）**：延續 JOB-229 三 worker 並行骨架 + 沿用 JOB-228 的 social_codes_legal_II.json（35 條第Ⅱ階段編碼），將四下_社會 三版本（翰林 36 / 康軒 56 / 南一 36）整合 MD 由 codex 抽取為 schema v1.0 結構化 JSON。Phase 5 全量 127 份（其中 24 份 raw_empty）+ 黃金 1 + Pilot 5 共 **133 份 / 9921 題 / 18872 codes / 編碼合法率 100%**（A_illegal=0 / B_wrong_stage=0 / C_duplicate=0、clean=133）、有效 L2 抽取 103/127。技術里程碑：(a) **fork JOB-229 骨架 + A1 prompt 改寫**（grade 四下_社會 + 編碼指向 social_codes_legal_II.json + 禁引自然科 INa/ti prefix）；(b) **黃金樣本親做 50 題**（翰林_108_安和國小_第二次段考、codex_only 主流情境代表、distinct codes 24/35 覆蓋、最高頻 Bb-Ⅱ-1 占 12.5% 健康分布）；(c) **Pilot 5/5 PASS**（504/504 編碼合法、reason 抽 25 條全引題幹原文、認知分布健康）；(d) **發現上游 raw 缺口 24/134 份 source MD（paper_empty/extract_failed）**，codex 正確產 `questions=[]` 不算違規（派工單邊界：不補 raw 缺口）；(e) **Worker B Rank 42 watchdog timeout × 2**（翰林_?_未知_期末考 paper_partial+answer_partial+claude_only 邊界）標 failed，Rank 43 補跑成功 127/128；(f) **三版本 _L2_summary.md（翰林 586 行 / 康軒 467 行 / 南一 449 行）+ 整合 MD（132 行 6 H2）**；(g) **發現 A5 dispatch.sh watchdog 競態 bug**（line 102 `kill $WATCHDOG` 觸發 `set -e` 導致 failed 沒寫入 progress、A6 loop 重抓相同 rank 二次 timeout）。產出：127 份 JSON + `_validation_report_social_g4.json` + 三份 `_L2_summary.md` + `四下_社會_L2_整合.md` + Report 200+ 行。見 `jobs/JOB-230-Report.md` | 🟢 DONE |
 
 ### 2026-05-10
