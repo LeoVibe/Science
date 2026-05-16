@@ -1,0 +1,390 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_數學_翰林",
+  "combo": "四下_數學_翰林",
+  "semester": "四下",
+  "last_updated": "2026-05-05T10:54:56",
+  "total_md": 20,
+  "total_char_count": 69516,
+  "schools": [
+    "02第二次評量四年級數學科評量答案卷",
+    "02第二次評量四年級數學科評量試卷",
+    "2",
+    "勝利國小",
+    "和順國小",
+    "四維國小",
+    "新北桃子腳國小",
+    "未知",
+    "未知國小",
+    "美和國小",
+    "舊館國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "111",
+    "112",
+    "113",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "未知",
+    "第一次段考",
+    "第一次評量",
+    "第三次段考",
+    "第二次段考"
+  ],
+  "publishers": [
+    "翰林"
+  ],
+  "quality_flag_counts": {
+    "paper_full": 16,
+    "answer_partial": 8,
+    "codex_only": 11,
+    "ocr_corrected": 11,
+    "columns_reordered": 16,
+    "answer_empty": 7,
+    "answer_full": 5,
+    "dual_source_merged": 2,
+    "codex_primary": 1,
+    "paper_partial": 1,
+    "claude_primary": 1,
+    "claude_only": 7,
+    "paper_empty": 3,
+    "extract_failed": 2
+  },
+  "files": [
+    {
+      "filename": "翰林_108_四維國小_第一次段考.md",
+      "exam_id": "翰林_108_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 3046,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_四維國小_第二次段考.md",
+      "exam_id": "翰林_108_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 2633,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_美和國小_第一次段考.md",
+      "exam_id": "翰林_108_美和國小_第一次段考",
+      "school": "美和國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 2929,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_舊館國小_第一次段考.md",
+      "exam_id": "翰林_108_舊館國小_第一次段考",
+      "school": "舊館國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 3246,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_舊館國小_第三次段考.md",
+      "exam_id": "翰林_108_舊館國小_第三次段考",
+      "school": "舊館國小",
+      "year": "108",
+      "exam_type": "第三次段考",
+      "publisher": "翰林",
+      "char_count": 2777,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_109_四維國小_第一次段考.md",
+      "exam_id": "翰林_109_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 2715,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_勝利國小_期中考.md",
+      "exam_id": "翰林_111_勝利國小_期中考",
+      "school": "勝利國小",
+      "year": "111",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 3343,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_勝利國小_期末考.md",
+      "exam_id": "翰林_111_勝利國小_期末考",
+      "school": "勝利國小",
+      "year": "111",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 3076,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "dual_source_merged",
+        "claude_primary",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_2_期末考.md",
+      "exam_id": "翰林_112_2_期末考",
+      "school": "2",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4915,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第一次段考.md",
+      "exam_id": "翰林_112_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 2755,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第二次段考.md",
+      "exam_id": "翰林_112_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 2857,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_新北桃子腳國小_期末考.md",
+      "exam_id": "翰林_112_新北桃子腳國小_期末考",
+      "school": "新北桃子腳國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4756,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第一次評量四年級數學科評量答案卷_未知.md",
+      "exam_id": "翰林_113_02第一次評量四年級數學科評量答案卷_未知",
+      "school": "和順國小",
+      "year": "113",
+      "exam_type": "第一次評量",
+      "publisher": "翰林",
+      "char_count": 2754,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第一次評量四年級數學科評量試卷_未知.md",
+      "exam_id": "翰林_113_02第一次評量四年級數學科評量試卷_未知",
+      "school": "和順國小",
+      "year": "113",
+      "exam_type": "第一次評量",
+      "publisher": "翰林",
+      "char_count": 2830,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第二次評量四年級數學科評量答案卷_未知.md",
+      "exam_id": "翰林_113_02第二次評量四年級數學科評量答案卷_未知",
+      "school": "02第二次評量四年級數學科評量答案卷",
+      "year": "113",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 642,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第二次評量四年級數學科評量試卷_未知.md",
+      "exam_id": "翰林_113_02第二次評量四年級數學科評量試卷_未知",
+      "school": "02第二次評量四年級數學科評量試卷",
+      "year": "113",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 763,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_未知國小_期中考.md",
+      "exam_id": "翰林_113_未知國小_期中考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 2827,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_未知國小_期末考.md",
+      "exam_id": "翰林_113_未知國小_期末考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 699,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期中考.md",
+      "exam_id": "翰林_?_未知_期中考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 12804,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期末考.md",
+      "exam_id": "翰林_?_未知_期末考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 7149,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒",
+  "combo": "六下_社會_康軒",
+  "semester": "六下",
+  "last_updated": "2026-05-06T11:02:13",
+  "total_md": 48,
+  "total_char_count": 376863,
+  "schools": [
+    "2",
+    "2六年級社會期中卷",
+    "2六年級社會期中考卷解答",
+    "三條國小",
+    "中山國小",
+    "中正國小",
+    "內安國小",
+    "四維國小",
+    "大園國小",
+    "安和國小",
+    "廣興國小",
+    "成功國小",
+    "成德國小",
+    "文德國小",
+    "新生國小",
+    "曉陽國小",
+    "未知",
+    "未知國小",
+    "田心國小",
+    "興南國小",
+    "草港國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第二次段考"
+  ],
+  "publishers": [
+    "康軒"
+  ],
+  "quality_flag_counts": {
+    "paper_empty": 10,
+    "answer_empty": 18,
+    "codex_only": 43,
+    "extract_failed": 9,
+    "paper_full": 35,
+    "answer_partial": 13,
+    "ocr_corrected": 22,
+    "columns_reordered": 28,
+    "answer_full": 16,
+    "paper_partial": 3,
+    "answer_questions_only_no_marks": 1,
+    "claude_only": 5
+  },
+  "files": [
+    {
+      "filename": "康軒_108_三條國小_第一次段考.md",
+      "exam_id": "康軒_108_三條國小_第一次段考",
+      "school": "三條國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 820,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_三條國小_第二次段考.md",
+      "exam_id": "康軒_108_三條國小_第二次段考",
+      "school": "三條國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 713,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_中正國小_第二次段考.md",
+      "exam_id": "康軒_108_中正國小_第二次段考",
+      "school": "中正國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 3972,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_內安國小_第一次段考.md",
+      "exam_id": "康軒_108_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 762,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_內安國小_第二次段考.md",
+      "exam_id": "康軒_108_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 2824,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_大園國小_第一次段考.md",
+      "exam_id": "康軒_108_大園國小_第一次段考",
+      "school": "大園國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3370,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_大園國小_第二次段考.md",
+      "exam_id": "康軒_108_大園國小_第二次段考",
+      "school": "大園國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 3347,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_安和國小_第一次段考.md",
+      "exam_id": "康軒_108_安和國小_第一次段考",
+      "school": "安和國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4257,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_安和國小_第二次段考.md",
+      "exam_id": "康軒_108_安和國小_第二次段考",
+      "school": "安和國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 5109,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_廣興國小_第二次段考.md",
+      "exam_id": "康軒_108_廣興國小_第二次段考",
+      "school": "廣興國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 3518,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_成功國小_第一次段考.md",
+      "exam_id": "康軒_108_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3624,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_成功國小_第二次段考.md",
+      "exam_id": "康軒_108_成功國小_第二次段考",
+      "school": "成功國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 618,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_文德國小_第一次段考.md",
+      "exam_id": "康軒_108_文德國小_第一次段考",
+      "school": "文德國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4606,
+      "quality_flags": [
+        "paper_partial",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_文德國小_第二次段考.md",
+      "exam_id": "康軒_108_文德國小_第二次段考",
+      "school": "文德國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 1949,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第一次段考.md",
+      "exam_id": "康軒_108_曉陽國小_第一次段考",
+      "school": "曉陽國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3253,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第二次段考.md",
+      "exam_id": "康軒_108_曉陽國小_第二次段考",
+      "school": "曉陽國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 3132,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_田心國小_第一次段考.md",
+      "exam_id": "康軒_108_田心國小_第一次段考",
+      "school": "田心國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 2980,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_興南國小_第一次段考.md",
+      "exam_id": "康軒_108_興南國小_第一次段考",
+      "school": "興南國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 5475,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_興南國小_第二次段考.md",
+      "exam_id": "康軒_108_興南國小_第二次段考",
+      "school": "興南國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 5130,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_草港國小_第一次段考.md",
+      "exam_id": "康軒_108_草港國小_第一次段考",
+      "school": "草港國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 826,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_108_草港國小_第二次段考.md",
+      "exam_id": "康軒_108_草港國小_第二次段考",
+      "school": "草港國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 796,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_中山國小_第一次段考.md",
+      "exam_id": "康軒_109_中山國小_第一次段考",
+      "school": "中山國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4916,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_中正國小_第一次段考.md",
+      "exam_id": "康軒_109_中正國小_第一次段考",
+      "school": "中正國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 5985,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_成功國小_第一次段考.md",
+      "exam_id": "康軒_109_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3063,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_成德國小_第一次段考.md",
+      "exam_id": "康軒_109_成德國小_第一次段考",
+      "school": "成德國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 5636,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_新生國小_第一次段考.md",
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "school": "新生國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 711,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_109_草港國小_第一次段考.md",
+      "exam_id": "康軒_109_草港國小_第一次段考",
+      "school": "草港國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 709,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_110_內安國小_第一次段考.md",
+      "exam_id": "康軒_110_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 2440,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_110_新生國小_第一次段考.md",
+      "exam_id": "康軒_110_新生國小_第一次段考",
+      "school": "新生國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4672,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_110_草港國小_第一次段考.md",
+      "exam_id": "康軒_110_草港國小_第一次段考",
+      "school": "草港國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 704,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_111_成功國小_第一次段考.md",
+      "exam_id": "康軒_111_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4798,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_111_成功國小_第二次段考.md",
+      "exam_id": "康軒_111_成功國小_第二次段考",
+      "school": "成功國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 5833,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_111_文德國小_第一次段考.md",
+      "exam_id": "康軒_111_文德國小_第一次段考",
+      "school": "文德國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3994,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_中山國小_第二次段考.md",
+      "exam_id": "康軒_112_中山國小_第二次段考",
+      "school": "中山國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 6945,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_內安國小_第一次段考.md",
+      "exam_id": "康軒_112_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 5470,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_內安國小_第二次段考.md",
+      "exam_id": "康軒_112_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 6754,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_四維國小_第一次段考.md",
+      "exam_id": "康軒_112_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4851,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_四維國小_第二次段考.md",
+      "exam_id": "康軒_112_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 6036,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_成功國小_第一次段考.md",
+      "exam_id": "康軒_112_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 3329,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_成功國小_第二次段考.md",
+      "exam_id": "康軒_112_成功國小_第二次段考",
+      "school": "成功國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "康軒",
+      "char_count": 3813,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_112_文德國小_第一次段考.md",
+      "exam_id": "康軒_112_文德國小_第一次段考",
+      "school": "文德國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "康軒",
+      "char_count": 4765,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_113_2_期末考.md",
+      "exam_id": "康軒_113_2_期末考",
+      "school": "2",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "康軒",
+      "char_count": 8038,
+      "quality_flags": [
+        "paper_partial",
+        "answer_full",
+        "claude_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_113_2六年級社會期中卷_期中考.md",
+      "exam_id": "康軒_113_2六年級社會期中卷_期中考",
+      "school": "2六年級社會期中卷",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "康軒",
+      "char_count": 6401,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_113_2六年級社會期中考卷解答_期中考.md",
+      "exam_id": "康軒_113_2六年級社會期中考卷解答_期中考",
+      "school": "2六年級社會期中考卷解答",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "康軒",
+      "char_count": 609,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_113_未知國小_期中考.md",
+      "exam_id": "康軒_113_未知國小_期中考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "康軒",
+      "char_count": 6582,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_113_未知國小_期末考.md",
+      "exam_id": "康軒_113_未知國小_期末考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "康軒",
+      "char_count": 9226,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_?_未知_期中考.md",
+      "exam_id": "康軒_?_未知_期中考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "康軒",
+      "char_count": 136254,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "康軒_?_未知_期末考.md",
+      "exam_id": "康軒_?_未知_期末考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "康軒",
+      "char_count": 63248,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}

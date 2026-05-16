@@ -1,0 +1,386 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_國語_翰林",
+  "combo": "五下_國語_翰林",
+  "semester": "五下",
+  "last_updated": "2026-05-06T00:05:50",
+  "total_md": 22,
+  "total_char_count": 139432,
+  "schools": [
+    "中正國小",
+    "內安國小",
+    "和順國小",
+    "四維國小",
+    "國姓國小",
+    "未知",
+    "田中國小",
+    "臺南市和順國小"
+  ],
+  "years": [
+    "108",
+    "110",
+    "111",
+    "112",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第二次段考"
+  ],
+  "publishers": [
+    "翰林"
+  ],
+  "quality_flag_counts": {
+    "paper_full": 18,
+    "answer_partial": 9,
+    "codex_only": 19,
+    "answer_full": 6,
+    "answer_empty": 7,
+    "paper_empty": 2,
+    "extract_failed": 2,
+    "ocr_corrected": 6,
+    "claude_only": 3,
+    "paper_partial": 2
+  },
+  "files": [
+    {
+      "filename": "翰林_108_內安國小_第一次段考.md",
+      "exam_id": "翰林_108_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 3093,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_內安國小_第二次段考.md",
+      "exam_id": "翰林_108_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 2717,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_國姓國小_第一次段考.md",
+      "exam_id": "翰林_108_國姓國小_第一次段考",
+      "school": "國姓國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 4120,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_田中國小_第一次段考.md",
+      "exam_id": "翰林_108_田中國小_第一次段考",
+      "school": "田中國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 856,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_108_田中國小_第二次段考.md",
+      "exam_id": "翰林_108_田中國小_第二次段考",
+      "school": "田中國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 3787,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_110_內安國小_第一次段考.md",
+      "exam_id": "翰林_110_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 4516,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_110_田中國小_第一次段考.md",
+      "exam_id": "翰林_110_田中國小_第一次段考",
+      "school": "田中國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 4743,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_中正國小_第二次段考.md",
+      "exam_id": "翰林_111_中正國小_第二次段考",
+      "school": "中正國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 3076,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_內安國小_第一次段考.md",
+      "exam_id": "翰林_111_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 3539,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_內安國小_第二次段考.md",
+      "exam_id": "翰林_111_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 3620,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_田中國小_第一次段考.md",
+      "exam_id": "翰林_111_田中國小_第一次段考",
+      "school": "田中國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 5717,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_田中國小_第二次段考.md",
+      "exam_id": "翰林_111_田中國小_第二次段考",
+      "school": "田中國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 5200,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_2_期末考.md",
+      "exam_id": "翰林_112_2_期末考",
+      "school": "和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4393,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_內安國小_第一次段考.md",
+      "exam_id": "翰林_112_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 5009,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_內安國小_第二次段考.md",
+      "exam_id": "翰林_112_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 5645,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第一次段考.md",
+      "exam_id": "翰林_112_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 4386,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第二次段考.md",
+      "exam_id": "翰林_112_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 2873,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_田中國小_第一次段考.md",
+      "exam_id": "翰林_112_田中國小_第一次段考",
+      "school": "田中國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 3851,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_臺南市和順國小_期中考.md",
+      "exam_id": "翰林_112_臺南市和順國小_期中考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 826,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_臺南市和順國小_期末考.md",
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4393,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期中考.md",
+      "exam_id": "翰林_?_未知_期中考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 52894,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期末考.md",
+      "exam_id": "翰林_?_未知_期末考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 10178,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_自然_翰林",
+  "combo": "六下_自然_翰林",
+  "semester": "六下",
+  "last_updated": "2026-05-06T07:26:12",
+  "total_md": 29,
+  "total_char_count": 128379,
+  "schools": [
+    "02第一次評量六年級自然科評量答案卷",
+    "02第一次評量六年級自然科評量試卷",
+    "02第二次評量六年級自然科評量答案卷",
+    "2",
+    "2六年級自然期中卷",
+    "2六年級自然期中考卷解答",
+    "勝利國小",
+    "和順國小",
+    "四維國小",
+    "安和國小",
+    "成功國小",
+    "新北安和國小",
+    "新北桃子腳國小",
+    "未知",
+    "未知國小",
+    "臺南市和順國小"
+  ],
+  "years": [
+    "109",
+    "111",
+    "112",
+    "113",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "未知",
+    "第一次段考",
+    "第二次段考",
+    "第二次評量"
+  ],
+  "publishers": [
+    "翰林"
+  ],
+  "quality_flag_counts": {
+    "paper_full": 24,
+    "answer_partial": 7,
+    "codex_only": 12,
+    "ocr_corrected": 17,
+    "columns_reordered": 14,
+    "answer_full": 10,
+    "claude_only": 15,
+    "answer_questions_only_no_marks": 5,
+    "dual_source_merged": 2,
+    "claude_primary": 2,
+    "paper_empty": 5,
+    "answer_empty": 7,
+    "extract_failed": 2
+  },
+  "files": [
+    {
+      "filename": "翰林_109_成功國小_第一次段考.md",
+      "exam_id": "翰林_109_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 2925,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_安和國小_期中考.md",
+      "exam_id": "翰林_111_安和國小_期中考",
+      "school": "安和國小",
+      "year": "111",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5215,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_安和國小_未知.md",
+      "exam_id": "翰林_111_安和國小_未知",
+      "school": "安和國小",
+      "year": "111",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 4773,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_新北安和國小_期中考.md",
+      "exam_id": "翰林_111_新北安和國小_期中考",
+      "school": "新北安和國小",
+      "year": "111",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5249,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_111_新北安和國小_未知.md",
+      "exam_id": "翰林_111_新北安和國小_未知",
+      "school": "新北安和國小",
+      "year": "111",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 4753,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_2_期末考.md",
+      "exam_id": "翰林_112_2_期末考",
+      "school": "新北桃子腳國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 5475,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "claude_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_勝利國小_期中考.md",
+      "exam_id": "翰林_112_勝利國小_期中考",
+      "school": "勝利國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 4001,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "dual_source_merged",
+        "claude_primary",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_勝利國小_期末考.md",
+      "exam_id": "翰林_112_勝利國小_期末考",
+      "school": "勝利國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4070,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "dual_source_merged",
+        "claude_primary",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第一次段考.md",
+      "exam_id": "翰林_112_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "翰林",
+      "char_count": 2793,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_四維國小_第二次段考.md",
+      "exam_id": "翰林_112_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "翰林",
+      "char_count": 5046,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_安和國小_期中考.md",
+      "exam_id": "翰林_112_安和國小_期中考",
+      "school": "安和國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5957,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_安和國小_未知.md",
+      "exam_id": "翰林_112_安和國小_未知",
+      "school": "安和國小",
+      "year": "112",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 5162,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_新北安和國小_期中考.md",
+      "exam_id": "翰林_112_新北安和國小_期中考",
+      "school": "新北安和國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5922,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_新北安和國小_未知.md",
+      "exam_id": "翰林_112_新北安和國小_未知",
+      "school": "新北安和國小",
+      "year": "112",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 5166,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_新北桃子腳國小_期末考.md",
+      "exam_id": "翰林_112_新北桃子腳國小_期末考",
+      "school": "新北桃子腳國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 5719,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_臺南市和順國小_期中考.md",
+      "exam_id": "翰林_112_臺南市和順國小_期中考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 893,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_112_臺南市和順國小_期末考.md",
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 845,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第一次評量六年級自然科評量答案卷_未知.md",
+      "exam_id": "翰林_113_02第一次評量六年級自然科評量答案卷_未知",
+      "school": "02第一次評量六年級自然科評量答案卷",
+      "year": "113",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 683,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第一次評量六年級自然科評量試卷_未知.md",
+      "exam_id": "翰林_113_02第一次評量六年級自然科評量試卷_未知",
+      "school": "02第一次評量六年級自然科評量試卷",
+      "year": "113",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 633,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第二次評量六年級自然科評量作答卷(空白)_未知.md",
+      "exam_id": "翰林_113_02第二次評量六年級自然科評量作答卷(空白)_未知",
+      "school": "和順國小",
+      "year": "113",
+      "exam_type": "第二次評量",
+      "publisher": "翰林",
+      "char_count": 1617,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第二次評量六年級自然科評量答案卷_未知.md",
+      "exam_id": "翰林_113_02第二次評量六年級自然科評量答案卷_未知",
+      "school": "02第二次評量六年級自然科評量答案卷",
+      "year": "113",
+      "exam_type": "未知",
+      "publisher": "翰林",
+      "char_count": 701,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_02第二次評量六年級自然科評量試卷_未知.md",
+      "exam_id": "翰林_113_02第二次評量六年級自然科評量試卷_未知",
+      "school": "和順國小",
+      "year": "113",
+      "exam_type": "第二次評量",
+      "publisher": "翰林",
+      "char_count": 6616,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_2_期末考.md",
+      "exam_id": "翰林_113_2_期末考",
+      "school": "2",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 6255,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_2六年級自然期中卷_期中考.md",
+      "exam_id": "翰林_113_2六年級自然期中卷_期中考",
+      "school": "2六年級自然期中卷",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 4718,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_2六年級自然期中考卷解答_期中考.md",
+      "exam_id": "翰林_113_2六年級自然期中考卷解答_期中考",
+      "school": "2六年級自然期中考卷解答",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5049,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_未知國小_期中考.md",
+      "exam_id": "翰林_113_未知國小_期中考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5359,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_113_未知國小_期末考.md",
+      "exam_id": "翰林_113_未知國小_期末考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 12372,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期中考.md",
+      "exam_id": "翰林_?_未知_期中考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "翰林",
+      "char_count": 5574,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "翰林_?_未知_期末考.md",
+      "exam_id": "翰林_?_未知_期末考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "翰林",
+      "char_count": 4838,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}

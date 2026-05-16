@@ -1,0 +1,668 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/三下/三下_國語_南一",
+  "combo": "三下_國語_南一",
+  "semester": "三下",
+  "last_updated": "2026-05-03T19:40:00",
+  "total_md": 36,
+  "total_char_count": 102881,
+  "schools": [
+    "1臺南市和順國小",
+    "2",
+    "2三年級國語期中卷",
+    "2三年級國語期中考卷解答",
+    "2臺南市和順國小",
+    "中正國小",
+    "內安國小",
+    "勝利國小",
+    "和順國小",
+    "四維國小",
+    "安和國小",
+    "廣興國小",
+    "新北安和國小",
+    "曉陽國小",
+    "未知國小",
+    "臺南市和順國小",
+    "草港國小"
+  ],
+  "years": [
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第二次段考"
+  ],
+  "publishers": [
+    "南一"
+  ],
+  "quality_flag_counts": {
+    "paper_full": 24,
+    "answer_partial": 13,
+    "dual_source_merged": 18,
+    "codex_primary": 18,
+    "ocr_corrected": 21,
+    "alias_dedup": 18,
+    "answer_empty": 19,
+    "paper_empty": 9,
+    "extract_failed": 7,
+    "answer_full": 4,
+    "claude_only": 8,
+    "columns_reordered": 6,
+    "paper_partial": 3,
+    "codex_only": 5
+  },
+  "files": [
+    {
+      "filename": "南一_108_曉陽國小_第一次段考.md",
+      "exam_id": "南一_108_曉陽國小_第一次段考",
+      "school": "曉陽國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 4075,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_108_曉陽國小_第二次段考.md",
+      "exam_id": "南一_108_曉陽國小_第二次段考",
+      "school": "曉陽國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 3246,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_108_草港國小_第一次段考.md",
+      "exam_id": "南一_108_草港國小_第一次段考",
+      "school": "草港國小",
+      "year": "108",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 843,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "alias_dedup",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_108_草港國小_第二次段考.md",
+      "exam_id": "南一_108_草港國小_第二次段考",
+      "school": "草港國小",
+      "year": "108",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 790,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "alias_dedup",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_109_四維國小_第一次段考.md",
+      "exam_id": "南一_109_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 3395,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_109_安和國小_第一次段考.md",
+      "exam_id": "南一_109_安和國小_第一次段考",
+      "school": "安和國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 4548,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_109_安和國小_第二次段考.md",
+      "exam_id": "南一_109_安和國小_第二次段考",
+      "school": "安和國小",
+      "year": "109",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 4016,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_109_廣興國小_第一次段考.md",
+      "exam_id": "南一_109_廣興國小_第一次段考",
+      "school": "廣興國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 2511,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_110_草港國小_第一次段考.md",
+      "exam_id": "南一_110_草港國小_第一次段考",
+      "school": "草港國小",
+      "year": "110",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 850,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "alias_dedup",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_111_中正國小_第二次段考.md",
+      "exam_id": "南一_111_中正國小_第二次段考",
+      "school": "中正國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 3206,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_111_廣興國小_第一次段考.md",
+      "exam_id": "南一_111_廣興國小_第一次段考",
+      "school": "廣興國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 3441,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_111_廣興國小_第二次段考.md",
+      "exam_id": "南一_111_廣興國小_第二次段考",
+      "school": "廣興國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 3067,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_2_期末考.md",
+      "exam_id": "南一_112_2_期末考",
+      "school": "和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 972,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_內安國小_第一次段考.md",
+      "exam_id": "南一_112_內安國小_第一次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "南一",
+      "char_count": 2990,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_內安國小_第二次段考.md",
+      "exam_id": "南一_112_內安國小_第二次段考",
+      "school": "內安國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 3077,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_勝利國小_期中考.md",
+      "exam_id": "南一_112_勝利國小_期中考",
+      "school": "勝利國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 2934,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "columns_reordered",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_勝利國小_期末考.md",
+      "exam_id": "南一_112_勝利國小_期末考",
+      "school": "勝利國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 4041,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "columns_reordered",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_安和國小_期中考.md",
+      "exam_id": "南一_112_安和國小_期中考",
+      "school": "安和國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 2182,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_安和國小_期末考.md",
+      "exam_id": "南一_112_安和國小_期末考",
+      "school": "安和國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 2480,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_廣興國小_第二次段考.md",
+      "exam_id": "南一_112_廣興國小_第二次段考",
+      "school": "廣興國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 2657,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_新北安和國小_期中考.md",
+      "exam_id": "南一_112_新北安和國小_期中考",
+      "school": "新北安和國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 3167,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_新北安和國小_期末考.md",
+      "exam_id": "南一_112_新北安和國小_期末考",
+      "school": "新北安和國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 2683,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_臺南市和順國小_期中考.md",
+      "exam_id": "南一_112_臺南市和順國小_期中考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 5293,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_臺南市和順國小_期末考.md",
+      "exam_id": "南一_112_臺南市和順國小_期末考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 730,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_112_草港國小_第二次段考.md",
+      "exam_id": "南一_112_草港國小_第二次段考",
+      "school": "草港國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "南一",
+      "char_count": 889,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "alias_dedup",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_113_2_期末考.md",
+      "exam_id": "南一_113_2_期末考",
+      "school": "2",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 3570,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_113_2三年級國語期中卷_期中考.md",
+      "exam_id": "南一_113_2三年級國語期中卷_期中考",
+      "school": "2三年級國語期中卷",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 3955,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_113_2三年級國語期中考卷解答_期中考.md",
+      "exam_id": "南一_113_2三年級國語期中考卷解答_期中考",
+      "school": "2三年級國語期中考卷解答",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 691,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_113_未知國小_期中考.md",
+      "exam_id": "南一_113_未知國小_期中考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 3969,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_113_未知國小_期末考.md",
+      "exam_id": "南一_113_未知國小_期末考",
+      "school": "未知國小",
+      "year": "113",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 3595,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_1臺南市和順國小_期中考.md",
+      "exam_id": "南一_?_1臺南市和順國小_期中考",
+      "school": "1臺南市和順國小",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 4644,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_2臺南市和順國小_期末考.md",
+      "exam_id": "南一_?_2臺南市和順國小_期末考",
+      "school": "2臺南市和順國小",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 745,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_未知國小_期中考.md",
+      "exam_id": "南一_?_未知國小_期中考",
+      "school": "未知國小",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 4089,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_未知國小_期末考.md",
+      "exam_id": "南一_?_未知國小_期末考",
+      "school": "未知國小",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 3539,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_臺南市和順國小_期中考.md",
+      "exam_id": "南一_?_臺南市和順國小_期中考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "南一",
+      "char_count": 5270,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "南一_?_臺南市和順國小_期末考.md",
+      "exam_id": "南一_?_臺南市和順國小_期末考",
+      "school": "臺南市和順國小",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "南一",
+      "char_count": 731,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}

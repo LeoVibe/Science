@@ -1,0 +1,391 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_英語_何嘉仁",
+  "combo": "六下_英語_何嘉仁",
+  "semester": "六下",
+  "last_updated": "2026-05-06T18:27:46",
+  "total_md": 21,
+  "total_char_count": 202545,
+  "schools": [
+    "中正國小",
+    "和順國小",
+    "四維國小",
+    "廣興國小",
+    "成功國小",
+    "新生國小",
+    "未知",
+    "田中國小",
+    "臺南市和順國小"
+  ],
+  "years": [
+    "109",
+    "111",
+    "112",
+    "?"
+  ],
+  "exam_types": [
+    "期中考",
+    "期末考",
+    "第一次段考",
+    "第二次段考"
+  ],
+  "publishers": [
+    "何嘉仁"
+  ],
+  "quality_flag_counts": {
+    "paper_full": 14,
+    "answer_partial": 7,
+    "codex_only": 18,
+    "ocr_corrected": 5,
+    "columns_reordered": 16,
+    "answer_empty": 5,
+    "answer_full": 7,
+    "paper_empty": 4,
+    "paper_partial": 3,
+    "claude_only": 3,
+    "extract_failed": 3,
+    "answer_questions_only_no_marks": 2,
+    "alias_dedup": 1
+  },
+  "files": [
+    {
+      "filename": "何嘉仁_109_中正國小_第一次段考.md",
+      "exam_id": "何嘉仁_109_中正國小_第一次段考",
+      "school": "中正國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 4952,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_109_四維國小_第一次段考.md",
+      "exam_id": "何嘉仁_109_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 6541,
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_109_廣興國小_第一次段考.md",
+      "exam_id": "何嘉仁_109_廣興國小_第一次段考",
+      "school": "廣興國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 3237,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_109_廣興國小_第二次段考.md",
+      "exam_id": "何嘉仁_109_廣興國小_第二次段考",
+      "school": "廣興國小",
+      "year": "109",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 4158,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_109_成功國小_第一次段考.md",
+      "exam_id": "何嘉仁_109_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 3382,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_109_新生國小_第一次段考.md",
+      "exam_id": "何嘉仁_109_新生國小_第一次段考",
+      "school": "新生國小",
+      "year": "109",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 674,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_111_中正國小_第二次段考.md",
+      "exam_id": "何嘉仁_111_中正國小_第二次段考",
+      "school": "中正國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 4334,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_111_成功國小_第一次段考.md",
+      "exam_id": "何嘉仁_111_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 4262,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_111_成功國小_第二次段考.md",
+      "exam_id": "何嘉仁_111_成功國小_第二次段考",
+      "school": "成功國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 5226,
+      "quality_flags": [
+        "paper_partial",
+        "answer_full",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_111_田中國小_第一次段考.md",
+      "exam_id": "何嘉仁_111_田中國小_第一次段考",
+      "school": "田中國小",
+      "year": "111",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 3110,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_111_田中國小_第二次段考.md",
+      "exam_id": "何嘉仁_111_田中國小_第二次段考",
+      "school": "田中國小",
+      "year": "111",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 2854,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_2_期末考.md",
+      "exam_id": "何嘉仁_112_2_期末考",
+      "school": "和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "何嘉仁",
+      "char_count": 1073,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_中正國小_第一次段考.md",
+      "exam_id": "何嘉仁_112_中正國小_第一次段考",
+      "school": "中正國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 3887,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_四維國小_第一次段考.md",
+      "exam_id": "何嘉仁_112_四維國小_第一次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 3844,
+      "quality_flags": [
+        "paper_full",
+        "answer_questions_only_no_marks",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_四維國小_第二次段考.md",
+      "exam_id": "何嘉仁_112_四維國小_第二次段考",
+      "school": "四維國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 2958,
+      "quality_flags": [
+        "paper_partial",
+        "answer_questions_only_no_marks",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_成功國小_第一次段考.md",
+      "exam_id": "何嘉仁_112_成功國小_第一次段考",
+      "school": "成功國小",
+      "year": "112",
+      "exam_type": "第一次段考",
+      "publisher": "何嘉仁",
+      "char_count": 5017,
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_成功國小_第二次段考.md",
+      "exam_id": "何嘉仁_112_成功國小_第二次段考",
+      "school": "成功國小",
+      "year": "112",
+      "exam_type": "第二次段考",
+      "publisher": "何嘉仁",
+      "char_count": 5025,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "columns_reordered"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_臺南市和順國小_期中考.md",
+      "exam_id": "何嘉仁_112_臺南市和順國小_期中考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期中考",
+      "publisher": "何嘉仁",
+      "char_count": 768,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_112_臺南市和順國小_期末考.md",
+      "exam_id": "何嘉仁_112_臺南市和順國小_期末考",
+      "school": "臺南市和順國小",
+      "year": "112",
+      "exam_type": "期末考",
+      "publisher": "何嘉仁",
+      "char_count": 787,
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only",
+        "extract_failed"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_?_未知_期中考.md",
+      "exam_id": "何嘉仁_?_未知_期中考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期中考",
+      "publisher": "何嘉仁",
+      "char_count": 94369,
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "claude_only",
+        "columns_reordered",
+        "alias_dedup"
+      ],
+      "topic_hits_count": 0
+    },
+    {
+      "filename": "何嘉仁_?_未知_期末考.md",
+      "exam_id": "何嘉仁_?_未知_期末考",
+      "school": "未知",
+      "year": "?",
+      "exam_type": "期末考",
+      "publisher": "何嘉仁",
+      "char_count": 42087,
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only"
+      ],
+      "topic_hits_count": 0
+    }
+  ]
+}
