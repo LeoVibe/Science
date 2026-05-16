@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-14 21:10
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-235 結案——六下_社會 118 份 L2 抽取完成，9345 題/16232 codes，編碼合法率 100%，Phase C/D 完成）
+`last_updated`: 2026-05-16 23:25
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-236 結案——六下_自然 91 份 L2 抽取完成，7182 題/10343 codes，編碼合法率 100%，Phase C/D 完成）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-16
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-236 | **六下_自然 考古題 L2 結構化抽取 91 份完成（codex 三 worker 並行，~8hr）**：沿用 JOB-235 骨架與 `science_codes_legal_III.json`（89 codes 第Ⅲ階段），將六下_自然三版本（翰林 29 / 康軒 41 / 南一 21）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 85 份 + 黃金 1（Claude 親做 65 題）+ Pilot 5（100% 合法）共 **91 份 / 7182 題 / 10343 codes / 編碼合法率 100%**（A=0/B=0，C_duplicate=14 auto_corrected，clean=88）。1 份 Batch#2 重試成功（翰林_113_未知國小_期末考 150 題）。Phase C 三版本 _L2_summary.md（翰林 528 / 康軒 401 / 南一 540 行）+ 整合 MD（127 行）完成。技術筆記：Pilot 康軒第三條首次執行 hung 超過 24 小時（0.2% CPU），kill 後 stdin pipe 重跑 362s 完成；`--output-schema` 強制結構化輸出為下次優化方向。遺留：extract_failed 11 份（翰林 2/康軒 9）待另開修復 JOB。見 `jobs/JOB-236-Report.md` | 🟢 DONE |
 
 ### 2026-05-15
 | JOB | 簡述 | 狀態 |

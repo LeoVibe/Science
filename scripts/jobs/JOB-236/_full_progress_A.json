@@ -1,0 +1,443 @@
+{
+  "started_at": "2026-05-16T06:56:23Z",
+  "worker": "A",
+  "completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "failed": [],
+  "running": null,
+  "rank_1": {
+    "exam_id": "南一_109_伸東國小_第一次段考",
+    "illegal_codes": "0/96",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank1.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_109_伸東國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:03:46.801Z",
+    "validation_layer1": {
+      "questions_count": 53,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_2": {
+    "exam_id": "南一_109_安和國小_第一次段考",
+    "illegal_codes": "0/66",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank2.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_109_安和國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:10:46.133Z",
+    "validation_layer1": {
+      "questions_count": 35,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_3": {
+    "exam_id": "南一_110_舊館國小_第一次段考",
+    "illegal_codes": "0/77",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank3.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_110_舊館國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:20:19.121Z",
+    "validation_layer1": {
+      "questions_count": 50,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_4": {
+    "exam_id": "南一_111_勝利國小_未知",
+    "illegal_codes": "0/87",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank4.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_111_勝利國小_未知.json",
+    "finished_at": "2026-05-16T07:29:06.299Z",
+    "validation_layer1": {
+      "questions_count": 56,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_5": {
+    "exam_id": "南一_111_成功國小_第一次段考",
+    "illegal_codes": "0/104",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank5.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_111_成功國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:36:26.286Z",
+    "validation_layer1": {
+      "questions_count": 79,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_6": {
+    "exam_id": "南一_111_田中國小_第二次段考",
+    "illegal_codes": "0/65",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank6.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_111_田中國小_第二次段考.json",
+    "finished_at": "2026-05-16T07:43:53.658Z",
+    "validation_layer1": {
+      "questions_count": 43,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_7": {
+    "exam_id": "南一_?_未知_期中考",
+    "illegal_codes": "0/910",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank7.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_南一/南一_?_未知_期中考.json",
+    "finished_at": "2026-05-16T07:49:25.886Z",
+    "validation_layer1": {
+      "questions_count": 634,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_8": {
+    "exam_id": "康軒_108_內安國小_第一次段考",
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank8.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_108_內安國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:51:27.252Z",
+    "validation_layer1": {
+      "questions_count": 0,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_9": {
+    "exam_id": "康軒_108_文德國小_第一次段考",
+    "illegal_codes": "0/96",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank9.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_108_文德國小_第一次段考.json",
+    "finished_at": "2026-05-16T07:59:44.812Z",
+    "validation_layer1": {
+      "questions_count": 50,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_10": {
+    "exam_id": "康軒_108_曉陽國小_第二次段考",
+    "illegal_codes": "0/106",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank10.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_108_曉陽國小_第二次段考.json",
+    "finished_at": "2026-05-16T08:06:01.415Z",
+    "validation_layer1": {
+      "questions_count": 66,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_11": {
+    "exam_id": "康軒_108_田中國小_第二次段考",
+    "illegal_codes": "0/75",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank11.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_108_田中國小_第二次段考.json",
+    "finished_at": "2026-05-16T08:11:53.181Z",
+    "validation_layer1": {
+      "questions_count": 73,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_12": {
+    "exam_id": "康軒_108_草港國小_第一次段考",
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank12.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_108_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T08:14:31.745Z",
+    "validation_layer1": {
+      "questions_count": 0,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_13": {
+    "exam_id": "康軒_109_成德國小_第一次段考",
+    "illegal_codes": "0/100",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank13.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_109_成德國小_第一次段考.json",
+    "finished_at": "2026-05-16T08:24:43.317Z",
+    "validation_layer1": {
+      "questions_count": 56,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_14": {
+    "exam_id": "康軒_109_草港國小_第一次段考",
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank14.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_109_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T08:26:51.714Z",
+    "validation_layer1": {
+      "questions_count": 0,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_15": {
+    "exam_id": "康軒_110_海佃國小_第二次段考",
+    "illegal_codes": "0/125",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank15.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_110_海佃國小_第二次段考.json",
+    "finished_at": "2026-05-16T08:35:03.695Z",
+    "validation_layer1": {
+      "questions_count": 65,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_16": {
+    "exam_id": "康軒_111_內安國小_第一次段考",
+    "illegal_codes": "0/126",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank16.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_111_內安國小_第一次段考.json",
+    "finished_at": "2026-05-16T08:44:57.411Z",
+    "validation_layer1": {
+      "questions_count": 100,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_17": {
+    "exam_id": "康軒_111_文德國小_第一次段考",
+    "illegal_codes": "0/62",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank17.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_111_文德國小_第一次段考.json",
+    "finished_at": "2026-05-16T09:41:06.456Z",
+    "validation_layer1": {
+      "questions_count": 50,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_18": {
+    "exam_id": "康軒_111_草港國小_第二次段考",
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank18.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_111_草港國小_第二次段考.json",
+    "finished_at": "2026-05-16T09:43:10.973Z",
+    "validation_layer1": {
+      "questions_count": 0,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_19": {
+    "exam_id": "康軒_112_太平國小_第二次段考",
+    "illegal_codes": "0/106",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank19.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_112_太平國小_第二次段考.json",
+    "finished_at": "2026-05-16T09:49:36.439Z",
+    "validation_layer1": {
+      "questions_count": 70,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_20": {
+    "exam_id": "康軒_?_未知_期中考",
+    "illegal_codes": "0/1459",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank20.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_康軒/康軒_?_未知_期中考.json",
+    "finished_at": "2026-05-16T09:57:49.704Z",
+    "validation_layer1": {
+      "questions_count": 1025,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_21": {
+    "exam_id": "翰林_111_新北安和國小_未知",
+    "illegal_codes": "0/107",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank21.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_111_新北安和國小_未知.json",
+    "finished_at": "2026-05-16T10:05:33.779Z",
+    "validation_layer1": {
+      "questions_count": 65,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_22": {
+    "exam_id": "翰林_112_勝利國小_期末考",
+    "illegal_codes": "0/81",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank22.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_112_勝利國小_期末考.json",
+    "finished_at": "2026-05-16T10:11:51.850Z",
+    "validation_layer1": {
+      "questions_count": 45,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_23": {
+    "exam_id": "翰林_112_安和國小_期中考",
+    "illegal_codes": "0/102",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank23.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_112_安和國小_期中考.json",
+    "finished_at": "2026-05-16T10:20:16.634Z",
+    "validation_layer1": {
+      "questions_count": 58,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_24": {
+    "exam_id": "翰林_112_新北安和國小_未知",
+    "illegal_codes": "0/95",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank24.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_112_新北安和國小_未知.json",
+    "finished_at": "2026-05-16T10:23:25.055Z",
+    "validation_layer1": {
+      "questions_count": 62,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_25": {
+    "exam_id": "翰林_112_臺南市和順國小_期末考",
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank25.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_112_臺南市和順國小_期末考.json",
+    "finished_at": "2026-05-16T10:25:19.268Z",
+    "validation_layer1": {
+      "questions_count": 0,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_26": {
+    "exam_id": "翰林_113_02第二次評量六年級自然科評量作答卷(空白)_未知",
+    "illegal_codes": "0/13",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank26.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_113_02第二次評量六年級自然科評量作答卷(空白)_未知.json",
+    "finished_at": "2026-05-16T10:31:14.120Z",
+    "validation_layer1": {
+      "questions_count": 100,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_27": {
+    "exam_id": "翰林_113_2_期末考",
+    "illegal_codes": "0/68",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank27.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_113_2_期末考.json",
+    "finished_at": "2026-05-16T10:37:58.524Z",
+    "validation_layer1": {
+      "questions_count": 50,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_28": {
+    "exam_id": "翰林_113_未知國小_期中考",
+    "illegal_codes": "0/130",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank28.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_113_未知國小_期中考.json",
+    "finished_at": "2026-05-16T10:43:48.605Z",
+    "validation_layer1": {
+      "questions_count": 97,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  },
+  "rank_29": {
+    "exam_id": "翰林_?_未知_期末考",
+    "illegal_codes": "0/75",
+    "log": "scripts/orchestrator-logs/JOB-236-full-A-rank29.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_自然_翰林/翰林_?_未知_期末考.json",
+    "finished_at": "2026-05-16T10:51:31.911Z",
+    "validation_layer1": {
+      "questions_count": 43,
+      "summary_total_match": true,
+      "confidence_legal": true,
+      "reason_nonempty": true,
+      "empty_reason_count": 0
+    }
+  }
+}
