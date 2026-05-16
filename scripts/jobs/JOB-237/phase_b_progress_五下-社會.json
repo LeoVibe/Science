@@ -1,0 +1,152 @@
+{
+  "started_at": "2026-05-16T18:39:21.051463Z",
+  "subject": "五下_社會",
+  "completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "failed": [],
+  "running": null,
+  "rank_1": {
+    "exam_id": "南一_108_湖北國小_第一次段考",
+    "questions": "65",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank1.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_108_湖北國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:46:28.557Z"
+  },
+  "rank_2": {
+    "exam_id": "南一_108_舊館國小_第二次段考",
+    "questions": "62",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank2.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_108_舊館國小_第二次段考.json",
+    "finished_at": "2026-05-16T18:51:41.051Z"
+  },
+  "rank_3": {
+    "exam_id": "南一_111_草港國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank3.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_111_草港國小_第二次段考.json",
+    "finished_at": "2026-05-16T18:53:45.911Z"
+  },
+  "rank_4": {
+    "exam_id": "南一_112_臺南市和順國小_期末考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank4.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_112_臺南市和順國小_期末考.json",
+    "finished_at": "2026-05-16T18:55:36.464Z"
+  },
+  "rank_5": {
+    "exam_id": "康軒_108_新生國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank5.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_新生國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:57:25.170Z"
+  },
+  "rank_6": {
+    "exam_id": "康軒_108_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank6.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:59:26.049Z"
+  },
+  "rank_7": {
+    "exam_id": "康軒_108_草港國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank7.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_草港國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:01:28.586Z"
+  },
+  "rank_8": {
+    "exam_id": "康軒_109_新生國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank8.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_109_新生國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:03:38.041Z"
+  },
+  "rank_9": {
+    "exam_id": "康軒_110_田心國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank9.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_110_田心國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:05:45.673Z"
+  },
+  "rank_10": {
+    "exam_id": "康軒_110_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank10.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_110_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:07:52.850Z"
+  },
+  "rank_11": {
+    "exam_id": "康軒_111_內安國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank11.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_111_內安國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:09:58.495Z"
+  },
+  "rank_12": {
+    "exam_id": "康軒_112_四維國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank12.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_112_四維國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:12:14.838Z"
+  },
+  "rank_13": {
+    "exam_id": "康軒_113_02第一次評量五年級社會科評量試卷_未知",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank13.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_02第一次評量五年級社會科評量試卷_未知.json",
+    "finished_at": "2026-05-16T19:14:25.924Z"
+  },
+  "rank_14": {
+    "exam_id": "康軒_113_02第二次評量五年級社會科評量答案卷_未知",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank14.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_02第二次評量五年級社會科評量答案卷_未知.json",
+    "finished_at": "2026-05-16T19:16:53.040Z"
+  },
+  "rank_15": {
+    "exam_id": "康軒_113_未知國小_期中考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank15.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_未知國小_期中考.json",
+    "finished_at": "2026-05-16T19:18:36.541Z"
+  },
+  "rank_16": {
+    "exam_id": "康軒_113_未知國小_期末考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank16.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_未知國小_期末考.json",
+    "finished_at": "2026-05-16T19:20:23.127Z"
+  },
+  "rank_17": {
+    "exam_id": "翰林_108_員林國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank17.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_翰林/翰林_108_員林國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:22:42.761Z"
+  },
+  "rank_18": {
+    "exam_id": "翰林_113_2五年級社會期中考卷解答_期中考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-社會-rank18.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_翰林/翰林_113_2五年級社會期中考卷解答_期中考.json",
+    "finished_at": "2026-05-16T19:25:10.404Z"
+  }
+}

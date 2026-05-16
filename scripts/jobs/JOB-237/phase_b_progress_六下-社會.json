@@ -1,0 +1,119 @@
+{
+  "started_at": "2026-05-16T18:39:21.051463Z",
+  "subject": "六下_社會",
+  "completed": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "failed": [],
+  "running": null,
+  "rank_27": {
+    "exam_id": "南一_112_臺南市和順國小_期中考",
+    "questions": "0",
+    "finished_at": "2026-05-16T18:39:21.051463Z",
+    "note": "ocr_repair_empty_content"
+  },
+  "rank_28": {
+    "exam_id": "南一_113_02第二次評量六年級社會科評量試卷_未知",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank28.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_113_02第二次評量六年級社會科評量試卷_未知.json",
+    "finished_at": "2026-05-16T18:41:54.006Z"
+  },
+  "rank_29": {
+    "exam_id": "南一_113_未知國小_期末考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank29.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_113_未知國小_期末考.json",
+    "finished_at": "2026-05-16T18:43:45.793Z"
+  },
+  "rank_30": {
+    "exam_id": "康軒_108_三條國小_第一次段考",
+    "questions": "57",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank30.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_三條國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:51:15.042Z"
+  },
+  "rank_31": {
+    "exam_id": "康軒_108_三條國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank31.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_三條國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:16:15.717Z"
+  },
+  "rank_32": {
+    "exam_id": "康軒_108_內安國小_第一次段考",
+    "questions": "38",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank32.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_內安國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:24:58.962Z"
+  },
+  "rank_33": {
+    "exam_id": "康軒_108_成功國小_第二次段考",
+    "questions": "50",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank33.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_成功國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:31:57.782Z"
+  },
+  "rank_34": {
+    "exam_id": "康軒_108_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank34.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:33:57.742Z"
+  },
+  "rank_35": {
+    "exam_id": "康軒_108_草港國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank35.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_草港國小_第二次段考.json",
+    "finished_at": "2026-05-16T19:36:24.651Z"
+  },
+  "rank_36": {
+    "exam_id": "康軒_109_新生國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank36.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_109_新生國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:38:51.184Z"
+  },
+  "rank_37": {
+    "exam_id": "康軒_109_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank37.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_109_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:41:12.262Z"
+  },
+  "rank_38": {
+    "exam_id": "康軒_110_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank38.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_110_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:43:31.752Z"
+  },
+  "rank_39": {
+    "exam_id": "翰林_111_內安國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank39.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_翰林/翰林_111_內安國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:45:21.473Z"
+  },
+  "rank_40": {
+    "exam_id": "翰林_112_太平國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-六下-社會-rank40.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_翰林/翰林_112_太平國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:47:17.370Z"
+  }
+}

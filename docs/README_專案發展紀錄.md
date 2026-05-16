@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-16 23:25
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-236 結案——六下_自然 91 份 L2 抽取完成，7182 題/10343 codes，編碼合法率 100%，Phase C/D 完成）
+`last_updated`: 2026-05-17 04:10
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-237 結案——全科目 95 份 extract_failed MD 修復 + 社會/自然 40 份 L2 補抽，6 份有效（333 題），三科驗證 0 違規）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-17
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-237 | **全科目 95 份 extract_failed MD 修復 + 社會/自然 L2 補抽**：Phase A 以 textutil（19 份 .doc）+ ocrmac macOS Vision OCR（75 份掃描 PDF）+ 混合（1 份）修復散落於五下/六下/三下共 95 份 extract_failed 整合 MD，quality_flags 全數加 `repaired`，0 失敗。Phase B 對 五下_社會（18）+ 五下_自然（8）+ 六下_社會（14）共 40 份補抽 L2 JSON（Codex gpt-5.5 並行 3 科），其中 6 份有實際題目（333 題），34 份 OCR 品質不足回傳 `questions: []`（合理結果）。Phase C 三科 B_validate 重跑，五下_社會 117 / 五下_自然 118 / 六下_社會 118 份全數 0 違規。遺留：國語/數學/英語 55 份 L2 待各科 codes 建立後補抽；34 份空殼可嘗試更高解析度 OCR 重試。見 `jobs/JOB-237-Report.md` | 🟢 DONE |
 
 ### 2026-05-16
 | JOB | 簡述 | 狀態 |

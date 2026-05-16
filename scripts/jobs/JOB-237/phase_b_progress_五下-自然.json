@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-05-16T18:39:21.051463Z",
+  "subject": "五下_自然",
+  "completed": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "failed": [],
+  "running": null,
+  "rank_19": {
+    "exam_id": "南一_108_伸東國小_第二次段考",
+    "questions": "0",
+    "finished_at": "2026-05-16T18:39:21.051463Z",
+    "note": "ocr_repair_empty_content"
+  },
+  "rank_20": {
+    "exam_id": "南一_108_大園國小_第二次段考",
+    "questions": "61",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank20.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_大園國小_第二次段考.json",
+    "finished_at": "2026-05-16T18:47:20.947Z"
+  },
+  "rank_21": {
+    "exam_id": "南一_108_新生國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank21.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_新生國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:49:35.154Z"
+  },
+  "rank_22": {
+    "exam_id": "南一_109_新生國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank22.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_109_新生國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:51:29.657Z"
+  },
+  "rank_23": {
+    "exam_id": "康軒_108_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank23.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_108_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:53:51.764Z"
+  },
+  "rank_24": {
+    "exam_id": "康軒_109_草港國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank24.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_109_草港國小_第一次段考.json",
+    "finished_at": "2026-05-16T18:55:55.483Z"
+  },
+  "rank_25": {
+    "exam_id": "康軒_112_草港國小_第二次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank25.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_112_草港國小_第二次段考.json",
+    "finished_at": "2026-05-16T18:58:14.382Z"
+  },
+  "rank_26": {
+    "exam_id": "翰林_108_青山國小_第一次段考",
+    "questions": "0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-五下-自然-rank26.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_翰林/翰林_108_青山國小_第一次段考.json",
+    "finished_at": "2026-05-16T19:00:13.921Z"
+  }
+}

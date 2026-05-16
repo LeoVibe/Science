@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-05-16T18:34:29Z",
+  "completed": [
+    27,
+    19
+  ],
+  "failed": [],
+  "running": {
+    "rank": 20,
+    "exam_id": "南一_108_大園國小_第二次段考",
+    "subject": "五下_自然",
+    "started_at": "2026-05-16T18:36:48.964Z"
+  },
+  "rank_27": {
+    "exam_id": "南一_112_臺南市和順國小_期中考",
+    "subject": "六下_社會",
+    "questions": 0,
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-rank27.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_112_臺南市和順國小_期中考.json",
+    "finished_at": "2026-05-16T18:36:47.678Z"
+  },
+  "rank_19": {
+    "exam_id": "南一_108_伸東國小_第二次段考",
+    "subject": "五下_自然",
+    "questions": 0,
+    "illegal_codes": "0/0",
+    "log": "scripts/orchestrator-logs/JOB-237-phaseB-rank19.log",
+    "output": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_伸東國小_第二次段考.json",
+    "finished_at": "2026-05-16T18:36:48.691Z"
+  }
+}

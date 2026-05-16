@@ -1,0 +1,365 @@
+{
+  "total": 40,
+  "targets": [
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "南一_108_湖北國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_南一/南一_108_湖北國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_108_湖北國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "南一_108_舊館國小_第二次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_南一/南一_108_舊館國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_108_舊館國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "南一_111_草港國小_第二次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_南一/南一_111_草港國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_111_草港國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "南一_112_臺南市和順國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_南一/南一_112_臺南市和順國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_南一/南一_112_臺南市和順國小_期末考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_108_新生國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_108_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_新生國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_108_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_108_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_108_草港國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_108_草港國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_108_草港國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_109_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_109_新生國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_110_田心國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_110_田心國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_110_田心國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_110_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_110_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_110_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_111_內安國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_111_內安國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_111_內安國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_112_四維國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_112_四維國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_112_四維國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_113_02第一次評量五年級社會科評量試卷_未知",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_113_02第一次評量五年級社會科評量試卷_未知.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_02第一次評量五年級社會科評量試卷_未知.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_113_02第二次評量五年級社會科評量答案卷_未知",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_113_02第二次評量五年級社會科評量答案卷_未知.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_02第二次評量五年級社會科評量答案卷_未知.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_113_未知國小_期中考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_113_未知國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_未知國小_期中考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "康軒_113_未知國小_期末考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_康軒/康軒_113_未知國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_康軒/康軒_113_未知國小_期末考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "翰林_108_員林國小_第二次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_翰林/翰林_108_員林國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_翰林/翰林_108_員林國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_社會",
+      "a1_template": "scripts/jobs/JOB-232/A1_pilot_prompt_template_social_g5.md",
+      "exam_id": "翰林_113_2五年級社會期中考卷解答_期中考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_社會_翰林/翰林_113_2五年級社會期中考卷解答_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_社會_翰林/翰林_113_2五年級社會期中考卷解答_期中考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "南一_108_伸東國小_第二次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_南一/南一_108_伸東國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_伸東國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "南一_108_大園國小_第二次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_南一/南一_108_大園國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_大園國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "南一_108_新生國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_南一/南一_108_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_108_新生國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "南一_109_新生國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_南一/南一_109_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_南一/南一_109_新生國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "康軒_108_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_康軒/康軒_108_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_108_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "康軒_109_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_康軒/康軒_109_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_109_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "康軒_112_草港國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_康軒/康軒_112_草港國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_康軒/康軒_112_草港國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "五下_自然",
+      "a1_template": "scripts/jobs/JOB-233/A1_pilot_prompt_template_natural_g5.md",
+      "exam_id": "翰林_108_青山國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/五下/五下_自然_翰林/翰林_108_青山國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/五下/五下_自然_翰林/翰林_108_青山國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "南一_112_臺南市和順國小_期中考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_南一/南一_112_臺南市和順國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_112_臺南市和順國小_期中考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "南一_113_02第二次評量六年級社會科評量試卷_未知",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_南一/南一_113_02第二次評量六年級社會科評量試卷_未知.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_113_02第二次評量六年級社會科評量試卷_未知.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "南一_113_未知國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_南一/南一_113_未知國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_南一/南一_113_未知國小_期末考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_三條國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_三條國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_三條國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_三條國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_三條國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_三條國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_內安國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_內安國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_內安國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_成功國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_成功國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_成功國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_108_草港國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_108_草港國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_108_草港國小_第二次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_109_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_109_新生國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_109_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_109_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_109_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "康軒_110_草港國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_康軒/康軒_110_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_康軒/康軒_110_草港國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "翰林_111_內安國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_翰林/翰林_111_內安國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_翰林/翰林_111_內安國小_第一次段考.json",
+      "l2_exists": true
+    },
+    {
+      "subject_group": "六下_社會",
+      "a1_template": "scripts/jobs/JOB-235/A1_pilot_prompt_template_social_g6.md",
+      "exam_id": "翰林_112_太平國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/六下/六下_社會_翰林/翰林_112_太平國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/六下/六下_社會_翰林/翰林_112_太平國小_第一次段考.json",
+      "l2_exists": true
+    }
+  ]
+}
