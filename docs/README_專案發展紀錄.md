@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-17 04:10
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-237 結案——全科目 95 份 extract_failed MD 修復 + 社會/自然 40 份 L2 補抽，6 份有效（333 題），三科驗證 0 違規）
+`last_updated`: 2026-05-18 00:00
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-238 結案——四下_國語 考古題 L2 結構化抽取完成，首次使用 chinese_codes_legal_II.json）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-18
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-238 | **四下_國語 考古題 L2 結構化抽取 115/115 份完成（codex 三 worker 並行跑 ~10.4hr）**：首次建立 `chinese_codes_legal_II.json`（61 codes 第Ⅱ學習階段：30 學習表現 `{數字}-Ⅱ-{數字}` + 31 學習內容 `{大寫字母}-Ⅱ-{數字}`），將四下_國語三版本（翰林 41 / 康軒 49 / 南一 31）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 115 份 + 黃金 1（Claude 親做 43 題）+ Pilot 5（100% 合法）共 **121 份 / 7562 題 / 14537 codes / 編碼合法率 100%**（A=0/B=0/C=0，clean=121）。黃金樣本（翰林_108_永光國小_第三次段考）21 distinct codes，top codes 4-Ⅱ-7×15 / 3-Ⅱ-2×12 / Bb-Ⅱ-2×9。Phase C 三版本 _L2_summary.md（翰林 440 / 康軒 420 / 南一 434 行）+ 整合 MD（124 行，7562 題）完成。技術筆記：C/D 模板繼承 JOB-236 六下路徑殘留 bug（`六下/四下_國語`→`四下/四下_國語`），修正後正常；D 模板 misconception 章節不適用國語科改為題型分布；Phase 5 全程 3 workers idle 率 0，無 failed。遺留：三下/五下/六下國語 L2 可循此骨架開 JOB。見 `jobs/JOB-238-Report.md` | 🟢 DONE |
 
 ### 2026-05-17
 | JOB | 簡述 | 狀態 |

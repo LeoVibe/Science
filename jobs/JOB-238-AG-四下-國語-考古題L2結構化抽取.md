@@ -91,10 +91,10 @@
 ## ✅ 啟動 Checklist (Pre-Flight)
 
 - [x] `chinese_codes_legal_II.json` 建立完成（61 codes：30 performance + 31 content）
-- [ ] JOB-236 Report 已讀（最新骨架 + stdin pipe fix）
-- [ ] 四下_國語 整合 MD 121 份確認（翰林 41 + 康軒 49 + 南一 31）
-- [ ] `scripts/jobs/JOB-238/` 腳本路徑/參數已更新（B/A4/A1 三檔）
-- [ ] 黃金樣本路徑：`四下_國語_翰林/` 下主流試卷存在且 paper_full+answer_full
+- [x] JOB-236 Report 已讀（最新骨架 + stdin pipe fix）
+- [x] 四下_國語 整合 MD 121 份確認（翰林 41 + 康軒 49 + 南一 31）
+- [x] `scripts/jobs/JOB-238/` 腳本路徑/參數已更新（B/A4/A1 三檔）—— A4 dry-run OK（115份，A=39/B=38/C=38）
+- [x] 黃金樣本路徑：`翰林_108_永光國小_第三次段考.md`（paper_full+answer_full+codex_only+ocr_corrected）
 - [ ] 預算：ChatGPT 訂閱（無單次計費）
 - [ ] 已確認執行模型：Codex CLI gpt-5.5（worker）+ Claude Sonnet 4.6（PM 親做）
 
@@ -140,7 +140,7 @@
 | 子任務 / 階段 | 開始時間 | 結束時間 | 耗時（分鐘） | 備註 |
 |:--|:--|:--|:--|:--|
 | Phase 0.0 chinese_codes_legal_II.json | 2026-05-17 00:00 | 2026-05-17 00:05 | ~5 min | Claude inline extraction，61 codes |
-| Phase 0.1 腳本更新 | — | — | — | — |
+| Phase 0.1 腳本更新 | 2026-05-17 05:00 | 2026-05-17 05:30 | ~30 min | fork JOB-236 → JOB-238，B/A4/A1 三檔完成，A4 dry-run 115份 OK |
 | Phase 0.2 黃金樣本 | — | — | — | — |
 | Phase 0.3 Pilot 5 | — | — | — | — |
 | Phase 5 全量 115 | — | — | — | 並行 3 worker |

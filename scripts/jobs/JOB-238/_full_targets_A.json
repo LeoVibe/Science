@@ -1,0 +1,547 @@
+{
+  "_meta": {
+    "phase": "JOB-238 Phase 5 - 全量 worker A",
+    "worker": "A",
+    "created_at": "2026-05-17T10:19:35.187595+08:00",
+    "total": 39,
+    "purpose": "JOB-238 Phase 5 派 codex worker A 跑（總 115 份分 A/B/C 三 worker）"
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "global_rank": 1,
+      "exam_id": "南一_108_四維國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_108_四維國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_108_四維國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 2,
+      "global_rank": 4,
+      "exam_id": "南一_108_草港國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_108_草港國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_108_草港國小_第一次段考.json",
+      "quality_flags": [
+        "ocr_used",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 3,
+      "global_rank": 7,
+      "exam_id": "南一_111_勝利國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_111_勝利國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_111_勝利國小_期末考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected",
+        "columns_reordered",
+        "alias_dedup"
+      ]
+    },
+    {
+      "rank": 4,
+      "global_rank": 10,
+      "exam_id": "南一_111_廣興國小_第一次段考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_111_廣興國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_111_廣興國小_第一次段考.json",
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 5,
+      "global_rank": 13,
+      "exam_id": "南一_111_新北安和國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_111_新北安和國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_111_新北安和國小_期末考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "dual_source_merged",
+        "codex_primary",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 6,
+      "global_rank": 16,
+      "exam_id": "南一_112_2新北桃子腳國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_112_2新北桃子腳國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_112_2新北桃子腳國小_期末考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 7,
+      "global_rank": 19,
+      "exam_id": "南一_112_新北桃子腳國小_期末考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_112_新北桃子腳國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_112_新北桃子腳國小_期末考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 8,
+      "global_rank": 22,
+      "exam_id": "南一_113_02第一次評量四年級國語科評量試卷_未知",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_113_02第一次評量四年級國語科評量試卷_未知.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_113_02第一次評量四年級國語科評量試卷_未知.json",
+      "quality_flags": [
+        "ocr_used",
+        "answer_empty",
+        "claude_only"
+      ]
+    },
+    {
+      "rank": 9,
+      "global_rank": 25,
+      "exam_id": "南一_113_未知國小_期中考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_113_未知國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_113_未知國小_期中考.json",
+      "quality_flags": [
+        "ocr_used",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 10,
+      "global_rank": 28,
+      "exam_id": "南一_?_未知_期中考",
+      "publisher": "南一",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_南一/南一_?_未知_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_南一/南一_?_未知_期中考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 11,
+      "global_rank": 31,
+      "exam_id": "康軒_108_三條國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_108_三條國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_108_三條國小_第一次段考.json",
+      "quality_flags": [
+        "docx_extracted",
+        "docx_extracted",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 12,
+      "global_rank": 34,
+      "exam_id": "康軒_108_大園國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_108_大園國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_108_大園國小_第一次段考.json",
+      "quality_flags": [
+        "docx_extracted",
+        "docx_extracted",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 13,
+      "global_rank": 37,
+      "exam_id": "康軒_108_成功國小_第三次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_108_成功國小_第三次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_108_成功國小_第三次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 14,
+      "global_rank": 40,
+      "exam_id": "康軒_108_海佃國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_108_海佃國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_108_海佃國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 15,
+      "global_rank": 43,
+      "exam_id": "康軒_108_舊館國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_108_舊館國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_108_舊館國小_第二次段考.json",
+      "quality_flags": [
+        "docx_extracted",
+        "docx_extracted",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 16,
+      "global_rank": 46,
+      "exam_id": "康軒_109_大園國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_109_大園國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_109_大園國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 17,
+      "global_rank": 49,
+      "exam_id": "康軒_109_安和國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_109_安和國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_109_安和國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 18,
+      "global_rank": 52,
+      "exam_id": "康軒_110_新生國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_110_新生國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_110_新生國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 19,
+      "global_rank": 55,
+      "exam_id": "康軒_110_湳雅國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_110_湳雅國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_110_湳雅國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 20,
+      "global_rank": 58,
+      "exam_id": "康軒_111_內安國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_111_內安國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_111_內安國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 21,
+      "global_rank": 61,
+      "exam_id": "康軒_111_成功國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_111_成功國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_111_成功國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 22,
+      "global_rank": 64,
+      "exam_id": "康軒_111_舊館國小_第一次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_111_舊館國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_111_舊館國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 23,
+      "global_rank": 67,
+      "exam_id": "康軒_112_四維國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_112_四維國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_112_四維國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 24,
+      "global_rank": 70,
+      "exam_id": "康軒_112_安和國小_期末考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_112_安和國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_112_安和國小_期末考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ]
+    },
+    {
+      "rank": 25,
+      "global_rank": 73,
+      "exam_id": "康軒_112_成功國小_第二次段考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_112_成功國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_112_成功國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 26,
+      "global_rank": 76,
+      "exam_id": "康軒_?_未知_期中考",
+      "publisher": "康軒",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_康軒/康軒_?_未知_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_康軒/康軒_?_未知_期中考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 27,
+      "global_rank": 79,
+      "exam_id": "翰林_108_內安國小_第二次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_108_內安國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_108_內安國小_第二次段考.json",
+      "quality_flags": [
+        "ocr_used",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 28,
+      "global_rank": 82,
+      "exam_id": "翰林_108_東芳國小_第二次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_108_東芳國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_108_東芳國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 29,
+      "global_rank": 85,
+      "exam_id": "翰林_108_田中國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_108_田中國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_108_田中國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 30,
+      "global_rank": 88,
+      "exam_id": "翰林_109_海佃國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_109_海佃國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_109_海佃國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 31,
+      "global_rank": 91,
+      "exam_id": "翰林_111_安和國小_期中考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_111_安和國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_111_安和國小_期中考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ]
+    },
+    {
+      "rank": 32,
+      "global_rank": 94,
+      "exam_id": "翰林_111_新北安和國小_期末考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_111_新北安和國小_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_111_新北安和國小_期末考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 33,
+      "global_rank": 97,
+      "exam_id": "翰林_112_2_期末考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_112_2_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_112_2_期末考.json",
+      "quality_flags": [
+        "paper_empty",
+        "answer_empty",
+        "claude_only"
+      ]
+    },
+    {
+      "rank": 34,
+      "global_rank": 100,
+      "exam_id": "翰林_112_中山國小_第一次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_112_中山國小_第一次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_112_中山國小_第一次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_full",
+        "codex_only"
+      ]
+    },
+    {
+      "rank": 35,
+      "global_rank": 103,
+      "exam_id": "翰林_112_未知_期中考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_112_未知_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_112_未知_期中考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ]
+    },
+    {
+      "rank": 36,
+      "global_rank": 106,
+      "exam_id": "翰林_112_田中國小_第二次段考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_112_田中國小_第二次段考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_112_田中國小_第二次段考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_partial",
+        "codex_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 37,
+      "global_rank": 109,
+      "exam_id": "翰林_113_2_期末考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_113_2_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_113_2_期末考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_empty",
+        "claude_only",
+        "ocr_corrected"
+      ]
+    },
+    {
+      "rank": 38,
+      "global_rank": 112,
+      "exam_id": "翰林_113_未知國小_期中考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_113_未知國小_期中考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_113_未知國小_期中考.json",
+      "quality_flags": [
+        "paper_full",
+        "answer_empty",
+        "codex_only",
+        "ocr_corrected",
+        "columns_reordered"
+      ]
+    },
+    {
+      "rank": 39,
+      "global_rank": 115,
+      "exam_id": "翰林_?_未知_期末考",
+      "publisher": "翰林",
+      "md_path": "knowledge/3_考古題/2_MD淬鍊文字_整合版/四下/四下_國語_翰林/翰林_?_未知_期末考.md",
+      "output_path": "knowledge/3_考古題/3_L2_結構化抽取/四下/四下_國語_翰林/翰林_?_未知_期末考.json",
+      "quality_flags": [
+        "paper_partial",
+        "answer_partial",
+        "claude_only",
+        "ocr_corrected"
+      ]
+    }
+  ]
+}
