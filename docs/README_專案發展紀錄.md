@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-18 00:00
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-238 結案——四下_國語 考古題 L2 結構化抽取完成，首次使用 chinese_codes_legal_II.json）
+`last_updated`: 2026-05-18 18:25
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-239 結案——三下_國語 考古題 L2 結構化抽取完成，reuse chinese_codes_legal_II.json，G3-G4 國語 L2 雙連發完成）
 
 ---
 
@@ -33,6 +33,7 @@
 ### 2026-05-18
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-239 | **三下_國語 考古題 L2 結構化抽取 108/108 份完成（codex 三 worker 並行跑 ~10hr）**：延續 JOB-238（四下_國語）骨架擴展至三下_國語，**reuse `chinese_codes_legal_II.json`（61 codes 第Ⅱ階段同階段）**。將三下_國語三版本（翰林 37 / 康軒 41 / 南一 36）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 108 份 + 黃金 1（Claude 親做 67 題）+ Pilot 5 共 **114 份 / 4888 題 / 8441 codes / 編碼合法率 100%**（A=0/B=0/C=0，clean=114）。黃金樣本（翰林_108_國姓國小_第一次段考）涵蓋國語 5 種題型：fill_blank(25)/multiple_choice(20)/true_false(12)/short_answer(6)/reading_comp(4)，21 distinct codes，top: 4-Ⅱ-5(27)/Ab-Ⅱ-9(21)。Phase C 三版本 _L2_summary.md（翰林 893 / 康軒 378 / 南一 437 行）+ 整合 MD（122 行）完成。技術筆記：Pilot 5 中 1 份（康軒_108_中正國小_第一次段考，含 columns_reordered）codex hung 46min 無 log 寫入，與 JOB-236 完全相同症狀，kill 後 stdin pipe 重跑 ~5min 成功。**意義：證實 JOB-238 國語 L2 骨架可移植至同階段其他年級，G3-G4 國語 L2 雙連發完成，剩 G5/G6 待第Ⅲ階段 codes 建立後可一氣呵成**。見 `jobs/JOB-239-Report.md` | 🟢 DONE |
 | JOB-238 | **四下_國語 考古題 L2 結構化抽取 115/115 份完成（codex 三 worker 並行跑 ~10.4hr）**：首次建立 `chinese_codes_legal_II.json`（61 codes 第Ⅱ學習階段：30 學習表現 `{數字}-Ⅱ-{數字}` + 31 學習內容 `{大寫字母}-Ⅱ-{數字}`），將四下_國語三版本（翰林 41 / 康軒 49 / 南一 31）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 115 份 + 黃金 1（Claude 親做 43 題）+ Pilot 5（100% 合法）共 **121 份 / 7562 題 / 14537 codes / 編碼合法率 100%**（A=0/B=0/C=0，clean=121）。黃金樣本（翰林_108_永光國小_第三次段考）21 distinct codes，top codes 4-Ⅱ-7×15 / 3-Ⅱ-2×12 / Bb-Ⅱ-2×9。Phase C 三版本 _L2_summary.md（翰林 440 / 康軒 420 / 南一 434 行）+ 整合 MD（124 行，7562 題）完成。技術筆記：C/D 模板繼承 JOB-236 六下路徑殘留 bug（`六下/四下_國語`→`四下/四下_國語`），修正後正常；D 模板 misconception 章節不適用國語科改為題型分布；Phase 5 全程 3 workers idle 率 0，無 failed。遺留：三下/五下/六下國語 L2 可循此骨架開 JOB。見 `jobs/JOB-238-Report.md` | 🟢 DONE |
 
 ### 2026-05-17
