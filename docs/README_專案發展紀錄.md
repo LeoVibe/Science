@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-19 12:30
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-240 結案——五下_國語 考古題 L2 結構化抽取完成，新建 chinese_codes_legal_III.json 65 條，G3-G5 國語 L2 三連發完成）
+`last_updated`: 2026-05-20 08:30
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-241 結案——六下_國語 考古題 L2 結構化抽取完成，**G3-G6 國語 L2 系列全齊**：440 份/28538 題/100% 合法率）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-20
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-241 | **六下_國語 考古題 L2 結構化抽取 84/84 份完成（codex 三 worker 並行跑 ~9.6hr）+ G3-G6 國語 L2 系列全齊** 🎉：延續 JOB-238/239/240，補完最後一塊 六下_國語。**chinese_codes_legal_III.json 直接 reuse**（JOB-240 產出）。將六下_國語三版本（翰林 26 / 康軒 21 / 南一 43）整合 MD 抽取為 schema v1.0 JSON。Phase 5 全量 84 份 + 黃金 1（Claude 親做 71 題，國語系列最多）+ Pilot 5 共 **90 份 / 6403 題 / 12871 codes / 編碼合法率 100%**（A=0/B=0/C=0，clean=90）。黃金樣本（翰林_109_內安國小_第一次段考）4 種題型，20 distinct codes，top: 4-Ⅲ-1(27)/Ab-Ⅲ-2(27)。Phase C 三版本 _L2_summary.md（翰林 511 / 康軒 393 / 南一 389 行）+ 整合 MD（150 行）完成。技術筆記：(1) Pilot dispatcher 啟動指令誤用 `\| head -1` 截斷 stdout 觸發 SIGPIPE，dispatcher 提前死亡只跑 3/5；補跑剩 2 份用 stdin pipe 解決；**教訓記入：背景啟動 dispatcher 禁用 head/tail 截斷 stdout**。**🎯 里程碑**：G3-G6 國語 L2 全齊 — JOB-238(四下 121)+JOB-239(三下 114)+JOB-240(五下 115)+JOB-241(六下 90) = **440 份 / 28,538 題 / 100% 合法率**，chinese_codes_legal_II/III.json 雙 codes 完備，骨架經 4 JOB 驗證可作為其他科目 L2 抽取的成熟參考。見 `jobs/JOB-241-Report.md` | 🟢 DONE |
 
 ### 2026-05-19
 | JOB | 簡述 | 狀態 |
