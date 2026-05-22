@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-23 02:35
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-244 結案——五下_國語 L3 對齊機制第二次擴展驗證完成，30 試卷/1682 題/91.2% pass+8.8% pass_with_caveat/0 reject，五下三家同步 111→112 改版，含 5 條「閱讀測驗外部選文用舊版課文」codex 正確識別）
+`last_updated`: 2026-05-23 04:55
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-245 結案——六下_國語 L3 對齊完成，**G3-G6 國語 L3 對齊全套達成**：180 試卷/8439 題/122/144 KL3 課次覆蓋/平均 90.2% pass/0 reject。spec v1.1 經四個 cell 驗證跨年級可規模化）
 
 ---
 
@@ -33,6 +33,7 @@
 ### 2026-05-23
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-245 | **六下_國語 L3 對齊完成 — G3-G6 國語 L3 對齊全套達成** 🎯：JOB-244 後接做六下完成 G3-G6 國語完整套件。**最終 51 試卷 / 2,603 題（current 範圍）/ 15/33 KL3 課次覆蓋 / 85.2% pass + 14.8% pass_with_caveat / 0 reject**。Phase 0 三家改版年份**各自不同**（翰林 111→112、康軒無改版、南一 108→109）— 不同於三下/四下/五下任一模式。**六下試卷大量使用古文/外部選文**（過故人莊/小時了了/科學怪人/未走之路/巨人的階梯/清平樂村居/春等），codex 對 359 條正確標 version_match=unknown 不誤對齊到 KL4（spec v1.1 機制再次正確處理「課外素材」場景）。**G3-G6 國語 L3 對齊全套統計**：JOB-242/243/244/245 共 **180 試卷 / 8,439 題 / 122/144 KL3 課次覆蓋 / 平均 90.2% pass**。**🎯 里程碑**：spec v1.1 經四個 cell 連續驗證跨年級可規模化，**從「Pilot 工程化」邁向「規模化部署」**。下一步：自然/社會 cells 機制設計（無 RC-01）。見 `jobs/JOB-245-Report.md` | 🟢 DONE |
 | JOB-244 | **五下_國語 L3 對齊機制第二次擴展驗證完成 — spec v1.1 reuse 規模化證明** 🎯：JOB-243 後接續做五下_國語。**最終 30 試卷 / 1,682 題 / 36/36 KL3 課次覆蓋（100%）/ 91.2% pass + 8.8% pass_with_caveat / 0 reject**（原 109 份扣 72 舊版 + 7 空檔）。**重大發現**：五下三家**同步 111→112 改版**（與三下/四下都不同的新模式），rc01_evidence 比例 78.5%（三個 cell 最高，題幹引用課文細節最深），R1 顯式引用比例 85.9%。Phase 0 已於 JOB-243 期間預先驗證完成。**spec v1.1 機制正確性的勝利證據**：翰林五下 112 試卷 Q6.1/Q6.2 引用 111 年「美麗的溫哥華」當閱讀測驗外部選文，codex 完美處理（version_match=legacy + legacy_lesson_title + general_type=閱讀測驗_舊版課文 + kl4_links=[]，不誤對齊）— 不只處理試卷年份差，還處理「試卷內混合使用」場景。Phase 1 codex 3 worker 並行跑 ~54 min，Pilot 5 + 全量 25 共 35 次 codex，0 失敗。Phase 2 普查 1682 題 0 reject 0 pending，pass_with_caveat 比例 8.8% 優於 JOB-243（12.3%）。**🎯 里程碑**：L3 對齊機制經 JOB-242→243→244 三個 cell 連續驗證，**從「Pilot」邁向「規模化」**，spec v1.1 在不同年級不同改版時序下都成立。下一步 JOB-245 六下_國語 + 自然/社會無 RC-01 機制設計。見 `jobs/JOB-244-Report.md` | 🟢 DONE |
 | JOB-243 | **三下_國語 L3 對齊機制擴展驗證完成 — spec v1.1 reuse 首次成功** 🎯：reuse JOB-242 spec v1.1 機制做 三下_國語。**最終 45 試卷 / 1,794 題 / 36-39 KL3 課次覆蓋 / 87.7% pass + 12.3% pass_with_caveat / 0 reject**（原 108 份扣 56 舊版 + 7 空檔/未跑）。Phase 0 驗證**三下三版本改版年份**（翰林 111→112 / 康軒 110→111 / 南一 110→111，**與四下完全不同**，證明「改版年份不同年級不同」必須單獨驗證），三下舊版獨有課文：清明(杜牧)/追風車隊/蚊子博士，spec v1.1 §3.5 已補三下三版本表。Phase 1 codex 3 worker 並行跑 ~1.9 hr（含 reboot 25 min 暫停，A3 SKIP 機制驗證 reboot 後續跑 0 數據丟失）。Phase 2 普查 1794 題自動分流：87.7% pass + 12.3% pass_with_caveat（lesson_title 字串標準化 / R1 evidence 在選項 / R2 medium 課名 substring / R3 含 KL4 keyword 但屬通用題型），對齊全部合理。Phase 3 產出 D KL3 覆蓋報告 + E KL4 教學示例。**🎯 里程碑**：L3 對齊機制經 JOB-243 首次擴展驗證，從「Pilot 工程化」邁向「跨年級可規模化」，下一步 JOB-244 五下_國語 + JOB-245 六下_國語（Phase 0 已預先完成五下三版本改版判定：三家 111→112 一致）。見 `jobs/JOB-243-Report.md` | 🟢 DONE |
 
