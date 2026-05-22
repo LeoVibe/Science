@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-22 20:30
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-242 結案——四下_國語 L3 對齊機制 Pilot 完成，54 試卷/2360 題/96.5% pass/0 reject，spec v1.1 含學年版本識別，可 reuse 推 G3/G5/G6 國語）
+`last_updated`: 2026-05-23 01:10
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-243 結案——三下_國語 L3 對齊機制擴展驗證完成，45 試卷/1794 題/87.7% pass+12.3% pass_with_caveat/0 reject，spec v1.1 §3.5 補三下三版本表，下一步 JOB-244 五下_國語）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-23
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-243 | **三下_國語 L3 對齊機制擴展驗證完成 — spec v1.1 reuse 首次成功** 🎯：reuse JOB-242 spec v1.1 機制做 三下_國語。**最終 45 試卷 / 1,794 題 / 36-39 KL3 課次覆蓋 / 87.7% pass + 12.3% pass_with_caveat / 0 reject**（原 108 份扣 56 舊版 + 7 空檔/未跑）。Phase 0 驗證**三下三版本改版年份**（翰林 111→112 / 康軒 110→111 / 南一 110→111，**與四下完全不同**，證明「改版年份不同年級不同」必須單獨驗證），三下舊版獨有課文：清明(杜牧)/追風車隊/蚊子博士，spec v1.1 §3.5 已補三下三版本表。Phase 1 codex 3 worker 並行跑 ~1.9 hr（含 reboot 25 min 暫停，A3 SKIP 機制驗證 reboot 後續跑 0 數據丟失）。Phase 2 普查 1794 題自動分流：87.7% pass + 12.3% pass_with_caveat（lesson_title 字串標準化 / R1 evidence 在選項 / R2 medium 課名 substring / R3 含 KL4 keyword 但屬通用題型），對齊全部合理。Phase 3 產出 D KL3 覆蓋報告 + E KL4 教學示例。**🎯 里程碑**：L3 對齊機制經 JOB-243 首次擴展驗證，從「Pilot 工程化」邁向「跨年級可規模化」，下一步 JOB-244 五下_國語 + JOB-245 六下_國語（Phase 0 已預先完成五下三版本改版判定：三家 111→112 一致）。見 `jobs/JOB-243-Report.md` | 🟢 DONE |
 
 ### 2026-05-22
 | JOB | 簡述 | 狀態 |
