@@ -117,3 +117,10 @@ knowledge/1_課綱研究/108課綱研究成果/1_課綱原始檔案/
 # JOB-222 中間產物
 scripts/jobs/JOB-222/raw_html/
 scripts/orchestrator-logs/JOB-222-distill.log
+
+# === pj_memory ===
+# private_memory：本機私有記憶層（敏感試錯、未脫敏脈絡），不進 git
+docs/private_memory/
+# distill 暫存
+docs/project_memory/**/*.tmp
+# === end pj_memory ===

@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-20 08:30
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-241 結案——六下_國語 考古題 L2 結構化抽取完成，**G3-G6 國語 L2 系列全齊**：440 份/28538 題/100% 合法率）
+`last_updated`: 2026-05-22 20:30
+`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-242 結案——四下_國語 L3 對齊機制 Pilot 完成，54 試卷/2360 題/96.5% pass/0 reject，spec v1.1 含學年版本識別，可 reuse 推 G3/G5/G6 國語）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-05-22
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-242 | **四下_國語 L3 對齊機制 Pilot 完成 — Eidos「題庫→課綱對齊診斷物件」分水嶺** 🎯：定義並驗證 L3 對齊 schema v1.1（4 種對齊關係 A/B/C/D + Match Rules R1-R4 + **學年版本識別 version_match**）。**最終 54 試卷 / 2,360 題 / 35-36 KL3 課次覆蓋 / 96.5% pass / 0 reject**（原 121 份扣 50 舊版 + 2 合集 + 10 空檔 + 5 未跑）。Phase 1 codex 3 worker 並行跑 ~1.8 hr，Phase 2 普查複檢 4 批親檢全 pass。**重大設計決策**：Pilot v1.0 跑 5 份後 Claude 親檢發現 KL4（111+ 新版）與 L2 試卷（108-113 跨版本）學年不匹配，翰林 110→111 改版過，spec 升 v1.1 加 `version_match`（current/legacy/shared/unknown）+ 翰林舊版 7 條黑名單，**避開跨版本誤對齊風險**。網路 4 次搜尋 + 內部交叉驗證，confirms 改版年份。技術筆記：(1) **bash pipe loop 吞 stdin** — `codex exec` 在 `while-read` 內讀走 process substitution，A3 first round 每 worker 只跑 1 份就誤判 done；修法加 `< /dev/null`。(2) **Codex 卡死處理** — Worker C 跑南一草港時 cloud cache timeout 卡 1 hr；建 watchdog.sh 監控 log > 15 min 無變化自動 kill。(3) **異常資料排除** — user 授權刪除 2 份合集試卷（1849 題）+ 8 份空檔（partial+L2 source）。Phase 4 產出 `四下_國語_L3對齊報告.md` + `kl3_coverage_report.md`（35 課）+ `kl4_teaching_examples.md`（35 課碼）。**🎯 里程碑**：L3 對齊機制經 JOB-242 工程化驗證，**從「題庫是題」推進到「題庫是與課綱對齊的可診斷物件」**，後續 JOB-243~245 國語 G3/G5/G6 可直接 reuse spec v1.1；自然/社會因無 RC-01 課文需另設樞紐（待 brainstorming）。見 `jobs/JOB-242-Report.md` | 🟢 DONE |
 
 ### 2026-05-20
 | JOB | 簡述 | 狀態 |
