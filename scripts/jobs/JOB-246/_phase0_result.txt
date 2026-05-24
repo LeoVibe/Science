@@ -1,0 +1,30 @@
+python3: error: couldn't create cache file '/var/folders/zz/zyxvpxvq6csfxvn_n2hb9ry8m2tf7k/T/xcrun_db-DyhXS8BQ' (errno=Operation not permitted)
+python3: error: couldn't create cache file '/var/folders/zz/zyxvpxvq6csfxvn_n2hb9ry8m2tf7k/T/xcrun_db-myuW9XvV' (errno=Operation not permitted)
+=== Phase 0：四下自然 L2 codes_candidate 統計 ===
+總題數: 8910
+三家分布: {'翰林': 1138, '康軒': 4046, '南一': 3726}
+
+單題 codes 數量分布: {1: 5563, 2: 3151, 3: 85, 0: 111}
+無 code 題數: 111 (1.2%)
+
+codes confidence 分布: {'high': 8800, 'medium': 3309, 'low': 11}
+
+code 前綴分布（top 10）:
+  INc: 2983
+  INb: 2654
+  INd: 1518
+  INe: 1372
+  INf: 966
+  pe: 725
+  INa: 627
+  ti: 336
+  pa: 245
+  INg: 213
+
+N1-N5 預估比例（粗估）:
+  N1 (high confidence 假設雙源一致): 8800 (98.8%)
+  N2+N3 (medium/low 需 codex 仲裁): -1 (-0.0%)
+  N5 (無 code): 111 (1.2%)
+
+Pilot 通過門檻：
+  N1 ≥ 60% 預期：98.8% ✓
