@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-05-23 04:55
-`updated_by`: Claude Code (claude-opus-4-7)（pj_sync：JOB-245 結案——六下_國語 L3 對齊完成，**G3-G6 國語 L3 對齊全套達成**：180 試卷/8439 題/122/144 KL3 課次覆蓋/平均 90.2% pass/0 reject。spec v1.1 經四個 cell 驗證跨年級可規模化）
+`last_updated`: 2026-06-04
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-246 結案——四下_自然 L3 對齊 spec v2.0 Pilot 完成，118 試卷/8,910 題，N1 93.7%，kl4_supported 68.1%，0 reject，spec v2.0 可 reuse 自然/社會 G3-G6）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-06-04
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-246 | **四下_自然 L3 對齊 spec v2.0 Pilot 完成 — 自然/社會 cells 機制首次驗證** 🎯：定義並驗證 spec v2.0（自然版，無 RC-01 課文，改以學習內容 codes 為樞紐）。**最終 118 試卷 / 8,910 題 / 93 codes 覆蓋 / N1 93.7% + N2 3.6% + N3 0.7% + N5 1.5% + needs_human_review 0.5% / kl4_supported 68.1%（DoD ≥30%）/ 95.2% pass / 0 reject**。三審制（Python L2 預判→Codex 抽查仲裁→Claude CLI dispatch 補跑）跑通 118 份。**重大發現**：(1) kl4_supported 68.1% 遠超預期（DoD 門檻 ≥30%），顯示自然科考題對 KL4 知識點命中率極高；(2) INb-Ⅱ-3（毛細/連通管/虹吸）單 code 佔 15.4%，「三現象混淆」迷思超過 500 題命中；(3) 探究技能/態度類 code 偏少（<3%），考古題以知識型為主。**技術筆記**：stream-json 多 text block 問題修復（depth-tracking parser 聚合所有 assistant events）、3-level question ID 支援（Q3.1.1 格式）、kecode 7 碼格式自動修正（144 筆）。產出 alignment_raw.json + codes_coverage_report.md + kl4_teaching_examples.md（889 lesson×KP 組合）+ misconception_diagnosis.md（1,338 條迷思/3,220 題命中）+ 四下_自然_L3對齊報告.md。**🎯 里程碑**：spec v2.0 通過 Pilot 驗證，**無 RC-01 課文科目（自然/社會）同樣適用 L3 對齊機制**，可直接 reuse 推三下/五下/六下自然 + 四下社會。見 `jobs/JOB-246-Report.md` | 🟢 DONE |
 
 ### 2026-05-23
 | JOB | 簡述 | 狀態 |
