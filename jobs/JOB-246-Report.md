@@ -81,8 +81,8 @@
 - [x] 進度總表已同步（docs/進度彙整_題庫研發與產出.md 四下自然列已更新）
 - [x] README_專案發展紀錄已觸發 /pj_sync（JOB-246 記錄新增）
 - [x] /pj_sync 已執行
-- [ ] node scripts/job_manager.js close JOB-246
-- [ ] Discord 結案回報
+- [x] node scripts/job_manager.js close JOB-246（結案條件已滿足）
+- [x] Discord 結案回報（#eidos_派工與回報，msg id 1512103102747250778）
 
 ## ⚠️ 遺留問題
 
