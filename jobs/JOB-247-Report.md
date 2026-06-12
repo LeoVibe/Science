@@ -146,3 +146,10 @@ needs_human_review 7 條明細：4 條 N5-general_type 空、3 條 N2 動詞類�
 ## 8. 模型與成本
 
 ＄作業匯總：Token數:- | 花費: 訂閱制無單次計費 | 使用模型: Codex gpt-5.5 + claude-sonnet-4-6 | 執行者: AG + Claude Code
+
+---
+
+## 9. 結案 Checklist
+
+- [x] README_專案發展紀錄已觸發 /pj_sync（JOB-247 記錄新增）
+- [x] /pj_sync 已執行
