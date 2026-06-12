@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-06-04
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-246 結案——四下_自然 L3 對齊 spec v2.0 Pilot 完成，118 試卷/8,910 題，N1 93.7%，kl4_supported 68.1%，0 reject，spec v2.0 可 reuse 自然/社會 G3-G6）
+`last_updated`: 2026-06-12
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-247 結案——三下_自然 L3 對齊完成，117 試卷/5,536 題，N1 95.5%，kl4_supported 67.3%，spec v2.0 三下驗證通過）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-06-12
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-247 | **三下_自然 KL4 研究 + L3 對齊完成 — spec v2.0 三下驗證** 🎯：先補做 24 份 KL4 研究文件（三版本各 4 課×2 檔），再執行 L3 對齊。**最終 117 試卷 / 5,536 題 / 66 codes 覆蓋 / N1 95.5% + N2 1.3% + N5 3.2% + needs_human_review 0.1%（7 題）/ kl4_supported 67.3% / 98.7% pass / 0 reject / pending=0**。Phase 1b serial dispatch 105 份（42,576s ≈ 11.8h），A/B/C round-robin 公平排程，0 rate limit。**重大發現**：(1) N1 95.5% 高於四下（93.7%），三下植物/動物主題與課綱 codes 對應更緊密；(2) kl4_supported 67.3% 超過四下（~60%），原因三下植物/動物 KL4 知識點密度高；(3) needs_human_review 0.1%（7/5,536）創自然對齊 JOB 最低紀錄。**技術筆記**：spec v2.0 三下無需修改即可 reuse，serial dispatch 穩定無失敗。產出 24 份 KL4 + alignment_raw.json + codes_coverage_report.md + kl4_teaching_examples.md（18 publisher×lesson 組合）+ misconception_diagnosis.md（437 條）+ 三下_自然_L3對齊報告.md。**🎯 里程碑**：spec v2.0 完成三下/四下雙驗證，可推進五下/六下自然。見 `jobs/JOB-247-Report.md` | 🟢 DONE |
 
 ### 2026-06-04
 | JOB | 簡述 | 狀態 |

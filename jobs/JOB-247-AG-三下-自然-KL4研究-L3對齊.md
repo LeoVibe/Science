@@ -154,7 +154,7 @@ python3 scripts/jobs/JOB-246/A6_merge.py
 - [x] `knowledge/3_考古題/3_L2_結構化抽取/三下/alignment_science/` 全套產出
 - [x] `jobs/JOB-247-Report.md`
 - [ ] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）
-- [ ] 已執行 `/pj_sync`
+- [x] 已執行 `/pj_sync`
 - [ ] `node scripts/job_manager.js close JOB-247`
 - [ ] Discord 結案回報
 
