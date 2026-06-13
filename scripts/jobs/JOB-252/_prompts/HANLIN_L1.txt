@@ -1,0 +1,50 @@
+你是國小三年級社會科命題專家。請為「翰林版 三年級下學期 社會 L1《我居住的地方》」**原創 50 道**四選一單選題。
+
+## 步驟一：先讀完以下素材再出題
+1. knowledge/1_課綱研究/社會/三下/翰林/KL4_三下_翰林_L1_我居住的地方_單課研究紀錄.md ← 知識點地圖與守衛點（命題骨架）
+2. knowledge/1_課綱研究/社會/三下/翰林/KL4_三下_翰林_L1_我居住的地方_考古題與討論.md ← 考古題分析與迷思矩陣
+
+## 步驟二：依 CQI-P 規格命題（逐題遵守）
+- 題幹 ≥30 字，含生活情境（用【情境標籤】或對話引號自然拉長），降低工作記憶負荷
+- 四個選項長度相近：正解與其他選項字數差 ≤1；嚴禁把最長選項當正解、嚴禁用空白湊長度
+- 認知層次中年級配比約 4(記憶):4(理解):2(應用)；taxonomy 對應填 literal / inferential / applied
+- 每題必含 explanation(>10字)、commonMisconception(該題針對的迷思)、scenario(情境短標題)
+- 50 題涵蓋本課 KL4 主要知識點與守衛點/迷思，分布均勻、不重複同一考點角度
+
+## 鐵律
+考古題僅為**參考座標，嚴禁抄寫**題幹/選項/誘答結構（換字重排若邏輯未變仍算抄襲）。每題須能在「刪掉考古題原檔後依然站得住腳」。
+社會科題目須連結在地生活情境（家鄉/消費/地圖/各行各業等），避免空泛背誦；涉及地名/故事須符合該版本課文脈絡。
+
+## 步驟三：輸出
+把 50 題寫成 JSON 檔到：question/platform/G3/SocialStudies/S2/HanLin/G3_S2_SOC_HANLIN_L1_new.json
+嚴格符合此結構（頂層 meta/publisher/questions，每題 18 欄位，固定值如範例）：
+{
+  "meta": {"grade": "G3", "semester": "S2", "subject": "SOC", "publisher": "HANLIN", "lesson": "L1", "order": 1, "title": "我居住的地方", "theme": ""},
+  "publisher": "HanLin",
+  "questions": [
+    {
+      "question": "（題幹，≥30字，含生活情境）",
+      "commonMisconception": "（這題針對的常見迷思）",
+      "scenario": "（情境短標題）",
+      "quality_level": "QL3",
+      "cqi_score": 7,
+      "explanation": "（>10字，說明為何選此答案）",
+      "answer_index": 3,
+      "options": ["選項A","選項B","選項C","正解選項"],
+      "taxonomy": "inferential",
+      "blind_evaluation": false,
+      "authoring_model": "gpt-5.5",
+      "verifying_model": null,
+      "verifying_date": null,
+      "is_publishable": false,
+      "review_status": "pending",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": null
+    }
+  ]
+}
+
+固定值：quality_level="QL3"、blind_evaluation=false、is_publishable=false、review_status="pending"、review_notes=""、reviewer=null、authoring_model="gpt-5.5"、verifying_model=null、verifying_date=null、review_date=null。answer_index 是正解在 options 的 0-based 索引（正解位置請分散）。
+
+完成後只需確認檔案已寫出，不要輸出題目全文到對話。
