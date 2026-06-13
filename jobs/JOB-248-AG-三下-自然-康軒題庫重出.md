@@ -101,12 +101,12 @@
 
 ## ✅ 成果 Checklist (Deliverables)
 
-- [ ] 康軒 4 課題庫 JSON 重出 + manifest 更新
-- [ ] `jobs/JOB-248-Report.md`
-- [ ] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）
-- [ ] 已執行 `/pj_sync`
-- [ ] `node scripts/job_manager.js close JOB-248`
-- [ ] Discord 結案回報
+- [x] 康軒 4 課題庫 JSON 重出 + manifest 更新
+- [x] `jobs/JOB-248-Report.md`
+- [x] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）
+- [x] 已執行 `/pj_sync`
+- [x] `node scripts/job_manager.js close JOB-248`
+- [x] Discord 結案回報
 
 ## 真實回報本次對話的模型與花費
 

@@ -95,6 +95,13 @@
 
 ---
 
-## 7. 模型與成本
+## 7. 結案 Checklist
+
+- [x] README_專案發展紀錄已觸發 /pj_sync（JOB-248 記錄新增）
+- [x] /pj_sync 已執行
+
+---
+
+## 8. 模型與成本
 
 ＄作業匯總：Token數:- | 花費: 訂閱制無單次計費 | 使用模型: Codex gpt-5.5（訂閱制）+ claude-opus-4-8 | 執行者: AG + Claude Code
