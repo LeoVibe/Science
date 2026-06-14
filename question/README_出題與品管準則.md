@@ -26,6 +26,8 @@
 
 ## 第一章：CQI-P 出題階段品質指標（滿分 10.0）
 
+> **CQI 的定位**：CQI 是**內部流程分數與關卡**（CQI-P ≥ 5.5 才進盲測），不對外顯示、不直接定義 QL。對外品質以 QL 為準（見 `question/README_驗證與盲測準則.md` 第四章），上架以 is_publishable 為準（見該檔 §4.6）。
+
 AI 產題後立即執行 `scripts/evaluate_question_quality.js`，依以下維度計分。
 `--gate` 模式以 `quality` 標籤判定阻擋：`QL1` / `QL2` / `BIAS` / `BROKEN` → exit 1；`QL3` 以上放行。單題 `cqi_score` 僅供 triage 參考，非閘門門檻。
 

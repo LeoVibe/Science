@@ -84,7 +84,7 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 | **KL1→KL4 研究** | 從兒童認知發展到單課素材深掘 | RM0→RM3 成熟度 | `knowledge/README_研究架構總綱.md` |
 | **CQI-P 出題** | 依 KL4 素材產題、格式驗證、品質評分 | CQI-P ≥ 5.5 方可進入盲測 | `question/README_出題與品管準則.md` |
 | **CQI-V 盲測** | 獨立模型盲審、Match Rate、誘答鑑別 | Match Rate ≥ 85% | `question/README_驗證與盲測準則.md` |
-| **QL 上架** | CQI = CQI-P + CQI-V，標籤 QL1→QL5 | CQI ≥ 6.5 = QL4 可上架 | 同盲測準則 §4 |
+| **QL 上架** | 兩級上架：QL4 正式、QL3 BETA | QL4 正式上架／QL3 BETA 上架／QL2 以下不上 | 同盲測準則 §4.6 |
 
 ---
 

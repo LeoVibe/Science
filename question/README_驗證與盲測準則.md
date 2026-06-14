@@ -83,7 +83,9 @@
 | Mismatch → 人工審核後確認原題正確 | `is_publishable: true`（由審核者標記） |
 | Mismatch → 人工審核後確認原題有誤 | 修題後重跑盲測，重新判定 |
 | ai = -1（圖形題） | `is_publishable: false` |
-| 未跑盲測（`blind_evaluation: false`） | `is_publishable: false` |
+| 未跑盲測但達 QL3（有考古題研究、`review_status` 非 pending、無爭議） | `is_publishable: true`（BETA 上架，見 §4.6） |
+| 未達 QL3（QL1／QL2） | `is_publishable: false` |
+| 任何題發現特殊問題（答案爭議／不當內容／多次回報） | 可單題設 `is_publishable: false` 獨立下架（不受品質等級影響） |
 
 #### 課級唯一硬限制（上線門檻）
 
@@ -213,11 +215,19 @@ QL2% = (QL2 + QL3 + QL4 + QL5) / 總題數
 
 ### 4.6 上架門檻
 
+**上架兩級制**：
+- **QL4 庫 → 正式上架**（前端無標記）
+- **QL3 庫 → BETA 上架**（前端標「BETA · 尚未嚴謹測試」）
+- QL2 以下 → 不上架
+
 ```
-單題上架：is_publishable === true（需 Match + 最終 CQI ≥ 6.5，見 §2.5）
-單課上架：is_publishable: true 題數 ≥ 25（見 §2.5）
+單題上架：is_publishable === true（見 §2.5）
+單課上線：is_publishable === true 題數 ≥ 25
+對外上架數：一律 = is_publishable === true 的實際題數，禁止以「整包達標即全算」估計
 題庫 QL 升級：每科 QL_X 比例 ≥ 90%（本章 §4.4）
 ```
+
+> **is_publishable 是獨立的上架閘門，不是 QL 的自動結果**：QL3 達標（有考古題研究）即可設 true（標 BETA）；任何題即使 QL4，發現特殊問題（答案爭議、不當內容、多次回報等）可單題設 false 獨立下架，不影響同課其他題。詳見 §2.5。
 
 ---
 

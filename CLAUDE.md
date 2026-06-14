@@ -117,6 +117,8 @@
 | 無占位題 | 題目內容與課程相關 |
 | 欄位零錯誤 | `validate_review_fields.js` → 0 errors |
 
+> **上架以 `is_publishable` 為準**：盲測過 ≠ 一定上架（可能 `review_status` pending 或因特殊問題被單題下架）。QL3 可 BETA 上架、QL4 正式上架，見 `question/README_驗證與盲測準則.md` §4.6。
+
 宣告完成前，跑一次 `evaluate_question_quality.js` 確認題數分布。
 
 ---
