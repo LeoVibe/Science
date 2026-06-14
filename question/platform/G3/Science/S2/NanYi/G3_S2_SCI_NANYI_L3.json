@@ -16,7 +16,7 @@
       "commonMisconception": "氣溫測量條件迷思：誤以為放在太陽底下能較快測得正確氣溫。",
       "scenario": "操場量氣溫",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "遮蔭且通風的位置較能代表空氣溫度。",
       "answer_index": 0,
       "options": [
@@ -41,7 +41,7 @@
       "commonMisconception": "氣溫計讀數錯誤：讀取刻度時視線未平視液柱頂端。",
       "scenario": "讀取刻度",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "視線平視液面可避免仰看或俯看造成誤差。",
       "answer_index": 2,
       "options": [
@@ -66,7 +66,7 @@
       "commonMisconception": "溫度計讀數錯誤：液柱未穩定前即判讀。",
       "scenario": "等待穩定",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "液柱穩定後再讀取，才較接近當時氣溫。",
       "answer_index": 1,
       "options": [
@@ -91,7 +91,7 @@
       "commonMisconception": "氣溫單位誤解：把長度、重量或雨量單位當成氣溫單位。",
       "scenario": "氣溫單位",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "臺灣天氣預報的氣溫通常以攝氏度數表示。",
       "answer_index": 3,
       "options": [
@@ -116,7 +116,7 @@
       "commonMisconception": "天氣觀測紀錄方法錯誤：每日觀測地點與時間不一致。",
       "scenario": "連續記錄",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "同一時間同一地點觀測，資料才較能比較。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "溫差忽視：只看當天最高氣溫，忽略清晨或夜晚較低溫。",
       "scenario": "清晨出門",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "清晨較涼，外套可隨氣溫升高再脫下。",
       "answer_index": 2,
       "options": [
@@ -166,7 +166,7 @@
       "commonMisconception": "氣溫趨勢判讀迷思：只看單一天數，不看整體變化方向。",
       "scenario": "三日趨勢",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "三天的氣溫數字一天比一天高，表示逐日升高。",
       "answer_index": 1,
       "options": [
@@ -191,7 +191,7 @@
       "commonMisconception": "氣溫測量條件迷思：忽略地面或儀器外殼吸熱會影響測量。",
       "scenario": "熱地磚",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "地磚被陽光加熱，測到的是物體受熱，不是空氣溫度。",
       "answer_index": 3,
       "options": [
@@ -216,7 +216,7 @@
       "commonMisconception": "晴天必須完全無雲：以為只要有雲就不能算晴或少雲。",
       "scenario": "少雲天空",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "天空大多清楚且只有少量雲，表示雲量較少。",
       "answer_index": 0,
       "options": [
@@ -241,7 +241,7 @@
       "commonMisconception": "雲量與必然降雨：雲量多不代表地面一定正在下雨。",
       "scenario": "多雲未雨",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "雲很多可以描述為多雲，但不等於一定正在下雨。",
       "answer_index": 2,
       "options": [
@@ -266,7 +266,7 @@
       "commonMisconception": "雲量判讀錯誤：偶爾看到太陽不等於整天空雲量很少。",
       "scenario": "忽晴忽雲",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "雲量紀錄應看天空整體狀況，不只看一瞬間。",
       "answer_index": 1,
       "options": [
@@ -291,7 +291,7 @@
       "commonMisconception": "雲量圖示判讀錯誤：把圖示當成精確雲朵數量。",
       "scenario": "天氣符號",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "天氣圖示用來表示大致狀況，不是精算雲朵數。",
       "answer_index": 3,
       "options": [
@@ -316,7 +316,7 @@
       "commonMisconception": "雲量判讀錯誤：誤以為雲量愈多影子愈清楚。",
       "scenario": "影子變淡",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "雲多會遮住部分陽光，影子通常變得比較淡。",
       "answer_index": 0,
       "options": [
@@ -341,7 +341,7 @@
       "commonMisconception": "風向名稱混淆：風向是風吹來的方向，不是風吹去的方向。",
       "scenario": "北風意思",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "風向名稱表示風從哪個方向吹來，北風是從北方來。",
       "answer_index": 2,
       "options": [
@@ -366,7 +366,7 @@
       "commonMisconception": "風向判讀迷思：把旗子飄動方向誤認為風吹來的方向。",
       "scenario": "旗子飄向",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "旗子往東飄，代表風從西方吹向東方。",
       "answer_index": 1,
       "options": [
@@ -391,7 +391,7 @@
       "commonMisconception": "風向觀測位置迷思：誤以為在教室內可測得今日戶外風向。",
       "scenario": "風向袋位置",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "開闊戶外較不受牆壁遮擋，能觀察真正風向。",
       "answer_index": 3,
       "options": [
@@ -416,7 +416,7 @@
       "commonMisconception": "風力級數判讀錯誤：誤認1級風比2級風強或級數大小無意義。",
       "scenario": "風力級數",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "風力級數越大通常表示風越強，5級比2級強。",
       "answer_index": 0,
       "options": [
@@ -441,7 +441,7 @@
       "commonMisconception": "風速與安全迷思：只知道颱風危險，忽略強風也會影響戶外活動。",
       "scenario": "強風下課",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "強風時戶外物品可能被吹動，改在室內較安全。",
       "answer_index": 2,
       "options": [
@@ -466,7 +466,7 @@
       "commonMisconception": "風力觀測迷思：以氣味、雲形或影子取代風力資料。",
       "scenario": "描述風力",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "風力級數可以用來描述風的強弱程度。",
       "answer_index": 1,
       "options": [
@@ -491,7 +491,7 @@
       "commonMisconception": "風向觀測誤用：把雨量、氣溫或雲量工具當成風向工具。",
       "scenario": "找風向器",
       "quality_level": "QL4",
-      "cqi_score": 6.75,
+      "cqi_score": 8.75,
       "explanation": "風向儀器會隨風指出方向，適合判讀風向。",
       "answer_index": 3,
       "options": [
@@ -516,7 +516,7 @@
       "commonMisconception": "機率誤解：降雨機率不是下雨面積、時間比例，也不代表雨量大小。",
       "scenario": "七成降雨",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "70%表示下雨可能性偏高，不表示雨一定大或下很久。",
       "answer_index": 0,
       "options": [
@@ -541,7 +541,7 @@
       "commonMisconception": "機率誤解：把降雨機率0%當成絕對不會下雨。",
       "scenario": "零趴判讀",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "0%表示預報下雨機率極低，但天氣仍可能有變化。",
       "answer_index": 2,
       "options": [
@@ -566,7 +566,7 @@
       "commonMisconception": "確定性語言：不宜把高降雨機率解讀成一定發生或必然暴雨。",
       "scenario": "放學帶傘",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "降雨機率高時應帶傘備用，但不必說一定暴雨。",
       "answer_index": 1,
       "options": [
@@ -591,7 +591,7 @@
       "commonMisconception": "降雨機率誤解：把降雨機率直接當成雨量毫米或雨滴大小。",
       "scenario": "機率與雨量",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "降雨機率說的是可能性高低，雨量才是降下雨水多少。",
       "answer_index": 3,
       "options": [
@@ -616,7 +616,7 @@
       "commonMisconception": "數據孤立：只看氣溫，不看降雨機率和其他天氣資料做決策。",
       "scenario": "戶外上課",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "天氣熱但降雨機率偏高，帶傘備用較完整。",
       "answer_index": 0,
       "options": [
@@ -641,7 +641,7 @@
       "commonMisconception": "降雨量測量方式混淆：把降雨機率或雲量當成實際雨量。",
       "scenario": "雨後量測",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "實際降下的雨水多少，應用雨量毫米記錄。",
       "answer_index": 2,
       "options": [
@@ -666,7 +666,7 @@
       "commonMisconception": "雨量測量位置錯誤：忽略遮蔽物會影響雨水收集。",
       "scenario": "放雨量器",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "空曠平坦處較能讓雨水自然落入雨量器。",
       "answer_index": 1,
       "options": [
@@ -691,7 +691,7 @@
       "commonMisconception": "雨量器容器形狀迷思：誤以為任意形狀容器都適合作為簡易雨量器。",
       "scenario": "選容器",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "直筒平底容器較容易用水位高度讀出雨量。",
       "answer_index": 3,
       "options": [
@@ -716,7 +716,7 @@
       "commonMisconception": "雨量器讀數錯誤：讀取水位時視線方向不正確。",
       "scenario": "雨量讀數",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "平視水面刻度，較能避免視角造成讀數偏差。",
       "answer_index": 0,
       "options": [
@@ -741,7 +741,7 @@
       "commonMisconception": "雨量單位誤解：雨量通常以毫米表示，不是公斤或顏色。",
       "scenario": "填雨量欄",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "雨量常以毫米表示，代表降下雨水的高度。",
       "answer_index": 2,
       "options": [
@@ -766,7 +766,7 @@
       "commonMisconception": "雨量測量迷思：誤以為容器越粗就代表該地區雨量越多。",
       "scenario": "容器寬窄",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "同地同雨量應比較水位高度，不是只看容器粗細。",
       "answer_index": 1,
       "options": [
@@ -791,7 +791,7 @@
       "commonMisconception": "雨量測量迷思：誤以為雨水顏色、沉澱物或氣味可表示雨量。",
       "scenario": "雨水雜物",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "雨量要看水位高度，雜物顏色不能代表雨量。",
       "answer_index": 3,
       "options": [
@@ -816,7 +816,7 @@
       "commonMisconception": "天氣預報資訊來源即時性誤解：忽略預報需要更新。",
       "scenario": "出發前查",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "出發前查看最新預報，較能掌握新的天氣變化。",
       "answer_index": 0,
       "options": [
@@ -841,7 +841,7 @@
       "commonMisconception": "天氣預報誤解：以為越早看到或越遠期的預報一定更準。",
       "scenario": "預報更新",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "天氣會變化，通常越接近日期的預報越有參考價值。",
       "answer_index": 2,
       "options": [
@@ -866,7 +866,7 @@
       "commonMisconception": "氣象播報迷思：只用模糊感覺，不使用具體天氣資料。",
       "scenario": "播報太模糊",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "播報加入氣溫、雲量、降雨機率等數字資料較清楚。",
       "answer_index": 1,
       "options": [
@@ -891,7 +891,7 @@
       "commonMisconception": "確定性語言：習慣用一定、絕對描述天氣預報。",
       "scenario": "機率用語",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "用機率表達較符合預報性質，也能給出合理建議。",
       "answer_index": 3,
       "options": [
@@ -916,7 +916,7 @@
       "commonMisconception": "數據孤立：只看單一天氣指標做整體活動判斷。",
       "scenario": "運動會天氣",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "安排活動要整合氣溫、降雨機率與風力等資料。",
       "answer_index": 0,
       "options": [
@@ -941,7 +941,7 @@
       "commonMisconception": "數據孤立與風感忽略：只看晴天圖示，忽略低溫與風。",
       "scenario": "有風低溫",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "低溫又有風時體感較涼，應添衣並注意防風。",
       "answer_index": 2,
       "options": [
@@ -966,7 +966,7 @@
       "commonMisconception": "雲量→降雨的必然性：誤把雲多直接等同雨天。",
       "scenario": "雲多無雨",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "雲多可以沒有下雨，雨量器空表示未收集到雨水。",
       "answer_index": 1,
       "options": [
@@ -991,7 +991,7 @@
       "commonMisconception": "氣溫測量條件混淆：誤以為同一時間不同地點氣溫都一樣。",
       "scenario": "水泥與草地",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "周圍地面與環境受熱不同，可能影響附近氣溫讀數。",
       "answer_index": 3,
       "options": [
@@ -1016,7 +1016,7 @@
       "commonMisconception": "溫差忽視：只看中午較高氣溫，不管出門時低溫。",
       "scenario": "步道穿搭",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "早上偏涼，中午較暖，薄衣加外套方便調整。",
       "answer_index": 0,
       "options": [
@@ -1041,7 +1041,7 @@
       "commonMisconception": "數據孤立：只看氣溫適合，就忽略降雨機率偏高。",
       "scenario": "公園野餐",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "降雨機率高，戶外野餐應準備室內或遮雨備案。",
       "answer_index": 2,
       "options": [
@@ -1066,7 +1066,7 @@
       "commonMisconception": "氣象播報整合不足：只說單一感覺，沒有把氣溫與降雨資料轉成建議。",
       "scenario": "上學播報",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "氣溫偏高且有降雨可能，提醒高溫並備傘較完整。",
       "answer_index": 1,
       "options": [
@@ -1091,7 +1091,7 @@
       "commonMisconception": "天氣觀測內容混淆：把無關感受或活動成績當成主要天氣資料。",
       "scenario": "設計表格",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "本課重點包含氣溫、雲量、風和降雨或雨量資料。",
       "answer_index": 3,
       "options": [
@@ -1116,7 +1116,7 @@
       "commonMisconception": "風力應用迷思：只看晴天或低降雨機率，不看風力是否適合活動。",
       "scenario": "風箏活動",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "風力太弱時風箏不易飛起，可改玩別項戶外活動。",
       "answer_index": 0,
       "options": [
@@ -1141,7 +1141,7 @@
       "commonMisconception": "雨量與機率混淆：把實測毫米數說成降雨機率、氣溫或雲量。",
       "scenario": "十二毫米",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "雨量器讀到的12毫米是實際雨量，不是機率或氣溫。",
       "answer_index": 2,
       "options": [
@@ -1166,7 +1166,7 @@
       "commonMisconception": "風向判讀迷思：把旗子飄去方向當成風向，忽略風力也影響安全。",
       "scenario": "騎車看風",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "旗子往南飄表示北風吹來，騎車時要注意側風或逆風。",
       "answer_index": 1,
       "options": [
@@ -1191,7 +1191,7 @@
       "commonMisconception": "活動安排迷思：忽略降雨機率、風力和雨量，未整合多項天氣資訊。",
       "scenario": "選寫生時段",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "週二晴朗且降雨機率低，比其他高雨或強風時段合適。",
       "answer_index": 3,
       "options": [
@@ -1216,7 +1216,7 @@
       "commonMisconception": "天氣紀錄迷思：為了表格完整而亂填或抄寫不實資料。",
       "scenario": "漏量一天",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "缺測應如實註明，不能用猜測或抄寫資料代替。",
       "answer_index": 1,
       "options": [
@@ -1241,7 +1241,7 @@
       "commonMisconception": "確定性與單項判斷迷思：只看是否下雨，忽略強風與備案。",
       "scenario": "園遊會決策",
       "quality_level": "QL4",
-      "cqi_score": 7.5,
+      "cqi_score": 9.5,
       "explanation": "有降雨可能且風力偏強，應備傘並考慮改期或室內方案。",
       "answer_index": 2,
       "options": [
