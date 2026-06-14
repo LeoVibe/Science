@@ -220,6 +220,8 @@ QL2% = (QL2 + QL3 + QL4 + QL5) / 總題數
 - **QL3 庫 → BETA 上架**（前端標「BETA · 尚未嚴謹測試」）
 - QL2 以下 → 不上架
 
+**BIAS 硬門檻（不分 QL3／QL4，所有上架題必過）**：該課「正解＝最長選項」比例 > 40% → 不得上架（`is_publishable` 不得設 true）。BIAS 是題目結構品質，與 QL 等級脫鉤——QL3 與 QL4 都須通過此驗證（學生不得能用「選最長」猜對）。校正方式：盲測時同步重寫過短的錯誤選項以平衡長度（不改正解／答案／題意），再以 `evaluate_question_quality.js` 二次驗證。
+
 ```
 單題上架：is_publishable === true（見 §2.5）
 單課上線：is_publishable === true 題數 ≥ 25
