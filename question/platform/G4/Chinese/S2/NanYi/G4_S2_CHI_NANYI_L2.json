@@ -36,7 +36,7 @@
         "review_status": "pending"
       },
       "is_publishable": true,
-      "review_status": "corrected",
+      "review_status": "confirmed",
       "review_notes": "answer_index 欄位格式錯誤（字串→整數 1）。AI 選擇正確，已修正 answer_index。 [JOB-191: explanation 清除後過短，需人工補寫]",
       "reviewer": "Claude Code (claude-sonnet-4-6)",
       "review_date": "2026-04-05",
