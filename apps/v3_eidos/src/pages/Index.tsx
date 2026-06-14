@@ -676,10 +676,10 @@ const Index = () => {
         ) : (
           <>
             {isBetaLibrary(grade, semester, subject, publisher) && (view === 'menu' || view === 'quiz') && (
-              <div className="max-w-2xl mx-auto px-4 pt-2">
-                <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl px-4 py-2 text-xs text-amber-800 dark:text-amber-100 text-center">
-                  ⚠️ beta 版本，題庫尚未嚴謹測試
-                </div>
+              <div className="max-w-2xl mx-auto px-4 pt-2 flex justify-center">
+                <span className="inline-block bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-200 text-[10px] font-bold tracking-widest px-2.5 py-0.5 rounded-full border border-amber-200 dark:border-amber-800">
+                  BETA
+                </span>
               </div>
             )}
             {view === 'menu' && (
