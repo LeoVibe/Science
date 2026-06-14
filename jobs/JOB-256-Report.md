@@ -40,11 +40,13 @@
 ### 成果 Checklist (Deliverables)
 - [x] 異動清單已列出所有實際路徑（上表 6 檔）
 - [x] 已部署正式站並完成線上驗證
-- [ ] 進度總表 / `/pj_sync` — 前端工程任務，非題庫產出；未動進度彙整
+- [x] 已執行 /pj_sync 全域知識沉澱
 
 ## 🔄 同步確認
-- [ ] `docs/進度彙整_題庫研發與產出.md` — 未更新（無題庫產出）
-- [ ] `docs/README_專案發展紀錄.md` /pj_sync — 未執行（如需可後補）
+- [x] 已執行 /pj_sync 全域知識沉澱（2026-06-14）
+- [x] `docs/README_專案發展紀錄.md` 已新增 JOB-256 記錄
+- [x] `docs/網站功能規格書.md` §2.2 數英下架單一真相 + §2.2.1 BETA 標記
+- [x] `docs/進度彙整_題庫研發與產出.md` 統計基準日期更新為 2026-06-14
 - [x] `apps/v3_eidos/src/data/libraryStats.json` 已重新產出（src + public）
 
 ## ⚠️ 遺留問題
