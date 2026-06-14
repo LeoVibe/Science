@@ -1,4 +1,6 @@
-# JOB-253 Report：三下自然 康軒盲測與上版（pilot）
+# JOB-253 Report：三下自然 三版本盲測與上版
+
+> 註：原規劃康軒 pilot 先上，執行中使用者改為「三版本都盲測完一起上」，故本 JOB 涵蓋康軒+翰林+南一三版本。
 
 `last_updated`: 2026-06-14
 `updated_by`: Claude Code (claude-opus-4-8)
@@ -17,17 +19,16 @@
 
 ---
 
-## 2. 盲測結果
+## 2. 盲測結果（三版本）
 
-| 課 | Match | Match Rate | Mismatch |
+| 版本 | Match | Match Rate | Mismatch |
 |:--|:--|:--|:--|
-| L1 田園樂 | 49/50 | 98% | id32（題幹歧義）|
-| L2 溫度變化對物質的影響 | 50/50 | 100% | — |
-| L3 我是動物解說員 | 50/50 | 100% | — |
-| L4 天氣變變變 | 50/50 | 100% | — |
-| **總計** | **199/200** | **99.5%** | 1 |
+| 康軒 | 199/200 | 99.5% | L1-id32（題幹歧義）|
+| 翰林 | 200/200 | 100% | — |
+| 南一 | 200/200 | 100% | — |
+| **總計** | **599/600** | **99.83%** | 1 |
 
-**方法**：去除 answer_index/explanation/commonMisconception 生成盲測題本（真盲），4 個 Claude subagent 並行作答，比對原答案。
+**方法**：去除 answer_index/explanation/commonMisconception 生成盲測題本（真盲），每課派 1 個 Claude subagent 並行作答（共 12 課），比對原答案。雙盲：出題 Codex gpt-5.5／盲測 claude-opus-4-8。
 
 **Mismatch 診斷（L1-id32）**：題幹「種小白菜…這可修正哪種想法？」語意歧義——字面問「要修正掉的錯誤想法」，盲測者選「必等結果」（被修正的錯誤觀念）語意更合理；原答案「葉菜可採」是修正後的正確觀念。判定為題幹表述不精確，依準則標 `review_status: pending` 待人工確認，**未自動改答案**。
 
@@ -72,6 +73,16 @@
 
 - [x] README_專案發展紀錄已觸發 /pj_sync（JOB-253 記錄新增）
 - [x] /pj_sync 已執行
+
+---
+
+## 6b. 技術 debug：push 失敗根因（http.postBuffer）
+
+三版本上版 push（積壓 147 commit / 46MB）連續兩次失敗（exit 1，表現像「網路慢」傳 17-22 分鐘不完）。
+
+**根因（debug 確認）**：`http.postBuffer` 未設定 = 預設 1MB，遠小於 46MB pack，HTTP RPC 傳輸失敗。**非網路問題**。排除：最大物件 6.1MB（未超 GitHub 限制）、認證 osxkeychain 正常。
+
+**修復**：`git config http.postBuffer 524288000`（500MB）+ lowSpeed 容忍 → `git push --progress -v` **30 秒成功**（0eb622f7..308142ab）。已記入 memory `git_push_postbuffer.md`。
 
 ---
 
