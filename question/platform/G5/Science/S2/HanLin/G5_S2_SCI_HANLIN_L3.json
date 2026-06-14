@@ -65,13 +65,16 @@
       "answer_index": 3,
       "explanation": "食品包裝中為了防止食物接觸氧氣而腐敗油脂酸敗，通常會抽掉空氣並填充無色無味且「化學性質極度穩定不易反應」的氮氣，可以延長保存期限。",
       "commonMisconception": "直覺以為好東西就要配氧氣，如果填充氧氣反而會加速食物腐敗變質；或是錯認為只要能把袋子吹鼓的氣體都可以而任選。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "HanLin"

@@ -90,7 +90,7 @@
       "scenario": "【在作者做夢的時刻時】",
       "question": "作者夢見自己擊出全壘打並接受歡呼，這個夢境反映了他內心什麼樣的渴望？",
       "options": [
-        "他希望能透過比賽，賺取金錢送給祖母，這也是作者想強調的重點之一。",
+        "他希望能透過比賽，賺取金錢送給祖母",
         "他希望自己能長得像「大力水手」一樣強壯",
         "他希望從此不用再練習寫字，專心打球",
         "他希望透過優異表現，獲得大家的認同與尊重"
@@ -99,7 +99,7 @@
       "explanation": "作者在現實中常被責備與排擠，夢境中的全壘打與歡呼，象徵他渴望獲得成就感及隊友的肯定。",
       "commonMisconception": "學生可能過度聚焦在「大力水手」的比喻，誤以為他崇拜卡通人物，而非渴望得到現實中的成就感。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -372,7 +372,7 @@
       "question": "如果我們要用一個詞來形容作者在文中所展現的態度，下列哪一個最合適？",
       "options": [
         "堅毅不屈",
-        "斤斤計較，這也是作者想強調的重點之一。",
+        "斤斤計較",
         "自暴自棄",
         "盲目跟風"
       ],
@@ -429,14 +429,14 @@
       "options": [
         "因為作者的實力太強，對手不敢正面對決",
         "因為大孩子們不准他揮棒，深怕他會拖累球隊實力",
-        "因為作者對揮棒沒有信心，只想靠運氣上壘，這也是作者想強調的重點之一。",
+        "因為作者對揮棒沒有信心，只想靠運氣上壘",
         "因為作者為了保護球棒，不敢用力揮擊"
       ],
       "answer_index": 1,
       "explanation": "大孩子們認為作者實力不足，為了避免他揮棒落空造成「削弱實力」，因此限制他在打擊位上的功能。",
       "commonMisconception": "學生可能誤以為作者是因為害怕被三振才不敢揮棒，忽略了這是被隊友限制的客觀條件。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -453,7 +453,7 @@
       "question": "當球隊輸球時，隊友們為什麼總是將責任推給作者？",
       "options": [
         "因為作者常常在關鍵時刻揮棒落空被三振",
-        "因為作者在防守時發生了嚴重的失誤，這也是作者想強調的重點之一。",
+        "因為作者在防守時發生了嚴重的失誤",
         "因為作者總是嘲笑隊友，引起大家不滿",
         "因為作者不聽從教練的指揮"
       ],
@@ -461,7 +461,7 @@
       "explanation": "課文中描述作者在兩好三壞時揮棒落空被三振，導致隊友們異口同聲地責怪他，反映出作者在團隊中的弱勢地位。",
       "commonMisconception": "學生可能誤以為作者是球隊的核心人物，因此輸球才怪他，事實上是因為他在團隊中表現較弱。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -586,13 +586,13 @@
         "他是負責策劃戰術的教練角色",
         "他是隊伍中備受敬重的精神領袖",
         "他是最容易被隊友責怪的代罪羔羊",
-        "他是球隊中實力最強的王牌投手，這也是作者想強調的重點之一。"
+        "他是球隊中實力最強的王牌投手"
       ],
       "answer_index": 2,
       "explanation": "每當球隊輸球，隊友總是將責任歸咎於作者，反映出他在球隊中缺乏話語權，容易成為被指責的對象。",
       "commonMisconception": "學生可能誤將「被指責」聯想為「作者真的犯了錯」，忽略了這是隊友對年幼隊友的霸凌或推卸責任心理。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -608,7 +608,7 @@
       "scenario": "【在做夢的時刻】",
       "question": "作者夢見自己擊出全壘打，並像「大力水手」一樣反敗為勝，這代表了什麼心理狀態？",
       "options": [
-        "他認為棒球只是靠運氣，不需要努力，這也是作者想強調的重點之一。",
+        "他認為棒球只是靠運氣，不需要努力",
         "他希望未來能成為一名漫畫家而非棒球員",
         "他對棒球運動感到厭煩，只想趕快長大",
         "他渴望得到隊友的認同與榮耀，證明自己的價值"
@@ -617,7 +617,7 @@
       "explanation": "作者在現實中常被排擠，夢境中的全壘打與接受歡呼，是他對現實挫折的補償，渴望透過成功獲得肯定。",
       "commonMisconception": "學生可能將「大力水手」誤解為單純的喜愛卡通，而忽略了這象徵作者渴望獲得「力量」來扭轉現實。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -685,14 +685,14 @@
       "options": [
         "祖母認為球棒太昂貴，家裡負擔不起",
         "祖母認為玩樂工具對孩子沒有實質的教育意義",
-        "祖母認為玩球會影響作者的身體健康，這也是作者想強調的重點之一。",
+        "祖母認為玩球會影響作者的身體健康",
         "祖母希望作者能把時間花在練習揮棒技巧上"
       ],
       "answer_index": 1,
       "explanation": "祖母送文房四寶是希望作者做「有用的人」，對比之下，她認為球棒只是「玩樂工具」，反映出她重視學業與品格教育的價值觀。",
       "commonMisconception": "學生容易憑直覺認為長輩反對是因為擔心受傷，但文中強調的是對「有用」與「玩樂」的價值評判。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -711,13 +711,13 @@
         "認為作者是隊上的幸運星，容易獲得保送",
         "認為作者有敏銳的選球眼光，能精準上壘",
         "認為作者的打擊實力不足，上場只會削弱戰力",
-        "認為作者很勇敢，不怕被球擊中，這也是作者想強調的重點之一。"
+        "認為作者很勇敢，不怕被球擊中"
       ],
       "answer_index": 2,
       "explanation": "文中提到大孩子不想讓作者加入是因為「會削弱他們的實力」，因此讓他上場只是為了利用規則上壘，而非肯定他的打擊能力。",
       "commonMisconception": "學生可能誤以為隊友肯定作者的戰術運用，忽略了這是因為不信任其揮棒能力而採取的權宜之計。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",

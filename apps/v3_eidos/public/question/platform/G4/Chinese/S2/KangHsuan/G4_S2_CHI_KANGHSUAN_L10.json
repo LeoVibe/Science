@@ -142,14 +142,14 @@
       "options": [
         "東海像井口一樣，一眼就能看盡",
         "東海非常深廣，甚至無法用尺測量",
-        "東海只是比井稍微大一點的水坑，這也是作者想強調的重點之一。",
+        "東海只是比井稍微大一點的水坑",
         "東海大到可以把整座森林裝進去"
       ],
       "answer_index": 1,
       "explanation": "海龜在描述東海時，強調其深廣無比，不是井蛙所能想像的尺度，文中提到其廣大程度超乎一般的測量範圍。",
       "commonMisconception": "學生容易將「大」的概念簡化為具體的容器（如森林），忽略了課文強調的是「深廣」這種抽象的空間概念。",
       "quality_level": "QL4",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -166,7 +166,7 @@
       "question": "小青蛙為什麼會想要離開從小居住的井，去尋找海龜口中的東海？",
       "options": [
         "因為牠對外面的世界充滿好奇，想親眼見識大海的廣闊",
-        "因為井裡的水乾涸了，牠沒地方住，這也是作者想強調的重點之一。",
+        "因為井裡的水乾涸了，牠沒地方住",
         "因為牠想挑戰看看自己能不能跳出井口",
         "因為海龜威脅牠，如果不去看海就會被趕走"
       ],
@@ -174,7 +174,7 @@
       "explanation": "小青蛙的動機源自於對未知世界的渴望與好奇，這是推動故事發展的核心動力。",
       "commonMisconception": "學生常會誤以為小青蛙是因為「生存困境」（如水乾了）才離開，這忽略了故事中「夢想」與「探索」的主題。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -191,7 +191,7 @@
       "question": "小青蛙在尋夢的旅程中，展現了什麼樣的人格特質？",
       "options": [
         "堅持到底、勇於追求夢想的勇氣",
-        "只顧自己享樂的自私心態，這也是作者想強調的重點之一。",
+        "只顧自己享樂的自私心態",
         "盲目聽從他人建議的膽小",
         "容易放棄、隨波逐流的個性"
       ],
@@ -199,7 +199,7 @@
       "explanation": "小青蛙跨出舒適圈去尋找東海，體現了面對未知挑戰時的毅力與勇氣。",
       "commonMisconception": "學生可能因為小青蛙是「井蛙」而預設牠是無能的，忽略了牠在故事中展現出的主動進取精神。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -216,7 +216,7 @@
       "question": "這篇故事改寫自《莊子·秋水》，你認為這篇故事最想傳達給讀者的道理是什麼？",
       "options": [
         "只要願意跨出舒適圈，就有機會開拓眼界",
-        "聽別人的話去冒險是非常危險的行為，這也是作者想強調的重點之一。",
+        "聽別人的話去冒險是非常危險的行為",
         "井底之蛙永遠不可能看見大海",
         "大海其實跟井水沒有什麼差別"
       ],
@@ -224,7 +224,7 @@
       "explanation": "故事核心在於對比井底與廣大的東海，鼓勵讀者跳脫狹隘的觀點，主動去探索更大的世界。",
       "commonMisconception": "部分學生會誤解為「不要相信別人的話」，但這與故事傳遞的積極探索意涵相違背。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -366,7 +366,7 @@
       "scenario": "【在回顧故事主旨時】",
       "question": "這篇改寫自《莊子·秋水》的故事，最想告訴我們什麼道理？",
       "options": [
-        "海龜比青蛙聰明，所以要跟著海龜走，這也是作者想強調的重點之一。",
+        "海龜比青蛙聰明，所以要跟著海龜走",
         "要多聽別人的話，不要有自己的想法",
         "住在井裡比較安全，不要隨便亂跑",
         "外面的世界很大，不要讓自己的視野受到限制"
@@ -375,7 +375,7 @@
       "explanation": "故事的核心在於打破思維的框架，鼓勵讀者保持開放心胸，避免成為狹隘的人。",
       "commonMisconception": "學生容易將「聽海龜的話」誤解為「聽從權威」，而忽略了故事本質是在談論「視野的開闊」。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -494,7 +494,7 @@
       "options": [
         "《老子》",
         "《莊子》",
-        "《論語》，這也是作者想強調的重點之一。",
+        "《論語》",
         "《孟子》"
       ],
       "answer_index": 1,
@@ -520,13 +520,13 @@
         "因為覺得路途太遙遠，決定繼續留在井底生活",
         "請海龜帶海水進來，讓牠在井裡也能感受海的樣子",
         "請求海龜背牠到東海，希望能親眼看看外面的世界",
-        "認為海龜在吹牛，所以反過來嘲笑海龜的見識，這也是作者想強調的重點之一。"
+        "認為海龜在吹牛，所以反過來嘲笑海龜的見識"
       ],
       "answer_index": 2,
       "explanation": "文中敘述小青蛙聽完海龜對東海的描述後，內心深受觸動，決定離開井底，並請求海龜帶牠去看看大海的廣闊。",
       "commonMisconception": "學生可能因為對井底之蛙的刻板印象，誤以為青蛙會因為懶惰或膽小而拒絕離開，忽略了主角尋夢的轉折。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",

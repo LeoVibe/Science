@@ -65,13 +65,16 @@
       "answer_index": 2,
       "explanation": "敲擊裝水的玻璃瓶時，震動發聲的主體是「水和玻璃」。水裝得越滿，整體質量越大，震動頻率就越慢，發出來的聲音（音調）就會越低沉。相對地，水越少則震動越快，音調越高。",
       "commonMisconception": "這是自然科經典的陷阱題。學生容易將「敲擊發聲（水震動）」與「向瓶口吹氣發聲（空氣柱震動）」搞混。如果是向瓶口吹氣，水滿會讓空氣柱短，音調反而會變高。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "NanYi"

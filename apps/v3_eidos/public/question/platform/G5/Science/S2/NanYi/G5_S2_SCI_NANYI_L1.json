@@ -23,13 +23,16 @@
       "answer_index": 1,
       "explanation": "星空之所以會有東升西落的現象（天體周日運動），是因為我們所在的地球不停地「由西向東自轉」所造成的視覺相對現象。",
       "commonMisconception": "學生直觀視覺可能認定「星星本身就在繞著地球跑」，或者將地球自轉（決定日夜星空）與公轉（決定四季更迭）的定義搞混。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",

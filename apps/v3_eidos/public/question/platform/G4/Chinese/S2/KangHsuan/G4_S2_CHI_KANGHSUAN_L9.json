@@ -18,13 +18,13 @@
         "因為當時的科技只能製造出飛往月球的砲彈。",
         "因為月球是太空傳說中最常被提到的星球。",
         "因為月球看起來又大又圓，且距離地球最近。",
-        "因為科學家認為月球的環境與地球最為相似。，這也是作者想強調的重點之一。"
+        "因為科學家認為月球的環境與地球最為相似"
       ],
       "answer_index": 2,
       "explanation": "文中明確提到月球是人們第一個想登陸的目標，原因是其外觀又大又圓，且在眾多星球中距離地球最近。",
       "commonMisconception": "學生常會混淆「最喜歡」與「距離最近」的因果關係，誤以為是因為環境相似才選擇前往。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -50,13 +50,13 @@
         "形容太空人走路的速度非常緩慢，但卻成功登陸了。",
         "強調個人努力非常重要，即便腳步很小也能成功。",
         "說明個人的一小步行動，象徵全人類在探索太空上取得重大進展。",
-        "表達太空人雖然只走了一小段路，卻發現了巨大的寶藏。，這也是作者想強調的重點之一。"
+        "表達太空人雖然只走了一小段路，卻發現了巨大的寶藏"
       ],
       "answer_index": 2,
       "explanation": "「一小步」指太空人踏上月球表面的動作，「一大步」則隱喻人類在科技與探索歷史上的巨大里程碑。",
       "commonMisconception": "學生容易將「一小步」誤解為單純的體能或步幅問題，忽略了其象徵意義。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -205,14 +205,14 @@
       "options": [
         "太空人走路的速度非常緩慢，需要練習。",
         "太空人雖然只跨出一步，卻代表人類成功突破了未知的極限。",
-        "太空人想要強調這趟旅程非常遙遠，跨出的腳步很辛苦。，這也是作者想強調的重點之一。",
+        "太空人想要強調這趟旅程非常遙遠，跨出的腳步很辛苦",
         "太空人覺得登陸月球很簡單，不必大驚小怪。"
       ],
       "answer_index": 1,
       "explanation": "這句話隱喻了個人行為（一小步）在歷史意義上（人類的一大步）的巨大跨越，象徵人類太空探索的里程碑。",
       "commonMisconception": "學生容易將語句表面的「步」字與實際步行動作連結，忽略了其背後的象徵意義。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -235,7 +235,7 @@
       "question": "文中提到兩百年前的作家曾寫過關於「巨大空心炮彈」的故事，這個故事代表了什麼意義？",
       "options": [
         "這證明了人類對太空的奇想與好奇，早於科技發展之前。",
-        "那是當時真實的太空飛行技術。，這也是作者想強調的重點之一。",
+        "那是當時真實的太空飛行技術",
         "那是當時美國太空總署的秘密研究計畫。",
         "那是一位作家寫給小學生的科學教材。"
       ],
@@ -243,7 +243,7 @@
       "explanation": "作者引用此書是為了呼應前文「對遙遠星空充滿好奇與想像」，強調文學創作往往源於人類對未知的渴望。",
       "commonMisconception": "學生可能會誤以為這是當時的科學事實，而忽略了文中強調的「天馬行空的想像」。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -578,14 +578,14 @@
       "options": [
         "太空探測器技術尚未研發出來",
         "旅費高得不可思議，只有大富翁負擔得起",
-        "找不到願意參與太空旅行的旅客，這也是作者想強調的重點之一。",
+        "找不到願意參與太空旅行的旅客",
         "政府禁止民眾進行太空旅行"
       ],
       "answer_index": 1,
       "explanation": "課文第五段提到，目前太空總署公布的旅費高達十八億元，費用高昂是目前大眾無法參與的主因。",
       "commonMisconception": "學生可能誤以為是技術尚未成熟導致無法飛行，但課文強調的是「費用」問題，且提到已有公司正在研發更適合的飛行器。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",

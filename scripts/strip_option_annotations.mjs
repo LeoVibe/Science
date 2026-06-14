@@ -9,7 +9,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const base = path.join(__dirname, '..', 'question', 'platform');
+const SUBDIR = (process.argv.find(a => a.startsWith('--dir=')) || '').split('=')[1] || '';
+const base = path.join(__dirname, '..', 'question', 'platform', SUBDIR);
 const APPLY = process.argv.includes('--apply');
 
 // 已知洩答標註句式（精確，避免誤刪正常內容）
@@ -19,6 +20,9 @@ const PATS = [
   /（與課文重點不符）/g,
   /，?[^，。「」]{0,14}與課文細節或作者用意並不一致。?/g,
   /，?與課文重點不符。?/g,
+  /（此選項偏離課文重點。?）?/g,
+  /（此說與文中細節較不一致。?）?/g,
+  /，?[^，。「」]{0,14}偏離課文重點。?/g,
 ];
 
 function clean(o) {

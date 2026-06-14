@@ -44,13 +44,16 @@
       "answer_index": 2,
       "explanation": "青色與江面霧氣顏色相近，具有隱蔽性，方便諸葛亮在濃霧中接近曹營而不被立刻識破。",
       "commonMisconception": "學生常會從功能性去猜測（如防禦箭雨），而非從隱蔽性（大霧環境）進行推論。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -86,13 +89,16 @@
       "answer_index": 2,
       "explanation": "諸葛亮在第三幕說明：「曹操生性多疑，我料定他在濃霧中不敢輕易出兵」，這是他敢於大膽逼近敵營的關鍵預判。",
       "commonMisconception": "學生有時會過度聯想（選項四），認為諸葛亮有更多未寫出的計謀，忽略了曹操性格是關鍵。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -107,13 +113,16 @@
       "answer_index": 3,
       "explanation": "周瑜起初握著軍令狀等著看諸葛亮受罰，最後卻說「先生真是神機妙算，令人佩服啊」，顯示其態度的巨大反差。",
       "commonMisconception": "學生可能因為周瑜是反派角色，就認為他始終保持敵意，忽略了文中明確的「佩服」二字。",
-      "quality_level": "QL3",
-      "cqi_score": 6.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -128,13 +137,16 @@
       "answer_index": 0,
       "explanation": "文中並未強調資源（稻草人與船）是諸葛亮擁有的，反而是透過魯肅借來的，且這些資源本身不具備「神機妙算」的成分。",
       "commonMisconception": "學生常認為擁有道具（稻草人）就是成功的關鍵，卻忽略了「決策」與「心理預判」才是核心。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -152,10 +164,15 @@
       "quality_level": "QL3",
       "cqi_score": 6.5,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 0,
+        "correct_answer": 3,
+        "ai_reasoning": "視道謝為展現從容自信；原解讀為嘲諷曹操愚笨，兩者皆通，屬高鑑別誘答。"
+      }
     },
     {
       "taxonomy": "literal",
@@ -170,13 +187,16 @@
       "answer_index": 1,
       "explanation": "文中明確寫出：「我得命軍匠故意拖延，孔明所需物件概不供應，就看看三天後，他如何造得出箭來」，目的就是為了讓諸葛亮失敗。",
       "commonMisconception": "學生容易混淆「故意刁難」與「物資匱乏」，忽略了周瑜的主動惡意。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -212,13 +232,16 @@
       "answer_index": 3,
       "explanation": "魯肅作為周瑜的部屬，並不知道諸葛亮的具體計畫，面對諸葛亮直接駛向曹營，自然會因為對計畫的未知而感到恐懼。",
       "commonMisconception": "學生常會以「上帝視角」認為魯肅應該知道諸葛亮的計畫，忽略了魯肅當下的角色認知。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -233,13 +256,16 @@
       "answer_index": 0,
       "explanation": "諸葛亮透過變換船隻方向，讓稻草人兩面受箭，這是為了最大化「借箭」的效率。",
       "commonMisconception": "學生容易將此動作誤解為軍事上的戰術撤退或誘敵，未聯想到為了「平均受箭」的實際目的。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -254,13 +280,16 @@
       "answer_index": 3,
       "explanation": "諸葛亮根本沒有造箭，他是透過「借」的方式，因此他對周瑜軍中技術的運用與否並非成功關鍵。",
       "commonMisconception": "學生容易被「神機妙算」誤導，認為諸葛亮在各方面都有準備，反而忽略了他其實是「避開」了造箭這件事。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -296,13 +325,16 @@
       "answer_index": 2,
       "explanation": "這是諸葛亮「料定」曹操多疑性格的結果，曹操因為不知道虛實，選擇最保守的防禦方式。",
       "commonMisconception": "學生常認為曹操是因為「膽小」或「沒準備」，而非針對其「多疑」的性格進行分析。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -317,13 +349,16 @@
       "answer_index": 1,
       "explanation": "魯肅忠厚老實，他無法理解諸葛亮為何借船卻不造箭，反映了他對諸葛亮計畫的困惑。",
       "commonMisconception": "學生可能誤以為魯肅是在「拒絕」諸葛亮，但文中他其實答應了，搖頭是表達「無法理解」。",
-      "quality_level": "QL3",
-      "cqi_score": 6.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -383,10 +418,15 @@
       "quality_level": "QL3",
       "cqi_score": 6.5,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 3,
+        "correct_answer": 0,
+        "ai_reasoning": "由借船布幔切入解讀奇怪之處；原意指三天造箭之軍令狀不可能，屬語境誘答。"
+      }
     },
     {
       "taxonomy": "literal",
@@ -401,13 +441,16 @@
       "answer_index": 0,
       "explanation": "文中敘述曹營士兵聽聞鼓聲，以為周瑜率兵攻擊，為了防禦而採取放箭行動。",
       "commonMisconception": "學生常會認為曹操是因為知道是諸葛亮才放箭，或認為曹軍是因為害怕才放箭，忽略了「誤以為周瑜來襲」的動機。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -422,13 +465,16 @@
       "answer_index": 0,
       "explanation": "諸葛亮在第三幕說明，正是因為料定曹操生性多疑，在看不清敵軍數量的大霧中，曹操只敢遠距離放箭防守，而不敢開船追擊。",
       "commonMisconception": "學生常會忽略「多疑」這個性格特質，以為僅僅是因為大霧看不見而已。",
-      "quality_level": "QL3",
-      "cqi_score": 6.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -443,13 +489,16 @@
       "answer_index": 3,
       "explanation": "透過兩次轉向，讓船身兩側都能受箭，這樣才能最大化地蒐集到十萬支箭。",
       "commonMisconception": "學生可能會認為這是為了戰術上的威嚇，而非為了增加接箭的效率。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -464,13 +513,16 @@
       "answer_index": 2,
       "explanation": "魯肅從一開始的懷疑與驚恐，到最後見證結果後的讚歎，反映出他對諸葛亮神機妙算的認可。",
       "commonMisconception": "學生可能會誤判為魯肅在嘲諷周瑜，但根據前後文，這主要是在表達對孔明能力的肯定。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -488,10 +540,15 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": 3,
+        "ai_reasoning": "判為掩飾羞愧保持禮貌；原解為計畫失敗的無奈尷尬，情緒同源屬誘答。"
+      }
     },
     {
       "taxonomy": "literal",
@@ -527,13 +584,16 @@
       "answer_index": 3,
       "explanation": "課文中諸葛亮直接回應周瑜：「眼看曹操軍隊將至，要等十天，我軍早被殺盡！」因此主動縮短期限是為了應對迫在眉睫的戰爭危機。",
       "commonMisconception": "學生常誤以為諸葛亮是因為有妙計才自信地縮短時間，卻忽略了當時戰況緊急的客觀事實。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -548,13 +608,16 @@
       "answer_index": 3,
       "explanation": "周瑜作為都督，在對話中顯得對諸葛亮充滿敵意（例如「軍中無戲言」），他希望諸葛亮違背軍令狀以便受罰，這是一種陷害的心理。",
       "commonMisconception": "學生可能會誤以為周瑜是在進行嚴格的軍事訓練，而低估了周瑜對諸葛亮的惡意。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -572,10 +635,15 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 2,
+        "correct_answer": 0,
+        "ai_reasoning": "判為遮掩稻草人；原解強調與江面同色增隱蔽，兩者皆屬隱蔽功能。"
+      }
     },
     {
       "taxonomy": "contextual",
@@ -590,13 +658,16 @@
       "answer_index": 1,
       "explanation": "課文提到「曹營士兵聽聞鼓聲，以為周瑜率兵攻擊，立刻放箭抵擋」，這顯示擂鼓是為了製造大軍壓境的假象。",
       "commonMisconception": "學生可能認為擂鼓是為了給自己打氣，忽略了這是心理戰術的一環。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -611,13 +682,16 @@
       "answer_index": 3,
       "explanation": "魯肅一直對諸葛亮的行為感到困惑，直到看到箭枝射中草人，才理解諸葛亮利用霧氣與心理戰成功「借」箭的策略。",
       "commonMisconception": "學生可能誤認為魯肅領悟的是「諸葛亮有神力」，而非理解了諸葛亮的智謀策略。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.25,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -632,13 +706,16 @@
       "answer_index": 2,
       "explanation": "文中並未提及「江面開闊處」是成功的關鍵，諸葛亮成功的核心是「氣象預測」與「心理掌握」。",
       "commonMisconception": "學生容易將所有軍事常識都列入考慮，忽略了課文敘述中明確提到的核心條件。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -653,13 +730,16 @@
       "answer_index": 0,
       "explanation": "諸葛亮深知周瑜想害他，因此對周瑜身邊的人（魯肅）示弱，可以降低對方的戒心，並順利爭取到魯肅的協助。",
       "commonMisconception": "學生可能會誤以為諸葛亮真的感到焦慮，而沒看出這是一種掩飾真實意圖的策略。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -674,13 +754,16 @@
       "answer_index": 1,
       "explanation": "諸葛亮在故事中展現了高度的計畫性與隨機應變能力，即便沒有船，他也必然會利用環境或情勢找到替代方案，這是英雄人物的特質。",
       "commonMisconception": "學生容易陷入「一定要有船」的僵化思考，忽略了諸葛亮角色性格中「運籌帷幄」的本質。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -698,10 +781,15 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 2,
+        "correct_answer": 0,
+        "ai_reasoning": "判為藉機向曹操借箭；原解為十天太久錯失戰機，皆為合理動機屬誘答。"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -716,13 +804,16 @@
       "answer_index": 2,
       "explanation": "周瑜的行為是為了讓諸葛亮無法完成任務，目的是為了讓諸葛亮因為違反軍令狀而受罰，顯示其心胸狹隘與設局陷害的心態。",
       "commonMisconception": "學生可能誤以為這是一種嚴格的「人才培育」手段，但從周瑜事後的得意與大笑可知其惡意。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -737,13 +828,16 @@
       "answer_index": 0,
       "explanation": "透過變換船身方向，諸葛亮能讓船隻兩側的稻草人都能面向曹營，最大限度地增加受箭面積，展現其縝密的計畫。",
       "commonMisconception": "學生可能會誤以為這只是為了躲避曹軍攻擊，而忽略了增加受箭面積的戰術目的。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -758,13 +852,16 @@
       "answer_index": 1,
       "explanation": "諸葛亮在第三幕說明借箭成功的原因時，明確提到「曹操生性多疑」，這也是他計畫中最關鍵的心理戰術。",
       "commonMisconception": "學生可能會傾向認為是因為「濃霧」的保護，但忽略了「曹操生性多疑」這一核心人物特質才是計畫成功的關鍵。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -779,13 +876,16 @@
       "answer_index": 3,
       "explanation": "文中周瑜最後說：「先生真是神機妙算，令人佩服啊！」顯示他雖然原先想陷害孔明，但最終被孔明的才能所折服。",
       "commonMisconception": "學生容易根據周瑜之前的惡意，誤判他會繼續執迷不悟，但課文最後明確表達了周瑜的佩服之意。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -821,13 +921,16 @@
       "answer_index": 1,
       "explanation": "諸葛亮早已胸有成竹，假裝焦慮是為了讓魯肅相信他沒有隱瞞，進而順利借到船隻，展現其演戲與布局的智慧。",
       "commonMisconception": "學生容易將「神色焦慮」解讀為字面意義上的慌張，忽略了諸葛亮在《三國演義》中神機妙算的性格設定。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -842,13 +945,16 @@
       "answer_index": 0,
       "explanation": "草船側面受箭面積大，且鼓聲能讓曹操在濃霧中誤判敵情而盲目放箭，這是借箭的核心策略。",
       "commonMisconception": "學生可能認為擂鼓是為了壯大聲勢嚇跑敵人，但文中實際目的是為了引誘曹軍在看不清的情況下放箭。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -884,13 +990,16 @@
       "answer_index": 0,
       "explanation": "周瑜本意是想藉由造箭陷害諸葛亮，但事實擺在眼前，他不得不承認諸葛亮的智謀確實高人一等，表現出「不得不服」的複雜心情。",
       "commonMisconception": "學生可能過度解讀或過度簡化，認為周瑜從此變得善良，或認為這句話完全是虛情假意，忽略了周瑜作為統帥的現實反應。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -905,13 +1014,16 @@
       "answer_index": 1,
       "explanation": "諸葛亮敢於簽下軍令狀是因為他精通天文（預知大霧）與心理（預知曹操多疑），這是有計畫的謀略，而非魯莽或單純的炫耀。",
       "commonMisconception": "學生容易被諸葛亮口中「神仙降臨也無能為力」的焦慮偽裝所誤導，以為他是真的無計可施而衝動答應。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -926,13 +1038,16 @@
       "answer_index": 3,
       "explanation": "諸葛亮前後兩次轉向，目的是為了讓船身兩側的稻草人都能充分接收曹軍射來的箭，確保能順利借到足夠數量的箭。",
       "commonMisconception": "學生可能誤以為轉向是為了撤退或調整隊形，忽略了稻草人受箭的戰術目的。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -947,13 +1062,16 @@
       "answer_index": 1,
       "explanation": "魯肅起初對諸葛亮感到懷疑與不安，但在親眼看到「草船借箭」的結果後，對於諸葛亮的算計感到佩服，這是事實導向的態度轉變。",
       "commonMisconception": "學生可能會誤判魯肅是因為「害怕」而拍手，但文中魯肅是真誠地感嘆計謀的精妙，而非出於恐懼。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "HanLin"

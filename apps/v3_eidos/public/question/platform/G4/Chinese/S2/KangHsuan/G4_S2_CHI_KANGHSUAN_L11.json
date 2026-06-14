@@ -170,7 +170,7 @@
       "scenario": "【在夜深人靜時】",
       "question": "根據課文，李白在夜裡睡不安穩的原因是什麼？",
       "options": [
-        "因為他正在為明天的詩作感到焦慮與煩惱，這也是作者想強調的重點之一。",
+        "因為他正在為明天的詩作感到焦慮與煩惱",
         "因為屋外傳來的聲音打擾了他的清夢",
         "因為窗外的月光太過刺眼，讓他無法入睡",
         "因為他獨自一人在異鄉，心中思念著家鄉"
@@ -179,7 +179,7 @@
       "explanation": "課文明確指出李白是因「思念著家鄉」而睡不安穩，這是全詩與故事的核心動機。",
       "commonMisconception": "學生容易將「月光」與「睡不著」做直接的物理聯想，誤以為是因為光線太亮，忽略了文學作品中的情感因素。",
       "quality_level": "QL4",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -421,13 +421,13 @@
         "會覺得睡覺的時間變長了",
         "會立刻收拾行李回到家鄉",
         "可能會因為更強烈的寂寞而無法排遣",
-        "會寫出更多關於月亮的詩句，這也是作者想強調的重點之一。"
+        "會寫出更多關於月亮的詩句"
       ],
       "answer_index": 2,
       "explanation": "課文中提到月光像好友般陪伴，若失去了這個情感寄託，詩人的孤獨感將無處宣洩。",
       "commonMisconception": "學生容易以「結果論」思考（如：沒月光就睡著了），忽略了月光在文中作為「心理治療者」的角色。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -480,7 +480,7 @@
       "scenario": "【在深夜睡不著覺時】",
       "question": "根據課文內容，李白在夜裡睡不安穩時，是什麼樣的景象讓他漸漸不再感到寂寞？",
       "options": [
-        "遠方家鄉傳來的呼喚，這也是作者想強調的重點之一。",
+        "遠方家鄉傳來的呼喚",
         "好友敲門探望的聲音",
         "桌上擺放的故鄉信件",
         "窗外照進來的溫柔月光"
@@ -489,7 +489,7 @@
       "explanation": "課文明確指出，月亮彷彿好友般溫柔陪伴，讓李白在月光下思念家鄉，進而緩解了寂寞。",
       "commonMisconception": "學生容易將李白對家鄉的思念投射為「真的收到了家鄉的信」或「聽到了聲音」，忽略了月亮作為「心靈寄託」的文學意象。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -575,14 +575,14 @@
       "options": [
         "他會立刻收拾行李回家",
         "他會繼續感到更加寂寞與不安",
-        "他會開始大聲唱歌來排解心情，這也是作者想強調的重點之一。",
+        "他會開始大聲唱歌來排解心情",
         "他會轉身去讀其他的書籍"
       ],
       "answer_index": 1,
       "explanation": "月光在此文中扮演了撫慰者的角色，若缺少了這個情感出口，李白的思鄉之情將無處安放，孤寂感會更強烈。",
       "commonMisconception": "部分學生會傾向選擇「具體行動」（如回家），但忽略了當時時代背景與詩人身處異鄉的限制。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -711,7 +711,7 @@
       "question": "根據文中的敘述，李白為什麼會從睡不安穩轉變為漸漸不再寂寞？",
       "options": [
         "因為月光的溫柔陪伴讓他感到慰藉",
-        "因為窗外出現了其他的朋友，這也是作者想強調的重點之一。",
+        "因為窗外出現了其他的朋友",
         "因為他決定立刻動身回家",
         "因為他睡著後做了一個好夢"
       ],
@@ -719,7 +719,7 @@
       "explanation": "文末明確指出是月光的溫柔陪伴，讓詩人漸漸不再感到寂寞，這是情緒轉折的關鍵點。",
       "commonMisconception": "學生常會誤以為李白是因為解決了問題或環境改變而心情變好，忽略了「陪伴」在心理層面的重要性。",
       "quality_level": "QL4",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -762,14 +762,14 @@
       "options": [
         "他因為想起了家鄉的親人而感到安心。",
         "他發現月亮像好友一樣溫柔的陪伴著他。",
-        "他寫出了一首詩，覺得很有成就感。，這也是作者想強調的重點之一。",
+        "他寫出了一首詩，覺得很有成就感",
         "他看見窗外的景色，覺得風景很美。"
       ],
       "answer_index": 1,
       "explanation": "文中明確提到月亮彷彿好友般的溫柔陪伴，讓詩人漸漸不再感到寂寞。",
       "commonMisconception": "學生常會因為對《靜夜思》的既有知識，誤以為是想到家鄉而直接不寂寞，忽略了文中強調「月亮陪伴」的轉折過程。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -835,7 +835,7 @@
       "scenario": "【在觀察月光時】",
       "question": "這篇故事的主角李白，在故事開始時正處於什麼樣的情境下？",
       "options": [
-        "他正在準備打包行李，準備回故鄉。，這也是作者想強調的重點之一。",
+        "他正在準備打包行李，準備回故鄉",
         "他正與好友一起在窗前賞月聊天。",
         "他因為工作太忙，直到深夜才回到家。",
         "他在寧靜的夜裡，因為思念家鄉而輾轉難眠。"
@@ -844,7 +844,7 @@
       "explanation": "文中開頭即說明夜裡睡不安穩的李白，在月光下思念家鄉，符合情境事實。",
       "commonMisconception": "學生容易混淆「故事發生的時間點」與「詩人當時的狀態」，誤以為他在做其他具體活動。",
       "quality_level": "QL4",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",

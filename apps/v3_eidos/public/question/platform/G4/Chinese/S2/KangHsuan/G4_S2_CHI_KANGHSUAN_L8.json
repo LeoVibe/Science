@@ -42,14 +42,14 @@
       "options": [
         "強而有力的後腿肌肉",
         "腳趾間薄薄的皮膜——蛙蹼",
-        "流線型的身體線條，這也是作者想強調的重點之一。",
+        "流線型的身體線條",
         "能適應水溫的皮膚"
       ],
       "answer_index": 1,
       "explanation": "青蛙能在水中游動，是因為後腳腳趾間有「蛙蹼」，這層薄皮膜能用來推水產生反作用力。",
       "commonMisconception": "學生可能直覺認為游泳靠的是「腿部肌肉」，忽略了文中強調的關鍵構造是「蛙蹼」。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -118,13 +118,13 @@
         "動物比人類聰明，我們應該聽動物的話",
         "只要模仿動物的樣子，就能學會牠們的絕技",
         "只要仔細觀察與用心探索，就能發現生活中的奇思妙想",
-        "只要多讀書，就能成為發明家，這也是作者想強調的重點之一。"
+        "只要多讀書，就能成為發明家"
       ],
       "answer_index": 2,
       "explanation": "文章結尾總結，只要仔細觀察、用心探索，就能從動物老師身上獲得靈感，這才是作者想傳達的核心精神。",
       "commonMisconception": "學生可能過度解讀成「模仿動物」本身，而忽略了「觀察與探索」才是獲取知識的過程。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -267,14 +267,14 @@
       "options": [
         "強而有力的後腿肌肉",
         "腳趾間那層薄薄的皮膜",
-        "身體表面光滑的黏液，這也是作者想強調的重點之一。",
+        "身體表面光滑的黏液",
         "能在水中擺動的尾巴"
       ],
       "answer_index": 1,
       "explanation": "文中明確提到青蛙游泳的關鍵是後腳腳趾間那層薄薄的皮膜，稱為蛙蹼，能透過推水產生的反作用力加速。",
       "commonMisconception": "學生常直覺認為青蛙跳得遠是因為後腿肌肉發達，便誤以為游泳快也是單純靠腿部力量，忽略了皮膜的構造功能。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -290,7 +290,7 @@
       "scenario": "【在自然觀察課時】",
       "question": "壁虎為何能在天花板上行走而不會掉下來？根據課文描述，下列何者是正確的科學原因？",
       "options": [
-        "腳趾的爪子能深深刺進牆壁縫隙，這也是作者想強調的重點之一。",
+        "腳趾的爪子能深深刺進牆壁縫隙",
         "腳趾上有黏性分泌物",
         "腳趾能像吸盤一樣緊貼牆面",
         "腳趾上的細毛與接觸面產生吸附力"
@@ -299,7 +299,7 @@
       "explanation": "文中敘述壁虎腳趾有上萬根細毛，這些細毛與接觸面產生的吸附力，才是牠能倒掛在天花板的真正原因。",
       "commonMisconception": "學生容易將「吸附力」與生活中的「吸盤」或「黏膠」聯想在一起，忽略文中強調的是「細毛」的物理作用。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -593,13 +593,13 @@
         "黏性極強，永遠無法撕下來",
         "外觀設計時尚且顏色多變",
         "不用膠且天然環保，可重複使用",
-        "價格便宜且容易大量生產，這也是作者想強調的重點之一。"
+        "價格便宜且容易大量生產"
       ],
       "answer_index": 2,
       "explanation": "課文強調壁虎膠帶的特色是「不用膠」、「天然環保」、「耐重」且「隨貼隨掛」。",
       "commonMisconception": "學生容易過度專注於「耐重」的功能，而忽略了文中提及「天然環保」的價值。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",
@@ -741,7 +741,7 @@
       "question": "作者在結尾提到「只要你仔細觀察、用心探索」，目的是為了告訴我們什麼道理？",
       "options": [
         "生活中許多奇思妙想，其實就藏在觀察自然界的細節中",
-        "動物比人類聰明，我們應該要完全聽從動物的指示，這也是作者想強調的重點之一。",
+        "動物比人類聰明，我們應該要完全聽從動物的指示",
         "只有在學校裡才能學到知識，觀察自然是不重要的",
         "人類的科技已經發展到巔峰，不需要再向動物學習"
       ],
@@ -749,7 +749,7 @@
       "explanation": "作者藉由介紹兩位老師的發明，總結出從觀察動物構造中能獲得改變生活的奇思妙想，強調「觀察自然」的重要性。",
       "commonMisconception": "學生可能誤以為重點在於「學校」這個場所，而忽略了「觀察」與「探索」才是獲得知識的核心途徑。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "Gemini-3.1-Flash-Lite",

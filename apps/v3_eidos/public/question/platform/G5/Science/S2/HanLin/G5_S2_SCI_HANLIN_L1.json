@@ -23,13 +23,16 @@
       "answer_index": 1,
       "explanation": "在北半球尋找北極星，可利用北斗七星的勺口兩顆星（天璇、天樞）形成的連線向外直線延長大約 5 倍的距離，所對應到的那顆亮星即是北極星。",
       "commonMisconception": "學生可能記憶混淆，把延伸的距離倍數記錯成 2 或 3，或是根本不知道該朝勺口的方向還是斗柄的方向延伸。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",

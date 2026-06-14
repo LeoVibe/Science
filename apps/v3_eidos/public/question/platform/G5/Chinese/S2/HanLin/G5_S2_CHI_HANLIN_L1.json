@@ -40,17 +40,20 @@
         "讚美工業社會的高效率與現代化",
         "感嘆臺灣的土地太小，容納不下工業發展",
         "強調臺灣歷史變遷帶來的環境與社會面貌轉變",
-        "抱怨農業社會的落後與貧窮，這也是作者想強調的重點之一。"
+        "抱怨農業社會的落後與貧窮"
       ],
       "answer_index": 2,
       "commonMisconception": "學生常誤以為詩人僅是在描述風景，而忽略了「翠綠」與「黑色」隱含的社會變遷與環境衝突之意。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -59,19 +62,22 @@
       "options": [
         "因為作者忘記自己已經寫過這句話",
         "作為詩歌的節奏基調，強化對土地的深情凝視",
-        "提醒讀者作者目前站立的具體經緯度，這也是作者想強調的重點之一。",
+        "提醒讀者作者目前站立的具體經緯度",
         "為了湊足詩句的字數，平衡長短句"
       ],
       "answer_index": 1,
       "explanation": "重複句在詩歌中具有強調意念、深化情感與建立節奏的功能，並非湊字數或單純的地理標註。",
       "commonMisconception": "學生容易以「湊字數」或「地理定位」的邏輯來解讀文學修辭，缺乏對情感節奏的敏感度。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -107,13 +113,16 @@
       "answer_index": 3,
       "explanation": "這段文字連結了歷史與土地，顯露了詩人對祖先辛勤開墾土地的尊重與肯定。",
       "commonMisconception": "學生容易將「開墾」視為負面的破壞行為，而忽略了詩句中對「祖先」行為的肯定情感。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -152,10 +161,15 @@
       "quality_level": "QL3",
       "cqi_score": 5.75,
       "is_publishable": false,
-      "review_status": "pending_review",
+      "review_status": "pending",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_eval_mismatch": {
+        "ai_selected": 1,
+        "correct_answer": 0,
+        "ai_reasoning": "誤選詩中段的舉目瞭望動作；實際結尾收束於仰望天空與俯視大海。"
+      }
     },
     {
       "taxonomy": "inferential",
@@ -191,13 +205,16 @@
       "answer_index": 3,
       "explanation": "詩文第二段明確指出「燈塔是一座發光體」，這是對文中意象的直接理解。",
       "commonMisconception": "學生可能因為聯想到「大海無垠」而直覺認為是太陽，忽略了燈塔在鵝鑾鼻的地標意義。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -233,13 +250,16 @@
       "answer_index": 3,
       "explanation": "透過「翠綠田園」與「黑色煙囪」的對比，詩人隱喻了臺灣從農業轉型為工業的過程，以及對環境變遷的觀察。",
       "commonMisconception": "學生可能只注意到視覺描述，誤以為是單純描述天氣或風景的自然變化。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -254,20 +274,23 @@
       "answer_index": 2,
       "explanation": "「關懷」一詞直接點出詩人對臺灣歷史與命運的深厚情感與認同。",
       "commonMisconception": "學生可能被「坎坷」一詞誤導，認為詩人是在責怪這片土地，而非懷抱關懷之情。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
       "scenario": "【在整理詩作內容時】",
       "question": "詩人站在臺灣最南方時，看到了哪些自然景象？",
       "options": [
-        "熙熙攘攘的市集與車流，這也是作者想強調的重點之一。",
+        "熙熙攘攘的市集與車流",
         "茂密的森林與野生動物",
         "高聳入雲的摩天大樓",
         "晴空萬里、碧波盪漾的大海"
@@ -275,13 +298,16 @@
       "answer_index": 3,
       "explanation": "詩的最後一句「仰望晴空萬里，俯視大海碧波盪漾」直接描述了詩人所見的地理景觀。",
       "commonMisconception": "學生可能會依據對現代城市的印象，誤以為最南方會有現代化建築，而非詩中強調的自然景觀。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 6.25,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -338,13 +364,16 @@
       "answer_index": 2,
       "explanation": "詩文明確記載「祖先開闢了草原，耕耘了泥土」，這是對歷史背景的客觀敘述。",
       "commonMisconception": "學生可能會混淆祖先的貢獻與後來工業發展的現象，誤將煙囪視為祖先的功績。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -354,18 +383,21 @@
         "臺灣的最北方",
         "臺灣的最東方",
         "臺灣的最南方",
-        "臺灣的最西方，這也是作者想強調的重點之一。"
+        "臺灣的最西方"
       ],
       "answer_index": 2,
       "explanation": "詩中多次重複「站在臺灣的最南方」，明確指出作者的地理位置。",
       "commonMisconception": "學生可能因為對鵝鑾鼻地理位置不熟悉，誤以為是東部或南部而混淆。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -374,19 +406,22 @@
       "options": [
         "誇飾法，強調海浪大到讓人聽不見聲音",
         "譬喻法，展現海浪拍打聲如音樂般綿延不絕",
-        "轉化法，暗示大海即將停止流動，這也是作者想強調的重點之一。",
+        "轉化法，暗示大海即將停止流動",
         "擬人法，表達海水的吵雜令人心煩"
       ],
       "answer_index": 1,
       "explanation": "將海浪比喻為音符，將聽覺轉化為視覺與聽覺的意象，展現大海動態之美。",
       "commonMisconception": "學生容易將「音符」誤解為單純的噪音或單一樂器，忽略了「永不休止」所傳達的節奏感。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -422,13 +457,16 @@
       "answer_index": 1,
       "explanation": "透過「翠綠」與「黑色」的強烈色彩對比，隱含了作者對自然環境轉變的省思與憂慮。",
       "commonMisconception": "學生可能誤以為這只是單純的地理描述，而忽略了作者對環境變化的價值判斷。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -464,13 +502,16 @@
       "answer_index": 2,
       "explanation": "「舉目瞭望」與「足跡敲響」顯示了作者主動去觀察、感受並與土地互動的熱情。",
       "commonMisconception": "學生容易誤以為「敲響」是指破壞環境，而非與土地共鳴的文學意象。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -506,13 +547,16 @@
       "answer_index": 3,
       "explanation": "詩的結尾透過對天空與大海的描寫，將視角拉大，展現對臺灣壯闊景致的喜愛與包容。",
       "commonMisconception": "學生可能誤以為這只是單純的景色描寫，而未察覺這是作者情感的昇華。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -542,19 +586,22 @@
       "options": [
         "對北方居住環境的嚮往",
         "對臺灣地形多樣性的觀察與體認",
-        "對平原開發過度的擔憂，這也是作者想強調的重點之一。",
+        "對平原開發過度的擔憂",
         "對南北氣候差異的抱怨"
       ],
       "answer_index": 1,
       "explanation": "詩人透過空間的移動，展現了對臺灣地理環境變化的細膩觀察，這是一種對島嶼全貌的認知。",
       "commonMisconception": "學生可能過度聯想至工業化造成的環境破壞，而忽略了詞句本身是在描述地形分佈。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -569,13 +616,16 @@
       "answer_index": 1,
       "explanation": "詩人運用對比手法，將「翠綠」與「黑色煙囪」並列，隱含了對工業化過程所帶來地景變化的觀察與感慨。",
       "commonMisconception": "學生容易將「黑色的煙囪」直接解讀為對環保的批判，而忽略了這是對社會轉型過程的客觀描繪與省思。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -603,7 +653,7 @@
       "scenario": "【在體悟詩人情感時】",
       "question": "詩中多次重複「站在臺灣的最南方」，這樣的寫法主要有什麼作用？",
       "options": [
-        "為了湊滿詩歌的字數限制，這也是作者想強調的重點之一。",
+        "為了湊滿詩歌的字數限制",
         "因為詩人忘記自己寫到了哪一段",
         "為了讓讀者覺得這首詩比較容易背誦",
         "強調立足點，並層層堆疊對土地的情感與關懷"
@@ -611,13 +661,16 @@
       "answer_index": 3,
       "explanation": "重複法在詩歌中具有「定錨」的作用，讓視角固定在鵝鑾鼻，並隨著每次重複，深化對歷史、土地與未來的思考。",
       "commonMisconception": "學生可能單純認為重複只是為了修辭美感，而忽略了其結構性的情感深化功能。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -632,13 +685,16 @@
       "answer_index": 3,
       "explanation": "「坎坷」指道路崎嶇難行，引申為臺灣歷史發展中遭遇的困難與轉折，需要後人給予關懷。",
       "commonMisconception": "學生容易被「海潮」的字面意思誤導，將關懷對象侷限在自然景觀上，忽略了「命運」一詞的歷史意涵。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -653,13 +709,16 @@
       "answer_index": 1,
       "explanation": "課文明確寫道「且讓我舉目瞭望，且讓我足跡敲響」，這是詩人與土地互動的具體行為。",
       "commonMisconception": "學生可能會依據一般的旅遊經驗，誤選「拍照」或「吶喊」等現代行為。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -667,20 +726,23 @@
       "question": "結尾提到「仰望晴空萬里，俯視大海碧波盪漾」，這傳達了什麼樣的視覺感受？",
       "options": [
         "天地遼闊、心胸開展的開闊感",
-        "對未來感到迷惘的孤獨感，這也是作者想強調的重點之一。",
+        "對未來感到迷惘的孤獨感",
         "對大海深處的恐懼感",
         "對天氣變化的擔憂感"
       ],
       "answer_index": 0,
       "explanation": "「仰望」與「俯視」建構了立體的空間感，搭配「晴空」與「碧波」，展現了詩人開闊的心境。",
       "commonMisconception": "學生容易將「俯視」解讀為對大自然的敬畏而產生恐懼，忽略了詩句中呈現的平靜與壯闊。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -695,20 +757,23 @@
       "answer_index": 2,
       "explanation": "文中明確提到「燈塔是一座發光體」，這是針對文本事實的直接理解。",
       "commonMisconception": "學生容易將文中出現的「海是一串音符」混淆，誤以為燈塔也是音符。",
-      "quality_level": "QL3",
-      "cqi_score": 5.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 7.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在閱讀課文第二段時】",
       "question": "詩人提到「海是一串永不休止的音符」，這句話表達了什麼樣的意境？",
       "options": [
-        "作者希望能把海的聲音錄下來，這也是作者想強調的重點之一。",
+        "作者希望能把海的聲音錄下來",
         "大海裡面藏著許多樂譜",
         "大海的顏色像音符一樣多變",
         "海浪的聲音像音樂一樣持續不斷"
@@ -716,13 +781,16 @@
       "answer_index": 3,
       "explanation": "作者運用譬喻法，將海潮的澎湃比作音符，強調其動態且持續的特質。",
       "commonMisconception": "學生常受限於「音符」的具體外型，忽略了「永不休止」所暗示的聽覺與動態感。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -737,13 +805,16 @@
       "answer_index": 2,
       "explanation": "透過對比「田園」與「煙囪」，呈現出臺灣從農業轉型為工業社會的時代脈絡。",
       "commonMisconception": "過度解讀作者對環境污染的批判，而忽略了文句中「演變」的客觀敘述視角。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -758,20 +829,23 @@
       "answer_index": 2,
       "explanation": "重複句型在詩歌中具有強調意象、統一情感基調並串聯不同視角的功能。",
       "commonMisconception": "學生常以日常生活的「站立」邏輯去推敲，誤以為是動作本身，而非修辭手法。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在感受作者的情懷時】",
       "question": "詩人提到要「舉目瞭望」與「足跡敲響」，這表達了作者對臺灣土地什麼樣的心情？",
       "options": [
-        "對於土地面積太小感到不滿，這也是作者想強調的重點之一。",
+        "對於土地面積太小感到不滿",
         "想要測量臺灣最南端的精確距離",
         "急著離開前往下一個景點",
         "想要深入認識並與土地對話的熱情"
@@ -779,13 +853,16 @@
       "answer_index": 3,
       "explanation": "這些動作展現了詩人主動地去觀察、感受這片土地的歷史與現況，充滿了關懷與認同。",
       "commonMisconception": "將「敲響」誤解為物理上的敲打聲，忽略了這是表達與土地連結的象徵意涵。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -815,19 +892,22 @@
       "options": [
         "臺灣人口分佈的情況",
         "臺灣南北地形的差異",
-        "臺灣氣候的冷熱分佈，這也是作者想強調的重點之一。",
+        "臺灣氣候的冷熱分佈",
         "臺灣交通建設的發展"
       ],
       "answer_index": 1,
       "explanation": "明確對比了「平原」與「丘陵」兩種地形，並標示出南北方的位置特徵。",
       "commonMisconception": "學生常因對地理知識不熟悉，誤以為北方一定比南方平坦，而忽略了文中文字的直接陳述。",
-      "quality_level": "QL3",
-      "cqi_score": 6.75,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8.75,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -837,18 +917,21 @@
         "對於大海無情吞噬土地的恐懼",
         "對於天氣變化劇烈的擔憂",
         "開闊、寧靜且充滿希望的視野",
-        "想要趕快回到室內休息的疲憊，這也是作者想強調的重點之一。"
+        "想要趕快回到室內休息的疲憊"
       ],
       "answer_index": 2,
       "explanation": "透過「仰望」與「俯視」的廣大景觀描寫，收束全詩，展現詩人胸懷與土地的平靜共鳴。",
       "commonMisconception": "學生容易因為前面提到「工業社會的煙囪」而誤認為結尾帶有壓抑感，忽略了詩句本身的明亮色調。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "literal",
@@ -884,13 +967,16 @@
       "answer_index": 3,
       "explanation": "「永不休止的音符」將海浪拍打的聲音比喻為音樂，展現了詩人對大自然律動的欣賞與讚嘆。",
       "commonMisconception": "學生可能將「音符」聯想為「噪音」，忽略了文學修辭中賦予大自然音樂性的美感。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "contextual",
@@ -905,13 +991,16 @@
       "answer_index": 3,
       "explanation": "這段詩句對比了過去的農耕生活與現代的工業發展，呈現出臺灣在歷史進程中的社會型態變遷。",
       "commonMisconception": "學生容易誤以為詩人是在批評工業發展，而忽略了詩人僅是在客觀描述社會型態的更迭。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "inferential",
@@ -921,18 +1010,21 @@
         "想用腳步聲來測量鵝鑾鼻的確切面積",
         "希望透過大聲呼喊讓燈塔發出更亮的光",
         "透過親自觀察與走訪，深入了解這片土地",
-        "對目前的環境感到不滿，想要離開南方，這也是作者想強調的重點之一。"
+        "對目前的環境感到不滿，想要離開南方"
       ],
       "answer_index": 2,
       "explanation": "這兩句展現了詩人主動探索、感受土地的積極態度，不僅是用眼看，更是用身體力行去體驗。",
       "commonMisconception": "學生可能將「足跡敲響」過度解釋為物理上的測量或噪音，忽略了這是詩人對土地的深情連結。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     },
     {
       "taxonomy": "critical",
@@ -940,20 +1032,23 @@
       "question": "詩人為什麼在最後提到「仰望晴空萬里，俯視大海碧波盪漾」？這給讀者什麼樣的視覺感受？",
       "options": [
         "視野遼闊，呼應了詩人對臺灣這片土地的深厚情感與包容",
-        "說明鵝鑾鼻的高度很高，讓人感到非常害怕，這也是作者想強調的重點之一。",
+        "說明鵝鑾鼻的高度很高，讓人感到非常害怕",
         "暗示臺灣的南方與北方氣候完全不同",
         "表達了天氣變化無常，需要準備雨具"
       ],
       "answer_index": 0,
       "explanation": "這兩句收尾將讀者的視野拉高、放遠，展現了詩人在鵝鑾鼻感受到的開闊胸襟與對大自然壯麗的崇敬。",
       "commonMisconception": "學生容易將「晴空」與「大海」單純視為天氣描述，而忽略了這是在傳達詩人內心開闊的感官體驗。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "HanLin"

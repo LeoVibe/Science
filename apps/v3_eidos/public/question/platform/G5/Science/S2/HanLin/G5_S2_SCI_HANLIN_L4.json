@@ -65,13 +65,16 @@
       "answer_index": 0,
       "explanation": "動物將身體外觀或顏色演化成與周遭環境非常相似的現象稱為「保護色」；而模仿其他枯木、落葉等物體外形的則稱為「擬態」。這些都是為了隱藏自己避開掠食者的行為。",
       "commonMisconception": "學生如果不熟悉專有名詞，可能會隨便選擇不相關的一種行為名詞（如共生、冬眠）而選錯。",
-      "quality_level": "QL3",
-      "cqi_score": 6,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "HanLin"

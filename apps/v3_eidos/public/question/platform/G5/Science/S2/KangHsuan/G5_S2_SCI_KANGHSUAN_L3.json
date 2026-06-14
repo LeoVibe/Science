@@ -65,13 +65,16 @@
       "answer_index": 1,
       "explanation": "實驗設計必須遵守「唯一操作變因」。要探討「水分」，就只能讓水分不同（一組有水、一組無水），其他條件（如底層材質、光線、溫度）都必須相同以作為「控制變因」。",
       "commonMisconception": "學生在設計實驗時沒有建立控制變因的概念，隨作改變多個條件（如同時改變水與陽光），導致最後無法釐清到底是誰造成了發芽與否差異。",
-      "quality_level": "QL3",
-      "cqi_score": 7.5,
-      "is_publishable": false,
-      "review_status": "pending_review",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "is_publishable": true,
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": null
+      "review_date": null,
+      "blind_evaluation": true,
+      "verifying_model": "claude-opus-4-8[1m]",
+      "verifying_date": "2026-06-14"
     }
   ],
   "publisher": "KangHsuan"
