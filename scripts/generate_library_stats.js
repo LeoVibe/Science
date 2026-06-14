@@ -142,6 +142,7 @@ function scanPlatform() {
                             let unitCount = 0;
                             let totalBankQuestions = 0;
                             let totalPublishedQuestions = 0;
+                            let totalPublishableQuestions = 0; // JOB-258：逐題 is_publishable===true，對齊前端 loader 實際載入
                             let totalScore = 0;
                             let unitList = manifest.items || [];
                             // 新 QL 統計：跨全科目所有題目累積
@@ -173,6 +174,7 @@ function scanPlatform() {
                                                     for (const q of questions) {
                                                         const lvl = getQuestionQLevel(q);
                                                         qlCounts[lvl]++;
+                                                        if (q.is_publishable === true) totalPublishableQuestions++;
                                                     }
                                                 }
                                             } catch (err) {
@@ -191,12 +193,10 @@ function scanPlatform() {
                                 packageAvgCqi = (totalScore / totalBankQuestions).toFixed(2);
                             }
 
-                            /** 整包可上架題數：整包成熟度已達 L2+（非 L1／BIAS）時，與題庫數一致；否則僅計入逐檔達 L2+ 之題（草稿／偏差檔不計入上架） */
-                            const packageEligible =
-                                highestQuality !== 'QL1' && highestQuality !== 'QL1 (BIAS)';
-                            const shelfQuestions = packageEligible
-                                ? totalBankQuestions
-                                : totalPublishedQuestions;
+                            /** JOB-258：上架數一律採逐題 is_publishable===true（對齊前端 loader 實際載入），
+                             *  不再以「包級達標全算」（修正 about 顯示灌水 — 過去 G5國語翰林顯示426實載184）。
+                             *  totalPublishedQuestions（檔級達標）保留供分析，不再用於對外上架數。 */
+                            const shelfQuestions = totalPublishableQuestions;
 
                             const statKey = `${grade}_${semester}_${subject}`;
                             if (!stats[statKey]) {
