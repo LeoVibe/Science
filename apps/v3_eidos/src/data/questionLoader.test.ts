@@ -28,6 +28,7 @@ const SINGLE_QUESTION_JSON = {
   correctAnswer: 1,
   explanation: '燈塔為發光體。',
   commonMisconception: '可能誤選太陽或星空。',
+  is_publishable: true,
 };
 
 describe('questionLoader', () => {
@@ -115,6 +116,7 @@ describe('questionLoader', () => {
           explanation: '詩中將大地視為愛人。',
           scenario: '文章主旨',
           commonMisconception: '易從字面聯想男女之情。',
+          is_publishable: true,
         },
       ],
     };
@@ -150,7 +152,7 @@ describe('questionLoader', () => {
     const lessonJson = {
       lesson_id: 'L1',
       lesson_title: '最美的模樣',
-      questions: [{ question: '題幹？', options: ['A', 'B', 'C', 'D'], answer_index: 0 }],
+      questions: [{ question: '題幹？', options: ['A', 'B', 'C', 'D'], answer_index: 0, is_publishable: true }],
     };
     fetchMock
       .mockResolvedValueOnce({ ok: true, json: async () => g3Manifest })
@@ -219,18 +221,21 @@ describe('questionLoader', () => {
           answer_index: 2,
           explanation: '正解是 C',
           scenario: '情境',
+          is_publishable: true,
         },
         {
           question: 'Q2 正解在 D',
           options: ['A', 'B', 'C', 'D 正解'],
           answer_index: 3,
           explanation: '正解是 D',
+          is_publishable: true,
         },
         {
           question: 'Q3 正解在 B',
           options: ['A', 'B 正解', 'C', 'D'],
           answer_index: 1,
           explanation: '正解是 B',
+          is_publishable: true,
         },
       ],
     };
@@ -259,9 +264,9 @@ describe('questionLoader', () => {
     };
     const lessonJson = {
       questions: [
-        { id: 'q1', type: 'multiple_choice', question: 'Q1', options: ['1', '2', '3', '4'], answer: 1, is_active: false },
-        { id: 'q2', type: 'multiple_choice', question: 'Q2', options: ['1', '2', '3', '4'], answer: 1, is_active: true },
-        { id: 'q3', type: 'multiple_choice', question: 'Q3', options: ['1', '2', '3', '4'], answer: 1 }, // 預設 undefined = true
+        { id: 'q1', type: 'multiple_choice', question: 'Q1', options: ['1', '2', '3', '4'], answer: 1, is_active: false, is_publishable: true },
+        { id: 'q2', type: 'multiple_choice', question: 'Q2', options: ['1', '2', '3', '4'], answer: 1, is_active: true, is_publishable: true },
+        { id: 'q3', type: 'multiple_choice', question: 'Q3', options: ['1', '2', '3', '4'], answer: 1, is_publishable: true }, // 預設 undefined = true
       ]
     };
     fetchMock
@@ -272,6 +277,34 @@ describe('questionLoader', () => {
     const result = await loadQuestions(5, '數學', 2, '翰林');
     expect(result.questions).toHaveLength(2);
     expect(result.questions.map(q => q.id)).toEqual(['q2', 'q3']);
+  });
+
+  // 守門測試（JOB-256 回饋 bug 回歸防護）：
+  // production 題庫 JSON 多數無 id 欄位，loader 必須補 fallback id，
+  // 否則前端「問題回報」送出的 body 會缺 questionId → 後端回 400。
+  it('應為無 id 的題目自動補上 fallback id（回饋 questionId 不可為空）', async () => {
+    const fetchMock = vi.fn();
+    const manifest = {
+      id: 'G3_S2_CHI_HANLIN', publisher: 'HANLIN', grade: 'G3', semester: 'S2', subject: 'CHI',
+      items: [{ id: 'L1', title: '測試課', file: 'G3_S2_CHI_HANLIN_L1.json', count: 2 }],
+    };
+    const noIdJson = {
+      meta: { grade: 'G3', semester: 'S2', subject: 'CHI', publisher: 'HANLIN', lesson: 'L1', title: '測試課', order: 1 },
+      publisher: 'HANLIN',
+      questions: [
+        { question: '無 id 題一', options: ['A', 'B', 'C', 'D'], answer_index: 0, is_publishable: true },
+        { question: '無 id 題二', options: ['A', 'B', 'C', 'D'], answer_index: 1, is_publishable: true },
+      ],
+    };
+    fetchMock
+      .mockResolvedValueOnce({ ok: true, json: async () => manifest })
+      .mockResolvedValueOnce({ ok: true, json: async () => noIdJson });
+    globalThis.fetch = fetchMock;
+
+    const result = await loadQuestions(3, '國語', 2, '翰林');
+
+    expect(result.questions.length).toBe(2);
+    expect(result.questions.every(q => typeof q.id === 'string' && q.id.length > 0)).toBe(true);
   });
 });
 
