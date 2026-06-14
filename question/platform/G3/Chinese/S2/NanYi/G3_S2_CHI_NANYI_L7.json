@@ -18,9 +18,9 @@
       "question": "課文中提到鹽田是「方形調色盤」，且裡面「倒滿了天空迷人的藍，擠滿了太陽金光燦爛的笑顏」，這句話主要是在形容什麼景象？",
       "options": [
         "鹽田水面清澈，像鏡子一樣反射出天空與陽光的色彩",
-        "鹽工將收穫的白色鹽巴依照顏色分類放在格子裡",
-        "鹽田裡長滿了藍色與金色的海藻，看起來色彩繽紛",
-        "鹽工在鹽田裡練習繪畫，將海水染成各種顏色"
+        "鹽工把收穫的白色鹽巴依照顏色分類整齊放在格子田裡",
+        "鹽田裡長滿了一片藍色與金色的美麗海藻，看起來色彩非常繽紛",
+        "鹽工們在鹽田裡認真練習各種繪畫技法，把海水染成各種顏色"
       ],
       "answer_index": 0,
       "explanation": "作者運用譬喻修辭，將平整的方形鹽田比作調色盤。由於鹽田內盛滿海水，會反射上方天空的藍色與太陽的金光，因此才說調色盤裡「倒滿」與「擠滿」了顏色，這是觀察自然光影後的文學聯想。",
@@ -29,10 +29,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -54,10 +54,10 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -79,10 +79,10 @@
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -104,10 +104,10 @@
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -118,9 +118,9 @@
       "question": "課文中將「長長的鹽耙」比喻為「神奇的彩筆」，並說鹽工「一次又一次攪動著調色盤」。根據課文脈絡，這枝「彩筆」最後在調色盤裡畫出了什麼？",
       "options": [
         "讓原本倒映著藍天的水面，堆疊出一座座雪白的鹽山",
-        "在水面上畫出太陽金燦燦的笑臉",
-        "在巨大的棋盤上畫出一格一格的方形圖案",
-        "將天空迷人的藍色染成夕陽的彩霞"
+        "在美麗的水面上成功畫出了太陽金光燦爛笑臉的倒影圖案",
+        "在巨大無邊的棋盤平面上清楚畫出了一格一格整齊的方形圖案",
+        "把原本天空迷人的藍色成功染成了美麗夕陽彩霞的橘紅顏色"
       ],
       "answer_index": 0,
       "explanation": "課文第二段提到「長長的鹽耙是鹽工們神奇的彩筆」，當他們攪動調色盤（鹽田水面）後，最後竟變成「一座座雪白的鹽山」。這說明了鹽工勞動的成果，就像是用彩筆在調色盤中創造出白色的藝術品。",
@@ -129,10 +129,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -142,10 +142,10 @@
       "scenario": "【在參與學校舉辦的「小小詩人攝影展」時】，小華要把一張鹽田的照片配上課文中的文句，照片裡是整齊排列、尖尖白白的鹽堆。",
       "question": "為了展現鹽山「整齊、具有幾何美感」的特點，小華應該選擇課文中哪一組比喻最為貼切？",
       "options": [
-        "將鹽山比喻為「迷人的藍」與「金色的笑顏」",
+        "將鹽山分別比喻為「迷人的藍色」與「金色燦爛的笑顏」",
         "將鹽山比喻為「迷你金字塔」與「白色西洋棋子」",
-        "將鹽山比喻為「閃亮的光雕」與「飛上的雲霄」",
-        "將鹽山比喻為「神奇的彩筆」與「巨大的棋盤」"
+        "將鹽山分別比喻為「太陽閃亮的光雕」與「輕輕飛上的雲霄」",
+        "將鹽山分別比喻為「鹽工神奇的彩筆」與「一望無邊巨大棋盤」"
       ],
       "answer_index": 1,
       "explanation": "課文第三段明確使用「迷你金字塔」來形容鹽山的形狀，並以「白色西洋棋子下在巨大的棋盤」來形容鹽山在鹽田裡整齊排列的視覺感。這兩者都強調了鹽山的形狀與排列美感。",
@@ -154,10 +154,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -179,10 +179,10 @@
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -204,8 +204,8 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -215,7 +215,7 @@
         "triage_note": "JOB-165：AI 回傳 -1 或誤判，題幹／解析與答案一致"
       },
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-04-05"
@@ -237,10 +237,10 @@
       "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -250,10 +250,10 @@
       "scenario": "【在討論「方形調色盤」譬喻時】",
       "question": "作者把鹽田比作「方形調色盤」，最主要想引導讀者注意哪一種觀察？",
       "options": [
-        "鹽田裡真的裝了各種顏料供遊客作畫",
+        "鹽田裡面真的裝滿了各種顏料可以供遊客現場作畫",
         "鹽田水面映照天空與陽光，色彩隨光影變化",
-        "鹽工會把不同顏色的鹽巴分格陳列販售",
-        "鹽田的泥土顏色像調色盤一樣有紅有綠"
+        "鹽工會把不同顏色的各種鹽巴分格子放好陳列出來販售",
+        "鹽田下面的泥土顏色就像調色盤一樣同時有紅色和綠色"
       ],
       "answer_index": 1,
       "explanation": "課文用調色盤比喻方形鹽田的水面反射藍天與金光，屬於光影與色彩的聯想，而不是真的在田裡調顏料。",
@@ -262,10 +262,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -275,10 +275,10 @@
       "scenario": "【在為鹽田照片選一句旁白時】",
       "question": "小美拍了一張夕陽把鹽田染成紅通通畫面的照片，下列哪一句課文意象最適合當旁白？",
       "options": [
-        "強調鹽田像棋盤，只適合描述黑白格子",
-        "強調鹽耙像筆，但與夕陽無關",
+        "強調鹽田的外形像一個巨大棋盤，只適合拿來描述黑白格子",
+        "強調鹽耙的外觀像一支毛筆，但是這個比喻和夕陽並沒有關係",
         "延續夕陽映照鹽田，讓「調色盤」色彩更豐富",
-        "強調鹽工已收工，所以不可能有夕陽"
+        "強調鹽工已經全部收工下班了，所以不可能再看到什麼美麗夕陽"
       ],
       "answer_index": 2,
       "explanation": "課文先寫藍與金的映照，夕陽紅光則讓水面色彩更富層次，延續「調色盤」的比喻最能呼應照片氛圍。",
@@ -287,10 +287,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -300,9 +300,9 @@
       "scenario": "【在討論傳統產業與自然景觀的關係時】",
       "question": "從課文描寫來看，下列哪一種看法最能尊重鹽田作為「地景與產業」的雙重意義？",
       "options": [
-        "鹽田只是拍照背景，不必了解勞動過程",
-        "鹽田美不美取決於有沒有商業招牌",
-        "只要有夕陽，就不需要保存曬鹽文化",
+        "鹽田只是適合拍美照的好背景，不必真的去了解鹽工的辛苦勞動過程",
+        "鹽田美不美看的是有沒有漂亮商業招牌，而不是靠自然景色",
+        "只要有美麗夕陽可以欣賞，就根本不需要特別去保存曬鹽的傳統文化",
         "美景來自自然光影，也來自鹽工的辛勤與智慧"
       ],
       "answer_index": 3,
@@ -312,10 +312,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -326,9 +326,9 @@
       "question": "課文裡「長長的鹽耙」被比喻成什麼，主要用來形容什麼動作？",
       "options": [
         "比喻成神奇的彩筆，形容鹽工反覆攪動鹽田水面",
-        "比喻成漁網，形容在鹽田裡撈魚",
-        "比喻成望遠鏡，形容觀察遠方的船隻",
-        "比喻成鐮刀，形容收割稻穀"
+        "把鹽耙比喻成捕魚的漁網，形容鹽工在鹽田裡打魚的動作",
+        "把鹽耙比喻成一支長長的望遠鏡，形容鹽工觀察遠方船隻的行為",
+        "把鹽耙比喻成彎彎的鐮刀，形容鹽工在田裡收割金黃稻穀的動作"
       ],
       "answer_index": 0,
       "explanation": "課文明確將鹽耙比作彩筆，並寫鹽工一次又一次攪動水面，連結「調色盤」的整體意象。",
@@ -337,10 +337,10 @@
       "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -350,10 +350,10 @@
       "scenario": "【在推敲「迷人的藍」如何變成鹽山時】",
       "question": "依課文敘述，「迷人的藍」轉成「雪白的鹽山」，下列哪一個因素最關鍵？",
       "options": [
-        "只靠夕陽照射，水就會自動堆成山",
+        "只靠太陽照射，水分蒸發後鹽巴就會自動堆疊成漂亮鹽山",
         "鹽工持鹽耙反覆攪動與曬鹽收鹽的勞動過程",
-        "海浪每天晚上把鹽粒沖成金字塔形狀",
-        "遊客在田邊灑白色粉末製造拍照效果"
+        "每天晚上海浪都會把細小鹽粒沖刷堆疊成金字塔的形狀",
+        "遊客在田邊灑下大量白色粉末製造出漂亮的拍照效果畫面"
       ],
       "answer_index": 1,
       "explanation": "課文將色彩變化與鹽工攪動、結晶成堆連在一起，強調人的勞動讓自然與生產銜接，不是單純自動發生。",
@@ -362,10 +362,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -375,10 +375,10 @@
       "scenario": "【在為「鹽山形狀」設計說明文句時】",
       "question": "若要向遊客介紹鹽山整齊又有幾何美感，下列哪組課文比喻最適合引用？",
       "options": [
-        "只提「太陽的笑顏」而不提鹽山",
-        "只提「調色盤」而不提堆疊形狀",
+        "只描述「太陽金光燦爛笑顏」而完全不提及鹽山的形狀",
+        "只描述「方形調色盤」的顏色而完全不提到任何堆疊形狀",
         "迷你金字塔與白色西洋棋子下在巨大棋盤的聯想",
-        "只提「水晶教堂」但刪去鹽田背景"
+        "只描述「白色水晶教堂」的樣子但完全刪去鹽田的自然背景"
       ],
       "answer_index": 2,
       "explanation": "課文第三段以金字塔、西洋棋子與棋盤描寫鹽山的形狀與排列，最能支持「整齊、幾何美感」的說明需求。",
@@ -387,10 +387,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -400,9 +400,9 @@
       "scenario": "【在討論文學比喻是否誇張時】",
       "question": "下列哪一種閱讀態度最適合理解課文中多個比喻（調色盤、彩筆、棋子等）？",
       "options": [
-        "把每一個比喻都當成真實發生的事",
-        "認為比喻只是亂寫，不必對照現場景觀",
-        "完全忽略比喻，只看有沒有提到鹽巴價格",
+        "把課文裡出現的每一個生動比喻全都當成是真實發生的客觀事件",
+        "認為所有的比喻只是作者在亂寫，根本不必對照現場實際景觀",
+        "完全不理解比喻的意思，只去看一看文章有沒有提到鹽巴的價格",
         "對照曬鹽現場，理解比喻如何幫助讀者感受畫面"
       ],
       "answer_index": 3,
@@ -412,10 +412,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -426,9 +426,9 @@
       "question": "課文形容鹽山像「迷你金字塔」，主要是想凸顯下列哪一項特徵？",
       "options": [
         "鹽山尖尖隆起、具有幾何堆疊的形狀感",
-        "鹽山其實是埃及空運來的觀光模型",
-        "鹽山內部挖空可以住人",
-        "鹽山會像金字塔一樣自動移動位置"
+        "其實鹽山是從遠方的埃及特別空運過來的觀光旅遊模型",
+        "鹽山的內部其實有被挖空出來，裡面可以讓人直接居住生活",
+        "鹽山居然會像真正的古埃及金字塔一樣神奇地自動移動位置"
       ],
       "answer_index": 0,
       "explanation": "課文用迷你金字塔描寫鹽堆隆起的外形，讓讀者快速聯想尖錐狀、層層堆高的視覺印象。",
@@ -437,10 +437,10 @@
       "cqi_score": 6.25,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -450,10 +450,10 @@
       "scenario": "【在思考「白色西洋棋子」意象時】",
       "question": "課文把鹽山比作白色西洋棋子下在巨大棋盤，這組意象最想傳達什麼？",
       "options": [
-        "鹽田其實是遊樂場，專門給人下棋",
+        "鹽田其實就是一個供遊客玩耍的遊樂場，那裡專門讓大家下棋",
         "鹽山整齊佇立在寬闊鹽田裡，有秩序美感",
-        "鹽工在下棋比賽決定誰能收鹽",
-        "棋子代表鹽田裡有很多垃圾要清"
+        "鹽工們每天都要在田裡舉辦下棋大賽來決定今天誰去負責收鹽",
+        "課文裡的棋子代表著鹽田裡面積累了非常多的垃圾等著要清除"
       ],
       "answer_index": 1,
       "explanation": "棋盤與棋子暗示方格般的田區與一顆顆鹽堆的對位關係，凸顯排列與節奏之美，不是真的在下棋。",
@@ -462,10 +462,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -475,10 +475,10 @@
       "scenario": "【在設計「鹽田導覽」解說詞時】",
       "question": "導覽員想說明「為什麼夕陽時分特別推薦站在田邊看鹽田」，下列哪一句最能依課文邏輯延伸？",
       "options": [
-        "因為夕陽時鹽田會關閉不讓人參觀",
-        "因為只有中午才能看見藍天倒影",
+        "因為到了夕陽的時間點，鹽田就會直接關閉不再讓任何人進去參觀",
+        "因為只有在正中午的時候，才能真正看得到美麗的藍天完整倒影",
         "因為夕陽把鹽田映得紅通通，色彩層次更動人",
-        "因為夕陽代表鹽工不必工作所以可以聊天"
+        "因為夕陽一出現就代表鹽工的工作已經全部完成，大家可以好好聊天"
       ],
       "answer_index": 2,
       "explanation": "課文描寫夕陽映照鹽田的紅色光輝，與先前藍金調色意象形成層次，適合用作推薦觀賞時段的理由。",
@@ -487,10 +487,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -500,9 +500,9 @@
       "scenario": "【在討論文化資產保存時】",
       "question": "若依課文呈現的井仔腳鹽田特色，下列哪一種行為最符合「欣賞也尊重在地生活」？",
       "options": [
-        "為了拍照踐踏結晶鹽堆或破壞田埂",
-        "大聲喧嘩丟垃圾，反正遊客多沒關係",
-        "隨意帶走鹽工工具當紀念品",
+        "隨意踐踏正在結晶的鹽堆或者破壞田埂的邊界讓鹽水流出去",
+        "在鹽田旁邊大聲喧嘩且隨手亂丟垃圾，反正遊客人很多不差我",
+        "隨便把鹽工留在現場的各種工具拿走當成自己私人的特別紀念品",
         "靜觀勞動與地景，聆聽解說並愛護環境"
       ],
       "answer_index": 3,
@@ -512,10 +512,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -526,9 +526,9 @@
       "question": "課文中「像白色水晶教堂直立在眼前」這句話，主要是形容什麼景象？",
       "options": [
         "鹽山在夕陽與光影中閃耀、輪廓鮮明的樣子",
-        "鹽田旁邊真的蓋了一座玻璃教堂",
-        "遊客在鹽田裡舉辦婚禮派對",
-        "海浪把教堂沖到鹽田中央"
+        "鹽田旁邊真的蓋了一座非常美麗的透明玻璃製教堂供人參觀",
+        "遊客在鹽田裡面舉辦了一場隆重盛大的精彩婚禮派對慶典活動",
+        "強大的海浪把附近一座小教堂直接衝進到鹽田的正中央位置"
       ],
       "answer_index": 0,
       "explanation": "課文以水晶教堂的閃亮與直立感描寫鹽山在眼前的視覺衝擊，屬於比喻而非實際建築事件。",
@@ -537,10 +537,10 @@
       "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -550,10 +550,10 @@
       "scenario": "【在整合「光雕」與自然光的描述時】",
       "question": "課文提到太陽的光影像「閃亮的光雕」，這個說法最適合說明什麼？",
       "options": [
-        "鹽田裝了會發光的雕塑藝術品",
+        "鹽田裡面裝設了許多能在夜晚自動發出美麗光線的雕塑藝術品",
         "陽光在水面與鹽結晶上折射跳動，形成動態光影",
-        "鹽工晚上用手電筒雕刻冰塊",
-        "夕陽是人工燈光演出的一部分"
+        "鹽工在深夜用頭燈手電筒認真雕刻出美麗動人的大型冰塊藝術",
+        "黃昏美麗夕陽只是鹽田特別準備的一場精心設計的人工燈光演出秀"
       ],
       "answer_index": 1,
       "explanation": "課文用光雕比喻陽光在水面與鹽結晶上的閃爍變化，把自然光寫得像藝術裝置，增添畫面感。",
@@ -562,10 +562,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -575,10 +575,10 @@
       "scenario": "【在寫「我的鹽田之旅」作文時】",
       "question": "小華想強調「從水面倒影到鹽山矗立」的觀察順序，下列哪一種寫法最符合課文脈絡？",
       "options": [
-        "先寫鹽山，再否認水面倒影存在",
-        "只寫鹽工工具，完全不提天空",
+        "先寫鹽山漂亮形狀，然後再完全否認水面倒影這樣的現象存在",
+        "只描寫鹽工使用的特殊工具，完全不提到天空或是水面的顏色",
         "先寫方形鹽田如調色盤映天色，再寫鹽耙攪動後堆出鹽山",
-        "先寫棋盤，再寫鹽田沒有方形結構"
+        "先描寫巨大棋盤的外形，然後又說鹽田其實根本沒有任何方形結構"
       ],
       "answer_index": 2,
       "explanation": "課文先铺陈水面如調色盤映藍天與陽光，再進入鹽耙攪動與鹽山堆疊，順序符合觀景與製程的實際感受。",
@@ -587,10 +587,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -600,9 +600,9 @@
       "scenario": "【在比較「觀光客視角」與「勞動者視角」時】",
       "question": "下列哪一種讀後心得最能同時肯定課文中的「美感」與「辛勞」？",
       "options": [
-        "鹽田很美，所以鹽工的工作一定很輕鬆",
-        "只要照片好看，不必理解曬鹽流程也沒關係",
-        "鹽田夕陽很浪漫，代表不需要技術",
+        "鹽田景色非常漂亮，所以鹽工每天在田裡的工作一定非常輕鬆愉快",
+        "只要照片拍得好看，就算完全不理解曬鹽的整個流程，其實也沒關係",
+        "鹽田夕陽的美景非常浪漫好看，那就代表曬鹽根本不需要任何特殊技術",
         "我欣賞鹽田光影，也感謝鹽工反覆攪動與收鹽的專業"
       ],
       "answer_index": 3,
@@ -612,10 +612,10 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
@@ -625,9 +625,9 @@
       "scenario": "【在統整全詩意象時】",
       "question": "如果用一句話說明這篇課文給你的核心印象，下列何者最貼近文本？",
       "options": [
-        "課文主要在教如何調水彩畫風景畫",
-        "曬鹽已經過時，所以文字只是在懷舊沒有意義",
-        "鹽田只是遊樂設施，重點是玩水上活動",
+        "這篇課文的主要目的是在教導大家如何使用水彩畫出美麗的風景畫",
+        "曬鹽這個傳統已經完全過時了，所以文字的描寫只是在懷舊，沒有現實意義",
+        "鹽田只不過是一個供小朋友玩水的遊樂設施，重點是在享受水上各種活動",
         "井仔腳鹽田結合自然光影、勞動節奏與地景詩意"
       ],
       "answer_index": 3,
@@ -637,10 +637,10 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Claude-Opus-4 (Cursor)",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-14",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
       "review_date": "2026-06-14"
