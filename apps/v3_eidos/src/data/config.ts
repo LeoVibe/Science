@@ -39,9 +39,22 @@ export const PUBLISHER_THEME_COLORS: Record<Publisher, string> = {
   '翰林': 'hsl(168 35% 52%)',
 };
 
+/**
+ * 暫不上架的科目（數學、英語品質未達標）。
+ * 全站選單與路由的單一真相：移除此清單中的科目即同時恢復選單入口與深連結。
+ */
+export const DISABLED_SUBJECTS: readonly Subject[] = ['數學', '英語'];
+
+/** 該科目目前是否開放（選單顯示 + 路由可進入） */
+export function isSubjectEnabled(subject: Subject): boolean {
+  return !DISABLED_SUBJECTS.includes(subject);
+}
+
 export function getSubjectsByGrade(grade: Grade): Subject[] {
-  if (grade <= 2) return ['國語', '數學', '英語', '生活'];
-  return ['國語', '數學', '英語', '自然', '社會'];
+  const all: Subject[] = grade <= 2
+    ? ['國語', '數學', '英語', '生活']
+    : ['國語', '數學', '英語', '自然', '社會'];
+  return all.filter(isSubjectEnabled);
 }
 
 export const SUBJECT_ICONS: Record<Subject, string> = {

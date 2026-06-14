@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import {
   Grade, Semester, Publisher, Subject, Question, SUBJECT_ICONS, SEMESTER_NAMES, SUBJECT_THEME_MAP,
   getSubjectsByGrade, buildPath, parseGradeParam, parseSemesterParam,
-  URL_CODE_SUBJECT, URL_CODE_PUBLISHER,
+  URL_CODE_SUBJECT, URL_CODE_PUBLISHER, isSubjectEnabled,
 } from '@/data/config';
 import { loadQuestions, LoadedQuestions } from '@/data/questionLoader';
 import {
@@ -14,7 +14,7 @@ import {
   getTodayQuizzedIds, addTodayQuizzedIds,
 } from '@/utils/storage';
 import { stratifiedSample } from '@/utils/quizSampler';
-import { hasPublishedLibraryUnits } from '@/utils/libraryAvailability';
+import { hasPublishedLibraryUnits, isBetaLibrary } from '@/utils/libraryAvailability';
 import { syncActivityLogs } from '@/utils/activityLogger';
 import { logActivity } from '@/utils/activityLogger';
 const SYNC_INTERVAL_MS = 60 * 1000; // 每分鐘同步一次
@@ -177,7 +177,7 @@ const Index = () => {
       const sub = URL_CODE_SUBJECT[sp];
       const sem = parseSemesterParam(semp);
       const pub = URL_CODE_PUBLISHER[pp];
-      if (g && sub && sem && pub) {
+      if (g && sub && sem && pub && isSubjectEnabled(sub)) {
         isDeepLinkedRef.current = true;
         setGrade(g);
         setSubject(sub);
@@ -198,7 +198,7 @@ const Index = () => {
       const sub = URL_CODE_SUBJECT[sp];
       const sem = parseSemesterParam(semp);
       const pub = URL_CODE_PUBLISHER[pp];
-      if (g && sub && sem && pub) {
+      if (g && sub && sem && pub && isSubjectEnabled(sub)) {
         return;
       }
     }
@@ -267,10 +267,10 @@ const Index = () => {
     return () => { cancelled = true; };
   }, []);
 
-  // 目前科別若未開放或 libraryStats 標記未上架，自動切到第一個可用科目
+  // 目前科別若未開放（數英下架）或 libraryStats 標記未上架，自動切到第一個可用科目
   useEffect(() => {
     if (!profileReady || !settingsLoaded) return;
-    if (isLibraryEnabled(libraryConfig, grade, subject, semester, publisher)) return;
+    if (isSubjectEnabled(subject) && isLibraryEnabled(libraryConfig, grade, subject, semester, publisher)) return;
     const subs = getSubjectsByGrade(grade);
     const next = subs.find((s) => {
       const p = getPublisherForSubject(s);
@@ -675,6 +675,13 @@ const Index = () => {
           </div>
         ) : (
           <>
+            {isBetaLibrary(grade, semester, subject, publisher) && (view === 'menu' || view === 'quiz') && (
+              <div className="max-w-2xl mx-auto px-4 pt-2">
+                <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl px-4 py-2 text-xs text-amber-800 dark:text-amber-100 text-center">
+                  ⚠️ beta 版本，題庫尚未嚴謹測試
+                </div>
+              </div>
+            )}
             {view === 'menu' && (
               <>
                 {announcement && (

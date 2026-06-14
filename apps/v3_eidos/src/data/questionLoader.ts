@@ -230,12 +230,13 @@ export async function loadQuestions(
         if (data.meta && Array.isArray(data.questions)) {
           const m = data.meta as { publisher?: string; title?: string; lesson?: string; order?: number };
           if (m.publisher && m.publisher !== publisherCode && m.publisher !== publisherCodeUpper && m.publisher !== publisher) return [];
-          unitQuestions = (data.questions as RawQuestionLike[]).map((q) => {
+          unitQuestions = (data.questions as RawQuestionLike[]).map((q, i) => {
             const options = q.options || (q.type === 'true_false' ? ['是', '否'] : []);
             const type = (q.type || 'multiple_choice') as 'multiple_choice' | 'true_false' | 'fill_in_the_blank';
             const rawAnswer = q.answer_index ?? q.correctAnswer ?? q.answer ?? 0;
             return {
               ...q,
+              id: q.id ?? `${lesson}_q${i + 1}`,
               type,
               options,
               answer: rawAnswer,

@@ -1,7 +1,7 @@
 import type { Grade, Semester, Subject, Publisher } from '@/data/config';
 import libraryStatsJson from '@/data/libraryStats.json';
 
-type PubRow = { units?: number; questions?: number; publishedQuestions?: number };
+type PubRow = { units?: number; questions?: number; publishedQuestions?: number; quality?: string };
 
 const publisherStats = (libraryStatsJson as { publisherStats?: Record<string, PubRow> }).publisherStats ?? {};
 
@@ -39,4 +39,27 @@ export function hasPublishedLibraryUnits(
   const u = row.units;
   if (typeof u === 'number' && u > 0) return false;
   return true;
+}
+
+/** 該題庫的品質標籤（QL1–QL4），無資料回 undefined */
+export function getLibraryQuality(
+  grade: Grade,
+  semester: Semester,
+  subject: Subject,
+  publisher: Publisher
+): string | undefined {
+  return publisherStats[publisherStatsKey(grade, semester, subject, publisher)]?.quality;
+}
+
+/**
+ * 是否為 beta 題庫（品質未達 QL4：通過盲測精修的等級）。
+ * QL3 以下或查無資料皆視為 beta，前台需標示「尚未嚴謹測試」。
+ */
+export function isBetaLibrary(
+  grade: Grade,
+  semester: Semester,
+  subject: Subject,
+  publisher: Publisher
+): boolean {
+  return getLibraryQuality(grade, semester, subject, publisher) !== 'QL4';
 }
