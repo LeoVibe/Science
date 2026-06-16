@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
 `last_updated`: 2026-06-16
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-267 結案——三下社會翰林 KL4 考古題淬煉完成（6/6 課 PASS，100%，RM0→RM3，獨立驗證無虛構來源）)
+`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-269 結案——三下國語翰林 8 課文本錯位補題完成（280/280 approved，BIAS 0%，翰林 390/398 is_publishable）)
 
 ---
 
@@ -33,6 +33,7 @@
 ### 2026-06-16
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-269 | **三下國語翰林 8 課文本錯位補題完成（280/280 approved）** 🎯：JOB-266 九步校正揭露 L1/L2/L3/L4/L6/L7/L9/L12 系統性文本錯位（178/350 題 is_publishable=false，L2 全課錯位），無法校正，全部重出。**Phase 1**：Codex gpt-4o 訂閱制串行出題，8 課各 35 題，耗時約 35 分鐘，8/8 全數成功（0 限額）。**Phase 2**：8 課 Claude subagent 並行九步校正，280/280 approved（100%），BIAS 全 0%（L7/L12 各 1 題 BIAS 已校正），Match Rate 100%，解析不一致 0，無文本錯位。**Phase 3**：merge.py 驗收 8/8 覆蓋正式 JSON，_new.json 清理。**里程碑**：翰林三下國語 390/398 is_publishable（L10/L11 各 4 題 pending 待人工複核）。見 `jobs/JOB-269-Report.md` | 🟢 DONE |
 | JOB-268 | **題庫評估規則 v2 落地與稽核防呆（A+B+C）** 🎯：依 spec `2026-06-16-題庫評估規則v2-課文非必要` 落地。**A 規範**（9609ee51）：驗證準則§4.6 兩級→三級上架（QL2=Alpha/QL3=Beta/QL4=正式）、§4.1-4.3 RM0-RM4＋對外改名、出題準則 P-J 素材天花板 RM→QL（考古題與課文對等納 RM3）、generate_library_stats 移除「blind→QL4」捷徑。**B 工具+前端**（4057e937）：新增 `scripts/audit_rm_vs_ql.mjs`（NFC 正規化、逐課比對 RM 天花板 vs 標 QL，實跑矛盾庫 0）+README；前端 `getLibraryStage` 三級徽章（vitest 28/28、tsc 0）。**C 對應驗證**（d0f2db0c）：三下社會翰林 180 題逐題對應考古考點，揪出 **94 題未對應**（L1 29/L2 30/L3 4/L4 2/L6 29，L5 全對應）→ 降 QL3/pending/is_publishable=false，PM grep 抽核引用屬實（L2「城鄉」39 處/L6「里長」23 處）。**統計**（a1997286）：三下社會翰林上架 **177→83**。已部署。遺留：94 題重出（JOB-269，每單元擴至 50 題+）、§4.3 改名下游、10 庫素材不可讀、--gate QL2 對齊、數英判準。見 `jobs/JOB-268-Report.md` | 🟢 DONE |
 | JOB-267 | **三下社會翰林 KL4 考古題淬煉（6/6 課全 PASS，RM0→RM3）** 🎯：翰林 L1-L6 六課 KL4「考古題與討論」從 bootstrap 空殼（RM0）淬煉至 RM3。Codex gpt-4o 訂閱制串行 dispatch + verify_kl4_social.py 自動驗證（反推法 B-path：§一題型分析≥4題型/§二迷思矩陣≥6條/§三出題建議/無空殼殘留/RM3標記/扣課名詞）。**全量結果**：6/6 課全 PASS（100%），無遺留問題，6 課正式檔覆蓋達 RM3。**特殊處理**：L1 初次 FAIL（verify 誤判真實學校為虛構）→ 修正 regex 規則後 retry PASS；L2 初次 FAIL（課名搜索範圍限 §一 之後）→ 修正為全文搜索後重驗 PASS。**獨立交叉驗證（抽樣 L1/L3/L6）**：B 維度（來源真實性）3/3 全通過，所有引用學校/考試均可在翰林彙整報告逐條確認，無虛構來源；A 維度 L1 有行政層級概念缺口（★★★★★ KL3 高頻考點），記遺留待後續補強。**🎯 里程碑**：三下社會三版本（翰林/康軒/南一）KL4 考古題與討論全數達 RM3。見 `jobs/JOB-267-Report.md` | 🟢 DONE |
 | JOB-265 | **六下國語 KL4 考古題淬煉（33/33 課全 PASS）** 🎯：33 課（翰林11+康軒11+南一11）KL4「考古題與討論」bootstrap 空殼全量補實。Codex gpt-5.5 訂閱制串行 dispatch + verify_kl4.py 自動驗證（含全形句點/em-dash 修正版）。**全量結果**：33/33 課全 PASS（100%），無遺留問題，33 課覆蓋正式檔達 RM2。**特殊處理**：翰林L5（全形句點切分誤判）+ 康軒L3（「之」切分邊緣案例）人工確認品質後 mv；康軒L10 timeout→retry PASS；南一L6/L9 虛構來源→刪舊_new 重 retry PASS。人工抽查 3 課（翰林L6/康軒L5/南一L4）全通過（最短誘答≥64字，無假來源，扣課文）。**🎯 里程碑**：四下/五下/六下國語 KL4 考古題淬煉全系列完成（JOB-263+264+265）。見 `jobs/JOB-265-Report.md` | 🟢 DONE |
