@@ -63,3 +63,33 @@ export function isBetaLibrary(
 ): boolean {
   return getLibraryQuality(grade, semester, subject, publisher) !== 'QL4';
 }
+
+/** 前端三級標籤階段 */
+export type LibraryStage = 'official' | 'beta' | 'alpha' | 'hidden';
+
+/**
+ * 題庫品質階段（依 2026-06-16 評估規則 v2 三級上架）：
+ *  - QL4 → 'official'：正式上架，前端無標記
+ *  - QL3 → 'beta'：Beta · 尚未嚴謹測試
+ *  - QL2 → 'alpha'：Alpha · 最早期實驗
+ *  - QL1 以下 / 查無資料 → 'hidden'：不應上架（保守不標）
+ *
+ * 注意：查無 quality 資料時回 'hidden'，與「QL4 無標記」區隔，避免把未知庫誤標為正式。
+ */
+export function getLibraryStage(
+  grade: Grade,
+  semester: Semester,
+  subject: Subject,
+  publisher: Publisher
+): LibraryStage {
+  switch (getLibraryQuality(grade, semester, subject, publisher)) {
+    case 'QL4':
+      return 'official';
+    case 'QL3':
+      return 'beta';
+    case 'QL2':
+      return 'alpha';
+    default:
+      return 'hidden';
+  }
+}

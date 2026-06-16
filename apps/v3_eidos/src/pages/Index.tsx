@@ -14,7 +14,7 @@ import {
   getTodayQuizzedIds, addTodayQuizzedIds,
 } from '@/utils/storage';
 import { stratifiedSample } from '@/utils/quizSampler';
-import { hasPublishedLibraryUnits, isBetaLibrary } from '@/utils/libraryAvailability';
+import { hasPublishedLibraryUnits, getLibraryStage } from '@/utils/libraryAvailability';
 import { syncActivityLogs } from '@/utils/activityLogger';
 import { logActivity } from '@/utils/activityLogger';
 const SYNC_INTERVAL_MS = 60 * 1000; // 每分鐘同步一次
@@ -675,13 +675,26 @@ const Index = () => {
           </div>
         ) : (
           <>
-            {isBetaLibrary(grade, semester, subject, publisher) && (view === 'menu' || view === 'quiz') && (
-              <div className="max-w-2xl mx-auto px-4 pt-2 flex justify-center">
-                <span className="inline-block bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-200 text-[10px] font-bold tracking-widest px-2.5 py-0.5 rounded-full border border-amber-200 dark:border-amber-800">
-                  BETA
-                </span>
-              </div>
-            )}
+            {(() => {
+              const stage = getLibraryStage(grade, semester, subject, publisher);
+              if ((stage !== 'beta' && stage !== 'alpha') || (view !== 'menu' && view !== 'quiz')) return null;
+              const isAlpha = stage === 'alpha';
+              const label = isAlpha ? 'ALPHA' : 'BETA';
+              const title = isAlpha ? 'Alpha · 最早期實驗，素材未經實證' : 'Beta · 尚未嚴謹測試';
+              const cls = isAlpha
+                ? 'bg-rose-100 dark:bg-rose-900/30 text-rose-700 dark:text-rose-200 border-rose-200 dark:border-rose-800'
+                : 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-200 border-amber-200 dark:border-amber-800';
+              return (
+                <div className="max-w-2xl mx-auto px-4 pt-2 flex justify-center">
+                  <span
+                    title={title}
+                    className={`inline-block text-[10px] font-bold tracking-widest px-2.5 py-0.5 rounded-full border ${cls}`}
+                  >
+                    {label}
+                  </span>
+                </div>
+              );
+            })()}
             {view === 'menu' && (
               <>
                 {announcement && (
