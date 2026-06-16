@@ -55,7 +55,7 @@
 - [x] 對應考古考點：階段3 judge 逐題比對，不對應剔除
 - [x] 欄位：QL4/blind_evaluation=true/is_publishable=true/review_status=approved
 - [x] audit 無矛盾：G3_S2_社會_翰林 QL4 RM3 素材足
-- [ ] 已執行 /pj_sync（待）
+- [x] 已執行 /pj_sync 全域知識沉澱（更新 README_專案發展紀錄、進度彙整社會列）
 
 ## 真實回報
 ＄作業匯總：Token數:- | 花費:- | 使用模型: codex gpt-5.5（出題）/ claude-sonnet-4-6（盲測·judge）/ claude-opus-4-8[1m]（PM）| 執行者: Claude
