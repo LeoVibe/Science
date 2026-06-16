@@ -1,7 +1,7 @@
 # 出題與品管準則 (Production & Quality Control)
 
-`last_updated`: 2026-04-19
-`updated_by`: Claude Code (claude-opus-4-7)
+`last_updated`: 2026-06-16
+`updated_by`: Claude Code (claude-opus-4-8)
 
 **文件定位**：本文件規範 Eidos 題庫出題品質與 JSON 格式。
 涵蓋 CQI-P 出題分數、JSON 格式規範與 CI 工具。
@@ -82,14 +82,18 @@ AI 產題後立即執行 `scripts/evaluate_question_quality.js`，依以下維�
 
 > 本維度由 `evaluate_question_quality.js` 自動讀取 JSON 欄位；盲測流程另見 `question/README_驗證與盲測準則.md`。
 
-### P-J 研究支撐度（QL 天花板制）
+### P-J 研究支撐度（素材天花板 RM → QL）
 
-- 無 KL4 單課研究紀錄 → 該題最高 QL1（不得上架）
-- 僅有 KL4 單課研究紀錄（含課文）→ 最高 QL2
-- KL4 單課研究紀錄 + 考古題與討論 → 最高 QL3
-- 通過盲測（`blind_evaluation === true`）→ 升 QL4
+題目 QL 上限由該課**素材天花板（RM）**決定。**課文非必要門票——考古題與課文為對等的實證素材，有任一個即達 RM3**（兩個都有為 RM4）。
 
-完整 QL 定義與條件對照請見 `question/README_驗證與盲測準則.md` 第四章。
+- RM1（僅憑學科常識、無課綱元素）→ 該題最高 QL1（不得上架）
+- RM2（有課綱對應元素，但無考古題亦無課文）→ 最高 QL2（Alpha 上架）
+- RM3（KL4 考古題與討論 **或** 課文全文錄製，二者之一非空）→ 最高 QL3（Beta 上架）
+- RM3 ＋ 通過盲測（`blind_evaluation === true`）＋ 三大檢查 → 升 QL4（正式上架）
+
+> **考古題為合法實證素材**：tcool.cc 段考卷、出版社評量卷等真實考古題，與課文對等納入 RM3 判定。無課文但有考古題的課，可達 RM3 → QL3／QL4，不再卡 QL1。
+
+完整 QL 定義、素材天花板前置條件與上架門檻對照請見 `question/README_驗證與盲測準則.md` 第四章。
 
 ### 課次題數建議（非 CQI-P 計分項）
 

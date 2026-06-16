@@ -54,26 +54,37 @@ function isPublishedFileQuality(quality) {
 }
 
 /**
- * 新 QL 定義（2026-04-18 重新定義）
- * 每題判定：
- *   QL4 = blind_evaluation === true（有盲測且通過，不受 research ceiling 限制）
- *   QL3 = quality_level 以 'QL3' 或 'QL4'/'QL5' 開頭（有課文＋有考古題）
- *   QL2 = quality_level 以 'QL2' 開頭（有課文）
- *   QL1 = 其餘
+ * QL 定義 v2（2026-06-16 改版：素材天花板 ＋ 達標檢查；課文非必要）
+ * 規範：question/README_驗證與盲測準則.md §4.2／§4.6
+ *
+ * 關鍵改動：盲測（blind_evaluation）只能將「素材天花板已達 QL3」的題升到 QL4，
+ *   不再單憑 blind=true 就無條件回 QL4（堵住 v1 漏洞：RM2 素材題標 QL4 上線）。
+ *
+ * 每題判定（素材天花板由 quality_level 標籤代表，盲測為升級條件）：
+ *   素材天花板：quality_level 以 'QL4'/'QL5' → ceiling 3（RM3 實證）
+ *               'QL3' → ceiling 3；'QL2' → ceiling 2；其餘 → ceiling 1
+ *   QL4 = ceiling 達 3（素材達 RM3）＋ blind_evaluation === true（盲測通過）
+ *   QL3 = ceiling 達 3 但未盲測
+ *   QL2 = ceiling 2（有課綱元素、無實證素材）
+ *   QL1 = 其餘（僅常識）
  *
  * 科目等級（grade/sem/subject/publisher 加總）：
  *   QL4 = QL4題數 / 總題數 ≥ 90%
  *   QL3 = (QL3+QL4)題數 / 總題數 ≥ 90%
- *   QL2 = (QL2+QL3+QL4)題數 / 總題數 ≥ 90%
- *   QL1 = 否則
+ *   QL2 = (QL2+QL3+QL4)題數 / 總題數 ≥ 90%（QL2 庫 → Alpha 上架）
+ *   QL1 = 否則（不上架）
  */
 function getQuestionQLevel(q) {
-    if (q.blind_evaluation === true) return 4;
     const ql = q.quality_level || '';
-    if (ql.startsWith('QL4') || ql.startsWith('QL5')) return 3; // blind not done but QL4-tagged → QL3
-    if (ql.startsWith('QL3')) return 3;
-    if (ql.startsWith('QL2')) return 2;
-    return 1;
+    // 素材天花板：依 quality_level 標籤推導 QL 上限
+    let ceiling;
+    if (ql.startsWith('QL4') || ql.startsWith('QL5')) ceiling = 3; // RM3 實證素材
+    else if (ql.startsWith('QL3')) ceiling = 3;
+    else if (ql.startsWith('QL2')) ceiling = 2;
+    else ceiling = 1;
+    // 盲測只能把素材達 RM3（ceiling 3）的題升到 QL4；素材不足者不得越天花板
+    if (ceiling === 3 && q.blind_evaluation === true) return 4;
+    return ceiling;
 }
 
 function computeSubjectQL(counts, total) {
@@ -230,6 +241,7 @@ function scanPlatform() {
                                 qlTotal,
                                 ql4pct: qlTotal > 0 ? Math.round(qlCounts[4] / qlTotal * 100) : 0,
                                 ql3pct: qlTotal > 0 ? Math.round((qlCounts[3] + qlCounts[4]) / qlTotal * 100) : 0,
+                                ql2pct: qlTotal > 0 ? Math.round((qlCounts[2] + qlCounts[3] + qlCounts[4]) / qlTotal * 100) : 0, // QL2 庫 → Alpha 上架
                             };
 
                         } catch (e) {
