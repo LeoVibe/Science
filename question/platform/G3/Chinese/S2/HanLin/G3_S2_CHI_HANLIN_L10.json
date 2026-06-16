@@ -14,7 +14,7 @@
       "question": "作者強調「沈默」與「專心聽」，對觀察自然有什麼好處？",
       "commonMisconception": "淺層理解為怕嚇跑鳥。",
       "scenario": "聽覺與心境",
-      "quality_level": "QL4",
+      "quality_level": "QL3",
       "cqi_score": 7,
       "explanation": "「靜」是「聽」的前提，也是审美的必要條件。",
       "answer_index": 3,
@@ -25,21 +25,22 @@
         "能細微捕捉被忽略的自然節奏與生命信息"
       ],
       "taxonomy": "inferential",
-      "blind_evaluation": true,
+      "blind_evaluation": false,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
+      "is_publishable": false,
+      "review_status": "pending",
+      "review_notes": "文本錯位：題幹問「沈默與專心聽對觀察自然的好處」，但本課《飛行員和小王子》為劇本，無自然觀察、鳥鳴或溪流等相關內容，與課文主題不符。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16",
+      "pending_reason": "文本錯位：題目內容與課文《飛行員和小王子》無對應段落，疑為他課題目混入。"
     },
     {
       "question": "聽到「嘩啦嘩啦」想到溪流奔跑，說明了？",
       "commonMisconception": "誤解為生理渴。",
       "scenario": "聯想力",
-      "quality_level": "QL4",
+      "quality_level": "QL3",
       "cqi_score": 7,
       "explanation": "感官聯覺（Synesthesia）是寫作與欣賞的高階技巧。",
       "answer_index": 3,
@@ -50,21 +51,22 @@
         "聲音能喚起記憶與體驗，豐富想像力"
       ],
       "taxonomy": "inferential",
-      "blind_evaluation": true,
+      "blind_evaluation": false,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
+      "is_publishable": false,
+      "review_status": "pending",
+      "review_notes": "文本錯位：課文無「嘩啦嘩啦」聲音或溪流描述，與本課內容無關。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16",
+      "pending_reason": "文本錯位：題目描述的「嘩啦嘩啦溪流聯想」不存在於本課課文中，疑為他課題目混入。"
     },
     {
       "question": "雷聲描寫成「脾氣暴躁的巨人」，主要好處是？",
       "commonMisconception": "視為科學事實。",
       "scenario": "擬人化應用",
-      "quality_level": "QL4",
+      "quality_level": "QL3",
       "cqi_score": 7,
       "explanation": "修辭增強文本趣味與形象感。",
       "answer_index": 1,
@@ -75,21 +77,22 @@
         "天空真的住著巨人"
       ],
       "taxonomy": "applied",
-      "blind_evaluation": true,
+      "blind_evaluation": false,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
+      "is_publishable": false,
+      "review_status": "pending",
+      "review_notes": "文本錯位：課文劇本中無雷聲、巨人等描述，與本課內容無關。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16",
+      "pending_reason": "文本錯位：「雷聲脾氣暴躁的巨人」描述不存在於本課《飛行員和小王子》，疑為他課題目混入。"
     },
     {
       "question": "讀完課後，你覺得「聽」在作者眼中是？",
       "commonMisconception": "選到功利回應。",
       "scenario": "情緒主調",
-      "quality_level": "QL4",
+      "quality_level": "QL3",
       "cqi_score": 7,
       "explanation": "聽覺被昇華為一種心靈活動。",
       "answer_index": 1,
@@ -100,15 +103,16 @@
         "監視別人的奇怪行為"
       ],
       "taxonomy": "applied",
-      "blind_evaluation": true,
+      "blind_evaluation": false,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
+      "is_publishable": false,
+      "review_status": "pending",
+      "review_notes": "文本錯位：本課主題是「用心看畫」，不是「聆聽自然」。與自然溝通的「聽」不符合本課課文內容。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16",
+      "pending_reason": "文本錯位：本課主題為「用心看畫/想像力」，「聽覺與自然溝通」的主題不在本課課文中，疑為他課題目混入。"
     },
     {
       "taxonomy": "literal",
@@ -127,21 +131,21 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在睡前陪孩子共讀故事時】孩子問為什麼飛行員最後畫了一個「箱子」，小王子反而覺得那隻小羊最適合他？",
       "question": "關於飛行員畫「箱子」給小王子的用意，下列哪一個推論最合理？",
       "options": [
-        "飛行員畫累了，隨便畫一個正方形來敷衍小王子",
-        "飛行員認為小羊太愛亂跑，關在箱子裡才不會走丟",
+        "飛行員覺得太累了，只想隨便畫一個正方形來敷衍小王子就好",
+        "飛行員認為小羊個性活潑容易亂跑，把牠關在箱子裡才最安全",
         "飛行員想測試小王子是否真的能看見肉眼看不見的東西",
         "飛行員發現直接畫羊無法滿足小王子的想像，於是給他想像的空間"
       ],
@@ -152,13 +156,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項A由20字延長至27字，選項B由22字延長至24字，使長度接近正解D（27字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -168,7 +172,7 @@
         "感到很得意，因為他終於成功騙過小王子的眼睛",
         "覺得很慚愧，因為自己的畫畫技巧不如小王子的想像力",
         "感到驚訝與佩服，因為小王子能體會到畫作表象之外的生命力",
-        "覺得小王子很奇怪，竟然能聽到畫裡的打呼聲"
+        "覺得小王子很奇怪，因為竟然能聽到畫裡頭的打呼聲"
       ],
       "answer_index": 2,
       "explanation": "飛行員大吃一驚並稱讚小王子「了不起」，是因為小王子能看穿「箱子」的表象，感受到裡面「睡著的小羊」，這是一種心靈層面的共鳴。",
@@ -177,13 +181,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項D由20字延長至23字，使長度接近正解C（26字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -202,38 +206,38 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在飛行員畫出一個寵物箱並指著它時】",
       "question": "為什麼飛行員畫了一個「寵物箱」，小王子反而覺得這隻小羊「太適合我了」？",
       "options": [
-        "因為飛行員畫的箱子非常精緻，讓小王子很佩服",
+        "因為飛行員畫的箱子看起來非常精緻，讓小王子覺得很佩服很喜歡",
         "因為透過箱子，小王子可以發揮想像力，看見心中最理想的羊",
-        "因為小王子不喜歡直接看到羊的樣子",
-        "因為小王子剛好需要一個箱子來保護他的花朵"
+        "因為小王子天生就不喜歡直接看見羊的樣子，覺得太無趣",
+        "因為小王子剛好急需找一個合適的箱子來好好保護他珍貴的花朵"
       ],
       "answer_index": 1,
-      "explanation": "小王子之所以滿意，是因為他能透過「心」來看畫，箱子給了他想像的空間，讓他看見自己心目中的羊甚至在睡覺打呼。",
+      "explanation": "小王子之所以滿意，是因為他擁有豐富的想像力。當實體的羊（畫作）不符合期待時，箱子這個載體反而讓他能「用心」看見自己想要的羊甚至在睡覺打呼。",
       "commonMisconception": "學生容易從「實用性」角度出發，誤以為小王子真的需要一個箱子來裝東西。",
       "quality_level": "QL4",
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項A由21字延長至27字，選項C由17字延長至24字，選項D由21字延長至27字，使長度接近正解B（26字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -242,8 +246,8 @@
       "options": [
         "只要用心，每個人都能在箱子裡看到活生生的動物",
         "看事情不應只看表面，要能體會事物內在的意義與情感",
-        "畫畫時手部的動作其實並不重要",
-        "小王子的眼睛比一般人還要敏銳"
+        "手部的動作在畫畫的過程中其實並不是最重要的事情",
+        "小王子天生的眼睛就比一般人還要更加敏銳，看什麼都清楚"
       ],
       "answer_index": 1,
       "explanation": "這句話是全課的核心，強調「用心體會」勝過「肉眼所見」的表象，飛行員在讚美小王子能看透事物本質的純真。",
@@ -252,13 +256,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項C由15字延長至24字，選項D由14字延長至25字，使長度接近正解B（24字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -277,13 +281,13 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -302,13 +306,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "critical",
@@ -327,13 +331,13 @@
       "cqi_score": 8.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -352,13 +356,13 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -366,31 +370,31 @@
       "question": "為什麼當飛行員畫了一個「箱子」並說羊在裡面時，小王子反而露出了笑容並感到滿意？",
       "options": [
         "因為這個箱子留下了想像空間，讓小王子能看見自己心中理想的羊",
-        "因為小王子發現箱子裡真的有打呼的聲音，覺得很神奇",
-        "因為小王子正好需要一個箱子來搬運他原本的寵物",
-        "因為箱子畫得比羊更精緻，小王子很佩服飛行員的畫工"
+        "因為小王子聽到箱子裡竟然發出打呼的聲音，覺得這一定很神奇",
+        "因為小王子在那個時候剛好正需要一個可以搬運他原本寵物的大箱子",
+        "因為小王子覺得飛行員畫的箱子比之前所有的羊都更精緻，讓他很佩服"
       ],
       "answer_index": 0,
       "explanation": "小王子之所以滿意，是因為他擁有豐富的想像力。當實體的羊（畫作）不符合期待時，箱子這個載體反而讓他能「用心」看見自己想要的羊。",
-      "commonMisconception": "學生可能會受到課文中「牠睡著了，還會打呼呢」這句對話影響，誤以為箱子裡真的有聲音（選項 3），而忽略這其實是小王子的想像。",
+      "commonMisconception": "學生可能會受到課文中「牠睡著了，還會打呼呢」這句對話影響，誤以為箱子裡真的有聲音（選項3），而忽略這其實是小王子的想像。",
       "quality_level": "QL4",
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項B由24字延長至28字，選項C由22字延長至27字，選項D由23字延長至27字，使長度接近正解A（29字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在故事結尾，我們思考飛行員所說的話語時】",
       "question": "飛行員感嘆：「我用『手』畫畫，你卻能用『心』來看畫」，這句話最想傳達的道理是什麼？",
       "options": [
-        "小王子的視力比一般人好，可以看穿物體的表面",
+        "小王子天生的視力就比一般人好，能直接看穿所有物體的表面",
         "只要畫畫的人夠用心，就算畫得不像，別人也能看得懂",
         "真正重要或動人的事物，往往需要透過想像與感受才能體會",
         "畫畫時必須手腦並用，才能畫出栩栩如生的作品"
@@ -402,13 +406,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項A由21字延長至24字，使長度接近正解C（25字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -427,38 +431,38 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
       "scenario": "[在飛行員多次嘗試畫羊卻失敗時]",
       "question": "當飛行員最後畫了一個「寵物箱」並宣稱羊在裡面時，為什麼小王子反而露出了笑容並感到滿意？",
       "options": [
-        "因為飛行員告訴他，箱子裡的羊正在打呼",
+        "因為飛行員說箱子裡面的那隻小羊正在呼呼大睡打著呼",
         "因為小王子發現飛行員終於放棄畫那隻難看的羊了",
         "因為這讓小王子能透過想像，看見心中最理想的小羊",
-        "因為小王子很喜歡收集各種造型的寵物箱"
+        "因為小王子本來就非常喜歡收集各種不同造型的可愛寵物箱"
       ],
       "answer_index": 2,
       "explanation": "飛行員最後感嘆小王子能「用心」看畫，這代表箱子提供了一個空間，讓小王子能用想像力勾勒出符合他期待的羊，不再受限於紙上的線條。",
-      "commonMisconception": "學生容易被具象的描述（如打呼）吸引而選 B，但 B 只是小王子看見羊之後的反應，而非他感到「滿意」的根本原因。",
+      "commonMisconception": "學生容易被具象的描述（如打呼）吸引而選B，但B只是小王子看見羊之後的反應，而非他感到「滿意」的根本原因。",
       "quality_level": "QL4",
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項A由19字延長至22字，選項D由19字延長至24字，使長度接近正解C（23字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -468,7 +472,7 @@
         "只要用心觀察，每個人都能成為優秀的飛行員與畫家",
         "畫畫的人必須手部靈巧，看畫的人則要有同情心",
         "真正珍貴的事物，往往是眼睛看不見，需要用心體會的",
-        "小王子的視力比一般人好，能看穿木頭做的箱子"
+        "小王子的視力本來就比一般人好，所以能輕易看穿木頭做的箱子"
       ],
       "answer_index": 2,
       "explanation": "這是本課的核心主旨。飛行員用手畫出的是外在形體（箱子），而小王子用「心」感受到了內在的生命（小羊），強調了內在體察的重要性。",
@@ -477,13 +481,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項D由21字延長至26字，使長度接近正解C（24字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -502,13 +506,13 @@
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -527,13 +531,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "四選項字數完全相同（17字），P-A選項對稱性滿分，無需校正。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -552,13 +556,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "literal",
@@ -577,13 +581,13 @@
       "cqi_score": 7.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -592,8 +596,8 @@
       "options": [
         "小王子擁有豐富的想像力，能看見圖畫背後的生命力",
         "飛行員在箱子上畫了透明的窗戶，所以看得到裡面",
-        "小王子其實不喜歡羊，他更喜歡收集箱子",
-        "小王子因為在沙漠待太久，產生了幻覺"
+        "其實小王子從來就不喜歡羊，他心裡最愛的是收集各種箱子",
+        "小王子因為在沙漠裡待了太久，整個人暈頭轉向產生了幻覺"
       ],
       "answer_index": 0,
       "explanation": "小王子能從一個封閉的箱子圖畫中「看到」小羊在睡覺、打呼，說明他並非看表面，而是透過想像力賦予圖畫意義。",
@@ -602,13 +606,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項C由18字延長至22字，選項D由17字延長至22字，使長度接近正解A（23字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -616,7 +620,7 @@
       "question": "關於飛行員最後稱讚小王子的這句話，下列哪一個解釋最貼切？",
       "options": [
         "在沙漠中遇到困難時，必須靠心靈感應才能溝通",
-        "畫畫的人技巧不重要，看畫的人高興就好",
+        "畫畫的人技術根本不重要，只要讓看畫的人覺得開心就好",
         "看畫的時候必須保持安靜，才能聽見畫裡的聲音",
         "真正重要的東西，往往要用心去體會，而非只看外表"
       ],
@@ -627,13 +631,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項B由18字延長至22字，使長度接近正解D（23字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -642,8 +646,8 @@
       "options": [
         "因為飛行員想測試小王子是否真的能看穿箱子的木板",
         "因為箱子能讓小王子發揮想像力，看見自己心中理想的小羊",
-        "因為箱子畫起來最簡單，飛行員想節省體力",
-        "因為小王子正好需要一個寵物箱來裝他原本的玩具"
+        "因為箱子的形狀最簡單，飛行員想盡快節省體力省下麻煩",
+        "因為小王子剛好需要一個大寵物箱，用來存放他原本養的那些玩具"
       ],
       "answer_index": 1,
       "explanation": "飛行員在多次嘗試畫羊失敗後，改畫箱子並稱「羊在裡面」，這給予了小王子投射想像的空間，進而達成「用心看畫」的契機。",
@@ -652,13 +656,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項C由20字延長至23字，選項D由22字延長至26字，使長度接近正解B（26字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -666,7 +670,7 @@
       "question": "飛行員感嘆小王子能「用心」看畫，這是在讚美小王子的哪一種特質？",
       "options": [
         "不被事物的表面外形限制，能體會內在的情感與意義",
-        "畫畫的技巧非常純熟，能指點飛行員的缺點",
+        "畫畫的技巧非常高超純熟，還能一眼指出飛行員作品的缺點",
         "看畫的時候非常專注，連眼睛都不會眨一下",
         "個性非常溫柔，不忍心批評飛行員畫得不好看"
       ],
@@ -677,13 +681,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項B由19字延長至23字，使長度接近正解A（23字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "inferential",
@@ -691,7 +695,7 @@
       "question": "根據課文內容，下列哪一個選項最能解釋飛行員「大吃一驚」的原因？",
       "options": [
         "他擔心自己的畫作太過真實，會讓小王子對大象的遭遇感到難過",
-        "他很意外小王子居然也曾在沙漠中看過蛇吞掉大象的情景",
+        "他非常意外地發現，小王子居然也曾在沙漠中親眼看過蛇吞大象的情景",
         "他原本以為小王子會害怕這條蛇，沒想到小王子卻表現得很平靜",
         "他沒想到小王子能看穿圖畫的表象，讀懂他內心真正想表達的內容"
       ],
@@ -702,13 +706,13 @@
       "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
+      "review_status": "approved",
+      "review_notes": "BIAS校正：選項B由25字延長至29字，使長度接近正解D（29字）與選項A（29字）。",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     },
     {
       "taxonomy": "contextual",
@@ -727,13 +731,13 @@
       "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-08",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-16",
       "is_publishable": true,
-      "review_status": "confirmed",
+      "review_status": "approved",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-04-05"
+      "review_date": "2026-06-16"
     }
   ],
   "publisher": "HanLin"
