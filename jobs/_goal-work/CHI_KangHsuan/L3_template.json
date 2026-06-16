@@ -1,0 +1,25 @@
+{
+  "question": "在《許願》這首詩中，作者自己最希望能變成什麼事物，好為疲倦的旅人提供休息的地方？",
+  "commonMisconception": "學生可能過度帶入現代社會的商業思維飯店或魔幻元素魔毯。",
+  "scenario": "詩意與重點對象擷取",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "課文首段明確提到，作者希望變成一棵大樹，讓旅人可以在樹蔭下休息。",
+  "answer_index": 2,
+  "options": [
+    "一棟非常豪華的飯店",
+    "一張會飛的魔毯",
+    "一棵高大茂盛的樹",
+    "一條清澈冰涼的小溪"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "Gemini-2.5-Pro",
+  "verifying_model": "claude-sonnet-4-6",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "approved",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-04-05"
+}
