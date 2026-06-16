@@ -39,9 +39,9 @@
 
 ## ✅ 成果 Checklist
 
-- [ ] 33課（翰林11+康軒11+南一11） 考古題與討論補實達 RM2
-- [ ] `jobs/JOB-265-Report.md`
-- [ ] /pj_sync + close + Discord
+- [x] 33課（翰林11+康軒11+南一11） 考古題與討論補實達 RM2（33/33 PASS，100%）
+- [x] `jobs/JOB-265-Report.md`
+- [x] /pj_sync + close + Discord
 
 ## 真實回報
 
