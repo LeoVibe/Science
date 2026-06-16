@@ -21,9 +21,9 @@
       "answer_index": 0,
       "options": [
         "高樓密集",
-        "農田廣闊",
+        "茶園山坡",
         "魚塭成排",
-        "茶園山坡"
+        "農田廣闊"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "房屋分散、農田多和交通較少，是鄉村常見情形。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "商業都市",
         "農村聚落",
-        "工業園區",
-        "港口市鎮"
+        "商業都市",
+        "港口市鎮",
+        "工業園區"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -68,12 +68,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "都市人口較多，大眾運輸路線通常比較密集。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "行動菜車",
-        "巡迴醫療",
         "捷運公車",
-        "大片茶園"
+        "行動菜車",
+        "大片茶園",
+        "巡迴醫療"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "都市和鄉村各有特色，不能只用好壞判斷。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "都市全好",
         "鄉村全差",
-        "兩者相同",
-        "各有特色"
+        "各有特色",
+        "兩者相同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -118,12 +118,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "商店多、交通便利和人口集中，是都市常見現象。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "商店眾多",
-        "雞舍成排",
+        "漁船停靠",
         "稻田連片",
-        "漁船停靠"
+        "雞舍成排",
+        "商店眾多"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -145,9 +145,9 @@
       "explanation": "鄉村人口少不代表互動少，鄰里常更熟悉。",
       "answer_index": 1,
       "options": [
-        "互不認識",
-        "鄰里熟悉",
         "沒有道路",
+        "鄰里熟悉",
+        "互不認識",
         "只能步行"
       ],
       "taxonomy": "inferential",
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "建築、交通和土地利用能幫助判斷生活空間。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "相片顏色",
-        "人物衣服",
         "空間特色",
-        "天空雲量"
+        "天空雲量",
+        "人物衣服"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "鄉村會運用行動服務或社區互助，補足生活需要。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "拒絕買菜",
-        "停止就醫",
         "不用交通",
-        "行動服務"
+        "拒絕買菜",
+        "行動服務",
+        "停止就醫"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "茶樹常種在山坡地，形成茶園景觀。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "港邊茶園",
         "山坡茶園",
-        "海邊茶園",
         "市區茶園",
-        "港邊茶園"
+        "海邊茶園"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,10 +243,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "平坦土地利於灌溉和耕作，常見農田。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "山坡茶園",
         "平地農田",
+        "山坡茶園",
         "海邊鹽田",
         "港口碼頭"
       ],
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "沿海地區常可看見養殖魚蝦的魚塭。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "山坡果園",
+        "內陸牧場",
         "都市商圈",
-        "沿海魚塭",
-        "內陸牧場"
+        "山坡果園",
+        "沿海魚塭"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "山坡、平地和海邊會發展出不同土地利用。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "山坡魚塭",
-        "海邊茶園",
         "平地鹽田",
-        "坡地茶園"
+        "坡地茶園",
+        "山坡魚塭",
+        "海邊茶園"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -321,9 +321,9 @@
       "answer_index": 0,
       "options": [
         "稻米農田",
-        "茶葉山坡",
         "魚蝦海邊",
-        "貝類潮間"
+        "貝類潮間",
+        "茶葉山坡"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -345,9 +345,9 @@
       "explanation": "居民會依地形發展產業，也能結合觀光活動。",
       "answer_index": 1,
       "options": [
-        "地形無用",
-        "因地利用",
         "道路消失",
+        "因地利用",
+        "地形無用",
         "文化相同"
       ],
       "taxonomy": "inferential",
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "海岸附近常有養殖、捕魚或鹽田等活動。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "高山滑雪",
-        "深山茶園",
+        "地下礦坑",
         "養殖魚蝦",
-        "地下礦坑"
+        "高山滑雪",
+        "深山茶園"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -421,9 +421,9 @@
       "answer_index": 0,
       "options": [
         "尊重了解",
-        "大聲嘲笑",
         "拒絕同桌",
-        "禁止分享"
+        "禁止分享",
+        "大聲嘲笑"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不同族群共同生活，讓地方呈現多元文化。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "文化單一",
+        "居民相同",
         "文化多元",
-        "活動消失",
-        "居民相同"
+        "活動消失"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -468,11 +468,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "共食前尊重並確認禁忌，能讓大家安心參與。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "事先詢問",
         "隨便安排",
         "故意玩笑",
-        "事先詢問",
         "要求改變"
       ],
       "taxonomy": "literal",
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "參訪時用心認識不同文化，是尊重地方特色。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "不用聆聽",
-        "只看笑話",
         "拒絕參與",
-        "用心認識"
+        "用心認識",
+        "只看笑話"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "新住民帶來飲食與故事，豐富地方文化。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "文化交流",
-        "交通壅塞",
         "地形改變",
-        "房價下降"
+        "房價下降",
+        "交通壅塞",
+        "文化交流"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -543,12 +543,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "遵守導覽提醒，是尊重族群文化與活動規範。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "搶先拍照",
-        "尊重文化",
         "縮短行程",
-        "增加吵鬧"
+        "增加吵鬧",
+        "尊重文化",
+        "搶先拍照"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -568,12 +568,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "多種語言招牌常反映地方文化與居民多元。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "道路封閉",
-        "農田擴大",
+        "交通停擺",
         "文化多樣",
-        "交通停擺"
+        "農田擴大",
+        "道路封閉"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不同節慶一起介紹，能呈現多元生活文化。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "全部相同",
-        "只有春節",
         "禁止分享",
-        "多元節慶"
+        "多元節慶",
+        "只有春節",
+        "全部相同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "炸龍是苗栗具代表性的元宵地方活動。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "苗栗炸龍",
-        "鹽水蜂炮",
+        "臺東寒單",
         "平溪天燈",
-        "臺東寒單"
+        "苗栗炸龍",
+        "鹽水蜂炮"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -645,10 +645,10 @@
       "explanation": "鹽水蜂炮是臺南鹽水著名的地方節慶。",
       "answer_index": 1,
       "options": [
-        "苗栗炸龍",
-        "臺南蜂炮",
         "平溪天燈",
-        "臺東寒單"
+        "臺南蜂炮",
+        "臺東寒單",
+        "苗栗炸龍"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -668,11 +668,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "平溪放天燈是新北平溪具代表性的節慶景觀。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "平溪天燈",
         "苗栗炸龍",
         "鹽水蜂炮",
-        "平溪天燈",
         "臺東寒單"
       ],
       "taxonomy": "literal",
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "炸寒單是臺東特色民俗活動，屬地方節慶。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "地方節慶",
-        "海岸地形",
         "農田灌溉",
-        "大眾運輸"
+        "大眾運輸",
+        "海岸地形",
+        "地方節慶"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -743,10 +743,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "特色節慶能吸引遊客，也帶動地方交流。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "道路消失",
         "帶動交流",
+        "道路消失",
         "農田縮小",
         "文化單一"
       ],
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "平溪天燈是新北平溪著名的地方活動。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "苗栗炸龍",
+        "臺東寒單",
         "臺南蜂炮",
-        "平溪天燈",
-        "臺東寒單"
+        "平溪天燈"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -793,12 +793,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "熱鬧活動仍需遵守規範，才能保護自己和他人。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "搶到前排",
+        "維護安全",
         "增加噪音",
-        "隨意奔跑",
-        "維護安全"
+        "搶到前排",
+        "隨意奔跑"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -818,12 +818,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "行動菜車會到鄉村服務，補足居民採買需求。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "行動菜車",
         "高速鐵路",
-        "百貨公司",
-        "捷運月臺"
+        "捷運月臺",
+        "行動菜車",
+        "百貨公司"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -843,12 +843,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "巡迴醫療能把醫療服務帶到交通較不便地區。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "服務停止",
+        "道路消失",
         "巡迴醫療",
-        "禁止看診",
-        "道路消失"
+        "禁止看診"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "衛生所提供基本醫療、保健與衛生宣導服務。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "服飾販售",
-        "車票訂購",
         "健康保健",
-        "農具維修"
+        "農具維修",
+        "車票訂購"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -895,9 +895,9 @@
       "explanation": "行動菜車是把採買服務帶到村裡的常見方式。",
       "answer_index": 3,
       "options": [
-        "影城首映",
-        "百貨週年",
         "捷運轉乘",
+        "百貨週年",
+        "影城首映",
         "菜車到村"
       ],
       "taxonomy": "inferential",
@@ -918,12 +918,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "巡迴醫療能服務交通較不便利的鄉村居民。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "巡迴醫療",
         "大型影城",
-        "捷運路網",
-        "百貨商圈"
+        "百貨商圈",
+        "巡迴醫療",
+        "捷運路網"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -945,10 +945,10 @@
       "explanation": "先了解服務時間，能更有效使用在地資源。",
       "answer_index": 1,
       "options": [
-        "增加迷路",
+        "忽略需求",
         "善用資源",
         "停止就醫",
-        "忽略需求"
+        "增加迷路"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "行動服務把資源送到居民附近，增加便利。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "停止借閱",
         "取消學習",
-        "行動服務",
-        "封閉道路"
+        "封閉道路",
+        "停止借閱",
+        "行動服務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "鄉村可透過衛生所、菜車和互助滿足生活需求。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "不用服務",
-        "完全落後",
+        "也有資源",
         "只能搬家",
-        "也有資源"
+        "完全落後",
+        "不用服務"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "鄉村產品可運到都市販售，形成城鄉交流。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "土地閒置",
         "城鄉交流",
-        "道路封閉",
         "文化消失",
-        "土地閒置"
+        "道路封閉"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1045,9 +1045,9 @@
       "explanation": "茶園與飲食可結合觀光，展現地方特色。",
       "answer_index": 1,
       "options": [
-        "交通壅塞",
-        "茶鄉特色",
         "海港貿易",
+        "茶鄉特色",
+        "交通壅塞",
         "工廠噪音"
       ],
       "taxonomy": "applied",
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "農產品進都市販售，都市遊客到鄉村旅遊，是交流。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "不曾往來",
-        "只看高樓",
         "農產進城",
-        "道路中斷"
+        "道路中斷",
+        "不曾往來",
+        "只看高樓"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1095,9 +1095,9 @@
       "explanation": "參訪地方產業時，應遵守規範並尊重居民生活。",
       "answer_index": 3,
       "options": [
+        "嘲笑居民",
         "闖入魚塭",
         "亂丟垃圾",
-        "嘲笑居民",
         "尊重規範"
       ],
       "taxonomy": "applied",
@@ -1118,10 +1118,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "海報內容呈現不同地形與城鄉生活空間特色。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "多元空間",
         "單一住家",
+        "多元空間",
         "只有都市",
         "只有農田"
       ],
@@ -1145,9 +1145,9 @@
       "explanation": "不同地方的物產與創意都值得認識和尊重。",
       "answer_index": 1,
       "options": [
-        "比較高低",
-        "互相尊重",
         "取消分享",
+        "互相尊重",
+        "比較高低",
         "只收都市"
       ],
       "taxonomy": "applied",
@@ -1170,8 +1170,8 @@
       "explanation": "沿海生產受影響，可能連帶影響都市市場供應。",
       "answer_index": 2,
       "options": [
-        "毫無關係",
         "只影響天空",
+        "毫無關係",
         "供應相關",
         "都市不需魚"
       ],
@@ -1195,8 +1195,8 @@
       "explanation": "訪問前先約定並準備問題，才尊重受訪者。",
       "answer_index": 3,
       "options": [
-        "直接闖入",
         "大聲催促",
+        "直接闖入",
         "不問問題",
         "事先約訪"
       ],
@@ -1218,10 +1218,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "比較特色並討論需求，能理解兩種空間各有優點。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "比較特色",
         "貶低鄉村",
+        "比較特色",
         "只畫高樓",
         "忽略農田"
       ],
@@ -1247,8 +1247,8 @@
       "options": [
         "全部一樣",
         "生活多元",
-        "文化消失",
-        "地形無關"
+        "地形無關",
+        "文化消失"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

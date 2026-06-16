@@ -1,0 +1,25 @@
+{
+  "question": "【早市採買】小祐陪奶奶到家鄉市場買菜，看到攤位有人整理葉菜、秤重量並收錢。這位工作者最主要從事哪項工作？",
+  "commonMisconception": "以為市場工作只是等客人上門，忽略販售與整理商品。",
+  "scenario": "早市採買",
+  "quality_level": "QL3",
+  "cqi_score": 6.75,
+  "explanation": "菜販整理與販售蔬果，協助居民取得日常食材。",
+  "answer_index": 3,
+  "options": [
+    "駕駛公車",
+    "維修路燈",
+    "設計封面",
+    "販售蔬果"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": false,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": null,
+  "verifying_date": null,
+  "is_publishable": false,
+  "review_status": "pending",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": null
+}

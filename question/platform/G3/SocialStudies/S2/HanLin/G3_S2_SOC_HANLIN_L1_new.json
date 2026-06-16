@@ -18,12 +18,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "戶口名簿記錄家庭戶籍資料，能用來確認住址。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "運動會旗",
         "戶口名簿",
-        "學生獎狀",
         "學校菜單",
-        "運動會旗"
+        "學生獎狀"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "門牌號碼標示住家所在位置，是查地址的重要依據。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "午餐菜單",
         "門牌號碼",
-        "圖書借閱",
-        "聯絡簿皮"
+        "聯絡簿皮",
+        "午餐菜單",
+        "圖書借閱"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -68,11 +68,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "身分證件通常載有戶籍資料，可協助確認居住地址。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "鉛筆盒子",
         "社團海報",
         "身分證件",
+        "鉛筆盒子",
         "運動服袋"
       ],
       "taxonomy": "literal",
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "介紹地址常由縣市等大範圍逐步說到門牌。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "門牌到縣市",
-        "樓層到縣市",
+        "縣市到門牌",
         "房號到縣市",
-        "縣市到門牌"
+        "門牌到縣市",
+        "樓層到縣市"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -118,11 +118,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "從住家附近說到縣市，也是有層次的介紹方式。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "國家到書包",
         "住家到縣市",
         "縣市到座位",
-        "國家到書包",
         "樓梯到課本"
       ],
       "taxonomy": "literal",
@@ -145,10 +145,10 @@
       "explanation": "社區是居民共同生活與互動的生活區域。",
       "answer_index": 1,
       "options": [
-        "個人收藏區",
-        "共同生活區",
         "遊戲得分區",
-        "書包放置區"
+        "共同生活區",
+        "書包放置區",
+        "個人收藏區"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "主動打招呼能建立友善的鄰里關係。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "轉身不理人",
+        "大聲玩手機",
         "故意按錯層",
-        "主動打招呼",
-        "大聲玩手機"
+        "主動打招呼"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "保持通道清楚，能讓居民安全通行。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "堆滿舊紙箱",
+        "保持通道清",
         "擺滿雨傘架",
-        "停放玩具車",
-        "保持通道清"
+        "停放玩具車"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "這句俗語強調鄰居互相照顧的重要性。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "鄰里互助重",
-        "家人全不重",
+        "同學不能信",
         "朋友都無用",
-        "同學不能信"
+        "家人全不重",
+        "鄰里互助重"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -270,10 +270,10 @@
       "explanation": "一起參與活動能增加居民互動並凝聚情感。",
       "answer_index": 2,
       "options": [
-        "製造更多吵架",
         "分開居民生活",
+        "取消所有規則",
         "凝聚居民情",
-        "取消所有規則"
+        "製造更多吵架"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "行動菜車能把食材帶到居民附近，方便採買。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "增加交通號誌",
-        "代替學校上課",
         "檢查消防設備",
-        "方便買食材"
+        "方便買食材",
+        "代替學校上課"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -343,12 +343,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "里偏行政劃分，社區偏生活互動範圍。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "里是遊戲名",
+        "里是午餐名",
         "里是行政區",
-        "里是鉛筆盒",
-        "里是午餐名"
+        "里是鉛筆盒"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "社區探訪前先注意安全，才能順利觀察。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "先買新玩具",
-        "先拍同學照",
         "先注意安全",
-        "先丟掉地圖"
+        "先買新玩具",
+        "先丟掉地圖",
+        "先拍同學照"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "畫下路線圖能清楚呈現社區場所位置。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "刪除全部點",
-        "只寫午餐名",
+        "畫下路線圖",
         "背誦卡通詞",
-        "畫下路線圖"
+        "刪除全部點",
+        "只寫午餐名"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,12 +418,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公園能提供居民休憩、活動與互動的空間。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "居民休憩地",
         "專放私人物",
+        "禁止人進入",
         "只給車停放",
-        "禁止人進入"
+        "居民休憩地"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "社區活動中心常用來舉辦居民課程與會議。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "私人房間裡面",
-        "社區活動中心",
+        "寵物籠子裡面",
         "同學書包裡面",
-        "寵物籠子裡面"
+        "社區活動中心"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -470,8 +470,8 @@
       "explanation": "不同文化會形成不同的地方稱呼，應理解尊重。",
       "answer_index": 2,
       "options": [
-        "稱呼必相同",
         "不能說地方",
+        "稱呼必相同",
         "稱呼有差異",
         "只能寫門牌"
       ],
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "夥房等居住形式能呈現地方生活與文化特色。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "地方文化面貌",
         "考試分數高低",
         "網路遊戲得分",
-        "零食包裝顏色",
-        "地方文化面貌"
+        "零食包裝顏色"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "住家門牌能提供具體地址，方便大人協助確認。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "看住家門牌",
+        "數書包拉鍊",
         "猜同學座號",
-        "背卡通台詞",
-        "數書包拉鍊"
+        "看住家門牌",
+        "背卡通台詞"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -545,10 +545,10 @@
       "explanation": "學生證主要證明學生身分，通常不是查住址的資料。",
       "answer_index": 1,
       "options": [
-        "顏色不漂亮",
+        "只能在夜晚",
         "沒有住址欄",
-        "不能放書包",
-        "只能在夜晚"
+        "顏色不漂亮",
+        "不能放書包"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -568,12 +568,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "縣市、區、路、號能由大到小標示完整位置。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "號路區縣市",
-        "路號市區縣",
         "縣市區路號",
-        "區號縣路市"
+        "區號縣路市",
+        "號路區縣市",
+        "路號市區縣"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "降低音量能減少噪音，尊重鄰居休息。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "加大音量",
-        "敲打牆壁",
         "故意尖叫",
-        "降低音量"
+        "加大音量",
+        "降低音量",
+        "敲打牆壁"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -621,9 +621,9 @@
       "answer_index": 0,
       "options": [
         "妨礙通行",
-        "增加書香",
+        "縮短地址",
         "改善採光",
-        "縮短地址"
+        "增加書香"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -643,12 +643,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "友善溝通能表達困擾，也能維持鄰里關係。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "公開責罵",
         "友善溝通",
-        "惡作劇報復",
-        "亂丟紙條"
+        "亂丟紙條",
+        "公開責罵",
+        "惡作劇報復"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -670,10 +670,10 @@
       "explanation": "居民共同清潔能維護社區公共環境。",
       "answer_index": 2,
       "options": [
+        "停止互動",
         "比較成績",
-        "販賣玩具",
         "維護環境",
-        "停止互動"
+        "販賣玩具"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -693,12 +693,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "共同活動能讓居民彼此認識並增進情感。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "減少認識",
         "製造隔閡",
+        "增進情感",
         "忘記住址",
-        "增進情感"
+        "減少認識"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -718,10 +718,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "商店較少的地區需要更彈性的採買服務。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "商店較少",
         "高樓太多",
+        "商店較少",
         "捷運太密",
         "夜市太吵"
       ],
@@ -743,11 +743,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "巡迴醫療能協助交通不便地區居民就醫。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "上網太快",
         "買書不便",
         "看診不便",
-        "上網太快",
         "公園太多"
       ],
       "taxonomy": "inferential",
@@ -768,11 +768,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "社區不只是房屋，也包含居民之間的互動。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "居民互動",
         "樓層高度",
         "牆面顏色",
-        "居民互動",
         "書包大小"
       ],
       "taxonomy": "inferential",
@@ -795,9 +795,9 @@
       "explanation": "街道地圖能呈現道路和場所位置，方便找路。",
       "answer_index": 3,
       "options": [
-        "玩具目錄",
         "午餐菜單",
         "故事插圖",
+        "玩具目錄",
         "街道地圖"
       ],
       "taxonomy": "inferential",
@@ -818,11 +818,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "探訪時遵守號誌，比單純追求近路更重要。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "鑽過車縫",
         "遵守號誌",
         "奔跑搶快",
-        "鑽過車縫",
         "閉眼通過"
       ],
       "taxonomy": "inferential",
@@ -843,12 +843,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "補充不同層次的範圍，能讓位置更清楚。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "字數變更多",
-        "範圍層次清",
         "聲音變更大",
-        "圖畫變更小"
+        "字數變更多",
+        "圖畫變更小",
+        "範圍層次清"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "只說縣市太大，還需要更接近生活的位置。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "衣服顏色",
+        "遊戲分數",
         "早餐種類",
-        "生活位置",
-        "遊戲分數"
+        "衣服顏色",
+        "生活位置"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -893,12 +893,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "鄰居彼此照應，是守望相助的表現。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "各自冷漠",
         "互相比較",
-        "故意疏遠",
-        "守望相助"
+        "各自冷漠",
+        "守望相助",
+        "故意疏遠"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -921,9 +921,9 @@
       "answer_index": 0,
       "options": [
         "不占公共",
-        "多占走道",
         "遮住門口",
-        "擋住斜坡"
+        "擋住斜坡",
+        "多占走道"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -943,12 +943,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "尊重差異能讓不同背景居民共同生活。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "拒絕認識",
         "嘲笑口味",
         "尊重差異",
-        "禁止分享",
-        "拒絕認識"
+        "禁止分享"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "長輩分享能幫助學生了解地方的變化與特色。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "增加考試量",
-        "縮短上學路",
         "了解地方",
-        "改變門牌色"
+        "改變門牌色",
+        "增加考試量",
+        "縮短上學路"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "事先約定能尊重受訪者時間與生活。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "直接闖入",
+        "事先約定",
         "大聲逼問",
-        "偷看信箱",
-        "事先約定"
+        "偷看信箱"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "結合地址和附近場所，能清楚認識生活範圍。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "記住午餐名",
         "認識生活圈",
         "背完乘法表",
-        "改變座位表",
-        "記住午餐名"
+        "改變座位表"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "門牌與路名能直接呈現住家位置，且不必攜帶證件。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "玩具與貼紙",
-        "門牌與路名",
+        "球鞋與水壺",
         "零食與飲料",
-        "球鞋與水壺"
+        "門牌與路名",
+        "玩具與貼紙"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先溝通並降低音量，能兼顧自己需求與鄰居安寧。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "敲到大家睡",
         "開窗放更大",
-        "先溝通音量",
-        "故意敲牆壁"
+        "敲到大家睡",
+        "故意敲牆壁",
+        "先溝通音量"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1095,9 +1095,9 @@
       "explanation": "把鞋子收進家中，能維持公共通道暢通。",
       "answer_index": 3,
       "options": [
-        "堆到更外面",
         "假裝沒看見",
         "貼紙條罵人",
+        "堆到更外面",
         "收進自家內"
       ],
       "taxonomy": "applied",
@@ -1118,10 +1118,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先標安全點能讓探訪路線更清楚也更安全。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "標出安全點",
         "刪掉集合點",
+        "標出安全點",
         "躲開老師看",
         "故意走遠路"
       ],
@@ -1143,12 +1143,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "主動邀請能幫助新住戶融入社區生活。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "故意不通知",
-        "主動邀請來",
         "取消他資格",
-        "笑他不熟路"
+        "笑他不熟路",
+        "主動邀請來",
+        "故意不通知"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1195,9 +1195,9 @@
       "explanation": "邀請一起參與，能展現尊重與社區共好。",
       "answer_index": 3,
       "options": [
+        "嘲笑她口音",
         "限制她發言",
         "拒絕她入場",
-        "嘲笑她口音",
         "邀請一起來"
       ],
       "taxonomy": "applied",
@@ -1218,12 +1218,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先寫縣市名，能先確定大範圍再往小範圍判斷。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "先寫縣市名",
         "先畫卡通圖",
-        "先塗滿顏色",
-        "先貼遊戲卡"
+        "先寫縣市名",
+        "先貼遊戲卡",
+        "先塗滿顏色"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "搬家後應核對新門牌與家長確認，避免使用舊地址。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "照抄舊地址",
-        "核對新門牌",
         "亂填同學家",
-        "省略所有路"
+        "省略所有路",
+        "照抄舊地址",
+        "核對新門牌"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

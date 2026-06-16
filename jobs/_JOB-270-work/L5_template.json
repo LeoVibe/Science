@@ -1,0 +1,25 @@
+{
+  "question": "【早餐店前】小方帶著五十元上學，肚子很餓又看到新款貼紙。他先想清楚哪一項能維持上課體力，這是在分辨什麼？",
+  "commonMisconception": "把一時喜歡的流行物品誤認為生活需要。",
+  "scenario": "早餐選擇",
+  "quality_level": "QL3",
+  "cqi_score": 6.75,
+  "explanation": "早餐能滿足上課體力需求，貼紙屬於想要。",
+  "answer_index": 0,
+  "options": [
+    "需要想要",
+    "現金刷卡",
+    "收入支出",
+    "品質價格"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": false,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": null,
+  "verifying_date": null,
+  "is_publishable": false,
+  "review_status": "pending",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": null
+}

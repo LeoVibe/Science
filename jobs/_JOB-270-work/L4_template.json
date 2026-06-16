@@ -1,0 +1,25 @@
+{
+  "question": "【社區車站】小安看到捷運站旁有一排公共自行車，大家刷卡或掃碼後就能借用。公共自行車最主要的特色是什麼？",
+  "commonMisconception": "以為公共自行車是私人收藏物",
+  "scenario": "社區車站",
+  "quality_level": "QL3",
+  "cqi_score": 6.75,
+  "explanation": "公共自行車由許多人共同借用，不屬於單一家庭。",
+  "answer_index": 2,
+  "options": [
+    "店家專用",
+    "個人收藏",
+    "大家共用",
+    "只能展示"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": false,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": null,
+  "verifying_date": null,
+  "is_publishable": false,
+  "review_status": "pending",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": null
+}

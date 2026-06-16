@@ -1,0 +1,25 @@
+{
+  "question": "【搬家整理】小安搬到新社區後，老師請他找一份能查到家中住址的資料，明天在課堂上介紹自己居住的地方。下列哪一項最適合？",
+  "commonMisconception": "以為任何學校物品都能查到住家地址。",
+  "scenario": "搬家查地址",
+  "quality_level": "QL3",
+  "cqi_score": 6.75,
+  "explanation": "戶口名簿記錄家庭戶籍資料，能用來確認住址。",
+  "answer_index": 1,
+  "options": [
+    "運動會旗",
+    "戶口名簿",
+    "學校菜單",
+    "學生獎狀"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": false,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": null,
+  "verifying_date": null,
+  "is_publishable": false,
+  "review_status": "pending",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": null
+}
