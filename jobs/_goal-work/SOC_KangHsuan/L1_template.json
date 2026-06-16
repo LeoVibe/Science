@@ -1,0 +1,25 @@
+{
+  "question": "【讀門牌時】小安看到社區公告寫著「第八鄰住戶請到里民中心領取通知單」。這裡提到由相近住戶組成的基層行政單位是什麼？",
+  "commonMisconception": "學生可能把常聽到的里誤認為最小行政單位。",
+  "scenario": "社區公告認識鄰",
+  "quality_level": "QL3",
+  "cqi_score": 6.75,
+  "explanation": "鄰是由相近住戶組成的基層行政單位。",
+  "answer_index": 0,
+  "options": [
+    "相近住戶成鄰",
+    "縣市層級更大",
+    "鄉鎮市區較大",
+    "多個鄰組成里"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": false,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": null,
+  "verifying_date": null,
+  "is_publishable": false,
+  "review_status": "pending",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": null
+}

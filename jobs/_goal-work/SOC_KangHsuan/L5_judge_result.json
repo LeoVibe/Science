@@ -1,0 +1,414 @@
+{
+  "kaodian": [
+    {"id": "康軒L5-K01", "desc": "地名由來分類：自然環境（地形、氣候、植物、動物）vs 人文因素（人物、居民活動、產業、信仰、族群語言）"},
+    {"id": "康軒L5-K02", "desc": "具體地名案例：鶯歌——命名線索是岩石形狀/地形意象，非鳥類或鳥叫聲"},
+    {"id": "康軒L5-K03", "desc": "具體地名案例：竹山——命名線索是竹子，非山竹水果（字詞顛倒陷阱）"},
+    {"id": "康軒L5-K04", "desc": "具體地名案例：烏來——命名線索是族群語言（音譯），不能望文生義解釋漢字"},
+    {"id": "康軒L5-K05", "desc": "探索地名的方法：多元資料來源皆可（上網查詢、詢問長輩、圖書館查資料、參訪文物館），不限單一方式"},
+    {"id": "康軒L5-K06", "desc": "訪談準備與禮儀：事先設計問題、約定時間、取得同意、記錄整理，訪談不等於隨意聊天"},
+    {"id": "康軒L5-K07", "desc": "網路資料查證：上網查到的資料不可直接複製引用，需確認來源並與其他資料比對"},
+    {"id": "康軒L5-K08", "desc": "地名會變遷：地名可能因歷史沿革、行政區劃、書寫方式或地方發展而改變"}
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "路牌觀察",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "地名保存地方環境、活動或歷史線索，測地名由來的基本概念。"
+    },
+    {
+      "idx": 1,
+      "scenario": "分類練習",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "山形、河川、氣候、植物歸自然環境因素，直接測地名由來分類。"
+    },
+    {
+      "idx": 2,
+      "scenario": "自然卡片",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "氣候、植物、地形、水文線索歸自然特色，測自然因素分類。"
+    },
+    {
+      "idx": 3,
+      "scenario": "人文海報",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "開墾、信仰、市集、工作歸人文因素，測人文因素分類。"
+    },
+    {
+      "idx": 4,
+      "scenario": "鶯歌岩石",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K02",
+      "note": "鶯歌命名線索是地形形狀/岩石形狀，非鳥類，誘答含鳥類數量與居民歌唱。"
+    },
+    {
+      "idx": 5,
+      "scenario": "竹山介紹",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K03",
+      "note": "竹山命名線索是竹子生長，誘答含山竹水果（字詞顛倒陷阱）。"
+    },
+    {
+      "idx": 6,
+      "scenario": "烏來語源",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K04",
+      "note": "烏來屬族群語言線索，不能只看漢字字面。"
+    },
+    {
+      "idx": 7,
+      "scenario": "朴子植物",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "朴子偏植物線索，非居民活動，測植物vs人文活動的分類辨析（考古題型C的核心案例）。"
+    },
+    {
+      "idx": 8,
+      "scenario": "恆春氣候",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "恆春命名線索是氣候感受（溫暖如春），屬自然環境因素，具體案例測試。"
+    },
+    {
+      "idx": 9,
+      "scenario": "官田線索",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "官田與官署、開墾相關，屬居民活動/制度線索，人文因素具體案例。"
+    },
+    {
+      "idx": 10,
+      "scenario": "關廟參訪",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "關廟與信仰活動相關，屬人文因素，考古題常見具體案例。"
+    },
+    {
+      "idx": 11,
+      "scenario": "舊圖新名",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K08",
+      "note": "地名可能變遷，由歷史、行政或居民使用影響，直接對應地名變遷考點。"
+    },
+    {
+      "idx": 12,
+      "scenario": "研究方法",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K05",
+      "note": "多元查找（多種資料來源互相補充），測探索地名的方法。"
+    },
+    {
+      "idx": 13,
+      "scenario": "訪談準備",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K06",
+      "note": "訪談前先設計問題，對應訪談準備與禮儀考點。"
+    },
+    {
+      "idx": 14,
+      "scenario": "網路查證",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "網路資料要確認來源並與其他資料比對，直接對應網路查證考點。"
+    },
+    {
+      "idx": 15,
+      "scenario": "課次主軸",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "題目測L5課次主軸認識（探索由來），屬元知識題，考古題未見此類型，偏離8個核心考點。"
+    },
+    {
+      "idx": 16,
+      "scenario": "地圖地形",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "河流、沙洲、山丘歸自然地形線索，測自然環境因素分類。"
+    },
+    {
+      "idx": 17,
+      "scenario": "植物分類",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "竹林、朴樹、榕樹歸植物因素，測植物類自然因素分類。"
+    },
+    {
+      "idx": 18,
+      "scenario": "語言來源",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K04",
+      "note": "族群語言地名需查明語源，避免望文生義，對應烏來類考點的通則。"
+    },
+    {
+      "idx": 19,
+      "scenario": "地方認同",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "題目測學習地名的目的（認識家鄉），屬情意/動機層面，非8個核心考點的知識辨析題型。"
+    },
+    {
+      "idx": 20,
+      "scenario": "鳥形岩石",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K02",
+      "note": "岩石遠看像鳥，重點是地形形狀，再次測鶯歌類「字面聯想 vs 地形意象」考點。"
+    },
+    {
+      "idx": 21,
+      "scenario": "溫泉語音",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K04",
+      "note": "音譯與族群語言是關鍵線索，對應烏來類族群語言考點。"
+    },
+    {
+      "idx": 22,
+      "scenario": "竹林山坡",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K03",
+      "note": "題幹提供竹林與竹子線索，屬植物因素，對應竹山考點情境。"
+    },
+    {
+      "idx": 23,
+      "scenario": "廟前聚落",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "廟前集會、祭拜屬居民信仰活動，測信仰/人文因素分類。"
+    },
+    {
+      "idx": 24,
+      "scenario": "溫暖地方",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "溫暖如春描述氣候感受，屬自然環境因素，對應恆春類考點。"
+    },
+    {
+      "idx": 25,
+      "scenario": "命名依據",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "判斷地名要看依據，可能來自自然或人文，測分類判斷基本概念。"
+    },
+    {
+      "idx": 26,
+      "scenario": "行政調整",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K08",
+      "note": "行政區調整可能讓地名發生變化，直接對應地名變遷考點。"
+    },
+    {
+      "idx": 27,
+      "scenario": "來源衝突",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "資料不同時應比對來源，對應網路資料查證/多重來源查證考點。"
+    },
+    {
+      "idx": 28,
+      "scenario": "有禮訪談",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K06",
+      "note": "事先約定和列問題可避免訪談沒有重點，對應訪談準備考點。"
+    },
+    {
+      "idx": 29,
+      "scenario": "口述查證",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "訪談資料仍需與書籍、地圖或網站互相印證，對應資料查證考點。"
+    },
+    {
+      "idx": 30,
+      "scenario": "鶯歌誤判",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K02",
+      "note": "鶯歌應查地形意象，不可只看字面鳥字，直接對應鶯歌迷思考點。"
+    },
+    {
+      "idx": 31,
+      "scenario": "竹山誤讀",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K03",
+      "note": "竹山不能倒讀成山竹水果，直接對應竹山字詞顛倒陷阱考點。"
+    },
+    {
+      "idx": 32,
+      "scenario": "烏來字面",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K04",
+      "note": "烏來需查族群語言來源，不能自行編字面故事，直接對應烏來考點。"
+    },
+    {
+      "idx": 33,
+      "scenario": "朴樹卡片",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "朴樹歸入植物因素，對應朴子/植物分類考古案例。"
+    },
+    {
+      "idx": 34,
+      "scenario": "官田關廟",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "官署管理和廟宇聚落歸人文活動，對應官田、關廟具體案例考點。"
+    },
+    {
+      "idx": 35,
+      "scenario": "課次邊界",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "題目測L5/L6課次邊界（特產、古蹟歸L6），屬課次邊界辨識，非8個核心考點的地名知識辨析。"
+    },
+    {
+      "idx": 36,
+      "scenario": "兩類配對",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "河口、竹林歸自然；廟埕、開墾者歸人文，測自然vs人文的配對分類。"
+    },
+    {
+      "idx": 37,
+      "scenario": "地名時間線",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K08",
+      "note": "時間線呈現地名歷史變遷，直接對應地名變遷考點。"
+    },
+    {
+      "idx": 38,
+      "scenario": "多重由來",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "不同說法要比較來源可信度，對應資料查證/多重來源比對考點。"
+    },
+    {
+      "idx": 39,
+      "scenario": "文史館資料",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K05",
+      "note": "文史館資料協助查證地名由來，對應多元探索方法（參訪文物館）考點。"
+    },
+    {
+      "idx": 40,
+      "scenario": "榕樹里研究",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K05",
+      "note": "先推測線索再用多種資料查證，對應多元探索方法考點。"
+    },
+    {
+      "idx": 41,
+      "scenario": "網站比對",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "來源不同時比對出處、證據和可信度，對應網路資料查證考點。"
+    },
+    {
+      "idx": 42,
+      "scenario": "約訪長輩",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K06",
+      "note": "訪談前先約時間、說明目的並準備問題，對應訪談準備與禮儀考點。"
+    },
+    {
+      "idx": 43,
+      "scenario": "溪口位置",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "溪流匯入口是水文地形線索，屬自然環境因素分類。"
+    },
+    {
+      "idx": 44,
+      "scenario": "榕樹腳",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "榕樹腳直接指向植物線索，屬植物類自然因素。"
+    },
+    {
+      "idx": 45,
+      "scenario": "市集街名",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K01",
+      "note": "定期聚集買賣屬交易活動（居民生活人文因素），測人文因素分類。"
+    },
+    {
+      "idx": 46,
+      "scenario": "修正觀念",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "康軒L5-K08",
+      "note": "地名可能因歷史、行政、書寫或地方發展改變，對應地名變遷考點。"
+    },
+    {
+      "idx": 47,
+      "scenario": "結論依據",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K07",
+      "note": "列出可信來源讓結論有依據，對應資料查證考點。"
+    },
+    {
+      "idx": 48,
+      "scenario": "文化館展板",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "康軒L5-K04",
+      "note": "寫明族語音譯來源，尊重展板資料，對應族群語言地名需查明語源考點。"
+    },
+    {
+      "idx": 49,
+      "scenario": "研究提問",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "康軒L5-K06",
+      "note": "詢問以前環境或居民活動能直接連到地名由來，對應訪談設計問題考點。"
+    }
+  ]
+}

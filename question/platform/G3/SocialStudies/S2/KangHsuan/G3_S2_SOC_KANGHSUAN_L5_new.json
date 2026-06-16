@@ -18,11 +18,11 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "地名常保存地方環境、活動或歷史線索。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "保存線索",
         "只作裝飾",
         "固定密碼",
+        "保存線索",
         "遊戲名稱"
       ],
       "taxonomy": "literal",
@@ -45,10 +45,10 @@
       "explanation": "山形、河川、氣候和植物都屬自然環境線索。",
       "answer_index": 2,
       "options": [
+        "行政命令",
         "人物紀念",
-        "居民活動",
         "自然環境",
-        "行政命令"
+        "居民活動"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -68,12 +68,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "這些名稱都可從氣候、植物、地形或水文理解。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "人物功勞",
-        "自然特色",
+        "學校活動",
         "市場交易",
-        "學校活動"
+        "自然特色"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -95,9 +95,9 @@
       "explanation": "開墾、信仰、市集和工作都屬人文因素。",
       "answer_index": 3,
       "options": [
+        "植物因素",
         "地形因素",
         "氣候因素",
-        "植物因素",
         "人文因素"
       ],
       "taxonomy": "literal",
@@ -118,10 +118,10 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "鶯歌重點在岩石形狀和地形意象。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "地形形狀",
         "鳥類數量",
+        "地形形狀",
         "居民歌唱",
         "市場買賣"
       ],
@@ -143,12 +143,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "竹山的命名線索是竹子，不是山竹水果。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "山竹水果",
-        "鳥類叫聲",
         "竹子生長",
-        "廟會活動"
+        "廟會活動",
+        "鳥類叫聲",
+        "山竹水果"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -168,12 +168,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "烏來屬族群語言線索，不能只看漢字字面。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "動物外形",
         "族群語言",
         "水果名稱",
-        "商店招牌"
+        "商店招牌",
+        "動物外形"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -193,12 +193,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "朴子偏植物線索，不是居民活動的例子。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "市場活動",
-        "廟宇信仰",
         "官署管理",
-        "植物線索"
+        "植物線索",
+        "市場活動",
+        "廟宇信仰"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -218,10 +218,10 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "恆春的線索重點是溫暖的氣候感受。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "氣候感受",
         "岩石形狀",
+        "氣候感受",
         "族群語言",
         "人物紀念"
       ],
@@ -245,10 +245,10 @@
       "explanation": "耕作、官署和開墾都屬居民活動或制度線索。",
       "answer_index": 2,
       "options": [
+        "氣候感受",
         "植物分布",
-        "動物外形",
         "居民活動",
-        "氣候感受"
+        "動物外形"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -268,12 +268,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "廟宇與信仰活動屬居民生活的人文線索。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "地形形狀",
         "信仰活動",
-        "氣候溫度",
-        "植物種類"
+        "植物種類",
+        "地形形狀",
+        "氣候溫度"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -295,9 +295,9 @@
       "explanation": "地名會受歷史、行政或居民使用影響而變化。",
       "answer_index": 3,
       "options": [
-        "只能消失",
-        "毫無意義",
         "全靠抽籤",
+        "毫無意義",
+        "只能消失",
         "可能變遷"
       ],
       "taxonomy": "literal",
@@ -321,8 +321,8 @@
       "answer_index": 0,
       "options": [
         "多元查找",
-        "只問同學",
         "只看招牌",
+        "只問同學",
         "不必記錄"
       ],
       "taxonomy": "literal",
@@ -343,12 +343,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "訪談前先設計問題，才能有禮貌且有重點地蒐集資料。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "直接錄音",
-        "隨便閒聊",
         "設計問題",
-        "立刻發表"
+        "立刻發表",
+        "隨便閒聊"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -368,12 +368,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "網路資料要確認來源，並和其他資料比對。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "全部照抄",
         "查證來源",
-        "刪掉日期",
-        "只看圖片"
+        "只看圖片",
+        "全部照抄",
+        "刪掉日期"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -393,12 +393,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "L5著重地名由來、分類與探索方法。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "背誦縣名",
-        "計算距離",
+        "探索由來",
         "介紹名產",
-        "探索由來"
+        "計算距離"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -421,8 +421,8 @@
       "answer_index": 0,
       "options": [
         "地形水文",
-        "人物姓氏",
         "廟會活動",
+        "人物姓氏",
         "商店名稱"
       ],
       "taxonomy": "literal",
@@ -443,12 +443,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "竹林、朴樹和榕樹都是植物相關線索。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "交易活動",
-        "官署制度",
         "植物因素",
-        "人物紀念"
+        "人物紀念",
+        "官署制度"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -468,12 +468,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "族群語言地名需要查明語源，避免望文生義。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "只看字形",
-        "查明語源",
         "改成英文",
-        "猜測顏色"
+        "猜測顏色",
+        "只看字形",
+        "查明語源"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -493,12 +493,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "理解地名由來能幫助認識地方特色與故事。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "增加路燈",
-        "改變天氣",
         "減少作業",
-        "認識家鄉"
+        "認識家鄉",
+        "增加路燈",
+        "改變天氣"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -518,12 +518,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "題幹強調岩石遠看像鳥，重點是地形形狀。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "地形形狀",
         "鳥類飼養",
-        "歌唱比賽",
-        "市場交易"
+        "市場交易",
+        "地形形狀",
+        "歌唱比賽"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -543,12 +543,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "音譯與地方族群語言才是這題的關鍵線索。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "鳥類多寡",
-        "水果種類",
+        "街道寬窄",
         "族群語言",
-        "街道寬窄"
+        "鳥類多寡",
+        "水果種類"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -568,10 +568,10 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "題幹提供竹林與竹子線索，屬植物因素。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "地形坡度",
         "植物因素",
+        "地形坡度",
         "水果買賣",
         "族群語言"
       ],
@@ -596,8 +596,8 @@
       "answer_index": 3,
       "options": [
         "河川地形",
-        "氣候溫暖",
         "植物茂盛",
+        "氣候溫暖",
         "信仰活動"
       ],
       "taxonomy": "inferential",
@@ -618,12 +618,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "溫暖如春描述的是氣候感受與自然條件。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "氣候感受",
+        "廟宇活動",
         "人物紀念",
         "市場位置",
-        "廟宇活動"
+        "氣候感受"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -693,12 +693,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "資料不同時，應比對來源並找可信資料佐證。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "挑長文章",
-        "只信第一",
+        "比對來源",
         "直接刪除",
-        "比對來源"
+        "挑長文章",
+        "只信第一"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -718,12 +718,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "事先約定和列問題，可避免訪談沒有重點。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "沒有重點",
-        "資料太多",
         "地名改變",
-        "地圖太舊"
+        "地圖太舊",
+        "沒有重點",
+        "資料太多"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -743,12 +743,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "訪談資料仍需和書籍、地圖或網站互相印證。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "只聽一次",
         "直接結案",
-        "多方查證",
-        "不寫來源"
+        "不寫來源",
+        "多方查證"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -768,12 +768,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "鶯歌應查地形意象，不可只看字面鳥字。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "數鳥數量",
         "只看鳥字",
         "查岩石形",
-        "改問歌手",
-        "數鳥數量"
+        "改問歌手"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -793,12 +793,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "竹山與竹子相關，不能倒讀成山竹水果。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "倒讀字詞",
         "查證太多",
         "地圖太新",
-        "植物無關",
-        "倒讀字詞"
+        "植物無關"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -818,11 +818,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "烏來需要查族群語言來源，不能自行編字面故事。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "查明語源",
         "編女巫屋",
         "只看黑色",
+        "查明語源",
         "改成鳥名"
       ],
       "taxonomy": "inferential",
@@ -843,12 +843,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "朴樹是植物線索，分類時應歸入植物因素。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "官署制度",
         "交易活動",
-        "植物因素",
-        "族群語言"
+        "族群語言",
+        "官署制度",
+        "植物因素"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -868,12 +868,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "官署管理和廟宇聚落都屬人文活動線索。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "自然景觀",
+        "氣候特色",
         "人文活動",
-        "植物生長",
-        "氣候特色"
+        "植物生長"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -895,8 +895,8 @@
       "explanation": "L5應聚焦地名由來與探索，不是特產介紹。",
       "answer_index": 3,
       "options": [
-        "陶瓷販售",
         "古蹟維修",
+        "陶瓷販售",
         "名產包裝",
         "地名由來"
       ],
@@ -921,9 +921,9 @@
       "answer_index": 0,
       "options": [
         "河竹歸自然",
-        "河廟歸自然",
+        "全都歸自然",
         "竹墾歸人文",
-        "全都歸自然"
+        "河廟歸自然"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -968,12 +968,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "可以保留不同說法，但要比較來源可信度。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "全部亂猜",
-        "比較證據",
         "只聽笑話",
-        "立刻刪除"
+        "立刻刪除",
+        "全部亂猜",
+        "比較證據"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -993,12 +993,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "文史館資料能協助查證地名由來與變遷。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "購買零食",
-        "設計遊戲",
         "練習跳舞",
-        "查證由來"
+        "查證由來",
+        "設計遊戲"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "先推測植物線索，再用多種資料查證較完整。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "推測查證",
         "只畫榕樹",
+        "猜完交卷",
         "抄寫招牌",
-        "猜完交卷"
+        "推測查證"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1045,10 +1045,10 @@
       "explanation": "來源不同時，要比對出處、證據和可信度。",
       "answer_index": 2,
       "options": [
+        "不寫來源",
         "只選故事",
-        "直接複製",
         "比對資料",
-        "不寫來源"
+        "直接複製"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1068,11 +1068,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "訪談前應先約時間、說明目的並準備問題。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "只問答案",
         "突然提問",
         "約定時間",
-        "只問答案",
         "改寫原話"
       ],
       "taxonomy": "applied",
@@ -1093,12 +1093,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "溪流匯入口是水文地形線索，符合地名推論。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "歌唱活動",
+        "水文地形",
         "水果名稱",
-        "廟宇信仰",
-        "水文地形"
+        "歌唱活動",
+        "廟宇信仰"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地名直接指向榕樹，植物線索最明顯。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "植物線索",
-        "行政調整",
+        "海港貿易",
         "族群語言",
-        "海港貿易"
+        "行政調整",
+        "植物線索"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1143,12 +1143,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "定期聚集買賣是居民生活中的交易活動。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "植物外觀",
-        "氣候溫暖",
         "交易活動",
-        "岩石形狀"
+        "岩石形狀",
+        "氣候溫暖",
+        "植物外觀"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1168,12 +1168,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地名可能因歷史、行政、書寫或地方發展改變。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "永遠不變",
         "可能改變",
-        "沒有故事",
-        "只會消失"
+        "永遠不變",
+        "只會消失",
+        "沒有故事"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "列出可信來源能讓結論有依據，也方便查證。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "增加字數",
         "讓圖變多",
+        "說明依據",
         "避免訪談",
-        "說明依據"
+        "增加字數"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "報告應尊重展板資料，寫明族語音譯來源。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "族語音譯",
-        "漢字猜測",
         "童話改編",
-        "隨意翻譯"
+        "族語音譯",
+        "隨意翻譯",
+        "漢字猜測"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1245,8 +1245,8 @@
       "explanation": "詢問以前環境或居民活動，能直接連到地名由來。",
       "answer_index": 2,
       "options": [
-        "誰最喜歡",
         "哪裡好玩",
+        "誰最喜歡",
         "早期特色",
         "午餐吃啥"
       ],

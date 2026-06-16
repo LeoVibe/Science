@@ -18,11 +18,11 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "鉛筆會影響課堂書寫，屬於學習需要。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "學習需要",
-        "同學流行",
         "廣告吸引",
+        "同學流行",
+        "學習需要",
         "包裝漂亮"
       ],
       "taxonomy": "literal",
@@ -45,9 +45,9 @@
       "explanation": "家中已有可用水杯，新杯子較屬於想要。",
       "answer_index": 1,
       "options": [
-        "生活需要",
-        "想要物品",
         "安全標示",
+        "想要物品",
+        "生活需要",
         "交易證明"
       ],
       "taxonomy": "literal",
@@ -68,12 +68,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "理性消費要先確認自己是否真的需要。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "誰先代言",
         "顏色流行",
-        "是否需要",
-        "廣告好笑"
+        "誰先代言",
+        "廣告好笑",
+        "是否需要"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -93,12 +93,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "資源有限，所以消費時要量力選擇。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "錢會變多",
         "不用比較",
-        "廣告可信",
-        "資源有限"
+        "資源有限",
+        "錢會變多",
+        "廣告可信"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -118,12 +118,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "食品要確認保存期限，避免買到不適合食用的商品。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "保存期限",
         "明星照片",
         "抽獎口號",
-        "包裝顏色"
+        "包裝顏色",
+        "保存期限"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -143,12 +143,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "玩具的適用年齡能協助判斷是否安全合適。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "廣告歌曲",
-        "適用年齡",
+        "櫥窗高度",
         "店員髮型",
-        "櫥窗高度"
+        "廣告歌曲",
+        "適用年齡"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -168,12 +168,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "廣告常用來吸引注意並促使消費者購買。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "保證適合",
-        "一定真實",
         "吸引購買",
-        "不用查證"
+        "不用查證",
+        "一定真實"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -193,12 +193,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "列出容量與功能，是在介紹商品本身資訊。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "明星代言",
-        "打折促銷",
         "誇大功能",
-        "商品介紹"
+        "商品介紹",
+        "打折促銷",
+        "明星代言"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -218,12 +218,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "第二件五折是用價格優惠吸引購買。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "打折促銷",
         "商品介紹",
+        "誇大功能",
         "明星代言",
-        "誇大功能"
+        "打折促銷"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -245,10 +245,10 @@
       "explanation": "用知名人物推薦商品，屬於明星代言。",
       "answer_index": 1,
       "options": [
-        "打折促銷",
+        "誇大功能",
         "明星代言",
         "商品介紹",
-        "誇大功能"
+        "打折促銷"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -268,12 +268,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "立刻滿分是不合理承諾，屬於誇大功能。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "商品介紹",
-        "明星代言",
         "誇大功能",
-        "打折促銷"
+        "明星代言",
+        "打折促銷",
+        "商品介紹"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -293,12 +293,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "環保標章表示商品較符合環境保護相關標準。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "品牌商標",
+        "環保標章",
         "省水標章",
-        "節能標章",
-        "環保標章"
+        "節能標章"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -318,12 +318,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "電風扇用電，節能標章能協助判斷能源效率。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "節能標章",
-        "省水標章",
         "環保標章",
-        "名牌標章"
+        "省水標章",
+        "名牌標章",
+        "節能標章"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -343,12 +343,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "蓮蓬頭是用水設備，應查看省水標章。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "節能標章",
-        "省水標章",
         "環保標章",
-        "名牌標章"
+        "節能標章",
+        "名牌標章",
+        "省水標章"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -370,8 +370,8 @@
       "explanation": "自備袋子能減少一次性塑膠袋使用。",
       "answer_index": 2,
       "options": [
-        "多拿吸管",
         "包裝加厚",
+        "多拿吸管",
         "自備袋子",
         "過量採買"
       ],
@@ -393,12 +393,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "發票可作為購買證明，協助退換貨或申訴。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "海報裝飾",
-        "廣告贈品",
         "店名貼紙",
-        "交易證明"
+        "海報裝飾",
+        "交易證明",
+        "廣告贈品"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -418,12 +418,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "1950 是全國消費者服務專線的號碼。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "1950",
-        "1999",
         "1922",
-        "1590"
+        "1590",
+        "1999",
+        "1950"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -443,10 +443,10 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "保留證明能協助後續溝通、退換貨或申訴。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "大聲責罵",
         "保留證明",
+        "大聲責罵",
         "丟掉商品",
         "忘記店名"
       ],
@@ -470,10 +470,10 @@
       "explanation": "信用卡只是付款工具，仍需考量預算與償還。",
       "answer_index": 2,
       "options": [
-        "免費禮物",
         "無限錢包",
+        "環保標章",
         "付款工具",
-        "環保標章"
+        "免費禮物"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -518,12 +518,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "早餐關係健康與上課精神，應先處理需要。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "先買早餐",
         "先買貼紙",
         "先買遊戲",
-        "先買卡片"
+        "先買卡片",
+        "先買早餐"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -543,12 +543,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "原書包可用時，新款書包可先延後評估。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "立即必需",
-        "可先延後",
+        "發票用途",
         "店家責任",
-        "發票用途"
+        "可先延後",
+        "立即必需"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -568,12 +568,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "便宜但期限不合使用時間，應改選更適合的商品。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "只看低價",
         "多買幾盒",
         "改選適合",
-        "相信促銷"
+        "相信促銷",
+        "只看低價"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -593,12 +593,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "成分關係健康安全，不能因廣告或品牌而忽略。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "照買分享",
         "只看品牌",
-        "聽信廣告",
-        "先看成分"
+        "照買分享",
+        "先看成分",
+        "聽信廣告"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -618,12 +618,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "是否購買應回到自己的需求，而不是只看流行。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "回到需求",
         "馬上跟買",
         "只看人數",
-        "不用比較"
+        "不用比較",
+        "回到需求"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -670,10 +670,10 @@
       "explanation": "戶外課需要合適容量與耐用度，不能只看價格。",
       "answer_index": 2,
       "options": [
-        "只選低價",
+        "同學品牌",
         "只選顏色",
         "用途容量",
-        "同學品牌"
+        "只選低價"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -693,12 +693,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "打折仍要看家庭需求與是否保存得了。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "折扣必買",
-        "錯過可惜",
         "價格唯一",
-        "仍看需求"
+        "折扣必買",
+        "仍看需求",
+        "錯過可惜"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -718,12 +718,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "廣告可作參考，但仍要查標示、需求與證據。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "可供參考",
-        "一定全假",
         "直接購買",
-        "不用標示"
+        "可供參考",
+        "不用標示",
+        "一定全假"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -743,12 +743,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "資料卡列出商品規格與保固，屬於商品介紹。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "明星代言",
-        "商品介紹",
         "打折促銷",
-        "誇大功能"
+        "誇大功能",
+        "商品介紹",
+        "明星代言"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -768,11 +768,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "跑贏全校過度保證效果，屬於誇大功能。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "誇大功能",
         "商品介紹",
         "打折促銷",
-        "誇大功能",
         "明星代言"
       ],
       "taxonomy": "inferential",
@@ -793,12 +793,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "借用人氣歌手吸引注意，屬於明星代言。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "商品介紹",
-        "誇大功能",
         "打折促銷",
-        "明星代言"
+        "明星代言",
+        "商品介紹",
+        "誇大功能"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -818,12 +818,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "環保標章商品較能降低對環境的負擔。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "減少負擔",
-        "提高噪音",
+        "延長排隊",
         "增加包裝",
-        "延長排隊"
+        "減少負擔",
+        "提高噪音"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -843,12 +843,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "檯燈使用電力，節能標章能反映省電需求。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "省水標章",
-        "節能標章",
         "環保標章",
-        "發票號碼"
+        "省水標章",
+        "發票號碼",
+        "節能標章"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -868,12 +868,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "水龍頭屬用水設備，省水標章最符合需求。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "節能標章",
+        "品牌商標",
         "環保標章",
-        "省水標章",
-        "品牌商標"
+        "省水標章"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -893,12 +893,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "簡單且剛好的包裝可減少不必要的浪費。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "包裝越多",
+        "簡裝剛好",
         "贈品越多",
         "廣告越大",
-        "簡裝剛好"
+        "包裝越多"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -943,12 +943,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "消費爭議可尋求 1950 消費者服務專線協助。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "撥打1999",
+        "撥打1590",
         "撥打1950",
-        "撥打1922",
-        "撥打1590"
+        "撥打1922"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -968,12 +968,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "1950 對應消費者服務，不是一般便民或防疫用途。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "1999便民",
-        "1922防疫",
         "1950消費",
-        "1590購物"
+        "1590購物",
+        "1922防疫",
+        "1999便民"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -995,8 +995,8 @@
       "explanation": "保留證明後，應先理性溝通處理方式。",
       "answer_index": 3,
       "options": [
-        "丟掉發票",
         "責罵店員",
+        "丟掉發票",
         "隱瞞家人",
         "理性溝通"
       ],
@@ -1018,12 +1018,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "校外教學需要補充水分，合用水壺較符合需求。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "買合用水壺",
-        "買流行吊飾",
         "買重複玩具",
-        "買明星貼紙"
+        "買合用水壺",
+        "買明星貼紙",
+        "買流行吊飾"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "食用時間在週日，應選保存期限較合適的商品。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "選廣告較多",
-        "選期限較長",
+        "選代言較紅",
         "選包裝較亮",
-        "選代言較紅"
+        "選期限較長"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "清潔用品若有環保標章，較符合降低環境負擔的目標。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "看偶像簽名",
-        "看贈品大小",
+        "看包裝層數",
         "看環保標章",
-        "看包裝層數"
+        "看偶像簽名",
+        "看贈品大小"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1096,8 +1096,8 @@
       "answer_index": 3,
       "options": [
         "選節能標章",
-        "選名人照片",
         "選打折海報",
+        "選名人照片",
         "選省水標章"
       ],
       "taxonomy": "applied",
@@ -1121,8 +1121,8 @@
       "answer_index": 0,
       "options": [
         "先買字典",
-        "先買卡包",
         "先買飲料",
+        "先買卡包",
         "先買貼紙"
       ],
       "taxonomy": "applied",
@@ -1143,12 +1143,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "採買應符合實際需要，避免因促銷造成浪費。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "全部掃貨",
-        "只買需要",
+        "丟掉發票",
         "分給路人",
-        "丟掉發票"
+        "全部掃貨",
+        "只買需要"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1168,12 +1168,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "節能標章能幫助選擇較省電的家電商品。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "增加水量",
-        "提高包裝",
         "節省用電",
-        "保證中獎"
+        "保證中獎",
+        "提高包裝"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "包裝、紀錄和購買證明都是後續處理的重要證據。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "刪除紀錄",
-        "直接開罵",
         "忍著不說",
-        "保留證據"
+        "保留證據",
+        "直接開罵",
+        "刪除紀錄"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "自備餐具可減少免洗餐具與一次性用品。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "自備餐具",
         "多拿袋子",
-        "加購包裝",
-        "大量囤貨"
+        "自備餐具",
+        "大量囤貨",
+        "加購包裝"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "本課重點是是否量力消費與做出理性選擇。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "卡片顏色",
-        "是否量力",
+        "收銀位置",
         "刷卡聲音",
-        "收銀位置"
+        "是否量力",
+        "卡片顏色"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,

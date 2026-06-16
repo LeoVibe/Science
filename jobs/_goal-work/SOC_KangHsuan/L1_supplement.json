@@ -1,0 +1,80 @@
+[
+  {
+    "question": "【社區職務】佳佳問里長和鄰長怎麼產生。下列哪一組說法正確？",
+    "commonMisconception": "學生可能把里長和鄰長都誤認為居民直接投票產生。",
+    "scenario": "里鄰職務產生方式",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "里長通常由居民選舉產生，鄰長則由里長任命來協助鄰內事務。",
+    "answer_index": 2,
+    "options": [
+      "里長由老師指定，鄰長由學生選出",
+      "里長由警察任命，鄰長由公所抽籤",
+      "里長由居民選出，鄰長由里長任命",
+      "里長由商店推派，鄰長由消防指定"
+    ],
+    "taxonomy": "literal",
+    "source_kaodian_id": "康軒L1-K03",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  },
+  {
+    "question": "【認識新住民】美美的阿姨因結婚搬到臺灣，也保留家鄉飲食。下列哪一項看法最合宜？",
+    "commonMisconception": "學生可能把新住民誤認為只是短期觀光的人，或忽略尊重文化差異。",
+    "scenario": "新住民移居與尊重",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "結婚可能是長期移居的原因，面對不同文化應尊重並友善交流。",
+    "answer_index": 0,
+    "options": [
+      "因結婚移居，尊重不同文化",
+      "因購物路過，拒絕一起活動",
+      "因拍照旅遊，要求改變習慣",
+      "因口音不同，不能成為朋友"
+    ],
+    "taxonomy": "application",
+    "source_kaodian_id": "康軒L1-K05",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  },
+  {
+    "question": "【社區活動】里辦公處想募集物資幫助需要協助的居民，最適合舉辦哪一種活動？",
+    "commonMisconception": "學生可能混淆跳蚤市場、節慶活動、義賣和公聽會的主要功能。",
+    "scenario": "家鄉活動目的辨析",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "義賣常用來募集物資或善款，協助需要幫助的居民或社區需求。",
+    "answer_index": 3,
+    "options": [
+      "節慶表演凝聚居民",
+      "公聽會討論議題",
+      "跳蚤市場交換物品",
+      "義賣活動募集資源"
+    ],
+    "taxonomy": "application",
+    "source_kaodian_id": "康軒L1-K06",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  }
+]

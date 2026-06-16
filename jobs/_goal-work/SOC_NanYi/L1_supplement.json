@@ -1,0 +1,80 @@
+[
+  {
+    "question": "【查詢地址】小組看到虛擬地址「高雄市苓雅區和平一路10號」，想先判斷大約在哪個行政區。應先看地址中的哪一部分？",
+    "commonMisconception": "學生可能把路名或門牌號碼誤認為行政區，也可能忽略使用虛擬地址保護個資。",
+    "scenario": "虛擬地址判讀",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "地址中的區名能協助判斷所在行政區，虛擬地址也可避免公開個人住址。",
+    "answer_index": 2,
+    "options": [
+      "和平一路",
+      "10號",
+      "苓雅區",
+      "門牌顏色"
+    ],
+    "taxonomy": "literal",
+    "source_kaodian_id": "南一L1-K06",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  },
+  {
+    "question": "【認識舊戲院】小安想了解社區舊戲院為什麼被居民記得。下列哪一種做法最適合？",
+    "commonMisconception": "學生可能只用猜測或網路留言認識老建築，沒有透過觀察、訪談和資料查詢。",
+    "scenario": "老建築探究方法",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "觀察現場、訪談居民和查找資料，能幫助了解老建築與地方特色。",
+    "answer_index": 3,
+    "options": [
+      "只比較門票價格",
+      "先決定它沒特色",
+      "只抄網路留言",
+      "觀察訪談查資料"
+    ],
+    "taxonomy": "application",
+    "source_kaodian_id": "南一L1-K08",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  },
+  {
+    "question": "【街道變化】阿祖說以前去鎮上常走泥土路，現在家附近有公車和柏油路。這主要表示什麼？",
+    "commonMisconception": "學生可能把早期和現代生活看成完全相同，或只用好壞判斷地方變化。",
+    "scenario": "道路交通變遷",
+    "quality_level": "QL3",
+    "cqi_score": 6.75,
+    "explanation": "泥土路、公車和柏油路的差異，能看出早期與現代道路和交通工具的變化。",
+    "answer_index": 0,
+    "options": [
+      "道路交通有改變",
+      "每戶職業都相同",
+      "老建築全部消失",
+      "地圖已不能使用"
+    ],
+    "taxonomy": "application",
+    "source_kaodian_id": "南一L1-K02",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  }
+]

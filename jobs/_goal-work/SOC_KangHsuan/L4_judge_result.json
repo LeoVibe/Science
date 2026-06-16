@@ -1,0 +1,388 @@
+{
+  "kaodian": [
+    {
+      "id": "康軒L4-K01",
+      "description": "需要 vs 想要辨別：能區分生活必需品（需要）與慾望（想要），並在預算或情境下優先選擇需要"
+    },
+    {
+      "id": "康軒L4-K02",
+      "description": "環保／節能／省水標章辨識：三種標章用途不同，需搭配商品用途配對（電器→節能、用水設備→省水、一般環保商品→環保標章）"
+    },
+    {
+      "id": "康軒L4-K03",
+      "description": "購物注意事項：購買前應確認需求、標示、保存期限、品質、價格、售後服務；廣告出現或知名品牌不是購物判準"
+    },
+    {
+      "id": "康軒L4-K04",
+      "description": "消費者服務專線1950：消費爭議可撥1950；需能區分1950（消費）、1999（便民）、1922（防疫）等電話用途"
+    },
+    {
+      "id": "康軒L4-K05",
+      "description": "廣告四分類辨識：能依廣告語句判斷屬於商品介紹、打折促銷、明星代言或誇大功能"
+    },
+    {
+      "id": "康軒L4-K06",
+      "description": "統一發票用途：發票不只用來對獎，也是交易證明，可用於退換貨、記帳與消費爭議申訴"
+    },
+    {
+      "id": "康軒L4-K07",
+      "description": "比較消費與折扣判斷：折扣不等於划算，仍需看需求、期限、數量與預算；比價需多指標，不能只看價格"
+    },
+    {
+      "id": "康軒L4-K08",
+      "description": "環保消費行為：自備購物袋、自備餐具、減少過度包裝、避免過量購買，不限於購買有標章商品"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "鉛筆補買",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "情境要求學生從廣告吸引、同學流行、學習需要、包裝漂亮中選出正當理由，核心是辨別需要。"
+    },
+    {
+      "idx": 1,
+      "scenario": "卡通水杯",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "家中已有水杯，新水杯屬想要，直接對應需要vs想要辨別。"
+    },
+    {
+      "idx": 2,
+      "scenario": "零食廣告",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "面對廣告刺激，正解是確認是否需要，核心考點是需要vs想要的判斷。"
+    },
+    {
+      "idx": 3,
+      "scenario": "資源取捨",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "資源有限所以要量力選擇，是需要vs想要與消費判斷的基礎概念。"
+    },
+    {
+      "idx": 4,
+      "scenario": "鮮奶標示",
+      "match": true,
+      "kaodian_id": "康軒L4-K03",
+      "note": "食品購買前確認保存期限，屬購物注意事項（標示查核）。"
+    },
+    {
+      "idx": 5,
+      "scenario": "積木年齡",
+      "match": true,
+      "kaodian_id": "康軒L4-K03",
+      "note": "玩具購買前確認適用年齡（標示），屬購物注意事項。"
+    },
+    {
+      "idx": 6,
+      "scenario": "商店海報",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考廣告的一般目的（吸引購買），偏向廣告認識的基礎概念，未精確對應廣告四分類（K05）也未到購物注意事項標準，保守判false。"
+    },
+    {
+      "idx": 7,
+      "scenario": "水壺資訊",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "列出容量與功能屬商品介紹，正確對應廣告四分類考點。"
+    },
+    {
+      "idx": 8,
+      "scenario": "文具五折",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "第二件五折是打折促銷，正確對應廣告四分類考點。"
+    },
+    {
+      "idx": 9,
+      "scenario": "球鞋代言",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "知名人物推薦屬明星代言，正確對應廣告四分類考點。"
+    },
+    {
+      "idx": 10,
+      "scenario": "神奇筆傳單",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "「立刻滿分」過度承諾屬誇大功能，正確對應廣告四分類考點。"
+    },
+    {
+      "idx": 11,
+      "scenario": "再生紙本",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "環保標章用於一般環保商品，正確對應標章辨識考點。"
+    },
+    {
+      "idx": 12,
+      "scenario": "電風扇省電",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "電器選節能標章，正確對應標章辨識與商品配對考點。"
+    },
+    {
+      "idx": 13,
+      "scenario": "蓮蓬頭選購",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "用水設備選省水標章，正確對應標章辨識與商品配對考點。"
+    },
+    {
+      "idx": 14,
+      "scenario": "麵包自備袋",
+      "match": true,
+      "kaodian_id": "康軒L4-K08",
+      "note": "自備袋子減少一次性塑膠袋，對應環保消費行為考點。"
+    },
+    {
+      "idx": 15,
+      "scenario": "書局發票",
+      "match": true,
+      "kaodian_id": "康軒L4-K06",
+      "note": "發票作為購買證明，可協助退換貨，直接對應統一發票用途考點。"
+    },
+    {
+      "idx": 16,
+      "scenario": "服務專線",
+      "match": true,
+      "kaodian_id": "康軒L4-K04",
+      "note": "選出1950消費者服務專線，直接對應1950考點。"
+    },
+    {
+      "idx": 17,
+      "scenario": "新鞋開膠",
+      "match": true,
+      "kaodian_id": "康軒L4-K06",
+      "note": "保留購買證明以利退換貨申訴，對應發票與消費爭議考點。"
+    },
+    {
+      "idx": 18,
+      "scenario": "信用卡付款",
+      "match": false,
+      "kaodian_id": null,
+      "note": "信用卡是付款工具（非無限資源）偏向L3/L4邊界題，核心考點在L3；L4考點研究中此為P3低頻且模稜兩可，保守判false。"
+    },
+    {
+      "idx": 19,
+      "scenario": "課次邊界",
+      "match": false,
+      "kaodian_id": null,
+      "note": "此題考本課定位（選擇判斷），屬元認知題，不對應具體高頻考古考點，保守判false。"
+    },
+    {
+      "idx": 20,
+      "scenario": "早餐取捨",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "預算有限下先買早餐（需要）而非貼紙等（想要），直接對應需要vs想要取捨。"
+    },
+    {
+      "idx": 21,
+      "scenario": "新款書包",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "原書包可用，新款書包屬想要可延後，對應需要vs想要考點。"
+    },
+    {
+      "idx": 22,
+      "scenario": "果汁期限",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "便宜但期限不符，應改選適合商品，對應比較消費（期限是比價指標之一）考點。"
+    },
+    {
+      "idx": 23,
+      "scenario": "過敏成分",
+      "match": true,
+      "kaodian_id": "康軒L4-K03",
+      "note": "不能只看品牌或廣告，應先看成分標示，對應購物注意事項（標示查核）。"
+    },
+    {
+      "idx": 24,
+      "scenario": "同款鉛筆盒",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "同學流行不是購買理由，應回到自己需求，對應需要vs想要考點。"
+    },
+    {
+      "idx": 25,
+      "scenario": "糖果特價",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "特價仍要考量需求與數量，不要過量，直接對應折扣判斷考點。"
+    },
+    {
+      "idx": 26,
+      "scenario": "水壺資料",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "戶外課選水壺需看用途容量而非只看品牌或低價，對應比較消費（多指標）考點。"
+    },
+    {
+      "idx": 27,
+      "scenario": "青菜九折",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "打折仍要看家庭需求與能否保存，對應折扣判斷考點。"
+    },
+    {
+      "idx": 28,
+      "scenario": "廣告態度",
+      "match": false,
+      "kaodian_id": null,
+      "note": "廣告可作參考但仍需查證，此屬廣告一般態度題，未精確對應廣告四分類（K05）或購物注意事項（K03）的核心命題方向，模稜兩可保守判false。"
+    },
+    {
+      "idx": 29,
+      "scenario": "書包功能",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "規格與保固列表屬商品介紹，對應廣告四分類考點。"
+    },
+    {
+      "idx": 30,
+      "scenario": "跑贏全校",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "「跑贏全校」過度保證屬誇大功能，對應廣告四分類考點。"
+    },
+    {
+      "idx": 31,
+      "scenario": "歌手雨傘",
+      "match": true,
+      "kaodian_id": "康軒L4-K05",
+      "note": "人氣歌手推薦屬明星代言，對應廣告四分類考點。"
+    },
+    {
+      "idx": 32,
+      "scenario": "環保清潔劑",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "環保標章商品能降低環境負擔，對應標章辨識考點（環保標章）。"
+    },
+    {
+      "idx": 33,
+      "scenario": "檯燈省電",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "檯燈用電選節能標章，對應標章與商品用途配對考點。"
+    },
+    {
+      "idx": 34,
+      "scenario": "水龍頭比較",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "水龍頭是用水設備選省水標章，對應標章辨識考點。"
+    },
+    {
+      "idx": 35,
+      "scenario": "禮物包裝",
+      "match": true,
+      "kaodian_id": "康軒L4-K08",
+      "note": "簡單包裝減少浪費，對應環保消費行為（減少過度包裝）考點。"
+    },
+    {
+      "idx": 36,
+      "scenario": "背包退換",
+      "match": true,
+      "kaodian_id": "康軒L4-K06",
+      "note": "發票作為退換依據，直接對應統一發票用途（退換貨）考點。"
+    },
+    {
+      "idx": 37,
+      "scenario": "玩具申訴",
+      "match": true,
+      "kaodian_id": "康軒L4-K04",
+      "note": "消費爭議撥打1950，直接對應消費者服務專線考點。"
+    },
+    {
+      "idx": 38,
+      "scenario": "電話配對",
+      "match": true,
+      "kaodian_id": "康軒L4-K04",
+      "note": "1950對應消費，需區分1999便民、1922防疫，直接對應1950電話用途辨識考點。"
+    },
+    {
+      "idx": 39,
+      "scenario": "過期麵包",
+      "match": false,
+      "kaodian_id": null,
+      "note": "保留證明後理性溝通，此題考消費爭議處理態度而非1950電話（K04）或發票（K06）的核心知識點，模稜兩可保守判false。"
+    },
+    {
+      "idx": 40,
+      "scenario": "隊費採買",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "校外教學補充水分需要水壺，優先購買需要而非流行玩具貼紙，對應需要vs想要考點。"
+    },
+    {
+      "idx": 41,
+      "scenario": "牛奶挑選",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "食用時間在週日需選保存期限較長商品，對應比較消費（期限為比價指標）考點。"
+    },
+    {
+      "idx": 42,
+      "scenario": "教室清潔",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "清潔用品查環保標章降低環境負擔，對應標章辨識（環保標章）考點。"
+    },
+    {
+      "idx": 43,
+      "scenario": "水龍頭選擇",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "水龍頭選省水標章，對應標章與商品用途配對考點。"
+    },
+    {
+      "idx": 44,
+      "scenario": "字典與卡包",
+      "match": true,
+      "kaodian_id": "康軒L4-K01",
+      "note": "字典是即將使用的學習需要，優先購買，對應需要vs想要（需要優先）考點。"
+    },
+    {
+      "idx": 45,
+      "scenario": "布丁促銷",
+      "match": true,
+      "kaodian_id": "康軒L4-K07",
+      "note": "採買應符合實際需要避免促銷浪費，對應折扣判斷（折扣≠必要多買）考點。"
+    },
+    {
+      "idx": 46,
+      "scenario": "電扇節能",
+      "match": true,
+      "kaodian_id": "康軒L4-K02",
+      "note": "節能標章幫助選擇省電家電，對應標章辨識（電器→節能標章）考點。"
+    },
+    {
+      "idx": 47,
+      "scenario": "網購不符",
+      "match": false,
+      "kaodian_id": null,
+      "note": "保留包裝與購買紀錄作為後續處理證據，偏向消費爭議處理態度，與K06發票知識不完全重合，與K04無關，模稜兩可保守判false。"
+    },
+    {
+      "idx": 48,
+      "scenario": "環保紀錄",
+      "match": true,
+      "kaodian_id": "康軒L4-K08",
+      "note": "自備餐具減少免洗餐具，對應環保消費行為（自備、減少一次性用品）考點。"
+    },
+    {
+      "idx": 49,
+      "scenario": "刷卡觀念",
+      "match": false,
+      "kaodian_id": null,
+      "note": "此題考量力消費與理性選擇的本課重點定位，屬元認知題，非具體高頻考古考點，保守判false。"
+    }
+  ]
+}

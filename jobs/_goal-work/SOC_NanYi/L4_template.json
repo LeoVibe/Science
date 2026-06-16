@@ -1,0 +1,25 @@
+{
+  "question": "【上學路上】小安看到站牌寫著村名，老師提醒地名不只方便找路，也可能留下地方環境和居民生活的線索。這說明地名有什麼功能？",
+  "commonMisconception": "以為地名只是地址標籤，和地方特色沒有關係。",
+  "scenario": "站牌村名",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "地名常保存地方自然與人文特色。",
+  "answer_index": 2,
+  "options": [
+    "只管郵件",
+    "只是編號",
+    "保存特色",
+    "越長越好"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": "claude-opus-4-8",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-06-14"
+}

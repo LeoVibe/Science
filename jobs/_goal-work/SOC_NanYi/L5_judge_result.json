@@ -1,0 +1,438 @@
+{
+  "kaodian": [
+    {
+      "id": "南一L5-K01",
+      "description": "探究流程五步驟：發現問題→討論/蒐證→凝聚共識→行動→持續觀察（R3/R4/R10，最高頻）"
+    },
+    {
+      "id": "南一L5-K02",
+      "description": "公民參與正式場合辨識：里民大會是討論公共事務的合法場合，社區讀書會/聯歡晚會等非正式（R1/R5，高頻）"
+    },
+    {
+      "id": "南一L5-K03",
+      "description": "探究須先蒐集證據再判斷，不能以個人直覺/聽說/意見代替事實（題3/發展綱要迷思3，高頻）"
+    },
+    {
+      "id": "南一L5-K04",
+      "description": "公共議題識別：影響多數居民使用公共空間/生活的事才是公共議題，私人事務（家庭旅遊、玩具）不是（R1，穩定命中）"
+    },
+    {
+      "id": "南一L5-K05",
+      "description": "地方組織功能辨識：社區發展協會推動社區營造，里辦公處處理地方行政，住戶管委會管大樓（R4/矩陣命中32+21次）"
+    },
+    {
+      "id": "南一L5-K06",
+      "description": "公民服務倫理：志工與村里災害服務不得收費，應心懷感謝，不得刁難或任意指使（R6/R7/R8，高頻）"
+    },
+    {
+      "id": "南一L5-K07",
+      "description": "公民行動 vs 單純抱怨：完整行動鏈（觀察→蒐證→訪談→提案）才是積極公民，罵人/貼文抱怨/交給大人不是（題2/R4/R8）"
+    },
+    {
+      "id": "南一L5-K08",
+      "description": "需要 vs 想要於公共資源優先序：安全人行道/基本設施屬「需要」優先，豪華娛樂設施屬「想要」（題8/U3延伸）"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "巷口水溝蓋",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "南一L5-K03",
+      "note": "多次觀察記錄＝先蒐集事實再判斷，對應K03探究須先蒐證"
+    },
+    {
+      "idx": 1,
+      "scenario": "早餐店人潮",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K03",
+      "note": "先找更多證據才判斷問題範圍，對應K03先蒐證再判斷"
+    },
+    {
+      "idx": 2,
+      "scenario": "訪問里長",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "南一L5-K01",
+      "note": "訪談前先列問題清單，對應K01探究流程中訪談準備步驟（題6研究素材）"
+    },
+    {
+      "idx": 3,
+      "scenario": "阿嬤訪談",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "先說明再完整記錄屬訪談倫理，研究素材考古題無對應高頻命題軸，保守判false"
+    },
+    {
+      "idx": 4,
+      "scenario": "活動照片",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "徵得同意使用照片屬隱私倫理，考古題矩陣中無此命題軸，保守判false"
+    },
+    {
+      "idx": 5,
+      "scenario": "髒亂原因",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K03",
+      "note": "先蒐證再判斷，不以直覺/聽說為答案，直接對應K03"
+    },
+    {
+      "idx": 6,
+      "scenario": "夜間照明",
+      "answer_index": 2,
+      "match": false,
+      "kaodian_id": null,
+      "note": "資料分類標出來源屬資料整理細節，考古題無直接對應此命題軸，保守判false"
+    },
+    {
+      "idx": 7,
+      "scenario": "座椅意見",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "列出共識分歧屬資料呈現技巧，考古題未直接命中此軸，保守判false"
+    },
+    {
+      "idx": 8,
+      "scenario": "停車格意見",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "保留不同資料屬資料完整性，考古題無直接對應命題，保守判false"
+    },
+    {
+      "idx": 9,
+      "scenario": "共讀角時段",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K03",
+      "note": "比較不同時段資料再判斷原因，對應K03先蒐集事實再下結論（避免「猜測居民懶惰」的直覺判斷）"
+    },
+    {
+      "idx": 10,
+      "scenario": "成果呈現",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K01",
+      "note": "依對象改呈現對應探究流程末段「溝通與呈現」（題11研究素材：不同受眾需不同呈現）"
+    },
+    {
+      "idx": 11,
+      "scenario": "空地改造",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "辨識利害關係人屬探究延伸概念，考古題無直接對應此命題軸，保守判false"
+    },
+    {
+      "idx": 12,
+      "scenario": "校門口斑馬線",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "學生也是居民有參與資格，雖對應R9精神但考古命題軸主要為「里民大會參與」非「身分資格辨識」，保守判false"
+    },
+    {
+      "idx": 13,
+      "scenario": "社區發展協會",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K05",
+      "note": "社區發展協會推動社區營造，直接對應K05地方組織功能辨識"
+    },
+    {
+      "idx": 14,
+      "scenario": "路燈通報",
+      "answer_index": 2,
+      "match": false,
+      "kaodian_id": null,
+      "note": "1999市政服務管道辨識與R2考古題1950錯誤管道類似，但1999是正確選項非陷阱，且考古題命題軸是辨識錯誤管道，方向不同，保守判false"
+    },
+    {
+      "idx": 15,
+      "scenario": "公共議題判斷",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "南一L5-K04",
+      "note": "公園整修影響多數居民是公共議題，家庭旅遊/個人玩具是私事，直接對應K04（R1真實段考題核心命題）"
+    },
+    {
+      "idx": 16,
+      "scenario": "減速標誌",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "連署呈現共同意願屬公民行動工具，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 17,
+      "scenario": "颱風服務",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K06",
+      "note": "災後協助安置居民是公共服務，不得趁機收費，對應K06（R6大莊108真實段考原題）"
+    },
+    {
+      "idx": 18,
+      "scenario": "社區志工",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "南一L5-K06",
+      "note": "對志工心懷感謝尊重，對應K06公民服務倫理（R7大莊108真實段考原題，志工主題命中122次）"
+    },
+    {
+      "idx": 19,
+      "scenario": "獨居長者",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "詢問需求陪伴屬關懷倫理，考古矩陣無此命題軸，保守判false"
+    },
+    {
+      "idx": 20,
+      "scenario": "公共預算",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "南一L5-K08",
+      "note": "安全人行通道屬基本需要優先，豪華設施是想要，直接對應K08需要vs想要"
+    },
+    {
+      "idx": 21,
+      "scenario": "優先順序",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "南一L5-K08",
+      "note": "先修破損路面（安全需要）優先於節慶燈飾/煙火（想要），對應K08"
+    },
+    {
+      "idx": 22,
+      "scenario": "上學路線",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "標出位置與時段屬空間資料收集技巧，考古題無此細節命題軸，保守判false"
+    },
+    {
+      "idx": 23,
+      "scenario": "夏日涼亭",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "記錄日照風向屬環境觀察細節，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 24,
+      "scenario": "老樹故事",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "訪談記錄社區故事偏文化保存，考古題無直接對應，保守判false"
+    },
+    {
+      "idx": 25,
+      "scenario": "老街改建",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "南一L5-K07",
+      "note": "整理兩方理由找兼顧方案，對應K07完整行動鏈（題5研究素材：唯發展論/絕對保存論均為迷思）"
+    },
+    {
+      "idx": 26,
+      "scenario": "題目聚焦",
+      "answer_index": 2,
+      "match": false,
+      "kaodian_id": null,
+      "note": "選具體可見的探究題目屬探究選題技巧，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 27,
+      "scenario": "議題分類",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K04",
+      "note": "影響多數居民的才是公共議題，對應K04（與R1命題軸相同）"
+    },
+    {
+      "idx": 28,
+      "scenario": "垃圾桶異味",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "南一L5-K07",
+      "note": "蒐集證據提案對比罵完/等大人/網路抱怨，直接對應K07公民行動vs抱怨"
+    },
+    {
+      "idx": 29,
+      "scenario": "導盲磚受阻",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "南一L5-K07",
+      "note": "觀察訪談提案形成完整行動基礎，對應K07（vs抱怨等待/先找最高長官/只交海報作業）"
+    },
+    {
+      "idx": 30,
+      "scenario": "空地說明會",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K01",
+      "note": "說明會凝聚居民共識對應K01探究流程「凝聚共識」階段（R10永光108真實段考原題）"
+    },
+    {
+      "idx": 31,
+      "scenario": "長輩聽眾",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "用生活例子對長輩說屬溝通技巧，考古題無此細節命題，保守判false"
+    },
+    {
+      "idx": 32,
+      "scenario": "群組消息",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "群組資訊查證再轉傳屬媒體素養，非L5考古高頻命題軸，保守判false"
+    },
+    {
+      "idx": 33,
+      "scenario": "資料查證",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "比對不同來源屬資料查核細節，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 34,
+      "scenario": "座椅問卷",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "問卷題目中立清楚屬問卷設計細節，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 35,
+      "scenario": "訪談隱私",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "隱去個資保護受訪者屬隱私倫理，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 36,
+      "scenario": "提案被否決",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "整理回饋再改屬反思迭代，考古題無直接對應命題軸，保守判false"
+    },
+    {
+      "idx": 37,
+      "scenario": "樓梯間雜物",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "行動前後比較屬成效評估指標，考古題未直接命中此細節，保守判false"
+    },
+    {
+      "idx": 38,
+      "scenario": "行動反思",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "反思要指出具體可改進做法屬高階反思素養，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 39,
+      "scenario": "清掃時段",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "依數據修改方案屬行動迭代，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 40,
+      "scenario": "地方組織",
+      "answer_index": 3,
+      "match": true,
+      "kaodian_id": "南一L5-K05",
+      "note": "社區發展協會協助推動社區活動，直接對應K05地方組織功能辨識"
+    },
+    {
+      "idx": 41,
+      "scenario": "騎樓雜物",
+      "answer_index": 0,
+      "match": false,
+      "kaodian_id": null,
+      "note": "公共空間多方使用者考量屬利害關係人概念，考古題無直接此命題軸，保守判false"
+    },
+    {
+      "idx": 42,
+      "scenario": "救災物資",
+      "answer_index": 0,
+      "match": true,
+      "kaodian_id": "南一L5-K06",
+      "note": "救災服務不應收費，對應K06公民服務倫理（R6大莊108同主題真實段考題）"
+    },
+    {
+      "idx": 43,
+      "scenario": "上學路線參與",
+      "answer_index": 3,
+      "match": false,
+      "kaodian_id": null,
+      "note": "學生有權表達想法，雖呼應R9精神，但考古命題軸是里民大會基本責任，非「兒童表達權」，保守判false"
+    },
+    {
+      "idx": 44,
+      "scenario": "里民大會",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "南一L5-K02",
+      "note": "帶證據提建議在里民大會發言，對應K02公民參與正式場合（R9里民大會應積極參與）"
+    },
+    {
+      "idx": 45,
+      "scenario": "告示牌追蹤",
+      "answer_index": 2,
+      "match": true,
+      "kaodian_id": "南一L5-K01",
+      "note": "行動後持續觀察變化對應K01探究流程最後一步「注意改善後情形」（R3正確順序末步）"
+    },
+    {
+      "idx": 46,
+      "scenario": "小小行動",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "小行動累積能讓家園更好屬個人能動性主題，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 47,
+      "scenario": "幸福要素",
+      "answer_index": 1,
+      "match": false,
+      "kaodian_id": null,
+      "note": "幸福家園包含安全文化互助屬綜合定義，考古題無此命題軸，保守判false"
+    },
+    {
+      "idx": 48,
+      "scenario": "溜滑梯裂縫",
+      "answer_index": 1,
+      "match": true,
+      "kaodian_id": "南一L5-K07",
+      "note": "觀察訪談反映兼顧證據與行動，對應K07完整行動鏈（vs偷修/等待/貼文罵人）"
+    },
+    {
+      "idx": 49,
+      "scenario": "期末選題",
+      "answer_index": 2,
+      "match": false,
+      "kaodian_id": null,
+      "note": "選具體可觀察題目屬探究選題技巧，考古題無此命題軸，保守判false"
+    }
+  ]
+}

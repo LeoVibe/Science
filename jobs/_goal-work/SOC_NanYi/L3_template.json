@@ -1,0 +1,25 @@
+{
+  "question": "【社區剪髮】小安放學後到家鄉巷口的理髮店，付錢請阿姨幫他剪頭髮。這個例子最能說明下列哪一種消費行為？",
+  "commonMisconception": "把消費只想成買東西，忽略付錢取得服務也是消費。",
+  "scenario": "社區剪髮",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "付錢取得剪髮服務，也屬於日常消費行為。",
+  "answer_index": 2,
+  "options": [
+    "整理書包",
+    "擦拭桌面",
+    "付錢剪髮",
+    "分享故事"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": "claude-opus-4-8",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-06-14"
+}

@@ -1,0 +1,25 @@
+{
+  "question": "【放學回家】小芸畫自己的居住地方，只畫臥室和客廳。老師提醒她要把每天會經過、會使用的周邊也想進去。下列哪一個說法最完整？",
+  "commonMisconception": "把居住的地方縮小成房屋或房間本身。",
+  "scenario": "放學畫社區",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "居住地方包含住家周邊環境與日常活動範圍。",
+  "answer_index": 3,
+  "options": [
+    "只指自己房間",
+    "等於門牌號碼",
+    "只算學校教室",
+    "包含周邊環境"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": "claude-opus-4-8",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-06-14"
+}

@@ -1,0 +1,364 @@
+{
+  "kaodian": [
+    {"id": "康軒L3-K01", "desc": "交易工具歷史排序：以物易物→貝殼→銅錢→紙鈔→信用卡→行動支付"},
+    {"id": "康軒L3-K02", "desc": "現代 vs 傳統交易工具辨識：銅錢、貝殼屬早期；禮券、儲值卡、信用卡屬現代"},
+    {"id": "康軒L3-K03", "desc": "信用卡先消費後付款，仍須依帳單繳款，不是免付款"},
+    {"id": "康軒L3-K04", "desc": "儲值卡先儲值再消費，餘額不足需加值才能繼續使用"},
+    {"id": "康軒L3-K05", "desc": "行動支付連結帳戶或卡片，需保護密碼與帳號，注意安全風險"},
+    {"id": "康軒L3-K06", "desc": "購物場所與取貨方式配對：超商近便、大賣場大量、網購/電視購物配送或超商取貨"},
+    {"id": "康軒L3-K07", "desc": "宅經濟與網路購物：可遠距下單，但須查證店家、商品、付款與個資安全"},
+    {"id": "康軒L3-K08", "desc": "禮券有適用範圍與期限；紙鈔需合法機構發行，不能自行印製"}
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "早餐店消費",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考消費定義（付出資源取得物品或服務），非L3考古高頻考點"
+    },
+    {
+      "idx": 1,
+      "scenario": "搭車付費",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考消費定義延伸（服務也算消費），非L3高頻考古考點"
+    },
+    {
+      "idx": 2,
+      "scenario": "早期交換",
+      "match": true,
+      "kaodian_id": "康軒L3-K01",
+      "note": "辨識以物易物為貨幣前交換方式，屬排序起點考點"
+    },
+    {
+      "idx": 3,
+      "scenario": "貝殼圖卡",
+      "match": true,
+      "kaodian_id": "康軒L3-K01",
+      "note": "貝殼為早期交換媒介，屬交易工具歷史排序考點"
+    },
+    {
+      "idx": 4,
+      "scenario": "銅錢分類",
+      "match": true,
+      "kaodian_id": "康軒L3-K02",
+      "note": "銅錢屬較早期貨幣，辨識其非現代主要工具"
+    },
+    {
+      "idx": 5,
+      "scenario": "紙鈔合法性",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "紙鈔需由合法機構發行，不能自行印製"
+    },
+    {
+      "idx": 6,
+      "scenario": "交易時間線",
+      "match": true,
+      "kaodian_id": "康軒L3-K01",
+      "note": "以物易物→貝殼→銅錢→紙鈔排序，直接對應K01核心考點"
+    },
+    {
+      "idx": 7,
+      "scenario": "信用卡付款",
+      "match": true,
+      "kaodian_id": "康軒L3-K03",
+      "note": "信用卡先消費後付款，對應K03核心考點"
+    },
+    {
+      "idx": 8,
+      "scenario": "信用卡帳單",
+      "match": true,
+      "kaodian_id": "康軒L3-K03",
+      "note": "信用卡仍須繳帳單、不免付款，對應K03核心考點"
+    },
+    {
+      "idx": 9,
+      "scenario": "儲值卡扣款",
+      "match": true,
+      "kaodian_id": "康軒L3-K04",
+      "note": "儲值卡先儲值後扣款，對應K04核心考點"
+    },
+    {
+      "idx": 10,
+      "scenario": "餘額不足",
+      "match": true,
+      "kaodian_id": "康軒L3-K04",
+      "note": "儲值卡餘額不足需加值，對應K04考點"
+    },
+    {
+      "idx": 11,
+      "scenario": "行動支付來源",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "行動支付連結帳戶或卡片，非手機自己生錢，對應K05"
+    },
+    {
+      "idx": 12,
+      "scenario": "支付密碼",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "保護密碼、確認交易，對應K05安全考點"
+    },
+    {
+      "idx": 13,
+      "scenario": "禮券範圍",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "禮券有限定使用範圍，對應K08考點"
+    },
+    {
+      "idx": 14,
+      "scenario": "現代工具辨識",
+      "match": true,
+      "kaodian_id": "康軒L3-K02",
+      "note": "辨識貝殼非現代付款工具，對應K02考點"
+    },
+    {
+      "idx": 15,
+      "scenario": "超商購物",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "超商適合近便快速購買，對應K06購物場所考點"
+    },
+    {
+      "idx": 16,
+      "scenario": "大賣場採買",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "大賣場適合大量採買，對應K06購物場所考點"
+    },
+    {
+      "idx": 17,
+      "scenario": "網購取貨",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "網購常見宅配或超商取貨，對應K06取貨方式考點"
+    },
+    {
+      "idx": 18,
+      "scenario": "電視訂購",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "電視購物下單後配送，對應K06取貨方式考點"
+    },
+    {
+      "idx": 19,
+      "scenario": "取貨方式比較",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "不同購物方式取貨流程不同，對應K06配對考點"
+    },
+    {
+      "idx": 20,
+      "scenario": "演進起點",
+      "match": true,
+      "kaodian_id": "康軒L3-K01",
+      "note": "以物直接交換為交易工具演進起點，對應K01"
+    },
+    {
+      "idx": 21,
+      "scenario": "付款工具排序",
+      "match": true,
+      "kaodian_id": "康軒L3-K01",
+      "note": "手機支付屬較新付款方式，對應K01時序考點"
+    },
+    {
+      "idx": 22,
+      "scenario": "卡片比較",
+      "match": true,
+      "kaodian_id": "康軒L3-K03",
+      "note": "信用卡與儲值卡最大差異為付款先後順序，同時對應K03/K04；主軸為K03"
+    },
+    {
+      "idx": 23,
+      "scenario": "儲值卡比較",
+      "match": true,
+      "kaodian_id": "康軒L3-K04",
+      "note": "儲值卡先加值再消費，與信用卡後付款形成對比，對應K04"
+    },
+    {
+      "idx": 24,
+      "scenario": "店家支援",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "行動支付需店家能接受，屬K05使用條件考點"
+    },
+    {
+      "idx": 25,
+      "scenario": "禮券說明",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "禮券須確認適用店家，對應K08考點"
+    },
+    {
+      "idx": 26,
+      "scenario": "真鈔玩具鈔",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "紙鈔具法定效力，非普通紙張可取代，對應K08考點"
+    },
+    {
+      "idx": 27,
+      "scenario": "工具分類籃",
+      "match": true,
+      "kaodian_id": "康軒L3-K02",
+      "note": "禮券和儲值卡屬現代工具，對應K02現代/傳統辨識"
+    },
+    {
+      "idx": 28,
+      "scenario": "短時間購物",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "短時間少量購買選就近超商，對應K06購物場所情境考點"
+    },
+    {
+      "idx": 29,
+      "scenario": "大量日用品",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "大量日用品選大賣場，對應K06購物場所情境考點"
+    },
+    {
+      "idx": 30,
+      "scenario": "遠距購物",
+      "match": true,
+      "kaodian_id": "康軒L3-K07",
+      "note": "網路購物可遠距下單但仍需查證，對應K07宅經濟考點"
+    },
+    {
+      "idx": 31,
+      "scenario": "電視購物流程",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "電視購物訂購後寄送，對應K06取貨方式考點"
+    },
+    {
+      "idx": 32,
+      "scenario": "網購查證",
+      "match": true,
+      "kaodian_id": "康軒L3-K07",
+      "note": "網購前確認店家降低風險，對應K07查證考點"
+    },
+    {
+      "idx": 33,
+      "scenario": "手機遺失",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "綁定支付手機遺失應找大人協助，對應K05安全考點"
+    },
+    {
+      "idx": 34,
+      "scenario": "陌生付款連結",
+      "match": true,
+      "kaodian_id": "康軒L3-K07",
+      "note": "陌生連結不直接點選，屬網路購物安全，對應K07"
+    },
+    {
+      "idx": 35,
+      "scenario": "工具選用",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考各工具依情境選用的整合判斷，屬跨考點整合，難對應單一高頻考古考點，保守判false"
+    },
+    {
+      "idx": 36,
+      "scenario": "博物館銅錢",
+      "match": true,
+      "kaodian_id": "康軒L3-K02",
+      "note": "銅錢為早期貨幣非現代常用工具，對應K02辨識考點"
+    },
+    {
+      "idx": 37,
+      "scenario": "市場現場取貨",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "傳統市場現場購買即現場取貨，對應K06場所與取貨配對"
+    },
+    {
+      "idx": 38,
+      "scenario": "消費日記",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考消費定義（服務也算消費），非L3高頻考古考點"
+    },
+    {
+      "idx": 39,
+      "scenario": "餐券限制",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "餐券/禮券有折抵範圍、適用地點與期限，對應K08考點"
+    },
+    {
+      "idx": 40,
+      "scenario": "安全網購童書",
+      "match": true,
+      "kaodian_id": "康軒L3-K07",
+      "note": "網購需確認來源和付款安全，對應K07查證考點"
+    },
+    {
+      "idx": 41,
+      "scenario": "公車加值",
+      "match": true,
+      "kaodian_id": "康軒L3-K04",
+      "note": "儲值卡餘額不足先加值再使用，對應K04考點"
+    },
+    {
+      "idx": 42,
+      "scenario": "信用卡大額購物",
+      "match": true,
+      "kaodian_id": "康軒L3-K03",
+      "note": "信用卡消費後仍需看帳單金額並付款，對應K03考點"
+    },
+    {
+      "idx": 43,
+      "scenario": "夜市現金付款",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "店家不支援行動支付改用現金，對應K05使用條件考點"
+    },
+    {
+      "idx": 44,
+      "scenario": "禮券購物",
+      "match": true,
+      "kaodian_id": "康軒L3-K08",
+      "note": "使用禮券前先確認適用範圍，對應K08考點"
+    },
+    {
+      "idx": 45,
+      "scenario": "快速買牛奶",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "時間短量少就近超商購買，對應K06購物場所情境"
+    },
+    {
+      "idx": 46,
+      "scenario": "網購取貨選擇",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "網購需確認取貨方式，對應K06取貨流程考點"
+    },
+    {
+      "idx": 47,
+      "scenario": "密碼保護",
+      "match": true,
+      "kaodian_id": "康軒L3-K05",
+      "note": "支付密碼不公開，對應K05安全考點"
+    },
+    {
+      "idx": 48,
+      "scenario": "付款工具表",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考比較付款工具時記錄先後順序的整合能力，偏方法論，難對應單一高頻考古考點，保守判false"
+    },
+    {
+      "idx": 49,
+      "scenario": "依需求選店",
+      "match": true,
+      "kaodian_id": "康軒L3-K06",
+      "note": "依需求選購物場所與付款方式，對應K06整合情境考點"
+    }
+  ]
+}

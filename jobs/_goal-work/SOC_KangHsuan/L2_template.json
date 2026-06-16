@@ -1,0 +1,25 @@
+{
+  "question": "【社區觀察】老師請全班用一週記錄學校附近的樣子，小恩只畫出公園花草。若要完整說明居住地方的風貌，還應注意什麼？",
+  "commonMisconception": "學生可能把地方風貌縮小成漂亮景色或自然景觀。",
+  "scenario": "社區觀察風貌",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "地方風貌包含居民生活與活動，不只美麗景色。",
+  "answer_index": 0,
+  "options": [
+    "包含生活活動",
+    "只看美麗景色",
+    "只算高樓大廈",
+    "等同道路寬度"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": "claude-opus-4-8",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-06-14"
+}

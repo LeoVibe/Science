@@ -1,0 +1,364 @@
+{
+  "kaodian": [
+    {"id": "南一L4-K01", "desc": "地名由來概念：地名反映地方自然環境與人文歷史，不只是行政標籤"},
+    {"id": "南一L4-K02", "desc": "地名由來四分類：自然環境、動植物、族群語言、土地開墾"},
+    {"id": "南一L4-K03", "desc": "具體地名案例判斷：恆春（氣候溫暖）、牛頭山（山形）、桃城（城形）、艋舺（平埔族語）、犁頭店（台中南屯舊稱）、那瑪夏（族語）、柳營（開墾）、獅子鄉（動植物）"},
+    {"id": "南一L4-K04", "desc": "字面聯想辨析守衛：排除多雨、養牛、閩南人命名、桃樹產地等字面猜測誘答"},
+    {"id": "南一L4-K05", "desc": "地方人物故事：謝文達與陳進（日本學藝）、施乾（照顧弱勢）、洪鴦（藺草帽工藝）、賴和（醫師作家）、吳沙（拓墾）"},
+    {"id": "南一L4-K06", "desc": "地方文化資產保存：鹿港九曲巷、保安火車站、海牛犁蚵田、雙心石滬；老建築可修復再利用，保存與發展可並行"},
+    {"id": "南一L4-K07", "desc": "地名探索方法與資料查證：多來源比對、訪談耆老、書籍文史資料、可靠網站查證，不可單憑字面或只靠一個來源"},
+    {"id": "南一L4-K08", "desc": "地名變遷：地名可隨行政區劃、歷史沿革改變，舊稱與現稱需對準"}
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "站牌村名",
+      "match": true,
+      "kaodian_id": "南一L4-K01",
+      "note": "考地名保存地方自然與人文特色的概念，對應K01"
+    },
+    {
+      "idx": 1,
+      "scenario": "地名表格",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考地名由來四類因素，對應K02"
+    },
+    {
+      "idx": 2,
+      "scenario": "山河線索",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考自然環境（地形氣候）作為地名線索，對應K02自然環境類"
+    },
+    {
+      "idx": 3,
+      "scenario": "族語導覽",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考族群語言作為地名命名因素，對應K02族群語言類"
+    },
+    {
+      "idx": 4,
+      "scenario": "屯田展板",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考土地開墾作為地名命名因素，對應K02土地開墾類"
+    },
+    {
+      "idx": 5,
+      "scenario": "獅子鄉卡",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考獅子鄉屬動植物命名類，對應K03具體地名案例"
+    },
+    {
+      "idx": 6,
+      "scenario": "恆春旅行",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考恆春因氣候溫暖得名，排除多雨誘答，對應K03+K04"
+    },
+    {
+      "idx": 7,
+      "scenario": "牛頭山照",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考牛頭山因山形像牛頭，排除養牛誘答，對應K03+K04"
+    },
+    {
+      "idx": 8,
+      "scenario": "嘉義雅稱",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考桃城因城郭形狀像桃子，排除桃樹誘答，對應K03+K04"
+    },
+    {
+      "idx": 9,
+      "scenario": "艋舺牆面",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考艋舺源自平埔族語，排除閩南人誘答，對應K03+K04"
+    },
+    {
+      "idx": 10,
+      "scenario": "犁頭店圖",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考犁頭店是台中市南屯區舊稱，對應K03具體地名案例"
+    },
+    {
+      "idx": 11,
+      "scenario": "那瑪夏表",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考那瑪夏屬族群語言命名類，對應K03具體地名案例"
+    },
+    {
+      "idx": 12,
+      "scenario": "柳營拼圖",
+      "match": true,
+      "kaodian_id": "南一L4-K03",
+      "note": "考柳營屬土地開墾命名類，對應K03具體地名案例"
+    },
+    {
+      "idx": 13,
+      "scenario": "施乾故事",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考施乾照顧弱勢的地方人物事蹟，對應K05"
+    },
+    {
+      "idx": 14,
+      "scenario": "洪鴦工藝",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考洪鴦與藺草帽工藝的地方人物事蹟，對應K05"
+    },
+    {
+      "idx": 15,
+      "scenario": "賴和閱讀",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考賴和醫師作家的地方人物形象，對應K05"
+    },
+    {
+      "idx": 16,
+      "scenario": "學藝經驗",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考謝文達與陳進都曾到日本學藝，對應K05地方人物共同線索"
+    },
+    {
+      "idx": 17,
+      "scenario": "故事牆面",
+      "match": true,
+      "kaodian_id": "南一L4-K01",
+      "note": "考家鄉故事記錄人、事、物、景的概念，對應K01地名與地方故事的概念層"
+    },
+    {
+      "idx": 18,
+      "scenario": "老屋照片",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考老屋照片保存地方生活記憶，對應K06文化資產保存"
+    },
+    {
+      "idx": 19,
+      "scenario": "地名探索",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考地名調查需訪談與資料互相查證，對應K07探索方法"
+    },
+    {
+      "idx": 20,
+      "scenario": "動物字面",
+      "match": true,
+      "kaodian_id": "南一L4-K04",
+      "note": "考字面只是線索需查明真正命名依據，對應K04字面聯想辨析"
+    },
+    {
+      "idx": 21,
+      "scenario": "牛字比較",
+      "match": true,
+      "kaodian_id": "南一L4-K04",
+      "note": "考判斷地名真正由來而非字面聯想，對應K04+K03（牛頭山形狀線索）"
+    },
+    {
+      "idx": 22,
+      "scenario": "族語轉寫",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考族語發音轉寫成漢字的族群語言命名方式，對應K02族群語言類"
+    },
+    {
+      "idx": 23,
+      "scenario": "營字線索",
+      "match": true,
+      "kaodian_id": "南一L4-K02",
+      "note": "考「營」字反映軍隊屯墾的土地開墾因素，對應K02土地開墾類"
+    },
+    {
+      "idx": 24,
+      "scenario": "九曲巷風",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考鹿港九曲巷抵擋海風的地方文化資產故事，對應K06"
+    },
+    {
+      "idx": 25,
+      "scenario": "舊名新名",
+      "match": true,
+      "kaodian_id": "南一L4-K08",
+      "note": "考地名可隨行政區劃與地方發展改變，對應K08地名變遷"
+    },
+    {
+      "idx": 26,
+      "scenario": "資料衝突",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考資料衝突時應比對來源再下結論，對應K07探索方法與查證"
+    },
+    {
+      "idx": 27,
+      "scenario": "網站資料",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考網路資料需確認來源可信度，對應K07探索方法與查證"
+    },
+    {
+      "idx": 28,
+      "scenario": "耆老訪談",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考事先列題與約時間進行耆老訪談的正確方式，對應K07探索方法"
+    },
+    {
+      "idx": 29,
+      "scenario": "地名導覽",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考導覽應說明地名由來與可查證的證據，對應K07探索方法與查證精神"
+    },
+    {
+      "idx": 30,
+      "scenario": "人物配對",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考人物故事需核對行動與地方貢獻，對應K05地方人物故事方法層"
+    },
+    {
+      "idx": 31,
+      "scenario": "吳沙短文",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考吳沙開墾故事連結土地利用與地方發展，對應K05地方人物故事"
+    },
+    {
+      "idx": 32,
+      "scenario": "藺草展覽",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考藺草工藝故事呈現地方材料技術，對應K05地方人物故事（洪鴦藺草帽）"
+    },
+    {
+      "idx": 33,
+      "scenario": "市場特產",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考地方特產與環境歷史的關係，偏L2地方特色而非L4地名故事核心考點，保守判false"
+    },
+    {
+      "idx": 34,
+      "scenario": "老屋漏水",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考老屋修復再利用兼顧安全與記憶，對應K06文化資產保存"
+    },
+    {
+      "idx": 35,
+      "scenario": "保存會議",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考保存可透過修復導覽和再利用與發展並行，對應K06文化資產保存"
+    },
+    {
+      "idx": 36,
+      "scenario": "保存分工",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考居民學校學生都能從記錄分享參與文化資產保存，對應K06公民參與保存"
+    },
+    {
+      "idx": 37,
+      "scenario": "保安車站",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考保安火車站保存地方交通與生活記憶，對應K06文化資產保存"
+    },
+    {
+      "idx": 38,
+      "scenario": "蚵田影片",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考海牛犁蚵田呈現傳統產業與地方生活，對應K06文化資產地方特色"
+    },
+    {
+      "idx": 39,
+      "scenario": "雙心石滬",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考雙心石滬漁業智慧和文化資產價值，對應K06文化資產保存"
+    },
+    {
+      "idx": 40,
+      "scenario": "橋名猜測",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考未查證前應標示為猜測不能直接定案，對應K07探索查證方法"
+    },
+    {
+      "idx": 41,
+      "scenario": "補充資料",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考至少兩種來源互相支持提高可信度，對應K07多來源查證"
+    },
+    {
+      "idx": 42,
+      "scenario": "老街導覽",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考導覽把地名老屋與人物故事連起來，對應K06文化資產與地方故事整合"
+    },
+    {
+      "idx": 43,
+      "scenario": "古蹟參訪",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考古蹟參觀遵守規定的行為規範，屬公民參與基本禮儀而非L4地名故事核心考點，保守判false"
+    },
+    {
+      "idx": 44,
+      "scenario": "老屋提案",
+      "match": true,
+      "kaodian_id": "南一L4-K06",
+      "note": "考修復再用兼顧安全保存與現代使用，對應K06文化資產保存"
+    },
+    {
+      "idx": 45,
+      "scenario": "成果海報",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考清楚標示來源讓地名結論有依據，對應K07探索查證方法"
+    },
+    {
+      "idx": 46,
+      "scenario": "跨課判斷",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考核心課次判斷（命名原因與地方故事是本課核心），題目本身屬元認知層而非L4實質考點，保守判false"
+    },
+    {
+      "idx": 47,
+      "scenario": "老橋路名",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考理解地名故事應先查明由來，對應K07探索方法"
+    },
+    {
+      "idx": 48,
+      "scenario": "藺草任務",
+      "match": true,
+      "kaodian_id": "南一L4-K05",
+      "note": "考洪鴦與藺草帽連結人物和工藝故事，對應K05地方人物故事"
+    },
+    {
+      "idx": 49,
+      "scenario": "族語地名",
+      "match": true,
+      "kaodian_id": "南一L4-K07",
+      "note": "考族語地名需請教並查證尊重族群語言來源，對應K07+K02族語地名查證"
+    }
+  ]
+}

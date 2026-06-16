@@ -1,0 +1,25 @@
+{
+  "question": "【教室文具角】小安的鉛筆短到不好寫，下午還要上習作課。若他用零用錢補買鉛筆，這比較接近哪種消費理由？",
+  "commonMisconception": "學生可能把喜歡或流行誤認為生活或學習上的需要。",
+  "scenario": "鉛筆補買",
+  "quality_level": "QL4",
+  "cqi_score": 8.75,
+  "explanation": "鉛筆會影響課堂書寫，屬於學習需要。",
+  "answer_index": 2,
+  "options": [
+    "廣告吸引",
+    "同學流行",
+    "學習需要",
+    "包裝漂亮"
+  ],
+  "taxonomy": "literal",
+  "blind_evaluation": true,
+  "authoring_model": "gpt-5.5",
+  "verifying_model": "claude-opus-4-8",
+  "verifying_date": "2026-06-14",
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "",
+  "reviewer": null,
+  "review_date": "2026-06-14"
+}

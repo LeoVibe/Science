@@ -18,12 +18,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "居住地方包含住家周邊環境與日常活動範圍。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "只指自己房間",
-        "包含周邊環境",
         "等於門牌號碼",
-        "只算學校教室"
+        "只算學校教室",
+        "包含周邊環境"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -43,12 +43,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "都市通常人口較密集，商店種類與服務也較多。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "居民往來較少",
         "人口稀少安靜",
         "田地大片相連",
-        "商店種類較多",
-        "居民往來較少"
+        "商店種類較多"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -72,8 +72,8 @@
       "options": [
         "空間較為開闊",
         "商圈十分密集",
-        "路口高樓成排",
-        "夜晚人潮擁擠"
+        "夜晚人潮擁擠",
+        "路口高樓成排"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -93,12 +93,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "社會課比較城鄉時，應看具體特徵而非排名。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "都市一定最好",
-        "鄉村一定落後",
+        "各有生活特色",
         "安靜就是不好",
-        "各有生活特色"
+        "鄉村一定落後",
+        "都市一定最好"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -120,10 +120,10 @@
       "explanation": "都市與鄉村較適合用來比較人口密集程度。",
       "answer_index": 1,
       "options": [
-        "山區平原海邊",
+        "東部西部南部",
         "都市鄉村差異",
         "河口丘陵盆地",
-        "東部西部南部"
+        "山區平原海邊"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -143,12 +143,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "早期地方常和現代在道路與建築樣貌上不同。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "高樓連成一排",
-        "超商到處開張",
         "道路較不平整",
-        "車站密集成網"
+        "車站密集成網",
+        "超商到處開張",
+        "高樓連成一排"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -168,12 +168,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "長輩描述土路和雨天不便，顯示早期交通較不方便。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "大樓早已很普遍",
         "交通可能較不便",
-        "商店一定更多家",
         "道路全是柏油路",
-        "大樓早已很普遍"
+        "商店一定更多家"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -195,8 +195,8 @@
       "explanation": "訪談前先約時間，才能尊重對方並順利蒐集資料。",
       "answer_index": 3,
       "options": [
-        "突然到店追問",
         "打斷對方說明",
+        "突然到店追問",
         "只挑喜歡回答",
         "先約時間訪談"
       ],
@@ -218,12 +218,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "行政區域圖能呈現縣市與鄉鎮市區的範圍。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "街道交通圖",
-        "行政區域圖",
+        "公車路線圖",
         "古蹟導覽圖",
-        "公車路線圖"
+        "街道交通圖",
+        "行政區域圖"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -268,12 +268,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "古蹟導覽圖通常整理老建築與地方景點資訊。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "古蹟導覽圖",
-        "天氣預報圖",
         "行政區域圖",
-        "人口統計圖"
+        "天氣預報圖",
+        "人口統計圖",
+        "古蹟導覽圖"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -293,12 +293,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "電子導航圖可依出發地和目的地規劃路線。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "紙本古蹟圖",
-        "班級座位圖",
         "牆上海報圖",
-        "電子導航圖"
+        "紙本古蹟圖",
+        "電子導航圖",
+        "班級座位圖"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -318,12 +318,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "古蹟導覽圖最能協助找到老建築與簡介。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "人口統計表",
-        "天氣預報圖",
         "古蹟導覽圖",
-        "班級座位表"
+        "人口統計表",
+        "班級座位表",
+        "天氣預報圖"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -343,12 +343,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "設定出發地與目的地後，電子地圖才能規劃路線。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "查縣市界線",
-        "設定兩端點",
+        "畫上喜歡路",
         "背誦老地名",
-        "畫上喜歡路"
+        "設定兩端點"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -371,9 +371,9 @@
       "answer_index": 0,
       "options": [
         "說明地圖主題",
+        "顯示居民年齡",
         "計算交通時間",
-        "代表房屋高度",
-        "顯示居民年齡"
+        "代表房屋高度"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -393,12 +393,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "圖例用來解釋地圖符號所代表的地點或事物。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "解釋地圖符號",
         "記錄老師評語",
         "表示天氣溫度",
-        "決定城市大小",
-        "解釋地圖符號"
+        "決定城市大小"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -418,11 +418,11 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "地圖方向標中的 N 通常表示北方。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "南方常標作N",
-        "北方常標作S",
         "北方常標作N",
+        "北方常標作S",
         "西方常標作S"
       ],
       "taxonomy": "literal",
@@ -443,12 +443,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "依照圖例才能知道符號在地圖上代表的地點。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "把符號當裝飾",
         "依圖例找公園",
+        "猜最近的方格",
         "只看地圖顏色",
-        "猜最近的方格"
+        "把符號當裝飾"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -468,11 +468,11 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "地址中的行政區與路名號碼可協助確認位置。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "不能看出地區",
         "可以協助定位",
         "只是一串密碼",
-        "不能看出地區",
         "只代表屋顏色"
       ],
       "taxonomy": "literal",
@@ -493,12 +493,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "練習地址判讀可用虛擬地址，避免公開個人資料。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "使用虛擬地址",
         "公布完整住址",
-        "拍下門牌上傳",
         "交換家中鑰匙",
-        "使用虛擬地址"
+        "拍下門牌上傳"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -518,12 +518,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地址中的市和區能協助判斷所在行政區域。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "早餐店的口味",
-        "房間牆壁顏色",
         "所在行政區域",
-        "居民全部職業"
+        "居民全部職業",
+        "房間牆壁顏色"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -543,12 +543,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "介紹居住地方應包含附近設施與生活環境。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "只介紹自己家",
         "加入附近設施",
-        "刪掉街道商店",
-        "只寫房間大小"
+        "只寫房間大小",
+        "只介紹自己家",
+        "刪掉街道商店"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -568,12 +568,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "實地觀察並記錄所見，能幫助認識居住環境。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "實地觀察記錄",
-        "只靠朋友傳言",
         "隨便猜測答案",
-        "公開同學住址"
+        "實地觀察記錄",
+        "公開同學住址",
+        "只靠朋友傳言"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -593,12 +593,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "公車站的位置是可觀察事實，不只是個人感受。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "市場看起很棒",
+        "校門旁有公車",
         "公園一定無聊",
         "街角我不喜歡",
-        "校門旁有公車"
+        "市場看起很棒"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -618,12 +618,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "分開寫事實與感受，能讓觀察結果更清楚。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "只寫熱鬧兩字",
-        "聽完立刻定論",
         "分開事實感受",
-        "抄同學的答案"
+        "抄同學的答案",
+        "聽完立刻定論",
+        "只寫熱鬧兩字"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -643,12 +643,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "訪談應先約定時間，再有禮貌地提問與記錄。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "直接衝進店裡",
         "先約定再訪問",
+        "只記自己想法",
         "搶著替人回答",
-        "只記自己想法"
+        "直接衝進店裡"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -668,12 +668,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "即使是熟人，訪談也要先尊重對方時間。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "也要尊重時間",
         "可以隨時闖入",
         "不用準備問題",
-        "只聽想聽部分"
+        "只聽想聽部分",
+        "也要尊重時間"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -695,8 +695,8 @@
       "explanation": "居民需求不同，報告可整理並尊重不同看法。",
       "answer_index": 3,
       "options": [
-        "刪掉不同意見",
         "說有人說謊了",
+        "刪掉不同意見",
         "只採第一答案",
         "整理不同看法"
       ],
@@ -720,10 +720,10 @@
       "explanation": "居民會因年齡、職業和需求不同而有不同想法。",
       "answer_index": 2,
       "options": [
-        "大家一定相同",
         "年齡不會影響",
+        "職業沒有關係",
         "需求可能不同",
-        "職業沒有關係"
+        "大家一定相同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -743,12 +743,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "道路、商店和廟宇多是人類活動形成的人文環境。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "山坡溪流海岸",
-        "道路商店廟宇",
+        "沙灘岩石河口",
         "風向雨量氣溫",
-        "沙灘岩石河口"
+        "道路商店廟宇"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -768,12 +768,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地方資源也會影響居民休閒、文化與生活方式。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "影響生活休閒",
-        "只決定工作名",
         "完全沒有文化",
-        "不會形成特色"
+        "影響生活休閒",
+        "不會形成特色",
+        "只決定工作名"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -793,12 +793,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "觀察、訪談和查地圖能幫助學生認識老建築。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "只看網路排名",
+        "觀察訪談查圖",
         "猜它沒有用途",
-        "直接背誦年代",
-        "觀察訪談查圖"
+        "直接背誦年代"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -818,12 +818,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "老建築可能保存居民生活經驗與地方記憶。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "老舊就該忽略",
-        "只剩拍照功能",
         "保存地方記憶",
-        "與居民無關係"
+        "老舊就該忽略",
+        "與居民無關係",
+        "只剩拍照功能"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -843,12 +843,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "導覽卡應有位置、使用工具與觀察到的特色。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "店家營業秘密",
         "只寫我的感覺",
         "位置工具特色",
-        "同學完整住址",
-        "店家營業秘密"
+        "同學完整住址"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -872,8 +872,8 @@
       "options": [
         "交通服務較便",
         "田地面積較大",
-        "住戶十分分散",
-        "生活步調較慢"
+        "生活步調較慢",
+        "住戶十分分散"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -893,12 +893,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "城鄉比較應依人口、交通、商店等具體特徵。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "都市必定高級",
         "鄉村一定落後",
-        "商店多就完美",
-        "依特徵來比較"
+        "依特徵來比較",
+        "商店多就完美"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -918,12 +918,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "鄉村居民可能因生活圈較小而較常互動。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "人口通常密集",
-        "高樓常常成群",
         "居民較常互動",
-        "商店種類最多"
+        "人口通常密集",
+        "商店種類最多",
+        "高樓常常成群"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -943,12 +943,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "鄉村也有環境特色與居民活動，應用觀察判斷。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "鄉村沒有特色",
         "看環境與活動",
         "住鄉村都不便",
-        "都市人更聰明"
+        "都市人更聰明",
+        "鄉村沒有特色"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -968,12 +968,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "應比較交通、商店、建築與居民活動等特徵。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "選自己喜歡者",
         "比較交通商店",
-        "判斷誰較高級",
         "只看天空顏色",
-        "選自己喜歡者"
+        "判斷誰較高級"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -993,12 +993,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "街口店家種類變多，顯示商店型態有所改變。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "早晚完全相同",
         "過去一樣便利",
+        "商店型態改變",
         "變化沒有原因",
-        "商店型態改變"
+        "早晚完全相同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "早期交通工具與道路條件通常不如現代便利。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "捷運到處密布",
-        "高鐵每村停靠",
+        "網購當日送達",
         "步行牛車較常",
-        "網購當日送達"
+        "捷運到處密布",
+        "高鐵每村停靠"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "描述地方變遷時，必須先確認資料所屬年代。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
+        "只聽同學猜測",
         "現在一定較差",
-        "先確認年代線",
         "全部看成相同",
-        "只聽同學猜測"
+        "先確認年代線"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1068,10 +1068,10 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "訪問多位居民能幫助看見不同立場與需求。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "訪問多位居民",
         "只問一位店家",
+        "訪問多位居民",
         "刪除不同答案",
         "聽傳言就完成"
       ],
@@ -1093,12 +1093,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "多次觀察能避免把特殊情況誤當成平常現象。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "一次就能定論",
-        "沒看到就沒有",
         "照片永遠不變",
-        "多次觀察較好"
+        "多次觀察較好",
+        "沒看到就沒有",
+        "一次就能定論"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "地圖、訪談和資料查詢都是認識地方的方法。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "只憑一個印象",
-        "不看任何資料",
         "地圖訪談資料",
-        "猜想代替紀錄"
+        "猜想代替紀錄",
+        "不看任何資料"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -1143,11 +1143,11 @@
       "quality_level": "QL4",
       "cqi_score": 8,
       "explanation": "先訂問題與方法，才能有方向地觀察和蒐集資料。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "先決定結論",
-        "先訂問題方法",
         "先公布住址",
+        "先訂問題方法",
         "先抄網路留言"
       ],
       "taxonomy": "applied",
@@ -1171,9 +1171,9 @@
       "answer_index": 0,
       "options": [
         "上方通常為北",
-        "上方一定為南",
         "北方標示為S",
-        "方向標不用看"
+        "方向標不用看",
+        "上方一定為南"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "先利用方向標判斷南北，才能正確找方向。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "往南走最合理",
         "忽略方向標示",
-        "只看圖案顏色",
-        "先判斷南北方"
+        "先判斷南北方",
+        "只看圖案顏色"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "不同地圖有不同用途，應依任務選合適工具。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "功能完全相同",
+        "越大張越正確",
         "都只拿來裝飾",
-        "依任務來選用",
-        "越大張越正確"
+        "功能完全相同",
+        "依任務來選用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1243,11 +1243,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "本課可接觸地方故事，但核心是學會認識方法。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "評論保存政策",
         "背完所有傳說",
         "學會認識方法",
-        "評論保存政策",
         "記下人物年表"
       ],
       "taxonomy": "inferential",

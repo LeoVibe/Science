@@ -1,0 +1,388 @@
+{
+  "kaodian": [
+    {
+      "id": "南一L2-K01",
+      "description": "民俗文化辨別：民俗定義、民俗技藝傳承方式、信仰活動目的（P1最高頻，考古25+題）"
+    },
+    {
+      "id": "南一L2-K02",
+      "description": "民俗活動目的與信仰脈絡：繞境、廟會對居民的凝聚功能與共同記憶"
+    },
+    {
+      "id": "南一L2-K03",
+      "description": "原住民族祭典辨別：排灣五年祭、達悟飛魚祭、阿美豐年祭的族群與目的正確配對"
+    },
+    {
+      "id": "南一L2-K04",
+      "description": "自然資源 vs 人文資源分類：依形成原因（自然形成 vs 居民創造傳承）判斷"
+    },
+    {
+      "id": "南一L2-K05",
+      "description": "地方資源對工作、休閒、觀光、教育的多元影響（不只職業配對）"
+    },
+    {
+      "id": "南一L2-K06",
+      "description": "地方生活改變與青年返鄉：科技、交通、返鄉青農帶來的產業更新與文化傳承"
+    },
+    {
+      "id": "南一L2-K07",
+      "description": "地方特色保存與消失原因：開發破壞、未保存導致特色消失；發展與保存兼顧"
+    },
+    {
+      "id": "南一L2-K08",
+      "description": "敦親睦鄰、公共資源使用規範與居民（含學生）可行的參與行動"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "社區走讀",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "社區走讀認識地方生活包含商店互動與居民生活，對應敦親睦鄰與地方生活參與"
+    },
+    {
+      "idx": 1,
+      "scenario": "民俗定義",
+      "match": true,
+      "kaodian_id": "南一L2-K01",
+      "reason": "直接考民俗定義，正解為地方習俗，核心誤答為個人喜好/外國節目"
+    },
+    {
+      "idx": 2,
+      "scenario": "民俗社團",
+      "match": true,
+      "kaodian_id": "南一L2-K01",
+      "reason": "考民俗技藝的傳承方式，正解為參加社團學習技藝"
+    },
+    {
+      "idx": 3,
+      "scenario": "廟口祈願",
+      "match": true,
+      "kaodian_id": "南一L2-K02",
+      "reason": "考地方信仰活動目的，正解為祈求平安，對應信仰脈絡考點"
+    },
+    {
+      "idx": 4,
+      "scenario": "繞境互助",
+      "match": true,
+      "kaodian_id": "南一L2-K02",
+      "reason": "考繞境活動對居民的意義，正解為凝聚居民，直接對應信仰脈絡高頻考點"
+    },
+    {
+      "idx": 5,
+      "scenario": "潑水節介紹",
+      "match": true,
+      "kaodian_id": "南一L2-K01",
+      "reason": "考外來文化（新住民潑水節）是否可成為地方生活一部分，對應多元文化與民俗辨別（M2迷思）"
+    },
+    {
+      "idx": 6,
+      "scenario": "新住民分享",
+      "match": true,
+      "kaodian_id": "南一L2-K01",
+      "reason": "考對多元文化的態度，正解為尊重學習，與民俗文化多元共存考點一致"
+    },
+    {
+      "idx": 7,
+      "scenario": "祭典海報",
+      "match": true,
+      "kaodian_id": "南一L2-K03",
+      "reason": "考各族祭典脈絡不同不可一概而論，直接對應原住民族祭典辨別考點"
+    },
+    {
+      "idx": 8,
+      "scenario": "排灣祭典",
+      "match": true,
+      "kaodian_id": "南一L2-K03",
+      "reason": "考排灣族對應五年祭，直接配對題，高頻考點"
+    },
+    {
+      "idx": 9,
+      "scenario": "達悟海洋",
+      "match": true,
+      "kaodian_id": "南一L2-K03",
+      "reason": "考達悟族對應飛魚祭，族群與祭典配對，高頻考點"
+    },
+    {
+      "idx": 10,
+      "scenario": "阿美祭典",
+      "match": true,
+      "kaodian_id": "南一L2-K03",
+      "reason": "考阿美族對應豐年祭，族群祭典配對題"
+    },
+    {
+      "idx": 11,
+      "scenario": "祭典修正",
+      "match": true,
+      "kaodian_id": "南一L2-K03",
+      "reason": "考祭典填寫需族群有別，不可隨意互換，對應M4迷思"
+    },
+    {
+      "idx": 12,
+      "scenario": "自然分類",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考自然資源定義，河川地形動植物氣候，直接資源分類考點"
+    },
+    {
+      "idx": 13,
+      "scenario": "人文分類",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考人文資源定義，小吃工藝建築，直接資源分類考點"
+    },
+    {
+      "idx": 14,
+      "scenario": "蛙類生態",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考蛙類生態屬自然資源，對應M6迷思（蛙類生態誤判為人文資源）"
+    },
+    {
+      "idx": 15,
+      "scenario": "小吃分類",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考小吃屬人文資源，對應M5迷思（著名小吃誤判為自然資源）"
+    },
+    {
+      "idx": 16,
+      "scenario": "老站參訪",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考老車站屬人文資源，對應M7迷思（古蹟建築不算人文資源）"
+    },
+    {
+      "idx": 17,
+      "scenario": "紙傘工藝",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考傳統工藝兼具實用藝術文化價值，對應M8迷思（油紙傘只有藝術價值不實用）"
+    },
+    {
+      "idx": 18,
+      "scenario": "港口工作",
+      "match": true,
+      "kaodian_id": "南一L2-K05",
+      "reason": "考自然資源（海洋漁場）影響工作，正解為漁夫，對應資源功能考點"
+    },
+    {
+      "idx": 19,
+      "scenario": "溪流休閒",
+      "match": true,
+      "kaodian_id": "南一L2-K05",
+      "reason": "考自然資源（溪流）影響休閒教育，不只工作，對應M9迷思"
+    },
+    {
+      "idx": 20,
+      "scenario": "山村生活",
+      "match": true,
+      "kaodian_id": "南一L2-K05",
+      "reason": "考地形氣候影響居民活動，正解為影響活動，對應資源多元功能考點"
+    },
+    {
+      "idx": 21,
+      "scenario": "地圖分類",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考資源分類標準為形成原因，不是人氣或知名度，直接對應準則§3.1分類題要問理由"
+    },
+    {
+      "idx": 22,
+      "scenario": "社區商店",
+      "match": false,
+      "kaodian_id": null,
+      "reason": "考商店服務居民功能，屬P3商店與地方生活次要考點，非6-8個核心高頻考點之一，保守判定false"
+    },
+    {
+      "idx": 23,
+      "scenario": "購物檢查",
+      "match": false,
+      "kaodian_id": null,
+      "reason": "考購買商品檢查標示，屬商品安全概念，偏向L3消費者保護範疇，不在L2核心考古高頻考點"
+    },
+    {
+      "idx": 24,
+      "scenario": "商店變化",
+      "match": true,
+      "kaodian_id": "南一L2-K06",
+      "reason": "考科技發展改變商店服務方式，屬地方生活改變考點"
+    },
+    {
+      "idx": 25,
+      "scenario": "交通改變",
+      "match": true,
+      "kaodian_id": "南一L2-K06",
+      "reason": "考交通改善影響居民通學購物，屬地方生活改變/交通影響考點"
+    },
+    {
+      "idx": 26,
+      "scenario": "青年返鄉",
+      "match": true,
+      "kaodian_id": "南一L2-K06",
+      "reason": "考青年返鄉帶來創意，直接對應M10迷思，高頻P2考點"
+    },
+    {
+      "idx": 27,
+      "scenario": "工坊創新",
+      "match": true,
+      "kaodian_id": "南一L2-K06",
+      "reason": "考傳統工藝透過創新傳承，對應地方生活改變與傳統產業創新考點"
+    },
+    {
+      "idx": 28,
+      "scenario": "特色消失",
+      "match": true,
+      "kaodian_id": "南一L2-K07",
+      "reason": "考地方特色消失原因為開發改變，直接對應M12迷思"
+    },
+    {
+      "idx": 29,
+      "scenario": "發展保存",
+      "match": true,
+      "kaodian_id": "南一L2-K07",
+      "reason": "考發展與保存兼顧，正解為共同討論，對應§5保存題不二分考點"
+    },
+    {
+      "idx": 30,
+      "scenario": "保存價值",
+      "match": true,
+      "kaodian_id": "南一L2-K07",
+      "reason": "考地方特色保存價值為文化記憶，對應M11迷思（不能賺錢就不值得保存）"
+    },
+    {
+      "idx": 31,
+      "scenario": "古厝活化",
+      "match": true,
+      "kaodian_id": "南一L2-K07",
+      "reason": "考老屋整修導覽保存特色，屬地方特色保存與活化考點"
+    },
+    {
+      "idx": 32,
+      "scenario": "公園規範",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考公共資源（公園）需共同愛護遵守規範，直接對應M14迷思"
+    },
+    {
+      "idx": 33,
+      "scenario": "圖書館使用",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考圖書館公共資源使用規範，對應公共資源高頻考點"
+    },
+    {
+      "idx": 34,
+      "scenario": "活動中心",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考使用公共資源後整理，共同維護行動，對應敦親睦鄰與公共資源考點"
+    },
+    {
+      "idx": 35,
+      "scenario": "鄰里互動",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考問候互助參與活動建立鄰里關係，直接對應敦親睦鄰考點"
+    },
+    {
+      "idx": 36,
+      "scenario": "慶典參與",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考介紹活動由來促進文化傳承，屬居民參與行動考點"
+    },
+    {
+      "idx": 37,
+      "scenario": "學生行動",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考學生可行的地方行動（繪資源圖），對應M13迷思，學生具體可行參與"
+    },
+    {
+      "idx": 38,
+      "scenario": "居民訪談",
+      "match": false,
+      "kaodian_id": null,
+      "reason": "考比較不同居民觀點的方法，屬研究方法/素養題，不直接對應8個核心高頻考古考點，保守判定false"
+    },
+    {
+      "idx": 39,
+      "scenario": "多元需求",
+      "match": false,
+      "kaodian_id": null,
+      "reason": "考居民職業年齡不同導致需求不同，偏向公民素養/多元觀點，非考古高頻核心考點，保守判定false"
+    },
+    {
+      "idx": 40,
+      "scenario": "球場共享",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考公共資源（球場）輪流共享，對應公共資源使用規範考點"
+    },
+    {
+      "idx": 41,
+      "scenario": "成因判斷",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考資源分類依形成原因判斷，直接對應自然/人文資源分類核心考點"
+    },
+    {
+      "idx": 42,
+      "scenario": "園遊會交流",
+      "match": true,
+      "kaodian_id": "南一L2-K01",
+      "reason": "考對不同文化的尊重態度，對應多元文化地方生活考點（M2迷思延伸）"
+    },
+    {
+      "idx": 43,
+      "scenario": "地圖圖例",
+      "match": false,
+      "kaodian_id": null,
+      "reason": "考地圖清楚標示圖例技能，屬地理工具素養，非考古高頻概念考點，保守判定false"
+    },
+    {
+      "idx": 44,
+      "scenario": "共同記憶",
+      "match": true,
+      "kaodian_id": "南一L2-K02",
+      "reason": "考地方活動形成共同記憶增進地方認同，對應信仰活動與居民凝聚考點"
+    },
+    {
+      "idx": 45,
+      "scenario": "生態保護",
+      "match": true,
+      "kaodian_id": "南一L2-K05",
+      "reason": "考遵守導覽規範保護生物棲地（自然資源），對應資源保護與多元功能考點"
+    },
+    {
+      "idx": 46,
+      "scenario": "市集慶典",
+      "match": true,
+      "kaodian_id": "南一L2-K02",
+      "reason": "考民俗活動功能不只收入還有信仰互助文化傳承，直接對應題型B信仰脈絡考點"
+    },
+    {
+      "idx": 47,
+      "scenario": "農田工作",
+      "match": true,
+      "kaodian_id": "南一L2-K05",
+      "reason": "考農業受自然條件影響，環境連動工作安排，對應資源影響工作考點"
+    },
+    {
+      "idx": 48,
+      "scenario": "地方故事",
+      "match": true,
+      "kaodian_id": "南一L2-K04",
+      "reason": "考老建築工藝地方故事屬人文資源，對應M7迷思延伸"
+    },
+    {
+      "idx": 49,
+      "scenario": "學習行動",
+      "match": true,
+      "kaodian_id": "南一L2-K08",
+      "reason": "考學生走讀整理為可行地方行動，對應M13迷思，學生參與行動考點"
+    }
+  ]
+}

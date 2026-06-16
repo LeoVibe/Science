@@ -1,0 +1,392 @@
+{
+  "kaodian": [
+    {
+      "id": "南一L3-K01",
+      "description": "需要 vs 想要情境判斷：依題幹情境（原物狀態、用途、偏好）辨別需要與想要"
+    },
+    {
+      "id": "南一L3-K02",
+      "description": "聰明消費與購買前判斷：確認需求、蒐集商品資訊、比價、排除炫耀與衝動購買"
+    },
+    {
+      "id": "南一L3-K03",
+      "description": "記帳與收支資料解讀：記帳欄位（收入、支出、項目、金額、餘額）辨識與收支判斷"
+    },
+    {
+      "id": "南一L3-K04",
+      "description": "儲蓄目的與可儲蓄金錢：儲蓄連結未來目標或大額支出，辨識可安排儲蓄之金錢"
+    },
+    {
+      "id": "南一L3-K05",
+      "description": "交易工具演進排序：以物易物→貝殼→金屬貨幣→紙鈔→信用卡/儲值卡"
+    },
+    {
+      "id": "南一L3-K06",
+      "description": "儲值卡與信用卡付款方式差異：儲值卡先儲值後扣款 vs 信用卡先消費後付款"
+    },
+    {
+      "id": "南一L3-K07",
+      "description": "統一發票、電子發票與消費證明：發票功能（購物證明、防逃漏稅、對獎、退換貨佐證）"
+    },
+    {
+      "id": "南一L3-K08",
+      "description": "消費糾紛與1950：消費者服務專線1950用途、正確維權步驟（保留證明、理性溝通、請大人協助）"
+    },
+    {
+      "id": "南一L3-K09",
+      "description": "綠色消費與環保標章：選擇低汙染、省資源、可回收、包裝少或具環保標章商品"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "社區剪髮",
+      "match": false,
+      "kaodian_id": null,
+      "note": "題目測消費定義（付錢取得服務屬消費），未對應任何主要高頻考點"
+    },
+    {
+      "idx": 1,
+      "scenario": "流行鉛筆盒",
+      "match": true,
+      "kaodian_id": "南一L3-K01",
+      "note": "原有鉛筆盒仍可用、僅因偏好想換新款，典型需要vs想要情境"
+    },
+    {
+      "idx": 2,
+      "scenario": "書包款式",
+      "match": true,
+      "kaodian_id": "南一L3-K01",
+      "note": "先解決基本功能需求再評估款式，需要vs想要情境判斷"
+    },
+    {
+      "idx": 3,
+      "scenario": "一百元取捨",
+      "match": true,
+      "kaodian_id": "南一L3-K01",
+      "note": "預算有限時先買學習必要（橡皮），需要vs想要取捨"
+    },
+    {
+      "idx": 4,
+      "scenario": "重複玩具",
+      "match": true,
+      "kaodian_id": "南一L3-K01",
+      "note": "用不到又重複購買仍算浪費，需要vs想要/資源浪費判斷"
+    },
+    {
+      "idx": 5,
+      "scenario": "選買水壺",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "購買前確認需求，聰明消費步驟"
+    },
+    {
+      "idx": 6,
+      "scenario": "早餐牛奶",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "注意保存期限，屬於消費前蒐集商品資訊/聰明消費判斷"
+    },
+    {
+      "idx": 7,
+      "scenario": "買鞋考量",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "排除炫耀因素，看需求和商品資訊，聰明消費"
+    },
+    {
+      "idx": 8,
+      "scenario": "午餐盒比價",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "比價同時看品質與用途，聰明消費步驟"
+    },
+    {
+      "idx": 9,
+      "scenario": "書局字典",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "價格最高不是最佳，還要看內容是否合用，聰明消費判斷"
+    },
+    {
+      "idx": 10,
+      "scenario": "一週收支",
+      "match": true,
+      "kaodian_id": "南一L3-K03",
+      "note": "記帳可掌握收支餘額，記帳功能判斷"
+    },
+    {
+      "idx": 11,
+      "scenario": "記帳欄位",
+      "match": true,
+      "kaodian_id": "南一L3-K03",
+      "note": "地點非核心記帳欄位，記帳欄位辨識"
+    },
+    {
+      "idx": 12,
+      "scenario": "故事書餘額",
+      "match": true,
+      "kaodian_id": "南一L3-K03",
+      "note": "支出後先查餘額再決策，收支資料解讀"
+    },
+    {
+      "idx": 13,
+      "scenario": "缺少金額",
+      "match": true,
+      "kaodian_id": "南一L3-K03",
+      "note": "金額是必要欄位，記帳欄位完整性"
+    },
+    {
+      "idx": 14,
+      "scenario": "午餐專款",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "指定用途費用應專款專用，屬於金錢分配規劃（含儲蓄目的範疇）"
+    },
+    {
+      "idx": 15,
+      "scenario": "百科書目標",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "儲蓄為未來需要或大額目標累積資源"
+    },
+    {
+      "idx": 16,
+      "scenario": "紅包儲蓄",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "紅包結餘可安排儲蓄，辨識可儲蓄金錢"
+    },
+    {
+      "idx": 17,
+      "scenario": "支出排序",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "三餐屬基本需要應優先，金錢分配與需要/想要取捨"
+    },
+    {
+      "idx": 18,
+      "scenario": "腳踏車儲蓄",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "大額目標分次儲蓄規劃"
+    },
+    {
+      "idx": 19,
+      "scenario": "月初分配",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "依需要、想要與目標分配金錢用途"
+    },
+    {
+      "idx": 20,
+      "scenario": "交易故事卡",
+      "match": true,
+      "kaodian_id": "南一L3-K05",
+      "note": "早期以物易物，交易工具演進"
+    },
+    {
+      "idx": 21,
+      "scenario": "魚米交換",
+      "match": true,
+      "kaodian_id": "南一L3-K05",
+      "note": "以物易物困難（需求難合），交易工具演進背景"
+    },
+    {
+      "idx": 22,
+      "scenario": "貝殼展示",
+      "match": true,
+      "kaodian_id": "南一L3-K05",
+      "note": "貝殼是早期交易媒介，非現代常用，交易工具演進"
+    },
+    {
+      "idx": 23,
+      "scenario": "紙鈔攜帶",
+      "match": true,
+      "kaodian_id": "南一L3-K05",
+      "note": "紙鈔攜帶方便，屬交易工具演進中紙鈔特性"
+    },
+    {
+      "idx": 24,
+      "scenario": "交易排序",
+      "match": true,
+      "kaodian_id": "南一L3-K05",
+      "note": "以物易物→貝殼→金屬貨幣→紙鈔→卡片排序"
+    },
+    {
+      "idx": 25,
+      "scenario": "公車儲值",
+      "match": true,
+      "kaodian_id": "南一L3-K06",
+      "note": "儲值卡先儲值後扣款"
+    },
+    {
+      "idx": 26,
+      "scenario": "信用卡帳單",
+      "match": true,
+      "kaodian_id": "南一L3-K06",
+      "note": "信用卡先消費後付款"
+    },
+    {
+      "idx": 27,
+      "scenario": "卡片比較",
+      "match": true,
+      "kaodian_id": "南一L3-K06",
+      "note": "儲值卡與信用卡主要差在扣款順序"
+    },
+    {
+      "idx": 28,
+      "scenario": "結帳工具",
+      "match": true,
+      "kaodian_id": "南一L3-K07",
+      "note": "統一發票是購物證明非付款工具，發票功能辨識"
+    },
+    {
+      "idx": 29,
+      "scenario": "公共電腦網購",
+      "match": false,
+      "kaodian_id": null,
+      "note": "網路購物安全/個資保護，屬P3低頻考點，未列入6-8主要高頻考點"
+    },
+    {
+      "idx": 30,
+      "scenario": "文具發票",
+      "match": true,
+      "kaodian_id": "南一L3-K07",
+      "note": "發票是購物證明可作退換貨佐證"
+    },
+    {
+      "idx": 31,
+      "scenario": "市場發票",
+      "match": true,
+      "kaodian_id": "南一L3-K07",
+      "note": "發票可防逃漏稅"
+    },
+    {
+      "idx": 32,
+      "scenario": "電子發票",
+      "match": true,
+      "kaodian_id": "南一L3-K07",
+      "note": "電子發票記錄交易金額等基本資訊"
+    },
+    {
+      "idx": 33,
+      "scenario": "瑕疵文具",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "保留發票作購買證明，消費糾紛處理步驟"
+    },
+    {
+      "idx": 34,
+      "scenario": "發票保證書",
+      "match": true,
+      "kaodian_id": "南一L3-K07",
+      "note": "發票是購物證明非完整保證書，發票功能辨識"
+    },
+    {
+      "idx": 35,
+      "scenario": "退換貨溝通",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "消費糾紛應理性溝通，不能情緒反應"
+    },
+    {
+      "idx": 36,
+      "scenario": "專線海報",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "1950是消費者服務專線"
+    },
+    {
+      "idx": 37,
+      "scenario": "壞耳機專線",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "消費糾紛撥打1950，辨別電話用途"
+    },
+    {
+      "idx": 38,
+      "scenario": "脫膠鞋子",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "消費糾紛請大人陪同帶證明，正確維權步驟"
+    },
+    {
+      "idx": 39,
+      "scenario": "裂痕杯子",
+      "match": true,
+      "kaodian_id": "南一L3-K08",
+      "note": "網路辱罵非正確維權，消費糾紛處理"
+    },
+    {
+      "idx": 40,
+      "scenario": "園遊會採買",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "綠色消費重視減少環境傷害"
+    },
+    {
+      "idx": 41,
+      "scenario": "洗手乳標章",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "環保標章辨識綠色消費商品"
+    },
+    {
+      "idx": 42,
+      "scenario": "母親節禮物",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "少包裝且可回收才符合環保，非外觀綠色"
+    },
+    {
+      "idx": 43,
+      "scenario": "市場水果",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "看環境影響而非進口與否，綠色消費判斷"
+    },
+    {
+      "idx": 44,
+      "scenario": "活動小禮物",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "選簡易包裝減少資源使用，綠色消費"
+    },
+    {
+      "idx": 45,
+      "scenario": "掃具採買",
+      "match": true,
+      "kaodian_id": "南一L3-K09",
+      "note": "耐用且少包裝符合環保，綠色消費"
+    },
+    {
+      "idx": 46,
+      "scenario": "商店街消費",
+      "match": false,
+      "kaodian_id": null,
+      "note": "消費定義（物品與服務皆可取得），非高頻考點範疇"
+    },
+    {
+      "idx": 47,
+      "scenario": "公車服務",
+      "match": false,
+      "kaodian_id": null,
+      "note": "消費定義（付費取得交通服務），非高頻考點範疇"
+    },
+    {
+      "idx": 48,
+      "scenario": "折價券零食",
+      "match": true,
+      "kaodian_id": "南一L3-K02",
+      "note": "折扣不代表要買，仍需先確認需求，聰明消費判斷"
+    },
+    {
+      "idx": 49,
+      "scenario": "戶外教學",
+      "match": true,
+      "kaodian_id": "南一L3-K04",
+      "note": "先保留餐費等基本需要，金錢分配優先序"
+    }
+  ]
+}
