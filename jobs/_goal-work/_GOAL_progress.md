@@ -88,7 +88,29 @@
 - 四下自然翰林4課獨立驗證 0 errors
 - **commit策略**：本地commit不push，等康軒南一好三版自然一起push部署（仿三下先例）
 
-### 接續：康軒（補65）→ 南一（補10+修L4 judge格式）→ 三版自然一起push
+### 接續：康軒（補70）→ 南一（補10）→ 三版自然一起push
+
+## 🔄 四下自然康軒+南一（2026-06-19 統一四閘重算，codex補題中）
+### 修正欄位不一致後重算（統一四閘：答對+single_answer+belongs+對應）
+- 康軒 L2/L3/L4 舊盲測缺 single_answer → 已重跑盲測補齊（agent標準四欄）
+- 南一 L4 judge 是 judgments/verdict 結構 → 寫 verdict==="對應" 適配器（不重跑）
+- 過閘清單存於各課 L{n}_passIdx.json，_gaps.json 已更新
+### 精確缺額
+- 康軒：過閘50/120 缺70（L1:16/L2:18/L3:16/L4:20）單元:白天夜晚天空/水的移動/昆蟲家族/自然資源
+- 南一：過閘110/120 缺10（L1:4/L2:4/L3:0/L4:2）單元:昆蟲一生/神奇電力/水的移動/星空
+### codex補題中（2026-06-19）
+- 康軒 codex b3o689yag（補70題，log: scripts/orchestrator-logs/G4_SCI_KangHsuan-codex.log）
+- 南一 codex bxto9lcg6（補10題，log: G4_SCI_NanYi-codex.log）
+### 補題素材已生成：各課 L{n}_kaodian.json/template.json/task.md（kaodian從judge內嵌提取）
+### 接續：codex補完→補題盲測（同翰林四閘）→merge升QL4寫回主檔→三版自然一起push
+### ⚠️ 寫回不變式（翰林已驗證）：原題從shuffled[passIdx]取、補題從sup_shuffled取、review_status用"confirmed"、is_publishable=true需review_date
+
+## ✅✅ 四下自然進度更新（2026-06-19）
+- **翰林 ✅ commit 02c56c5e**（30×4，avg_cqi 8.08，本地待push）
+- **南一 ✅ commit a3e198e1**（30×4，avg_cqi 7.36/7.11/7.45/7.2，補10題全過閘，本地待push）
+- **康軒 🔄** codex補70題已產出(L1=16/L2=18/L3=16/L4=20)，待補題盲測→升級
+### 康軒接續：打散補題→盲測+judge(四閘)→merge原題passIdx+補題→升QL4寫回主檔→manifest→三版自然一起push部署
+### 三版push後待辦：四下社會18課、四下國語36課（國語需先確認課文錨點素材）
 
 ## ⚠️ 全庫遺留問題（範圍外，記錄待處理）
 - validate_review_fields.js 全庫掃出 3075 errors「Publishable question lacks review_date」

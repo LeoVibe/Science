@@ -1,0 +1,26 @@
+{
+  "taxonomy": "inferential",
+  "scenario": "【課堂探究時】",
+  "question": "請依四年級自然課所學仔細判斷：茶杯中的水靜止時，水面保持（請選出最合適的答案）。",
+  "options": [
+    "與日常觀察明顯矛盾的描述",
+    "僅在完全無重力時才成立的描述",
+    "與重力與液體性質無關的描述",
+    "水平"
+  ],
+  "answer_index": 3,
+  "explanation": "受重力影響，靜止液面恆為水平。",
+  "commonMisconception": "學生常把表面現象與科學解釋混淆，宜對照課本插圖與實驗紀錄釐清。",
+  "quality_level": "QL4",
+  "cqi_score": 9.5,
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "JOB-169：盲測 Match，確認可上版",
+  "reviewer": "JOB-169",
+  "review_date": "2026-04-10",
+  "blind_evaluation": true,
+  "authoring_model": "Gemini-2.5-Pro",
+  "verifying_model": "Gemini-3.1-Flash-Lite",
+  "verifying_date": "2026-04-10",
+  "blind_verify_quality_rating": 3
+}

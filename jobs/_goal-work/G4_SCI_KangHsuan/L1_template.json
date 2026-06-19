@@ -1,0 +1,26 @@
+{
+  "taxonomy": "inferential",
+  "scenario": "【課堂探究時】",
+  "question": "請依四年級自然課所學仔細判斷：以下敘述與選項中，月亮的圓缺變化主要是因為？",
+  "options": [
+    "雲擋住了",
+    "太陽變色了",
+    "月球繞地球公轉與太陽照射角度變化",
+    "地球發生地震"
+  ],
+  "answer_index": 2,
+  "explanation": "月相盈虧是規律的天文現象。",
+  "commonMisconception": "學生常把表面現象與科學解釋混淆，宜對照課本插圖與實驗紀錄釐清。",
+  "quality_level": "QL4",
+  "cqi_score": 8,
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "JOB-169：盲測 Match，確認可上版",
+  "reviewer": "JOB-169",
+  "review_date": "2026-04-10",
+  "blind_evaluation": true,
+  "authoring_model": "Gemini-2.5-Pro",
+  "verifying_model": "Gemini-3.1-Flash-Lite",
+  "verifying_date": "2026-04-10",
+  "blind_verify_quality_rating": 5
+}
