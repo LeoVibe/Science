@@ -1,0 +1,86 @@
+[
+  {
+    "taxonomy": "literal",
+    "scenario": "【電路實驗】小組用一顆電池、兩條導線和一個小燈泡做實驗。小燈泡有時會亮，有時不亮。",
+    "question": "要讓小燈泡持續發光，下列哪一種接法最重要？",
+    "options": [
+      "讓電池、導線和燈泡形成完整的封閉迴路",
+      "只把一條導線接到電池正極",
+      "把燈泡放得離電池越近越好",
+      "只讓導線碰到燈泡玻璃外殼"
+    ],
+    "answer_index": 0,
+    "explanation": "電流必須在完整的封閉迴路中流動，通過小燈泡後回到電池另一極，燈泡才會持續發光。",
+    "commonMisconception": "學生常以為只要導線碰到電池任一極或燈泡外殼就能通電，忽略電路必須形成完整路徑。",
+    "topic": "封閉迴路",
+    "source_kaodian_id": "南一L2-K01",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  },
+  {
+    "taxonomy": "inferential",
+    "scenario": "【串聯燈泡】小安把兩個小燈泡接在同一條電路路徑上。當其中一個燈泡鬆脫時，另一個也跟著熄滅。",
+    "question": "這個現象最能說明串聯電路的哪一個特性？",
+    "options": [
+      "每個燈泡都有完全獨立的電流路徑",
+      "電池不需要形成迴路也能讓燈泡亮",
+      "燈泡越多一定會越亮",
+      "其中一處斷路時，整條路徑都無法通電"
+    ],
+    "answer_index": 3,
+    "explanation": "串聯電路只有一條電流路徑，只要其中一處斷路，電流就無法通過整個電路，所以燈泡都會熄滅。",
+    "commonMisconception": "學生常以為每個燈泡都能單獨運作，沒有分辨串聯只有一條通路的特性。",
+    "topic": "串聯電路",
+    "source_kaodian_id": "南一L2-K03",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  },
+  {
+    "taxonomy": "inferential",
+    "scenario": "【並聯燈泡】小莉把兩個小燈泡分別接在不同支路上。她轉鬆其中一個燈泡，另一個燈泡仍然亮著。",
+    "question": "根據觀察，這個電路最可能具有哪一項特性？",
+    "options": [
+      "只有一條電流路徑，所以一處斷路全都熄滅",
+      "電流直接連接電池正負極，會造成短路",
+      "有多條電流路徑，一個支路斷路不一定影響其他支路",
+      "沒有形成封閉迴路，所以燈泡應該都不會亮"
+    ],
+    "answer_index": 2,
+    "explanation": "並聯電路有多條電流路徑，某一個支路斷路時，其他支路仍可形成完整迴路，因此另一個燈泡仍可能發光。",
+    "commonMisconception": "學生常把並聯和串聯混淆，以為任何一個燈泡壞掉都會讓全部燈泡熄滅。",
+    "topic": "並聯電路",
+    "source_kaodian_id": "南一L2-K04",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  },
+  {
+    "taxonomy": "applied",
+    "scenario": "【安全提醒】小偉想用一條導線直接連接電池的正極和負極，看看會發生什麼事。老師立刻阻止他。",
+    "question": "老師阻止小偉的主要原因是什麼？",
+    "options": [
+      "這樣會讓電流經過燈泡，所以燈泡一定更亮",
+      "這樣會造成短路，可能使電池過熱而有危險",
+      "這樣可以讓電池電力變多，適合長時間實驗",
+      "這樣只是讓電池休息，沒有任何危險"
+    ],
+    "answer_index": 1,
+    "explanation": "用導線直接連接電池正負極會造成短路，電流可能過大，使電池發熱，具有危險性。",
+    "commonMisconception": "學生常以為導線直接接兩極只是較快通電，忽略短路會讓電流過大並造成安全風險。",
+    "topic": "短路",
+    "source_kaodian_id": "南一L2-K05",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  }
+]

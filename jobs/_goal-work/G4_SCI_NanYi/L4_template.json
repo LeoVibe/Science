@@ -1,0 +1,27 @@
+{
+  "taxonomy": "literal",
+  "scenario": "【觀星活動】老師介紹北方天空可利用勺形星群尋找指北參考星。",
+  "question": "課本常提到：從北斗七星斗口兩顆星延伸約五倍距離，可找到哪一顆指北參考星？",
+  "options": [
+    "天狼星",
+    "月球",
+    "金星",
+    "北極星"
+  ],
+  "answer_index": 3,
+  "explanation": "沿北斗七星斗口兩星延伸約五倍距離，可找到接近天球北天極附近的北極星。",
+  "commonMisconception": "學生誤以為最亮的那顆就是北極星，實際上北極星亮度普通。",
+  "topic": "北極星尋找",
+  "quality_level": "QL4",
+  "cqi_score": 7.25,
+  "blind_evaluation": true,
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "南一 G4S2 自然重產後盲測（--force）全 Match；JOB-169 結案。",
+  "reviewer": "JOB-169",
+  "review_date": "2026-04-10",
+  "authoring_model": "JOB-169-rebuild",
+  "verifying_model": "Gemini-3.1-Flash-Lite",
+  "verifying_date": "2026-04-10",
+  "blind_verify_quality_rating": 3
+}

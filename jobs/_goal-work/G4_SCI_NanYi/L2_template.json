@@ -1,0 +1,27 @@
+{
+  "taxonomy": "inferential",
+  "scenario": "【實驗桌】小組用一顆電池、導線與小燈泡嘗試讓燈泡發光。",
+  "question": "依簡單電路概念，小燈泡要穩定發光，最需要滿足下列哪一項條件？",
+  "options": [
+    "電流需形成封閉迴路，讓電能經用電器回到另一極",
+    "只要導線碰到電池任一極即可",
+    "導線愈短一定愈亮，與接法無關",
+    "燈泡只要靠近電池就會因靜電發光"
+  ],
+  "answer_index": 0,
+  "explanation": "簡單電路須有電源、導線與用電器，且路徑閉合，電流才能持續流動使燈泡發光。",
+  "commonMisconception": "學生常以為「碰到電池就通電」，忽略必須形成完整迴路。",
+  "topic": "封閉迴路",
+  "quality_level": "QL4",
+  "cqi_score": 8,
+  "blind_evaluation": true,
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "南一 G4S2 自然重產後盲測（--force）全 Match；JOB-169 結案。",
+  "reviewer": "JOB-169",
+  "review_date": "2026-04-10",
+  "authoring_model": "JOB-169-rebuild",
+  "verifying_model": "Gemini-3.1-Flash-Lite",
+  "verifying_date": "2026-04-10",
+  "blind_verify_quality_rating": 3
+}

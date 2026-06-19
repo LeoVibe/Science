@@ -1,0 +1,27 @@
+{
+  "taxonomy": "inferential",
+  "scenario": "【飼養紋白蝶時】小組在記錄本上整理昆蟲發育階段，想確認何謂「完全變態」。",
+  "question": "依南一版四下自然《昆蟲的一生》所學，下列哪一組順序最能代表「完全變態」昆蟲的一生？",
+  "options": [
+    "卵→成蟲（沒有幼蟲與蛹）",
+    "卵→蛹→幼蟲→成蟲（順序錯置）",
+    "卵→幼蟲→蛹→成蟲",
+    "卵→若蟲→成蟲（沒有蛹期）"
+  ],
+  "answer_index": 2,
+  "explanation": "完全變態包含卵、幼蟲、蛹、成蟲四個階段，幼蟲與成蟲外形差異大，中間有不吃不動的蛹期。",
+  "commonMisconception": "學生常把「若蟲」階段誤套在蝴蝶等完全變態昆蟲上，或漏掉蛹期，把順序記成三階段。",
+  "topic": "完全變態",
+  "quality_level": "QL4",
+  "cqi_score": 9.5,
+  "blind_evaluation": true,
+  "is_publishable": true,
+  "review_status": "confirmed",
+  "review_notes": "南一 G4S2 自然重產後盲測（--force）全 Match；JOB-169 結案。",
+  "reviewer": "JOB-169",
+  "review_date": "2026-04-10",
+  "authoring_model": "JOB-169-rebuild",
+  "verifying_model": "Gemini-3.1-Flash-Lite",
+  "verifying_date": "2026-04-10",
+  "blind_verify_quality_rating": 3
+}

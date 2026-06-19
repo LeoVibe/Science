@@ -1,0 +1,44 @@
+[
+  {
+    "taxonomy": "literal",
+    "scenario": "【夜間觀星】老師帶學生找北方天空的方向，先指出北斗七星斗口的兩顆星，再請學生沿著這兩顆星的方向延伸約五倍距離。",
+    "question": "依南一版四下自然《星空》所學，沿北斗七星斗口兩星延伸約五倍距離，主要是為了找到哪一顆星？",
+    "options": [
+      "北極星",
+      "天狼星",
+      "織女星",
+      "金星"
+    ],
+    "answer_index": 0,
+    "explanation": "從北斗七星斗口兩顆星連線方向延伸約五倍距離，可以找到接近北方天空固定方向的北極星。",
+    "commonMisconception": "學生常誤以為只要找夜空中最亮的星就是北極星，但北極星並不是夜空中最亮的星。",
+    "topic": "北極星尋找",
+    "source_kaodian_id": "南一L4-K01",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  },
+  {
+    "taxonomy": "inferential",
+    "scenario": "【月亮觀察】小組連續幾天觀察月亮，發現月亮看起來有時圓、有時缺，亮面大小會逐漸改變。",
+    "question": "造成平常看到月相變化的主要原因是什麼？",
+    "options": [
+      "月球自己發出的光每天變強或變弱",
+      "地球每天擋住月球，形成一般月相",
+      "月球繞地球公轉，使我們看到被太陽照亮的部分比例改變",
+      "雲層固定遮住月球的一部分"
+    ],
+    "answer_index": 2,
+    "explanation": "月球繞地球公轉時，從地球上看到月球被太陽照亮的部分比例會改變，因此形成日常規律的月相變化。",
+    "commonMisconception": "學生常把月相誤認為地球影子造成，或以為月球自己會發光；地球影子造成的是月食，並不是平常的月相變化。",
+    "topic": "月相成因",
+    "source_kaodian_id": "南一L4-K02",
+    "quality_level": "QL3",
+    "review_status": "pending",
+    "is_publishable": false,
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5"
+  }
+]
