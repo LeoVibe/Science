@@ -78,3 +78,19 @@
 
 ### 工作量提醒
 四下自然補題量大（翰36+康65+南10=111題），康軒舊題品質低需大量重出。四下社會/國語尚未開始。
+
+## ✅ 四下自然翰林 端到端完成（2026-06-19，本地commit待push）
+- 補題盲測 32/36→修正L2範疇描述後 36/36 全過閘（盲測員誤殺虹吸/連通管/靜止液面題，原因是PM給的單元範疇描述漏列，已修正重跑）
+- 各課30題：L1=原19+補11 / L2=原24+補6 / L3=原19+補11 / L4=原22+補8
+- 全部sonnet雙盲過閘（盲測答對+single_answer+belongs+考點對應四閘）
+- 寫回主檔用被盲測的shuffled版（答案對齊不變式，抽8題對讀options[answer_index]vs解析全一致）
+- 答案重新打散破壞idx%4；manifest avg_cqi據實重算9.3→8.08（真實cqi非舊估值）
+- 四下自然翰林4課獨立驗證 0 errors
+- **commit策略**：本地commit不push，等康軒南一好三版自然一起push部署（仿三下先例）
+
+### 接續：康軒（補65）→ 南一（補10+修L4 judge格式）→ 三版自然一起push
+
+## ⚠️ 全庫遺留問題（範圍外，記錄待處理）
+- validate_review_fields.js 全庫掃出 3075 errors「Publishable question lacks review_date」
+- 集中在三下國語等舊庫（非本次四下自然，四下自然翰林0 errors）
+- 不影響前端顯示（前端不讀review_date），屬metadata不全；待專門JOB處理
