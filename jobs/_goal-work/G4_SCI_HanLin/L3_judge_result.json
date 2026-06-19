@@ -1,0 +1,244 @@
+{
+  "kaodian": [
+    {
+      "id": "L3-K01",
+      "desc": "地震防護措施：DCH（趴下、掩護、穩住）；地震時不搭電梯、不靠近窗戶"
+    },
+    {
+      "id": "L3-K02",
+      "desc": "岩石三分類：火成岩（岩漿冷卻）、沉積岩（沉積物堆積）、變質岩（溫壓改變）"
+    },
+    {
+      "id": "L3-K03",
+      "desc": "特殊地形形成原因：長期風化與侵蝕作用，非人工、非地震、非火山"
+    },
+    {
+      "id": "L3-K04",
+      "desc": "風化 vs 侵蝕 vs 搬運 vs 堆積：風化=原地碎裂；侵蝕=被帶走；搬運=移動；堆積=沈積"
+    },
+    {
+      "id": "L3-K05",
+      "desc": "地震成因：板塊運動或斷層錯動釋放能量，非落雷、強風、潮汐"
+    },
+    {
+      "id": "L3-K06",
+      "desc": "時間尺度：地形與地質變化需極長地質時間，非短時劇烈事件"
+    },
+    {
+      "id": "L3-K07",
+      "desc": "震度 vs 規模：震度=各地感受搖晃程度（因地點而異）；規模=釋放能量大小"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "觀察河口景觀",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "堆積作用：河水流速減緩後沙石沈積，屬風化/侵蝕/搬運/堆積知識點"
+    },
+    {
+      "idx": 1,
+      "scenario": "探索奇岩怪石",
+      "match": true,
+      "kaodian_id": "L3-K03",
+      "note": "特殊地形由風化與侵蝕長期形成，對應考古題型C"
+    },
+    {
+      "idx": 2,
+      "scenario": "地震發生時的應變",
+      "match": true,
+      "kaodian_id": "L3-K01",
+      "note": "躲桌底、遠離窗戶，對應DCH防護措施"
+    },
+    {
+      "idx": 3,
+      "scenario": "流水的對比實驗",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "坡度越大流速越快，侵蝕力越強，屬侵蝕知識點"
+    },
+    {
+      "idx": 4,
+      "scenario": "辨識河流區域顆粒",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "上游岩石有稜角未磨損，涉及搬運距離與磨損概念"
+    },
+    {
+      "idx": 5,
+      "scenario": "地震的前因後果",
+      "match": true,
+      "kaodian_id": "L3-K05",
+      "note": "板塊運動或斷層錯動是地震主因"
+    },
+    {
+      "idx": 6,
+      "scenario": "水流搬運實驗",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "混濁水流顯示搬運能力，屬搬運知識點"
+    },
+    {
+      "idx": 7,
+      "scenario": "防止土壤流失",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "植被根系減輕侵蝕，屬侵蝕作用知識點"
+    },
+    {
+      "idx": 8,
+      "scenario": "地震規模與震度",
+      "match": true,
+      "kaodian_id": "L3-K07",
+      "note": "震度=感受搖晃程度，規模=能量釋放，明確對應K07"
+    },
+    {
+      "idx": 9,
+      "scenario": "分析鵝卵石的形成",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "長期流水磨擦磨去稜角，屬搬運過程中的磨損知識點"
+    },
+    {
+      "idx": 10,
+      "scenario": "【課堂探究時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為昆蟲三段身體（頭胸腹），與L3變動的大地無關"
+    },
+    {
+      "idx": 11,
+      "scenario": "【課堂探究時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為昆蟲完全變態，與L3無關"
+    },
+    {
+      "idx": 12,
+      "scenario": "【課堂探究時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為昆蟲兩對翅膀三對腳，與L3無關"
+    },
+    {
+      "idx": 13,
+      "scenario": "【課堂探究時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為社會性昆蟲（螞蟻），與L3無關"
+    },
+    {
+      "idx": 14,
+      "scenario": "【課堂探究時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為蜘蛛非昆蟲，與L3無關"
+    },
+    {
+      "idx": 15,
+      "scenario": "【地震防災時】",
+      "match": true,
+      "kaodian_id": "L3-K01",
+      "note": "趴下、掩護、穩住（DCH），對應地震防護措施"
+    },
+    {
+      "idx": 16,
+      "scenario": "【板塊概念時】",
+      "match": true,
+      "kaodian_id": "L3-K05",
+      "note": "地殼板塊運動造成地震，對應地震成因"
+    },
+    {
+      "idx": 17,
+      "scenario": "【火山噴發時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為熔岩定義，L3考古題中無明確高頻火山熔岩考點，模稜兩可保守判false"
+    },
+    {
+      "idx": 18,
+      "scenario": "【岩石分類時】",
+      "match": true,
+      "kaodian_id": "L3-K02",
+      "note": "沉積岩由沉積物堆積壓實形成，對應岩石分類"
+    },
+    {
+      "idx": 19,
+      "scenario": "【火成岩特徵時】",
+      "match": true,
+      "kaodian_id": "L3-K02",
+      "note": "火成岩由岩漿冷卻凝固形成，對應考古題型B"
+    },
+    {
+      "idx": 20,
+      "scenario": "【戶外安全時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "考點為火山活動區危險，L3考古題無對應高頻考點，保守判false"
+    },
+    {
+      "idx": 21,
+      "scenario": "【風化侵蝕時】",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "風化強調原地崩解，對應考古題型D的核心辨別"
+    },
+    {
+      "idx": 22,
+      "scenario": "【河流地形時】",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "流水具侵蝕、搬運、堆積能力，對應考古題型D"
+    },
+    {
+      "idx": 23,
+      "scenario": "【變質岩成因時】",
+      "match": true,
+      "kaodian_id": "L3-K02",
+      "note": "溫壓改變形成變質岩，對應岩石三分類"
+    },
+    {
+      "idx": 24,
+      "scenario": "【震源震央時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "震央定義為震源正上方地表，L3考古題無此明確高頻考點，保守判false"
+    },
+    {
+      "idx": 25,
+      "scenario": "【實驗模擬時】",
+      "match": true,
+      "kaodian_id": "L3-K04",
+      "note": "冰脹裂隙模擬風化中溫度變化影響，對應風化作用知識點"
+    },
+    {
+      "idx": 26,
+      "scenario": "【時間尺度時】",
+      "match": true,
+      "kaodian_id": "L3-K06",
+      "note": "地形變化需很長地質時間，對應時間尺度認知考點"
+    },
+    {
+      "idx": 27,
+      "scenario": "【台灣地理時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "台灣位於板塊交界帶，L3考古題無此明確高頻考點，保守判false"
+    },
+    {
+      "idx": 28,
+      "scenario": "【沉積岩線索時】",
+      "match": true,
+      "kaodian_id": "L3-K02",
+      "note": "化石保存於沉積岩中，古代沉積環境，對應岩石分類"
+    },
+    {
+      "idx": 29,
+      "scenario": "【防災判斷時】",
+      "match": false,
+      "kaodian_id": null,
+      "note": "答案為index=1（急著衝進電梯），但說明指電梯危險，題目答案與說明矛盾，內容異常，保守判false"
+    }
+  ]
+}

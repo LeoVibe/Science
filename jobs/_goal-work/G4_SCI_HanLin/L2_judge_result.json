@@ -1,0 +1,218 @@
+{
+  "kaodian": [
+    {
+      "id": "L2-K01",
+      "desc": "連通管原理：底部相通容器靜止時液面等高（茶壺壺嘴、水位計）"
+    },
+    {
+      "id": "L2-K02",
+      "desc": "毛細現象：水沿材料細小孔隙自動爬升（衛生紙、毛筆、粉筆）"
+    },
+    {
+      "id": "L2-K03",
+      "desc": "虹吸現象：管中充滿水柱、出口端低於進水端，水從高處流向低處"
+    },
+    {
+      "id": "L2-K04",
+      "desc": "三種水現象區辨：毛細/連通管/虹吸的驅動力與關鍵條件不同，不可混淆"
+    },
+    {
+      "id": "L2-K05",
+      "desc": "水蒸氣凝結：冰冷表面（杯外、浴室鏡）出現水珠，來自空氣中水蒸氣遇冷液化"
+    },
+    {
+      "id": "L2-K06",
+      "desc": "毛細現象與管徑關係：管徑越細毛細效果越明顯，上升高度越高"
+    },
+    {
+      "id": "L2-K07",
+      "desc": "虹吸啟動條件：管內必須充滿連續水柱（無氣泡），氣泡會破壞虹吸"
+    },
+    {
+      "id": "L2-K08",
+      "desc": "靜止液面水平：受重力影響，靜止液面恆為水平面"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "毛細現象觀察",
+      "match": true,
+      "kaodian_id": "L2-K02"
+    },
+    {
+      "idx": 1,
+      "scenario": "虹吸現象實驗",
+      "match": true,
+      "kaodian_id": "L2-K07"
+    },
+    {
+      "idx": 2,
+      "scenario": "連通管原理應用",
+      "match": true,
+      "kaodian_id": "L2-K01"
+    },
+    {
+      "idx": 3,
+      "scenario": "判斷沉浮關係",
+      "match": false,
+      "kaodian_id": null
+    },
+    {
+      "idx": 4,
+      "scenario": "改變浮力實驗",
+      "match": false,
+      "kaodian_id": null
+    },
+    {
+      "idx": 5,
+      "scenario": "生活中哪些物品運用毛細現象？",
+      "match": true,
+      "kaodian_id": "L2-K02"
+    },
+    {
+      "idx": 6,
+      "scenario": "連通管生活案例",
+      "match": true,
+      "kaodian_id": "L2-K01"
+    },
+    {
+      "idx": 7,
+      "scenario": "分析液體性質",
+      "match": true,
+      "kaodian_id": "L2-K06"
+    },
+    {
+      "idx": 8,
+      "scenario": "浮力測驗",
+      "match": false,
+      "kaodian_id": null
+    },
+    {
+      "idx": 9,
+      "scenario": "噴水池設計",
+      "match": true,
+      "kaodian_id": "L2-K01"
+    },
+    {
+      "idx": 10,
+      "scenario": "【課堂探究時】",
+      "match": true,
+      "kaodian_id": "L2-K07"
+    },
+    {
+      "idx": 11,
+      "scenario": "【課堂探究時】",
+      "match": true,
+      "kaodian_id": "L2-K02"
+    },
+    {
+      "idx": 12,
+      "scenario": "【課堂探究時】",
+      "match": true,
+      "kaodian_id": "L2-K08"
+    },
+    {
+      "idx": 13,
+      "scenario": "【課堂探究時】",
+      "match": true,
+      "kaodian_id": "L2-K01"
+    },
+    {
+      "idx": 14,
+      "scenario": "【課堂探究時】",
+      "match": true,
+      "kaodian_id": "L2-K07"
+    },
+    {
+      "idx": 15,
+      "scenario": "【衛生紙實驗時】",
+      "match": true,
+      "kaodian_id": "L2-K02"
+    },
+    {
+      "idx": 16,
+      "scenario": "【材質比較時】",
+      "match": true,
+      "kaodian_id": "L2-K02"
+    },
+    {
+      "idx": 17,
+      "scenario": "【連通管靜止時】",
+      "match": true,
+      "kaodian_id": "L2-K01"
+    },
+    {
+      "idx": 18,
+      "scenario": "【水平儀聯想時】",
+      "match": true,
+      "kaodian_id": "L2-K08"
+    },
+    {
+      "idx": 19,
+      "scenario": "【虹吸澆花時】",
+      "match": true,
+      "kaodian_id": "L2-K03"
+    },
+    {
+      "idx": 20,
+      "scenario": "【凝結觀察時】",
+      "match": true,
+      "kaodian_id": "L2-K05"
+    },
+    {
+      "idx": 21,
+      "scenario": "【分辨三現象時】",
+      "match": true,
+      "kaodian_id": "L2-K04"
+    },
+    {
+      "idx": 22,
+      "scenario": "【管徑思考時】",
+      "match": true,
+      "kaodian_id": "L2-K06"
+    },
+    {
+      "idx": 23,
+      "scenario": "【浴室鏡子時】",
+      "match": true,
+      "kaodian_id": "L2-K05"
+    },
+    {
+      "idx": 24,
+      "scenario": "【魚缸換水時】",
+      "match": true,
+      "kaodian_id": "L2-K03"
+    },
+    {
+      "idx": 25,
+      "scenario": "【實驗公平時】",
+      "match": false,
+      "kaodian_id": null
+    },
+    {
+      "idx": 26,
+      "scenario": "【現象配對時】",
+      "match": true,
+      "kaodian_id": "L2-K04"
+    },
+    {
+      "idx": 27,
+      "scenario": "【故障排除時】",
+      "match": true,
+      "kaodian_id": "L2-K07"
+    },
+    {
+      "idx": 28,
+      "scenario": "【水三態連結時】",
+      "match": true,
+      "kaodian_id": "L2-K05"
+    },
+    {
+      "idx": 29,
+      "scenario": "【綜合生活時】",
+      "match": true,
+      "kaodian_id": "L2-K03"
+    }
+  ]
+}
