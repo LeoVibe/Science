@@ -1,0 +1,264 @@
+{
+  "kaodian": [
+    {
+      "id": "康軒L2-K01",
+      "label": "連通管原理：靜止液面等高",
+      "source": "考古題型A、迷思2.1",
+      "description": "底部相連的管路，靜止時各處液面等高，與管徑無關"
+    },
+    {
+      "id": "康軒L2-K02",
+      "label": "連通管應用辨識",
+      "source": "考古題型A",
+      "description": "能從生活情境（茶壺、飲水機水位計）辨識出連通管原理"
+    },
+    {
+      "id": "康軒L2-K03",
+      "label": "毛細現象條件：需有細縫",
+      "source": "考古題型B、迷思2.2",
+      "description": "毛細現象必要條件是材料有細小縫隙或孔隙；塑膠、光滑金屬不具此特性"
+    },
+    {
+      "id": "康軒L2-K04",
+      "label": "毛細現象材質判斷",
+      "source": "考古題型B",
+      "description": "能從材質清單中判斷哪些可產生毛細現象（棉布條、衛生紙等）哪些不行（塑膠片、光滑金屬）"
+    },
+    {
+      "id": "康軒L2-K05",
+      "label": "毛細現象應用設計（自動澆水器）",
+      "source": "考古題型C",
+      "description": "棉線一端浸水、一端埋入土壤，水杯高於花盆，利用毛細+高低差持續輸水"
+    },
+    {
+      "id": "康軒L2-K06",
+      "label": "虹吸現象條件：出水端低、管內充水排氣",
+      "source": "考古題型D、迷思2.3",
+      "description": "虹吸靠高低差與重力驅動，出水端需低於入水端液面；管內需充滿水、無氣泡"
+    },
+    {
+      "id": "康軒L2-K07",
+      "label": "三現象分類辨別（毛細/連通管/虹吸）",
+      "source": "考古題型D、迷思2.1",
+      "description": "能根據情境特徵（細縫/底部相連等高/管子+高低差引流）正確歸類三種現象"
+    },
+    {
+      "id": "康軒L2-K08",
+      "label": "毛細現象管徑效應：管越細上升越明顯",
+      "source": "迷思2.2延伸",
+      "description": "毛細上升高度與管徑成反比，細管比粗管效果顯著"
+    }
+  ],
+  "results": [
+    {
+      "idx": 0,
+      "scenario": "皮球的變形",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考彈力，與水的移動三現象無關"
+    },
+    {
+      "idx": 1,
+      "scenario": "推動重的物品",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考摩擦力，與L2主題無關"
+    },
+    {
+      "idx": 2,
+      "scenario": "地心引力的證明",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考重力，與L2主題無關"
+    },
+    {
+      "idx": 3,
+      "scenario": "磁鐵同極相吸相斥",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考磁力，與L2主題無關"
+    },
+    {
+      "idx": 4,
+      "scenario": "測量拉力實驗",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考彈力計/彈性形變，與L2主題無關"
+    },
+    {
+      "idx": 5,
+      "scenario": "減少摩擦力的設計",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考滑動vs滾動摩擦力，與L2主題無關"
+    },
+    {
+      "idx": 6,
+      "scenario": "力的平衡現象",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考力平衡，與L2主題無關"
+    },
+    {
+      "idx": 7,
+      "scenario": "磁力的穿透力",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考磁力穿透，與L2主題無關"
+    },
+    {
+      "idx": 8,
+      "scenario": "增加摩擦力的行為",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考摩擦力，與L2主題無關"
+    },
+    {
+      "idx": 9,
+      "scenario": "力的效應判定",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "題目考力的效應（改變運動狀態），與L2主題無關"
+    },
+    {
+      "idx": 10,
+      "scenario": "【課堂探究時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "explanation說明虹吸需先建立連綿水柱，對應虹吸條件：管內充水排氣；answer=水，符合K06"
+    },
+    {
+      "idx": 11,
+      "scenario": "【課堂探究時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K03",
+      "reason": "explanation指布料纖維間細縫產生毛細吸力，對應毛細現象需有細縫條件；answer=說法合理，符合K03"
+    },
+    {
+      "idx": 12,
+      "scenario": "【課堂探究時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K01",
+      "reason": "explanation指靜止液面恆為水平，answer=水平，對應連通管靜止液面等高概念；屬K01的基礎物理前提"
+    },
+    {
+      "idx": 13,
+      "scenario": "【課堂探究時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K02",
+      "reason": "explanation說水位計能顯示與內部等高的水面，answer=飲水機水位計，直接對應連通管應用辨識K02"
+    },
+    {
+      "idx": 14,
+      "scenario": "【課堂探究時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "explanation說任何密封充滿水的管路都能產生虹吸，answer=說法不合理（題目應有錯誤描述），對應虹吸條件判斷K06"
+    },
+    {
+      "idx": 15,
+      "scenario": "【實驗桌操作時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K03",
+      "reason": "answer=細小縫隙或孔隙的材料，explanation指水能沿細縫上升需可滲水微細結構，直接對應K03毛細現象需有細縫"
+    },
+    {
+      "idx": 16,
+      "scenario": "【比較吸管時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K08",
+      "reason": "answer=細管上升較明顯，explanation管徑越細毛細越顯著，直接對應K08管徑效應"
+    },
+    {
+      "idx": 17,
+      "scenario": "【連通管實驗時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K01",
+      "reason": "answer=液面等高，explanation說連通管靜止時同一液體液面等高，直接對應K01"
+    },
+    {
+      "idx": 18,
+      "scenario": "【茶壺倒水時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K02",
+      "reason": "scenario是茶壺，explanation說連通管水面等高壺嘴太低會溢出，answer=水從壺嘴溢出，對應連通管應用辨識K02"
+    },
+    {
+      "idx": 19,
+      "scenario": "【虹吸換水時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "answer=出水端低於入水端液面，explanation說虹吸靠重力出口要低才能持續流出，直接對應K06虹吸條件"
+    },
+    {
+      "idx": 20,
+      "scenario": "【準備虹吸時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "answer=讓管內充滿水少氣泡，explanation說管內充滿液體排氣重力才能連續拉動，直接對應K06排氣條件"
+    },
+    {
+      "idx": 21,
+      "scenario": "【分辨現象時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K07",
+      "reason": "answer=毛細現象，explanation說纖維間細縫使水上升屬毛細，考三現象分類辨別K07"
+    },
+    {
+      "idx": 22,
+      "scenario": "【材質測試時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K04",
+      "reason": "answer=光滑塑膠片（不會毛細），考從材質清單判斷哪些不能毛細，對應K04材質判斷"
+    },
+    {
+      "idx": 23,
+      "scenario": "【設計澆花器時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K05",
+      "reason": "answer=出水口高於水桶水面（說法不合理），考自動澆水器設計需出水口低，對應K05毛細應用設計的反例判斷"
+    },
+    {
+      "idx": 24,
+      "scenario": "【U 形管思考時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K01",
+      "reason": "answer=仍然等高，explanation說連通管與管徑無關靜止液面等高，直接對應K01"
+    },
+    {
+      "idx": 25,
+      "scenario": "【植物連結時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K03",
+      "reason": "explanation說細胞間隙與木質部形成細小通道類似毛細，answer=毛細與蒸散等作用，對應毛細現象細縫條件的生活延伸K03"
+    },
+    {
+      "idx": 26,
+      "scenario": "【比較三現象時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K07",
+      "reason": "answer=連通管原理，explanation說連通管強調底部連通與液面等高，考三現象分類辨別K07"
+    },
+    {
+      "idx": 27,
+      "scenario": "【實驗紀錄時】",
+      "matched": false,
+      "kaodian_id": null,
+      "reason": "answer=浸入深度與時間一致，考控制變因概念（科學方法），非L2水移動三現象考點，保守判定不對應"
+    },
+    {
+      "idx": 28,
+      "scenario": "【故障排除時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "answer=管內進入空氣，explanation說氣泡破壞連續水柱重力鏈中斷，直接對應K06虹吸排氣條件"
+    },
+    {
+      "idx": 29,
+      "scenario": "【生活連結時】",
+      "matched": true,
+      "kaodian_id": "康軒L2-K06",
+      "reason": "answer=液面高低差與重力，explanation說虹吸由重力驅動出口要低，對應K06虹吸高低差條件"
+    }
+  ]
+}

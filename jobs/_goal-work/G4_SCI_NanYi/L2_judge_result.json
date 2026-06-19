@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "source_knowledge": "knowledge/1_課綱研究/自然/四下/南一/KL4_四下_南一_L2_神奇的電力_考古題與討論.md",
+    "source_questions": "jobs/_goal-work/G4_SCI_NanYi/L2_full.json",
+    "judge_date": "2026-06-19",
+    "judge_policy": "保守判定：考點需在考古題文件有直接或明確對應"
+  },
+  "keypoints": [
+    {"id": "南一L2-K01", "label": "封閉迴路（電流需形成完整迴路，燈泡才會亮）"},
+    {"id": "南一L2-K02", "label": "電流方向（從正極流出，經元件回到負極）"},
+    {"id": "南一L2-K03", "label": "串聯特性（一條路徑，一處斷路全滅，亮度較暗）"},
+    {"id": "南一L2-K04", "label": "並聯特性（多條路徑，一支路斷路不影響其他，亮度較亮）"},
+    {"id": "南一L2-K05", "label": "短路（直接接正負極，電流過大，電池過熱）"},
+    {"id": "南一L2-K06", "label": "導體與絕緣體分類（金屬為導體，塑膠為絕緣體，含實驗操作與液體延伸）"},
+    {"id": "南一L2-K07", "label": "開關功能（控制迴路閉合，決定燈泡亮或不亮）"},
+    {"id": "南一L2-K08", "label": "用電安全（濕手觸電風險、短路危險）"}
+  ],
+  "results": [
+    {"idx": 0, "scenario_summary": "封閉迴路讓燈泡發光", "matched_keypoints": ["南一L2-K01"], "matched": true, "reason": "核心考點：封閉迴路必要性，與考古題型A直接對應"},
+    {"idx": 1, "scenario_summary": "電流從正極流出回到負極", "matched_keypoints": ["南一L2-K02"], "matched": true, "reason": "電流方向，與考古題型C（電池極性）及文件討論對應"},
+    {"idx": 2, "scenario_summary": "串聯一處斷全滅且較暗", "matched_keypoints": ["南一L2-K03"], "matched": true, "reason": "串聯特性，與考古題型D（串聯較暗）及文件§2.2對應"},
+    {"idx": 3, "scenario_summary": "並聯一支路斷另一路仍亮", "matched_keypoints": ["南一L2-K04"], "matched": true, "reason": "並聯特性（獨立支路），與考古題型D及文件§2.2對應"},
+    {"idx": 4, "scenario_summary": "短路電流過大電池過熱", "matched_keypoints": ["南一L2-K05"], "matched": true, "reason": "短路，與考古題文件§2.3直接對應"},
+    {"idx": 5, "scenario_summary": "迴紋針vs塑膠尺導絕緣", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "導體絕緣體分類，與考古題型B直接對應"},
+    {"idx": 6, "scenario_summary": "液體不一定全部導電（蒸餾水）", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "導體絕緣體延伸（液體導電判斷），屬K06範疇"},
+    {"idx": 7, "scenario_summary": "開關控制迴路閉合", "matched_keypoints": ["南一L2-K07"], "matched": true, "reason": "開關功能，考古題文件有開關接入電路的討論"},
+    {"idx": 8, "scenario_summary": "燈泡不亮電池發燙→短路", "matched_keypoints": ["南一L2-K05"], "matched": true, "reason": "短路症狀判斷，與考古題型C（故障排除）及文件§2.3對應"},
+    {"idx": 9, "scenario_summary": "濕手觸電風險", "matched_keypoints": ["南一L2-K08"], "matched": true, "reason": "用電安全，文件§2.3提及家用電路短路火災風險，同屬安全範疇"},
+    {"idx": 10, "scenario_summary": "串聯燈泡電壓較小通常較暗", "matched_keypoints": ["南一L2-K03", "南一L2-K04"], "matched": true, "reason": "串並聯亮度比較，與考古題型D直接對應"},
+    {"idx": 11, "scenario_summary": "導體測試操作步驟（串入電路觀察燈泡）", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "導體絕緣體實驗操作，與考古題型B的實驗背景對應"},
+    {"idx": 12, "scenario_summary": "電路圖選可行接法（完整路徑）", "matched_keypoints": ["南一L2-K01"], "matched": true, "reason": "封閉迴路判讀，與考古題型A直接對應"},
+    {"idx": 13, "scenario_summary": "電線外皮絕緣材質避免觸電", "matched_keypoints": ["南一L2-K06", "南一L2-K08"], "matched": true, "reason": "絕緣體功能與安全，K06+K08雙重對應"},
+    {"idx": 14, "scenario_summary": "電池串聯總電壓增加燈泡可能更亮", "matched_keypoints": [], "matched": false, "reason": "電池串聯增壓非考古題文件考點（文件討論燈泡串並聯，非電池串聯），保守判定不對應"},
+    {"idx": 15, "scenario_summary": "串聯燈泡電壓較小通常較暗（同idx10）", "matched_keypoints": ["南一L2-K03", "南一L2-K04"], "matched": true, "reason": "與idx10相同考點"},
+    {"idx": 16, "scenario_summary": "導體測試操作步驟（同idx11）", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "與idx11相同考點"},
+    {"idx": 17, "scenario_summary": "電路圖完整路徑（同idx12）", "matched_keypoints": ["南一L2-K01"], "matched": true, "reason": "與idx12相同考點"},
+    {"idx": 18, "scenario_summary": "電線外皮絕緣（同idx13）", "matched_keypoints": ["南一L2-K06", "南一L2-K08"], "matched": true, "reason": "與idx13相同考點"},
+    {"idx": 19, "scenario_summary": "電池串聯電壓增加（同idx14）", "matched_keypoints": [], "matched": false, "reason": "同idx14，電池串聯增壓不在考古題考點範圍"},
+    {"idx": 20, "scenario_summary": "串聯燈泡較暗（同idx10/15）", "matched_keypoints": ["南一L2-K03", "南一L2-K04"], "matched": true, "reason": "與idx10相同考點"},
+    {"idx": 21, "scenario_summary": "導體測試步驟（同idx11/16）", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "與idx11相同考點"},
+    {"idx": 22, "scenario_summary": "電路圖完整路徑（同idx12/17）", "matched_keypoints": ["南一L2-K01"], "matched": true, "reason": "與idx12相同考點"},
+    {"idx": 23, "scenario_summary": "電線外皮絕緣（同idx13/18）", "matched_keypoints": ["南一L2-K06", "南一L2-K08"], "matched": true, "reason": "與idx13相同考點"},
+    {"idx": 24, "scenario_summary": "電池串聯電壓增加（同idx14/19）", "matched_keypoints": [], "matched": false, "reason": "同idx14，電池串聯增壓不在考古題考點範圍"},
+    {"idx": 25, "scenario_summary": "串聯燈泡較暗（同idx10/15/20）", "matched_keypoints": ["南一L2-K03", "南一L2-K04"], "matched": true, "reason": "與idx10相同考點"},
+    {"idx": 26, "scenario_summary": "導體測試步驟（同idx11/16/21）", "matched_keypoints": ["南一L2-K06"], "matched": true, "reason": "與idx11相同考點"},
+    {"idx": 27, "scenario_summary": "電路圖完整路徑（同idx12/17/22）", "matched_keypoints": ["南一L2-K01"], "matched": true, "reason": "與idx12相同考點"},
+    {"idx": 28, "scenario_summary": "電線外皮絕緣（同idx13/18/23）", "matched_keypoints": ["南一L2-K06", "南一L2-K08"], "matched": true, "reason": "與idx13相同考點"},
+    {"idx": 29, "scenario_summary": "電池串聯電壓增加（同idx14/19/24）", "matched_keypoints": [], "matched": false, "reason": "同idx14，電池串聯增壓不在考古題考點範圍"}
+  ],
+  "summary": {
+    "total": 30,
+    "matched": 26,
+    "not_matched": 4,
+    "not_matched_idx": [14, 19, 24, 29],
+    "not_matched_reason": "idx 14/19/24/29 均為【進階操作】電池串聯讓燈泡更亮，考古題文件考點為燈泡串並聯亮度比較（K03/K04），未涵蓋電池串聯增壓此一延伸概念，保守判定不對應"
+  }
+}

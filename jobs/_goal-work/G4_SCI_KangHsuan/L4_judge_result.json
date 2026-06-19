@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "source_knowledge": "knowledge/1_課綱研究/自然/四下/康軒/KL4_四下_康軒_L4_自然資源與利用_考古題與討論.md",
+    "source_questions": "jobs/_goal-work/G4_SCI_KangHsuan/L4_full.json",
+    "judge_date": "2026-06-19",
+    "judge_policy": "保守判定：題目內容與考古考點直接呼應才算對應，邊緣或間接相關一律不對應"
+  },
+  "key_points": [
+    { "id": "康軒L4-K01", "label": "可再生能源辨識", "desc": "太陽能為可再生，石油/煤炭/天然氣為不可再生" },
+    { "id": "康軒L4-K02", "label": "天然≠可再生迷思", "desc": "天然氣名稱含「天然」但屬不可再生，學生易受語詞誤導" },
+    { "id": "康軒L4-K03", "label": "再利用vs回收定義區分", "desc": "回收=送工廠重新加工；再利用=不經工廠直接改變用途" },
+    { "id": "康軒L4-K04", "label": "節能措施判斷", "desc": "搭大眾運輸等具體節能行為的辨識" },
+    { "id": "康軒L4-K05", "label": "不可再生能源的有限性", "desc": "石油/化石燃料形成需百萬年，消耗速度遠快於形成速度" },
+    { "id": "康軒L4-K06", "label": "廢電池特殊回收處理", "desc": "廢電池含重金屬，需特殊處理，不能任意丟棄" },
+    { "id": "康軒L4-K07", "label": "化石燃料形成時間尺度", "desc": "地質時間尺度（數百萬年）vs 人類消耗速度" }
+  ],
+  "results": [
+    { "idx": 0, "matched": true, "key_point_id": "康軒L4-K01", "reason": "選項為石油/太陽能/煤炭/天然氣，答案太陽能，直接對應可再生能源辨識" },
+    { "idx": 1, "matched": false, "key_point_id": null, "reason": "內容為節能減緩溫室效應的說法判斷，考古無此角度的考點，保守不對應" },
+    { "idx": 2, "matched": false, "key_point_id": null, "reason": "並聯電路電壓，屬電學主題，與L4自然資源無關" },
+    { "idx": 3, "matched": true, "key_point_id": "康軒L4-K06", "reason": "廢電池需拿到回收站，說明含重金屬需特殊處理，直接對應K06" },
+    { "idx": 4, "matched": true, "key_point_id": "康軒L4-K05", "reason": "說明許多資源有限須節約利用，直接對應不可再生有限性考點" },
+    { "idx": 5, "matched": false, "key_point_id": null, "reason": "砂糖溶解，屬溶解主題，與L4無關" },
+    { "idx": 6, "matched": false, "key_point_id": null, "reason": "加速溶解方法，屬溶解主題，與L4無關" },
+    { "idx": 7, "matched": false, "key_point_id": null, "reason": "飽和溶解，屬溶解主題，與L4無關" },
+    { "idx": 8, "matched": false, "key_point_id": null, "reason": "酸鹼反應，與L4無關" },
+    { "idx": 9, "matched": false, "key_point_id": null, "reason": "麵粉溶解，屬溶解主題，與L4無關" },
+    { "idx": 10, "matched": false, "key_point_id": null, "reason": "金屬導熱，屬熱傳導主題，與L4無關" },
+    { "idx": 11, "matched": false, "key_point_id": null, "reason": "界面活性劑，與L4無關" },
+    { "idx": 12, "matched": false, "key_point_id": null, "reason": "蘋果褐變化學變化，與L4無關" },
+    { "idx": 13, "matched": false, "key_point_id": null, "reason": "隔水加熱，與L4無關" },
+    { "idx": 14, "matched": false, "key_point_id": null, "reason": "發粉產生氣體，與L4無關" },
+    { "idx": 15, "matched": true, "key_point_id": "康軒L4-K01", "reason": "能源分類，太陽能為可再生，直接對應K01" },
+    { "idx": 16, "matched": true, "key_point_id": "康軒L4-K07", "reason": "化石燃料形成需極長地質時間，直接對應K07/K05時間尺度考點" },
+    { "idx": 17, "matched": true, "key_point_id": "康軒L4-K04", "reason": "居家節能，減少不必要電能消耗，直接對應節能措施K04" },
+    { "idx": 18, "matched": true, "key_point_id": "康軒L4-K03", "reason": "資源回收（Recycle）送回收站，對應回收定義K03" },
+    { "idx": 19, "matched": false, "key_point_id": null, "reason": "四R排序Reduce優先於回收，考古題未涉及此層次，保守不對應" },
+    { "idx": 20, "matched": false, "key_point_id": null, "reason": "自然環境系統資源概念，考古無直接對應考點" },
+    { "idx": 21, "matched": true, "key_point_id": "康軒L4-K01", "reason": "風力vs煤炭，風力較少燃燒化石燃料，對應可再生能源應用K01" },
+    { "idx": 22, "matched": false, "key_point_id": null, "reason": "節水習慣，考古考點為節能（電/交通），節水非直接對應，保守不對應" },
+    { "idx": 23, "matched": true, "key_point_id": "康軒L4-K03", "reason": "同物品換用途屬再利用（Reuse），直接對應K03再利用定義" },
+    { "idx": 24, "matched": false, "key_point_id": null, "reason": "燃燒排放溫室氣體，考古核心為有限性而非排放效應，保守不對應" },
+    { "idx": 25, "matched": true, "key_point_id": "康軒L4-K06", "reason": "廢電池可能含有害物質，直接對應K06廢電池特殊處理" },
+    { "idx": 26, "matched": true, "key_point_id": "康軒L4-K01", "reason": "水力發電為可再生能源應用，直接對應K01" },
+    { "idx": 27, "matched": false, "key_point_id": null, "reason": "自備環保餐具源頭減量，考古無此直接考點" },
+    { "idx": 28, "matched": false, "key_point_id": null, "reason": "再生能源受天氣條件影響，考古無此考點" },
+    { "idx": 29, "matched": true, "key_point_id": "康軒L4-K05", "reason": "資源有限需珍惜，直接對應K05不可再生有限性" }
+  ],
+  "summary": {
+    "total": 30,
+    "matched": 12,
+    "not_matched": 18,
+    "matched_idx": [0, 3, 4, 15, 16, 17, 18, 21, 23, 25, 26, 29],
+    "not_matched_idx": [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 19, 20, 22, 24, 27, 28]
+  }
+}

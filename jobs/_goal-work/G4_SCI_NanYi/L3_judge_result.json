@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "source_knowledge": "knowledge/1_課綱研究/自然/四下/南一/KL4_四下_南一_L3_水的移動_考古題與討論.md",
+    "source_questions": "jobs/_goal-work/G4_SCI_NanYi/L3_full.json",
+    "judged_at": "2026-06-19",
+    "judge": "Claude Code (claude-sonnet-4-6)",
+    "method": "保守判定：題目 scenario 核心概念需明確對應考點，才標對應"
+  },
+  "keypoints": [
+    {"id": "南一L3-K01", "desc": "毛細現象：定義（材料有細小孔隙/縫隙，水沿孔隙移動）"},
+    {"id": "南一L3-K02", "desc": "毛細現象：材質判斷（紙/布有孔隙 vs 玻璃/金屬光滑致密無孔隙）"},
+    {"id": "南一L3-K03", "desc": "連通管原理：底部連通靜止時液面等高（與管粗細無關）"},
+    {"id": "南一L3-K04", "desc": "連通管生活例子：茶壺壺嘴與壺身水面等高"},
+    {"id": "南一L3-K05", "desc": "虹吸現象：條件（管內充滿水 + 出水端低於入水端水面）"},
+    {"id": "南一L3-K06", "desc": "虹吸生活例子：魚缸換水、水越過容器邊緣流向低處"},
+    {"id": "南一L3-K07", "desc": "三者區辨：毛細 vs 連通管 vs 虹吸的概念差異與混淆辨析"},
+    {"id": "南一L3-K08", "desc": "毛細實驗設計：對照實驗（固定其他變因，比較孔隙粗細影響）"}
+  ],
+  "results": [
+    {"idx": 0, "scenario_summary": "衛生紙浸有色水→毛細定義", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 1, "scenario_summary": "連通管裝置粗細不同管靜止液面", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 2, "scenario_summary": "茶壺壺嘴與壺身液面等高", "matched_keypoints": ["南一L3-K04"], "matched": true},
+    {"idx": 3, "scenario_summary": "魚缸換水虹吸條件", "matched_keypoints": ["南一L3-K05", "南一L3-K06"], "matched": true},
+    {"idx": 4, "scenario_summary": "報紙 vs 鋁箔紙毛細材質比較", "matched_keypoints": ["南一L3-K02"], "matched": true},
+    {"idx": 5, "scenario_summary": "連通管 vs 虹吸概念辨析", "matched_keypoints": ["南一L3-K07"], "matched": true},
+    {"idx": 6, "scenario_summary": "毛巾吸汗→毛細纖維擴散", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 7, "scenario_summary": "孔隙粗細影響毛細高度→實驗設計", "matched_keypoints": ["南一L3-K08"], "matched": true},
+    {"idx": 8, "scenario_summary": "自動澆水器：虹吸+土壤毛細", "matched_keypoints": ["南一L3-K05", "南一L3-K01"], "matched": true},
+    {"idx": 9, "scenario_summary": "玻璃板無孔隙不毛細", "matched_keypoints": ["南一L3-K02"], "matched": true},
+    {"idx": 10, "scenario_summary": "分類題選出連通管（U形管液面等高）", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 11, "scenario_summary": "虹吸失敗診斷（水流停止）", "matched_keypoints": ["南一L3-K05"], "matched": true},
+    {"idx": 12, "scenario_summary": "跨領域：毛細與木質部細管聯想", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 13, "scenario_summary": "連通管傾斜後液面仍等高", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 14, "scenario_summary": "例子分類：吸管喝飲料非毛細", "matched_keypoints": ["南一L3-K07"], "matched": true},
+    {"idx": 15, "scenario_summary": "分類題選出連通管（U形管）", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 16, "scenario_summary": "虹吸失敗診斷", "matched_keypoints": ["南一L3-K05"], "matched": true},
+    {"idx": 17, "scenario_summary": "跨領域：毛細與木質部", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 18, "scenario_summary": "連通管傾斜液面等高", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 19, "scenario_summary": "例子分類：吸管非毛細", "matched_keypoints": ["南一L3-K07"], "matched": true},
+    {"idx": 20, "scenario_summary": "分類題選出連通管", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 21, "scenario_summary": "虹吸失敗診斷", "matched_keypoints": ["南一L3-K05"], "matched": true},
+    {"idx": 22, "scenario_summary": "跨領域：毛細與木質部", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 23, "scenario_summary": "連通管傾斜液面等高", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 24, "scenario_summary": "例子分類：吸管非毛細", "matched_keypoints": ["南一L3-K07"], "matched": true},
+    {"idx": 25, "scenario_summary": "分類題選出連通管", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 26, "scenario_summary": "虹吸失敗診斷", "matched_keypoints": ["南一L3-K05"], "matched": true},
+    {"idx": 27, "scenario_summary": "跨領域：毛細與木質部", "matched_keypoints": ["南一L3-K01"], "matched": true},
+    {"idx": 28, "scenario_summary": "連通管傾斜液面等高", "matched_keypoints": ["南一L3-K03"], "matched": true},
+    {"idx": 29, "scenario_summary": "例子分類：吸管非毛細", "matched_keypoints": ["南一L3-K07"], "matched": true}
+  ],
+  "summary": {
+    "total": 30,
+    "matched": 30,
+    "not_matched": 0
+  }
+}

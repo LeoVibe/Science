@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "source_knowledge": "knowledge/1_課綱研究/自然/四下/康軒/KL4_四下_康軒_L3_昆蟲家族_考古題與討論.md",
+    "source_questions": "jobs/_goal-work/G4_SCI_KangHsuan/L3_full.json",
+    "judge_date": "2026-06-19",
+    "judge_policy": "保守判定：考點需直接對應考古題檔案中明確列出的考點，邊緣或考古題未涵蓋的概念判為不對應"
+  },
+  "keypoints": [
+    {"id": "康軒L3-K01", "desc": "昆蟲三大特徵：頭胸腹三段、六隻腳、一對觸角"},
+    {"id": "康軒L3-K02", "desc": "昆蟲辨識：用特徵條件（足數、身體分段）判斷是否為昆蟲"},
+    {"id": "康軒L3-K03", "desc": "蜘蛛非昆蟲：8足、2段、無觸角，屬蛛形綱"},
+    {"id": "康軒L3-K04", "desc": "完全變態：卵→幼蟲→蛹→成蟲（蝴蝶、蚊子為例）"},
+    {"id": "康軒L3-K05", "desc": "不完全變態：卵→若蟲→成蟲、無蛹期（蝗蟲、蟋蟀為例）"},
+    {"id": "康軒L3-K06", "desc": "若蟲 vs 幼蟲：若蟲外觀似成蟲、幼蟲外觀與成蟲差異大"},
+    {"id": "康軒L3-K07", "desc": "觸角功能：感覺（嗅覺、觸覺）與探測"},
+    {"id": "康軒L3-K08", "desc": "翅膀非必要條件：昆蟲判斷以頭胸腹六足觸角為主"}
+  ],
+  "results": [
+    {"idx": 0, "scenario": "空氣佔有空間實驗", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 1, "scenario": "壓縮空氣實驗", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 2, "scenario": "大氣壓力的展現", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 3, "scenario": "蠟燭燃燒實驗", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 4, "scenario": "測量降雨量", "match": false, "keypoints": [], "reason": "天氣主題，與昆蟲L3無關"},
+    {"idx": 5, "scenario": "雨量計的選擇", "match": false, "keypoints": [], "reason": "天氣主題，與昆蟲L3無關"},
+    {"idx": 6, "scenario": "噴霧器的原理", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 7, "scenario": "被壓縮的球", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 8, "scenario": "分析空氣組成", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 9, "scenario": "生活中的空氣應用", "match": false, "keypoints": [], "reason": "空氣主題，與昆蟲L3無關"},
+    {"idx": 10, "scenario": "【課堂探究時】昆蟲身體分段", "match": true, "keypoints": ["康軒L3-K01"], "reason": "昆蟲頭胸腹三段構造，正解為頭、胸、腹，直接對應K01"},
+    {"idx": 11, "scenario": "【課堂探究時】完全變態說法判斷", "match": true, "keypoints": ["康軒L3-K04"], "reason": "說明卵幼蟲蛹成蟲四階段屬完全變態，直接對應K04"},
+    {"idx": 12, "scenario": "【課堂探究時】昆蟲翅膀數量", "match": false, "keypoints": [], "reason": "考點為翅膀對數（兩對），考古題未涵蓋此細節，保守判不對應"},
+    {"idx": 13, "scenario": "【課堂探究時】社會性昆蟲", "match": false, "keypoints": [], "reason": "螞蟻社會分工，考古題未涵蓋昆蟲社會行為考點"},
+    {"idx": 14, "scenario": "【課堂探究時】蜘蛛非昆蟲判斷", "match": true, "keypoints": ["康軒L3-K03"], "reason": "蜘蛛屬蛛形綱非昆蟲（六隻腳），直接對應K03"},
+    {"idx": 15, "scenario": "【標本觀察時】昆蟲頭胸腹", "match": true, "keypoints": ["康軒L3-K01"], "reason": "昆蟲典型頭胸腹三段體，直接對應K01"},
+    {"idx": 16, "scenario": "【數腳活動時】昆蟲足數", "match": true, "keypoints": ["康軒L3-K01"], "reason": "昆蟲三對足共六隻，直接對應K01"},
+    {"idx": 17, "scenario": "【圖卡分類時】蜘蛛非昆蟲", "match": true, "keypoints": ["康軒L3-K03"], "reason": "蜘蛛八隻腳不符昆蟲特徵，直接對應K03"},
+    {"idx": 18, "scenario": "【觸角功能時】觸角功能", "match": true, "keypoints": ["康軒L3-K07"], "reason": "觸角具嗅覺觸覺等感覺功能，直接對應K07"},
+    {"idx": 19, "scenario": "【變態比較時】完全變態蛹期", "match": true, "keypoints": ["康軒L3-K04"], "reason": "完全變態卵幼蟲蛹成蟲，直接對應K04"},
+    {"idx": 20, "scenario": "【蝴蝶飼養時】幼蟲與成蟲形態差異", "match": true, "keypoints": ["康軒L3-K06"], "reason": "完全變態幼蟲與成蟲形態差異大，直接對應K06"},
+    {"idx": 21, "scenario": "【蝗蟲觀察時】不完全變態若蟲", "match": true, "keypoints": ["康軒L3-K05"], "reason": "不完全變態卵若蟲成蟲無蛹期，直接對應K05"},
+    {"idx": 22, "scenario": "【記錄單填寫時】蚊子完全變態", "match": true, "keypoints": ["康軒L3-K04"], "reason": "蚊子有幼期與蛹期屬完全變態，直接對應K04"},
+    {"idx": 23, "scenario": "【翅膀討論時】翅膀非必要條件", "match": true, "keypoints": ["康軒L3-K08"], "reason": "昆蟲判斷以頭胸腹六足觸角為主，翅膀不是必要條件，直接對應K08"},
+    {"idx": 24, "scenario": "【比較蟋蟀與甲蟲時】蟋蟀無蛹期", "match": true, "keypoints": ["康軒L3-K05"], "reason": "蟋蟀不完全變態沒有蛹，直接對應K05"},
+    {"idx": 25, "scenario": "【戶外觀察時】生態倫理", "match": false, "keypoints": [], "reason": "尊重生命輕柔觀察，考古題未涵蓋此倫理考點"},
+    {"idx": 26, "scenario": "【圖鑑查詢時】昆蟲特徵辨識", "match": true, "keypoints": ["康軒L3-K02"], "reason": "六足頭胸腹觸角組合判斷是否為昆蟲，直接對應K02"},
+    {"idx": 27, "scenario": "【飼養記錄時】完全變態順序錯誤識別", "match": true, "keypoints": ["康軒L3-K04"], "reason": "蛹後不回到幼蟲，正確順序為卵幼蟲蛹成蟲，直接對應K04"},
+    {"idx": 28, "scenario": "【名詞辨析時】若蟲外觀", "match": true, "keypoints": ["康軒L3-K06"], "reason": "若蟲外型近似成蟲，直接對應K06"},
+    {"idx": 29, "scenario": "【生態思考時】昆蟲生態角色", "match": false, "keypoints": [], "reason": "昆蟲屬消費者，考古題未涵蓋生態角色考點"}
+  ],
+  "summary": {
+    "total": 30,
+    "match": 16,
+    "no_match": 14,
+    "match_indices": [10,11,14,15,16,17,18,19,20,21,22,23,24,26,27,28],
+    "no_match_indices": [0,1,2,3,4,5,6,7,8,9,12,13,25,29]
+  }
+}

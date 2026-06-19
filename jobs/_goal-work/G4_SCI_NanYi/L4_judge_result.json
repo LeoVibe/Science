@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "source_knowledge": "KL4_四下_南一_L4_星空_考古題與討論.md",
+    "source_questions": "L4_full.json",
+    "judged_at": "2026-06-19",
+    "judge_policy": "保守判定：考點必須與考古題直接對應的核心概念才算對應，邊緣相關不算"
+  },
+  "keypoints": [
+    { "id": "南一L4-K01", "desc": "利用北斗七星斗口延伸約五倍距離找北極星" },
+    { "id": "南一L4-K02", "desc": "月相成因——月球繞地球公轉，看到照亮面比例改變（非地球影子、非自己發光）" },
+    { "id": "南一L4-K03", "desc": "獵戶座是冬季代表星座" },
+    { "id": "南一L4-K04", "desc": "星座本質——人為把看起來靠近的星星連線，同一星座星星實際距離遠近差異大" },
+    { "id": "南一L4-K05", "desc": "北極星亮度普通（約2等星），並非夜空最亮恆星" },
+    { "id": "南一L4-K06", "desc": "月相 vs 月食區分——月食才是地球影子造成的特殊事件，月相是日常規律變化" },
+    { "id": "南一L4-K07", "desc": "季節星座差異——地球公轉造成夜晚面向星空方向改變" },
+    { "id": "南一L4-K08", "desc": "地球自轉造成星體東升西落的日週視運動" }
+  ],
+  "judgments": [
+    {
+      "idx": 0,
+      "scenario": "【觀星活動】老師介紹北方天空可利用勺形星群尋找指北參考星。",
+      "mapped_keypoints": ["南一L4-K01"],
+      "verdict": "對應",
+      "reason": "scenario提到勺形星群（北斗七星）找指北參考星（北極星），正解為北極星，直接對應K01"
+    },
+    {
+      "idx": 1,
+      "scenario": "【冬季觀星】獵戶座腰帶三顆星排列整齊，是辨識熱點。",
+      "mapped_keypoints": ["南一L4-K04"],
+      "verdict": "對應",
+      "reason": "正解為星座是人為劃分區域、星星實際距離遠近差異大，直接對應K04星座本質迷思"
+    },
+    {
+      "idx": 2,
+      "scenario": "【月相日記】連續觀察同一時段月亮外形由缺變圓再變缺。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "正解為月球繞地球公轉、看到照亮面比例改變，錯誤選項含地球影子迷思，直接對應K02"
+    },
+    {
+      "idx": 3,
+      "scenario": "【排序練習】把眉月、上弦月、滿月、下弦月排成一周期的合理順序。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "月相週期排序屬於月相成因理解的延伸應用，與K02月相概念相關；考古題題型B亦討論月相變化規律"
+    },
+    {
+      "idx": 4,
+      "scenario": "【北極星討論】小芸說北極星是全天最亮恒星。",
+      "mapped_keypoints": ["南一L4-K05"],
+      "verdict": "對應",
+      "reason": "正解指出北極星亮度普通，天狼星等更亮，直接對應K05"
+    },
+    {
+      "idx": 5,
+      "scenario": "【季節觀星】同一時刻、同一地點，秋冬與春夏看到的星座有差異。",
+      "mapped_keypoints": ["南一L4-K07"],
+      "verdict": "對應",
+      "reason": "正解為地球公轉使夜晚面向星空方向改變，直接對應K07"
+    },
+    {
+      "idx": 6,
+      "scenario": "【同一天夜晚】同學發現星座位置慢慢東升西移。",
+      "mapped_keypoints": ["南一L4-K07", "南一L4-K08"],
+      "verdict": "對應",
+      "reason": "正解區分同一晚（地球自轉）與季節差異（地球公轉），對應K08（自轉日週運動）與K07（公轉季節星座）"
+    },
+    {
+      "idx": 7,
+      "scenario": "【仙后座】呈現 W 或 M 形排列，常作為北極星另一側的尋找標誌。",
+      "mapped_keypoints": [],
+      "verdict": "不對應",
+      "reason": "仙后座形狀與用途在考古題中未出現，屬延伸知識點，保守判定不對應"
+    },
+    {
+      "idx": 8,
+      "scenario": "【觀測高度角】用簡易高度角觀測概念討論月亮或星星的高度。",
+      "mapped_keypoints": [],
+      "verdict": "不對應",
+      "reason": "北極星仰角等於緯度的知識點在考古題中未出現，屬延伸天文知識，保守判定不對應"
+    },
+    {
+      "idx": 9,
+      "scenario": "【月食新聞】報導月全食時月亮變暗紅。",
+      "mapped_keypoints": ["南一L4-K06"],
+      "verdict": "對應",
+      "reason": "正解明確區分月食（地球影子特殊事件）與月相（日常照亮面比例變化），直接對應K06"
+    },
+    {
+      "idx": 10,
+      "scenario": "【星座圖卡】對照課本插圖。",
+      "mapped_keypoints": ["南一L4-K04"],
+      "verdict": "對應",
+      "reason": "正解為北斗七星是大熊座一部分星群，涉及星座辨識與星座本質（非完整等同），對應K04星座概念"
+    },
+    {
+      "idx": 11,
+      "scenario": "【季節提問】連結公轉與觀測時段。",
+      "mapped_keypoints": ["南一L4-K03", "南一L4-K07"],
+      "verdict": "對應",
+      "reason": "正解指出獵戶座在冬季夜晚較易觀察、地球公轉面向不同星空，對應K03與K07"
+    },
+    {
+      "idx": 12,
+      "scenario": "【月相圖】判讀亮面方向與時段。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "上弦月亮面方向判讀屬月相知識應用，錯誤選項含月食混淆，對應K02（月相理解）"
+    },
+    {
+      "idx": 13,
+      "scenario": "【長時間曝光照片討論】",
+      "mapped_keypoints": ["南一L4-K08"],
+      "verdict": "對應",
+      "reason": "正解為地球自轉造成天體視位置改變（星跡），直接對應K08"
+    },
+    {
+      "idx": 14,
+      "scenario": "【是非迷思改寫成四選一】選出錯誤說法。",
+      "mapped_keypoints": ["南一L4-K02", "南一L4-K04"],
+      "verdict": "對應",
+      "reason": "正解（錯誤說法）為月亮自己發光，對應K02月亮不自己發光的概念；其餘干擾選項涉及K04星座概念"
+    },
+    {
+      "idx": 15,
+      "scenario": "【星座圖卡】對照課本插圖。",
+      "mapped_keypoints": ["南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 10，北斗七星是大熊座一部分，對應K04星座概念（選項順序不同但題意相同）"
+    },
+    {
+      "idx": 16,
+      "scenario": "【季節提問】連結公轉與觀測時段。",
+      "mapped_keypoints": ["南一L4-K03", "南一L4-K07"],
+      "verdict": "對應",
+      "reason": "同idx 11，選項順序不同但題意相同，對應K03與K07"
+    },
+    {
+      "idx": 17,
+      "scenario": "【月相圖】判讀亮面方向與時段。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "同idx 12，選項順序不同但題意相同，對應K02"
+    },
+    {
+      "idx": 18,
+      "scenario": "【長時間曝光照片討論】",
+      "mapped_keypoints": ["南一L4-K08"],
+      "verdict": "對應",
+      "reason": "同idx 13，選項順序不同但題意相同，對應K08"
+    },
+    {
+      "idx": 19,
+      "scenario": "【是非迷思改寫成四選一】選出錯誤說法。",
+      "mapped_keypoints": ["南一L4-K02", "南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 14，選項順序不同但題意相同，對應K02與K04"
+    },
+    {
+      "idx": 20,
+      "scenario": "【星座圖卡】對照課本插圖。",
+      "mapped_keypoints": ["南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 10/15，對應K04"
+    },
+    {
+      "idx": 21,
+      "scenario": "【季節提問】連結公轉與觀測時段。",
+      "mapped_keypoints": ["南一L4-K03", "南一L4-K07"],
+      "verdict": "對應",
+      "reason": "同idx 11/16，對應K03與K07"
+    },
+    {
+      "idx": 22,
+      "scenario": "【月相圖】判讀亮面方向與時段。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "同idx 12/17，對應K02"
+    },
+    {
+      "idx": 23,
+      "scenario": "【長時間曝光照片討論】",
+      "mapped_keypoints": ["南一L4-K08"],
+      "verdict": "對應",
+      "reason": "同idx 13/18，對應K08"
+    },
+    {
+      "idx": 24,
+      "scenario": "【是非迷思改寫成四選一】選出錯誤說法。",
+      "mapped_keypoints": ["南一L4-K02", "南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 14/19，對應K02與K04"
+    },
+    {
+      "idx": 25,
+      "scenario": "【星座圖卡】對照課本插圖。",
+      "mapped_keypoints": ["南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 10/15/20，對應K04"
+    },
+    {
+      "idx": 26,
+      "scenario": "【季節提問】連結公轉與觀測時段。",
+      "mapped_keypoints": ["南一L4-K03", "南一L4-K07"],
+      "verdict": "對應",
+      "reason": "同idx 11/16/21，對應K03與K07"
+    },
+    {
+      "idx": 27,
+      "scenario": "【月相圖】判讀亮面方向與時段。",
+      "mapped_keypoints": ["南一L4-K02"],
+      "verdict": "對應",
+      "reason": "同idx 12/17/22，對應K02"
+    },
+    {
+      "idx": 28,
+      "scenario": "【長時間曝光照片討論】",
+      "mapped_keypoints": ["南一L4-K08"],
+      "verdict": "對應",
+      "reason": "同idx 13/18/23，對應K08"
+    },
+    {
+      "idx": 29,
+      "scenario": "【是非迷思改寫成四選一】選出錯誤說法。",
+      "mapped_keypoints": ["南一L4-K02", "南一L4-K04"],
+      "verdict": "對應",
+      "reason": "同idx 14/19/24，對應K02與K04"
+    }
+  ],
+  "summary": {
+    "total": 30,
+    "matched": 28,
+    "not_matched": 2,
+    "not_matched_idx": [7, 8],
+    "not_matched_reason": "idx 7（仙后座辨識）與 idx 8（北極星仰角等於緯度）均為考古題未涵蓋的延伸知識點，保守判定不對應"
+  }
+}
