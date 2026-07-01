@@ -11,42 +11,16 @@
   },
   "questions": [
     {
-      "taxonomy": "inferential",
-      "scenario": "討論家鄉新增一條快速道路的影響",
-      "question": "家鄉通往大城市的快速道路完工後，居民的生活產生了許多變化。下列哪一項最不符合「交通進步」帶來的直接影響？",
-      "options": [
-        "讓家鄉的人都一定會變得很富有",
-        "縮短往返城鄉的時間",
-        "增加商品的運送效率",
-        "促進觀光產業的發展"
-      ],
-      "answer_index": 0,
-      "explanation": "交通基礎設施能提升易達性、促進物資與人口流動，是經濟發展的催化劑。然而，「每個人都變富有」並非交通進步的直接保障或唯一結果。",
-      "commonMisconception": "學生在評估公共建設效益時，常傾向於誇大其正向效果，或將其與個人經濟狀況建立過於簡化的連結。",
-      "quality_level": "QL4",
-      "cqi_score": 8,
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
-      "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
-      "blind_evaluation": true,
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
-      "blind_verify_quality_rating": 5
-    },
-    {
       "taxonomy": "critical",
       "scenario": "【在規劃家鄉的產業發展會議時】",
       "question": "小明住在平原地區，他認為：「平原比山地好多了，因為平原土地平坦，適合蓋工廠、種水稻，山地應該沒什麼用處。」請問你如何以社會科的觀點修正他的想法？",
       "options": [
-        "小明的想法完全正確，因為山地坡度太陡，無法進行任何人類活動",
-        "平原的價值遠高於山地，所以政府應該把所有山地居民都遷到平原居住",
+        "山地雖然交通較不便，但擁有豐富的森林資源與獨特的生態環境，發展觀光或林業很有價值",
         "山地與平原的價值取決於海拔高度，海拔越高的地方，對家鄉的貢獻就越大",
-        "山地雖然交通較不便，但擁有豐富的森林資源與獨特的生態環境，發展觀光或林業很有價值"
+        "平原的價值遠高於山地，所以政府應該把所有山地居民都遷到平原居住",
+        "小明的想法完全正確，因為山地坡度太陡，無法進行任何人類活動"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "平原與山地各有不同的自然資源與生活環境，適合發展不同的產業，不存在絕對的優劣之分。",
       "commonMisconception": "學生常受「平地生活便利」的經驗影響，產生平地優於山地的價值偏見。",
       "quality_level": "QL4",
@@ -56,36 +30,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
-      "blind_verify_quality_rating": 5
-    },
-    {
-      "taxonomy": "inferential",
-      "scenario": "【在觀看一張家鄉的地形圖時】",
-      "question": "這代表該地區坡度非常陡峭，不利於興建平緩的馬路",
-      "options": [
-        "地勢非常平坦，適合大規模種植稻米",
-        "坡度非常陡峭，不利於興建平緩的馬路",
-        "該地區海拔高度較低，容易發生淹水災情",
-        "這是一個盆地地形，四周都是高山圍繞"
-      ],
-      "answer_index": 1,
-      "explanation": "等高線密集代表在水平距離很短的情況下，高度變化很大，因此坡度較陡。",
-      "commonMisconception": "學生常誤以為「線條越密集代表海拔越高」，而非代表坡度陡峭。",
-      "quality_level": "QL4",
-      "cqi_score": 8.5,
-      "blind_evaluation": true,
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
-      "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -93,9 +41,9 @@
       "scenario": "【在討論家鄉漁業發展時】",
       "question": "家鄉的海岸地形會影響漁業活動，下列關於海岸與居民生活的敘述，何者正確？",
       "options": [
+        "所有的海岸地形都是平坦的，因此漁港可以隨意蓋在任何地方",
         "無論是沙岸還是岩岸，居民捕魚的方式與使用的漁具完全相同",
         "沙岸地區海岸線平直，不適合發展任何與海洋相關的活動",
-        "所有的海岸地形都是平坦的，因此漁港可以隨意蓋在任何地方",
         "岩岸地區地形崎嶇，通常適合興建天然港灣供漁船停靠"
       ],
       "answer_index": 3,
@@ -108,10 +56,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -119,12 +67,12 @@
       "scenario": "【在認識家鄉的丘陵地形時】",
       "question": "小強想去參觀家鄉的丘陵地形，他應該往哪種類型的區域尋找，並可能看到什麼景觀？",
       "options": [
+        "去地勢極為平坦的平原區，可能會看到一望無際的稻田",
         "去起伏和緩的低矮山坡區，可能會看到成片的茶園或果園",
-        "去海拔很高、坡度極陡的山地，可能會看到大型的工廠",
         "去海岸邊的沙灘，可能會看到居民正在曬鹽",
-        "去地勢極為平坦的平原區，可能會看到一望無際的稻田"
+        "去海拔很高、坡度極陡的山地，可能會看到大型的工廠"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "丘陵的特徵是起伏和緩的低矮山坡，因為排水良好，常見茶園與果園。",
       "commonMisconception": "學生常混淆丘陵與高聳山地的定義，認為丘陵就是山。",
       "quality_level": "QL4",
@@ -134,10 +82,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -145,12 +93,12 @@
       "scenario": "【在繪製家鄉交通路線圖時】",
       "question": "如果要在山區興建一條連接兩個聚落的道路，為什麼工程師通常不會蓋成一直線，而是要讓道路彎彎曲曲的？",
       "options": [
+        "為了增加道路的長度，讓駕駛可以欣賞更多的風景",
         "為了避開山區隱藏的野生動物，減少對生態的破壞",
         "為了順應地形坡度，避免道路太陡導致車輛無法行駛",
-        "因為山區土地所有權複雜，必須繞過私人的土地",
-        "為了增加道路的長度，讓駕駛可以欣賞更多的風景"
+        "因為山區土地所有權複雜，必須繞過私人的土地"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "在山區，如果直線開路，坡度會過陡，車輛難以攀爬，因此利用彎曲路線（盤山公路）來降低坡度。",
       "commonMisconception": "學生缺乏空間概念，誤以為道路彎曲是為了觀光或單純的避障。",
       "quality_level": "QL4",
@@ -160,10 +108,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -186,10 +134,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -197,10 +145,10 @@
       "scenario": "【在觀察家鄉的地圖時】",
       "question": "如果家鄉是一片平原，居民的生活方式最可能呈現什麼樣貌？",
       "options": [
+        "聚落分布非常分散，且居民主要以採集森林資源為生",
         "因為地勢太低，居民只能住在高腳屋以防止淹水",
-        "居民只能依賴水運，因為平原地區無法興建道路",
         "聚落密集，且因為土地平坦肥沃，容易發展農耕活動",
-        "聚落分布非常分散，且居民主要以採集森林資源為生"
+        "居民只能依賴水運，因為平原地區無法興建道路"
       ],
       "answer_index": 2,
       "explanation": "平原地形平坦、土壤肥沃，有利於交通與農業發展，通常會形成較大的聚落。",
@@ -212,10 +160,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -223,12 +171,12 @@
       "scenario": "【在課堂上討論等高線定義時】",
       "question": "關於等高線圖上的「等高線」，下列哪一個敘述是正確的？",
       "options": [
-        "等高線只能用來表示平原，不能表示山地",
         "線條越長，代表該地區的地勢越高",
-        "等高線上的數字越大，代表該點距離海岸越遠",
-        "線上的每一點代表的海拔高度都相同"
+        "線上的每一點代表的海拔高度都相同",
+        "等高線只能用來表示平原，不能表示山地",
+        "等高線上的數字越大，代表該點距離海岸越遠"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "等高線的定義就是將海拔高度相同的點連接起來，因此線上各點的高度一致。",
       "commonMisconception": "學生容易將「線的長度」與「高度」混淆，或誤以為線代表的是距離。",
       "quality_level": "QL4",
@@ -238,10 +186,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -249,12 +197,12 @@
       "scenario": "【在觀看家鄉地形模型時】",
       "question": "小明用黏土堆出一個模型，他發現模型上有一塊區域，等高線畫得非常密集，這代表該地地形具有什麼特徵？",
       "options": [
-        "海拔高度較低",
-        "是一片平坦的平原",
         "適合興建大型水庫",
-        "坡度非常陡峭"
+        "海拔高度較低",
+        "坡度非常陡峭",
+        "是一片平坦的平原"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "等高線越密集，代表在水平距離很短的情況下，高度變化很大，因此坡度較陡。",
       "commonMisconception": "學生常誤以為等高線越密集代表海拔高度越高，忽略了等高線疏密與坡度斜率的關係。",
       "quality_level": "QL4",
@@ -264,10 +212,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 5
     },
     {
@@ -275,12 +223,12 @@
       "scenario": "【在參觀家鄉的農業博覽會時】",
       "question": "小美看到展場介紹家鄉的特產，其中「茶葉」與「水果」多產自丘陵地帶。請問為什麼丘陵適合種植這些作物，而不適合大規模種植水稻？",
       "options": [
-        "水稻只能生長在岩岸地形",
-        "丘陵地區交通便利，方便運送稻米",
         "丘陵海拔極高，水稻無法生存",
-        "丘陵地勢起伏和緩，適合果樹生長且排水良好"
+        "丘陵地勢起伏和緩，適合果樹生長且排水良好",
+        "丘陵地區交通便利，方便運送稻米",
+        "水稻只能生長在岩岸地形"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "丘陵地形起伏和緩，土壤排水性通常較佳，適合茶樹與果樹，而水稻需要平坦、水源充足的平原。",
       "commonMisconception": "學生容易將丘陵與高聳的山地混淆，認為只要是山坡就不能耕作，忽略了作物對環境的選擇性。",
       "quality_level": "QL4",
@@ -290,10 +238,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -301,12 +249,12 @@
       "scenario": "【在討論家鄉產業發展時】",
       "question": "家鄉的長輩提到，早期山地居民為了生存，會開墾坡地種植作物，但過度開發會造成環境問題。下列哪一項是保護山地環境最正確的做法？",
       "options": [
-        "擴大開墾面積，以增加更多農作物產量",
         "推動水土保持，種植深根植物以防土石流",
+        "將山地全部填平，改建成平坦的工業區",
         "在陡坡上興建高樓，以減少對地表的接觸",
-        "將山地全部填平，改建成平坦的工業區"
+        "擴大開墾面積，以增加更多農作物產量"
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation": "山地坡度陡，過度開墾會破壞植被，引發土石流等災害，因此水土保持是維護山地環境的核心。",
       "commonMisconception": "學生常認為「開發就是進步」，忽略了地形環境限制與永續發展之間的平衡。",
       "quality_level": "QL4",
@@ -316,10 +264,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -327,12 +275,12 @@
       "scenario": "【在閱讀家鄉地形圖時】",
       "question": "地圖上標示了一塊地勢低平、土壤肥沃，且河流流經的區域。根據這些特徵，這最可能是哪種地形？",
       "options": [
+        "岩岸",
         "丘陵",
         "山地",
-        "平原",
-        "岩岸"
+        "平原"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "平原的特徵就是地勢低平，適合農耕，常位於河流下游，與山地、丘陵的起伏地形截然不同。",
       "commonMisconception": "學生常將平原與所有平坦的土地混淆，忽略了「土壤肥沃」與「河流流經」對平原聚落發展的重要性。",
       "quality_level": "QL4",
@@ -342,10 +290,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -354,8 +302,8 @@
       "question": "小華發現家鄉山區的公路總是彎彎曲曲的，這主要是受到什麼地形因素的影響？",
       "options": [
         "為了適應山地起伏，避免坡度過陡",
-        "山區居民喜歡觀賞風景，故意繞路",
         "因為山區土地太便宜，所以路可以隨便蓋",
+        "山區居民喜歡觀賞風景，故意繞路",
         "工程技術不足，無法興建直線道路"
       ],
       "answer_index": 0,
@@ -368,10 +316,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -379,12 +327,12 @@
       "scenario": "【在觀察家鄉海岸線時】",
       "question": "家鄉的海岸線分為岩岸與沙岸。關於這兩種海岸的利用，下列敘述何者正確？",
       "options": [
-        "沙岸地勢平坦，常形成沙灘，適合發展觀光或養殖",
         "沙岸岩石嶙峋，適合設置燈塔",
         "岩岸地勢低平，非常適合興建大型漁港",
+        "沙岸地勢平坦，常形成沙灘，適合發展觀光或養殖",
         "岩岸全是平坦的沙地，適合種植稻米"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "沙岸通常地勢平緩，易形成沙灘，適合發展觀光與養殖；岩岸則多崖壁，與沙岸特徵不同。",
       "commonMisconception": "學生易混淆岩岸與沙岸的特徵，誤以為海岸就是一樣的，忽略了地形對漁港選址與經濟活動的影響。",
       "quality_level": "QL4",
@@ -394,10 +342,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -405,12 +353,12 @@
       "scenario": "【在比較不同居住地方時】",
       "question": "有些同學認為住平原比住山地好，因為平原交通方便又好種田。從社會科的角度來看，這種想法忽略了什麼關鍵？",
       "options": [
+        "每一種地形都有其獨特的生態與資源價值",
         "山地完全沒有任何經濟價值，應廢棄開發",
         "山地居民其實都住在平原，只是地圖畫錯了",
-        "平原一定會發生土石流，所以比山地危險",
-        "每一種地形都有其獨特的生態與資源價值"
+        "平原一定會發生土石流，所以比山地危險"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "各地形各有優勢與挑戰，社會科強調理解多元環境，而非單一價值判斷，山地亦有豐富的林木與觀光資源。",
       "commonMisconception": "學生容易產生「平地優越感」的價值偏見，這是中年級階段需要引導修正的認知迷思。",
       "quality_level": "QL4",
@@ -420,10 +368,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -432,11 +380,11 @@
       "question": "關於等高線的敘述，下列哪一項是正確的？",
       "options": [
         "等高線只能用來畫山，不能用來畫平原",
-        "等高線的數字越小，代表海拔越高",
         "只要看到等高線，就代表這裡一定有河流",
-        "地圖上同一條等高線上，每一點的高度都相同"
+        "地圖上同一條等高線上，每一點的高度都相同",
+        "等高線的數字越小，代表海拔越高"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "等高線的定義就是將海拔高度相同的點連成一線，這是判讀地形圖最基礎的原則。",
       "commonMisconception": "學生常誤以為等高線是高度的「區域」，而非「點的連線」，導致對地形圖的解讀產生斷層。",
       "quality_level": "QL4",
@@ -446,10 +394,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -457,12 +405,12 @@
       "scenario": "【在觀看家鄉地形模型時】",
       "question": "小明製作了一個家鄉地形模型，他發現平原地區的等高線畫得很稀疏，而山地地區的等高線畫得非常密集。這個現象代表什麼意義？",
       "options": [
-        "平原的線條畫錯了，應該要一樣密",
-        "平原海拔很高，山地海拔很低",
         "平原適合蓋高樓，山地適合種稻",
-        "平原坡度較緩，山地坡度較陡"
+        "平原海拔很高，山地海拔很低",
+        "平原坡度較緩，山地坡度較陡",
+        "平原的線條畫錯了，應該要一樣密"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "等高線的疏密反映了地勢的坡度，線條越密集表示坡度越陡峭，越稀疏則表示地勢平坦。",
       "commonMisconception": "學生常誤以為等高線的密集程度與海拔高度直接相關，而非坡度。",
       "quality_level": "QL4",
@@ -472,10 +420,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -485,10 +433,10 @@
       "options": [
         "大規模機械化稻米耕作",
         "大型工廠加工區",
-        "深海捕撈業",
-        "種植茶樹或果樹"
+        "種植茶樹或果樹",
+        "深海捕撈業"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "丘陵地區地勢起伏和緩，土壤排水良好，適合茶葉與果樹的生長，而不適合大規模機械化稻作或大型工廠。",
       "commonMisconception": "學生可能將丘陵與山地混淆，以為丘陵地勢過高不適合耕種，或與平原需求混淆。",
       "quality_level": "QL4",
@@ -498,10 +446,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -511,8 +459,8 @@
       "options": [
         "為了克服地形起伏，減緩道路坡度",
         "為了讓火車速度變快",
-        "為了避開山上的森林保護區",
-        "為了讓乘客欣賞更多風景"
+        "為了讓乘客欣賞更多風景",
+        "為了避開山上的森林保護區"
       ],
       "answer_index": 0,
       "explanation": "山地地形崎嶇，直接開鑿道路會導致坡度過大，車輛難以行駛，因此需要隧道或盤山道路來減緩坡度。",
@@ -524,10 +472,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -535,12 +483,12 @@
       "scenario": "【在討論家鄉海岸線特色時】",
       "question": "家鄉的海岸地形分為沙岸與岩岸。下列關於這兩種海岸的敘述，哪一項是正確的？",
       "options": [
-        "沙岸的地形變化多，適合進行深海探險",
-        "岩岸適合養殖牡蠣，沙岸則完全無法利用",
         "沙岸地形平直，通常適合發展漁港",
-        "岩岸地形陡峭，常見細長的沙灘"
+        "岩岸地形陡峭，常見細長的沙灘",
+        "岩岸適合養殖牡蠣，沙岸則完全無法利用",
+        "沙岸的地形變化多，適合進行深海探險"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "沙岸通常海岸線平直，水淺且有沙灘，容易建設漁港；岩岸地形多變且陡峭，多為岩石地形。",
       "commonMisconception": "學生常對沙岸與岩岸的特徵混淆，誤以為岩岸才是漁港的主要選址。",
       "quality_level": "QL4",
@@ -550,10 +498,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -561,12 +509,12 @@
       "scenario": "【在探討家鄉土地利用時】",
       "question": "有人認為「平原比山地好，因為平原什麼都可以做」。身為社會科小博士，你覺得這個觀點有什麼盲點？",
       "options": [
-        "平原的土地太貴，不值得開發",
         "平原缺乏水源，不適合居住",
-        "山地才是唯一適合居住的地方",
-        "各地形各有優勢，山地也有豐富的林木與觀光資源"
+        "平原的土地太貴，不值得開發",
+        "各地形各有優勢，山地也有豐富的林木與觀光資源",
+        "山地才是唯一適合居住的地方"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "各類地形都有其獨特的生態與資源價值，山地雖交通不便，但提供了豐富的林產、水源與旅遊價值，不應僅以平地標準衡量。",
       "commonMisconception": "學生容易受到都市化影響，產生「平地優於山地」的偏見，忽略不同地形的資源多樣性。",
       "quality_level": "QL4",
@@ -576,10 +524,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -587,12 +535,12 @@
       "scenario": "【在觀察家鄉水稻田分布時】",
       "question": "為什麼家鄉大規模的水稻田主要分布在平原地區，而不是山地地區？",
       "options": [
-        "山地的人不喜歡吃米飯",
-        "政府規定水稻只能在平原種植",
         "平原土地肥沃且地勢平坦，有利於灌溉與機械作業",
-        "平原的氣溫比山地高很多"
+        "政府規定水稻只能在平原種植",
+        "平原的氣溫比山地高很多",
+        "山地的人不喜歡吃米飯"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "水稻種植需要充足的水源與平坦的地勢以利於灌溉與農機操作，平原地區正好符合這些條件。",
       "commonMisconception": "學生常忽略地形對農業技術（如大型農機具使用）的影響，以為只要有土就能種。",
       "quality_level": "QL4",
@@ -602,10 +550,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -613,12 +561,12 @@
       "scenario": "【在閱讀等高線地圖時】",
       "question": "在等高線地圖上，若看到一組呈現圓圈狀的線條，且越往中心數值越大，這代表的是什麼地形？",
       "options": [
-        "河口",
-        "山谷",
+        "山頂",
         "平原",
-        "山頂"
+        "山谷",
+        "河口"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "等高線越往中心數值越大，代表中心點的海拔最高，因此該圖形代表山頂。",
       "commonMisconception": "學生對於「中心數值大小」與「地形高低」的對應關係常會搞反。",
       "quality_level": "QL4",
@@ -628,10 +576,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -639,12 +587,12 @@
       "scenario": "【在研究家鄉聚落形成時】",
       "question": "早期家鄉的聚落常在河口或海岸邊形成，主要是為了什麼原因？",
       "options": [
-        "因為海岸邊的氣溫比較涼爽",
-        "方便躲避山上的野獸",
         "海岸邊的土地比較便宜",
-        "方便從事漁業活動與運輸貨物"
+        "因為海岸邊的氣溫比較涼爽",
+        "方便從事漁業活動與運輸貨物",
+        "方便躲避山上的野獸"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "臨海聚落的形成通常與海洋資源及水運便利性有關，漁業與貿易是早期聚落發展的重要動力。",
       "commonMisconception": "學生可能單純用現代居住習慣（如氣溫、房價）去推敲歷史上的聚落選址原因。",
       "quality_level": "QL4",
@@ -654,10 +602,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -665,12 +613,12 @@
       "scenario": "【在觀看家鄉地形模型時】小明發現平原地區的等高線畫得很稀疏，而旁邊的山地地區等高線畫得非常密集。",
       "question": "根據小明觀察到的現象，下列哪一個推論最符合等高線判讀的原理？",
       "options": [
-        "等高線越密集的地方，代表地勢坡度越陡峭",
         "線條的數量越多，代表那個地方的面積越廣",
+        "等高線越密集的地方，代表地勢坡度越陡峭",
         "平原地區因為沒有山，所以不需要畫等高線",
         "等高線越密集的地方，代表山的高度一定越高"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "等高線的疏密代表坡度的緩急，線條越密表示單位距離內高度變化大，即坡度陡；反之線條越疏，表示地勢平緩。",
       "commonMisconception": "學生常誤以為線條密集代表海拔更高，或線條越多代表山越高，忽略了間距才是判斷坡度的關鍵。",
       "quality_level": "QL4",
@@ -680,10 +628,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -692,11 +640,11 @@
       "question": "關於小美家鄉的這種地形，下列敘述何者正確？",
       "options": [
         "這裡是平原地形，所以茶園面積最大",
-        "這裡是海岸地形，適合種植茶葉",
         "這裡是丘陵地形，適合種植茶葉",
-        "這裡是高山地形，適合種植水稻"
+        "這裡是高山地形，適合種植水稻",
+        "這裡是海岸地形，適合種植茶葉"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "起伏和緩的低矮山坡屬於丘陵，排水性良好且適合茶樹生長，與平原（適合水稻）及高山（坡度陡）有明顯區別。",
       "commonMisconception": "學生容易將丘陵與山地混淆，或認為所有種植活動都應該在平原進行。",
       "quality_level": "QL4",
@@ -706,10 +654,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -717,12 +665,12 @@
       "scenario": "【在規劃家鄉旅遊路線時】老師提到家鄉有一條鐵路，為了連結兩座被山脈阻隔的城鎮，鐵路必須彎曲繞行山腳。",
       "question": "這項工程規劃反映了哪一種地形對人類生活的影響？",
       "options": [
-        "為了節省成本，鐵路一定要走直線",
         "地形不會影響現代交通工具的行駛",
-        "地形會影響交通路線的規劃與建設",
-        "只有平原地區才適合建設鐵路系統"
+        "只有平原地區才適合建設鐵路系統",
+        "為了節省成本，鐵路一定要走直線",
+        "地形會影響交通路線的規劃與建設"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "山地地形坡度大且崎嶇，直接穿越的工程困難且成本高，因此交通建設常需順應地形繞行。",
       "commonMisconception": "學生常認為現代科技可以克服所有地形限制，忽略了地形對人類交通規劃的根本性影響。",
       "quality_level": "QL4",
@@ -732,10 +680,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -743,12 +691,12 @@
       "scenario": "【在討論家鄉產業分佈時】同學討論到為什麼家鄉的漁港大多選址在岩岸地形，而不是沙岸地形。",
       "question": "下列哪一項關於海岸地形與漁業的敘述最為正確？",
       "options": [
-        "岩岸地形水深較深，適合大型漁船停泊",
         "沙岸地形的海浪太大，漁船無法進出",
         "沙岸地形因為太過平坦，不適合發展漁業",
+        "岩岸地形水深較深，適合大型漁船停泊",
         "岩岸地形完全沒有發展養殖業的空間"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "岩岸海岸線曲折且水深較深，天然條件利於漁港建設；沙岸則多為淺灘，適合海水養殖但較難作為大型漁港。",
       "commonMisconception": "學生容易將「沙岸」與「岩岸」的功能性混為一談，或誤認為沙岸完全不適合從事任何海洋相關產業。",
       "quality_level": "QL4",
@@ -758,10 +706,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -769,12 +717,12 @@
       "scenario": "【在課堂分享家鄉生活時】阿強說：「我們家住在山上，雖然交通不太方便，但我們種植的高山茶品質很好。」",
       "question": "對於阿強的觀點，下列哪一種理解最能體現「不同地形各有優勢」的觀念？",
       "options": [
-        "山地的價值僅在於森林資源，不應該發展農業",
-        "即使山區交通不便，但特殊的氣候與地形能發展出具特色的產業",
+        "山區居民的生活方式比平原居民更為落後",
         "住在山區的人應該要搬到平原，因為平原的交通比較方便",
-        "山區居民的生活方式比平原居民更為落後"
+        "即使山區交通不便，但特殊的氣候與地形能發展出具特色的產業",
+        "山地的價值僅在於森林資源，不應該發展農業"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "此選項展現了對地形多元價值的包容，理解到不同地形雖然帶來限制，但也提供了平原所沒有的獨特環境資源。",
       "commonMisconception": "學生容易落入「平地比山地好」的價值偏見，認為山區生活僅有缺點而忽略其產業優勢。",
       "quality_level": "QL4",
@@ -784,11 +732,63 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
+    },
+    {
+      "taxonomy": "inferential",
+      "scenario": "老地名調查",
+      "question": "小安訪問長輩，知道村名「竹圍埔」來自早期居民在河邊平坦地種竹並圍成聚落。這項資料最適合用來說明什麼？",
+      "options": [
+        "只要地名有「溪」字，就一定適合興建大型海港",
+        "地方名稱可能保存早期地形與居民生活的線索",
+        "地方名稱通常只是為了好聽，和環境沒有關係",
+        "所有老地名都只和現代商店的位置有關"
+      ],
+      "answer_index": 1,
+      "explanation": "許多地名會反映早期的地形、自然環境或居民生活方式，透過訪問與查資料可以了解家鄉過去的樣貌。",
+      "commonMisconception": "學生容易把地名當成字面意思或單純名稱，忽略地名常和地形、產業或生活經驗有關。",
+      "quality_level": "QL4",
+      "cqi_score": 9.5,
+      "source_kaodian_id": "翰林L2-K01",
+      "blind_evaluation": true,
+      "authoring_model": "gpt-5.5",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-06-20"
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "海岸導覽規劃",
+      "question": "漁村規畫海岸導覽，學生要選一項能讓漁業和海洋資源長久維持的做法。哪一項最合適？",
+      "options": [
+        "只介紹捕撈越多越能證明漁村進步",
+        "鼓勵購買體型很小的魚，因為價格較便宜",
+        "介紹本地當季漁獲，並說明不捕撈未成熟魚類的原因",
+        "要求所有居民完全停止利用海洋資源"
+      ],
+      "answer_index": 2,
+      "explanation": "海岸居民可以利用海洋資源，但也要避免過度捕撈，選擇本地當季漁獲並保護未成熟魚類，較能維持資源永續。",
+      "commonMisconception": "學生可能以為保護海洋就是完全不能使用海洋資源，或只用價格判斷是否值得購買。",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "source_kaodian_id": "翰林L2-K02",
+      "blind_evaluation": true,
+      "authoring_model": "gpt-5.5",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
+      "is_publishable": true,
+      "review_status": "confirmed",
+      "review_notes": "",
+      "reviewer": null,
+      "review_date": "2026-06-20"
     }
   ],
   "publisher": "HanLin"

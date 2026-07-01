@@ -16,11 +16,11 @@
       "question": "小明發現來自不同國家的居民帶來了各具特色的菜餚，他應該採取哪種態度，才符合「尊重多元文化」的精神？",
       "options": [
         "只跟自己熟悉的族群朋友分享食物",
+        "建議大家以後只賣大家都熟悉的台灣小吃",
         "認為只有自己家鄉的傳統菜餚最健康好吃",
-        "大方嘗試並欣賞不同文化的飲食特色",
-        "建議大家以後只賣大家都熟悉的台灣小吃"
+        "大方嘗試並欣賞不同文化的飲食特色"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "尊重多元文化應建立在開放心態上，欣賞並嘗試不同文化的特色是融合的第一步。",
       "commonMisconception": "學生容易因為對陌生飲食的不安全感，而產生防衛心理，導致排斥外來文化。",
       "quality_level": "QL4",
@@ -30,10 +30,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -41,12 +41,12 @@
       "scenario": "【在討論家鄉未來發展藍圖時】",
       "question": "小華提議將家鄉的老舊戲台拆除，改建成現代化的停車場。根據永續發展的觀念，這項提議哪裡需要修正？",
       "options": [
-        "停車場無法帶動家鄉的經濟發展",
-        "缺乏對家鄉文化資產保存的思考",
         "沒有考慮到現代化建築的成本太高",
-        "沒有詢問外地遊客的意見"
+        "沒有詢問外地遊客的意見",
+        "停車場無法帶動家鄉的經濟發展",
+        "缺乏對家鄉文化資產保存的思考"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "家鄉的願景規劃應包含文化保存，老戲台是歷史記憶，拆除會失去文化傳承的機會。",
       "commonMisconception": "學生常誤以為「發展」就等於「更新成現代化設施」，忽略了文化資產的價值。",
       "quality_level": "QL4",
@@ -56,10 +56,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -67,12 +67,12 @@
       "scenario": "【在認識家鄉族群時】",
       "question": "台灣是一個多元族群的社會，下列哪一種行為最能展現「融合共存」的真諦？",
       "options": [
-        "在保留自身文化同時，也尊重不同族群的特色",
         "每個人都應該放棄原本的文化習俗",
-        "要求所有族群都必須說同一種方言",
-        "只選擇與自己族群背景相同的人交往"
+        "只選擇與自己族群背景相同的人交往",
+        "在保留自身文化同時，也尊重不同族群的特色",
+        "要求所有族群都必須說同一種方言"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "融合不是同化，而是在保有各自文化底蘊的基礎上，互相尊重與共存。",
       "commonMisconception": "學生常誤以為融合就是「大家變得一模一樣」，而不理解尊重差異才是融合的本質。",
       "quality_level": "QL4",
@@ -82,10 +82,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -93,12 +93,12 @@
       "scenario": "【在班級舉辦文化分享活動時】",
       "question": "新住民同學分享了家鄉的特殊節慶，班上有些同學因為沒聽過而感到好奇，下列哪種反應最不恰當？",
       "options": [
+        "比較自己家鄉節慶與對方的異同",
         "邀請同學詳細介紹節慶的由來與意義",
         "覺得對方文化很奇特，甚至有點好笑",
-        "肯定對方分享文化的勇氣與價值",
-        "比較自己家鄉節慶與對方的異同"
+        "肯定對方分享文化的勇氣與價值"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "將不同文化視為「奇特」或「好笑」會產生文化階級感，違背了平等尊重的原則。",
       "commonMisconception": "學生有時會將不熟悉的文化標籤化為「奇怪」，這是缺乏跨文化同理心的表現。",
       "quality_level": "QL4",
@@ -108,10 +108,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -119,12 +119,12 @@
       "scenario": "【在規劃家鄉未來願景時】",
       "question": "身為四年級的小學生，對於家鄉未來的發展，下列哪一種參與方式最務實且具備公民素養？",
       "options": [
-        "透過觀察家鄉的問題，提出對環境保護的想法",
         "要求政府把家鄉的所有土地都變成公園",
-        "只要努力讀書，不需要參與家鄉事務",
-        "覺得自己還小，等長大後再關心也不遲"
+        "透過觀察家鄉的問題，提出對環境保護的想法",
+        "覺得自己還小，等長大後再關心也不遲",
+        "只要努力讀書，不需要參與家鄉事務"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "公民參與不分年齡，從小對身邊環境進行觀察並表達意見，就是公民素養的展現。",
       "commonMisconception": "學生常陷入「被動無力感」，誤以為小孩對社會議題沒有發言權或影響力。",
       "quality_level": "QL4",
@@ -134,10 +134,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -146,11 +146,11 @@
       "question": "小明注意到家鄉出現了許多東南亞風格的商店。面對這種現象，哪種思考方向最能反映「多元文化融合」的價值？",
       "options": [
         "這些商店通常會影響家鄉的環境整潔",
-        "這是文化交流的展現，讓家鄉生活更多元豐富",
         "外來文化正在取代原本的在地特色",
+        "這是文化交流的展現，讓家鄉生活更多元豐富",
         "應該限制這些商店的數量，以保護本地商店"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "文化交流能豐富生活內涵，讓家鄉呈現出更多層次的面貌，而非單純的取代。",
       "commonMisconception": "學生容易產生「外來文化會破壞本地文化」的排斥心態，認為改變即是威脅。",
       "quality_level": "QL4",
@@ -160,10 +160,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -171,9 +171,9 @@
       "scenario": "【在學習尊重差異時】",
       "question": "關於家鄉文化中不同族群的信仰與節慶，下列哪種敘述是正確的？",
       "options": [
-        "原住民的傳統節慶與現代生活無關，不需要了解",
         "只有主流文化的節慶才需要被重視",
         "為了團結，所有族群應該只慶祝相同的節日",
+        "原住民的傳統節慶與現代生活無關，不需要了解",
         "各族群的信仰與節慶都有其文化價值，應互相尊重"
       ],
       "answer_index": 3,
@@ -186,10 +186,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -197,12 +197,12 @@
       "scenario": "【在進行社區服務學習時】",
       "question": "若家鄉計畫推動「文化保存與環境永續」的計畫，下列哪項行動最符合兩者兼顧的原則？",
       "options": [
-        "把所有老樹砍掉，改種外來品種的花卉",
-        "限制外地人進入社區，以保持環境單純",
         "修復歷史古蹟並結合生態教育，讓居民參與",
-        "將舊街道全面鋪設成柏油路，方便通行"
+        "把所有老樹砍掉，改種外來品種的花卉",
+        "將舊街道全面鋪設成柏油路，方便通行",
+        "限制外地人進入社區，以保持環境單純"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "修復古蹟保留文化，結合生態教育則落實永續，兩者平衡是理想的家鄉發展模式。",
       "commonMisconception": "學生常認為「發展」與「保存」是互斥的，無法理解兩者可以透過適當規劃而共存。",
       "quality_level": "QL4",
@@ -212,10 +212,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -223,12 +223,12 @@
       "scenario": "【在社區舉辦多元文化美食節時】",
       "question": "班上同學小明認為，我們應該只推廣在地傳統食物，不應該讓新住民的異國料理出現在美食節中，以免家鄉的特色被稀釋。身為具有多元文化素養的你，應該如何回應比較適當？",
       "options": [
-        "告訴小明這只是暫時的活動，不需要太認真對待，反正吃完就沒事了",
-        "建議小明要求主辦單位把異國料理攤位安排在最角落，以免干擾在地文化攤位",
         "支持小明，因為保護在地文化最重要，異國料理會讓家鄉失去原有的樣子",
-        "建議小明嘗試了解異國料理背後的文化意義，並將其視為家鄉文化豐富內涵的一部分"
+        "建議小明嘗試了解異國料理背後的文化意義，並將其視為家鄉文化豐富內涵的一部分",
+        "告訴小明這只是暫時的活動，不需要太認真對待，反正吃完就沒事了",
+        "建議小明要求主辦單位把異國料理攤位安排在最角落，以免干擾在地文化攤位"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "多元文化的核心在於尊重與交流，文化融合並非取代，而是讓家鄉的文化樣貌更加豐富。鼓勵小明理解多元文化價值，是培養尊重差異的具體行動。",
       "commonMisconception": "學生常誤以為文化融合等於「被取代」或「失去特色」，產生排斥外來文化的心理防衛。",
       "quality_level": "QL4",
@@ -238,10 +238,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -249,12 +249,12 @@
       "scenario": "【在討論家鄉未來願景設計圖時】",
       "question": "小華在繪製「未來家鄉」時，主張應該把所有老舊建築全部拆除，蓋成高科技智慧大樓，這樣才符合現代化。根據課文對家鄉願景的規劃方向，哪一個觀點最能兼顧發展與文化保存？",
       "options": [
-        "建議小華保留部分具有歷史價值的建築，並結合智慧科技進行活化與保存",
-        "認為應該把所有空間都改成綠地，因為環境保護比經濟發展更重要",
         "建議小華乾脆不規劃，因為家鄉的未來由大人決定，小朋友只需要聽從安排",
-        "完全同意小華，因為高科技大樓代表家鄉進步的象徵，老建築只會阻礙發展"
+        "完全同意小華，因為高科技大樓代表家鄉進步的象徵，老建築只會阻礙發展",
+        "認為應該把所有空間都改成綠地，因為環境保護比經濟發展更重要",
+        "建議小華保留部分具有歷史價值的建築，並結合智慧科技進行活化與保存"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "永續發展強調在經濟發展的同時，必須兼顧環境保護與文化資產的保存，將老建築轉型利用是常見的共存策略。",
       "commonMisconception": "學生容易將「發展」單一化，認為「進步」等於「拆除舊有」，忽略了文化保存與永續經營的平衡。",
       "quality_level": "QL4",
@@ -264,10 +264,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -275,10 +275,10 @@
       "scenario": "【在聽取新住民媽媽分享家鄉節慶時】",
       "question": "新住民媽媽分享了她們家鄉的慶典，雖然跟我們傳統的春節方式不同，但她們同樣會準備豐盛的食物與家人團聚。這個分享讓我們發現了什麼重要的價值？",
       "options": [
+        "外來文化一定比在地文化更有趣，我們應該多學習外國節慶",
         "只要食物好吃，文化背景其實一點都不重要",
-        "各族群的節慶差異很大，應該要分開慶祝，避免混淆",
         "不同的文化背後，常有對家人關愛與生活期望的共通價值",
-        "外來文化一定比在地文化更有趣，我們應該多學習外國節慶"
+        "各族群的節慶差異很大，應該要分開慶祝，避免混淆"
       ],
       "answer_index": 2,
       "explanation": "透過體驗活動，能讓學生發現不同文化雖然形式迥異，但核心情感（如愛與凝聚）往往是一致的，這是跨文化理解的基礎。",
@@ -290,10 +290,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -301,12 +301,12 @@
       "scenario": "【在班級討論家鄉的多元族群時】",
       "question": "關於台灣的族群組成，下列哪一個敘述最符合我們家鄉風情畫所強調的多元文化概念？",
       "options": [
-        "為了維持家鄉的特色，我們應該鼓勵不同族群的人住在不同的區域",
-        "台灣只有閩南、客家與原住民，其他族群不屬於家鄉的一部分",
         "台灣是由閩南、客家、原住民、新住民等多元族群共同組成的",
-        "只要語言相同，就是同一個族群，不需要區分其他文化特色"
+        "只要語言相同，就是同一個族群，不需要區分其他文化特色",
+        "為了維持家鄉的特色，我們應該鼓勵不同族群的人住在不同的區域",
+        "台灣只有閩南、客家與原住民，其他族群不屬於家鄉的一部分"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "課文明確指出台灣是一個多元族群融合的社會，包含閩南、客家、原住民及新住民等，認識多元性是尊重的第一步。",
       "commonMisconception": "學生可能因為自己所處的社區較單一，而誤以為台灣只有特定幾種族群，忽略了多元性。",
       "quality_level": "QL4",
@@ -316,10 +316,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -327,12 +327,12 @@
       "scenario": "【在社區服務學習活動時】",
       "question": "老師希望大家為家鄉的未來盡一份心力，小明卻說：「我們只是小學生，對家鄉的發展一點幫助也沒有。」你認為下列哪一個行動最能反駁小明的觀點？",
       "options": [
-        "只要在家認真讀書，就是對家鄉未來最大的貢獻",
-        "把家鄉的問題寫在紙上投訴給里長，讓大人去處理就好",
+        "主動參與社區環境清潔，或是向家人介紹家鄉的文化特色",
         "要求政府直接採納學生的建議，因為小朋友的話最單純",
-        "主動參與社區環境清潔，或是向家人介紹家鄉的文化特色"
+        "把家鄉的問題寫在紙上投訴給里長，讓大人去處理就好",
+        "只要在家認真讀書，就是對家鄉未來最大的貢獻"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "公民參與不分年齡，從小處著手（如維護環境、傳播文化）也是為家鄉未來願景努力的表現，增強學生的自我效能感。",
       "commonMisconception": "學生常有「被動無力感」，認為改變家鄉是成人的責任，自己無能為力。",
       "quality_level": "QL4",
@@ -342,10 +342,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -353,10 +353,10 @@
       "scenario": "【在參觀家鄉文化館時】",
       "question": "在文化館中，我們看到了早期移民帶來的飲食習慣與在地食材結合的菜餚。這種現象說明了什麼？",
       "options": [
-        "這種菜餚既不是外來的，也不是在地的，應該被禁止推廣",
+        "這代表當時的人們無法適應當地食物，所以才被迫改變",
         "文化交流會讓原始文化消失，是非常可惜的事情",
         "不同文化之間會產生影響與融合，進而豐富家鄉的生活內涵",
-        "這代表當時的人們無法適應當地食物，所以才被迫改變"
+        "這種菜餚既不是外來的，也不是在地的，應該被禁止推廣"
       ],
       "answer_index": 2,
       "explanation": "文化交流是動態的過程，飲食融合是文化交流最常見的形式，它豐富了家鄉的飲食文化，而非單純的取代。",
@@ -368,10 +368,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -379,12 +379,12 @@
       "scenario": "【在討論如何對待新住民同學時】",
       "question": "班上有位新住民背景的同學，說話帶有特別的腔調。有些同學會模仿他的腔調開玩笑，你認為這種行為反映了什麼問題？",
       "options": [
-        "這是對文化差異的不尊重，甚至可能構成無意識的歧視",
         "只要沒有惡意，模仿其實是學習對方文化的一種方式",
         "如果對方不反駁，代表他其實很喜歡同學這樣對待他",
+        "這是對文化差異的不尊重，甚至可能構成無意識的歧視",
         "這只是同學間的幽默，可以增進感情，不需要太在意"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "不應因族群、語言、外貌的不同而歧視他人。模仿腔調往往會演變成對他人的冒犯與標籤化，是不尊重多元文化的行為。",
       "commonMisconception": "學生常以「開玩笑」作為霸凌或歧視的藉口，忽略了對方感受及文化尊重的界線。",
       "quality_level": "QL4",
@@ -394,10 +394,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -405,12 +405,12 @@
       "scenario": "【在規劃家鄉願景時】",
       "question": "如果你的家鄉要規劃一個新的休閒公園，在規劃過程中，下列哪一個思考方式最符合「永續發展」的精神？",
       "options": [
-        "由政府完全決定，因為政府規劃的設施最安全，不需要聽取民眾意見",
-        "為了省錢，全部使用塑膠材料，反正壞了再換新的就好",
         "只考慮公園的娛樂設施，因為小朋友最喜歡玩，越刺激越好",
-        "綜合考量公園的娛樂性、在地生態保護與文化資產的保存，讓大家都能使用"
+        "綜合考量公園的娛樂性、在地生態保護與文化資產的保存，讓大家都能使用",
+        "為了省錢，全部使用塑膠材料，反正壞了再換新的就好",
+        "由政府完全決定，因為政府規劃的設施最安全，不需要聽取民眾意見"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "永續發展強調平衡，好的規劃必須考量環境、文化與經濟等多面向需求，並鼓勵公民參與，而非單一追求娛樂。",
       "commonMisconception": "學生容易聚焦在「自己喜歡的設施」，缺乏對環境生態與文化保存的全面性考量。",
       "quality_level": "QL4",
@@ -420,36 +420,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
-      "blind_verify_quality_rating": 3
-    },
-    {
-      "taxonomy": "critical",
-      "scenario": "【在參與社區舉辦的異國美食嘉年華時】",
-      "question": "小明看到新住民媽媽擺攤賣越南春捲，他心裡想：「為什麼不能只賣我們家鄉原本的食物呢？」這種想法反映出什麼樣的迷思？",
-      "options": [
-        "對於家鄉的發展缺乏經濟規劃",
-        "對環境保育缺乏正確的觀念",
-        "認為多元文化會導致本地文化被取代",
-        "認為只有自己的文化才有價值"
-      ],
-      "answer_index": 2,
-      "explanation": "小明的擔憂反映了「排斥心態」，即擔心外來文化會破壞或取代本地文化，忽略了文化融合可以豐富家鄉生活內涵的特質。",
-      "commonMisconception": "學生常將「文化交流」誤解為「文化消滅」，誤以為引進新事物就代表拋棄舊事物。",
-      "quality_level": "QL4",
-      "cqi_score": 8,
-      "blind_evaluation": true,
-      "is_publishable": true,
-      "review_status": "confirmed",
-      "review_notes": "",
-      "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
-      "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -458,11 +432,11 @@
       "question": "班上進行「文化大拼圖」活動，大家發現閩南語、客家語與原住民語中，有許多詞彙發音相似。這說明了什麼事實？",
       "options": [
         "各族群語言完全相同",
-        "不同文化在交流中互相影響",
+        "語言的差異是可以被消滅的",
         "只有強勢族群的語言才重要",
-        "語言的差異是可以被消滅的"
+        "不同文化在交流中互相影響"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "不同族群在長期的互動中，語言、飲食等都會產生自然的融合與影響，這是文化發展的正常現象。",
       "commonMisconception": "學生容易認為各族群是獨立封閉的，忽略了歷史演進中長期的交流事實。",
       "quality_level": "QL4",
@@ -472,10 +446,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -483,12 +457,12 @@
       "scenario": "【在規劃家鄉未來設計圖時】",
       "question": "小華提議：「我們把舊的老街全部拆掉，蓋成現代化的購物中心，這樣家鄉才會進步。」這項提議忽略了什麼重要的願景面向？",
       "options": [
-        "環境保護與經濟發展的平衡",
-        "交通建設與居住品質的改善",
+        "文化保存與歷史價值的延續",
         "提高家鄉人口數量的需求",
-        "文化保存與歷史價值的延續"
+        "交通建設與居住品質的改善",
+        "環境保護與經濟發展的平衡"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "家鄉的願景規劃應包含文化保存，拆掉老街雖然帶來經濟效益，卻失去了傳承家鄉特色的文化資產。",
       "commonMisconception": "學生常將「發展」與「翻新」劃上等號，認為只有蓋新建築才叫進步。",
       "quality_level": "QL4",
@@ -498,10 +472,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -509,12 +483,12 @@
       "scenario": "【在討論家鄉未來的公民會議時】",
       "question": "小安認為自己只是小學生，對家鄉的未來沒有發言權。身為公民，他最合適的參與方式是什麼？",
       "options": [
-        "長大後再參與，現在只需專心讀書",
-        "只要聽從大人的決定即可",
         "透過畫圖或寫信表達對家鄉環境的期許",
+        "只要聽從大人的決定即可",
+        "長大後再參與，現在只需專心讀書",
         "請老師代為決定所有規劃方向"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "每個人都是家鄉的一份子，小朋友可以透過參與活動、表達意見，為家鄉願景貢獻心力，這也是公民參與的體現。",
       "commonMisconception": "學生常有「被動無力」的心態，誤認為公民參與是成年人的專利，自己無法發揮影響力。",
       "quality_level": "QL4",
@@ -524,10 +498,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -535,12 +509,12 @@
       "scenario": "【在認識家鄉多元族群時】",
       "question": "關於台灣多元族群的文化特色，下列敘述何者最能體現「尊重差異」的態度？",
       "options": [
-        "要求所有人都必須遵守同一種文化",
-        "欣賞不同族群的語言與飲食價值",
         "認為只有自己的族群習俗最優秀",
-        "批評他不理解的族群節慶活動"
+        "要求所有人都必須遵守同一種文化",
+        "批評他不理解的族群節慶活動",
+        "欣賞不同族群的語言與飲食價值"
       ],
-      "answer_index": 1,
+      "answer_index": 3,
       "explanation": "尊重差異的核心在於承認每種文化都有其獨特的價值，並以平等的態度去欣賞與理解。",
       "commonMisconception": "學生容易產生「文化階級」迷思，認為自己的文化比較先進或優越。",
       "quality_level": "QL4",
@@ -550,10 +524,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -561,12 +535,12 @@
       "scenario": "【在參觀家鄉的老街與新興商圈時】",
       "question": "小莉看到老街裡有傳統糕餅店，隔壁卻開了充滿異國風味的咖啡廳。這種景象代表了家鄉的什麼變化？",
       "options": [
-        "商業發展使家鄉失去在地特色",
-        "不同族群勢不兩立，時常發生激烈衝突",
         "傳統文化已經完全被取代而消失",
-        "新舊並存且多元文化交融的生活樣貌"
+        "不同族群勢不兩立，時常發生激烈衝突",
+        "新舊並存且多元文化交融的生活樣貌",
+        "商業發展使家鄉失去在地特色"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "新舊並存、異國與傳統交織，是現代家鄉多元文化融合的具體樣貌，這並不代表傳統消失，而是生活更加豐富。",
       "commonMisconception": "學生常誤以為傳統與現代是互相排斥的，看到新事物出現就覺得傳統文化即將滅亡。",
       "quality_level": "QL4",
@@ -576,10 +550,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-06-14",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -587,12 +561,12 @@
       "scenario": "【在小組討論家鄉發展願景時】",
       "question": "為了讓家鄉更永續發展，下列哪一個規劃最符合「兼顧環境與文化」的原則？",
       "options": [
-        "維護古蹟並在周邊規劃植栽綠地",
         "將所有傳統市場改建成高樓大廈",
+        "禁止所有外地遊客進入家鄉",
         "將所有空地改成停車場以促進觀光",
-        "禁止所有外地遊客進入家鄉"
+        "維護古蹟並在周邊規劃植栽綠地"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "永續發展強調在發展的過程中，必須考慮環境保護與文化保存，維護古蹟與增加綠地是兼顧兩者的做法。",
       "commonMisconception": "學生在設計願景時常傾向極端，不是完全封閉就是完全開發，缺乏平衡的思維。",
       "quality_level": "QL4",
@@ -602,10 +576,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -614,8 +588,8 @@
       "question": "班上舉辦分享會，新住民同學介紹了他們家鄉的傳統服裝與節慶。如果你是台下的同學，哪一種回應方式最能展現文化尊重？",
       "options": [
         "詢問這些習俗背後的意義與故事",
-        "嘲笑那套服裝的樣式很奇怪",
         "覺得這與我們無關，不想聽",
+        "嘲笑那套服裝的樣式很奇怪",
         "要求對方以後穿著跟我們一樣就好"
       ],
       "answer_index": 0,
@@ -628,10 +602,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -639,12 +613,12 @@
       "scenario": "【在班級舉辦多元文化週時】",
       "question": "班上來自越南的同學帶來了特色春捲分享，但有些同學說：「這看起來怪怪的，還是我們的滷肉飯比較好吃。」面對這樣的言論，下列哪種態度最符合我們對多元文化的尊重？",
       "options": [
-        "肯定滷肉飯的美味，同時也欣賞並嘗試了解不同文化的飲食特色",
+        "認為滷肉飯才是台灣正統美食，其他都不必嘗試",
         "建議同學以後不要帶特色料理，以免引起大家的討論",
         "為了不讓同學難過，強迫所有人都說春捲比較好吃",
-        "認為滷肉飯才是台灣正統美食，其他都不必嘗試"
+        "肯定滷肉飯的美味，同時也欣賞並嘗試了解不同文化的飲食特色"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "尊重多元文化的核心在於平等看待，既能保留對自身文化的認同，也能開放心胸去認識、欣賞不同文化，而非否定或排斥。",
       "commonMisconception": "學生常誤以為尊重文化就是「否定自己」或是「盲目認同」，忽略了在保留自我前提下的包容性。",
       "quality_level": "QL4",
@@ -654,10 +628,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -665,12 +639,12 @@
       "scenario": "【在討論家鄉未來發展時】",
       "question": "小明畫了一張「未來家鄉設計圖」，裡面有大型購物中心、現代化高樓，卻把古老的廟宇和傳統市場拆除了。如果我們要讓家鄉發展得更好，小明的設計圖還缺少哪一個重要的考量？",
       "options": [
-        "要求政府發放更多消費券，提升大家的買氣",
-        "把所有的街道都改成現代化的科技風格",
         "納入文化保存與歷史建築的維護，讓新舊文化共存",
-        "增加更多的停車位，讓交通更方便"
+        "增加更多的停車位，讓交通更方便",
+        "把所有的街道都改成現代化的科技風格",
+        "要求政府發放更多消費券，提升大家的買氣"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "永續發展不僅是經濟成長，更包含文化的傳承。好的願景應在發展的同時，照顧到歷史記憶與傳統文化的保存。",
       "commonMisconception": "學生常受「現代化=拆除重建」的刻板印象影響，誤以為發展必然要犧牲舊有的事物。",
       "quality_level": "QL4",
@@ -680,10 +654,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -691,12 +665,12 @@
       "scenario": "【在社區進行田野調查時】",
       "question": "我們在社區發現，許多新住民媽媽將家鄉的編織技巧與台灣的傳統花布結合，創作出獨特的手工藝品。這種現象說明了什麼樣的文化觀點？",
       "options": [
-        "文化融合可以創造出新的特色，豐富家鄉生活內涵",
-        "外來文化會完全取代台灣在地文化",
+        "只有傳統的工藝才值得保留，創新的作品沒有價值",
         "文化應該保持純粹，不應該混合其他元素",
-        "只有傳統的工藝才值得保留，創新的作品沒有價值"
+        "外來文化會完全取代台灣在地文化",
+        "文化融合可以創造出新的特色，豐富家鄉生活內涵"
       ],
-      "answer_index": 0,
+      "answer_index": 3,
       "explanation": "文化融合並非取代，而是透過不同元素的交流與激盪，產生新的文化價值，讓家鄉的樣貌更多元、更豐富。",
       "commonMisconception": "學生容易誤以為「融合」等於「失去原本的特質」，未能理解文化交流帶來的增值效應。",
       "quality_level": "QL4",
@@ -706,10 +680,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -717,12 +691,12 @@
       "scenario": "【在課堂分享家鄉族群特色時】",
       "question": "台灣是一個多元族群的社會，包含閩南、客家、原住民、新住民等。我們應該如何正確對待這些不同的族群文化？",
       "options": [
-        "強迫所有人都必須學會說所有族群的語言",
         "只跟自己族群的人交朋友，因為比較有話聊",
-        "認為自己族群的習俗比較高級，其他族群要跟我們學習",
-        "理解不同族群有各自的文化背景，並以平等的態度互相尊重"
+        "強迫所有人都必須學會說所有族群的語言",
+        "理解不同族群有各自的文化背景，並以平等的態度互相尊重",
+        "認為自己族群的習俗比較高級，其他族群要跟我們學習"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "多元文化的基礎在於「尊重差異」，不以優劣劃分族群，而是透過理解與溝通達到共存共榮。",
       "commonMisconception": "學生常會無意識地產生「族群階級感」，認為自己的文化習慣是「標準」，其他則是「特殊」。",
       "quality_level": "QL4",
@@ -732,10 +706,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -758,10 +732,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
     },
     {
@@ -770,11 +744,11 @@
       "question": "走在老街上，我們可以看到客家擂茶、閩南紅磚建築，以及新住民開的特色小店。這些現象告訴我們關於家鄉風情的哪一個事實？",
       "options": [
         "這些不同的文化衝突太大，應該分區管理，互不往來",
+        "只有最古老的建築才算是家鄉文化，其他的都不重要",
         "不同文化在同一個空間中互相影響，共同形成家鄉的特色",
-        "家鄉的文化是由單一族群長期努力維護的結果",
-        "只有最古老的建築才算是家鄉文化，其他的都不重要"
+        "家鄉的文化是由單一族群長期努力維護的結果"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "家鄉的風情畫是由多元族群長期共存、互動與融合而成的，每一種文化都為這幅畫增添了色彩。",
       "commonMisconception": "學生容易將「家鄉」視為一成不變的單一文化體，未察覺到文化融合後的豐富層次。",
       "quality_level": "QL4",
@@ -784,11 +758,34 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-04-11",
+      "review_date": "2026-06-20",
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-11",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
       "blind_verify_quality_rating": 3
+    },
+    {
+      "taxonomy": "critical",
+      "scenario": "【在整理社區老照片與訪談紀錄時】",
+      "question": "班上發現同一條街曾有閩南廟會、客家義民祭活動，也有新住民商店的節慶布置。若要向低年級介紹這些發現，下列哪一種說法最符合本課對家鄉文化的看法？",
+      "options": [
+        "為了讓介紹更簡單，應把各族群特色都說成完全一樣",
+        "不同時代和不同背景居民的生活，都可能成為認識家鄉文化的線索",
+        "外來居民的文化會讓家鄉失去特色，應避免放進報告",
+        "只有歷史最久的活動才算家鄉文化，其他布置不必介紹"
+      ],
+      "answer_index": 1,
+      "explanation": "本課強調可從不同時代的生活樣貌與不同文化背景認識家鄉，並以尊重態度看待多元族群文化。",
+      "commonMisconception": "學生可能以為只有年代久遠或自己熟悉的文化才算家鄉文化，或誤以為尊重融合就是把差異全部抹平。",
+      "quality_level": "QL4",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "blind_evaluation": true,
+      "authoring_model": "gpt-5.5",
+      "review_date": "2026-06-20",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-06-20",
+      "cqi_score": 8
     }
   ],
   "publisher": "KangHsuan"

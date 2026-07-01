@@ -1,0 +1,54 @@
+[
+  {
+    "taxonomy": "inferential",
+    "scenario": "老地名調查",
+    "question": "小安訪問長輩，知道村名「竹圍埔」來自早期居民在河邊平坦地種竹並圍成聚落。這項資料最適合用來說明什麼？",
+    "options": [
+      "地方名稱通常只是為了好聽，和環境沒有關係",
+      "地方名稱可能保存早期地形與居民生活的線索",
+      "只要地名有「溪」字，就一定適合興建大型海港",
+      "所有老地名都只和現代商店的位置有關"
+    ],
+    "answer_index": 1,
+    "explanation": "許多地名會反映早期的地形、自然環境或居民生活方式，透過訪問與查資料可以了解家鄉過去的樣貌。",
+    "commonMisconception": "學生容易把地名當成字面意思或單純名稱，忽略地名常和地形、產業或生活經驗有關。",
+    "quality_level": "QL3",
+    "cqi_score": 7.5,
+    "source_kaodian_id": "翰林L2-K01",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  },
+  {
+    "taxonomy": "critical",
+    "scenario": "海岸導覽規劃",
+    "question": "漁村規畫海岸導覽，學生要選一項能讓漁業和海洋資源長久維持的做法。哪一項最合適？",
+    "options": [
+      "只介紹捕撈越多越能證明漁村進步",
+      "鼓勵購買體型很小的魚，因為價格較便宜",
+      "介紹本地當季漁獲，並說明不捕撈未成熟魚類的原因",
+      "要求所有居民完全停止利用海洋資源"
+    ],
+    "answer_index": 2,
+    "explanation": "海岸居民可以利用海洋資源，但也要避免過度捕撈，選擇本地當季漁獲並保護未成熟魚類，較能維持資源永續。",
+    "commonMisconception": "學生可能以為保護海洋就是完全不能使用海洋資源，或只用價格判斷是否值得購買。",
+    "quality_level": "QL3",
+    "cqi_score": 7.6,
+    "source_kaodian_id": "翰林L2-K02",
+    "blind_evaluation": false,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": null,
+    "verifying_date": null,
+    "is_publishable": false,
+    "review_status": "pending",
+    "review_notes": "",
+    "reviewer": null,
+    "review_date": null
+  }
+]
