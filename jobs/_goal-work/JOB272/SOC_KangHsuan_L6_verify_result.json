@@ -1,0 +1,197 @@
+{
+  "subj": "SOC",
+  "d": "KangHsuan",
+  "n": 6,
+  "key": "SOC_KangHsuan_L6",
+  "blind": [
+    {
+      "idx": 2,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 5,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 6,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 7,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 12,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 13,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 14,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 15,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 18,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 23,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 26,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 27,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 28,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 29,
+      "answer_index": 3,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 2,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.2尊重差異/融合共存與課綱Bc-II-2；正解「保留自身文化同時尊重他人」與rebalance_in原文完全一致，誘答改寫僅加justification短語（才符合規定/才算團結/更安心），未變正確、未失真。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.3公民參與/被動無力守衛點；正解「透過觀察家鄉問題提出環境保護想法」文字未變，誘答改寫僅加語尾理由，仍明確錯誤，無一變正確。"
+    },
+    {
+      "idx": 5,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄核心迷思「外來文化會破壞本地文化」；正解「文化交流展現，多元豐富」文字未變，誘答改寫（含限制商店/影響整潔）維持排斥心態框架，皆仍錯誤。"
+    },
+    {
+      "idx": 6,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.1/2.2族群節慶信仰互相尊重；正解文字未變，三誘答（獨尊主流/強迫同節慶/忽視原民節慶）改寫後仍明確錯誤。"
+    },
+    {
+      "idx": 7,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.3永續發展（環境與文化保存兼顧）及活動二設計圖精神；正解「修復古蹟結合生態教育」文字未變，誘答皆為破壞性/排外行為，改寫未變正確。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "對應核心迷思「外來文化會破壞本地文化」情境化延伸；正解文字未變，誘答3改寫加「才是正確的做法」仍是排斥心態迷思本身，非真正確；誘答2隔離攤位、誘答1消極敷衍皆維持錯誤。"
+    },
+    {
+      "idx": 12,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄公民參與/被動無力守衛點，並呼應考古題8（心梅淨灘）10（分享家鄉特色）；正解「參與清潔或介紹文化特色」文字未變，誘答（投訴了事/政府照單全收/讀書至上）改寫未變正確。"
+    },
+    {
+      "idx": 13,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.1文化交流（飲食融合）；正解文字未變，三誘答（強迫改變說/文化消失說/禁止推廣說）改寫後仍與課文尊重融合精神相悖，未變正確。"
+    },
+    {
+      "idx": 14,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.2反歧視守衛點；正解「不尊重甚至無意識歧視」文字未變。誘答「模仿是學習文化」在此情境（嘲笑腔調）仍屬藉口性錯誤，非泛用真理，未變正確。"
+    },
+    {
+      "idx": 15,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.3永續發展與活動二（環境保護、文化保存、經濟發展三面向）；正解「兼顧娛樂性、生態保護、文化資產」文字未變，三誘答（唯娛樂/塑膠省錢/政府獨斷不聽民意）改寫未變正確。"
+    },
+    {
+      "idx": 18,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄公民參與與活動二（畫出家鄉未來）；正解「畫圖或寫信表達期許」文字未變，誘答（聽從大人/長大再說/老師代辦）改寫未變正確，仍呼應被動無力迷思。"
+    },
+    {
+      "idx": 23,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.1/2.2尊重差異與文化交流；正解「肯定滷肉飯同時欣賞他文化」文字未變，誘答（獨尊在地/勸退分享/強迫認同）改寫未變正確。"
+    },
+    {
+      "idx": 24,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.3永續發展（發展兼顧文化保存）；正解「納入文化保存與歷史建築維護」文字未變，誘答（停車位/科技化/消費券）皆與文化保存主題無關或矛盾，改寫未變正確。"
+    },
+    {
+      "idx": 26,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.1/2.2族群多元與尊重差異；正解「理解各族群背景並平等尊重」文字未變，誘答（同族群交友/強迫同語言/文化階級）改寫未變正確。"
+    },
+    {
+      "idx": 27,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄文化交流與考古題10（捐款非認識家鄉方式）；正解「參與多元文化活動並請教長輩」文字未變，誘答（禁止外來慶祝/統一店家/捐款了事）改寫未變正確。"
+    },
+    {
+      "idx": 28,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.1文化交流（多元共存）；正解「不同文化互相影響共同形成家鄉特色」文字未變，誘答（分區隔離/唯古蹟論/單一族群論）改寫未變正確。"
+    },
+    {
+      "idx": 29,
+      "belongs": true,
+      "match": true,
+      "reason": "直接對應課綱Cb-II-1「居住地方不同時代生活樣貌可從多方面了解」；正解文字未變，誘答（唯久遠活動論/齊一化/排除外來居民）改寫未變正確。"
+    }
+  ]
+}

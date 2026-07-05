@@ -1,0 +1,697 @@
+{
+  "summary": "四下國語9課補21題盲測+judge(課文必要錨點)",
+  "agentCount": 18,
+  "logs": [],
+  "result": [
+    {
+      "d": "HanLin",
+      "n": 8,
+      "title": "夢幻全壘打",
+      "nq": 3,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用課文比數細節(一比三追成三比三)與二、三壘跑者依序奔回本壘的情節，換成別課無法作答。課文原比數1:3，二壘與一壘跑者各得一分共兩分，答案「兩分」正確無誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目直接引用課文兩處原句「氣喘如牛」與「氣呼呼的站著看我」，須依課文脈絡(祖母跑到球場的喘累→看我奔上二壘仍不停跑而生氣)才能作答，非泛用詞義題。答案D「從跑累了喘氣，轉為對『我』不肯乖乖回家而生氣」符合課文描寫的轉變，正確無誤。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "題目逐字引用課文原句「硬著頭皮奔回本壘」，並扣合「我」明知祖母生氣仍決定衝回本壘的具體情境。答案B「勉強忍著壓力，去做自己不太想做的事」正確解釋此慣用語，且干擾選項(用頭部衝撞、低頭裝沒看見)為望文生義的常見誤解，設計合理。"
+        }
+      ]
+    },
+    {
+      "d": "HanLin",
+      "n": 9,
+      "title": "單車遊日月潭",
+      "nq": 4,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目要求學生依課文開頭「近年來，環保及休閒運動盛行，許多的街道、景點周圍都規劃了自行車道。日月潭環湖自行車道，曾入選全球十大最美自行車道」的先後順序，判斷「先寫大環境、再聚焦日月潭」所透露的訊息，必須讀過本課才能答對；正解A『自行車道是大環境的風氣，日月潭這條只是特別出色的一條』與課文順序完全吻合，其餘三選項（唯一自行車道、模仿日月潭、日月潭帶動政策）均與課文不符，正解唯一且無事實錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目引用課文「穿越透著天光的樹林，車道突然拉得筆直」的具體描寫順序，需讀過本課才能判斷車道樣貌變化，換課文無法作答；正解D『先穿過灑滿光線的樹林，再進入視野開闊筆直的路段』與原文順序一致，其餘選項（順序顛倒、彎曲難行、狹窄危險）均與課文不符。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "題目扣緊課文「向山自行車道緊接著水社自行車道。經過一段坡道，此時可停下單車，欣賞水邊成排的落羽松」的具體地點與情節（向山自行車道、坡道、落羽松），非讀本課無法作答；正解B『先騎過一段坡道，才能抵達可以停車賞落羽松的地點』與原文條件一致，其餘選項（搭船、水社綜合商場買票、向山遊客中心倒騎）皆課文未提及或矛盾。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用課文「從水社到向山遊客中心，沿著潭水而行，景色美不勝收」與「曾入選全球十大最美自行車道」的呼應，屬本課特定路線描寫，換課文無法作答；正解A『沿著潭水騎行，沿途風景優美，是特別值得體驗的一段路線』與原文吻合，其餘選項（只有終點看得到潭水、為搭船銜接設計、大多遠離潭水）均與課文矛盾。"
+        }
+      ]
+    },
+    {
+      "d": "HanLin",
+      "n": 10,
+      "title": "孫悟空三借芭蕉扇",
+      "nq": 3,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "「敲敲又打打」是課文第三幕孫悟空在鐵扇公主肚中原句台詞（『不然老孫我，就在您的肚子裡，敲敲又打打』），非通用西遊記常識，需讀本課文才能作答。正解D與課文脈絡（先索扇再帶威脅語氣，最終公主因肚痛答應借扇）相符，其餘選項（A有禮貌請求、B忘記目的、C長住肚裡）均與課文情節矛盾，無事實錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目引用課文第四幕孫悟空假扮牛魔王的開場台詞（『夫人，我聽說那個孫猴子可能會來借扇子，你千萬不能借給他』），此為本課劇本專屬情節設計，換作他課無法作答。正解B（先套話取得實情再問出變大口訣）與課文後續公主說出『他帶走的是一把假扇』『讓扇子變大的口訣就是……』完全吻合；其餘選項（紅孩兒被抓、公主已識破投降、牛魔王真的生氣）均與課文情節不符。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "題目引用課文第一幕唐三藏原句『聽說前方火焰長達八百里，可是火焰山是必經之路』，是本課開場的具體台詞，非泛用知識。正解A（必經之路使借扇成為必要任務）符合課文邏輯；選項B（三藏已知鐵扇公主住處）、C（八百里與搧三次距離對應）、D（可繞路借扇只為輕鬆）均為課文未支持、無根據的推論，排除正確。"
+        }
+      ]
+    },
+    {
+      "d": "HanLin",
+      "n": 11,
+      "title": "最後一片葉子",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用課文中「只剩下五片葉子了」→「只剩下三片了」的葉子遞減描寫，此為本課獨有情節（O. Henry故事的翰林版具體文字），換成別課課文無法作答。正解索引2（暗示喬安病情惡化）符合課文脈絡與經典《最後一片葉子》主旨，其餘選項（誤解為老畫家先摘葉、課文數字錯誤、統計說明）均可由文本排除，無事實錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目扣住課文原句「蘇西需要靠作畫來賺錢過生活，請老畫家當模特兒時，說到喬安的病情，兩人都十分擔心」，屬本課具體情節細節，非泛用常識。正解索引3（蘇西需要靠作畫維生）與課文原文逐字對應，explanation引用正確，無事實錯誤或格式問題。"
+        }
+      ]
+    },
+    {
+      "d": "KangHsuan",
+      "n": 8,
+      "title": "動物老師的智慧",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目逐字引用課文原句「既可耐重，又能夠隨貼隨掛」（單課研究紀錄RC-01課文全文第23行），必須讀過本課才知道壁虎膠帶的特性描述，換成別課無法作答，belongs=true。正解index0「黏著力強又能重複撕貼」對應「耐重」+「隨貼隨掛」，內容正確，match=true；但explanation文字誤標「選項（B）」而非對應index0應為（A），屬說明文字標籤瑕疵，不影響正解內容本身之正確性。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目引用課文原句「推水所產生的反作用力，不但帶動身體在水中前進」（RC-01第21行），並追問後半句「還加快了速度」的效果，須讀本課青蛙段落才能答對，換成別課無法作答，belongs=true。正解index0「讓青蛙游動的速度因此加快」與課文「還加快了速度」完全一致，其餘三個選項分別為壁虎吸附力、壁虎細毛構造、跳躍取代游泳等課文內混淆點，構造正確，match=true；但explanation誤標「選項（C）」而非對應index0應為（A），同樣屬說明文字標籤瑕疵，不影響正解內容正確性。"
+        }
+      ]
+    },
+    {
+      "d": "KangHsuan",
+      "n": 12,
+      "title": "如來佛的手掌心",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用本課特有情節細節「孫悟空翻完筋斗雲後見到五根肉紅色的柱子，撐著一股青氣」——此為如來佛的手掌心（孫悟空與如來佛打賭翻筋斗雲、誤把佛指當柱子）故事獨有的關鍵意象，換成其他課文無法作答，belongs=true。正解摹寫（選項D）判斷合理：該句描繪顏色（肉紅色）與氣息（青氣）等視覺／感官細節，屬摹寫手法，非誇飾（未誇大程度/數量）、非排比（非結構相似句重複）、非設問（無疑問句式），且commonMisconception合理指出學生易將前段「一個筋斗十萬八千里」的誇飾印象錯套到此句，match=true。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用本課獨有情節序列（甲：與如來佛打賭；乙：翻筋斗雲十萬八千里見五根肉紅柱子；丙：在柱子上寫『齊天大聖到此一遊』；丁：如來佛翻開手掌，讓孫悟空看見自己手指上的字跡才知未離開手掌心），這些具體事件與順序皆為本課特有故事內容，非讀過本課無法排序，belongs=true。正解甲→乙→丙→丁符合故事邏輯發展（先打賭→再飛行抵達→再做記號→最後揭曉真相），順序合理無誤，match=true。"
+        }
+      ]
+    },
+    {
+      "d": "NanYi",
+      "n": 7,
+      "title": "不一樣的母親花",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目逐字引用本課課文「雖然莖上帶刺，但層層的花瓣飄散濃濃的香氣」描寫玫瑰花的句子，答案C『玫瑰花雖然帶刺，卻因花瓣層層、香氣濃郁而受人喜愛，成為母親花』與課文『熱情火紅的玫瑰花，雖然莖上帶刺，但層層的花瓣飄散濃濃的香氣，是許多人喜愛的花種。越南及印尼的人們，將美麗的玫瑰花視為母親花』完全吻合，換成別課課文無法作答，屬本課專屬錨點題；正解標示無誤，其餘選項（A提院子種花警惕、B茉莉花錯置、D與課文喜愛玫瑰的事實矛盾）均為明顯錯誤選項，無事實或格式錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目要求比較課文中康乃馨與萱草成為母親花的『方式』差異，須具體對照課文段落（康乃馨因美國政府1914年接受安娜·賈維斯提議正式訂立母親節而流傳；萱草為中國古代民間流傳習俗，孩子遠行時種下以減輕母親思念），非讀本課課文無法答對，屬本課專屬錨點題。正解D『康乃馨是由美國政府正式訂立節日而流傳，萱草則是民間流傳的習俗』與課文事實一致；其餘選項A（花期短清晨開花黃昏凋謝為萱草特徵，錯置給康乃馨）、B（花茶為茉莉花特徵，錯置給康乃馨；萱草實際種在院子裡而非不能種）、C（使用地區絕對化，與課文『許多西方國家』矛盾）均為合理錯誤誘答，無事實或格式錯誤。"
+        }
+      ]
+    },
+    {
+      "d": "NanYi",
+      "n": 8,
+      "title": "屋頂上的野貓",
+      "nq": 1,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目直接引用課文中「我」的具體台詞轉變：從『聊天為什麼要用那種聲音？』的害怕提問，到後來『我明天就去幫阿珠找』的主動回應（對應RC-01原文：「聊天？」我害怕的問…／「喵──哇啊──」我慢慢忘了害怕，認真回應：「我明天就去幫阿珠找。」）。此轉變唯有讀過本課「媽媽以想像貓語遊戲安撫我」的具體情節才能辨識，換成別課課文無法作答，故belongs=true。正解C「我從一開始的害怕，逐漸融入媽媽營造的想像遊戲，變得主動又投入其中」與課文情節完全吻合，其餘三個選項（誤把阿珠當真貓要去搬家、覺得貓叫太吵想趕貓、心不甘情不願被命令）均與原文情節不符，是合理誘答，無事實錯誤或格式問題，故match=true。"
+        }
+      ]
+    },
+    {
+      "d": "NanYi",
+      "n": 11,
+      "title": "小事物大驚奇",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目逐字引用課文開頭「把耳機當煎臺的廚師」一句（RC-01：『把耳機當煎臺的廚師──日常不起眼的小東西，在田中達也的想像和鏡頭下，化為令人驚奇的畫面』），若未讀本課課文無法得知此意象出處，符合belongs判準。正解（選項0）『把耳機的形狀想像成煎臺，讓微型人偶站上去化身廚師料理，呈現化平凡為驚奇的巧思』與課文脈絡（微型人偶+生活小物→驚奇畫面的創作手法）一致，其餘選項分別誤植其他段落內容（收集小物、巧克力米麵包野餐畫面）或做出課文未支持的實用建議，正解標示正確，無事實錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題目逐字引用課文『這些小玩意兒，搭配上由他製作出的上萬個微型人偶，匠心獨具，幻化出令人感動又貼合生活的畫面』（RC-01對應段落），若未讀本課課文無法得知此句出處與『搭配』的具體對象，符合belongs判準。正解（選項2）『微型人偶要和收集來的生活小物互相搭配，才能組合出令人感動又貼近生活的畫面』忠實對應課文原句『搭配』二字所指的關係，其餘選項為課文未支持的過度延伸（人偶代表真實朋友、數量是唯一關鍵）或與課文語意相反（人偶是唯一關鍵而非小物與人偶搭配），正解標示正確。"
+        }
+      ]
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "補題雙盲"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "sup-blind:HanLin_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a1a0d147942c98ca6",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955592,
+      "queuedAt": 1782960955582,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「夢幻全壘打」(翰林版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L8_sup_blind.json,共3題(idx 0~2)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部3題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782960977396,
+      "tokens": 36971,
+      "toolCalls": 2,
+      "durationMs": 21804,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true},{\"idx\":2,\"answer_index\":1,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "sup-judge:HanLin_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a28a05dce19327373",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955598,
+      "queuedAt": 1782960955582,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「夢幻全壘打」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L8_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L8_夢幻全壘打_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L8_夢幻全壘打_考古題與討論.md。共3題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷belongs…",
+      "lastProgressAt": 1782960986875,
+      "tokens": 39796,
+      "toolCalls": 4,
+      "durationMs": 31277,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目具體引用課文比數細節(一比三追成三比三)與二、三壘跑者依序奔回本壘的情節，換成別課無法作答。課文原比數1:3，二壘與一壘跑者各得一分共兩分，答案「兩分」正確無誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目直接引用課文兩處原句「氣喘如牛」與「氣呼呼的站著看我」，須依課文脈絡(祖母跑到球場的喘累→看我奔上二壘仍不停跑而生氣)才能作答，非泛用詞義題。答案D「從跑累了喘氣，轉為對『我』不肯乖乖回家而生氣」符合課文描寫的轉變，正確無誤。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"題目逐字引用課文原句「硬著頭皮奔回本壘」，並扣合「我」明知祖母生氣仍決定衝回本壘的…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "sup-blind:HanLin_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a0627e983bfffdb61",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955604,
+      "queuedAt": 1782960955604,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「單車遊日月潭」(翰林版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L9_sup_blind.json,共4題(idx 0~3)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部4題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782960989424,
+      "tokens": 37466,
+      "toolCalls": 2,
+      "durationMs": 33820,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true},{\"idx\":2,\"answer_index\":1,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "sup-judge:HanLin_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "af772b34427875c67",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955604,
+      "queuedAt": 1782960955604,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「單車遊日月潭」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L9_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L9_單車遊日月潭_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L9_單車遊日月潭_考古題與討論.md。共4題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷belo…",
+      "lastProgressAt": 1782961005253,
+      "tokens": 44954,
+      "toolCalls": 4,
+      "durationMs": 49648,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目要求學生依課文開頭「近年來，環保及休閒運動盛行，許多的街道、景點周圍都規劃了自行車道。日月潭環湖自行車道，曾入選全球十大最美自行車道」的先後順序，判斷「先寫大環境、再聚焦日月潭」所透露的訊息，必須讀過本課才能答對；正解A『自行車道是大環境的風氣，日月潭這條只是特別出色的一條』與課文順序完全吻合，其餘三選項（唯一自行車道、模仿日月潭、日月潭帶動政策）均與課文不符，正解唯一且無事實錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目引用課文「穿越透著天光的樹林，車道突然拉得筆直」的具體描寫順序，需讀過本課才能判斷車道樣貌變化，換課文無法作答；正解D『先穿過灑滿光線的樹林，再進入視野開闊筆直的路段』與原文順序一致，…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "sup-blind:HanLin_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "afef5c66ec1c5944c",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955608,
+      "queuedAt": 1782960955608,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「孫悟空三借芭蕉扇」(翰林版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L10_sup_blind.json,共3題(idx 0~2)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部3題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782960980089,
+      "tokens": 37282,
+      "toolCalls": 2,
+      "durationMs": 24481,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "sup-judge:HanLin_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a92c44c8ba9d5f940",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960955609,
+      "queuedAt": 1782960955608,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「孫悟空三借芭蕉扇」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L10_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L10_孫悟空三借芭蕉扇_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L10_孫悟空三借芭蕉扇_考古題與討論.md。共3題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n…",
+      "lastProgressAt": 1782961003171,
+      "tokens": 43397,
+      "toolCalls": 5,
+      "durationMs": 47562,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"「敲敲又打打」是課文第三幕孫悟空在鐵扇公主肚中原句台詞（『不然老孫我，就在您的肚子裡，敲敲又打打』），非通用西遊記常識，需讀本課文才能作答。正解D與課文脈絡（先索扇再帶威脅語氣，最終公主因肚痛答應借扇）相符，其餘選項（A有禮貌請求、B忘記目的、C長住肚裡）均與課文情節矛盾，無事實錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目引用課文第四幕孫悟空假扮牛魔王的開場台詞（『夫人，我聽說那個孫猴子可能會來借扇子，你千萬不能借給他』），此為本課劇本專屬情節設計，換作他課無法作答。正解B（先套話取得實情再問出變大口訣）與課文後續公主說出『他帶走的是一把假扇』『讓扇子變大的口訣就是……』完全吻合；其餘選項（紅孩兒被抓、公…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "sup-blind:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a11eee5cf6ead8a7f",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960977397,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「最後一片葉子」(翰林版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L11_sup_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782961003918,
+      "tokens": 36839,
+      "toolCalls": 2,
+      "durationMs": 26521,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "sup-judge:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "aee8561aa3a8c2628",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960980090,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「最後一片葉子」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L11_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷b…",
+      "lastProgressAt": 1782961004828,
+      "tokens": 40022,
+      "toolCalls": 4,
+      "durationMs": 24738,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目具體引用課文中「只剩下五片葉子了」→「只剩下三片了」的葉子遞減描寫，此為本課獨有情節（O. Henry故事的翰林版具體文字），換成別課課文無法作答。正解索引2（暗示喬安病情惡化）符合課文脈絡與經典《最後一片葉子》主旨，其餘選項（誤解為老畫家先摘葉、課文數字錯誤、統計說明）均可由文本排除，無事實錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目扣住課文原句「蘇西需要靠作畫來賺錢過生活，請老畫家當模特兒時，說到喬安的病情，兩人都十分擔心」，屬本課具體情節細節，非泛用常識。正解索引3（蘇西需要靠作畫維生）與課文原文逐字對應，explanation引用正確，無事實錯誤或格式問題。\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "sup-blind:KangHsuan_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a7e8f0f24052319a5",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960986876,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「動物老師的智慧」(康軒版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L8_sup_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782960999385,
+      "tokens": 36857,
+      "toolCalls": 2,
+      "durationMs": 12509,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true},{\"idx\":1,\"answer_index\":0,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "sup-judge:KangHsuan_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "aab71d81c9558cf77",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960989425,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「動物老師的智慧」(康軒版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_KangHsuan/L8_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L8_動物老師的智慧_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L8_動物老師的智慧_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題…",
+      "lastProgressAt": 1782961031312,
+      "tokens": 38761,
+      "toolCalls": 4,
+      "durationMs": 41887,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目逐字引用課文原句「既可耐重，又能夠隨貼隨掛」（單課研究紀錄RC-01課文全文第23行），必須讀過本課才知道壁虎膠帶的特性描述，換成別課無法作答，belongs=true。正解index0「黏著力強又能重複撕貼」對應「耐重」+「隨貼隨掛」，內容正確，match=true；但explanation文字誤標「選項（B）」而非對應index0應為（A），屬說明文字標籤瑕疵，不影響正解內容本身之正確性。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目引用課文原句「推水所產生的反作用力，不但帶動身體在水中前進」（RC-01第21行），並追問後半句「還加快了速度」的效果，須讀本課青蛙段落才能答對，換成別課無法作答，belon…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "sup-blind:KangHsuan_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "ab43f41c218fd4247",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960999386,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「如來佛的手掌心」(康軒版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L12_sup_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782961016953,
+      "tokens": 36933,
+      "toolCalls": 2,
+      "durationMs": 17567,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "sup-judge:KangHsuan_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a0cfca96a5185d3a1",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961003171,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「如來佛的手掌心」(康軒版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_KangHsuan/L12_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L12_如來佛的手掌心_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L12_如來佛的手掌心_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n…",
+      "lastProgressAt": 1782961074415,
+      "tokens": 52168,
+      "toolCalls": 9,
+      "durationMs": 71243,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目具體引用本課特有情節細節「孫悟空翻完筋斗雲後見到五根肉紅色的柱子，撐著一股青氣」——此為如來佛的手掌心（孫悟空與如來佛打賭翻筋斗雲、誤把佛指當柱子）故事獨有的關鍵意象，換成其他課文無法作答，belongs=true。正解摹寫（選項D）判斷合理：該句描繪顏色（肉紅色）與氣息（青氣）等視覺／感官細節，屬摹寫手法，非誇飾（未誇大程度/數量）、非排比（非結構相似句重複）、非設問（無疑問句式），且commonMisconception合理指出學生易將前段「一個筋斗十萬八千里」的誇飾印象錯套到此句，match=true。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目具體引用本課獨有情節序列（甲：與如來佛打賭；乙：翻筋斗雲…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "sup-blind:NanYi_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "ac852242475be7bc2",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961003919,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「不一樣的母親花」(南一版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L7_sup_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782961024421,
+      "tokens": 36925,
+      "toolCalls": 2,
+      "durationMs": 20502,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "sup-judge:NanYi_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a8b2d49f33fdc3400",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961004829,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「不一樣的母親花」(南一版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_NanYi/L7_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L7_不一樣的母親花_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L7_不一樣的母親花_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷be…",
+      "lastProgressAt": 1782961034450,
+      "tokens": 39553,
+      "toolCalls": 4,
+      "durationMs": 29621,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目逐字引用本課課文「雖然莖上帶刺，但層層的花瓣飄散濃濃的香氣」描寫玫瑰花的句子，答案C『玫瑰花雖然帶刺，卻因花瓣層層、香氣濃郁而受人喜愛，成為母親花』與課文『熱情火紅的玫瑰花，雖然莖上帶刺，但層層的花瓣飄散濃濃的香氣，是許多人喜愛的花種。越南及印尼的人們，將美麗的玫瑰花視為母親花』完全吻合，換成別課課文無法作答，屬本課專屬錨點題；正解標示無誤，其餘選項（A提院子種花警惕、B茉莉花錯置、D與課文喜愛玫瑰的事實矛盾）均為明顯錯誤選項，無事實或格式錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目要求比較課文中康乃馨與萱草成為母親花的『方式』差異，須具體對照課文段落（康乃馨因美國政府1914年接受安娜·賈維斯提議正…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "sup-blind:NanYi_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a44260bac4c1afcfe",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961005253,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「屋頂上的野貓」(南一版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L8_sup_blind.json,共1題(idx 0~0)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部1題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782961014092,
+      "tokens": 36669,
+      "toolCalls": 2,
+      "durationMs": 8839,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "sup-judge:NanYi_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "aaf709cb0a18de8fe",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961014093,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「屋頂上的野貓」(南一版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_NanYi/L8_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L8_屋頂上的野貓_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L8_屋頂上的野貓_考古題與討論.md。共1題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷belon…",
+      "lastProgressAt": 1782961040082,
+      "tokens": 41984,
+      "toolCalls": 4,
+      "durationMs": 25989,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目直接引用課文中「我」的具體台詞轉變：從『聊天為什麼要用那種聲音？』的害怕提問，到後來『我明天就去幫阿珠找』的主動回應（對應RC-01原文：「聊天？」我害怕的問…／「喵──哇啊──」我慢慢忘了害怕，認真回應：「我明天就去幫阿珠找。」）。此轉變唯有讀過本課「媽媽以想像貓語遊戲安撫我」的具體情節才能辨識，換成別課課文無法作答，故belongs=true。正解C「我從一開始的害怕，逐漸融入媽媽營造的想像遊戲，變得主動又投入其中」與課文情節完全吻合，其餘三個選項（誤把阿珠當真貓要去搬家、覺得貓叫太吵想趕貓、心不甘情不願被命令）均與原文情節不符，是合理誘答，無事實錯誤或格式問題，故match=true。\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "sup-blind:NanYi_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "aa10bbfd56bce04fd",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961016954,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「小事物大驚奇」(南一版)的補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L11_sup_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782961024896,
+      "tokens": 36991,
+      "toolCalls": 2,
+      "durationMs": 7942,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "sup-judge:NanYi_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "afbae4bf6348d9357",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782961024423,
+      "queuedAt": 1782960955612,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「小事物大驚奇」(南一版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_NanYi/L11_sup_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L11_小事物大驚奇_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L11_小事物大驚奇_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\n「學生不必讀本課課文就能答對」一律 belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、非格式崩壞。\n\n對每題判斷be…",
+      "lastProgressAt": 1782961051983,
+      "tokens": 38927,
+      "toolCalls": 4,
+      "durationMs": 27560,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目逐字引用課文開頭「把耳機當煎臺的廚師」一句（RC-01：『把耳機當煎臺的廚師──日常不起眼的小東西，在田中達也的想像和鏡頭下，化為令人驚奇的畫面』），若未讀本課課文無法得知此意象出處，符合belongs判準。正解（選項0）『把耳機的形狀想像成煎臺，讓微型人偶站上去化身廚師料理，呈現化平凡為驚奇的巧思』與課文脈絡（微型人偶+生活小物→驚奇畫面的創作手法）一致，其餘選項分別誤植其他段落內容（收集小物、巧克力米麵包野餐畫面）或做出課文未支持的實用建議，正解標示正確，無事實錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題目逐字引用課文『這些小玩意兒，搭配上由他製作出的上萬個微型人偶，匠心獨具，幻化出令人感動又貼合生…"
+    }
+  ],
+  "totalTokens": 712495,
+  "totalToolCalls": 60
+}

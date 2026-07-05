@@ -195,9 +195,10 @@ function evaluateQuestion(q, subject, kl4Status) {
     // A. 選項對稱性 (2.0)
     if (options.length === 4) {
         const lengths = options.map(o => String(o).length);
-        const maxLength = Math.max(...lengths);
-        const isAllSameLength = lengths.every(l => l === lengths[0]);
-        if (ansIndex >= 0 && ansIndex < 4 && !isAllSameLength && lengths[ansIndex] === maxLength) {
+        const otherLengths = lengths.filter((_, i) => i !== ansIndex);
+        const maxOtherLength = otherLengths.length ? Math.max(...otherLengths) : -Infinity;
+        // 正解＝唯一最長（嚴格大於其餘3項，含並列不算），對齊 README_驗證與盲測準則.md §4.2/§4.6
+        if (ansIndex >= 0 && ansIndex < 4 && lengths[ansIndex] > maxOtherLength) {
             isLongestAnswer = true;
             cqi_score += 0.5;
         } else {
@@ -299,8 +300,9 @@ function evaluateFile(filePath) {
                     break;
                 }
             }
-            if (!biasWarning && !['Math', 'Science', 'MATH', 'SCI'].includes(meta.subject)) {
-                const lenThreshold = (meta.grade === 'G3' || meta.grade === 'G4') ? 0.75 : 0.65;
+            if (!biasWarning) {
+                // 對齊 README_驗證與盲測準則.md §4.6：40% 上架硬門檻，不分科目、不分年級
+                const lenThreshold = 0.40;
                 if ((longestAnswerCount / total) > lenThreshold) {
                     biasWarning = '選項長度偏差過大';
                 }

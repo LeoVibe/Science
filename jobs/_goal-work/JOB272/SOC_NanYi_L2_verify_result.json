@@ -1,0 +1,175 @@
+{
+  "subj": "SOC",
+  "d": "NanYi",
+  "n": 2,
+  "key": "SOC_NanYi_L2",
+  "blind": [
+    {
+      "idx": 1,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 5,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 6,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 7,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 9,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 16,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 17,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 19,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 20,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 21,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 28,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 29,
+      "answer_index": 0,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 1,
+      "belongs": true,
+      "match": true,
+      "reason": "北回歸線劃分熱帶/亞熱帶為本課核心知識點（研究紀錄2.1），正解「北回歸線以南屬熱帶，以北屬亞熱帶」正確；三誘答（全島寒帶/全島熱帶/全島亞熱帶）均為明顯錯誤的地理偏誤，無一變成也正確。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.2「東北季風冬季盛行，帶來北部降雨」知識點，正解「東北季風帶來海洋水氣」正確；梅雨鋒面、西南季風、颱風外圍環流分屬其他降雨機制，季節/成因不符，未變成也正確。"
+    },
+    {
+      "idx": 5,
+      "belongs": true,
+      "match": true,
+      "reason": "與考古題題17/28（南北作物差異成因）高度對應，正解「南、北氣溫與雨量不同，適合作物不同」正確；「北部農地少」「南部土壤更肥沃」「政府規定」三誘答皆為事實錯誤或武斷推論。"
+    },
+    {
+      "idx": 6,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄2.2「梅雨季：春末夏初鋒面滯留降雨」，正解定義正確；「像梅子一樣大」的俗詞誤解、冬季東北季風、秋季颱風三誘答皆為季節或成因錯誤，未變成也正確。"
+    },
+    {
+      "idx": 7,
+      "belongs": true,
+      "match": true,
+      "reason": "延伸自研究紀錄「東北季風帶來北部降雨」之地形交互作用（Ab-II-1自然人文相互影響），正解「南部背風側受東北季風影響較小」為標準地理事實；「北部吹西南季風」方向錯誤，「南部幾乎不會下雨/終年無雨」為武斷用詞黑名單型過度絕對化陳述，均為錯。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "同idx1氣候帶主題，正解「北回歸線以北屬亞熱帶」正確，三誘答（全島亞熱帶/以南溫帶/全島熱帶）皆為事實錯誤。"
+    },
+    {
+      "idx": 9,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄「氣候影響農作」知識點，正解「氣候條件會影響適合種植的作物」為正確一般性陳述；「雨水太多一定導致全部作物死亡」「氣候變化完全沒有影響」「農民可完全隨意種植」皆含「一定/完全」等絕對化錯誤用詞。"
+    },
+    {
+      "idx": 16,
+      "belongs": true,
+      "match": true,
+      "reason": "與idx1/8同主題不同表述，正解「北回歸線以南為熱帶，以北為亞熱帶」正確；「全島皆位於北回歸線以南」為事實錯誤（北部多數地區實位於線以北），其餘誘答亦錯誤。"
+    },
+    {
+      "idx": 17,
+      "belongs": true,
+      "match": true,
+      "reason": "直接對應考古題參考題（南北作物差異），正解「氣候條件不同，適合作物也不同」正確；個人喜好、政府規定、飲食偏好三誘答均為錯誤歸因。"
+    },
+    {
+      "idx": 19,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄「颱風：高頻迷思—學生認為只有壞處」守衛點，正解「颱風雖有災情但也是重要水資源」正確扣合迷思矯正；三誘答皆為「一點好處都沒有/一點幫助也沒有/跟水資源完全無關」等絕對化錯誤陳述。"
+    },
+    {
+      "idx": 20,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄「氣候影響建築：南部騎樓避雨」知識點，正解「遮陽避雨適應南部炎熱多雨氣候」正確；喜好、遊戲空間、政府規範三誘答與氣候無關，屬錯誤歸因。"
+    },
+    {
+      "idx": 21,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄核心概念「天氣（短期）vs 氣候（長期平均）」及活動一「天氣觀察日記」情境，正解定義正確；「天氣氣候一樣」「記錄夠多天就代表氣候」為典型迷思誘答，「小強記錄天數不夠」為表面歸因、未觸及長期平均此一核心定義差異，不構成與正解等價的另一正確答案。"
+    },
+    {
+      "idx": 24,
+      "belongs": true,
+      "match": true,
+      "reason": "同idx1/8/16之北回歸線主題不同措辭，正解正確；「北回歸線以北氣溫幾乎不變」「以南終年下雪」「劃分乾燥/濕潤氣候」皆為事實錯誤，無一變成也正確。"
+    },
+    {
+      "idx": 28,
+      "belongs": true,
+      "match": true,
+      "reason": "與idx5/17同一考古題延伸主題（南北作物差異成因），正解「氣候條件不同，適合作物也不同」正確；「南部土地肥沃度遠高於北部」「純粹依個人喜好」「政府規定」三誘答均為事實或邏輯錯誤。"
+    },
+    {
+      "idx": 29,
+      "belongs": true,
+      "match": true,
+      "reason": "對應研究紀錄「氣候影響穿著」知識點及戶外教學情境延伸，正解「北部山區與南部平地氣候可能不同，影響穿著與用品準備」正確；「山區一定完全不能穿短袖」「跟氣候一點關係都沒有」「雨具只是裝飾」三誘答均為武斷或明顯錯誤陳述。"
+    }
+  ]
+}

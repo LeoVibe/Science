@@ -1,0 +1,163 @@
+{
+  "SOC_HanLin_L3": {
+    "total": 15,
+    "passed": 15,
+    "failed": []
+  },
+  "SOC_HanLin_L5": {
+    "total": 15,
+    "passed": 14,
+    "failed": [
+      {
+        "idx": 1,
+        "gate1_blindHit": false,
+        "gate2_single": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "judge_reason": "情境為老屋拆除改建高樓，測「忽略文化保存與環境永續」，對應單課研究紀錄2.3家鄉問題與解決／認知地雷「金錢萬能」矩陣。正解文字與rebalance_in原題完全一致（忽略了文化保存與環境永續的重要性），僅誘答改寫加長（如加入「事先」「真正」），四誘答語意仍明確錯誤，未變成也可成立的答案，長度也已拉齊"
+      }
+    ]
+  },
+  "SOC_KangHsuan_L2": {
+    "total": 13,
+    "passed": 12,
+    "failed": [
+      {
+        "idx": 15,
+        "gate1_blindHit": true,
+        "gate2_single": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "judge_reason": "題幹考製糖工廠關閉改建原因，正解「生產成本或市場需求的改變，產業結構發生變動」正確且對應課本核心概念，belongs成立；但誘答選項「因為工廠裡的機器設備太老舊，大家都想換新款手機使用」語意不連貫，將工廠設備老舊與『換新款手機』兩個不相關概念拼接，非合理的錯誤選項而是邏輯崩壞的文字，屬內容品質缺陷，"
+      }
+    ]
+  },
+  "SOC_KangHsuan_L6": {
+    "total": 17,
+    "passed": 17,
+    "failed": []
+  },
+  "SOC_NanYi_L2": {
+    "total": 15,
+    "passed": 14,
+    "failed": [
+      {
+        "idx": 4,
+        "gate1_blindHit": false,
+        "gate2_single": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "judge_reason": "對應研究紀錄2.2「東北季風冬季盛行，帶來北部降雨」知識點，正解「東北季風帶來海洋水氣」正確；梅雨鋒面、西南季風、颱風外圍環流分屬其他降雨機制，季節/成因不符，未變成也正確。"
+      }
+    ]
+  },
+  "SOC_NanYi_L3": {
+    "total": 13,
+    "passed": 13,
+    "failed": []
+  },
+  "SOC_NanYi_L4": {
+    "total": 15,
+    "passed": 13,
+    "failed": [
+      {
+        "idx": 10,
+        "gate1_blindHit": false,
+        "gate2_single": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "judge_reason": "對應「高鐵與城鄉差距／磁吸效應負面影響」守衛點；正解文字未變，仍正確描述青壯人口外流。三誘答（農產運銷更方便、觀光客減少、空氣品質變差）分別描述與磁吸效應無關或方向相反的內容，改寫後仍為錯誤選項。"
+      },
+      {
+        "idx": 23,
+        "gate1_blindHit": false,
+        "gate2_single": false,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "judge_reason": "對應人口遷移推力/拉力因素（呼應考古題3「拉力/推力框架」）；正解「環境汙染導致農作物無法生長」為典型推力（家鄉負面條件），文字未變仍正確。三誘答（科學園區、捷運通車便利、學校品質提升）皆屬吸引人口移入的拉力/建設利多，非推力，改寫後方向仍與正解相反，未變成也正確。"
+      }
+    ]
+  },
+  "SOC_NanYi_L5": {
+    "total": 14,
+    "passed": 14,
+    "failed": []
+  },
+  "CHI_HanLin_L8": {
+    "total": 18,
+    "passed": 18,
+    "failed": []
+  },
+  "CHI_HanLin_L9": {
+    "total": 14,
+    "passed": 14,
+    "failed": []
+  },
+  "CHI_KangHsuan_L7": {
+    "total": 15,
+    "passed": 15,
+    "failed": []
+  },
+  "CHI_KangHsuan_L8": {
+    "total": 17,
+    "passed": 16,
+    "failed": [
+      {
+        "idx": 4,
+        "gate1_blindHit": true,
+        "gate2_single": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "judge_reason": "題幹「從這篇文章中，我們可以學到什麼樣的學習態度？」未引用本課任何情節、人物、意象或字詞（無蛙蹼、壁虎、動物發明學校等錨點），三個誘答均為「完全聽從」「立刻學會所有」「一定能成為」等武斷極端用語，僅憑常識刪去即可選出正解，不必讀本課課文即可答對，故belongs=false。正解本身文字與課文精神相"
+      }
+    ]
+  },
+  "CHI_KangHsuan_L9": {
+    "total": 14,
+    "passed": 14,
+    "failed": []
+  },
+  "CHI_KangHsuan_L12": {
+    "total": 14,
+    "passed": 14,
+    "failed": []
+  },
+  "CHI_NanYi_L7": {
+    "total": 14,
+    "passed": 14,
+    "failed": []
+  },
+  "CHI_NanYi_L8": {
+    "total": 19,
+    "passed": 18,
+    "failed": [
+      {
+        "idx": 27,
+        "gate1_blindHit": true,
+        "gate2_single": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "judge_reason": "題幹「照顧小貓的過程中學到什麼對待生命最重要的態度」及正解「生命需要被善待，且愛心需要時間讓對方感受」均為泛用生命教育語句，未點名「阿珠」「小煤球」「紙箱」等本課專屬人物／物件，四個誘答（外表可愛就是朋友、忍耐搗蛋、食物充足就快樂）也都可憑生活常識排除，換成任何一篇動物飼養主題課文皆可同樣作答，學生"
+      }
+    ]
+  },
+  "CHI_NanYi_L11": {
+    "total": 14,
+    "passed": 13,
+    "failed": [
+      {
+        "idx": 9,
+        "gate1_blindHit": false,
+        "gate2_single": false,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "judge_reason": "需依課文結尾「田中達也希望讀者…」段落作答，正解「學習改變想法，從不同的視角發現樂趣」為課文唯一直接點名之訊息。誘答「學習仔細觀察生活周遭的各種小事物」改寫後語意較貼近主題（存在被誤認為近似正確之風險），但課文明確以「改變想法／視角」為讀者訊息而非「觀察」，故仍可判定為單一正解，未達雙重正解程度。"
+      }
+    ]
+  },
+  "CHI_NanYi_L12": {
+    "total": 16,
+    "passed": 16,
+    "failed": []
+  }
+}

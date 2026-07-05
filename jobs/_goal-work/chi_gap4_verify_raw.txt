@@ -1,0 +1,210 @@
+{
+  "summary": "四下國語3課補4題盲測+judge(課文必要錨點)",
+  "agentCount": 6,
+  "logs": [],
+  "result": [
+    {
+      "d": "HanLin",
+      "n": 7,
+      "title": "棒球英雄夢",
+      "nq": 1,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目具體引用課文RC-01「一旦我被球打到，人人都拍手叫好」與「放手一揮…三振出局…都是你害的」兩段對比情節，換成別課課文無法作答，belongs=true。正解(idx=2)「期待作者扮演不主動揮棒的被動角色，一旦主動求勝失敗，責任便全歸給他」精準對應課文對比：被動保送被讚許、主動揮棒失敗被指責。選項0錯置因果（課文是隊友先指責，而非作者先承認拖累球隊才附和）；選項1課文從未提及觸身球保送在得分策略上的優劣比較；選項3課文只寫隊友指責「都是你害的」，未見任何肯定作者揮棒勇氣的描述。四選項語意各自獨立，須讀懂課文具體情節與因果順序才能判斷，非憑單一情感色彩詞可猜中，match=true。"
+        }
+      ]
+    },
+    {
+      "d": "HanLin",
+      "n": 11,
+      "title": "最後一片葉子",
+      "nq": 2,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹直接引用課文兩句關鍵原文（醫生說「全靠她的求生意志了」、老畫家「我會讓那片葉子留下來」），須整合這兩處課文情節才能推出老畫家的真正目的；換成別課課文無法作答。正解C「讓喬安誤以為葉子未掉落、重燃求生意志」與課文情節（隔天蘇西驚喜宣告葉子還在、喬安因此漸漸有了生氣）完全對應，且緊扣醫生所言的「求生意志」因果鏈。四個選項各自描述不同具體情節（掌狀葉研究／蘇西用畫具賺錢／葉子沒掉落／房東延後出租），語意互不重疊，非單純情感色彩詞可猜中，需讀懂課文才能排除其餘三個看似合理但情節錯置或無中生有的干擾項。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹具體引用課文結局情節（喬安看見房東搬走老畫家「破爛家具」準備轉租房間，才得知老畫家已去世），此為本課獨有的情節安排，換成別課課文無法作答。正解「讓喬安在毫無預警下透過旁證意外得知真相，更凸顯老畫家默默犧牲、不求回報的形象」符合課文敘事效果分析（老畫家冒風雨作畫致死卻未讓喬安知情）。四個選項語意各自獨立：批評房東、蘇西刻意隱瞞（與課文不符，蘇西並非隱瞞而是喬安自行發現後蘇西才說明真相）、需搬房間養病（課文無此暗示）均為合理但可被文本細節排除的干擾項，非靠單一情感詞即可猜中，須讀懂課文情節安排才能正確作答。"
+        }
+      ]
+    },
+    {
+      "d": "HanLin",
+      "n": 12,
+      "title": "閱讀課",
+      "nq": 1,
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題目要求依課文內容比對妙妙、壘安、秀秀三人各自的具體助人行動——妙妙扶跌倒的姐姊起身、壘安出借鉛筆/橡皮擦給同學、秀秀整理玩具義賣並捐出所得，此組合唯有本課課文才能提供，換成別課無法作答，符合belongs條件。答案標示為選項1（index 0），核對課文原文「看到一個姐姐跌倒，就去扶她起來」對應妙妙、「借鉛筆或橡皮擦給同學」對應壘安、「整理好的玩具帶來義賣，把錢捐出去」對應秀秀，三者皆與正解選項逐句吻合，標示正確。四個選項為三人行動的不同排列組合（含選項3竄改秀秀行為為「留著自己收藏」、選項4將三人行動全部誤植為同一件事），彼此語意互斥、可清楚區辨，且答案並非僅靠單一正向詞彙的情感色彩即可猜中，須逐句核對課文才能正確配對三人與其行動，未見格式或選項重疊問題。"
+        }
+      ]
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "補題雙盲"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "g4-blind:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a20e11dca667876cd",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602000,
+      "queuedAt": 1782998601991,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「棒球英雄夢」(翰林版)補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L7_gap4_blind.json,共1題(idx 0~0)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部1題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782998619598,
+      "tokens": 35651,
+      "toolCalls": 2,
+      "durationMs": 17598,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "g4-judge:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a5507d2bd50929a8d",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602005,
+      "queuedAt": 1782998601991,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「棒球英雄夢」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L7_gap4_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_考古題與討論.md。共1題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\nmatch=true：標示正解正確無誤、非格式崩壞、**選項語意各自獨立不重疊**、**不可憑字面情感色彩(僅一個正向詞)猜中而不必讀課文**。\n\n對每題判…",
+      "lastProgressAt": 1782998652967,
+      "tokens": 40549,
+      "toolCalls": 6,
+      "durationMs": 50962,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目具體引用課文RC-01「一旦我被球打到，人人都拍手叫好」與「放手一揮…三振出局…都是你害的」兩段對比情節，換成別課課文無法作答，belongs=true。正解(idx=2)「期待作者扮演不主動揮棒的被動角色，一旦主動求勝失敗，責任便全歸給他」精準對應課文對比：被動保送被讚許、主動揮棒失敗被指責。選項0錯置因果（課文是隊友先指責，而非作者先承認拖累球隊才附和）；選項1課文從未提及觸身球保送在得分策略上的優劣比較；選項3課文只寫隊友指責「都是你害的」，未見任何肯定作者揮棒勇氣的描述。四選項語意各自獨立，須讀懂課文具體情節與因果順序才能判斷，非憑單一情感色彩詞可猜中，match=true。\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "g4-blind:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a29614664b8a20fc3",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602012,
+      "queuedAt": 1782998602012,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「最後一片葉子」(翰林版)補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L11_gap4_blind.json,共2題(idx 0~1)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部2題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782998615497,
+      "tokens": 35918,
+      "toolCalls": 2,
+      "durationMs": 13485,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "g4-judge:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a26149963932fb98b",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602013,
+      "queuedAt": 1782998602012,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「最後一片葉子」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L11_gap4_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_考古題與討論.md。共2題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\nmatch=true：標示正解正確無誤、非格式崩壞、**選項語意各自獨立不重疊**、**不可憑字面情感色彩(僅一個正向詞)猜中而不必讀課文**。…",
+      "lastProgressAt": 1782998655573,
+      "tokens": 39006,
+      "toolCalls": 4,
+      "durationMs": 53560,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題幹直接引用課文兩句關鍵原文（醫生說「全靠她的求生意志了」、老畫家「我會讓那片葉子留下來」），須整合這兩處課文情節才能推出老畫家的真正目的；換成別課課文無法作答。正解C「讓喬安誤以為葉子未掉落、重燃求生意志」與課文情節（隔天蘇西驚喜宣告葉子還在、喬安因此漸漸有了生氣）完全對應，且緊扣醫生所言的「求生意志」因果鏈。四個選項各自描述不同具體情節（掌狀葉研究／蘇西用畫具賺錢／葉子沒掉落／房東延後出租），語意互不重疊，非單純情感色彩詞可猜中，需讀懂課文才能排除其餘三個看似合理但情節錯置或無中生有的干擾項。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題幹具體引用課文結局情節（喬安看見房東搬走老畫家「破爛家具」準備轉租房間，才…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "g4-blind:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a9e2763b8402b4de6",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602016,
+      "queuedAt": 1782998602016,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「閱讀課」(翰林版)補題。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L12_gap4_blind.json,共1題(idx 0~0)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全部1題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782998623972,
+      "tokens": 37974,
+      "toolCalls": 4,
+      "durationMs": 21956,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "g4-judge:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "補題雙盲",
+      "agentId": "a58e412fdbf0a2f21",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782998602017,
+      "queuedAt": 1782998602016,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「閱讀課」(翰林版)補題是否真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L12_gap4_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_考古題與討論.md。共1題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。\nmatch=true：標示正解正確無誤、非格式崩壞、**選項語意各自獨立不重疊**、**不可憑字面情感色彩(僅一個正向詞)猜中而不必讀課文**。\n\n對每題判斷be…",
+      "lastProgressAt": 1782998632757,
+      "tokens": 39149,
+      "toolCalls": 3,
+      "durationMs": 30740,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題目要求依課文內容比對妙妙、壘安、秀秀三人各自的具體助人行動——妙妙扶跌倒的姐姊起身、壘安出借鉛筆/橡皮擦給同學、秀秀整理玩具義賣並捐出所得，此組合唯有本課課文才能提供，換成別課無法作答，符合belongs條件。答案標示為選項1（index 0），核對課文原文「看到一個姐姐跌倒，就去扶她起來」對應妙妙、「借鉛筆或橡皮擦給同學」對應壘安、「整理好的玩具帶來義賣，把錢捐出去」對應秀秀，三者皆與正解選項逐句吻合，標示正確。四個選項為三人行動的不同排列組合（含選項3竄改秀秀行為為「留著自己收藏」、選項4將三人行動全部誤植為同一件事），彼此語意互斥、可清楚區辨，且答案並非僅靠單一正向詞彙的情感色彩即可猜中，須逐句核對課文才能正確配對三人與其行動，未見格式或選項重疊問題。\"}]}"
+    }
+  ],
+  "totalTokens": 228247,
+  "totalToolCalls": 21
+}

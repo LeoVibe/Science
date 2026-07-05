@@ -1,0 +1,1532 @@
+{
+  "summary": "四下國語4課重鑄後重新盲測+judge(課文錨點)",
+  "agentCount": 8,
+  "logs": [],
+  "result": [
+    {
+      "dir": "HanLin",
+      "n": 7,
+      "title": "棒球英雄夢",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹明確引用課文情節「祖母買文房四寶要作者寫字，做一個有用的人」，須讀本課才能答對；正解與課文原句一致，誘答（隊長／打擊好手／棒球國手）均為棒球相關但與文房四寶用途無關，無變成也正確之虞。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹「導致輸球的原因」對應課文「兩好三壞後放手一揮，揮棒落空三振出局」情節。正解(2)明確對應被三振的結果；誘答(1)雖描述他確實選擇主動揮棒（真實情節），但未涉及「揮棒落空」這個造成輸球的關鍵結果，不足以構成同樣正確的答案。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "緊扣課文「站在打擊位子上不得揮棒…等四壞球保送」情節，須讀本課才能答對。正解(3)與課文完全吻合，其餘三個誘答均與課文敘述矛盾。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文「夢見自己擊出全壘打…接受所有人的歡呼」的具體情節。正解(0)對應「渴望認同」，其餘誘答（不用寫字/想變壯/賺錢送祖母）課文均無支持，不會與正解並存正確。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾原句「不斷的努力，相信終有一天，機會會來敲我的大門」，須讀本課方能作答。正解(3)語意精準，其餘選項與原句態度矛盾。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「老祖母非常不能接受…不應該送給孩子玩樂工具」，正解(3)與原文一致，其他選項（好奇/中立/支持）皆與課文態度相反。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「大孩子多半不想讓我加入…一定不准我揮棒」，正解(2)符合課文因果，其餘誘答（喜歡被打/揮棒太好/跑壘最快）課文均無依據。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「都是你害的」及「檢討到最後都是我害的」情節，正解(3)符合課文描寫的團隊氛圍，其餘選項（鼓勵/安慰/崇拜）與課文情節矛盾。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "承接夢境情節（全壘打、歡呼），正解(0)貼合課文「接受所有人的歡呼」意涵；誘答（祖母認可/不需努力/父親讚美）課文均未提及，不會使誘答同樣成立。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾「我不斷的努力」與前文屢遭挫折的情節，正解(1)符合，誘答（報復/盲目堅持/喜歡被罵）皆與課文語氣不符。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「我的志向和祖母的期待並不相同」及「做一個有用的人」與「參加比賽」的對比，正解(2)精確；其餘選項將祖母/作者的期待對調或捏造「浪費錢」情節，皆與課文不符。註：附帶的blind_eval_mismatch記錄為盲測情境不符所致雜訊，已由審查者妥善保留原答案，不影響本題正確性判斷。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「大孩子多半不想讓我加入，那會削弱他們的實力」情節，正解(1)為合理推論；其餘選項（特殊權利/幸運星/保護）與課文語意相反。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「都是你害的」與結尾「不斷努力」的呼應，正解(3)符合課文完整脈絡；其餘選項（放棄/自認重要/憤怒不再打球）課文均無支持。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「像大力水手吃了菠菜一樣，反敗為勝」意象，正解(2)貼切；誘答（卡通奇幻/嘲笑大孩子/想變壯愛吃菜）皆偏離課文「反敗為勝、獲得認同」的核心。"
+        },
+        {
+          "idx": 14,
+          "belongs": false,
+          "match": true,
+          "reason": "題幹未引用任何本課專屬情節或字詞（無球棒、文房四寶、四壞球、大力水手等錨點），四個成語選項中僅「堅毅不屈」為正向詞，其餘三者皆負面，學生可憑「找出唯一正向選項」的解題策略猜中，不需讀過本課課文即可答對，違反「學生不必讀本課課文就能答對一律belongs=false」判準。正解本身無事實錯誤，故match仍為true。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「不應該送給孩子玩樂工具」，正解(1)為原句改寫，精確無誤；誘答(0)「應送文房四寶而非球棒」是合理但課文未明言的推論，非課文直接態度陳述，不構成與正解並列正確。註：附帶的blind_eval_mismatch記錄內部correct_answer欄位與實際answer_index不一致，為盲測歷史雜訊，已由審查者確認保留原答案，不影響本題判斷。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「不准我揮棒」「削弱他們的實力」，正解(2)精確對應；誘答（沒信心/實力太強/保護球棒）均與課文相反或無依據。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「揮棒落空，三振出局…異口同聲說都是你害的」，正解(1)精確；其餘選項（防守失誤/不聽指揮/嘲笑隊友）課文均無提及。附帶blind_eval_mismatch的correct_answer=0為盲測情境不符雜訊，已由審查者保留原答案，不影響判斷。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文「大力水手吃了菠菜一樣，反敗為勝」，正解(3)貼合「逆轉劣勢獲得認同」；誘答（放棄棒球/學打擊技巧/隊友像菠菜）皆與課文意象不符。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾「不斷的努力，相信…機會會來敲我的大門」，正解(2)精確；其餘選項（轉隊/靠運氣/放棄）與原句態度相反。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「買了文房四寶，要我寫字，做一個有用的人」，正解(0)為原意精簡；誘答（棒球國手/書法家/作文比賽）皆非課文所述目標。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「那會削弱他們的實力…不准我揮棒」，正解(0)合理對應；誘答（打擊姿勢標準/祖母禁止/受傷）課文均無支持。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「檢討到最後都是我害的」，正解(3)「代罪羔羊」為貼切推論；其餘選項（精神領袖/教練/王牌投手）與課文情節相反。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "承接夢境全壘打情節，正解(1)符合「接受所有人的歡呼」的渴望認同意涵；誘答（厭煩棒球/靠運氣/想當漫畫家）課文均無依據。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "綜合課文「志向與祖母期待不同」及結尾「不斷努力等待機會」，正解(2)為貼切總結；誘答（放棄練書法/離家出走/迎合隊友）皆為課文未提及的捏造情節。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文首句「一個孩子最大的夢想，就是當棒球小國手，像王貞治…」，正解(2)完全對應；其餘選項（文房四寶/大力水手/寫字有用）皆混淆祖母期待與作者夢想。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「玩樂工具」與「做有用的人」的價值對比，正解(1)為合理推論；誘答（太貴/危險/練揮棒）課文均無支持。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「削弱他們的實力…不准我揮棒」，正解(0)精確；誘答（勇敢/幸運星/選球眼光佳）皆與課文對作者能力不足的描述相反。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「檢討到最後都是我害的」及揮棒落空三振情節，正解(2)精確對應；誘答（教練/隊長/技巧太好讓對手嫉妒）皆與課文情節矛盾。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾原句「機會會來敲我的大門」，正解(1)精確對應「持續堅持與希望」；其餘選項（送禮換機會/靠運氣/放棄聽祖母話）皆與原句態度不符。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 11,
+      "title": "最後一片葉子",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 3,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "問題與選項均緊扣本課「喬安/常春藤葉/生命連結」情節，換課文答不出來。正解(0)「將生命力與葉子連結、消極聯想」符合RC-01原文（喬安望窗說「當最後一片葉子掉下來…我的生命也將結束了」）及explanation「心理投射而非生理直接連結」；誘答(3)「像脆弱葉子一樣沒有力氣」屬課文未明說的字面延伸，非同時正確。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「老畫家臉上出現少見的光彩」原文語句。正解(1)「利用畫技拯救喬安」對應原文「他暗自做了一個重大的決定：我會讓那片葉子留下來」；其餘三個誘答（房租辦法、不必當模特兒、以為裝病）皆為課文未提及的虛構情節，明確錯誤。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "緊扣「風雨過後喬安看葉子臉色好轉」情節。正解(3)「葉子象徵戰勝肺炎的奇蹟」符合explanation「求生意志重新燃起」；誘答(0)蘇西貼葉子、(1)天氣放晴、(2)老畫家在窗外揮手皆與課文情節（此時老畫家已暗中作畫且未出現在窗外）矛盾，明確錯誤。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊蘇西揭露真相時「精彩的畫作」原句。正解(0)強調犧牲生命傳達的愛，與考古題第7題「精彩」誘答分析一致（正解該強調救回喬安意志而非賣錢/技巧）；誘答(3)「騙過喬安眼睛」雖字面屬實但只是表層，屬同一設計慣例下的合理誘答，非另一正確答案。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "反事實推論題緊扣「求生意志決定病情」課文設定（醫生說「全靠她的求生意志」+喬安「最後一片葉子掉下來，我的生命也將結束」）。正解(1)病情惡化與文本伏筆一致；其餘選項（更努力求生、蘇西說實情、葉子掉不掉無所謂）與已建立的人物心理矛盾，明確錯誤。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題直接對應原文「常春藤上的葉子只剩下三片了，當最後一片葉子掉下來的時候，我的生命也將結束了」。正解(1)「生命力與葉子存亡連結」精準；誘答（懲罰蘇西、醫生明說、老畫家給魔力暗示）皆為課文未提及的虛構內容，單一正解清晰。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx1同語句家族，scenario同樣為「決定畫葉子時」，正解(0)「找到最重要題材，決定用畫筆幫助喬安活下去」未過度宣稱他當下已知會犧牲生命，符合原文「我會讓那片葉子留下來」的實際決定內容；誘答清楚錯誤（潮溼房間、賣畫靈感、模特兒費）。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「老畫家因急性肺炎去世」情節，此scenario在故事結尾（已知死因），正解(2)強調犧牲生命留住喬安希望，屬合理的全知視角總結；誘答(3)加入「非常不值得」的主觀貶抑判斷，與課文歌頌犧牲的主旨矛盾，屬設計上的價值誘答而非另一正解。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx4同一反事實題家族，scenario為「閱讀完整個故事後」，全知視角合理。正解(2)與idx4一致；誘答（蘇西模仿畫畫、因老畫家去世難過而失去期待、看不到葉子反而專心休養）皆與課文人物設定或因果邏輯不符，明確錯誤。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應原文「畫布和顏料都蒙上了一層灰，卻始終找不到好的題材」。正解(2)「找不到好題材、失去創作動力」與原文因果一致；誘答(0)誤植地點為喬安蘇西的頂樓畫室（實為老畫家自己房間，地點錯誤）、(1)懶惰、(3)無錢添購畫具，均為課文未支持或矛盾的推論，明確錯誤。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題家族之一，正解(0)「身體狀況與落葉連結，對康復失去信心」符合原文；誘答（醫生明說、老畫家給予希望承諾、常春藤生命力強象徵死亡降臨）皆與課文矛盾或未提及，單一正解清晰。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx1/6同語句家族，正解(1)「找到生命中最重要的創作目標與動力，重新振作」未過度宣稱知曉自身將犧牲性命，符合原文「重大的決定：我會讓那片葉子留下來」；誘答（懷念過去、病況好轉的驚喜、破舊房間）皆與課文矛盾，明確錯誤。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx2同語句家族。正解(2)「葉子屹立不搖給予戰勝疾病的勇氣」扣合explanation求生意志的深層意涵；誘答(0)「常春藤重新活過來」屬表層/失真描述（葉子並未「死而復生」，是老畫家所畫），(1)(3)明顯與課文（喬安此刻尚未知真相、無佈置窗台情節）矛盾。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "scenario在「結尾真相大白時」，屬全知視角，正解(2)「犧牲自己拯救他人的愛心」合理；誘答(3)「技巧高超模仿真實葉子」與idx3/17同屬「表層技巧vs深層犧牲」的設計慣例，符合考古題第7題誘答邏輯，非另一正解；(0)(1)為虛構情節，明確錯誤。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "scenario為「整篇故事結束時」，屬全知總結，正解(1)「助人為快樂之本，即使犧牲生命也在所不惜」符合考古題第8題正解「願意為別人的希望付出代價」的定調；誘答(2)「真正的友誼」將老畫家與喬安的鄰居關係誤植為友誼，與課文（兩人本不相識，經蘇西轉述才知病情）不符，屬合理誘答。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題家族之一，正解(0)「葉子掉落視為生命終結的不祥預兆」符合原文；誘答（蘇西會離開、隔壁老畫家生命力、計算康復時間、唯一陪伴者）皆為課文未提及的虛構延伸，單一正解清晰。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx1/6/11同語句家族，正解(0)「因幫助喬安而重拾生命意義」未過度宣稱犧牲生命，符合原文當下的實際決定；誘答（賣錢題材、沾沾自喜、向蘇西證明畫技）皆與課文利他動機矛盾，明確錯誤。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx3同語句家族，scenario在結尾揭露真相時，正解(3)「不只是藝術品，更是救人生命的愛心」符合考古題第7題正解邏輯；誘答(1)「騙過所有人眼睛」與idx3誘答(3)同屬表層真實感的合理誘答，非另一正解；(0)(2)明確與課文主旨（犧牲而非成名/純技巧）不符。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「喬安得知真相淚流滿面」原文情節。正解(1)「感動感激＋對自己曾輕視生命的愧疚」屬合理的文學推論（喬安先前確有絕望言論，後得知犧牲後轉為感動），課文未明文反駁；誘答（怪蘇西隱瞞、失望葉子非真、對老畫家憤怒）皆與課文情緒基調（感動落淚而非憤怒/失望）明顯矛盾。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題，直接對應原文「是老畫家冒著風雨…畫上去的，他真的完成了一幅精彩的畫作……。蘇西的話還沒有說完，喬安早已淚流滿面」，正解(0)精準對應因果順序；誘答（房東搬家具傷心、想起蘇西照顧、病癒喜極而泣）皆非課文明示的直接原因，明確錯誤。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": false,
+          "reason": "正解(1)「絕望，失去求生意志」與誘答(2)「認為生命與常春藤葉子緊緊相連」在課文脈絡下皆可被視為對「這句話反映的心態」的合理描述——且option(2)的措辭與idx5/10/15/24等姊妹題「生命力與葉子存亡連結」的正解概念幾乎相同（考古題第1題正解A亦融合「寄託希望」與「求生意志動搖」兩層），造成同一題幹下可能存在雙重可接受答案，屬match疑慮，建議下修/精簡選項2使其明確錯誤或與正解合併。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx1/6/11/16同語句家族，正解(3)「決定用藝術拯救喬安，找到生命的意義」未過度宣稱犧牲生命，符合原文當下決定；誘答（搬離窮困畫室、找到題材興奮、想成名）皆與課文利他動機矛盾，明確錯誤。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題，正解(3)「剩三片葉子時喬安開始絕望」精準對應原文「常春藤上的葉子只剩下三片了…我的生命也將結束了」；誘答（圓形有光澤深綠、貼著木頭圍牆、風雨後全部掉落光）皆與原文（掌狀深綠葉、磚牆、最後一片未掉落）明確矛盾。檔案內附blind_eval_mismatch紀錄（AI選-1），review_notes已註明「盲測R4 context與課次不符，題目本身正確」，經核對原文確認此結論成立，題目無誤。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊本課標題《最後一片葉子》的象徵意義，屬課文核心主旨題，換課文無法作答。正解(0)「給予希望勇氣與生命的珍貴象徵」符合考古題第9題正解A「喬安重新燃起的希望，以及老畫家用行動留下的愛」；誘答（畫具遺物、康復後風景、天氣指標）皆為表層/錯誤的象徵誤讀，明確錯誤。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題家族之一，正解(2)「求生意志與葉子存留連結」符合原文；誘答（蘇西會離開、下魔法、象徵老畫家消逝的生命）皆為課文未提及或矛盾的虛構延伸，單一正解清晰。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": false,
+          "reason": "scenario為「老畫家聽到喬安病情時」，即光彩出現當下（早於風雨夜作畫與其死亡）。正解(3)敘述他「決定以自己的生命為代價」，但RC-01原文在此刻僅寫「他暗自做了一個重大的決定：我會讓那片葉子留下來」，並未顯示他當下已預知/決定犧牲性命——此犧牲是故事結尾才揭露的意外結果（冒雨作畫染肺炎去世），屬敘事時序錯置的事實過度推論。對照同語句家族的idx1/6/11/16/21，其正解均只描述「決定用畫筆幫助喬安」，未提前宣稱知曉犧牲生命，可見idx25的正解與姊妹題不一致，構成事實精確度問題。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "scenario在「故事結尾」全知視角，正解(0)「充滿同情心，用生命換取他人求生意志的傑作」符合考古題第8題「願意為別人的希望付出代價」定調；誘答（能賣高價、純裝飾、證明畫技的練習作）皆與課文犧牲奉獻主旨矛盾，明確錯誤。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx18同語句家族，正解(1)「對自己過去消極的後悔＋對老畫家犧牲的感動與愧疚」為合理文學推論，課文未反駁；誘答（怪蘇西隱瞞、對畫非真感到失望、對老畫家去世憤怒）皆與課文情緒基調明顯矛盾。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用原文「常春藤上只剩下五片葉子了」與「常春藤上的葉子只剩下三片了」兩處具體字句，換課文無法作答。正解(1)「暗示時間流逝、病情惡化」為標準文學手法解讀；誘答（老畫家偷摘葉子、常春藤本來八片單純統計、蘇西數錯）皆與課文情節矛盾或不合理，明確錯誤。備註：此題scenario欄位為空字串，屬metadata完整度瑕疵，非題目內容錯誤，不影響match判斷。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "literal題，直接對應原文「蘇西需要靠作畫來賺錢過生活，請老畫家當模特兒時，說到喬安的病情」，正解(3)精準對應原因與後續情節（老畫家因此得知喬安病情）；誘答（安慰老畫家窮困、學畫技巧、讓喬安認識老畫家打氣）皆與課文因果不符，明確錯誤。備註：scenario欄位為空字串，屬metadata瑕疵，非題目內容錯誤。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 12,
+      "title": "閱讀課",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "僅本課文有秀秀「轉學後得到幫助、想回饋」的具體發言，正解與課文直接對應，誘答（老師規定/賺零用錢/炫耀整理能力）皆不成立。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊壘安心得「力量很小卻能帶來溫暖」的具體文字，正解「微小幫助也能帶來溫暖」精準對應，誘答（老畫家色彩、求分數、捐錢才算）皆與課文不符。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "「退後即是向前」為本課特有金句，正解描述穩住腳步累積勝利之意與課文吻合，其餘誘答（犧牲健康/純休息/無需策略）與課文「考驗團隊默契」矛盾。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "「用牆壁取代拔河機、木板取代拔河道」為課文原句，正解精確對應，其餘誘答（借設備/外縣市找場地/募款買新器材）課文均未提及。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "需同時掌握兩篇課文才能判斷共同核心價值，正解「互助、堅持、面對困難」符合課文主旨，其餘誘答明顯與課文內容不符。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「轉學後得到幫助、也想幫助別人」直接引自秀秀原話，誘答（受壘安感動/受故事影響/老師規定）皆非課文中秀秀本人陳述的動機。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "「把那幅畫的力量傳出去」對應壘安自述「以後同學有需要，我一定也會借他」，正解精確扣合，其餘誘答混淆秀秀行為或報告單外在形式。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "課文明言拔河隊成立是為「平復受災後的心情、找回自信」，正解扣住此脈絡合理，其餘誘答（風度/技巧展示/單純堅持贏冠軍）未涵蓋災後重建的心理意涵。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文「希望獲得冠軍榮耀家鄉」及「連孩子都不認輸，我們憑什麼認輸」的因果連結，其餘誘答（賽事不公/受傷/獎金）課文均未提及。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「用行動為絕望中的人帶來希望」同時扣合老畫家（給喬安希望）與拔河隊（激勵甲仙居民）兩段課文，其餘誘答（體能技巧/皆獲勝/犧牲財產）與課文不符。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "正解直接複述課文「站穩腳步向後拉繩才能贏得勝利」的邏輯，誘答（保留體力/遺忘傷痛/欺敵戰術）皆非課文原意。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「整理玩具義賣、將所得捐出」逐字對應課文，誘答（當義工維持秩序/送同學/幫轉學生適應）課文均未提及。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文「長時間練習讓手掌長出厚繭」，象徵努力成果，誘答（無手套/訓練方式錯誤/不在意受傷）與課文語意不符。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「助人心意重於力量大小」精準反映壘安原句「力量很小卻能帶來無比溫暖」，誘答（需宏大力量/隨手小事/求回報）皆與句意相反或無據。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文「甲仙全鎮受拔河隊激勵，經歷災難依然堅持不放棄」，誘答（投入資金/反省不支持/自覺羞愧）課文均未提及。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應壘安心得「老畫家畫了葉子，讓喬安有了希望」，誘答（捐錢/學畫畫/不需陪伴）皆非課文內容。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx13同句但問法略異，正解仍精準呼應「力量雖小、心意可貴」的原文意涵，誘答皆與句意矛盾。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文「向後退的動作是為了爭取勝利」，誘答（更換場地/場地設計/繩子逐漸離開對手）皆非課文敘述。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文孩子回答「我好希望可以獲得冠軍，榮耀自己的家鄉」，誘答（受傷/被嚇到/後悔參賽）課文均未提及。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "正解概括兩段課文共通精神（互助、逆境中重新獲得前進力量），其餘誘答（寫心得報告/追求金牌/義賣解決經濟問題）僅片面對應單一角色而非雙方共同點。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應壘安心得「老畫家畫了葉子，讓喬安有了希望」，「生病」為原著背景常識非誤植；誘答（同學溫暖/畫作價錢/學會用橡皮擦）與課文不符。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文「那種快樂的感覺到現在都還留在心裡」，誘答（求稱讚/後悔失去玩具/家裡變整潔）皆與課文原意不符。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「用牆壁代替拔河機、木板代替拔河道」逐字對應課文，誘答（借設備/等重建完成/買昂貴器材）均與課文「經費短缺、裝備不足」相悖。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "正解重述課文「穩住腳步向後施力才能贏得勝利」，誘答與idx17/idx10類似皆被課文否定。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「幫助他人與堅持不懈帶來溫暖希望」符合兩篇課文主旨，誘答（人人皆可奪冠/閱讀比助人重要/老師教練能解決一切困難）皆為課文未支持的過度推論。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「轉學後得到幫助、也想幫助別人」重複對應秀秀原句，誘答（買文具解決經濟困難/老師規定/減輕家裡負擔）皆非課文中的動機敘述。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "正解扣合課文中另一同學對老畫家「為了救別人而犧牲自己」的具體評語，與壘安心得同屬《最後一片葉子》主題，其餘誘答分屬布告欄場景或拔河篇內容，明顯錯置。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「逆境中保持節奏與默契、堅持追求目標」扣合課文教練原話及裝備簡陋仍堅持練習的脈絡，誘答（忽視疼痛/短時間靠力氣/先放棄自保）與課文精神相悖。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "正解對應課文孩子「將個人勝負與家鄉榮耀連結」而遺憾流淚，誘答（裁判不公/獎金不足/身心俱疲想結束）課文均未提及。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "正解「困境中透過互助與希望產生力量」統整兩篇課文主旨，誘答（裝備經費可克服一切/閱讀是唯一方法/結果比過程重要）皆為課文未支持的過度推論。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 10,
+      "title": "想像與發明",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文『龜甲、獸骨、竹片等材料上刻字』，換課答不出；正解與誘答皆對應清楚，無事實錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『將椅子加上輪子，將紙張加上膠』句，正解對應『結合出更多方便的發明』，誘答均非課文觀點。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明』，正解唯一符合。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "手機『貼身小幫手』段緊接『碰撞出新火花，結合出更多方便的發明』句，正解B對應此段落邏輯，誘答C雖出自課文首段但非此處呼應對象，設計合理。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文結尾句『想像是促成發明的重要關鍵』與『勇於嘗試新的創造』，正解對應，誘答明顯過度推論或矛盾課文。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『不但費時費力，而且不方便攜帶及收藏』，正解正確，誘答均無課文依據。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機『照相機、手電筒、計算機』功能整合段，正解符合『結合出更多方便的發明』主旨。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『蔡倫無法想像的...』句，正解D符合發明持續演進、便利追求無止盡的合理推論，誘答均為過度或錯誤解讀。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文開頭句『想像是智慧的火苗，點燃人類的奇思妙想，讓許多發明因此誕生』，正解正確指出此為文章開頭立論。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『想像讓人們不斷思考、發明，試著解決問題』，正解與課文用詞（想像、思考、嘗試）高度吻合，誘答為消極態度明顯錯誤。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx5同一課文段落的另一版本題目，正解、誘答邏輯一致無誤。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機結合功能段與『碰撞出新火花，結合出更多方便的發明』句，正解正確。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『想像讓人們不斷思考、發明，試著解決問題』，正解C正確描述想像扮演的動力角色。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文『蔡倫無法想像的』句，正解A（發明持續演進）為合理推論，誘答均誤讀為貶低蔡倫或過度延伸。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "整合課文首段『滿足人類的需求』與末段『想像是促成發明的重要關鍵』，正解B正確概括，誘答A將『不可能變成可能』誇大為『必然』屬合理誘答設計。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文蔡倫因材料不便而發明輕薄好用紙張的敘述，正解A正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文『蔡倫無法想像的』句，正解B（科技演進超出古人預測）合理，誘答均誤讀。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『將椅子加上輪子』『將紙張加上膠』例句，正解B對應『碰撞出新火花』觀點。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『還加上照相機、手電筒、計算機等物品的功能，化身為人們的貼身小幫手』，正解逐字對應課文。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文首句與全文主旨，正解C正確總結『想像是促成發明、解決問題的關鍵』。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『刻字在龜甲、獸骨、竹片...費時費力，不便攜帶及收藏』，正解D正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文『蔡倫無法想像的，是現代人又發明出許多工具』句，正解B合理，誘答均誤讀或過度延伸。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機結合多功能例證，正解A正確描述『結合』邏輯。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文『點燃人類的奇思妙想』一句設計比喻理解題，正解B正確連結『點燃創造』意涵。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，正解B正確，誘答『好奇心』等課文未提及。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『透過無數次的嘗試，最終利用樹皮、破布等材料，製作出輕薄好用的紙』，正解C正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機結合功能段落，正解B正確概括『結合創造新價值』。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『想像讓人們不斷思考、發明，試著解決問題』，正解B正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文『蔡倫無法想像的』句，正解C（現代科技超越前人想像）為合理推論，誘答均誤讀為貶低蔡倫或錯誤比較。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "採否定式提問，課文僅提及材料刻字費時費力、不便攜帶及收藏，未提及材料取得難易或保存問題，正解A（材料取得容易但無法保存）正確為『非』課文困境，其餘三項均為課文明確提及之困境。"
+        }
+      ]
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "重鑄後雙盲"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "rb-blind:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "a7e7a9cf4a699339e",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479436,
+      "queuedAt": 1782997479427,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「棒球英雄夢」(翰林版,誘答選項剛經改寫消除長度偏差,需確認是否仍唯一正解)。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L7_rebal_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解(若改寫後出現第二個也對的選項,填false)。\n回傳結構化結果,涵蓋全30題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782997728981,
+      "tokens": 58502,
+      "toolCalls": 5,
+      "durationMs": 249545,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":3,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "rb-judge:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "a6832060225124b84",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479443,
+      "queuedAt": 1782997479428,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「棒球英雄夢」(翰林版)題目(誘答剛改寫、部分正解文字經精簡)是否仍真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L7_rebal_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_考古題與討論.md。共30題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。「學生不必讀本課課文就能答對」一律belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、精…",
+      "lastProgressAt": 1782997893502,
+      "tokens": 68565,
+      "toolCalls": 8,
+      "durationMs": 414059,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"題幹明確引用課文情節「祖母買文房四寶要作者寫字，做一個有用的人」，須讀本課才能答對；正解與課文原句一致，誘答（隊長／打擊好手／棒球國手）均為棒球相關但與文房四寶用途無關，無變成也正確之虞。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"題幹「導致輸球的原因」對應課文「兩好三壞後放手一揮，揮棒落空三振出局」情節。正解(2)明確對應被三振的結果；誘答(1)雖描述他確實選擇主動揮棒（真實情節），但未涉及「揮棒落空」這個造成輸球的關鍵結果，不足以構成同樣正確的答案。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"緊扣課文「站在打擊位子上不得揮棒…等四壞球保送」情節，須讀本課才…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "rb-blind:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "abc71f7e775d83198",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479452,
+      "queuedAt": 1782997479451,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「最後一片葉子」(翰林版,誘答選項剛經改寫消除長度偏差,需確認是否仍唯一正解)。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L11_rebal_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解(若改寫後出現第二個也對的選項,填false)。\n回傳結構化結果,涵蓋全30題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782997711972,
+      "tokens": 83571,
+      "toolCalls": 14,
+      "durationMs": 232520,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":1,\"single_answer\":true},{\"idx\":5,\"answer_index\":1,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":2,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "rb-judge:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "aa0c5481ef3ca3a87",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479452,
+      "queuedAt": 1782997479451,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「最後一片葉子」(翰林版)題目(誘答剛改寫、部分正解文字經精簡)是否仍真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L11_rebal_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_考古題與討論.md。共30題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。「學生不必讀本課課文就能答對」一律belongs=false。\nmatch=true：標示正解正確無誤、無…",
+      "lastProgressAt": 1782998175731,
+      "tokens": 94481,
+      "toolCalls": 8,
+      "durationMs": 696279,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"問題與選項均緊扣本課「喬安/常春藤葉/生命連結」情節，換課文答不出來。正解(0)「將生命力與葉子連結、消極聯想」符合RC-01原文（喬安望窗說「當最後一片葉子掉下來…我的生命也將結束了」）及explanation「心理投射而非生理直接連結」；誘答(3)「像脆弱葉子一樣沒有力氣」屬課文未明說的字面延伸，非同時正確。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊「老畫家臉上出現少見的光彩」原文語句。正解(1)「利用畫技拯救喬安」對應原文「他暗自做了一個重大的決定：我會讓那片葉子留下來」；其餘三個誘答（房租辦法、不必當模特兒、以為裝病）皆為課文未提及的虛構情節，明確錯誤。\"},{\"idx\":2,\"belongs\":tr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "rb-blind:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "a0e9827e76e93685a",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479457,
+      "queuedAt": 1782997479456,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「閱讀課」(翰林版,誘答選項剛經改寫消除長度偏差,需確認是否仍唯一正解)。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L12_rebal_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解(若改寫後出現第二個也對的選項,填false)。\n回傳結構化結果,涵蓋全30題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782997677759,
+      "tokens": 41950,
+      "toolCalls": 2,
+      "durationMs": 198302,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":2,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":0,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":0,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "rb-judge:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "a20ae9683cf06f231",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997479457,
+      "queuedAt": 1782997479456,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「閱讀課」(翰林版)題目(誘答剛改寫、部分正解文字經精簡)是否仍真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_HanLin/L12_rebal_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_考古題與討論.md。共30題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。「學生不必讀本課課文就能答對」一律belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤、精簡後語…",
+      "lastProgressAt": 1782997820922,
+      "tokens": 82987,
+      "toolCalls": 9,
+      "durationMs": 341465,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"僅本課文有秀秀「轉學後得到幫助、想回饋」的具體發言，正解與課文直接對應，誘答（老師規定/賺零用錢/炫耀整理能力）皆不成立。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊壘安心得「力量很小卻能帶來溫暖」的具體文字，正解「微小幫助也能帶來溫暖」精準對應，誘答（老畫家色彩、求分數、捐錢才算）皆與課文不符。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"「退後即是向前」為本課特有金句，正解描述穩住腳步累積勝利之意與課文吻合，其餘誘答（犧牲健康/純休息/無需策略）與課文「考驗團隊默契」矛盾。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "rb-blind:NanYi_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "aaf1a3d01d582f0ba",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997677760,
+      "queuedAt": 1782997479461,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「想像與發明」(南一版,誘答選項剛經改寫消除長度偏差,需確認是否仍唯一正解)。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L10_rebal_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解(若改寫後出現第二個也對的選項,填false)。\n回傳結構化結果,涵蓋全30題,idx從0開始不可跳號或位移。",
+      "lastProgressAt": 1782997840648,
+      "tokens": 50320,
+      "toolCalls": 6,
+      "durationMs": 162888,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":1,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":1,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "rb-judge:NanYi_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "重鑄後雙盲",
+      "agentId": "a43c67deeee39c2c3",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782997711974,
+      "queuedAt": 1782997479462,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「想像與發明」(南一版)題目(誘答剛改寫、部分正解文字經精簡)是否仍真正扣緊本課課文。\n\n讀取：完整題(含正解) jobs/_goal-work/G4_CHI_NanYi/L10_rebal_shuffled.json；單課研究紀錄(含課文全文RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L10_想像與發明_單課研究紀錄.md；考古題 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L10_想像與發明_考古題與討論.md。共30題。\n\n【國語專用嚴格判準——課文是必要錨點】\nbelongs=true 唯一條件：題目具體引用本課課文的情節/人物/意象/字詞，換成別課課文就答不出來。「學生不必讀本課課文就能答對」一律belongs=false。\nmatch=true：標示正解正確無誤、無事實錯誤…",
+      "lastProgressAt": 1782997895554,
+      "tokens": 69331,
+      "toolCalls": 6,
+      "durationMs": 183580,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"直接對應課文『龜甲、獸骨、竹片等材料上刻字』，換課答不出；正解與誘答皆對應清楚，無事實錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"直接引用課文『將椅子加上輪子，將紙張加上膠』句，正解對應『結合出更多方便的發明』，誘答均非課文觀點。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明』，正解唯一符合。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"手機『貼身小幫手』段緊接『碰撞出新火花，結合出更多方便的發明』句，正解B對應此段落邏輯，誘答C雖出自課文首段…"
+    }
+  ],
+  "totalTokens": 549707,
+  "totalToolCalls": 58
+}

@@ -24,7 +24,7 @@
       "explanation": "小明能夠接受並欣賞不同文化的飲食，展現了多元文化教育中重要的「文化尊重」態度。",
       "commonMisconception": "學生容易將「欣賞」誤認為「崇尚外國文化」，忽略了尊重多元的核心是平等看待。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -41,9 +41,9 @@
       "scenario": "【在班級文化交流活動時】",
       "question": "老師請大家介紹原住民族的文化，小華說：「所有原住民的祭典都一樣，就是大家一起跳舞唱歌。」這句話哪裡需要修正？",
       "options": [
-        "原住民平時不用語言溝通",
-        "原住民只有一個族群",
-        "祭典中不能唱歌跳舞",
+        "原住民各族群平時都不需要語言溝通",
+        "台灣所有原住民其實只有一個族群而已",
+        "原住民各族祭典中都規定不能唱歌跳舞",
         "原住民族各族群有不同的語言與祭典特色"
       ],
       "answer_index": 3,
@@ -56,10 +56,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -93,10 +93,10 @@
       "scenario": "【在討論家鄉節慶時】",
       "question": "除了農曆新年，台灣還有許多族群有自己的重要節日，例如阿美族的豐年祭或是某些新住民家鄉的潑水節。這告訴我們什麼道理？",
       "options": [
-        "所有節日都必須改成一樣的日期",
+        "所有節日都必須改成同一天的日期",
         "節慶文化反映了不同族群的生活意義",
-        "其他族群的節日都不重要",
-        "只有過年才算是節日"
+        "其他族群的節日其實都不太重要",
+        "只有農曆過年才真正算是重要節日"
       ],
       "answer_index": 1,
       "explanation": "不同的節慶承載了各族群的歷史與生活智慧，認識這些節慶能幫助我們理解多元文化的價值。",
@@ -108,10 +108,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -120,9 +120,9 @@
       "question": "小芳發現班上同學的祖籍來自台灣各地，甚至有同學的媽媽來自印尼。她應該用什麼心態來完成這份地圖？",
       "options": [
         "用開放與尊重的態度記錄大家的背景",
-        "認為外來文化會破壞家鄉文化",
-        "只記錄人數最多的文化",
-        "只記錄自己認同的族群"
+        "認為外來文化會逐漸破壞家鄉文化",
+        "只記錄班上人數最多的那一種文化",
+        "只記錄自己比較認同的族群背景"
       ],
       "answer_index": 0,
       "explanation": "製作文化地圖的核心目的在於發現班級內的多元性，並學習尊重與包容。",
@@ -134,10 +134,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -145,25 +145,25 @@
       "scenario": "【在學習客家文化時】",
       "question": "提到客家文化，除了擂茶與粄條，還有什麼也是客家文化的代表？",
       "options": [
-        "阿美族的五年祭",
-        "越南的傳統服飾",
+        "阿美族才有的五年祭",
+        "越南人的傳統服飾文化",
         "義民祭的祭典活動",
-        "閩南語的歌仔戲"
+        "閩南語系的歌仔戲曲"
       ],
       "answer_index": 2,
       "explanation": "義民祭是台灣客家族群非常重要的信仰與文化活動，反映了客家人的團結精神。",
       "commonMisconception": "學生對於客家文化的理解常侷限於「飲食」，忽略了宗教祭典等文化面向。",
       "quality_level": "QL4",
-      "cqi_score": 6.25,
+      "cqi_score": 7.75,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": null,
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -172,24 +172,24 @@
       "question": "在台灣，我們除了說華語，也可以聽到閩南語、客語、原住民語或越南語等。這對我們有什麼正面影響？",
       "options": [
         "讓我們能接觸到不同的語言智慧與文化觀點",
-        "說明只有華語才是重要的",
-        "代表我們應該只學一種語言",
-        "讓大家溝通變得更困難"
+        "說明在台灣只有華語才是最重要且值得學習的語言",
+        "代表我們應該只學習華語這一種語言就好",
+        "讓大家溝通時反而變得更加困難與混亂"
       ],
       "answer_index": 0,
       "explanation": "語言是文化的載體，多樣的語言環境能讓我們更開闊地理解不同族群的思維方式。",
       "commonMisconception": "學生可能誤以為多語言環境會造成溝通阻礙，而忽略了語言多樣性背後的文化價值。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -197,25 +197,25 @@
       "scenario": "【在討論文化融合時】",
       "question": "家鄉的飲食文化常出現「融合」現象，例如在台式麵店也能吃到越南河粉。這代表了什麼？",
       "options": [
-        "我們不再需要保留原本的飲食",
-        "家鄉傳統文化即將消失",
-        "所有文化都必須一模一樣",
+        "我們不再需要保留原本傳統的飲食文化與習慣",
+        "家鄉傳統文化即將完全消失不再流傳下去",
+        "所有族群的文化都必須變得一模一樣",
         "文化交流讓家鄉飲食變得更加豐富多樣"
       ],
       "answer_index": 3,
       "explanation": "文化融合不是取代，而是將不同文化元素結合，創造出更多樣化的生活樣貌。",
       "commonMisconception": "學生常將「融合」誤認為「同化」，擔心原本的文化會消失，而非理解其豐富化的過程。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -336,7 +336,7 @@
       "explanation": "語言是文化的重要載體，多種語言並存是台灣多元文化的重要資產。",
       "commonMisconception": "學生常誤認為「國語」是唯一正式語言，貶低其他本土語言或母語的地位。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -405,25 +405,25 @@
       "scenario": "【在家庭晚餐時】",
       "question": "媽媽告訴小華，台灣社會中有許多新住民，他們也為家鄉帶來了不同的語言、飲食與節慶，讓台灣變得更豐富。關於新住民的文化，下列敘述何者正確？",
       "options": [
-        "新住民的文化對台灣沒有貢獻，不需特別介紹",
-        "為了讓社會更單純，應該限制新住民的文化活動",
+        "新住民的文化對台灣沒有任何貢獻，不需特別介紹",
+        "為了讓社會更加單純，應該限制新住民的文化活動",
         "新住民的文化是台灣多元文化的一部分，值得尊重",
-        "新住民應該完全放棄母國文化，才能融入台灣"
+        "新住民應該完全放棄自己母國的文化，才能融入台灣社會"
       ],
       "answer_index": 2,
       "explanation": "新住民帶來了豐富的文化資源，是台灣多元社會的重要組成部分，應給予平等的尊重。",
       "commonMisconception": "部分學生可能持有偏見，認為新住民文化對台灣而言是外來的、次要的。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -431,10 +431,10 @@
       "scenario": "【在校園文化週活動時】",
       "question": "小華在介紹家鄉文化時說：「原住民的祭典活動都一樣，都是穿著華麗服飾在廣場跳舞。」針對小華的說法，下列哪一種觀點最能展現對多元文化的尊重與認識？",
       "options": [
-        "應該要建議他們統一祭典形式，這樣大家才比較容易記住與保存。",
+        "應該要建議他們統一祭典形式與服裝樣式，這樣大家才比較容易記住與保存。",
         "原住民共有十六族，每一族都有獨特的語言、祭典與文化內涵，不能混為一談。",
-        "只要是原住民的祭典，都可以用同樣的方式來欣賞，不需要細分。",
-        "這句話沒錯，因為所有原住民文化都是為了慶祝豐收而存在的。"
+        "只要是原住民的祭典，都可以用完全同樣的方式來欣賞紀念，不需要細分。",
+        "這句話沒錯，因為所有原住民族的文化其實都是為了慶祝豐收而存在的。"
       ],
       "answer_index": 1,
       "explanation": "原住民族文化具有高度的多樣性，十六族各有其獨特的歷史脈絡與儀式意義，不能以單一刻板印象概括。",
@@ -446,10 +446,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -457,25 +457,25 @@
       "scenario": "【在鄰居阿姨請大家喝擂茶時】",
       "question": "阿明看到鄰居阿姨在準備客家擂茶，好奇地問媽媽：「為什麼我們要喝這種茶？」媽媽的回答中，哪一個觀念最符合文化尊重的精神？",
       "options": [
-        "我們只要尊重自己的文化就好，不需要去理解其他族群的飲食習慣。",
-        "因為客家菜比較特別，比我們平常吃的食物更有價值，所以大家都要學著吃。",
-        "這只是隨便弄的茶，沒什麼特別的意義，喝好玩而已。",
+        "我們只要尊重自己的文化就好，不需要花時間去理解或學習其他族群陌生的飲食習慣與生活方式。",
+        "因為客家菜比較特別，比我們平常吃的食物更有價值，所以大家都應該放棄原本的飲食習慣改學著吃。",
+        "這只是隨便弄的茶，沒什麼特別的意義，喝好玩而已，不需要特別重視或深入了解它的由來。",
         "這是客家文化的傳統飲食之一，代表了客家人的生活智慧與好客精神，很值得我們認識與體驗。"
       ],
       "answer_index": 3,
       "explanation": "文化尊重在於理解背後的意義，而非將文化分出高低優劣，客家擂茶反映了客家族群的飲食文化特色。",
       "commonMisconception": "學生常以「好不好吃」作為評價文化的唯一標準，忽略了文化背後的歷史與生活脈絡。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -484,9 +484,9 @@
       "question": "班上同學正在分享家人的背景，小美說：「我媽媽是從越南嫁過來的，她教我說越南語，還會煮越南河粉。」面對小美的分享，下列哪種反應最能促進班級的多元文化融合？",
       "options": [
         "告訴小美我們在學校應該只講國語，不要再講越南語了，以免影響學習。",
-        "認為新住民文化對台灣社會沒有影響，不需要特別在班上討論。",
+        "認為新住民文化對台灣社會完全沒有任何影響，不需要特別在班上討論。",
         "請小美分享越南的文化特色，並鼓勵大家學習欣賞不同文化的語言與飲食。",
-        "建議小美應該要完全融入，不要再保留任何原本家鄉的習俗。"
+        "建議小美應該要完全融入台灣社會，不要再保留任何原本家鄉的習俗。"
       ],
       "answer_index": 2,
       "explanation": "新住民帶來的文化是台灣多元社會的重要組成，開放且正向的態度能促進文化交流與共融。",
@@ -498,10 +498,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -509,10 +509,10 @@
       "scenario": "【在社會課認識台灣語言時】",
       "question": "老師請大家討論台灣的語言環境，下列哪一個敘述最正確地說明了台灣多元語言的現況？",
       "options": [
-        "閩南語是台灣唯一的語言，其他語言在現代社會中已經沒有保留的必要。",
-        "只有原住民語屬於文化，其他語言都只是溝通工具，沒有文化價值。",
+        "閩南語是台灣唯一應該使用的語言，其他語言像是客語、原住民語與新住民母語都沒有保留的必要。",
+        "只有原住民語才真正屬於文化，其他像是華語、閩南語與客語都只是日常溝通工具，沒有文化價值。",
         "台灣存在多種語言，包括華語、閩南語、客語、原住民語以及新住民母語，這些都是台灣文化的一部分。",
-        "台灣只有國語是正式語言，其他語言在日常生活中是不應該出現的。"
+        "台灣只有國語才是正式語言，其他像是閩南語、客語與原住民語在日常生活中都是不應該出現的。"
       ],
       "answer_index": 2,
       "explanation": "台灣是多族群社會，尊重並保存各種母語，是實踐多元文化價值的重要體現。",
@@ -524,10 +524,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -535,25 +535,25 @@
       "scenario": "【在參觀家鄉古蹟與廟會時】",
       "question": "小強看到廟會活動，覺得很吵鬧，想建議廟方取消。如果你是小強的好朋友，你會如何建議他以「多元文化」的角度來思考？",
       "options": [
-        "我們不需要管別人的文化，只要我們自己過得舒適就好。",
-        "廟會活動太落後了，應該全部改成西方的慶祝方式才會比較進步。",
+        "我們不需要管別人的文化，只要我們自己過得舒適就好，其他族群的生活方式與想法都與我們無關，不用特別關心。",
+        "廟會活動太落後了，應該全部改成西方的慶祝方式，這樣才會顯得比較文明進步，也比較符合現代社會的潮流。",
         "廟會是閩南文化中重要的祭典形式，雖然熱鬧，但反映了在地居民的信仰與生活，我們可以試著了解其文化意義。",
-        "你說得對，現代城市應該要安靜，所有的傳統廟會都應該要被禁止。"
+        "你說得對，現代城市應該要保持絕對安靜，所有的傳統廟會活動與宗教儀式都應該要被全面禁止舉辦，不能再繼續存在。"
       ],
       "answer_index": 2,
       "explanation": "文化相對主義提醒我們，不要以自身的喜好去否定他人的文化傳統，應試著理解其背後的社群凝聚力與價值。",
       "commonMisconception": "學生容易以「個人喜好」或「現代化標準」去否定傳統文化，缺乏文化相對主義的思維。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -639,25 +639,25 @@
       "scenario": "【在參觀家鄉的客家文化園區時】",
       "question": "導覽員介紹客家人會製作「擂茶」招待客人，也會在祭祀時準備「粄條」。這反映了客家文化中的哪一個面向？",
       "options": [
-        "這只是為了賺錢而開發的觀光商品",
-        "反映了客家人隨便應付客人的生活態度",
+        "這只是客家人為了賺錢而特別開發出來的觀光商品而已",
+        "反映了客家人隨便應付客人、不重視傳統禮節的生活態度",
         "透過獨特的飲食文化展現出族群的生活智慧與特色",
-        "反映了客家人只喜歡吃素食的習慣"
+        "反映了客家人只喜歡吃素食、不吃肉類食物的飲食習慣"
       ],
       "answer_index": 2,
       "explanation": "飲食是文化的重要表現形式，客家擂茶與粄條等美食，反映了客家人的生活背景、物產利用與待客之道。",
       "commonMisconception": "學生可能將文化特色窄化為單純的「食物好不好吃」，而忽略了飲食背後所代表的族群生活智慧。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -692,24 +692,24 @@
       "question": "班上轉來一位新住民小朋友，他的國語說得不太標準，有些同學私下模仿他的口音。如果你是班長，你認為哪種做法最能體現「文化尊重」？",
       "options": [
         "引導同學欣賞他會說兩種語言的優點，並制止嘲笑行為",
-        "告訴同學如果想模仿，回家再模仿，不要在學校表現",
-        "雖然模仿不對，但為了班級氣氛，假裝沒看見就好",
-        "要求新住民同學練習到沒有口音為止，才不會被嘲笑"
+        "告訴同學如果想模仿，可以回家再模仿，不要在學校表現",
+        "雖然模仿同學不對，但為了班級氣氛，假裝沒看見就好",
+        "要求新住民同學練習到完全沒有口音為止，才不會被嘲笑"
       ],
       "answer_index": 0,
       "explanation": "文化尊重包含對他人語言背景的包容。新住民子女擁有雙語優勢，應引導學生以欣賞取代嘲笑，建立友善的多元環境。",
       "commonMisconception": "學生可能認為「糾正口音」是為了對方好，卻忽略了口音背後的文化認同與嘲笑帶來的傷害。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 5
     },
     {
@@ -726,7 +726,7 @@
       "explanation": "文化融合是指不同文化在交流過程中產生新的元素，這讓家鄉文化更加豐富多元，而非取代原有的傳統。",
       "commonMisconception": "學生可能誤以為「融合」就是「消失」或「變質」，無法理解文化動態發展的正向意義。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",

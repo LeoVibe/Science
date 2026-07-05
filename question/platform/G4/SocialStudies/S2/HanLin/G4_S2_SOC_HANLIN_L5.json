@@ -37,29 +37,29 @@
       "blind_verify_quality_rating": 3
     },
     {
-      "taxonomy": "critical",
-      "scenario": "【在規劃社區營造活動時】",
-      "question": "社區想推動老屋修復計畫，小華提議：「我們應該把老屋全部拆掉，蓋成豪華的高樓大廈，這樣才有錢賺！」這項提議忽略了社區營造中哪一個重要的觀念？",
+      "taxonomy": "分析（Analyze）－辨識永續發展迷思類型；對應學習內容 Cb-II-1 居住地方的環境差異與面對的問題、Cc-II-1 兒童權利與日常生活的關係；對應單課研究紀錄「四、認知地雷與守衛點總結」表格中的四類迷思（責任外推／金錢萬能／被動心態／概念表面）",
+      "scenario": "社區里民大會上，有居民提議把老市集廣場前那幾棵超過百年的老榕樹全部砍除，鋪成大型停車場，方便遊覽車停靠、增加觀光收入。",
+      "question": "這樣的提議，最符合下列哪一種對「家鄉永續發展」的思考迷思？",
       "options": [
-        "缺乏足夠的志工人力",
-        "沒有向政府申請足夠的經費補助",
-        "忽略了文化保存與環境永續的重要性",
-        "沒有考慮到社區居民的意願"
+        "責任外推：認為家鄉的事是大人的責任",
+        "金錢萬能：只顧經濟利益忽略文化環境",
+        "被動心態：以為等政府處理會解決問題",
+        "概念表面：誤把做環保當作是永續發展"
       ],
-      "answer_index": 2,
-      "explanation": "社區營造不僅是經濟發展，更包含了環境維護與文化保存，永續發展需要兼顧多個面向，而非僅追求金錢收益。",
-      "commonMisconception": "學生容易落入「金錢萬能」的陷阱，認為只要有錢就是最好的解決方案，忽略了文化傳承與環境保護的價值。",
+      "answer_index": 1,
+      "explanation": "情境中居民只考慮「砍掉百年老榕樹、鋪停車場能多賺觀光財」，卻完全忽略老榕樹本身承載的社區文化記憶與生態價值，這正是「金錢萬能」迷思——誤以為只要能增加收入、方便遊客，就是對家鄉最好的做法，忽略了文化保存與環境永續同樣是家鄉發展不可或缺的面向。其餘三個選項分別對應單課研究紀錄中另外三種認知地雷（責任外推：以為家鄉的事是大人的責任；被動心態：以為等政府處理就會解決；概念表面：誤把單純做環保等同於永續發展），皆與情境中「主動提議、以經濟利益為唯一考量」的核心行為不符，僅有「金錢萬能」能唯一且明確地解釋此情境。",
+      "commonMisconception": "學生常誤以為「賺越多觀光財，家鄉發展就越成功」，只用經濟效益來判斷方案好壞，忽略老樹、老街等文化資產與生態環境同樣是家鄉不可取代的資產，一旦破壞就難以恢復；此即單課研究紀錄「認知地雷矩陣」中的「金錢萬能」類型（「只要有錢就能解決問題」忽略文化與環境面向）。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 8.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -67,25 +67,25 @@
       "scenario": "【在觀察家鄉環境時】",
       "question": "小美在社區走訪時發現路邊常有垃圾堆積，她決定採取行動。下列哪一個步驟最能展現「系統性解決問題」的能力？",
       "options": [
-        "回家告訴爸媽，請他們打電話向里長投訴",
-        "直接請清潔隊員每天多來收幾次垃圾",
-        "在垃圾堆旁貼公告，警告大家不准亂丟垃圾",
+        "回家告訴爸媽，請他們幫忙打電話向里長辦公室投訴，要求盡快派人來處理",
+        "直接請社區的清潔隊員每天增加巡邏次數，多來收幾次垃圾就好了",
+        "在垃圾堆旁邊張貼公告，警告大家不准亂丟垃圾，否則將受到嚴厲處罰",
         "拍下垃圾堆照片，並調查垃圾產生的原因與居民的意見，再提出改善建議"
       ],
       "answer_index": 3,
       "explanation": "解決問題需要先進行觀察與調查，了解問題的根源（如缺乏垃圾桶或分類觀念不足），才能提出有效的對策。",
       "commonMisconception": "學生往往只看到「垃圾」這個表面現象，而忽略了去探究「為何會有垃圾」的結構性問題。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -94,24 +94,24 @@
       "question": "所謂的「社區營造」，主要是指下列哪一種活動？",
       "options": [
         "居民自發性地組織起來，共同改善環境與提升生活品質",
-        "建商在社區內興建新的住宅大樓",
-        "由政府單方面決定並執行的工程建設",
-        "只有社區裡的老人聚在一起聊天或聚餐"
+        "建商在社區內興建高價的新住宅大樓，藉此賺取更多利潤",
+        "由政府單方面決定並強制執行的重大工程建設計畫",
+        "只有社區裡的老人偶爾聚在一起聊天或聚餐而已"
       ],
       "answer_index": 0,
       "explanation": "社區營造的核心是「居民自發」，透過大家的共同努力，讓生活環境變得更好。",
       "commonMisconception": "學生常誤以為社區營造就是蓋房子或硬體建設，忽略了「居民參與」才是靈魂所在。",
       "quality_level": "QL4",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -119,25 +119,25 @@
       "scenario": "【在討論社區永續發展時】",
       "question": "小強的家鄉為了發展觀光，打算把社區裡僅存的濕地填平蓋成停車場。如果你是社區的一份子，下列哪一種看法最符合「永續發展」的原則？",
       "options": [
-        "贊成，因為蓋停車場可以賺錢，讓社區經濟發展",
-        "沒意見，反正蓋不蓋停車場都不會影響我的生活",
+        "贊成，因為蓋停車場可以賺很多錢，讓社區經濟快速發展",
+        "沒意見，反正蓋不蓋停車場都不會影響到我自己的生活",
         "反對，因為濕地是許多生物的家，應兼顧生態與發展需求",
-        "贊成，只要政府同意，我們就應該無條件配合"
+        "贊成，只要政府同意，我們居民就應該無條件全力配合"
       ],
       "answer_index": 2,
       "explanation": "永續發展強調經濟、社會與環境的平衡，犧牲生態環境來換取短期利益是不符合永續原則的。",
       "commonMisconception": "學生對「永續」一詞往往理解為單純的口號，缺乏對環境與經濟衝突時的判斷力。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -146,9 +146,9 @@
       "question": "學校舉辦「社區彩繪」活動，希望大家一起美化社區圍牆。小明覺得這很無聊，認為「反正畫完沒多久就會變髒」，不想參加。請問小明忽略了社區營造的什麼價值？",
       "options": [
         "社區事務是大家的事，透過共同參與可以凝聚居民情感與認同感",
-        "這種活動沒有錢可以領，所以不值得浪費時間",
-        "只有畫得漂亮才有意義，畫得普通就不用參加",
-        "只要請專業畫家來畫，效果會比我們自己畫更好"
+        "這種活動又沒有錢可以領，根本不值得浪費時間去參加",
+        "只有畫得漂亮的作品才有意義，畫得普通的就不用參加",
+        "只要花錢請專業畫家來畫，效果一定會比我們自己畫更好"
       ],
       "answer_index": 0,
       "explanation": "社區營造不只是為了「結果」，「過程」中居民的互動與凝聚力，才是社區營造最珍貴的部分。",
@@ -160,10 +160,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -171,10 +171,10 @@
       "scenario": "【在處理社區問題時】",
       "question": "社區裡的圖書館因為老舊，沒人想去。小華提議：「我們應該舉辦一系列的親子閱讀活動，並邀請志工說故事。」這種做法屬於哪一種社區營造的策略？",
       "options": [
-        "向政府抗議，要求政府給予經費補助",
-        "直接拆除圖書館，改建為停車場",
+        "向政府強力抗議，要求政府給予更多經費補助",
+        "直接拆除老舊圖書館，改建為收費停車場",
         "透過軟體活動的設計，賦予公共空間新的生命力",
-        "強制規定居民每個月必須到圖書館閱讀"
+        "強制規定居民每個月都必須到圖書館報到閱讀"
       ],
       "answer_index": 2,
       "explanation": "透過活動設計（軟體）來活化硬體空間，是常見且有效的社區營造方式，能有效提升居民的使用率。",
@@ -186,10 +186,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -197,10 +197,10 @@
       "scenario": "【在面對不同意見時】",
       "question": "社區會議中，有人提議要在社區設置資源回收站，但部分居民覺得會發臭而反對。作為社區的一份子，下列哪種處理方式最合適？",
       "options": [
-        "聽從音量最大的人，不必考慮少數意見",
+        "聽從社區裡音量最大聲的那一方意見，完全不必考慮少數人的想法",
         "聆聽雙方的考量，並討論出折衷的方案（如：加強清潔維護與管理）",
-        "因為意見不合，乾脆以後都不參加社區會議",
-        "堅持自己的立場，拒絕聆聽他人意見"
+        "因為這次跟大家意見不合，乾脆以後都不再參加任何社區會議了",
+        "堅持自己原本的立場，完全拒絕聆聽任何他人的不同意見"
       ],
       "answer_index": 1,
       "explanation": "公民參與的關鍵在於學習「聆聽」與「溝通」，在不同意見中尋找平衡點，才是成熟的公民素養。",
@@ -212,10 +212,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -223,25 +223,25 @@
       "scenario": "【在社會課討論「社區營造」的意義時】",
       "question": "小華對這個名詞感到陌生，老師說明社區營造的核心精神後，下列哪一項敘述最正確？",
       "options": [
-        "由政府編列大量預算，請建築師來蓋全新的摩天大樓",
+        "由政府編列大量預算，聘請知名建築師來興建全新的摩天大樓",
         "由居民自發性組織起來，共同改善家鄉的環境與生活品質",
-        "為了增加家鄉收入，將所有古蹟拆除改建成百貨公司",
-        "由警察強制要求所有居民每天必須參加社區的清掃工作"
+        "為了增加家鄉的觀光收入，將所有古蹟全部拆除改建成百貨公司",
+        "由警察強制要求所有居民每天都必須參加社區的清掃工作"
       ],
       "answer_index": 1,
       "explanation": "社區營造的核心在於「居民自發參與」與「共同改善生活環境」，並非單純的硬體建設或由政府強制執行。",
       "commonMisconception": "學生常誤以為「營造」就是「蓋房子」或「工程建設」，而忽略了「居民自發參與」的社會意義。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -249,25 +249,25 @@
       "scenario": "【在學校週會聽取「家鄉新願景」演講後】",
       "question": "四年級的小明也想為家鄉盡一份心力，下列哪一種方式是小學生最適合參與家鄉事務的做法？",
       "options": [
-        "報名競選下一任的里長，直接進入政府體制內工作",
-        "將家裡所有的積蓄捐給環保局，請他們聘請更多清潔工",
-        "向大人投訴鄰居的所有生活習慣，要求政府嚴厲處罰",
+        "報名競選下一任的里長，直接進入政府體制內部工作服務",
+        "將家裡所有的積蓄都捐給環保局，請他們聘請更多清潔工",
+        "向大人投訴鄰居的所有生活習慣，要求政府對他們嚴厲處罰",
         "參加社區舉辦的願景工作坊，提出自己對公園設施的建議"
       ],
       "answer_index": 3,
       "explanation": "兒童雖然沒有投票權，但可以透過參加社區活動、表達意見等方式參與公共事務，這符合公民參與的精神。",
       "commonMisconception": "學生容易產生「我年紀小，什麼都不能做」或「只有大人投票才算參與」的被動心態。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -336,7 +336,7 @@
       "explanation": "公民參與的過程中，學習聆聽不同意見並尋求共識是解決公共問題的重要素養。",
       "commonMisconception": "學生在面對衝突時，容易傾向「少數服從多數」的暴力決策，或產生「逃避衝突」的消極心態。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -405,10 +405,10 @@
       "scenario": "【在進行家鄉問題觀察活動時】，小明發現公園裡的垃圾桶總是被塞滿，導致垃圾散落在地上。他想向里長提出建議。",
       "question": "關於「公民參與」，下列哪一個觀念最能展現兒童在家鄉新願景中的角色？",
       "options": [
-        "兒童應該等長大有錢後，再捐款請專業公司來處理社區問題",
-        "兒童年紀還小，只需要把書讀好，改變家鄉是政府的事",
+        "兒童應該等到長大有錢之後，再捐款請專業公司來處理社區問題",
+        "兒童年紀還小，只需要把書讀好就好，改變家鄉是政府的事情",
         "兒童雖然沒有投票權，但仍可以透過觀察與表達意見參與家鄉事務",
-        "兒童的意見通常不成熟，應該完全聽從大人的安排就好"
+        "兒童的意見通常都不夠成熟，應該完全聽從大人的安排就好"
       ],
       "answer_index": 2,
       "explanation": "公民參與不分年齡，兒童可以透過觀察生活環境、發現問題並向相關單位或長輩表達意見，這也是對家鄉做出貢獻的方式。",
@@ -420,10 +420,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -431,10 +431,10 @@
       "scenario": "【在社區發展座談會上時】，居民們正在討論是否要將社區的老舊穀倉拆掉改建為收費停車場。部分居民認為停車位能賺錢，部分居民則希望保留歷史記憶。",
       "question": "若要符合「永續發展」的精神，社區居民應該如何處理這個爭議？",
       "options": [
-        "誰的錢出得多就聽誰的，因為經濟發展最重要",
-        "直接舉手表決，少數服從多數，不需要溝通討論",
+        "誰出的錢比較多，就完全聽誰的意見，因為經濟發展最重要",
+        "直接舉手表決，讓少數服從多數，完全不需要事先溝通討論",
         "尋求兼顧文化保存與環境利用的方案，例如將穀倉轉型為文創空間",
-        "為了避免爭吵，乾脆維持現狀，不要做任何改變"
+        "為了避免大家繼續爭吵，乾脆維持現狀，不要做任何改變"
       ],
       "answer_index": 2,
       "explanation": "永續發展強調在發展經濟的同時，也要兼顧文化保存與環境保護，尋求多元平衡的解決方案。",
@@ -446,10 +446,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -457,25 +457,25 @@
       "scenario": "【在討論家鄉未來願景的課堂上時】，老師請同學針對「如何解決社區流浪狗問題」提出看法。小強主張「全部抓起來送走」，小美則認為「應該建立認養制度」。",
       "question": "在公共議題討論中，哪一種態度是我們學習「公民參與」時最需要具備的？",
       "options": [
-        "為了維持和諧，不管對方說什麼都直接表示同意",
+        "為了維持表面和諧，不管對方說什麼都直接表示同意",
         "堅持自己的意見絕對正確，並大聲反駁對方的觀點",
         "先聆聽他人的看法，再理性地表達自己的觀點與理由",
-        "保持安靜不說話，以免跟同學發生爭執"
+        "保持沉默完全不說話，以免跟同學發生任何爭執"
       ],
       "answer_index": 2,
       "explanation": "公民參與的核心在於「溝通與對話」，學習聆聽他人意見並理性表達自己的立場，是達成共識的重要過程。",
       "commonMisconception": "中年級學生常有「只要大家都同意我」或「為了和諧而不敢表達」的同儕壓力，需引導其理解理性的溝通價值。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -484,24 +484,24 @@
       "question": "這個案例最能說明下列哪一種觀念？",
       "options": [
         "居民的參與和合作，能為家鄉創造新的生命力",
-        "家鄉的問題只能靠政府編列預算才能解決",
-        "老舊的東西沒有價值，應該全部拆除重建",
-        "只要有遊客來，環境變髒亂也沒關係"
+        "家鄉的問題只能完全靠政府編列預算才能解決",
+        "老舊的東西都沒有價值，應該全部拆除重建",
+        "只要有遊客願意來，環境變得髒亂也沒關係"
       ],
       "answer_index": 0,
       "explanation": "居民的參與和對家鄉文化的重視，可以轉化為家鄉發展的動力，達成社區營造的目標。",
       "commonMisconception": "學生常認為發展一定要靠外力（政府或財團），忽略了「在地居民合作」所產生的內在能量。",
       "quality_level": "QL4",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -518,7 +518,7 @@
       "explanation": "每個人不分年齡，只要關心家鄉，都能透過自己的方式（如提案、設計、觀察）參與家鄉的建設。",
       "commonMisconception": "學生常有「被動心態」，認為自己只是兒童，無法在公共事務上產生實質影響力。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
@@ -561,25 +561,25 @@
       "scenario": "【在放學回家的路上，小明發現社區公園的長椅損壞且堆積了不少垃圾時】",
       "question": "小明想要為家鄉的新願景盡一份心力，下列哪一個行動最能體現「公民參與」的積極態度？",
       "options": [
-        "裝作沒看見趕快回家，認為這種公共事務是大人的責任",
+        "裝作沒看見趕快回家，認為這種公共事務都是大人的責任",
         "邀請鄰居小朋友一起討論，並在適當場合向里長反映問題",
-        "只要自己不亂丟垃圾就好，其他人的行為與自己無關",
-        "拍照上傳到個人網路空間，並寫下對管理單位的抱怨"
+        "只要自己不亂丟垃圾就好，其他人的行為都與自己無關",
+        "拍照上傳到個人網路空間，並寫下對管理單位的所有抱怨"
       ],
       "answer_index": 1,
       "explanation": "公民參與包含觀察環境、發現問題並採取行動（如討論、反映）。主動與他人合作並尋求正式管道解決問題，是公民素養的展現。",
       "commonMisconception": "學生容易落入「責任外推」的迷思，認為自己年紀小，只要「不犯錯」就好，而忽略了「主動改善」的可能。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -588,9 +588,9 @@
       "question": "雖然小華只是個四年級的小學生，但他受邀參加了會議。關於兒童參與家鄉事務，下列敘述何者正確？",
       "options": [
         "兒童也是家鄉的一分子，可以從學生的角度提出需求（如增加遊戲空間）",
-        "兒童沒有投票權，所以參加會議也無法發揮任何影響力",
+        "兒童沒有投票權，所以就算參加會議也無法發揮任何實質影響力",
         "兒童對家鄉事務的意見往往太幼稚，不應該出現在正式會議中",
-        "兒童應該待在家裡讀書，家鄉的未來規劃交給大人決定就好"
+        "兒童應該乖乖待在家裡讀書，家鄉的未來規劃全部交給大人決定就好"
       ],
       "answer_index": 0,
       "explanation": "兒童權利公約與現代公民教育強調兒童有表達意見的權利，特別是與其生活息息相關的公共事務，兒童的視角能提供不同的思考方向。",
@@ -602,10 +602,10 @@
       "review_status": "confirmed",
       "review_notes": "",
       "reviewer": "JOB-171-phase3",
-      "review_date": "2026-06-20",
+      "review_date": "2026-07-03",
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
-      "verifying_date": "2026-06-20",
+      "verifying_date": "2026-07-03",
       "blind_verify_quality_rating": 3
     },
     {
@@ -726,7 +726,7 @@
       "explanation": "公民參與不限於成人或投票，兒童也可以透過觀察問題、表達意見及參加社區活動，為家鄉的發展貢獻一份心力。",
       "commonMisconception": "學生常有「年紀小不能參與」或「只有投票才叫公民參與」的刻板印象，忽略了意見表達與行動參與的重要性。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "is_publishable": true,
       "review_status": "confirmed",

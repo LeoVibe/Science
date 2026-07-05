@@ -1,0 +1,5701 @@
+{
+  "summary": "四下國語三版15課雙盲驗證(課文必要錨點judge)",
+  "agentCount": 30,
+  "logs": [],
+  "result": [
+    {
+      "dir": "HanLin",
+      "n": 7,
+      "title": "棒球英雄夢",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『祖母買了文房四寶，要我寫字，做一個有用的人』，答案『成為一個有用的人，並能練習寫字』與課文一致。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『大孩子多半不想讓我加入，那會削弱他們的實力』及『揮棒落空，三振出局...都是你害的』，答案『實力不如大孩子、常在關鍵時刻被三振』符合課文因果。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文『他們一定不准我揮棒』，答案『大孩子不准他揮棒』正確。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文夢境段落『接受所有人的歡呼』，答案『獲得認同與尊重』為合理推論。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句『不斷的努力，相信終有一天，機會會來敲我的大門』，答案『面對挫折仍保持正向』正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『她覺得...不應該送給孩子玩樂工具』，答案『感到不滿，視為玩樂工具』正確。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『大孩子...不准我揮棒』『那會削弱他們的實力』，答案『其他孩子認為作者技術不佳，不讓他揮棒』正確。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『前面兩個被三振的孩子和其他隊友，立刻異口同聲的說：都是你害的』，答案『隊友將責任推給作者，缺乏包容與團結』正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊夢境段落『接受所有人的歡呼』，答案『渴望展現價值並獲得歡呼與接納』正確。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "整合課文『球隊老是輸球』『都是你害的』『不斷的努力』三處具體情節，答案『追求夢想的熱忱，不輕言放棄』正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文祖母『做一個有用的人』與作者『最大的願望就是能參加比賽』的具體對比，答案正確；雖有盲測context mismatch紀錄，但review_notes已說明係context錯置非題目錯誤。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『不准我揮棒』『削弱他們的實力』，答案『不受重視，被視為累贅』正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『都是你害的』及結尾『不斷的努力』，答案『被責怪但仍保有夢想、持續努力』正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文『像大力水手吃了菠菜一樣，反敗為勝』的具體意象，答案『渴望力量證明自己能成為英雄』正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "雖用詞抽象，但須依課文具體情節（被祖母反對、被隊友指責、仍堅持）才能判斷『堅毅不屈』優於『自暴自棄』，扣本課且答案正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『不應該送給孩子玩樂工具』，答案（idx3）『玩樂工具不該送給孩子』正確；盲測mismatch已由reviewer確認保留原答案。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『大孩子...不准我揮棒』，答案『大孩子不准他揮棒，深怕拖累實力』正確。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文『兩好三壞之後，放手一揮，一旦揮棒落空，三振出局』，答案（idx3）『關鍵時刻揮棒落空被三振』正確；盲測mismatch已由reviewer確認題目本身正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文『大力水手吃了菠菜』意象與『反敗為勝』，答案『渴望力量扭轉劣勢並獲得認同』正確。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾段『不斷的努力，相信終有一天，機會會來敲我的大門』，答案『屢屢受挫仍持續努力』正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文『買了文房四寶，要我寫字，做一個有用的人』，答案『成為對社會有用的人』正確。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『那會削弱他們的實力』，答案『隊友認為作者年紀小，揮棒會削弱得分機率』正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『檢討到最後都是我害的』，答案『代罪羔羊』正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊夢境段落『反敗為勝』『接受歡呼』，答案『渴望認同與榮耀，證明價值』正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "整合祖母期待與作者志向的衝突及結尾『不斷的努力』情節，答案『一邊努力練習一邊等待機會』正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文開頭『一個孩子最大的夢想，就是當棒球小國手，像王貞治...』，答案正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『不應該送給孩子玩樂工具』與祖母重視『有用的人』的價值觀，答案『玩樂工具無實質教育意義』正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『那會削弱他們的實力』『不准我揮棒』，答案『打擊實力不足，上場削弱戰力』正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『檢討到最後都是我害的』及『揮棒落空，三振出局』，答案『揮棒落空導致隊友推卸責任』正確。"
+        },
+        {
+          "idx": 30,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句『相信終有一天，機會會來敲我的大門』，答案『處境艱難仍保持堅持與希望』正確。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 8,
+      "title": "夢幻全壘打",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": false
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 1,
+          "single_answer": false
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": false
+        },
+        {
+          "idx": 23,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "直接扣文本「目前比數是一比三」與教練指示「要想辦法被球打到，造成滿壘」，answer_index=3與課文逐字對應，其餘選項比數/指示皆與原文不符。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「投手就要投出，祖母愈跑愈近，時間不多」的具體情節，推論主角因祖母逼近而慌忙揮棒，answer_index=0（緊張焦慮想盡快應付祖母）合理對應此段因果，其餘選項（教練暗號/展現英雄氣概/球技自信）均與文本矛盾。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": false,
+          "reason": "錨定課文「彷彿她也正準備擊出一支全壘打」一句，但標示正解answer_index=3（轉化）本身矛盾：選項用「像是」這類明喻喻詞來解釋「轉化」技巧，且「彷彿」正是典型明喻喻詞，應屬「譬喻」而非「轉化」；選項[0]雖標「譬喻」但語意錯誤（祖母想代替主角比賽）。兩選項一個技巧對但釋義錯、一個釋義對但技巧錯，本課考古題討論檔也將此句定性為「比喻」，故無一選項完全正確，判定match=false。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「縮著脖子連聲求饒」結局。文中滿壘轟後先追平3比3，再由主角親自跑回本壘得分，帶隊逆轉獲勝（「我們只差一分就贏了」+ 最終奔回本壘），故answer_index=3「贏得比賽但仍難逃祖母管教」與情節（贏球+挨罵）皆吻合，其餘選項與文本明顯不符。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「祖母出現造成慌張→閉眼亂揮→意外全壘打」此一特定情節因果鏈的開放式推論題，answer_index=3以「巧合」不預設立場作答，是四選項中唯一不與文本因果矛盾者。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應課文「兩好三壞滿球數，兩人出局，一、二壘有人」，answer_index=0完全一致，其餘選項數字均為捏造。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定教練指示「要想辦法被球打到，造成滿壘」，answer_index=0對應正確，其餘選項（等待保送、隨意揮棒、強攻全壘打）均與教練實際指示矛盾。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "與IDX1同一情節錨點（祖母逼近、時間不多），answer_index=1「焦慮混亂只好盲目揮棒」為合理推論，其餘選項與文本矛盾。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「祖母已經站在本壘板上等我了」的具體場景，answer_index=2點出現實管教與球場英雄夢想的衝突趣味，貼合文本喜劇張力，其餘選項（祖母變裁判/比賽終止/祖母變啦啦隊）均無文本依據。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「縮著脖子連聲求饒」與「英雄」身分並置的具體結局，answer_index=0「英雄在球場外仍是需聽長輩話的孩子」貼合文本反差，其餘選項與文本矛盾。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應「要想辦法被球打到，造成滿壘」，answer_index=0正確，其餘選項為捏造戰術。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定祖母台詞「都幾點了，還不知道要回家吃飯」與後文「她可不管什麼全壘打或是什麼三振出局」，answer_index=1（只想叫他回家吃飯）是四選項中唯一不與文本矛盾者，其餘選項（擔心受傷、公開羞辱、特地加油）均無文本依據。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「祖母已經站在本壘板上等我了」，answer_index=0「現實與球賽規則的荒謬衝突」貼合情節設計，其餘選項（祖母驕傲/精通規則/擔任裁判）均無文本依據。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應文末「我這個英雄被祖母抓個正著，只能挨罵...縮著脖子連聲求饒」，answer_index=1正確，其餘選項與結局矛盾。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定祖母催回家吃飯這個貫穿全文的荒謬插曲，answer_index=0扣合「夢幻」一詞的戲劇性來源，其餘選項（比數懸殊/首次全壘打/隊友崇拜）均與文本不符（實際比數接近且未提及是否首次或隊友崇拜）。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應教練指示「想辦法被球打到，造成滿壘」，answer_index=0正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「不管三七二十一，閉上眼睛，用力就是一揮」及其前文祖母逼近、時間不多的壓力情境，answer_index=1合理，其餘選項與文本矛盾。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「等我奔上三壘，天哪！祖母已經站在本壘板上等我了。我站在三壘，猶豫不決」，answer_index=1直接對應此因果，其餘選項無文本依據。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「我這個英雄被祖母抓個正著，只能挨罵」的反差敘事，answer_index=2「諷刺」語氣判讀貼合文本幽默基調，其餘選項與文本矛盾。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定球賽緊張感與祖母突襲交織的具體情節，answer_index=3扣合「夢幻」命名邏輯，其餘選項（教練獎勵/祖母未罵人/技術完美）均與文本不符。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應教練指示「要想辦法被球打到，造成滿壘」，answer_index=2正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定祖母台詞「都幾點了，還不知道要回家吃飯」，answer_index=1（只覺得孫子耽誤吃飯時間）是四選項中唯一不與文本矛盾者，其餘選項（藉機教訓/感到驕傲/欣賞球賽）均與文本明顯矛盾（祖母是生氣責罵而非驕傲或欣賞）。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「三比三平手」及全場「跑！跑！跑！」的具體場景，answer_index=2合理描述觀眾情緒，其餘選項（憤怒趕走祖母/比賽已結束/只想看家庭戲碼）均與文本不符。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定全壘打與被祖母抓到求饒並置的結局，answer_index=3「荒謬又好笑的對比」貼合文本喜劇基調，其餘選項（悲傷/完美守時教育/憤怒）與文本語氣矛盾。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應「她可不管什麼全壘打或是什麼三振出局」，answer_index=3合理延伸，其餘選項（懂球故意搗蛋/認為三振重要/規則太複雜）均無文本依據。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "核心錨定教練指示「想辦法被球打到，造成滿壘」，answer_index=1雖夾帶「利用保送」用詞稍鬆散，但核心指令與課文一致，其餘選項（強攻全壘打/觸擊短打/等待四壞球）均與教練實際指示矛盾。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定祖母台詞與行為（催回家吃飯、不管比分），answer_index=0是四選項中唯一不與文本矛盾者，其餘選項（球迷/加油/想解散球隊）均與文本明顯矛盾。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定「祖母已經站在本壘板上等我了」導致主角「猶豫不決」的具體心理衝突，answer_index=1貼合，其餘選項與文本矛盾。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應「我這個英雄被祖母抓個正著，只能挨罵」，answer_index=3正確，其餘選項（祖母被嚇跑/擊出安打/裁判判無效）均為捏造。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "錨定棒球夢想（教練戰術、全壘打、贏球）與祖母管教（催回家吃飯、抓到求饒）兩條敘事線交織的整體結構，answer_index=1貼合全文主旨，其餘選項（努力必勝/需嚴格紀律/長輩應完全支持）均與文本實際呈現的兩難張力不符。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 9,
+      "title": "單車遊日月潭",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "具體對應課文『朝霧散去之後，騎單車最舒服，可以見到金黃亮麗的日出，從山頭緩緩升起』。answer_index=1『看見金黃亮麗的日出』為課文明確描述，非泛用情境。已由人工複審確認 blind_eval_mismatch 為盲測情境錯置所致，非題目本身錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落，令人賞心悅目』。answer_index=1『紅黃錯落的落羽松』與課文完全吻合，換課文無法作答。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『許多人會停留在木棧道上，遠望水社大山，捕捉日月潭最美的景色』。answer_index=0『遠望水社大山，是捕捉日月潭美景的好地方』精確扣合課文。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『池水倒映著藍天白雲，看似連接著日月潭的美景』。answer_index=1『讓池水看起來像與日月潭的美景連在一起』正確反映課文對水池本身的描述。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『也能感受人文之美，更可為自己的身心健康加分』，答案並非通用美德詞，而是引用本課結尾的具體措辭。answer_index=0 正確。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『朝霧散去之後，騎單車最舒服，可以見到金黃亮麗的日出』。answer_index=3『清晨霧氣散去之後』正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『有一段車道巧妙的架在水面上，騎在車道上，如同在水面上行走，十分特別』。answer_index=2『車道設計充滿巧思，帶來獨特的視覺與空間體驗』延續課文正面語氣『巧妙』『特別』，其餘選項（不舒適／驚險／無聊）皆與課文語氣矛盾，可排除。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落』。answer_index=2『蕭瑟涼爽的秋冬』正確。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『在遊客中心的右方，藏著眺望平臺。站在平臺，山明水秀的景色盡收眼底』，題幹『藏著』一詞直接對應課文用字。answer_index=0『眺望平臺』正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『不僅能欣賞山水風情，也能感受人文之美，更可為自己的身心健康加分，一舉數得』。answer_index=0 三項內容與課文列舉一致。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx0/idx5同源，對應課文『朝霧散去之後，騎單車最舒服』。answer_index=1『晨霧完全消散之後』正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『有一段車道巧妙的架在水面上，騎在車道上，如同在水面上行走』。answer_index=0『車道與水面高度極近，讓人產生在湖面騎行的錯覺』為對課文描寫的合理引申，其餘選項（建築物過高、設計不穩固、速度過快）均與課文不符。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落』。answer_index=3『涼爽的秋冬時節』正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": false,
+          "reason": "課文原文結構為『在遊客中心的右方，藏著眺望平臺。站在平臺，山明水秀的景色盡收眼底，為這趟單車旅行畫下完美的句點』——『完美的句點』一句在文法上緊接『站在平臺』，是眺望平臺帶來的效果，而非無邊際水池本身（考古題與討論檔第7題範例亦明確將『完美句點』歸因於『眺望平臺』：『作者寫在向山遊客中心右方的眺望平臺上……為這趟單車旅行畫下完美的句點』）。本題題幹卻將『完美的句點』直接歸因於『那座無邊際的水池』，把課文中分屬兩個不同描寫對象（水池／眺望平臺）的內容錯誤合併，屬題幹本身的事實歸因錯誤，非單純格式或選項問題。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『不僅能欣賞山水風情，也能感受人文之美，更可為自己的身心健康加分』。answer_index=3『結合了自然美景與人文感受，並能增進身心健康』正確涵蓋課文三項內容。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『朝霧散去之後，騎單車最舒服』。answer_index=0『朝霧散去之後』正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『沿著自行車道往前……有一段車道巧妙的架在水面上，騎在車道上，如同在水面上行走』。answer_index=1『車道是架在水面上的，讓人感覺離潭水很近』正確；其餘選項刻意混入課文其他段落元素（木棧道、無邊際水池、落羽松）作為誘答，屬合理誘答設計。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落，令人賞心悅目』。answer_index=3『落羽松變色，呈現紅黃錯落的美景』正確扣合『賞心悅目』的原因。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『在遊客中心的右方，藏著眺望平臺。站在平臺，山明水秀的景色盡收眼底』，題幹『山明水秀』字眼直接取自課文。answer_index=0『隱藏在右方的眺望平臺』正確；註記中的 blind_eval_mismatch 索引為亂序前之殘留紀錄，經覆核與現行選項對照無誤。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『不僅能欣賞山水風情，也能感受人文之美，更可為自己的身心健康加分』，全文未提及『競賽速度』。answer_index=2『提升騎單車的競賽速度』作為『未提及』的正解，需準確掌握課文全文才能判斷排除，符合課文錨定要求。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『水社綜合商場旁邊就是自行車道的起點……沿著自行車道往前……有一段車道巧妙的架在水面上，騎在車道上，如同在水面上行走』，此段落緊接水社綜合商場之後，尚未到水社壩堰堤公園。answer_index=3『水社綜合商場旁邊的起點路段』正確；已由人工複審排除盲測誤選（idx=2 水社壩木棧道）之干擾。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落，令人賞心悅目』。answer_index=1『落羽松呈現紅黃錯落的色彩』正確，選項2刻意混入水社綜合商場的日出描寫作誘答，屬合理設計。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『朝霧散去之後，騎單車最舒服，可以見到金黃亮麗的日出』。answer_index=2『朝霧散去之後』正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『池水倒映著藍天白雲，看似連接著日月潭的美景』。answer_index=3『池水與潭水連接，倒映出藍天白雲』正確反映課文對水池本身的描述（非誤植為眺望平臺內容）。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『不僅能欣賞山水風情，也能感受人文之美，更可為自己的身心健康加分，一舉數得』。answer_index=0 三項內容與課文列舉一致。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx20同源，對應課文『水社綜合商場旁邊就是自行車道的起點……有一段車道巧妙的架在水面上，騎在車道上，如同在水面上行走』。answer_index=3『水社綜合商場附近的自行車道起點』正確，已排除盲測誤選（idx=2 落羽松林後坡道）之干擾。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落』。answer_index=1『紅黃錯落的落羽松』正確，其餘選項刻意混入水社大山、無邊際水池、日出等其他段落景物作誘答。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『朝霧散去之後，騎單車最舒服，可以見到金黃亮麗的日出』，課文以並列句描述『舒服』與『見日出』兩件事。answer_index=3『此時溫度適中且騎乘感覺最舒服』回扣『騎單車最舒服』一句，並刻意將『看見日出』設計為誘答（commonMisconception 亦明確指出此設計意圖），屬合理課文細節辨析題。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『向山遊客中心的前方有一座無邊際的水池，池水倒映著藍天白雲，看似連接著日月潭的美景』。answer_index=1『前方有一座無邊際的水池』正確描述向山遊客中心的地理特色，未涉及idx13之句點歸因問題。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『不僅能欣賞山水風情，也能感受人文之美，更可為自己的身心健康加分，一舉數得』。answer_index=0 三項內容與課文列舉一致。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 10,
+      "title": "孫悟空三借芭蕉扇",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": false
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕悟空介紹芭蕉扇「一搧熄火，二搧生風，三搧可下雨」，答案順序與課文完全一致。stem寫「好奇」與課文「（懷疑）」用詞不精準，但不影響選項正確性，屬輕微瑕疵非致命錯誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕公主台詞「你卻害我，不能跟我的寶貝兒子紅孩兒相見」，答案與課文完全吻合。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": false,
+          "reason": "題幹稱『成功讓鐵扇公主交出真扇』，但第四幕旁白明確寫『孫悟空發現拿到的扇子竟然是假的』——第三幕變小蟲進肚子取得的其實是假扇，與『真扇』的題幹陳述直接矛盾，屬事實錯誤。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕公主主動說出口訣的情節。選項『慌亂中自己說出來』的『慌亂』用詞與課文『悄悄跟牛魔王說出口訣』的平靜語氣不夠精準，但核心事實（公主自己說出、非偷聽非本來就知道）正確，其餘三個選項皆明顯錯誤，此選項仍是唯一可成立的正解。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕結尾『我乃齊天大聖孫悟空是也』與公主『慌張的跌坐地上，真是氣死我了』，答案與課文完全吻合。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕芭蕉扇功效台詞，順序（滅火≈熄火、生風、下雨）與課文一致，滅火/熄火為同義詞，不構成事實錯誤。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕公主拒借原因（紅孩兒事件），答案與課文完全吻合。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第三幕變小蟲入肚子威脅公主的具體情節，題幹未主張『真扇』，與課文（後段揭露此扇為假）不衝突。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕牛魔王（悟空變身）先責備公主把扇子給人、公主辯解假扇、進而說出口訣的完整對話鏈，答案概括方向與課文情節一致。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊全劇具體情節（變小蟲、變牛魔王、利用紅孩兒牽掛與對丈夫的信任），答案為對這些具體橋段的合理歸納，非空泛美德詞。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕『火焰長達八百里，可是火焰山是必經之路』的借扇動機，答案與課文完全吻合。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕悟空取得靈吉菩薩定風丹而『紋風不動』的情節，答案與課文完全吻合。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第三幕公主因肚子劇痛而妥協交扇的情節，答案與課文完全吻合。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕公主主動告知口訣、對『牛魔王』毫無戒心的具體對話，答案與課文一致的合理推斷。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊定風丹、變小蟲、變牛魔王等具體策略橋段所歸納出的特質形容，與課文情節一致。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕芭蕉扇三功能台詞，答案『一搧熄火、二搧生風、三搧下雨』與課文逐字一致。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕公主拒借主因（紅孩兒事件），答案與課文完全吻合。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第三幕肚子疼痛逼公主交扇的情節，答案與課文完全吻合，未涉及真假扇爭議。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕公主誤認悟空為丈夫而毫無防備說出口訣的情節，答案為此情節最精準的推斷（『毫無防備』優於選項2籠統的『十分信任』）。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊悟空依對手反應（公主搧扇、關門、喝茶、牛魔王身分）逐步調整策略的具體情節，答案與課文一致。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕芭蕉扇三功能台詞，答案『一搧熄火、二搧生風、三搧下雨』與課文逐字一致。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕定風丹使悟空『紋風不動』的情節，答案與課文完全吻合。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕公主拒借原因（紅孩兒事件），答案與課文完全吻合。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕悟空變身牛魔王騙取公主信任而得知口訣的情節，答案與課文完全吻合。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": false,
+          "reason": "answer_index=1（請求幫助、躲避攻擊、變身誘騙），但該題自身的commonMisconception欄位明白寫『選項C的描述更為精準全面』（選項C即索引2『誠心請求、暴力威脅、變身取信』），且對照課文（第三幕肚子威脅為『暴力威脅』而非『躲避攻擊』，第四幕變牛魔王為『變身取信』而非泛稱『誘騙』），選項2確實更貼合情節，題目metadata與標示正解自相矛盾，判定為答案鍵錯誤。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第一幕悟能『（懷疑）有這麼神奇的扇子嗎？』的台詞，答案與課文完全吻合。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第二幕公主因紅孩兒事件而對悟空充滿敵意的情節，答案與課文完全吻合。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第三幕悟空在肚中恐嚇『快把扇子借給我，不然……敲敲又打打』的台詞，答案與課文完全吻合。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊第四幕公主由信任『丈夫』轉為發現受騙後『慌張的跌坐地上』的情節，題幹稱『真扇子』與第四幕情節相符（不同於第2題誤植於第三幕），答案與課文一致。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊悟空先溝通、求助定風丹、變身小蟲與牛魔王等具體策略歸納出的人物特質，答案與課文情節一致。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 11,
+      "title": "最後一片葉子",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 2,
+          "single_answer": false
+        },
+        {
+          "idx": 28,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安將自身生命與常春藤葉子連結的核心情節；正解「將生命力與葉子連結產生消極聯想」對應課文『當最後一片葉子掉下來的時候，我的生命也將結束了』的心理投射，與其他明顯錯誤選項（醫生宣判、老畫家預言）區隔清楚。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家聽聞喬安病情後決定作畫救人的關鍵轉折；正解對應課文『臉上出現少見的光彩，他暗自做了一個重大的決定：我會讓那片葉子留下來』。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安看到葉子後臉色轉佳的情節；正解（視為奇蹟、有機會戰勝肺炎）為排除法下唯一合理選項，其餘選項（天氣好轉、老畫家微笑、蘇西貼上）均與課文不符。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課結尾『他真的完成了一幅精彩的畫作』的主題升華；正解強調犧牲生命傳達的愛與希望，符合故事核心價值。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課葉子—生命連結的因果設定進行反事實推論；正解與課文『喬安將自己的生命力與葉子連結』的心理機制一致。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安『當最後一片葉子掉下來的時候，我的生命也將結束了』一句；正解準確描述其心理投射，非醫生或老畫家的外部宣告。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家找不到題材到決定救喬安的轉折；正解對應課文『他一直想畫出一幅好的作品…卻始終找不到好的題材』與其後決定畫葉子的情節。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家因急性肺炎去世、犧牲生命完成畫作的結局；正解準確反映此因果與主題。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "與 idx5 同題型的反事實推論，同樣緊扣本課葉子—生命連結的設定，正解一致。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課『畫布和顏料都蒙上了一層灰，卻始終找不到好的題材』的具體描寫；正解在四選項中唯一貼合文意（非空氣差、非懶惰、非單純貧窮），match 可接受。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安葉子—生命連結情節，正解描述其心理投射，準確排除醫生宣告等錯誤選項。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家決定救喬安的具體場景；正解『以生命為代價、充滿使命感』雖是全文視角下的追加詮釋（決定當下老畫家未必自知會因此喪命），但作為對照後續冒雨作畫致死情節的推論題仍屬合理最佳選項，其餘選項明顯錯誤（自誇、懷舊、賺錢）。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課『那片葉子高高的掛在藤上，那麼翠綠，又那麼有活力』與喬安『臉上又慢慢有了生氣』的因果；正解準確對應。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課『精彩的畫作』的主題意涵；正解強調犧牲拯救他人的價值，符合故事核心。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家冒雨作畫致死的具體行為；正解『助人為快樂之本，即使犧牲生命也在所不惜』貼切總結，優於『真正的友誼』（老畫家與喬安並非直接朋友關係，經蘇西轉述才知病情）。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安葉子—生命連結情節，正解與課文原句一致。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家決定救喬安場景，正解『因為能幫助喬安而感到重拾生命的意義』貼合文意。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": false,
+          "reason": "本題與標示正解存在歧義：課文原句『蘇西一打開窗戶，驚喜的叫著：喬安，妳看！常春藤上還留著最後一片葉子呢！』直接支持選項3『沒想到那片葉子竟然真的沒有掉落』（葉子『沒有掉落』正是驚呼的直接內容），而標示正解選項1『翠綠與活力』是緊接在驚呼之後的另一句描述，與『如此驚喜』的因果連結不如選項3明確。此為題目設計歧義，非單純選項錯誤，但正解不具唯一可辯護性。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "與 idx4 同主旨，扣本課『精彩的畫作』意涵，正解準確。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安得知真相後『淚流滿面』的情節；正解（感動感激＋愧疚）為情感層次的合理推論，優於憤怒、恐懼未來、對蘇西失望等明顯錯誤選項。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課結尾蘇西揭露真相的具體情節；正解『得知老畫家為了鼓勵她，犧牲生命畫了那片葉子』直接對應課文最後一段。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安原話『當最後一片葉子掉下來的時候，我的生命也將結束了』；正解『對病情感到絕望，失去求生意志』準確反映其心態。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家『少見的光彩』情節，正解『決定用藝術拯救喬安，找到生命意義』與課文一致。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課多項具體文本細節（緊貼磚牆非木牆、掌狀深綠非圓形淺綠、暴風雨後葉子未掉光）；正解以排除法為唯一與課文相符的敘述。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課標題象徵意涵，正解『給予他人希望、勇氣與生命的象徵』貼合全文主旨。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "與 idx1/6/11/16 同類型，扣本課葉子—生命連結情節，正解一致。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課老畫家找到創作目標、決定救喬安的情節，正解準確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": false,
+          "reason": "標示正解（『因為她知道這片葉子是老畫家徹夜未眠的傑作，代表喬安有救了』）與 explanation（『蘇西知道老畫家的計畫』）在時序上與課文矛盾：課文明確顯示蘇西打開窗戶看到葉子那一刻，老畫家冒雨作畫及去世的真相尚未揭露——該真相是在『喬安身體一天天好起來』之後，因房東搬走老畫家家具才被發現，並由蘇西事後轉述給喬安。此時蘇西不可能『已經知道老畫家的計畫』，此為編造/時序錯誤，非課文支持的答案。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課『最後的葉子』的價值意涵，正解『充滿同情心、用生命換取他人求生意志的傑作』準確對應課文主旨。"
+        },
+        {
+          "idx": 30,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課喬安聽完真相後淚流滿面的情節，正解（後悔＋感動與愧疚）為合理情感推論，優於其他明顯錯誤選項（憤怒、失望於葉子非真）。"
+        }
+      ]
+    },
+    {
+      "dir": "HanLin",
+      "n": 12,
+      "title": "閱讀課",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "秀秀「轉學後得到大家的幫助…也很想幫助別人」為課文原句，answer_index=3正確對應。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊壘安心得「雖然我的力量很小，但助人的心，卻能給人帶來無比的溫暖」與借橡皮擦情節，answer_index=3合理。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "「退後即是向前」為拔一條河（本課愛閱讀二）教練原句，選項0正確呼應「每向後退一步，就會離勝利更進一步」。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "「用牆壁取代拔河機，用木板取代拔河道」為課文逐字引用，answer_index=3正確。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "跨連本課內兩篇材料（閱讀課主文與拔一條河）共通主題，answer_index=2（互助、堅持、面對困難）符合文意；題幹「作者」用詞略鬆散（兩文實為不同作者作品收錄於同課），但不影響正解判定。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "與第1題同一課文根據，answer_index=3正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "「把那幅畫的力量傳出去」對應壘安「以後同學有需要，我一定也會借他」，answer_index=2正確，其餘選項為秀秀或不相關行為的誘答。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "選項0結合課文「為找回孩子的自信與笑容…平復受災後的心情」與退後即是向前段落，雖為整合性推論而非逐字對應，仍在本課文本可支持範圍內，優於其餘明顯錯誤選項。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "「我好希望可以獲得冠軍，榮耀自己的家鄉」與「連孩子都不認輸，我們憑什麼認輸」皆為課文原句，answer_index=0正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "老畫家使喬安有希望、拔河隊激勵甲仙鎮民重新振作，皆為本課文本明確內容，answer_index=3正確。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與課文「站穩腳步，慢慢的向後退，每向後退一步，就會離勝利更進一步」直接對應，answer_index=1正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "「將整理好的玩具帶來義賣，最後把錢捐出去…快樂的感覺到現在都還留在心裡」為課文原句，answer_index=2正確。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "「長時間的練習，讓他們的手掌都長出厚繭」為課文原句，answer_index=0（努力成果）正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊壘安「力量很小、助人的心帶來溫暖」原句，answer_index=0正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "「甲仙全鎮的人們，受到拔河隊的激勵，在經歷災難之後，依然堅持不放棄」為課文原句，answer_index=1正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "壘安心得「老畫家畫了葉子，讓喬安有了希望」為課文明文，answer_index=3正確；情境標示「討論中」與實際出自壘安書面心得略有落差，但不影響選項對錯判定。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "與第13題同一課文根據（力量小、心意重要），answer_index=3正確。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "「向後退的動作是為了爭取比賽的勝利」符合課文「每向後退一步，就會離勝利更進一步」，answer_index=3正確。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "與第9題同一課文根據，answer_index=1正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "跨連本課兩段落之共同精神（助人／堅持後獲得力量），answer_index=2符合文意。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "「老畫家畫了葉子，讓喬安有了希望」為課文原句，answer_index=1核心內容正確；選項中「生病的喬安」為未在本課文本明示的補充細節，但不影響此題唯一合理答案的判定。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "「那種快樂的感覺到現在都還留在心裡」為課文原句，answer_index=3正確。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "與第3題同一課文逐字引用，answer_index=2正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "與第2、10題同一原句根據，answer_index=0正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "跨連本課兩篇材料的共同核心價值，answer_index=3（溫暖與希望）符合文意。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "與第1、6題同一課文根據，answer_index=3正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "答案選項對應課文中「老畫家犧牲自己救人」（同學發言）與壘安心得的呼應關係，answer_index=3合理，其餘選項為拔河隊或布告欄等不相關誘答。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊教練原句與課文描述的團隊默契、耐力、不放棄精神，answer_index=0正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "「我好希望可以獲得冠軍，榮耀自己的家鄉」為課文原句，answer_index=2正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "跨連本課兩篇材料的統整結論，answer_index=0（互助、努力、希望）符合文意。"
+        }
+      ]
+    },
+    {
+      "dir": "KangHsuan",
+      "n": 7,
+      "title": "未來的模樣",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 3,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文開頭「我想問問星星，我想問問微風，誰能告訴我，未來還有多遠？未來是什麼模樣？」，answer_index=2「對未來充滿好奇與期待」符合抒情探問語氣，非天文觀察或逃避，正解無誤。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「敲一敲鍵盤，禮物就從光速機裡跳出來，把心意直接送到好友面前」，answer_index=1「透過光速機傳送實體禮物」與課文吻合。注意explanation文字殘留「選項A」舊版標籤（改編前的選項序），與現在shuffle後的選項編號不一致，屬用詞瑕疵，但不影響answer_index本身正確性。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，answer_index=0「解決部分地區饑荒的問題」正確對應課文人道關懷主旨。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「能不能善用科技的美好，讓大家遠離不安的處境，攜手迎向幸福的願景」，answer_index=2對應課文積極面對危機的態度，正確。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」，answer_index=3「已有藍圖與希望、充滿信心」符合文學修辭解讀，正確。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「會不會搭上火箭，就能開心拜訪外星人的故鄉？」與「會不會穿越一道任意門，就能馬上到達目的地？」，answer_index=0正確對應兩種交通想像。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，answer_index=2「減少貧富差距與飢餓」正確概括作者期許。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「打開網路，連結世界，在不同的國度，我們可以彼此關心，互相祝福」，answer_index=1「縮短空間距離、情感聯繫更緊密」正確對應。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「氣候變遷導致地球暖化」及末段「攜手迎向幸福的願景」，answer_index=2正確呼應課文積極解決危機的態度。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」，answer_index=2「充滿希望且樂觀的期待」正確。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「未來的傳輸，是不是敲一敲鍵盤，禮物就從光速機裡跳出來」，answer_index=2「使用光速機傳送」與課文原文一字不差對應，正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，answer_index=0「解決貧富不均與匱乏」正確。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「我們關心環境的惡化，期盼解除地球的危機」，answer_index=2「憂心並期盼解除危機」正確對應課文原句情感。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「打開網路，連結世界，在不同的國度，我們可以彼此關心」，answer_index=2「縮短距離、增進情感連結」正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」並呼應前文「攜手迎向幸福的願景」，answer_index=2正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「搭上火箭…拜訪外星人的故鄉」與「穿越一道任意門」，answer_index=1正確對應課文兩項交通想像，未被高鐵飛機輪船（現有交通）等誘答混淆。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「未來的食物，可不可以永久保鮮？運輸的方式，能不能夠瞬間傳送？讓糧食的分配更加平均」，answer_index=3同時涵蓋永久保鮮與瞬間傳送兩要素，正確且完整。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「打開網路，連結世界…彼此關心，互相祝福」，answer_index=1「跨越距離、拉近心靈」正確。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「氣候變遷導致地球暖化，食物短缺造成全球糧荒」及後文「期盼解除地球的危機」，answer_index=3正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」，answer_index=2正確呼應樂觀期待的文學收尾。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「運輸的方式，能不能夠瞬間傳送？讓糧食的分配更加平均」，answer_index=3「瞬間傳送」精準對應課文用詞（課文糧食段落用的是瞬間傳送而非任意門），正確排除任意門誘答。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「有的地方糧食充足，有的地方饑荒連年」與後續科技改善提議，answer_index=2「呈現分配不均並期待科技改善」正確。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「氣候變遷導致地球暖化，食物短缺造成全球糧荒」，answer_index=0「對現狀擔憂並期盼解決危機」正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「敲一敲鍵盤，禮物就從光速機裡跳出來，把心意直接送到好友面前」，answer_index=0「透過光速機將禮物直接跳出來」與原文用字一致，正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」及「幸福的願景」，answer_index=0正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「光速機裡跳出來，把心意直接送到好友面前」，answer_index=0精確對應光速機科技的情感目的（送心意），正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「有的地方糧食充足，有的地方饑荒連年」及糧食分配平均之願景，answer_index=0「克服地理距離、解決生存危機」正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊「氣候變遷導致地球暖化」及「我們關心環境的惡化，期盼解除地球的危機」，answer_index=0正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊結尾「在睡夢中的新世界，我已經看到未來的模樣」，answer_index=1「積極的願景與希望」正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "綜合全詩「打開網路，連結世界」「光速機傳送心意」「瞬間傳送解決糧荒」「善用科技的美好」等多處具體意象，answer_index=3「連結世界、改善生存條件的良善工具」正確總結課文對科技的態度。"
+        }
+      ]
+    },
+    {
+      "dir": "KangHsuan",
+      "n": 8,
+      "title": "動物老師的智慧",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 2,
+          "single_answer": false
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 3,
+          "single_answer": false
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文首段「因為人類越來越了解動物個個是厲害角色，所以開設了這所學校」，answer_index=2正確。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「感謝我得天獨厚的蛙蹼——後腳腳趾間那一層薄薄的皮膜」，answer_index=2正確。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「每根腳趾有上萬根細毛，這些細毛與接觸面產生了吸附力」，answer_index=2正確。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「這種不用膠的『膠帶』天然環保……能夠隨貼隨掛」，「隨貼隨掛」合理蘊含可重複使用，answer_index=3正確。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾「只要你仔細觀察、用心探索，就可以……得到靈光一閃的奇思妙想」，非泛用美德詞，具體扣課文結論，answer_index=2正確。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "與課文「蛙蹼——後腳腳趾間那一層薄薄的皮膜」逐字對應，answer_index=0正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「把水往後推，推水所產生的反作用力，不但帶動身體在水中前進」，answer_index=2正確。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文壁虎「每根腳趾有上萬根細毛……產生了吸附力」，answer_index=1正確，且排除課文明確否定的「吸盤/黏液」等常見誤解選項。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「這種不用膠的『膠帶』天然環保」，answer_index=3「不需要任何化學膠水」為合理釋義，正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文末段「仔細觀察、用心探索……改變你我現在與未來的生活」，answer_index=1正確，非泛用美德題。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與課文蛙蹼描述一致，answer_index=2「腳趾間那層薄薄的皮膜」正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文壁虎細毛吸附力描述，answer_index=3正確，排除課文未提及的黏液/爪子/吸盤等干擾選項。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹直接引用課文原句「人們學習蛙蹼構造發明了蛙鞋」，answer_index=0是四選項中唯一與課文「觀察學習」精神一致者，其餘選項（科技超越動物/動物主動教人/視動物為工具）皆與課文語氣矛盾，正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「這種不用膠的『膠帶』天然環保」，answer_index=1正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文末句「只要你仔細觀察、用心探索」，answer_index=1「生活中處處有值得學習的對象」與課文主旨一致，正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文蛙蹼描述，answer_index=0正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「觀察、研究我的肢體構造後，發明了『壁虎膠帶』」與壁虎細毛吸附原理，answer_index=0為四選項中唯一符合課文機制（細毛吸附而非磁鐵/植物纖維/黏性更強）者，正確。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "綜合課文蛙鞋、壁虎膠帶發明與末段主旨，answer_index=3「透過觀察動物的特長，啟發人類創造發明的靈感」正確概括課文宗旨。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「天然環保……耐重，又能夠隨貼隨掛」，answer_index=1正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「推水所產生的反作用力……穿上蛙鞋潛進水中，人們就好像化身為青蛙，能更輕易的划水前進」，answer_index=0正確。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文開設學校緣由與全文學習肢體構造之主軸，answer_index=1在四選項中最貼合課文（其餘選項為練跳躍攀爬/動物學人類語言/馬戲團表演，皆與課文矛盾），正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文蛙蹼推水描述，answer_index=3正確。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文壁虎細毛吸附力描述，answer_index=3正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「不用膠」「天然環保」「隨貼隨掛」等具體描述，answer_index=1正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「觀察、研究我的肢體構造後，發明了」與末段「仔細觀察、用心探索」，answer_index=0正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q1同源對應課文首段開校緣由，answer_index=0正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「推水所產生的反作用力，不但帶動身體在水中前進，還加快了速度」，answer_index=1正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文壁虎細毛吸附力描述，answer_index=1正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文「這種不用膠的『膠帶』天然環保，既可耐重，又能夠隨貼隨掛」逐項對應，answer_index=1正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文末句「只要你仔細觀察、用心探索，就可以……得到靈光一閃的奇思妙想」，answer_index=2正確。"
+        }
+      ]
+    },
+    {
+      "dir": "KangHsuan",
+      "n": 9,
+      "title": "向太空出發",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第3段「月球看起來又大又圓，它也離地球最近」，answer_index=2對應選項C與課文一致，其餘選項（環境相似/傳說/科技限制）均為課文未提及之編造。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文阿姆斯壯名言「這是我的一小步，卻是人類的一大步」，answer_index=3對應選項與explanation一致。註：物件中混有一個誤植鍵名「こそ」重複explanation內容，屬欄位雜訊，未影響題幹/選項/正解本身。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第5段太空探索公司研發飛行器載更多旅客之敘述，answer_index=1對應選項B與課文吻合，其餘選項（停止研發/費用已降低/確認火星宜居）均與課文相反或未提及。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文註腳「朱爾．凡爾納...乘坐一枚由巨大的中空炮彈飛向月球」，answer_index=0對應選項A正確，其餘選項為編造。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文末段「人們對太空的好奇與嚮往...催生太空旅行美夢成真的重要動力」，answer_index=2對應選項C正確，其餘選項（地球毀壞/商業強迫/軍事競爭）課文均未提及。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "同idx0引用課文第3段月球又大又圓、離地球最近之理由，answer_index=0對應選項A正確；選項B將「炮彈」情節錯置為「月球上有炮彈的預言」屬合理誘答但非正解，判定正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文阿姆斯壯名言，answer_index=0對應選項A（象徵人類突破未知極限）符合「一小步/一大步」之隱喻，其餘選項為字面誤讀誘答。物件混有多餘欄位「content_type」，未影響題幹/選項/正解。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第2段「透過傳說或作品寫出自己的奇想」與空心炮彈情節，answer_index=3對應選項D（證明人類對太空的奇想早於科技發展）與課文脈絡吻合，其餘選項為編造。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第5段「旅費大約是十八億元...只有大富翁才能開啟旅程」，answer_index=1對應選項B正確，其餘選項（飛行太慢/沒人想去/沒有太空人）為課文未提及之編造。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文末句「總有那麼一天...向太空出發！」，answer_index=3對應選項D（充滿希望與期待）符合全文樂觀基調，其餘選項與文意相反。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "同上引用課文第3段理由，answer_index=0對應選項A正確，其餘選項（外星人遺蹟/小說指出位置/唯一有水星球）均為編造，非課文內容。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文阿姆斯壯名言，answer_index=2對應選項C（個人一小步象徵人類文明重大突破）正確。物件混有多餘欄位「content」重複explanation內容，未影響題幹/選項/正解。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第5段「已經有太空探索公司打算研發更適合的飛行器，載送更多的旅客」，answer_index=3對應選項D合理反映課文樂觀原因，其餘選項（費用已降/政府補助/火星捷徑）均為編造或與課文相反。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文註腳空心炮彈情節，answer_index=1對應選項B（科幻小說情節，展現天馬行空的想像力）正確，其餘選項（望遠鏡/太空總署藍圖/真實歷史事件）均與課文矛盾。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句，answer_index=1對應選項B（對科技進步的信心）符合全文語氣，其餘選項與文意相反或無根據。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文註腳空心炮彈交通工具設計，answer_index=0對應選項A正確，其餘選項（噴射飛機/自動導航飛行器/太空火箭）為課文未提及之編造。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第3段兩項理由（又大又圓、離地球最近），answer_index=2對應選項C正確，其餘選項均非課文所述理由。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文阿姆斯壯名言，answer_index=0對應選項A（象徵人類突破太空探索重大成就）正確，其餘選項為字面誤讀或編造。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第5段旅費十八億元、只有大富翁負擔得起之敘述，answer_index=3對應選項D正確，其餘選項（技術未研發/政府禁止/無人願參與）與課文矛盾（課文已提到探測器與公司研發）。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文末段「催生太空旅行美夢成真的重要動力」之敘述，answer_index=0對應選項A（好奇與嚮往）正確，其餘選項為編造。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第3段理由，answer_index=1對應選項B（距離最近、又大又圓）正確，其餘選項（小說預言/環境相似/資源豐富）均非課文所述。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文阿姆斯壯名言，answer_index=2對應選項C（個人登月行動代表人類文明突破空間限制）正確，其餘選項（太空競賽獲勝/步伐與距離對比/艱辛過程）為課文未支持之誘答。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第4、5段對太空旅行現況的描述，answer_index=3對應選項D（只有極少數大富翁能負擔）正確；選項B「已證實另一星球環境與地球完全一樣」誤將課文的疑問句（有沒有哪顆星星環境差不多）當作已確認事實，正確判為誘答。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句，answer_index=1對應選項B（樂觀且期待）符合全文語氣，其餘選項與文意相反或無根據。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文註腳空心炮彈情節，answer_index=2對應選項C正確，其餘選項（參與阿波羅計畫/預測火箭飛火星/寫月球生活日記）為編造，與課文矛盾。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第3段理由，answer_index=3對應選項D（距離最近、又大又圓）正確，其餘選項均非課文所述。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文阿姆斯壯名言，answer_index=1對應選項B（個人一小步象徵人類巨大突破）正確，其餘選項為誘答編造。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第5段旅費過高之敘述，answer_index=0對應選項A正確，其餘選項（飛行器太小/無科幻小說/失去好奇心）與課文矛盾（課文已提及探測器、朱爾．凡爾納小說、及持續的好奇與嚮往）。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文第2、6段對好奇心與想像推動太空探索的敘述，answer_index=1對應選項B（想像促使觀察研究並投入資源實現夢想）為合理推論，符合課文脈絡，其餘選項明顯荒謬編造。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文註腳空心炮彈情節，answer_index=0對應選項A正確，其餘選項（登月唯一方法/真實探測器數據/搭太空船飛火星）均與課文矛盾或編造。"
+        }
+      ]
+    },
+    {
+      "dir": "KangHsuan",
+      "n": 12,
+      "title": "如來佛的手掌心",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 3,
+          "single_answer": false
+        },
+        {
+          "idx": 15,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "具體扣本課「天不怕、地不怕」孫悟空性格設定（研究紀錄RC-01明載），正解與課文一致，非泛用美德情境。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": false,
+          "reason": "題目具體扣本課孫悟空與如來佛打賭情節，belongs成立；但正解「因為他擁有七十二變的法術」把「舞台無人能及」的自信歸因於七十二變（變身能力），與原典孫悟空真正的自信依據——筋斗雲一跳十萬八千里的飛行距離——不同機制，explanation欄自己也要補「筋斗雲速度極快」才圓得通，顯示選項文字與正解邏輯不完全對應，屬可能的事實錯置（🟡推論，未見RC-01全文佐證，中等信心）。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "典故出自《西遊記》，與RC-01第20行「本篇典故出自西遊記」直接對應，正解無誤。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課標題核心隱喻「逃不出掌握」，與考古題文檔第4題同一命題方向一致，正解無誤。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「孫悟空被收服」情節帶出的謙卑反思，與研究總綱「謙卑價值」對應，正解無誤。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「翻觔斗未能飛出手掌心」情節作為被收服原因，正解與課文情節一致。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「天不怕、地不怕」原句要求推論心理狀態，正解「過度自信、自負」與考古題文檔第3題誘答分析一致。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課標題隱喻，正解「難以逃出如來佛祖的掌控與智慧」與考古題文檔第4題正解方向一致。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「翻十萬八千里」的觔斗本領作為挑戰依據，此為本課故事的具體情節元素，正解無誤。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "批判性延伸題，扣本課孫悟空性格（未三思而挑戰），四選項中僅「先觀察再決定」符合角色行為邏輯與課文教訓方向，屬合理設計。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「使出筋斗雲，翻出手掌範圍」情節，與本課核心橋段一致，正解無誤。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「天不怕、地不怕」性格與挑戰如來佛的因果關係，正解與考古題文檔第7題方向一致。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課主旨「天外有天，人外有人」，與研究總綱「謙卑價值」及考古題文檔第5題主旨題一致。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「五根柱子並題字」此一課文獨有情節細節，換成別課無法作答，正解無誤。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "批判延伸題，扣本課「被收服」的結局設定，正解主張如來佛早有安排、結局不變，屬合理的批判性詮釋，未與課文情節牴觸。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「觔斗雲翻越十萬八千里」此一課文情節細節作為打賭優勢，正解無誤。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「五根柱子旁題字」情節並要求推論心理狀態，正解「以為飛到天地盡頭」與課文情節吻合。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「如來佛出示手指字跡」轉折情節，正解「意識到自己渺小」呼應故事主旨，無誤。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課孫悟空挫敗情節所傳達的道理，正解與研究總綱「謙卑價值」一致。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課如來佛角色定位（教化者而非單純懲罰者），正解合理反映課文中如來佛收服而非消滅孫悟空的安排。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用打賭賭注「翻出手掌心即可坐上玉皇大帝寶座」此一課文獨有細節，正解無誤。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「五根柱子題字」情節並推論心境，正解「充滿自信、勝券在握」與課文情節吻合。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「未能離開手掌心」情節之轉折意義，正解呼應故事對比孫悟空狂傲與如來佛智慧的核心主旨。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用孫悟空被壓於山下之結局，四選項中僅此選項符合課文情節走向；「五指山」為兒童改寫本常見稱法（原典為「五行山」），無法排除此為改寫本用法，不足以判定為事實錯誤。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課主旨「謙虛才是真正的強大」，與研究總綱「謙卑價值」一致，正解無誤。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「七十二變與筋斗雲」兩項能力作為打賭自信來源（同時涵蓋變化與飛行能力），較Q2單一歸因七十二變更完整貼合課文設定，正解無誤。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用「五根柱子即如來佛手指」此一課文核心轉折細節，正解無誤。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課「齊天大聖到此一遊」題字情節推論心理狀態，正解「炫耀與自信」合理對應角色性格。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課被壓五行山情節傳達的道理，正解「謙卑與收斂」呼應研究總綱主旨設定。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "扣本課核心事實——孫悟空始終未離開如來佛掌心範圍——作為輸掉賭局關鍵，正解無誤。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 7,
+      "title": "不一樣的母親花",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 0,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "具體扣「安娜•賈維斯女士」提議訂定母親節、其母最愛康乃馨此一課文情節，非本課無法作答；answer_index=0正確對應課文『美國政府接受安娜•賈維斯女士的提議』。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣萱草『忘憂草』典故（孩子遠行種植、母親照顧花朵轉移思念），為本課特有情節；answer_index=2與課文『希望在母親憂心子女時，能透過照顧萱草減輕對孩子的思念』一致。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "具體涉及各國母親花（越南/泰國/中國/西方）之課文事實比較；answer_index=1（泰國茉莉花芳香持久、安定心情）為唯一與課文相符選項，其餘三項（越南送茉莉、萱草康乃馨開花特性相同、泰國用玫瑰花環）皆與課文矛盾。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『看起來就像帶有香氣的紅絹布』描寫康乃馨『多重的花瓣』，換課文無法作答；answer_index=0正確對應花瓣質感描寫。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句『不一樣的母親花有各自獨特的姿態，但相同的是……』；answer_index=2與課文『都有著一份真誠且溫暖的謝意』一致。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": false,
+          "reason": "answer_index=3（萱草忘憂草由來）本身正確，但explanation對錯誤選項的評述明顯錯位：『C選項誤將花環致謝與花茶混淆』實際指向的是選項B（茉莉花茶內容），而非選項C（玫瑰花期比較）；『D選項文中未提及玫瑰花期與萱草的比較』則應指向選項C而非作為正解的選項D。explanation存在事實性錯置，可能誤導學生核對答案。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用課文『清晨開出橙黃色的花，到黃昏就會凋謝』的萱草花期描寫；answer_index=3（清晨可能正綻放）與課文相符，其餘選項（西方傳入、製成香水、花期長至秋）均與課文矛盾。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": false,
+          "reason": "answer_index=3人物部分（安娜•賈維斯女士提議）正確，但選項內嵌入『因為那是康乃馨盛開的季節』一句課文從未提及、屬編造的因果說法（課文僅述政府接受提議訂定日期，未說明選定五月第二個星期天與康乃馨花期的關聯），屬於在正解選項中夾帶未經課文佐證的捏造內容。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾『真誠且溫暖的謝意』主旨句；answer_index=0（風俗不同、心意相同）與課文一致。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用泰國『將茉莉花串成花環，跪在母親面前行禮』之課文情節；answer_index=1完全對應課文原文。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "扣萱草忘憂草典故（孩子遠行種植、母親照顧減憂）；answer_index=0與課文一致。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用安娜•賈維斯提議與其母最愛康乃馨之課文情節；answer_index=0正確。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "結合課文茉莉花『安定心情』與泰國母親節習俗兩項具體資訊；answer_index=2（茉莉花）為四選項中唯一同時符合兩條件者，其餘玫瑰/康乃馨/金針花均與課文描述不符。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾主旨句『真誠且溫暖的謝意』；answer_index=2與課文一致，其餘選項（花期長被選、需濃郁香氣、統一日期）均與課文矛盾。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣全文以康乃馨/萱草/玫瑰/茉莉為例最終收束於『心意比花種重要』之主旨；answer_index=1與課文結尾一致。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用安娜•賈維斯之母最愛康乃馨的課文情節；answer_index=1正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣萱草忘憂草典故（照顧花朵轉移對子女憂慮與思念）；answer_index=3與課文一致。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用泰國『茉莉花串成花環，跪在母親面前行禮』課文情節；answer_index=3完全對應。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾主旨句；answer_index=3（各國花種不同、謝意相同）與課文一致。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "具體比較萱草（清晨開花黃昏凋謝）與玫瑰（帶刺、層層花瓣）兩項課文明確描寫；answer_index=3正確對應。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "扣安娜•賈維斯之母最愛康乃馨之課文情節；answer_index=1正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "扣萱草忘憂草典故；answer_index=0與課文『照顧萱草減輕對孩子的思念』一致。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文茉莉花『芳香持久，可製成花茶安定心情』之明確描寫；answer_index=2為四選項中唯一與課文相符者（其餘：花期短、皇室象徵、純白象徵健康皆課文未提及或錯置自萱草），雖『象徵母親的辛勞與溫柔』一語課文未明言，屬合理延伸而非與課文矛盾，仍判定為合格。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用萱草『清晨開花、黃昏凋謝』之課文描寫；answer_index=3正確，其餘選項（西方常用、香氣濃郁、帶刺）皆與課文矛盾或錯置自其他花種。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾主旨句『真誠且溫暖的謝意』；answer_index=1正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "扣萱草忘憂草典故；answer_index=1與課文一致。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "具體引用泰國跪拜獻花環之課文情節，屬合理推論（跪姿行禮象徵崇高敬意）；answer_index=0為四選項中唯一合理者，其餘選項（花期比較、單純模仿西方、母親愛喝茶）均與課文矛盾。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣安娜•賈維斯提議、政府後採納訂立節日之課文情節與先後順序；answer_index=1正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文『雖莖上帶刺，但層層花瓣飄散濃濃香氣，是許多人喜愛的花種……送給母親表達謝意』之描寫；answer_index=0與課文結構相符，其餘選項（製茶、花期最長、唯一不凋謝）均與課文矛盾或錯置自其他花種。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾句；answer_index=0與課文『真誠的謝意』一致。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 8,
+      "title": "屋頂上的野貓",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文開頭「六歲的我嚇得發抖，以為有鬼」，須讀本課才能作答，answer_index=1與課文一致。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住課文「阿珠」想像遊戲與「用想像力」的具體情節；四個選項中僅正解(idx=2)不與課文矛盾，其餘選項(媽媽不知道/鄰居貓/媽媽很忙)皆與文意衝突。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「因為牠還不明白你的愛」，answer_index=1正確反映小貓對新環境不信任的原因。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住課文「小貓走進了紙箱」「跑來腳邊撒嬌」情節，answer_index=3（信任與善意需要時間）與課文主旨一致。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文結尾「動物和人一樣都有生命，我認為牠們需要被善待」，answer_index=0正確。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "與課文開頭「嚇得發抖，以為有鬼」情節相同，answer_index=3正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住媽媽發起「猜猜貓咪說什麼」貓語遊戲之具體情節，answer_index=1（消除恐懼、引導想像）與課文一致。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「兩隻耳朵和鼻頭如煤球般黑」及命名「小煤球」，answer_index=3（細膩觀察與喜愛）合理。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「因為牠還不明白你的愛」一句，answer_index=3正確反映需要時間建立信任。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾「動物和人一樣有生命，需要被善待」主旨，answer_index=2正確。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與課文開頭「嚇得發抖，以為有鬼」情節相同，answer_index=0正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「阿珠」想像遊戲情節，answer_index=3（轉化貓叫聲恐懼、趣味互動）貼合課文脈絡（原本害怕→玩出趣味）。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「還不明白你的愛」及母貓被嚇跑的具體情節，answer_index=2（剛離開母親、對環境不信任）合理。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文「我的善意與愛心，小貓真的感受到了」，answer_index=3正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾主旨句，answer_index=1正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住課文情緒轉折「嚇得發抖以為有鬼」→「慢慢忘了害怕」「玩出了趣味」，answer_index=3正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「阿珠」想像遊戲情節，answer_index=2（放下恐懼、賦予溫暖意義）貼合課文脈絡。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": false,
+          "reason": "belongs成立（直接引用課文「如煤球般黑」句）；但match有疑慮：「耳朵和鼻頭『如』煤球『般』黑」屬「本體+喻詞(如...般)+喻體」的典型譬喻（明喻）結構，依國小國語修辭教學慣例應歸類為「譬喻法」而非「摹寫法」（摹寫法通常指不借助比喻詞、直接以感官語彙描述），選項中未提供「譬喻法」，正解idx=2判定為修辭分類錯誤。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「因為牠還不明白你的愛」及母貓被嚇跑情節，answer_index=0正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文結尾核心句「動物和人一樣都有生命...需要被善待」，answer_index=0（愛與信任需要時間、尊重生命）合理延伸。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「阿珠」情節與「用想像力」台詞，answer_index=1正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "幾乎逐字對應課文「油亮亮的灰毛，兩隻耳朵和鼻頭如煤球般黑，圓滾滾的眼珠晶亮清透」，answer_index=2為唯一完全符合原文描寫的選項。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「又哭又叫」「還不明白你的愛」情節，answer_index=2正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「跑來腳邊撒嬌」及善意主題，answer_index=3正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾「領會對生命應有的態度」語句，answer_index=0正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文「以為有鬼」，answer_index=2正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「阿珠」情節，answer_index=0正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣住「因為牠還不明白你的愛」與紙箱情節，answer_index=1正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文主旨「善待生命需要時間感受」，answer_index=0正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文命名依據「兩隻耳朵和鼻頭如煤球般黑」，answer_index=1（黑色的耳朵與黑色的鼻頭）為唯一精確對應原文的選項；檔案內殘留的blind_eval_mismatch記錄之idx編號與目前answer_index欄位不一致，但目前is_publishable標示answer_index=1正確，判定match=true。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 10,
+      "title": "想像與發明",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 1,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "具體對應課文『遠古時期，人們在龜甲、獸骨、竹片等材料上刻字』，答案選項1正確；換其他課文答不出蔡倫發明紙前的書寫材料。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『想像有時能將事物碰撞出新火花，結合出更多方便的發明。將椅子加上輪子，將紙張加上膠』，答案選項2『結合與碰撞』正確對應。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項3正確。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "手機結合多功能『化身為人們的貼身小幫手』緊接在『想像有時能將事物碰撞出新火花，結合出更多方便的發明』之後，屬同段落舉例，答案選項0『碰撞出新火花』正確呼應。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文結尾『有了想像，人們才能跳脫出原有的思考，勇於嘗試新的創造。想像是促成發明的重要關鍵』，答案選項1合理呼應。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『遠古時期…不方便攜帶及收藏。正因如此，中國古代的蔡倫，一心想像著更適合書寫的物品』，答案選項1正確。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機『加上照相機、手電筒、計算機等物品的功能』及前段『想像能將事物碰撞出新火花，結合出更多方便的發明』，答案選項0正確。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文原句『但蔡倫無法想像的，是現代人又發明出許多工具，讓「書寫」變得更容易』，答案選項0為合理引申。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文開頭句『想像是智慧的火苗，點燃人類的奇思妙想，讓許多發明因此誕生』，答案選項3『文章開頭點出想像力是發明關鍵』正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項0『發揮想像力思考並嘗試』為合理延伸。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx5同一課文情節（蔡倫因龜甲獸骨費時不便而想改良），答案選項0正確。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機加上照相機、手電筒等功能之描述，答案選項3『碰撞出新火花，結合出更多方便的發明』正確呼應同段文字。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項1正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文原句『蔡倫無法想像的，是現代人又發明出許多工具，讓「書寫」變得更容易』，答案選項0為合理引申，說明發明持續演進。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "綜合課文首尾段『滿足人類的需求』與『想像是促成發明的重要關鍵』，答案選項3正確概括全文主旨。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『不方便攜帶及收藏…一心想像著更適合書寫的物品…製作出輕薄好用的紙』，答案選項1正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『蔡倫無法想像的，是現代人又發明出許多工具』一句，答案選項3『科技進步超出古人預測，發明持續演進』為合理引申。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文『將椅子加上輪子，將紙張加上膠』作為例子，答案選項2『結合舊有事物碰撞出新火花』正確對應前句『想像有時能將事物碰撞出新火花，結合出更多方便的發明』。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文原句『它還加上照相機、手電筒、計算機等物品的功能，化身為人們的貼身小幫手』，答案選項1正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文開頭『想像是智慧的火苗，點燃人類的奇思妙想，讓許多發明因此誕生』，答案選項1正確概括其意涵。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "與idx5/idx10同一課文情節（龜甲獸骨竹片費時不便攜帶），答案選項2正確。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『蔡倫無法想像的，是現代人又發明出許多工具』，答案選項3『發明是不斷累積與進化的過程』為合理引申。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機結合照相機、手電筒等功能之敘述，答案選項2『結合功能創造貼身小幫手』正確引用原文用詞。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『想像是智慧的火苗，點燃人類的奇思妙想』，答案選項2正確解釋『火苗』比喻之意涵（點燃創造過程）。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項0正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『透過無數次的嘗試，最終利用樹皮、破布等材料，製作出輕薄好用的紙』，答案選項1正確（尋找比龜甲獸骨更輕薄適合書寫的材料）。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文手機結合照相機、手電筒等功能，答案選項0『結合不同功能創造新價值』正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項3正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "對應課文『蔡倫無法想像的，是現代人又發明出許多工具，讓「書寫」變得更容易』，答案選項2為合理引申（科技發展超越前人想像）。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "課文僅提及龜甲獸骨竹片『費時費力，且不方便攜帶及收藏』，未提及材料取得容易或無法保存，答案選項1（不是遠古困難）正確，其餘三選項均為課文明確提及的困難。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 11,
+      "title": "小事物大驚奇",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 3,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 0,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「把再平凡不過的事物縮小，透過放大鏡重新組合、安排...搭配上...微型人偶」，答案選項1正確描述此創作方式。"
+        },
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品野餐中，青花菜成了綠蔭」，答案選項2（將平凡蔬菜與生活情境做創意連結）與此段落一致，其餘選項（大自然真實景觀、蔬果道具、園藝研究）皆與課文不符。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「他喜歡收集看起來沒什麼用處的小物品，以便作為創作的材料...他相信總會有用上的時候」，答案選項3正確。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品回家裡，榻榻米成了傍晚時的田野...它們都是來自田中達也對於童年歲月的記憶」，答案選項3（童年歲月的記憶）為課文明文所述，選項1（夕陽美景觀察）雖也出現在描述中但非課文標明的來源。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾金句「如果能改變想法，並重新思考，你便可以從不同的視角中發現很多樂趣」作為錨點，答案選項0正確概括此句核心精神。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「把再平凡不過的事物縮小，透過放大鏡重新組合...搭配上...微型人偶」，答案選項0正確描述，用詞「縮小」與課文一致。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品野餐中，青花菜成了綠蔭」具體意象，答案選項0正確。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「收集看起來沒什麼用處的小物品...他相信總會有用上的時候」，答案選項0正確。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品回家裡，榻榻米成了傍晚時的田野...它們都是來自田中達也對於童年歲月的記憶」，答案選項2正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾金句「如果能改變想法，並重新思考，你便可以從不同的視角中發現很多樂趣」作為錨點，答案選項2正確對應此句。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "直接對應課文原句「在作品野餐中，青花菜成了綠蔭」的事實檢索，答案選項1（青花菜）與原文逐字相符。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「把靈光一閃的點子盡快收入筆記本裡」及「收集看起來沒什麼用處的小物品...相信總會有用上的時候」兩段，答案選項3（將平凡事物轉化為創意的敏銳度）合理概括。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "引用課文結尾金句「如果能改變想法，並重新思考...從不同視角中發現很多樂趣」，並連結課文「透過放大鏡重新組合、安排」的創作歷程，答案選項2（重新組合與安排）為課文所述具體創作階段，合理對應。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品回家裡，榻榻米成了傍晚時的田野...母親背著年幼孩子走在田間小路」，答案選項1正確；選項2（現代生活觀察）、選項4（繁忙街道）皆與課文（童年記憶、田間小路）不符，已排除。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「幻化出令人感動又貼合生活的畫面。它們都是來自田中達也對於童年歲月的記憶」，答案選項0正確連結微小事物與生活情感記憶。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「透過放大鏡重新組合、安排」，答案選項2正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品野餐中，青花菜成了綠蔭」具體意象，答案選項3（善於觀察並賦予平凡物品新意義）正確概括。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「他喜歡收集看起來沒什麼用處的小物品...相信總會有用上的時候」，答案選項0正確。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品回家裡，榻榻米成了傍晚時的田野，夕陽把大地染成一片金黃...它們都是來自田中達也對於童年歲月的記憶」，答案選項0正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾金句「如果能改變想法，並重新思考，你便可以從不同的視角中發現很多樂趣」作為錨點，答案選項3正確對應此句。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": false,
+          "reason": "扣緊課文「把再平凡不過的事物縮小」（本課具體創作手法），但標示正解選項3文字寫「將小物品放大並重新組合」，與課文用詞「縮小」相反；且本題自身explanation欄位明確寫「課文明確指出他將平凡事物縮小」，選項文字與explanation自相矛盾，屬事實錯誤，判match=false。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾金句「如果能改變想法，並重新思考...從不同視角中發現很多樂趣」作為錨點，答案選項1正確概括。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「作品野餐中，青花菜成了綠蔭...它們都是來自田中達也對於童年歲月的記憶」，其中「它們」涵蓋野餐與回家裡兩件作品，答案選項2正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「把靈光一閃的點子盡快收入筆記本裡」及「收集看起來沒什麼用處的小物品」兩段，答案選項3正確整合兩項具體做法。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文開頭「日常不起眼的小東西，在田中達也的想像和鏡頭下，化為令人驚奇的畫面，有了不同的生命」，答案選項0正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "逐字對應課文首段「五線譜音符上跨欄的運動員、五彩巧克力米麵包上攀岩的玩家」，答案選項0順序與原文一致。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「收集看起來沒什麼用處的小物品...相信總會有用上的時候」，答案選項3正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「幻化出令人感動又貼合生活的畫面」及「作品回家裡...對於童年歲月的記憶」，答案選項3正確連結感動與童年溫暖場景。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "直接引用課文結尾金句「如果能改變想法，並重新思考...從不同視角中發現很多樂趣」作為錨點，答案選項0（將習以為常的物品重新組合，賦予新意義）正確對應課文創作行為。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "扣緊課文「搭配上由他製作出的上萬個微型人偶」，答案選項3正確。"
+        }
+      ]
+    },
+    {
+      "dir": "NanYi",
+      "n": 12,
+      "title": "九蛙傳奇",
+      "blind": [
+        {
+          "idx": 0,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 1,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 2,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 3,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 4,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 5,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 6,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 7,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 8,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 9,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 10,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 11,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 12,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 13,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 14,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 15,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 16,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 17,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 18,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 19,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 20,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 21,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 22,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 23,
+          "answer_index": 1,
+          "single_answer": true
+        },
+        {
+          "idx": 24,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 25,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 26,
+          "answer_index": 0,
+          "single_answer": true
+        },
+        {
+          "idx": 27,
+          "answer_index": 2,
+          "single_answer": true
+        },
+        {
+          "idx": 28,
+          "answer_index": 3,
+          "single_answer": true
+        },
+        {
+          "idx": 29,
+          "answer_index": 2,
+          "single_answer": true
+        }
+      ],
+      "judge": [
+        {
+          "idx": 1,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「白鹿告訴蛙巫：湖裡的蛙族需要被保護，如果牠願意，就會得到千年的法力」，answer_index=3（願意守護湖裡的蛙族）與課文一致，其餘選項是後段情節（爬雕像、日光、警告天災）誤植於此，正解無誤。"
+        },
+        {
+          "idx": 2,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「牠常常判斷錯誤，不能在乾旱前先警告蛙族，導致蛙族受到天災的傷害。蛙巫很難過」，answer_index=1正確對應難過原因。"
+        },
+        {
+          "idx": 3,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「九隻水蛙相疊的雕像，最下面的一隻體型最大，越往上越小，每一隻的神態都不相同」，answer_index=2（九隻神情各異相疊）正確；其餘選項與課文描述相反或無中生有。"
+        },
+        {
+          "idx": 4,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「牠們聚集在九蛙疊像旁，千百隻水蛙相疊推著蛙巫，蛙巫終於順利的爬上頂端」，answer_index=0正確。"
+        },
+        {
+          "idx": 5,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾「每當水位過低時，蛙巫就會即時把消息散布出去，讓蛙族不會再受到天災的傷害」，answer_index=2（有永遠守護者、即時得知水位過低警訊）正確，其餘選項為過度絕對化的錯誤推論。"
+        },
+        {
+          "idx": 6,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q2同一情節（衰老導致無法警告天災而難過並找解決方法），answer_index=1正確對應課文。"
+        },
+        {
+          "idx": 7,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「彷彿知道蛙巫的心意，便決定一起幫助牠」，answer_index=0正確。"
+        },
+        {
+          "idx": 8,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「最下面的一隻體型最大，越往上越小，每一隻的神態都不相同」，answer_index=1逐字對應課文，正確。"
+        },
+        {
+          "idx": 9,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾水位過低即時散布消息的守護方式，answer_index=3正確。"
+        },
+        {
+          "idx": 10,
+          "belongs": true,
+          "match": true,
+          "reason": "反事實推論題緊扣「蛙族合力推蛙巫才順利登頂」的具體情節，answer_index=1（若無協助則無法及時登頂完成守護）為合理唯一推論，其餘選項為課文未支持的虛構結果。"
+        },
+        {
+          "idx": 11,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q1同一條件（答應白鹿守護湖裡的蛙族），answer_index=0正確。"
+        },
+        {
+          "idx": 12,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q2同一因果（無法及時保護族人免受天災），answer_index=3正確。"
+        },
+        {
+          "idx": 13,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「最下面的一隻體型最大，越往上越小」，answer_index=3逐字對應課文，正確。"
+        },
+        {
+          "idx": 14,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「彷彿知道蛙巫的心意，便決定一起幫助牠」，answer_index=0正確。"
+        },
+        {
+          "idx": 15,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾水位過低即時散布消息，answer_index=3正確。"
+        },
+        {
+          "idx": 16,
+          "belongs": true,
+          "match": true,
+          "reason": "扣九蛙疊像外觀描述（最下大、往上小、神態不同），answer_index=0正確。"
+        },
+        {
+          "idx": 17,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「牠身體衰弱、體力不好，九蛙疊像又高又滑，實在不好爬」，answer_index=1正確。"
+        },
+        {
+          "idx": 18,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「不能在乾旱前先警告蛙族，導致蛙族受到天災的傷害」，answer_index=0正確。"
+        },
+        {
+          "idx": 19,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾蛙巫化身守護神並解決水位過低預警問題，answer_index=1正確。"
+        },
+        {
+          "idx": 20,
+          "belongs": true,
+          "match": true,
+          "reason": "題幹明確指向課文具體情節「蛙族一起幫助蛙巫」，需扣該場景才能判斷主題，answer_index=0（團結合作克服困難）合理對應該情節寓意。"
+        },
+        {
+          "idx": 21,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q2/Q6/Q12同一因果，answer_index=0正確。"
+        },
+        {
+          "idx": 22,
+          "belongs": true,
+          "match": true,
+          "reason": "扣白鹿在夢中揭示「爬上頂端讓靈魂留存雕像中永遠守護蛙族」，answer_index=2（延續守護使命的關鍵轉折）正確。"
+        },
+        {
+          "idx": 23,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q7/Q14同一情節（蛙族因心意連結而協助），answer_index=1正確。"
+        },
+        {
+          "idx": 24,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「牠的靈魂進入九蛙疊像中。陽光下，蛙巫寧靜安詳的閉上眼睛」及後文「從此永遠守護著蛙族」，answer_index=1（轉化為守護神繼續陪伴）正確。"
+        },
+        {
+          "idx": 25,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾水位過低即時發出警告，answer_index=0正確。"
+        },
+        {
+          "idx": 26,
+          "belongs": true,
+          "match": true,
+          "reason": "扣「蛙巫帶著蛙族圍著仔細觀看...蛙巫看著九蛙疊像，陷入沉思」，answer_index=2正確。"
+        },
+        {
+          "idx": 27,
+          "belongs": true,
+          "match": true,
+          "reason": "與Q2同一因果，answer_index=0正確。"
+        },
+        {
+          "idx": 28,
+          "belongs": true,
+          "match": true,
+          "reason": "扣白鹿原話「如果你能爬到九蛙疊像的最頂端，讓清晨第一道日光照在身上，那你的靈魂就會留存在雕像中，永遠守護蛙族」，answer_index=2正確。"
+        },
+        {
+          "idx": 29,
+          "belongs": true,
+          "match": true,
+          "reason": "扣蛙族合力推蛙巫登頂的具體情節，answer_index=3（感念與團結）為合理推論，正確。"
+        },
+        {
+          "idx": 30,
+          "belongs": true,
+          "match": true,
+          "reason": "扣課文結尾「每當水位過低時，蛙巫就會即時把消息散布出去，讓蛙族不會再受到天災的傷害」，answer_index=2（履行守護承諾）正確。"
+        }
+      ]
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "雙盲驗證"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "blind:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a492666ab7b4f7e09",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254506,
+      "queuedAt": 1782959254491,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「棒球英雄夢」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L7_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959301634,
+      "tokens": 42443,
+      "toolCalls": 2,
+      "durationMs": 47128,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true},{\"idx\":3,\"answer_index\":2,\"single_answer\":true},{\"idx\":4,\"answer_index\":1,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":2,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "judge:HanLin_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a59a741df3f7b2868",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254515,
+      "queuedAt": 1782959254492,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「棒球英雄夢」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L7_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L7_棒球英雄夢_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《棒球英雄夢》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有道理、…",
+      "lastProgressAt": 1782959410391,
+      "tokens": 73448,
+      "toolCalls": 7,
+      "durationMs": 155876,
+      "resultPreview": "{\"judgments\":[{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"直接引用課文『祖母買了文房四寶，要我寫字，做一個有用的人』，答案『成為一個有用的人，並能練習寫字』與課文一致。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"對應課文『大孩子多半不想讓我加入，那會削弱他們的實力』及『揮棒落空，三振出局...都是你害的』，答案『實力不如大孩子、常在關鍵時刻被三振』符合課文因果。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"直接對應課文『他們一定不准我揮棒』，答案『大孩子不准他揮棒』正確。\"},{\"idx\":4,\"belongs\":true,\"match\":true,\"reason\":\"扣緊課文夢境段落『接受所有人的歡呼』，答案『獲得認…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "blind:HanLin_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a16b4c9ac86282f2e",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254523,
+      "queuedAt": 1782959254522,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「夢幻全壘打」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L8_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959406762,
+      "tokens": 42658,
+      "toolCalls": 2,
+      "durationMs": 152239,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":0,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":false},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":1,\"single_answer\":false},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":1,\"single_answer\":true},{\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "judge:HanLin_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a9487ad71872f8dae",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254523,
+      "queuedAt": 1782959254522,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「夢幻全壘打」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L8_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L8_夢幻全壘打_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L8_夢幻全壘打_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《夢幻全壘打》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有道理、…",
+      "lastProgressAt": 1782959694448,
+      "tokens": 53431,
+      "toolCalls": 7,
+      "durationMs": 439925,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"直接扣文本「目前比數是一比三」與教練指示「要想辦法被球打到，造成滿壘」，answer_index=3與課文逐字對應，其餘選項比數/指示皆與原文不符。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"錨定「投手就要投出，祖母愈跑愈近，時間不多」的具體情節，推論主角因祖母逼近而慌忙揮棒，answer_index=0（緊張焦慮想盡快應付祖母）合理對應此段因果，其餘選項（教練暗號/展現英雄氣概/球技自信）均與文本矛盾。\"},{\"idx\":2,\"belongs\":true,\"match\":false,\"reason\":\"錨定課文「彷彿她也正準備擊出一支全壘打」一句，但標示正解answer_index=3（轉化）本身矛盾：選項用「像…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "blind:HanLin_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a4ce6b2b118e97cb3",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254529,
+      "queuedAt": 1782959254528,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「單車遊日月潭」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L9_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959404596,
+      "tokens": 41715,
+      "toolCalls": 2,
+      "durationMs": 150067,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true},{\"idx\":3,\"answer_index\":1,\"single_answer\":true},{\"idx\":4,\"answer_index\":0,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":2,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "judge:HanLin_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a666c4a0fd8a14347",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959254529,
+      "queuedAt": 1782959254528,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「單車遊日月潭」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L9_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L9_單車遊日月潭_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L9_單車遊日月潭_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《單車遊日月潭》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似…",
+      "lastProgressAt": 1782959547395,
+      "tokens": 80502,
+      "toolCalls": 7,
+      "durationMs": 292866,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"具體對應課文『朝霧散去之後，騎單車最舒服，可以見到金黃亮麗的日出，從山頭緩緩升起』。answer_index=1『看見金黃亮麗的日出』為課文明確描述，非泛用情境。已由人工複審確認 blind_eval_mismatch 為盲測情境錯置所致，非題目本身錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"對應課文『如果在秋冬時節造訪，正是落羽松最美的時候，滿樹的紅黃錯落，令人賞心悅目』。answer_index=1『紅黃錯落的落羽松』與課文完全吻合，換課文無法作答。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"對應課文『許多人會停留在木棧道上，遠望水社大山，捕捉日月潭…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "blind:HanLin_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "ad97da06f7bdaa137",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959301635,
+      "queuedAt": 1782959254533,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「孫悟空三借芭蕉扇」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L10_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959556644,
+      "tokens": 43596,
+      "toolCalls": 3,
+      "durationMs": 255009,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":3,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "judge:HanLin_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a2fc4679592d69f81",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959404597,
+      "queuedAt": 1782959254533,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「孫悟空三借芭蕉扇」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L10_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L10_孫悟空三借芭蕉扇_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L10_孫悟空三借芭蕉扇_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《孫悟空三借芭蕉扇》這篇課文就能答對」的題，一律 belongs=fal…",
+      "lastProgressAt": 1782959891010,
+      "tokens": 78976,
+      "toolCalls": 8,
+      "durationMs": 486412,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"扣緊第一幕悟空介紹芭蕉扇「一搧熄火，二搧生風，三搧可下雨」，答案順序與課文完全一致。stem寫「好奇」與課文「（懷疑）」用詞不精準，但不影響選項正確性，屬輕微瑕疵非致命錯誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊第二幕公主台詞「你卻害我，不能跟我的寶貝兒子紅孩兒相見」，答案與課文完全吻合。\"},{\"idx\":2,\"belongs\":true,\"match\":false,\"reason\":\"題幹稱『成功讓鐵扇公主交出真扇』，但第四幕旁白明確寫『孫悟空發現拿到的扇子竟然是假的』——第三幕變小蟲進肚子取得的其實是假扇，與『真扇』的題幹陳述直接矛盾，屬事實錯誤。\"},{\"idx\":3,\"belongs\":true…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "blind:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "ac916339487e345ea",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959406763,
+      "queuedAt": 1782959254533,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「最後一片葉子」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L11_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959609047,
+      "tokens": 42806,
+      "toolCalls": 2,
+      "durationMs": 202284,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":3,\"single_answer\":true},{\"idx\":5,\"answer_index\":1,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":1,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "judge:HanLin_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "ae4ca8328c2d3b930",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959410392,
+      "queuedAt": 1782959254533,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「最後一片葉子」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L11_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L11_最後一片葉子_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《最後一片葉子》這篇課文就能答對」的題，一律 belongs=false**（即使題…",
+      "lastProgressAt": 1782959739900,
+      "tokens": 85246,
+      "toolCalls": 7,
+      "durationMs": 329508,
+      "resultPreview": "{\"judgments\":[{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣本課喬安將自身生命與常春藤葉子連結的核心情節；正解「將生命力與葉子連結產生消極聯想」對應課文『當最後一片葉子掉下來的時候，我的生命也將結束了』的心理投射，與其他明顯錯誤選項（醫生宣判、老畫家預言）區隔清楚。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"扣本課老畫家聽聞喬安病情後決定作畫救人的關鍵轉折；正解對應課文『臉上出現少見的光彩，他暗自做了一個重大的決定：我會讓那片葉子留下來』。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"扣本課喬安看到葉子後臉色轉佳的情節；正解（視為奇蹟、有機會戰勝肺炎）為排除法下唯一合理選項，其餘選項（天氣好轉、老畫家微笑、蘇西貼上）均…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "blind:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a87a12cfef30ee94b",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959547396,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「閱讀課」(翰林版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_HanLin/L12_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959608509,
+      "tokens": 43925,
+      "toolCalls": 3,
+      "durationMs": 61112,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":0,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "judge:HanLin_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a536ba05493b131cd",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959556645,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「閱讀課」(翰林版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_HanLin/L12_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/翰林/KL4_四下_翰林_L12_閱讀課_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《閱讀課》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有道理、選項合理、…",
+      "lastProgressAt": 1782959768382,
+      "tokens": 75390,
+      "toolCalls": 7,
+      "durationMs": 211737,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"秀秀「轉學後得到大家的幫助…也很想幫助別人」為課文原句，answer_index=3正確對應。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊壘安心得「雖然我的力量很小，但助人的心，卻能給人帶來無比的溫暖」與借橡皮擦情節，answer_index=3合理。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"「退後即是向前」為拔一條河（本課愛閱讀二）教練原句，選項0正確呼應「每向後退一步，就會離勝利更進一步」。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"「用牆壁取代拔河機，用木板取代拔河道」為課文逐字引用，answ…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "blind:KangHsuan_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a185406adc7d3bd4c",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959608510,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「未來的模樣」(康軒版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L7_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959773580,
+      "tokens": 42146,
+      "toolCalls": 2,
+      "durationMs": 165070,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":0,\"single_answer\":true},{\"idx\":3,\"answer_index\":2,\"single_answer\":true},{\"idx\":4,\"answer_index\":3,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":1,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "judge:KangHsuan_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "ad58ed258ea82acaf",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959609048,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「未來的模樣」(康軒版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_KangHsuan/L7_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L7_未來的模樣_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L7_未來的模樣_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《未來的模樣》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有…",
+      "lastProgressAt": 1782959724813,
+      "tokens": 60192,
+      "toolCalls": 8,
+      "durationMs": 115765,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"扣緊課文開頭「我想問問星星，我想問問微風，誰能告訴我，未來還有多遠？未來是什麼模樣？」，answer_index=2「對未來充滿好奇與期待」符合抒情探問語氣，非天文觀察或逃避，正解無誤。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊「敲一敲鍵盤，禮物就從光速機裡跳出來，把心意直接送到好友面前」，answer_index=1「透過光速機傳送實體禮物」與課文吻合。注意explanation文字殘留「選項A」舊版標籤（改編前的選項序），與現在shuffle後的選項編號不一致，屬用詞瑕疵，但不影響answer_index本身正確性。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reas…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "blind:KangHsuan_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a0520cca20ec5a499",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959694449,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「動物老師的智慧」(康軒版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L8_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959953259,
+      "tokens": 54097,
+      "toolCalls": 3,
+      "durationMs": 258809,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":2,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":1,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "judge:KangHsuan_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "abb79c311bd06be8a",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959724815,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「動物老師的智慧」(康軒版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_KangHsuan/L8_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L8_動物老師的智慧_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L8_動物老師的智慧_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《動物老師的智慧》這篇課文就能答對」的題，一律 belongs=false**…",
+      "lastProgressAt": 1782959902736,
+      "tokens": 67209,
+      "toolCalls": 7,
+      "durationMs": 177921,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"直接對應課文首段「因為人類越來越了解動物個個是厲害角色，所以開設了這所學校」，answer_index=2正確。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"對應課文「感謝我得天獨厚的蛙蹼——後腳腳趾間那一層薄薄的皮膜」，answer_index=2正確。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"對應課文「每根腳趾有上萬根細毛，這些細毛與接觸面產生了吸附力」，answer_index=2正確。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"對應課文「這種不用膠的『膠帶』天然環保……能夠隨貼隨掛」，「隨貼隨掛」…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "blind:KangHsuan_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a20ec17daa738c3cf",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959739901,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「向太空出發」(康軒版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L9_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959790934,
+      "tokens": 42596,
+      "toolCalls": 2,
+      "durationMs": 51033,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":3,\"single_answer\":true},{\"idx\":2,\"answer_index\":1,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "judge:KangHsuan_L9",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a8e4554094f44f3fc",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959768384,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「向太空出發」(康軒版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_KangHsuan/L9_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L9_向太空出發_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L9_向太空出發_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《向太空出發》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有…",
+      "lastProgressAt": 1782959951968,
+      "tokens": 66205,
+      "toolCalls": 7,
+      "durationMs": 183583,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"引用課文第3段「月球看起來又大又圓，它也離地球最近」，answer_index=2對應選項C與課文一致，其餘選項（環境相似/傳說/科技限制）均為課文未提及之編造。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"直接引用課文阿姆斯壯名言「這是我的一小步，卻是人類的一大步」，answer_index=3對應選項與explanation一致。註：物件中混有一個誤植鍵名「こそ」重複explanation內容，屬欄位雜訊，未影響題幹/選項/正解本身。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"引用課文第5段太空探索公司研發飛行器載更多旅客之敘述，answer_index=1…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "blind:KangHsuan_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a76868156afa3f20c",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959773581,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「如來佛的手掌心」(康軒版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_KangHsuan/L12_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959867751,
+      "tokens": 43290,
+      "toolCalls": 2,
+      "durationMs": 94170,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":2,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":2,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":3,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":2,\"single_answer\":true},{\"idx\":7,\"answer_index\":0,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "judge:KangHsuan_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a948dbe3925774a31",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959790936,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「如來佛的手掌心」(康軒版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_KangHsuan/L12_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L12_如來佛的手掌心_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/康軒/KL4_四下_康軒_L12_如來佛的手掌心_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《如來佛的手掌心》這篇課文就能答對」的題，一律 belongs=fals…",
+      "lastProgressAt": 1782960003796,
+      "tokens": 62848,
+      "toolCalls": 8,
+      "durationMs": 212860,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"具體扣本課「天不怕、地不怕」孫悟空性格設定（研究紀錄RC-01明載），正解與課文一致，非泛用美德情境。\"},{\"idx\":1,\"belongs\":true,\"match\":false,\"reason\":\"題目具體扣本課孫悟空與如來佛打賭情節，belongs成立；但正解「因為他擁有七十二變的法術」把「舞台無人能及」的自信歸因於七十二變（變身能力），與原典孫悟空真正的自信依據——筋斗雲一跳十萬八千里的飛行距離——不同機制，explanation欄自己也要補「筋斗雲速度極快」才圓得通，顯示選項文字與正解邏輯不完全對應，屬可能的事實錯置（🟡推論，未見RC-01全文佐證，中等信心）。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "blind:NanYi_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a7c672524e430201b",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959867752,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「不一樣的母親花」(南一版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L7_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782959979276,
+      "tokens": 43342,
+      "toolCalls": 2,
+      "durationMs": 111522,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":0,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":1,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":3,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "judge:NanYi_L7",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "ae24906473b4e107b",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959891011,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「不一樣的母親花」(南一版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_NanYi/L7_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L7_不一樣的母親花_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L7_不一樣的母親花_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《不一樣的母親花》這篇課文就能答對」的題，一律 belongs=false**（即使題…",
+      "lastProgressAt": 1782960130749,
+      "tokens": 62943,
+      "toolCalls": 7,
+      "durationMs": 239738,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"具體扣「安娜•賈維斯女士」提議訂定母親節、其母最愛康乃馨此一課文情節，非本課無法作答；answer_index=0正確對應課文『美國政府接受安娜•賈維斯女士的提議』。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣萱草『忘憂草』典故（孩子遠行種植、母親照顧花朵轉移思念），為本課特有情節；answer_index=2與課文『希望在母親憂心子女時，能透過照顧萱草減輕對孩子的思念』一致。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"具體涉及各國母親花（越南/泰國/中國/西方）之課文事實比較；answer_index=1（泰國茉莉花芳香持久、安定心情）為唯一與課文相符選項…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "blind:NanYi_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a14658b1934b7aa7d",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959902737,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「屋頂上的野貓」(南一版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L8_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782960003821,
+      "tokens": 47046,
+      "toolCalls": 8,
+      "durationMs": 101084,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":1,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":0,\"single_answer\":true},{\"idx\":5,\"answer_index\":3,\"single_answer\":true},{\"idx\":6,\"answer_index\":1,\"single_answer\":true},{\"idx\":7,\"answer_index\":3,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "judge:NanYi_L8",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a5b4e3c73a9025d0d",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959951969,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「屋頂上的野貓」(南一版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_NanYi/L8_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L8_屋頂上的野貓_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L8_屋頂上的野貓_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《屋頂上的野貓》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有…",
+      "lastProgressAt": 1782960119733,
+      "tokens": 76489,
+      "toolCalls": 8,
+      "durationMs": 167764,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"直接對應課文開頭「六歲的我嚇得發抖，以為有鬼」，須讀本課才能作答，answer_index=1與課文一致。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣住課文「阿珠」想像遊戲與「用想像力」的具體情節；四個選項中僅正解(idx=2)不與課文矛盾，其餘選項(媽媽不知道/鄰居貓/媽媽很忙)皆與文意衝突。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"直接引用課文「因為牠還不明白你的愛」，answer_index=1正確反映小貓對新環境不信任的原因。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"扣住課文「小貓走進了紙箱…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "blind:NanYi_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a883ac6067682d8f1",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959953260,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「想像與發明」(南一版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L10_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782960040574,
+      "tokens": 55077,
+      "toolCalls": 3,
+      "durationMs": 87314,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":1,\"single_answer\":true},{\"idx\":5,\"answer_index\":1,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":0,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "judge:NanYi_L10",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a85b070359ac06a81",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782959979277,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「想像與發明」(南一版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_NanYi/L10_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L10_想像與發明_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L10_想像與發明_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《想像與發明》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有道…",
+      "lastProgressAt": 1782960098813,
+      "tokens": 64136,
+      "toolCalls": 8,
+      "durationMs": 119535,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"具體對應課文『遠古時期，人們在龜甲、獸骨、竹片等材料上刻字』，答案選項1正確；換其他課文答不出蔡倫發明紙前的書寫材料。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"直接引用課文『想像有時能將事物碰撞出新火花，結合出更多方便的發明。將椅子加上輪子，將紙張加上膠』，答案選項2『結合與碰撞』正確對應。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"對應課文『當生活中出現困境或需求時，想像讓人們不斷思考、發明，試著解決問題』，答案選項3正確。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"手機結合多功能『化身為人們的貼身小…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "blind:NanYi_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "affade4aa09889623",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960003798,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「小事物大驚奇」(南一版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L11_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782960068596,
+      "tokens": 43004,
+      "toolCalls": 3,
+      "durationMs": 64798,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":1,\"single_answer\":true},{\"idx\":1,\"answer_index\":2,\"single_answer\":true},{\"idx\":2,\"answer_index\":3,\"single_answer\":true},{\"idx\":3,\"answer_index\":3,\"single_answer\":true},{\"idx\":4,\"answer_index\":0,\"single_answer\":true},{\"idx\":5,\"answer_index\":0,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":0,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "judge:NanYi_L11",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a1c1c47a200586a91",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960003822,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「小事物大驚奇」(南一版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_NanYi/L11_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L11_小事物大驚奇_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L11_小事物大驚奇_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《小事物大驚奇》這篇課文就能答對」的題，一律 belongs=false**（即使題目…",
+      "lastProgressAt": 1782960241103,
+      "tokens": 51895,
+      "toolCalls": 5,
+      "durationMs": 237280,
+      "resultPreview": "{\"judgments\":[{\"idx\":0,\"belongs\":true,\"match\":true,\"reason\":\"扣緊課文「把再平凡不過的事物縮小，透過放大鏡重新組合、安排...搭配上...微型人偶」，答案選項1正確描述此創作方式。\"},{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣緊課文「作品野餐中，青花菜成了綠蔭」，答案選項2（將平凡蔬菜與生活情境做創意連結）與此段落一致，其餘選項（大自然真實景觀、蔬果道具、園藝研究）皆與課文不符。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"扣緊課文「他喜歡收集看起來沒什麼用處的小物品，以便作為創作的材料...他相信總會有用上的時候」，答案選項3正確。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reas…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "blind:NanYi_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a9276b0de87ee8c39",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960040576,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科專家,盲測作答「九蛙傳奇」(南一版)的題目。\n讀取(無標示答案)：jobs/_goal-work/G4_CHI_NanYi/L12_blind.json,共30題(idx 0~29)。\n每題：①判最合理正解(0-based) ②single_answer:是否恰好唯一明確正解。\n回傳結構化結果,涵蓋全30題。",
+      "lastProgressAt": 1782960156028,
+      "tokens": 44607,
+      "toolCalls": 3,
+      "durationMs": 115452,
+      "resultPreview": "{\"answers\":[{\"idx\":0,\"answer_index\":3,\"single_answer\":true},{\"idx\":1,\"answer_index\":1,\"single_answer\":true},{\"idx\":2,\"answer_index\":2,\"single_answer\":true},{\"idx\":3,\"answer_index\":0,\"single_answer\":true},{\"idx\":4,\"answer_index\":2,\"single_answer\":true},{\"idx\":5,\"answer_index\":1,\"single_answer\":true},{\"idx\":6,\"answer_index\":0,\"single_answer\":true},{\"idx\":7,\"answer_index\":1,\"single_answer\":true},{\"id…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "judge:NanYi_L12",
+      "phaseIndex": 1,
+      "phaseTitle": "雙盲驗證",
+      "agentId": "a742551d060443eae",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1782960068597,
+      "queuedAt": 1782959254534,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "你是國小四年級國語科課程審查官,審查「九蛙傳奇」(南一版)題目是否真正扣緊本課課文。\n\n讀取：\n- 完整題(含標示正解) jobs/_goal-work/G4_CHI_NanYi/L12_shuffled.json\n- 本課單課研究紀錄(含課文全文錄製RC-01) knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L12_九蛙傳奇_單課研究紀錄.md\n- 本課考古題與討論 knowledge/1_課綱研究/國語/四下/南一/KL4_四下_南一_L12_九蛙傳奇_考古題與討論.md\n\n【國語專用嚴格判準——課文是必要錨點,不是三選一】\nbelongs=true 的唯一條件：題目具體引用本課課文的情節/人物/意象/字詞/主題，換成別課課文就答不出來或不合理。\n**「學生不必讀《九蛙傳奇》這篇課文就能答對」的題，一律 belongs=false**（即使題目看似有道理、選項…",
+      "lastProgressAt": 1782960190363,
+      "tokens": 54051,
+      "toolCalls": 8,
+      "durationMs": 121766,
+      "resultPreview": "{\"judgments\":[{\"idx\":1,\"belongs\":true,\"match\":true,\"reason\":\"扣「白鹿告訴蛙巫：湖裡的蛙族需要被保護，如果牠願意，就會得到千年的法力」，answer_index=3（願意守護湖裡的蛙族）與課文一致，其餘選項是後段情節（爬雕像、日光、警告天災）誤植於此，正解無誤。\"},{\"idx\":2,\"belongs\":true,\"match\":true,\"reason\":\"扣「牠常常判斷錯誤，不能在乾旱前先警告蛙族，導致蛙族受到天災的傷害。蛙巫很難過」，answer_index=1正確對應難過原因。\"},{\"idx\":3,\"belongs\":true,\"match\":true,\"reason\":\"扣「九隻水蛙相疊的雕像，最下面的一隻體型最大，越往上越小，每一隻的神態都不相同」，answer_index=2（九隻神情各異相疊）正確；其餘選項與課文…"
+    }
+  ],
+  "totalTokens": 1685309,
+  "totalToolCalls": 151
+}

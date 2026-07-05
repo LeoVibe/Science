@@ -1,0 +1,164 @@
+{
+  "subj": "CHI",
+  "d": "KangHsuan",
+  "n": 12,
+  "key": "CHI_KangHsuan_L12",
+  "blind": [
+    {
+      "idx": 2,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 3,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 10,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 12,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 13,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 15,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 17,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 20,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 21,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 26,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 27,
+      "answer_index": 0,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 2,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹直接扣「如來佛的手掌心」此課標題的比喻義，答案『無論怎麼努力，都在對方的掌握之中』對應課文主旨；換別課無此標題無法作答。誘答改寫後仍保留原意不變（原opt1/2/3改寫為更長句式），answer_index=0正確對應改寫後第0項，無選項變成也正確。"
+    },
+    {
+      "idx": 3,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹點名「孫悟空被如來佛收服的過程」，答案『外表強大的人也可能會有挫敗的時候』緊扣本課情節寓意，非通用道理題。比對rebalance_in原始版，四個選項僅換句式與順序，answer_index=3正確對應改寫後第3項（原文字未變），無誘答變正解。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹「孫悟空為什麼會被如來佛祖收服」直接考課文情節（翻觔斗未飛出手掌心），為本課專屬事件。四個選項對照rebalance_in原稿僅重排並略加修飾字（如「重重包圍夾攻」），語意未變，answer_index=3正確對應改寫後排序，無選項語意反轉。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹「如果孫悟空在比賽前能多想一想」緊扣本課孫悟空與如來佛打賭的具體情節，須讀過本課才能判斷何為更謹慎的作法。四選項對照原稿僅重排＋修飾詞（如「深不可測」保留），answer_index=3正確對應，無誘答變正解。"
+    },
+    {
+      "idx": 10,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹「他為什麼敢挑戰如來佛」對應課文孫悟空自負性格的具體描寫（天不怕地不怕），非泛用性格題。對照原稿四選項僅重排＋補綴語（如「慫恿」），answer_index=1正確對應改寫後第1項，語意與原意一致。"
+    },
+    {
+      "idx": 12,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考課文情節細節（五根柱子留下記號），為本課專屬橋段，換別課無法作答。對照原稿四選項僅重排＋修飾（如「巍峨」「祥雲」），answer_index=1正確對應改寫後第1項，正解文字與原稿完全一致，無失真。"
+    },
+    {
+      "idx": 13,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考孫悟空自認優勢，答案指向「十萬八千里觔斗雲」，是本課打賭情節的具體依據，換別課無此設定。四選項對照原稿僅重排＋修飾詞（如「視線」「仙術」），answer_index=3正確對應改寫後第3項，語意未變。"
+    },
+    {
+      "idx": 15,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考孫悟空看到指上字跡後的反應，緊扣課文轉折橋段。四選項對照原稿僅重排＋修飾（如「沮喪」），answer_index=1正確對應改寫後第1項『他意識到自己的渺小與佛法的無邊』，語意精準未失真。"
+    },
+    {
+      "idx": 17,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹明言「文中描述如來佛對孫悟空的態度」，須依課文語氣判讀，非通用性格題。四選項對照原稿僅重排＋修飾（如「一味」「一心」），answer_index=1正確對應改寫後第1項『寬容但帶著警示』，無誘答變正解。"
+    },
+    {
+      "idx": 20,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考課文核心轉折（發現未離開手掌心之意義），為本課專屬主旨題，須讀過課文才能判斷象徵意涵而非字面。四選項對照原稿僅重排＋修飾（如「終究」），answer_index=1正確對應改寫後第1項，語意與原意一致。"
+    },
+    {
+      "idx": 21,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考孫悟空最終下場（壓在山下），為本課專屬結局情節。四選項對照原稿僅重排＋修飾（如「荒涼」），answer_index=1正確對應改寫後第1項『被如來佛施法壓在五指山下』；『五指山』用語與本課『手掌心』標題意象一致，屬教材改編版本用詞，非事實錯誤。"
+    },
+    {
+      "idx": 24,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹直接引用課文具體意象「五根肉紅色的柱子，撐著一股青氣」，要求解讀其暗示，為本課專屬細節，換別課完全無法作答。四選項對照原稿僅重排＋修飾（如「一時」「特別」），answer_index=1正確對應改寫後第1項，語意精準無失真。"
+    },
+    {
+      "idx": 26,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考孫悟空被壓五行（指）山下情節安排的寓意，緊扣課文謙卑主旨，非泛用道德題。四選項對照原稿僅重排＋修飾（如「蒙混過關矇騙」），answer_index=2正確對應改寫後第2項『若不懂得謙卑與收斂，終究會遭遇挫折』，語意與原意一致。"
+    },
+    {
+      "idx": 27,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹考孫悟空輸掉賭局的關鍵原因，直接對應課文核心情節（始終未離開手掌心），為本課專屬。四選項對照原稿僅重排＋修飾（如「懇切」「題字留念」），answer_index=0正確對應改寫後第0項，正解文字與原稿一致，無誘答變正解。"
+    }
+  ]
+}
