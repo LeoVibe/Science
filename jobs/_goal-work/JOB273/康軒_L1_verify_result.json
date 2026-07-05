@@ -1,0 +1,339 @@
+{
+  "key": "康軒_L1",
+  "pn": "康軒",
+  "n": 1,
+  "blind": [
+    {
+      "idx": 0,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 1,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 2,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 3,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 5,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 6,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 7,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 1,
+      "single_answer": false
+    },
+    {
+      "idx": 9,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 10,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 11,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 12,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 13,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 14,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 15,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 16,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 17,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 18,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 19,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 20,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 21,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 22,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 23,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 25,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 26,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 27,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 28,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 29,
+      "answer_index": 1,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 0,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確列出「頭髮亂了懶得梳、臉上髒了懶得洗、衣服臭了懶得換」三項，才能判斷「鞋子破了懶得換新」是唯一未提及者；四選項皆負面描述無法憑情感色彩猜答；answer_index=2對應「鞋子破了懶得換新」與RC-01一致（explanation內「故答案為A」為shuffle殘留字母標示，不影響answer_index正確性）。"
+    },
+    {
+      "idx": 1,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文只寫花「顏色雪白，生意盎然，散發一股清香」三項特徵，才能挑出課文未提的「花瓣層層疊疊」；四選項皆為正向敘述無法憑情感色彩猜中。"
+    },
+    {
+      "idx": 2,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文順序（接花後先「覺得眼前一亮」，之後才找花瓶、後段才打掃庭院），才能排除時序錯置的其餘三項；正解逐字對應課文。"
+    },
+    {
+      "idx": 3,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確寫他想起「放置已久的花瓶」，才能與後段才出現的「杯盤」等課文未提干擾項（紙箱、水桶）區分。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確因「花瓶太髒」而先洗乾淨，其餘情境（太小/有裂痕/太重）課文均未提，須讀課文才能排除。"
+    },
+    {
+      "idx": 5,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確寫桌上「還堆滿了杯盤」，其餘三項（衣物/雜草/報紙）課文未提及。"
+    },
+    {
+      "idx": 6,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確順序（桌子收拾好之後才環顧四周發現雜物，鏡中自己、庭院雜草屬後續情節），才能正確排序作答。"
+    },
+    {
+      "idx": 7,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文寫庭院「雜草叢生」，其餘人物（朋友、鄰居）課文中未出現於此情境。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文僅籠統寫「拿起打掃器具清理」，未具體到剪刀或整盆搬走，須讀課文避免過度腦補工具細節。"
+    },
+    {
+      "idx": 9,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文明確寫「心中無比舒暢」，「得意洋洋」與「舒暢」皆帶正向色彩，非單一正向詞可猜中，需讀課文確認具體情緒描述。"
+    },
+    {
+      "idx": 10,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文順序（看見鏡中自己後才梳洗打扮，庭院整理已在此之前完成），正解逐字對應課文「好好的梳洗、打扮自己」。"
+    },
+    {
+      "idx": 11,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文結尾明確寫「以全新的自己來迎接每一天」，其餘選項（鮮花/花瓶/朋友）為前文物件的干擾項。"
+    },
+    {
+      "idx": 12,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文原句「覺得花瓶太髒了，和這束鮮花不相配」才能確認原因是「太髒」而非顏色不搭或朋友交代；四選項語意各自獨立不重疊。"
+    },
+    {
+      "idx": 13,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文「放上鮮花實在很不調和」才能確認整理桌子的原因是鮮花與髒桌面的對比，而非邀客、杯盤發臭等課文未提的理由。"
+    },
+    {
+      "idx": 14,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文「和桌上的鮮花形成強烈的對比」才知清掃室內的原因，其餘選項（邀鄰居/修窗戶/朋友要求）課文均未提及。"
+    },
+    {
+      "idx": 15,
+      "belongs": true,
+      "match": true,
+      "reason": "需精確記得課文事件順序（室內整理好→走近窗口→看見雜草叢生→清理庭院），四選項皆為課文中真實發生但先後不同的事件組合，能有效測試序列理解，非可憑常識猜中。"
+    },
+    {
+      "idx": 16,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文「看見鏡中的自己，和潔白的鮮花、整潔的環境很不搭調」才能推知不搭調原因是自己儀容未變，而非鏡子髒或衣服不合身。"
+    },
+    {
+      "idx": 17,
+      "belongs": false,
+      "match": true,
+      "reason": "題幹已直接敘述「先整理花瓶、桌子、室內，再到庭院，最後才整理自己」的順序，正解「先處理環境最後才想到自己」只是複述題幹本身給出的排列，其餘三個選項（自己一直比環境重要/隨機無原因/一開始就打算打扮自己）皆與題幹明示的順序邏輯自相矛盾，學生不必讀課文、僅憑題幹敘述與基本邏輯即可刪去錯項作答。"
+    },
+    {
+      "idx": 18,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文中「覺得美極了」之後緊接「想起了…花瓶」的後續情節，才能判斷此句是鋪陳後續整理行動的關鍵句，而非單純寫景，需讀課文才能排除「與後面情節無關」等選項。"
+    },
+    {
+      "idx": 19,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文時序（此時他尚未想到花瓶、尚未開始整理），才能排除「對花瓶位置苦惱」「對整理期待」等時序錯置選項；「驚喜」與「期待」皆屬正向詞，非單一正向詞可猜中。"
+    },
+    {
+      "idx": 20,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文中每個整理行動皆源自「與鮮花不相配/不調和/不搭調」的心理連結，才能確認鮮花美感是貫穿全部行動的共同動力，而非朋友要求、省錢、迎客等課文未提的理由。"
+    },
+    {
+      "idx": 21,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文反覆以雜亂描寫（灰塵杯盤、雜物、雜草）對照鮮花的潔淨（不相配/不調和/形成對比）的寫作手法，才能判斷用意是凸顯需整理的對照設計，而非單純場景介紹或衛生教育。"
+    },
+    {
+      "idx": 22,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文「鬆了一口氣」一詞判斷此為完成辛苦整理後的放鬆感，而非得意自誇；正解與選項D「做得很棒」皆偏正向，需讀課文避免混淆語意層次。"
+    },
+    {
+      "idx": 23,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文開頭明確寫他原本「懶惰」，才能排除「他一直都很勤勞」選項，並掌握從被動欣賞鮮花到主動整理環境的情緒轉變脈絡。"
+    },
+    {
+      "idx": 24,
+      "belongs": false,
+      "match": true,
+      "reason": "其餘三個選項（送禮越貴越好/花瓶越乾淨房子越大/收禮要立刻回禮）與故事情節缺乏合理連結、明顯不合常理，學生毋須讀本課課文，僅憑一般語意常識刪去荒謬選項即可選出「整理環境帶動內心轉變」，未真正測到本課課文的具體內容。"
+    },
+    {
+      "idx": 25,
+      "belongs": false,
+      "match": true,
+      "reason": "題幹已明確列出「花瓶、桌子、室內、庭院、自己」的排列順序，正解「讓改變範圍由小逐步擴大」只是對題幹所給順序的重述與常識歸納，學生不必讀課文即可由題幹本身的排列推出答案。"
+    },
+    {
+      "idx": 26,
+      "belongs": true,
+      "match": true,
+      "reason": "該句同時提及「自己」與「生活環境」，需知課文從花瓶、桌子到庭院的環境整理與最後梳洗自己的雙軌轉變情節，才能確認此句是總結全文轉變，而非單純閒話或向朋友抱怨。"
+    },
+    {
+      "idx": 27,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文中「花瓶太髒才洗、桌面不調和才整理、雜物對比才清掃室內、雜草不滿才整理庭院、鏡中不搭調才梳洗自己」層層相扣的因果鏈，才能判斷調換順序會破壞邏輯，非泛用常識即可判斷。"
+    },
+    {
+      "idx": 28,
+      "belongs": true,
+      "match": true,
+      "reason": "正解「會失去外在美帶動內在改變的動機」直接對應本課研究總綱標註的核心主題（外在美驅動內在秩序感），需掌握課文中鮮花作為引發整理鏈起點的具體角色，才能判斷拿掉鮮花會使動機失去依據，非泛用敘事常識可猜中。"
+    },
+    {
+      "idx": 29,
+      "belongs": true,
+      "match": true,
+      "reason": "需知課文具體情節（接花→整理花瓶桌子室內庭院→梳洗自己→自言自語迎接全新的自己）才能確認鮮花的影響是「促成一連串改變決心迎新生活」，而非單純裝飾或使人討厭家中環境。"
+    }
+  ]
+}

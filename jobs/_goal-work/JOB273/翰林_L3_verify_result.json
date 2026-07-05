@@ -1,0 +1,339 @@
+{
+  "key": "翰林_L3",
+  "pn": "翰林",
+  "n": 3,
+  "blind": [
+    {
+      "idx": 0,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 1,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 2,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 3,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 5,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 6,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 7,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 9,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 10,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 11,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 12,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 13,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 14,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 15,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 16,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 17,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 18,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 19,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 20,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 21,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 22,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 23,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 25,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 26,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 27,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 28,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 29,
+      "answer_index": 0,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 0,
+      "belongs": true,
+      "match": true,
+      "reason": "具體引用課文開頭「傍晚橘黃色的夕陽穿過樹洞的縫隙」的時間線索，需讀課文才能定位；四選項為不同時段，無語意重疊，正解與課文相符。"
+    },
+    {
+      "idx": 1,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「哥哥起床啦，我肚子餓了」具體台詞，需課文才知原因為何；選項各自獨立、非情感色彩猜測題，正解相符。"
+    },
+    {
+      "idx": 2,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體記得課文「我愛吃小田鼠或青蛙，哥哥喜歡魚或是鴿子」並判斷敘事者「我」為妹妹，換課文無法作答；正解與課文相符，選項互斥。"
+    },
+    {
+      "idx": 3,
+      "belongs": false,
+      "match": true,
+      "reason": "題幹已直接告知「哥哥鑽出樹洞時動作敏捷」這一課文事實，實際考點僅為「敏捷」一詞的通用字義（快速靈活），學生不必讀本課課文、憑一般詞彙知識即可作答，屬於换课文照样可考的题型；但作為單純詞義題本身選項對應正確，故match=true。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "需記得課文「經過竹林，穿過田野，路過農舍」的具體順序，換課文無法作答；正解與課文順序相符，四選項排列各異。"
+    },
+    {
+      "idx": 5,
+      "belongs": true,
+      "match": true,
+      "reason": "扣緊課文原句「起起伏伏、蒼翠的山坡，出現了一條筆直的灰色區塊」的具體意象進行推論，需讀課文才能推知為道路；其餘選項（稻田、溪流、橋樑）與「筆直灰色」不合，非情感色彩可猜。"
+    },
+    {
+      "idx": 6,
+      "belongs": true,
+      "match": true,
+      "reason": "承接課文「黑影」與前句「筆直的灰色區塊」（道路）的具體情節鋪陳，需課文脈絡才能推知是車輛；正解與課文推論一致。"
+    },
+    {
+      "idx": 7,
+      "belongs": true,
+      "match": true,
+      "reason": "具體對應課文「我嚇得往後跳」一句，需課文才知妹妹的確切反應；四選項行為互斥，非情感色彩猜測。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「我去找食物給你吃」具體台詞，四選項（求救、查看黑影、確認路、找食物）皆為情節合理但互斥的選項，非單純正向詞可猜，需課文佐證。"
+    },
+    {
+      "idx": 9,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「黑夜來臨，連星星都黯淡無光」具體描寫，需課文才知是哪種環境變化；四選項天氣描述互斥。"
+    },
+    {
+      "idx": 10,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「我仔細的跟著哥哥的腳印」具體情節，需課文才知妹妹靠腳印而非聲音、記號或氣味找到哥哥。"
+    },
+    {
+      "idx": 11,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「農舍主人抱出一個籠子...一群人圍著主人」具體畫面，需課文才能確認場景，四選項情節互斥。"
+    },
+    {
+      "idx": 12,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「哥哥是因為迷路，而被農舍主人帶回去」具體原因，需課文才知是迷路而非偷竊、傷雞或受傷倒臥。"
+    },
+    {
+      "idx": 13,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「檢查哥哥有沒有受傷，並給哥哥吃小老鼠跟魚，就放走他了」具體情節，需課文才知是檢查傷勢、餵食後野放，而非飼養、拍照登記等。"
+    },
+    {
+      "idx": 14,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「我悄悄的說」具體語氣描寫，需課文才知是悄悄輕聲而非生氣、哭鬧或歡呼。"
+    },
+    {
+      "idx": 15,
+      "belongs": true,
+      "match": false,
+      "reason": "雖具體對應課文「哥哥又驚又喜的看著我」，但四選項中僅正解一項為正向情感（欣喜），其餘三項（難過愧疚、驚訝生氣、緊張警戒）皆為負向或警戒情緒，學生僅憑「兄妹重逢應是開心結局」的字面情感色彩即可猜中正解，不必實際讀過課文確認「驚+喜」的具體措辭，違反不可憑單一正向詞猜中的判準。"
+    },
+    {
+      "idx": 16,
+      "belongs": true,
+      "match": true,
+      "reason": "對應課文「帶我快步穿越長長的通道，回到我們住的樹洞」具體路線描寫，需課文才知是穿越通道而非繞山、沿溪或穿竹林。"
+    },
+    {
+      "idx": 17,
+      "belongs": true,
+      "match": true,
+      "reason": "扣緊課文「石虎和我們一樣，都是大自然的孩子」具體台詞內容（題幹未直接引述原句，需回憶課文才知那句話說了什麼），需課文才能判斷主旨為共存觀念而非飼養、等同家貓或農損等其他說法，非單純正向詞可猜。"
+    },
+    {
+      "idx": 18,
+      "belongs": true,
+      "match": true,
+      "reason": "雖「迴盪耳邊」的字面意涵（印象深刻）具通用性，但要排除「是農舍主人特地對妹妹說的」這個錯誤選項，需課文中「那群人說...哥哥告訴我」的具體轉述關係佐證，非讀課文無法確認說話者與傳遞方式，故仍需課文。"
+    },
+    {
+      "idx": 19,
+      "belongs": true,
+      "match": true,
+      "reason": "需依課文中「我」稱哥哥、以及故事標題「石虎兄妹」的具體人物關係才能判斷敘事者為妹妹，換課文無法作答。"
+    },
+    {
+      "idx": 20,
+      "belongs": true,
+      "match": true,
+      "reason": "需依課文原句「一道巨大的黑影閃過眼前，我嚇得往後跳，這是什麼？」的上下文才能判斷指代對象為黑影，屬具體文意指涉題。"
+    },
+    {
+      "idx": 21,
+      "belongs": true,
+      "match": true,
+      "reason": "需依課文中「哥哥突然停下」緊接著「出現一條筆直的灰色區塊」的具體行文順序進行推論，其餘選項（絆倒、呼喊、聞到食物）課文皆未提及，可用課文脈絡排除，非情感色彩猜測。"
+    },
+    {
+      "idx": 22,
+      "belongs": true,
+      "match": true,
+      "reason": "「咕嚕咕嚕」字面上可能指水聲或腹鳴等多種聲音，需課文「咕嚕咕嚕，肚子又叫了」的具體上下文才能確定是肚子餓的聲音，非讀課文無法排除雷聲、水聲等選項。"
+    },
+    {
+      "idx": 23,
+      "belongs": true,
+      "match": false,
+      "reason": "課文本身並未明說那群人「野放而非飼養」的具體動機，四選項中僅正解一項為正向/高尚動機（尊重野生動物回歸自然），其餘三項（趕著辦事、怕被咬、不想負責）皆為負面或自利動機，學生可憑『故事寓意應該是正向保育觀念』的字面情感色彩直接猜中，而不必真正讀過課文佐證，違反不可憑單一正向詞猜中的判準。"
+    },
+    {
+      "idx": 24,
+      "belongs": true,
+      "match": true,
+      "reason": "需依課文中妹妹违反交代獨自跟蹤至溪邊的具體情節脈絡，才能推知哥哥『驚』與『喜』的原因；其餘選項（變胖、農舍變大、天色已暗）皆與課文情節不符且明顯荒謬，非單純正向詞可猜，屬情節理解而非情感色彩猜測。"
+    },
+    {
+      "idx": 25,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體對照課文開頭與結尾皆提及「樹洞」的安排，才能判斷是首尾呼應手法，非泛用寫作技巧題，換課文無法成立。"
+    },
+    {
+      "idx": 26,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體連結課文開頭「黃黑相間」尾巴描寫與末段揭示「石虎」身分的伏筆關係，換課文無法作答，四選項各自對應不同解讀，正解與課文結構相符。"
+    },
+    {
+      "idx": 27,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體分析課文用「筆直的灰色區塊」代替「馬路」的敘事視角手法，換課文無法成立，選項各自獨立、非情感色彩可猜。"
+    },
+    {
+      "idx": 28,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體理解課文中妹妹在黑夜、受黑影驚嚇後仍堅持跟蹤腳印尋找哥哥的具體情節，才能判斷用意為展現關心與勇氣；四選項（獨立、天生膽大、關心勇氣、肚子餓）皆非單純正負向對立，需課文情節佐證，非valence猜測。"
+    },
+    {
+      "idx": 29,
+      "belongs": true,
+      "match": true,
+      "reason": "需具體整合課文開頭「傍晚」與後段「黑夜來臨」的時間線索，推算事件跨度，換課文無法作答，正解與課文時間軸相符。"
+    }
+  ]
+}

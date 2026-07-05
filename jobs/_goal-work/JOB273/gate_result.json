@@ -1,0 +1,707 @@
+{
+  "翰林_L1": {
+    "total": 26,
+    "passed": 16,
+    "failed": [
+      {
+        "idx": 1,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：題幹已明講「鴨群」，只是考「雄赳赳，氣昂昂」這句固定成語/疊字的字面涵義，屬通用詞義理解，換任何一課出現此句仍可同樣作答，不必讀本課課文。match=true：正解A無誤，"
+      },
+      {
+        "idx": 10,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是「穗」字部件屬禾部、與同音字「惠/慧」不可混淆的通用識字規則，非本課專屬情節/意象，換任何含「穗」字的課文皆可問。match=true：正解D無誤，選項各為具體不同（"
+      },
+      {
+        "idx": 11,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是「祕密」固定詞序不可倒寫成「密秘」的通用詞彙規則，屬一般字詞辨正，非本課專屬內容，換任何課文出現「祕密」皆可問。match=true：正解D無誤，選項各代表不同錯誤理"
+      },
+      {
+        "idx": 14,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "belongs=true：考的是本課特定疊詞「一根根」「點點」「滿田」的專屬順序意象。match=false：題幹與正解將「一根根好稻禾」（稻禾／植株）與「稻穗」（穀穗）混為同一指涉物追蹤數量演變，但"
+      },
+      {
+        "idx": 17,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "belongs=false：考的是「雄赳赳」固定成語字義，屬通用詞彙知識，非本課專屬情節，換任何用到此成語的課文皆可問。match=false：四選項中僅A為正向（威武雄壯），其餘三項（昏睡/慌張逃竄"
+      },
+      {
+        "idx": 18,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是引號標示擬聲詞的通用標點功能，非本課專屬內容，換任何含擬聲詞引號的課文皆可問。match=true：正解B無誤，四選項功能互斥（錯字/擬聲/標題/引用），非情感詞猜中"
+      },
+      {
+        "idx": 19,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是逗號分隔並列動作的通用標點功能，非本課專屬情節，換任何類似句式課文皆可問。match=true：正解C無誤，四選項功能互斥，非情感詞猜中。"
+      },
+      {
+        "idx": 20,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：題幹已明講「鴨群」，考的是「巡過來，巡過去」複疊句式表示來回反覆動作的通用語感理解，不需本課專屬情節，換別課文出現此句式仍可同樣作答。match=true：正解C無誤，四選"
+      },
+      {
+        "idx": 22,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是「巡」字本義（來回察看）的通用字義辨析，非本課專屬情節，換任何含「巡」字課文皆可問。match=true：正解A無誤，四選項為明確不同字義（察看/靜止/踩踏破壞/逃跑"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：考的是「踩呀踩，啄呀啄」屬類疊修辭（區別於排比/設問/譬喻）的通用修辭學知識，非本課專屬內容，換任何類似疊字句課文皆可問。match=true：正解D無誤，四選項為明確不同"
+      }
+    ]
+  },
+  "翰林_L2": {
+    "total": 30,
+    "passed": 28,
+    "failed": [
+      {
+        "idx": 7,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「熱空氣比較輕、會往上升」為國小自然課程已教的通用科學常識（如熱氣球原理），不必讀本課課文即可用一般科學知識排除「凝結水珠」「被牆壁吸收」「比較重下沉」等明顯錯誤選項而答對，故不具課文專屬性；但題目本"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "「興致高昂」為通用詞語意涵（起勁、充滿期待），不必讀本課課文即可依字義作答，belongs=false；且四選項中僅A為純正向描述（B含緊張、C含無所謂、D含勉強等負面語意），學生可單憑「唯一全正向詞"
+      }
+    ]
+  },
+  "翰林_L3": {
+    "total": 30,
+    "passed": 27,
+    "failed": [
+      {
+        "idx": 3,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已直接告知「哥哥鑽出樹洞時動作敏捷」這一課文事實，實際考點僅為「敏捷」一詞的通用字義（快速靈活），學生不必讀本課課文、憑一般詞彙知識即可作答，屬於换课文照样可考的题型；但作為單純詞義題本身選項對應"
+      },
+      {
+        "idx": 15,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "雖具體對應課文「哥哥又驚又喜的看著我」，但四選項中僅正解一項為正向情感（欣喜），其餘三項（難過愧疚、驚訝生氣、緊張警戒）皆為負向或警戒情緒，學生僅憑「兄妹重逢應是開心結局」的字面情感色彩即可猜中正解，"
+      },
+      {
+        "idx": 23,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "課文本身並未明說那群人「野放而非飼養」的具體動機，四選項中僅正解一項為正向/高尚動機（尊重野生動物回歸自然），其餘三項（趕著辦事、怕被咬、不想負責）皆為負面或自利動機，學生可憑『故事寓意應該是正向保育"
+      }
+    ]
+  },
+  "翰林_L4": {
+    "total": 30,
+    "passed": 25,
+    "failed": [
+      {
+        "idx": 8,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「依海為生」是通用四字詞語，字面本義（依靠海洋維生）即可推知答案，不需連結本課達悟族/飛魚具體情節，換成任何課文出現「依海為生」都可用同一套選項作答。正解D本身無誤，但不符合belongs判準。"
+      },
+      {
+        "idx": 17,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已在敘述中直接給出「短句分段、反覆呼喊、無明顯人物對話情節」等文體判斷所需的全部特徵，屬通用文體辨識能力，不需讀過本課、理解飛魚/達悟族等具體情節即可作答，換成任何具備相同形式特徵的課文皆可用同套"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已明言「反覆使用」，答案「加強呼喚與讚頌的語氣」是驚嘆號的通用標點功能，其餘選項（充當標題/贅詞/疑問句）皆可憑通用標點知識（！≠？、反覆非贅詞）排除，不需連結本課具體情節即可作答，屬通用標點符號"
+      },
+      {
+        "idx": 26,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「一艘艘」「一串串」屬疊字量詞表數量眾多的通用語法知識，其餘選項（不擅算數/已損壞/僅有一個）皆可憑基本中文語感排除，不需連結本課具體情節即可作答。正解C本身無誤。"
+      },
+      {
+        "idx": 27,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「並列」為通用字詞本義同義詞替換題（排列在一起／隱藏／拆散丟棄／疊放），純字面詞義即可作答，不需連結本課具體情節，換成任何含「並列」一詞的課文皆可用同套選項作答。正解A本身無誤。"
+      }
+    ]
+  },
+  "翰林_L5": {
+    "total": 28,
+    "passed": 22,
+    "failed": [
+      {
+        "idx": 2,
+        "gate1": false,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "男孩「華麗小背心」為本課服裝細節，需讀課文才能作答；正解與課文一致，選項不重疊。"
+      },
+      {
+        "idx": 3,
+        "gate1": false,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "女孩「白紗和長袍」為本課特有細節；正解正確，選項分屬不同角色服裝，無重疊。"
+      },
+      {
+        "idx": 19,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已完整引用「兒童是世界未來的主人翁」，「主人翁」為通用詞彙且此語為常見套語，不需讀過本課即可依題幹字面推出「未來將主導世界的重要角色」之意；換成別課只要同樣引用此語仍可作答，屬belongs=fa"
+      },
+      {
+        "idx": 20,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已完整引用結尾問句，答案（邀請讀者思考、回應對兒童的關懷）可直接由題幹引文本身的措辭推得，屬一般「作者以問句作結的用意」通用閱讀技巧，換成別課的類似結尾問句仍可用同一邏輯作答，非本課獨有情節/字詞"
+      },
+      {
+        "idx": 26,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「惡運」為透明複合詞（惡+運），其字面／字典義本身即為「不好的運氣或災禍」，不需讀本課課文即可由通用詞義推出，換成別課只要出現「惡運」一詞仍可用同一詞義作答，屬belongs=false。作答邏輯與選"
+      },
+      {
+        "idx": 27,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已完整引用「這些孩子喜歡的休閒場所」，正解「因為這些是孩子本來就感興趣的地方」僅是對題幹引文的同義複述，不需額外讀過本課課文即可推出，換成別課的類似敘述句仍可用同一邏輯作答。match方面正解與課"
+      }
+    ]
+  },
+  "翰林_L6": {
+    "total": 25,
+    "passed": 21,
+    "failed": [
+      {
+        "idx": 10,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "『得意』是通用詞義（滿足自豪），不需讀本課劇情即可依字面判斷；且四個選項中僅『滿足又自豪』是唯一正向詞，其餘三個皆負面/意外，學生可單憑「挑正向詞」猜中而不必讀課文，同時違反belongs與match"
+      },
+      {
+        "idx": 11,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "『神祕的說』最接近意思即『故意賣關子』屬通用詞義理解，換成任何課文出現同一詞語，正解不變，不需讀本課情節即可作答，故belongs=false；但單就選項本身各自獨立、無事實錯誤，match仍成立。"
+      },
+      {
+        "idx": 15,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "辨識『第一人稱』屬通用敘事技巧知識，scenario已直接告知全篇用『我』的口吻敘述，換成任何以『我』敘事的課文答案皆相同，不需讀本課具體情節即可作答；但選項定義各自獨立不重疊，match仍成立。"
+      },
+      {
+        "idx": 21,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "『開闊』為通用空間詞義（範圍變寬變遠），非情感色彩詞，選項間也非單一正向詞可猜，但答案不需連結本課情節即可依字面詞義判斷，換成任何課文出現同一詞語答案不變，故belongs=false；選項定義互斥不"
+      }
+    ]
+  },
+  "康軒_L1": {
+    "total": 30,
+    "passed": 26,
+    "failed": [
+      {
+        "idx": 8,
+        "gate1": true,
+        "gate2": false,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "需知課文僅籠統寫「拿起打掃器具清理」，未具體到剪刀或整盆搬走，須讀課文避免過度腦補工具細節。"
+      },
+      {
+        "idx": 17,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已直接敘述「先整理花瓶、桌子、室內，再到庭院，最後才整理自己」的順序，正解「先處理環境最後才想到自己」只是複述題幹本身給出的排列，其餘三個選項（自己一直比環境重要/隨機無原因/一開始就打算打扮自己"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "其餘三個選項（送禮越貴越好/花瓶越乾淨房子越大/收禮要立刻回禮）與故事情節缺乏合理連結、明顯不合常理，學生毋須讀本課課文，僅憑一般語意常識刪去荒謬選項即可選出「整理環境帶動內心轉變」，未真正測到本課課"
+      },
+      {
+        "idx": 25,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已明確列出「花瓶、桌子、室內、庭院、自己」的排列順序，正解「讓改變範圍由小逐步擴大」只是對題幹所給順序的重述與常識歸納，學生不必讀課文即可由題幹本身的排列推出答案。"
+      }
+    ]
+  },
+  "康軒_L2": {
+    "total": 30,
+    "passed": 27,
+    "failed": [
+      {
+        "idx": 7,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已直接給出「想做就要立刻行動」原句，正解「立刻動手去做」僅為該句同義複述，未涉及任何本課情節、人物或特定字詞義解讀，學生不必讀本課課文即可僅憑題幹字面作答；正解本身無事實錯誤，選項互斥。"
+      },
+      {
+        "idx": 8,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已完整提供「想得太多，有時反而會阻礙自己的腳步」原句，正解僅需將「腳步」譯為「行動」的一般性譬喻理解，不需任何本課情節、人物或事件知識即可推論，換成他課類似說法也能同樣作答；正解正確、選項互斥。"
+      },
+      {
+        "idx": 9,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題幹已完整給出「想得太多…什麼事就都辦不成了」原句，正解「一直猶豫，最後什麼都做不成」屬同義改寫加淺層推論，不需連結窮和尚、富和尚或南海拜佛等本課情節細節即可作答；正解正確、選項各自獨立。"
+      }
+    ]
+  },
+  "康軒_L3": {
+    "total": 26,
+    "passed": 23,
+    "failed": [
+      {
+        "idx": 10,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "四選項情感色彩明顯：正解「相信有盡頭、不會害怕」為唯一正向敘述，其餘三項（想放棄、盼縮短路程、認為走不完）皆為負面/挫敗語氣。「路總會有盡頭」在中文語境本身即為常見勵志套語，學生不必讀本課課文，僅憑「"
+      },
+      {
+        "idx": 18,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "本題僅測「八字腳」一詞的通用字義（腳掌外八、走路不好看），屬於通用字詞本義類，換成任何其他課文出現「八字腳」一詞，答案仍相同，不需連結本課具體情節；正解本身定義正確、干擾選項（八步一次、速度如數字八、"
+      },
+      {
+        "idx": 19,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "本題與idx10引用同一句「不論多長的路，總會有個盡頭」，且題幹未附上文下文佐證。四個語氣選項中「肯定的語氣」為唯一正向描述，其餘（命令、抱怨、猶豫）皆偏負面或不合情境，此句本身即為中文常見的勵志套語"
+      }
+    ]
+  },
+  "康軒_L4": {
+    "total": 30,
+    "passed": 27,
+    "failed": [
+      {
+        "idx": 3,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "此題實為考「息息相關」的字典義（彼此關係密切），此意義不隨課文改變，換成任何課文出現此詞都答案相同，不必讀本課課文即可答對；但就match而言正解與選項本身無誤、不重疊。"
+      },
+      {
+        "idx": 21,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "此題實為考「推陳出新」成語字面義（淘汰舊有、創造新意），此定義不因課文而異，換任何使用此詞的課文答案相同，不必讀本課課文即可答對；就match而言選項語意各自獨立、正解無誤。"
+      },
+      {
+        "idx": 29,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "此題實為考「巧思」一詞字面義（靈巧有創意的構思），此定義不因課文而異，換任何使用此詞的課文答案相同，不必讀本課課文即可答對；就match而言選項語意各自獨立、正解無誤。"
+      }
+    ]
+  },
+  "康軒_L5": {
+    "total": 31,
+    "passed": 25,
+    "failed": [
+      {
+        "idx": 0,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題目雖引用本課開頭「書名、作者、繪者、出版者」等具體文字，但要判斷這屬於讀書報告的「書籍資料」段落，純屬讀書報告文類的通用格式知識（書名/作者/出版者=書籍資料），換成任何一課的讀書報告都是同樣答案，"
+      },
+      {
+        "idx": 11,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題目問「內容簡介」與「讀後心得」在敘述內容上的主要差別，這是讀書報告文類的通用結構知識（內容簡介＝敘述故事情節、讀後心得＝抒發個人感受），換成任何一課的讀書報告都同樣成立，不需讀本課課文內容即可依詞義"
+      },
+      {
+        "idx": 16,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題目問「讀後心得排在內容簡介之後」的合理性,正解只是「先敘事、後抒情」的通用讀書報告寫作邏輯,換成任何一課有相同三段式結構的讀書報告皆成立,不需連結本課具體情節。誘答雖提及青林、過敏等本課元素,但核心"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "題目雖引用讀後心得原句「深深淺淺」,但考的是通用疊字（類疊）修辭辨識,正解「疊字讓層次感更生動」不需連結本課情節(小玉、奶奶、馬藍等),換成任何描述顏色深淺的課文皆可作答。match面:四修辭選項(設"
+      },
+      {
+        "idx": 28,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "考的是「讀書報告——書名」標題格式中破折號的通用連接功能(文類名稱接書名),不需連結小玉、奶奶等本課具體情節,換任何一課同樣格式的標題皆可作答。match面:四選項互斥,正解無誤。"
+      },
+      {
+        "idx": 30,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "考的是頓號連接並列身分的通用標點功能(頓號表示同一人身兼二職),「張又然」僅作為裝飾性人名,換任何一課的書籍資料格式(作者、繪者：某某)皆可作答,不需連結本課具體情節。match面:四選項互斥,正解無"
+      }
+    ]
+  },
+  "康軒_L6": {
+    "total": 25,
+    "passed": 25,
+    "failed": []
+  },
+  "南一_L1": {
+    "total": 30,
+    "passed": 26,
+    "failed": [
+      {
+        "idx": 7,
+        "gate1": false,
+        "gate2": false,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "對應課文「元宵節前一天，街上家家戶戶歡喜的迎龍」，時間點為本課專屬敘事順序；其餘時間點對應課文其他段落，互斥不重疊，答案正確。"
+      },
+      {
+        "idx": 12,
+        "gate1": false,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "對應課文「元宵夜，我們到公園參加『𪹚龍之夜』」，為本課專屬地點與時序；其餘地點（玉清宮、球場、火車站廣場）為課文其他段落或虛構地點，答案正確。"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "此題僅測「非凡」一詞的一般字義（超出一般程度），選項為完全沒有動靜／只有少數人／已接近尾聲等通用語意paraphrase，不涉及本課任何情節、人物或意象，換成任何課文出現「非凡」一詞結果皆同，學生不必"
+      },
+      {
+        "idx": 25,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "此題僅測「挨家挨戶」此一成語的一般字義（每家都走遍，沒有遺漏），選項為通用語意paraphrase，未涉及本課迎龍踩街的具體情節內容，換成別課出現同一成語結果仍相同，學生不必讀本課課文即可作答。"
+      }
+    ]
+  },
+  "南一_L2": {
+    "total": 25,
+    "passed": 23,
+    "failed": [
+      {
+        "idx": 0,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "僅本課「這次觀看布袋戲和歌仔戲的經驗，剛好可以作為心得報告的主題」可作答，belongs成立；但正解選項字數16字明顯長於其餘三個干擾選項(13/10/11字)，存在「選最長猜答」風險，未讀課文亦可能"
+      },
+      {
+        "idx": 12,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "belongs成立(需讀本課兩段描寫比較)；但選項A「都必須在老街的戲臺上演出」與課文事實不衝突——報告的時間/地點欄位本就涵蓋布袋戲與歌仔戲兩段觀察紀錄，同屬「二月五日、老街」，學生依課文可合理主張"
+      }
+    ]
+  },
+  "南一_L3": {
+    "total": 28,
+    "passed": 27,
+    "failed": [
+      {
+        "idx": 21,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": false,
+        "reason": "事實錯誤：題幹稱「課文結尾寫孩子『勇敢的站在舞臺上，用達悟族特有的方式表演』」，但此句實際出現在課文第四段（顏老師說服孩子換裝段落末），並非課文結尾；真正結尾是最後一段「飛魚，與達悟族的生活密不可分…"
+      }
+    ]
+  },
+  "南一_L4": {
+    "total": 30,
+    "passed": 28,
+    "failed": [
+      {
+        "idx": 1,
+        "gate1": false,
+        "gate2": true,
+        "gate3_belongs": true,
+        "gate4_match": true,
+        "reason": "考課文破蛹順序（裂縫→前足→頭部→胸部→六足→翅腹），正解「胸部出殼」與課文順序一致，其餘選項為順序上的其他步驟，須讀課文才能排序。"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "「羽化」為一般生物學通用詞彙定義（蛹蛻變為成蟲），此定義換成任何昆蟲相關課文皆同樣可答，未具體連結本課情節、人物或意象，學生不必讀本課課文即可依常識作答，違反「必須讀本課課文」判準。"
+      }
+    ]
+  },
+  "南一_L5": {
+    "total": 30,
+    "passed": 25,
+    "failed": [
+      {
+        "idx": 5,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "雖引用課文語句，但四選項中僅「重視自立能力」為正向教育觀，其餘三者皆為限制/消極描述，學生憑一般生活常識即可挑出唯一正向選項，不必讀本課課文即可猜中，屬情感色彩猜題。"
+      },
+      {
+        "idx": 6,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "情境雖取自課文，但選項為「鼓勵完成」對比「放棄/休息/代做」三種明顯負面做法，屬通用教養常識即可判斷的單一正向選項模式，不必讀本課課文即可作答。"
+      },
+      {
+        "idx": 15,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "情境已預告「重新融入班上生活、擔任重要角色」等正向鋪陳，加上四選項中僅「重新找回希望」為正向結果，其餘三者明顯負面，學生憑情節鋪陳與情感色彩即可猜中，不必精讀課文原句。"
+      },
+      {
+        "idx": 21,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "情境已直接引用課文原句「與眾不同……創造出生命中的另一種美好」，且四選項中僅「尊重差異看見美好」為正向態度，其餘三者皆為明顯負面應對，屬通用品德教育常識即可判斷，不必讀本課課文即可猜中。"
+      },
+      {
+        "idx": 25,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "雖情境取材自課文情節，但四選項中僅「主動互動分享故事」為正向社交因應方式，其餘三者（假裝沒看到/減少到校/要求懲罰）皆為明顯負面或消極做法，屬一般品德教育常識即可判斷，不必讀本課課文即可猜中。"
+      }
+    ]
+  },
+  "南一_L6": {
+    "total": 28,
+    "passed": 25,
+    "failed": [
+      {
+        "idx": 21,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "正解「讓讀者更能感受當下情境，增加真實感」是狀聲詞在任何文本中的通用修辭功能，換成別課使用狀聲詞的課文，同一答案依然成立，學生不必讀本課課文也能透過一般文學常識與刪去法（其餘選項明顯荒謬）作答，未達本"
+      },
+      {
+        "idx": 26,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "正解「讓讀者直接感受內心恐懼（心跳、發抖）」本質上是第一人稱敘事觀點的通用文學功能，換成任何第一人稱故事套用同一原理即可成立，屬一般讀寫技巧知識、非本課文本獨有錨定，其餘選項明顯荒謬可用一般常識刪去；"
+      },
+      {
+        "idx": 27,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "正解「前後對比凸顯改變」是敘事結構「先描寫困境、後描寫轉變」的通用寫作手法，適用於任何具有相同結構的課文，非本課獨有內容錨定，且情境本身已把「害怕→轉變」的答案線索寫入題幹；其餘選項明顯荒謬可用常識排"
+      }
+    ]
+  },
+  "南一_L9": {
+    "total": 30,
+    "passed": 22,
+    "failed": [
+      {
+        "idx": 2,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "belongs=false：「興沖沖」屬通用詞語本義(期待/興奮)，且與idx3同型——正解僅是把詞義套上「嘉明湖之旅」這個具體名詞，非真正需要理解課文情節脈絡；match=false：四個選項中僅D"
+      },
+      {
+        "idx": 3,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": false,
+        "reason": "belongs=false：正解「雖然辛苦疲累仍憑意志力堅持前進」是「咬緊牙關」的通用成語字面義，不含任何本課專屬情節指涉(無土石、嘉明湖、五小時等具體內容)，換成任何課文出現同成語都會選同一答案；m"
+      },
+      {
+        "idx": 22,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：正解「能夠長久維持，不因過度使用消失」是「永續」一詞的通用字典義，不含任何本課專屬情節指涉，換成任何課文出現「永續」一詞答案皆同，學生不必讀本課課文即可作答；match=t"
+      },
+      {
+        "idx": 23,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：本題測試破折號「補充說明名稱」之通用標點功能，屬泛用文法知識，不需連結本課具體情節即可作答，換任何課文出現同類破折號用法答案相同；match=true：正解明確、選項各自獨"
+      },
+      {
+        "idx": 24,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：本題測試引號「標示專有名稱」之通用標點功能，不需連結本課具體情節，換任何課文出現同類引號用法答案相同；match=true：正解明確、選項各自獨立不重疊。"
+      },
+      {
+        "idx": 25,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：本題本質是測試問號在「喃喃自語」語境下表現猶豫/自我懷疑的通用標點(語氣)功能，題幹已內含「喃喃說出」的提示，不必讀過本課課文的其餘情節即可依通用語感推得答案；match="
+      },
+      {
+        "idx": 26,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：本題測試「識別譬喻/擬人寫作技巧」的通用修辭定義，僅需分析題幹已引用的單一句子本身即可作答，不需連結本課其餘情節或語境，換任何課文的類似譬喻句答案類型相同；match=tr"
+      },
+      {
+        "idx": 29,
+        "gate1": true,
+        "gate2": true,
+        "gate3_belongs": false,
+        "gate4_match": true,
+        "reason": "belongs=false：正解「把流失的土石重新填補回原本的地方」本質上是「回填」一詞的通用字面義(填補回原處)，taxonomy亦標示為literal，測的是詞語本義而非本課具體情節脈絡，換任何課"
+      }
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "key": "南一_L6",
+  "pn": "南一",
+  "n": 6,
+  "blind": [
+    {
+      "idx": 0,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 1,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 2,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 3,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 4,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 5,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 6,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 7,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 8,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 9,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 10,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 11,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 12,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 13,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 14,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 15,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 16,
+      "answer_index": 0,
+      "single_answer": true
+    },
+    {
+      "idx": 17,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 18,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 19,
+      "answer_index": 3,
+      "single_answer": true
+    },
+    {
+      "idx": 20,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 21,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 22,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 23,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 24,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 25,
+      "answer_index": 1,
+      "single_answer": true
+    },
+    {
+      "idx": 26,
+      "answer_index": 2,
+      "single_answer": true
+    },
+    {
+      "idx": 27,
+      "answer_index": 2,
+      "single_answer": true
+    }
+  ],
+  "judge": [
+    {
+      "idx": 0,
+      "belongs": true,
+      "match": true,
+      "reason": "題幹與選項需依課文開頭「三月起未下雨、田地裂得像豆腐乾」的具體乾旱描述才能判斷村人著急的根本原因，換課文即無法對應；正解D與課文一致，四選項語意各自獨立、無事實錯誤。"
+    },
+    {
+      "idx": 1,
+      "belongs": true,
+      "match": true,
+      "reason": "配水「深夜一點到兩點」與出發「十二點」是本課獨有的具體時間細節，換課文無法成立；正解C與課文相符，各選項時間/時長組合互斥不重疊。"
+    },
+    {
+      "idx": 2,
+      "belongs": true,
+      "match": true,
+      "reason": "「交代工具帶齊」「穿過墳場」皆本課專屬情節，需讀課文才能排除「先經過墳場」「哥哥留家」等混淆；正解D與課文一致，無事實錯誤。"
+    },
+    {
+      "idx": 3,
+      "belongs": true,
+      "match": true,
+      "reason": "需理解課文「白天已怕，更不用說半夜」的遞進語意，才能排除「白天完全不怕」的誤讀；正解C正確，選項彼此獨立。"
+    },
+    {
+      "idx": 4,
+      "belongs": true,
+      "match": true,
+      "reason": "忘記帶鋤頭的發現時機（水圳、非出發前）是本課專屬情節細節，換課文不成立；正解A(idx=0選項)與課文吻合，各時間點選項互斥。"
+    },
+    {
+      "idx": 5,
+      "belongs": true,
+      "match": true,
+      "reason": "「水流很急、一個人應付不來」需連結後文「爸爸和哥哥都不能離開」的因果，屬本課專屬情節推論；正解C正確，其餘選項（比賽、取消輪灌、鋤頭被沖走）均無課文依據。"
+    },
+    {
+      "idx": 6,
+      "belongs": true,
+      "match": true,
+      "reason": "需連結後文「淚水像水龍頭」「兩腳抖動」等本課專屬描寫才能判斷結巴反映害怕情緒；正解D正確，選項情感傾向不只單一正向詞可猜中（A、B皆帶正向色彩），需讀文本排除。"
+    },
+    {
+      "idx": 7,
+      "belongs": true,
+      "match": true,
+      "reason": "「水龍頭」譬喻是本課獨有意象，需理解其「止不住」特性才能答對，換課文無此意象；正解A正確，選項各自獨立（顏色、頻率、功能等），無重疊。"
+    },
+    {
+      "idx": 8,
+      "belongs": true,
+      "match": true,
+      "reason": "「牛車路像吊橋」是本課獨有比喻，需判斷為「我」主觀恐懼視覺扭曲而非真實坍塌，屬本課專屬推論；正解B正確，其餘選項（惡作劇、風吹、乾旱坍塌）均為文本外虛構且可被文本排除。"
+    },
+    {
+      "idx": 9,
+      "belongs": true,
+      "match": true,
+      "reason": "「想唱歌壯膽卻牙齒打顫」的反差是本課專屬情節鋪陳，需讀課文理解意志與生理反應對比；正解B正確，選項語意互斥。"
+    },
+    {
+      "idx": 10,
+      "belongs": true,
+      "match": true,
+      "reason": "「心跳像重擊的鼓聲」是本課獨有譬喻，正解須理解其形容心跳劇烈的意涵，而非真實鼓聲；正解C正確，其餘選項將譬喻誤讀為真實事件，皆可被文本排除。"
+    },
+    {
+      "idx": 11,
+      "belongs": true,
+      "match": true,
+      "reason": "此時「我」尚未取得鋤頭（正返家途中），需依課文情節順序排除「鋤頭太重」等選項，屬本課專屬推論；正解C正確，各選項因果互斥。"
+    },
+    {
+      "idx": 12,
+      "belongs": true,
+      "match": true,
+      "reason": "選項中「著涼感冒」「下雨」「真有怪聲」皆是對本課具體感官描寫（衣服溼透、冰冷、奇怪聲音）的錯誤字面誤讀，須讀本課文本內容才能排除，屬本課專屬錨定；正解A正確。"
+    },
+    {
+      "idx": 13,
+      "belongs": true,
+      "match": true,
+      "reason": "需連結後文「回到家兩腿發軟」才能判斷恐懼未消，屬本課專屬情節推論，換課文不成立；正解B正確，選項彼此矛盾互斥。"
+    },
+    {
+      "idx": 14,
+      "belongs": true,
+      "match": true,
+      "reason": "需連結「水流很急，爸爸和哥哥都不能離開」的專屬情節因果，才能推知「我」返回水圳的原因；正解A正確，其餘選項（鄰居、媽媽、突然不怕）均無課文依據。"
+    },
+    {
+      "idx": 15,
+      "belongs": true,
+      "match": true,
+      "reason": "回程「樹的姿態不一樣」是本課專屬細節，需理解為主觀心境轉變而非景物真變，屬本課專屬推論；正解B正確，各選項互斥。"
+    },
+    {
+      "idx": 16,
+      "belongs": true,
+      "match": true,
+      "reason": "「蟋蟀叫聲分外悅耳」對比去程恐懼是本課專屬情節安排，需讀課文理解心境放鬆的因果；正解A正確，各選項可被文本明確排除。"
+    },
+    {
+      "idx": 17,
+      "belongs": true,
+      "match": true,
+      "reason": "去程與回程走同一段路卻時間感受不同，是本課獨有的細節對比，需讀課文確認距離相同、僅心理感受改變；正解D正確，各選項彼此互斥且可被排除（如爸爸開車接送純屬虛構）。"
+    },
+    {
+      "idx": 18,
+      "belongs": true,
+      "match": true,
+      "reason": "需直接引用課文結尾「許多事情不如想像中困難……做了以後就會知道」的具體語句才能對應主旨，換課文無法成立；正解D正確，選項將主旨窄化為工具或陪同等干擾項，均可被文本排除。"
+    },
+    {
+      "idx": 19,
+      "belongs": true,
+      "match": true,
+      "reason": "「從此以後」的長期效果是本課專屬結尾語句，需讀課文才能排除「只是暫時忘記害怕」等誤讀；正解D正確，選項彼此矛盾互斥。"
+    },
+    {
+      "idx": 20,
+      "belongs": true,
+      "match": true,
+      "reason": "四個選項皆為本課專屬情節事件的不同排列組合，只有依實際課文順序（淚流雙腳抖→想唱歌卻牙齒打顫→過墳場後仍跑）才能判斷；正解對應options[1]，與課文順序一致，其餘選項為錯置排列。"
+    },
+    {
+      "idx": 21,
+      "belongs": false,
+      "match": true,
+      "reason": "正解「讓讀者更能感受當下情境，增加真實感」是狀聲詞在任何文本中的通用修辭功能，換成別課使用狀聲詞的課文，同一答案依然成立，學生不必讀本課課文也能透過一般文學常識與刪去法（其餘選項明顯荒謬）作答，未達本課專屬錨定門檻；但選項語意各自獨立、無事實錯誤，match仍成立。"
+    },
+    {
+      "idx": 22,
+      "belongs": true,
+      "match": true,
+      "reason": "需讀課文確認爸爸全程只交代工具、要鋤頭，無責罵、陪同或安慰等描述，才能以刪去法選出「沒安慰、讓我自己想辦法」，屬本課專屬情節細節（雖為排除式推論，但無其他文本佐證即為最佳解，且無事實矛盾），可視為match成立。"
+    },
+    {
+      "idx": 23,
+      "belongs": true,
+      "match": true,
+      "reason": "十二點出發與一點配水的時間差是本課專屬細節，需推論為提前準備、路途及穿越墳場需要時間，換課文不成立；正解C正確，各選項可被文本明確排除。"
+    },
+    {
+      "idx": 24,
+      "belongs": true,
+      "match": true,
+      "reason": "「鋤頭？啊！我忘了帶來，怎麼辦？」的驚呼語氣是本課專屬語句，需讀文本理解為驚慌著急而非裝糊塗或不耐煩；正解C正確，各選項情緒互斥。"
+    },
+    {
+      "idx": 25,
+      "belongs": true,
+      "match": true,
+      "reason": "假設性推論需連結「水流需兩人看顧」「引水任務」及主旨「走過就知道」的本課專屬情節，才能判斷放棄拿鋤頭的後果與違背主旨的方向；正解B正確，各選項可依課文邏輯明確排除。"
+    },
+    {
+      "idx": 26,
+      "belongs": false,
+      "match": true,
+      "reason": "正解「讓讀者直接感受內心恐懼（心跳、發抖）」本質上是第一人稱敘事觀點的通用文學功能，換成任何第一人稱故事套用同一原理即可成立，屬一般讀寫技巧知識、非本課文本獨有錨定，其餘選項明顯荒謬可用一般常識刪去；但選項本身無事實錯誤、語意各自獨立，match仍成立。"
+    },
+    {
+      "idx": 27,
+      "belongs": false,
+      "match": true,
+      "reason": "正解「前後對比凸顯改變」是敘事結構「先描寫困境、後描寫轉變」的通用寫作手法，適用於任何具有相同結構的課文，非本課獨有內容錨定，且情境本身已把「害怕→轉變」的答案線索寫入題幹；其餘選項明顯荒謬可用常識排除，未達本課專屬判準，但match仍成立（無事實錯誤、選項互斥）。"
+    }
+  ]
+}
