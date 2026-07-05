@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "電影觀賞時間",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "2:30 + 2 小時 15 分 = 4:45。直接相加即可。",
       "answer_index": 0,
       "options": [
@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "長途巴士車程",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "5:20 - 4 小時 50 分 = 4:80 - 4:50 = 0:30。 即下午 12 時 30 分（或稱為中午）。注意時間借位 (1小時 = 60分)。",
       "answer_index": 2,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生常因為看到關鍵字「多」就直覺進行加法，但若數字設計為減法情境，學生容易混淆「多」與「少」的邏輯運算。",
       "scenario": "【在學校運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "根據題意，第二棒比第一棒多 15 公尺，即 85 + 15 = 100 公尺。",
       "answer_index": 2,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生可能只算出一天多跑的距離（450公尺）就停下，或是將總圈數相加後再乘，容易忽略單位與天數的乘積關係。",
       "scenario": "【在社區公園散步時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "小華每天多跑 (3 - 2) = 1 圈，即 450 公尺。一週七天共多跑 450 * 7 = 3150 公尺。",
       "answer_index": 2,
       "options": [

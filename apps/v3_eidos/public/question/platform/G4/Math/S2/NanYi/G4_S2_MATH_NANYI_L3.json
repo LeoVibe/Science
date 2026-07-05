@@ -183,7 +183,7 @@
       "commonMisconception": "學生容易混淆 1000 進位制，將 1800 公克誤判為 1 公斤 80 公克，這是忽略了百位數與千位數的換算關係。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "450 公克乘以 4 等於 1800 公克。因為 1000 公克等於 1 公斤，所以 1800 公克等於 1 公斤又 800 公克。",
       "answer_index": 0,
       "options": [
@@ -204,7 +204,7 @@
       "commonMisconception": "學生常會直接將分與秒分開加總，但在秒數加總超過 60 時，容易忘記向「分」進位，或將 98 秒錯誤換算為 1 分 8 秒而非 1 分 38 秒。",
       "scenario": "【在參加學校運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先將所有時間換算為秒：98 + 75 + 70 + 95 = 338 秒。338 秒除以 60，得 5 分 38 秒。",
       "answer_index": 1,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生會誤以為要將總數 72 直接參與運算，忽略了先求出「單位量」的步驟。",
       "scenario": "【在校園圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算每個書櫃放幾本書：72除以9等於8本。再計算3個書櫃的總量：8乘以3等於24本。",
       "answer_index": 2,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能將分數直接相加（1/6 + 1/5 = 2/11）再乘總數，忽略了分母代表的單位量不同。",
       "scenario": "【在整理冰箱時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "30 的 1/6 是 5 顆，30 的 1/5 是 6 顆，共用掉 5+6=11 顆，剩下 30-11=19 顆。",
       "answer_index": 3,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生容易誤以為題目問的是「爸爸付了多少錢」而選240，或是直接算出兩人的盤數相加。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "小明吃了6盤，爸爸吃了6×2=12盤。爸爸比小明多吃了12-6=6盤。因為每盤40元，所以多付了6×40=240元，或者是計算(12×40)-(6×40)=480-240=240元。",
       "answer_index": 3,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生容易在計算過程中的進位錯誤，或是計算完花費後忘記減去初始金額，直接將花費總額當作答案。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "蘋果花費：85×3=255元；水梨花費：120×2=240元。總共花費：255+240=495元。剩下：500-495=5元。原題選項設計需考慮計算細節，若算錯乘法或加法會導致錯誤。",
       "answer_index": 2,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生容易在算出總金額154元後，誤以為這就是答案，而忽略了題目問的是「找回多少錢」。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算蘋果總價：25乘以4等於100元；再計算橘子總價：18乘以3等於54元；總共花費100加54等於154元；最後用200減去154等於46元，找回46元。",
       "answer_index": 2,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生可能會誤以為每一層都是放滿的，直接用24乘以6得出144，忽略了題目中後三層未滿的條件。",
       "scenario": "【在學校圖書館借書時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "前3層全滿是24乘以3等於72本；後3層每層15本是15乘以3等於45本；兩者相加72加45等於117本。",
       "answer_index": 3,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易忽略「降價」只針對「剩下的」部分，誤以為全部 120 杯都要以 20 元賣出，或是誤以為只要用總杯數乘以降價後的價格。",
       "scenario": "【在校慶園遊會籌備時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算出已賣出部分的收入（80×25），加上剩下杯數（120-80=40）以新價格（25-5=20）賣出的收入（40×20），總和即為總收入。",
       "answer_index": 2,
       "options": [

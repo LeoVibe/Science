@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能只算出積木的總數量為 24，卻忘記乘上單一積木的體積，或直接將 24 當作答案的基數。",
       "scenario": "樂高或積木堆疊 (情境 2)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "單一積木體積 = 5 × 5 × 5 = 125 立方公分。總共有 4 × 3 × 2 = 24 個積木。總體積 = 125 × 24 = 3000 立方公分。或者思考為：總長=20，總寬=15，總高=10，20 × 15 × 10 = 3000。",
       "answer_index": 1,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "學生常會將「綁了 3 捆」誤認為「還剩 3 捆」，或是直接用 36 - 3 來計算，忽略了捆數與本數之間的乘法關係。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每捆 6 本，綁了 3 捆代表已經處理了 6 × 3 = 18 本。剩下的本數為 36 - 18 = 18 本。",
       "answer_index": 1,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生容易受到「套中 8 個」這個數字的影響，試圖將其納入計算，或是誤以為要用 50 × 8 來計算，忽略了遊戲規則與價格之間的關聯。",
       "scenario": "【在週末參加社區園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "題目詢問的是「總共花的錢」，每次 50 元，玩 3 次即 50 × 3 = 150 元。套中的個數屬於干擾資訊。",
       "answer_index": 0,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生常誤以為離開的是「2個人」而不是「2張墊子上的人數」，導致直接以24減2計算，這是未釐清乘法分配律概念的典型錯誤。",
       "scenario": "【在週末公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原本總人數為6乘以4等於24人。離開的兩張墊子共有2乘以4等於8人。24減8等於16人。",
       "answer_index": 0,
       "options": [

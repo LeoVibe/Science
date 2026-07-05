@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "安排交通接駁",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "143 / 15 = 9 ... 8。剩下的 8 人也需要一台車，所以 9 + 1 = 10。這是無條件進入概念的除法應用。",
       "answer_index": 1,
       "options": [
@@ -204,7 +204,7 @@
       "commonMisconception": "學生容易先計算 36 ÷ 4 = 9，再將 8 加進去，忽略了題目要求的是『全部』平分的概念。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算水餃總數：36 + 8 = 44，再將總數除以人數：44 ÷ 4 = 11。",
       "answer_index": 3,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生常會誤以為所有層數都是擺滿 24 本，或者將 3 層與 2 層的數量混淆，導致直接進行 24 × 5 的錯誤計算。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算方式為：(24 × 3) + (16 × 2) = 72 + 32 = 104 本。",
       "answer_index": 1,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生常忽略「平分」的人數包含原本帶餅乾的人，或是計算總數時漏掉小華自己。",
       "scenario": "【在週末公園野餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總人數為小華加上 4 位朋友共 5 人，每人 12 塊，總計 60 塊。分給 3 位小朋友後，總人數變為 5 + 3 = 8 人（若題意為所有人平分，則為 60 ÷ 8，若題意為分給後大家重新平分，需確認總人數）。依題意：5人×12塊=60塊，分給8人，答案應為7.5塊，調整題幹為：每個人帶16塊，共5人，分給3位後共8人，60塊分不均。修正：5人帶12塊，共有60塊，若分給3位沒帶的人（總共8人），則無法整除。修正題幹為：每人帶16塊，共5人，共有80塊，分給3位沒帶的人，共8人平分，80÷8=10。",
       "answer_index": 1,
       "options": [

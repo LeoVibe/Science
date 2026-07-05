@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "大賣場補貨",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "500 * 45 = 22500。",
       "answer_index": 0,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生可能只計算椅子數量，或是無法將乘法結果與實際人數進行比較，導致對「夠坐」與「剩下的空位」概念混淆。",
       "scenario": "【在社區遊樂場時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總座位數為 4 × 3 = 12 個。有 10 個小朋友，12 - 10 = 2，所以夠坐且剩下 2 個空位。",
       "answer_index": 3,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生常會計算出 45 元後就停止，或者誤將「折價 5 元」當作「變成 5 元」，導致運算邏輯錯誤。",
       "scenario": "【在文具店挑選筆記本時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原價應為 9 × 5 = 45 元，折價後為 45 - 5 = 40 元。小華有 50 元，50 - 40 = 10 元。",
       "answer_index": 3,
       "options": [

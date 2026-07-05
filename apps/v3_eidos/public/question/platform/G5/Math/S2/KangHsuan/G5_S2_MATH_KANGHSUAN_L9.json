@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能會想用 100 分鐘等於一小時的錯誤十進位概念去換算時間，把 270 分鐘算成 2 小時 70 分鐘；或是沒有看清楚題目要問『小時又分鐘』而單純選了時間總和 270 分鐘。",
       "scenario": "旅行規劃（距離與時間） (情境 4)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "45 分鐘 × 6 = 270 分鐘。1 小時是 60 分鐘，我們用 270 ÷ 60 = 4 餘 30。所以總共是 4 小時又 30 分鐘。",
       "answer_index": 0,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "學生常會忘記將「小華」本人算進去，誤以為只有 3 個人，導致計算成 48 ÷ 3 = 16。",
       "scenario": "【在社區公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總片數為 4 × 12 = 48 片，人數共有 4 人（小華 + 3 位朋友），故 48 ÷ 4 = 12 片。",
       "answer_index": 0,
       "options": [
@@ -204,7 +204,7 @@
       "commonMisconception": "學生可能先計算總共需要幾個箱子 (72 ÷ 8 = 9)，然後誤將箱子數量減去已裝箱數量，忽略了單位是「本」而非「箱」。",
       "scenario": "【在學校圖書館借書時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "已裝箱的數量為 5 × 8 = 40 本，總數減去已裝箱數為 72 - 40 = 32 本。",
       "answer_index": 2,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生可能會誤以為題目問的是「剩下的禮盒數」，或是直接拿 48 減去賣出的禮盒數 5，忽略了餅乾與禮盒的單位換算。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算 5 個禮盒共用了多少餅乾：6 × 5 = 30 個。接著計算剩下的餅乾：48 - 30 = 18 個。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生常會忽略計算「經過的時間長度」，直接將題目出現的數字 3 和 6 進行錯誤的加減或乘法運算。",
       "scenario": "【在社區遊樂場時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "從下午 3 點到 6 點共經過了 3 小時（6 - 3 = 3），每小時 48 位，故 48 × 3 = 144 位。",
       "answer_index": 0,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生可能誤以為計算結果 72 就是答案，或者將 60 除以 8 造成整除困難，顯示對「總量減去已用量」的觀念掌握不穩。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總容量：8 × 9 = 72 個位置。再減去已放入的數量：72 - 60 = 12 個空位。",
       "answer_index": 2,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生常直接忽略括號，或對「取概數」的方向感到混淆，誤以為一定要無條件捨去。",
       "scenario": "【在家庭超市採購時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "估算通常將數字取整數方便計算。85元接近90元，兩瓶35元合計70元，將複雜數值轉化為容易心算的整數組合，能更精確掌握剩餘預算。",
       "answer_index": 2,
       "options": [

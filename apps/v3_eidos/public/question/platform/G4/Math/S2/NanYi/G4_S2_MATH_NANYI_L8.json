@@ -78,7 +78,7 @@
       "commonMisconception": "",
       "scenario": "計算相框玻璃",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "15 * 15 = 225。 225 * 1 = 225。",
       "answer_index": 0,
       "options": [
@@ -204,7 +204,7 @@
       "commonMisconception": "",
       "scenario": "生活中的面積選購",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "窗戶面積 = 2 * 1.5 = 3。故需 3 以上才夠。",
       "answer_index": 2,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易忘記減去「被借走的書櫃」數量，直接計算 4 × 6 × 12，得出 288 的錯誤答案。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總書櫃數為 4 個，借出 1 個後剩下 3 個。每個書櫃有 6 層，每層 12 本，所以一個書櫃有 6 × 12 = 72 本。剩下的書為 72 × 3 = 216 本。",
       "answer_index": 2,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生可能會忽略題目要求的是「總人次」，只單純計算工人的減少量，或是被工人與志工的數字混淆，忘記先將兩者相加。",
       "scenario": "【在社區遊樂場時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每天總共需要 4 + 2 = 6 人次。提早 2 天完成，代表節省了 2 天的人力，計算方式為 6 × 2 = 12 人次。",
       "answer_index": 0,
       "options": [

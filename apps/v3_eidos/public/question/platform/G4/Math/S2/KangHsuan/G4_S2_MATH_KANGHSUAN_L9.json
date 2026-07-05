@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "鋪設地毯",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "面積 = 6 * 6 = 36。 總價 = 36 * 500 = 18000。",
       "answer_index": 2,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "",
       "scenario": "牆面油漆扣除計畫",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "總面積 = 20。 扣除窗戶 = 2。 剩餘 = 18。",
       "answer_index": 1,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "拼接大地磚",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "一個面積 = 4。 4 個總面積 = 16。 或者看邊長變為 4。 4 * 4 = 16。",
       "answer_index": 1,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "客廳家具佈置",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "120 * 80 = 9600。",
       "answer_index": 0,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生容易忘記先扣除壞掉的蘋果，直接用 (8×3)÷2 = 12，忽略了減法步驟的邏輯連結。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算蘋果總數：8 × 3 = 24 顆。扣除壞掉的 4 顆：24 - 4 = 20 顆。最後除以每人吃的數量：20 ÷ 2 = 10 人。",
       "answer_index": 1,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易將「層數」直接誤認為「總書數」，或者直接計算 48 - 6 = 42，誤解了題目中「每層 6 本」的乘法關係。",
       "scenario": "【在校園圖書館整理書籍時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算已整理的書：3 × 6 = 18 本。再計算剩下的書：48 - 18 = 30 本。",
       "answer_index": 2,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生常因為計算錯誤或遺漏「小華自己的數量」，只計算小美的 70 ÷ 7 = 10，忽略了題目要求的是「全部的草莓」。",
       "scenario": "【在假日農場採草莓時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "小美摘了 35 × 2 = 70 顆。兩人總共摘了 35 + 70 = 105 顆。分裝到 7 個盒子：105 ÷ 7 = 15 顆。",
       "answer_index": 3,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生可能在計算總座位數時出現乘法錯誤，或是在減法時誤將 48 當作 40，導致計算結果偏差。",
       "scenario": "【在社區遊樂場時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總座位數：8 乘以 6 等於 48 個座位。再減去小朋友人數：48 減 35 等於 13，所以剩下 13 個空位。",
       "answer_index": 3,
       "options": [
@@ -603,7 +603,7 @@
       "commonMisconception": "學生常因為計算過程中出現數字 24，而直接將 24 除以 4，忽略了必須先計算剩餘總量的步驟。",
       "scenario": "【在社區圖書館閱讀時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算總書量：6 × 12 = 72 本。移走後剩餘：72 - 24 = 48 本。平分到 4 個櫃子：48 ÷ 4 = 12 本。",
       "answer_index": 1,
       "options": [

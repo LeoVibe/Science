@@ -14,7 +14,7 @@
       "question": "2 公斤 500 公克等於幾公克？",
       "scenario": "單位換算",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "2kg = 2000g. 2000 + 500 = 2500g.",
       "answer_index": 0,
       "options": [
@@ -222,7 +222,7 @@
       "question": "做餅乾需要麵粉 450g、糖 200g、奶油 250g。這些材料合起來是多少公克？是多少公斤？",
       "scenario": "食材準備",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "450 + 200 + 250 = 900g. 未滿 1000g (1kg)。",
       "answer_index": 0,
       "options": [
@@ -331,7 +331,7 @@
       "commonMisconception": "學生可能只看數字大小，覺得1800比2大，而忽略單位換算，導致認為1800公克的橘子比較重。也可能不清楚1公斤等於1000公克這個換算關係。",
       "scenario": "小明去市場買水果。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "1公斤等於1000公克，所以2公斤等於2000公克。比較2000公克（蘋果）和1800公克（橘子），2000公克比1800公克重，因此蘋果比較重。",
       "answer_index": 2,
       "options": [
@@ -530,7 +530,7 @@
       "commonMisconception": "學生可能忽略「做兩個」的需求，只計算一個蛋糕的材料量。或是將0.1公斤誤認為1公斤（忽略小數點），導致奶油的量計算錯誤。也可能只加數字而忽略單位換算。",
       "scenario": "小雅在看一本食譜。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "首先將奶油的單位換算成公克：0.1公斤 = 100公克。接著，因為要做兩個小蛋糕，所以每種材料的量都要乘以2。奶油：100公克 × 2 = 200公克。糖：150公克 × 2 = 300公克。雞蛋雖然是食譜的一部分，但題目只問奶油和糖的總量。",
       "answer_index": 2,
       "options": [

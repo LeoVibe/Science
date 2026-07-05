@@ -65,7 +65,7 @@
       "commonMisconception": "",
       "scenario": "高鐵交通時刻表應用",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "計算經過時間：16 時 20 分減去 15 時 10 分。小時相減為 1，分鐘相減為 10，故為 1 小時 10 分。",
       "answer_index": 3,
       "options": [
@@ -140,7 +140,7 @@
       "commonMisconception": "",
       "scenario": "運動步數累計統計報表",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "先計算週一至週五的總長：2 × 5 = 10 公里。再加上週六的 5 公里，合計一共跑了 15 公里。",
       "answer_index": 3,
       "options": [
@@ -223,7 +223,7 @@
       "commonMisconception": "",
       "scenario": "電視節目前後時段表",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "兩個節目總時長為 30 + 45 = 75 分鐘，即 1 小時 15 分鐘。 14 點加上 1 時 15 分等於 15:15 播完。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生可能只讀取上午的總計（93包）或下午的總計（115包），沒有將兩者相加，或是計算錯誤。",
       "scenario": "【在學校校慶園遊會時】學校舉辦了一年一度的校慶園遊會，各班都擺攤販賣特色商品。小芬班上賣的是親手製作的餅乾，他們記錄了上午和下午的銷售數量，想看看哪段時間生意比較好。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這題需要將上午的總銷售量和下午的總銷售量加起來。上午總計賣出93包，下午總計賣出115包，所以93 + 115 = 208包。",
       "answer_index": 1,
       "options": [
@@ -712,7 +712,7 @@
       "commonMisconception": "學生可能被「8 排」這個多餘資訊誤導，直接計算 8 × 9 × 5，或是只計算了單一隔層的數量。",
       "scenario": "【在社區圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "每排書架有 9 個隔層，每個隔層 5 本，所以一排共有 9 × 5 = 45 本。搬動 3 排，即 45 × 3 = 135 本。",
       "answer_index": 0,
       "options": [
@@ -811,7 +811,7 @@
       "commonMisconception": "學生習慣直接進行除法運算，容易忽略「餘數也需要空間」的現實限制，導致無條件捨去法誤用。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "80 除以 9 等於 8 餘 8。這表示裝滿 8 個箱子後，還剩下 8 本書。為了裝下剩下的 8 本書，必須再多準備一個箱子，因此總共需要 8 + 1 = 9 個箱子。選項 2 是錯誤的，因為 9 個箱子最多裝 81 本，正好裝得下。",
       "answer_index": 0,
       "options": [
@@ -876,7 +876,7 @@
       "question": "觀察班級人數長條圖：甲班有 12 人。乙班的長條比甲班還要高出 3 格（每格代表一人）。請問乙班共有幾人？",
       "scenario": "班級人數長條圖報讀",
       "quality_level": "QL1",
-      "cqi_score": 6.25,
+      "cqi_score": 7.75,
       "explanation": "根據圖意，乙班的人數是甲班的人數再加上多出的 3 格，即 12 + 3 = 15 人。",
       "answer_index": 0,
       "options": [

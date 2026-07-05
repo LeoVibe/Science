@@ -90,7 +90,7 @@
       "commonMisconception": "",
       "scenario": "小數減法",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "2.0 - 1.3 = 0.7 公尺。",
       "answer_index": 1,
       "options": [
@@ -140,7 +140,7 @@
       "commonMisconception": "",
       "scenario": "位值概念",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "小數點右邊第一位稱為十分位。",
       "answer_index": 3,
       "options": [
@@ -465,7 +465,7 @@
       "commonMisconception": "學生可能將小數點後的數字讀成個位數或將其與分數混淆，例如讀成「一百三十五又六」。",
       "scenario": "讀取身高",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "小數的讀法是整數部分照常讀，小數點讀作「點」，小數點後面的數字則依序讀出。所以 135.6 讀作「一百三十五點六」。",
       "answer_index": 1,
       "options": [
@@ -615,7 +615,7 @@
       "commonMisconception": "學生可能將小數點後的位值與整數的位值混淆，誤認為是「個位」或「十位」，或是誤認為百分位。",
       "scenario": "認識小數點",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "在小數中，小數點後第一位代表十分位，所以「2」代表 2 個十分之一。",
       "answer_index": 1,
       "options": [

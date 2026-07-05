@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "拼接圖形面積",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "一個面積 = 5 * 3 = 15。兩個就是 15 * 2 = 30。",
       "answer_index": 1,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "",
       "scenario": "牆壁油漆估價",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "牆面 = 4 * 3 = 12。 窗戶 = 1 * 1 = 1。 需油漆部分 = 12 - 1 = 11。",
       "answer_index": 1,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生常會分別計算後相加，或誤以為是要將兩種水果總數加總後再除以每串的總顆數，忽略了限制條件是由較少的食材決定的。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "草莓可做 30÷3=10 串；葡萄可做 25÷2=12.5 串（取整數 12）。受限於草莓數量較少，最多只能完成 10 串。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生常因為看到數字 5 和 4 產生計算干擾，或是誤以為「分裝」是指將 5 盒直接分配，而忽略了中間需要先求出總數的步驟。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算草莓總數：8 × 5 = 40 顆。接著計算可分裝袋數：40 ÷ 4 = 10 袋。",
       "answer_index": 3,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生常會分別算出總價後再相減，或是誤將所有單價相加後再計算，忽略了題意要求的是「差額」的倍數關係。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "利用分配律的概念，先算出蘋果與橘子的單價差（25-18=7），再乘以數量 4，即可得到總差額 28 元。",
       "answer_index": 3,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生常會遺漏「人數」這個乘數，只根據題目中出現的數字進行簡單運算，忽略了情境中涉及多個個體的需求。",
       "scenario": "【在週末公園騎腳踏車時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "租借費用受「人數」與「時間」兩個變數影響。每人每小時 60 元，兩人共 120 元，騎 3 小時則為 120 × 3，即 60 × 2 × 3。",
       "answer_index": 1,
       "options": [

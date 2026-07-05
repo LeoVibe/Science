@@ -14,7 +14,7 @@
       "question": "一個圓的半徑是 5 公分。請問它的直徑是多少公分？",
       "scenario": "圓的半徑直徑",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "直徑 = 半徑 × 2 = 5 × 2 = 10 公分。",
       "answer_index": 0,
       "options": [
@@ -89,7 +89,7 @@
       "question": "小英將 4 個相同的硬幣排成一排。如果一個硬幣的半徑是 2 公分。這排硬幣總長是多少？",
       "scenario": "硬幣排列",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "一個硬幣直徑 = 2 × 2 = 4。4 個硬幣 = 4 × 4 = 16 公分。",
       "answer_index": 3,
       "options": [
@@ -214,7 +214,7 @@
       "question": "遙控車繞著半徑 3 公尺的圓形賽道跑。請問車子離圓心的距離始終是多少？",
       "scenario": "圓形軌道",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "圓的定義就是到圓心距離（半徑）處處相等。",
       "answer_index": 0,
       "options": [
@@ -430,7 +430,7 @@
       "commonMisconception": "學生可能只看數字大小，而沒有連結到半徑長度與圓形大小的關係，或者誤以為半徑越小圓越大。",
       "scenario": "玩呼拉圈",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "圓的半徑越長，圓就越大。小華的呼拉圈半徑是35公分，比小美的30公分長，所以小華的呼拉圈比較大。",
       "answer_index": 1,
       "options": [
@@ -678,7 +678,7 @@
       "commonMisconception": "學生可能只看數字大小，沒有連結到直徑長度與圓形大小的關係，或誤以為直徑越小圓越大。",
       "scenario": "選擇時鐘",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "圓的直徑越長，圓的面積就越大，看起來也就越大。30公分直徑的時鐘比20公分直徑的時鐘大。",
       "answer_index": 0,
       "options": [
@@ -778,7 +778,7 @@
       "commonMisconception": "學生可能誤以為最寬的地方就是半徑，選擇50公分，或將半徑與直徑的關係弄錯。",
       "scenario": "圓形餐桌",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "圓形餐桌最寬的地方就是它的直徑。直徑是半徑的兩倍，所以是 50 × 2 = 100公分。",
       "answer_index": 3,
       "options": [

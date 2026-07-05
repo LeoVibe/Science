@@ -39,7 +39,7 @@
       "question": "80 顆糖，每 2 顆裝一袋，4 袋裝一盒。共可裝幾盒？",
       "scenario": "連除計算",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "80 ÷ 2 = 40 袋。40 ÷ 4 = 10 盒。",
       "answer_index": 3,
       "options": [
@@ -321,7 +321,7 @@
       "question": "小英把一個數乘以 6，卻看成除以 6，得到答案 10。正確答案應該是多少？",
       "scenario": "逆向情境還原",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "反推原本的數：10 × 6 = 60。正確計算：60 × 6 = 360。",
       "answer_index": 2,
       "options": [
@@ -713,7 +713,7 @@
       "commonMisconception": "學生可能只執行第一步驟的加法（27張），或將所有數字都進行加法運算（35張），也可能只考慮星期一的貼紙並減去弄丟的（4張）。",
       "scenario": "【在佳佳收集貼紙時】她星期一收集了 12 張貼紙，星期二又收集了 15 張。不小心，她弄丟了其中的 8 張。",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "首先，計算佳佳總共收集到的貼紙數量：12 張 + 15 張 = 27 張。接著，減去弄丟的貼紙數量：27 張 - 8 張 = 19 張。",
       "answer_index": 0,
       "options": [

@@ -21,9 +21,9 @@
       "answer_index": 0,
       "options": [
         "需要想要",
+        "現金刷卡",
         "收入支出",
-        "品質價格",
-        "現金刷卡"
+        "品質價格"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -43,11 +43,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "鉛筆是完成學習活動會用到的用品。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "閃亮吊飾",
         "上課鉛筆",
         "造型貼紙",
+        "閃亮吊飾",
         "收藏卡片"
       ],
       "taxonomy": "literal",
@@ -68,11 +68,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "口渴時白開水較能滿足基本需要。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "彩色汽水",
         "加糖奶茶",
         "瓶裝白水",
+        "彩色汽水",
         "限量飲料"
       ],
       "taxonomy": "inferential",
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "雨衣能避免淋濕並維持通學安全。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "買新髮夾",
         "買造型筆",
-        "買遊戲卡",
-        "買新雨衣"
+        "買新雨衣",
+        "買新髮夾",
+        "買遊戲卡"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -121,8 +121,8 @@
       "answer_index": 0,
       "options": [
         "理性判斷",
-        "衝動購物",
         "盲目跟風",
+        "衝動購物",
         "隨便花錢"
       ],
       "taxonomy": "inferential",
@@ -143,12 +143,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先列不可少項目，能讓有限預算先滿足需要。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "隨意消費",
         "優先排序",
-        "廣告宣傳",
-        "收據保存"
+        "收據保存",
+        "隨意消費",
+        "廣告宣傳"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -170,10 +170,10 @@
       "explanation": "先確認是否真正需要，可減少跟風和衝動花費。",
       "answer_index": 2,
       "options": [
-        "記帳清楚",
+        "收據保存",
         "儲蓄增加",
         "跟風消費",
-        "收據保存"
+        "記帳清楚"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -196,8 +196,8 @@
       "answer_index": 3,
       "options": [
         "支出欄位",
-        "餘額欄位",
         "備註欄位",
+        "餘額欄位",
         "收入欄位"
       ],
       "taxonomy": "literal",
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "花錢購買點心會使餘額減少，所以是支出。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "支出項目",
         "收入項目",
         "存款項目",
-        "借款項目"
+        "借款項目",
+        "支出項目"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "記帳能看出錢從哪裡來，又花到哪裡去。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "商品產地",
         "金錢流向",
-        "店員姓名",
-        "包裝顏色"
+        "商品產地",
+        "包裝顏色",
+        "店員姓名"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "零食多屬可調整支出，檢討後較能避免超支。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "早餐花費",
         "交通花費",
         "文具花費",
-        "零食花費",
-        "早餐花費"
+        "零食花費"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "一百加二十再扣三十，最後剩九十元。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "七十元",
         "八十元",
-        "一百元",
-        "九十元"
+        "七十元",
+        "九十元",
+        "一百元"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -318,12 +318,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "固定記錄較不易遺漏，才能看清收支狀況。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "每天記錄",
-        "月底猜測",
         "只記收入",
-        "忘了再說"
+        "忘了再說",
+        "每天記錄",
+        "月底猜測"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -343,12 +343,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "餘額是收入扣除支出後留下的金額。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "收入合計",
-        "最後餘額",
+        "購買清單",
         "支出合計",
-        "購買清單"
+        "最後餘額",
+        "收入合計"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "固定存錢並有目標，是有計畫的儲蓄。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "衝動消費",
         "借錢購物",
-        "計畫儲蓄",
-        "隨手花用"
+        "衝動消費",
+        "隨手花用",
+        "計畫儲蓄"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "先留下固定金額再消費，有助於穩定儲蓄。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "先買後借",
-        "先花後算",
         "先玩後記",
-        "先存後花"
+        "先存後花",
+        "先花後算",
+        "先買後借"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,12 +418,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "儲蓄計畫可以依實際需要討論調整。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "支出不用",
         "計畫可調",
         "計畫無用",
-        "需要消失",
-        "支出不用"
+        "需要消失"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -443,11 +443,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "儲蓄和必要消費都重要，應合理分配。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "全都花掉",
         "合理分配",
         "只買玩具",
+        "全都花掉",
         "不用記帳"
       ],
       "taxonomy": "inferential",
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "小金額持續累積，也能逐漸形成可用金額。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "馬上花完",
-        "忘記金額",
         "增加衝動",
-        "逐步累積"
+        "逐步累積",
+        "忘記金額"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "儲蓄可在未來需要或臨時狀況時使用。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "應付需要",
-        "製造浪費",
+        "減少紀錄",
         "增加炫耀",
-        "減少紀錄"
+        "應付需要",
+        "製造浪費"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -543,11 +543,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "預算有限時選一項，通常就要放棄另一項。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "收入增加",
-        "必有取捨",
         "標章改變",
+        "必有取捨",
         "價格消失"
       ],
       "taxonomy": "inferential",
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "回家交通屬於當下必要支出，應先保留。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "買球費用",
-        "貼紙費用",
         "飲料費用",
-        "車資費用"
+        "貼紙費用",
+        "車資費用",
+        "買球費用"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "明天上課需要作業簿，應優先處理。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "作業簿本",
+        "造型書籤",
         "漫畫新書",
         "角色貼紙",
-        "造型書籤"
+        "作業簿本"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -643,11 +643,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "有限預算要先安排重要用途，再考慮娛樂。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "包裝設計",
-        "預算限制",
         "商品品牌",
+        "預算限制",
         "攤位顏色"
       ],
       "taxonomy": "inferential",
@@ -668,12 +668,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "使用紙鈔和硬幣直接付款，就是現金付款。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "電子票證",
-        "信用卡片",
+        "現金付款",
         "行動支付",
-        "現金付款"
+        "電子票證",
+        "信用卡片"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -696,8 +696,8 @@
       "answer_index": 0,
       "options": [
         "電子票證",
-        "現金付款",
         "商品禮券",
+        "現金付款",
         "信用卡片"
       ],
       "taxonomy": "literal",
@@ -718,10 +718,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "信用卡要妥善保管並按帳單繳款，避免風險。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "隨意外借",
         "妥善保管",
+        "隨意外借",
         "不用繳款",
         "天天刷滿"
       ],
@@ -743,12 +743,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "禮券多半要在指定店家或範圍內使用。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "永遠免費",
         "不用找零",
-        "指定使用",
-        "人人可印"
+        "人人可印",
+        "指定使用"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "行動支付會連結帳戶或卡片，仍是花自己的錢。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "空氣裡面",
-        "廣告裡面",
         "店員口袋",
-        "帳戶卡片"
+        "空氣裡面",
+        "帳戶卡片",
+        "廣告裡面"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -796,8 +796,8 @@
       "answer_index": 0,
       "options": [
         "告知家人",
-        "假裝沒事",
         "繼續找錢",
+        "假裝沒事",
         "再買零食"
       ],
       "taxonomy": "literal",
@@ -818,11 +818,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不論付款工具如何，都要先確認金額和需要。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "店員髮型",
         "金額需要",
         "廣告音樂",
+        "店員髮型",
         "門口顏色"
       ],
       "taxonomy": "inferential",
@@ -843,11 +843,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "購物時要同時比較價格、品質與實際需要。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "顏色明星",
-        "廣告口號",
         "價格品質",
+        "廣告口號",
+        "顏色明星",
         "店員衣服"
       ],
       "taxonomy": "inferential",
@@ -893,12 +893,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "面對廣告應先想需要、預算與商品是否合適。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "借錢下單",
         "先想需要",
-        "立刻付款",
         "跟風購買",
-        "借錢下單"
+        "立刻付款"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -918,12 +918,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "購買前確認合用，能減少買錯尺寸的問題。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
+        "店名難記",
         "收入減少",
-        "尺寸不合",
         "收據太長",
-        "店名難記"
+        "尺寸不合"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -943,12 +943,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "安全標章和年齡標示有助於判斷玩具是否安全。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "顏色搭配",
         "明星代言",
-        "商品安全",
-        "店面大小"
+        "店面大小",
+        "商品安全"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "收據能證明購買時間與金額，處理問題時有幫助。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "裝飾材料",
-        "遊戲卡紙",
         "廣告傳單",
-        "購買證明"
+        "購買證明",
+        "遊戲卡紙"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -993,11 +993,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "剛買就有瑕疵且有證明，可向店家說明處理。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "責怪同學",
         "詢問店家",
         "丟進垃圾",
-        "責怪同學",
         "立刻拆壞"
       ],
       "taxonomy": "applied",
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "食品已開封並吃過，通常不適合任意退貨。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "全額退錢",
-        "通常不退",
         "加倍賠償",
-        "免費再送"
+        "免費再送",
+        "通常不退",
+        "全額退錢"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 5.25,
       "explanation": "1950 是常見的消費者服務專線號碼。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "一一零",
         "一九九九",
-        "一九五零",
-        "一一九"
+        "一一九",
+        "一九五零"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "過期食品可能影響健康，不應因便宜就購買。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "馬上搶買",
-        "買回分享",
         "藏進書包",
-        "不要購買"
+        "不要購買",
+        "買回分享",
+        "馬上搶買"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1093,11 +1093,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "閱讀標示能了解商品內容與安全資訊。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "改變店名",
         "了解商品",
         "增加排隊",
-        "改變店名",
         "保證中獎"
       ],
       "taxonomy": "inferential",
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "沒有清楚標示和標章時，應先確認安全再決定。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "立刻付款",
-        "確認標示",
+        "偷偷帶走",
         "拆開試玩",
-        "偷偷帶走"
+        "確認標示"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1143,11 +1143,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "自備杯能減少一次性垃圾，符合環保消費。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "浪費資源",
-        "衝動消費",
         "環保消費",
+        "衝動消費",
+        "浪費資源",
         "過度包裝"
       ],
       "taxonomy": "literal",
@@ -1168,12 +1168,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "自備餐具可減少一次性用品造成的垃圾。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "收入增加",
-        "標章消失",
+        "垃圾增加",
         "記帳錯誤",
-        "垃圾增加"
+        "標章消失",
+        "收入增加"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "環保標章可協助選擇較重視環境的商品。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "環境影響",
         "店員年齡",
+        "廣告音量",
         "貨架高度",
-        "廣告音量"
+        "環境影響"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "二手交換能延長物品使用，減少浪費。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "增加浪費",
         "減少浪費",
+        "取消記帳",
         "提高價格",
-        "取消記帳"
+        "增加浪費"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "只買需要的數量並減少包裝，可避免浪費。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "整盒組合",
+        "加買貼紙",
         "豪華包裝",
-        "單支簡裝",
-        "加買貼紙"
+        "單支簡裝"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

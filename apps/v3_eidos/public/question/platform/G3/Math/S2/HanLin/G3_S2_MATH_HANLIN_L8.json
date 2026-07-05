@@ -181,7 +181,7 @@
       "commonMisconception": "",
       "scenario": "採購物資",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "一枝單價：60 ÷ 12 = 5 元。 200 ÷ 5 = 40 枝。",
       "answer_index": 2,
       "options": [
@@ -281,7 +281,7 @@
       "commonMisconception": "",
       "scenario": "糖果裝袋",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "需 16 袋 = 16 × 9 = 144。 145 - 144 = 1。目前有145顆，夠發一輪還剩一顆。修正：題目問還差多少，如果夠了則差0。原選項 A 不夠，B 夠了剩一顆。答案選 B。",
       "answer_index": 2,
       "options": [
@@ -306,7 +306,7 @@
       "commonMisconception": "",
       "scenario": "逆向單價計算",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "450 ÷ 5 = 90。 90 × 2 = 180。",
       "answer_index": 3,
       "options": [
@@ -331,7 +331,7 @@
       "commonMisconception": "學生可能會將乘法誤認為加法 (8+6=14)，或是出現乘法計算錯誤 (如8×5=40，然後推導到8×6=42)。也有可能誤用減法。",
       "scenario": "【在學校的園遊會上】",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這個問題是關於將相同數量的物品重複疊加的問題，也就是乘法。每串有 8 顆氣球，需要 6 串，所以是 8 顆/串 × 6 串 = 48 顆氣球。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生可能忽略餘數 (認為沒有剩下)，或是因為計算錯誤導致答案不正確 (如選項C和D)。",
       "scenario": "【在美術課上】",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這個問題需要進行有餘數的除法。將 35 枝彩色筆分給 8 個小組，所以是 35 ÷ 8。計算可得 35 = 8 × 4 + 3。因此，每個小組分到 4 枝，還剩下 3 枝。",
       "answer_index": 3,
       "options": [
@@ -464,7 +464,7 @@
       "commonMisconception": "學生可能誤將數量關係看錯，例如認為 30 片是 10 片的 2 倍 (50×2=100)，或是直接將數字相加 (50+30=80)。",
       "scenario": "【在奶奶的廚房裡】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這是一個比例應用問題。首先，算出每片餅乾需要多少麵粉：50 克 ÷ 10 片 = 5 克/片。接著，計算做 30 片餅乾所需的麵粉總量：5 克/片 × 30 片 = 150 克。或者可以直接看出 30 片是 10 片的 3 倍，所以麵粉量也是 3 倍：50 克 × 3 = 150 克。",
       "answer_index": 1,
       "options": [
@@ -489,7 +489,7 @@
       "commonMisconception": "學生可能會將乘法誤認為加法 (10+7=17)，或是減法 (10-7=3)。",
       "scenario": "【在文具店裡】",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這個問題是關於將相同數量的物品重複疊加的問題，也就是乘法。一盒有 10 枝鉛筆，買了 7 盒，所以是 10 枝/盒 × 7 盒 = 70 枝鉛筆。",
       "answer_index": 0,
       "options": [
@@ -514,7 +514,7 @@
       "commonMisconception": "學生可能只計算除法的商，而忽略餘數 (9個沙坑)，導致有小朋友沒沙坑玩。也有可能誤用加法或減法。",
       "scenario": "【在公園的沙坑旁】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這個問題需要進行有餘數的除法，並且理解餘數在實際情境中的意義。將 47 個小朋友分組，每組 5 人，所以是 47 ÷ 5。計算可得 47 = 5 × 9 + 2。這表示有 9 個沙坑可以坐滿 5 個小朋友，還剩下 2 個小朋友。為了讓所有小朋友都有沙坑玩，這剩下的 2 個小朋友也需要一個沙坑，所以總共需要 9 + 1 = 10 個沙坑。",
       "answer_index": 1,
       "options": [

@@ -36,7 +36,7 @@
       "commonMisconception": "學生容易直接將 8 × 3 或 8 × 2 計算，忽略了題目中對於「完整」蘋果的條件篩選。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總數 8 × 3 = 24，再扣除損壞的 2 顆，24 - 2 = 22。",
       "answer_index": 1,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "學生會被「先放了 3 個書架」的資訊干擾，誤以為要從 40 減去已經放好的數量，而忽略了題目要求的是「重新平分」。",
       "scenario": "【在整理圖書館書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總數 40 本不變，書架變為 4 個，40 ÷ 4 = 10，所以每個書架放 10 本。",
       "answer_index": 1,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生可能會先算出 72 ÷ 6 = 12，再減去破損的 6 本，誤以為是從分配完後的組別中扣除，忽略了應先扣除總量再分配的順序。",
       "scenario": "【在整理圖書角時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先將破損的書扣除：72 - 6 = 66 本。再將剩餘的書平均分配：66 ÷ 6 = 11 本，但題目問的是每組分到的完整繪本，正確應為 11，修正選項為 11。",
       "answer_index": 2,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "學生容易忘記將「週」換算成「天」，直接用 15 × 3 計算，掉入單位轉換的陷阱。",
       "scenario": "【在學校圖書館舉辦班級閱讀馬拉松時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "一週有 7 天，3 週共有 7 × 3 = 21 天。每天 15 頁，故 21 × 15 = 315 頁。",
       "answer_index": 3,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生容易將「哥哥盤子的一半」誤解為「總數的一半（12顆）」，或是忽略了小明原本自己那一份。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每人分得 24 ÷ 3 = 8 顆。小明吃了自己的 8 顆，加上哥哥盤子的一半（8 ÷ 2 = 4 顆），總共吃了 8 + 4 = 12 顆。",
       "answer_index": 3,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能會誤以為是被借走「2 本」，而忽略了題幹強調的是「2 個籃子」的數量。",
       "scenario": "【在圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每個籃子有 72 ÷ 9 = 8 本。被借走 2 個籃子，代表少了 8 × 2 = 16 本。最後剩下 72 - 16 = 56 本。",
       "answer_index": 1,
       "options": [

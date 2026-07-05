@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "秒的換算",
       "quality_level": "QL1",
-      "cqi_score": 4.25,
+      "cqi_score": 5.75,
       "explanation": "3 × 60 = 180 秒。",
       "answer_index": 0,
       "options": [
@@ -65,7 +65,7 @@
       "commonMisconception": "",
       "scenario": "時間點計算",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "50 + 20 = 70 分 = 1 時 10 分。 4+1 = 5 時。故為 5:10。",
       "answer_index": 2,
       "options": [
@@ -115,7 +115,7 @@
       "commonMisconception": "",
       "scenario": "電視節目",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "40 + 30 = 70 = 1 時 10 分。 5+1 = 6 時。",
       "answer_index": 0,
       "options": [
@@ -315,7 +315,7 @@
       "commonMisconception": "學生可能在計算時間差時，將8點10分減去7點50分誤算為10分鐘，或是忽略了時間的進位關係，直接用10-5=5分鐘，導致選錯。",
       "scenario": "【在小明家裡，準備上學時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "小明起床時間：7點15分。\n梳洗和換衣服：7點15分 + 20分鐘 = 7點35分。\n吃早餐：7點35分 + 15分鐘 = 7點50分。\n小明必須在8點10分出門。\n吃完早餐到出門的時間：8點10分 - 7點50分 = 20分鐘。\n所以，他還有20分鐘可以檢查書包。",
       "answer_index": 0,
       "options": [
@@ -348,7 +348,7 @@
       "commonMisconception": "學生可能將「下午1點」誤認為是鋼琴課結束的時間，或是忘記扣除休息的30分鐘，導致計算錯誤。",
       "scenario": "【在媽媽為小華安排的一日行程表上】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "小華必須在下午1點去圖書館。如果他休息30分鐘，那麼他最晚必須在下午1點 - 30分鐘 = 中午12點30分結束鋼琴課。因為鋼琴課是上午9點開始，所以鋼琴課的長度是從上午9點到中午12點30分。",
       "answer_index": 0,
       "options": [
@@ -423,7 +423,7 @@
       "commonMisconception": "學生可能在計算天數時，把出發日和結束日都算進去，導致多算一天（15+8=23，誤選7月23日），或是只算中間的天數，導致少算一天。",
       "scenario": "【在家庭會議上，討論暑假旅行計畫時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "從7月15日出發，玩8天。這8天包含出發日。所以是15, 16, 17, 18, 19, 20, 21, 22。第8天是7月22日，這天就是他們回家的日子。",
       "answer_index": 0,
       "options": [
@@ -539,7 +539,7 @@
       "commonMisconception": "學生可能在計算時間時，將下午2點30分誤解為2小時30分鐘，或是對下午時間的加法產生混淆，導致計算錯誤。也可能誤認為3小時是整數，而忽略了30分鐘。",
       "scenario": "【在小君的生日派對上】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "派對開始時間：下午2點30分。\n派對長度：3小時。\n2點30分 + 3小時 = 5點30分。\n所以，派對會在下午5點30分結束。小文說的對。",
       "answer_index": 2,
       "options": [
@@ -780,7 +780,7 @@
       "commonMisconception": "學生可能在數天數時出錯，例如從星期二開始算第一天，導致日期錯誤；或將星期五誤認為是星期四，導致日期推算錯誤。",
       "scenario": "在學校公佈欄上",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "今天是星期二，日期是5月7日。星期三是5月8日，星期四是5月9日，星期五就是5月10日。所以校外教學的日期是5月10日。",
       "answer_index": 1,
       "options": [

@@ -21,9 +21,9 @@
       "answer_index": 0,
       "options": [
         "仔細記錄",
-        "隨便亂猜",
+        "跑進店裡",
         "只顧聊天",
-        "跑進店裡"
+        "隨便亂猜"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "斑馬線標示行人穿越位置，提醒人車注意安全。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "車輛停放",
-        "行人穿越",
         "攤販擺設",
-        "招牌展示"
+        "招牌展示",
+        "車輛停放",
+        "行人穿越"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -68,12 +68,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "人行道讓行人有較安全的通行空間。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "車輛競速",
-        "攤位擴張",
+        "廣告張貼",
         "安全通行",
-        "廣告張貼"
+        "車輛競速",
+        "攤位擴張"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "路燈提供夜間照明，使行人和車輛較安全。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "販售飲料",
-        "存放雨傘",
         "播放音樂",
-        "夜間照明"
+        "存放雨傘",
+        "夜間照明",
+        "販售飲料"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -118,12 +118,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "站牌能提供路線、站名與等車位置等資訊。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "查詢路線",
+        "借閱圖書",
         "購買文具",
-        "修理車燈",
-        "借閱圖書"
+        "查詢路線",
+        "修理車燈"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -143,12 +143,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "路名與門牌能協助辨認所在位置和方向。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "挑選商品",
-        "辨認位置",
         "清洗地面",
-        "布置教室"
+        "布置教室",
+        "挑選商品",
+        "辨認位置"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "依標示分類丟棄，才能維護街道整潔與回收。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "丟向牆邊",
-        "交給同學",
         "分類丟棄",
-        "塞進水溝"
+        "丟向牆邊",
+        "塞進水溝",
+        "交給同學"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "平緩斜坡能幫助輪椅、娃娃車等更方便通行。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "增加攤位",
+        "方便通行",
         "放置盆栽",
-        "縮短街名",
-        "方便通行"
+        "增加攤位",
+        "縮短街名"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -218,11 +218,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "水溝能排走雨水，減少路面積水和危險。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "排水防積",
-        "展示玩具",
         "販賣蔬果",
+        "展示玩具",
+        "排水防積",
         "停放單車"
       ],
       "taxonomy": "literal",
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公共長椅讓路過民眾能短暫休息或等候。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "存放貨物",
-        "休息等候",
         "阻擋行人",
-        "封閉巷道"
+        "封閉巷道",
+        "休息等候",
+        "存放貨物"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "圖書館提供閱讀、查資料與借書等學習服務。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "停車收費",
-        "買賣蔬菜",
+        "修補馬路",
         "借書閱讀",
-        "修補馬路"
+        "買賣蔬菜",
+        "停車收費"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "消防栓可供消防人員取水，協助緊急滅火。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "提供座位",
-        "張貼菜單",
         "招呼客人",
-        "緊急滅火"
+        "緊急滅火",
+        "張貼菜單",
+        "提供座位"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -318,12 +318,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "交通號誌分配通行順序，讓人車更有秩序。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "照顧花木",
         "分流通行",
-        "裝飾街角",
         "販售車票",
-        "照顧花木"
+        "裝飾街角"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -343,12 +343,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "招牌能讓路人知道店名、服務或販售內容。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "遮住門牌",
-        "提供資訊",
         "擋住天空",
-        "保存雨水"
+        "保存雨水",
+        "遮住門牌",
+        "提供資訊"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "地圖可用來確認地點位置，安排合適路線。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "改變天氣",
         "購買晚餐",
         "確認路線",
-        "清除噪音"
+        "清除噪音",
+        "改變天氣"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "自行車道提供騎車者較明確且安全的行駛空間。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "行人排隊",
         "店家擺攤",
-        "汽車加油",
-        "單車行駛"
+        "單車行駛",
+        "行人排隊",
+        "汽車加油"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,12 +418,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公布欄能讓居民知道公共通知與活動消息。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "了解公告",
         "借用餐具",
+        "寄放寵物",
         "修補鞋子",
-        "寄放寵物"
+        "了解公告"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -443,11 +443,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "騎樓可提供遮蔽，也要保留行人通行空間。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "飼養家禽",
         "停放汽車",
         "遮雨通行",
-        "飼養家禽",
         "挖掘水井"
       ],
       "taxonomy": "literal",
@@ -468,12 +468,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "學校附近標誌提醒駕駛降低速度並注意行人。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "快速通過",
         "任意停車",
-        "減速慢行",
-        "鳴笛催促"
+        "快速通過",
+        "鳴笛催促",
+        "減速慢行"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "街道觀察要尊重他人物品和公共規範。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "直接拿走",
-        "偷偷交換",
+        "尊重規則",
         "隨意拆開",
-        "尊重規則"
+        "偷偷交換"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -543,12 +543,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "醫院周邊常會出現配合病患和家屬需求的服務。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "天氣變冷",
         "服務需求",
+        "河水漲高",
         "校慶表演",
-        "河水漲高"
+        "天氣變冷"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -568,12 +568,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共通道被占用會迫使行人改走危險路線。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "招牌變亮",
+        "書本變多",
         "雨水增加",
-        "行走危險",
-        "書本變多"
+        "行走危險"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "多種交通設施集中，代表轉乘和移動較便利。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "交通便利",
-        "完全無人",
+        "禁止通行",
         "農田密集",
-        "禁止通行"
+        "交通便利",
+        "完全無人"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -643,12 +643,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "排水口堵塞會讓雨水不易流走，造成積水。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "門牌變新",
         "積水增加",
-        "公車加速",
-        "樹木消失"
+        "門牌變新",
+        "樹木消失",
+        "公車加速"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -668,12 +668,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "發現公共設施損壞，可向合適單位反映維修。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "獨自修電",
-        "故意踢柱",
         "反映維修",
-        "假裝沒事"
+        "假裝沒事",
+        "故意踢柱",
+        "獨自修電"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -693,12 +693,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "訪問長輩能取得地方生活經驗與街道記憶。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "亂編故事",
         "塗改門牌",
-        "關閉店門",
-        "訪問長輩"
+        "訪問長輩",
+        "關閉店門"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "觀察不同時段能看出居民生活活動的變化。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "課桌高度",
         "生活活動",
         "星座名稱",
-        "電池電量",
-        "課桌高度"
+        "電池電量"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -743,10 +743,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "人車距離太近時，行人安全風險會提高。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "店名太短",
         "人車安全",
+        "店名太短",
         "天空太高",
         "課本太重"
       ],
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "斜坡被擋會影響輪椅、娃娃車等使用者通行。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "招牌高度",
         "店員休息",
         "雨水顏色",
-        "輪椅通行",
-        "招牌高度"
+        "輪椅通行"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -793,12 +793,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共藝術常會呈現地方產業、故事或共同記憶。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "考試答案",
-        "天氣預報",
         "商品價格",
-        "地方特色"
+        "地方特色",
+        "天氣預報",
+        "考試答案"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -822,8 +822,8 @@
       "options": [
         "資料零散",
         "路燈太亮",
-        "雨傘太少",
-        "書包太輕"
+        "書包太輕",
+        "雨傘太少"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -847,8 +847,8 @@
       "options": [
         "天氣冷暖",
         "過去產業",
-        "考試分數",
-        "身高變化"
+        "身高變化",
+        "考試分數"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "社區活動中心通常提供居民共同使用與活動。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "只能睡覺",
-        "禁止進入",
         "居民共用",
-        "私人倉庫"
+        "私人倉庫",
+        "禁止進入",
+        "只能睡覺"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -893,12 +893,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "街道活動常有便利與困擾，需要平衡討論。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "全都禁止",
         "只聽店家",
         "完全不管",
-        "兼看利弊"
+        "兼看利弊",
+        "全都禁止"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -918,12 +918,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "居民守規矩並共同維護，街道才更容易整潔。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "居民維護",
+        "鐘聲大小",
         "雲朵排列",
-        "鉛筆長短",
-        "鐘聲大小"
+        "居民維護",
+        "鉛筆長短"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -943,11 +943,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "看懂地圖符號能快速找到公共設施位置。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "改寫街名",
         "尋找設施",
         "測量體溫",
+        "改寫街名",
         "製作早餐"
       ],
       "taxonomy": "inferential",
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "清楚紀錄能讓維修單位了解問題位置與狀況。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "隱藏問題",
-        "增加噪音",
+        "延後處理",
         "清楚反映",
-        "延後處理"
+        "隱藏問題",
+        "增加噪音"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "居民一起討論問題，是參與地方公共事務。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "私人購物",
         "家庭旅行",
-        "個人收藏",
-        "居民參與"
+        "居民參與",
+        "私人購物",
+        "個人收藏"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1021,9 +1021,9 @@
       "answer_index": 0,
       "options": [
         "安全路線",
-        "危險捷徑",
         "車道中央",
-        "陌生小巷"
+        "陌生小巷",
+        "危險捷徑"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1045,10 +1045,10 @@
       "explanation": "分工合作能讓觀察更完整，也較不會漏掉線索。",
       "answer_index": 1,
       "options": [
-        "單人決定",
+        "停止觀察",
         "分工合作",
         "互相推託",
-        "停止觀察"
+        "單人決定"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先用禮貌方式說明影響，能促成較好的改善。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "大聲罵人",
-        "踢倒桌椅",
         "禮貌反映",
-        "故意亂丟"
+        "故意亂丟",
+        "大聲罵人",
+        "踢倒桌椅"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1093,12 +1093,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "人車動線能看出街道空間如何被使用。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "鉛筆品牌",
-        "書包花色",
         "便當口味",
-        "人車動線"
+        "人車動線",
+        "書包花色",
+        "鉛筆品牌"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "照片紀錄能具體呈現積水位置、時間與狀況。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "照片紀錄",
         "漫畫角色",
         "零食包裝",
-        "玩具清單"
+        "玩具清單",
+        "照片紀錄"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1143,11 +1143,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共問題需要先共同討論，了解需求和可行做法。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "互相責怪",
         "各做各的",
         "共同討論",
-        "互相責怪",
         "完全放棄"
       ],
       "taxonomy": "applied",
@@ -1168,11 +1168,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "遮棚座椅能回應等車時遮陽與休息的需求。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "遮棚座椅",
         "拆掉站牌",
         "增加噪音",
-        "遮棚座椅",
         "封閉道路"
       ],
       "taxonomy": "applied",
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "訪問與拍照前應先徵得對方同意，才有禮貌。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "直接錄音",
+        "徵求同意",
         "偷偷拍照",
         "翻看抽屜",
-        "徵求同意"
+        "直接錄音"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "標出設施與安全點，能讓使用者實際判讀路線。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "卡通台詞",
         "設施安全",
-        "偶像名字",
         "糖果口味",
-        "卡通台詞"
+        "偶像名字"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "聽完理由再選擇，才能做出較負責的公共決定。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "閉眼亂選",
         "聽取理由",
-        "取消討論",
-        "嘲笑同學"
+        "嘲笑同學",
+        "閉眼亂選",
+        "取消討論"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

@@ -57,7 +57,7 @@
       "commonMisconception": "學生常會只計算 45 ÷ 8 或 45 ÷ 5，忽略了乘法總量的結構，導致對剩餘空間的判斷錯誤。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算總容量：5層 × 8本 = 40本。題目問的是書架夠放嗎，45本大於40本，所以書架是不夠放的。但若題目情境調整為總數較小，則需確認餘數與容量的關係。依此題條件，正確答案為不夠放，選項B為誘答，正確判斷應為不夠。",
       "answer_index": 2,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "學生常因為沒有加上括號，導致計算順序變成先除後減，忽略了括號代表「優先處理剩餘量」的意義。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算出總共賣出的氣球（45+38=83），從總數減去後（120-83=37），但題目需平均分給3組，正確列式為 (120-45-38)÷3。",
       "answer_index": 3,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生容易被題目中的數字順序誤導，或因為不理解「括號」在混合運算中強制優先順序的功能，而選到錯誤的運算邏輯。",
       "scenario": "【在圖書館整理書籍時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算出已放好的書（35×2=70），再算出剩餘的書（200-70=130），最後將剩餘的書除以6個架子。",
       "answer_index": 1,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "學生可能只計算長椅的座位 (4 × 3 = 12)，而忘記將小板凳的數量先加總再進行乘法運算。",
       "scenario": "【在社區公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每組座位為 (3 + 1) = 4 人，共有 4 組，即 4 × 4 = 16 人。",
       "answer_index": 0,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生常因為題目提到「先放了 10 本」而陷入局部計算，忽略了最終目標是「平均分配」的總量控制。",
       "scenario": "【在整理房間的書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總數 48 本分給 3 個書架，每個書架應有 48 ÷ 3 = 16 本，這是除法的平均概念。",
       "answer_index": 3,
       "options": [

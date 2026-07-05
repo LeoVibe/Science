@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "比較兩袋水果重量",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "1 2/5 + 4/5 = 1 6/5 = 2 1/5。",
       "answer_index": 1,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "裁減緞帶做裝飾",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "3 1/8 - 1 5/8 = 2 9/8 - 1 5/8 = 1 4/8。",
       "answer_index": 0,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "兩段距離的總長",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "第二段 = 8 4/9 + 1 7/9 = 9 11/9 = 10 2/9。 總長 = 8 4/9 + 10 2/9 = 18 6/9。",
       "answer_index": 1,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "路程差距",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "小花 = 1 2/12 = 14/12。 小英 = 17/12。 17/12 - 14/12 = 3/12。故小英多。",
       "answer_index": 0,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "",
       "scenario": "時間累計(用分數表示)",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "1 3/4 + 1 2/4 = 2 5/4 = 3 1/4。",
       "answer_index": 1,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生容易只計算剩餘的錢（51元），卻忽略了單價 55 元的鉛筆盒大於 51 元，或者在加總時算錯乘法後的數值。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算過程：85 + (32 × 2) = 149 元（已花費）。200 - 149 = 51 元（剩下）。若要買 55 元的鉛筆盒，總花費為 149 + 55 = 204 元，超過了 200 元。",
       "answer_index": 1,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易在計算門票總額後，直接將 1500 除以 3，忘記要先扣除門票的費用。",
       "scenario": "【在家庭旅遊規劃時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "門票總價：350 × 4 = 1400 元。剩下的錢：1500 - 1400 = 100 元。冰淇淋單價：100 ÷ 3，但題目敘述「剛好」，代表此處應為整除情境，題目設計為 1500 - 1400 = 100，若改為 3 個冰淇淋共 300 元則為 100 元單價。",
       "answer_index": 3,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能忽略了「平均分配」的基礎運算，或是誤將總數 24 直接加上 3，忽略了分配的過程。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每人平均分得 24 ÷ 3 = 8 顆。小明原本有 8 顆，加上哥哥給的 3 顆，總共是 8 + 3 = 11 顆。",
       "answer_index": 3,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生可能只處理了單層的數量（8 ÷ 4 = 2），卻沒有將 5 層的總數考慮進去，或是誤將 40 + 4 當作計算方式。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算出繪本總數 5 × 8 = 40 本，再計算 40 ÷ 4 = 10，所以總共可以綁成 10 疊。",
       "answer_index": 2,
       "options": [

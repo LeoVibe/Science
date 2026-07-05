@@ -15,7 +15,7 @@
       "commonMisconception": "學生會對大數名詞的「補零」位數混淆，也可能搞不懂萬、億、兆與千分位逗號的換算關聯導致選錯答案。",
       "scenario": "遊戲設定與經驗值增長 (情境 8)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "數字結構每四位一組(萬、億、兆)。一兆二千萬代表 1 兆，0 億，2000 萬，0。合併：1,000,000,200,000。因為 2000 萬是 20,000,000。選項中若以千分位分隔，則為 1兆。注意「二千萬」不要誤以為在億位。",
       "answer_index": 2,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生容易被「4 個好朋友」干擾，誤以為總人數是 4 或 5，或是忽略了餅乾總數的計算，直接將 12 片與人數進行錯誤的運算。",
       "scenario": "【在假日公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總餅乾數為 12 × 4 = 48 片，共有 4 個人，因此 48 ÷ 4 = 12 片。也可以理解為每人分得一整包，即 12 片。",
       "answer_index": 2,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能會忘記加上補貨的數量，或者在計算分裝時誤將「上午賣出的」也納入分裝計算。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算剩餘數量：80 - 35 + 20 = 65；再進行分裝計算：65 ÷ 5 = 13。",
       "answer_index": 2,
       "options": [

@@ -15,7 +15,7 @@
       "commonMisconception": "億位與萬位的0補錯，學生容易理解成 2,500 億或是千分位逗號分隔時會少寫了 0。",
       "scenario": "折扣季購物預算規劃 (情境 7)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "數字的層級是萬、億、兆。兩兆 = 2 兆，零五百億 = 0500 億，所以是 2,050,000,000,000。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生常會忽略預算限制，或是因為「優惠」二字就選擇最便宜的組合，而忽略了剩餘零錢還可以再購買的機會。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "優惠組 40 元買 5 枝，剩下 10 元可單買 1 枝（9 元），總共 6 枝且剩 1 元。若試圖買 7 枝，則需要 40 + 9 + 9 = 58 元，超過預算。",
       "answer_index": 2,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "學生可能忽略了總數的變化，只計算 36 ÷ 4 = 9，或是將後加的 8 顆直接除以 4 得到 2，再與 9 相加，雖然結果正確但缺乏對總體概念的掌握。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原有的 36 顆加上新買的 8 顆，總共有 44 顆水餃。將 44 顆平分到 4 個盤子，計算式為 (36+8) ÷ 4 = 11。",
       "answer_index": 0,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生常會誤以為全部 48 杯都以 20 元賣出（48 * 20 = 960），或是只計算了後續促銷的收入而忽略了前兩小時的所得。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算方式為：(30 * 25) + (18 * 20) = 750 + 360 = 1110 元。",
       "answer_index": 2,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生可能只計算到單一書櫃的書量（120），或者誤將 3 個書櫃全部視為處理對象而忽略了搬走的數量。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每個書櫃有 5 × 24 = 120 本，搬走 1 個書櫃後，剩下 2 個書櫃，即 120 × 2 = 240 本。",
       "answer_index": 3,
       "options": [
@@ -603,7 +603,7 @@
       "commonMisconception": "學生常因為計算過程中出現80這個數字，誤以為直接將80與7或9進行除法運算。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原有繪本為7乘以9等於63本。總數80本減去原有的63本，得知新進了17本。",
       "answer_index": 0,
       "options": [

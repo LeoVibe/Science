@@ -15,7 +15,7 @@
       "commonMisconception": "學生忘記小數點相乘後位數要相加，點錯造成 7381，或是末尾的 0 沒去掉被選項干擾。",
       "scenario": "旅行規劃（距離與時間） (情境 4)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "30.5 × 24.2。 305 × 242 = 73810。小數點總共有兩位 (1+1)。所以是 738.10，去掉字尾 0 得到 738.1 元。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生可能將乘法與減法順序搞反，或者在心算時將 24 × 5 計算錯誤，導致無法正確判斷剩餘數量。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總容量：24 × 5 = 120 本。總共有 130 本，130 - 120 = 10 本。",
       "answer_index": 3,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生常會將進位單位誤記，將 0.6 公斤直接誤認為 60 公克，忽略了 1 公斤 = 1000 公克的換算關係。",
       "scenario": "【在家庭烤肉聚會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "2.4 ÷ 4 = 0.6 公斤。因為 1 公斤等於 1000 公克，所以 0.6 × 1000 = 600 公克。",
       "answer_index": 0,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易將「平均」的結果誤認為最後總量，或是在加總時忽略了單人份的基礎計算。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算每人平均分得的數量：36 ÷ 4 = 9。小明原本有 9 顆，再多吃 2 顆，即 9 + 2 = 11。",
       "answer_index": 1,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生常因為計算順序混亂，先做除法再做加減，或是忘記將還回來的書加入計算。",
       "scenario": "【在圖書館借書時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算剩餘書本數量：48 - 15 + 7 = 40。再將 40 本書平分到 4 個書架：40 ÷ 4 = 10。",
       "answer_index": 1,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生容易只計算餅乾的總價，或是在判斷錢是否足夠時，忽略了剩餘金額必須大於目標金額的比較邏輯。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "購買 2 包餅乾花費 45 × 2 = 90 元。剩餘金額為 100 - 90 = 10 元。因為飲料需要 20 元，10 元小於 20 元，所以錢不夠。",
       "answer_index": 1,
       "options": [

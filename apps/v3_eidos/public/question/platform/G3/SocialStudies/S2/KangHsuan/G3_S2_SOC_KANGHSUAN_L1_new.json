@@ -21,9 +21,9 @@
       "answer_index": 0,
       "options": [
         "相近住戶成鄰",
-        "多個鄰組成里",
+        "縣市層級更大",
         "鄉鎮市區較大",
-        "縣市層級更大"
+        "多個鄰組成里"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -70,9 +70,9 @@
       "explanation": "縣市、區里和鄰等資訊能幫助定位居住地方。",
       "answer_index": 1,
       "options": [
-        "只看門牌號碼",
-        "看縣市區里鄰",
         "只問便利商店",
+        "看縣市區里鄰",
+        "只看門牌號碼",
         "看房屋顏色"
       ],
       "taxonomy": "literal",
@@ -95,9 +95,9 @@
       "explanation": "使用學校或虛擬地址能學習層級，也能保護隱私。",
       "answer_index": 3,
       "options": [
-        "公開全家住址",
         "拍下家中門牌",
         "詢問陌生路人",
+        "公開全家住址",
         "使用學校地址"
       ],
       "taxonomy": "literal",
@@ -118,12 +118,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "一個里通常由許多鄰組成，鄰比里更小。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "鄰包含許多里",
+        "號包含全縣市",
         "路包含很多縣",
-        "里包含許多鄰",
-        "號包含全縣市"
+        "里包含許多鄰"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -143,12 +143,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "地址上的區、里等層級能提供較可靠的位置資料。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "地址上的區里",
         "午餐菜單內容",
-        "操場跑道顏色",
-        "同學書包樣式"
+        "地址上的區里",
+        "同學書包樣式",
+        "操場跑道顏色"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,10 +168,10 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "戶政事務所負責戶籍與身分登記相關事項。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "衛生保健服務",
         "戶籍登記事務",
+        "衛生保健服務",
         "消防救護服務",
         "警察治安服務"
       ],
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "出生登記也是戶籍登記事務，應找戶政服務。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "消防救護服務",
         "清潔環保服務",
-        "警察治安服務",
-        "戶籍登記事務"
+        "戶籍登記事務",
+        "警察治安服務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "病媒蚊與健康防疫有關，屬衛生防疫服務。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "戶政登記事務",
-        "衛生防疫服務",
         "消費爭議服務",
-        "道路修補服務"
+        "戶政登記事務",
+        "道路修補服務",
+        "衛生防疫服務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "垃圾清運與環境清潔通常屬清潔或環保服務。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "衛生保健服務",
+        "消防救護服務",
         "戶籍登記事務",
-        "清潔環保服務",
-        "消防救護服務"
+        "衛生保健服務",
+        "清潔環保服務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -268,11 +268,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "偷竊與治安有關，應由警察機關協助處理。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "消費爭議服務",
         "警察治安服務",
         "戶政登記事務",
-        "消費爭議服務",
         "節慶活動服務"
       ],
       "taxonomy": "literal",
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "緊急救護屬消防救護服務，應請消防救護協助。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "警察治安服務",
         "戶政登記事務",
-        "消防救護服務",
-        "消費爭議服務"
+        "消費爭議服務",
+        "消防救護服務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -345,10 +345,10 @@
       "explanation": "1950是消費者服務專線，適合消費糾紛諮詢。",
       "answer_index": 2,
       "options": [
-        "110警察報案",
+        "1999市政便民",
         "119消防救護",
         "1950消費服務",
-        "1999市政便民"
+        "110警察報案"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "鄉鎮市區公所辦理許多地方行政服務。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "鄉鎮市區公所",
         "警察治安機關",
-        "戶政登記事務",
-        "消防救護機關"
+        "消防救護機關",
+        "鄉鎮市區公所",
+        "戶政登記事務"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "不同機關有不同職能，應依事件性質判斷。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "公所包辦全部",
-        "機關各有分工",
         "警察辦理結婚",
-        "消防清運垃圾"
+        "公所包辦全部",
+        "消防清運垃圾",
+        "機關各有分工"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,10 +418,10 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "里長通常由居民透過選舉投票產生。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "居民投票產生",
         "抽籤輪流擔任",
+        "居民投票產生",
         "學生投票產生",
         "商店推派產生"
       ],
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "鄰長通常由村里長任命，協助辦理鄰內事務。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "居民直接選出",
-        "警察直接任命",
         "老師指定擔任",
-        "里長任命協助"
+        "里長任命協助",
+        "警察直接任命",
+        "居民直接選出"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -468,12 +468,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "鄰長主要協助傳達、聯繫與辦理鄰內相關事務。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "協助鄰內聯繫",
         "審判地方案件",
+        "辦理結婚登記",
         "指揮消防救災",
-        "辦理結婚登記"
+        "協助鄰內聯繫"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "里辦公處常協助傳達里內訊息與處理地方服務。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
+        "裁判法律案件",
         "辦理戶籍改名",
-        "傳達里內訊息",
         "販售各式商品",
-        "裁判法律案件"
+        "傳達里內訊息"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共議題可透過參加會議表達意見來參與。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "把問題當娛樂",
         "在家等人決定",
         "只讓專家發言",
-        "參加會議發言",
-        "把問題當娛樂"
+        "參加會議發言"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -543,12 +543,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "整理具體意見和資料能讓協調會討論更有效。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "整理意見參加",
+        "完全不看資料",
         "刪掉不同聲音",
-        "只罵負責人員",
-        "完全不看資料"
+        "整理意見參加",
+        "只罵負責人員"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -568,12 +568,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "具體建議能讓相關單位了解問題並追蹤處理。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "匿名嘲笑別人",
-        "留下具體建議",
         "只寫情緒字句",
-        "要求立刻照做"
+        "要求立刻照做",
+        "留下具體建議"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共事務和居民生活有關，居民可以共同參與。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "居民共同參與",
-        "只有政府能管",
         "兒童完全無關",
-        "專家全部決定"
+        "居民共同參與",
+        "專家全部決定",
+        "只有政府能管"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "學生可用觀察、記錄和提出建議的方式參與。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "獨自處理危險",
         "觀察記錄建議",
-        "假裝沒有看見",
-        "禁止提出想法"
+        "獨自處理危險",
+        "禁止提出想法",
+        "假裝沒有看見"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -646,9 +646,9 @@
       "answer_index": 0,
       "options": [
         "記錄地點時間",
-        "只說大家都懂",
         "不聽其他意見",
-        "直接責怪某人"
+        "直接責怪某人",
+        "只說大家都懂"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -668,11 +668,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "跳蚤市場能促進居民交流，也讓資源再次利用。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "只為浪費物品",
-        "禁止鄰居互動",
         "資源再用交流",
+        "禁止鄰居互動",
         "替代公聽討論"
       ],
       "taxonomy": "inferential",
@@ -693,12 +693,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "節慶活動能讓居民互動，增進對地方的認同。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "完全排除外人",
+        "增加地方認同",
         "只讓商店賺錢",
-        "停止居民往來",
-        "增加地方認同"
+        "停止居民往來"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "義賣常用來關懷需要協助的居民或社區需求。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "收集同學祕密",
-        "關懷需要居民",
         "比誰聲音最大",
-        "取消社區活動"
+        "取消社區活動",
+        "關懷需要居民",
+        "收集同學祕密"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -743,12 +743,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "整理環境若有成人陪同，通常較符合學生安全限制。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "獨自深夜巡守",
-        "衝進火場救人",
+        "攀爬高牆修燈",
         "成人陪同整理",
-        "攀爬高牆修燈"
+        "獨自深夜巡守",
+        "衝進火場救人"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "工作、結婚和求學都可能是長期移居的原因。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "長期工作結婚",
         "短暫購物拍照",
+        "假日路過逛街",
         "一次旅行住宿",
-        "假日路過逛街"
+        "長期工作結婚"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -793,12 +793,12 @@
       "quality_level": "QL3",
       "cqi_score": 6,
       "explanation": "短期觀光購物通常不是長期移居的主要原因。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "長期在臺工作",
-        "到學校求學",
         "結婚共同生活",
-        "短期觀光購物"
+        "長期在臺工作",
+        "短期觀光購物",
+        "到學校求學"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -818,12 +818,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "尊重差異並互相交流，是面對多元文化的合宜態度。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "嘲笑不同口音",
-        "拒絕一起活動",
+        "要求全部相同",
         "尊重差異交流",
-        "要求全部相同"
+        "拒絕一起活動",
+        "嘲笑不同口音"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -843,12 +843,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "先了解並禮貌提問，且尊重對方是否願意分享。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "馬上模仿取笑",
-        "先了解再提問",
         "公開家庭隱私",
-        "要求立刻改變"
+        "要求立刻改變",
+        "先了解再提問"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -871,8 +871,8 @@
       "answer_index": 3,
       "options": [
         "外國人都一樣",
-        "口音代表能力",
         "文化不能交流",
+        "口音代表能力",
         "每人經驗不同"
       ],
       "taxonomy": "inferential",
@@ -893,10 +893,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公聽會是讓居民了解並討論公共議題的活動。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "討論公共議題",
         "交換二手物品",
+        "討論公共議題",
         "表演節慶舞臺",
         "舉辦班級考試"
       ],
@@ -918,10 +918,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "里民大會讓居民對里內公共事情表達意見。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "只讓遊客購物",
         "居民表達意見",
+        "只讓遊客購物",
         "學生上臺考試",
         "商家私下分紅"
       ],
@@ -943,10 +943,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "走散協尋屬警察協助範圍，應使用110報案。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "110警察報案",
         "119消防救護",
+        "110警察報案",
         "1950消費服務",
         "1999市政便民"
       ],
@@ -996,8 +996,8 @@
       "answer_index": 3,
       "options": [
         "110警察報案",
-        "119消防救護",
         "1950消費服務",
+        "119消防救護",
         "1999市政便民"
       ],
       "taxonomy": "inferential",
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "地址中的第3鄰，比里、區和市更接近住戶。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "平和路是最小層",
-        "第三鄰是最小層",
+        "臺南市是最小層",
         "安平區是最小層",
-        "臺南市是最小層"
+        "平和路是最小層",
+        "第三鄰是最小層"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "結婚登記屬戶政登記事務，應先到戶政辦理。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "先找消防救護",
         "先請警察登記",
         "先向清潔隊問",
-        "先到戶政辦理"
+        "先到戶政辦理",
+        "先找消防救護"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1068,11 +1068,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "孑孓與登革熱防治有關，應找衛生防疫單位。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "戶政改名窗口",
-        "衛生防疫單位",
         "消費申訴專線",
+        "衛生防疫單位",
         "消防救護中心"
       ],
       "taxonomy": "applied",
@@ -1093,12 +1093,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "垃圾清運屬清潔與環保相關服務，不是戶政或警政。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "戶政結婚窗口",
-        "警察報案窗口",
         "清潔環保單位",
-        "學校考試中心"
+        "戶政結婚窗口",
+        "學校考試中心",
+        "警察報案窗口"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "蒐集照片與建議能讓公共討論更清楚且合宜。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "破壞路口設施",
-        "拒絕所有討論",
+        "蒐集照片建議",
         "只等別人處理",
-        "蒐集照片建議"
+        "拒絕所有討論",
+        "破壞路口設施"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1146,9 +1146,9 @@
       "answer_index": 2,
       "options": [
         "110警察報案",
-        "119消防救護",
+        "1999市政便民",
         "1950消費服務",
-        "1999市政便民"
+        "119消防救護"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1168,11 +1168,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "邀請自願分享能兼顧文化交流與個人意願。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "要求公開隱私",
         "邀請分享自願",
         "嘲笑家庭語言",
+        "要求公開隱私",
         "禁止帶來文化"
       ],
       "taxonomy": "applied",
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "學生參與服務要先選擇安全、合宜的任務。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "單獨深夜巡邏",
-        "自行指揮救災",
+        "選擇安全任務",
         "攀高修理電線",
-        "選擇安全任務"
+        "單獨深夜巡邏",
+        "自行指揮救災"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1218,11 +1218,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公聽或協調活動適合討論公共議題並蒐集意見。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "單純抽獎活動",
         "祕密決定活動",
         "公聽協調活動",
+        "單純抽獎活動",
         "閉門娛樂活動"
       ],
       "taxonomy": "applied",
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "用學校地址練習可達成學習目標，也避免公開住家資料。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "公布全家住址",
-        "使用校址練習",
         "拍門牌放網路",
-        "詢問陌生地址"
+        "詢問陌生地址",
+        "使用校址練習",
+        "公布全家住址"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

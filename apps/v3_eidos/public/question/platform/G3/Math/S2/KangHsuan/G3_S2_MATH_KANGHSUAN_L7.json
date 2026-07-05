@@ -148,7 +148,7 @@
       "commonMisconception": "",
       "scenario": "算式配對",
       "quality_level": "QL1",
-      "cqi_score": 5.75,
+      "cqi_score": 7.25,
       "explanation": "先算總量再除以人數。",
       "answer_index": 1,
       "options": [
@@ -223,7 +223,7 @@
       "commonMisconception": "",
       "scenario": "糖果分配",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "40 × 2 ÷ 5 = 16 顆。",
       "answer_index": 0,
       "options": [
@@ -273,7 +273,7 @@
       "commonMisconception": "",
       "scenario": "反向單價推理",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "150 ÷ 5 = 30. 30 × 8 = 240。",
       "answer_index": 2,
       "options": [
@@ -323,7 +323,7 @@
       "commonMisconception": "學生可能將乘法誤認為加法，將8+15=23元，或是將8x10=80元，忽略了個位數的乘法，導致計算錯誤。",
       "scenario": "【在小吃店幫忙時】",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這是一個直接的乘法應用題。每顆水餃8元，客人點了15顆，所以總價是8元/顆 × 15顆 = 120元。",
       "answer_index": 3,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生可能只計算出需要綁12束花所需的總朵數（72朵），而忘記減去現有的朵數。或者誤將現有的朵數與每束的朵數相加減，導致計算錯誤。",
       "scenario": "【在花店幫忙時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這是一個兩步驟的應用題。首先計算12束花總共需要多少朵玫瑰花：6朵/束 × 12束 = 72朵。然後計算還需要多少朵：72朵 - 48朵 (現有) = 24朵。",
       "answer_index": 3,
       "options": [
@@ -514,7 +514,7 @@
       "commonMisconception": "學生可能只計算出其中一種方式的結果，或是計算錯誤。也可能在比較餘數時混淆，選錯剩下比較少的那一個選項。",
       "scenario": "【在班級佈置時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這是一個比較兩組除法結果的應用題。  \n1. 做紙鍊：50 ÷ 5 = 10 餘 0。可以做10串，剩下0張。  \n2. 做紙燈籠：50 ÷ 8 = 6 餘 2。可以做6個，剩下2張。  \n比較後，做紙鍊剩下0張，做紙燈籠剩下2張，所以做紙鍊剩下的色紙比較少。",
       "answer_index": 3,
       "options": [
@@ -613,7 +613,7 @@
       "commonMisconception": "學生可能將乘法應用題誤認為加法 (8+3=11)，或是將數字誤用其他運算 (如8-3=5)，也可能在乘法計算上出錯。",
       "scenario": "【在市場裡】媽媽去市場買水果。",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這個問題是關於相同數量物品的總數計算，需要使用乘法。一箱有 8 顆蘋果，買了 3 箱，所以是 8 × 3 = 24 顆。因此，正確答案是 24 顆。",
       "answer_index": 2,
       "options": [
@@ -638,7 +638,7 @@
       "commonMisconception": "學生可能在除法計算上出錯，或是忽略餘數，誤以為餅乾剛好分完。有些學生也可能錯誤地認為餘數可以比除數大。",
       "scenario": "【在廚房裡】爸爸準備點心。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這個問題是關於平均分配和餘數的概念。將 25 片餅乾平均分給 4 個小朋友，可以使用除法計算：25 ÷ 4 = 6 餘 1。這表示每個小朋友可以分到 6 片餅乾，還剩下 1 片。因此，正確答案是 6 片，剩下 1 片。",
       "answer_index": 1,
       "options": [
@@ -721,7 +721,7 @@
       "commonMisconception": "學生可能將乘法應用題誤認為加法 (6+7=13)，或是使用錯誤的運算 (7-6=1)，也可能在乘法計算上出錯。",
       "scenario": "【在操場上】學校舉辦運動會。",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "這個問題是關於計算總人數，需要使用乘法。共有 6 排，每排有 7 個人，所以總人數是 6 × 7 = 42 個同學。因此，正確答案是 42 個。",
       "answer_index": 2,
       "options": [
@@ -779,7 +779,7 @@
       "commonMisconception": "學生可能在計算總人數時出錯，或是在計算團體票張數時，忽略餘數而少買一張，或是計算錯誤導致團體票總價不對。也可能混淆個人票和團體票的價格，導致最終比較錯誤。",
       "scenario": "【在動物園裡】班級旅遊。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這是一個多步驟的應用題：\n1.  **計算總人數：** 28 (小朋友) + 4 (老師) = 32 人。\n2.  **計算買個人票的總價：** 32 人 × 50 元/人 = 1600 元。\n3.  **計算買團體票所需的張數：** 32 人 ÷ 6 人/張 = 5 餘 2。因為還有 2 人，所以需要多買一張，共 5 + 1 = 6 張團體票。\n4.  **計算買團體票的總價：** 6 張 × 250 元/張 = 1500 元。\n5.  **計算省下的錢：** 1600 元 (個人票) - 1500 元 (團體票) = 100 元。\n因此，正確答案是 100 元。",
       "answer_index": 2,
       "options": [
@@ -804,7 +804,7 @@
       "commonMisconception": "學生可能在除法計算上出錯，或是忽略餘數，誤以為粽子剛好分完。也可能將除數與餘數混淆，或者誤解「最多可以裝滿幾袋」的意義。",
       "scenario": "【在奶奶家】奶奶包粽子。",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "這個問題是關於將物品分裝成袋，需要使用除法並考慮餘數。將 47 顆粽子每 8 顆裝一袋：47 ÷ 8 = 5 餘 7。這表示奶奶最多可以裝滿 5 袋，還剩下 7 顆粽子。因此，正確答案是 5 袋，剩下 7 顆。",
       "answer_index": 2,
       "options": [

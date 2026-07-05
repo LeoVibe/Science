@@ -21,9 +21,9 @@
       "answer_index": 2,
       "options": [
         "只買新玩具",
-        "只亂花零用",
+        "只排隊逛店",
         "買物或服務",
-        "只排隊逛店"
+        "只亂花零用"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "搭公車付費取得交通服務，也屬於消費。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "搭車也算",
+        "只有網購",
         "只有買書",
         "只有買菜",
-        "只有網購"
+        "搭車也算"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -68,12 +68,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "沒有貨幣時，直接拿物品換物品叫以物易物。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "以牙還牙",
         "以物易物",
+        "以卡付款",
         "以錢換錢",
-        "以卡付款"
+        "以牙還牙"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "貝殼是教材中常見的早期交換媒介例子。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "現代主幣",
+        "早期媒介",
         "手機付款",
         "信用帳單",
-        "早期媒介"
+        "現代主幣"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -118,12 +118,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "銅錢屬於較早期的貨幣工具，不是現代主要工具。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "現代禮券",
         "行動支付",
-        "較早貨幣",
-        "網路帳戶"
+        "網路帳戶",
+        "較早貨幣"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -143,12 +143,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "紙鈔必須由合法機構發行，不能自行製作使用。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "自己列印",
         "合法發行",
+        "同學簽名",
         "彩紙製作",
-        "同學簽名"
+        "自己列印"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "交易工具通常由直接交換，逐步發展到貝殼、銅錢、紙鈔。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "物貝銅鈔",
-        "銅物貝鈔",
         "鈔銅貝物",
-        "貝銅物鈔"
+        "物貝銅鈔",
+        "貝銅物鈔",
+        "銅物貝鈔"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -221,8 +221,8 @@
       "answer_index": 0,
       "options": [
         "仍繳帳單",
-        "不用付款",
         "可亂購買",
+        "不用付款",
         "店家吸收"
       ],
       "taxonomy": "literal",
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "儲值卡需先加值，使用時再從餘額扣款。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "先買後繳",
         "先儲後扣",
         "無限付款",
-        "直接印錢"
+        "直接印錢",
+        "先買後繳"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "儲值卡餘額不足時，通常需要先加值再使用。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "先欠帳單",
         "照樣通過",
-        "再去加值",
-        "不用處理"
+        "不用處理",
+        "再去加值"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -318,12 +318,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "使用行動支付時，要保護密碼並確認交易內容。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "告訴同學",
-        "亂點連結",
         "不看金額",
-        "保護密碼"
+        "保護密碼",
+        "亂點連結",
+        "告訴同學"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -343,10 +343,10 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "禮券常有可使用店家或範圍，不能任意到處使用。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "限定使用",
         "各店皆收",
+        "限定使用",
         "古代貨幣",
         "自行影印"
       ],
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "貝殼交易屬早期媒介例子，不是現代常見付款工具。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "信用卡片",
+        "行動支付",
         "商店禮券",
-        "貝殼交易",
-        "行動支付"
+        "信用卡片",
+        "貝殼交易"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -397,8 +397,8 @@
       "options": [
         "大量批發",
         "近處快買",
-        "古物交換",
-        "等候宅配"
+        "等候宅配",
+        "古物交換"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,12 +418,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "大賣場品項多，也常適合一次購買較多日用品。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "大量採買",
-        "立刻下載",
         "古代換物",
-        "只用貝殼"
+        "立刻下載",
+        "只用貝殼",
+        "大量採買"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "網路購物常見方式包含宅配到家或超商取貨。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "現場挑走",
-        "銅錢寄送",
         "不用收貨",
-        "超商取貨"
+        "超商取貨",
+        "銅錢寄送",
+        "現場挑走"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -468,11 +468,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "電視購物多半先下單，再由業者配送商品。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "攤位現買",
-        "下單配送",
         "同桌交換",
+        "下單配送",
         "自行印鈔"
       ],
       "taxonomy": "literal",
@@ -496,9 +496,9 @@
       "answer_index": 2,
       "options": [
         "一律宅配",
-        "一律現取",
+        "一律免付",
         "流程不同",
-        "一律免付"
+        "一律現取"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "直接以物交換發生在貨幣工具普遍出現之前。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "先刷信用卡",
         "先手機掃碼",
-        "先列印紙鈔",
-        "先直接交換"
+        "先直接交換",
+        "先刷信用卡",
+        "先列印紙鈔"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -543,12 +543,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "手機支付屬於較新的付款方式，出現時間晚於早期貨幣。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "銅錢排最後",
         "貝殼屬現代",
         "信用卡最早",
-        "手機較晚出"
+        "手機較晚出",
+        "銅錢排最後"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -570,10 +570,10 @@
       "explanation": "信用卡與儲值卡最重要差異是付款先後順序。",
       "answer_index": 2,
       "options": [
-        "外形都相同",
+        "都自己印製",
         "都不用付費",
         "先後順序異",
-        "都自己印製"
+        "外形都相同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -597,8 +597,8 @@
       "options": [
         "後收帳單付",
         "先加值再用",
-        "不用看餘額",
-        "店家會付清"
+        "店家會付清",
+        "不用看餘額"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -618,11 +618,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "行動支付除了裝置與帳戶，也要店家能接受付款。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "店家須支援",
         "任何處可刷",
         "不需有網路",
+        "店家須支援",
         "密碼可公開"
       ],
       "taxonomy": "inferential",
@@ -643,12 +643,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "禮券常限制適用店家或範圍，使用前應先確認。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "看適用店家",
+        "影印就能用",
         "各商店皆可",
         "過期也能用",
-        "影印就能用"
+        "看適用店家"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -668,12 +668,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "真正紙鈔具有法定效力，不是普通紙張可取代。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "普通紙即可",
+        "同學畫即可",
         "彩色紙即可",
-        "具法定效力",
-        "同學畫即可"
+        "具法定效力"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -693,12 +693,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "禮券和儲值卡是現代生活中較常見的交易工具。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "貝殼銅錢組",
+        "禮券儲值卡",
         "牙還牙交換",
         "自印紙鈔組",
-        "禮券儲值卡"
+        "貝殼銅錢組"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "需要短時間取得少量物品時，附近超商較合適。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "去附近超商",
         "等國外宅配",
+        "先印新紙鈔",
         "找古代貝殼",
-        "先印新紙鈔"
+        "去附近超商"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -743,12 +743,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "大量且多樣的日用品，通常適合到大賣場採買。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "只等電視播",
-        "去大賣場買",
+        "手機自己買",
         "向同學交換",
-        "手機自己買"
+        "去大賣場買",
+        "只等電視播"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "網路購物可跨距離下單，但仍要查證資訊。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "一定現場拿",
-        "可遠距下單",
         "不用查店家",
-        "必定最便宜"
+        "必定最便宜",
+        "可遠距下單"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -818,12 +818,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "網購付款前先確認店家和商品資訊，可降低交易風險。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "先輸入密碼",
         "先確認店家",
         "先點陌生連",
-        "先公開資料"
+        "先公開資料",
+        "先輸入密碼"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -843,12 +843,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "綁定支付的手機遺失時，應請可信任的大人協助處理。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "請大人協助",
-        "先告訴密碼",
+        "繼續讓人用",
         "不用去處理",
-        "繼續讓人用"
+        "先告訴密碼",
+        "請大人協助"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "陌生連結可能有風險，不應直接點選或輸入密碼。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "立即輸資料",
         "轉傳給同學",
-        "不要直接點",
-        "把密碼貼上"
+        "把密碼貼上",
+        "不要直接點"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -893,12 +893,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不同付款工具各有便利、限制和風險，應依情境選擇。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "最新一定好",
-        "現金都無用",
+        "依情境選用",
         "古物都最好",
-        "依情境選用"
+        "現金都無用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -918,12 +918,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "銅錢可作為早期貨幣代表，不是今日常用現代工具。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "可網路登入",
         "屬早期工具",
-        "是常用工具",
         "能手機付款",
-        "可網路登入"
+        "是常用工具"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -971,9 +971,9 @@
       "answer_index": 0,
       "options": [
         "搭車也消費",
-        "只有買物品",
         "只算買玩具",
-        "服務不消費"
+        "服務不消費",
+        "只有買物品"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "餐券和禮券常有折抵範圍、適用地點與期限。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "各地都通用",
-        "一定是古幣",
+        "票券可折抵",
         "不用看期限",
-        "票券可折抵"
+        "一定是古幣",
+        "各地都通用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "網購可遠距購買，但應先確認來源和付款安全。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "用銅錢寄去",
         "網購並查證",
         "陌生連先付",
-        "自印禮券買",
-        "用銅錢寄去"
+        "自印禮券買"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "儲值卡餘額不足時，要先加值才方便繼續使用。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "先欠帳單搭",
-        "先加值再搭",
+        "請手機生錢",
         "照樣直接搭",
-        "請手機生錢"
+        "先加值再搭",
+        "先欠帳單搭"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "信用卡消費後仍需看帳單金額並負責付款。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "不用日後付",
-        "現場再付現",
         "留意帳單額",
-        "可無限消費"
+        "可無限消費",
+        "現場再付現"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1095,9 +1095,9 @@
       "explanation": "若店家不支援行動支付，應改用店家可接受的付款方式。",
       "answer_index": 3,
       "options": [
-        "硬要手機付",
         "自行印鈔付",
         "密碼借人付",
+        "硬要手機付",
         "改用現金付"
       ],
       "taxonomy": "applied",
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "禮券有適用店家或範圍，使用前應先詢問確認。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "各店一定收",
         "過期也照用",
+        "先問能否用",
         "影印多張用",
-        "先問能否用"
+        "各店一定收"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1143,10 +1143,10 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "時間短且數量少時，就近到超商購買較有效率。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "等待電視購",
         "就近到超商",
+        "等待電視購",
         "跨縣宅配買",
         "回家印紙鈔"
       ],
@@ -1168,12 +1168,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "網路購物要先確認取貨方式，才知道如何取得商品。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "不看寄送日",
-        "只看圖漂亮",
+        "立刻給密碼",
         "確認取貨法",
-        "立刻給密碼"
+        "只看圖漂亮",
+        "不看寄送日"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1197,8 +1197,8 @@
       "options": [
         "不告訴密碼",
         "寫在課本上",
-        "傳給全班看",
-        "請他代付款"
+        "請他代付款",
+        "傳給全班看"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "比較付款工具時，應記錄付款先後和使用責任。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "只寫顏色美",
-        "只看卡大小",
+        "記錄先後序",
         "只比誰新潮",
-        "記錄先後序"
+        "只寫顏色美",
+        "只看卡大小"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不同商品和需求適合不同購物場所與付款方式。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "全用宅配買",
-        "只用銅錢買",
+        "全靠同學換",
         "依需求選店",
-        "全靠同學換"
+        "只用銅錢買",
+        "全用宅配買"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

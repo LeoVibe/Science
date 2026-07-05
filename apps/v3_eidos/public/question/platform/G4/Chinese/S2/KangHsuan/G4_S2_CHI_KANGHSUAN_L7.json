@@ -15,24 +15,24 @@
       "scenario": "【在深夜仰望星空時】",
       "question": "詩人透過「問星星、問微風」的舉動，表達了對未來什麼樣的心理狀態？",
       "options": [
-        "對未來充滿好奇與期待，想探尋未知的模樣",
-        "對現在的生活感到不滿，想請求微風帶自己遠走高飛",
         "對未來感到恐懼，希望星星能告訴自己如何逃避",
-        "對天文科學充滿研究熱情，想請教星星關於宇宙的奧祕"
+        "對天文科學充滿研究熱情，想請教星星關於宇宙的奧祕",
+        "對未來充滿好奇與期待，想探尋未知的模樣",
+        "對現在的生活感到不滿，想請求微風帶自己遠走高飛"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "詩人開頭使用排比句型詢問星星與微風，是為了引出對未來距離與樣貌的探索，展現的是一種對未來的憧憬與好奇，並非逃避或單純的科學研究。",
       "commonMisconception": "學生容易被「星星」、「微風」等自然元素誤導，認為是在進行天文觀察，而忽略了這是一種文學上的抒情手法。",
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-02",
       "review_notes": ""
     },
     {
@@ -40,20 +40,20 @@
       "scenario": "【在討論科技對生活的影響時】",
       "question": "文中提到「把心意直接送到好友面前」，這句話最能連結到下列哪一種未來的科技想像？",
       "options": [
+        "搭乘火箭進行跨國旅行，親自將禮物送到對方手中",
         "透過光速機傳送實體禮物，縮短人與人之間的距離",
         "利用網路連結世界，讓好友能隨時在螢幕上看到彼此",
-        "搭乘火箭進行跨國旅行，親自將禮物送到對方手中",
         "製造更多的糧食，讓全球的人都能分享彼此的心意"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "文中提到「敲一敲鍵盤，禮物就從光速機裡跳出來」，這暗示了未來科技能解決空間限制，實現物品的瞬間傳輸，與選項A的敘述最為吻合。",
       "commonMisconception": "學生常因為現代網路普及，誤以為只要透過網路（選項B）就能傳送禮物，忽略了文中「實體物品傳送」的想像元素。",
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": 1,
         "correct_answer": 0,
@@ -64,31 +64,31 @@
       "review_notes": "AI 依外部知識選 idx=1，但課文文本正確答案為 idx=0，保留原答案。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在分析全球糧食分配問題時】",
       "question": "作者為什麼期盼未來的運輸方式能實現「瞬間傳送」？",
       "options": [
-        "為了讓大家都能體驗科技進步帶來的便利生活",
-        "為了讓每個人都能吃到最新鮮、最昂貴的食材",
-        "為了減少飛機與輪船的燃料消耗，保護地球環境",
-        "為了讓糧食分配更平均，解決部分地區饑荒的問題"
+        "為了讓糧食分配更平均，解決部分地區饑荒的問題",
+        "為了讓每個人都能隨時吃到最新鮮、最昂貴的頂級食材",
+        "為了減少飛機與輪船的燃料消耗，保護地球生態環境",
+        "為了讓大家都能親身體驗科技進步帶來的便利舒適生活"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "文中提到「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，明確指出瞬間傳送科技是為了改善資源不均與飢餓問題。",
       "commonMisconception": "學生容易將「科技進步」與「環保」或「便利」混淆，而忽略了作者在文中特別點出的「人道關懷」核心目的。",
       "quality_level": "QL4",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-03",
       "review_notes": ""
     },
     {
@@ -96,24 +96,24 @@
       "scenario": "【在省思地球環境現況時】",
       "question": "文中提到「氣候變遷導致地球暖化，食物短缺造成全球糧荒」，作者認為人類應該如何面對這些危機？",
       "options": [
-        "善用科技的美好，攜手迎向幸福的願景",
         "只關心自己國家的糧食問題，確保自己不受影響",
-        "將所有希望寄託在未來的火箭旅行上",
-        "放棄科技，回歸到最原始的耕作生活"
+        "放棄科技，回歸到最原始的耕作生活",
+        "善用科技的美好，攜手迎向幸福的願景",
+        "將所有希望寄託在未來的火箭旅行上"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "作者在末段提到期盼透過「善用科技的美好」，讓大家遠離不安處境，這是一種積極且充滿希望的解決態度。",
       "commonMisconception": "學生可能會傾向於選擇「放棄科技」這種極端的回歸自然主張，但這與文中對科技抱持的正面態度不符。",
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-02",
       "review_notes": ""
     },
     {
@@ -121,24 +121,24 @@
       "scenario": "【在閱讀文章結尾時】",
       "question": "文章最後說「在睡夢中的新世界，我已經看到未來的模樣」，這句話代表了什麼意義？",
       "options": [
-        "作者因為太累了，所以在睡夢中隨便做了一個夢",
-        "作者對未來的想像過於遙遠，只能在夢中實現",
-        "作者心中已經有了對未來的藍圖與希望，並對未來充滿信心",
-        "作者覺得現實世界太過絕望，只能躲進夢境中逃避"
+        "作者對未來的想像過於遙遠虛幻，只能寄託在夢中實現",
+        "作者因為太累了，所以在睡夢中隨便做了一個沒有意義的夢",
+        "作者覺得現實世界太過絕望，只能躲進夢境中逃避現實痛苦",
+        "作者心中已經有了對未來的藍圖與希望，並對未來充滿信心"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "這是一種文學性的收尾，象徵作者透過思考與關懷，內心已經建構出對未來的美好願景，並非真的只是一場夢。",
       "commonMisconception": "學生容易將「睡夢」字面化，誤認為這只是一個普通的夢境，而忽略了這是作者表達對未來具體憧憬的文學修辭。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-03",
       "review_notes": ""
     },
     {
@@ -147,19 +147,19 @@
       "question": "詩中提到的「未來的旅行」，作者想像了哪兩種特別的交通方式，能讓我們更快速地到達目的地？",
       "options": [
         "搭乘火箭拜訪外星人、穿越任意門",
-        "搭乘光速機、使用網路傳輸",
-        "坐上高鐵、駕駛飛機與輪船",
-        "使用鍵盤操作、瞬間傳送食物"
+        "搭乘超快光速機、透過網路即時傳輸",
+        "使用電腦鍵盤操作、瞬間傳送新鮮食物",
+        "坐上高速鐵路、駕駛飛機與大型輪船"
       ],
       "answer_index": 0,
       "explanation": "課文中明確提到「會不會搭上火箭，就能開心拜訪外星人的故鄉？」以及「會不會穿越一道任意門，就能馬上到達目的地？」，這兩者皆屬於對未來交通的想像。",
       "commonMisconception": "學生容易將「光速機」與交通工具混淆，但文中光速機是用來傳送禮物，而非載人移動的工具。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 0,
@@ -170,31 +170,31 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在閱讀完關於糧食的段落時】",
       "question": "作者提到「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，這反映了作者對未來抱持什麼樣的期許？",
       "options": [
-        "希望透過運輸科技的進步，減少貧富差距與飢餓",
         "希望未來的人類不再需要進食，就能獲得營養",
         "希望世界各地的氣候不再變遷，農作物能自行保鮮",
+        "希望透過運輸科技的進步，減少貧富差距與飢餓",
         "希望科技能讓食物快速生長，解決人口過剩問題"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "作者透過對比「有的地方糧食充足，有的地方饑荒連年」，進而期盼科技能解決運輸與保存問題，讓糧食能均勻分配，消除飢荒。",
       "commonMisconception": "學生可能誤以為重點在於「永久保鮮」技術，但文中強調的是「分配」與「不再害怕饑荒」，這才是作者的核心關懷。",
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-02",
       "review_notes": ""
     },
     {
@@ -202,24 +202,24 @@
       "scenario": "【在寫作課練習時】",
       "question": "課文中提到「打開網路，連結世界，在不同的國度，我們可以彼此關心，互相祝福」，這段話表達了科技帶給人類什麼樣的正面影響？",
       "options": [
-        "科技縮短了空間距離，讓情感聯繫更緊密",
         "科技讓人類能隨時隨地購買各國的禮物",
-        "科技取代了人與人面對面的溝通方式",
-        "科技讓人類不需要親自旅行就能了解世界"
+        "科技縮短了空間距離，讓情感聯繫更緊密",
+        "科技讓人類不需要親自旅行就能了解世界",
+        "科技取代了人與人面對面的溝通方式"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "這段話的核心在於「彼此關心」與「互相祝福」，強調的是科技如何跨越地理限制，實現情感與人際的連結。",
       "commonMisconception": "學生容易被「連結世界」誤導，認為重點在於科技的便利性（如購買禮物），卻忽略了文中強調的「關心與祝福」的人文溫度。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-02",
       "review_notes": ""
     },
     {
@@ -227,24 +227,24 @@
       "scenario": "【在討論全球議題時】",
       "question": "作者在文中提到「氣候變遷」與「地球暖化」，這與「未來的模樣」有什麼關係？",
       "options": [
-        "這是作者認為未來已經無法改變的悲觀事實",
+        "這是作者認為未來已經無法逆轉改變的悲觀事實",
+        "這是未來科技快速發展必然會產生的負面副作用",
         "這是未來人類必須攜手解決的危機，才能迎向幸福",
-        "這是未來科技發展必然會產生的負面副作用",
-        "這是為了提醒大家，未來不需要再關心自然環境"
+        "這是為了提醒大家，未來已不需要再關心自然環境"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "作者將氣候變遷視為當前的危機，並在結尾呼籲「攜手迎向幸福的願景」，顯示這是通往美好未來必須共同面對的挑戰。",
       "commonMisconception": "學生可能會覺得這只是科學事實的描述，而忽略了作者在文中「期盼解除危機」的積極態度。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-03",
       "review_notes": ""
     },
     {
@@ -252,8 +252,8 @@
       "scenario": "【在欣賞詩歌意境時】",
       "question": "詩歌結尾提到「在睡夢中的新世界，我已經看到未來的模樣」，這句話帶給讀者什麼樣的感受？",
       "options": [
-        "暗示未來充滿了許多未知的恐懼與不安",
         "暗示未來是遙不可及的幻想，無法實現",
+        "暗示未來充滿了許多未知的恐懼與不安",
         "表達作者對未來充滿希望且樂觀的期待",
         "說明未來只能在夢中出現，現實中並不存在"
       ],
@@ -264,12 +264,12 @@
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "review_status": "confirmed",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06",
+      "review_date": "2026-07-02",
       "review_notes": ""
     },
     {
@@ -277,20 +277,20 @@
       "scenario": "【在課堂討論未來科技時】",
       "question": "作者在課文中提到，對於「傳輸」這件事，他想像未來可以透過什麼方式，讓禮物瞬間送到好友面前？",
       "options": [
-        "搭乘火箭遞送",
         "利用網路直接列印",
         "透過任意門直接傳送",
-        "使用光速機傳送"
+        "使用光速機傳送",
+        "搭乘火箭遞送"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "課文中明確提到「未來的傳輸，是不是敲一敲鍵盤，禮物就從光速機裡跳出來」，故正確答案為光速機。",
       "commonMisconception": "學生常將「任意門」與「光速機」的功能混淆，因為兩者在課文中都與移動或傳送相關。",
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -301,7 +301,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "inferential",
@@ -309,19 +309,19 @@
       "question": "作者提到「讓糧食的分配更加平均，讓遙遠的地方不再害怕饑荒」，這反映出他對未來世界有什麼樣的期許？",
       "options": [
         "希望科技能幫助人類解決貧富不均與匱乏的問題",
-        "希望所有人都能學會自己種植糧食",
-        "希望未來的運輸工具能變得更便宜",
-        "希望食物能改造成不需要保鮮的種類"
+        "希望未來的各種運輸工具都能變得更便宜快速又普及",
+        "希望食物未來能透過科技改造成不需要保鮮的特殊種類",
+        "希望所有人都能親自學會自己種植糧食的專業技術"
       ],
       "answer_index": 0,
       "explanation": "作者關注到世界上有的地方糧食充足、有的地方饑荒連年，期待透過科技讓分配平均，解決生存危機。",
       "commonMisconception": "學生容易誤以為作者只是單純想改進「運輸工具」，而忽略了背後對「人類生活公平性」的關懷。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 0,
@@ -332,7 +332,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "contextual",
@@ -340,19 +340,19 @@
       "question": "作者在課文中提到「氣候變遷」與「食物短缺」，這些問題讓他產生了什麼樣的感受？",
       "quality_level": "QL4",
       "options": [
-        "希望透過出國旅行來逃避這些問題",
-        "認為這些問題是大人該擔心的事，與小孩無關",
         "對科技的發展感到懷疑與恐懼",
-        "對地球的環境惡化感到憂心，並期盼解除危機"
+        "希望透過出國旅行來逃避這些問題",
+        "對地球的環境惡化感到憂心，並期盼解除危機",
+        "認為這些問題是大人該擔心的事，與小孩無關"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "課文提到「我們關心環境的惡化，期盼解除地球的危機」，顯示作者對地球環境的責任感與關懷。",
       "commonMisconception": "部分學生會因為課文後段提到「睡夢中的新世界」而誤以為作者對環境問題採取樂觀逃避的態度。",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -363,27 +363,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "critical",
       "scenario": "【在反思科技與生活的關係時】",
       "question": "課文中提到「打開網路，連結世界，在不同的國度，我們可以彼此關心」，這句話強調了科技帶來的什麼正面意義？",
       "options": [
-        "科技的進步讓我們可以隨時出國旅遊",
-        "科技能讓我們在網路上購買任何想要的禮物",
-        "科技可以讓我們不用再面對面交流",
-        "科技縮短了人與人之間的距離，增進情感連結"
+        "科技能讓我們在網路上輕鬆購買任何想要的禮物",
+        "科技進步可以讓我們不用再面對面交流溝通",
+        "科技縮短了人與人之間的距離，增進情感連結",
+        "科技的進步讓我們可以隨時輕鬆出國旅遊觀光"
       ],
-      "answer_index": 3,
+      "answer_index": 2,
       "explanation": "課文強調「彼此關心，互相祝福」，重點在於科技作為媒介，拉近了不同國度人們的心靈距離。",
       "commonMisconception": "學生容易將「網路連結」簡化為「可以買東西」或「可以旅行」等單純的功能性行為，忽略了「關懷」的核心價值。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -394,27 +394,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在閱讀課文結尾時】",
       "question": "課文最後提到「在睡夢中的新世界，我已經看到未來的模樣」，這句話暗示了什麼？",
       "options": [
-        "作者認為未來只是一場夢，不會真實發生",
-        "作者對於未來感到很迷惘，只能在夢中找答案",
+        "作者因為長時間思考動腦太累了，所以很想趕快睡覺休息",
+        "作者認為未來只是一場美好又虛幻的夢，不會真實發生",
         "作者對未來充滿信心，並期許未來能成為一個幸福的願景",
-        "作者因為太累了，所以想睡覺休息"
+        "作者對於未來感到十分迷惘困惑，只能不斷在夢中尋找答案"
       ],
       "answer_index": 2,
       "explanation": "結合前文提到的「攜手迎向幸福的願景」，這句話表達了作者對未來美好世界的憧憬與信念。",
       "commonMisconception": "學生可能過於拘泥於「睡夢」一詞，誤認為作者對未來持否定或消極態度，認為那只是幻覺。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -425,7 +425,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "literal",
@@ -433,19 +433,19 @@
       "question": "根據課文內容，作者提到未來的旅行，可能會有哪些特別的交通方式或移動手段？",
       "options": [
         "搭乘時光機回到過去、使用瞬間移動術",
-        "駕駛無人車、使用個人飛行背包",
         "搭乘火箭拜訪外星人、穿越任意門",
+        "駕駛無人車、使用個人飛行背包",
         "乘坐高鐵、搭乘超音速飛機"
       ],
-      "answer_index": 2,
+      "answer_index": 1,
       "explanation": "課文中明確指出「會不會搭上火箭，就能開心拜訪外星人的故鄉？」以及「會不會穿越一道任意門，就能馬上到達目的地？」，故選項一正確。",
       "commonMisconception": "學生容易將現代的交通方式（如高鐵）與作者想像中的未來交通方式混淆，忽視了「火箭」與「任意門」這類科幻元素。",
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -456,27 +456,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在討論全球糧食問題時】",
       "question": "作者希望未來的科技能如何改善糧食問題，進而讓世界更美好？",
       "options": [
-        "研發更多種類的精緻美食，讓大家吃得更豐富",
-        "強制限制人口數量，減少對食物的需求",
-        "讓糧食能永久保鮮，並透過瞬間傳送讓分配更平均",
-        "開發人造肉技術，取代天然糧食的種植"
+        "研發更多種類的精緻美食，讓大家都能吃得更豐富",
+        "強制限制全球人口數量，減少對食物的整體需求",
+        "開發人造肉技術，全面取代天然糧食的種植方式",
+        "讓糧食能永久保鮮，並透過瞬間傳送讓分配更平均"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "課文提到「未來的食物，可不可以永久保鮮？」以及「運輸的方式，能不能夠瞬間傳送？讓糧食的分配更加平均」，這顯示了作者對於解決饑荒的期待。",
       "commonMisconception": "學生會誤以為作者想強調的是「食物的種類」，而非「運輸效率與分配公平」，這是因為對文中「分配」一詞的深層意涵理解不足。",
       "quality_level": "QL4",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -487,7 +487,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "contextual",
@@ -495,19 +495,19 @@
       "question": "詩中提到「打開網路，連結世界，在不同的國度，我們可以彼此關心，互相祝福」，這段話表達了作者對未來什麼樣的期待？",
       "options": [
         "希望科技能幫助人們隨時進行線上購物",
+        "希望科技能跨越距離，拉近人們心靈的距離",
         "希望網路能成為未來唯一的工作工具",
-        "希望人們能減少面對面接觸，改用網路交流",
-        "希望科技能跨越距離，拉近人們心靈的距離"
+        "希望人們能減少面對面接觸，改用網路交流"
       ],
-      "answer_index": 3,
+      "answer_index": 1,
       "explanation": "作者強調的是「彼此關心」與「互相祝福」，重點在於人與人之間的情感傳遞，而非科技本身的功能。",
       "commonMisconception": "學生常受限於「網路就是用來玩遊戲或購物」的刻板印象，忽略了詩句中「關心」與「祝福」的人文關懷層面。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -518,7 +518,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "critical",
@@ -534,11 +534,11 @@
       "explanation": "作者提到「我們關心環境的惡化，期盼解除地球的危機」，顯示出作者雖憂心現狀，但仍保有積極改變的願景。",
       "commonMisconception": "學生容易將「關心危機」誤讀為「悲觀放棄」，未能從「期盼」二字看出作者積極正向的態度。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -549,7 +549,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "inferential",
@@ -557,19 +557,19 @@
       "question": "詩的結尾提到「在睡夢中的新世界，我已經看到未來的模樣」，這句話給讀者什麼樣的感受？",
       "options": [
         "顯得有些疲憊，想要趕快結束對未來的想像",
-        "對未來充滿希望，並認為這一切是可以實現的",
         "充滿了對未知未來的恐懼感",
+        "對未來充滿希望，並認為這一切是可以實現的",
         "暗示未來只是一場夢，現實生活中不可能發生"
       ],
-      "answer_index": 1,
+      "answer_index": 2,
       "explanation": "作者以「新世界」形容未來，且在整篇詩作中不斷提出美好的願景，結尾處表現出對未來藍圖的堅定與期待。",
       "commonMisconception": "學生容易將「睡夢中」誤解為「現實中不存在」，而忽略了文學創作中以夢境象徵「理想願景」的修辭手法。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 1,
@@ -580,27 +580,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "literal",
       "scenario": "【在課堂討論時】",
       "question": "根據課文內容，作者在思考「未來」時，運用了許多想像力。請問作者提到未來可能出現哪一種運輸方式，來解決飢荒問題？",
       "options": [
-        "利用任意門將糧食運送到各地",
         "建造連結全世界的超大橋樑",
-        "使用可以瞬間傳送的運輸方式",
-        "駕駛更快速的太空船"
+        "駕駛更快速的太空船",
+        "利用任意門將糧食運送到各地",
+        "使用可以瞬間傳送的運輸方式"
       ],
-      "answer_index": 2,
+      "answer_index": 3,
       "explanation": "課文中提到「運輸的方式，能不能夠瞬間傳送？讓糧食的分配更加平均」，這是作者對於解決飢荒的具體想像。",
       "commonMisconception": "學生容易將「任意門」與「瞬間傳送」混淆，雖然功能相似，但課文針對解決糧食分配問題使用的是「瞬間傳送」一詞。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -611,27 +611,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在閱讀完課文後】",
       "question": "作者在文中提到「有的地方糧食充足，有的地方饑荒連年」，這段文字的主要目的是什麼？",
       "options": [
+        "希望讀者能珍惜現在擁有的每一份食物資源",
+        "強調現代科技在解決糧食問題上進步非常緩慢",
         "呈現世界分配不均的現況，並期待科技能改善",
-        "強調現代科技進步非常緩慢",
-        "比較不同國家飲食習慣的差異",
-        "希望讀者能珍惜現在的食物"
+        "比較不同國家與地區飲食習慣的差異特色"
       ],
-      "answer_index": 0,
+      "answer_index": 2,
       "explanation": "作者描述糧食分配不均的現象，隨後緊接著提出「未來的食物，可不可以永久保鮮？」等改善建議，意在指出問題並尋求願景。",
       "commonMisconception": "學生可能單純將其解讀為勸導惜食，忽略了課文後續連結到「運輸方式」與「科技改善」的語意脈絡。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 0,
@@ -642,27 +642,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在談論地球環境時】",
       "question": "課文中提到「氣候變遷導致地球暖化，食物短缺造成全球糧荒」，這表達了作者對未來的什麼態度？",
       "options": [
-        "對科技發展感到非常悲觀",
         "對地球現狀感到擔憂，並期盼解決危機",
-        "希望人類放棄現在的生活方式",
-        "認為只要有火箭，就能解決所有問題"
+        "希望人類能放棄現在浪費的生活方式",
+        "認為只要有先進火箭，就能解決所有問題",
+        "對未來科技的發展感到非常悲觀失望"
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation": "作者明確指出對環境惡化的關心，並提出「期盼解除地球的危機」，顯示出對環境議題的關注與對未來的期待。",
       "commonMisconception": "學生常誤以為作者提到危機就是對未來感到絕望，但文中最後提到「攜手迎向幸福的願景」，顯示出積極的態度。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 1,
@@ -673,27 +673,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "literal",
       "scenario": "【在與好友分享心情時】",
       "question": "作者在文中提到，未來如果想把心意直接送到好友面前，可以透過哪一種方式達成？",
       "options": [
-        "利用任意門穿越空間",
-        "親手寫信並投遞郵筒",
-        "搭乘最快的高鐵前往",
-        "透過光速機將禮物直接跳出來"
+        "透過光速機將禮物直接跳出來",
+        "搭乘最快速的高鐵親自前往",
+        "利用神奇的任意門瞬間穿越空間",
+        "親手寫信並投遞到郵筒等待送達"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "課文原文：「是不是敲一敲鍵盤，禮物就從光速機裡跳出來，把心意直接送到好友面前？」",
       "commonMisconception": "學生容易混淆科技應用（如網路與光速機），這裡是指透過鍵盤操作光速機來傳送禮物。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -704,27 +704,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "critical",
       "scenario": "【在作文課練習寫作時】",
       "question": "課文最後提到「在睡夢中的新世界，我已經看到未來的模樣」，這句話給讀者什麼樣的感受？",
       "options": [
-        "作者認為未來的世界其實很恐怖",
-        "作者覺得未來太遙遠，無法實現",
         "作者對未來充滿了美好的希望與想像",
-        "作者在睡覺時做了一個關於外星人的夢"
+        "作者覺得未來太遙遠，無法實現",
+        "作者在睡覺時做了一個關於外星人的夢",
+        "作者認為未來的世界其實很恐怖"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "透過「新世界」、「幸福的願景」等詞彙，可以看出作者對未來充滿了正向且美好的展望。",
       "commonMisconception": "學生可能受「睡夢中」一詞影響，誤以為這只是單純的夢境，忽略了作者藉此表達對未來藍圖的具體構思。",
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -735,27 +735,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "literal",
       "scenario": "【在觀看晨間新聞時】",
       "question": "文中提到，作者想像未來透過「光速機」傳輸禮物，這主要是為了達成什麼目的？",
       "options": [
-        "為了讓網路連結世界更快速",
-        "為了讓禮物能更精緻包裝",
         "為了把心意直接送到好友面前",
-        "為了讓火箭旅行變得更便宜"
+        "為了讓禮物有更精緻的包裝設計",
+        "為了讓網路連結世界變得更快速",
+        "為了讓火箭旅行變得更加便宜"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "根據課文「未來的傳輸，是不是敲一敲鍵盤，禮物就從光速機裡跳出來，把心意直接送到好友面前？」可知，作者的核心意圖是傳遞心意。",
       "commonMisconception": "學生常因看到「光速機」而聯想到科技的速度感，忽略了作者設計此科技背後的情感連結初衷。",
       "quality_level": "QL4",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -766,27 +766,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在討論全球糧食問題時】",
       "question": "作者在文中提到希望糧食分配更加平均，這反映了作者對未來抱持什麼樣的期許？",
       "options": [
-        "希望每個人都能吃到自己喜歡的零食",
-        "希望未來不再需要耕種，食物會自動生長",
-        "希望全球各地的氣候都能變得一模一樣",
-        "希望科技能幫助人們克服地理距離，解決生存危機"
+        "希望科技能幫助人們克服地理距離，解決生存危機",
+        "希望全球各地的氣候都能逐漸變得一模一樣，不再極端",
+        "希望每個人都能隨時吃到自己最喜歡的零食點心",
+        "希望未來不再需要辛苦耕種，食物就能自動快速生長"
       ],
-      "answer_index": 3,
+      "answer_index": 0,
       "explanation": "文中提到「有的地方糧食充足，有的地方饑荒連年」，並期望運輸能瞬間傳送，旨在解決糧荒，這體現了運用科技改善人類福祉的期許。",
       "commonMisconception": "學生可能過度聚焦於「永久保鮮」這項技術，而忽略了作者真正關心的是「糧食分配不均」的社會問題。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -797,27 +797,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "contextual",
       "scenario": "【在進行環境保護專題報告時】",
       "question": "課文中提到「氣候變遷導致地球暖化」，這與作者對未來世界的哪一種態度最相關？",
       "options": [
-        "對科技發展的全然崇拜",
-        "對未來旅行充滿恐懼",
         "對環境惡化的關懷與解決危機的期盼",
-        "對外星人居住環境的好奇"
+        "對科技發展感到全然崇拜與強烈依賴",
+        "對未來的旅行方式充滿莫名的恐懼",
+        "對外星人居住環境感到強烈的好奇"
       ],
-      "answer_index": 2,
+      "answer_index": 0,
       "explanation": "作者明確提到「我們關心環境的惡化，期盼解除地球的危機」，這顯示作者將科技視為解決全球性挑戰的工具。",
       "commonMisconception": "學生容易將「氣候變遷」與「科技發展」對立，誤以為作者只想逃離地球，而非改善地球。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 2,
@@ -828,27 +828,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     },
     {
       "taxonomy": "inferential",
       "scenario": "【在睡前閱讀課文時】",
       "question": "課文最後提到「在睡夢中的新世界，我已經看到未來的模樣」，這句話傳達了作者什麼樣的心情？",
       "options": [
-        "對未來充滿積極的願景與希望",
         "對未來感到迷惘與不安",
-        "認為未來的一切都只是夢境，無法實現",
-        "因為無法改變現實而感到沮喪"
+        "對未來充滿積極的願景與希望",
+        "因為無法改變現實而感到沮喪",
+        "認為未來的一切都只是夢境，無法實現"
       ],
-      "answer_index": 0,
+      "answer_index": 1,
       "explanation": "作者在全詩中不斷探討如何利用科技解決問題，最後以「攜手迎向幸福的願景」收尾，顯示出對未來充滿信心與願景。",
       "commonMisconception": "學生容易將「睡夢中」解讀為「虛幻」或「不真實」，而忽略了文學中「夢」常象徵理想與期許。",
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-02",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 0,
@@ -859,27 +859,27 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-02"
     },
     {
       "taxonomy": "critical",
       "scenario": "【在校園圖書館討論未來科技時】",
       "question": "作者在文中提出了許多對未來的想像，下列哪一項最能總結作者對於「科技」的看法？",
       "options": [
-        "科技只適合用在運輸工具上，與食物分配無關",
-        "科技發展得越快越好，不需要考慮環境影響",
-        "科技是為了讓人類可以懶惰，什麼事都不用做",
+        "科技的目的是為了讓人類可以懶惰，什麼事都不用做",
+        "科技只適合用在運輸工具方面，與食物分配完全無關",
+        "科技發展得越快越好，完全不需要考慮任何環境影響",
         "科技應該是用來連結世界、改善生存條件的良善工具"
       ],
       "answer_index": 3,
       "explanation": "文中提到網路連結彼此、光速機傳送心意、瞬間傳送解決糧荒，這些都指向科技作為改善人類生活與連結情感的正面角色。",
       "commonMisconception": "學生可能認為科技只是「更快、更先進」，卻忽視了文中強調的「善用」與「幸福願景」等人文價值。",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
-      "verifying_model": "Gemini-3.1-Flash-Lite",
-      "verifying_date": "2026-04-06",
+      "verifying_model": "claude-sonnet-4-6",
+      "verifying_date": "2026-07-03",
       "blind_eval_mismatch": {
         "ai_selected": -1,
         "correct_answer": 3,
@@ -890,7 +890,7 @@
       "review_notes": "ai_selected=-1：盲測 R4 context 與課次不符，題目本身正確。",
       "is_publishable": true,
       "reviewer": "Claude Code (claude-sonnet-4-6)",
-      "review_date": "2026-04-06"
+      "review_date": "2026-07-03"
     }
   ],
   "publisher": "KangHsuan"

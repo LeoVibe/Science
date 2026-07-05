@@ -21,8 +21,8 @@
       "answer_index": 0,
       "options": [
         "商店互動",
-        "明星排行",
         "遊戲分數",
+        "明星排行",
         "卡通角色"
       ],
       "taxonomy": "inferential",
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "民俗是地方居民長期實踐的生活、信仰、技藝或活動。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "外國節目",
         "地方習俗",
-        "流行玩具",
-        "個人喜好"
+        "個人喜好",
+        "外國節目",
+        "流行玩具"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -68,12 +68,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "參加民俗社團能實際學習技藝，也能延續地方文化。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "只買紀念品",
         "只拍短影片",
-        "參加社團",
-        "等別人介紹"
+        "等別人介紹",
+        "參加社團"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "地方信仰活動常寄託居民祈求平安與共同參與的心意。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "比較服裝",
-        "販賣玩具",
+        "祈求平安",
         "練習跑步",
-        "祈求平安"
+        "販賣玩具",
+        "比較服裝"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -118,11 +118,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "居民一起準備與參與，可凝聚地方情感並延續共同記憶。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "凝聚居民",
-        "取消互助",
         "禁止參與",
+        "取消互助",
+        "凝聚居民",
         "遠離社區"
       ],
       "taxonomy": "literal",
@@ -143,12 +143,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "外來文化若被居民認識與實踐，也可能成為地方生活的一部分。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "全部排除",
         "多元共存",
-        "禁止介紹",
-        "只看本土"
+        "只看本土",
+        "全部排除",
+        "禁止介紹"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "尊重並學習不同文化，能讓地方生活呈現更多元的樣貌。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "比較高低",
         "取笑口音",
         "立刻拒絕",
-        "尊重學習",
-        "比較高低"
+        "尊重學習"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "不同族群祭典有不同名稱、目的與文化脈絡，不能一概而論。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "目的相同",
         "名稱可換",
-        "都為表演",
-        "脈絡不同"
+        "脈絡不同",
+        "都為表演"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -221,9 +221,9 @@
       "answer_index": 0,
       "options": [
         "五年祭典",
-        "飛魚祭典",
+        "潑水祭典",
         "豐年祭典",
-        "潑水祭典"
+        "飛魚祭典"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,11 +243,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "達悟族飛魚祭與海洋、捕魚季節及族群文化有密切關係。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "豐年祭典",
         "五年祭典",
         "飛魚祭典",
-        "豐年祭典",
         "紙傘祭典"
       ],
       "taxonomy": "literal",
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "阿美族豐年祭常與感謝收穫、歌舞聚會和文化傳承有關。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "五年祭典",
+        "潑水祭典",
         "飛魚祭典",
-        "豐年祭典",
-        "潑水祭典"
+        "豐年祭典"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "族群祭典承載各族文化記憶，名稱與族群必須正確對應。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "名稱無差",
         "目的全同",
-        "隨意填寫",
-        "族群有別"
+        "族群有別",
+        "隨意填寫"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -318,11 +318,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "自然資源是由自然條件形成，如河川、地形、動植物和氣候。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "自然資源",
         "人文資源",
         "私人用品",
+        "自然資源",
         "班級作品"
       ],
       "taxonomy": "literal",
@@ -347,8 +347,8 @@
       "options": [
         "自然資源",
         "人文資源",
-        "天氣變化",
-        "個人收藏"
+        "個人收藏",
+        "天氣變化"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -370,10 +370,10 @@
       "explanation": "蛙類生態屬於自然形成的動植物與棲地，是自然資源。",
       "answer_index": 2,
       "options": [
-        "商業資源",
+        "班級資源",
         "交通資源",
         "自然資源",
-        "班級資源"
+        "商業資源"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "小吃是居民飲食文化與技藝累積，應歸為人文資源。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "自然資源",
+        "人文資源",
         "氣候資源",
-        "野生資源",
-        "人文資源"
+        "自然資源",
+        "野生資源"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -418,12 +418,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "老車站承載居民記憶與地方故事，可屬於人文資源。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "人文資源",
+        "野生資源",
         "自然資源",
         "氣候資源",
-        "野生資源"
+        "人文資源"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -443,11 +443,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "傳統工藝可兼具實用、藝術、文化象徵與節慶意義。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "全無用途",
         "只能展示",
         "兼具價值",
-        "全無用途",
         "必須丟棄"
       ],
       "taxonomy": "inferential",
@@ -468,11 +468,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "漁夫工作常受季節、海象與漁場資源影響。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "理髮師傅",
-        "書店店員",
         "出海漁夫",
+        "書店店員",
         "郵局職員"
       ],
       "taxonomy": "literal",
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "地形與氣候等自然條件會連動居民工作、休閒和產業發展。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "影響活動",
+        "取消工作",
         "無關生活",
-        "只改校名",
-        "取消工作"
+        "影響活動",
+        "只改校名"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -543,11 +543,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "分類地方資源時，要依形成原因分辨自然資源與人文資源。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "按價格分",
         "按人氣分",
         "按成因分",
-        "按價格分",
         "按顏色分"
       ],
       "taxonomy": "literal",
@@ -570,8 +570,8 @@
       "explanation": "商店提供日常需要的商品與服務，是地方生活的一部分。",
       "answer_index": 2,
       "options": [
-        "取代學校",
         "管理天氣",
+        "取代學校",
         "服務居民",
         "創造河川"
       ],
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "購買商品前應檢查外觀和標示，避免買到不安全商品。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "立刻購買",
-        "藏進書包",
+        "檢查標示",
         "只看圖案",
-        "檢查標示"
+        "立刻購買",
+        "藏進書包"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "科技進步會改變商店服務方式與居民日常生活。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "科技發展",
+        "考卷顏色",
         "月亮形狀",
-        "座位順序",
-        "考卷顏色"
+        "科技發展",
+        "座位順序"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -643,10 +643,10 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "交通改善會影響居民通學、購物與活動安排，是生活變遷。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "祭典名稱",
         "生活變遷",
+        "祭典名稱",
         "自然地形",
         "個人嗜好"
       ],
@@ -671,9 +671,9 @@
       "answer_index": 2,
       "options": [
         "阻止學習",
-        "減少交流",
+        "破壞土地",
         "帶來創意",
-        "破壞土地"
+        "減少交流"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -695,9 +695,9 @@
       "explanation": "傳統工藝能透過創新與教學延續，兼顧生活與文化保存。",
       "answer_index": 3,
       "options": [
-        "停止學習",
-        "全部拆除",
         "放棄傳承",
+        "全部拆除",
+        "停止學習",
         "創新傳承"
       ],
       "taxonomy": "applied",
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "開發、生活改變和缺乏保存都可能讓地方特色消失。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "全無原因",
         "開發改變",
         "永遠不變",
-        "自然出現",
-        "全無原因"
+        "自然出現"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -745,10 +745,10 @@
       "explanation": "保存與發展可以透過討論、調查和方案比較來尋求兼顧。",
       "answer_index": 1,
       "options": [
-        "立刻拆除",
+        "完全不管",
         "共同討論",
-        "禁止提問",
-        "完全不管"
+        "立刻拆除",
+        "禁止提問"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "地方特色也承載文化記憶、居民認同和教育意義。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "分數排名",
         "商品折扣",
-        "文化記憶",
-        "遊戲速度"
+        "遊戲速度",
+        "分數排名",
+        "文化記憶"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -793,12 +793,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "把老屋整理成可使用空間，能保存特色並服務居民。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "任意塗鴉",
+        "整修導覽",
         "直接拆光",
-        "禁止靠近",
-        "整修導覽"
+        "任意塗鴉",
+        "禁止靠近"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -821,9 +821,9 @@
       "answer_index": 0,
       "options": [
         "共同愛護",
-        "任意破壞",
+        "不用整理",
         "只顧自己",
-        "不用整理"
+        "任意破壞"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -843,11 +843,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "圖書館是公共資源，使用者要安靜、整理並尊重他人。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "大聲聊天",
         "遵守規範",
         "亂丟書本",
+        "大聲聊天",
         "霸占座位"
       ],
       "taxonomy": "applied",
@@ -870,10 +870,10 @@
       "explanation": "使用公共資源後整理環境，是共同維護的具體表現。",
       "answer_index": 2,
       "options": [
-        "浪費資源",
+        "拒絕共享",
         "逃避責任",
         "共同維護",
-        "拒絕共享"
+        "浪費資源"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -895,9 +895,9 @@
       "explanation": "問候、互助和參與活動，能建立良好的鄰里關係。",
       "answer_index": 3,
       "options": [
-        "製造爭吵",
         "拒絕往來",
         "破壞環境",
+        "製造爭吵",
         "敦親睦鄰"
       ],
       "taxonomy": "literal",
@@ -918,11 +918,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "認識並介紹活動由來，能幫助文化被理解與傳承。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "增加吵鬧",
         "文化傳承",
         "比較手機",
-        "增加吵鬧",
         "取消活動"
       ],
       "taxonomy": "inferential",
@@ -943,12 +943,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "學生可透過觀察、介紹、參與和愛護資源，做出可行行動。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "獨自修橋",
-        "繪資源圖",
+        "拆除古蹟",
         "發布法令",
-        "拆除古蹟"
+        "繪資源圖",
+        "獨自修橋"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "不同年齡和職業的居民，可能有不同感受與需求。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "刪掉不同",
-        "只留一人",
+        "停止報告",
         "比較觀點",
-        "停止報告"
+        "只留一人",
+        "刪掉不同"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "居民職業、年齡和生活經驗不同，對地方需求也不同。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "感受不同",
         "需求全同",
         "只聽店家",
-        "忽略長者",
-        "感受不同"
+        "忽略長者"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公共資源要考慮其他使用者，輪流共享才符合公共精神。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "輪流共享",
+        "鎖住入口",
         "霸占場地",
-        "大聲趕人",
-        "鎖住入口"
+        "輪流共享",
+        "大聲趕人"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "自然或人文資源要看形成原因，而不是只看位置。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "人氣高低",
-        "形成原因",
         "照片大小",
-        "顏色深淺"
+        "顏色深淺",
+        "形成原因"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1068,11 +1068,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "地方生活可以呈現不同文化，介紹時應以尊重與學習為主。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "尊重介紹",
         "互相比賽",
         "排除外來",
-        "尊重介紹",
         "嘲笑差異"
       ],
       "taxonomy": "applied",
@@ -1093,12 +1093,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "清楚標示圖例能讓讀者判讀地方資源的位置與類型。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "全部塗黑",
-        "省略名稱",
         "亂放符號",
-        "清楚圖例"
+        "清楚圖例",
+        "全部塗黑",
+        "省略名稱"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1118,11 +1118,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "地方活動能形成共同記憶，增進居民對家鄉的認同。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "個人收藏",
         "地方認同",
         "考試排名",
-        "個人收藏",
         "任意破壞"
       ],
       "taxonomy": "inferential",
@@ -1143,12 +1143,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "遵守導覽規範能保護生物棲地，讓自然資源延續。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "方便捕捉",
-        "保護棲地",
+        "破壞環境",
         "增加噪音",
-        "破壞環境"
+        "方便捕捉",
+        "保護棲地"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1168,12 +1168,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "民俗活動不只有收入，也包含信仰、互助和文化傳承。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "文化傳承",
         "居民互助",
-        "觀光收入",
-        "共同記憶"
+        "共同記憶",
+        "文化傳承",
+        "觀光收入"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "農業會受自然條件影響，地方環境會連動工作安排。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "天氣無關",
-        "地形無用",
+        "環境影響",
         "季節固定",
-        "環境影響"
+        "地形無用",
+        "天氣無關"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1218,11 +1218,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "老建築、工藝和地方故事由居民創造傳承，屬人文資源。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "人文資源",
         "自然資源",
         "天氣資源",
+        "人文資源",
         "野生資源"
       ],
       "taxonomy": "inferential",
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "實地觀察、訪談與愛護公共資源，是三年級可行的地方行動。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "只背名稱",
         "走讀整理",
-        "取消活動",
-        "亂丟垃圾"
+        "亂丟垃圾",
+        "只背名稱",
+        "取消活動"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,

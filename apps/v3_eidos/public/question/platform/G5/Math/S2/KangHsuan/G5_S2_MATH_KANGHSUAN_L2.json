@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能直接將整數乘整數，分數照抄，變成 15 又 1/4，或者計算完 75/4 後不知道如何正確換算回帶分數。",
       "scenario": "烘培食譜調整 (情境 3)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算 15 × 1又1/4。先將帶分數轉換為假分數：1又1/4 = 5/4。相乘：15 × 5/4 = 75/4。再將假分數轉回帶分數：75 ÷ 4 = 18 餘 3，答案為 18 又 3/4。",
       "answer_index": 2,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易被「原本 400 公尺」的資訊誤導，誤以為人數減少後總長度會變短，而忽略了每人分擔距離的乘法邏輯。",
       "scenario": "【在學校運動會接力賽時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原本 18 位同學，扣除請假的 2 位，剩下 16 位同學。每位跑 25 公尺，共跑：16 × 25 = 400 公尺。等等，重新計算：18 位同學若每人跑 25 公尺總長為 450 公尺，但比賽只需跑 400 公尺。若只剩 16 位同學，16 × 25 = 400 公尺，剛好跑完。",
       "answer_index": 1,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生可能誤將蘋果與橘子的單價先相加再乘以總數量，即 (18+12) × (4+3)，忽略了不同品項需分開計算的邏輯。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算過程為 (18 × 4) + (12 × 3) = 72 + 36 = 108 元。",
       "answer_index": 2,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易被題目中「已經整理 3 層」的資訊干擾，誤以為題目是在問「已經整理了多少本」，而計算成 24 × 3 = 72。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總容量應為單層數量乘以總層數，即 24 × 5 = 120 本。",
       "answer_index": 0,
       "options": [

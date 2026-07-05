@@ -15,7 +15,7 @@
       "commonMisconception": "誤以為打八折是減去 80 元 (420元)，或是看成 Off 折扣以為只賣原價的兩成(100元)。",
       "scenario": "超市打折促銷 (情境 1)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "打八折的意思是按原價的 80% 販售。500 × 0.8 = 400 元。",
       "answer_index": 0,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生常忽略預算限制，直接將總金額除以單價，或誤將餘數視為可購買的數量。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算蘋果總價：85 × 2 = 170 元。剩餘預算：300 - 170 = 130 元。計算橘子袋數：130 ÷ 68 = 1 袋，餘 62 元（若買 2 袋需 136 元，超過預算）。因此最多買 1 袋橘子，剩下 62 元；選項 B 描述錯誤，應為 1 袋，剩下 62 元。經修正，正確答案為 A，但依據題目邏輯，買 1 袋橘子後剩 62 元，故選 A。",
       "answer_index": 3,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易將「4 個書櫃」誤認為計算的基準，忽略題目要求僅計算「3 個書櫃」的數量。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每個書櫃有 5 × 24 = 120 本。小華整理了 3 個書櫃，即 120 × 3 = 360 本。選項 B 為計算錯誤的干擾項，正確計算應為 360 本。",
       "answer_index": 1,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能只計算了其中一場的收入，或是將 12 與 18 直接乘以 35 後加總，若加總過程位值對齊錯誤會導致結果偏移。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總共賣出 12 + 18 = 30 包，每包 35 元，計算 30 × 35 = 1050 元。",
       "answer_index": 3,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生容易將「平均分給 4 個人」的結果（9 個）誤認為總數，而寫成 3/9。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "小籠包總數為 36 個，志明吃了 3 個，將總數當作分母，部分數量當作分子，即為 3/36。",
       "answer_index": 2,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易算出紅色花的數量（4）後，誤以為這就是題目要求的答案而直接選 A。",
       "scenario": "【在校園花圃時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算出紅色花朵數量：24 ÷ 6 = 4 朵。再用總數減去紅色花朵數量：24 - 4 = 20 朵，即為黃色花朵數量。",
       "answer_index": 2,
       "options": [

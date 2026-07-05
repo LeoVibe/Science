@@ -18,11 +18,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "家鄉故事常記錄地方的人、事、物、景。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "人事物景",
-        "只談神話",
         "課本頁碼",
+        "只談神話",
+        "人事物景",
         "考試分數"
       ],
       "taxonomy": "literal",
@@ -43,12 +43,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "口述故事有地方記憶價值，也需要再查證。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "全都虛構",
-        "查證有值",
+        "不可研究",
         "只供娛樂",
-        "不可研究"
+        "全都虛構",
+        "查證有值"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -68,12 +68,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "說明地方名稱形成的故事屬於地名故事。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "建築故事",
         "人物故事",
         "產業故事",
-        "地名故事",
-        "建築故事"
+        "地名故事"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "題幹同時強調人物貢獻與紀念建築。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "商品價格",
-        "天氣變化",
+        "人物貢獻",
         "交通路線",
-        "人物貢獻"
+        "商品價格",
+        "天氣變化"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -118,12 +118,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "三峽藍染呈現地方產業和傳統工藝。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "產業故事",
-        "天氣故事",
         "校規故事",
-        "票價故事"
+        "票價故事",
+        "產業故事",
+        "天氣故事"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -143,11 +143,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "老建築經修復再利用可延續地方記憶。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "禁止參觀",
         "全部拆除",
         "保存活化",
-        "禁止參觀",
         "停止使用"
       ],
       "taxonomy": "inferential",
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "金門菜刀和戰地歷史及砲彈材料有關。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "美濃紙傘",
         "三峽藍染",
-        "金門菜刀",
-        "鶯歌陶瓷"
+        "鶯歌陶瓷",
+        "金門菜刀"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -193,12 +193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "砲彈材料能連結金門菜刀的戰地故事。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "進口鋼材",
         "溫泉泥土",
-        "海港魚獲",
-        "戰地砲彈"
+        "進口鋼材",
+        "戰地砲彈",
+        "海港魚獲"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "三峽老街常連結藍染與染布工藝。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "三峽藍染",
-        "新竹玻璃",
+        "宜蘭蔥田",
         "三義木雕",
-        "宜蘭蔥田"
+        "三峽藍染",
+        "新竹玻璃"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "鶯歌以陶瓷產業和陶藝文化聞名。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
+        "美濃玻璃",
         "鶯歌木雕",
-        "鶯歌陶瓷",
         "三義陶瓷",
-        "美濃玻璃"
+        "鶯歌陶瓷"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -268,12 +268,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "三義以木雕工藝和相關產業聚落聞名。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "金門菜刀",
-        "鶯歌陶瓷",
         "三義木雕",
-        "宜蘭蔥田"
+        "宜蘭蔥田",
+        "鶯歌陶瓷",
+        "金門菜刀"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "美濃油紙傘是客家傳統工藝的一部分。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "日本進口",
-        "海港漁具",
+        "客家工藝",
         "礦山工具",
-        "客家工藝"
+        "海港漁具",
+        "日本進口"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -318,11 +318,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "花蓮石雕可連結地方石材資源與工藝。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "石材資源",
-        "玻璃工廠",
         "戰地砲彈",
+        "玻璃工廠",
+        "石材資源",
         "客家婚俗"
       ],
       "taxonomy": "literal",
@@ -343,10 +343,10 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "新竹可連結玻璃工藝與地方產業特色。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "宜蘭蔥田",
         "新竹玻璃",
+        "宜蘭蔥田",
         "三義木雕",
         "金門菜刀"
       ],
@@ -368,11 +368,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "宜蘭蔥可連結地方農業環境與農產特色。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "戰地材料",
         "客家禮俗",
         "農業環境",
+        "戰地材料",
         "老街染布"
       ],
       "taxonomy": "literal",
@@ -395,8 +395,8 @@
       "explanation": "特產常受自然、歷史、技術與文化影響。",
       "answer_index": 3,
       "options": [
-        "只靠神話",
         "只看人名",
+        "只靠神話",
         "全靠偶然",
         "多種因素"
       ],
@@ -421,9 +421,9 @@
       "answer_index": 0,
       "options": [
         "鶯歌陶瓷",
-        "三義陶瓷",
         "鶯歌木雕",
-        "美濃木雕"
+        "美濃木雕",
+        "三義陶瓷"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "美濃油紙傘應連結客家文化與傳統工藝。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
         "外國輸入",
-        "客家文化",
         "海港文化",
-        "戰地材料"
+        "戰地材料",
+        "客家文化"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -468,11 +468,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "說明故事原因才能連結特產與地方生活。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "只背名稱",
         "猜測來源",
         "故事原因",
+        "只背名稱",
         "選項長短"
       ],
       "taxonomy": "inferential",
@@ -495,8 +495,8 @@
       "explanation": "陳維英的故事重點是推動地方教育。",
       "answer_index": 3,
       "options": [
-        "製作菜刀",
         "發明陶瓷",
+        "製作菜刀",
         "修築鐵路",
         "推動教育"
       ],
@@ -518,12 +518,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "老師府故事重點在感謝地方教育貢獻。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
-        "感謝貢獻",
-        "孔子生日",
         "政府命令",
-        "觀光促銷"
+        "感謝貢獻",
+        "觀光促銷",
+        "孔子生日"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -570,10 +570,10 @@
       "explanation": "人物、地點和事蹟不清時應先查資料。",
       "answer_index": 2,
       "options": [
+        "只看人名",
         "直接套用",
-        "隨意改寫",
         "先查資料",
-        "只看人名"
+        "隨意改寫"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -593,12 +593,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "遵守告示和動線能保護文化資產。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "摸牆拍照",
         "奔跑追逐",
         "刻字留念",
-        "遵守告示"
+        "遵守告示",
+        "摸牆拍照"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -643,11 +643,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "長期觸摸可能讓表面磨損或受損。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "增加亮度",
         "造成磨損",
         "方便保存",
+        "增加亮度",
         "幫助修復"
       ],
       "taxonomy": "inferential",
@@ -668,12 +668,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "古蹟保存需要每位參觀者共同保護。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "方便遊戲",
+        "不用排隊",
         "增加速度",
-        "共同保護",
-        "不用排隊"
+        "共同保護"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -722,8 +722,8 @@
       "options": [
         "保留記憶",
         "忘掉過去",
-        "停止學習",
-        "禁止參觀"
+        "禁止參觀",
+        "停止學習"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -743,12 +743,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "保存也能包含修復、導覽與再利用。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "永久封閉",
         "可再利用",
+        "不能修復",
         "不能導覽",
-        "不能修復"
+        "永久封閉"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -770,8 +770,8 @@
       "explanation": "閒置空間再利用能形成社區改造故事。",
       "answer_index": 2,
       "options": [
-        "自然災害",
         "外國商品",
+        "自然災害",
         "社區改造",
         "考試規定"
       ],
@@ -793,12 +793,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "居民和民間團體也能參與地方公共事務。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "民間參與",
         "只能校長",
         "只有市長",
-        "禁止居民",
-        "民間參與"
+        "禁止居民"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -818,12 +818,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "政府、居民、社區組織可共同維護地方。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "共同參與",
         "政府唯一",
         "學生無關",
-        "居民退出"
+        "居民退出",
+        "共同參與"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "訪問長輩能取得地方生活記憶與線索。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "只猜答案",
-        "只看廣告",
         "訪問長輩",
-        "等待考試"
+        "只看廣告",
+        "等待考試",
+        "只猜答案"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -943,12 +943,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "口述故事可保存居民經驗與地方記憶。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "毫無用處",
-        "保留價值",
         "必定錯誤",
-        "不能詢問"
+        "不能詢問",
+        "保留價值",
+        "毫無用處"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "文物館藏可提供老照片、器物與說明。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "遊樂排行",
-        "餐廳優惠",
         "文物館藏",
-        "明星新聞"
+        "明星新聞",
+        "遊樂排行",
+        "餐廳優惠"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "現在的居民行動也會形成新的家鄉故事。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "現在形成",
         "只在古代",
-        "只能神話",
         "不可改變",
-        "現在形成"
+        "只能神話"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "活化空間能延續老屋故事並服務現在需求。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "活化空間",
         "放任荒廢",
-        "快速拆光",
-        "禁止進入"
+        "禁止進入",
+        "活化空間",
+        "快速拆光"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1045,10 +1045,10 @@
       "explanation": "鶯歌陶瓷在本課重點是地方產業故事。",
       "answer_index": 1,
       "options": [
-        "地名音義",
-        "地方產業",
         "交通票價",
-        "天氣預報"
+        "地方產業",
+        "天氣預報",
+        "地名音義"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "分類時要看故事主要在說哪個核心。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "出現字詞",
-        "選項順序",
         "故事核心",
-        "題目長短"
+        "題目長短",
+        "出現字詞",
+        "選項順序"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1093,12 +1093,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "地方故事能形成居民共享的共同記憶。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "個人秘密",
-        "奇怪謠言",
         "購物清單",
-        "共同記憶"
+        "共同記憶",
+        "奇怪謠言"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "訪談前取得同意，才是尊重受訪者。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "取得同意",
-        "突然錄音",
         "任意改話",
-        "公開住址"
+        "突然錄音",
+        "公開住址",
+        "取得同意"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1143,11 +1143,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "人物、時間、地點和事件有助後續查證。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "心情顏色",
         "人時地事",
         "午餐菜單",
+        "心情顏色",
         "遊戲分數"
       ],
       "taxonomy": "applied",
@@ -1168,11 +1168,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "故事類型可交會，但要能說明判斷理由。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "說明理由",
         "只能一類",
         "隨機分類",
-        "說明理由",
         "看誰先答"
       ],
       "taxonomy": "inferential",
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "安全修復能保護建築，也讓保存可延續。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "放棄維護",
         "立刻拆除",
+        "安全修復",
         "隨便塗色",
-        "安全修復"
+        "放棄維護"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1218,12 +1218,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "人事物景能完整呈現家鄉故事線索。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "人事物景",
         "只講價格",
         "只報天氣",
-        "只背縣市"
+        "只背縣市",
+        "人事物景"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "學家鄉故事能幫助學生認識地方特色。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "遠離家鄉",
         "認識家鄉",
         "忘記地方",
-        "只為買賣"
+        "只為買賣",
+        "遠離家鄉"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,

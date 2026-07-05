@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能用加法 40+20+10=70，或是用表面積公式錯算出 2800。",
       "scenario": "積木堆疊 (情境 2)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "體積 = 長×寬×高 = 40 × 20 × 10 = 8000 立方公分。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生常會直接以商數作為答案，忽略了「剩下」的物品也需要裝入袋子，這是典型的無條件進入法情境。",
       "scenario": "【在學校園遊會攤位時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "85 ÷ 8 = 10，餘數為 5。這表示可以裝滿 10 袋，但還剩下 5 個餅乾，為了裝完所有餅乾，需要多準備 1 個袋子，所以總共需要 10 + 1 = 11 個袋子。",
       "answer_index": 2,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易誤將弟弟剩下的 12 顆全算給哥哥，或是忘記哥哥原本已經吃掉了自己的 12 顆。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "首先，將 36 顆水餃平均分給 3 個人，每人各得 12 顆。弟弟吃完後剩下 12 顆，哥哥多吃了弟弟的一半（12 ÷ 2 = 6），因此哥哥總共吃了 12 + 6 = 18 顆。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能因為看到數字 4 和 12 就急著相乘，卻忘記減去已經發出的數量，或者誤以為是要計算每人分配多少。",
       "scenario": "【在學校舉行運動會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總共有 4 × 12 = 48 瓶水。發給 28 位同學後，剩下 48 - 28 = 20 瓶。",
       "answer_index": 2,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "許多學生算出 1/4 是 6 本後，就直接選了 6，忽略了題目問的是「剩下的」數量。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算恐龍主題：24 ÷ 4 = 6 本。再算海洋主題：24 - 6 = 18 本。",
       "answer_index": 2,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生常會計算 28 ÷ 3 = 9...1，誤以為剩下的「1」就是答案，而忽略了在「不足」的情境下，為了讓每個人都有水，必須無條件進位，需要再多一單位。",
       "scenario": "【在校慶運動會準備時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "9 瓶水共可供 9 × 3 = 27 人飲用。全班 28 人，28 - 27 = 1 人沒水喝。因此需要再多 1 瓶水。",
       "answer_index": 1,
       "options": [

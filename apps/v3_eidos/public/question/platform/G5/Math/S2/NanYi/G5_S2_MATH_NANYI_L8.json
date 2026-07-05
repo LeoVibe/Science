@@ -15,7 +15,7 @@
       "commonMisconception": "學生直覺用 34/40 算出 85%，卻沒看明題目是反向詢問「不及格」的百分率。",
       "scenario": "體育競賽數據分析 (情境 10)",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "不及格人數 = 40 - 34 = 6 人。比率 = 6 / 40 = 3 / 20。擴分母到 100：15 / 100 = 15%。",
       "answer_index": 0,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "部分學生會誤算總價，或是忘記將原子筆總價與筆記本價格相加，導致判斷錯誤。",
       "scenario": "【在文具店挑選開學用品時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總花費：(12 × 4) + 35 = 48 + 35 = 83 元。因為 83 大於 100，所以錢是夠的。剩下：100 - 83 = 17 元。",
       "answer_index": 2,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "學生容易直接用 36 ÷ 3 = 12，忽略了剩下的 3 顆是還沒被吃掉的，導致誤判每人吃了 12 顆。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先算總共被吃掉的水餃數：36 - 3 = 33（顆）。再將吃掉的水餃平均分給 3 人：33 ÷ 3 = 11（顆）。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生常會先計算總價 50 × 4 = 200，再減去 5 元（誤以為只折一次價），或是誤將折價金額直接與總價相減。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "折價後的每盒價格為 50 - 5 = 45（元）。購買 4 盒的總價為 45 × 4 = 180（元）。",
       "answer_index": 2,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生可能會先將全部書本加總（72+18=90）再除以 9，雖然結果相同，但若題目要求分步驟思考時，學生容易忽略除法分配律的邏輯。",
       "scenario": "【在社區圖書館整理圖書時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原先每個書架有 72 ÷ 9 = 8 本，新書每個書架可分到 18 ÷ 9 = 2 本，所以每個書架總共 8 + 2 = 10 本。",
       "answer_index": 1,
       "options": [

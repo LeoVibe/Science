@@ -40,7 +40,7 @@
       "commonMisconception": "學生可能忘了乘以 2，直接用 1000 - 400 = 600。",
       "scenario": "果汁混合",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "2 杯共 400 × 2 = 800 毫升。水壺容量 1000 毫升。1000 - 800 = 200 毫升。",
       "answer_index": 3,
       "options": [
@@ -415,7 +415,7 @@
       "commonMisconception": "學生可能直接比較數字 750 和 0.5，而忽略單位換算，或認為單位不同就無法比較。",
       "scenario": "生活情境：果汁容量比較",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "要比較兩者，需要將單位統一。0.5 公升等於 500 毫升。所以 750 毫升比 500 毫升多。",
       "answer_index": 3,
       "options": [
@@ -673,7 +673,7 @@
       "commonMisconception": "學生可能計算錯誤，或在單位換算時出錯。",
       "scenario": "生活情境：野餐分裝飲料",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "首先計算總果汁量：1.5 公升 = 1500 毫升。總量 = 1500 毫升 + 800 毫升 = 2300 毫升。裝滿 3 個 500 毫升的杯子需要 3 × 500 = 1500 毫升。剩下 2300 - 1500 = 800 毫升。",
       "answer_index": 2,
       "options": [

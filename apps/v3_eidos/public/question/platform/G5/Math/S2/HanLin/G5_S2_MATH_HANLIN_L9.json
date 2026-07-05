@@ -120,7 +120,7 @@
       "commonMisconception": "學生可能誤以為是將 12 位直接除以 3，忘記了共有 6 個班級這個總數條件。",
       "scenario": "【在學校運動會報名時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總人數 12 乘以 6 等於 72 人，再將 72 除以 3 組，得到每組 24 人。",
       "answer_index": 3,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生常會先分別計算總營業額再減去總成本，過程中容易因為數字過大導致計算錯誤，或忘記扣除成本。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "總獲利 = (售價 - 成本) × 總數量。每瓶賺 (25 - 15) = 10 元，總共賣出 (48 + 52) = 100 瓶，總獲利為 10 × 100 = 1000 元。",
       "answer_index": 0,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生在計算時容易只計算到總價，卻忽略了比較兩者差異時的減法運算，或是將票價種類混淆。",
       "scenario": "【在規劃家庭旅遊時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "現場總價：(500 × 2) + (300 × 2) = 1000 + 600 = 1600 元。與網路套票 1400 元比較，1600 - 1400 = 200 元，選擇網路套票省 200 元。",
       "answer_index": 0,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生容易將「4 位朋友」和「每人 2 片」相乘，但忽略了餅乾總數的計算，或者誤將 5 盒當作總片數。",
       "scenario": "【在週末公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "餅乾總數為 5 × 6 = 30 片。朋友拿走的總數為 4 × 2 = 8 片。剩下 30 - 8 = 22 片。",
       "answer_index": 3,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生可能誤以為所有層數都是 24 本，直接使用 5 × 24 來計算，而忽略了題目中各層實際擺放數量的差異。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "計算方式為：(3 × 24) + 15 + 18 = 72 + 33 = 105 本。",
       "answer_index": 3,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易被題目中的「上午 3 層、下午 3 層」誤導，誤以為只需要計算其中一部分，或是將層數與每層本數混淆，誤用加法處理乘法問題。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "書架共有 6 層，每層 24 本，總容量為 6 × 24 = 144 本。學生需理解「上午」與「下午」的整理動作皆是針對書架的一部分，總數仍為 6 層的總和。",
       "answer_index": 1,
       "options": [

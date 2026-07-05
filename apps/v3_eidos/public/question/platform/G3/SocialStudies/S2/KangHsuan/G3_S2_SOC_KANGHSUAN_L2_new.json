@@ -18,10 +18,10 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "地方風貌包含居民生活與活動，不只美麗景色。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "只看美麗景色",
         "包含生活活動",
+        "只看美麗景色",
         "只算高樓大廈",
         "等同道路寬度"
       ],
@@ -43,12 +43,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "河流、農田、市場和車站可同時呈現自然與人文特色。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "只有建築外觀",
         "所有商店招牌",
         "全部居民姓名",
-        "自然人文合看",
-        "只有建築外觀"
+        "自然人文合看"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -68,11 +68,11 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "先判斷需求，再選能提供該服務的場所。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "依需求選場所",
-        "按名字猜用途",
         "越大越能辦事",
+        "按名字猜用途",
+        "依需求選場所",
         "全部服務相同"
       ],
       "taxonomy": "literal",
@@ -93,12 +93,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "服務地圖要幫助使用者依需求找到合適場所。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "依外牆顏色分",
-        "依距離遠近分",
         "依店名長短分",
-        "依服務內容分"
+        "依服務內容分",
+        "依外牆顏色分",
+        "依距離遠近分"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -118,10 +118,10 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "郵局可提供寄信、寄包裹等郵政寄送服務。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "修理停電問題",
         "寄送包裹信件",
+        "修理停電問題",
         "申請家庭網路",
         "辦理戶籍登記"
       ],
@@ -146,9 +146,9 @@
       "answer_index": 0,
       "options": [
         "購買郵票服務",
-        "購買列車車票",
         "購買展覽門票",
-        "購買電話號碼"
+        "購買電話號碼",
+        "購買列車車票"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -168,12 +168,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "網路和電話屬通訊服務，應找電信公司處理。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "電力公司處理",
-        "電信公司處理",
         "郵局櫃臺處理",
-        "戶政機關處理"
+        "戶政機關處理",
+        "電信公司處理",
+        "電力公司處理"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -196,8 +196,8 @@
       "answer_index": 3,
       "options": [
         "電信公司報修",
-        "郵局窗口報修",
         "銀行櫃臺報修",
+        "郵局窗口報修",
         "電力公司報修"
       ],
       "taxonomy": "literal",
@@ -218,12 +218,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "電信重在通訊網路，電力重在供應用電。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "兩者服務相同",
-        "通訊供電不同",
+        "兩者都可存款",
         "兩者都辦戶籍",
-        "兩者都可存款"
+        "通訊供電不同",
+        "兩者服務相同"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -246,8 +246,8 @@
       "answer_index": 3,
       "options": [
         "戶籍登記服務",
-        "列車乘坐服務",
         "展覽導覽服務",
+        "列車乘坐服務",
         "存錢提款服務"
       ],
       "taxonomy": "literal",
@@ -268,12 +268,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "農漁會信用部可辦理存款等金融服務。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "只賣農具用品",
-        "只辦戶口資料",
         "可辦金融服務",
-        "只管車站時刻"
+        "只辦戶口資料",
+        "只管車站時刻",
+        "只賣農具用品"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -293,12 +293,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "戶政事務所辦理戶籍與身分登記事項。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "辦理網路申請",
+        "辦理戶籍登記",
         "提供存款提款",
-        "處理包裹寄送",
-        "辦理戶籍登記"
+        "辦理網路申請",
+        "處理包裹寄送"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -318,12 +318,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "無障礙標誌表示該處較方便不同行動需求者通行或使用。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
         "只代表博愛座",
+        "只代表有電梯",
         "表示友善通行",
-        "表示候車區域",
-        "只代表有電梯"
+        "表示候車區域"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -343,12 +343,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "長者、受傷者、推嬰兒車者等都有可能需要無障礙設施。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "多種行動需求",
+        "只有館員使用",
         "只有輪椅族群",
-        "只有小學生用",
-        "只有館員使用"
+        "多種行動需求",
+        "只有小學生用"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -372,8 +372,8 @@
       "options": [
         "語音導覽耳機",
         "列車時刻資訊",
-        "展品介紹牌子",
-        "藝術創作畫架"
+        "藝術創作畫架",
+        "展品介紹牌子"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -393,12 +393,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "自動售票機配合交通場所購買車票的需求。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "借閱圖書設備",
         "戶籍登記設備",
-        "展覽解說設備",
-        "購買車票設備"
+        "借閱圖書設備",
+        "購買車票設備",
+        "展覽解說設備"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -418,12 +418,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "語音導覽能協助遊客理解展品內容與故事。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "繳交電費使用",
-        "聽取展品說明",
         "寄送包裹使用",
-        "申請電話使用"
+        "申請電話使用",
+        "聽取展品說明",
+        "繳交電費使用"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -446,8 +446,8 @@
       "answer_index": 0,
       "options": [
         "多人共同使用",
-        "只給店主使用",
         "可以任意占用",
+        "只給店主使用",
         "使用不用規定"
       ],
       "taxonomy": "literal",
@@ -470,10 +470,10 @@
       "explanation": "公共設施多人使用時，排隊依序使用能尊重他人。",
       "answer_index": 2,
       "options": [
+        "大聲催促他人",
         "先占久用位置",
-        "留下垃圾再走",
         "排隊依序使用",
-        "大聲催促他人"
+        "留下垃圾再走"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -493,12 +493,12 @@
       "quality_level": "QL4",
       "cqi_score": 8.75,
       "explanation": "都市通常人口較密集，交通與商店也較多。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "農田一定最多",
         "人口一定很少",
-        "完全沒有商店",
-        "交通商店較多"
+        "交通商店較多",
+        "農田一定最多",
+        "完全沒有商店"
       ],
       "taxonomy": "literal",
       "blind_evaluation": true,
@@ -520,10 +520,10 @@
       "explanation": "鄉村常見較多田地和空間，但這不是優劣評價。",
       "answer_index": 1,
       "options": [
-        "交通商店密集",
+        "居民一定疏遠",
         "田地空間較多",
         "樓房全部最高",
-        "居民一定疏遠"
+        "交通商店密集"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -543,12 +543,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "都市與鄉村各有生活特色，不應用單一價值判斷。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "都市一定較好",
-        "鄉村一定落後",
+        "鄉村不用服務",
         "各有生活特色",
-        "鄉村不用服務"
+        "鄉村一定落後",
+        "都市一定較好"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -568,12 +568,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "平坦地區常見農田、道路與聚落等利用方式。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "平地常見聚落",
-        "平地只能漁撈",
         "平地全是高山",
-        "平地不能耕種"
+        "平地不能耕種",
+        "平地常見聚落",
+        "平地只能漁撈"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -593,12 +593,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "山坡地常可見果園或茶園等利用方式。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "山坡常設魚塭",
-        "山坡適合鹽田",
         "山坡只蓋車站",
-        "山坡常見果園"
+        "山坡適合鹽田",
+        "山坡常見果園",
+        "山坡常設魚塭"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -618,12 +618,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "海邊地區常見漁港、漁撈或養殖等活動。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "只適合種稻米",
         "常見漁港魚塭",
         "只見高山茶園",
-        "都是戶政機關",
-        "只適合種稻米"
+        "都是戶政機關"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -643,12 +643,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地形會影響常見活動，但地方利用不只一種。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "地形完全無關",
-        "一種地形一用",
         "常見但非唯一",
-        "用途永遠不變"
+        "用途永遠不變",
+        "一種地形一用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -668,12 +668,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "居民工作、消費和休閒活動都會形塑地方風貌。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
-        "只由天氣決定",
-        "完全不會改變",
         "只看房屋高度",
-        "居民活動塑造"
+        "居民活動塑造",
+        "只由天氣決定",
+        "完全不會改變"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -693,11 +693,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "介紹生活服務時，應依借書、搭車、寄送等需求找場所。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "依生活需求找",
-        "找最近的建築",
         "看招牌最漂亮",
+        "找最近的建築",
+        "依生活需求找",
         "選名稱最正式"
       ],
       "taxonomy": "inferential",
@@ -718,12 +718,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "申辦網路是通訊服務，應找電信相關服務單位。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "郵局可以辦網路",
         "郵局處理停電事",
         "網路申辦找電信",
-        "戶政櫃臺寄包裹"
+        "戶政櫃臺寄包裹",
+        "郵局可以辦網路"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -743,12 +743,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "電費和用電供應屬電力服務，不是郵政或通訊服務。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "電費問題找郵局",
         "停電報修找電信",
         "電話故障找銀行",
-        "用電服務找電力"
+        "用電服務找電力",
+        "電費問題找郵局"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -770,10 +770,10 @@
       "explanation": "農漁會信用部可提供存款、提款等金融服務。",
       "answer_index": 1,
       "options": [
-        "戶政也能提款錢",
+        "火車站能辦存款",
         "信用部能存提款",
-        "電信櫃臺能存錢",
-        "火車站能辦存款"
+        "戶政也能提款錢",
+        "電信櫃臺能存錢"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -793,12 +793,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "戶政事務所處理戶籍資料，銀行主要處理金融服務。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "處理戶籍資料",
-        "提供定期存款",
+        "申辦住家網路",
         "販售火車車票",
-        "申辦住家網路"
+        "處理戶籍資料",
+        "提供定期存款"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -818,12 +818,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "不同場所職能不同，應先判斷自己的需求類型。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
         "名稱正式萬能",
-        "距離最近就對",
         "先看服務需求",
-        "人多一定能辦"
+        "人多一定能辦",
+        "距離最近就對"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -871,9 +871,9 @@
       "answer_index": 0,
       "options": [
         "場所任務判斷",
-        "設備可以亂換",
         "公共場所相同",
-        "憑自己喜歡猜"
+        "憑自己喜歡猜",
+        "設備可以亂換"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -893,11 +893,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "博物館提供展覽參觀，語音導覽能協助理解展品。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
+        "博物館聽導覽",
         "車站導覽展品",
         "博物館查班次",
-        "博物館聽導覽",
         "銀行展示文物"
       ],
       "taxonomy": "inferential",
@@ -918,12 +918,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "無障礙通道要保持順暢，方便有需要的人通行。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "保持通道順暢",
         "只留給館長使用",
-        "可以暫停聊天",
         "方便大家堆物",
-        "保持通道順暢"
+        "可以暫停聊天"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -943,12 +943,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "公共設施要依規定使用，並考慮其他使用者。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "免費可任意用",
-        "遵守規定使用",
+        "弄髒有人會清",
         "先搶先用很久",
-        "弄髒有人會清"
+        "遵守規定使用",
+        "免費可任意用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -970,9 +970,9 @@
       "explanation": "學生可提醒他人並告知大人或管理單位協助處理。",
       "answer_index": 1,
       "options": [
-        "拍照嘲笑他人",
-        "提醒告知大人",
         "繼續搖到更壞",
+        "提醒告知大人",
+        "拍照嘲笑他人",
         "拆下帶回家中"
       ],
       "taxonomy": "inferential",
@@ -996,9 +996,9 @@
       "answer_index": 0,
       "options": [
         "節慶與攤販",
-        "只看門牌號碼",
+        "完全沒有關係",
         "只看道路寬度",
-        "完全沒有關係"
+        "只看門牌號碼"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": true,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "網路屬電信服務，停電屬電力服務，兩者不能混淆。",
-      "answer_index": 0,
+      "answer_index": 1,
       "options": [
+        "網路找戶政停電找郵局",
         "網路找電信停電找電力",
         "網路找電力停電找電信",
-        "網路找郵局停電找銀行",
-        "網路找戶政停電找郵局"
+        "網路找郵局停電找銀行"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1045,10 +1045,10 @@
       "explanation": "寄包裹找郵局，戶籍資料找戶政事務所。",
       "answer_index": 2,
       "options": [
+        "寄件電信戶籍電力",
         "寄件銀行戶籍郵局",
-        "寄件戶政戶籍銀行",
         "寄件郵局戶籍戶政",
-        "寄件電信戶籍電力"
+        "寄件戶政戶籍銀行"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "寄包裹可到郵局，借書則可到圖書館。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "銀行與火車站",
         "郵局與圖書館",
-        "戶政與電力處",
-        "電信與博物館"
+        "銀行與火車站",
+        "電信與博物館",
+        "戶政與電力處"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1093,12 +1093,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "公共設施多人共用時，依序排隊能維持公平與秩序。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "先插隊再提醒人",
-        "占著通道等朋友",
         "依序排隊再使用",
-        "留下紙屑給人清"
+        "留下紙屑給人清",
+        "先插隊再提醒人",
+        "占著通道等朋友"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1118,11 +1118,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "坡地與果樹畫面可推論山坡常見果園利用。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "海邊常見漁港",
-        "平地一定無田",
         "山坡常見果園",
+        "平地一定無田",
+        "海邊常見漁港",
         "都市沒有交通"
       ],
       "taxonomy": "applied",
@@ -1146,9 +1146,9 @@
       "answer_index": 2,
       "options": [
         "請長者繞遠路走",
-        "把坡道當座位區",
+        "繼續聊天不處理",
         "搬開物品留通道",
-        "繼續聊天不處理"
+        "把坡道當座位區"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1171,9 +1171,9 @@
       "answer_index": 0,
       "options": [
         "火車站看列車時刻",
-        "銀行櫃臺聽展覽說明",
         "郵局窗口申請家網路",
-        "戶政櫃臺購買車票"
+        "戶政櫃臺購買車票",
+        "銀行櫃臺聽展覽說明"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1193,11 +1193,11 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "農漁會信用部可提供提款等金融服務。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "提款到農漁會信用部",
-        "提款到戶政事務所裡",
         "提款到電信服務處裡",
+        "提款到戶政事務所裡",
+        "提款到農漁會信用部",
         "提款到火車售票口裡"
       ],
       "taxonomy": "applied",
@@ -1218,12 +1218,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "學生可把觀察到的問題告知大人，由合適單位處理。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "自己修理電線",
-        "通知大人反映",
         "丟石頭測看看",
-        "假裝完全沒事"
+        "自己修理電線",
+        "假裝完全沒事",
+        "通知大人反映"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,
@@ -1243,12 +1243,12 @@
       "quality_level": "QL4",
       "cqi_score": 9.5,
       "explanation": "地方風貌包含自然、人文、場所、設施與居民活動。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "鄉村代表落後",
+        "風貌含人與地",
         "都市必定最好",
-        "風貌只看美景",
-        "風貌含人與地"
+        "風貌只看美景"
       ],
       "taxonomy": "applied",
       "blind_evaluation": true,

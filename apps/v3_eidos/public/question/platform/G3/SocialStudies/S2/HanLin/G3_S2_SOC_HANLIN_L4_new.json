@@ -18,11 +18,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公共自行車由許多人共同借用，不屬於單一家庭。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "大家共用",
-        "個人收藏",
         "店家專用",
+        "個人收藏",
+        "大家共用",
         "只能展示"
       ],
       "taxonomy": "literal",
@@ -43,11 +43,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公共自行車要歸還到指定站點，方便下一位使用者。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "路口旁邊",
         "租借站點",
         "教室門口",
+        "路口旁邊",
         "騎樓中間"
       ],
       "taxonomy": "literal",
@@ -70,8 +70,8 @@
       "explanation": "公共自行車常用來完成短距離移動與接駁。",
       "answer_index": 2,
       "options": [
-        "長途旅行",
         "搬運家具",
+        "長途旅行",
         "短程接駁",
         "高速競賽"
       ],
@@ -93,12 +93,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "卡片與手機讓借還車更自動化，屬於科技應用。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
+        "科技借還",
         "紙本登記",
         "口頭排隊",
-        "手寫收據",
-        "科技借還"
+        "手寫收據"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -121,8 +121,8 @@
       "answer_index": 0,
       "options": [
         "維修保養",
-        "販賣餐點",
         "拍照打卡",
+        "販賣餐點",
         "舉辦比賽"
       ],
       "taxonomy": "literal",
@@ -145,10 +145,10 @@
       "explanation": "騎自行車也要遵守交通規則，保護自己和他人。",
       "answer_index": 1,
       "options": [
-        "速度最快",
+        "占用車道",
         "安全守法",
         "隨意穿越",
-        "占用車道"
+        "速度最快"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -168,12 +168,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "家用自行車屬於家庭，公共自行車則由大眾借用。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "顏色固定",
-        "速度相同",
         "使用方式",
-        "輪胎形狀"
+        "輪胎形狀",
+        "速度相同",
+        "顏色固定"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -195,9 +195,9 @@
       "explanation": "先查車輛數量，可以減少白跑一趟的機會。",
       "answer_index": 3,
       "options": [
-        "增加重量",
         "改變天氣",
         "取消規則",
+        "增加重量",
         "安排路線"
       ],
       "taxonomy": "literal",
@@ -218,12 +218,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "電子支付只是付款形式不同，仍然會扣除金錢。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "完成付款",
-        "免費取得",
         "交換禮物",
-        "取消交易"
+        "免費取得",
+        "取消交易",
+        "完成付款"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -243,12 +243,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "調度能讓不同站點都有較合適的車輛數量。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "廣告設計",
-        "車輛調度",
         "點心販售",
-        "門票檢查"
+        "門票檢查",
+        "廣告設計",
+        "車輛調度"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -270,8 +270,8 @@
       "explanation": "手機點餐讓餐廳服務流程出現新的做法。",
       "answer_index": 2,
       "options": [
-        "整理書包",
         "清洗衣服",
+        "整理書包",
         "餐飲服務",
         "戶外掃地"
       ],
@@ -293,12 +293,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "線上訂餐結合店家與配送，改變購買方式。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "紙筆抄寫",
-        "現場排隊",
+        "線上訂餐",
         "只收現金",
-        "線上訂餐"
+        "現場排隊"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -318,12 +318,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "導航能提供路線資訊，協助駕駛到達目的地。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "尋找路線",
         "烹煮餐點",
         "修補衣服",
-        "包裝禮盒"
+        "包裝禮盒",
+        "尋找路線"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -343,12 +343,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "新設備常需要人員協助操作與處理問題。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
+        "價格固定",
         "人員消失",
         "人機合作",
-        "商品變少",
-        "價格固定"
+        "商品變少"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -368,12 +368,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "老店透過網路介紹商品，可接觸更多顧客。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "關門休息",
-        "只賣熟人",
+        "停止服務",
         "網路介紹",
-        "停止服務"
+        "關門休息",
+        "只賣熟人"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -393,12 +393,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "改良包裝與介紹故事，能讓傳統商品有新吸引力。",
-      "answer_index": 3,
+      "answer_index": 1,
       "options": [
         "放棄技術",
-        "減少品質",
+        "創新包裝",
         "拒絕顧客",
-        "創新包裝"
+        "減少品質"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -418,11 +418,11 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "整理訂單和保鮮設備能提升傳統市場的服務。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "服務升級",
         "停止交易",
         "商品消失",
+        "服務升級",
         "客人減少"
       ],
       "taxonomy": "literal",
@@ -443,12 +443,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "介紹生產過程能讓顧客更了解產品來源。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "路線更遠",
-        "來源透明",
+        "口味相同",
         "重量固定",
-        "口味相同"
+        "來源透明",
+        "路線更遠"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -468,12 +468,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "生活和工作改變時，工作者也需要持續學習。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
+        "停止服務",
         "拒絕嘗試",
         "只靠運氣",
-        "持續學習",
-        "停止服務"
+        "持續學習"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -493,12 +493,12 @@
       "quality_level": "QL3",
       "cqi_score": 6.75,
       "explanation": "公共自行車常補足短距離路段，讓轉乘更方便。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
         "遠洋航行",
-        "搬家載貨",
         "山路探險",
-        "短程接續"
+        "短程接續",
+        "搬家載貨"
       ],
       "taxonomy": "literal",
       "blind_evaluation": false,
@@ -521,9 +521,9 @@
       "answer_index": 0,
       "options": [
         "平衡需求",
-        "增加票價",
+        "取消站點",
         "禁止借車",
-        "取消站點"
+        "增加票價"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -543,12 +543,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "知道空位位置，能避免找不到地方歸還車輛。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "迷路買票",
-        "無處還車",
+        "吃錯午餐",
         "忘記書包",
-        "吃錯午餐"
+        "無處還車",
+        "迷路買票"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -568,12 +568,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "預約和定位能讓乘客更容易安排搭車時間。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
         "車門變大",
         "車色變亮",
-        "預約方便",
-        "座椅變少"
+        "座椅變少",
+        "預約方便"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -596,8 +596,8 @@
       "answer_index": 3,
       "options": [
         "刪除菜單",
-        "關掉店門",
         "減少客人",
+        "關掉店門",
         "整理訂單"
       ],
       "taxonomy": "inferential",
@@ -618,12 +618,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "保留手藝又增加預約服務，是傳統與新方式結合。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "保留創新",
         "放棄手藝",
+        "拒絕客人",
         "停止營業",
-        "拒絕客人"
+        "保留創新"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -645,10 +645,10 @@
       "explanation": "網路訂購與宅配可讓農產品接觸更遠的顧客。",
       "answer_index": 1,
       "options": [
-        "減少選擇",
-        "拓展客群",
         "縮短產季",
-        "停止採收"
+        "拓展客群",
+        "停止採收",
+        "減少選擇"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -668,12 +668,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "機器能幫忙部分流程，但人的經驗仍然重要。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "人力全無",
-        "技術失效",
         "人機分工",
-        "客人消失"
+        "技術失效",
+        "客人消失",
+        "人力全無"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -696,8 +696,8 @@
       "answer_index": 3,
       "options": [
         "工作單一",
-        "無人參與",
         "服務簡單",
+        "無人參與",
         "分工合作"
       ],
       "taxonomy": "inferential",
@@ -718,12 +718,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "體驗與故事能讓顧客更理解地方產業特色。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "體驗故事",
-        "取消手作",
         "關閉店面",
-        "隱藏特色"
+        "取消手作",
+        "隱藏特色",
+        "體驗故事"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -745,9 +745,9 @@
       "explanation": "付款紀錄能幫助家人檢查與管理消費情形。",
       "answer_index": 1,
       "options": [
-        "增加糖果",
-        "追蹤支出",
         "改變天氣",
+        "追蹤支出",
+        "增加糖果",
         "減少作業"
       ],
       "taxonomy": "inferential",
@@ -768,12 +768,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "愛惜公共資源，能讓下一位使用者也方便使用。",
-      "answer_index": 2,
+      "answer_index": 3,
       "options": [
-        "增加麻煩",
         "降低安全",
-        "方便使用",
-        "造成浪費"
+        "造成浪費",
+        "增加麻煩",
+        "方便使用"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -796,8 +796,8 @@
       "answer_index": 3,
       "options": [
         "停止租借",
-        "取消查詢",
         "只靠運氣",
+        "取消查詢",
         "人員協助"
       ],
       "taxonomy": "inferential",
@@ -818,12 +818,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "保留不同服務方式，可讓不熟科技的人也能使用。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "不同需求",
-        "關閉廚房",
         "減少座位",
-        "禁止詢問"
+        "禁止詢問",
+        "關閉廚房",
+        "不同需求"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -843,12 +843,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "事先查到庫存，可以避免到店後買不到想要的商品。",
-      "answer_index": 1,
+      "answer_index": 2,
       "options": [
-        "忘記姓名",
-        "白跑一趟",
         "弄髒地板",
-        "走錯教室"
+        "走錯教室",
+        "白跑一趟",
+        "忘記姓名"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -868,12 +868,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "清潔與檢查能降低使用者滑倒或不便的風險。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "顏色美觀",
-        "廣告收入",
         "使用安全",
-        "車籃大小"
+        "廣告收入",
+        "車籃大小",
+        "顏色美觀"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -918,12 +918,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "維修與調度工作支撐公共自行車服務運作。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "維修調度",
+        "教室打掃",
         "歌曲表演",
         "服裝設計",
-        "教室打掃"
+        "維修調度"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -943,12 +943,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "公共自行車能連接公車站與目的地間的短路程。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
-        "跨海航行",
-        "短距連接",
+        "山區露營",
         "搬運冰箱",
-        "山區露營"
+        "跨海航行",
+        "短距連接"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -968,12 +968,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "電腦整理資料通常能讓查詢與統計更有效率。",
-      "answer_index": 2,
+      "answer_index": 0,
       "options": [
-        "聲音大小",
-        "紙張顏色",
         "資料管理",
-        "門窗數量"
+        "紙張顏色",
+        "門窗數量",
+        "聲音大小"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -993,12 +993,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "讓客人參與選口味，表示店家注意顧客需求。",
-      "answer_index": 3,
+      "answer_index": 0,
       "options": [
-        "縮短營業",
+        "顧客需求",
         "取消配料",
-        "隱藏菜單",
-        "顧客需求"
+        "縮短營業",
+        "隱藏菜單"
       ],
       "taxonomy": "inferential",
       "blind_evaluation": false,
@@ -1018,12 +1018,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "短距離且有站點時，借用公共自行車很合適。",
-      "answer_index": 1,
+      "answer_index": 3,
       "options": [
+        "繞遠開車",
         "搭船前往",
-        "借用單車",
         "原地等待",
-        "繞遠開車"
+        "借用單車"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1043,12 +1043,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "查詢附近站點空位，才能正確完成歸還。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "丟在路邊",
         "推進教室",
         "查鄰近站",
-        "拆下車牌"
+        "拆下車牌",
+        "丟在路邊"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1068,12 +1068,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "預訂取貨能減少等待，也保留原本的店面服務。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "取消商品",
         "關門休息",
-        "只收硬幣",
-        "預訂取貨"
+        "取消商品",
+        "預訂取貨",
+        "只收硬幣"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1093,12 +1093,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "大雨騎車較危險，改用較安全的交通方式更合適。",
-      "answer_index": 0,
+      "answer_index": 2,
       "options": [
-        "改搭公車",
         "照樣快騎",
-        "逆向前進",
-        "閉眼滑行"
+        "閉眼滑行",
+        "改搭公車",
+        "逆向前進"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1118,12 +1118,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "請店員協助能讓不熟悉科技的人也順利點餐。",
-      "answer_index": 1,
+      "answer_index": 0,
       "options": [
-        "立刻離開",
         "請人協助",
-        "責怪阿公",
-        "拔掉電源"
+        "拔掉電源",
+        "立刻離開",
+        "責怪阿公"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1143,11 +1143,11 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "故障車要通報，避免自己或下一位使用者受傷。",
-      "answer_index": 2,
+      "answer_index": 1,
       "options": [
-        "快速騎走",
         "假裝沒事",
         "通報故障",
+        "快速騎走",
         "借給朋友"
       ],
       "taxonomy": "applied",
@@ -1168,12 +1168,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "維修人員能說明車輛保養與公共服務背後工作。",
-      "answer_index": 3,
+      "answer_index": 2,
       "options": [
-        "玩具店員",
-        "校隊隊長",
         "作文老師",
-        "維修人員"
+        "校隊隊長",
+        "維修人員",
+        "玩具店員"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1193,12 +1193,12 @@
       "quality_level": "QL3",
       "cqi_score": 7.5,
       "explanation": "保留原味並更新包裝，能兼顧特色與吸引力。",
-      "answer_index": 0,
+      "answer_index": 3,
       "options": [
-        "原味新裝",
         "丟掉茶葉",
         "停止介紹",
-        "只賣空盒"
+        "只賣空盒",
+        "原味新裝"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1220,10 +1220,10 @@
       "explanation": "透過網路訂購，也能購買並支持家鄉農產品。",
       "answer_index": 1,
       "options": [
-        "放棄購買",
+        "拒收包裹",
         "線上訂購",
-        "亂選商品",
-        "拒收包裹"
+        "放棄購買",
+        "亂選商品"
       ],
       "taxonomy": "applied",
       "blind_evaluation": false,
@@ -1245,8 +1245,8 @@
       "explanation": "科技改變工具與流程，人仍要學習新技能。",
       "answer_index": 2,
       "options": [
-        "停止學習",
         "拒絕工具",
+        "停止學習",
         "學新技能",
         "不用工作"
       ],

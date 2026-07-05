@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易在計算套餐費用時漏乘人數，或是將餘額誤認為足夠支付所有人的套餐費用。",
       "scenario": "【在家庭旅遊規劃時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "門票總價：(450 × 2) + (280 × 2) = 900 + 560 = 1460 元。剩餘現金：2000 - 1460 = 540 元。套餐總價：150 × 4 = 600 元。因為 540 < 600，所以不夠，差額為 60 元。",
       "answer_index": 0,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生容易誤將『平分』的結果直接當作最終答案，而忽略了題目後半段小明額外增加的動作。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每人平分應得 36 ÷ 4 = 9 顆。小明原本有 9 顆，後來又多拿了 1 顆，所以是 9 + 1 = 10 顆。",
       "answer_index": 0,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生常會直接將 18 除以 3 得到 6，卻忽略了「每一組需要 2 本書」的換算關係。",
       "scenario": "【在社區圖書館借閱時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "要集滿 18 點，因為 3 點是一組，所以需要 18 ÷ 3 = 6 組；每一組需要閱讀 2 本書，因此總共需要 6 × 2 = 12 本書。",
       "answer_index": 0,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生會被「每 4 個人一組」這個資訊誤導，誤以為只需要計算組數，忽略了題目問的是全班的總距離。",
       "scenario": "【在學校運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "每個人都要跑 200 公尺，全班 28 人，因此是 28 乘以 200，等於 5600 公尺。",
       "answer_index": 0,
       "options": [

@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "跨國銀行的資金轉帳補位",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "數字寫出來是 1,0007,0000,0000。讀法中，若數位中間有連續的零，通常讀出一個『零』來區隔大的單位（兆與億之間有四個零）。",
       "answer_index": 0,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "",
       "scenario": "分析國債鐘的變動",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "直接在兆位減去 1。5 - 1 = 4，億位維持不變。",
       "answer_index": 0,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "判斷數位的缺失",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "該數為 30 兆...。最高位是十兆位（3），第二位是兆位（0）。",
       "answer_index": 3,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "能源消耗統計",
       "quality_level": "QL1",
-      "cqi_score": 5,
+      "cqi_score": 6.5,
       "explanation": "2345 + 655 = 3000。故總共 3000 億度。",
       "answer_index": 1,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易只計算單層容量（7本）或單櫃容量（21本），卻忘記判斷 42 本書需要用到兩個書櫃，導致對餘數產生錯誤判斷。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "一個書櫃總共可放 3 層 × 7 本 = 21 本。兩個書櫃共可放 21 × 2 = 42 本，剛好放完，所以剩下 0 本。",
       "answer_index": 2,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生容易直接用 24 - 2 = 22，或誤以為弄壞盒子後草莓數量也會減少，忽略了除法與乘法的互逆關係。",
       "scenario": "【在週末的親子烘焙時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "原先需要 24 ÷ 4 = 6 個盒子。弄壞 2 個後剩下 4 個盒子，4 個盒子只能裝 4 × 4 = 16 顆草莓。24 - 16 = 8，所以剩下 8 顆裝不下。",
       "answer_index": 0,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生可能會將 5 個 10 元誤以為是 5 元，或是計算 50 - 35 時，在十位數退位減法上出現運算錯誤。",
       "scenario": "【在逛文具店時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "小明有 5 個 10 元，總共是 50 元。50 - 35 = 15，所以店員會找回 15 元。",
       "answer_index": 1,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易直接將 36 除以 4 得到 9，再將加進來的 9 除以 4 產生混淆，忽略了總數的變化。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "先計算總水餃數：36 + 9 = 45 顆。再除以人數：45 ÷ 4 = 11，餘數 1。雖然題目問平分，但在生活情境中，剩下的 1 顆通常不計入每人平均份額，故每人可得 11 顆。",
       "answer_index": 3,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生容易被題目提供的「4 個書櫃、5 層、24 本」資訊干擾，誤以為需要先計算書櫃總容量，導致陷入複雜計算。",
       "scenario": "【在整理學校圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "將 500 本書平均分配到 4 個書櫃，即 500 ÷ 4 = 125 本。題目詢問的是每個書櫃增加的數量，與書櫃層數無關。",
       "answer_index": 0,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易只計算行車時間而遺漏休息時間，或是將 30 分鐘誤算為 0.3 小時而導致單位換算錯誤。",
       "scenario": "【在規劃家庭旅遊行程時】",
       "quality_level": "QL1",
-      "cqi_score": 6,
+      "cqi_score": 7.5,
       "explanation": "行車時間為 120 ÷ 60 = 2 小時，加上休息站的 30 分鐘，總時間為 2 小時 30 分鐘。",
       "answer_index": 3,
       "options": [

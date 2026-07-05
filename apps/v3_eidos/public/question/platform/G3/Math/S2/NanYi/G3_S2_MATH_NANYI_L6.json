@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "單位換算",
       "quality_level": "QL1",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "3 公斤 = 3000 公克。3000 + 50 = 3050。",
       "answer_index": 1,
       "options": [
@@ -90,7 +90,7 @@
       "commonMisconception": "",
       "scenario": "複名數減法",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "3000 - 1400 = 1600 公克 = 1 公斤 600 公克。",
       "answer_index": 1,
       "options": [
@@ -140,7 +140,7 @@
       "commonMisconception": "",
       "scenario": "書包總重",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "400 × 4 = 1600。1600 + 300 = 1900 公克 = 1 公斤 900 公克。",
       "answer_index": 2,
       "options": [
@@ -265,7 +265,7 @@
       "commonMisconception": "",
       "scenario": "餅乾淨重",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "1250 - 350 = 900 公克 = 0 公斤 900 公克。",
       "answer_index": 3,
       "options": [
@@ -290,7 +290,7 @@
       "commonMisconception": "",
       "scenario": "單位乘法陷阱",
       "quality_level": "QL1",
-      "cqi_score": 7,
+      "cqi_score": 8.5,
       "explanation": "200 × 6 = 1200 公克 = 1.2 公斤。大於 1 公斤。",
       "answer_index": 0,
       "options": [
@@ -340,7 +340,7 @@
       "commonMisconception": "學生可能只看到數字相減，忘記將公斤轉換成公克，或者在轉換後進行減法時出錯。例如，直接用1300減500，得到800，但選項中沒有800公克，而1公斤100公克是1100公克，這和800公克差距較大。正確答案是1公斤300公克減去500公克，剩下800公克。選項A是800公克，所以應該是800公克。我的解釋有誤。讓我重新思考答案和選項。",
       "scenario": "【在廚房幫忙烘焙時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "首先需要將1公斤300公克轉換成公克，即1000公克 + 300公克 = 1300公克。然後從1300公克中減去用掉的500公克，1300 - 500 = 800公克。選項D是1公斤100公克，也就是1100公克，這個是錯誤的。",
       "answer_index": 0,
       "options": [
@@ -398,7 +398,7 @@
       "commonMisconception": "學生可能在不同單位之間進行加法時出錯，例如直接將1.2和0.6相加得到1.8，或是在轉換時遺漏了公克部分，只加了公斤。也可能誤將1800公克寫成1800公斤。",
       "scenario": "【在市場採買食材時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "將魚的重量1公斤200公克轉換為公克，即1000公克 + 200公克 = 1200公克。然後將魚和青菜的重量相加：1200公克 + 600公克 = 1800公克。1800公克可以表示為1公斤800公克。",
       "answer_index": 0,
       "options": [
@@ -597,7 +597,7 @@
       "commonMisconception": "學生可能誤以為5個小刻度就是5公克，或是忘記1公斤等於1000公克，導致單位換算錯誤。",
       "scenario": "【在動物醫院時】",
       "quality_level": "QL1",
-      "cqi_score": 7.25,
+      "cqi_score": 8.75,
       "explanation": "體重計上從2公斤到3公斤之間有10個小刻度，每個小刻度代表100公克。指針停在第5個小刻度，表示從2公斤再增加5個100公克，也就是500公克。所以毛球的體重是2公斤500公克。",
       "answer_index": 1,
       "options": [
@@ -763,7 +763,7 @@
       "commonMisconception": "學生可能會直接用公斤數除以8，忽略公克部分，或是在換算單位時出錯，導致計算結果不正確。",
       "scenario": "【在工廠包裝區時】",
       "quality_level": "QL1",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "總重量是4公斤800公克，也就是4800公克。將這個總重量平均分給8盒餅乾，所以一盒餅乾的重量是 4800 公克 ÷ 8 = 600 公克。",
       "answer_index": 3,
       "options": [
