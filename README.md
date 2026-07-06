@@ -213,3 +213,9 @@ Eidos 的每道題目經過四階段品管。各階段細節見對應準則檔�
 | canonical origin | `https://github.com/LeoVibe/Science.git` |
 | License | MIT |
 | 部署環境 | 見 [`docs/Cloudflare-Pages-與正式站環境變數.md`](docs/Cloudflare-Pages-與正式站環境變數.md) |
+
+---
+
+## 十、外掛 Agent Skills（addyosmani/agent-skills）
+
+`2026-06-24` 引入：`.claude/skills/` 加入 7 個軟體工程生命週期 skill（來源 `github.com/addyosmani/agent-skills`，實體複製）：`ci-cd-and-automation`、`observability-and-instrumentation`、`deprecation-and-migration`、`shipping-and-launch`、`documentation-and-adrs`、`git-workflow-and-versioning`、`incremental-implementation`。
