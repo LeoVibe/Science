@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "超市水果包裝",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "960 / 32 = 30。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能會誤將 145 減去 67 再減去 48，算出剩下的氣球數量，而非題目要求的總銷售量。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "將上午賣出的 67 顆與下午賣出的 48 顆相加，67 + 48 = 115，故總共賣出 115 顆。",
       "answer_index": 3,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易誤以為只要算出大伯一家人要吃 3 × 9 = 27 顆即可，忽略了總數的變化或是誤算總人數。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本每人 36 ÷ 4 = 9 顆。現在總人數變成 4 + 3 = 7 人。若每人要吃 9 顆，總共需要 7 × 9 = 63 顆。還需要 63 - 36 = 27 顆。",
       "answer_index": 3,
       "options": [

@@ -351,7 +351,7 @@
       "commonMisconception": "學生常會混淆計算順序，或誤將預算扣除後的餘額與蘋果價格進行錯誤的加總比較。",
       "scenario": "【在週末逛市場時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算兩袋柳丁的總價為 170 元，從總預算 300 元扣除後剩餘 130 元，130 大於蘋果單價 120，故購買蘋果後仍有餘額。",
       "answer_index": 0,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生可能會誤以為剩下的書是 6 - 3 = 3 個書架，進而算出 3 × 8 = 24，或直接誤算為剩下的書架數而非書本總量。",
       "scenario": "【在社區圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共 48 本分 6 個書架，每個書架應放 48 ÷ 6 = 8 本。已放 3 個書架，即放了 8 × 3 = 24 本，剩下 48 - 24 = 24 本。",
       "answer_index": 1,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生會受到「買 3 送 1」的促銷字眼影響，誤以為只要買 3 瓶就能享有優惠，而將價格誤算為 45 × 2。",
       "scenario": "【在超市購買飲料時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "因為活動是買 3 送 1，但小華只買到 3 瓶，並沒有達到送 1 瓶的條件，所以 3 瓶皆需付原價，即 45 × 3 = 135 元。",
       "answer_index": 1,
       "options": [

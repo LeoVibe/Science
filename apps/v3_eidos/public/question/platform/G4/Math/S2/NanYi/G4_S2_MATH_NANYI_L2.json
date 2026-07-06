@@ -498,7 +498,7 @@
       "commonMisconception": "學生可能忽略了「借走一個書櫃」代表的是整體的減量，或者在計算總量時誤將層數當作總書櫃數相乘。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有 4 個書櫃，借走 1 個後剩下 3 個。每個書櫃有 5 層×12 本=60 本。剩下 3 個書櫃共有 3×60 = 180 本。",
       "answer_index": 3,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生容易算出 340 元（總價）後，誤以為這就是找零金額，忽略了應再減去原總金額的步驟。",
       "scenario": "【在週末逛傳統市場時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算 4 袋蘋果的總價：85 × 4 = 340 元。再從 500 元中扣除總價：500 - 340 = 160 元。",
       "answer_index": 1,
       "options": [

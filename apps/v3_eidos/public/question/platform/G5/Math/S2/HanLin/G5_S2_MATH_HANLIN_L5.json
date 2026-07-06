@@ -99,7 +99,7 @@
       "commonMisconception": "學生容易誤以為「買 3 送 1」代表總共要買 4 瓶，因此會用 45 × 4 = 180 來計算，忽略了優惠活動中「送」的那一瓶不需要付錢。",
       "scenario": "【在家庭超市採購時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "買 3 送 1 代表付 3 瓶的錢就可以得到 4 瓶。計算方式為 45 × 3 = 135 元，這樣就能獲得 4 瓶果汁，正好給 4 個小朋友每人一瓶。",
       "answer_index": 2,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生容易直接計算 36 - 4 或忘記加上額外多要的數量，誤以為還是平分的 9 顆。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算每人分配到的數量：36 ÷ 4 = 9。小明原本有 9 顆，加上後來多要的 2 顆，總共是 9 + 2 = 11 顆。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生對於貨幣面額的組合缺乏彈性，容易選擇雖然總額正確但超過錢包現有硬幣數量的選項。",
       "scenario": "【在文具店挑選時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "2 個 10 元是 20 元，3 個 5 元是 15 元，20 + 15 = 35 元，且硬幣數量在他的錢包範圍內。",
       "answer_index": 3,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生容易誤以為額外拿出的 8 顆水餃只算在爸爸頭上，或是直接將總數 44 除以 4 卻忽略了分組的邏輯順序。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每人先分到 36 ÷ 4 = 9 顆，爸爸額外多吃的 8 顆水餃必須由 4 個人共同分攤（8 ÷ 4 = 2），所以每人平均吃 9 + 2 = 11 顆。",
       "answer_index": 1,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生常混淆『片數』與『披薩個數』，或是計算除法順序顛倒（6÷3=2）。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有3個披薩，每人吃一樣多且分完，即3÷6=3/6，約分後為1/2個披薩。因為每個披薩切成8片，1/2個披薩即為4片。",
       "answer_index": 0,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生常誤以為是總價打七折（120 × 0.7 = 84），忽略了『第二包』這項條件限制。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "第一包原價60元，第二包打七折為60 × 0.7 = 42元。總金額為60 + 42 = 102元。",
       "answer_index": 0,
       "options": [

@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "分析剩餘長度",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "總支出 = 3.45 + 4.50 = 7.95。 剩餘 = 10.00 - 7.95 = 2.05。",
       "answer_index": 0,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "",
       "scenario": "比較運動成績",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "3.20 > 3.18。 相差 3.20 - 3.18 = 0.02。",
       "answer_index": 0,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "混合加減運算",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "水淨重 = 1.2 - 0.45 = 0.75。 水的一半 = 0.375。 總重 = 0.45 (瓶重) + 0.375 (剩水) = 0.825。 (對小四來說稍難，但符合 L4 挑選題)",
       "answer_index": 0,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生常因看到「買3送1」就誤以為總共只要付3盒的錢（300×3=900），忽略了題目問的是帶回家的總重量。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "買 3 送 1 代表總共獲得 4 盒肉片，每盒 300 公克，計算為 300 × 4 = 1200 公克。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生常在計算完 120 後，因為迷失在數字運算中，而誤判了「放得進去」與「放不進去」的邏輯結論。",
       "scenario": "【在學校圖書館借書時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算總容量：5 × 24 = 120 本。因為 130 大於 120，所以放不進去。剩下的書為 130 - 120 = 10 本。",
       "answer_index": 1,
       "options": [

@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "安排乘車計畫",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "2:10 + 3:40 = 5:50。",
       "answer_index": 0,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "統計運動時數",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "50 + 45 = 95 分 = 1 小時 35 分。",
       "answer_index": 0,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生容易直接將500減去85，忽略了「4袋」的倍數關係，或是計算出蘋果總價後誤以為那就是剩下的錢。",
       "scenario": "【在家庭超市採購時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算過程為：85乘以4等於340元（蘋果總價），再用500減去340，結果為160元。",
       "answer_index": 3,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易在除法運算中對於小數除法(140÷3.5)感到困惑，或直覺認為距離相同則速度必相同。",
       "scenario": "【在家庭旅遊規劃時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "去程速度為 140 ÷ 2 = 70 (公里/時)；回程速度為 140 ÷ 3.5 = 40 (公里/時)。",
       "answer_index": 2,
       "options": [

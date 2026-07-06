@@ -99,7 +99,7 @@
       "commonMisconception": "上下文邏輯衝突。",
       "scenario": "Positive Response",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "後句表達想做煎蛋，表示需要蛋，故選肯定應答 'Yes, please'。",
       "answer_index": 0,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "數學單位概念與優惠文本理解。",
       "scenario": "Supermarket Discount",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "買一送一代表 20 元買 2 袋，每一袋平均 10 元。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "語義搭配不當。",
       "scenario": "Healthy Eating",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "在選項中，只有 'bread' 是可以用 'eat' 動詞處理的食物。",
       "answer_index": 0,
       "options": [
@@ -792,7 +792,7 @@
       "commonMisconception": "拼寫錯誤（如漏掉單數中的 a）。",
       "scenario": "Monkey's Favorite",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "長條形且為黃色的水果，且猴子喜歡吃的，是香蕉 (bananas)。",
       "answer_index": 1,
       "options": [
@@ -1254,7 +1254,7 @@
       "commonMisconception": "助動詞與 B 動詞混淆（選 don't）。",
       "scenario": "Plurality Check",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "對於 'Are they...?' 的否定簡答為 'No, they aren't'。",
       "answer_index": 1,
       "options": [
@@ -1275,7 +1275,7 @@
       "commonMisconception": "Yes/No 邏輯判斷錯誤。",
       "scenario": "Farm Tour",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "後半句 'it is' 顯示為肯定簡答，故選 'Yes'。",
       "answer_index": 0,
       "options": [

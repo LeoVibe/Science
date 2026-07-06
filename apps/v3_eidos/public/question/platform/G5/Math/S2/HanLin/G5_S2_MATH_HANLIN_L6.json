@@ -141,7 +141,7 @@
       "commonMisconception": "學生常會直接對總數進行除法，或是在計算剩餘數量時遺漏了乘法步驟，導致運算結果錯誤。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算已裝箱的繪本數量（8×7=56），再算出剩下的數量（96-56=40），最後將剩餘的數量除以 5，得出 8 袋。",
       "answer_index": 3,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生容易將除法與加減法混淆，或誤以為除法就是單純的數字拆解，而忽略了「等分」的核心意義。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "本題運用除法的「平分」概念。24 個餅乾平分為 6 份，每一份的數量即為 24 ÷ 6 = 4。",
       "answer_index": 3,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生常被「原本有 4 個書櫃」這個資訊干擾，誤以為要將總數除以 4 或 9，無法正確判斷分配的對象數量。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "將 60 本新書平均分配到 5 個書櫃，計算式為 60 ÷ 5 = 12 本。",
       "answer_index": 0,
       "options": [

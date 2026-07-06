@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "烹飪比賽計時",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "10:20 + 45 分 = 11:05。 (20+45=65，進位 1 小時 5 分)。",
       "answer_index": 0,
       "options": [
@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "火車車程預估",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "14:30 - 11:10 = 3 小時 20 分。",
       "answer_index": 0,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "分析運動時數",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "1時40分 + 50分 = 1時90分 = 2時30分。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "分析電視節目",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "5:15 - 40 分 = 4:75 - 40 = 4:35。",
       "answer_index": 0,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易算出總價 375 元後，誤以為這就是找零金額，忽略了應與 500 元進行減法運算。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算 3 袋蘋果的總價：125 × 3 = 375 元。再計算找零金額：500 - 375 = 125 元。",
       "answer_index": 2,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易誤以為是 4 瓶都要付錢，直接計算 45 × 4 = 180，或者混淆了買 3 送 1 的折扣邏輯。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "買 3 送 1 等於付 3 瓶的錢就可以得到 4 瓶。計算方式為 45 × 3 = 135 元。小華身上有 150 元，150 - 135 = 15 元。",
       "answer_index": 1,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生常誤以為 32 位同學全都是選手，忽略了題目中「配置替補隊員」會佔用名額的細節。",
       "scenario": "【在學校校慶時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有 4 組，每組需要 2 位替補，總共需要 4 × 2 = 8 位替補隊員。將總人數 32 減去替補的 8 位，剩下的 24 位就是正式選手。",
       "answer_index": 1,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生常忽略乘法的進位，或在計算找零時將 500 誤算為 400，導致判斷錯誤。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算蘋果總價：115 × 4 = 460 元。再計算找回金額：500 - 460 = 40 元。最後比較：40 元大於 30 元，但此選項設計考驗學生是否誤算。正確找回金額為 40 元，40 - 30 = 10，剩餘 10 元，故足夠購買。選項 C 之 20 元為算錯蘋果總價的迷思結果。",
       "answer_index": 1,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生在計算 42 × 20 時，常會漏掉零的位數，或是在單位換算（毫升轉杯數）的過程中產生除法計算錯誤。",
       "scenario": "【在校慶園遊會籌備時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總容量為 3500 × 6 = 21000 毫升。杯數為 21000 ÷ 500 = 42 杯。總收入為 42 × 20 = 840 元（誤算位數的誘答）或 42 × 200 = 8400 元。",
       "answer_index": 2,
       "options": [

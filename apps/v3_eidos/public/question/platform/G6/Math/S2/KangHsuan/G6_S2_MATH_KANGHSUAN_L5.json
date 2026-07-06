@@ -162,7 +162,7 @@
       "commonMisconception": "學生常會直接將 1/4 與 1/3 相加，忽略了『剩下頁數』的基準點已經改變，這是分數應用題最常見的認知陷阱。",
       "scenario": "【在社區圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "第一天看了 24 × 1/4 = 6 頁，剩下 24 - 6 = 18 頁。第二天看了 18 × 1/3 = 6 頁。總共看了 6 + 6 = 12 頁，選項中正確答案為 12 頁的變體邏輯應為 6+6=12，但我為您設計了選項 B 為 10 頁作為誘答，正確計算應為 12，修正後選項應為 12。",
       "answer_index": 3,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生常習慣性地無條件捨去餘數，直接回答 9 個，未考慮到「要把所有書裝完」的現實需求。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算：85 ÷ 9 = 9 餘 4。9 個箱子裝滿後還有 4 本書，為了把書都裝完，必須多準備 1 個箱子來裝剩下的書，所以需要 9 + 1 = 10 個。",
       "answer_index": 2,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生容易誤將總數直接加上額外數量（36 + 3 = 39），或僅計算出平均分配的部分而忽略後續增加的份量。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算平均每人分配到的數量（36 ÷ 4 = 9），再將小明原本的 9 顆加上額外吃的 3 顆，得到 12 顆。",
       "answer_index": 2,
       "options": [

@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "比較田徑成績",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "比較小數大小：12.08 < 12.80 (12.8 的百分位是 0)。因為跑步是秒數越少越快，所以甲選手快。 相差 12.80 - 12.08 = 0.72 秒。",
       "answer_index": 1,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "",
       "scenario": "長度裁切",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "1.25 - 0.80 = 0.45。",
       "answer_index": 0,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生可能只計算了單一班級的距離（8 × 50 = 400），忘記將班級數納入計算，或是誤將班級數直接與距離相乘。",
       "scenario": "【在學校運動會接力賽時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出總人數：8 人 × 6 個班級 = 48 人。再計算總距離：48 人 × 50 公尺 = 2400 公尺。",
       "answer_index": 1,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生容易被題目中的數字『3』誤導，直接用 48 ÷ 3 = 16，忽略了小華本人也是參與者。",
       "scenario": "【在公園野餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "關鍵在於『在場的每一個人』包含了小華自己加上 3 位好朋友，總共是 1 + 3 = 4 個人。因此計算方式為 48 ÷ 4 = 12。",
       "answer_index": 0,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生可能會混淆『層數』與『總容量』，或是誤將 100 除以 5 得到每層放 20 本，進而誤判剩餘空間。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "書架總容量為 5 × 24 = 120 本。放入 100 本新書後，剩餘空間為 120 - 100 = 20 本。",
       "answer_index": 1,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生容易將「下午賣出比上午少 5 個」誤解為下午賣出 5 個，導致總數計算錯誤。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "上午賣 25 個，下午賣 25 - 5 = 20 個。總共賣出 25 + 20 = 45 個。剩下的數量為 60 - 45 = 15 個。",
       "answer_index": 0,
       "options": [

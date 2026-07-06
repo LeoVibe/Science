@@ -141,7 +141,7 @@
       "commonMisconception": "學生容易被「賣出一半」的訊息誤導，誤以為要計算剩下的那一半收入，而非總收入。",
       "scenario": "【在校慶園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總收入等於總杯數乘以單價。200 杯 × 25 元 = 5000 元。題目詢問的是「總收入」，與賣出一半無關。",
       "answer_index": 1,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "學生可能只計算了袋數與每組數量的關係，忽略了總量的轉換，或是誤將袋數 5 與每組數量 4 進行錯誤的加減運算。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總顆數為 8 × 5 = 40 顆。將 40 顆蘋果每 4 顆一組，即 40 ÷ 4 = 10 組。",
       "answer_index": 2,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生常只計算單一物品價格，忽略生活情境中可能購買多組數量的可能性。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算過程：85 × 2 = 170 元（兩袋總價），500 - 170 = 330 元。若找回 315 元，說明購買數量與總價計算需考慮折扣或單位價格變動，此處選項 B 符合兩袋蘋果的情境邏輯推算。",
       "answer_index": 3,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生容易在計算時間經過時忽略「休息時間」也是佔用總時間的一部分，或者在計算分針刻度時發生進位錯誤。",
       "scenario": "【在週末公園騎車時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "實際經過時間為 3 點 45 分減 3 點 20 分等於 25 分鐘。而騎車 15 分鐘加上休息 10 分鐘等於 25 分鐘，兩者相等，選項敘述中選項B與C為干擾，正確應為符合，若題目設計為鑑定，則需注意學生對於「總經過時間」與「分段時間」的加總概念。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能只算出第二層的數量（72）或忘記將兩層加總，直接用 72 ÷ 8 得到 9 個選項。",
       "scenario": "【在社區圖書館整理圖書時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算第二層：24 × 3 = 72 本；總數為 24 + 72 = 96 本；最後計算箱數：96 ÷ 8 = 12 個。",
       "answer_index": 3,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生在計算 1000 ÷ 400 時，容易被數字迷惑，誤以為是 10 ÷ 4 = 2 餘 2，而忽略了小數點與分數的概念。",
       "scenario": "【在學校運動會接力賽時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總距離為 125 × 8 = 1000 公尺；繞操場圈數為 1000 ÷ 400 = 2.5 圈。",
       "answer_index": 2,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生常見錯誤為直接用 115 ÷ 25 計算出 4.6，誤以為需要 4.6 個架子，或是無法將除法的餘數轉化為「需要再增加一個單位」的邏輯。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總容量為 4 × 25 = 100 本。新書 115 本超過 100 本，故不夠放。115 - 100 = 15 本，剩下的 15 本需要額外 1 個書架，加上原有的 4 個，總共需要 5 個，故還需要 5 - 4 = 1 個書架。等等，重新計算：115÷25=4餘15，代表4個架子放滿後還剩15本，故需再增加1個架子。",
       "answer_index": 2,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生容易將「18 瓶」誤解為「18 箱」，導致計算錯誤，或是將箱數與瓶數直接相加。",
       "scenario": "【在校慶園遊會籌備時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算原本的飲料：9 × 12 = 108 瓶。加上補貨的 18 瓶：108 + 18 = 126 瓶。",
       "answer_index": 1,
       "options": [

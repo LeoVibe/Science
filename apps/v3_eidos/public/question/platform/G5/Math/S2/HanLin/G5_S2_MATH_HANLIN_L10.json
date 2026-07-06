@@ -57,7 +57,7 @@
       "commonMisconception": "學生常會直接用總數減去一個盒子的數量（36 - 9 = 27），雖然結果正確，但若遇到題目變形（如每個盒子數量不同），這種直覺減法會失效。另一種錯誤是直接算 36 - 1 = 35，混淆了「飯糰數量」與「盒子數量」。",
       "scenario": "【在幫媽媽準備野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每個保鮮盒原本裝有 36 ÷ 4 = 9 個飯糰。打翻 1 個盒子後，剩下 3 個盒子，每個盒子有 9 個，所以剩下 9 × 3 = 27 個飯糰。",
       "answer_index": 1,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "學生可能會受到「全班 32 人」這個無關資訊的干擾，誤以為需要將人數納入計算，導致運算邏輯錯誤。",
       "scenario": "【在學校校慶運動會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共需要的接力棒為 4 組 × 2 條/組 = 8 條。原有 20 條，使用 8 條後，剩下 20 - 8 = 12 條。",
       "answer_index": 1,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "學生容易在時間進位上出錯，例如將 9 點半加上 2 小時誤算為 10 點 50 分或 11 點整。",
       "scenario": "【在家庭旅遊規劃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算所需時間：120 ÷ 60 = 2 小時。從 9 點 30 分起算，再過 2 小時即為 11 點 30 分。",
       "answer_index": 3,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易誤以為每個人都平分剩餘總量，忽略了個別分配的動態過程。",
       "scenario": "【在週末的家庭野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本每人 24 ÷ 4 = 6 個。兩人各分出 3 個，自己剩 6 - 3 = 3 個，但題目問的是這兩位小朋友（變 3 個）與另外兩位收到飯糰的小朋友（變 6 + 3 = 9 個）。",
       "answer_index": 0,
       "options": [

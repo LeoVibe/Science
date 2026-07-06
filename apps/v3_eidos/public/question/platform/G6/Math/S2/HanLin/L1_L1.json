@@ -36,7 +36,7 @@
       "commonMisconception": "乘除運算方向誤判",
       "scenario": "基準量計算：比值應用",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "乙數 = $180 \\times 5/6 = 150$。誘答 B 為 $180 \\div 5/6$；誘答 C 為 $180 \\times (1 - 5/6)$。測試學生對「比值」與「基準量乘法」的正確映射。",
       "answer_index": 0,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "漏算底面面積、側面積展開長計算錯誤",
       "scenario": "幾何專題：三角柱表面積",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "兩底面積 = $(6 \\times 8 \\div 2) \\times 2 = 48$。側面積 = $(6+8+10) \\times 15 = 24 \\times 15 = 360$。總表面積 = $48 + 360 = 408$。誘答 B 為只算側面積；誘答 C 為柱高誤乘斜邊。",
       "answer_index": 2,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生可能會先將全部人加上啦啦隊員人數 (32 + 2 = 34) 再進行除法，導致無法整除或計算錯誤，忽略了分組的先後順序。",
       "scenario": "【在校園運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算每組原有的人數：32 ÷ 4 = 8 人。加上啦啦隊員後：8 + 2 = 10 人。",
       "answer_index": 0,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易將 48 除以 6 或 5，或是將剩下的書本數量與書架數量混淆，導致計算錯誤。",
       "scenario": "【在整理圖書館書架時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算已放上去的書 6 × 5 = 30，再用總數 48 扣掉 30，得到 18 本。",
       "answer_index": 3,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生容易只算到平均分配的 8 本，或是將 48 直接加上 3 再除以 6，忽略了分組與疊加的先後邏輯。",
       "scenario": "【在社區圖書館整理圖書時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算平均分配的數量：48 ÷ 6 = 8。再加上原本的 3 本：8 + 3 = 11。",
       "answer_index": 2,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生會被「同學受傷改由老師代跑」的敘述干擾，誤以為人員變動會影響總距離，或是誤以為要扣除一棒的距離。",
       "scenario": "【在學校運動會接力賽時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "無論是由誰跑，總棒數與每棒距離不變，8 棒 × 50 公尺 = 400 公尺。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生常會誤將 25 × 8 的結果（200）直接選為答案，忽略了題目詢問的是『剩下』的頁數。",
       "scenario": "【在學校圖書館借書時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出小華 8 天讀了多少頁：25 × 8 = 200 頁。再用總頁數減去已讀頁數：300 - 200 = 100 頁。",
       "answer_index": 2,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能被數字干擾，直接拿 12 除以 3 得到 4，再乘以 4，雖然湊巧算對，但若沒理解『總量』觀念，遇到數字變動就容易出錯。",
       "scenario": "【在校慶園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先求出總公升數：12 × 4 = 48 公升。再計算可分裝的瓶數：48 ÷ 3 = 16 瓶。",
       "answer_index": 2,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生可能會先計算 24 - 35，但在中年級尚未學習負數的概念下，會造成運算困擾，或誤以為是每層都搬走 35 本。",
       "scenario": "【在校園圖書館整理時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算總數：6 × 24 = 144。再進行減法運算：144 - 35 = 109。",
       "answer_index": 2,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生會被「4 瓶」這個數量誤導，直接計算 45 × 4 = 180，忽略了促銷活動中「送」的那一瓶是不需要付錢的認知。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "「買 3 送 1」代表買 3 瓶的價格就可以帶走 4 瓶。因此，4 瓶果汁的總價等於 3 瓶的價格，即 45 × 3 = 135 元。",
       "answer_index": 1,
       "options": [

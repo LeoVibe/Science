@@ -57,7 +57,7 @@
       "commonMisconception": "學生可能會先將 32 加 8 總共 40 本，再除以 4，雖然結果正確，但若情境變更為無法整除時，分步驟思考的邏輯會更穩健。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算原本每個書架有 32 除以 4 等於 8 本，再算新書每個書架分到 8 除以 4 等於 2 本，最後 8 加 2 等於 10 本。",
       "answer_index": 1,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "學生容易忽略「包含小華自己在內」共有 5 個人平分，誤以為是除以 4。",
       "scenario": "【在週末公園野餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有 5 個人（小華加 4 位朋友），30 除以 5 等於每人 6 塊。朋友原本有 6 塊，加上小華給的 6 塊，總共是 12 塊。",
       "answer_index": 3,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "學生容易直接計算 120 ÷ 3 = 40，雖然答案巧合正確，但忽略了題目中「疊」的單位轉換邏輯，容易在數字改變時出錯。",
       "scenario": "【在家庭大掃除時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算總共可以分成幾疊：120 ÷ 8 = 15（疊），再計算每個站點分得的疊數：15 ÷ 3 = 5（疊），最後算出雜誌數量：5 × 8 = 40（本）。",
       "answer_index": 0,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能會混淆單位，將人數與時間的乘法關係搞錯，或是誤認為只要計算班級數乘以時間（5×3=15）。",
       "scenario": "【在校園跳繩比賽時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出總人數：8 人乘以 5 個班等於 40 人。每人跳 3 分鐘，總共時間為 40 乘以 3 等於 120 分鐘。",
       "answer_index": 0,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能誤以為要把 64 除以 8 得到箱數，再誤算剩餘箱數，而非直接計算剩餘的書本數量。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有 64 本，每 8 本裝一箱，4 箱即 8 × 4 = 32 本。剩下的本數為 64 - 32 = 32 本。",
       "answer_index": 1,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生常因為直覺而忽略括號，或認為打破的雞蛋會影響平均分配的邏輯順序，導致選擇錯誤的算式順序。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出雞蛋總數（3 × 10），減去打破的數量（- 4），最後再將剩下的雞蛋平均分配給 3 天，因此需要括號來確保減法先執行。",
       "answer_index": 2,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生常會忘記乘法優先原則，若無括號會誤算為先減後乘，導致計算出不合理的價格。",
       "scenario": "【在文具店挑選禮物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算原子筆總花費（35 × 4），從 200 元中扣除後，剩下的錢平分給 2 個筆記本，故選 (200 - 35 × 4) ÷ 2。",
       "answer_index": 3,
       "options": [
@@ -603,7 +603,7 @@
       "commonMisconception": "學生常會計算出兩關總和 72 後，誤以為這就是答案，或者將 80 直接減去第二關的 54。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "第二關收集 18 × 3 = 54 個，兩關總計 18 + 54 = 72 個。距離 80 個目標還差 80 - 72 = 8 個。",
       "answer_index": 3,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生可能忽略了單支價格與組合價的乘法關係，或者在計算 15 × 6 時發生位值錯誤。",
       "scenario": "【在文具店採購時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "分開買 6 支的價格為 15 × 6 = 90 元。比較組包裝 80 元，省下的金額為 90 - 80 = 10 元。",
       "answer_index": 3,
       "options": [

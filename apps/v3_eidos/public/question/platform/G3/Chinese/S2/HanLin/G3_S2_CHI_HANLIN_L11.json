@@ -361,7 +361,7 @@
       "explanation": "課文第二段明確提到：「有間佛寺常被野鳥留下鳥糞。張僧繇在牆上畫了兩隻老鷹後，野鳥竟然嚇得不敢靠近。」這說明了畫老鷹是為了維護環境清潔。",
       "commonMisconception": "學生可能會直覺認為畫家的行為都是為了美觀或展示才華，而忽略了文中提到的功能性目的。",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
@@ -711,7 +711,7 @@
       "explanation": "課文中提到小孫子指著龍說：「奶奶，這些龍都沒有眼珠子，是假的，別怕。」這顯示孩子是透過觀察「缺乏關鍵器官（眼珠）」來推斷畫作並非活物。",
       "commonMisconception": "學生可能會受到「畫家還在現場」或「龍在牆上」等合理生活經驗干擾，而忽略課文中明確提到的「沒有眼珠子」這一關鍵線索。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
@@ -752,7 +752,7 @@
       "commonMisconception": "學生可能只記得張僧繇會畫龍，卻混淆地點或龍的數量。",
       "scenario": "導覽筆記",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7,
       "explanation": "課文寫張僧繇在安樂寺牆上畫了四條龍。",
       "answer_index": 0,
       "options": [
@@ -777,7 +777,7 @@
       "commonMisconception": "學生可能用生活常識回答畫不會動，忽略課文指定的觀察線索。",
       "scenario": "祖孫看畫",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7,
       "explanation": "小孫子指出四條龍都沒有眼珠，所以判斷是假的。",
       "answer_index": 2,
       "options": [
@@ -802,7 +802,7 @@
       "commonMisconception": "學生可能把一般天氣變化或全部龍飛走，誤當成課文結局。",
       "scenario": "故事接龍",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 7,
       "explanation": "張僧繇點睛後雷電大作，被點眼的兩條龍飛走。",
       "answer_index": 1,
       "options": [
@@ -827,7 +827,7 @@
       "commonMisconception": "學生可能只停在老奶奶害怕，沒有看出眼珠細節會引出追問。",
       "scenario": "課堂討論",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7,
       "explanation": "小孫子指出沒有眼珠，接著才引出大家追問點睛。",
       "answer_index": 3,
       "options": [
@@ -852,7 +852,7 @@
       "commonMisconception": "學生可能以為畫家忘記或偷懶，沒有理解他說出的因果警告。",
       "scenario": "眾人追問",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7,
       "explanation": "畫家說一旦畫上眼珠子，龍就會飛走。",
       "answer_index": 2,
       "options": [
@@ -877,7 +877,7 @@
       "commonMisconception": "學生可能以為龍飛走只是天氣巧合，沒有抓到點睛是關鍵條件。",
       "scenario": "整理因果",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7,
       "explanation": "只有點眼的龍飛走，表示點上眼珠是變化關鍵。",
       "answer_index": 1,
       "options": [
@@ -902,7 +902,7 @@
       "commonMisconception": "學生可能以為畫龍點睛只能用在畫畫，不懂可指關鍵的一筆。",
       "scenario": "作文修改",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7,
       "explanation": "有力金句能讓文章更完整，就像點睛成為關鍵一筆。",
       "answer_index": 3,
       "options": [
@@ -927,7 +927,7 @@
       "commonMisconception": "學生可能把加多、加厚或改題材當成重點，忽略關鍵細節才是點睛。",
       "scenario": "美術作品",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7,
       "explanation": "補上最能提神的細節，符合畫龍點睛的關鍵效果。",
       "answer_index": 2,
       "options": [

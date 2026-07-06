@@ -47,7 +47,7 @@
       "question": "根據火車票價表，從台北到中壢要 57 元，小明買 2 張要多少錢？",
       "scenario": "票價查詢",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "57 × 2 = 114。",
       "answer_index": 3,
       "options": [
@@ -72,7 +72,7 @@
       "question": "一部卡通 16:30 開始，17:15 結束。一共播了多長？",
       "scenario": "時刻表報讀",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "17:15 - 16:30 = 45 分鐘。",
       "answer_index": 2,
       "options": [
@@ -97,7 +97,7 @@
       "question": "小英想看 14:00~15:30 的電影。現在是 13:40，她還剩多少時間可以買爆米花？",
       "scenario": "雙向檢索",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "14:00 - 13:40 = 20 分鐘。",
       "answer_index": 1,
       "options": [
@@ -147,7 +147,7 @@
       "question": "火車時刻表：自強號 15:10 開，莒光號 15:45 開。小明想早點到，應該搭哪一班？兩班車差多久？",
       "scenario": "行程規劃",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "15:10 較早。 45 - 10 = 35。",
       "answer_index": 0,
       "options": [
@@ -255,7 +255,7 @@
       "question": "節目表：14:00 播動畫，15:30 播新聞，16:15 播電影。動畫與電影之間有多少空檔時間（新聞撥放期間）？",
       "scenario": "空檔計算",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "16:15 - 14:00 = 2 小時 15 分。注意是問『動畫與電影之間』的總間隔。",
       "answer_index": 0,
       "options": [
@@ -288,7 +288,7 @@
       "question": "成績表：甲 92 分，乙 88 分，丙 95 分。誰是第一名？比第二名多幾分？",
       "scenario": "成績排名",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "最高 95 (丙)。第二 92 (甲)。 95 - 92 = 3。",
       "answer_index": 3,
       "options": [
@@ -687,7 +687,7 @@
       "commonMisconception": "學生可能會覺得只要列出玩具名稱或數量就夠了，忽略了兩者之間的關聯性；或者選擇了雖然也是表格，但資訊不符合主要目的的表格（如只記錄顏色和大小）。這反映了學生對表格結構和資訊關聯性的理解程度。",
       "scenario": "在小玉想要整理她滿屋子的玩具時，她發現有好多不同種類的玩具，像是積木、玩偶、汽車模型等，而且她想知道每種玩具各有幾個，這樣下次玩的時候就更容易找到。",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "這個問題考驗學生對表格用途的理解。小玉需要同時記錄「玩具種類」和「玩具數量」，所以一個能將這兩種資訊對應起來的表格是最有效率的。選項C的表格可以讓她在同一列或同一行中清楚看到某種玩具的名稱和對應的數量。",
       "answer_index": 0,
       "options": [

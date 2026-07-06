@@ -139,7 +139,7 @@
       "question": "關於小數 7.3 的組成，下列哪一個選項正確描述了它的整數與小數部分？",
       "scenario": "數值位值結構",
       "quality_level": "QL1",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "explanation": "7 在個位代表 7 個 1；3 在十分位代表 3 個 0.1。故由 7 個 1 和 3 個 0.1 組成。",
       "answer_index": 1,
       "options": [
@@ -164,7 +164,7 @@
       "question": "健檢報告中，哥哥身高 130.9 公分，弟弟身高 130.5 公分。請問誰比較高？高了多少？",
       "scenario": "健康檢查身高比",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "130.9 減去 130.5，整數部分相同，十分位 9-5=4。故哥哥高出 0.4 公分。",
       "answer_index": 2,
       "options": [
@@ -189,7 +189,7 @@
       "question": "昨天的降雨量是 12.5 毫米，今天的降雨量是 8.7 毫米。這兩天的總降雨量是多少？",
       "scenario": "雨量筒量測",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "12.5 加 8.7。十分位 5+7=12，進 1 到個位。個位 2+8+1=11，再進 1 到十位。結果為 21.2。",
       "answer_index": 3,
       "options": [
@@ -631,7 +631,7 @@
       "commonMisconception": "學生可能在減法中錯誤地處理小數點，例如將10-2.5誤算為8.5，或是忘記借位。",
       "scenario": "【在麵包店買點心時】",
       "quality_level": "QL1",
-      "cqi_score": 8.75,
+      "cqi_score": 7.25,
       "explanation": "10元 - 2.5元 = 7.5元。將10元看作10.0元，然後對齊小數點進行減法。個位數0減5不夠，向十位數1借位，變成10個0.1，所以10.0 - 2.5 = 7.5。",
       "answer_index": 2,
       "options": [
@@ -756,7 +756,7 @@
       "commonMisconception": "學生在進行小數加法時，尤其是在十分位數字相加後超過9時，容易忘記向個位進位，而將兩個數字直接合併。",
       "scenario": "【在幫同學檢查作業時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "正確答案是0.8 + 0.5 = 1.3。小華算出0.13，這表示他將十分位數字8和5相加得到13，然後直接把13寫在小數點後，而忘記了十分位滿10要向個位進1的規則。",
       "answer_index": 1,
       "options": [

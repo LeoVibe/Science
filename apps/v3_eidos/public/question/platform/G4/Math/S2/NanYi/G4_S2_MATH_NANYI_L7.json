@@ -204,7 +204,7 @@
       "commonMisconception": "學生可能只算出總價 345 元就選 A，或是誤將 500 - 345 計算錯誤，忽略了乘法與減法的混合應用。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算步驟為：先算出總價 115 × 3 = 345，再用 500 - 345 = 155，故應找回 155 元。",
       "answer_index": 1,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生容易被「操場一圈 200 公尺」這個無關訊息干擾，誤用 1600 ÷ 200 來計算，導致選出錯誤答案。",
       "scenario": "【在觀賞學校運動會接力賽時】",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "總距離 1600 公尺，每一棒跑 100 公尺，故 1600 ÷ 100 = 16，總共需要 16 位同學。",
       "answer_index": 1,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生常忽略括號的必要性，或者誤將 5 層當作已經處理的總數，而忽略了題目問的是「剩下的」。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "書櫃剩餘層數為 8 - 5 = 3 層，每層 24 本，故需 24 × 3 = 72 本，列式為 24 × (8 - 5)。",
       "answer_index": 3,
       "options": [

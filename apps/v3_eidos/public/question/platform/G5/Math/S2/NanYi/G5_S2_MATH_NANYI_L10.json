@@ -141,7 +141,7 @@
       "commonMisconception": "學生可能因為看到「2 個籃子」就誤以為答案是 2，或是因為計算出單籃 9 顆後，忘記將籃子數量乘以單籃數量。",
       "scenario": "【在幫媽媽分配水果時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每個籃子裝 36 ÷ 4 = 9 顆。送出 2 個籃子，即 9 × 2 = 18 顆。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生常會計算出 9 包餘 8 顆後，誤以為買 9 包就夠，忽略了不足的部分必須無條件進位到下一包。",
       "scenario": "【在學校舉辦班級同樂會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共需要 29 × 4 = 116 顆軟糖。每包 12 顆，116 ÷ 12 = 9 包餘 8 顆。因此需要買 10 包才能足夠分給所有人，且會剩下 4 顆（120 - 116 = 4）。",
       "answer_index": 0,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易在計算折扣時產生迷思，或者算出折扣後的價格就誤以為是剩下的錢，忘記扣除原有的 100 元。",
       "scenario": "【在文具店時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原價總額為 25 × 3 = 75 元。折扣後價格為 75 × 0.9 = 67.5 元。剩下金額為 100 - 67.5 = 32.5 元。",
       "answer_index": 0,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生容易被題目中出現的「原本拿了 3 瓶」所干擾，誤用 85 乘以 3 進行計算，忽略了情境中「放回架上」的動作。",
       "scenario": "【在家庭超市採購時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算媽媽實際購買的數量，即 2 瓶牛奶，每瓶 85 元，85 乘以 2 等於 170 元。",
       "answer_index": 1,
       "options": [

@@ -141,7 +141,7 @@
       "commonMisconception": "學生可能會忽略「總共」是包含原有的班級，計算時只算出新增的 2 個班級所需的 24 瓶，導致答案錯誤。",
       "scenario": "【在學校運動會報名時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原先 4 個班級共 4 × 12 = 48 瓶，剛好夠。若增加 2 個班級，總共變成 6 個班級，6 × 12 = 72 瓶。",
       "answer_index": 2,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易將「平分」後的單份數值誤以為是總量，忽略了後續加總的動作。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每個人先平分到 36 ÷ 4 = 9 顆，爸爸額外多吃 3 顆，所以是 9 + 3 = 12 顆。",
       "answer_index": 3,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生常只計算單一班級的距離（400公尺），或誤將人數 8 與班級數 6 相乘後忘記乘上距離。",
       "scenario": "【在校園運動會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算過程：每個班級跑的總距離為 8×50=400 公尺。因為有 6 個班級，所以總距離為 400×6=2400 公尺。",
       "answer_index": 3,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生容易忘記將去程與回程距離相加，或是只計算單程的消耗量，忽略了完整的旅遊路程。",
       "scenario": "【在家庭旅遊規劃行程時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "去程 150 公里，回程 150 + 25 = 175 公里，來回總距離 150 + 175 = 325 公里。消耗汽油為 325 ÷ 10 = 32.5 公升。",
       "answer_index": 3,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生容易在處理連續加減運算時，忘記先乘後加減的原則，或是在最後一步驟加減時出現計算錯誤。",
       "scenario": "【在社區圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算邏輯為：先算出總數 4 × 24 = 96，接著減去移走的 18 本 (96 - 18 = 78)，最後加上補進的 35 本 (78 + 35 = 113)。經校對，96 - 18 + 35 = 113。",
       "answer_index": 0,
       "options": [

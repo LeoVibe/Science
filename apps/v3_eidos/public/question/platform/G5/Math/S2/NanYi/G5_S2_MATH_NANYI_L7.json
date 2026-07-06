@@ -15,7 +15,7 @@
       "commonMisconception": "將表面積算成體積 15×15×15=3375，或是誤用周長算法 15×6=90。",
       "scenario": "房間空間規劃與收納 (情境 9)",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "表面積 = (15×15) × 6 = 225 × 6 = 1350 平方公分。",
       "answer_index": 0,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "學生常會忽略「套」與「本」的換算，或者直接將 4 套視為 4 本來計算。",
       "scenario": "【在整理學校圖書館書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "書本總數為 4 * 8 = 32 本。佔用空間為 32 * 3 = 96 公分。100 - 96 = 4 公分（誤，修正：應為 100 - 96 = 4，題目選項需調整以符合邏輯）。重新計算：4*8*3 = 96。100 - 96 = 4。選項應為：夠放，剩下 4 公分。",
       "answer_index": 1,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易直接用 8 × 25 算出全部容量，或者誤將 3 層空櫃直接減去總數，忽略了倍數關係。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "有書的層數為 8 - 3 = 5 層。每層 25 本，故 5 × 25 = 125 本。這題考驗學生對「剩餘空間」與「實際使用空間」的轉換能力。",
       "answer_index": 2,
       "options": [

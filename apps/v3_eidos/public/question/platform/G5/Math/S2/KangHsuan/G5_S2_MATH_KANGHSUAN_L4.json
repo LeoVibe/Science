@@ -15,7 +15,7 @@
       "commonMisconception": "學生在計算時忘記將被乘數與乘數的小數點位數相加，把小數點只移一位（5406元）或三位，或者純粹心急用加法計算（451.7元）。",
       "scenario": "超市打折促銷 (情境 1)",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "列直式 450.5 × 1.2。先把小數點拿掉相乘 4505 × 12 = 54060。小數點總共有兩位 (被乘數一位、乘數一位)，所以從右邊數兩位點上小數點，變成 540.60，末位的 0 劃掉，答案為 540.6 元。",
       "answer_index": 1,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "學生容易過度關注折扣訊息，忽略了「滿額門檻」的邏輯限制，直接將總額減去折扣。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "小明購買的總金額為 85 + 35 = 120 元。由於 120 元未達 150 元的門檻，因此無法獲得折抵，實際應付金額仍為 120 元。本題旨在測試學生對「條件式情境」的判斷力，而非單純計算。",
       "answer_index": 3,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "學生常會將「1/4 盤」與「8 顆」直接相加計算錯誤，或者在處理分數單位轉換時出現計算偏差。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "首先計算哥哥吃的數量：36 的 1/4 是 9 顆。接著計算兩人共吃了 9 + 8 = 17 顆。最後用總數減去已吃的數量：36 - 17 = 19 顆。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生容易被「每人跑 50 公尺」這個資訊誤導，忽略了題目要求的是根據總里程與人數計算出的平均值，而非單純引用題目給定的單項數據。",
       "scenario": "【在學校運動會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算總路程：20 圈 × 200 公尺/圈 = 4000 公尺。再將總路程除以人數：4000 ÷ 25 = 160 公尺。",
       "answer_index": 2,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易在計算兩類物品總價時，漏算某一種，或在減法運算時發生退位錯誤。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算蘋果總價：25×3=75元；再計算橘子總價：18×4=72元；總支出為75+72=147元。最後用200元減去支出147元，得到找回金額為53元...等等，更正：200-147=53元。選項B正確。",
       "answer_index": 1,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "學生可能會先計算出 3 盒的數量再除以 4，導致算式混亂，或是未將新增的 1 盒納入計算總量。",
       "scenario": "【在準備家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本有 3 盒，後來增加 1 盒，總共有 4 盒。每盒 12 顆，總數為 4 × 12 = 48 顆。將 48 顆分給 4 個人，即 48 ÷ 4 = 12 顆。",
       "answer_index": 0,
       "options": [
@@ -477,7 +477,7 @@
       "commonMisconception": "學生常在計算剩餘數量（10）後，就直接將 10 當作答案，忽略了後續的平分步驟。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總數 36 減去兩人吃的 26 顆，剩下 10 顆。再將 10 顆平分給爸爸媽媽，即 10 ÷ 2 = 5。等等，題目問的是平分後每人吃到多少，計算正確為 5 顆，選項 B 正確。",
       "answer_index": 3,
       "options": [

@@ -36,7 +36,7 @@
       "commonMisconception": "學生容易在計算完除法後，忘記加上後續增加的數量，或誤將總數 36 直接加減。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算每人平均分配的數量：36 ÷ 4 = 9，小明吃完 9 顆後又多吃 2 顆，即 9 + 2 = 11。",
       "answer_index": 2,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生可能因為看到數字 6、9、42 而產生混淆，直接將 42 減去 6 或 9，無法正確建立總量減去已售數量的邏輯關係。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總容量為 6 × 9 = 54 杯，賣出 42 杯後，剩餘 54 - 42 = 12 杯。",
       "answer_index": 3,
       "options": [
@@ -435,7 +435,7 @@
       "commonMisconception": "學生可能會誤以為題目問的是「還能再放幾個書架」，或者誤將 72 除以 9 直接算出總書架數後，沒有減去已完成的部分。",
       "scenario": "【在校園圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "已經放進去的書是 5x9=45 本，剩下的書為 72 - 45 = 27 本。",
       "answer_index": 3,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "學生可能因為計算複雜，只注意到買完彩色筆後剩下100元，卻在比較80元繪本時產生判斷錯誤，或是誤將硬幣數量當作金額進行加減。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "小明共有 5x50=250 元。買完 150 元彩色筆後，剩下 250-150=100 元。因為 100 元大於 80 元，所以足夠購買，且剩下 100-80=20 元。",
       "answer_index": 1,
       "options": [

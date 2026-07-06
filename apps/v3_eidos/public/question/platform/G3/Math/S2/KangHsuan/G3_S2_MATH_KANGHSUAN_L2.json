@@ -14,7 +14,7 @@
       "question": "有 84 個蘋果，平均分裝在 4 個箱子裡。每個箱子有幾個？",
       "scenario": "平分蘋果",
       "quality_level": "QL1",
-      "cqi_score": 7.75,
+      "cqi_score": 6.25,
       "explanation": "84 ÷ 4 = 21。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "question": "媽媽將 408 元平均分給 4 個孩子。每人可以分到多少元？",
       "scenario": "平分零用錢",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "408 ÷ 4 = 102。",
       "answer_index": 0,
       "options": [
@@ -296,7 +296,7 @@
       "question": "一打鉛筆 12 枝。買了 7 打平分給 4 人。每人有幾枝？還剩幾枝？",
       "scenario": "連續分配",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "12 × 7 = 84。 84 ÷ 4 = 21。",
       "answer_index": 2,
       "options": [
@@ -580,7 +580,7 @@
       "commonMisconception": "學生可能在計算餘數時出錯，或者混淆商和餘數，導致選到錯誤的選項。例如，將92 ÷ 9 誤算為9餘11，或直接選9間。",
       "scenario": "【在社區舉辦捐書活動時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "這個問題是計算除法的商和餘數。92本書，每間育幼院9本，92 ÷ 9 = 10 餘 2。所以可以分送給10間育幼院，剩下2本書。",
       "answer_index": 1,
       "options": [

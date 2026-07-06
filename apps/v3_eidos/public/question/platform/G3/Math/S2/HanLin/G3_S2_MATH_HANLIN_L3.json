@@ -14,7 +14,7 @@
       "question": "一盒披薩平分成 8 片。哥哥吃了 3 片，是吃了幾盒？",
       "scenario": "平分披薩",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "平分成 8 份，每一份是 1/8 盒。吃了 3 份即為 3/8 盒。",
       "answer_index": 0,
       "options": [
@@ -114,7 +114,7 @@
       "question": "5/7 條繩子和 3/7 條繩子，哪一條比較長？",
       "scenario": "分數比大小",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "分母相同，分子 5 大於 3。故 5/7 比較長。",
       "answer_index": 0,
       "options": [
@@ -164,7 +164,7 @@
       "question": "一盒布丁有 6 個。小明吃 2 個，也就是吞了幾盒？",
       "scenario": "分享布丁",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "6個為一基準，2個代表 2/6 盒。",
       "answer_index": 2,
       "options": [
@@ -297,7 +297,7 @@
       "question": "一條路長 1 公里。工程隊鋪了 4/12 公里，還剩下幾公里沒鋪？",
       "scenario": "距離計算",
       "quality_level": "QL1",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "explanation": "1 - 4/12 = 8/12。",
       "answer_index": 3,
       "options": [
@@ -564,7 +564,7 @@
       "commonMisconception": "學生可能只加總其中兩人的份數，或是將分母也一併相加。",
       "scenario": "【在家庭聚餐時】媽媽準備了一大鍋湯，她把它分成15等份。",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "小華喝了4份，弟弟喝了3份，爸爸喝了5份，他們一共喝了4 + 3 + 5 = 12份。這鍋湯被分成15等份，所以他們一共喝了12/15。",
       "answer_index": 3,
       "options": [
@@ -730,7 +730,7 @@
       "commonMisconception": "學生可能會誤以為兩個披薩是同一份，將分母相加，或是在計算過程中混淆了『吃掉』和『弄掉』的數量。也可能忘記將兩個披薩的剩下部分再相加，只計算其中一份。",
       "scenario": "在小杰的生日派對上",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "第一條披薩總共有8/8，小杰吃了3份，所以剩下8/8 - 3/8 = 5/8。第二條披薩總共有8/8，弄掉了2份，所以剩下8/8 - 2/8 = 6/8。將兩條披薩剩下的部分加起來：5/8 + 6/8 = 11/8。",
       "answer_index": 1,
       "options": [

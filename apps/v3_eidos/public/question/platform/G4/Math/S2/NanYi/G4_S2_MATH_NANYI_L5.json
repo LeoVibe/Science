@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "分享披薩分量",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "3/10 + 4/10 = 7/10。",
       "answer_index": 0,
       "options": [
@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "比較緞帶長度",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "2 1/4 - 3/4 = 9/4 - 3/4 = 6/4 = 1 2/4。",
       "answer_index": 0,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "統計班級喝水量",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "5 2/6 - 1 5/6 = 4 8/6 - 1 5/6 = 3 3/6。",
       "answer_index": 1,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "裁切繩子",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "2 - 5/6 = 1 6/6 - 5/6 = 1 1/6。",
       "answer_index": 0,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "比較重量(帶分數)",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "甲 = 35/11。 (3*11+2=35)。故兩者相等。 (Wait, re-calculate: 3*11+2 = 35. 乙 is 35/11. They are equal. Option 2: 一樣重.)",
       "answer_index": 1,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "",
       "scenario": "生活中的倍數感",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "1/5 * 7 = 7/5 = 1 2/5。",
       "answer_index": 0,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生可能誤以為要把 480 直接除以 80，而忽略了題目已經給出「已放滿 4 個」的已知條件。",
       "scenario": "【在社區圖書館整理書籍時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "已上架數量為 80 × 4 = 320 本，總數 480 減去已上架 320，還剩 160 本。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生容易被「200 杯」這個數字干擾，導致誤用（200-185）× 25 計算剩餘庫存價值，而非計算銷售金額。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共賣出杯數為 120 + 65 = 185 杯，銷售總金額為 185 × 25 = 4625 元。",
       "answer_index": 0,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "學生容易誤以為是 (36 + 8) ÷ 4，雖然結果相同，但若題目改為分給不同人數，此迷思會導致錯誤；或者只計算了第一輪的 9 顆。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算第一輪每人分到 36 ÷ 4 = 9 顆，再計算第二輪每人分到 8 ÷ 4 = 2 顆，最後將兩次所得相加，9 + 2 = 11 顆。",
       "answer_index": 0,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生常因為計算出 48 ÷ 8 = 6，直接回答需要 6 個層架，或是忽略了「原本已經有 5 個」的條件，誤以為還需要 6 個。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "現有總容量為 5 × 8 = 40 本。48 本書大於 40 本，因此不夠。缺少 48 - 40 = 8 本書，8 本書剛好需要 1 個層架。",
       "answer_index": 3,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生可能誤將 120 杯作為計算基礎（120 × 25），忽略了題目中實際售出的數量才是計算收入的依據。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共賣出的杯數為 48 + 52 = 100 杯，每杯 25 元，故總收入為 100 × 25 = 2500 元。",
       "answer_index": 1,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生容易將省下的金額誤算為 5 元，或是混淆了「原價總額」與「剩餘金額」的計算對象。",
       "scenario": "【在全家便利商店結帳時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原價為 25 × 3 = 75 元。優惠價為 65 元，節省 75 - 65 = 10 元。剩餘金額為 80 - 65 = 15 元。",
       "answer_index": 1,
       "options": [

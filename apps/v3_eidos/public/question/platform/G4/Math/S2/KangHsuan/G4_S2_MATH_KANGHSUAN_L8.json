@@ -36,7 +36,7 @@
       "commonMisconception": "混淆取到『哪一位』的定義，可能誤以為是看萬位。",
       "scenario": "演唱會人數統計",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "12435 取到千位，百位數是 4。使用無條件捨去法會得到 12000。若使用四捨五入法取到千位也會是 12000，但選項中僅 B 符合邏輯描述。",
       "answer_index": 1,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易將「送 1 枝」誤解為「總價再打折」，或無法正確判斷「付錢的數量」與「得到的數量」之間的差異。",
       "scenario": "【在文具店挑選開學用品時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本買 7 枝需要 7 乘以 12 等於 84 元。因為促銷活動買 6 送 1，等於只需付 6 枝的錢（6 乘以 12 等於 72 元）就能拿到 7 枝，所以省下了 1 枝的錢，也就是 12 元。",
       "answer_index": 0,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生常忽略單位換算（公升與毫升的進位關係），或是僅計算單桶的杯數而遺漏了另一桶。",
       "scenario": "【在班級園遊會製作飲品時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先將單位統一為毫升：2 公升 = 2000 毫升，兩桶共 4000 毫升。計算杯數：4000 ÷ 250 = 16。",
       "answer_index": 1,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生容易將「打八折」誤解為「減去 8 元」或「減去 80 元」，或是誤算為 240 - 8 = 232，忽略了乘法分配率或比例的概念。",
       "scenario": "【在週末逛文具店時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算方式為 240 × 0.8 = 192。打八折即是原價乘以 0.8，也可以理解為原價的 80%。",
       "answer_index": 2,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生常因為除數大於被除數而產生誤解，直覺地用 4 ÷ 3 算出 1.33，忽略了題目要求的是「每盤」的重量，而不是「每個單位重量佔多少盤」。",
       "scenario": "【在家庭烤肉聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "這是一個除法應用題，將總量 3 公斤除以 4 個盤子，3 ÷ 4 = 0.75 公斤。",
       "answer_index": 3,
       "options": [

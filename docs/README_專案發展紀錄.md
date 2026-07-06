@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
 `last_updated`: 2026-07-06
-`updated_by`: Claude Code (claude-sonnet-5)（pj_sync：JOB-272~275 結案——四下社會/國語BIAS重鑄、國語19課全文本重建、康軒L10/L11課文補齊、全站重複檔清理）
+`updated_by`: Claude Code (claude-sonnet-5)（pj_sync：JOB-276 結案——四下國語36/36課全文本重建/BIAS修正100%完成）
 
 ---
 
@@ -33,6 +33,7 @@
 ### 2026-07-06
 | JOB | 簡述 | 狀態 |
 |:--|:--|:--|
+| JOB-276 | **康軒國語L10L11全文本重建收尾（question_prod+question_verify）** 🎯：JOB-274補齊課文全文後，比照JOB-273流程出題。L10出30題全採用；L11因第一人稱抒情短文缺對話/人物互動，出題階段主動捨棄1題通識陷阱（嫦娥/玉兔/吳剛配對），雙盲驗證後再發現並移除1題同類缺陷（「勾起→壓下」字詞語意反轉，不需扣本課課文），定案27題。**方法論修正**：發現JOB-273自訂的`single_answer`盲測判準並非官方`run_blind_eval.js`/準則定義，導致通過率被誤判低估（L11一度顯示64.3%，實際依官方Match Rate為100%），已釐清並記錄。2課Match Rate 100%、BIAS 0%、avgCQI 9.31/8.83。**🎯 里程碑：四下國語36/36課（100%）全數完成全文本重建/BIAS修正**。見 `jobs/JOB-276-Report.md` | 🟢 DONE |
 | JOB-275 | **全站iCloud同步重複檔清理（engineering）** 🎯：全專案掃描發現1307個iCloud/macOS同步產生的「 2」「 3」後綴重複檔（`.gitignore`早已排除但本機殘留），逐一比對確認全數為完全相同或較舊版本後，刪除859個確認安全的重複檔（jobs/_goal-work 128+knowledge 126+question/platform來源4+零星docs 7+apps/v3_eidos鏡像594），重跑`sync_v3_public_questions.mjs`使前台鏡像反映最新內容。**意外發現**：官方腳本`scripts/generate_library_stats.js`本身呼叫的`evaluateFile()`有「每次執行即寫回全站cqi_score」的副作用（繼JOB-272後第二次踩雷，這次證實是標準流程腳本本身、非人為誤用），導致281個範圍外檔案被意外改寫，已用git checkout精確還原。**遺留**：`evaluate_question_quality.js`的`evaluateFile()`寫回機制仍未修正，需另立engineering JOB處理。見 `jobs/JOB-275-Report.md` | 🟢 DONE |
 | JOB-274 | **康軒國語L10L11課文全文補齊（research）** 🎯：JOB-273發現這2課研究紀錄僅有一句摘要（134~147字），非真正課文全文。WebFetch/curl技術路徑取得全文皆受著作權考量與系統防護機制阻擋，最終由使用者直接提供2課完整課文全文（各570~630字）填入KL4研究紀錄。**里程碑**：四下國語36課研究素材全數到齊，惟這2課尚未進行全文本重建出題。見 `jobs/JOB-274-Report.md` | 🟢 DONE |
 | JOB-273 | **四下國語19課全文本重建（question_prod+question_verify）** 🎯：21課文本錯位危機中的19課（翰林L1-6、康軒L1-6、南一L1-6+L9）依課文全文重新出題，共542題取代原套版通用題。首輪雙盲驗證86.3%通過，**發現「通用知識題」缺陷**（補題若聚焦字詞/標點/修辭角度，容易做出不需讀課文即可作答的題目，67%落閘率），重新設計出題規則（要求依賴具體情節/對話/角色/事件）後，3輪修正達542/542（100%）通過，avgCQI 8.29~9.47。4課因課文過短誠實提供25~26題，未套版湊數。見 `jobs/JOB-273-Report.md` | 🟢 DONE |

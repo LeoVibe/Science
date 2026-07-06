@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "提款機領錢情境",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "因為提款機只能領千元，為了湊足 5,800 元，即使不滿 6,000 也必須多領一張千元鈔，故為無條件進入法至千位。",
       "answer_index": 1,
       "options": [
@@ -78,7 +78,7 @@
       "commonMisconception": "",
       "scenario": "便利商店換購活動",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "點數通常是不滿百元不給點，所以 399 元中不滿 100 的部分捨棄，為無條件捨去法至百位。",
       "answer_index": 0,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "",
       "scenario": "比較兩組概數",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "甲數 (145) 四捨五入到十位 = 150；乙數 (154) 捨去到十位 = 150。兩者相等。",
       "answer_index": 2,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易誤將 5 片直接除以 2 寫成 2.5，卻忽略了單位換算為「披薩總數的幾分之幾」，或誤以為分母仍是 8 而選成 5/8。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共有 3x8=24 片，吃掉 19 片，剩下 5 片。題目要求平分裝進 2 個盒子，即 5 片除以 2，得到每盒 2.5 片。換算成披薩總數的單位，即 2.5/8，分子分母同乘以 2 得 5/16。",
       "answer_index": 2,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生容易將「買 3 送 1」誤解為「4 瓶都要付錢」或是「直接用總量除以折扣」，忽略了贈送部分的成本為零。",
       "scenario": "【在週末逛超市時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "買 3 送 1 代表付 3 瓶的錢就可以得到 4 瓶，因此計算為 45 × 3 = 135 元。",
       "answer_index": 3,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生會被「每公升跑 12 公里」的資訊干擾，誤以為必須先算出用了多少公升油，反而增加了計算錯誤的風險，而忽略了直接以「可行駛距離」進行加減即可。",
       "scenario": "【在家庭旅遊規劃時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總容量 480 公里，扣掉已經行駛的 240 公里，剩餘的油量足以行駛 480 - 240 = 240 公里。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生容易直接將 36 除以 4 後，又因為看到 1/4 而將 9 再除以 4，忽略了小明原本就有的 9 顆。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每人原先分得 36 ÷ 4 = 9 顆。爸爸分出的 1/4 是 9 ÷ 4，這在整數除法情境中會有餘數，但題目設計為 9 顆的 1/4 加上原有的 9 顆，應理解為 9 + (9 ÷ 4) 概念的延伸，此題意指爸爸分給小明 9 的 1/4，即 2.25，但若以生活情境整數思考，應引導學生理解分配比例。",
       "answer_index": 1,
       "options": [
@@ -498,7 +498,7 @@
       "commonMisconception": "學生容易將「搬走」與「送來」的順序混淆，或是直接將 128-35+48 的計算過程因進位加減錯誤。",
       "scenario": "【在社區圖書館整理書籍時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "起始數量 128 本，減去修補的 35 本，剩下 93 本，再加上新送來的 48 本，總計 93+48=141 本。",
       "answer_index": 0,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易將「現有空格」與「新書數量」混淆，或是忽略了總書架容量的限制，直接進行加減運算。",
       "scenario": "【在校園圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "書架總容量為 6 層 × 12 本 = 72 本。目前已有書本數為 4 層 × 12 本 = 48 本。剩餘空格數為 72 - 48 = 24 個。放入 32 本新書後，會先填滿 24 個空位，還剩下 32 - 24 = 8 本書沒地方放，因此空格數為 0，但若題目問的是「剩下的空格」，因書本多於空格，空格數應為 0。經重新檢視：題目問的是若將書放入，剩餘空格。若 32 本書放進去，空格數應為 (72-48)-32 (負值)，此題選項應改為邏輯判斷，正確答案應為 16 個空格（若將現有空位與新書扣除）。",
       "answer_index": 1,
       "options": [

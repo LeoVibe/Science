@@ -303,7 +303,7 @@
       "explanation": "飛行員原本畫的是吞了大象的蛇，但一般人可能只看到像帽子的外形。小王子能直接說出「這是一條吞了大象的蛇」，顯示他看見了畫作隱含的真實內容，這令飛行員感到意外。",
       "commonMisconception": "學生可能會被課文中提到的「吞過大鯨魚」干擾，那是小王子後來的補充，而非飛行員大吃一驚的首要原因。",
       "quality_level": "QL4",
-      "cqi_score": 8.5,
+      "cqi_score": 7,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
@@ -528,7 +528,7 @@
       "explanation": "飛行員畫的是箱子（表象），小王子卻能看見箱子裡的羊（心靈想像），這代表小王子不被肉眼所見的框架限制，擁有豐富的想像力。",
       "commonMisconception": "部分學生可能將「用心」解讀為「態度認真」或「體貼他人」，而忽略了故事核心在於「看不見的真實」與想像力的連結。",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "blind_evaluation": true,
       "authoring_model": "Gemini-2.5-Pro",
       "verifying_model": "claude-sonnet-4-6",
@@ -744,7 +744,7 @@
       "commonMisconception": "學生可能把旁白誤當成角色台詞，忽略旁白用來交代背景與情節。",
       "scenario": "劇本開場",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 6.75,
       "explanation": "旁白說明故事地點與相遇經過，讓觀眾知道飛行員在沙漠遇見小王子。",
       "answer_index": 0,
       "options": [
@@ -769,7 +769,7 @@
       "commonMisconception": "學生可能被外形像帽子的描述誤導，或把後面出現的寵物箱情節提前。",
       "scenario": "台詞接龍",
       "quality_level": "QL4",
-      "cqi_score": 8.75,
+      "cqi_score": 5.25,
       "explanation": "小王子說那不是帽子，而是一條吞了大象的蛇，顯示他能看見畫中的想像內容。",
       "answer_index": 1,
       "options": [
@@ -794,7 +794,7 @@
       "commonMisconception": "學生可能把括號提示當成可省略的旁枝文字，而沒有理解它指引角色表情和語氣。",
       "scenario": "括號提示",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 6,
       "explanation": "括號中的動作或情緒提示能幫助演員掌握角色當下的反應與語氣。",
       "answer_index": 3,
       "options": [
@@ -819,7 +819,7 @@
       "commonMisconception": "學生可能把馴服誤解成控制別人，或只把箱子情節看成猜謎遊戲。",
       "scenario": "馴服連結",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 6,
       "explanation": "狐狸的馴服和小王子的用心看畫，都強調用心建立連結後，事物才變得獨特。",
       "answer_index": 2,
       "options": [
@@ -844,7 +844,7 @@
       "commonMisconception": "學生可能只看玫瑰花外表或麻煩之處，忽略關係中的責任與珍惜。",
       "scenario": "照顧玫瑰",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7.5,
       "explanation": "故事提醒我們不要只看表面，應用心了解並珍惜自己建立起來的關係。",
       "answer_index": 3,
       "options": [
@@ -869,7 +869,7 @@
       "commonMisconception": "學生可能把告別只理解成說再見，沒有連到用心體會重要事物的主旨。",
       "scenario": "告別心得",
       "quality_level": "QL4",
-      "cqi_score": 9.5,
+      "cqi_score": 7.5,
       "explanation": "課文的核心是用心體會看不見的意義，這也能延伸到告別後仍珍惜重要關係。",
       "answer_index": 1,
       "options": [

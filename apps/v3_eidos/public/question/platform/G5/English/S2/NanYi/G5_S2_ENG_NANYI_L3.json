@@ -36,7 +36,7 @@
       "commonMisconception": "不認識職業詞彙。",
       "scenario": "Dream Job",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "喜歡飛機的人，夢想職業通常是飛行員 (pilot)。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "無法進行「十種語言」與「英語」的包含邏輯推理。",
       "scenario": "The Future Robot",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "機器人會說十種語言 (ten languages)，英語作為主要語言必定包含在內。肯定回答用 Yes, they will。",
       "answer_index": 0,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "不認識 vet 或無法進行同義代換。",
       "scenario": "The Busy Vet",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "vet (獸醫) 的同義解釋即為安 animal doctor。",
       "answer_index": 0,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "對時態的因果連結掌握不夠。",
       "scenario": "Saving Money",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "為了明年的購買計畫，現在「將要/將會」開始存錢。表達未來意向。",
       "answer_index": 0,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "邏輯對應錯誤。",
       "scenario": "Famous People",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每天練習唱歌，是為了成為歌手 (singer)。",
       "answer_index": 1,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "遺漏未來時間標記。",
       "scenario": "Meeting in the Future",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "2030 年是未來，助動詞用 will。",
       "answer_index": 0,
       "options": [
@@ -456,7 +456,7 @@
       "commonMisconception": "將辣與燙混淆。",
       "scenario": "Spicy Challenge",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "臉變紅 (face is turning red) 通常是吃到很辣 (spicy) 的食物反應。",
       "answer_index": 2,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "漏掉不定詞符號 to。",
       "scenario": "Grammar Choice",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "too ... to [原形動詞] 的結構。",
       "answer_index": 1,
       "options": [
@@ -666,7 +666,7 @@
       "commonMisconception": "資訊比對錯誤。",
       "scenario": "Healthy Choice",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "老師提到糖果「太甜了」對牙齒不好。",
       "answer_index": 1,
       "options": [
@@ -792,7 +792,7 @@
       "commonMisconception": "單複數變動詞形式混淆。",
       "scenario": "Pizza Lovers",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "形容食物吃起來的味道，主詞 It 配單三動詞 tastes。",
       "answer_index": 2,
       "options": [
@@ -834,7 +834,7 @@
       "commonMisconception": "受 easily 詞彙干擾。",
       "scenario": "Mochi Tasting",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "too...to 的句型傳達了「負面/不能」的含義，故 Toby 無法輕易食用。",
       "answer_index": 1,
       "options": [
@@ -1128,7 +1128,7 @@
       "commonMisconception": "感官動詞誤用。",
       "scenario": "Special Smell",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "香包的功能是發散香氣，對應動詞為 smell。",
       "answer_index": 1,
       "options": [
@@ -1443,7 +1443,7 @@
       "commonMisconception": "重複出現的不定詞符號與介係詞混淆。",
       "scenario": "To Infinitive",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "want 之後接帶 to 的不定詞。後面另一個 to 是場所介係詞。",
       "answer_index": 2,
       "options": [
@@ -1632,7 +1632,7 @@
       "commonMisconception": "不具備在地地標文化的英文化認知。",
       "scenario": "Taiwanese Maps",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "台灣路名常包含方位，如 中山「北」路 (North Road)。",
       "answer_index": 0,
       "options": [

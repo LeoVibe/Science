@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "圖書館採購新書",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "245 * 120 = 245 * 10 * 12 = 29400。",
       "answer_index": 0,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "超商集點兌換",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "540 / 18 = 30。",
       "answer_index": 0,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "",
       "scenario": "計算總秒數",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "60 * 60 = 3600。",
       "answer_index": 0,
       "options": [
@@ -204,7 +204,7 @@
       "commonMisconception": "",
       "scenario": "節約能源計算",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "45 * 120 = 5400 (每月)。 5400 * 12 = 64800 (每年)。",
       "answer_index": 1,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能因為看到數字 80、4、2 就直接進行錯誤的運算組合，例如誤算為 80 ÷ (4+2) 或將 4 與 2 相乘後再除，未釐清層層分配的邏輯。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先求每個書櫃放多少：80 ÷ 4 = 20 本。再求每一層放多少：20 ÷ 2 = 10 本。",
       "answer_index": 2,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生常會混淆「四捨五入」與「為了預算安全而採取的無條件進位估算法」。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "小明估算總額為 400 元，選項 B 的計算結果為 270 + 140 = 410，最接近 400 元。這是透過無條件進位法（估大）來確保預算足夠的生活化估算策略。",
       "answer_index": 1,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生容易將「班級數」與「學生人數」搞混，或是直接將 18 × 25 × 4 誤算為 18 × 100，雖結果相同但邏輯未建立。",
       "scenario": "【在校園運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算一個班級跑的距離：18 × 25 = 450公尺，再計算 4 個班級：450 × 4 = 1800公尺。",
       "answer_index": 3,
       "options": [
@@ -603,7 +603,7 @@
       "commonMisconception": "學生容易直接用 36 除以 3 得到 12，忽略了題目設定中「剩下」的現實情境，誤以為除法必須整除。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總數 36 顆扣掉剩下的 3 顆，表示大家總共吃了 33 顆。將 33 顆平分給 3 個人，每個人吃了 11 顆。",
       "answer_index": 1,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生常會因為看見找零過程而誤選為「減法借位」，但題幹強調的是「換算」的思維，而非計算過程。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "小明意識到 10 個 1 元與 1 個 10 元在價值上是等值的，這是十進位系統中位值單位換算的核心概念。",
       "answer_index": 1,
       "options": [

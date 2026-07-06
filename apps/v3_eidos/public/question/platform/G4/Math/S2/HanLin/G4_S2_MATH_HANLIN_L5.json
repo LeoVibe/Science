@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "水果拼盤的分量",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "分母相同（12），分子相加（4+3=7）。分母不相加。",
       "answer_index": 1,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "",
       "scenario": "繩子的長度",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "藍線 = 8/10 - 3/10 = 5/10。總和 = 8/10 + 5/10 = 13/10 = 1 3/10。",
       "answer_index": 2,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "",
       "scenario": "比較線段",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "B = 1 6/8 = 14/8。 A = 15/8。 15/8 > 14/8，故 A 比較長。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生在計算 125 × 8 時，常在百位與千位的進位過程中發生錯誤，導致算出 800 或 900 等錯誤數值。",
       "scenario": "【在社區圖書館借書時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "此題考驗三位數乘以一位數的進位運算。125 × 8 = 1000。",
       "answer_index": 1,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易將「班級數」與「人數」混淆，或只計算了一個班級的距離就停止，忽略了題目要求的「四年級總共」。",
       "scenario": "【在學校舉行運動會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算一個班級的距離：12 × 50 = 600 公尺。再算四個班級的總距離：600 × 4 = 2400 公尺。",
       "answer_index": 3,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生容易忘記扣除打翻的那一桶，直接計算 6 桶的總額，或是誤以為被打翻的桶子也要算錢。",
       "scenario": "【在週末學校園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本有 6 桶，打翻 1 桶剩下 5 桶。每桶 8 杯，共有 5 × 8 = 40 杯。每杯 15 元，總收入為 40 × 15 = 600 元。",
       "answer_index": 1,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易將「哥哥剩下的」誤解為總數減掉小明吃完後的餘數，忽略了題目設定的分配基礎。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每人平均分配 24 ÷ 3 = 8 顆。小明原本吃 8 顆，加上多吃的 2 顆，總共是 8 + 2 = 10 顆。",
       "answer_index": 3,
       "options": [
@@ -561,7 +561,7 @@
       "commonMisconception": "學生常會先計算出總數 240 本後，因不理解「書櫃」作為群組單位的概念，導致計算扣除量時發生位值錯誤。",
       "scenario": "【在社區圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共書櫃有 6 個，借出 2 個後剩下 4 個。每個書櫃有 5 層 × 8 本 = 40 本。剩下的書本數量為 4 × 40 = 160 本。",
       "answer_index": 3,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易將「5 排」當作除數，或是將書架數量與櫃子數量混淆，誤以為直接計算 5×8 即可得到答案，忽略了後續的分配動作。",
       "scenario": "【在社區圖書館時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算繪本總數：5×8=40 本。再將總數平分到 4 個櫃子：40÷4=10 本。",
       "answer_index": 3,
       "options": [

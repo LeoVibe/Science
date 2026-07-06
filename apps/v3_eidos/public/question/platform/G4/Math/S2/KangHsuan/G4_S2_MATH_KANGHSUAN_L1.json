@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "閱讀中央銀行黃金儲備報告",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "1兆 = 1,0000,0000,0000。 500億 = 500,0000,0000。 合計為 1,0500,0000,0000。注意每四位一循環的台灣計數法。",
       "answer_index": 0,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "比較太空船飛行距離",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "億位數遠大於萬位數。 304 億 > 3400 萬（3400 萬僅 0.34 億）。",
       "answer_index": 0,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "",
       "scenario": "銀行點鈔機設定",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "從右起：個、萬、億、兆。8 在百兆位（Wait, let's re-count: 0000 is 10k range? No, 0000 is units. 3210 is 10k. 7654 is 100m. 8 is 10^12 (trillion). So 8 is 10 trillion? Let's re-verify: 0000 (4 digits), 3210 (4 digits), 7654 (4 digits), 8 (1 digit). 8 is 兆. 7 is 千億. 6 is 百億. 5 is 十億. 4 is 億. Let me re-calculate based on Taiwan grouping: 8,7654,3210,0000. Right to left: 0000(個), 3210(萬), 7654(億), 8(兆). Wait, that's not right. Groups of 4: 0000, 3210, 7654, 8. 8 is 兆. 7 is 千億. Oh, the digit 7 is at 10^11. Let's re-check the options. Actually 7 is in the 億 range group. It's 千億. Let's re-verify my groups: 8(兆區) 7654(億區) 3210(萬區) 0000(個區). 7 is indeed 千億. Option 1 is 千億. Correct.",
       "answer_index": 3,
       "options": [
@@ -120,7 +120,7 @@
       "commonMisconception": "",
       "scenario": "股市成交量統計",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "450,000,000,000 = 4500,0000,0000。讀作四千五百億。",
       "answer_index": 1,
       "options": [
@@ -603,7 +603,7 @@
       "commonMisconception": "學生常會因為被『剩餘』的數字誤導，直接將 120 + 15 誤算為總賣出量，或僅計算出總量 120 就停止計算。",
       "scenario": "【在學校校慶園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出紅茶總量：20 × 6 = 120 杯。再減去剩下的 15 杯，即為賣出的數量：120 - 15 = 105 杯。",
       "answer_index": 0,
       "options": [

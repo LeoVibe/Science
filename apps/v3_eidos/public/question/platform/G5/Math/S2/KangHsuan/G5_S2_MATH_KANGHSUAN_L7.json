@@ -57,7 +57,7 @@
       "commonMisconception": "學生常會被題目敘述干擾，直接將 96 除以 7，忽略了原本已經分配好的基礎數量與重新分配的邏輯。",
       "scenario": "【在社區圖書館整理書籍時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本每個書櫃有 96 ÷ 8 = 12 本。撤掉一個書櫃後，該書櫃的 12 本書需重新分配。將這 12 本書分給 7 個書櫃：12 ÷ 7 = 1 本，餘 5 本。因此原本每個書櫃的 12 本，再加上新分配的 1 本，總共是 13 本，還剩下 5 本無法平分。",
       "answer_index": 0,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生容易將『借出』與『歸還』的邏輯混淆，可能會計算成 120 - 35 - 18，誤以為書越來越少。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算流程為：120 - 35 = 85（借出後剩餘），85 + 18 = 103（歸還後總數）。",
       "answer_index": 2,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生常混淆「平分後的份數」與「數值的大小」，誤以為 1/6 是指 1 除以 6 的數值，而非總量的比例。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "本題運用除法與分數的連結。將 48 個單位平分成 6 等份，每一等份即為 48 的 1/6，計算後為 8，故哥哥的敘述符合分數定義。",
       "answer_index": 1,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生容易算出動物繪本的數量（15 本）後就直接選答案，忽略題目問的是「其餘的」植物繪本。",
       "scenario": "【在社區圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算動物繪本：35 ÷ 7 × 3 = 15 本。再計算植物繪本：35 - 15 = 20 本。或者直接算出植物占全部的 4/7，即 35 ÷ 7 × 4 = 20 本。",
       "answer_index": 2,
       "options": [
@@ -372,7 +372,7 @@
       "commonMisconception": "學生容易誤以為題目問的是「已經綁了幾個」，直接回答 18，或誤將 48 除以 6 得到束數後就停止計算。",
       "scenario": "【在學校舉辦園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每 6 個綁一束，3 束共用了 6 × 3 = 18 個氣球。總數 48 個減去已使用的 18 個，即 48 - 18 = 30 個。",
       "answer_index": 2,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生可能會直覺認為「每個人分到的數量不變」，或是直接將 8 片加上原本那個人拿走的 8 片，卻忘了重新平分的總量維持 40 片。",
       "scenario": "【在家庭旅遊整理行李時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原先 40 片分給 5 人，每人原應得 8 片。若其中 1 人不吃，40 片由剩下的 4 人平分，40 ÷ 4 = 10 片。",
       "answer_index": 1,
       "options": [

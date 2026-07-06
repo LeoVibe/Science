@@ -246,7 +246,7 @@
       "commonMisconception": "不了解 weekend 的具體範圍。",
       "scenario": "The Weekend Trip",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "週末 (weekend) 指的是週六和週日。選項中只有週六符合。",
       "answer_index": 2,
       "options": [
@@ -582,7 +582,7 @@
       "commonMisconception": "資訊比對錯誤。",
       "scenario": "Tidy Room",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "文中明確說 'The ball is under the bed'。",
       "answer_index": 1,
       "options": [
@@ -1107,7 +1107,7 @@
       "commonMisconception": "邏輯逆推錯誤（誤以為要減一小時）。",
       "scenario": "Clock Malfunction",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "時鐘慢了，顯示十點實際上應是十一點。",
       "answer_index": 1,
       "options": [
@@ -1212,7 +1212,7 @@
       "commonMisconception": "誤用 Do 或 Are 開頭。",
       "scenario": "Questioning Ability",
       "quality_level": "QL1",
-      "cqi_score": 5.75,
+      "cqi_score": 4.25,
       "explanation": "詢問能力（是否會某事），使用助動詞 'Can' 開頭，且回答也使用了 'can'。",
       "answer_index": 1,
       "options": [
@@ -1317,7 +1317,7 @@
       "commonMisconception": "邏輯對應錯誤。",
       "scenario": "Negative Grammar",
       "quality_level": "QL1",
-      "cqi_score": 6.75,
+      "cqi_score": 5.25,
       "explanation": "對比連結詞 'but' 表示前後意向相反。鴨子會游泳，「但不會」飛得很高。",
       "answer_index": 1,
       "options": [
@@ -1359,7 +1359,7 @@
       "commonMisconception": "方位常識與英文動作連結落差。",
       "scenario": "Animal Olympics",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "鳥類會飛 (fly)，是在天空中移動的動物。",
       "answer_index": 2,
       "options": [

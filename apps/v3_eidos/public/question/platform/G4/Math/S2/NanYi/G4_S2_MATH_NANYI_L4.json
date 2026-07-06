@@ -15,7 +15,7 @@
       "commonMisconception": "",
       "scenario": "超市收費找零",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "去掉了尾數 8，使數字變小，故為捨去法。",
       "answer_index": 0,
       "options": [
@@ -162,7 +162,7 @@
       "commonMisconception": "",
       "scenario": "購票金額估算",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "125 -> 130。 85 -> 90。 130 * 90 = 11700。",
       "answer_index": 1,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易誤以為小明分出後，總人數不變或是直接將 36 除以 3，忽略了原始分配與二次分配的加總關係。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本每人分得 36 ÷ 4 = 9 顆。小明將自己的 9 顆分給其他 3 人，每人可多得 9 ÷ 3 = 3 顆。因此，每人總共可得 9 + 3 = 12 顆。",
       "answer_index": 1,
       "options": [

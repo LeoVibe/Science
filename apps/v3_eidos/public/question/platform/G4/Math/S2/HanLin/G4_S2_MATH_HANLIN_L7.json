@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "判斷長方形",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "四角為直角即為矩形（長方形）。若鄰邊也等長才是正方形。",
       "answer_index": 1,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生常會直接用 120 減去破掉的 4 顆（誤將束當作顆），或是在單位換算上產生混淆。",
       "scenario": "【在學校校慶準備園遊會時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總共可綁成 120 / 5 = 24 束。破掉 4 束，剩下 24 - 4 = 20 束。每束 5 顆，所以 20 * 5 = 100 顆。",
       "answer_index": 3,
       "options": [

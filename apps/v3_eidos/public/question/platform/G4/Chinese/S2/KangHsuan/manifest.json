@@ -102,18 +102,18 @@
       "file": "G4_S2_CHI_KANGHSUAN_L10.json",
       "count": 30,
       "blind_tested": 30,
-      "avg_cqi": 8.69,
-      "quality": "QL3"
+      "avg_cqi": "9.31",
+      "quality": "QL4"
     },
     {
       "id": "L11",
       "title": "窗前的月光",
-      "theme": "自然美感描述。",
+      "theme": "望月思鄉之情。",
       "file": "G4_S2_CHI_KANGHSUAN_L11.json",
-      "count": 30,
-      "blind_tested": 30,
-      "avg_cqi": 8.7,
-      "quality": "QL3"
+      "count": 27,
+      "blind_tested": 27,
+      "avg_cqi": "8.83",
+      "quality": "QL4"
     },
     {
       "id": "L12",
@@ -127,8 +127,8 @@
     }
   ],
   "moduleMetaData": {
-    "total_questions": 360,
-    "blind_tested": 360,
-    "last_updated": "2026-04-15T03:46:02.913Z"
+    "total_questions": 357,
+    "blind_tested": 357,
+    "last_updated": "2026-07-06T00:00:00.000Z"
   }
 }

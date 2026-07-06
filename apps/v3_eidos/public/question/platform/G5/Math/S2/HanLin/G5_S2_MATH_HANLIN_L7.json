@@ -204,7 +204,7 @@
       "commonMisconception": "學生容易誤以為題目問的是「每人平均分到的數量」，而忽略了小明額外增加的數量，直接回答 9。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "小明原本分到 36 除以 4 等於 9 顆，加上後來多拿的 2 顆，總共吃了 9 加 2 等於 11 顆。",
       "answer_index": 0,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生可能只計算單層的變化，或者誤將 8 層乘以原本的 12 本後，再進行加減，容易在運算順序上產生混淆。",
       "scenario": "【在學校圖書館時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每層原本 12 本，移走 3 本再放入 5 本，等於每層變為 12 - 3 + 5 = 14 本。總共 8 層，14 乘以 8 等於 112 本。",
       "answer_index": 2,
       "options": [
@@ -267,7 +267,7 @@
       "commonMisconception": "學生容易只計算總數 (24) 或忽略壞掉的蘋果，直接用 24 ÷ 2 = 12，忽略了壞掉的 3 顆會減少總數。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算總數：6 顆 × 4 袋 = 24 顆。扣除壞掉的 3 顆：24 - 3 = 21 顆。但題目要求平分給兩人，這是一個陷阱，因為 21 不能被 2 整除。重新檢視題目：應是 24 顆蘋果，壞掉 3 顆，剩下 21 顆，若要平分，應確認是否題意為整數分配。修正思路：若題目為 24 顆，壞掉 3 顆後剩下 21 顆，此情境設計為餘數應用，若選項為 10 顆（每人 10 顆，剩 1 顆），則選 10 顆。",
       "answer_index": 3,
       "options": [
@@ -288,7 +288,7 @@
       "commonMisconception": "學生容易誤將『已經整理 3 層』誤認為『還要整理 3 層』，或誤用加法 48 + 24。",
       "scenario": "【在學校圖書館整理書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "已整理的數量為 8 本 × 3 層 = 24 本。剩餘數量為 48 本 - 24 本 = 24 本。",
       "answer_index": 1,
       "options": [
@@ -351,7 +351,7 @@
       "commonMisconception": "學生常會被「已經賣出30杯」的資訊誤導，誤以為只需要計算剩下的 18 杯，或者誤將已售出的金額與預期收入進行複雜的加減運算。",
       "scenario": "【在校慶園遊會時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "總收入等於總杯數乘以單價，即 48×25=1200元。題目詢問的是「全部賣完」後的總收入，無需扣除已售出的部分。",
       "answer_index": 1,
       "options": [

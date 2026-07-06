@@ -36,7 +36,7 @@
       "commonMisconception": "",
       "scenario": "計算總體重",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "3.42 + 2.15 = 5.57。",
       "answer_index": 0,
       "options": [
@@ -57,7 +57,7 @@
       "commonMisconception": "",
       "scenario": "測量身高長高量",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "1.52 - 1.45 = 0.07。",
       "answer_index": 0,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "比較運動成績",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "3.12 - 3.08 = 0.04。",
       "answer_index": 0,
       "options": [
@@ -309,7 +309,7 @@
       "commonMisconception": "學生可能先將 48 加 12 再除以 6，雖然運算結果相同，但若題目改為無法整除的數字時，分步思維能幫助釐清分配的意義。",
       "scenario": "【在學校圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原先每個書架有 48 ÷ 6 = 8 本。新繪本每個書架可分得 12 ÷ 6 = 2 本。總共 8 + 2 = 10 本。",
       "answer_index": 3,
       "options": [
@@ -540,7 +540,7 @@
       "commonMisconception": "學生容易直接將 36 與 5 相加，忽略了題目中的「平分」過程，或是誤以為 36 要與 5 相除。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先計算平分後的數量：36 ÷ 4 = 9，再加上額外得到的 5 顆，9 + 5 = 14。",
       "answer_index": 3,
       "options": [

@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能除到小數第一位有餘數就不會繼續往下補零計算了（得出 16.4 餘 0.2），或者忘記小數點位置直接寫 164.5。",
       "scenario": "體育競賽數據分析 (情境 10)",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "65.8 ÷ 4。直式計算：65 ÷ 4 = 16 餘 1，把小數點後的 8 降下來變 18。18 ÷ 4 = 4 餘 2。為了除盡繼續補 0 變 20，20 ÷ 4 = 5。所以是 16.45 秒。",
       "answer_index": 0,
       "options": [
@@ -99,7 +99,7 @@
       "commonMisconception": "學生可能只處理原始數量 48 ÷ 6 = 8，忽略了後續加入的數量，或是誤將新增的 12 顆除以 6 後再加總，混淆了加法與除法的順序。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算總數：48 + 12 = 60 顆，再平分給 6 位家人：60 ÷ 6 = 10 顆。",
       "answer_index": 1,
       "options": [
@@ -141,7 +141,7 @@
       "commonMisconception": "學生常會受限於除法商數，認為答案是 9，卻忽略了「剩餘的書也需要空間」的實際需求，即無條件進位法的應用。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算 75 ÷ 8 = 9 餘 3。代表 9 個書架裝滿後還有 3 本書，因此必須多準備 1 個書架來安置剩下的書，共需 10 個。",
       "answer_index": 2,
       "options": [
@@ -183,7 +183,7 @@
       "commonMisconception": "學生常會計算出買 3 本要 105 元，誤以為錢不夠，或者忘記將折扣金額扣除，導致計算出錯誤的餘額。",
       "scenario": "【在文具店購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "3 本筆記本原價為 35 × 3 = 105 元，折扣後為 105 - 15 = 90 元。小華付 100 元，找回 100 - 90 = 10 元。",
       "answer_index": 1,
       "options": [
@@ -225,7 +225,7 @@
       "commonMisconception": "學生容易將乘法運算後的結果與總金額混淆，或是忽略了蘋果的數量為兩顆，只計算一顆的價格。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算過程為：(85 × 3) + (18 × 2) = 255 + 36 = 291。300 - 291 = 9，因此剩下 9 元。但選項設計需考量學生在加總與減法上的認知誤差。",
       "answer_index": 1,
       "options": [
@@ -330,7 +330,7 @@
       "commonMisconception": "部分學生會因為除數是 2，誤以為答案 15 代表的是「組別」或是「人數」，忽略了商的單位與被除數的單位關聯。",
       "scenario": "【在超市購物時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "將 30 顆糖果平均分配給 2 個人，算式中的商 15 即代表每一份（每個人）得到的具體數量。",
       "answer_index": 2,
       "options": [
@@ -393,7 +393,7 @@
       "commonMisconception": "學生容易將「清空 2 層」誤解為「總數減去 2」，而忽略了層數的變化，或者誤算成 5-2=3 後，忘記乘上每層的本數。",
       "scenario": "【在整理圖書館書櫃時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本有 5 層，清空 2 層後剩下 3 層。每層 40 本，故 3 × 40 = 120 本。",
       "answer_index": 1,
       "options": [
@@ -414,7 +414,7 @@
       "commonMisconception": "學生容易只計算盤數 (3+4)÷2，忽略了每盤有 2 個壽司的單位量。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL3",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "先算出總壽司數：(3盤 + 4盤) × 2個/盤 = 14個。再將 14 個壽司平均分給 2 個小孩，即 14 ÷ 2 = 7。但題目問的是每個小孩分到的總數量（即 7 個，選項誤導為總數 14 或盤數計算）。修正：(3+4)×2=14，14÷2=7。選項應包含 7。",
       "answer_index": 3,
       "options": [

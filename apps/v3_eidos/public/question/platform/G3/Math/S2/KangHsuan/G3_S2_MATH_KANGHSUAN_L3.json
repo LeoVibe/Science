@@ -123,7 +123,7 @@
       "commonMisconception": "學生常誤以為只要比較總價（96 > 72）或只看數量（8 > 6）就能判斷，忽略了「平均」的概念。",
       "scenario": "【在週末的家庭超市採購時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "要比較單價，必須將總價除以數量，算出每一顆水果的單價（12元 vs 12元），才能進行公平的比較。",
       "answer_index": 1,
       "options": [
@@ -273,7 +273,7 @@
       "commonMisconception": "學生可能只計算了單袋的數量，或是誤將袋數當作人數進行除法運算。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "先計算總蘋果數量：8乘以5等於40顆。接著將40顆平分給4個人，40除以4等於10，所以每人可得10顆。",
       "answer_index": 0,
       "options": [
@@ -364,7 +364,7 @@
       "commonMisconception": "學生常誤以為要把 48 全部重新分配，忽略了題幹敘述中已經先進行了平均分配的動作。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "每人平均分配為 48 ÷ 6 = 8 個。小明吃完自己的 8 個後，將自己的那份給爸爸，爸爸原本有 8 個，加上小明的 8 個，總共 16 個。",
       "answer_index": 0,
       "options": [
@@ -397,7 +397,7 @@
       "commonMisconception": "學生容易直接將單價乘以瓶數（45 × 4），忽略了促銷活動中「送」的瓶數是不需要付錢的。",
       "scenario": "【在超市購買飲料時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "買 3 送 1 的意思是付 3 瓶的錢可以帶走 4 瓶。因此價格為 45 × 3 = 135 元。",
       "answer_index": 0,
       "options": [
@@ -430,7 +430,7 @@
       "commonMisconception": "學生常被「平分成 9 疊」的資訊干擾，誤以為要計算一疊有多少本（8本），並嘗試用 8 減去掉落的 2 本，卻忽略了總數的概念。",
       "scenario": "【在圖書館整理書架時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "總數有 72 本，掉到地上的書只是改變位置，並沒有消失，因此書架上剩下的書為 72 - 2 = 70 本。",
       "answer_index": 3,
       "options": [
@@ -455,7 +455,7 @@
       "commonMisconception": "學生容易只算出原計畫的 6 顆重量（900公克），或誤將增加的 4 顆直接乘以 150 公克（600公克），忽略了總數的累加。",
       "scenario": "【在家庭超市採買時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "原計畫 6 顆加上多買的 4 顆，總共買了 10 顆。150 公克乘以 10 顆等於 1500 公克。",
       "answer_index": 0,
       "options": [
@@ -538,7 +538,7 @@
       "commonMisconception": "學生可能只計算到總價 375 元，而將總價誤認為應找回的金額。",
       "scenario": "【在家庭超市購物時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "先計算 3 袋蘋果的總價：125 × 3 = 375 元。接著計算找零：500 - 375 = 125 元。",
       "answer_index": 0,
       "options": [
@@ -809,7 +809,7 @@
       "commonMisconception": "學生在比較同分母分數大小時，有時會誤以為分子小的反而比較大（如混淆成越小越多的概念），或計算差值時多算一格。",
       "scenario": "【在體育課跑步活動時】",
       "quality_level": "QL1",
-      "cqi_score": 9.5,
+      "cqi_score": 8,
       "explanation": "分母相同時，比較分子大小：5 大於 4，所以 5/9 大於 4/9，小明跑得比較多。差距為 5/9 - 4/9 = 1/9，多了 1 個 1/9 圈。",
       "answer_index": 0,
       "options": [

@@ -141,7 +141,7 @@
       "commonMisconception": "",
       "scenario": "油漆桶混色",
       "quality_level": "QL1",
-      "cqi_score": 6.5,
+      "cqi_score": 5,
       "explanation": "4/5 = 12/15。故需要 12 個 1/15。",
       "answer_index": 1,
       "options": [
@@ -246,7 +246,7 @@
       "commonMisconception": "學生在計算8×24時容易產生進位錯誤，導致剩餘瓶數計算錯誤，進而做出錯誤的判斷。",
       "scenario": "【在校慶園遊會籌備時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "計算方式為：8 × 24 = 192（總瓶數），192 - 135 = 57（剩餘瓶數）。因為57大於50，所以不需要追加。",
       "answer_index": 0,
       "options": [
@@ -519,7 +519,7 @@
       "commonMisconception": "學生可能忽略了「平均分」的基礎值，或是直接將總數與加減混淆，誤以為是 36 - 2 或 36 + 2。",
       "scenario": "【在家庭聚餐時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "每人原先分得 36 ÷ 4 = 9 顆，小明拿走哥哥的 2 顆，所以是 9 + 2 = 11 顆。",
       "answer_index": 1,
       "options": [
@@ -624,7 +624,7 @@
       "commonMisconception": "學生容易被數字誤導，直接將 8×9 的結果減去 3，忽略了 3 指的是「層架數」而非「書籍數」。",
       "scenario": "【在圖書館整理書櫃時】",
       "quality_level": "QL1",
-      "cqi_score": 7.5,
+      "cqi_score": 6,
       "explanation": "原本有 8 個層架，借出 3 個層架後剩下 5 個，每個層架有 9 本，算式為 (8 - 3) × 9 = 45。",
       "answer_index": 0,
       "options": [
