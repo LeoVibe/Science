@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-06-16
-`updated_by`: Claude Code (claude-sonnet-4-6)（pj_sync：JOB-271 結案——三下翰林 L10/L11 補題達 ≥30，翰林 404/412 is_publishable）
+`last_updated`: 2026-07-06
+`updated_by`: Claude Code (claude-sonnet-5)（pj_sync：JOB-272~275 結案——四下社會/國語BIAS重鑄、國語19課全文本重建、康軒L10/L11課文補齊、全站重複檔清理）
 
 ---
 
@@ -29,6 +29,14 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-07-06
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-275 | **全站iCloud同步重複檔清理（engineering）** 🎯：全專案掃描發現1307個iCloud/macOS同步產生的「 2」「 3」後綴重複檔（`.gitignore`早已排除但本機殘留），逐一比對確認全數為完全相同或較舊版本後，刪除859個確認安全的重複檔（jobs/_goal-work 128+knowledge 126+question/platform來源4+零星docs 7+apps/v3_eidos鏡像594），重跑`sync_v3_public_questions.mjs`使前台鏡像反映最新內容。**意外發現**：官方腳本`scripts/generate_library_stats.js`本身呼叫的`evaluateFile()`有「每次執行即寫回全站cqi_score」的副作用（繼JOB-272後第二次踩雷，這次證實是標準流程腳本本身、非人為誤用），導致281個範圍外檔案被意外改寫，已用git checkout精確還原。**遺留**：`evaluate_question_quality.js`的`evaluateFile()`寫回機制仍未修正，需另立engineering JOB處理。見 `jobs/JOB-275-Report.md` | 🟢 DONE |
+| JOB-274 | **康軒國語L10L11課文全文補齊（research）** 🎯：JOB-273發現這2課研究紀錄僅有一句摘要（134~147字），非真正課文全文。WebFetch/curl技術路徑取得全文皆受著作權考量與系統防護機制阻擋，最終由使用者直接提供2課完整課文全文（各570~630字）填入KL4研究紀錄。**里程碑**：四下國語36課研究素材全數到齊，惟這2課尚未進行全文本重建出題。見 `jobs/JOB-274-Report.md` | 🟢 DONE |
+| JOB-273 | **四下國語19課全文本重建（question_prod+question_verify）** 🎯：21課文本錯位危機中的19課（翰林L1-6、康軒L1-6、南一L1-6+L9）依課文全文重新出題，共542題取代原套版通用題。首輪雙盲驗證86.3%通過，**發現「通用知識題」缺陷**（補題若聚焦字詞/標點/修辭角度，容易做出不需讀課文即可作答的題目，67%落閘率），重新設計出題規則（要求依賴具體情節/對話/角色/事件）後，3輪修正達542/542（100%）通過，avgCQI 8.29~9.47。4課因課文過短誠實提供25~26題，未套版湊數。見 `jobs/JOB-273-Report.md` | 🟢 DONE |
+| JOB-272 | **四下社會國語18課BIAS重鑄（question_prod+question_verify）** 🎯：發現BIAS（選項長度偏差）檢查誤用`evaluate_question_quality.js`內建的G3/G4寬鬆門檻（75%），未依規範40%驗收，導致社會8課、國語10課共272題實際仍可能被學生「選最長」矇對。用真實40%門檻重新核算、重鑄誘答選項並雙盲重驗，272題（含8題補題）100%通過，BIAS比例43%~63%→0%~20%。同步修正`evaluate_question_quality.js`門檻bug（統一40%、移除Math/Science豁免、「唯一最長」改嚴格判定）與2份準則文件用詞不一致；修正康軒國語L8的`meta.title`欄位錯誤標記。見 `jobs/JOB-272-Report.md` | 🟢 DONE |
 
 ### 2026-06-16
 | JOB | 簡述 | 狀態 |
