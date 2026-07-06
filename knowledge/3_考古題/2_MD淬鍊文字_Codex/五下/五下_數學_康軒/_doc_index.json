@@ -1,0 +1,92 @@
+{
+  "combo": "五下_數學_康軒",
+  "created_at": "2026-05-01T03:53:40.840354",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立大園國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立大園國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "0c631f29de717c8ec9ba5229a4c2eb5134a54a01954ede46591d5a2b0be2844f",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立大園國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "bf891699fedbb4761f4c7879391c4649e5ef31e891735ff02ab96890d7d92acb",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立大園國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "f94263d9bb1eb18824bca86d201b3437f834b8740d18ca2fccbe43744c1b8025",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立大園國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "15836c059f805e90641f2d015fbbe8d089a5964f0111f71a025056c72e4cc442",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立長安國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_長安國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立長安國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "4992b2219b754cec2e71df733a4cc56f377e8e6ab7af55c1d52e014cdc41148c",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立長安國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_康軒/康軒_108_長安國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_康軒/縣立長安國小 五年級 108 下學期 數學領域 數學 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "c67e1df4eda572fe84bb469d32fa43e99b7d0bd795c697aa0a3623732e4a4b91",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

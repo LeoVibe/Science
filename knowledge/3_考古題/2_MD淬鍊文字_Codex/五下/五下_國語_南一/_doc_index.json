@@ -1,0 +1,36 @@
+{
+  "combo": "五下_國語_南一",
+  "created_at": "2026-05-01T04:40:50.112660",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立長安國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_南一/南一_108_長安國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_南一/縣立長安國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 答案.doc",
+      "sha256": "cd1bee6f44140d932efc31f715fbc18ef76eafc5ed1ff66a9ab27134aaac9280",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立長安國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_南一/南一_108_長安國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_南一/縣立長安國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "4570d4e7fb1502b64e0b2c1dbcf70ce281fbb643c49dd50db397f23fb470cba3",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

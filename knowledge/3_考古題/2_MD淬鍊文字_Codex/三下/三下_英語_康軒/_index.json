@@ -1,0 +1,1315 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/",
+  "last_updated": "2026-05-01T05:46:07.921435Z",
+  "total_md": 36,
+  "files": [
+    {
+      "filename": "康軒_108_伸東國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "伸東國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "extract_error"
+      ],
+      "total_non_ws_chars": 706,
+      "source_files": [
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+          "kind": "答案",
+          "method": "failed",
+          "sha256": "b78651480a15963f33302a3305a9d145c0e0c464f69d89d6f3ff5dc9bf3a395a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "73c67c544abfb9ff81b6cd23690d923bffee62c32cba0c97e4713fdde791f90c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 706,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_伸東國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "伸東國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2218,
+      "source_files": [
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "32c1aa0060aedfddae75b687d31d2735aeeccf569131791c19eac203ee2fae3f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 1132,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "aa1684b758cb947918322d507f6ad23274bd4172ae4f401614f3a00c5dd15e4e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 1086,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_僑愛國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "僑愛國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "empty_extract",
+        "extract_error",
+        "missing_answer",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立僑愛國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+          "kind": "試卷",
+          "method": "failed",
+          "sha256": "f34a3868e95dd5e98f1528a9eaa4711acc5df4ef5305e87c76bd31bfa4b6ab32",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立僑愛國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "extract_error",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+          "kind": "答案",
+          "method": "failed",
+          "sha256": "e642ff49cdf96fff895c98da2bebf548b6cc9fd7b374289f59939398e878ccb1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+          "kind": "試卷",
+          "method": "failed",
+          "sha256": "28dbeb39b62dc5ff1e48a7e3e120f103c08c80c7de5b6ef8f0447b1e0cb4aacc",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "extract_error",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "db449455f0c0e404a09eb8e5bbf0c9821ef649c5947a86d85e4471711fc705b7",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.doc",
+          "kind": "答案",
+          "method": "failed",
+          "sha256": "71cd2bcf4e232c2aea93c8891551942217457723a53766a0f159c1108cec2aef",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+          "kind": "試卷",
+          "method": "failed",
+          "sha256": "8a3a866156bdbe2677deae7d894273faf30d964fa9d9f64bc0905bc8242ab7a1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+          "kind": "試卷",
+          "method": "failed",
+          "sha256": "04b1b1f32c7852598a3603f17db582a3769ea652e9528f1f28706e084e3b4f18",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "曉陽國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5442,
+      "source_files": [
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "3c316740bade328fb8cfcc8d1a5e417453818b7ef6021b6551815be666c287ec",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立曉陽國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 3786,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "b7fe81cb69988e89c14011e016845df0bea6392e89cf014532a55650340230d1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立曉陽國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1656,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_曉陽國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "曉陽國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5568,
+      "source_files": [
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "b0df3674f752dd02243197cca6fe322a74160b8fcc39a6b2fb22b3145601adac",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立曉陽國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 4037,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立曉陽國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "e3b178d9b1958f83cca3dffaed7aa64d461ee11e2479f7b92ef0d7f241c2842c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立曉陽國小 三年級 108 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 1531,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_興南國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "興南國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 1659,
+      "source_files": [
+        {
+          "filename": "市立興南國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "7d9e0c1e423de1a1c27119810ebdda1d187ac3a7d685920705913d69618e4ff9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立興南國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立興南國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a18f9bc55f53886c04048bb94b767bf9a8b7a6622137796dee4fc4339ea315fe",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立興南國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1659,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_青山國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "青山國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立青山國小 三年級 108 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "4a93fe2544d49847a072f09cdf92db2a79778d48ca5c6ba62660e064db2ca99a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "3171f773d15a5d40fc05f878908b829fb0a7d7762700d5c3260de64b67364aa3",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "4bf500c3627a44acbe7090b7abc41246e70cc87518fe5f3ef47b96f7b77234a9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3528188e8186000f90f33e9deeff6f0fcce266bfa0d3fffbac6ea5495c4509ca",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_青山國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "青山國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "85677166c9ab9693ab112a7529ab21e44394a4338cd9968e51493ffbac56fee5",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "cf99f88f5f359fd7d3d73328d206214715d4acbc72e74cee621bea4e7ab680e8",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_108_青山國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "108",
+      "school": "青山國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立青山國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "c7fa91f3542fd24807958a461bb61d874a9471554b27a09b9ae2cb76920f63a8",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "bc52c678f860010a0719373124aa659fef0b2fe475eb5b4726598ada49806cf4",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "aa4d56d419eedeba440cbd0990b1bc6209caa0fd9506c577acb266368bea0fde",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "12233e2feebbe65903700adc815290c2dbbbc37244ff0bc19c89b179b7c71fba",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立青山國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_伸東國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "伸東國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 1718,
+      "source_files": [
+        {
+          "filename": "縣立伸東國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "ce1498bc91753fc37d77c8105755cdb159781d382ae53c73dd0e34c691f2c8ea",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 863,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立伸東國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "60ff567a1d65a8aa198f54110ab33cccbde7ae10c8526b148badc524704fe560",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 855,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 1763,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "5667f4f0216d9d6e25b3ebc688aa5f127ba1e5e97519c844120df6976e7de577",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "48f8cf06b64a5274806673517d68be0221b85e761bc5300969a4e508f99b85b1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3b260444a877285b1f420b52a50ff3dc9dd9bf31ad9fa5aaf8b298ef8928c9f2",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 765,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c7014392527a0c4ab4e1f5056eed5276dbd3a09c86b25c32b9ec5eed4a4e1399",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 998,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "61963abc57acf3cf658c6f8699601ec854c509dbcf500dc0084287a955e5609f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "fb2097e8d30ce6d2ababa670ef7de9798a778b0b40f4f8ba632a08a1786eb381",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_新庄國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "新庄國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 1484,
+      "source_files": [
+        {
+          "filename": "縣立新庄國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "6c6dbcb345263eac316f0b456d8fab867e81348fa531ff404c8c74e193113398",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立新庄國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1484,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_路上國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "路上國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 1807,
+      "source_files": [
+        {
+          "filename": "縣立路上國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "45e680fe69fef3810e53c763a2777b3026e43c97acc1beaf34c844a8ca049b3e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 508,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立路上國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "ecf7b8619061c10fcc1d34f41cafe305128e3e40adf36d343dcd17c0b1458df1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 489,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立路上國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "2d6bd88698dc3864c72f0c9f82b58542a39c7f62184d48c1ebed0c9808dea369",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 810,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_路上國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "路上國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2245,
+      "source_files": [
+        {
+          "filename": "縣立路上國小 三年級 109 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "59b9a495507b503baf55cd8c11a82eff8d3b727dd54a2ed693802d1a137896e9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 1156,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立路上國小 三年級 109 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "165aa3e8aaf15cb2e060b14ef9214fc615aa2474f0de8b9da2cb857360dfd81e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 1089,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_109_路上國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "109",
+      "school": "路上國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 1174,
+      "source_files": [
+        {
+          "filename": "縣立路上國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "5c471a8eb07485326f4f57f340ef3df91b0c0627439d17a3e3d3bb98ab955141",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 109 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1174,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2111,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 110 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "8767e19cb6805747ee08a9558e7b6df246f945607332d7a40a0bfb07a06dcbc9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 110 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 934,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 110 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "643bbc8b831bc1cef119c0d5240b1336aa2e5142c9390e424ec5aaf36bc96756",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 110 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1177,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_大園國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "大園國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 1700,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 110 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "96d034e2b86bd28bc486e6ba8763b2680f7cbadb358982022f37a0dc76dd03e0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 110 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 789,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 110 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "61600008f52f3ec4332af792cff4d0a9b9b718eabb664619f65f64ac7beb6c25",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 110 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 911,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_大莊國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "大莊國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 1404,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 110 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "a4d790f6272a297c5dea0dbc920dff11580faffbbb62910a06be9224b96f00e9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 110 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 708,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 110 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a23892f0b9c2e24518913425739fcc45a2fffe0760e46e1f370213729737ff4c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 110 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 696,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_110_田中國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "110",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3796,
+      "source_files": [
+        {
+          "filename": "縣立田中國小 三年級 110 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "688a268471969491dd40e81459f93a515f0a20e23cb5f4675dca44ea9652ca07",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立田中國小 三年級 110 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 1943,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立田中國小 三年級 110 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3c3e9582c548c5b1ccb365d6af316942422c271725ad22ab9d91c9be108aed86",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立田中國小 三年級 110 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1853,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_勝利國小_期中考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3182,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-英三中卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "22e178520bf00ad5e54ad71c8a90184d563f276cc58049ddfbdecb2bf5df1e3f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/111下-勝利國小-英三中卷解答.pdf",
+          "non_ws_chars": 1603,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "111下-勝利國小-英三中卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c9a75a1f7c117c3436404200e84fe7eb5957fa73fb73d5dff9f16bc45ab5a326",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/111下-勝利國小-英三中卷.pdf",
+          "non_ws_chars": 1579,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_勝利國小_期末考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3164,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-英三末卷答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "83fb0c432f5f83bd70bb53426812069cf3290a718cc224bf6d0d204c4c250a95",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/111下-勝利國小-英三末卷答案.pdf",
+          "non_ws_chars": 1631,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "111下-勝利國小-英三末卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "7691d5dab1ede1c47c7baeb1aac9d4d28efa04fc2037793f78e754b7f9e46b5c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/111下-勝利國小-英三末卷.pdf",
+          "non_ws_chars": 1533,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_大園國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "大園國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2170,
+      "source_files": [
+        {
+          "filename": "縣立大園國小 三年級 111 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "41f2e753356080a7854d7eddab32f9b683d6ba82bcff4d5649be5fb13f0f5e32",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 111 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 1043,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大園國小 三年級 111 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "63760ecd4ac62676bc2acce39ec12bea01d1dd2afa30a471bfb385b16d2748d9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 111 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1127,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_大莊國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "大莊國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2416,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 111 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "513b54cddcecd286435e8c7a2247651747ffa41f76508fed38aba71ce4f1797a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 111 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "539a6526d8afe7df4b8ec720d0217fc802b03b13cd74b729f131b8c3591f2dce",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 2416,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_大莊國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "大莊國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2979,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 111 下學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "fd58b17dfd1f1d9ebd5919ac63a554e6e09bc3d4998cf6da4397f3c8cec324c0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 下學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 111 下學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3e173e79e4d1f64caf09499bce94760ba85fdc373cf21b8f08963dc8b90a9d09",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 下學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 2979,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_111_大莊國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "111",
+      "school": "大莊國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2161,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 111 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "4b56dcaa705e47eeb973644df127b7d30dbb8bd2dc91aa462c6149324da25420",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 上學期 語文領域 英語 第二次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 111 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "b2dbb4e968936bfe79657bcda5cf6d837bfb9e5bb9e6a2b0ebcc5b956ddfc62b",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 111 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 2161,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_大莊國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "大莊國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2237,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 112 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "054637e4e86ea6b7937d90b54177b6dbde996c362e61f94357d49c6d6a78f726",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 112 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 112 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "2141ea03c2dd59c1621559865b7dfdd2ff5edd6421c0b4db6b31b8b21de38ec5",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 112 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 2237,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_大莊國小_第三次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "大莊國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 3425,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 112 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "7bedeb21ce729146ae7e3f0c953566c95ab131459541898a564631e65d244e1e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 112 上學期 語文領域 英語 第三次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 112 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "5c6145db27e272b0b1b53770de9c47c6ca2e24bb194f9e57c797cf1463a01d8a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 112 上學期 語文領域 英語 第三次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 3425,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_太平國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 1983,
+      "source_files": [
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "486a8f49265401426527ffb44fcf40dc318ed3b17aeed7c19c49e35db5a4438f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立太平國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 1032,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c29e044fe81cce5faeeac0448f329441e954714ee2ee7873c313272e1413662b",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立太平國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 951,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_太平國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2370,
+      "source_files": [
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "a9a5640f1405eca6525f409ccb45ac4993a792571c95ab17fcd274fabfe651cc",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立太平國小 三年級 112 下學期 語文領域 英語 第二次段考 期末考 康軒 答案.pdf",
+          "non_ws_chars": 1215,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立太平國小 三年級 112 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "659c0231d6b58fdbc09b23da4113e035d9c917d9953a4e71893d1df1d23884ed",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/市立太平國小 三年級 112 下學期 語文領域 英語 第二次段考 期末考 康軒 試卷.pdf",
+          "non_ws_chars": 1155,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_新北桃子腳國小_期末考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "新北桃子腳國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 4855,
+      "source_files": [
+        {
+          "filename": "112-2-1新北桃子腳國小-三英解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "b459ba8e2fd18ac42a69ba7c4fee99c04e32214f0284c4c7af31d25546e260e1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/112-2-1新北桃子腳國小-三英解答.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-三英期末試卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "0f20843c4f98b068151a0a856dafbf3e0fd2900c0a7c5c823d127a30e8ecd7b7",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/112-2-2新北桃子腳國小-三英期末試卷解答.pdf",
+          "non_ws_chars": 1448,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-1新北桃子腳國小-小三英語.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "693d8523f484d81eba5b2c8c9fce7f7b7e68630753988ec79c92fab815e28e68",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/112-2-1新北桃子腳國小-小三英語.pdf",
+          "non_ws_chars": 1739,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-三英.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "20d2f606aaebbda3bd51f70bc164a3a5e80f4c2830a2c55056aa12fdb1e6e459",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/112-2-2新北桃子腳國小-三英.pdf",
+          "non_ws_chars": 1668,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_路上國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "路上國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 1820,
+      "source_files": [
+        {
+          "filename": "縣立路上國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "356736a9c8b018fe1de73c2efbfc113c164ebd8f3871b0415d5901bfbb5ce3fe",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 112 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1820,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_112_路上國小_第二次段考.md",
+      "publisher": "康軒",
+      "year": "112",
+      "school": "路上國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 2027,
+      "source_files": [
+        {
+          "filename": "縣立路上國小 三年級 112 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "9630df2aba62bbb6ee4becc86f2e09eafcaa35033684da6dfadf3f92eea93e3f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立路上國小 三年級 112 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 2027,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "康軒_113_大莊國小_第一次段考.md",
+      "publisher": "康軒",
+      "year": "113",
+      "school": "大莊國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3409,
+      "source_files": [
+        {
+          "filename": "縣立大莊國小 三年級 113 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "041bb07ce212b36c6ec734bc8e1bf615595f6fa6c580a943e7eded64ecced73e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 113 上學期 語文領域 英語 第一次段考 期中考 康軒 答案.pdf",
+          "non_ws_chars": 2000,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立大莊國小 三年級 113 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "0755ec69b635609bed212044ab827608abeb55f714f66ca8fde8cb8fb52d8eba",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大莊國小 三年級 113 上學期 語文領域 英語 第一次段考 期中考 康軒 試卷.pdf",
+          "non_ws_chars": 1409,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

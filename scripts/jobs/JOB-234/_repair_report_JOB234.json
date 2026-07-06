@@ -1,0 +1,959 @@
+{
+  "_meta": {
+    "job": "JOB-234",
+    "validated_at": "2026-05-14T20:06:34.283946+08:00",
+    "total": 118,
+    "stats": {
+      "pass": 117,
+      "fail": 0,
+      "repair_failed": 0,
+      "skipped": 1,
+      "error": 0
+    }
+  },
+  "items": [
+    {
+      "exam_id": "南一_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4685,
+      "body_len": 4685,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3007,
+      "body_len": 3007,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_110_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3699,
+      "body_len": 3699,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_112_2_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3583,
+      "body_len": 3583,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3583,
+      "body_len": 3583,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_112_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3383,
+      "body_len": 3383,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_?_臺南市和順國小_期末考",
+      "source_type": "no_original_found",
+      "repair_status": "pending",
+      "validate_status": "skipped",
+      "reason": "repair_not_attempted"
+    },
+    {
+      "exam_id": "翰林_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3921,
+      "body_len": 3921,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_成功國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2741,
+      "body_len": 2741,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4863,
+      "body_len": 4863,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_110_三條國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3797,
+      "body_len": 3797,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_110_湳雅國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3263,
+      "body_len": 3263,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_02第一次評量三年級數學科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1811,
+      "body_len": 1811,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3787,
+      "body_len": 3787,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_成德國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6423,
+      "body_len": 6423,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4229,
+      "body_len": 4229,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3997,
+      "body_len": 3997,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5327,
+      "body_len": 5327,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5845,
+      "body_len": 5845,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_113_未知國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5721,
+      "body_len": 5721,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 9359,
+      "body_len": 9359,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6031,
+      "body_len": 6031,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6721,
+      "body_len": 6721,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_青山國小_第三次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4860,
+      "body_len": 4860,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7299,
+      "body_len": 7299,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_111_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6169,
+      "body_len": 6169,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1653,
+      "body_len": 1653,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_田中國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3600,
+      "body_len": 3600,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3513,
+      "body_len": 3513,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2735,
+      "body_len": 2735,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3439,
+      "body_len": 3439,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_110_中正國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2647,
+      "body_len": 2647,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_113_02第二次評量三年級英語科評量答案卷_未知",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 500,
+      "body_len": 500,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_僑愛國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 1655,
+      "body_len": 1655,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_青山國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3447,
+      "body_len": 3447,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_青山國小_第三次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3235,
+      "body_len": 3235,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_青山國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3255,
+      "body_len": 3255,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_109_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3449,
+      "body_len": 3449,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_111_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2525,
+      "body_len": 2525,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_111_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2485,
+      "body_len": 2485,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_田中國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2623,
+      "body_len": 2623,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3969,
+      "body_len": 3969,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4165,
+      "body_len": 4165,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3101,
+      "body_len": 3101,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2692,
+      "body_len": 2692,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_111_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1384,
+      "body_len": 1384,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_02第一次評量四年級國語科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1727,
+      "body_len": 1727,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3461,
+      "body_len": 3461,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_113_未知國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3761,
+      "body_len": 3761,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_三條國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 5770,
+      "body_len": 5770,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_大園國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 9937,
+      "body_len": 9937,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_成功國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 7658,
+      "body_len": 7658,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_成功國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 6769,
+      "body_len": 6769,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1351,
+      "body_len": 1351,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_舊館國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 7728,
+      "body_len": 7728,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_109_三條國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1939,
+      "body_len": 1939,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4241,
+      "body_len": 4241,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_內安國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3317,
+      "body_len": 3317,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_內安國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3243,
+      "body_len": 3243,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4571,
+      "body_len": 4571,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2349,
+      "body_len": 2349,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_內安國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3767,
+      "body_len": 3767,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1527,
+      "body_len": 1527,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_109_三條國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3715,
+      "body_len": 3715,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_112_臺南市和順國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3787,
+      "body_len": 3787,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_113_02第二次評量四年級數學科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1819,
+      "body_len": 1819,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_113_未知國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3645,
+      "body_len": 3645,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5471,
+      "body_len": 5471,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_111_廣興國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7729,
+      "body_len": 7729,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_內安國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 7045,
+      "body_len": 7045,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_內安國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7109,
+      "body_len": 7109,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_員林國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 8094,
+      "body_len": 8094,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_太平國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 2543,
+      "body_len": 2543,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_太平國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3995,
+      "body_len": 3995,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_成功國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 7378,
+      "body_len": 7378,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_成功國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3984,
+      "body_len": 3984,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_文德國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 6507,
+      "body_len": 6507,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 9699,
+      "body_len": 9699,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6699,
+      "body_len": 6699,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_112_文德國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5949,
+      "body_len": 5949,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_112_臺南市和順國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7585,
+      "body_len": 7585,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_113_02第一次評量四年級社會科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3242,
+      "body_len": 3242,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_113_02第二次評量四年級社會科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2870,
+      "body_len": 2870,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_海佃國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6437,
+      "body_len": 6437,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5369,
+      "body_len": 5369,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5115,
+      "body_len": 5115,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_111_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7843,
+      "body_len": 7843,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_108_田中國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3804,
+      "body_len": 3804,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_111_舊館國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5275,
+      "body_len": 5275,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "南一_112_成功國小_第三次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6665,
+      "body_len": 6665,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_內安國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 7299,
+      "body_len": 7299,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_大園國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 6929,
+      "body_len": 6929,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_109_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6689,
+      "body_len": 6689,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_111_內安國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7733,
+      "body_len": 7733,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_111_廣興國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 8149,
+      "body_len": 8149,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_111_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5415,
+      "body_len": 5415,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_111_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 6359,
+      "body_len": 6359,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_112_內安國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 8149,
+      "body_len": 8149,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_112_內安國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 8655,
+      "body_len": 8655,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 7099,
+      "body_len": 7099,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_109_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5071,
+      "body_len": 5071,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_110_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 5597,
+      "body_len": 5597,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_臺南市和順國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4427,
+      "body_len": 4427,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_112_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4511,
+      "body_len": 4511,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_四維國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 11719,
+      "body_len": 11719,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_108_田中國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 3491,
+      "body_len": 3491,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_109_新生國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3397,
+      "body_len": 3397,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_111_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 1872,
+      "body_len": 1872,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "何嘉仁_111_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3701,
+      "body_len": 3701,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_大園國小_第一次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 2129,
+      "body_len": 2129,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "康軒_108_大園國小_第二次段考",
+      "source_type": "doc_format",
+      "repair_status": "success",
+      "char_count": 2809,
+      "body_len": 2809,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4567,
+      "body_len": 4567,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_草港國小_第二次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 4733,
+      "body_len": 4733,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_青山國小_第一次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 2593,
+      "body_len": 2593,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_108_青山國小_第三次段考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3493,
+      "body_len": 3493,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_113_02第一次評量四年級英語科評量試卷_未知",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3163,
+      "body_len": 3163,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_113_未知國小_期中考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 8709,
+      "body_len": 8709,
+      "validate_status": "pass"
+    },
+    {
+      "exam_id": "翰林_113_未知國小_期末考",
+      "source_type": "scanned_pdf",
+      "repair_status": "success",
+      "char_count": 3718,
+      "body_len": 3718,
+      "validate_status": "pass"
+    }
+  ]
+}

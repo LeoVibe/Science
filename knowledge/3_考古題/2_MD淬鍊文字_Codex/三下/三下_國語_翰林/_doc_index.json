@@ -1,0 +1,36 @@
+{
+  "combo": "三下_國語_翰林",
+  "created_at": "2026-05-01T07:10:19.095074",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立田中國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_國語_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_國語_翰林/縣立田中國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "b0aa2007649c42e26de1d4f04a7f7043100b38cbb7d26846bd90cb15a9b829d2",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立田中國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_國語_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_國語_翰林/縣立田中國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "5973ab003f4b89a03cacc28a45c6667644a00f50f9a7d3403eafbd73388f4899",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

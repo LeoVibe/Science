@@ -1,0 +1,52 @@
+{
+  "combo": "五下_社會_翰林",
+  "created_at": "2026-05-01T00:46:10.977258",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立文德國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_翰林/翰林_108_文德國小_第一次段考.md",
+      "char_count": 2770,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_翰林/縣立文德國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "a8adff144254c1a12d99055a2f7d66fbb8cef732f23f353b591566773e250d4d",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立文德國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_翰林/翰林_108_文德國小_第一次段考.md",
+      "char_count": 2713,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_翰林/縣立文德國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "01a168e273e9bc3d09865350966b64c163df91ef649e6219ac24f024acb6ffe0",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立田中國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 2903,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_翰林/縣立田中國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "cbd7220d312d8c71b5012a235d489cd32c488f3b525a30a7e250d994628fb2c4",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立田中國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 2843,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_翰林/縣立田中國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "4c46788c197fa53e201754aaed92abfd2d9c222949613e03692618c48f019a43",
+      "quality_flags": []
+    }
+  ]
+}

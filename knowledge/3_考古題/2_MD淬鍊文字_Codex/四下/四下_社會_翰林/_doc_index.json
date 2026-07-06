@@ -1,0 +1,36 @@
+{
+  "combo": "四下_社會_翰林",
+  "created_at": "2026-05-01T04:16:08.887475",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "市立四維國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/四下/四下_社會_翰林/翰林_108_四維國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/四下/四下_社會_翰林/市立四維國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "227e3e14f625f06ef28a94cea4d0752cf1daf6c46d505af69b6b439be2c85928",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "市立四維國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/四下/四下_社會_翰林/翰林_108_四維國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/四下/四下_社會_翰林/市立四維國小 四年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "d775c6de594b0a14241ee19ff70155b3c91b0d80695d4f55d6b05f094a314d8e",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

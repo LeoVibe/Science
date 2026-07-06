@@ -1,0 +1,30 @@
+{
+  "combo": "五下_社會_康軒",
+  "created_at": "2026-05-01T00:54:55.304407",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立成功國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_康軒/康軒_108_成功國小_第一次段考.md",
+      "char_count": 2666,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_康軒/縣立成功國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "b70cabe35844d79c84895a9b0ca47c9a39859181dc250d2f131f8a122ace169d",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立成功國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_康軒/康軒_108_成功國小_第一次段考.md",
+      "char_count": 2397,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_康軒/縣立成功國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "295cf81bfd421c0a5b34ef32fc71249063e8200c3c3bcf0c786081e52f710004",
+      "quality_flags": []
+    }
+  ]
+}

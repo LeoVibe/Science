@@ -1,0 +1,100 @@
+{
+  "combo": "三下_自然_康軒",
+  "created_at": "2026-05-01T03:14:29.575225",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "市立四維國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_四維國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/市立四維國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "15455ea6a1dc0e9f5f748dc83da7e771104d3893b6ebc8102ed1c9640c5e6762",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立大園國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "8cdf6cffdb3db07398e30b7cd6eacbd22ec7647bee4989a4b237df395037ae79",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立大園國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "eea1f10a6741ca88c5e287f657a7e4b137be30d776c6c6eb193079119e9184f5",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立文德國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_文德國小_第一次段考.md",
+      "char_count": 633,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立文德國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 答案.docx",
+      "sha256": "aa47acb79bcf54aa0758f5caabc4770ed6783118f8ae2c8b26ee9e26379691e9",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立文德國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_文德國小_第一次段考.md",
+      "char_count": 1851,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立文德國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.docx",
+      "sha256": "5b5edd3f750e875f13d7e6e21659900f70a06c8b6d8c78c54d70bd54910d86ca",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立田中國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立田中國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "936957e069355782975a527c431ef437a42c7908ed7727a19ea5f12e699de1f3",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立田中國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_康軒/康軒_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_康軒/縣立田中國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "b67eab2aae41fdccc83e9fd538076459ab08cd784940499b8421542beddb92ef",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

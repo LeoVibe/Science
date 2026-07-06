@@ -1,0 +1,35 @@
+{
+  "combo": "五下_國語_翰林",
+  "created_at": "2026-05-01T03:24:42.284267",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立田中國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 答案.docx",
+      "status": "issue",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_翰林/縣立田中國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 答案.docx",
+      "sha256": "44558d811ae0b59fe3cf1aa5cb8477e59ccd89e59c5da529777c3e0b09049d24",
+      "quality_flags": [
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立田中國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_翰林/翰林_108_田中國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_翰林/縣立田中國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "8f3f5fda1f2f1ba76c43a0362882fd9fd6ac2131196f478a48639fdfb4741555",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

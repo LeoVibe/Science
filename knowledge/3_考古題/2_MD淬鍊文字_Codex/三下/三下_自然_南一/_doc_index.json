@@ -1,0 +1,78 @@
+{
+  "combo": "三下_自然_南一",
+  "created_at": "2026-05-01T01:13:54.501894",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_南一/南一_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_南一/縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.doc",
+      "sha256": "731e78f0b6767213d8555df8d3e6eb98a3799361a40dd2fd0609a934edbac639",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_南一/南一_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_南一/縣立成功國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "731e78f0b6767213d8555df8d3e6eb98a3799361a40dd2fd0609a934edbac639",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_南一/縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.doc",
+      "sha256": "acf2895cf61c7c5d1ac01a4973dc60ca1b66755c57cba075e063a901a32f4505",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_南一/縣立成功國小 三年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "acf2895cf61c7c5d1ac01a4973dc60ca1b66755c57cba075e063a901a32f4505",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_自然_南一/南一_108_舊館國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_自然_南一/縣立舊館國小 三年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "59d7dbe61aad4d1fc33f2d0950214d67f1379ef103fdb65bcb2ab1309dbd2b73",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

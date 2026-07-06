@@ -1,0 +1,58 @@
+{
+  "combo": "五下_自然_南一",
+  "created_at": "2026-05-01T04:20:45.548914",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立大園國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_南一/南一_108_大園國小_第一次段考.md",
+      "char_count": 383,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_南一/縣立大園國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 答案.docx",
+      "sha256": "70b6d957745fee174a2147af233f28f5912b40292a7fc42a975f2e728ca380ae",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_南一/南一_108_大園國小_第一次段考.md",
+      "char_count": 2338,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_南一/縣立大園國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 南一 試卷.docx",
+      "sha256": "2ab9ffc0a2ef89aab927d21ca9af35c8aea75c45eb97b1dc2a55dffd3f269244",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_南一/南一_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_南一/縣立大園國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 答案.doc",
+      "sha256": "581dd2239422abcbe4259c958acf7e32ba37b6e953b7d548b3915ad001eee740",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_南一/南一_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_南一/縣立大園國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "53dbc1aa69c9d8591b730e92b14975f5c245c9c311d454fb5801f5c717680451",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

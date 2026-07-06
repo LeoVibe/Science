@@ -1,0 +1,76 @@
+[
+  {
+    "sample_id": "pdf_vertical_chinese",
+    "category": "pdf_vertical",
+    "description": "國語主題，觀察豎排/字距與結構保留。",
+    "methods": [
+      "pdfplumber",
+      "markitdown",
+      "docling"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/四下/四下_國語_南一/市立四維國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/四下/四下_國語_南一/市立四維國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+    "size_bytes": 521503
+  },
+  {
+    "sample_id": "pdf_math_layout",
+    "category": "pdf_math",
+    "description": "數學版面題，觀察表格/數式/斷行。",
+    "methods": [
+      "pdfplumber",
+      "markitdown",
+      "docling"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/四下/四下_數學_南一/112-2-2臺南市和順國小112學年度第二學期第二次評量四年級數學科評量試卷.pdf.pdf",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/四下/四下_數學_南一/112-2-2臺南市和順國小112學年度第二學期第二次評量四年級數學科評量試卷.pdf.pdf",
+    "size_bytes": 279923
+  },
+  {
+    "sample_id": "pdf_scanned_candidate",
+    "category": "pdf_scanned",
+    "description": "疑似掃描件，自然科樣本，加入 OCR fallback。",
+    "methods": [
+      "pdfplumber",
+      "markitdown",
+      "docling",
+      "fitz_ocrmac"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/三下/三下_自然_翰林/113-2三年級自然期中卷.pdf",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/三下/三下_自然_翰林/113-2三年級自然期中卷.pdf",
+    "size_bytes": 646270
+  },
+  {
+    "sample_id": "doc_legacy",
+    "category": "doc",
+    "description": "舊版 .doc，觀察 markitdown 與 soffice fallback。",
+    "methods": [
+      "markitdown",
+      "soffice_markitdown"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/三下/三下_國語_康軒/縣立成功國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/三下/三下_國語_康軒/縣立成功國小 三年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+    "size_bytes": 287744
+  },
+  {
+    "sample_id": "docx_modern",
+    "category": "docx",
+    "description": "現代 .docx，觀察結構化程度。",
+    "methods": [
+      "markitdown"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/四下/四下_數學_南一/縣立三條國小 四年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.docx",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/四下/四下_數學_南一/縣立三條國小 四年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.docx",
+    "size_bytes": 1791687
+  },
+  {
+    "sample_id": "jpg_ocr",
+    "category": "jpg",
+    "description": "JPG OCR，觀察 Apple Vision 輸出品質。",
+    "methods": [
+      "ocrmac_image"
+    ],
+    "path": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立成功國小 六年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 答案.jpg",
+    "absolute_path": "/Users/s389080/Documents/doc/work/0_AI_Project/eidosProject/knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立成功國小 六年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 答案.jpg",
+    "size_bytes": 404742
+  }
+]

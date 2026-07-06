@@ -1,0 +1,33 @@
+{
+  "combo": "五下_自然_康軒",
+  "created_at": "2026-05-01T06:03:51.003349",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立文德國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_康軒/康軒_108_文德國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_康軒/縣立文德國小 五年級 108 下學期 自然科學領域 自然 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "03d092d32bb5fa3a16873a2a3594714d1d0f6b5e1de09457e1facf10443c6402",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立舊館國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_自然_康軒/康軒_108_舊館國小_第二次段考.md",
+      "char_count": 158,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_自然_康軒/縣立舊館國小 五年級 108 下學期 自然科學領域 自然 第二次段考 期中考 康軒 答案.docx",
+      "sha256": "f5dab979335e6253a4c7740eb7e2fd19317b1d64960d739bc52624099fca2a22",
+      "quality_flags": []
+    }
+  ]
+}

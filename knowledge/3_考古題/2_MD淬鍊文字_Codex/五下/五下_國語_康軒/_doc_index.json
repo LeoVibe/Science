@@ -1,0 +1,78 @@
+{
+  "combo": "五下_國語_康軒",
+  "created_at": "2026-05-01T06:39:01.161716",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立大園國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_康軒/縣立大園國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "2d00f7f7f24363bdfeec033153c3a8d0cb35c698c820a6cc81433d0ebf7aaa00",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_康軒/縣立大園國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "1b652d723c563293ec986bd0a9d9a8ed35523829689693808654043923a058d4",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_康軒/縣立大園國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "a44cf2d56c38ab52e101621f57370e88b0d42f4bfaed6d65dab9d47f92d3897e",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_康軒/縣立大園國小 五年級 108 下學期 語文領域 國語 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "7b515cd5f9ea794bd723c51d6541d7822596d3f55ed15f0df3279d27c32e26e9",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立寶山國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_國語_康軒/康軒_108_寶山國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_國語_康軒/縣立寶山國小 五年級 108 下學期 語文領域 國語 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "87d36ec8508c4b11aea3a13053082bdaa179ef39496a1aee5073f28f8be8c46d",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

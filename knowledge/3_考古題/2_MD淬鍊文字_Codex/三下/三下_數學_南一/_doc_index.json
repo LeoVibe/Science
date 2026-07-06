@@ -1,0 +1,102 @@
+{
+  "combo": "三下_數學_南一",
+  "created_at": "2026-05-01T03:01:55.018237",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立大園國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立大園國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 答案.doc",
+      "sha256": "368202a7a61eb179d96c09d10918a9da345043fb837c9b658f0e2e0bf3ac51b7",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_大園國小_第一次段考.md",
+      "char_count": 1425,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立大園國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.docx",
+      "sha256": "8f2a797f5dd63cbed8d803482025e15b1d43f05f67261992bc4b5f920639be91",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立大園國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 答案.doc",
+      "sha256": "1f0c122b5acf1ace970fa5939a84db71921ca2dd34ee42c371a8b986df975012",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立大園國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "d6a4ad3f940decfee84ea13407d2b52ef37dada2156da4fe09441b02c264caab",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 答案.docx",
+      "status": "issue",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立成功國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 答案.docx",
+      "sha256": "2a5f35caee7ce0f9cbffbe88a76eda6320e40114abc8e7488b3f57c3b13f3bdb",
+      "quality_flags": [
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立成功國小 三年級 108 下學期 數學領域 數學 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "5e600c396c30f0443089e3dfffe64f9fe31cb9d22119c7336f564607dfc04c42",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立永豐國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_數學_南一/南一_108_永豐國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_數學_南一/縣立永豐國小 三年級 108 下學期 數學領域 數學 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "bfa4135c888c8900db9b10a2dd5a0e6307b45b874d67066ff75659b413513ab5",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

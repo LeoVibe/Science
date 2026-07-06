@@ -1,0 +1,698 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_Codex/四下/四下_國語_南一/",
+  "last_updated": "2026-04-30T23:25:12.307835Z",
+  "total_md": 20,
+  "files": [
+    {
+      "filename": "南一_108_四維國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "四維國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2667,
+      "source_files": [
+        {
+          "filename": "市立四維國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "ccd1f6162917b287061e902dd2688d49072b20f73b0dd3c44c27c989c4e7f955",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立四維國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "b2ca5ba91626f3d033d2f0720383c594824cb32facb310e952a2379c659e528c",
+          "non_ws_chars": 2667,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_四維國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "四維國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "duplicate_source_merged"
+      ],
+      "total_non_ws_chars": 2875,
+      "source_files": [
+        {
+          "filename": "南一_108_四維國小_第二次段考_答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "240a966e35deed5f92ecfe97c042116d5f7405fcf7450bcdd03c876be06bc48a",
+          "non_ws_chars": 676,
+          "quality_flags": [],
+          "aliases": [
+            "市立四維國小 四年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.pdf"
+          ]
+        },
+        {
+          "filename": "南一_108_四維國小_第二次段考_試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "dd5b08e4649928c52f26edf3ba9e738731d925b2112114d7f47e74abcf5e0c2a",
+          "non_ws_chars": 2199,
+          "quality_flags": [],
+          "aliases": [
+            "市立四維國小 四年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_安和國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "安和國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "duplicate_source_merged"
+      ],
+      "total_non_ws_chars": 6665,
+      "source_files": [
+        {
+          "filename": "南一_108_安和國小_第二次段考_答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "e0c774078682f40a0378d338ce6b777a92da0f4909745c62528b483070271e75",
+          "non_ws_chars": 3376,
+          "quality_flags": [],
+          "aliases": [
+            "市立安和國小 四年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.pdf"
+          ]
+        },
+        {
+          "filename": "南一_108_安和國小_第二次段考_試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "dbc8a7519b55a8314ea8676eec25775e6fb7066d562b513fd402bcf6dee43d7b",
+          "non_ws_chars": 3289,
+          "quality_flags": [],
+          "aliases": [
+            "市立安和國小 四年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_寶山國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "寶山國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5628,
+      "source_files": [
+        {
+          "filename": "縣立寶山國小 四年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "baef0e621c36d8da5e7e1a749e2370ea95c242d97e8d27b9f2687d043a4c8ad9",
+          "non_ws_chars": 2939,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立寶山國小 四年級 108 下學期 語文領域 國語 第二次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "e462d4d938f012825c0ef6da89fc4992798a6a8e558a10689a164bbcbdcc0fe2",
+          "non_ws_chars": 2689,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_108_草港國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "108",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "04450e080dd2443a2f4474ba7efa4458020b7440c3c07a8b148b34e7a95d2847",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立草港國小 四年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "b9323ed609dc857a258893513b64e1fecf28ef1167275a44b0b579e1fc0caeb1",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_109_草港國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "109",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 四年級 109 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "20bd7d76a5052898948c6c89a7d343025380018a13f6334fe269324cfd6a9591",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立草港國小 四年級 109 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "59a6ead22a392a5d3d041444b36dea34189f0ccfbc31ac05bcd9effb09f6f9b0",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_勝利國小_期中考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4684,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-國四中卷解答.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "9d5d68debeffda6740839c7300cad97d492bc2095db31934c91efbf5692f24da",
+          "non_ws_chars": 2421,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "111下-勝利國小-國四中卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "a2f64350b236413340a36fc4794519374b0132bb35e1d8a459172db580b06276",
+          "non_ws_chars": 2263,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_勝利國小_期末考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "duplicate_source_merged"
+      ],
+      "total_non_ws_chars": 4277,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-國四末卷解答.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "4e5a06ab5651b6214613c8d3afec346980101b3ac6c38710d03b4512ff4ada85",
+          "non_ws_chars": 2156,
+          "quality_flags": [],
+          "aliases": [
+            "南一_111_111下-勝利國小_期末考_答案.pdf"
+          ]
+        },
+        {
+          "filename": "111下-勝利國小-國四末卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "e423e3f73cd8e8f6ebd903b53f9ba416f43ec5bad7dbd0e400718a5081d5ea67",
+          "non_ws_chars": 2121,
+          "quality_flags": [],
+          "aliases": [
+            "南一_111_111下-勝利國小_期末考_試卷.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_廣興國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "廣興國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立廣興國小 四年級 111 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "2165105ebdbfee244d7e53929b761b1116460652ee21bc83a51a2310ec4fbf22",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立廣興國小 四年級 111 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "0ec268ffc215d40f04cfb107185ce7b081c7001d02660532a66fac99a07abb45",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_廣興國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "廣興國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立廣興國小 四年級 111 下學期 語文領域 國語 第二次段考 期末考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "5a3fe969724250b1ba63f8ff992bba8784d6cd6897516f85f51ef9866dd5b369",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立廣興國小 四年級 111 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "25c4def6b0d19698748f79a25b77d3271f7b94e07f1ed8ce4724933c798e7ff3",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_新北安和國小_期中考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "新北安和國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5142,
+      "source_files": [
+        {
+          "filename": "111下-新北安和國小-國語4期中(解答).pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "f9dbff1082acacc075fd7dc05553ae9fc160f6b5437e3c3a042bc57d6f2ea764",
+          "non_ws_chars": 2597,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "111下-新北安和國小-國語4期中.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "32705c2e845b3500ac6dd09cc07835481d6de16823d5ffac2eb2c4a96e1cf158",
+          "non_ws_chars": 2545,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_新北安和國小_期末考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "新北安和國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "duplicate_source_merged"
+      ],
+      "total_non_ws_chars": 7543,
+      "source_files": [
+        {
+          "filename": "111下-新北安和國小-國語四年級期末解答.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "fc602cefba0d6ab505b1d0cbb1b1f566c3ef49a8def6b841e7621c2956d56ae4",
+          "non_ws_chars": 3810,
+          "quality_flags": [],
+          "aliases": [
+            "南一_111_111下-新北安和國小_期末考_答案.pdf"
+          ]
+        },
+        {
+          "filename": "111下-新北安和國小-國語四年級期末.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "bd200538813d4e74e8c0afdec85e14c985d58ba7cbb6eea8ca28bb454b145465",
+          "non_ws_chars": 3733,
+          "quality_flags": [],
+          "aliases": [
+            "南一_111_111下-新北安和國小_期末考_試卷.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "南一_111_草港國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "111",
+      "school": "草港國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "empty_extract",
+        "missing_answer",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 四年級 111 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "4f9def427f5f2e85d8d2eb9837837c0460b8226ba2ea7950b02c112505c1302c",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_2新北桃子腳國小_期末考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "2新北桃子腳國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2439,
+      "source_files": [
+        {
+          "filename": "南一_?_112-2-2新北桃子腳國小_期末考_答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "258deee1d75ea7d342904a179676ab5a2757096bc0bbb40c761354f135a5a14d",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "南一_?_112-2-2新北桃子腳國小_期末考_試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "fc39fc9021a7caedb0243e7ca9c5d6ee3ad0cc111978a8540f9fd25864208c18",
+          "non_ws_chars": 2439,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_廣興國小_第一次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "廣興國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 3033,
+      "source_files": [
+        {
+          "filename": "縣立廣興國小 四年級 112 下學期 語文領域 國語 第一次段考 期中考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "34c9e4bcf9c1bb546f5f7a7f96824ccd147bd4891e20659ecfa7dd780dd408be",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立廣興國小 四年級 112 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "f30475a33a586a5bb639bd217eee0a21d5008352e6d3e93ead92c47f97826a2b",
+          "non_ws_chars": 3033,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_廣興國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "廣興國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2884,
+      "source_files": [
+        {
+          "filename": "縣立廣興國小 四年級 112 下學期 語文領域 國語 第二次段考 期末考 南一 答案.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "7d2489fbbaa04219b920b114fd718b4b50b4a07f19417a520b1dbcef4f844fe0",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立廣興國小 四年級 112 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "57457b62f5f045a4c152aad75344cb349214e61cc33cd5dd89a3f15e5d221354",
+          "non_ws_chars": 2884,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_新北桃子腳國小_期末考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "新北桃子腳國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 4940,
+      "source_files": [
+        {
+          "filename": "112-2-1新北桃子腳國小-四國解答.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "75ff6b95e0b72492dfce44ff23ff4613a4901f2524bfdaaaca55e4e5bb2a202f",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-四國期末試卷解答.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "258deee1d75ea7d342904a179676ab5a2757096bc0bbb40c761354f135a5a14d",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-1新北桃子腳國小-小四國語.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "936d7d827474b0a11b001ff7a205bb0c2bd20acc7de98ed1022a8206b902b5e7",
+          "non_ws_chars": 2501,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112-2-2新北桃子腳國小-四國.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "fc39fc9021a7caedb0243e7ca9c5d6ee3ad0cc111978a8540f9fd25864208c18",
+          "non_ws_chars": 2439,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_112_草港國小_第二次段考.md",
+      "publisher": "南一",
+      "year": "112",
+      "school": "草港國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "empty_extract",
+        "missing_answer",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 四年級 112 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "600a90826d45a2986435fbf1d9d253af0dbacb98b7c9bed9b8e7a3183dc1153d",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_未知國小_期中考.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期中考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "113-02第一次評量四年級國語科評量答案卷.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "214300e42a539c0a06f3beae9e0c1c4a587bdfa62d717671d8a7240743a5148c",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-02第一次評量四年級國語科評量試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "3cff8047b36f4d161b685f29afb0ec44d783e5e8820b1b26d7c3e470468494e9",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "南一_113_未知國小_期末考.md",
+      "publisher": "南一",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "113-02第二次評量四年級國語科評量答案卷.pdf",
+          "kind": "答案",
+          "method": "pymupdf_vertical",
+          "sha256": "5fc14e44b7a670cfce23b438c84fb10e896839a1a1abcd3c5f804003ba9a0b5a",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-02第二次評量四年級國語科評量試卷.pdf",
+          "kind": "試卷",
+          "method": "pymupdf_vertical",
+          "sha256": "d562ae7a43f65759b4fdcf90c460c66ad532f7c869d60a72eff5c1c08ab6dcc9",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

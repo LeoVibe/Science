@@ -1,0 +1,41 @@
+{
+  "combo": "六下_社會_翰林",
+  "created_at": "2026-05-01T00:39:03.214617",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立東芳國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_翰林/翰林_108_東芳國小_第一次段考.md",
+      "char_count": 287,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_翰林/縣立東芳國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "556138d3895a3ebb90c0aeda394e7175bcd198bf50c4fe90e65e757458801c49",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立東芳國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "status": "ok",
+      "engine": "soffice+markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_翰林/翰林_108_東芳國小_第一次段考.md",
+      "char_count": 2322,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_翰林/縣立東芳國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "239897c4e73615b3932cad2d9201fcbf4564a218e7ef526671050fc85db0a208",
+      "quality_flags": []
+    },
+    {
+      "file": "112下-勝利國小-社六末卷解答.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_翰林/翰林_112_勝利國小_期末考.md",
+      "char_count": 3915,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_翰林/112下-勝利國小-社六末卷解答.docx",
+      "sha256": "f38889995f291086e1f0c03dc80e98723da3eb8b6f9532fb3f92422b9089c6e7",
+      "quality_flags": []
+    }
+  ]
+}

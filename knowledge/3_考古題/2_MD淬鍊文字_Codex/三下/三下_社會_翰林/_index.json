@@ -1,0 +1,969 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_社會_翰林/",
+  "last_updated": "2026-05-01T04:09:41.575039Z",
+  "total_md": 29,
+  "files": [
+    {
+      "filename": "翰林_108_伸東國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "伸東國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "extract_error",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+          "kind": "答案",
+          "method": "failed",
+          "sha256": "f7a54b32b7d2725249cdf6463aafd840801f1a863d23676e6ed818c2199ad5ed",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+          "kind": "試卷",
+          "method": "failed",
+          "sha256": "c0421c02fa289229e3277604868cb485948675e1612280f174e1c56adc2ded82",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_內安國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "內安國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2742,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "a2e9474254864348e0c63c55d3b9b636a71a647509e65040ce8bfca9d0ee55a6",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "ccbe89c3c76b4d19dc481603d6d7e7474fda4ae9aa24e22508547c6eade934b0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2742,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_內安國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "內安國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2730,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "b582bdfafd4ea953cfb9ab832025c657266f406c88af7755e13b21150fd5e737",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "19b5a6c7ec8ce75473bea798f30ac0b2951a4983363b77d3f913ed1e3c86935a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2730,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_文德國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "文德國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "extract_error"
+      ],
+      "total_non_ws_chars": 2464,
+      "source_files": [
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+          "kind": "答案",
+          "method": "failed",
+          "sha256": "faa655f16b72fc4447030e52955b336f5c366b15ecd6606d045af43c5bd01b19",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "extract_error",
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "223aacc2f3a59fab0b1f12646fcbbc15dcab60c8e70592978936ce404b047032",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2464,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_文德國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "文德國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3023,
+      "source_files": [
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "30dadb4e7f5a2f7fe75f8973766eb9df4e195f51e39158763a819e3db4ea974a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 332,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立文德國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c22d39015ebe3ef15c6ca650f16318e672106b5e5d47a3df9968191142f86690",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 108 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2691,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_青山國小_第三次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "青山國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "14a0b14cc02e2ddb2faf7898a4ba4fd2e0d14e9f92dc3f22588d033d05414b2a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立青山國小 三年級 108 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立青山國小 三年級 108 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "14fb710cae480ff60dabb01ffaf0262e74fc8530cb86162974f86948078b8488",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立青山國小 三年級 108 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_成功國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5604,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "102a2a69492928d0b4a633a4e74295efdbda82388b0874573e4fb35eb053dab4",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2802,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "102a2a69492928d0b4a633a4e74295efdbda82388b0874573e4fb35eb053dab4",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2802,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_海佃國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "海佃國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2913,
+      "source_files": [
+        {
+          "filename": "市立海佃國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "836f4f4d4023295de2bbcc187e9d0899a4379427422a929d04b3acd22b21a48b",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/市立海佃國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立海佃國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "79e13f446d68f9fc924f0d9d61bf03277425436962015cb76323b9ad64dcfe2e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/市立海佃國小 三年級 109 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2913,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_110_內安國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "110",
+      "school": "內安國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4184,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "770f330c29ecd36104bc5fb3ab2bcbcc685702d190b9729081b744859b982bfa",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2092,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "fc0f61d4043852aeb93296c9ab1f79231d885da47dfa2b32879b20f66fe23eaf",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2092,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_110_文德國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "110",
+      "school": "文德國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 2172,
+      "source_files": [
+        {
+          "filename": "縣立文德國小 三年級 110 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3928fea0ca421b256718c38436d1d721f0a2477058a264efab9b0f9965ca8698",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 110 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2172,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_110_草港國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "110",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "ff4da39a4c8b10e8a173d9fe92db8209f14fee936861f93caeaaf973c27c381d",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立草港國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立草港國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "cde313a4fa9945126dc53ac1eda1f205b785ee6cf3959caf4f19a9aca09a9d02",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立草港國小 三年級 110 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_內安國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "內安國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4317,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "7506ace53d2c0652e32864d1ae7e37be845affede2eb7f1e8d98a7e61b904d79",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 937,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "9fbeb6c7936c81cf94a66870c0f6b9cdfebead08514ec68da5e1e1b2939db366",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 3380,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_內安國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "內安國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4038,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "7dc5c564934e3c2aad87d3251c81f3103b0dc8dc8b17b1f0bddb50476168ff78",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 567,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "8d5b623b323ad31e66e204222ef5c877857c7d20627b332b67345d0bd9b12830",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 3471,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_成功國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5730,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "8de949817de466fd0eca81a55bb417c8ed3d58058b0ec5d39848f55a96d0bc9d",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2890,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "44686fbad2d3ad664a14166881b5725e90f1b4bbd9120528254a5dc1a7bec052",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2840,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_成功國小_第三次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4459,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "f92c5e75f7772a283dc5b0fbf05642aa903d84aa4a3169084303c8ad8b7db8d6",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 2256,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "ab81c6f5ffb4f8ef1ac4fe5a80c70e96b4d98abf669686699a05567c3bfd11fc",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2203,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_成功國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3293,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第二次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "b6a70aa666c446cfe4d4969de429f4810184a6e4a968cfb7f3ce271d6b0a9986",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第二次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 94,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 111 下學期 社會領域 社會 第二次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "ffcd19ff8518fac8a049f88bfa7b243a73202e9a1f2a01c91a119056e62fafc7",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 111 下學期 社會領域 社會 第二次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 3199,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_田中國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4766,
+      "source_files": [
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "668b533cbce3252e254095660aa514037999fd2b19f816fc020745edd92f2750",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2411,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "b6becdb8b52814a85ce6f787ad8041871881b9d3ba25dbf3825dd1ecbcfefae2",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2355,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_田中國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "田中國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4483,
+      "source_files": [
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "2ec1bdd4a2960940ea2e8a988715645f05ee8ce0c0a1826f903c771d8369f668",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 2267,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立田中國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "00e762d029e2abc930171edb21e7ca3401b93caba4ffb866e4ea5a291f5b8833",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2216,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_草港國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "草港國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "f09f4c1ec3ad772ea60a75a4dea7d96f409252b77e76c37622a83113b77c7dcc",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立草港國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立草港國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3ca27204969c1ceb563e6c823f3cc84fb90a71c5fbf8c48d6337879276bc677e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立草港國小 三年級 111 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_草港國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "草港國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "empty_extract",
+        "missing_answer",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立草港國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "d9343b96b478e8bd971c6894acbc8742e0ae3a34a061f0d628df42a342ab8bb9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立草港國小 三年級 111 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_內安國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "內安國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3835,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "c01515f391333eb329d362926ce6c171c8ec6c602245ae4bc9e5fbf7890de133",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 1940,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "38a78696f436685ae6dc1169e22af01182df4bf1d4b18c35cc0b82b8f5cfabd3",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 1895,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_內安國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "內安國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4036,
+      "source_files": [
+        {
+          "filename": "縣立內安國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "f30ce1f249413f45a0b80b6cf68e10f7ea8fd1496d3e6f433aa409117a0f9186",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 2039,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立內安國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "b658c02cf26d6cf04f11833d76e4d0bf1a1596464db2487a35c0ec57df24abd2",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立內安國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 1997,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3081,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "57a4a67e8bd450244f13a3351299d02928205817e3b6b11352e3bca822d1756f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 681,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "21474015ef3d1685f871a1533c7b8497107d54826825a9a3f6b193a2a7a1a0e2",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2400,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第三次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第三次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3024,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "1c81f873d30c40afe8594c287c7b0d3bc6564c909f187d82fd04309c017bf975",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第三次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 799,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3b9213a2cbac6e6951614901886bc87a94734f6810955c268c55d1968f85042f",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第三次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2225,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_成功國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "成功國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 7369,
+      "source_files": [
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第二次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "880f6edd48bfcda83aefad4e1665a77df7e3f9682593a8569eb80bc837c685c0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第二次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 4119,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立成功國小 三年級 112 下學期 社會領域 社會 第二次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a91592ffb23b6b9faa35c7e99abad61932976076ac9553dd9acd7fe13dfd218e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立成功國小 三年級 112 下學期 社會領域 社會 第二次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 3250,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_田中國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "田中國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "4028367baeebb185300cff9156098579499f1ec709da8e6e187e01c9f41d029b",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "96ae7952635ca17d70492984cf2152be2f1da4d506d180332cfd85bd33504350",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 112 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_田中國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "田中國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2942,
+      "source_files": [
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "d1315ac613ce6c8dae1f695f8a6aa9324cfb035fdad2e77bfd9a3e25f1898c83",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 408,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "縣立田中國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "f20f72b2fd3443f2a5131222b1d5a8000bb12f3fea53afbd2e0a0acbdefa3b04",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立田中國小 三年級 112 下學期 社會領域 社會 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 2534,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_未知國小_期中考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期中考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2819,
+      "source_files": [
+        {
+          "filename": "113-2三年級社會期中考卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "f8eda963119d0e65aec5a61748e8323c8b7b15029c99929bccc81564f8820c49",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/113-2三年級社會期中考卷解答.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-2三年級社會期中卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "fca6c95b3bb30797cd68fd37ce0a8fd140a4dcf7f0b41fdc43bb8cada9322998",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/113-2三年級社會期中卷.pdf",
+          "non_ws_chars": 2819,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_未知國小_期末考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 2565,
+      "source_files": [
+        {
+          "filename": "113-2-2三社解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "720f17986da9dcc77c5401610b69adeecb04473c3fbb7146617542c58fedbccf",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/113-2-2三社解答.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-2-2三社.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "945985d6b6bcceae2b58d0488e63b2ef10ff3d90a5d6a0c96866adcc8159be05",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/113-2-2三社.pdf",
+          "non_ws_chars": 2565,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

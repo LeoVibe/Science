@@ -1,0 +1,100 @@
+{
+  "combo": "六下_國語_南一",
+  "created_at": "2026-05-01T04:51:17.584734",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立中正國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_中正國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立中正國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.doc",
+      "sha256": "30c8b28b398fcdeb95da2be2d249d81fa06fc93b3b0d3f376746a11428b72be7",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立中正國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_中正國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立中正國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.doc",
+      "sha256": "30c8b28b398fcdeb95da2be2d249d81fa06fc93b3b0d3f376746a11428b72be7",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立伸東國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_伸東國小_第二次段考.md",
+      "char_count": 754,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立伸東國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.docx",
+      "sha256": "5729973a4f8feead747e20b40a2aeeb443f63218145128ab49e514e6512a3330",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立伸東國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_伸東國小_第二次段考.md",
+      "char_count": 3448,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立伸東國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.docx",
+      "sha256": "a377d3cfbfad83061a91db206cfc0d18a2442292542db556fa99fb22d6ae55b5",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立成功國小 六年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立成功國小 六年級 108 下學期 語文領域 國語 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "47c847f129cf0d9d9a8b3b992c9f3f1b723219453b2a41549bc475414ceb5d19",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立成功國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 答案.doc",
+      "sha256": "6c9064177ba4e9396369ab8558ecb7bd9effa0fb38eb24fde78ac06ed0f81534",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_國語_南一/南一_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_國語_南一/縣立成功國小 六年級 108 下學期 語文領域 國語 第二次段考 期末考 南一 試卷.doc",
+      "sha256": "4108507acc75745ce6198b20223dfb8a6325900b4c9c0c2d7705b04c8e007c74",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

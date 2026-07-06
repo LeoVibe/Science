@@ -1,0 +1,161 @@
+{
+  "combo": "六下_社會_康軒",
+  "created_at": "2026-05-01T06:01:01.969192",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立三條國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_三條國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立三條國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "6a4621064a839e4ed528f960b6f6feeb5e63abdd966fcbcff00f292fc97aba9b",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_三條國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立三條國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "076975233ddff537362ce8b04847d1a3a91922b58139161f65e65fb8b22b7ade",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_三條國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立三條國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 答案.doc",
+      "sha256": "4efe7c4f6c80095d7f7e45910f2a85979a2bca2bb1df10b7f9f1b32f4780442a",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_三條國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立三條國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 試卷.doc",
+      "sha256": "488e3860c8ebec199e2d1b24306123edfeccd54bf4b73af5c9c41a0042947308",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立內安國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_內安國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立內安國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "17206fb3a6e5d630c06fa17cb3139e190113eacdeee1556ef406934592a47874",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 2439,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立大園國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.docx",
+      "sha256": "db2be90db9439a0c95e4404074c07a20ce05dbf9673f8bd50bfa49b9f099689e",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立大園國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 2376,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立大園國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.docx",
+      "sha256": "a412cc5d9c87b2da6a88e730528ae36118fc507ba0f32b2671c5708c9008a7a0",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立大園國小 六年級 108 下學期 社會領域 社會 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立大園國小 六年級 108 下學期 社會領域 社會 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "9aba9fdd3f47642fe47408fbdf6ab335207002c5b15a4309cf818fc3b2591dd9",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 六年級 108 下學期 社會領域 社會 第二次段考 期中考 康軒 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 2518,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立大園國小 六年級 108 下學期 社會領域 社會 第二次段考 期中考 康軒 試卷.docx",
+      "sha256": "1d267919df0e82dcc1632c98b97604543f7ce355ae08ea8ee704292fafbe138c",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立成功國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立成功國小 六年級 108 下學期 社會領域 社會 第二次段考 期末考 康軒 試卷.doc",
+      "sha256": "98d76db3997a0e705378e34b1cc139d6d98e5fac1ff77c2cf2437df01e7af7aa",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立文德國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_文德國小_第一次段考.md",
+      "char_count": 463,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立文德國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 答案.docx",
+      "sha256": "5c7235ef67d7fc87a5d806d62edfa40ee3fbed25e76b94b8964f018278d1930d",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立文德國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/六下/六下_社會_康軒/康軒_108_文德國小_第一次段考.md",
+      "char_count": 3483,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/六下/六下_社會_康軒/縣立文德國小 六年級 108 下學期 社會領域 社會 第一次段考 期中考 康軒 試卷.docx",
+      "sha256": "671403e5af8721c1678e588762bc904c1edab46d010630da11b9cc2f2ac8a9f9",
+      "quality_flags": []
+    }
+  ]
+}

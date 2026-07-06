@@ -1,0 +1,106 @@
+{
+  "combo": "三下_英語_康軒",
+  "created_at": "2026-05-01T05:46:07.923092",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_伸東國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立伸東國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "b78651480a15963f33302a3305a9d145c0e0c464f69d89d6f3ff5dc9bf3a395a",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立僑愛國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_僑愛國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立僑愛國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "f34a3868e95dd5e98f1528a9eaa4711acc5df4ef5305e87c76bd31bfa4b6ab32",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 答案.doc",
+      "sha256": "e642ff49cdf96fff895c98da2bebf548b6cc9fd7b374289f59939398e878ccb1",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_大園國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第一次段考 期中考 康軒 試卷.doc",
+      "sha256": "28dbeb39b62dc5ff1e48a7e3e120f103c08c80c7de5b6ef8f0447b1e0cb4aacc",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 答案.doc",
+      "sha256": "71cd2bcf4e232c2aea93c8891551942217457723a53766a0f159c1108cec2aef",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 上學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "8a3a866156bdbe2677deae7d894273faf30d964fa9d9f64bc0905bc8242ab7a1",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_英語_康軒/康軒_108_大園國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_英語_康軒/縣立大園國小 三年級 108 下學期 語文領域 英語 第二次段考 期中考 康軒 試卷.doc",
+      "sha256": "04b1b1f32c7852598a3603f17db582a3769ea652e9528f1f28706e084e3b4f18",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "path": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_數學_翰林/",
+  "last_updated": "2026-05-01T03:25:03.976187Z",
+  "total_md": 19,
+  "files": [
+    {
+      "filename": "翰林_108_四維國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "四維國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4160,
+      "source_files": [
+        {
+          "filename": "市立四維國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "7dba00c9be397f750afcb61c17c5c5378776a1c7bc75375c924b89ea4b4d0b1b",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2152,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立四維國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "3b0111f1cf76f111522cd0ffe1aba90309a1b41a725640b233d700a26c6ab8ab",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2008,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_四維國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "四維國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 1489,
+      "source_files": [
+        {
+          "filename": "市立四維國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "9a750cd99d481a9941e003d398304a59b7a9dacf7fbca30fbef690304416ee72",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立四維國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "41129574cba691fb4ed67848936bb836ae0c296738fc8615b727d3d9b6d3b9f1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 1489,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_安和國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "安和國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4350,
+      "source_files": [
+        {
+          "filename": "市立安和國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "ae3a32816fd1a1da9c3f647b59f0fda65c82391db724727994eaa27ce0cd7ad6",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立安和國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 2281,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立安和國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "1edcb3538efabad71409b765244dda7df0a1079f07e6e6992332f8f5f70336b2",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立安和國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 2069,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_安和國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "安和國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3198,
+      "source_files": [
+        {
+          "filename": "市立安和國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "ac463fb96679c088a8e0b067b67865ef2ce37430bd37404d8a6351f6d4d82684",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立安和國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 1692,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立安和國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c5091682c9581e89408db1d53025169ed815fce8d49b5a85ab524528bca39481",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立安和國小 五年級 108 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 1506,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_108_田心國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "108",
+      "school": "田心國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 3149,
+      "source_files": [
+        {
+          "filename": "市立田心國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "825daf66193067e25cc4ff5f5c707d9ba11cecfc0cf8f0343ee4ba7e7ca6194a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立田心國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立田心國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "9a0273a02a745dd14c86bd46ded5e0f16d01d618576a7f97e6fb0f429dfba9e4",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立田心國小 五年級 108 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 3149,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_四維國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "四維國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3087,
+      "source_files": [
+        {
+          "filename": "市立四維國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "17727b4ce2faf50a85f475c029e90396e0874526e374440a97aa86df5254aa6a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 1608,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立四維國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a99346d01d810b7464985015e9f291b962bf948949c29ad5f093491e1b7a9ec1",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立四維國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 1479,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_109_成德國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "109",
+      "school": "成德國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract",
+        "paper_empty"
+      ],
+      "total_non_ws_chars": 0,
+      "source_files": [
+        {
+          "filename": "市立成德國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "55849203cbb709ece166744802ccb261825d114ee1a8239db6e85492fb05f8bc",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立成德國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立成德國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "559fb50f2d2215e5281008755be7d6b577723b55c52791d1797a9e985e23e50a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立成德國小 五年級 109 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_110_田心國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "110",
+      "school": "田心國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 589,
+      "source_files": [
+        {
+          "filename": "市立田心國小 五年級 110 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "afa1821f4be26404704ab203a32be6f9efb72a2743012c6b64f63b364be3e758",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立田心國小 五年級 110 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "市立田心國小 五年級 110 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "613de7d91a53bc0aa3a86abfa1fc5f2195f77878589e3ea44fdfbc8fe5f6c2fb",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立田心國小 五年級 110 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 589,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_勝利國小_期中考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4723,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-數五中卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "ce39b4e2db403cc7e51fb1a2d2d7f514f504d318ff13d526150dd3132be835b6",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/111下-勝利國小-數五中卷解答.pdf",
+          "non_ws_chars": 2452,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "111下-勝利國小-數五中卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a7b4e95a5e823ba54733fb4970e9b1e717022cd9358838b689b76cce156e17e3",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/111下-勝利國小-數五中卷.pdf",
+          "non_ws_chars": 2271,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_勝利國小_期末考.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "missing_answer"
+      ],
+      "total_non_ws_chars": 1771,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-數學五末卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "a857b9c16b17c8ad810b59e2034dab14c23a60e2abf71c9d4ac90fe59a1415c6",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/111下-勝利國小-數學五末卷.pdf",
+          "non_ws_chars": 1771,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_111_勝利國小_未知.md",
+      "publisher": "翰林",
+      "year": "111",
+      "school": "勝利國小",
+      "exam_type": "未知",
+      "quality_flags": [
+        "missing_paper"
+      ],
+      "total_non_ws_chars": 1934,
+      "source_files": [
+        {
+          "filename": "111下-勝利國小-數學五末解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "c4a690df34f8b5aa6259911c2f2dd20ce56711bed9f272bf221e36efc37d076a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/111下-勝利國小-數學五末解答.pdf",
+          "non_ws_chars": 1934,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_勝利國小_期中考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "勝利國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3664,
+      "source_files": [
+        {
+          "filename": "112下-勝利國小-數學五年級中卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "e117894f787df5476ab815b0e42474a78fe095d68beed5b38515ea695be11c10",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-勝利國小-數學五年級中卷解答.pdf",
+          "non_ws_chars": 2045,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112下-勝利國小-數學五年級中卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "43d7b0ee7e7a41895313310613fd326ef40064ba774cfb68149a98ac424418c9",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-勝利國小-數學五年級中卷.pdf",
+          "non_ws_chars": 1619,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_勝利國小_期末考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "勝利國小",
+      "exam_type": "期末考",
+      "quality_flags": [],
+      "total_non_ws_chars": 4196,
+      "source_files": [
+        {
+          "filename": "112下-勝利國小-數學 五年級 末卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "cb32e06eb7ec3ea8697268e190744c474cfa32c4ec3bc4f7863551b200b87133",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-勝利國小-數學 五年級 末卷解答.pdf",
+          "non_ws_chars": 2162,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112下-勝利國小-數學 五年級 末卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "aa01b8f15c8c400fb2f1445f859e75ccd8e99f3b195283639a502243388c853a",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-勝利國小-數學 五年級 末卷.pdf",
+          "non_ws_chars": 2034,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_太平國小_第一次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第一次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3723,
+      "source_files": [
+        {
+          "filename": "市立太平國小 五年級 112 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "376917f43f61780f4aa75190d598f22718abc400304b8535426f1ec3414df0af",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立太平國小 五年級 112 下學期 數學領域 數學 第一次段考 期中考 翰林 答案.pdf",
+          "non_ws_chars": 1941,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立太平國小 五年級 112 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "fa21713e53a95ecff48051ed71b8573a6562f9995977b892ab4311bcfc26daf0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立太平國小 五年級 112 下學期 數學領域 數學 第一次段考 期中考 翰林 試卷.pdf",
+          "non_ws_chars": 1782,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_太平國小_第二次段考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "太平國小",
+      "exam_type": "第二次段考",
+      "quality_flags": [],
+      "total_non_ws_chars": 3709,
+      "source_files": [
+        {
+          "filename": "市立太平國小 五年級 112 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "6aaa2748336073fef09e010054e94c54f01826f770bfafc8c82745998ae54219",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立太平國小 五年級 112 下學期 數學領域 數學 第二次段考 期末考 翰林 答案.pdf",
+          "non_ws_chars": 1935,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "市立太平國小 五年級 112 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "c076af08ebfe538469fb1170a88947be824342c23f161dc3baf32c950abb702e",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/市立太平國小 五年級 112 下學期 數學領域 數學 第二次段考 期末考 翰林 試卷.pdf",
+          "non_ws_chars": 1774,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_新北安和國小_期中考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "新北安和國小",
+      "exam_type": "期中考",
+      "quality_flags": [],
+      "total_non_ws_chars": 5566,
+      "source_files": [
+        {
+          "filename": "112下-新北安和國小-數學5期中(答案).pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "6fbb6f02c125832300de5e5ad46e0ca9fe583e4d873b5ed908d1ca7c8f5d6d6c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-新北安和國小-數學5期中(答案).pdf",
+          "non_ws_chars": 2854,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112下-新北安和國小-數學5期中.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "6bd2cceacb0d17eb51ecbc058b724cf395d1ab6a54b1baa8d595f54dbc35018d",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-新北安和國小-數學5期中.pdf",
+          "non_ws_chars": 2712,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_112_新北安和國小_期末考.md",
+      "publisher": "翰林",
+      "year": "112",
+      "school": "新北安和國小",
+      "exam_type": "期末考",
+      "quality_flags": [],
+      "total_non_ws_chars": 2327,
+      "source_files": [
+        {
+          "filename": "112下-新北安和國小-數學5期末考(解答).pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "59a97c94e06707202a894f2a13adadccfe3370d35094fa7e5b14f8920efd839c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-新北安和國小-數學5期末考(解答).pdf",
+          "non_ws_chars": 454,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "112下-新北安和國小-數學5期末考.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "0c2a91349ccc6a99de10b62cacd8a6c249106bfbba1698cf9d9b5cc17e8c88b8",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/112下-新北安和國小-數學5期末考.pdf",
+          "non_ws_chars": 1873,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_未知國小_期中考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期中考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 3436,
+      "source_files": [
+        {
+          "filename": "113-02第一次評量五年級數學科評量答案卷.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "bce42d75c8e40870009a4c1e08f0202ad6e94b86716e71fbede0b8a7bfa360fe",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-02第一次評量五年級數學科評量答案卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-2五年級數學期中考卷解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "06a330bb286a8e3d38365c93edf5bde0bfbf2561d9c8a0e96bb039cd3fd852e7",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-2五年級數學期中考卷解答.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-02第一次評量五年級數學科評量試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "b9191ce00e478b63ec84e64cf6064fb4e00fe2705a9a7305ae7710efd7f8fe6c",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-02第一次評量五年級數學科評量試卷.pdf",
+          "non_ws_chars": 1811,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "113-2五年級數學期中卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "5304607d0c36f147f34eaa499df3d46a1c464cd1681c624bc17ae3ef27da0f52",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-2五年級數學期中卷.pdf",
+          "non_ws_chars": 1625,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "filename": "翰林_113_未知國小_期末考.md",
+      "publisher": "翰林",
+      "year": "113",
+      "school": "未知國小",
+      "exam_type": "期末考",
+      "quality_flags": [
+        "answer_empty",
+        "empty_extract"
+      ],
+      "total_non_ws_chars": 3355,
+      "source_files": [
+        {
+          "filename": "113-02第二次評量五年級數學科評量答案卷.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "872b01ab1e342042d9c2e18eaf8b78fd01b4890b17a37ce5133f706d25fe9ace",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-02第二次評量五年級數學科評量答案卷.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-2-2五數解答.pdf",
+          "kind": "答案",
+          "method": "pdfplumber",
+          "sha256": "2b5b0a2bab357484413d6acd98a96f83d3bdd7f602c3810063291dadb38cb0b0",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-2-2五數解答.pdf",
+          "non_ws_chars": 0,
+          "quality_flags": [
+            "empty_extract"
+          ],
+          "aliases": []
+        },
+        {
+          "filename": "113-02第二次評量五年級數學科評量試卷.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "613e1224299b3566219c957e6c4ef96ed5cf14eec8d0a721604f19211a817724",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-02第二次評量五年級數學科評量試卷.pdf",
+          "non_ws_chars": 1891,
+          "quality_flags": [],
+          "aliases": []
+        },
+        {
+          "filename": "113-2-2五數.pdf",
+          "kind": "試卷",
+          "method": "pdfplumber",
+          "sha256": "839ab18419b9156b77f59e473a426ea3708075aeca9f79aecd4bf62cd4949b69",
+          "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_數學_翰林/113-2-2五數.pdf",
+          "non_ws_chars": 1464,
+          "quality_flags": [],
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

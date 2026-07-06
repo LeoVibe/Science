@@ -1,0 +1,302 @@
+{
+  "combo": "五下_英語_何嘉仁",
+  "created_at": "2026-05-01T02:00:20.084814",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立三條國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_三條國小_第三次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立三條國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 答案.doc",
+      "sha256": "7dade330fe81f38ee0e5e3508d024287e9ebbfc04a25d5ba9d5cce56f3ed8cc3",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_三條國小_第三次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立三條國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 試卷.doc",
+      "sha256": "02ae3b91a09d84e83c3ae24c943147db54c29069302852caa0cd315eec593725",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_三條國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立三條國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "2259e547b0d3bd45ad1d1f072669233eb890f85c3864e6863fcb2ecdce9c8e76",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立三條國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_三條國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立三條國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "d2e0bf0957c2bf324fbb17d0910f8a8b11a10600d915ac60c76d523717ed43d3",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "335b80e80b7f5e16b6b47531a5e660e565c956338dfaae04fcddb34a8761be38",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 下學期 語文領域 英語 第一次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 下學期 語文領域 英語 第一次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "53814dec4c3fe2ffda1f8ba2c14433165e83e64eaae5fc2cbd1336a6bef6650a",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "13c85d8cb2c885855f64c3e9a3814630cc4d535dc231b9320b90585b642517f5",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 下學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 下學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "4f01c45290e9aab926f4ea2e5b37cea37bee545e6bb0e6e0ee83ca8c62183d96",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第三次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 答案.doc",
+      "sha256": "55e28d343a1426716ec35093488490854274102956374cd9e8063dc97c7acc99",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第三次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第三次段考 期末考 何嘉仁 試卷.doc",
+      "sha256": "b2650059ea944544020393c5bfc27a5648979bc2249897d5e2eb1760dfd11e3a",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "e898b79edc3bb17138087e8d89730762cff30545a265d1000966e4b1806bb494",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 下學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 下學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "508708f351915e9354f59bc534d286f48bc23375cb4d0681c66482ca4924d94d",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "a4c5a2df2056c331274d640462ad1a6a152f02a2317ea3797b06b290a3d114da",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立成功國小 五年級 108 下學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_成功國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立成功國小 五年級 108 下學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "e7949642e1a7e67b94dc27b0e866cc46f7bf4f369fd81ec79806f4b40ceed903",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立永光國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_永光國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立永光國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "5dcaeee8c8f6cf4976816c3738eac108011a443391ccf2e0e9b6cccce51a997b",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立永光國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_永光國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立永光國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "4fe3f573401b7fe3eea107c355450a7830312a80a016c9e3bca6b96029f0f816",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立龍港國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_龍港國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立龍港國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "72a5ade755f76feb799fb11302ec963f7daaeade8c0053c4321548bedcc3e428",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立龍港國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_龍港國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立龍港國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 答案.doc",
+      "sha256": "a145d50c2a5c89cf640dfba8b02ae33380cb88d9cc593d9d1dcf37f0263cc7e4",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立龍港國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/何嘉仁_108_龍港國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立龍港國小 五年級 108 上學期 語文領域 英語 第二次段考 期中考 何嘉仁 試卷.doc",
+      "sha256": "5470b17cc8f1396915a6bf102b23e558d120ae88f85597dfe4bcd20ee0f300e0",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立永光國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/南一_108_永光國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立永光國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 南一 答案.doc",
+      "sha256": "2dcb8e072f70428ce5f5c495277bea96e25399d068cff95a8fdc6b50780abb00",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立永光國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_英語_何嘉仁/南一_108_永光國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_英語_何嘉仁/縣立永光國小 五年級 108 上學期 語文領域 英語 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "f2babd8f0217be40e6175599fca863305fa5b40a0cc8f37b1d955a2f08e4bf0f",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

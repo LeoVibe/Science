@@ -1,0 +1,50 @@
+{
+  "combo": "三下_社會_翰林",
+  "created_at": "2026-05-01T04:09:41.576411",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_社會_翰林/翰林_108_伸東國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "f7a54b32b7d2725249cdf6463aafd840801f1a863d23676e6ed818c2199ad5ed",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_社會_翰林/翰林_108_伸東國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立伸東國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 試卷.doc",
+      "sha256": "c0421c02fa289229e3277604868cb485948675e1612280f174e1c56adc2ded82",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/三下/三下_社會_翰林/翰林_108_文德國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/三下/三下_社會_翰林/縣立文德國小 三年級 108 下學期 社會領域 社會 第一次段考 期中考 翰林 答案.doc",
+      "sha256": "faa655f16b72fc4447030e52955b336f5c366b15ecd6606d045af43c5bd01b19",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}

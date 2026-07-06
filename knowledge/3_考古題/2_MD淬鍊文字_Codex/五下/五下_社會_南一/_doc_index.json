@@ -1,0 +1,61 @@
+{
+  "combo": "五下_社會_南一",
+  "created_at": "2026-05-01T04:02:45.666136",
+  "engine": "codex_job223_distill",
+  "source": "scripts/JOB223_distill_to_md.py",
+  "files": [
+    {
+      "file": "縣立伸東國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.docx",
+      "status": "ok",
+      "engine": "markitdown",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_南一/南一_108_伸東國小_第一次段考.md",
+      "char_count": 2896,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_南一/縣立伸東國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.docx",
+      "sha256": "07b81ddeadab0d22684628f21ed437ffed8c85a2c23ddb33971bd12807a2eb35",
+      "quality_flags": []
+    },
+    {
+      "file": "縣立湖北國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 答案.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_南一/南一_108_湖北國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "答案",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_南一/縣立湖北國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 答案.doc",
+      "sha256": "e76b093498f8351bddb115a2224ca12bb7debb7f777ca10d4d0cb047009682a6",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立湖北國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_南一/南一_108_湖北國小_第一次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_南一/縣立湖北國小 五年級 108 下學期 社會領域 社會 第一次段考 期中考 南一 試卷.doc",
+      "sha256": "e1ffcb5ed059acac1b43543cc9c921ec45787659f8b047194852921d8fa942f9",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    },
+    {
+      "file": "縣立舊館國小 五年級 108 下學期 社會領域 社會 第二次段考 期中考 南一 試卷.doc",
+      "status": "issue",
+      "engine": "failed",
+      "out_md": "knowledge/3_考古題/2_MD淬鍊文字_Codex/五下/五下_社會_南一/南一_108_舊館國小_第二次段考.md",
+      "char_count": 0,
+      "kind": "試卷",
+      "source_relpath": "knowledge/3_考古題/1_原始檔/五下/五下_社會_南一/縣立舊館國小 五年級 108 下學期 社會領域 社會 第二次段考 期中考 南一 試卷.doc",
+      "sha256": "89a1403fed839f72d19a003ff2c7f4443b069eaad4c10a7ad449980d06237ffe",
+      "quality_flags": [
+        "extract_error",
+        "empty_extract"
+      ]
+    }
+  ]
+}
