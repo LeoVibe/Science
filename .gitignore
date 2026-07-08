@@ -124,3 +124,29 @@ docs/private_memory/
 # distill 暫存
 docs/project_memory/**/*.tmp
 # === end pj_memory ===
+
+# === 智財保護（2026-07-08 git 歷史清除後生效，禁止移除） ===
+# 背景：考古題試卷內容曾進入公開 repo，已用 git filter-repo 全歷史清除。
+# 以下規則防止本機留存的版權素材被重新 commit。白名單（README、_manifest
+# metadata、_index.json）仍為追蹤狀態，不受影響。
+*.icloud
+__pycache__/
+*.pyc
+knowledge/3_考古題/2_MD淬鍊文字*/
+knowledge/3_考古題/3_L2_結構化抽取/
+knowledge/3_考古題/4_出題實驗/
+knowledge/3_考古題/**/*.zip
+knowledge/3_考古題/_manifest/JOB223_pilot_outputs/
+knowledge/3_考古題/_manifest/JOB223_pilot_report.md
+knowledge/3_考古題/_manifest/JOB223_pilot_results.json
+knowledge/**/KL4_*_考古題與討論*.md
+knowledge/**/*考古題彙整報告*.md
+scripts/jobs/JOB-234/_pilot10_results/
+scripts/jobs/JOB-242/_review/
+# 考古題下的歷史 JOB 工作目錄（含抽取中間產物）
+knowledge/3_考古題/_bakeoff_JOB226/
+knowledge/3_考古題/_canonical_prompts/
+knowledge/3_考古題/_experiment_JOB226_speed/
+knowledge/3_考古題/_intermediate_codex/
+knowledge/3_考古題/_logs/
+# === end 智財保護 ===
