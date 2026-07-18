@@ -1,0 +1,58 @@
+{
+  "old": {
+    "question": "【小白菜】班上種小白菜是為了觀察葉片生長，老師說不一定要等它結果才算有收穫。這可修正哪種想法？",
+    "commonMisconception": "以為所有蔬菜都必須開花結果後才能採收。",
+    "scenario": "葉菜採收",
+    "quality_level": "QL4",
+    "cqi_score": 9.5,
+    "explanation": "有些蔬菜主要採收葉片，不必等到結果才採收。",
+    "answer_index": 0,
+    "options": [
+      "葉菜可採",
+      "必等結果",
+      "先摘花朵",
+      "埋回土中"
+    ],
+    "taxonomy": "inferential",
+    "blind_evaluation": true,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": "claude-opus-4-8",
+    "verifying_date": "2026-06-14",
+    "is_publishable": false,
+    "review_status": "pending_review",
+    "review_notes": "盲測Mismatch：題幹「可修正哪種想法」語意歧義，盲測者選被修正的錯誤想法。待人工確認題幹表述/答案。",
+    "reviewer": null,
+    "review_date": null,
+    "blind_eval_mismatch": {
+      "ai_selected": 1
+    }
+  },
+  "new": {
+    "question": "【小白菜】班上種小白菜是為了觀察葉片生長，老師說不一定要等它結果才算有收穫。老師的話可以修正下列哪一種「錯誤想法」？",
+    "commonMisconception": "以為所有蔬菜都必須開花結果後才能採收。",
+    "scenario": "葉菜採收",
+    "quality_level": "QL4",
+    "cqi_score": 9.5,
+    "explanation": "「必須等到開花結果才算有收穫」是錯誤想法：小白菜這類葉菜主要採收葉片，不必等到結果就能收成。",
+    "answer_index": 1,
+    "options": [
+      "葉菜可採",
+      "必等結果",
+      "先摘花朵",
+      "埋回土中"
+    ],
+    "taxonomy": "inferential",
+    "blind_evaluation": true,
+    "authoring_model": "gpt-5.5",
+    "verifying_model": "claude-opus-4-8",
+    "verifying_date": "2026-06-14",
+    "is_publishable": false,
+    "review_status": "pending_review",
+    "review_notes": "JOB-279 依使用者裁定修正：題幹明確化為考「錯誤想法」、正解改為「必等結果」，待單題盲測重驗",
+    "reviewer": null,
+    "review_date": null,
+    "blind_eval_mismatch": {
+      "ai_selected": 1
+    }
+  }
+}

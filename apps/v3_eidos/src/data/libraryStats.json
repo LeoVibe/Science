@@ -138,21 +138,21 @@
   "publisherStats": {
     "G3_S2_國語_翰林": {
       "units": 12,
-      "bankQuestions": 412,
+      "bankQuestions": 404,
       "publishedQuestions": 404,
       "questions": 404,
       "quality": "QL4",
-      "cqi": "9.01",
+      "cqi": "9.09",
       "qlCounts": {
         "ql4": 404,
-        "ql3": 4,
+        "ql3": 0,
         "ql2": 0,
-        "ql1": 4
+        "ql1": 0
       },
-      "qlTotal": 412,
-      "ql4pct": 98,
-      "ql3pct": 99,
-      "ql2pct": 99
+      "qlTotal": 404,
+      "ql4pct": 100,
+      "ql3pct": 100,
+      "ql2pct": 100
     },
     "G3_S2_國語_康軒": {
       "units": 12,
@@ -319,8 +319,8 @@
     "G3_S2_自然_康軒": {
       "units": 4,
       "bankQuestions": 200,
-      "publishedQuestions": 199,
-      "questions": 199,
+      "publishedQuestions": 200,
+      "questions": 200,
       "quality": "QL4",
       "cqi": "9.20",
       "qlCounts": {
