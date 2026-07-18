@@ -1,7 +1,7 @@
 # 📋 Eidos 專案發展紀錄
 
-`last_updated`: 2026-07-06
-`updated_by`: Claude Code (claude-sonnet-5)（pj_sync：JOB-276 結案——四下國語36/36課全文本重建/BIAS修正100%完成）
+`last_updated`: 2026-07-18
+`updated_by`: Claude Code (claude-fable-5)（pj_sync：JOB-277 結案——四下自然8課+國語4課BIAS重鑄，360題全過雙盲）
 
 ---
 
@@ -29,6 +29,11 @@
 ## 二、近期重大變動彙整 (Job Changelog)
 
 > 此區由 `/pj_sync` 觸發，掃描 `jobs/` 派工單歸納近期改動。
+
+### 2026-07-18
+| JOB | 簡述 | 狀態 |
+|:--|:--|:--|
+| JOB-277 | **小四下自然國語12課BIAS違規修正（question_prod+question_verify）** 🎯：盤點發現四下自然8課（翰林L1/L3、康軒L1/L2、南一L1-L4）＋國語4課（翰林L7/L11/L12、南一L10）BIAS實測43.3%~76.7%超過40%硬門檻卻仍上架（未被JOB-272/273/276涵蓋的既有缺口）。依JOB-272方法12課並行重鑄225題誘答（只加長誘答、不動正解），BIAS全數降至0%；雙盲驗證依JOB-276官方標準：第一輪盲測225/225=100% Match，judge覆核揪出4題**重鑄前即存在**的內容缺陷（L11一題正解與課文情節矛盾——盲測答對但題目本身錯；L12三題拔河通用常識近似重複題），依課文情節補題修正後第二輪4/4全過。12課avgCQI 8.43~9.36、QL4維持。`evaluateFile()`寫回副作用第4次觸發（267檔已還原）。**遺留**：南一自然L1有12題高度重複題組；evaluateFile dryRun修正JOB仍未開。見 `jobs/JOB-277-Report.md` | 🟢 DONE |
 
 ### 2026-07-06
 | JOB | 簡述 | 狀態 |
