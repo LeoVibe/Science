@@ -5,7 +5,9 @@
 
 # JOB-XXX-{ORIGIN}-{動詞}-{對象}-{範圍}
 
-**`job_type`**（擇一填寫）：`research` | `question_prod` | `question_verify` | `engineering` | `docs_ops` | `mixed`  
+**`job_type`**（擇一填寫）：`research` | `question_prod` | `question_verify` | `engineering` | `docs_ops` | `mixed`
+**`任務屬性`**：{R研究/E工程/P生產/D決策/V驗證/O維運——判別見 CLAUDE.md 分流段;寫法見 jobs/_寫作指南.md}
+**`撰寫角色`**：{抄指南該屬性的一句角色描述}  
 定義與邊界見 **`docs/README_任務派工準則.md`** 第二章。
 
 ## 📌 任務背景
