@@ -253,7 +253,9 @@ function evaluateQuestion(q, subject, kl4Status) {
 /**
  * 評核整個題庫檔案
  */
-function evaluateFile(filePath) {
+function evaluateFile(filePath, opts = {}) {
+    // opts.dryRun === true 時只計算分數、不把 cqi_score/quality_level 寫回來源檔。
+    // 純查詢／統計用途應傳 { dryRun: true }，避免非預期改寫全站題庫（見 JOB-272/275/276/277/279）。
     try {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         let questions = content.questions || (Array.isArray(content) ? content : []);
@@ -323,7 +325,9 @@ function evaluateFile(filePath) {
             else qg_quality = 'QL1';
         }
 
-        fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf8');
+        if (!opts.dryRun) {
+            fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf8');
+        }
 
         return {
             quality: qg_quality,
@@ -342,7 +346,7 @@ function evaluateFile(filePath) {
     }
 }
 
-function scanDirectory(dir) {
+function scanDirectory(dir, opts = {}) {
     let results = [];
     const files = fs.readdirSync(dir);
     for (const file of files) {
@@ -351,9 +355,9 @@ function scanDirectory(dir) {
         try {
             const stat = fs.statSync(fullPath);
             if (stat.isDirectory()) {
-                results = results.concat(scanDirectory(fullPath));
+                results = results.concat(scanDirectory(fullPath, opts));
             } else if (file.endsWith('.json') && !file.includes('manifest') && !file.includes('libraryStats')) {
-                results.push(evaluateFile(fullPath));
+                results.push(evaluateFile(fullPath, opts));
             }
         } catch (e) {}
     }
@@ -363,11 +367,15 @@ function scanDirectory(dir) {
 if (require.main === module) {
     const args = process.argv.slice(2);
     const isGateMode = args.includes('--gate');
+    // 預設只讀（查詢／gate 不改題庫來源檔）；加 --write 才把 cqi_score/quality_level 寫回。
+    const doWrite = args.includes('--write');
+    const evalOpts = { dryRun: !doWrite };
     const target = args.find(a => !a.startsWith('--')) || 'question/platform';
     const absoluteTarget = path.isAbsolute(target) ? target : path.join(process.cwd(), target);
 
     if (fs.existsSync(absoluteTarget)) {
-        let allResults = fs.lstatSync(absoluteTarget).isDirectory() ? scanDirectory(absoluteTarget) : [evaluateFile(absoluteTarget)];
+        if (!doWrite) console.error('ℹ️  只讀模式（不寫回來源檔）。如需回寫 cqi_score/quality_level 請加 --write。');
+        let allResults = fs.lstatSync(absoluteTarget).isDirectory() ? scanDirectory(absoluteTarget, evalOpts) : [evaluateFile(absoluteTarget, evalOpts)];
         const summary = {
             totalFiles: allResults.length,
             totalQuestions: 0,

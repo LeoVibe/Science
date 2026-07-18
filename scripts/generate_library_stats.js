@@ -169,8 +169,8 @@ function scanPlatform() {
                                         const filePath = path.join(publisherDir, itemPath);
                                         if (fs.existsSync(filePath) && filePath.endsWith('.json')) {
                                             try {
-                                                // CQI 計算仍用 evaluateFile
-                                                const evalResult = evaluateFile(filePath);
+                                                // CQI 計算仍用 evaluateFile；統計為純查詢，dryRun 避免非預期寫回題庫來源檔
+                                                const evalResult = evaluateFile(filePath, { dryRun: true });
                                                 if (evalResult && evalResult.quality !== 'BROKEN') {
                                                     totalBankQuestions += evalResult.count;
                                                     if (isPublishedFileQuality(evalResult.quality)) {
