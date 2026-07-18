@@ -1,0 +1,161 @@
+[
+  {
+    "qid": 10,
+    "old": {
+      "taxonomy": "inferential",
+      "scenario": "【在閱讀課分享心得時】",
+      "question": "文中提到「退後即是向前」，這句話最能說明甲仙拔河隊在比賽中的哪種策略或精神？",
+      "options": [
+        "為了不讓對手發現我方意圖，故意採取緩慢後退的戰術",
+        "在拔河過程中，必須透過穩步向後拉繩才能贏得勝利",
+        "在遭遇風災的打擊後，為了走出傷痛而選擇遺忘過去",
+        "面對實力堅強的對手時，為了保全體力而暫時後退防守"
+      ],
+      "answer_index": 1,
+      "explanation": "文中明確提到「退後即是向前」，並解釋「站穩腳步，慢慢的向後退，每向後退一步，就會離勝利更進一步」，這是拔河運動的特性。",
+      "commonMisconception": "學生容易將「退後」理解為戰術上的「撤退」或「逃避」，忽略了拔河比賽的規則與動作機制。",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    },
+    "new": {
+      "taxonomy": "inferential",
+      "scenario": "【在閱讀課討論《拔一條河》時】",
+      "question": "課文用「退後即是向前」說明拔河的道理。若把這句話用來形容莫拉克風災後的甲仙小鎮，下列哪一項最符合課文的描述？",
+      "options": [
+        "居民放棄修復沖毀的橋梁與道路，決定集體搬離甲仙到外地重新生活",
+        "小鎮雖然被風災推入絕望深淵，居民卻像拔河隊般站穩腳步走向重生",
+        "居民靠著在甲仙大橋施放煙火辦活動，很快忘掉風災帶來的傷痛",
+        "大人為了鼓勵孩子，全鎮輪流加入拔河隊練習向後退的基本動作"
+      ],
+      "answer_index": 1,
+      "explanation": "課文寫甲仙因莫拉克風災「掉入了絕望的深淵」，居民受到拔河隊激勵，「在經歷災難之後，依然堅持不放棄」，如今小鎮「已經恢復生氣」。這正呼應「退後即是向前」：一時的跌落沒有讓甲仙認輸，反而成為走向重生的力量。",
+      "commonMisconception": "學生容易把「退後」直接理解成逃避或遺忘傷痛，忽略課文中甲仙居民是受拔河隊激勵、堅持不放棄，才讓小鎮恢復生氣。",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    }
+  },
+  {
+    "qid": 17,
+    "old": {
+      "taxonomy": "contextual",
+      "scenario": "【在閱讀《拔一條河》時】",
+      "question": "為什麼教練會說拔河運動是「退後即是向前」？這句話最貼切的解釋是什麼？",
+      "options": [
+        "因為只有不斷向後退，才能夠讓繩子完全離開對手的手中",
+        "因為拔河比賽的場地經過設計，要向後退才能抵達終點",
+        "因為在拔河過程中，向後退的動作是為了爭取比賽的勝利",
+        "因為拔河選手在平日練習時，必須不斷輪流更換場地位置"
+      ],
+      "answer_index": 2,
+      "explanation": "文中提到「每向後退一步，就會離勝利更進一步」，說明向後的動作是達成勝利目標的手段。",
+      "commonMisconception": "學生容易被「退後」與「向前」的字面矛盾困惑，忽略了運動規則與目標的邏輯關係。",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    },
+    "new": {
+      "taxonomy": "contextual",
+      "scenario": "【在閱讀《拔一條河》時】",
+      "question": "教練說：「每向後退一步，就會離勝利更進一步。」根據課文，甲仙的孩子是在什麼樣的環境條件下，苦練這種向後退的功夫？",
+      "options": [
+        "學校添購專業拔河鞋與拔河機，讓隊員在剛完工的新場地集訓",
+        "隊員只利用每週體育課的時間練習，其餘時間讓手掌傷口休養",
+        "學校重建、經費短缺，他們用牆壁代替拔河機、木板代替拔河道",
+        "親友團出資送隊員到外地的訓練中心，接受完整的專業拔河培訓"
+      ],
+      "answer_index": 2,
+      "explanation": "課文寫道，當時學校的重建工程正在進行中，隊員在經費短缺、裝備不足下，「用牆壁取代拔河機，用木板取代拔河道，用一般的運動鞋取代專業的拔河鞋」，並利用晨間活動、午休及放學後的時間練習。",
+      "commonMisconception": "學生容易以為拔河隊有完善裝備或外地集訓，忽略課文強調甲仙的孩子是在重建期間、經費短缺下以克難方式練習，這正是他們可貴之處。",
+      "quality_level": "QL4",
+      "cqi_score": 8,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    }
+  },
+  {
+    "qid": 23,
+    "old": {
+      "taxonomy": "inferential",
+      "scenario": "【在分析拔河運動的精神時】",
+      "question": "為什麼教練會說拔河這項運動是「退後即是向前」？",
+      "options": [
+        "因為拔河比賽只要一直向後退，就能讓對手害怕得直接放棄",
+        "因為退後可以暫時避開對手的鋒芒，是拔河比賽唯一的戰術",
+        "因為拔河隊員需要透過退後的動作，確認場邊親友團的位置",
+        "因為在拔河中，只有穩住腳步向後施力，才能贏得比賽勝利"
+      ],
+      "answer_index": 3,
+      "explanation": "「退後即是向前」是指拔河運動中，透過向後施力與穩固腳步，才能讓隊伍取得勝利，這是一種運動邏輯的隱喻。",
+      "commonMisconception": "學生容易從字面上解讀「退後」為失敗或放棄，而不理解這在拔河運動中是獲勝的必要動作。",
+      "quality_level": "QL4",
+      "cqi_score": 7,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    },
+    "new": {
+      "taxonomy": "inferential",
+      "scenario": "【在分析拔河隊獲得亞軍後的心情時】",
+      "question": "甲仙國小在總冠軍戰拿下全國亞軍，孩子們卻難過得流下眼淚。根據課文推論，他們流淚最可能的原因是什麼？",
+      "options": [
+        "他們認為教練「退後即是向前」的戰術判斷錯誤，才輸掉冠軍",
+        "他們覺得長期磨破手掌和膝蓋的苦練白費了，想要就此解散隊伍",
+        "他們害怕回到甲仙大橋時，會受到場邊親友團的責備而抬不起頭來",
+        "他們一心想用冠軍榮耀受災後的家鄉，覺得亞軍還不足以達成心願"
+      ],
+      "answer_index": 3,
+      "explanation": "課文中有人問「亞軍不是已經很棒了嗎？」孩子回答：「我好希望可以獲得冠軍，榮耀自己的家鄉……。」可見眼淚來自想以最高榮譽鼓舞風災後的甲仙；後來全鎮更以掌聲與擁抱迎接他們，並沒有責備或放棄。",
+      "commonMisconception": "學生容易把流淚解讀成怕被責罵或想放棄，忽略課文中孩子流淚是因為渴望奪冠「榮耀自己的家鄉」，這份心願與風災後的甲仙緊緊相連。",
+      "quality_level": "QL4",
+      "cqi_score": 7,
+      "blind_evaluation": true,
+      "authoring_model": "Gemini-2.5-Pro",
+      "verifying_model": "Gemini-3.1-Flash-Lite",
+      "verifying_date": "2026-04-06",
+      "review_status": "confirmed",
+      "is_publishable": true,
+      "reviewer": "Claude Code (claude-sonnet-4-6)",
+      "review_date": "2026-04-06",
+      "review_notes": ""
+    }
+  }
+]

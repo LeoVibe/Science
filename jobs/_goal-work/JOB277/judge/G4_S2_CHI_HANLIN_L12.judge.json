@@ -1,0 +1,22 @@
+[
+  {"qid": 1, "belongs": true, "single_correct": true},
+  {"qid": 2, "belongs": true, "single_correct": true},
+  {"qid": 4, "belongs": true, "single_correct": true},
+  {"qid": 6, "belongs": true, "single_correct": true},
+  {"qid": 8, "belongs": true, "single_correct": true},
+  {"qid": 9, "belongs": true, "single_correct": true},
+  {"qid": 10, "belongs": false, "single_correct": true, "note": "通用知識題：正解「穩步向後拉繩才能贏得勝利」屬拔河運動的通用常識，不需讀過本課〈拔一條河〉情節即可作答；誘答亦可憑常識排除。與 qid 17、23 為同一概念的近似重複題。"},
+  {"qid": 13, "belongs": true, "single_correct": true},
+  {"qid": 14, "belongs": true, "single_correct": true},
+  {"qid": 16, "belongs": true, "single_correct": true},
+  {"qid": 17, "belongs": false, "single_correct": true, "note": "通用知識題：問「為什麼退後即是向前」，正解「向後退的動作是為了爭取比賽的勝利」為拔河運動原理，憑通用常識即可作答，不需本課具體內容。與 qid 10、23 近似重複。"},
+  {"qid": 18, "belongs": true, "single_correct": true},
+  {"qid": 19, "belongs": true, "single_correct": true},
+  {"qid": 22, "belongs": true, "single_correct": true},
+  {"qid": 23, "belongs": false, "single_correct": true, "note": "通用知識題：問「為什麼退後即是向前」，正解「穩住腳步向後施力才能贏得比賽勝利」為拔河運動原理，憑通用常識即可作答，不需本課具體內容。與 qid 10、17 近似重複。"},
+  {"qid": 24, "belongs": true, "single_correct": true},
+  {"qid": 25, "belongs": true, "single_correct": true},
+  {"qid": 26, "belongs": true, "single_correct": true},
+  {"qid": 28, "belongs": true, "single_correct": true},
+  {"qid": 29, "belongs": true, "single_correct": true}
+]
