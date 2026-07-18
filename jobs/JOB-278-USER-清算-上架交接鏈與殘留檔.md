@@ -62,17 +62,17 @@
 - [x] 已閱讀「任務邊界」並確認本次範圍
 
 ## ✅ 驗收 Checklist (Acceptance)
-- [ ] `find apps/v3_eidos/public -name "* 2.*" -not -path "*/history/*"` 等衝突副本掃描為 0（需附刪除數與分類統計）
-- [ ] `git ls-files question/platform/G3/SocialStudies/ | grep _new` 為 0
-- [ ] JOB-215/257/259 均有結案紀錄且 close 成功
-- [ ] untracked 雜項為 0（JOB 檔案入版控、_tmp 腳本移除）
-- [ ] push 後 `git status` 乾淨、`git log origin/main..HEAD` 為 0
+- [x] 衝突副本掃描為 0（public 排除 history 實測 0；全專案嚴謹樣式殘餘 2 個均屬明列保留項；刪除統計：白名單 862＋可重建目錄 3,453）
+- [x] `git ls-files question/platform/G3/SocialStudies/ | grep _new` 為 0 — 實測輸出 0
+- [x] JOB-215/257/259 均有結案紀錄且 close 成功 — job_manager 三張皆回報結案條件滿足
+- [x] untracked 雜項為 0 — push 後 `git status --porcelain` 0 行
+- [x] push 後 `git status` 乾淨、`git log origin/main..HEAD` 為 0 — 實測 `025147fc..8d0cee17` 推送成功、0 落後
 
 ## ✅ 成果 Checklist (Deliverables)
-- [ ] 成果統計表填寫完畢（刪除數/銷案數/commit hash）
-- [ ] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md`）
-- [ ] 已執行 `/pj_sync`
-- [ ] 產出 JOB-278-Report.md，異動清單已列出所有實際修改的檔案路徑
+- [x] 成果統計表填寫完畢（刪除數/銷案數/commit hash）— 見 `jobs/JOB-278-Report.md`
+- [x] 進度總表已同步（`docs/進度彙整_題庫研發與產出.md` 三下社會列）
+- [x] 已執行 `/pj_sync`
+- [x] 產出 JOB-278-Report.md，異動清單已列出所有實際修改的檔案路徑
 
 ## 真實回報本次對話的模型與花費
 ＄作業匯總：Token數:- | 花費: - | 使用模型: claude-fable-5 | 執行者: Claude
