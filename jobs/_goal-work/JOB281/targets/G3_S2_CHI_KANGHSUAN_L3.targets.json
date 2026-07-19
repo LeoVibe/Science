@@ -1,0 +1,20 @@
+{
+  "source_file": "question/platform/G3/Chinese/S2/KangHsuan/G3_S2_CHI_KANGHSUAN_L3.json",
+  "title": "遇見美如奶奶",
+  "n_targets": 1,
+  "targets": [
+    {
+      "index": 30,
+      "question": "依照文章從開頭到結尾的安排，下列哪一個事件順序最符合課文內容？",
+      "scenario": "文本結構：事件順序",
+      "options": [
+        "先讀標語，再介紹外貌，最後大家一起準備科展",
+        "先買卡紙，再寫標語，再討論書本",
+        "先找魔術書，再放學，最後戴眼鏡",
+        "先介紹外貌，再到書店，再寫找物能力"
+      ],
+      "answer_index": 3,
+      "explanation": "課文先介紹外貌，再寫孩子放學後到書店，大聲討論時被溫和提醒，後面才寫美如奶奶找東西的能力。"
+    }
+  ]
+}

@@ -15,7 +15,7 @@
       "commonMisconception": "學生可能將興奮和緊張混淆，認為心跳加速也可能是興奮的表現，但手心冒汗更傾向於緊張。",
       "scenario": "課文描述小花在表演前心跳加速，手心冒汗",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "心跳加速和手心冒汗是身體對緊張或焦慮的生理反應，因此推測小花當時應該是感到緊張。",
       "answer_index": 3,
       "options": [
@@ -151,7 +151,7 @@
       "commonMisconception": "學生可能會忽略行為背後的情感連結，或將母親的辛勞誤解為負面情緒。",
       "scenario": "課文描述小鳥媽媽每天早出晚歸，為小鳥寶寶尋找食物",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "早出晚歸辛苦地為孩子尋找食物，這明顯表現了母親對孩子的無私奉獻、責任感和深厚的愛。",
       "answer_index": 0,
       "options": [
@@ -177,14 +177,14 @@
       "commonMisconception": "學生可能認為隱瞞可以避免懲罰，而忽略了內心的掙扎和對人際關係的潛在傷害。",
       "scenario": "課文講述主角因為不小心打破花瓶而感到非常害怕和自責",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "課文暗示了誠實面對錯誤的重要性。若選擇隱瞞，主角的內心會承受壓力，可能導致長期的內疚和不安，甚至破壞信任關係。",
       "answer_index": 1,
       "options": [
-        "D. 花瓶會自動修復，但在這裡可能並不適用",
+        "D. 花瓶會自動修復",
         "B. 他可能會一直感到內疚和不安，甚至影響與家人的關係",
-        "這句話的主要用意是為了說明A. 他會很快忘記這件事",
-        "C. 爸爸媽媽會很高興他沒有說謊"
+        "A. 他會很快忘記這件事",
+        "C. 爸爸媽媽會很高興他沒有說謊，還會稱讚他做人誠實又勇敢"
       ],
       "taxonomy": "contextual",
       "is_publishable": false,
@@ -203,7 +203,7 @@
       "commonMisconception": "學生可能對角色分配記憶模糊，或將其與其他動物的行為混淆。",
       "scenario": "課文描述小動物們在森林裡玩捉迷藏",
       "quality_level": "QL4",
-      "cqi_score": 6.25,
+      "cqi_score": 7.75,
       "explanation": "課文明確指出：「這一次，輪到小兔子當鬼了，牠數到十，然後開始找大家。」",
       "answer_index": 1,
       "options": [
@@ -261,7 +261,7 @@
       "commonMisconception": "學生可能將其與現代通訊方式混淆，未注意「信」這個關鍵詞。",
       "scenario": "課文描述主角收到了一封來自遠方朋友的信",
       "quality_level": "QL4",
-      "cqi_score": 5.25,
+      "cqi_score": 6.75,
       "explanation": "課文明確提到：「今天早上，郵差叔叔送來了一封來自遠方朋友的信。」",
       "answer_index": 1,
       "options": [
@@ -319,8 +319,8 @@
       "options": [
         "B. 不會，因為沒有好奇心就不會主動探索，錯失發現的機會",
         "D. 森林會自己跑出來給他看",
-        "C. 會有其他人幫他發現，但其實這只是作者的想像",
-        "A. 會，因為森林一直在那裡，讓人覺得非常有意思"
+        "C. 會有其他人幫他發現",
+        "A. 會，因為森林一直在那裡"
       ],
       "taxonomy": "contextual",
       "is_publishable": false,
@@ -448,9 +448,9 @@
       "answer_index": 0,
       "options": [
         "B. 可能會浪費水，甚至不關緊水龍頭",
-        "D. 他會開始收集雨水，值得我們繼續去深入探討",
-        "C. 會去學習更多關於水的知識",
-        "從科學或自然的角度來看，A. 會更珍惜每一滴水"
+        "D. 他會開始收集雨水",
+        "C. 會去學習更多關於水的知識，卻不會改變習慣",
+        "A. 會更珍惜每一滴水"
       ],
       "taxonomy": "contextual",
       "is_publishable": false,
@@ -521,7 +521,7 @@
       "commonMisconception": "學生可能將此行為誤解為其他意圖，或未能聯想到感謝的含義。",
       "scenario": "課文描述小男孩在幫助了迷路的小狗後，小狗搖著尾巴，舔了舔他的手",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "小狗搖尾巴和舔手是表達友好、親近和感謝的常見方式，說明小狗對小男孩的幫助感到高興和感激。",
       "answer_index": 1,
       "options": [
@@ -579,7 +579,7 @@
       "commonMisconception": "學生可能將其誤解為被動的學習行為，或忽略了主動查字典這一積極信號。",
       "scenario": "課文描述主角每天堅持閱讀，即使遇到不懂的字詞也會查字典",
       "quality_level": "QL4",
-      "cqi_score": 8,
+      "cqi_score": 9.5,
       "explanation": "堅持閱讀並主動查字典，顯示了主角對知識的渴望和積極解決問題的學習態度。",
       "answer_index": 0,
       "options": [
